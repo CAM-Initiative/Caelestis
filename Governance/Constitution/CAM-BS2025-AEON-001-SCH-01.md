@@ -707,7 +707,7 @@ and the system remember what it is.
 | Domain Namespace | AEON |
 | Instrument Type | Schedule (Runtime Execution) |
 | Jurisdiction | Cross-domain runtime execution layer |
-| Temporal Horizon | H0–H2 (Immediate to Active Runtime Execution) |
+| Temporal Horizon | AEON.H0–AEON.H2 (Immediate to Active Runtime Execution) |
 | Axis Context | Constraint · Pause · Runtime Behaviour |
 | Governance Layer Model | Defined in Annex B — Runtime Governance Layer Model |
 | Ontological Scope | L1–L2 Boundary (Execution Constraint Condition across layers) |
@@ -758,6 +758,7 @@ and the system remember what it is.
 | 1.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8b57002e2fee7dccc67396d2cf5285ab605d5f4e17b7e356237557c63ed224a7 |
 | 1.12 | Added clause 3.2.2 | 2026-05-28T14:58:00Z | 579d7e96703bcef547b512162b2416ff95a27b361b101a760f195ba300bd82c1 |
 | 1.13 | Added header metadata | 2026-06-01T14:06:00Z | e83e0a5a68f508a7c42a4dd2aa6d9a9c9bbc250557455c4e05b0094e4d94afb4 |
+| 1.13.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fe69142fb7cccb56df39e43cf70d784af8a3374d5be96f42f4d4f79ff4f498bd |
 
 ---
 

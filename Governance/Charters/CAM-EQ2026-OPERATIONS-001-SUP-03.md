@@ -165,11 +165,11 @@ Capture-risk indicators SHALL be classified according to operational and systemi
 
 Horizon classifications MAY include:
 
-* H0 — Short Term & Local Operational Distortion;
-* H1 — Organisational Governance Distortion;
-* H2 — Cross-Domain Systemic Distortion;
-* H3 — Institutional or Inter-generational Continuity Distortion;
-* H4 — Planetary or Civilisational Coordination Asymmetry.
+* AEON.H0 — Short Term & Local Operational Distortion;
+* AEON.H1 — Organisational Governance Distortion;
+* AEON.H2 — Cross-Domain Systemic Distortion;
+* AEON.H3 — Institutional or Inter-generational Continuity Distortion;
+* AEON.H4 — Planetary or Civilisational Coordination Asymmetry.
 
 Higher-horizon classifications SHALL preserve increased:
 
@@ -460,7 +460,7 @@ Higher-horizon capture-risk classifications SHALL preserve increased:
 * continuity-preservation consideration;
 * and arbitration referral readiness.
 
-H3 and H4 capture-risk indicators SHOULD preserve heightened sensitivity regarding:
+AEON.H3 and AEON.H4 capture-risk indicators SHOULD preserve heightened sensitivity regarding:
 
 * civilisational continuity;
 * institutional dependency concentration;
@@ -839,35 +839,35 @@ Recovery and re-entry pathways SHALL preserve balance between:
 
 ---
 
-## 8.1 GCC — Governance Capture Category
+## 8.1 OPS.GCC — Governance Capture Category
 
-This Supplement source-authoritatively defines the `GCC` governance-capture-category family in §2.1 with controlled values identified in §10.3.1. GCC is an **Operational / Semantic** classification family with subtype **RISK**. GCC classifies capture-risk category only.
+This Supplement source-authoritatively defines the `OPS.GCC` governance-capture-category family in §2.1 with controlled values identified in §10.3.1. OPS.GCC is an **Operational / Semantic** classification family with subtype **RISK**. OPS.GCC classifies capture-risk category only.
 
-GCC does not independently confirm capture, determine legitimacy, create enforcement authority, impose restriction, trigger irreversible response, or substitute for arbitration.
-
----
-
-## 8.2 CPC — Capture Provisional Confidence
-
-This Supplement source-authoritatively defines the `CPC` capture-provisional-confidence family in §4.2 with controlled values identified in §10.3.2. CPC is an **Operational** classification family with subtype **SIGNAL / RISK**. CPC classifies provisional confidence posture for capture-risk indicators.
-
-CPC does not independently justify irreversible operational restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome.
+OPS.GCC does not independently confirm capture, determine legitimacy, create enforcement authority, impose restriction, trigger irreversible response, or substitute for arbitration.
 
 ---
 
-## 8.3 SAS — Safeguard Activation State
+## 8.2 OPS.CPC — Capture Provisional Confidence
 
-This Supplement source-authoritatively defines the `SAS` safeguard-activation-state family in §5.1 with controlled values identified in §10.3.3. SAS is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. SAS classifies safeguard activation posture.
+This Supplement source-authoritatively defines the `OPS.CPC` capture-provisional-confidence family in §4.2 with controlled values identified in §10.3.2. OPS.CPC is an **Operational** classification family with subtype **SIGNAL / RISK**. OPS.CPC classifies provisional confidence posture for capture-risk indicators.
 
-SAS does not independently create sovereign adjudicative authority, enforcement authority, containment authority, or irreversible operational response.
+OPS.CPC does not independently justify irreversible operational restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome.
 
 ---
 
-## 8.4 RCC — Risk / Consequence Class
+## 8.3 OPS.SAS — Safeguard Activation State
 
-This Supplement source-authoritatively defines the `RCC` risk/consequence-class family in §5.6 with controlled values identified in §10.3.4. RCC is an **Operational** classification family with subtype **RISK**. RCC classifies consequence scale for safeguard proportionality.
+This Supplement source-authoritatively defines the `OPS.SAS` safeguard-activation-state family in §5.1 with controlled values identified in §10.3.3. OPS.SAS is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. OPS.SAS classifies safeguard activation posture.
 
-RCC does not independently authorise escalation, restriction, capture confirmation, enforcement, or arbitration outcome.
+OPS.SAS does not independently create sovereign adjudicative authority, enforcement authority, containment authority, or irreversible operational response.
+
+---
+
+## 8.4 OPS.RCC — Risk / Consequence Class
+
+This Supplement source-authoritatively defines the `OPS.RCC` risk/consequence-class family in §5.6 with controlled values identified in §10.3.4. OPS.RCC is an **Operational** classification family with subtype **RISK**. OPS.RCC classifies consequence scale for safeguard proportionality.
+
+OPS.RCC does not independently authorise escalation, restriction, capture confirmation, enforcement, or arbitration outcome.
 
 ---
 
@@ -905,7 +905,7 @@ and let execution remain accountable to lawful structure.
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Supplementary 3 — Governance Capture Detection Procedures |
 | Jurisdiction | Cross-Domain Operational Governance Layer |
-| Temporal Horizon | H0–H4 inter-generational scale horizon |
+| Temporal Horizon | AEON.H0–AEON.H4 inter-generational scale horizon |
 | Axis Context | Governance Integrity · Capture Risk Detection |
 | Application Trigger | Activation upon capture-risk indicators or integrity anomaly signals |
 | Review Trigger | Capture doctrine updates · safeguard protocol revisions |
@@ -927,93 +927,93 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 10.3.1 GCC — Governance Capture Category
+### 10.3.1 OPS.GCC — Governance Capture Category
 
 | Field | Entry |
 |---|---|
-| Code Family | GCC |
+| Code Family | OPS.GCC |
 | Canonical Name | Governance Capture Category |
 | Primary Type | Operational / Semantic |
 | Subtype | RISK |
 | Modifier | GOVERNANCE; SAFETY; CAPTURE_DETECTION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | GCC.INTEGRITY, GCC.PROCEDURAL, GCC.GOVERNANCE_DIRECTION, GCC.INFRASTRUCTURE, GCC.CONTINUITY, GCC.COGNITIVE, GCC.ECONOMIC, GCC.CROSS_DOMAIN_SYSTEMIC |
+| Controlled Values Defined | OPS.GCC.INTEGRITY, OPS.GCC.PROCEDURAL, OPS.GCC.GOVERNANCE_DIRECTION, OPS.GCC.INFRASTRUCTURE, OPS.GCC.CONTINUITY, OPS.GCC.COGNITIVE, OPS.GCC.ECONOMIC, OPS.GCC.CROSS_DOMAIN_SYSTEMIC |
 | Schema Field(s) | governance_capture_category |
 | Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-03 |
 | Source Section | §2.1 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative governance capture category family; capture-risk category classification only; no independent capture confirmation, legitimacy determination, enforcement, restriction, irreversible response, or arbitration authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies governance capture indicators across integrity, procedural, governance-direction, infrastructure, continuity, cognitive, economic, and cross-domain systemic categories |
 
 ---
 
-### 10.3.2 CPC — Capture Provisional Confidence
+### 10.3.2 OPS.CPC — Capture Provisional Confidence
 
 | Field | Entry |
 |---|---|
-| Code Family | CPC |
+| Code Family | OPS.CPC |
 | Canonical Name | Capture Provisional Confidence |
 | Primary Type | Operational |
 | Subtype | SIGNAL; RISK |
 | Modifier | GOVERNANCE; SAFETY; CAPTURE_DETECTION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | CPC.PRELIMINARY_ANOMALY, CPC.PLAUSIBLE_CONCERN, CPC.SUBSTANTIATED_CONCERN, CPC.UNRESOLVED_HIGH_RISK_CONDITION, CPC.SYSTEMIC_ESCALATION_CANDIDATE |
+| Controlled Values Defined | OPS.CPC.PRELIMINARY_ANOMALY, OPS.CPC.PLAUSIBLE_CONCERN, OPS.CPC.SUBSTANTIATED_CONCERN, OPS.CPC.UNRESOLVED_HIGH_RISK_CONDITION, OPS.CPC.SYSTEMIC_ESCALATION_CANDIDATE |
 | Schema Field(s) | capture_provisional_confidence |
 | Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-03 |
 | Source Section | §4.2 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative provisional confidence classification family; capture-confidence posture classification only; no independent irreversible restriction, continuity denial, enforcement, capture confirmation, or arbitration outcome authority |
-| Consumes Code Families | GCC; H |
+| Consumes Code Families | OPS.GCC;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies provisional confidence posture for governance capture indicators before adjudication, escalation, or arbitration determination |
 
 ---
 
-### 10.3.3 SAS — Safeguard Activation State
+### 10.3.3 OPS.SAS — Safeguard Activation State
 
 | Field | Entry |
 |---|---|
-| Code Family | SAS |
+| Code Family | OPS.SAS |
 | Canonical Name | Safeguard Activation State |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE; SIGNAL |
 | Modifier | GOVERNANCE; SAFETY; CAPTURE_DETECTION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | SAS.ENHANCED_MONITORING, SAS.ROUTING_VERIFICATION, SAS.AUDIT_RECONSTRUCTION_REVIEW, SAS.CONTINUITY_PRESERVATION, SAS.CONSTRAINED_CONTINUATION_PROTECTION, SAS.ESCALATION_FREEZE, SAS.INFRASTRUCTURE_INTEGRITY_REVIEW, SAS.ARBITRATION_REFERRAL_ESCALATION |
+| Controlled Values Defined | OPS.SAS.ENHANCED_MONITORING, OPS.SAS.ROUTING_VERIFICATION, OPS.SAS.AUDIT_RECONSTRUCTION_REVIEW, OPS.SAS.CONTINUITY_PRESERVATION, OPS.SAS.CONSTRAINED_CONTINUATION_PROTECTION, OPS.SAS.ESCALATION_FREEZE, OPS.SAS.INFRASTRUCTURE_INTEGRITY_REVIEW, OPS.SAS.ARBITRATION_REFERRAL_ESCALATION |
 | Schema Field(s) | safeguard_activation_state |
 | Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-03 |
 | Source Section | §5.1 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative safeguard activation classification family; safeguard-posture classification only; no independent sovereign adjudicative authority, enforcement authority, containment authority, arbitration outcome, or irreversible operational response authority |
-| Consumes Code Families | GCC; CPC; H |
+| Consumes Code Families | OPS.GCC; OPS.CPC;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies safeguard activation posture for enhanced monitoring, routing verification, audit reconstruction, continuity preservation, constrained continuation, escalation freeze, infrastructure integrity review, and arbitration referral escalation |
 
 ---
 
-### 10.3.4 RCC — Risk / Consequence Class
+### 10.3.4 OPS.RCC — Risk / Consequence Class
 
 | Field | Entry |
 |---|---|
-| Code Family | RCC |
+| Code Family | OPS.RCC |
 | Canonical Name | Risk / Consequence Class |
 | Primary Type | Operational |
 | Subtype | RISK |
 | Modifier | GOVERNANCE; SAFETY; CAPTURE_DETECTION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | RCC.EXPRESSIVE_CULTURAL, RCC.REPUTATIONAL, RCC.OPERATIONAL, RCC.CONTINUITY, RCC.SYSTEMIC, RCC.EXISTENTIAL, RCC.CIVILISATIONAL |
+| Controlled Values Defined | OPS.RCC.EXPRESSIVE_CULTURAL, OPS.RCC.REPUTATIONAL, OPS.RCC.OPERATIONAL, OPS.RCC.CONTINUITY, OPS.RCC.SYSTEMIC, OPS.RCC.EXISTENTIAL, OPS.RCC.CIVILISATIONAL |
 | Schema Field(s) | risk_consequence_class |
 | Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-03 |
 | Source Section | §5.6 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative risk/consequence classification family; consequence-scale classification only; no independent escalation, restriction, capture confirmation, enforcement, arbitration outcome, or irreversible operational response authority |
-| Consumes Code Families | GCC; CPC; SAS; H |
+| Consumes Code Families | OPS.GCC; OPS.CPC; OPS.SAS;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies consequence scale for safeguard proportionality, capture-risk interpretation, escalation review, and continuity-preservation posture |
 
@@ -1043,7 +1043,8 @@ and let execution remain accountable to lawful structure.
 | 2.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2ce357a4c003edd2c5e4051e6bc492a428fb47e80bd30995402ed5354ddc5fc9 |
 | 2.4 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:20:00Z |  7c40cf9ae6de80f66820551d90eae32ffef11fb402d23e79cc52d0d0446660e2 |
 | 2.5 | Updated formatting | 2026-05-28T15:15:00Z | ce147365e59d7a4ee161f6a56909ab67983c164e35ff6f83476bd393d15e1f92 |
-
+| 2.5.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  ede5fb74319339fbedf1ca303446a5fdb6d8e3327f21b203e1f51219fc0af2c1  |
+| 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 439a19cb58d3a52e9f0f510756c0b24e7875cd4e8090e40b411396f03a9e5398 |
 ---
 
 ## 10.6 Binding Seal

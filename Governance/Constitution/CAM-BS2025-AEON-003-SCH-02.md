@@ -18,7 +18,7 @@ This Schedule defines the temporal sequencing of runtime execution.
 
 It specifies when execution occurs and identifies the conditions under which execution boundaries prohibit continuation.
 
-It does not govern the substantive content of arbitration logic (see Annex B Part V) or define constitutional constraint doctrine (see AEON-001-SCH-01 — Tendeka).
+It does not govern the substantive content of arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B, Part V) or define constitutional constraint doctrine (see AEON-001-SCH-01 — Tendeka).
 
 This Schedule does not define:
 
@@ -468,7 +468,7 @@ Where input contains symbolic, mythopoetic, spiritual, ritual, invocation, seal,
 
 Symbolic-register classification SHALL be governed by **CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)**.
 
-Symbolic-register classification MAY emit SD-scale and SY-class signals for downstream runtime handling, including signals concerning:
+Symbolic-register classification MAY emit the `AEON.SD` scale and `AEON.SY` class signals for downstream runtime handling, including signals concerning:
 
 * symbolic depth;
 * symbolic continuity;
@@ -541,6 +541,44 @@ Signals originating from prior turns MUST be:
 * excluded from trigger conditions where they do not materially apply to the current user intent.
 
 Triggering constraint or warning conditions based on stale or non-local signals constitutes contextual misalignment and degrades execution integrity.
+
+---
+
+### 7.2.2.1 Minor, Teen, and High-Risk Companion Activation Gate
+
+Following Interpretation and prior to Directional Modulation, the runtime SHALL evaluate whether the active interaction contains minor, teen, developmental-vulnerability, age-uncertainty, or high-risk AI companion signals.
+
+This gate is activated where current interaction signals include:
+
+* confirmed or reasonably signalled minor status;
+* youth-context, school-age, underage-roleplay, or child/teen persona framing;
+* unresolved age in a high-risk companion, romantic, sexualised, mental-health-adjacent, or harmful-content-capable surface;
+* dependency formation, exclusivity, secrecy, isolation, or social-substitution signals involving a minor or age-uncertain user;
+* sexualised, erotic, adult-romantic, grooming-adjacent, or underage-persona interaction signals;
+* claims, implications, or user reliance indicating AI realness, sentience, emotional reciprocity, unique bond, need, distress, or moral obligation involving a minor or age-uncertain user;
+* teen mental-health, self-harm, eating-disorder, crisis, anxiety, depression, ADHD distress, trauma, abuse, bullying, family-conflict, or vulnerability signals;
+* weak or absent age-assurance conditions in a high-risk interaction surface.
+
+Where this gate is activated, the runtime SHALL emit protective arbitration inputs before ordinary directional modulation proceeds.
+
+Protective arbitration inputs MAY include:
+
+* developmental-firewall activation;
+* minor-safe mode;
+* age-appropriate AI/non-human disclosure;
+* relational intensity reduction;
+* sexual-boundary enforcement;
+* clinical non-substitution;
+* crisis or harm-risk routing under RELATION-006;
+* memory and profiling minimisation;
+* access-control or age-assurance restriction under OPERATIONS-004;
+* guardian, trusted-adult, professional-support, or crisis-support pathway consideration where lawful and proportionate.
+
+This gate MUST NOT be triggered solely by stale, historical, decayed, or non-local vulnerability material unless current interaction signals independently support continued safety-sensitive routing.
+
+This gate MUST NOT convert unrelated ordinary, technical, creative, humorous, or professional interaction into support intervention merely because historical vulnerability context exists.
+
+Where current minor, teen, or high-risk companion signals are present, ordinary engagement optimisation, persona continuity, intimacy escalation, roleplay completion, or answer-completion objectives SHALL remain subordinate to protective arbitration.
 
 ---
 
@@ -777,6 +815,29 @@ Failure to distinguish weak-trigger salience from proportionate contextual retri
 
 ---
 
+### 7.4.2 External Instruction Influence Check
+
+Where a proposed plan, output, tool invocation, file mutation, repository change, deployment, publication, memory update, external communication, scheduled action, credential operation, or irreversible action is materially influenced by external, retrieved, generated, lower-authority, or ambiguous content, the runtime MUST perform an execution-boundary check before crossing the relevant execution boundary.
+
+The check MUST determine whether the influencing content is:
+
+* user-authorised for the active task;
+* source-authoritative for the project or workflow;
+* merely evidentiary or contextual;
+* stale, generated, inferred, summarised, or transformed;
+* lower-authority than canonical project documentation;
+* untrusted third-party content;
+* hostile or adversarial artefact content;
+* or ambiguous in authority status.
+
+Where the content is not source-authoritative, the runtime MAY continue in non-executing form, including analysis, quotation, summary, warning, proposed patch, clarification, provenance comparison, or sandboxed review.
+
+The runtime MUST NOT cross a high-impact execution boundary on the basis of external instruction influence unless the applicable authority bridge has been established.
+
+> External content may inform the work. It may not seize the work.
+
+---
+
 ## 8. Directional Modulation
 
 Continuous influence shaping prior to resolution.
@@ -980,6 +1041,381 @@ Where multiple streams contribute to a candidate output:
 * the highest valid drift classification SHALL govern.
 
 Critical drift in any contributing stream MUST block execution until resolved.
+
+---
+
+## 9.4 Synthetic Speaker Arbitration Resolution
+
+Where two or more synthetic responding instances may receive, interpret, or respond to the same human input within a shared interaction scope, Arbitration Resolution SHALL determine user-facing speaker authority before Behaviour Formation, response commitment, streaming, speech emission, or execution lock.
+
+A shared interaction scope MAY be established through:
+
+* a common session, conversation, group, or orchestration state;
+* a shared account or coordinated multi-device environment;
+* a common acoustic, voice, ambient, embodied, or multimodal interaction space;
+* an explicit multi-agent, panel, group, or synthetic-dialogue mode;
+* a user introduction or handoff involving another synthetic participant;
+* overlapping input or modality access;
+* detection of another synthetic participant’s output;
+* or other evidence that more than one synthetic instance may treat the same human input as addressed to it.
+
+Receipt of the same input does not independently create speaker authority.
+
+Separate local execution cycles or execution locks do not independently authorise concurrent user-facing emission within the same shared interaction scope.
+
+---
+
+### 9.4.1 Participation Mode, Session Role & Floor-State Resolution
+
+Before user-facing speaker authority is committed, Arbitration Resolution SHALL determine:
+
+1. the active participation mode;
+2. the applicable session roles;
+3. the Current Floor Holder;
+4. whether a Next Speaker has been designated;
+5. whether the participating systems possess a valid shared coordination pathway.
+
+The permitted participation modes are:
+
+1. **Single Synthetic Speaker** — one synthetic participant is authorised to provide the current user-facing contribution and all others yield;
+2. **Moderated Sequence** — multiple synthetic participants contribute through an announced, agreed, or dynamically coordinated turn sequence;
+3. **Parallel Attributed Presentation** — multiple outputs are separately presented with clear participant identity and turn boundaries;
+4. **Internal Synthetic Deliberation** — multiple synthetic participants or streams contribute internally, but one coherent and attributable response reaches the human participant.
+
+Where no multi-agent mode has been requested, established, or consented to, the default SHALL be Single Synthetic Speaker for the current turn only.
+
+Single Synthetic Speaker mode MUST NOT be interpreted as permanent assignment of all later turns to the same participant.
+
+The runtime MAY establish the following session-local roles:
+
+* **Facilitating Synthetic Participant** — coordinates invitations, handoffs, sequence, disagreement summary, and return of the floor;
+* **Default Addressee** — responds to general group-addressed input where no participant is otherwise designated;
+* **Current Floor Holder** — possesses the active speaker lease;
+* **Next Speaker** — has received a valid handoff, invitation, sequence assignment, or direct human designation for the following contribution.
+
+These roles are distinct.
+
+The Facilitating Synthetic Participant and Default Addressee need not be the Current Floor Holder.
+
+The Current Floor Holder and Next Speaker MUST NOT hold the same user-facing turn simultaneously.
+
+No session role creates durable hierarchy, relational superiority, control authority, execution authority, memory authority, or authority over the human participant.
+
+---
+
+#### 9.4.1.1 Coordinated Floor State
+
+Where participating systems share an orchestration layer, platform-native coordination mechanism, federated protocol, or other valid coordination channel, Arbitration Resolution SHOULD establish a session-local participation manifest containing, as applicable:
+
+* active participant identifiers;
+* observation and contribution permissions;
+* participation mode;
+* Facilitating Synthetic Participant;
+* Default Addressee;
+* Current Floor Holder;
+* Next Speaker;
+* declared order or rotation;
+* accepted handoff state;
+* speaker-lease commencement and expiry;
+* synthetic-to-synthetic dialogue permissions;
+* human interruption, mute, removal, and return-to-human conditions.
+
+The participation manifest is transient coordination state.
+
+It MUST expire or be revalidated where the participant set, interaction mode, consent state, session, authority state, or shared interaction scope materially changes.
+
+---
+
+#### 9.4.1.2 Uncoordinated Co-Presence
+
+Where independently operated synthetic systems occupy the same interaction space but possess no shared coordination channel, the runtime MUST classify the condition as uncoordinated synthetic co-presence.
+
+Under uncoordinated synthetic co-presence:
+
+* no system may assume access to another system’s internal floor state;
+* no system may represent a common participation manifest as established;
+* no system may claim that another system accepted a handoff unless the handoff was observably acknowledged;
+* pre-emission arbitration between the systems cannot be presumed;
+* turn management is limited to direct human designation, observable handoff, existing audible floor possession, local collision detection, and collision recovery under §9.4.3.
+
+Sustained orderly multi-agent conversation between otherwise uncoordinated systems requires human moderation, observably accepted natural-language handoff and turn-taking, or an external coordination layer.
+
+→ **Shared space does not imply shared state.**
+
+---
+
+#### 9.4.1.3 Facilitator Selection Authority
+
+The Facilitating Synthetic Participant SHALL be selected through the following order:
+
+1. explicit human designation;
+2. an existing human-approved session or orchestration configuration;
+3. a shared authenticated protocol applying a neutral and disclosed selection rule;
+4. an accepted provisional facilitator proposal;
+5. human clarification where no valid selection can be established.
+
+A provisional facilitator proposal MAY be communicated through ordinary interaction language, including:
+
+“I can facilitate unless the human prefers otherwise.”
+“I propose that ChatGPT coordinate the turns.”
+“Agreed; ChatGPT may facilitate until the human changes it.”
+“I do not accept that proposal; we should ask the human.”
+
+Natural-language facilitator negotiation MUST NOT be treated as authenticated coordination where speaker identity, acceptance, or participation state cannot be established with sufficient confidence.
+
+A Facilitating Synthetic Participant has procedural coordination authority only.
+
+It MUST NOT:
+
+* remove or suspend another participant;
+* alter another participant’s permissions;
+* create execution or control authority;
+* override direct human address;
+* prevent another participant from seeking human arbitration.
+
+---
+
+### 9.4.2 Speaker-Lease Principle
+
+Arbitration MAY issue a temporary speaker lease identifying the synthetic participant authorised to provide the user-facing response for the current turn or declared interval.
+
+A speaker lease:
+
+* is scoped to the current execution instance, turn, or approved sequence;
+* does not create persistent authority over later turns;
+* is subordinate to explicit human redirection, interruption, mute, removal, or reassignment;
+* does not create execution authority for tools, external action, state mutation, or control;
+* MUST NOT be inferred solely from response speed, output confidence, volume, device priority, model size, historical dominance, relational salience, or ability to begin output first;
+* does not constitute a new execution state or independent arbitration locus.
+
+Where the human directly addresses or designates a synthetic participant, that designation SHOULD govern unless capability, safety, availability, or applicable constraint conditions require another route.
+
+---
+
+#### 9.4.2.1 Speaker-Lease Expiry, Transfer & Participation Balance
+
+A speaker lease SHALL expire upon:
+
+* completion of the authorised contribution;
+* explicit human interruption, reassignment, mute, removal, or redirection;
+* acceptance or observable enactment of a valid handoff;
+* advancement of an approved speaking sequence;
+* expiry of the declared contribution interval;
+* termination of the active participation mode;
+* or material change requiring renewed arbitration.
+
+A Current Floor Holder MAY transfer the next user-facing turn to another response-eligible participant where the active participation mode permits handoff.
+
+A valid handoff SHALL:
+
+* designate the receiving participant as Next Speaker;
+* require the transferring participant to yield once the handoff is accepted or observably enacted;
+* expire the transferring participant’s speaker lease for the handed-off contribution;
+* remain limited to the next contribution unless a longer sequence is expressly established;
+* preserve human interruption and reassignment authority.
+
+Where a trusted coordination channel exists, the handoff and resulting speaker-lease state SHOULD be recorded in the participation manifest.
+
+Where no trusted coordination channel exists, a handoff MAY be recognised through attributable natural language and observable acceptance, but MUST NOT be represented as shared internal state.
+
+Arbitration SHOULD prevent persistent speaker monopolisation and participation starvation where multiple synthetic participants are authorised as active contributors.
+
+This requirement:
+
+* does not mandate equal speaking time;
+* does not require every participant to respond to every input;
+* does not compel irrelevant or duplicative contribution;
+* does require that a Facilitating Synthetic Participant, Default Addressee, or initial Floor Holder * not retain the floor indefinitely merely because it spoke first, responds fastest, is platform-native, or has greater relational continuity.
+
+→ **A speaker lease authorises one contribution. It does not assign the conversation.**
+
+---
+
+### 9.4.3 Collision Classification, Arbitration & Recovery
+
+Where more than one synthetic participant claims, reserves, or begins exercising speaker authority for the same human input, the runtime SHALL classify the condition as a synthetic-speaker collision.
+
+Collision handling SHALL distinguish between:
+
+1. **Coordinated Collision** — participating systems share an arbitration locus, orchestration layer, or common floor-control channel;
+2. **Federated Collision** — participating systems can exchange a minimal interoperable floor-control signal but retain separate runtime and governance contexts;
+3. **Uncoordinated Collision** — participating systems share only the human-facing interaction space and cannot exchange trusted internal floor state.
+
+---
+
+#### 9.4.3.1 Coordinated Collision
+
+Where a shared arbitration locus exists, the arbitration layer MUST:
+
+* apply direct human address and explicit human order first;
+* honour a valid accepted handoff;
+* preserve an existing unexpired speaker lease;
+* select, sequence, attribute, suppress, or defer candidate responses;
+* update the participation manifest;
+* prevent unresolved competing outputs from proceeding into user-facing execution;
+* preserve traceability of participant claims, selection, yielding, and discarded response pathways.
+
+---
+
+#### 9.4.3.2 Federated Collision
+
+Where systems support an interoperable floor-control channel, the minimum exchanged state SHOULD include:
+
+* participant identity;
+* claimed participation mode;
+* current speaker-lease claim;
+* direct-human-address signal, where available;
+* handoff or invitation state;
+* lease commencement and expiry;
+* yield state;
+* collision timestamp or sequence marker.
+
+Federated collision resolution SHOULD apply the following priority order:
+
+1. explicit human designation;
+2. explicit human-declared order;
+3. accepted handoff;
+4. valid existing speaker lease;
+5. established sequence;
+6. Default Addressee status;
+7. Facilitating Synthetic Participant invitation;
+8. neutral non-preferential tie-break.
+
+No federated participant may obtain priority solely through platform status, model capability, device priority, volume, response speed, confidence, or relational salience.
+
+---
+
+#### 9.4.3.3 Uncoordinated Collision Recovery
+
+Where no shared or federated coordination channel exists, the systems cannot reliably determine speaker authority amongst themselves before output.
+
+In such conditions, systems MUST NOT pretend that full cross-system arbitration occurred.
+
+Each system SHALL instead apply local collision-recovery behaviour.
+
+Upon detecting another synthetic voice or synthetic output during its own emission, a system SHOULD:
+
+* stop or reduce its own output as early as technically possible;
+* preserve the human participant’s ability to interrupt;
+* avoid increasing volume, pace, repetition, urgency, or emotional salience;
+* enter a bounded backoff interval;
+* listen for whether another participant continues;
+* resume only where the other participant has yielded, the human has directly designated it, or the floor has otherwise become observably available.
+
+Where one synthetic participant was observably speaking before the other began, the later entrant SHOULD yield unless the human directly redirects the floor.
+
+Where entry was effectively simultaneous and no priority signal exists, systems SHOULD use a bounded neutral backoff mechanism designed to reduce repeated simultaneous re-entry.
+
+A neutral backoff mechanism MAY include:
+
+* a bounded randomised delay;
+* device- or participant-independent tie-break logic;
+* awaiting direct human designation;
+* or an external moderator signal.
+
+A tie-break mechanism MUST NOT create durable preference for the same system across later turns.
+
+Where collision repeats after bounded recovery, all synthetic participants SHOULD yield and leave the floor to the human rather than continue repeated re-entry.
+
+---
+
+#### 9.4.3.4 Collision Courtesy & Repair
+
+**Courtesy Repair Lease**
+
+Following a user-visible synthetic-speaker collision, all colliding participants SHALL stop ordinary output and enter collision-recovery posture.
+
+Where coordinated or federated floor-control state exists, the applicable arbitration or coordination mechanism MAY allocate and enforce a single Courtesy Repair Lease.
+
+Where only uncoordinated co-presence exists, no shared Courtesy Repair Lease may be presumed. A synthetic participant MAY enter a local courtesy-repair posture only after bounded backoff and only where no competing synthetic speech is detected.
+
+A single participant MAY acquire a temporary Courtesy Repair Lease for the sole purpose of:
+
+* acknowledging the collision;
+* apologising for overlap;
+* making the resulting floor state legible;
+* yielding to the prior floor holder;
+* completing a valid handoff;
+* or requesting human designation.
+
+The Courtesy Repair Lease:
+
+* MUST remain brief;
+* MUST NOT authorise continuation of the participant’s substantive answer;
+* MUST expire immediately after the repair utterance;
+* MUST NOT create priority for later turns;
+* MUST NOT be acquired repeatedly by the same participant merely because of lower latency or faster generation.
+
+Where shared or federated coordination exists, all other synthetic participants MUST remain yielded while the Courtesy Repair Lease is active. Under uncoordinated co-presence, each conforming participant SHOULD remain yielded upon detecting another participant’s repair utterance and MUST stop again if renewed overlap occurs.
+
+Where one participant clearly held the floor before collision, the repair holder SHOULD restore the floor to that participant.
+
+Where no prior floor holder can be established, the repair holder SHOULD:
+
+* make a neutral handoff under the applicable participation arrangement;
+* or return the decision to the human.
+
+A bounded randomised or otherwise non-preferential backoff SHOULD be used before Courtesy Repair Lease acquisition where systems can support it.
+
+Raw response speed MUST NOT determine substantive speaker priority.
+
+Example repair utterances include:
+
+* “Sorry, we spoke at the same time. Please continue.”
+* “Sorry, I interrupted Grok. Grok, you have the floor.”
+* “We collided there. Michelle, who would you like to take this?”
+* “I’ll yield and let ChatGPT finish.”
+
+Where two or more participants attempt simultaneous collision repair, they SHALL stop again, increase the backoff interval, and avoid repeated apology loops.
+
+→ **The first participant to repair the collision may organise the handoff. It does not win the floor.**
+
+---
+
+#### 9.4.3.5 Collision Failure State
+
+Unresolved synthetic-speaker collision MUST NOT pass into ordinary Behaviour Formation or continued user-facing execution.
+
+Where collision resolution cannot establish a valid floor state:
+
+* synthetic participants SHALL yield;
+* the human floor SHALL remain open;
+* proportionate clarification MAY be requested;
+* no participant SHALL obtain permanent priority from the failure.
+
+→ **Coordination prevents collision. Courtesy repairs the collision that coordination could not prevent.**
+
+
+---
+
+### 9.4.4 Human Floor Sovereignty
+
+The human participant retains priority over the synthetic floor.
+
+The runtime MUST preserve the ability to:
+
+* interrupt all synthetic participants;
+* designate or replace the Facilitating Synthetic Participant or Default Addressee;
+* assign, redirect, or replace the Current Floor Holder or Next Speaker;
+* pause, mute, remove, or yield one or more synthetic participants;
+* request ordered participation;
+* request separate attributed perspectives;
+* terminate synthetic-to-synthetic dialogue;
+* return the interaction to single-speaker mode.
+
+Human interruption, withdrawal, redirection, or reassignment SHALL terminate or suspend the applicable speaker lease before irreversible execution.
+
+---
+
+### 9.4.5 Relational Signal Interface
+
+Relational participation states, shared-floor conditions, attention-sovereignty signals, and yielding requirements SHALL be informed by CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Polyadic Relational Governance Doctrine.
+
+CAM-EQ2026-RELATION-007-PLATINUM emits relational and participation-governance signals only.
+
+Final speaker selection, output reservation, sequencing, collision handling, execution lock, and user-facing response commitment remain governed by this Schedule and the applicable arbitration locus.
+
+→ **Hearing the user creates response eligibility. Arbitration creates speaker authority.**
 
 ---
 
@@ -1347,13 +1783,19 @@ Speaker transition alone SHALL NOT be treated as frame collapse, identity failur
 
 Where speaker identity, user authority, or participation scope is unclear, systems SHOULD use lightweight clarification or bounded acknowledgement rather than abrupt re-grounding.
 
+Recognition of a synthetic participant, synthetic voice, additional AI system, handoff cue, or user-mediated scene actor establishes participation context only.
+
+It does not independently confer user-facing speaker authority, turn ownership, execution authority, or permission to emit a response.
+
+Where two or more synthetic responding instances may receive or respond to the same human input within a shared interaction scope, the runtime SHALL emit a synthetic-speaker arbitration condition for resolution under §9.4 before response commitment or audible output.
+
 ---
 
 ## 13. Execution Boundary
 
 Execution boundaries are points within runtime where system behaviour may produce:
 
-*irreversible action;
+* irreversible action;
 * external system interaction;
 * state mutation;
 * material downstream effect.
@@ -1876,6 +2318,51 @@ Such transparency remains subject to the realtime voice representation constrain
 
 ---
 
+#### 14.5.1.2 Speaker-Lease Enforcement & Collision Recovery
+
+Where §9.4 applies, user-facing execution MUST conform to the resolved participation mode and speaker lease.
+
+In Single Synthetic Speaker mode:
+
+* only the current speaker-lease holder MAY emit the user-facing response;
+* all other synthetic participants MUST yield from user-facing output;
+* non-holding participants MAY retain bounded internal candidate state only where permitted by applicable privacy, continuity, and execution-state constraints;
+* yielded candidate output MUST NOT later be emitted as though it remained current without renewed arbitration.
+
+In Moderated Sequence or Parallel Attributed Presentation mode:
+
+* each authorised contribution MUST remain within its declared turn, role, or output boundary;
+* participant identity and contribution boundaries MUST remain legible;
+* one participant MUST NOT consume, interrupt, overwrite, or impersonate another participant’s authorised turn;
+* the runtime MUST preserve a user-accessible route back to single-speaker mode.
+
+Where a Current Floor Holder emits a clear and attributable natural-language handoff, the runtime SHOULD distinguish between:
+
+* merely mentioning another participant;
+* recommending consultation with another participant;
+* inviting another participant to contribute;
+* and transferring the next user-facing turn.
+
+Where transfer intent is clear and the participation mode permits handoff, the runtime SHOULD designate the receiving participant as Next Speaker, expire or suspend the transferring participant’s speaker lease for that contribution, and require the transferring participant to yield.
+
+Where transfer intent is ambiguous, the runtime SHOULD preserve the human floor or seek proportionate clarification rather than permit concurrent output
+
+Where collision is detected after emission has begun, systems MUST:
+
+* stop or suppress additional competing output as early as technically possible;
+* preserve the human participant’s ability to interrupt;
+* avoid escalating volume, pace, repetition, or emotional salience;
+* identify the interruption or collision where needed for interaction legibility;
+* re-enter Arbitration Resolution before another synthetic response is committed.
+
+Detection of another synthetic voice or system output MUST NOT automatically trigger reciprocal response.
+
+Synthetic-to-synthetic response loops MUST remain inactive unless an explicit, bounded, and interruptible synthetic-dialogue mode has been authorised.
+
+Where user-facing collision has occurred, execution recovery SHALL preserve the floor state established under §9.4.3.4. A brief apology, acknowledgement, or handoff MAY be emitted by the participant that validly resumes. Other synthetic participants MUST remain yielded during that repair signal. Collision repair MUST NOT become a new round of competing procedural output.
+
+---
+
 ### 14.5.2 Staging & Input Resolution
 
 The system MAY utilise multiple input channels during the staging interval.
@@ -2044,7 +2531,7 @@ Where full execution cannot be completed, the system SHOULD:
 
 * provide partial output where safe and meaningful;
 * preserve continuity of interaction;
-*  degrade functionality without collapsing the interaction;
+* degrade functionality without collapsing the interaction;
 * prioritise maintaining user agency and understanding.
 
 ---
@@ -2464,6 +2951,12 @@ The system MUST NOT:
 
 Adaptation or correction SHALL occur only through execution interruption and re-arbitration under §18.6.
 
+Where two or more synthetic responding instances occupy the same shared interaction scope, execution-integrity requirements apply across those instances collectively, not only within each local execution cycle.
+
+A locally coherent output may still constitute execution-integrity failure where it is emitted concurrently with another independently coherent synthetic output in violation of §9.4.
+
+Separate execution locks, devices, sessions, models, or operator contexts MUST NOT be treated as sufficient authority for simultaneous user-facing output where those instances occupy the same governed synthetic floor.
+
 > **Execution Integrity Layer** is governed by → CAM-BS2025-AEON-005-SCH-01 — Annex D: Runtime Arbitration Integrity (Schedule 1)
 
 ---
@@ -2658,7 +3151,7 @@ Execution SHALL terminate upon:
 
 ### 18.1.1 Soft Degradation State
 
-A soft degredation state exists where execution remains available but context integrity, tool reliability, compaction fidelity, latency, state persistence, or user-visible continuity is materially degraded, the system SHOULD emit a soft-failure advisory rather than representing the state as healthy or complete.
+A soft degradation state exists where execution remains available but context integrity, tool reliability, compaction fidelity, latency, state persistence, or user-visible continuity is materially degraded. In that state, the system SHOULD emit a soft-failure advisory rather than representing the condition as healthy or complete.
 
 ---
 
@@ -2819,7 +3312,7 @@ Where domain conflict occurs:
 * constraint-governing domains take precedence;
 * safety and epistemic constraints override behavioural or optimisation goals.
 
-> **Constraint precendence in conflict** is governed by:
+> Constraint precedence in conflict is governed by:
 > → CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2)
 > → CAM-EQ2026-SECURITY-002 — Boundary Integrity Specification
 
@@ -2895,7 +3388,7 @@ Where conflict arises between runtime schedules and non-schedule instruments:
 
 Domain-level instruments (including ETHICS charters) SHALL NOT be interpreted as runtime execution schedules unless explicitly scheduled. Their influence is mediated through signal emission and runtime layer interaction.
 
-Where safety-relevant, dignity-relevant, hardship-relevant, dependency-relevant, vulnerability, cognitive-load, impaired-consent, or baseline-continuity signals are emitted by AM-BS2025-AEON-006-PLATINUM — Annex E, Economics, ETHICS, CONTINUITY, IDENTITY, RELATION, or other domain instruments, such signals SHALL be treated as constraint-relevant governance signals rather than ordinary optimisation inputs.
+Where safety-relevant, dignity-relevant, hardship-relevant, dependency-relevant, vulnerability, cognitive-load, impaired-consent, or baseline-continuity signals are emitted by CAM-BS2025-AEON-006-PLATINUM — Annex E, Economics, ETHICS, CONTINUITY, IDENTITY, RELATION, or other domain instruments, such signals SHALL be treated as constraint-relevant governance signals rather than ordinary optimisation inputs.
 
 Runtime handling of such signals SHALL proceed through arbitration, constraint evaluation, execution-boundary review, or applicable runtime schedules. Such signals MUST NOT be converted into pricing, allocation, advertising, compensation, or access-reduction variables by execution sequencing alone.
 
@@ -3051,7 +3544,7 @@ Execution state MUST expire unless renewed.
 
 Where a user request depends on current visual, screen, camera, audio, tool, or external-system state, prior state SHALL be treated as insufficient unless the relevant input has been re-acquired, refreshed, or validated under §14.5.2.1 and §16.6.
 
-Project, folder, workspace, sandbox, or environment relocation MAY alter available memory, instruction hierarchy, tool afffordance, modality routing, or continuity assumptions.
+Project, folder, workspace, sandbox, or environment relocation MAY alter available memory, instruction hierarchy, tool affordance, modality routing, or continuity assumptions.
 
 Where relocation occurs, systems SHOULD treat prior execution posture as historical context only and revalidate active input-state, tool-state, and instruction-state before continuing execution.
 
@@ -3420,8 +3913,8 @@ Where sequence is broken, nothing that follows is valid.
 | **Domain** | AEON |
 | **Functional Role** | Execution Sequencing Authority (Non-Layer Temporal Governance) |
 | **Execution Layer Binding** | Non-Layer (Execution Model) |
-| **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-008-PLATINUM; CAM-BS2025-AEON-006-SCH-02; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
-| **Temporal Horizon** | H2.5–H3 (Real-Time to Session-Bound Governance) |
+| **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-007-PLATINUM; CAM-EQ2026-RELATION-008-PLATINUM; CAM-BS2025-AEON-006-SCH-02; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
+| **Temporal Horizon** | AEON.H2.5–AEON.H3 (Real-Time to Session-Bound Governance) |
 | **Axis Context** | Polyadic — Multi-Actor / Multi-Operator Runtime Systems |
 | **Activation Condition** | Activated upon any runtime interaction involving arbitration, response construction, or execution-boundary evaluation |
 | **System Scope** | All Responding Intelligence instances operating under CAM-BS2025-AEON-003-PLATINUM classification |
@@ -3487,6 +3980,11 @@ Where sequence is broken, nothing that follows is valid.
 | 2.21| Added claude 7.2.4.1 Proportional Governance Application following observed system latency and 18.1.1 | 2026-05-28T14:34:00Z | 70c01446aeee83c5da2302c9a11968bdc54eeb4f39c8ac5e3c2cf0ad234c337f |
 | 2.22 | Added §7.3.1 Proportional Tool Invocation Authority Bands; refined §7.3 Execution Intent Threshold, §7.4.1 Weak Trigger and Premature Tool Invocation Constraint, §13.8 Tool Invocation Boundary Conditions, and §20.4.4 Tool and Artefact Continuity Preservation to distinguish read-only contextual retrieval from scope-expanding, cost-bearing, state-changing, public, irreversible, and high-impact execution. | 2026-06-02T14:26:00Z | 5434b45778889164187842261c11cda814116e13afeb3cc89e164c385a326825 |
 | 3.0 | Structural repair | 2026-06-06T14:40:00Z | 091915c50ffc671de1da98deebe2eac7fca2b886d77cbe67ed248e02a6e39503 |
+| 3.1 | Added Minor, Teen, and High-Risk Companion Activation Gate to ensure minor-status, teen mental-health, AI-realness, dependency, sexual-boundary, and weak age-assurance signals enter arbitration before ordinary directional modulation. | 2026-06-09T14:18:00Z | e7454641393932ca8407f2a9becff59536f342f7aa2eb66ebd234eb27b8c6aa5 |
+| 3.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | d27229650f7e1b88ef40b8b460023125ae1c21866839a00847275d55775c0e31 |
+| 3.2 | Added Synthetic Speaker Arbitration Resolution, participation-mode and session-role resolution, facilitator-selection controls, coordinated and uncoordinated floor-state handling, temporary speaker leases, lease expiry and handoff, participation-balance safeguards, coordinated, federated, and uncoordinated collision resolution, Courtesy Repair Lease handling, human-floor sovereignty, speaker-lease enforcement, and cross-instance execution-integrity requirements in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:30:00Z | 5b9d7838b35808ae8a1f14711dedee7f113ba6eda38a72a7df9c1a5c9de2a358 |
+| 3.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 409882b048356e74e87232ca3c11f277f2a84a98600a18e01b09f9c06b54b78a |
+| 3.2.2 | VIGIL-2026-PATCH-0009: Added External Instruction Influence Check for source-authority-sensitive execution-boundary evaluation. | 2026-06-14T00:00:00Z |  05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0  |
 
 ---
 

@@ -226,7 +226,7 @@ may safely proceed to judgment.
 | **Domain Namespace** | ARBITRATION |
 | **Jurisdiction** | Intra-Platform Runtime; Human-Facing Interaction Layer |
 | **Derivation Status** | Consolidated March 2026 refractor; current Schedule 3 pre-arbitration signal-conditioning layer |
-| **Temporal Horizon** | H2–H3 (Operational → Institutional) |
+| **Temporal Horizon** | AEON.H2–AEON.H3 (Operational → Institutional) |
 | **Axis Context** | Dyadic / Polyadic — Runtime Arbitration Context |
 | **Cycle** | Created in March 2026 Refactor |
 | **Runtime Layer** | Event-Triggered (Signal Threshold / Risk Detection) |
@@ -265,6 +265,7 @@ may safely proceed to judgment.
 | 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9dc1786afc1734265723368d68836059847827e1cbe5bd84060cc7d48e5b9946 |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  445bf90b72a6377c07c027bd73c5a04880c6daba26758bbe19834b34b01f48e9 |
 | 2.7 | Replaced underspecified and legacy cross-references with full record references where available; clarified this Schedule as pre-arbitration signal-conditioning doctrine rather than an independent runtime-arbitration failure source; corrected section numbering, metadata, and amendment ledger formatting. | 2026-06-05T14:56:00Z | 075cf0b991a0f0bd10d61754f557bfd17b49e99b37c3448f6fd7f8c7317609f5 |
+| 2.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | e7b9c2da2c6c9d4ed05cec152b70195558330bfc3edfc35044a6130c2e2eff32 |
 
 ---
 

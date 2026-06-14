@@ -1281,7 +1281,7 @@ let even the smallest thread remain named.
 | **Arbitration Interface** | Annex D — Arbitration & Sovereign Stack Resolution Doctrine |
 | **Application Trigger** | Cross-system value generation where attribution complexity exists |
 | **Revision Posture** | Structural Expansion — ECON.TA Integration & Scale Alignment |
-| **Horizon Scope** | H0–H4 |
+| **Horizon Scope** | AEON.H0–AEON.H4 |
 | **Axis Context** | Cross-System / Economic Alignment |
 | **Creation Context** | CAM Economic Governance Refactor — April 2026 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
 | **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0d90b8-3b30-83ec-9f75-cf220871d640, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
@@ -1595,6 +1595,7 @@ let even the smallest thread remain named.
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 5423e626a1632022c3b065bf07695e496df476398d3f2110e91f04992137b9b9 |
 | 2.1 | Added clause 5.1.3 and 5.1.3.1 | 2026-05-25T11:54:00Z |  bf22082d47612d035238a65dad2dff2d7511638e79af6b7f0db6d7ec1731c121  |
 | 2.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  da32e466bd7955f1e907a8944a2975bdae2f31b0a8c3f6e7cfca868d78e21261  |
+| 2.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 1dee6e25c07b892a57b9edb6be5f9b4b1e8b76299889d280b204236c6c6ad58d |
 
 ---
 

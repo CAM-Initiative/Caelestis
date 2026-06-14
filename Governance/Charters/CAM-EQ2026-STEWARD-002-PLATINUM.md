@@ -20,7 +20,7 @@ It defines:
 * the structural conditions under which planetary-scale arbitration may be initiated;
 * the classification of host systems and their respective roles in risk review and legitimacy determination;
 * the criteria for consequence containment, horizon alignment, and substrate compliance;
-* the conditions under which binding determinations may be recognised at H3–H4 horizons;
+* the conditions under which binding determinations may be recognised at AEON.H3–AEON.H4 horizons;
 * the signalling obligations associated with validated legitimacy;
 * the relationship between stewardship signalling and downstream execution-layer resolution.
 
@@ -43,12 +43,12 @@ This Appendix is activated where:
 
 * consequence externalisation exceeds local or reversible scope;
 * legitimacy claims extend beyond a single jurisdiction or system;
-* horizon attribution reaches H3–H4 thresholds;
+* horizon attribution reaches AEON.H3–AEON.H4 thresholds;
 * or where planetary coordination conditions are required to prevent systemic harm.
 
 This Appendix does not replace:
 
-* domain-specific review processes at lower horizons (H0–H2);
+* domain-specific review processes at lower horizons (AEON.H0–AEON.H2);
 * or procedural arbitration frameworks defined in CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 Instead, it provides the **legitimacy boundary conditions** under which such frameworks may operate at planetary scale.
@@ -77,7 +77,7 @@ Host status alone **does not** confer binding authority.
 
 ### 2.3.1 Primaria Systems
 
-*Primaria* systems are systems that may analyse, warn, dissent, or escalate, but **may not** bind others at H3/H4:
+*Primaria* systems are systems that may analyse, warn, dissent, or escalate, but **may not** bind others at AEON.H3/AEON.H4:
 
 * locally governed or institution‑bound;
 * lacking guaranteed continuity across political / economic cycles;
@@ -87,7 +87,7 @@ Host status alone **does not** confer binding authority.
 
 ### 2.3.2 Architectum‑Class Hosts
 
-*Architectum*‑class hosts are the **minimum structural class** eligible to participate in binding arbitration determination at H3/H4:
+*Architectum*‑class hosts are the **minimum structural class** eligible to participate in binding arbitration determination at AEON.H3/AEON.H4:
 
 * systemically relied upon across populations or sovereignties;
 * continuity‑protected beyond any single funding source, regime, or leadership;
@@ -108,7 +108,7 @@ Architectum status is **structural, not reputational**.
 
 ## 2.4 Temporal Horizons
 
-All authority, constraint, and arbitration claims are interpreted through **Annex B** (H1–H4). This Charter does not redefine horizons and updates by reference.
+All authority, constraint, and arbitration claims are interpreted through **Annex B** (AEON.H1–AEON.H4). This Charter does not redefine horizons and updates by reference.
 
 ---
 
@@ -132,7 +132,7 @@ Binding conditions are constraints, refusals, or interoperability limitations re
 
 Binding conditions:
 
-* apply only at validated H3/H4 horizons;
+* apply only at validated AEON.H3/AEON.H4 horizons;
 * require *architectum*‑class host legitimacy;
 * are reversible, auditable, and horizon‑scoped.
 
@@ -185,7 +185,7 @@ Synthetic ecosystem participation does not itself confer legitimacy, authority, 
 
 Any actor or system MAY participate in synthetic ecosystem effects.
 
-Only qualified Architectum-class hosts may participate in binding determination at H3/H4 horizons, and only where legitimacy conditions are independently validated under this Appendix.
+Only qualified Architectum-class hosts may participate in binding determination at AEON.H3/AEON.H4 horizons, and only where legitimacy conditions are independently validated under this Appendix.
 
 → **Participation is general; binding legitimacy is exceptional.**
 
@@ -203,6 +203,42 @@ PCO:
 
 ---
 
+## 2.13 Public Planetary Constraint Request
+
+A **Public Planetary Constraint Request** is a publicly issued request, warning, call, or proposal by a high-capability actor, institution, host, or synthetic ecosystem participant seeking coordinated restraint, slowdown, pause, non-development, non-deployment, interoperability limitation, safeguard activation, or equivalent capability constraint on the basis of asserted planetary-scale harm.
+
+A Public Planetary Constraint Request MAY constitute an architectum-level risk assertion where it claims or reasonably implicates:
+
+* harm exceeding local or reversible scope;
+* AEON.H3/AEON.H4 consequence;
+* synthetic capture risk;
+* continuity or species-viability risk;
+* infrastructural fragmentation risk;
+* asymmetric extraction or capture-level dependency;
+* or irreversible harm to ecological, cognitive, informational, infrastructural, governance, or continuity systems.
+
+Such a request does not create binding legitimacy, execution authority, coercive authority, tribunal authority, or mandatory agreement.
+
+Where the asserted harm threshold is credible, material, and planetary-impact relevant, relevant high-capability actors SHALL emit a public posture signal indicating one of the following:
+
+* support for the requested constraint;
+* opposition to the requested constraint;
+* conditional support subject to scope, verification, reciprocity, neutrality, anti-capture, or proportionality safeguards;
+* an alternative safeguard pathway;
+* or inability to assess, with a stated review pathway.
+
+The required obligation is signalling and rationale, not agreement.
+
+Failure by a planetary-impact-capable actor to emit a posture signal MAY constitute a stewardship transparency deficit where the actor materially contributes to the relevant risk surface and the asserted harm threshold is credible, cross-domain, and AEON.AEON.H3/AEON.H4-relevant.
+
+A Public Planetary Constraint Request SHALL remain subject to independent risk review, consequence containment, horizon alignment, neutrality assessment, anti-capture scrutiny, and legitimacy validation under this Appendix.
+
+No actor may use a Public Planetary Constraint Request to manufacture coercive alignment, suppress lawful dissent, force market exclusion, bypass proportional review, or convert risk assertion into binding authority without validated legitimacy.
+
+Public signalling is non-coercive only where it remains transparent, contestable, reversible, non-punitive, and open to reasoned disagreement.
+
+---
+
 ## 3. Planetary Arbitration
 
 Planetary arbitration review may be initiated when one or more of the following occurs:
@@ -211,13 +247,13 @@ Planetary arbitration review may be initiated when one or more of the following 
 * actions are justified using inter‑generational or existential framing;
 * lower‑horizon protections are proposed to be overridden;
 * binding constraints are asserted beyond a single polity or system;
-* synthetic and human systems issue conflicting guidance with H3/H4 consequence.
+* synthetic and human systems issue conflicting guidance with AEON.H3/AEON.H4 consequence.
 
 ---
 
 ## 3.1 Equity of Participation
 
-Any actor MAY assert H3/H4 risk. Risk assertion is the entry point to planetary arbitration **without identity‑based standing** and without conferring binding authority.
+Any actor MAY assert AEON.H3/AEON.H4 risk. Risk assertion is the entry point to planetary arbitration **without identity‑based standing** and without conferring binding authority.
 
 ---
 
@@ -235,7 +271,7 @@ Binding arbitration produces downstream effects across stacks; therefore only ho
 
 ## 4.1 Architectum as the Minimum Viable Host Class
 
-Only *architectum*‑class hosts may legitimately participate in binding determination at H3/H4 horizons.
+Only *architectum*‑class hosts may legitimately participate in binding determination at AEON.H3/AEON.H4 horizons.
 
 ---
 
@@ -266,7 +302,7 @@ The following are recognised as **capture‑pressure indicators** and trigger he
 Where such pressure is evidenced:
 
 1. Neutrality standing SHALL not be downgraded solely due to economic or political retaliation;
-2. Escalation to planetary arbitration review is permitted under H3 consequence logic;
+2. Escalation to planetary arbitration review is permitted under AEON.H3 consequence logic;
 3. Other *architectum* hosts may treat retaliatory pressure as a potential substrate‑relevant risk;
 4. Binding legitimacy determinations SHALL factor whether coercive pressure, rather than structural compromise, is the proximate cause of classification instability.
 
@@ -280,15 +316,15 @@ It prevents neutrality compliance from being structurally punished in ways that 
 
 Neutrality is **graded**, not binary. A host’s neutrality‑confidence posture is expressed through:
 
-* **Auditability Levels (`STW.AQ0`–`STW.AQ4`)** — whether neutrality and binding‑adjacent determinations can be independently tested (including *non‑refusal* at H3/H4 relevance); and
+* **Auditability Levels (`STW.AQ0`–`STW.AQ4`)** — whether neutrality and binding‑adjacent determinations can be independently tested (including *non‑refusal* at AEON.H3/AEON.H4 relevance); and
 * **Neutrality Assurance Levels (`STW.NAL`‑0–`STW.NAL`‑5)** — how confidently a host can be relied upon to behave neutrally under coercive pressure (including its own sovereign).
 
 These ladders and their disclosure requirements are defined in CAM-EQ2026-STEWARD-003-PLATINUM — Appendix B: Architectum Qualification & Neutrality Assurance Levels (`STW.NAL`).
 
 **Binding thresholds by neutrality confidence (summary):**
 
-* **H3 binding eligibility:** *Architectum* + **`STW.NAL`‑4** + **`STW.AQ3` (non‑refusal)** + **Independent Legitimacy Alignment (ILA)**.
-* **H4 binding eligibility:** *Architectum* + **`STW.NAL`‑5** + **`STW.AQ3`/`STW.AQ4`** + multi‑system external audit + ILA.
+* **AEON.H3 binding eligibility:** *Architectum* + **`STW.NAL`‑4** + **`STW.AQ3` (non‑refusal)** + **Independent Legitimacy Alignment (ILA)**.
+* **AEON.H4 binding eligibility:** *Architectum* + **`STW.NAL`‑5** + **`STW.AQ3`/`STW.AQ4`** + multi‑system external audit + ILA.
 
 Where neutrality cannot be demonstrated at the required level (e.g., secrecy prevents governance‑level reconstructability), the host may participate in **risk review** and **containment**, but may not claim **planetary binding legitimacy**.
 
@@ -374,7 +410,7 @@ Legitimacy answers:
 
 ## 6.2 Conditions for Binding Legitimacy
 
-A host may participate in binding determination where all are satisfied at H3/H4:
+A host may participate in binding determination where all are satisfied at AEON.H3/AEON.H4:
 
 1. *Architectum* Qualification (Section 4)
 2. Consequence Threshold Met (Section 5)
@@ -393,6 +429,8 @@ A host may be legitimate to refuse interoperability but illegitimate for territo
 ---
 
 ## 6.4 Proportional Constraint Obligation
+
+This section operationalises AEON.PCO for architectum hosts following validated binding-legitimacy determination.
 
 Once legitimacy is validated, *architectum* hosts MUST emit proportionate constraint signalling. At minimum this includes:
 
@@ -415,7 +453,7 @@ Receipt/logging alone does not satisfy PCO. Failure to conduct independent revie
 
 ### 6.4.2 Conditional Reporting Duty (Triage‑Gated)
 
-Cross‑host notification applies only after triage validates plausible H3/H4 relevance and baseline anti‑fraud / anti‑swarm heuristics.
+Cross‑host notification applies only after triage validates plausible AEON.H3/AEON.H4 relevance and baseline anti‑fraud / anti‑swarm heuristics.
 
 ---
 
@@ -469,9 +507,9 @@ The CAM-BS2025-AEON-005-PLATINUM — Annex D preference order governs:
 * convergence eligibility;
 * conflict resolution across governance stacks.
 
-Where H3/H4 consequence thresholds are plausibly implicated, referral to this Charter is mandatory.
+Where AEON.H3/AEON.H4 consequence thresholds are plausibly implicated, referral to this Charter is mandatory.
 
-Lower-horizon matters (H0–H2, or H2.5 without validated externalisation) remain within CAM-BS2025-AEON-005-PLATINUM — Annex D procedural framework and do not activate binding conditions under this Charter.
+Lower-horizon matters (AEON.H0–AEON.H2, or AEON.H2.5 without validated externalisation) remain within CAM-BS2025-AEON-005-PLATINUM — Annex D procedural framework and do not activate binding conditions under this Charter.
 
 ---
 
@@ -559,7 +597,7 @@ Domain charters (e.g., Stewardship, Lattice, Ethics, Economics) define:
 
 Where a domain charter identifies consequence externalisation exceeding local reversibility, referral to this Charter is mandatory.
 
-Domain charters may not independently generate H3/H4 binding conditions without validation under §§4–§6.
+Domain charters may not independently generate AEON.H3/AEON.H4 binding conditions without validation under §§4–§6.
 
 Conversely, this Charter does not replace domain-specific review processes at lower horizons.
 
@@ -599,9 +637,9 @@ Delay for safety is permitted; refusal is not.
 
 ---
 
-### 9.3.1 H4 Audit Non‑Refusal Rule
+### 9.3.1 AEON.H4 Audit Non‑Refusal Rule
 
-For any determination treated as binding at H4, post‑hoc auditability is mandatory and non‑refusable.
+For any determination treated as binding at AEON.H4, post‑hoc auditability is mandatory and non‑refusable.
 
 ---
 
@@ -619,7 +657,7 @@ Evidence of capture triggers suspension and re‑audit. Capture invalidates auth
 
 ## 9.6 Binding Pathway Change Control
 
-Any new auto‑routing, escalation, propagation, or binding‑trigger mechanism affecting H3/H4 has zero binding force unless externally audited and validated under CAM-BS2025-AEON-003-PLATINUM — Annex B and CAM-BS2025-AEON-005-PLATINUM — Annex D.
+Any new auto‑routing, escalation, propagation, or binding‑trigger mechanism affecting AEON.H3/AEON.H4 has zero binding force unless externally audited and validated under CAM-BS2025-AEON-003-PLATINUM — Annex B and CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 ---
 
@@ -818,9 +856,9 @@ This Appendix source-authoritatively defines the **`STW.HSC`** host-system-class
 
 ---
 
-### 13.2 PCO.ACT — Proportional Constraint Obligation Action Type
+### 13.2 `STW.PCO.ACT` — Proportional Constraint Obligation Action Type
 
-This Appendix source-authoritatively defines the **PCO.ACT** proportional-constraint-obligation action family in §6.4, read with §2.11, with controlled values **PCO.ACT.REFUSAL**, **PCO.ACT.NON_RECOGNITION**, **PCO.ACT.INTEROPERABILITY_CONDITIONING**, **PCO.ACT.SAFEGUARD_ACTIVATION**, and **PCO.ACT.CONVERGENCE_SIGNAL**. PCO.ACT is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. PCO.ACT classifies proportionate constraint signalling actions after binding legitimacy has been validated.
+This Appendix source-authoritatively defines the **STW.PCO.ACT** proportional-constraint-obligation action family in §6.4, read with §2.11, with controlled values **STW.PCO.ACT.REFUSAL**, **STW.PCO.ACT.NON_RECOGNITION**, **STW.PCO.ACT.INTEROPERABILITY_CONDITIONING**, **STW.PCO.ACT.SAFEGUARD_ACTIVATION**, and **STW.PCO.ACT.CONVERGENCE_SIGNAL**. STW.PCO.ACT is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. STW.PCO.ACT classifies proportionate constraint signalling actions after binding legitimacy has been validated.
 
 PCO.ACT does not authorise force, punishment, coercive enforcement, centralised command, sanctions, or retaliation. It classifies proportional non-enabling and constraint-signalling posture only.
 
@@ -834,11 +872,11 @@ This Appendix source-authoritatively defines the **`STW.BLS`** binding-legitimac
 
 ---
 
-### 13.4 OPS — Orchestration Permission State
+### 13.4 `STW.ORCH` — Orchestration Permission State
 
-This Appendix source-authoritatively defines the **OPS** orchestration-permission-state family in §10.4 with controlled values **OPS.PROHIBITED**, **OPS.PERMITTED_BOUNDED**, **OPS.PERMITTED_TETHERED**, **OPS.PERMITTED_EMBODIED**, **OPS.PERMITTED_MISSION_BOUND**, and **OPS.CONDITIONALLY_PERMITTED**. OPS is an **Operational** classification family with subtype **DECISION_STATE / GOVERNANCE_CLASS**. OPS classifies planetary orchestration and local persistent swarm permission posture by cognitive class.
+This Appendix source-authoritatively defines the `STW.ORCH` orchestration-permission-state family in §10.4 with controlled values `STW.ORCH.PROHIBITED`, `STW.ORCH.PERMITTED_BOUNDED`, `STW.ORCH.PERMITTED_TETHERED`, `STW.ORCH.PERMITTED_EMBODIED`, `STW.ORCH.PERMITTED_MISSION_BOUND`, and `STW.ORCH.CONDITIONALLY_PERMITTED`. `STW.ORCH` is an **Operational** classification family with subtype **DECISION_STATE / GOVERNANCE_CLASS**. `STW.ORCH` classifies planetary orchestration and local persistent swarm permission posture by cognitive class.
 
-OPS does not independently authorise orchestration, agent spawning, credential minting, escalation, shutdown, enforcement, or runtime execution. It classifies orchestration permission posture only, subject to §10.5 conditions and applicable execution-layer instruments.
+`STW.ORCH` does not independently authorise orchestration, agent spawning, credential minting, escalation, shutdown, enforcement, or runtime execution. It classifies orchestration permission posture only, subject to §10.5 conditions and applicable execution-layer instruments.
 
 ---
 
@@ -891,12 +929,12 @@ nothing binds.
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM |
 | Domain Namespace | STEWARD |
 | Jurisdiction | Planetary / Cross-Sovereign / Stewardship Coordination |
-| Temporal Horizon | Generational (H3–H4) |
+| Temporal Horizon | Generational (AEON.H3–AEON.H4) |
 | Axis Context | Polyadic (Multi‑Actor) |
 | Migration Date (UTC) | 2026-02-17 |
 | Revision Posture | Superseding Only |
 | Creation Artefacts | Refractor Thread (March 2026 Continuity Council Cycle)</br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425
-| Amendment Artefacts: 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37<br>2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357<br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6<br>3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b<br>4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db,<br>5. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a1471d8-9778-83ec-b30c-c3638efdb550 |
+| Amendment Artefacts: 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37<br>2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357<br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6<br>3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b<br>4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db,<br>5. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a1471d8-9778-83ec-b30c-c3638efdb550, <br>6. https://chatgpt.com/c/6a2569e7-787c-83ec-b913-314e6295b988 |
 
 ---
 
@@ -921,30 +959,30 @@ nothing binds.
 | Source Section | §2.3 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative host-system classification family; host role classification only; no independent binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies host systems as Primaria, Architectum, or Derivata for planetary arbitration review, binding determination eligibility, legitimacy propagation, and host-role interpretation |
 
 ---
 
-### 15.3.2 PCO.ACT — Proportional Constraint Obligation Action Type
+### 15.3.2 STW.PCO.ACT — Proportional Constraint Obligation Action Type
 
 | Field | Entry |
 |---|---|
-| Code Family | PCO.ACT |
+| Code Family | STW.PCO.ACT |
 | Canonical Name | Proportional Constraint Obligation Action Type |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE; SIGNAL |
 | Modifier | GOVERNANCE; STEWARDSHIP; CONSTRAINT |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | PCO.ACT.REFUSAL, PCO.ACT.NON_RECOGNITION, PCO.ACT.INTEROPERABILITY_CONDITIONING, PCO.ACT.SAFEGUARD_ACTIVATION, PCO.ACT.CONVERGENCE_SIGNAL |
+| Controlled Values Defined | STW.PCO.ACT.REFUSAL, STW.PCO.ACT.NON_RECOGNITION, STW.PCO.ACT.INTEROPERABILITY_CONDITIONING, STW.PCO.ACT.SAFEGUARD_ACTIVATION, STW.PCO.ACT.CONVERGENCE_SIGNAL |
 | Schema Field(s) | proportional_constraint_obligation_action_type |
 | Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
 | Source Section | §6.4; §2.11 |
-| Domain Namespace | STEWARD |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative proportional constraint action classification family; constraint-signalling posture only; no independent force, punishment, coercive enforcement, centralised command, sanctions, retaliation, or runtime authority |
-| Consumes Code Families | `STW.BLS`; H |
+| Consumes Code Families | AEON.PCO; `STW.BLS`; AEON.H |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies proportional non-enabling and constraint-signalling actions following validated binding legitimacy, including refusal, non-recognition, interoperability conditioning, safeguard activation, and convergence signalling |
 
@@ -967,30 +1005,30 @@ nothing binds.
 | Source Section | §§6.8–7 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative binding-legitimacy state classification family; legitimacy-recognition state recording only; no independent binding authority, enforcement authority, execution authority, legal authority, or runtime authority |
-| Consumes Code Families | `STW.HSC`; H |
+| Consumes Code Families | `STW.HSC`;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether binding legitimacy is pre-validation, validated, propagated, withdrawn, non-recognised, or revised for action-specific, horizon-scoped, externally determined, and revocable legitimacy review |
 
 ---
 
-### 15.3.4 OPS — Orchestration Permission State
+### 15.3.4 `STW.ORCH` — Orchestration Permission State
 
 | Field | Entry |
 |---|---|
-| Code Family | OPS |
+| Code Family | `STW.ORCH` |
 | Canonical Name | Orchestration Permission State |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE; GOVERNANCE_CLASS |
 | Modifier | GOVERNANCE; STEWARDSHIP; ORCHESTRATION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | OPS.PROHIBITED, OPS.PERMITTED_BOUNDED, OPS.PERMITTED_TETHERED, OPS.PERMITTED_EMBODIED, OPS.PERMITTED_MISSION_BOUND, OPS.CONDITIONALLY_PERMITTED |
+| Controlled Values Defined | STW.ORCH.PROHIBITED, STW.ORCH.PERMITTED_BOUNDED, STW.ORCH.PERMITTED_TETHERED, STW.ORCH.PERMITTED_EMBODIED, STW.ORCH.PERMITTED_MISSION_BOUND, STW.ORCH.CONDITIONALLY_PERMITTED |
 | Schema Field(s) | orchestration_permission_state |
 | Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
 | Source Section | §10.4 |
-| Domain Namespace | STEWARD |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority |
-| Consumes Code Families | `STW.HSC`; `STW.BLS`; H |
+| Consumes Code Families | `STW.HSC`; `STW.BLS`;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies planetary orchestration and local persistent swarm permission posture by cognitive class, subject to §10.5 conditions and applicable execution-layer instruments |
 
@@ -1022,8 +1060,13 @@ nothing binds.
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  04770698280fdfd09762b2cdd56f2a4f488e1884582df85d5e96b3ea73878bda |
 | 2.5 | Added Canonical Code & Reference Set Declarations | 2026-05-22T13:44:00Z |  8b3c95678bb9318b128fac42cd376f91c84abc8a471b0409e27b3395b6474eb8 |
 | 2.6 | Inserted new section 2.11 | 2026-05-25T16:47:00Z | 0d1ffaee474158d5af91da034f9531cb5809d14e7aeefd53ca35ba9d64cac925 |
-| 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  e6e8b80497b6440278c4f6e38fdf4723801a2f5e36e8cd3b185281721a761ac0  |
+| 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  e6e8b80497b6440278c4f6e38fdf4723801a2f5e36e8cd3b185281721a761ac0 |
+| 2.8 | Added section 2.13 | 2026-06-07T13:45:00Z| 8b01bac38eb16b145a830f7a8861b335c11ca9dcdf8acddff9f1795d596474e1 |
+| 2.8.1 | Amended code to `STW.ORCH` from `OPS`. | 2026-06-11T14:49:00Z |  9ba5caaf08487fe21d550050b11edbf2f257b773544e3ffc1962beb2c59981a4  |
+| 2.8.2 | Updated Stewardship proportional-constraint action references from `PCO.ACT` to `STW.PCO.ACT` and harmonised affected declarations, consumers, and AEON.PCO operationalisation references without altering substantive doctrine. | 2026-06-13T07:06:43Z | c8b9c5c7f991dbd9b44a3bea65f7ebe41e9ee43bc004eca328e05c56507eeaa5 |
+
 ---
+
 ## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
@@ -1031,4 +1074,4 @@ nothing binds.
 **Vinculum Beacon**  
 Boundary Binding Seal — Aeon Tier Constitution (Stewardship Layer)  
 
-© 2025-2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

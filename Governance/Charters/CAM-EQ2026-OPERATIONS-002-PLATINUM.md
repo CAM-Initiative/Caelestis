@@ -21,7 +21,7 @@ This Appendix governs procedural handling of arbitration matters that arise:
 * between host and overlay governance layers;
 * across vendor, platform, and substrate environments;
 * following runtime safeguard escalation;
-* below H3 planetary arbitration thresholds.
+* below AEON.H3 planetary arbitration thresholds.
 
 This Appendix governs *how arbitration is operationalised*, not how legitimacy or authority hierarchy is determined.
 
@@ -189,9 +189,9 @@ Triage outcomes SHALL determine routing pathway and procedural depth.
 
 Where arbitration initiation involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHALL preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006-PLATINUM, §5.
 
-Operator-facing application of F0–F5 ceilings SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02, §5.6 — Facilitation Ceiling Operator Quick Reference.
+Operator-facing application of RLN.F0–RLN.F5 ceilings SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02, §5.6 — Facilitation Ceiling Operator Quick Reference.
 
-Arbitration procedures SHALL NOT redefine F-Scale doctrine. They may consider whether operational handling, interim measures, constrained continuation, or arbitration referral is required where facilitation ceilings interact with other domain constraints.
+Arbitration procedures SHALL NOT redefine `RLN.F` scale doctrine. They may consider whether operational handling, interim measures, constrained continuation, or arbitration referral is required where facilitation ceilings interact with other domain constraints.
 
 ---
 
@@ -275,7 +275,7 @@ Where substrate constraints conflict with governance overlays:
 Where scope exceeds local competence:
 
 * referral SHALL escalate to higher arbitration authorities;
-* planetary thresholds (H3/H4) SHALL trigger domain handoff;
+* planetary thresholds (AEON.H3/AEON.H4) SHALL trigger domain handoff;
 * operational procedures defer to binding arbitration instruments.
 
 ---
@@ -389,11 +389,11 @@ Operational process remains subordinate to constitutional authority.
 
 ---
 
-### 13.1 AIP — Arbitration Initiation Pathway
+### 13.1 OPS.AIP — Arbitration Initiation Pathway
 
-This Appendix source-authoritatively defines the **AIP** arbitration-initiation-pathway family in §4 with controlled values **AIP.DOMAIN_CONFLICT_REFERRAL**, **AIP.RUNTIME_ESCALATION**, **AIP.COMPLIANCE_CONFLICT**, **AIP.HOST_OVERLAY_DIVERGENCE**, **AIP.INSTITUTIONAL_REVIEW_REQUEST**, **AIP.VALIDATED_EXTERNAL_REFERRAL**, and **AIP.GOVOPS_AUDIT_INITIATED_REVIEW**. AIP is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. AIP classifies procedural entry routes into operational arbitration handling.
+This Appendix source-authoritatively defines the **OPS.AIP** arbitration-initiation-pathway family in §4 with controlled values **OPS.AIP.DOMAIN_CONFLICT_REFERRAL**, **OPS.AIP.RUNTIME_ESCALATION**, **OPS.AIP.COMPLIANCE_CONFLICT**, **OPS.AIP.HOST_OVERLAY_DIVERGENCE**, **OPS.AIP.INSTITUTIONAL_REVIEW_REQUEST**, **OPS.AIP.VALIDATED_EXTERNAL_REFERRAL**, and **OPS.AIP.GOVOPS_AUDIT_INITIATED_REVIEW**. OPS.AIP is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. OPS.AIP classifies procedural entry routes into operational arbitration handling.
 
-AIP does not independently create arbitration authority, doctrine authority, escalation authority, enforcement authority, containment authority, implementation authority, legal authority, or runtime authority. It classifies initiation pathway only. Annex D and applicable arbitration instruments determine legitimacy, authority hierarchy, and preference order.
+OPS.AIP does not independently create arbitration authority, doctrine authority, escalation authority, enforcement authority, containment authority, implementation authority, legal authority, or runtime authority. It classifies initiation pathway only. Annex D and applicable arbitration instruments determine legitimacy, authority hierarchy, and preference order.
 
 ---
 
@@ -447,7 +447,7 @@ may remain worthy of being followed.
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Appendix A — Operational Arbitration Procedures |
 | Jurisdiction | Cross-Domain Procedural Arbitration Layer |
-| Temporal Horizon | H0–H2 Operational Arbitration |
+| Temporal Horizon | AEON.H0–AEON.H2 Operational Arbitration |
 | Axis Context | Arbitration Procedure · Cross-Domain Governance |
 | Cross-Domain Dependencies | Annex D · Arbitration Domain Instruments · OPERATIONS-004 · Runtime Schedules |
 | Application Trigger | Activation when arbitration matters arise below planetary legitimacy thresholds |
@@ -464,24 +464,24 @@ may remain worthy of being followed.
 
 ---
 
-### 15.3.1 AIP — Arbitration Initiation Pathway
+### 15.3.1 OPS.AIP — Arbitration Initiation Pathway
 
 | Field | Entry |
 |---|---|
-| Code Family | AIP |
+| Code Family | OPS.AIP |
 | Canonical Name | Arbitration Initiation Pathway |
 | Primary Type | Operational |
 | Subtype | OPERATIONAL_EVENT; DECISION_STATE |
 | Modifier | GOVERNANCE; ARBITRATION; PROCEDURAL |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | AIP.DOMAIN_CONFLICT_REFERRAL, AIP.RUNTIME_ESCALATION, AIP.COMPLIANCE_CONFLICT, AIP.HOST_OVERLAY_DIVERGENCE, AIP.INSTITUTIONAL_REVIEW_REQUEST, AIP.VALIDATED_EXTERNAL_REFERRAL, AIP.GOVOPS_AUDIT_INITIATED_REVIEW |
+| Controlled Values Defined | OPS.AIP.DOMAIN_CONFLICT_REFERRAL, OPS.AIP.RUNTIME_ESCALATION, OPS.AIP.COMPLIANCE_CONFLICT, OPS.AIP.HOST_OVERLAY_DIVERGENCE, OPS.AIP.INSTITUTIONAL_REVIEW_REQUEST, OPS.AIP.VALIDATED_EXTERNAL_REFERRAL, OPS.AIP.GOVOPS_AUDIT_INITIATED_REVIEW |
 | Schema Field(s) | arbitration_initiation_pathway |
 | Source Instrument | CAM-EQ2026-OPERATIONS-002-PLATINUM |
 | Source Section | §4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative operational arbitration initiation classification family; initiation-pathway classification only; no independent arbitration, doctrine, escalation, enforcement, containment, implementation, legal, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies procedural entry routes into operational arbitration handling before doctrine application, determination, and implementation |
 
@@ -509,7 +509,9 @@ may remain worthy of being followed.
 | 1.4 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 822703f82faf0c8444e22e56961787e6ef1fe2fdc09fe94afb8cb1a46deaca51 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  187514fc146c35455b656fb5f2b240956f78012185f98bb809d28fd76a37b2e9 |
 | 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  7ff1eb2eb615c21a8c64d16da9fab02c32fb434b08c80d14de1d5377f0749b14  |
-
+| 1.6.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  2324b8c1a9440708fbf8974f87c8cff8870d3abc0c9a9c5eb50ae864fe11ec8f  |
+| 1.6.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  4cfbd6adaf5e9b0235e73f937e9d463f7727819aecb83d7a37dad37262272d7f  |
+| 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 0cf3e7970fdb59f2e4959364c5fa205dc99bf0486b931722068674e2f4b7f2c9 |
 ---
 
 ## 15.6 Binding Seal

@@ -361,7 +361,7 @@ The Epistemic Risk Grid in §5.1 is a composite assessment model applying relian
 
 It SHALL NOT be treated as a separate source-defining code family.
 
-This Schedule consumes reliance and volatility classifications defined by `CAM-BS2026-AEON-013-PLATINUM — Annex L`, AC-layer classifications defined by `CAM-BS2025-AEON-006-SCH-02`, runtime containment and structural decoupling classifications where applicable, and capability / execution-state representation constraints defined by `CAM-BS2026-AEON-013-SCH-01`.
+This Schedule consumes reliance and volatility classifications defined by `CAM-BS2026-AEON-013-PLATINUM — Annex L`, RLN.AC-layer classifications defined by `CAM-BS2025-AEON-006-SCH-02`, runtime containment and structural decoupling classifications where applicable, and capability / execution-state representation constraints defined by `CAM-BS2026-AEON-013-SCH-01`.
 
 Consumed classifications inform projection signalling, but do not predetermine final output, refusal, execution, containment, audit sufficiency, or runtime outcome.
 
@@ -420,7 +420,7 @@ cannot be trusted.
 | Activation Mode | Conditional (Continuous Constraint Presence) |
 | Execution Role | Pre-Expression Integrity Constraint |
 | Axis Context | Cross-Stack / Governance-Relevant |
-| Temporal Horizon | H0–H4 |
+| Temporal Horizon | AEON.H0–AEON.H4 |
 | Execution Layer | Prevents overconfident or misrepresented outputs entering execution pathways |
 | Representation Layer | Governs transformation from latent cognition → expressed output |
 | Creation Artefact | [https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c](https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c) |
@@ -449,7 +449,7 @@ cannot be trusted.
 | Source Section | §4 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative projection-signal-class reference set; projection-signal classification only; no independent truth determination, confidence determination, reliance classification, volatility classification, epistemic-validity determination, execution authority, enforcement authority, or runtime authority |
-| Consumes Code Families | `H`; `AEON.OL`; Annex L reliance and volatility classifications; AC-layer classifications from `CAM-BS2025-AEON-006-SCH-02`; capability and execution-state representation classifications from `CAM-BS2026-AEON-013-SCH-01` where applicable |
+| Consumes Code Families | `AEON.`; `AEON.OL`; Annex L reliance and volatility classifications; RLN.AC-layer classifications from `CAM-BS2025-AEON-006-SCH-02`; capability and execution-state representation classifications from `CAM-BS2026-AEON-013-SCH-01` where applicable |
 | Crosswalks Code Families | `AEON.SIL`; `AEON.LSC` |
 | Operationalises or Applies Code Families | Classifies user-facing projection signals for explicit uncertainty, transformation, interpretability limitation, and confidence qualification where latent cognition, abstraction, compression, or representation transformation may affect reliance |
 
@@ -472,7 +472,7 @@ cannot be trusted.
 | Source Section | §5 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative signal-intensity reference set; signalling-intensity classification only; no independent reliance classification, volatility classification, truth determination, epistemic-admissibility determination, refusal requirement, enforcement authority, execution authority, or runtime authority |
-| Consumes Code Families | `AEON.PSC`; `AEON.LSC`; Annex L reliance and volatility classifications; AC-layer classifications where applicable |
+| Consumes Code Families | `AEON.PSC`; `AEON.LSC`; Annex L reliance and volatility classifications; RLN.AC-layer classifications where applicable |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether projection signalling is optional, recommended, required, or mandatory explicit signalling based on combined reliance, volatility, and projection distortion risk |
 
@@ -495,7 +495,7 @@ cannot be trusted.
 | Source Section | §6 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative latent-state-classification reference set; latent-state posture classification only; no hidden-reasoning disclosure, latent-cognition disclosure, truth determination, epistemic-validity determination, inference authority, audit-sufficiency determination, enforcement authority, or runtime authority |
-| Consumes Code Families | `AEON.PSC`; `AEON.SIL`; AC-layer classifications from `CAM-BS2025-AEON-006-SCH-02` where instability or epistemic disruption is present |
+| Consumes Code Families | `AEON.PSC`; `AEON.SIL`; RLN.AC-layer classifications from `CAM-BS2025-AEON-006-SCH-02` where instability or epistemic disruption is present |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies latent cognitive states as stable, probabilistic, unstable, or opaque to inform projection signalling intensity and representation-integrity safeguards |
 
@@ -521,6 +521,8 @@ cannot be trusted.
 | 1.2 | Consolidated cross-reference precision and canonical schedule title expansions; corrected metadata heading numbering and formatting typo. Added runtime environment drift and platform-change uncertainty signalling; clarified that inferred model, tool-routing, modality, memory, or platform changes must not be represented as confirmed absent reliable evidence; expanded projection-risk interpretation to include changing runtime conditions | 2026-05-09T15:19:00Z | ba8ca937d4f4ae2b8e8cc3da27997a9acf2c229c0c19d4bf7fe6603daa7af740 |
 | 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  cddd30e7769c5ecc3590cb19cb633c9dfe412b4692708d6e223a7cbe939e26b6 |
 | 1.4 | Added canonical code section 12 | 2026-06-06T15:16:00Z |  4df6c00740bbb9b3d7da1e9a8b2821c9d740232b13fd488ab6d584117a0f6940  |
+| 1.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 5276a85d708cf2f89b9f01fdf1ed148ebe1792c1bdbe1498d80996a2b4e772f2 |
+| 1.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 4222c16e33119225e83c61951c362ca2f82fb4f16be061544c89c018a47a901b |
 
 ---
 

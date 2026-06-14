@@ -21,7 +21,7 @@ This Charter establishes the operational governance layer responsible for:
 * audit, logging, and traceability standards;
 * change management and amendment routing;
 * operational compliance controls (e.g., jurisdictional reporting, age gating, regulatory triggers);
-* operational escalation pathways below planetary arbitration (H0–H2).
+* operational escalation pathways below planetary arbitration (AEON.H0–AEON.H2).
 
 This Charter governs *how governance is operationalised*, not how legitimacy is determined.
 
@@ -71,7 +71,7 @@ GovOps SHALL NOT:
 
 * collapse domain autonomy;
 * centralise authority beyond mandate;
-* elevate H0–H2 matters to H3/H4 absent threshold justification.
+* elevate AEON.H0–AEON.H2 matters to AEON.H3/AEON.H4 absent threshold justification.
 
 ---
 
@@ -147,7 +147,7 @@ GovOps arbitration interface SHALL activate when one or more of the following **
 * unresolved domain-level dispute exceeding local competence;
 * audit-triggered governance anomaly (see §6 Incident Response Governance).
 
-Where arbitration below H3 occurs, GovOps SHALL:
+Where arbitration below AEON.H3 occurs, GovOps SHALL:
 
 1. Ensure classification accuracy;
 2. Apply Annex D doctrine;
@@ -325,7 +325,7 @@ Defines logging formats, attribution requirements, retention windows, and audit 
 
 **Supplementary 2 — Escalation Pathway Playbooks**
 
-Defines operational escalation maps, authority routing trees, and horizon‑aligned escalation pathways (H0–H2).
+Defines operational escalation maps, authority routing trees, and horizon‑aligned escalation pathways (AEON.H0–AEON.H2).
 
 **Supplementary 3 — Governance Capture Detection Procedures**
 
@@ -384,7 +384,7 @@ nor so fluid that nothing stable can remain
 |Constitution Reference Frame|CAM-BS2025-AEON-001-PLATINUM|
 |Domain Namespace|OPERATIONS|
 |Jurisdiction|Cross‑Domain/Operational Governance Layer|
-|Temporal Horizon|H0–H2 (Operational)|
+|Temporal Horizon|AEON.H0–AEON.H2 (Operational)|
 |Axis Context|Polyadic (Multi‑Actor Governance)|
 |Revision Posture|Foundational Issue|
 |Application Trigger|Operational implementation, coordination, or escalation below planetary arbitration thresholds|
@@ -414,6 +414,7 @@ nor so fluid that nothing stable can remain
 | 1.4 | Realignment of references | 2026-05-07T10:34:00Z | d6773a374bc01dc677404e2f7fb0b9b936e61f831760f02e3ba0b6f69664d6f7 |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5 |
 | 1.6 | Formatting and polish | 2026-05-20T11:31:00Z |  a4929d0c912a296c559e4571fc282811ccdece1c3e8412c4ba462f1a20c12c7b  |
+| 1.6.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2b466a50a50848d515a0c36083e2e34479c593ce3a68bf1f0c4f81b11f430ace |
 
 ---
 

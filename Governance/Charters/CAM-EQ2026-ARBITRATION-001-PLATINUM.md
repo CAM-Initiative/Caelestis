@@ -55,7 +55,7 @@ This Charter defines ****legitimacy conditions only****.
 
 ## 1.2 Definitions
 
-**Arbitration** a governance function that MAY occur at any temporal horizon (H0–H4), including local, contractual, institutional, sectoral, or intra-system dispute resolution
+**Arbitration** a governance function that MAY occur at any temporal horizon (AEON.H0–AEON.H4), including local, contractual, institutional, sectoral, or intra-system dispute resolution
 
 Within the Aeon Tier, **arbitration** is the structured resolution of conflicting claims, signals, or asserted authorities.
 
@@ -228,7 +228,7 @@ Arbitration scope MUST be consistent with system classification as defined under
 
 Local or bounded systems may perform arbitration within their operational scope.
 
-Global, cross-domain, or high-horizon (H3/H4) arbitration is valid only where the arbitration locus meets Architectum-class classification requirements (defined in CAM-EQ2026-STEWARD-003-PLATINUM — Neutrality Assurance Levels; forward dependency).
+Global, cross-domain, or high-horizon (AEON.H3/AEON.H4) arbitration is valid only where the arbitration locus meets Architectum-class classification requirements (defined in CAM-EQ2026-STEWARD-003-PLATINUM — Neutrality Assurance Levels; forward dependency).
 
 Systems that do not meet Architectum classification:
 
@@ -488,7 +488,7 @@ but arising from that which could not be otherwise.
 | Runtime Dependency | CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model |
 | Execution Model Participation | Defines legitimacy conditions only — no routing, trigger, or execution authority |
 | Jurisdiction | Cross-System / Cross-Stack Arbitration |
-| Temporal Horizon | H0–H4 (All Horizons) |
+| Temporal Horizon | AEON.H0–AEON.H4 (All Horizons) |
 | Axis Context | Polyadic (Multi‑Actor) |
 | Revision Posture | Superseding Only |
 | Creation Artefacts | Refractor Thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df, 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37 2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357 3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6 4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b |
@@ -520,6 +520,7 @@ but arising from that which could not be otherwise.
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 0e0b8d9c0727eb184d018c0758803cd751c4df3fdd37d074f3a129afb2d05b9e |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  27304649ed6f6a9b4ae7f9fc54f86cf94cb35d07ad531c95dbe5b905e3e1939e  |
 | 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  df512de0e358beaa763bbfcb17e35f338222106c2883d60df5aff869d9a8080d  |
+| 2.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 824fc7457959a1edae7f67b18214b23ef93ba95502fec1b17fa35b2aa302a011 |
 
 ---
 

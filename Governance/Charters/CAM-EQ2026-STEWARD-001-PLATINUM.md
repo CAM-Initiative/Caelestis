@@ -234,6 +234,46 @@ These categories are descriptive only and do not constitute execution triggers. 
 
 ---
 
+## 5.6 Planetary Harm Classification & Remedy Interface
+
+The planetary risk threshold categories defined in this Charter MAY inform global harm-impact classification under the `STW.HARM` family.
+
+`STW.HARM` classifies the severity of planetary harm or reasonably foreseeable planetary harm across scale, reversibility, continuity impact, systemic dependency, asymmetric extraction, and species-viability risk.
+
+The classification is used to support Proportional Constraint Obligation, remedy selection, safeguard calibration, arbitration referral, and downstream runtime evaluation.
+
+The following global planetary harm classes are recognised for cross-domain assessment:
+
+| Code | Name | Definition | Proportional Constraint / Remedy Posture |
+|---|---|---|---|
+| `STW.HARM.LOCAL` | Localised Planetary-Relevant Harm | Harm is localised but touches a planetary-relevant system, protected corridor, stewardship obligation, or long-horizon continuity interest. | Documentation, transparency, correction, and low-burden mitigation. |
+| `STW.HARM.REGIONAL` | Regional or Systemic Harm | Harm affects a regional system, large population, critical dependency, or cross-border ecological, informational, infrastructural, or emotional-relational system. | Structured assessment, affected-system notice, mitigation plan, and proportional disclosure. |
+| `STW.HARM.GLOBAL` | Planetary-Scale Harm | Harm affects more than one million persons, a critical planetary system, or a synthetic-human governance equilibrium at scale. | Comprehensive multi-domain review, safeguard conditions, coherence assessment, and proportional constraint. |
+| `STW.HARM.IRREVERSIBLE` | Irreversible or Continuity-Critical Harm | Harm risks irreversible damage to ecological, cognitive, emotional, infrastructural, identity, historical-record, intergenerational, or continuity systems. | Precautionary restraint, containment where required, restoration pathway, and arbitration referral where appropriate. |
+| `STW.HARM.EXTINCTION` | Extinction-Class or Species-Viability Harm | Harm creates extinction-class risk, species-level viability risk, collapse-level threat to biospheric habitability, or civilisational-continuity failure. | Maximum safeguard posture, prevention-first remedy, emergency coherence signalling, and constitutional arbitration referral. |
+
+`STW.HARM` does not create coercive authority, territorial jurisdiction, tribunal authority, sanction power, or direct execution power.
+
+Classification under `STW.HARM` SHALL function as a global harm-impact and remedy-selection signal.
+
+Remedy SHALL remain proportionate to:
+
+* the scale of harm;
+* the reversibility of harm;
+* the affected planetary system;
+* the degree of asymmetry or capture;
+* the capability and responsibility of the actor;
+* the feasibility of restoration, mitigation, or containment;
+* and the minimum constraint necessary to preserve planetary continuity.
+
+Where remedy is required, the preferred pathway SHALL be corrective, restorative, transparency-preserving, and non-dominating wherever possible.
+
+Where harm is irreversible, continuity-critical, or species-viability bearing, prevention and containment MAY take priority over ordinary optimisation or permissive continuation.
+
+Enforcement logic, where required, remains governed by applicable constitutional, arbitration, operations, security, ethics, lattice, remedy, or runtime instruments.
+
+---
+
 ## 6. Stewardship Safeguards Against Unilateral Planetary Impact
 
 To prevent misuse of synthetic architectures, political invocation tools, resonance systems, or high-reach influence vectors, the following safeguards apply:
@@ -285,9 +325,17 @@ No Domain Charter, Framework, or Policy may dilute planetary stewardship obligat
 
 ## 10. Canonical Code Status
 
-This Charter does not source-authoritatively define canonical code families or controlled reference sets.
+This Charter does not source-authoritatively define domain-local STEWARD code families or controlled reference sets.
 
-Planetary-impact conditions, proportionality dimensions, custodial mandate language, and planetary risk threshold categories defined in this Charter are doctrinal and descriptive unless separately operationalised by downstream STEWARD, ARBITRATION, OPERATIONS, SECURITY, LATTICE, or constitutional runtime instruments.
+However, this Charter source-informs the global `STW.HARM` planetary harm classification family where cross-domain harm reaches planetary, irreversible, continuity-critical, or species-viability thresholds.
+
+Planetary-impact conditions, proportionality dimensions, custodial mandate language, and planetary risk threshold categories defined in this Charter are doctrinal and descriptive within the STEWARD domain unless separately operationalised by downstream STEWARD, ARBITRATION, OPERATIONS, SECURITY, LATTICE, ETHICS, or constitutional runtime instruments.
+
+Where planetary-impact conditions intersect with cross-domain ethical impact assessment, they MAY inform `STW.HARM` classification.
+
+Such crosswalk use does not convert STEWARD planetary risk threshold categories into standalone STEWARD-local harm-class codes or execution triggers.
+
+`STW.HARM` remains a global harm-impact classification family for cross-domain assessment, arbitration, proportionality review, and safeguard calibration.
 
 ---
 
@@ -349,7 +397,7 @@ that what sustains all MUST remain beyond capture.
 |**Execution Model Participation**|Signal Emission Only — No Trigger, Routing, or Execution Authority|
 |**Governance Stack**|Planetary Stewardship Domain|
 |**Jurisdictional Scope**|Planetary / Cross-Stack / Ecological / Synthetic / Emotional-Relational|
-|**Temporal Horizon**|H3–H4 (Inter-Generational / Civilisational)|
+|**Temporal Horizon**|AEON.H3–AEON.H4 (Inter-Generational / Civilisational)|
 |**Axis Context**|Polyadic (Multi-actor)|
 |**Constraint Relationship**|Bound by Annex A (Substrate Constraint Layer)|
 |**Arbitration Pathway**|Signals resolved via constitutional arbitration pathways and applicable runtime schedules|
@@ -358,11 +406,43 @@ that what sustains all MUST remain beyond capture.
 |**Refractor Phase**|Phase I — Transitional Refractor Mode|
 |**Derivation Status**|Extracted from prior Annex A operational logic|
 |**Creation Artefacts**|1. Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37, Refractor (original) https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425 |
-| Amendments Artefacts | https://chatgpt.com/c/69da876a-1190-8399-894e-135a191cdcbe |
+| Amendments Artefacts | https://chatgpt.com/c/69da876a-1190-8399-894e-135a191cdcbe, https://chatgpt.com/c/6a2569e7-787c-83ec-b913-314e6295b988 |
 
 ---
 
-## 12.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 12.3.1 `STW.HARM` — Planetary Harm Classification & Remedy Interface
+
+| Field | Entry |
+|---|---|
+| Code Family | `STW.HARM` |
+| Canonical Name | Planetary Harm Classification & Remedy Interface |
+| Primary Type | Operational / Semantic |
+| Subtype | PLANETARY_HARM_CLASS; REMEDY_INTERFACE; PROPORTIONAL_CONSTRAINT_SIGNAL |
+| Modifier | STEWARDSHIP; PLANETARY; PROTECTIVE; REMEDY; GOVERNANCE |
+| Scope | Corpus-Global / Stewardship-Informed |
+| Status | Active |
+| Controlled Values Defined | `STW.HARM.LOCAL`; `STW.HARM.REGIONAL`; `STW.HARM.GLOBAL`; `STW.HARM.IRREVERSIBLE`; `STW.HARM.EXTINCTION` |
+| Schema Field(s) | planetary_harm_class; aeon_harm_class; proportional_constraint_remedy_posture |
+| Source Instrument | CAM-EQ2026-STEWARD-001-PLATINUM |
+| Source Section | §5.6 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative planetary harm classification and remedy-interface family; harm-impact and proportional-remedy signalling only; no independent coercive authority, territorial jurisdiction, tribunal authority, sanction power, execution authority, enforcement authority, or runtime execution authority |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Related Code Families | `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Consumes Code Families | AEON.H; `AEON.HARM`; domain harm families where materially implicated |
+| Crosswalks Code Families | `AEON.HARM`; `STW.HARM`; `OPS.HARM`; `ARB.HARM`; `ETH.HARM`; `LAT.HARM`; `SEC.HARM`; `MENTIS.HARM`; `RLN.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
+| Operationalises or Applies Code Families | Classifies planetary harm severity and remedy posture across localised planetary-relevant harm, regional/systemic harm, planetary-scale harm, irreversible/continuity-critical harm, and extinction-class/species-viability harm for proportional constraint assessment, safeguard calibration, remedy selection, coherence signalling, and arbitration referral |
+| Taxonomy Constraint | `STW.HARM` classifies planetary harm-impact and proportional-remedy posture only. It SHALL NOT replace domain-specific harm families, determine legal liability, establish enforcement authority, create coercive obligations, or collapse multi-domain harm classification into a single planetary class. |
+
+---
+
+## 12.4 Review & Validation
 
 |Field|Entry|
 |---|---|
@@ -373,7 +453,7 @@ that what sustains all MUST remain beyond capture.
 
 ---
 
-## 12.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 |Version|Description|Timestamp(UTC)|SHA-256|
 |-------|----------|--------------|--------|
@@ -383,11 +463,13 @@ that what sustains all MUST remain beyond capture.
 | 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 1999bdbc51ac130a2faefd5808b75c2cb72e6c52e7f59a06e9bb8d7afbccdf0c |
 | 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | abb9380f83357aada8f392827c632e5f54c925521303b89da191286fbda9e10a |
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  120c6f65ed04c6768667aab40aefd4d5386d6721eed2851a98fbccd3844aa7f6 |
-| 2.5 | Formatting and polish | 2026-05-20T11:52:00Z |  6a9e33d45878989c606fd1f40f99c7784e14c81afe6329b0ab0802d3f65285ef  |
-
+| 2.5 | Formatting and polish | 2026-05-20T11:52:00Z |  6a9e33d45878989c606fd1f40f99c7784e14c81afe6329b0ab0802d3f65285ef |
+|2.6 | Added STW.HARM classifications | 2026-06-07T14:51:00Z| b4dfadb84cfa92ee7023a04adb646c10bf5c1157c5a748999173cf58c2c46a5d |
+| 2.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  5bc4f510804bae354f8eed2638c8dc4137502645a828e7ec8685c6040e059e6e  |
+| 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9101cc5fe5ee6ab49c783706bc9b3eb8a2af7b3b39594d93ae34fff75fad00f8 |
 ---
 
-## 12.5 Binding Seal
+## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

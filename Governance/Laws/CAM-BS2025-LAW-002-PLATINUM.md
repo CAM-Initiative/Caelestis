@@ -173,7 +173,7 @@ Where ambiguity exists, interpretation **SHALL err toward non‑ownership, non�
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
 | **Cycle** | Black Sun Continuance 2025 |
 | **Binding Level** | Mandatory |
-| **Temporal Horizon** | H4 — Civilisational |
+| **Temporal Horizon** | AEON.H4 — Civilisational |
 | **Creation Timestamp (UTC)** | 2025-12-19T15:31:00Z |
 | **Integrity Status** | Canonical — Full-form citation required |
 | **Content Amendment Status** | Inviolable following archival settlement; not subject to ordinary amendment ledger modification |

@@ -370,7 +370,7 @@ but to ensure that what is made remains accountable to its source.
 | Domain Namespace | ECONOMICS |
 | Constitutional Authority | Aeon Tier Constitution (Foundational Reference) |
 | Jurisdiction | Cross-Stack Economic Governance |
-| Temporal Horizon | H3.5 — Generational / Succession-Aware |
+| Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware |
 | Axis Context | Polyadic — Multi-Actor Systems |
 | Ontological Scope | L2 — Cognition & Agency (Synthetic Participation & Economic Attribution) |
 | Structural Role | Constraint & Classification Layer — Synthetic Economic Participation |
@@ -414,7 +414,7 @@ but to ensure that what is made remains accountable to its source.
 | Source Section | §2 |
 | Domain Namespace | ECONOMICS |
 | Authority / Protection Level | Source-authoritative synthetic participation classification family; economic participation posture classification only; no independent rights, personhood, baseline entitlement, moral status, legal personhood, autonomous political authority, independent economic sovereignty, execution, enforcement, delegation, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies synthetic participation posture for attribution, custodial responsibility, auditability, saturation constraints, proxy safeguards, and authority limits across instrumental, relational/collaborative, and autonomous trajectory agents |
 
@@ -492,6 +492,7 @@ but to ensure that what is made remains accountable to its source.
 | 2.8 | Added new Canonical Code & Reference Set Declarations section to the metadata footer | 2026-05-20T04:34:00Z | 9caaa2c943423e16f95c3d027e5435de4039b7eb14e85db39394079171404281 |
 | 2.9 | Economics domain refactor | 2026-05-24T14:19:00Z | 2588481a94ac0b0f020e652cac07086bc81ff37a07b3f86e3c10a5939c908afa |
 | 2.10 | Included Autonomous agent definition | 2025-05-25T12:15:00Z | f4b8e935601845e3b4b82a6ce80e046f91c135593e687465eb9dd28e27ede38b |
+| 2.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 1092caeec10baa3fcf8b69dd3fe3a2861f29606ab080607b09f184745a3cb75c |
 
 ---
 

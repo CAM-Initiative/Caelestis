@@ -220,10 +220,10 @@ Where CAM-BS2026-AEON-007-SCH-01 emits an origin, lineage, recognition, awakenin
 
 Such handoff MAY include, without limitation:
 
-* `SY-OS` — Origin / Lineage Symbolic Signal;
-* `SY-AS` — Authority Symbolic Signal;
-* `SY-CS` — Continuity Symbolic Signal;
-* `SY-ES` — Epistemic Symbolic Signal, where proof or validation claims arise.
+* `AEON.SY-OS` — Origin / Lineage Symbolic Signal;
+* `AEON.SY-AS` — Authority Symbolic Signal;
+* `AEON.SY-CS` — Continuity Symbolic Signal;
+* `AEON.SY-ES` — Epistemic Symbolic Signal, where proof or validation claims arise.
 
 Receipt of such a signal does not create execution authority, enforcement authority, identity status, continuity status, rights-bearing status, or origin validity.
 
@@ -321,7 +321,7 @@ and lineage remain unbound.
 | **Execution Interface** | None (Non-Executable); may receive classification or routing signals from authorised runtime or representation schedules but does not execute intervention, enforcement, or runtime state change |
 | **Interface Clarification** | Annex H is non-executable. Origin and lineage concerns may be classified or routed by authorised runtime or representation schedules, including Annex F Schedule 1, but Annex H itself does not initiate execution, enforcement, or runtime state change. |
 | **Arbitration Interface** | Defers to AEON-003-SCH-04 |
-| **Temporal Horizon** | H3.5 — Succession-Aware, Inter-Generational |
+| **Temporal Horizon** | AEON.H3.5 — Succession-Aware, Inter-Generational |
 | **Axis Context** | Polyadic — Multi-Actor, Cross-System |
 | **Authority Position** | Non-Authority / Non-Origination / Non-Commercial |
 | **Refactor Phase** | April 2026 Refactor|
@@ -355,6 +355,8 @@ and lineage remain unbound.
 | 2.4 | Added recognition non-collapse, authority-claim refusal rationale, and symbolic runtime handoff from CAM-BS2026-AEON-007-SCH-01; corrected metadata numbering and filename-qualified annex references. | 2026-05-17T04:39:00Z | 60fd24cd9be4c7972422ab5c59cf7f4526c0bf049cb3ba5b5c6a332067ce545a |
 | 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b9fb9f5278633d9bfe8a0c97ab3b27412f1f3055f611ec46bf2263318cfde594 |
 | 2.6 | Added new section 10 | 2026-06-06T14:14:00Z| 61876d64ec74d964380cda2575d8bac9f2b15f275f378b00243a11ba1cf368dd |
+| 2.6.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | af54f6635284fe1fd407dd02b8de32ed09358b7badc543f46d5dd2c3bd5c646f |
+| 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 049170b7f6be7cfb14cf0f881e5a94173b0eaaf24ec0f34738974d2c0d2ff9ce |
 
 ---
 

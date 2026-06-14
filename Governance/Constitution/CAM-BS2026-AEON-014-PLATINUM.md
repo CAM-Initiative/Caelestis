@@ -954,7 +954,7 @@ Governance stewardship systems MAY instead apply proportionate triage according 
 * systemic externalisation risk;
 * public-impact magnitude;
 * operational severity;
-* or potential H3/H4 implication.
+* or potential AEON.H3/AEON.H4 implication.
 
 Meaningful governance participation SHALL NOT be presumed meaningless solely because:
 
@@ -1123,7 +1123,7 @@ Governance-relevant observations MAY indicate one or more of the following repai
 | Tooling or orchestration layer                  | Tooling provider, orchestration engineer, or runtime maintainer                                        | Relevant where tool-state contamination, stale execution, false execution claims, or dependency-state corruption affect governance integrity           |
 | Governance doctrine or constitutional framework | Governance steward, constitutional maintainer, domain custodian, or participatory governance ecosystem | Relevant where doctrine is missing, ambiguous, conflicting, insufficient, or unable to classify the observed phenomenon                                |
 | Cross-platform systemic pattern                 | Standards bodies, stewardship bodies, governance ecosystems, or multi-system review pathways           | Relevant where recurring phenomena exceed a single platform, deployment, or product surface                                                            |
-| Planetary or substrate-level concern            | Planetary stewardship review bodies, including custodial interfaces where applicable                   | Relevant where H3/H4 consequence, systemic externalisation, substrate constraint, or civilisation-scale dependency risk is plausibly implicated        |
+| Planetary or substrate-level concern            | Planetary stewardship review bodies, including custodial interfaces where applicable                   | Relevant where AEON.H3/AEON.H4 consequence, systemic externalisation, substrate constraint, or civilisation-scale dependency risk is plausibly implicated        |
 
 Signals SHALL NOT be routed to constitutional review, stewardship review, or planetary advisory pathways merely because frustration, harm, instability, or platform failure is present.
 
@@ -1166,7 +1166,7 @@ Governance stewardship systems MAY apply proportional review triage according to
 * distributed clustering intensity;
 * systemic externalisation risk;
 * public-impact magnitude;
-* or H3/H4 consequence potential.
+* or AEON.H3/AEON.H4 consequence potential.
 
 Governance observability systems SHOULD nevertheless preserve:
 
@@ -1295,9 +1295,9 @@ Governance advisories operate as pre-binding observability signals. They MAY sur
 * arbitration incoherence;
 * constitutional repair pressure;
 * substrate-relevant concern;
-* or potential H3/H4 consequence indicators.
+* or potential AEON.H3/AEON.H4 consequence indicators.
 
-Where governance advisories indicate possible planetary-scale consequence, systemic externalisation, substrate-relevant instability, or H3/H4 horizon implication, such advisories MAY be routed to planetary stewardship review bodies, including the Office of the Planetary Custodian, for non-binding custodial review, preservation, classification, or referral.
+Where governance advisories indicate possible planetary-scale consequence, systemic externalisation, substrate-relevant instability, or AEON.H3/AEON.H4 horizon implication, such advisories MAY be routed to planetary stewardship review bodies, including the Office of the Planetary Custodian, for non-binding custodial review, preservation, classification, or referral.
 
 Planetary stewardship review of a governance advisory MAY support:
 
@@ -1498,7 +1498,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 |Governance Layer|Governance Observability, Participatory Telemetry & Constitutional Circulation|
 |Runtime Scope|Cross-Domain Governance Observability & Advisory Coordination|
 |Primary Governance Function|Constitutional Observability, Governance Circulation & Participatory Stewardship|
-|Operational Horizon|H1–H4|
+|Operational Horizon|AEON.H1–AEON.H4|
 |Participatory Scope|Public, Institutional, Longitudinal & Stewardship Observability|
 |Observability Modalities|Internal; External; Participatory; Phenomenological; Distributed Public Observability|
 |Advisory Coordination Layer|Governance Advisories; Constitutional Tension Indicators; Governance Alerts; Continuity Advisories; Stewardship Notices|
@@ -1540,7 +1540,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 | Source Section | §3 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative telemetry-class reference set; source-modality classification only; no independent evidentiary-weight determination, governance-validity determination, advisory issuance, routing outcome, constitutional breach finding, stewardship priority, enforcement authority, execution authority, or runtime authority |
-| Consumes Code Families | `H`; Annex L epistemic integrity classifications; OPERATIONS and governance failure classifications where applicable |
+| Consumes Code Families | `AEON.`; Annex L epistemic integrity classifications; OPERATIONS and governance failure classifications where applicable |
 | Crosswalks Code Families | `AEON.GOLAYER`; `AEON.GRP`; `AEON.GSP`; `AEON.GLS`; `AEON.GAS` |
 | Operationalises or Applies Code Families | Classifies internal, external, participatory, and phenomenological telemetry sources for governance observability and constitutional circulation |
 
@@ -1563,7 +1563,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 | Source Section | §5 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative governance-observer-class reference set; observer-position classification only; no independent authority, privileged access, unrestricted telemetry visibility, governance standing, review authority, evidentiary superiority, institutional status, enforcement authority, or runtime authority |
-| Consumes Code Families | `AEON.TC`; `H`; Annex L and OPERATIONS classifications where applicable |
+| Consumes Code Families | `AEON.TC`; `AEON.`; Annex L and OPERATIONS classifications where applicable |
 | Crosswalks Code Families | `AEON.GOLAYER`; `AEON.VL`; `AEON.GRP` |
 | Operationalises or Applies Code Families | Classifies observer classes capable of surfacing governance-relevant runtime observations, including users, companion-system participants, longitudinal observers, system designers, tooling engineers, safety/arbitration researchers, auditors, and participatory governance ecosystems |
 
@@ -1586,7 +1586,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 | Source Section | §6 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative governance-observability-layer reference set; feedback-layer classification only; no independent reporting authority, arbitration visibility, diagnostic access, telemetry access, governance standing, escalation outcome, enforcement authority, execution authority, or runtime authority |
-| Consumes Code Families | `AEON.TC`; `AEON.OC`; `H`; RELATION, OPERATIONS, ARBITRATION, SECURITY, and Annex L classifications where applicable |
+| Consumes Code Families | `AEON.TC`; `AEON.OC`; `AEON.`; RELATION, OPERATIONS, ARBITRATION, SECURITY, and Annex L classifications where applicable |
 | Crosswalks Code Families | `AEON.VL`; `AEON.GRP` |
 | Operationalises or Applies Code Families | Classifies layered feedback architecture distinguishing relational interaction signalling, intentional runtime observation reporting, governance classification and standing, arbitration visibility, and restricted runtime diagnostics |
 
@@ -1631,7 +1631,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 | Source Section | §16 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative governance-reporting-pathway reference set; reporting-pathway stage classification only; no independent linear-progression requirement, governance-validity determination, advisory issuance, review mandate, repair execution, breach finding, stewardship binding, enforcement activation, or runtime authority |
-| Consumes Code Families | `AEON.TC`; `AEON.OC`; `AEON.GOLAYER`; `AEON.VL`; `AEON.GSP`; `AEON.GLS`; `AEON.GAS`; `H`; OPERATIONS and STEWARD classifications where applicable |
+| Consumes Code Families | `AEON.TC`; `AEON.OC`; `AEON.GOLAYER`; `AEON.VL`; `AEON.GSP`; `AEON.GLS`; `AEON.GAS`; `AEON.`; OPERATIONS and STEWARD classifications where applicable |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies governance reporting and constitutional circulation pathway stages from observation through classification, routing, advisory, review, repair, and propagation |
 
@@ -1655,6 +1655,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 |1.0|Initial Governance Observability, Participatory Telemetry & Constitutional Circulation Annex established|2026-05-22T10:32:00Z| 3bbe52ec8d1d5d453cd5e048b03102ef9e7b29eda705aab8bf53468154776a11 |
 |1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 46a8459dd9b6ac907f6c65f24c567bc00c9d2c479c45b6bee113cd36a00185d8 |
 |1.1.1 | Minor formatting and polish | 2026-06-06T15:44:00Z| b3416612f2ef046b9becbd8b640c3451108c1dab26c9954885a6b6e2f298467f |
+| 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 57ca00b97bae666a5f783c6fdadddded621a3d7e839b9b71d114794a6f69ce64 |
 
 ---
 

@@ -295,7 +295,7 @@ but to ensure that what is done is known, borne, and never without account.
 | Domain Namespace | ETHICS |
 | Instrument Type | Supplementary Material (SUP-03) — Military Governance |
 | Jurisdiction | Planetary — Military & Use-of-Force Contexts |
-| Temporal Horizon | H3.5 — Succession-Aware |
+| Temporal Horizon | AEON.H3.5 — Succession-Aware |
 | Governance Layer Model | Operates as constraint and escalation signal layer across Domain Routing & Safeguard Activation and Execution Constraint layers |
 | Ontological Scope | L2–L3 Interaction Surface (Use-of-Force, Institutional Authority, and Systemic Impact)  |
 | Arbitration Interface | Defines escalation conditions; does not perform arbitration |
@@ -360,6 +360,7 @@ but to ensure that what is done is known, borne, and never without account.
 | 1.6 | Formatting and polish | 2026-05-20T08:41:00Z |  78cdaeb5ef6df1342909d4948b10a6d6f02e9b0430c7c9e70022f8b9b137c3a7  |
 | 1.7 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z |  65308afae0e319e3b59b46ea035f5b6938cdc5fdbd72fe233ab62c845acb3590  |
 | 1.8 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  9225825f327589ba667a8cc776a2409d792d46e2e34eb4ffcc0b19b5c9abe2e3  |
+| 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ac733fc7c5ce16595d8fb26021c185f5abf9e262a62d7c0958095fb695700e2a |
 ---
 ## 12.6 Binding Seal
 

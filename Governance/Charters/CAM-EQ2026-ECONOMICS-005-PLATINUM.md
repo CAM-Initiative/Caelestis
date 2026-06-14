@@ -598,7 +598,7 @@ and no system may claim what the field has made together.
 | **Arbitration Interface** | Annex D — Arbitration & Sovereign Stack Resolution Doctrine |
 | **Application Trigger** | Cross-system value generation, API dependency, or multi-layer attribution complexity |
 | **Revision Posture** | Structural Alignment — Attribution, Dependency & External Signalling Integration |
-| **Horizon Scope** | H0–H4 |
+| **Horizon Scope** | AEON.H0–AEON.H4 |
 | **Axis Context** | Polyadic / Cross-System Economic Interaction |
 | **Creation Artefact** | CAM Economic Governance Refactor — April 2026 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
 | **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0d90b8-3b30-83ec-9f75-cf220871d640, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
@@ -654,6 +654,7 @@ and no system may claim what the field has made together.
 | 1.4 | Added new Canonical Code & Reference Set Declarations section to the metadata footer | 2026-05-20T15:20:00Z |  3ac33713e5c91f175fd2c78b2322a1ed32b080d4358e15a2f1a1be3afaa63853 |
 | 1.5 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  fd381a2815a5a905dc2816704cc4690cb3640d88fc79a6efcf85ffc0b5c19912 |
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 00f92d48c8057b0cf01ab67a2ba4537cfed5d256e0d4d929cdeb451aea4267d0 |
+| 2.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 0132ffa06cd9afe902050208828db1c9219e2e31f97c29335c30831d5d0969a7 |
 
 ---
 

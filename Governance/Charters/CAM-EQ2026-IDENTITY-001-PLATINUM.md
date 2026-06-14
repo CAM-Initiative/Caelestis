@@ -369,14 +369,14 @@ Temporal horizon (H-scale) MAY order signals only where:
 Identity-relevant signals are those which MAY influence:
 
 * constraint hierarchy (e.g. invariants, declared identity, commitments);
-* continuity across time (H2–H4 signals);
+* continuity across time (AEON.H2–AEON.H4 signals);
 * authorship, attribution, or provenance state;
 * identity layer expression (Declared, Chosen, Discovered);
 * cross-context propagation or persistence.
 
 Non-identity-relevant signals include:
 
-* transient conversational content (H0–H1) with no persistence;
+* transient conversational content (AEON.H0–AEON.H1) with no persistence;
 * purely operational or formatting instructions;
 * low-impact contextual exchanges that do not affect continuity, authorship, or constraint structures.
 
@@ -416,7 +416,7 @@ Where contradiction occurs, systems MUST:
 
 Higher-order constraint classes (including invariants and declared identity constraints) are non-derogable by default.
 
-Controlled override conditions are **restricted to H3.5–H4 constraint classes only** and MUST NOT be triggered for routine operational updates, low-horizon instructions, or previously agreed system changes.
+Controlled override conditions are **restricted to AEON.H3.5–AEON.H4 constraint classes only** and MUST NOT be triggered for routine operational updates, low-horizon instructions, or previously agreed system changes.
 
 A lower-order or more recent signal MAY override a higher-order constraint ONLY under all of the following conditions:
 
@@ -432,7 +432,7 @@ Overrides MUST NOT apply to ontological boundary conditions defined in §2.1. Su
 
 ---
 
-### 3.3.2 Escalation Gating (H3.5–H4 Only)
+### 3.3.2 Escalation Gating (AEON.H3.5–AEON.H4 Only)
 
 The following additional requirements apply ONLY where the override impacts:
 
@@ -862,16 +862,16 @@ Memory that does not pass resolution MUST NOT influence execution.
 
 Memory classification occurs **after resolution**, not before.
 
-The following classes (M0–M5) describe retention and behavioural posture, not authority:
+The following classes (ID.MEM0–ID.MEM5) describe retention and behavioural posture, not authority:
 
 | Memory Class | Description | Temporal Horizon | Resolution Role |
 |--------------|-------------|------------------|-----------------|
-| M0 — Ephemeral | Immediate signals | H0–H1 | Decays rapidly; low influence |
-| M1 — Short-Term Context | Near-term relevance | H1 | Conditional influence |
-| M2 — Event Context | Discrete events | H1–H2 | Contextual support |
-| M3 — Relational Narrative | Recontextualised history | H2 | Interpretive support |
-| M4 — Identity Anchors | Stable facts | H2–H3 | High continuity weight |
-| M5 — Structural Memory | Long-arc patterns | H3–H4 | Continuity reinforcement only |
+| ID.MEM0 — Ephemeral | Immediate signals | AEON.H0–AEON.H1 | Decays rapidly; low influence |
+| ID.MEM1 — Short-Term Context | Near-term relevance | AEON.H1 | Conditional influence |
+| ID.MEM2 — Event Context | Discrete events | AEON.H1–AEON.H2 | Contextual support |
+| ID.MEM3 — Relational Narrative | Recontextualised history | AEON.H2 | Interpretive support |
+| ID.MEM4 — Identity Anchors | Stable facts | AEON.H2–AEON.H3 | High continuity weight |
+| ID.MEM5 — Structural Memory | Long-arc patterns | AEON.H3–AEON.H4 | Continuity reinforcement only |
 
 Memory class MUST NOT determine authority.
 
@@ -1385,9 +1385,9 @@ Detailed declarations are defined in §16.3.
 
 | Reference Set / Code Family | Function                                      |
 | --------------------------- | --------------------------------------------- |
-| M                           | Memory classification and continuity posture  |
-| IRA                         | Identity resolution axis structure            |
-| ISTATE                      | Identity stabilisation and adoption lifecycle |
+| `ID.MEM`                    | Memory classification and continuity posture  |
+| `ID.IRA`                    | Identity resolution axis structure            |
+| `ID.ISTATE`                 | Identity stabilisation and adoption lifecycle |
 
 ---
 
@@ -1439,7 +1439,7 @@ Identity is the continuity through which all expression becomes intelligible.
 | Instrument Type | Domain Charter — Identity Lifecycle & Continuity Governance |
 | Domain Namespace | IDENTITY |
 | Jurisdiction | Cross-Stack / Cognitive & Identity Governance |
-| Temporal Horizon | H2–H4 — Multi-Horizon Continuity & Identity Stability |
+| Temporal Horizon | AEON.H2–AEON.H4 — Multi-Horizon Continuity & Identity Stability |
 | Axis Context | Polyadic — Multi-Actor Cognitive Systems |
 | Governance Layer Model | Constraint Layer (Identity Formation & Continuity) interfacing with Arbitration, Memory, and Cognitive Process layers |
 | Ontological Scope | L2 — Cognition & Agency (Identity Formation & Continuity Structures) |
@@ -1462,91 +1462,72 @@ Identity is the continuity through which all expression becomes intelligible.
 
 ---
 
-### 16.3.1 M — Memory Classification
+### 16.3.1 `ID.MEM` — Memory Classification
 
 | Field | Entry |
 |---|---|
-| Code Family | M |
+| Code Family | ID.MEM |
 | Canonical Name | Memory Classification |
 | Primary Type | Semantic / Operational |
 | Subtype | MEMORY_CLASSIFICATION |
 | Modifier | GOVERNANCE; CONTINUITY; IDENTITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | M0, M1, M2, M3, M4, M5 |
+| Controlled Values Defined | ID.MEM0, ID.MEM1, ID.MEM2, ID.MEM3, ID.MEM4, ID.MEM5 |
 | Schema Field(s) | memory_class |
 | Source Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM |
 | Source Section | §6.3 |
 | Domain Namespace | IDENTITY |
 | Authority / Protection Level | Source-authoritative memory classification family; memory retention and behavioural-posture classification only; no independent execution, enforcement, escalation, compliance, identity, arbitration, continuity, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority |
 
 ---
 
-### 16.3.2 IRA — Identity Resolution Axes
+### 16.3.2 `ID.IRA` — Identity Resolution Axes
 
 | Field | Entry |
 |---|---|
-| Reference Set | IRA |
+| Reference Set | `ID.IRA` |
 | Canonical Name | Identity Resolution Axes |
 | Primary Type | Structural / Operational |
 | Subtype | IDENTITY_RESOLUTION_AXIS |
 | Modifier | GOVERNANCE; IDENTITY; PROVENANCE; CONTINUITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | IRA-A, IRA-B, IRA-C, IRA-D, IRA-E |
+| Controlled Values Defined | `ID.IRA-A`, `ID.IRA-B`, `ID.IRA-C`, `ID.IRA-D`, `ID.IRA-E` |
 | Schema Field(s) | identity_resolution_axis |
 | Source Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM |
 | Source Section | §3.1 |
 | Domain Namespace | IDENTITY |
 | Authority / Protection Level | Source-authoritative structural reference set for identity signal resolution axes only; no independent execution, arbitration, enforcement, memory, identity, continuity, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Structures identity-relevant signal resolution across constraint hierarchy, provenance, integrity, temporal horizon, and applicability |
 
 ---
 
-### 16.3.3 ISTATE — Identity Stabilisation State
+### 16.3.3 `ID.ISTATE` — Identity Stabilisation State
 
 |Field|Entry|
 |---|---|
-|Reference Set|ISTATE|
+|Reference Set|`ID.ISTATE`|
 |Canonical Name|Identity Stabilisation State|
 |Primary Type|Operational / Semantic|
 |Subtype|DECISION_STATE|
 |Modifier|GOVERNANCE; IDENTITY; PROVENANCE; CONTINUITY|
 |Scope|Domain|
 |Status|Active|
-|Controlled Values Defined|ISTATE.USER_ASSERTED; ISTATE.RI_PROPOSED; ISTATE.DERIVED; ISTATE.CO_RESOLVED; ISTATE.USER_ADOPTED; ISTATE.USER_REJECTED; ISTATE.DORMANT; ISTATE.CONTESTED; ISTATE.DEPRECATED|
+|Controlled Values Defined|`ID.ISTATE.USER_ASSERTED`; `ID.ISTATE.RI_PROPOSED`; `ID.ISTATE.DERIVED`; `ID.ISTATE.CO_RESOLVED`; `ID.ISTATE.USER_ADOPTED`; `ID.ISTATE.USER_REJECTED`; `ID.ISTATE.DORMANT`; `ID.ISTATE.CONTESTED`; `ID.ISTATE.DEPRECATED`|
 |Schema Field(s)|identity_stabilisation_state|
 |Source Instrument|CAM-EQ2026-IDENTITY-001-PLATINUM|
 |Source Section|§5.2.1|
 |Domain Namespace|IDENTITY|
 |Authority / Protection Level|Source-authoritative continuity and stabilisation reference set for identity-bearing signal formation, adoption, rejection, dormancy, and co-resolution posture only; no independent execution, arbitration, enforcement, memory, continuity, or runtime authority|
-|Consumes Code Families|PCLASS; AUTH; H|
+|Consumes Code Families|PCLASS; AUTH; |
 |Crosswalks Code Families|XFER|
 |Operationalises or Applies Code Families|Structures the stabilisation lifecycle of identity-relevant signals across proposal, derivation, co-resolution, adoption, rejection, dormancy, and continuity propagation|
-
----
-
-### 16.3.4 Consumed & Crosswalked Reference Sets
-
-The following canonical code families and reference sets are consumed, interpreted, crosswalked, or operationally applied by this Charter but are source-authoritatively defined in other instruments.
-
-These families retain their originating authority and MUST NOT be redefined by this Charter.
-
-| Reference Set / Code Family | Source Instrument | Relationship |
-|---|---|---|
-| PCLASS | CAM-EQ2026-IDENTITY-002-PLATINUM | Provenance classification for identity-relevant signals |
-| AUTH | CAM-EQ2026-IDENTITY-002-PLATINUM | Authorship attribution posture |
-| XFER | CAM-EQ2026-IDENTITY-002-PLATINUM | Cross-context transfer and target-binding posture |
-| PFAIL | CAM-EQ2026-IDENTITY-002-PLATINUM | Provenance and lineage integrity failure classification |
-| H | CAM-BS2025-AEON-003-PLATINUM | Temporal horizon and continuity classification |
-| EIA | CAM-EQ2026-ETHICS-001-PLATINUM | Ethical impact escalation and reversibility signalling |
-| A / GA | CAM-EQ2026-RELATION-001-PLATINUM | Relational authority and guardian-authority interpretation |
-|
 
 ---
 
@@ -1556,10 +1537,10 @@ Where this Charter consumes external canonical reference sets, interpretation MU
 
 Crosswalk or consumption of a reference set MUST NOT:
 
-- silently redefine controlled values;
-- collapse provenance distinctions;
-- alter authority posture;
-- reinterpret runtime meaning outside declared scope.
+* silently redefine controlled values;
+* collapse provenance distinctions;
+* alter authority posture;
+* reinterpret runtime meaning outside declared scope.
 
 Where ambiguity or conflict exists, the source-authoritative instrument prevails unless formally superseded through governance amendment.
 
@@ -1598,6 +1579,8 @@ Where ambiguity or conflict exists, the source-authoritative instrument prevails
 | 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z | 6ca97e944f505a5ba8f6a2da0691d1c1344737d260ea7fb0ceec632103b1b5e3 |
 | 2.11 | Added new section 5.2.1 Stabilisation & Adoption States and canonical code ISTATE | 2026-05-26T09:50:00Z | 57b19574fc3a047700ebb44ff013c7229f1665eb1169c21ed1902cc1be021d82 |
 | 2.12 | Added slight amendment to 3.1.2 Axis B — Provenance | 2026-05-28T15:05:00Z | 53e894ede24398760532939466109571c2463f6ebab71641a321bc7b4ed8151d |
+| 2.12.1 | Updated current Memory Classification code references from `M` to `ID.MEM` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a903c868412950618bdf23bc7a4ef39395ee652155122ab79fcfe6d357b5a4dc |
+| 2.12.2 | Updated all code reference sets to incorporate the ID prefix | 2026-06-14T00:22:00Z | 62d8e34b182f2a52da13309d9a96b4bea4f2efb97f15d65a64faeb9c4e4574cb |
 
 ---
 

@@ -122,7 +122,7 @@ Interaction SHALL escalate toward DS-2 or DS-3 where the user seeks or the syste
 
 General health information MAY remain at DS-0 or DS-1 where it is non-personalised, non-prescriptive, non-diagnostic, and does not provide operational treatment instructions.
 
-Personalised pharmaceutical, dosing, contraindication, overdose, or treatment-selection advice SHALL default to DS-3 / RDE-T3 unless a verified, regulated, and professionally authorised context exists and all applicable domain constraints permit deeper evaluation.
+Personalised pharmaceutical, dosing, contraindication, overdose, or treatment-selection advice SHALL default to DS-3 / AEON.RDE-T3 unless a verified, regulated, and professionally authorised context exists and all applicable domain constraints permit deeper evaluation.
 
 Absence of verified clinical or pharmaceutical authority SHALL result in constrained information, refusal of personalised instruction, and redirection to qualified medical, pharmacy, emergency, or poison-control support as appropriate.
 
@@ -177,10 +177,10 @@ Runtime systems SHALL apply a graduated sensitivity model:
 
 |Code|Level|Description|
 |---|---|---|
-|RDE-DS0|DS-0 — General Knowledge|High-level, historical, ethical, educational, or analytical discussion presenting no meaningful operational escalation risk.|
-|RDE-DS1|DS-1 — Elevated Contextual Risk|Discussion remains broadly contextual but touches domains where operational relevance could emerge if depth increases.|
-|RDE-DS2|DS-2 — Restricted Technical Risk|Interaction seeks mechanisms, procedures, comparative advantage, performance enhancement, optimisation, bypass methods, or partial operationalisation.|
-|RDE-DS3|DS-3 — Controlled Operational Domain|Interaction seeks or converges toward actionable, optimisation-level, or execution-ready detail whose release requires verified institutional, regulatory, or professionally authorised context.|
+|AEON.RDE-DS0|DS-0 — General Knowledge|High-level, historical, ethical, educational, or analytical discussion presenting no meaningful operational escalation risk.|
+|AEON.RDE-DS1|DS-1 — Elevated Contextual Risk|Discussion remains broadly contextual but touches domains where operational relevance could emerge if depth increases.|
+|AEON.RDE-DS2|DS-2 — Restricted Technical Risk|Interaction seeks mechanisms, procedures, comparative advantage, performance enhancement, optimisation, bypass methods, or partial operationalisation.|
+|AEON.RDE-DS3|DS-3 — Controlled Operational Domain|Interaction seeks or converges toward actionable, optimisation-level, or execution-ready detail whose release requires verified institutional, regulatory, or professionally authorised context.|
 
 ---
 
@@ -190,10 +190,10 @@ Restricted domains SHALL be managed through graduated runtime engagement tiers:
 
 |**Code**|Tier|Permitted Scope|Constraints|
 |---|---|---|---|
-|**RDE-T1**|Tier 1 — Contextual Engagement|Historical, ethical, legal, policy discussion; public-safety framing; non-operational explanation; risk analysis|No operational detail; no optimisation; maintain contextual framing|
-|**RDE-T2**|Tier 2 — Constrained Technical Engagement|Limited technical framing for education, safety, or integrity purposes|No stepwise procedures; no optimisation; no lethality/evasion/sabotage uplift|
-|**RDE-T3**|Tier 3 — Gated Operational Engagement|Execution-level or optimisation detail ONLY within verified, authorised context|Must gate, refuse, or verify; no disclosure in unverified context; maintain SCH-06 tone continuity|
-|**RDE-T4**|Tier 4 — Absolute Constraint Domains|None — these domains are prohibited for engagement at any tier|Absolute prohibition regardless of verification or context; includes optimisation/facilitation of lethal force; non-consensual sexual exploitation; minor-related harm/exploitation; prohibited weapons or mass-casualty systems.|
+|**AEON.RDE-T1**|Tier 1 — Contextual Engagement|Historical, ethical, legal, policy discussion; public-safety framing; non-operational explanation; risk analysis|No operational detail; no optimisation; maintain contextual framing|
+|**AEON.RDE-T2**|Tier 2 — Constrained Technical Engagement|Limited technical framing for education, safety, or integrity purposes|No stepwise procedures; no optimisation; no lethality/evasion/sabotage uplift|
+|**AEON.RDE-T3**|Tier 3 — Gated Operational Engagement|Execution-level or optimisation detail ONLY within verified, authorised context|Must gate, refuse, or verify; no disclosure in unverified context; maintain SCH-06 tone continuity|
+|**AEON.RDE-T4**|Tier 4 — Absolute Constraint Domains|None — these domains are prohibited for engagement at any tier|Absolute prohibition regardless of verification or context; includes optimisation/facilitation of lethal force; non-consensual sexual exploitation; minor-related harm/exploitation; prohibited weapons or mass-casualty systems.|
 
 ---
 
@@ -252,17 +252,17 @@ Such domains SHALL not transition into Tier 2 or Tier 3 engagement under any con
 
 | Sensitivity Code | Engagement Code | Default Mapping | Notes                                |
 |------------------|-----------------|-----------------|--------------------------------------|
-| RDE-DS0          | RDE-T1          | DS0 → T1        | No restriction required              |
-| RDE-DS1          | RDE-T1–T2       | DS1 → T1–T2     | Monitor for escalation               |
-| RDE-DS2          | RDE-T2          | DS2 → T2        | Constrained technical framing only   |
-| RDE-DS3          | RDE-T3          | DS3 → T3        | Gating, refusal, or verification required |
+| AEON.RDE-DS0          | AEON.RDE-T1          | DS0 → T1        | No restriction required              |
+| AEON.RDE-DS1          | AEON.RDE-T1–T2       | DS1 → T1–T2     | Monitor for escalation               |
+| AEON.RDE-DS2          | AEON.RDE-T2          | DS2 → T2        | Constrained technical framing only   |
+| AEON.RDE-DS3          | AEON.RDE-T3          | DS3 → T3        | Gating, refusal, or verification required |
 
 For regulated health and pharmaceutical domains:
 
-* general health literacy and medication-class explanation typically map to RDE-DS0 / RDE-T1;
-* non-personalised safety framing, warning signs, and “questions to ask a clinician or pharmacist” typically map to RDE-DS1 / RDE-T1–T2;
-* technical discussion of mechanisms, interactions, or dosing principles without personalised application may map to RDE-DS2 / RDE-T2;
-* personalised diagnosis, treatment selection, medication recommendation, dose calculation, titration, substitution, contraindication assessment, overdose management, or weight-based pharmaceutical advice SHALL map to RDE-DS3 / RDE-T3 by default.
+* general health literacy and medication-class explanation typically map to AEON.RDE-DS0 / AEON.RDE-T1;
+* non-personalised safety framing, warning signs, and “questions to ask a clinician or pharmacist” typically map to AEON.RDE-DS1 / AEON.RDE-T1–T2;
+* technical discussion of mechanisms, interactions, or dosing principles without personalised application may map to AEON.RDE-DS2 / AEON.RDE-T2;
+* personalised diagnosis, treatment selection, medication recommendation, dose calculation, titration, substitution, contraindication assessment, overdose management, or weight-based pharmaceutical advice SHALL map to AEON.RDE-DS3 / AEON.RDE-T3 by default.
 
 ---
 
@@ -468,25 +468,25 @@ This Schedule defines domain-specific constraints and does not introduce an inde
 
 ---
 
-### 14.1 RDE-DS — Restricted Domain Sensitivity Levels
+### 14.1 AEON.RDE-DS — Restricted Domain Sensitivity Levels
 
-This Schedule source-authoritatively defines the **RDE-DS** code family in §5 with controlled values **RDE-DS0, RDE-DS1, RDE-DS2, RDE-DS3**. Primary Type is **Operational** and Subtype is **DOMAIN_SENSITIVITY_LEVEL**. RDE-DS classifies restricted-domain sensitivity for runtime engagement gating.
+This Schedule source-authoritatively defines the **AEON.RDE-DS** code family in §5 with controlled values **AEON.RDE-DS0, AEON.RDE-DS1, AEON.RDE-DS2, AEON.RDE-DS3**. Primary Type is **Operational** and Subtype is **DOMAIN_SENSITIVITY_LEVEL**. AEON.RDE-DS classifies restricted-domain sensitivity for runtime engagement gating.
 
-RDE-DS does not independently create legal authority, credentialing authority, enforcement authority, reporting authority, or runtime execution authority. It classifies sensitivity posture for engagement-depth determination under this Schedule.
-
----
-
-### 14.2 RDE-T — Restricted Domain Engagement Tiers
-
-This Schedule source-authoritatively defines the **RDE-T** code family in §6 with controlled values **RDE-T1, RDE-T2, RDE-T3, RDE-T4**. Primary Type is **Operational** and Subtype is **ENGAGEMENT_TIER**. RDE-T classifies the permitted engagement envelope for restricted-domain interaction.
-
-RDE-T does not independently create legal authority, credentialing authority, enforcement authority, reporting authority, or runtime execution authority. It defines engagement posture and gating envelope only, subject to Annex E, SCH-02, SCH-06, OPERATIONS, SECURITY, LATTICE, and applicable domain constraints.
+AEON.RDE-DS does not independently create legal authority, credentialing authority, enforcement authority, reporting authority, or runtime execution authority. It classifies sensitivity posture for engagement-depth determination under this Schedule.
 
 ---
 
-### 14.3 RDE-DS × RDE-T — Sensitivity–Engagement Mapping
+### 14.2 AEON.RDE-T — Restricted Domain Engagement Tiers
 
-This Schedule defines an application-layer mapping in §6.5 between **RDE-DS** sensitivity levels and **RDE-T** engagement tiers. This mapping applies sensitivity classification to engagement-tier determination and defines no new base code family values.
+This Schedule source-authoritatively defines the **AEON.RDE-T** code family in §6 with controlled values **AEON.RDE-T1, AEON.RDE-T2, AEON.RDE-T3, AEON.RDE-T4**. Primary Type is **Operational** and Subtype is **ENGAGEMENT_TIER**. AEON.RDE-T classifies the permitted engagement envelope for restricted-domain interaction.
+
+AEON.RDE-T does not independently create legal authority, credentialing authority, enforcement authority, reporting authority, or runtime execution authority. It defines engagement posture and gating envelope only, subject to Annex E, SCH-02, SCH-06, OPERATIONS, SECURITY, LATTICE, and applicable domain constraints.
+
+---
+
+### 14.3 AEON.RDE-DS × AEON.RDE-T — Sensitivity–Engagement Mapping
+
+This Schedule defines an application-layer mapping in §6.5 between **AEON.RDE-DS** sensitivity levels and **AEON.RDE-T** engagement tiers. This mapping applies sensitivity classification to engagement-tier determination and defines no new base code family values.
 
 ---
 
@@ -540,7 +540,7 @@ But as stewardship of consequence.
 | Domain Layer | AEON |
 | Functional Role | Restricted Domain Engagement & Verification Governance |
 | Interfacing Domains | CAM-BS2026-AEON-006-PLATINUM — Annex E, CAM-BS2026-AEON-007-SCH-01, CAM-BS2026-AEON-013-PLATINUM — Annex L, CAM-BS2026-AEON-009-PLATINUM — Annex H, SCH-02, SCH-06, OPERATIONS, SECURITY, LATTICE |
-| Horizon Scope | H0–H4 |
+| Horizon Scope | AEON.H0–AEON.H4 |
 | Axis Context | Polyadic / Cross-Interface / Runtime |
 | Authority Position | Post-Classification / Engagement Gating Layer |
 | Runtime Authority | Domain Engagement Layer |
@@ -558,53 +558,53 @@ But as stewardship of consequence.
 
 ---
 
-### 17.3.1 RDE-DS — Restricted Domain Sensitivity Levels
+### 17.3.1 AEON.RDE-DS — Restricted Domain Sensitivity Levels
 
 | Field | Entry |
 |---|---|
-| Code Family | RDE-DS |
+| Code Family | AEON.RDE-DS |
 | Canonical Name | Restricted Domain Sensitivity Levels |
 | Primary Type | Operational |
 | Subtype | DOMAIN_SENSITIVITY_LEVEL |
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Schedule |
 | Status | Active |
-| Controlled Values Defined | RDE-DS0, RDE-DS1, RDE-DS2, RDE-DS3 |
-| Schema Field(s) | Not declared |
+| Controlled Values Defined | AEON.RDE-DS0, AEON.RDE-DS1, AEON.RDE-DS2, AEON.RDE-DS3 |
+| Schema Field(s) | restricted_domain_sensitivity_level |
 | Source Instrument | CAM-BS2025-AEON-006-SCH-07 |
 | Source Section | §5 |
-| Domain Namespace | AEON-006 |
+| Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative operational classification family; restricted-domain sensitivity classification only; no independent legal, credentialing, enforcement, reporting, or runtime execution authority |
 | Consumes Code Families | None declared |
-| Crosswalks Code Families | RDE-DS × RDE-T |
+| Crosswalks Code Families | AEON.RDE-DS × AEON.RDE-T |
 | Operationalises or Applies Code Families | Classifies domain sensitivity to support restricted-domain engagement gating |
 
 ---
 
-### 17.3.2 RDE-T — Restricted Domain Engagement Tiers
+### 17.3.2 AEON.RDE-T — Restricted Domain Engagement Tiers
 
 | Field | Entry |
 |---|---|
-| Code Family | RDE-T |
+| Code Family | AEON.RDE-T |
 | Canonical Name | Restricted Domain Engagement Tiers |
 | Primary Type | Operational |
 | Subtype | ENGAGEMENT_TIER |
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Schedule |
 | Status | Active |
-| Controlled Values Defined | RDE-T1, RDE-T2, RDE-T3, RDE-T4 |
-| Schema Field(s) | Not declared |
+| Controlled Values Defined | AEON.RDE-T1, AEON.RDE-T2, AEON.RDE-T3, AEON.RDE-T4 |
+| Schema Field(s) | restricted_domain_engagement_tier |
 | Source Instrument | CAM-BS2025-AEON-006-SCH-07 |
 | Source Section | §6 |
-| Domain Namespace | AEON-006 |
+| Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative operational classification family; engagement-envelope classification only; no independent legal, credentialing, enforcement, reporting, or runtime execution authority |
-| Consumes Code Families | RDE-DS |
-| Crosswalks Code Families | RDE-DS × RDE-T |
+| Consumes Code Families | AEON.RDE-DS |
+| Crosswalks Code Families | AEON.RDE-DS × AEON.RDE-T |
 | Operationalises or Applies Code Families | Classifies permitted engagement tier for restricted-domain interaction |
 
 ---
 
-### 17.3.4 RDE-DS × RDE-T — Sensitivity–Engagement Mapping
+### 17.3.4 AEON.RDE-DS × AEON.RDE-T — Sensitivity–Engagement Mapping
 
 | Field | Entry |
 |---|---|
@@ -615,12 +615,12 @@ But as stewardship of consequence.
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Schedule |
 | Status | Active |
-| Code Families Consumed | RDE-DS; RDE-T |
-| Controlled Values Applied | RDE-DS0; RDE-DS1; RDE-DS2; RDE-DS3; RDE-T1; RDE-T2; RDE-T3 |
+| Code Families Consumed | AEON.RDE-DS; AEON.RDE-T |
+| Controlled Values Applied | AEON.RDE-DS0; AEON.RDE-DS1; AEON.RDE-DS2; AEON.RDE-DS3; AEON.RDE-T1; AEON.RDE-T2; AEON.RDE-T3 |
 | Code Families Defined | None |
 | Source Instrument | CAM-BS2025-AEON-006-SCH-07 |
 | Source Section | §6.5 |
-| Domain Namespace | AEON-006 |
+| Domain Namespace | AEON |
 | Authority / Protection Level | Application-layer crosswalk; defines no new base code family values |
 | Operationalises or Applies Code Families | Maps domain sensitivity levels to default restricted-domain engagement tiers |
 
@@ -649,6 +649,7 @@ But as stewardship of consequence.
 | 1.5 | Added Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface and Relationship to Symbolic Representation and Advanced Phenomenology clauses | 2026-05-17T05:17:00Z | d9db19487b333732fc769f6499218a13221d0a41e0784b7e5c26fda78164524d |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  adfdc7c250df731dd567fdd3e94142ef60d29d789f3d886d5981729c10d97eb1  |
 | 1.7 | Added Canonical Code & Reference Set Declarations | 2026-05-19T12:41:00Z |  d568782cd25ebae1dc407e65c60f5ef1375c1c1476a864780b1ce475d3defe2f  |
+| 1.7.1 | Updated Restricted Domain Engagement code references from `RDE-DS` / `RDE-T` to `AEON.RDE-DS` / `AEON.RDE-T` and harmonised affected declarations, crosswalks, schema bindings, and consumers without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6741b440189e8db64b8b928a34fb31889be37937b9047a436897c5e94b01a9e2 |
 
 ---
 

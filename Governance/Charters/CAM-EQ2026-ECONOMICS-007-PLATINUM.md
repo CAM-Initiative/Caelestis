@@ -1128,7 +1128,7 @@ Where growth is built upon others, let return follow in kind.
 | **Application Trigger**    | Cross-system value capture where dependency and scale are present   |
 | **Revision Posture**       | Structural Expansion — Reciprocity Sufficiency & Scale Integration  |
 | **Creation Context**       | CAM Economic Governance Refactor — April 2026                       |
-| **Horizon Scope**          | H0–H4                                                               |
+| **Horizon Scope**          | AEON.H0–AEON.H4                                                               |
 | **Axis Context**           | Cross-System / Economic Alignment                                   |
 | **Creation Artefact**      | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da|
 | **Amendment Artefacts**     | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a1835fe-3e38-83ec-b97d-1727c3c4eff5 |
@@ -1307,6 +1307,7 @@ Where growth is built upon others, let return follow in kind.
 | 2.1 | Amended clause 5.11, formatting and polish, and normalised Appendix C title reference to canonical “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | e0391ff1e1196acaa9013d78b11a5a7716088a9a9e5c753884a4531f6f29cf28 |
 | 2.2 | Canonical-code registry hierarchy clarification: ECON.REI.DW and ECON.REI.SW declared as subfamilies of ECON.REI with explicit Family Kind and Parent Family metadata for index generation. | 2026-05-27T00:00:00Z |  ef5d41b2b671ed9eacad47db5e740cfaad8cbd8a03b305fe851970c19ca73f0e |
 | 2.3 | Added clause 5.10. (G) High Corpus-Reliance Disclosure Condition | 2026-05-28T14:01:00Z | e3d9eb402a46f29e6b9467d8e6a219d20d5ddc24efe0704f47562b0aad27acd0 |
+| 2.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 4b9ae0ad9cedbcc07e916f4e77e9b7a900a5b9468cdee52908e599d094002500 |
 
 ---
 

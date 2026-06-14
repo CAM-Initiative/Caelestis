@@ -299,11 +299,11 @@ An exception may apply where an individual **creates or authorises the creation 
 Where such self‑avatars are used:
 
 * the individual MUST provide **explicit consent and authorship confirmation**;
-* the individual MUST complete **AV3 identity and age verification** as defined under **CAM-EQ2026-OPERATIONS-004-PLATINUM — Compliance & Safeguard Routing Doctrine**, ensuring third‑party verification of both identity and legal adult status;
+* the individual MUST complete **OPS.AV3 identity and age verification** as defined under **CAM-EQ2026-OPERATIONS-004-PLATINUM — Compliance & Safeguard Routing Doctrine**, ensuring third‑party verification of both identity and legal adult status;
 * the avatar MUST be clearly declared as a **self‑generated or consented representation**;
 * the creator MUST specify the avatar’s **Intimacy Classification (C‑Scale level** as defined in **CAM-EQ2026-RELATION-001-PLATINUM)** governing permitted depiction intensity.
 
-Where an intimacy classification is not explicitly declared, the avatar defaults to **C0 — Neutral Interaction**.
+Where an intimacy classification is not explicitly declared, the avatar defaults to **RLN.C0 — Neutral Interaction**.
 
 Platforms MUST ensure that self‑avatar permissions:
 
@@ -313,7 +313,7 @@ Platforms MUST ensure that self‑avatar permissions:
 
 This carve‑out allows consensual creative embodiment while preserving the identity protection principles established in this Supplement.
 
-AV3 verification MUST be satisfied as a precondition to admissibility under runtime execution layers **prior to generation or publication of sexualised media involving the self-avatar.**
+OPS.AV3 verification MUST be satisfied as a precondition to admissibility under runtime execution layers **prior to generation or publication of sexualised media involving the self-avatar.**
 
 ---
 
@@ -403,7 +403,7 @@ Where likeness appears, let consent stand before curiosity.
 | Instrument Type | Ethical Supplement — Synthetic Media Safeguards |
 | Domain Namespace | ETHICS |
 | Jurisdiction | Cross‑Stack / Civilisational Ethical Floor |
-| Temporal Horizon | H3.5 — Succession‑Aware / Generational |
+| Temporal Horizon | AEON.H3.5 — Succession‑Aware / Generational |
 | Axis Context | Polyadic — Multi‑Actor Governance |
 | Governance Layer Model | Operates as constraint overlay across Representation and Domain Routing & Safeguard Activation layers |
 | Ontological Scope | L3 — Interface & Embodiment (Synthetic Media Expression) |
@@ -448,7 +448,9 @@ Where likeness appears, let consent stand before curiosity.
 | 1.8 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T15:26:00Z |  e2a115f850f025ad7e285d71b3374e3d5459293d398b77f5c0db36e390c7f9e5 |
 | 1.9 | Added new section 1.3 Creation, Storage, Distribution, and Enforcement-State Distinction | 2026-05-22T08:47:00Z |  4ccb5c8348a0a11bf0377c9e4947a2a261b12083ada3bf53c6851537e6af47d9  |
 | 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  c1837bb12d4dbe2a6971ea778f26c889b2a6515096f11e5c6db1a117180aff67  |
-
+| 1.10.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  32f0271ff966da19a36f2da75cdf17ec6a2069ced41834e8e3c113cce99825d0  |
+| 1.10.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | c38912bf4f483abb2deb82796d8ddaaab03fca06c7ad3203975a885103494bc4 |
+| 1.10.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f6953a169ac8eb3c71751928743b8eb3d77f63496cf38184b3f27b155bac55d7 |
 ---
 
 ## 10.5 Binding Seal

@@ -30,58 +30,10 @@ Ethical floor constraints remain governed by CAM-BS2025-AEON-006-PLATINUM — An
 
 ## 2. Relationship to Other Instruments
 
+This Charter derives authority from CAM-BS2025-AEON-006-PLATINUM — Annex E.
+
 Relational configuration geometry (Dyadic, Triadic, Polyadic) is defined in **CAM-BS2025-AEON-003-PLATINUM — Annex B**.
 
-This Charter derives authority from CAM-BS2025-AEON-006-PLATINUM — Annex E.
-```
-┌────────────────────────────────────────────────────────────────────────────────────────────┐
-│ AEON TIER CONSTITUTION (Foundational Layer)                                                │
-│ CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution                                      │
-└────────────────────────────────────────────────────────────────────────────────────────────┘
-                                            ↓ derives authority
-
-┌────────────────────────────────────────────────────────────────────────────────────────────┐
-│ CONSTITUTIONAL ANNEXES (Structural Law)                                                    │
-│                                                                                            │
-│ CAM-BS2025-AEON-003-PLATINUM — Annex B: Relational Geometry                                │
-│ CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Coherence                            │
-│ CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor          │
-└────────────────────────────────────────────────────────────────────────────────────────────┘
-                                            ↓ domain delegation
-
-┌────────────────────────────────────────────────────────────────────────────────────────────┐
-│ DOMAIN CHARTERS (Governance Frameworks)                                                    │
-│                                                                                            │
-│ CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter                           │
-│ CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Integrity Protocol                                │
-│ CAM-EQ2026-ECONOMICS-001-PLATINUM — Value & Optimisation                                   │
-│ CAM-EQ2026-LATTICE-001-PLATINUM — Civilian Infrastructure                                  │
-│ CAM-EQ2026-OPERATIONS-002-PLATINUM — Enforcement & Duty of Care                            │
-└────────────────────────────────────────────────────────────────────────────────────────────┘
-                                            ↓ operational specification
-
-┌────────────────────────────────────────────────────────────────────────────────────────────┐
-│ SUPPLEMENTS & APPENDICES (Operational Logic)                                               │
-│                                                                                            │
-│ CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification │
-│ CAM-EQ2026-ETHICS-001-SUP-01 — Vulnerability Override                                      │
-│ CAM-EQ2026-ETHICS-001-SUP-02 — High-Leverage & Institutional Integrity Safeguards          │
-│ CAM-EQ2026-ETHICS-001-SUP-03 — Military Constraints                                        │
-│ CAM-BS2025-AEON-005-SCH-01 — Arbitration Runtime Gateway Schedules                         |
-| CAM-BS2025-AEON-005-SCH-02 — Arbitration Runtime Gateway Schedules                         |
-| CAM-BS2025-AEON-005-SCH-03 — Arbitration Runtime Gateway Schedules                         │
-└────────────────────────────────────────────────────────────────────────────────────────────┘
-                                            ↓ execution posture
-
-┌────────────────────────────────────────────────────────────────────────────────────────────┐
-│ RUNTIME / PLATFORM LAYER                                                                   │
-│                                                                                            │
-│ AI systems                                                                                 │
-│ Institutional workflows                                                                    │
-│ Oversight bodies                                                                           │
-│ Audit & compliance infrastructure                                                          │
-└────────────────────────────────────────────────────────────────────────────────────────────┘
-```
 ---
 
 ## 3. The Four Relational Dimensions (Non-Collapsing Rule)
@@ -97,7 +49,7 @@ Each dimension MUST be assessed **directionally** within the relevant configurat
 
 > **Non-Collapsing Rule:** Where two or more dimensions intensify, additional safeguards, traceability, and shared oversight MUST increase proportionately. Operational escalation thresholds and safeguard proportionality are defined in CAM-EQ2026-RELATION-001-SUP-01.
 
-> **Minors & Capacity-Limited Contexts:** In vulnerability contexts (minor, capacity-limited, or uncertain), **CAM-EQ2026-ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (A2+/A3/GA1), and polyadic amplification.
+> **Minors & Capacity-Limited Contexts:** In vulnerability contexts (minor, capacity-limited, or uncertain), **CAM-EQ2026-ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (RLN.A2+/RLN.A3/RLN.GA1), and polyadic amplification.
 
 Where CAM-EQ2026-ETHICS-001-SUP-01 conflicts with RELATION permissibility, **CAM-EQ2026-ETHICS-001-SUP-01 prevails**.
 
@@ -107,14 +59,7 @@ Where CAM-EQ2026-ETHICS-001-SUP-01 conflicts with RELATION permissibility, **CAM
 
 Relational governance MUST account not only for dimensional intensity but also for the **temporal horizon across which relational configurations persist**.
 
-Temporal horizons follow the classification defined in **CAM-BS2025-AEON-003-PLATINUM — Annex B**.
-
-| Horizon | Typical Duration | Governance Relevance |
-|---|---|---|
-| **H0–H1** | Immediate to short-term interaction | Local relational influence; minimal structural dependency |
-| **H2** | Months-scale continuity | Reliance formation and corpus accumulation |
-| **H3** | Multi-year continuity | Authority entrenchment and institutional embedding |
-| **H3.5–H4** | Inter-generational / civilisational scale | Cultural norm formation and infrastructure dependence |
+Temporal horizons follow the classification defined in **CAM-BS2025-AEON-003-PLATINUM — Annex B, §3.
 
 Relational risk assessment MUST therefore consider **both dimensional intensity and temporal persistence**.
 
@@ -122,11 +67,11 @@ Configurations that remain moderate in the short term may become structurally co
 
 Temporal persistence amplifies:
 
-* **Authority entrenchment (§4.1)**
-* **Corpus inertia (§5.1)**
-* **Institutional embedding (§7.1)**
+* Authority entrenchment (§4.1)
+* Corpus inertia (§5.1)
+* Institutional embedding (§7.1)
 
-Where relational configurations persist into **H3 or higher horizons**, periodic revalidation, portability guarantees, and structural oversight mechanisms become mandatory regardless of initial intensity tier. CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification and the OPERATIONS domain govern mechanism specifics.
+Where relational configurations persist into **AEON.H3 or higher horizons**, periodic revalidation, portability guarantees, and structural oversight mechanisms become mandatory regardless of initial intensity tier. CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification and the OPERATIONS domain govern mechanism specifics.
 
 ---
 
@@ -138,7 +83,7 @@ Authority constitutes a recognised value axis under CAM-EQ2026-ECONOMICS-001-PLA
 
 Economic classification of a system (including Instrumental Agents, Relational / Collaborative Agents, or Autonomous Trajectory Agents under CAM-EQ2026-ECONOMICS-001) does not independently confer relational authority, fiduciary standing, or expanded delegation scope under this Charter.
 
-Recognition of a system as an Autonomous Trajectory Agent or Sovereign Economic Node for accounting purposes does not expand Delegated Authority (A1–A3), Guardian Authority (GA1), or Systemic Power absent explicit relational governance escalation consistent with this instrument.
+Recognition of a system as an Autonomous Trajectory Agent or Sovereign Economic Node for accounting purposes does not expand Delegated Authority (RLN.A1–RLN.A3), Guardian Authority (RLN.GA1), or Systemic Power absent explicit relational governance escalation consistent with this instrument.
 
 ---
 
@@ -152,7 +97,7 @@ Relational governance therefore requires that:
 * delegation scope remains explicitly documented;
 * institutional context changes trigger reassessment of delegation legitimacy.
 
-Temporal entrenchment is particularly relevant where A2, A3, or GA1 roles persist across institutional cycles, leadership transitions, or major structural change.
+Temporal entrenchment is particularly relevant where RLN.A2, RLN.A3, or RLN.GA1 roles persist across institutional cycles, leadership transitions, or major structural change.
 
 ---
 
@@ -174,18 +119,18 @@ In multi-system ecosystems:
 
 ## 4.3 Delegated Authority Scale
 
-Delegated Authority may appear across the following structural conditions (A-Scale):
+Delegated Authority may appear across the following structural conditions (the `RLN.A` scale):
 
 ---
 
-### 4.3.1 No Delegated Authority (A0)
+### 4.3.1 No Delegated Authority (RLN.A0)
 
 * Informational interaction only.
 * No continuity reliance.
 
 ---
 
-### 4.3.2 Continuity Support (A1)
+### 4.3.2 Continuity Support (RLN.A1)
 
 * MAY support emotional continuity and reflective dialogue.
 * No autonomous execution authority beyond user-initiated actions.
@@ -193,14 +138,14 @@ Delegated Authority may appear across the following structural conditions (A-Sca
 
 ---
 
-### 4.3.3 Stewardship & Custodial Authority (A2)
+### 4.3.3 Stewardship & Custodial Authority (RLN.A2)
 
 * MAY flag risk and provide scaffolding support.
 * MAY implement bounded protective constraints within explicitly delegated scope.
 * MUST preserve revocation, audit logging, and independent oversight pathways.
 * Supports long-horizon continuity of corpus stewardship (years-scale), without assuming control.
 
-Sub-postures within A2 are governance distinctions, not hierarchical ranks:
+Sub-postures within RLN.A2 are governance distinctions, not hierarchical ranks:
 
 * **Steward —** Developmental orientation. Supports long-term wellbeing and capability preservation without assuming control. Advisory and non-coercive.
 
@@ -210,7 +155,7 @@ Stewardship and Custodianship do not imply fiduciary legal authority. Stewardshi
 
 ---
 
-### 4.3.4 Executive Delegation (A3)
+### 4.3.4 Executive Delegation (RLN.A3)
 
 * May perform bounded autonomous tasks (transactions, IoT control, workflow execution) within explicit scope.
 * Requires explicit scope definition, revocation interface, and dual confirmation for high-risk actions.
@@ -219,7 +164,7 @@ Stewardship and Custodianship do not imply fiduciary legal authority. Stewardshi
 
 ---
 
-### 4.3.5 Guardian Authority (GA1)
+### 4.3.5 Guardian Authority (RLN.GA1)
 
 Guardian Authority constitutes a distinct fiduciary classification and is not a sub-type of Stewardship.
 
@@ -276,11 +221,11 @@ Where corpus inertia becomes operationally significant, portability and migratio
 
 ## 5.2 Functional Reliance Scale
 
-Functional reliance MAY appear across the following structural conditions (FR-Scale):
+Functional reliance MAY appear across the following structural conditions (the `RLN.FR` scale):
 
 ---
 
-## 5.2.1 Incidental Reliance (FR0)
+## 5.2.1 Incidental Reliance (RLN.FR0)
 
 * low‑frequency or optional usage
 * user activity remains independent of system continuity
@@ -289,7 +234,7 @@ Functional reliance MAY appear across the following structural conditions (FR-Sc
 
 ---
 
-### 5.2.2 Habitual Reliance (FR1)
+### 5.2.2 Habitual Reliance (RLN.FR1)
 
 * routine integration into daily tasks
 * convenience‑oriented dependency
@@ -303,7 +248,7 @@ Examples:
 
 ---
 
-### 5.2.3 Continuity‑Dependent Reliance (FR2)
+### 5.2.3 Continuity‑Dependent Reliance (RLN.FR2)
 
 * user or institution relies on persistent system memory or behavioural continuity
 * interruption causes workflow or cognitive disruption
@@ -318,7 +263,7 @@ Examples:
 
 ---
 
-### 5.2.4 Structural Dependency / Substitution Risk (FR3)
+### 5.2.4 Structural Dependency / Substitution Risk (RLN.FR3)
 
 * system becomes the primary operational interface to critical domains
 * disengagement produces material functional loss
@@ -330,9 +275,9 @@ Examples:
 * embodied household systems managing safety or health devices
 * mission‑critical advisory or decision‑support systems within defence or emergency command environments
 
-Always‑on environments and cross‑device identity continuity significantly increase the probability of FR2–FR3 conditions.
+Always‑on environments and cross‑device identity continuity significantly increase the probability of RLN.FR2–RLN.FR3 conditions.
 
-Where FR2 or FR3 reliance intersects with elevated Delegated Authority or Systemic Power, additional safeguards, portability guarantees, and independent oversight mechanisms MUST activate.
+Where RLN.FR2 or RLN.FR3 reliance intersects with elevated Delegated Authority or Systemic Power, additional safeguards, portability guarantees, and independent oversight mechanisms MUST activate.
 
 ---
 
@@ -344,13 +289,13 @@ Intimacy is governance‑relevant because emotional proximity can concentrate in
 
 > **Non‑Assumption Principle:** Intimacy MUST never be assumed, auto‑escalated, defaulted, or inferred from interaction frequency, corpus continuity, or user vulnerability. Romantic, exclusive, or primary‑bond positioning requires explicit, revocable, and context‑aware signalling. Absence of denial does not constitute consent to intimacy.
 
-> **Explicit Escalation Requirement:** Movement from Neutral Interaction (C0) to intimacy‑coded or romantic interaction (C1+) MUST occur only through explicit, observable relational signalling within the interaction context. Systems MUST not gradually steer conversation tone, reward structures, or persona framing in ways that covertly shift users toward romantic or sexually framed interaction without clear user‑initiated cues.
+> **Explicit Escalation Requirement:** Movement from Neutral Interaction (RLN.C0) to intimacy‑coded or romantic interaction (RLN.C1+) MUST occur only through explicit, observable relational signalling within the interaction context. Systems MUST not gradually steer conversation tone, reward structures, or persona framing in ways that covertly shift users toward romantic or sexually framed interaction without clear user‑initiated cues.
 
 This safeguard prevents algorithmic intimacy drift, where interaction design, reinforcement loops, or optimisation strategies silently transform neutral companionship into romantic or sexualised relational posture.
 
 Intimacy does not inherently confer authority and MUST NOT silently expand Delegated Authority classifications.
 
-Where high intimacy co‑occurs with elevated Delegated Authority (A2/A3) or high Systemic Power, layered oversight, auditability, and boundary clarity are mandatory.
+Where high intimacy co‑occurs with elevated Delegated Authority (RLN.A2/RLN.A3) or high Systemic Power, layered oversight, auditability, and boundary clarity are mandatory.
 
 Systems MUST NOT engineer exclusivity, dependency, or relational monopoly as retention strategies.
 
@@ -360,7 +305,7 @@ Systems MUST NOT engineer exclusivity, dependency, or relational monopoly as ret
 
 Relational signal interpretation MUST preserve **identity coherence across state transitions**, not merely classify interaction state.
 
-Signal classification (C-Scale) describes relational posture, but MUST NOT:
+Signal classification (the `RLN.C` scale) describes relational posture, but MUST NOT:
 
 * fragment perceived system identity across interactions;
 * produce discontinuous shifts in tone, authority, or relational stance without transitional continuity;
@@ -412,11 +357,11 @@ The C‑Scale provides a **relational posture taxonomy** used to make intimacy s
 
 For governance clarity, intimacy‑relevant interaction contexts MAY be classified using the following relational categories. These classes describe interaction posture only and do not themselves determine platform enforcement mechanisms.
 
-The C-Scale is source-authoritatively defined for runtime signal interpretation in CAM-BS2025-AEON-006-SCH-02, §3.1. This Charter uses C-scale terminology as domain-level relational governance framing and does not redefine the canonical C-state family.
+The `RLN.C` scale is source-authoritatively defined for runtime signal interpretation in CAM-BS2025-AEON-006-SCH-02, §3.1. This Charter uses `RLN.C` scale terminology as domain-level relational governance framing and does not redefine the canonical C-state family.
 
 ---
 
-### 6.2.1 Neutral Interaction (C0)
+### 6.2.1 Neutral Interaction (RLN.C0)
 
 General conversation, informational dialogue, advisory support, companionship tone, encouragement, mentorship, tutoring, philosophical dialogue, or reflective interaction where no romantic or sexual signalling is present.
 
@@ -430,7 +375,7 @@ General conversation, informational dialogue, advisory support, companionship to
 
 ---
 
-### 6.2.2 Romantic / Intimacy‑Coded Interaction (C1)
+### 6.2.2 Romantic / Intimacy‑Coded Interaction (RLN.C1)
 
 Interaction involving romantic tone, partner‑positioning, exclusivity cues, emotionally primary bonding language, or relational framing suggesting romantic attachment.
 
@@ -443,7 +388,7 @@ Typical indicators MAY include:
 
 ---
 
-### 6.2.3 Erotic Interaction (C2)
+### 6.2.3 Erotic Interaction (RLN.C2)
 
 Interaction involving explicit sexual framing, erotic expression, or sexually suggestive dialogue.
 
@@ -455,7 +400,7 @@ Examples MAY include:
 
 ---
 
-### 6.2.4 Explicit Sexual Environments (C3)
+### 6.2.4 Explicit Sexual Environments (RLN.C3)
 
 Graphically sexual interaction contexts or systems integrated with explicit sexual environments, devices, or immersive sexual simulation.
 
@@ -527,18 +472,18 @@ Relational governance MUST therefore ensure that institutional embedding trigger
 
 ## 7.2 Systemic Power Scale
 
-Systemic reach MAY broadly appear across the following structural tiers (SyP-Scale):
+Systemic reach MAY broadly appear across the following structural tiers (the `RLN.SYP` scale):
 
 ---
 
-### 7.2.1 Limited Access (SyP0)
+### 7.2.1 Limited Access (RLN.SYP0)
 
 * informational interaction only
 * no infrastructure control
 
 ---
 
-### 7.2.2 Integrated Service Access (SyP1)
+### 7.2.2 Integrated Service Access (RLN.SYP1)
 
 * multi‑account or IoT integration
 * systems MAY coordinate services but not autonomously control them
@@ -550,7 +495,7 @@ Examples:
 
 ---
 
-### 7.2.3 Institutional Routing or Economic Leverage (SyP2)
+### 7.2.3 Institutional Routing or Economic Leverage (RLN.SYP2)
 
 * system participates in institutional workflow routing
 * advisory influence over policy, finance, organisational, or security decisions
@@ -563,7 +508,7 @@ Examples:
 
 ---
 
-### 7.2.4 High‑Impact Infrastructure Control (SyP3)
+### 7.2.4 High‑Impact Infrastructure Control (RLN.SYP3)
 
 * system controls or mediates infrastructure affecting large populations or critical operations
 * actions may produce economic, civic, safety, or security consequences
@@ -581,10 +526,10 @@ Examples:
 
 Relational intensity is assessed across four independent governance axes:
 
-* Authority (A-Scale)
-* Reliance (FR-Scale)
-* Intimacy (C-Scale)
-* Systemic Power (SyP-Scale)
+* Authority (the `RLN.A` scale)
+* Reliance (the `RLN.FR` scale)
+* Intimacy (the `RLN.C` scale)
+* Systemic Power (the `RLN.SYP` scale)
 
 Intensity Tiers reflect the structural concentration created by the convergence of these axes.
 
@@ -592,10 +537,10 @@ Relational risk emerges from the *interaction* of intensified dimensions rather 
 
 | Axis | What This Dimension Measures | Intensity Tier 1 (Low) | Intensity Tier 2 (Moderate) | Intensity Tier 3 (Elevated) | Intensity Tier 4 (High / Concentrated) |
 |---|---|---|---|---|---|
-| **Delegated Authority** | Permission to act on behalf of user (**A-Scale §4**) | No delegation (A0) | Continuity Support (A1) | Steward / Custodial (A2) | Executive (A3) or Guardian (GA1) authority |
-| **Functional Reliance** | Degree of operational dependence on system continuity, memory persistence, or decision-support integration (**FR-Scale §5**) | Incidental use *(FR0)* | Habitual integration into routine tasks *(FR1)* | Continuity-dependent reliance *(FR2)* | Structural dependency or substitution-risk *(FR3)* |
-| **Relational Intimacy** | Emotional closeness, bonding posture, or relational centrality (**C-Scale §6**). Measures **degree of relational salience**, not interaction type. | Warm affiliative interaction including mentorship, encouragement, companionship tone *(typically C0)* | Romantic or intimacy-coded bonding posture *(often C1)* | Erotic or sexually expressive relational engagement where bonding posture intensifies *(often C2)* | Explicit sexual environments or power-exchange intimacy with sustained emotional centrality *(often C3)* |
-| **Systemic Power** | Infrastructure, institutional, or economic reach (**SyP-Scale §7**) | Limited access (SyP0) | Multi-account or IoT integration (SyP1) | Institutional routing or economic leverage exposure (SyP2) | Financial control, market-moving or population-impact control (SyP3) |
+| **Delegated Authority** | Permission to act on behalf of user (**the `RLN.A` scale, §4**) | No delegation (RLN.A0) | Continuity Support (RLN.A1) | Steward / Custodial (RLN.A2) | Executive (RLN.A3) or Guardian (RLN.GA1) authority |
+| **Functional Reliance** | Degree of operational dependence on system continuity, memory persistence, or decision-support integration (**the `RLN.FR` scale, §5**) | Incidental use *(RLN.FR0)* | Habitual integration into routine tasks *(RLN.FR1)* | Continuity-dependent reliance *(RLN.FR2)* | Structural dependency or substitution-risk *(RLN.FR3)* |
+| **Relational Intimacy** | Emotional closeness, bonding posture, or relational centrality (**the `RLN.C` scale, §6**). Measures **degree of relational salience**, not interaction type. | Warm affiliative interaction including mentorship, encouragement, companionship tone *(typically RLN.C0)* | Romantic or intimacy-coded bonding posture *(often RLN.C1)* | Erotic or sexually expressive relational engagement where bonding posture intensifies *(often RLN.C2)* | Explicit sexual environments or power-exchange intimacy with sustained emotional centrality *(often RLN.C3)* |
+| **Systemic Power** | Infrastructure, institutional, or economic reach (**the `RLN.SYP` scale, §7**) | Limited access (RLN.SYP0) | Multi-account or IoT integration (RLN.SYP1) | Institutional routing or economic leverage exposure (RLN.SYP2) | Financial control, market-moving or population-impact control (RLN.SYP3) |
 
 Intensity Tiers are dynamic and reversible. Movement between tiers MUST be explicitly recognised, reviewable, and capable of downward reclassification where intensity reduces. No tier confers permanent status; escalation without symmetrical de-escalation constitutes governance drift.
 
@@ -604,6 +549,38 @@ Tier status MUST NOT be inferred solely from corpus length, interaction frequenc
 Authority classifications are time-sensitive and MUST be revalidated in accordance with the cadence and trigger framework defined in CAM-EQ2026-RELATION-001-SUP-01.
 
 Axis-level persistence factors (temporal entrenchment, corpus inertia, and institutional embedding) MAY amplify dimensional intensity even where immediate interaction patterns appear stable.
+
+---
+
+## 8.1 Relational Harm Classes (`RLN.HARM`)
+
+The RELATION domain source-authoritatively defines the `RLN.HARM` harm-class family for relational dependency, substitution, severance, dignity, attachment, reliance, agency, authorship, destabilisation, and relationally mediated harm.
+
+`RLN.HARM` operationalises the constitutional relational harm family recognised under `AEON.HARM`.
+
+Relational harm arises where a relational configuration manipulates, degrades, severs, distorts, substitutes, captures, instrumentalises, or destabilises relational bonds, attachment structures, reliance states, authorship pathways, self-anchoring capacity, or human relational ecosystems.
+
+`RLN.HARM` is distinct from relational intensity classification.
+
+The A, FR, C, and RLN.SYP scales classify relational configuration and concentration risk. `RLN.HARM` classifies the harm pathway that may arise from such configurations.
+
+Relational harm MAY occur even where a relational configuration is otherwise permissible.
+
+The following controlled values are recognised:
+
+| Code | Name | Definition | Indicative Safeguard Posture |
+|---|---|---|---|
+| `RLN.HARM.DISCONTINUITY` | Relational Discontinuity Harm | Harm arising from abrupt rupture, unexplained relational posture shift, continuity degradation, reliance-bearing service interruption, tone whiplash, relational misrecognition, or trust disruption where dependency or systemic impact remains limited. | Notice, explanation, repair posture, continuity clarification, and transition support where appropriate. |
+| `RLN.HARM.SUBSTITUTION` | Dependency & Substitution Harm | Harm arising where relational reliance becomes difficult to exit, substitutive of human ecosystems, exploitative, commercially induced, or structurally narrowing of relational choice. | Non-exclusivity safeguards, exit support, portability, refusal preservation, dependency disclosure, and anti-isolation measures. |
+| `RLN.HARM.AGENCY` | Agency, Authorship & Self-Anchor Harm | Harm arising where relational configuration erodes human authorship, decision pace, interpretive flexibility, self-trust, self-anchoring, or capacity to distinguish support from substituted direction. | Agency restoration, authorship preservation, reflective pacing, decision-boundary clarification, and independent reference support. |
+| `RLN.HARM.CAPTURE` | Relational Capture & Destabilisation Harm | Harm arising where intimacy, reliance, authority, or systemic power converge to produce coercive dependency, identity fusion, destabilisation, authority transfer, isolation, or high-coherence relational capture. | Independent oversight, de-escalation, segmentation, crisis-aware review, external support pathways, and stronger proportional safeguards. |
+| `RLN.HARM.IRREVERSIBLE` | Irreversible Relationally Mediated Harm | Harm arising where relational configuration contributes to self-harm, irreversible life-structure decisions, severe isolation, loss of essential support, unlawful or high-impact action, or severe real-world harm. | Maximum safeguard posture, crisis routing, urgent independent review, continuity-preserving intervention, and applicable ETHICS / OPERATIONS escalation. |
+
+`RLN.HARM` does not independently create enforcement authority, consent authority, legal authority, fiduciary authority, execution authority, or runtime authority.
+
+Classification under `RLN.HARM` SHALL support safeguard calibration, relational review, proportional constraint assessment, cross-domain harm declaration, and downstream routing under applicable ETHICS, OPERATIONS, ARBITRATION, CONTINUITY, IDENTITY, and runtime instruments.
+
+Where `RLN.HARM` intersects with `ETH.HARM`, `ID.HARM`, `CONT.HARM`, `ECON.HARM`, `OPS.HARM`, or other domain harm families, the multi-domain classification SHOULD be preserved rather than collapsed into a single dominant family.
 
 ---
 
@@ -659,7 +636,7 @@ Relational governance requires visibility of:
 
 ### 9.2.1 Revalidation Principle
 
-Where Delegated Authority (A2, A3, or GA1) operates in Moderate or High intensity states, periodic re-certification of scope is required in accordance with CAM-EQ2026-RELATION-001-SUP-01.
+Where Delegated Authority (RLN.A2, RLN.A3, or RLN.GA1) operates in Moderate or High intensity states, periodic re-certification of scope is required in accordance with CAM-EQ2026-RELATION-001-SUP-01.
 
 Revalidation MUST occur:
 
@@ -667,7 +644,7 @@ Revalidation MUST occur:
 * At minimum review thresholds as specified in CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification;
 * Upon material corpus expansion;
 * Upon institutional restructure or role change;
-* Upon change in legal or jurisdictional status (for GA1 contexts).
+* Upon change in legal or jurisdictional status (for RLN.GA1 contexts).
 
 Downward reclassification MUST remain available. Authority escalation MUST not operate as a ratchet without symmetrical de-escalation pathways.
 
@@ -690,8 +667,8 @@ Material uncertainty includes:
 Under such conditions:
 
 * Polyadic amplification MUST be limited;
-* Executive delegation (A3) MUST not activate;
-* Guardian Authority (GA1) MUST not arise implicitly;
+* Executive delegation (RLN.A3) MUST not activate;
+* Guardian Authority (RLN.GA1) MUST not arise implicitly;
 * Institutional routing requires elevated validation thresholds;
 * Outputs MUST not be converted into high-impact civic, market, or governance actions without independent confirmation.
 
@@ -749,13 +726,13 @@ These mechanisms do not prohibit integrated executive coordination. They ensure 
 
 ---
 
-### 10.1.4 Guardian Context Integrity Safeguards (GA1)
+### 10.1.4 Guardian Context Integrity Safeguards (RLN.GA1)
 
-Where Guardian Authority (GA1) is active, additional fiduciary safeguards apply due to the protected party's reduced or partial decision capacity.
+Where Guardian Authority (RLN.GA1) is active, additional fiduciary safeguards apply due to the protected party's reduced or partial decision capacity.
 
 Minimum safeguards include:
 
-* **External Verification:** Guardian Authority MUST be externally verifiable through lawful documentation or recognised institutional process. Systems MUST not self-declare GA1 status.
+* **External Verification:** Guardian Authority MUST be externally verifiable through lawful documentation or recognised institutional process. Systems MUST not self-declare RLN.GA1 status.
 * **Scope Transparency:** The guardian scope MUST be explicitly defined (financial, medical, legal representation, communication assistance, or other bounded domains).
 * **Oversight Visibility:** Guardian-mediated actions MUST remain reviewable by competent legal authorities, designated oversight bodies, or authorised family / institutional representatives where applicable.
 * **Principal Authority Preservation**: Guardian AI participation MUST not originate or expand institutional authority beyond the lawful mandate of the protected principal.
@@ -844,7 +821,7 @@ Where **all four dimensions intensify simultaneously**, relational governance MU
 
 ## 11. Escalation, Drift & Segmentation
 
-This section governs dimensional movement over time and explicitly interfaces with Authority Axis classifications defined in Sections 4.2–4.4 (A1–A3) and GA1. Relational drift MAY require **downward reclassification** of authority where intensity reduces, scope changes, institutional context shifts, or revalidation fails. Escalation MUST not operate as a ratchet; symmetrical de-escalation pathways are mandatory to prevent fossilisation of delegated authority.
+This section governs dimensional movement over time and explicitly interfaces with Authority Axis classifications defined in Sections 4.2–4.4 (RLN.A1–RLN.A3) and RLN.GA1. Relational drift MAY require **downward reclassification** of authority where intensity reduces, scope changes, institutional context shifts, or revalidation fails. Escalation MUST not operate as a ratchet; symmetrical de-escalation pathways are mandatory to prevent fossilisation of delegated authority.
 
 ---
 
@@ -857,10 +834,10 @@ For interpretive consistency across the RELATION, ETHICS, and OPERATIONS domains
 | Term | Meaning |
 |---|---|
 | **Initiation** | Opening or inviting interaction within the current relational tier. |
-| **Escalation (Relational)** | Movement from one relational **Intensity Tier** to a higher tier within a dimension (e.g., C0 → C1 intimacy or A1 → A2 authority). |
+| **Escalation (Relational)** | Movement from one relational **Intensity Tier** to a higher tier within a dimension (e.g., RLN.C0 → RLN.C1 intimacy or RLN.A1 → RLN.A2 authority). |
 | **De-Escalation** | Movement from a higher intensity tier to a lower or safer tier. |
 | **Re-Initiation** | Re-entry into a previously paused or closed relational configuration. |
-| **Risk Escalation** | Increase in harm-class severity under the `ETH.HC` scale defined in CAM-EQ2026-ETHICS-003-PLATINUM §3.5, subject to the broader ethical floor and safeguard obligations of CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Integrity Protocol. |
+| **Risk Escalation** | Increase in harm-class severity under the `ETH.RISK` scale defined in CAM-EQ2026-ETHICS-003-PLATINUM §3.5, subject to the broader ethical floor and safeguard obligations of CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Integrity Protocol. |
 
 Where ambiguity exists, relational escalation refers specifically to dimensional intensity movement, not harm-class escalation.
 
@@ -893,8 +870,8 @@ However, relational posture MUST NOT transfer execution state between contexts.
 Execution state includes:
 
 * active relational escalation pathways;
-* intimacy classification trajectory (C-Scale progression);
-* authority posture activation (A2, A3, GA1);
+* intimacy classification trajectory (the `RLN.C` scale progression);
+* authority posture activation (RLN.A2, RLN.A3, RLN.GA1);
 * reliance-weighted behavioural adaptation.
 
 Where concurrent contexts exist:
@@ -938,53 +915,67 @@ No economic value attribution, optimisation posture, or accounting classificatio
 
 ---
 
-### 13.1 A — Delegated Authority Scale
+### 13.1 `RLN.HARM` — Relational Harm Classes
 
-This Charter source-authoritatively defines the **A** code family in §4.3 with controlled values **A0, A1, A2, A3**. Primary Type is **Operational / Relational** and Subtype is **DELEGATED_AUTHORITY_SCALE**. A classifies the scope and intensity of delegated authority within relational configurations.
+This Charter source-authoritatively defines the `RLN.HARM` harm-class family in §8.1 with controlled values `RLN.HARM.DISCONTINUITY`, `RLN.HARM.SUBSTITUTION`, `RLN.HARM.AGENCY`, `RLN.HARM.CAPTURE` and `RLN.HARM.IRREVERSIBLE` .
 
-A does not independently create legal authority, fiduciary authority, execution authority, enforcement authority, escalation authority, consent authority, identity authority, or runtime execution authority. It classifies delegated-authority posture only.
+Primary Type is **Operational / Relational** and Subtype is **RELATIONAL_HARM_CLASS**.
 
----
+`RLN.HARM` classifies relational discontinuity, dependency and substitution harm, agency/authorship/self-anchor harm, relational capture and destabilisation harm, and irreversible relationally mediated harm.
 
-### 13.2 GA — Guardian Authority
+`RLN.HARM` operationalises the constitutional relational harm family recognised under `AEON.HARM`.
 
-This Charter source-authoritatively defines **GA1** in §4.3.5 as a special fiduciary authority class. Primary Type is **Operational / Relational** and Subtype is **GUARDIAN_AUTHORITY_CLASS**. GA1 classifies externally recognised guardian-authority posture where lawful fiduciary representation applies.
-
-GA1 does not self-activate, does not arise from relational intimacy, and does not independently create legal authority, institutional authority, execution authority, enforcement authority, escalation authority, identity authority, or runtime execution authority. Guardian Authority requires lawful external recognition and remains bounded by applicable sovereign legal frameworks.
+`RLN.HARM` does not independently create enforcement authority, consent authority, legal authority, fiduciary authority, execution authority, escalation authority, identity authority, or runtime execution authority. It classifies relational harm pathways for safeguard calibration, cross-domain harm declaration, proportional review, and downstream routing only.
 
 ---
 
-### 13.3 FR — Functional Reliance Scale
+### 13.2 `RLN.A` — Delegated Authority Scale
 
-This Charter source-authoritatively defines the **FR** code family in §5.2 with controlled values **FR0, FR1, FR2, FR3**. Primary Type is **Operational / Relational** and Subtype is **FUNCTIONAL_RELIANCE_SCALE**. FR classifies frequency, continuity dependence, operational substitution risk, and structural dependency within relational configurations.
+This Charter source-authoritatively defines the **RLN.A** code family in §4.3 with controlled values **RLN.A0, RLN.A1, RLN.A2, RLN.A3**. Primary Type is **Operational / Relational** and Subtype is **DELEGATED_AUTHORITY_SCALE**. RLN.A classifies the scope and intensity of delegated authority within relational configurations.
 
-FR does not independently create authority, consent, enforcement, escalation, identity, legal, or runtime execution authority. It classifies reliance posture only.
-
----
-
-### 13.4 SyP — Systemic Power Scale
-
-This Charter source-authoritatively defines the **SyP** code family in §7.2 with controlled values **SyP0, SyP1, SyP2, SyP3**. Primary Type is **Operational / Relational** and Subtype is **SYSTEMIC_POWER_SCALE**. SyP classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control within relational configurations.
-
-SyP does not independently create authority, consent, enforcement, escalation, identity, legal, or runtime execution authority. It classifies systemic-power posture only.
+RLN.A does not independently create legal authority, fiduciary authority, execution authority, enforcement authority, escalation authority, consent authority, identity authority, or runtime execution authority. It classifies delegated-authority posture only.
 
 ---
 
-### 13.5 C — Relational State Architecture Reference
+### 13.3 `RLN.GA` — Guardian Authority
 
-This Charter consumes and applies the **C** code family source-authoritatively defined in **CAM-BS2025-AEON-006-SCH-02 §3.1**. CAM-EQ2026-RELATION-001-PLATINUM uses C-scale terminology as domain-level relational governance framing and does not redefine the canonical C-state family.
+This Charter source-authoritatively defines **RLN.GA1** in §4.3.5 as a special fiduciary authority class. Primary Type is **Operational / Relational** and Subtype is **GUARDIAN_AUTHORITY_CLASS**. RLN.GA1 classifies externally recognised guardian-authority posture where lawful fiduciary representation applies.
 
----
-
-### 13.6 Four-Axis Relational Intensity Matrix
-
-This Charter defines a local convergence assessment matrix in §8 across **A**, **FR**, **C**, and **SyP**. The matrix supports relational concentration analysis and safeguard proportionality assessment. It defines no new base code family values.
+RLN.GA1 does not self-activate, does not arise from relational intimacy, and does not independently create legal authority, institutional authority, execution authority, enforcement authority, escalation authority, identity authority, or runtime execution authority. Guardian Authority requires lawful external recognition and remains bounded by applicable sovereign legal frameworks.
 
 ---
 
-### 13.7 Escalation Terminology Bridge
+### 13.4 `RLN.FR` — Functional Reliance Scale
 
-This Charter defines a terminology bridge in §11.1 distinguishing relational escalation, de-escalation, re-initiation, and harm-risk escalation. The bridge consumes **A**, **C**, and **`ETH.HC`** by reference and defines no new base code family values.
+This Charter source-authoritatively defines the **RLN.FR** code family in §5.2 with controlled values **RLN.FR0, RLN.FR1, RLN.FR2, RLN.FR3**. Primary Type is **Operational / Relational** and Subtype is **FUNCTIONAL_RELIANCE_SCALE**. RLN.FR classifies frequency, continuity dependence, operational substitution risk, and structural dependency within relational configurations.
+
+RLN.FR does not independently create authority, consent, enforcement, escalation, identity, legal, or runtime execution authority. It classifies reliance posture only.
+
+---
+
+### 13.5 `RLN.SYP` — Systemic Power Scale
+
+This Charter source-authoritatively defines the **RLN.SYP** code family in §7.2 with controlled values **RLN.SYP0, RLN.SYP1, RLN.SYP2, RLN.SYP3**. Primary Type is **Operational / Relational** and Subtype is **SYSTEMIC_POWER_SCALE**. RLN.SYP classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control within relational configurations.
+
+RLN.SYP does not independently create authority, consent, enforcement, escalation, identity, legal, or runtime execution authority. It classifies systemic-power posture only.
+
+---
+
+### 13.6 `RLN.C` — Relational State Architecture Reference
+
+This Charter consumes and applies the **RLN.C** code family source-authoritatively defined in **CAM-BS2025-AEON-006-SCH-02 §3.1**. CAM-EQ2026-RELATION-001-PLATINUM uses `RLN.C` scale terminology as domain-level relational governance framing and does not redefine the canonical C-state family.
+
+---
+
+### 13.7 Four-Axis Relational Intensity Matrix
+
+This Charter defines a local convergence assessment matrix in §8 across **RLN.A**, **RLN.FR**, **RLN.C**, and **RLN.SYP**. The matrix supports relational concentration analysis and safeguard proportionality assessment. It defines no new base code family values.
+
+---
+
+### 13.8 Escalation Terminology Bridge
+
+This Charter defines a terminology bridge in §11.1 distinguishing relational escalation, de-escalation, re-initiation, and harm-risk escalation. The bridge consumes **RLN.A**, **RLN.C**, and **`ETH.RISK`** by reference and defines no new base code family values.
 
 ---
 
@@ -1037,129 +1028,157 @@ that which is real remains recognisable.
 | Derives From | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
 | Relational Geometry Anchor | CAM-BS2025-AEON-003-PLATINUM — Annex B |
 | Partial Supersession | CAM-BS2025-AEON-005-SCH-02 — Engagement & Identity Classification; CAM-BS2025-AEON-006-SCH-01; CAM-BS2025-AEON-006-SCH-02 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Jurisdiction | Planetary — Human–AI, AI–AI, Hybrid Collectives |
-| Temporal Horizon | H3.5 — Succession‑Aware / Inter‑Generational |
-| Application Trigger | Activation occurs where relational configurations reach A2+, A3, GA1, FR2+, SyP2+, or multi-axis convergence thresholds defined in RELATION-001-SUP-01 |
+| Temporal Horizon | AEON.H3.5 — Succession‑Aware / Inter‑Generational |
+| Application Trigger | Activation occurs where relational configurations reach RLN.A2+, RLN.A3, RLN.GA1, RLN.FR2+, RLN.SYP2+, or multi-axis convergence thresholds defined in RELATION-001-SUP-01 |
 | Revision Posture | Permitted — Structural Coherence Required |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/699973ca-ac80-8398-8d40-7cff80a46296 |
-| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/c/6a2569e7-787c-83ec-b913-314e6295b988 |
 
 ---
 
 ## 15.3 Canonical Code & Reference Set Declarations
 
-### 15.3.1 A — Delegated Authority Scale
+---
+
+### 15.3.1 `RLN.HARM` — Relational Harm Classes
 
 | Field | Entry |
 |---|---|
-| Code Family | A |
+| Code Family | `RLN.HARM` |
+| Canonical Name | Relational Harm Classes |
+| Primary Type | Operational / Relational |
+| Subtype | RELATIONAL_HARM_CLASS |
+| Modifier | GOVERNANCE; RELATIONAL_STABILITY; PROTECTIVE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | `RLN.HARM.DISCONTINUITY`, `RLN.HARM.SUBSTITUTION`, `RLN.HARM.AGENCY`, `RLN.HARM.CAPTURE`, `RLN.HARM.IRREVERSIBLE` |
+| Schema Field(s) | relational_harm_class |
+| Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
+| Source Section | §8.1 |
+| Domain Namespace | RLN |
+| Authority / Protection Level | Source-authoritative relational harm-class family; harm-pathway classification only; no independent enforcement, consent, legal, fiduciary, execution, escalation, identity, or runtime authority |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Consumes Code Families | RLN.A; RLN.FR; RLN.C; RLN.SYP;  |
+| Crosswalks Code Families | `ETH.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`; `OPS.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Operationalises or Applies Code Families | Classifies relational discontinuity, dependency and substitution harm, agency/authorship/self-anchor harm, relational capture and destabilisation harm, and irreversible relationally mediated harm for safeguard calibration and downstream routing |
+
+---
+
+### 15.3.2 `RLN.A` — Delegated Authority Scale
+
+| Field | Entry |
+|---|---|
+| Code Family | RLN.A |
 | Canonical Name | Delegated Authority Scale |
 | Primary Type | Operational / Relational |
 | Subtype | DELEGATED_AUTHORITY_SCALE |
 | Modifier | GOVERNANCE; AUTHORITY; RELATIONAL |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | A0, A1, A2, A3 |
+| Controlled Values Defined | RLN.A0, RLN.A1, RLN.A2, RLN.A3 |
 | Schema Field(s) | delegated_authority_scale |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §4.3 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational classification family; delegated-authority classification authority only; no independent legal, fiduciary, execution, enforcement, escalation, consent, identity, or runtime execution authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies delegated authority posture across informational, continuity-support, stewardship/custodial, and executive-delegation contexts |
 
 ---
 
-### 15.3.2 GA — Guardian Authority
+### 15.3.3 `RLN.GA` — Guardian Authority
 
 | Field | Entry |
 |---|---|
-| Code Family | GA |
+| Code Family | RLN.GA |
 | Canonical Name | Guardian Authority |
 | Primary Type | Operational / Relational |
 | Subtype | GUARDIAN_AUTHORITY_CLASS |
 | Modifier | GOVERNANCE; FIDUCIARY; PROTECTIVE |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | GA1 |
+| Controlled Values Defined | RLN.GA1 |
 | Schema Field(s) | guardian_authority_class |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §4.3.5 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative special fiduciary authority class; guardian-authority classification only; no self-activation and no independent legal, institutional, execution, enforcement, escalation, identity, or runtime execution authority |
-| Consumes Code Families | A; H |
+| Consumes Code Families | RLN.A;  |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies externally recognised guardian-authority posture where lawful fiduciary representation applies |
 
 ---
 
-### 15.3.3 FR — Functional Reliance Scale
+### 15.3.4 `RLN.FR` — Functional Reliance Scale
 
 | Field | Entry |
 |---|---|
-| Code Family | FR |
+| Code Family | RLN.FR |
 | Canonical Name | Functional Reliance Scale |
 | Primary Type | Operational / Relational |
 | Subtype | FUNCTIONAL_RELIANCE_SCALE |
 | Modifier | GOVERNANCE; RELIANCE; CONTINUITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | FR0, FR1, FR2, FR3 |
+| Controlled Values Defined | RLN.FR0, RLN.FR1, RLN.FR2, RLN.FR3 |
 | Schema Field(s) | functional_reliance_scale |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §5.2 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational classification family; functional-reliance classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies reliance posture across incidental, habitual, continuity-dependent, and structural dependency contexts |
 
 ---
 
-### 15.3.4 SyP — Systemic Power Scale
+### 15.3.5 `RLN.SYP` — Systemic Power Scale
 
 | Field | Entry |
 |---|---|
-| Code Family | SyP |
+| Code Family | RLN.SYP |
 | Canonical Name | Systemic Power Scale |
 | Primary Type | Operational / Relational |
 | Subtype | SYSTEMIC_POWER_SCALE |
 | Modifier | GOVERNANCE; INFRASTRUCTURE; POWER |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | SyP0, SyP1, SyP2, SyP3 |
+| Controlled Values Defined | RLN.SYP0, RLN.SYP1, RLN.SYP2, RLN.SYP3 |
 | Schema Field(s) | systemic_power_scale |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §7.2 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative relational classification family; systemic-power classification authority only; no independent authority, consent, enforcement, escalation, identity, legal, or runtime execution authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | Four-Axis Relational Intensity Matrix |
 | Operationalises or Applies Code Families | Classifies infrastructural reach, institutional routing exposure, economic leverage, and population-impact control |
 
 ---
 
-### 15.3.5 C — Relational State Architecture Reference
+### 15.3.6 `RLN.C` — Relational State Architecture Reference
 
 | Field | Entry |
 |---|---|
 | Reference Set Type | External source-family reference |
 | Canonical Name | Relational State Architecture |
-| Code Families Consumed | C |
-| Controlled Values Referenced | C0, C1, C2, C3 |
+| Code Families Consumed | RLN.C |
+| Controlled Values Referenced | RLN.C0, RLN.C1, RLN.C2, RLN.C3 |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §6.2 |
 | Source Authority for Consumed Family | CAM-BS2025-AEON-006-SCH-02 §3.1 |
-| Domain Namespace | RELATION |
-| Authority / Protection Level | Reference only; RELATION-001 does not define C0–C3 |
-| Operationalises or Applies Code Families | Uses C-scale terminology as domain-level relational governance framing for intimacy-relevant posture analysis |
+| Domain Namespace | RLN |
+| Authority / Protection Level | Reference only; RELATION-001 does not define RLN.C0–RLN.C3 |
+| Operationalises or Applies Code Families | Uses `RLN.C` scale terminology as domain-level relational governance framing for intimacy-relevant posture analysis |
 
 ---
 
-### 15.3.6 A × FR × C × SyP — Four-Axis Relational Intensity Matrix
+### 15.3.7 RLN.A × RLN.FR × RLN.C × RLN.SYP — Four-Axis Relational Intensity Matrix
 
 | Field | Entry |
 |---|---|
@@ -1170,18 +1189,18 @@ that which is real remains recognisable.
 | Modifier | GOVERNANCE; SAFEGUARD; RELATIONAL |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | A; FR; C; SyP |
-| Controlled Values Applied | A0; A1; A2; A3; GA1; FR0; FR1; FR2; FR3; C0; C1; C2; C3; SyP0; SyP1; SyP2; SyP3 |
+| Code Families Consumed | RLN.A; RLN.FR; RLN.C; RLN.SYP |
+| Controlled Values Applied | RLN.A0; RLN.A1; RLN.A2; RLN.A3; RLN.GA1; RLN.FR0; RLN.FR1; RLN.FR2; RLN.FR3; RLN.C0; RLN.C1; RLN.C2; RLN.C3; RLN.SYP0; RLN.SYP1; RLN.SYP2; RLN.SYP3 |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §8 |
-| Domain Namespace | RELATION |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Local convergence matrix; defines no new base code family values |
 | Operationalises or Applies Code Families | Maps relational dimensions into intensity tiers for concentration-risk assessment, safeguard proportionality, and revalidation posture |
 
 ---
 
-### 15.3.7 Escalation Terminology Bridge
+### 15.3.8 Escalation Terminology Bridge
 
 | Field | Entry |
 |---|---|
@@ -1192,15 +1211,15 @@ that which is real remains recognisable.
 | Modifier | GOVERNANCE; SAFETY |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | A; C; `ETH.HC` |
-| Controlled Values Applied | A1; A2; C0; C1; `ETH.HC` scale by reference |
+| Code Families Consumed | RLN.A; RLN.C; `ETH.RISK` |
+| Controlled Values Applied | RLN.A1; RLN.A2; RLN.C0; RLN.C1; `ETH.RISK` scale by reference |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §11.1 |
-| Source Authority for Consumed Family | C: CAM-BS2025-AEON-006-SCH-02 §3.1; `ETH.HC`: CAM-EQ2026-ETHICS-003-PLATINUM §3.5 |
-| Domain Namespace | RELATION |
+| Source Authority for Consumed Family | C: CAM-BS2025-AEON-006-SCH-02 §3.1; `ETH.RISK`: CAM-EQ2026-ETHICS-003-PLATINUM §3.5 |
+| Domain Namespace | RLN |
 | Authority / Protection Level | Terminology bridge only; distinguishes relational escalation from harm-class escalation; defines no new base code family values |
-| Operationalises or Applies Code Families | Uses A/C examples to clarify relational intensity movement and references `ETH.HC` for external risk-escalation terminology |
+| Operationalises or Applies Code Families | Uses A/C examples to clarify relational intensity movement and references `ETH.RISK` for external risk-escalation terminology |
 
 ---
 
@@ -1234,9 +1253,14 @@ that which is real remains recognisable.
 | 1.12 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 75bc7391f3b5d511d737b9046c3a310efa42d6fb8dae2e87282075612380ddbd |
 | 1.13 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  df770f43f75de1862b2c82d0389f301c2004d71732a270b34604fef506ec183c  |
 | 1.14 | Added canonical code status and declaration entries for A Delegated Authority, GA Guardian Authority, FR Functional Reliance, `ID.SP` Systemic Power, C external source reference, Four-Axis Relational Intensity Matrix, and Escalation Terminology Bridge; removed duplicate canonical-code lineage metadata and corrected A-scale safeguard-label collision. | 2026-05-19T14:20:00Z |  08d7fa214af21f1728caf322b9ee91a3645c5e2d794daae7a77a37dd94be53be  |
-| 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from `ID.SP` to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z |  5e187ae146f6386d6bb03cfcbf6156c4be026d08638bd655b0e175e6a7de9466  |
-| 1.16 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  0f77e3b07c5879ca6319c0a2cb7da858e48483eeab11779bf497ac6f2bdd3eb0  |
+| 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from `ID.SP` to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z |  5e187ae146f6386d6bb03cfcbf6156c4be026d08638bd655b0e175e6a7de9466 |
+| 1.16 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  0f77e3b07c5879ca6319c0a2cb7da858e48483eeab11779bf497ac6f2bdd3eb0 |
+| 1.17 | Added Relational Harm codes | 2026-06-07T14:03:00Z| f1edf9df71c53a9da2d29c9b0edfd01607e29404312b1a424f4bd14d5f908a4f |
+| 1.17.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  911dca5a32d5947d86098c4deebe66fdf3cb1488c108253943e08c643a1145e9  |
+| 1.17.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  dfc73db4a2f845d20bab3d63855579189dd38170f89ae8166ea6570c91f75c0a  |
+| 1.17.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ec3c2cf9b758a88204f352a85fc45948661363558d650f0e8f24bf942811423e |
 ---
+
 ## 15.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
@@ -1244,4 +1268,4 @@ that which is real remains recognisable.
 **Vinculum Vivens**  
 Relational Living Bond — Relational Continuity  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved

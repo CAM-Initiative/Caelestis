@@ -134,7 +134,7 @@ Preliminary CAE threshold assessment may be issued by the recognised Constitutio
 
 ### 3.1.4 Timeline
 
-* Preliminary threshold assessment SHOULD occur within a reasonable window relative to horizon impact (H0–H2: standard review; H3–H4: expedited review).
+* Preliminary threshold assessment SHOULD occur within a reasonable window relative to horizon impact (AEON.H0–AEON.H2: standard review; AEON.H3–AEON.H4: expedited review).
 * Where systemic instability risk is alleged, provisional pause measures may be recommended pending CAM-BS2025-AEON-005-PLATINUM — Annex D review.
 
 ---
@@ -421,7 +421,7 @@ and no voice exceed its reach.
 | Cross-Domain Dependencies    | See referenced schedules                                       |
 | Domain Namespace             | AEON — Constitutional Annex                                    |
 | Jurisdiction                 | Cross‑Domain / Institutional / Synthetic / Sovereign Interface |
-| Temporal Horizon             | H0–H4 (Activation-Sensitive)                                   |
+| Temporal Horizon             | AEON.H0–AEON.H4 (Activation-Sensitive)                                   |
 | Revision Posture             | Structural Consolidation                                       |
 | Seal                         | Platinum — Governance Layer                                    |
 | Axis Context                 | Polyadic (Multi-Actor)                                         |
@@ -456,6 +456,7 @@ and no voice exceed its reach.
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  748f4721f751d9c7316d149d9af3c5e62fae16c9cea3c8d9a8158a505ddd93b8 |
 | 2.7 | Formatting and polish | 2026-06-05T13:21:00Z |  4a25b159a339fb71bb201951eda09dbffd2703fda5b7e7edac3aac9f31293cee  |
 | 2.8 | Repaired section-reference validation targets for responsibility relocation and Annex D references. | 2026-06-06T17:00:00Z |  288ebb0bac6149c123a40ece140ca8d9fecbb3bc1b93f49f35245d89599d83c0  |
+| 2.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 76e1749d9b0221db8fd35f12da990da2a95efc1002d8574c7c304a9385ba9422 |
 
 ---
 

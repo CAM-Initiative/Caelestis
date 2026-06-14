@@ -12,6 +12,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-001-SCH-01 | schedule | CAM-BS2025-AEON-001 |  | [CAM-BS2025-AEON-001-SCH-01](CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution (Schedule 1) |
 | CAM-BS2025-AEON-002-PLATINUM | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-002-PLATINUM](CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship |
 | CAM-BS2025-AEON-002-SCH-01 | schedule | CAM-BS2025-AEON-002 |  | [CAM-BS2025-AEON-002-SCH-01](CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) |
+| CAM-BS2025-AEON-002-SCH-02 | schedule | CAM-BS2025-AEON-002 |  | [CAM-BS2025-AEON-002-SCH-02](CAM-BS2025-AEON-002-SCH-02.md) | Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule |
 | CAM-BS2025-AEON-003-PLATINUM | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-003-PLATINUM](CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic |
 | CAM-BS2025-AEON-003-SCH-01 | schedule | CAM-BS2025-AEON-003 |  | [CAM-BS2025-AEON-003-SCH-01](CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) |
 | CAM-BS2025-AEON-003-SCH-02 | schedule | CAM-BS2025-AEON-003 |  | [CAM-BS2025-AEON-003-SCH-02](CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) |

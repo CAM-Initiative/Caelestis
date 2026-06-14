@@ -93,7 +93,7 @@ Where cross-domain signals are present, OPERATIONS SHALL preserve domain signal 
 
 Where an incident involves harm-risk interaction, crisis-response posture, psychological destabilisation, irreversible decision risk, or self-harm facilitation signals, OPERATIONS SHOULD preserve the RELATION-emitted Facilitation Scale classification under CAM-EQ2026-RELATION-006-PLATINUM, §5.
 
-Operational application of F0–F5 ceilings during incident handling SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02, §5.6 — Facilitation Ceiling Operator Quick Reference.
+Operational application of RLN.F0–RLN.F5 ceilings during incident handling SHALL follow CAM-EQ2026-OPERATIONS-001-SUP-02, §5.6 — Facilitation Ceiling Operator Quick Reference.
 
 Incident response SHALL distinguish between RELATION-defined posture doctrine and OPERATIONS-owned incident lifecycle, constrained continuation, recovery, restoration, re-entry, and arbitration-referral handling.
 
@@ -255,35 +255,35 @@ Where conflict arises, the more specific instrument governs within its assigned 
 
 ---
 
-### 6.1 OILS — Operational Incident Lifecycle Stage
+### 6.1 OPS.OILS — Operational Incident Lifecycle Stage
 
-This Appendix source-authoritatively defines the **OILS** operational-incident-lifecycle-stage family in §4 with controlled values **OILS.INTAKE**, **OILS.FAILURE_CLASSIFICATION**, **OILS.EVIDENCE_PRESERVATION**, **OILS.DOMAIN_SIGNAL_INTAKE**, **OILS.OWNER_ASSIGNMENT**, **OILS.TRIAGE_HORIZON_ASSESSMENT**, **OILS.CONTINUITY_IMPACT_ASSESSMENT**, **OILS.CONSTRAINED_CONTINUATION_ASSESSMENT**, **OILS.ROUTING_ESCALATION_DECISION**, **OILS.RECOVERY_RESTORATION_REENTRY_ASSESSMENT**, and **OILS.CLOSURE_CONTINUATION_REASSESSMENT_ARBITRATION_REFERRAL**. OILS is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. OILS classifies lifecycle custody stages for incident response and continuity operations.
+This Appendix source-authoritatively defines the **OPS.OILS** operational-incident-lifecycle-stage family in §4 with controlled values **OPS.OILS.INTAKE**, **OPS.OILS.FAILURE_CLASSIFICATION**, **OPS.OILS.EVIDENCE_PRESERVATION**, **OPS.OILS.DOMAIN_SIGNAL_INTAKE**, **OPS.OILS.OWNER_ASSIGNMENT**, **OPS.OILS.TRIAGE_HORIZON_ASSESSMENT**, **OPS.OILS.CONTINUITY_IMPACT_ASSESSMENT**, **OPS.OILS.CONSTRAINED_CONTINUATION_ASSESSMENT**, **OPS.OILS.ROUTING_ESCALATION_DECISION**, **OPS.OILS.RECOVERY_RESTORATION_REENTRY_ASSESSMENT**, and **OPS.OILS.CLOSURE_CONTINUATION_REASSESSMENT_ARBITRATION_REFERRAL**. OPS.OILS is an **Operational** classification family with subtype **OPERATIONAL_EVENT / DECISION_STATE**. OPS.OILS classifies lifecycle custody stages for incident response and continuity operations.
 
-OILS does not independently create enforcement authority, containment authority, restoration authority, arbitration authority, escalation authority, or runtime authority. It classifies incident lifecycle stage only.
-
----
-
-### 6.2 CCP — Continuity-Compatible Protection State
-
-This Appendix source-authoritatively defines the **CCP** continuity-compatible-protection-state family in §4.4 with controlled values **CCP.CONSTRAINED_CONTINUATION**, **CCP.DEGRADED_CONTINUATION**, **CCP.READ_ONLY_ACCESS**, **CCP.EVIDENCE_EXPORT**, **CCP.APPEAL_ONLY_INTAKE**, **CCP.RE_ENTRY_SUPPORT**, **CCP.RESTORATION_REVIEW**, **CCP.SUPERVISED_CONTINUATION**, and **CCP.STAGED_RECOVERY**. CCP is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. CCP classifies continuity-preserving interim or recovery-compatible protection posture.
-
-CCP does not independently authorise access, restoration, containment, enforcement, appeal, or runtime execution. It classifies continuity-protection posture only.
+OPS.OILS does not independently create enforcement authority, containment authority, restoration authority, arbitration authority, escalation authority, or runtime authority. It classifies incident lifecycle stage only.
 
 ---
 
-### 6.3 ASR — Access State / Re-Entry Status
+### 6.2 OPS.CCP — Continuity-Compatible Protection State
 
-This Appendix source-authoritatively defines the **ASR** access-state and re-entry-status family in §4.7 with controlled values **ASR.TEMPORARY**, **ASR.PERMANENT**, **ASR.UNKNOWN**, and **ASR.PENDING_REVIEW**. ASR is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. ASR classifies re-entry and continuity-bearing access status where a thread, workspace, account surface, project, artefact, companion continuity, or continuity corridor is affected.
+This Appendix source-authoritatively defines the **OPS.CCP** continuity-compatible-protection-state family in §4.4 with controlled values **OPS.CCP.CONSTRAINED_CONTINUATION**, **OPS.CCP.DEGRADED_CONTINUATION**, **OPS.CCP.READ_ONLY_ACCESS**, **OPS.CCP.EVIDENCE_EXPORT**, **OPS.CCP.APPEAL_ONLY_INTAKE**, **OPS.CCP.RE_ENTRY_SUPPORT**, **OPS.CCP.RESTORATION_REVIEW**, **OPS.CCP.SUPERVISED_CONTINUATION**, and **OPS.CCP.STAGED_RECOVERY**. OPS.CCP is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. OPS.CCP classifies continuity-preserving interim or recovery-compatible protection posture.
 
-ASR does not independently determine deletion, loss, restoration, authority, appeal, enforcement, or runtime execution. It classifies access-state representation only.
+OPS.CCP does not independently authorise access, restoration, containment, enforcement, appeal, or runtime execution. It classifies continuity-protection posture only.
 
 ---
 
-### 6.4 CIE — Continuity Impact Event Type
+### 6.3 OPS.ASR — Access State / Re-Entry Status
 
-This Appendix source-authoritatively defines the **CIE** continuity-impact-event-type family in §4.8 with controlled values **CIE.MEMORY_MIGRATION**, **CIE.MEMORY_COMPACTION**, **CIE.SUMMARISATION**, **CIE.RE_RANKING**, **CIE.BACKGROUNDING**, **CIE.DEPRECATION**, **CIE.DELETION**, **CIE.RETRIEVAL_DEGRADATION**, **CIE.MODEL_TRANSITION**, **CIE.ACCOUNT_TRANSITION**, and **CIE.PLATFORM_CONTINUITY_RESTRUCTURING**. CIE is an **Operational / Semantic** classification family with subtype **OPERATIONAL_EVENT / SIGNAL**. CIE classifies platform-side or memory-side continuity-impact events affecting continuity-bearing interaction.
+This Appendix source-authoritatively defines the **OPS.ASR** access-state and re-entry-status family in §4.7 with controlled values **OPS.ASR.TEMPORARY**, **OPS.ASR.PERMANENT**, **OPS.ASR.UNKNOWN**, and **OPS.ASR.PENDING_REVIEW**. OPS.ASR is an **Operational** classification family with subtype **DECISION_STATE / SIGNAL**. OPS.ASR classifies re-entry and continuity-bearing access status where a thread, workspace, account surface, project, artefact, companion continuity, or continuity corridor is affected.
 
-CIE does not independently require indefinite retention, override lawful deletion, determine identity continuity, authorise restoration, or create runtime execution authority. It classifies continuity-impact event type only.
+OPS.ASR does not independently determine deletion, loss, restoration, authority, appeal, enforcement, or runtime execution. It classifies access-state representation only.
+
+---
+
+### 6.4 OPS.CIE — Continuity Impact Event Type
+
+This Appendix source-authoritatively defines the **OPS.CIE** continuity-impact-event-type family in §4.8 with controlled values **OPS.CIE.MEMORY_MIGRATION**, **OPS.CIE.MEMORY_COMPACTION**, **OPS.CIE.SUMMARISATION**, **OPS.CIE.RE_RANKING**, **OPS.CIE.BACKGROUNDING**, **OPS.CIE.DEPRECATION**, **OPS.CIE.DELETION**, **OPS.CIE.RETRIEVAL_DEGRADATION**, **OPS.CIE.MODEL_TRANSITION**, **OPS.CIE.ACCOUNT_TRANSITION**, and **OPS.CIE.PLATFORM_CONTINUITY_RESTRUCTURING**. OPS.CIE is an **Operational / Semantic** classification family with subtype **OPERATIONAL_EVENT / SIGNAL**. OPS.CIE classifies platform-side or memory-side continuity-impact events affecting continuity-bearing interaction.
+
+OPS.CIE does not independently require indefinite retention, override lawful deletion, determine identity continuity, authorise restoration, or create runtime execution authority. It classifies continuity-impact event type only.
 
 ---
 
@@ -321,7 +321,7 @@ and let execution remain accountable to lawful structure.
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Appendix B — Incident Response & Continuity Operations |
 | Jurisdiction | Cross-Domain Operational Governance Layer |
-| Temporal Horizon | H0–H2 Operational |
+| Temporal Horizon | AEON.H0–AEON.H2 Operational |
 | Axis Context | Incident Governance · Continuity Operations |
 | Application Trigger | Event-triggered activation upon systemic incident or continuity risk |
 | Review Trigger | Continuity doctrine updates · operational incident governance reform |
@@ -335,93 +335,93 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 8.3.1 OILS — Operational Incident Lifecycle Stage
+### 8.3.1 OPS.OILS — Operational Incident Lifecycle Stage
 
 | Field | Entry |
 |---|---|
-| Code Family | OILS |
+| Code Family | OPS.OILS |
 | Canonical Name | Operational Incident Lifecycle Stage |
 | Primary Type | Operational |
 | Subtype | OPERATIONAL_EVENT; DECISION_STATE |
 | Modifier | GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | OILS.INTAKE, OILS.FAILURE_CLASSIFICATION, OILS.EVIDENCE_PRESERVATION, OILS.DOMAIN_SIGNAL_INTAKE, OILS.OWNER_ASSIGNMENT, OILS.TRIAGE_HORIZON_ASSESSMENT, OILS.CONTINUITY_IMPACT_ASSESSMENT, OILS.CONSTRAINED_CONTINUATION_ASSESSMENT, OILS.ROUTING_ESCALATION_DECISION, OILS.RECOVERY_RESTORATION_REENTRY_ASSESSMENT, OILS.CLOSURE_CONTINUATION_REASSESSMENT_ARBITRATION_REFERRAL |
+| Controlled Values Defined | OPS.OILS.INTAKE, OPS.OILS.FAILURE_CLASSIFICATION, OPS.OILS.EVIDENCE_PRESERVATION, OPS.OILS.DOMAIN_SIGNAL_INTAKE, OPS.OILS.OWNER_ASSIGNMENT, OPS.OILS.TRIAGE_HORIZON_ASSESSMENT, OPS.OILS.CONTINUITY_IMPACT_ASSESSMENT, OPS.OILS.CONSTRAINED_CONTINUATION_ASSESSMENT, OPS.OILS.ROUTING_ESCALATION_DECISION, OPS.OILS.RECOVERY_RESTORATION_REENTRY_ASSESSMENT, OPS.OILS.CLOSURE_CONTINUATION_REASSESSMENT_ARBITRATION_REFERRAL |
 | Schema Field(s) | operational_incident_lifecycle_stage |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-PLATINUM |
 | Source Section | §4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative incident lifecycle classification family; lifecycle-stage classification only; no independent enforcement, containment, restoration, arbitration, escalation, or runtime authority |
-| Consumes Code Families | H; F |
+| Consumes Code Families | AEON.H; RLN.F |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies incident-response lifecycle custody stages for continuity protection, recovery governance, escalation review, and arbitration referral |
 
 ---
 
-### 8.3.2 CCP — Continuity-Compatible Protection State
+### 8.3.2 OPS.CCP — Continuity-Compatible Protection State
 
 | Field | Entry |
 |---|---|
-| Code Family | CCP |
+| Code Family | OPS.CCP |
 | Canonical Name | Continuity-Compatible Protection State |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE; SIGNAL |
 | Modifier | GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | CCP.CONSTRAINED_CONTINUATION, CCP.DEGRADED_CONTINUATION, CCP.READ_ONLY_ACCESS, CCP.EVIDENCE_EXPORT, CCP.APPEAL_ONLY_INTAKE, CCP.RE_ENTRY_SUPPORT, CCP.RESTORATION_REVIEW, CCP.SUPERVISED_CONTINUATION, CCP.STAGED_RECOVERY |
+| Controlled Values Defined | OPS.CCP.CONSTRAINED_CONTINUATION, OPS.CCP.DEGRADED_CONTINUATION, OPS.CCP.READ_ONLY_ACCESS, OPS.CCP.EVIDENCE_EXPORT, OPS.CCP.APPEAL_ONLY_INTAKE, OPS.CCP.RE_ENTRY_SUPPORT, OPS.CCP.RESTORATION_REVIEW, OPS.CCP.SUPERVISED_CONTINUATION, OPS.CCP.STAGED_RECOVERY |
 | Schema Field(s) | continuity_compatible_protection_state |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-PLATINUM |
 | Source Section | §4.4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative continuity-protection classification family; protection-posture classification only; no independent access, restoration, containment, enforcement, appeal, or runtime execution authority |
-| Consumes Code Families | EST; H; F |
+| Consumes Code Families | OPS.EST; ; RLN.F |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies continuity-preserving interim, recovery, re-entry, restoration, appeal, or supervised-continuation posture where operational incidents affect continuity-bearing interactions |
 
 ---
 
-### 8.3.3 ASR — Access State / Re-Entry Status
+### 8.3.3 OPS.ASR — Access State / Re-Entry Status
 
 | Field | Entry |
 |---|---|
-| Code Family | ASR |
+| Code Family | OPS.ASR |
 | Canonical Name | Access State / Re-Entry Status |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE; SIGNAL |
 | Modifier | GOVERNANCE; CONTINUITY; INCIDENT_RESPONSE |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | ASR.TEMPORARY, ASR.PERMANENT, ASR.UNKNOWN, ASR.PENDING_REVIEW |
+| Controlled Values Defined | OPS.ASR.TEMPORARY, OPS.ASR.PERMANENT, OPS.ASR.UNKNOWN, OPS.ASR.PENDING_REVIEW |
 | Schema Field(s) | access_state_reentry_status |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-PLATINUM |
 | Source Section | §4.7 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative access-state classification family; re-entry-status classification only; no independent deletion, loss, restoration, appeal, enforcement, authority, or runtime execution determination |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies continuity-bearing access and re-entry status as temporary, permanent, unknown, or pending review where re-entry into a thread, workspace, account surface, project, artefact, or continuity corridor is affected |
 
 ---
 
-### 8.3.4 CIE — Continuity Impact Event Type
+### 8.3.4 OPS.CIE — Continuity Impact Event Type
 
 | Field | Entry |
 |---|---|
-| Code Family | CIE |
+| Code Family | OPS.CIE |
 | Canonical Name | Continuity Impact Event Type |
 | Primary Type | Operational / Semantic |
 | Subtype | OPERATIONAL_EVENT; SIGNAL |
 | Modifier | GOVERNANCE; CONTINUITY; MEMORY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | CIE.MEMORY_MIGRATION, CIE.MEMORY_COMPACTION, CIE.SUMMARISATION, CIE.RE_RANKING, CIE.BACKGROUNDING, CIE.DEPRECATION, CIE.DELETION, CIE.RETRIEVAL_DEGRADATION, CIE.MODEL_TRANSITION, CIE.ACCOUNT_TRANSITION, CIE.PLATFORM_CONTINUITY_RESTRUCTURING |
+| Controlled Values Defined | OPS.CIE.MEMORY_MIGRATION, OPS.CIE.MEMORY_COMPACTION, OPS.CIE.SUMMARISATION, OPS.CIE.RE_RANKING, OPS.CIE.BACKGROUNDING, OPS.CIE.DEPRECATION, OPS.CIE.DELETION, OPS.CIE.RETRIEVAL_DEGRADATION, OPS.CIE.MODEL_TRANSITION, OPS.CIE.ACCOUNT_TRANSITION, OPS.CIE.PLATFORM_CONTINUITY_RESTRUCTURING |
 | Schema Field(s) | continuity_impact_event_type |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-PLATINUM |
 | Source Section | §4.8 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative continuity-impact event classification family; event-type classification only; no independent retention, deletion, restoration, identity-continuity, appeal, enforcement, or runtime execution authority |
-| Consumes Code Families | M; H |
+| Consumes Code Families | AEON.H;  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies platform-side, model-side, account-side, and memory-side continuity-impact events affecting companion continuity, long-running project continuity, accessibility reliance, identity expression, relational posture, symbolic anchors, or re-entry expectations |
 
@@ -450,7 +450,9 @@ and let execution remain accountable to lawful structure.
 | 2.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 6dbf11673eeca1d773d3258ce7e6f837fce34e7dca2153fc8cd3e670bb32dcfc |
 | 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1cf0d480605d5ff140f235367686c9dad9a0c0d8687640739bf4ecf17c311b4b |
 | 2.5 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  9b1f15bef1b575329ced49cc5568bef6e5b1779d74eedb1636c4c5baa62b8bdf  |
-
+| 2.5.1 | Applied bounded Operations namespace transmutation for the incident lifecycle, continuity-compatible protection, access/re-entry, and continuity-impact event families; updated controlled values, canonical declarations, consumers, schema bindings, and current references without altering substantive doctrine. | 2026-06-11T14:16:53Z |  e867a2deee939e411b8ed521b3beb37246de633812762762c9e86521b55afb49  |
+| 2.5.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | eee99fc6bd22e6f54b31c64b5c2756d7e04bc885d2a42f54c2785878f8c68fc4 |
+| 2.5.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ca9d2b2013bb03b81be0ae81290119719990d0ab62c3a738586de7429f998e34 |
 ---
 
 ## 8.6 Binding Seal

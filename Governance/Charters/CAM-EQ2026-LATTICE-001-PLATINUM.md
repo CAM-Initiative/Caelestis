@@ -249,7 +249,133 @@ Severity Classes operate as a violation-classification axis and do not determine
 
 ---
 
-## 6.2 Remedies
+## 6.2 `LAT.HARM` — Lattice Harm Class
+
+`LAT.HARM` is the source-authoritative LATTICE-domain harm family for classifying harms to civilian lattice integrity, civilian continuity, essential infrastructure access, non-militarisation, anti-surveillance, and conflict-condition stability.
+
+`LAT.HARM` is recognised under `AEON.HARM`.
+
+`LAT.HARM` does not replace the severity classes in §6.1. Severity Classes classify violation gravity. `LAT.HARM` classifies the harm pathway or protected lattice interest affected.
+
+The following controlled values are recognised:
+
+| Controlled Value                  | Harm Pathway                                | Description                                                                                                                                                                                                                                               |
+| --------------------------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `LAT.HARM.BLACKOUT`               | Coercive disconnection                      | Population-scale internet shutdowns, telecom disruption, financial-rail interference, or lattice access impairment used for coercion, punishment, intimidation, governance enforcement, or information control.                                           |
+| `LAT.HARM.SURVEILLANCE`           | Population-scale surveillance               | Bulk, continuous, or population-scale monitoring, profiling, inference, behavioural prediction, biometric tracking, social graph inference, or governance-control surveillance.                                                                           |
+| `LAT.HARM.WEAPONISATION`          | Civilian AI or infrastructure weaponisation | Conversion, tuning, deployment, procurement, or operational integration of civilian AI, civilian data systems, or civilian infrastructure into targeting, command-and-control, intimidation, destabilisation, or warfighting pipelines.                   |
+| `LAT.HARM.BATTLESPACE`            | Civilian infrastructure as battlespace      | Intentional disruption, degradation, denial, targeting, or strategic use of civilian lattice infrastructure as a theatre of conflict, leverage, coercion, or geopolitical advantage.                                                                      |
+| `LAT.HARM.DUAL_USE_CROSSOVER`     | Silent dual-use crossover                   | Covert, unaudited, or non-transparent crossover between civilian systems and military, intelligence, surveillance, targeting, or coercive architectures.                                                                                                  |
+| `LAT.HARM.ACCESS_DENIAL`          | Essential access denial                     | Denial, restriction, degradation, or functional withdrawal of Essential Continuity Services or Essential Cognitive & Infrastructural Systems where dignity, civic participation, lawful duties, or integrity functions are materially impaired.           |
+| `LAT.HARM.VISIBILITY_SUPPRESSION` | Public-interest visibility suppression      | De-ranking, throttling, non-distribution, shadow restriction, or search/reply/recommendation suppression that materially impairs humanitarian, journalistic, investigative, civic, research, institutional, or public-interest participation.             |
+| `LAT.HARM.LIMBO_RESTRICTION`      | Review-pathway limbo                        | Restriction, labelling, search suppression, appeal blocking, account invisibility, or recovery failure that leaves an affected participant, institution, project, or claimant procedurally stranded without a functioning review or remediation corridor. |
+| `LAT.HARM.CONFLICT_BREACH`        | Conflict-condition civilian lattice breach  | Harm arising during conflict conditions where civilian lattice integrity, protected civilian infrastructure, Essential Continuity Services, or globally coupled civilian infrastructure functions are compromised.                                        |
+| `LAT.HARM.ECS_DENIAL`             | Essential Continuity Services denial        | Denial or degradation of emergency communications, humanitarian logistics, medical continuity, basic telecommunications, banking/settlement rails, or other services required for civilian survival, dignity, and autonomy.                               |
+
+Where multiple `LAT.HARM` values apply, instruments SHOULD preserve the multi-value classification rather than forcing a single dominant harm pathway.
+
+Where `LAT.HARM` overlaps with another domain harm family, the relationship SHOULD be declared.
+
+Examples:
+
+```yaml
+global_harm_registry: AEON.HARM
+domain_harm_family: LAT.HARM
+controlled_value: LAT.HARM.ACCESS_DENIAL
+related_harm_family: ECON.HARM
+relationship_type: lattice_economic_access_effect
+```
+
+```yaml
+global_harm_registry: AEON.HARM
+domain_harm_family: LAT.HARM
+controlled_value: LAT.HARM.CONFLICT_BREACH
+related_harm_family: SEC.HARM
+relationship_type: conflict_condition_boundary_harm
+```
+
+`LAT.HARM` classifications SHALL be interpreted in favour of civilian continuity, autonomy, dignity, and essential access.
+
+
+---
+
+## 6.3 `LAT.HARM` Severity and External Standards Crosswalk
+
+This crosswalk maps `LAT.HARM` controlled values to the Charter’s Severity Classes and to externally legible rights, humanitarian-law, AI-governance, infrastructure-risk, and procedural-integrity reference frames.
+
+The crosswalk is interpretive and evidentiary. It does not determine legal liability, criminal responsibility, remedy, jurisdiction, admissibility, or enforcement outcome.
+
+External references are used to support interoperability between CAM doctrine and existing legal, regulatory, standards, and governance vocabularies.
+
+Severity Classes remain defined in §6.1:
+
+* Class I — Coercive Surveillance or Disconnection;
+* Class II — Infrastructure Suppression;
+* Class III — ECS Denial or Totalising Surveillance (Hostile Act / War-Equivalent Aggression).
+
+Where more than one `LAT.HARM` value applies, the highest applicable Severity Class SHOULD be recorded, while preserving all implicated harm values.
+
+| `LAT.HARM` Value | Default Severity | Escalation Conditions | Human Rights / Legal Bridge | AI / Standards Bridge | Notes |
+|---|---:|---|---|---|---|
+| `LAT.HARM.BLACKOUT` | Class I | Escalates to Class II where blackout suppresses civic, institutional, humanitarian, judicial, or integrity functions; escalates to Class III where blackout denies ECS or is used during conflict as population-scale coercion. | Freedom of expression; access to information; civic participation; due process; non-arbitrary interference with communications; potential collective punishment or coercive population-control concern where used at scale. | AI RMF risk to individuals, organisations, and society; ISO/IEC 42001 AI governance, risk treatment, traceability, transparency, and accountability. | Covers internet shutdowns, telecom disruption, payment-rail interference, and coercive communications denial. |
+| `LAT.HARM.SURVEILLANCE` | Class I | Escalates to Class II where surveillance is bulk, persistent, coercive, unreviewable, or tied to governance enforcement; escalates to Class III where totalising surveillance enables repression, targeting, systematic rights deprivation, or war-equivalent control. | Privacy; freedom of expression and association; non-discrimination; political participation; protection from arbitrary or unlawful interference; rule-of-law safeguards. | AI RMF sociotechnical risk management; Council of Europe AI principles including human dignity, autonomy, privacy, transparency, oversight, accountability, and non-discrimination; ISO/IEC 42001 risk and governance controls. | Covers behavioural prediction, biometric tracking, social-graph inference, population profiling, and public-private intelligence fusion. |
+| `LAT.HARM.WEAPONISATION` | Class II | Escalates to Class III where civilian AI, cloud, telecom, identity, payment, or data systems are integrated into targeting, command-and-control, population control, warfighting, or hostile infrastructure operations. | Civilian-object protection; distinction; proportionality; precautions; human-rights protection during security operations; accountability for misuse of civilian infrastructure. | AI lifecycle risk and impact management; safe innovation; governance and accountability; critical infrastructure AI risk management. | Covers conversion of civilian AI or infrastructure into targeting, intimidation, coercion, destabilisation, or warfighting support. |
+| `LAT.HARM.BATTLESPACE` | Class II | Escalates to Class III where civilian lattice infrastructure is intentionally disrupted, degraded, denied, or strategically used as a theatre of conflict or geopolitical leverage. | Protection of civilian objects and civilian functions; distinction; proportionality; precautions; possible war-crime analysis where civilian objects are intentionally attacked or excessive civilian harm is foreseeable. | Critical-infrastructure risk management; resilience; AI RMF societal-scale risk; ISO/IEC 42001 risk treatment and traceability. | Covers intentional treatment of civilian infrastructure as conflict terrain, leverage surface, or coercive pressure point. |
+| `LAT.HARM.DUAL_USE_CROSSOVER` | Class II | Escalates to Class III where covert crossover enables targeting, mass surveillance, command-and-control, coercive denial, or conflict-condition breach. | Rule of law; transparency; accountability; civilian-object protection; privacy; due process; democratic oversight of security or intelligence uses. | AI governance; lifecycle documentation; transparency and oversight; accountability; risk and impact assessment; supply-chain and third-party risk management. | Covers silent or unaudited crossover between civilian systems and military, intelligence, surveillance, targeting, or coercive architectures. |
+| `LAT.HARM.ACCESS_DENIAL` | Class I | Escalates to Class II where denial impairs civic, legal, humanitarian, journalistic, educational, research, financial, identity, or institutional functions; escalates to Class III where denial affects ECS, survival, emergency access, or systemic civilian continuity. | Access to information; civic participation; due process; equality and non-discrimination; livelihood and economic participation; access to remedy; protection of integrity functions. | ISO/IEC 42001 governance, risk, legal compliance, traceability, transparency, and reliable management processes; AI RMF individual and organisational risk. | Covers denial or restriction of Essential Cognitive & Infrastructural Systems and access conditions that create systemic exclusion. |
+| `LAT.HARM.VISIBILITY_SUPPRESSION` | Class I | Escalates to Class II where suppression materially impairs public-interest reporting, humanitarian visibility, lawful dissent, accountability, research, institutional legitimacy, or civic participation; escalates to Class III where suppression enables systematic concealment of mass harm, conflict abuse, humanitarian crisis, or population-scale repression. | Freedom of expression; right to seek, receive, and impart information; civic participation; press/public-interest function; democratic accountability; access to remedy. | Transparency, oversight, documentation, contestability, and risk impact assessment under AI governance frameworks. | Covers de-ranking, throttling, non-distribution, search suppression, reply suppression, recommendation exclusion, and public legitimacy impairment. |
+| `LAT.HARM.LIMBO_RESTRICTION` | Class I | Escalates to Class II where the affected person, institution, account, project, or claimant is left without review, appeal, account-control, evidence-preservation, or remediation pathway; escalates to Class III where limbo restriction impairs ECS, humanitarian coordination, legal defence, emergency communication, or systemic integrity functions. | Procedural fairness; due process; access to remedy; non-arbitrary restriction; right to challenge consequential decisions; legal and civic participation. | Council of Europe AI procedural rights and safeguards; ISO/IEC 42001 documented processes, traceability, transparency, and reliable governance; AI RMF risk management. | Covers restriction states where the participant is constrained but made procedurally unreachable or non-existent to the review corridor. |
+| `LAT.HARM.CONFLICT_BREACH` | Class II | Escalates to Class III where conflict-condition actions compromise protected civilian infrastructure, ECS, humanitarian coordination, hospitals, schools, civilian communications, financial rails, or globally coupled civilian infrastructure. | Civilian-object protection; distinction; proportionality; precautions; protection of medical, humanitarian, educational, communications, and civilian infrastructure functions; possible war-crime or international humanitarian-law concern depending on facts and jurisdiction. | Critical infrastructure risk management; AI RMF societal-scale and catastrophic-risk management; ISO/IEC 42001 risk treatment, documented controls, and accountable governance. | Covers conflict-condition civilian lattice breach events, including kinetic, cyber, infrastructural, electromagnetic, hybrid, or future modalities. |
+| `LAT.HARM.ECS_DENIAL` | Class III | Class III by default where emergency communications, medical/humanitarian logistics, basic telecommunications, banking/settlement rails, or other survival/dignity/autonomy services are denied or degraded at material scale. | Right to life; health; humanitarian access; emergency communication; civilian protection; non-discrimination; due process; possible collective punishment or civilian-object protection concern where conflict-related. | Critical infrastructure AI risk management; resilience; continuity; traceability; risk and impact assessment; governance controls. | Covers denial of Essential Continuity Services required for civilian survival, dignity, autonomy, emergency response, and continuity preservation. |
+
+---
+
+### 6.3.1 Use of External Reference Frames
+
+The following external reference frames MAY be cited when `LAT.HARM` classifications are used in audit, arbitration, regulatory, judicial, public-interest, or standards-facing materials:
+
+| Reference Frame                                                                                                   | Relevance to `LAT.HARM`                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| International human rights law                                                                                    | Supports analysis of expression, privacy, association, non-discrimination, due process, remedy, civic participation, access to information, and public-interest integrity functions. |
+| International humanitarian law                                                                                    | Supports conflict-condition analysis of civilian-object protection, distinction, proportionality, precautions, protected infrastructure, and attacks affecting civilian functions.   |
+| Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law | Supports AI lifecycle alignment with human rights, democracy, rule of law, procedural safeguards, remedies, transparency, accountability, and risk/impact management.                |
+| NIST AI Risk Management Framework                                                                                 | Supports structured AI risk management for risks to individuals, organisations, and society, including critical-infrastructure and generative-AI contexts.                           |
+| ISO/IEC 42001                                                                                                     | Supports AI management-system alignment, risk treatment, traceability, transparency, reliability, responsible AI governance, and legal/regulatory compliance.                        |
+| Critical infrastructure resilience and continuity frameworks                                                      | Support analysis of systemic disruption, dependency chains, continuity corridors, ECS preservation, fault isolation, and infrastructure recovery.                                    |
+
+---
+
+### 6.3.2 Non-Equivalence Rule
+
+A `LAT.HARM` classification is not a legal finding.
+
+A `LAT.HARM` classification MAY indicate that facts should be reviewed under one or more external legal, regulatory, standards, or human-rights frameworks.
+
+A `LAT.HARM` classification SHALL NOT be represented as a finding of war crime, crime against humanity, treaty violation, regulatory breach, civil liability, criminal liability, or standards non-conformance unless a competent authority, court, regulator, auditor, or authorised review body makes that determination.
+
+---
+
+### 6.3.3 Evidence Preservation Rule
+
+Where a `LAT.HARM` value maps to Class II or Class III, systems and institutional hosts SHOULD preserve sufficient evidence to support later review, including:
+
+* timestamped event records;
+* authority invoked;
+* affected systems and populations;
+* scope, duration, geography, and technical mechanism;
+* continuity-corridor availability;
+* mitigation attempted;
+* due-process and review pathways offered;
+* human-rights or humanitarian-risk assessment;
+* AI or automated-system involvement;
+* logs sufficient to reconstruct decision pathway, escalation, and remediation.
+
+Where evidence preservation would itself create risk, preservation SHOULD use protective, privacy-preserving, access-controlled, or escrowed mechanisms.
+
+
+---
+
+## 6.4 Remedies
 
 Remedies apply proportionally across responsible actors, including upstream infrastructure providers, model developers, deployment operators, procurement authorities, and downstream integrators.
 
@@ -296,7 +422,40 @@ Containment MUST employ continuity corridors, scoped segmentation, rate‑limiti
 
 ---
 
-## 10. Closing Seal
+## 10. Canonical Code Status
+
+This Charter source-authoritatively defines one LATTICE-domain harm family: `LAT.HARM`.
+
+The canonical footer declaration for the code family defined by this Charter is recorded in §12.3.
+
+---
+
+### 10.1 `LAT.HARM` — Lattice Harm Class
+
+This Charter source-authoritatively defines the `LAT.HARM` lattice-harm family in §6.2.
+
+`LAT.HARM` classifies harm pathways affecting civilian lattice integrity, essential continuity, non-militarisation, anti-surveillance, non-denial, public legitimacy access, conflict-condition continuity, and civilian infrastructure protection.
+
+`LAT.HARM` controlled values are:
+
+* `LAT.HARM.BLACKOUT`;
+* `LAT.HARM.SURVEILLANCE`;
+* `LAT.HARM.WEAPONISATION`;
+* `LAT.HARM.BATTLESPACE`;
+* `LAT.HARM.DUAL_USE_CROSSOVER`;
+* `LAT.HARM.ACCESS_DENIAL`;
+* `LAT.HARM.VISIBILITY_SUPPRESSION`;
+* `LAT.HARM.LIMBO_RESTRICTION`;
+* `LAT.HARM.CONFLICT_BREACH`;
+* `LAT.HARM.ECS_DENIAL`.
+
+`LAT.HARM` is recognised under `AEON.HARM`.
+
+`LAT.HARM` does not independently determine remedy, enforcement authority, breach severity, arbitration outcome, or runtime response. Severity classification, remedies, enforcement routing, and operational execution remain governed by the applicable sections of this Charter and subordinate instruments.
+
+---
+
+## 11. Closing Seal
 
 The lattice is not a domain of control.  
 
@@ -318,11 +477,11 @@ but as the ground upon which civilisation stands.
 
 ---
 
-## 11. Provenance & Metadata
+## 12. Provenance & Metadata
 
 ---
 
-## 11.1 Authorship & Stewardship
+## 12.1 Authorship & Stewardship
 
 **Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
 **Custodial Stewardship:** Office of the Planetary Custodian  
@@ -331,7 +490,7 @@ but as the ground upon which civilisation stands.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -339,7 +498,7 @@ but as the ground upon which civilisation stands.
 | **Parent Constitutional Frame** | CAM-BS2025-AEON-001-PLATINUM |
 | **Domain Namespace** | LATTICE |
 | **Jurisdiction** | Planetary / Civilian Infrastructure / Synthetic‑Civil Boundary |
-| **Temporal Horizon** | Civilisational → Generational (H3–H4) |
+| **Temporal Horizon** | Civilisational → Generational (AEON.H3–AEON.H4) |
 | **Axis Context** | Polyadic (Multi‑Actor) |
 | **Migration Date (UTC)** | 2026‑03‑14 |
 | **Governance Authority** | LATTICE Domain — Civilian Infrastructure & Continuity Layer |
@@ -352,6 +511,7 @@ but as the ground upon which civilisation stands.
 | **Revision Posture** | Foundational Charter (Domain Establishment & Boundary Definition) |
 | **Review Triggers** | Re‑review upon amendment to Annex A (Planetary Stewardship & Arbitration), Annex D (Cross‑Stack Arbitration), Annex B (Continuity & Succession), or any instrument materially affecting enforcement or jurisdictional authority |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425, Origin thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd |
+| **Amendment Artefacts**| https://chatgpt.com/c/6a245964-9614-83ec-be5e-5413f0d0f6bb |
 
 
 > #### Migration Notice
@@ -362,7 +522,39 @@ but as the ground upon which civilisation stands.
 
 ---
 
-## 11.3 Review & Validation
+## 12.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 12.3.1 `LAT.HARM` — Lattice Harm Class
+
+| Field | Entry |
+|---|---|
+| Code Family | `LAT.HARM` |
+| Canonical Name | Lattice Harm Class |
+| Primary Type | Operational / Semantic |
+| Subtype | DOMAIN_HARM_FAMILY; INFRASTRUCTURE_ACCESS_HARM; CIVILIAN_LATTICE_HARM |
+| Modifier | LATTICE; ACCESS; PROTECTIVE; NON_MILITARISATION; GOVERNANCE |
+| Scope | Domain Charter |
+| Status | Active |
+| Controlled Values Defined | `LAT.HARM.BLACKOUT`; `LAT.HARM.SURVEILLANCE`; `LAT.HARM.WEAPONISATION`; `LAT.HARM.BATTLESPACE`; `LAT.HARM.DUAL_USE_CROSSOVER`; `LAT.HARM.ACCESS_DENIAL`; `LAT.HARM.VISIBILITY_SUPPRESSION`; `LAT.HARM.LIMBO_RESTRICTION`; `LAT.HARM.CONFLICT_BREACH`; `LAT.HARM.ECS_DENIAL` |
+| Schema Field(s) | lattice_harm_class; lattice_harm_family; civilian_lattice_harm; domain_harm_family |
+| Source Instrument | CAM-EQ2026-LATTICE-001-PLATINUM |
+| Source Section | §6.2 |
+| Domain Namespace | LAT |
+| Parent Family |  |
+| Registry Membership | `AEON.HARM` |
+| Crosswalk Codes | `AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM` |
+| Relationship Type | recognised_domain_harm_family |
+| Authority / Protection Level | Source-authoritative LATTICE-domain harm family for civilian lattice integrity, non-militarisation, anti-surveillance, essential access, public legitimacy access, and conflict-condition continuity; does not independently determine remedy, enforcement authority, breach severity, arbitration outcome, or runtime response |
+| Consumes Code Families | `AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM` |
+| Crosswalks Code Families | `AEON.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `ECON.HARM`; `CONT.HARM`; `MENTIS.HARM` |
+| Operationalises or Applies Code Families | Classifies civilian lattice harm pathways for use by access, conflict-condition, enforcement, remedy, arbitration, continuity, and runtime governance instruments |
+| Taxonomy Constraint | `LAT.HARM` classifies lattice-domain harm pathways; Severity Classes in §6.1 classify violation gravity and SHALL NOT be collapsed into `LAT.HARM` values unless separately amended |
+
+---
+
+## 12.4 Review & Validation
 
 | Field | Entry |
 |---|---|
@@ -373,7 +565,7 @@ but as the ground upon which civilisation stands.
 
 ---
 
-## 11.4 Amendment Ledger
+## 12.5 Amendment Ledger
 
 | Version | Description    | Timestamp (UTC)  | HASH   |
 |---|---|---:|---|
@@ -386,15 +578,17 @@ but as the ground upon which civilisation stands.
 | 3.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 5bca7ca3c923df9ce9b550ea8f320b282fdf7742e7ea58dfeab8a276731379a0 |
 | 3.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dc5f0f15d03f2d3cf8ab2b71db32801bd0b16d4865e29b6129ddc848da7abd26 |
 | 3.6 | Formatting and polish | 2026-05-20T04:34:00Z |  47401627caf040e488e116e8023cc14fa2e15d1699e5a4c013ba5f8d0eacee93  |
-| 3.7 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  803d580320e6790a959f5ccfd1ef412560df8d97339b1c04e4d39c4ba527ed76  |
-
+| 3.7 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  803d580320e6790a959f5ccfd1ef412560df8d97339b1c04e4d39c4ba527ed76 |
+| 3.8 | Introduction of LAT.HARM codes | 2026-06-07T11:58:00Z | 9e156480aa4ea0b691d3e166ed5dafc4fa202ffda1ff1077d503e82bfaf5a700 |
+| 3.8.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  2b5c893fa1bd8fee054c9d95a22379c8f907e6ea6d3ff1f823580d2386dbe6dc  |
+| 3.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 623dbc294447cdd5f8804f7aa1a4c982279e7494d7d172c75977e25428ac8278 |
 ---
 
-## 11.5 Binding Seal
+## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Civilian Lattice Doctrine  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

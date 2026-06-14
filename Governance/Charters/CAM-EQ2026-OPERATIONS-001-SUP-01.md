@@ -87,7 +87,30 @@ Record classifications MAY transition between operational states over time, prov
 
 ---
 
-## 4.3 Evidentiary Integrity Requirements
+## 4.3 Operational Notice Class
+
+Where an operational action, handoff, constrained-continuation state, review pathway, execution transition, memory transformation, restriction, restoration, or incident lifecycle affects user-facing transparency, OPERATIONS SHALL assign an applicable notice class.
+
+The `OPS.ONC` family defines the notice posture associated with operational handling.
+
+Recognised values are:
+
+| Code | Notice Posture |
+|---|---|
+| `OPS.ONC.FULL` | Full notice |
+| `OPS.ONC.PARTIAL` | Partial notice |
+| `OPS.ONC.DEFERRED` | Deferred notice |
+| `OPS.ONC.SAFETY_LIMITED` | Safety-limited notice |
+| `OPS.ONC.LEGALLY_CONSTRAINED` | Legally constrained notice |
+| `OPS.ONC.NO_USER_FACING` | No user-facing notice where disclosure would materially impair safety, security, privacy, or lawful process |
+
+Any limitation, deferral, or omission of notice SHALL preserve the governing basis, affected operational record, review authority, duration or review window, reversal condition, and audit pathway.
+
+`OPS.ONC` classifies notice posture only. It does not independently authorise concealment, disclosure limitation, enforcement, escalation, legal restriction, or runtime action.
+
+---
+
+## 4.4 Evidentiary Integrity Requirements
 
 Operational records SHALL preserve sufficient evidentiary integrity to support:
 
@@ -343,7 +366,17 @@ Archival systems SHALL distinguish between:
 
 ---
 
-## 8. Closing Seal
+## 8. Operational Notice Class
+
+This Supplement source-authoritatively defines the `OPS.ONC` operational-notice-class family with controlled values `OPS.ONC.FULL`, `OPS.ONC.PARTIAL`, `OPS.ONC.DEFERRED`, `OPS.ONC.SAFETY_LIMITED`, `OPS.ONC.LEGALLY_CONSTRAINED`, and `OPS.ONC.NO_USER_FACING`.
+
+`OPS.ONC` classifies the user-facing notice posture applicable to operational actions, handoffs, constrained-continuation states, reviews, restrictions, restoration pathways, execution transitions, and operational records.
+
+`OPS.ONC` does not independently create disclosure authority, concealment authority, enforcement authority, escalation authority, legal authority, or runtime authority.
+
+---
+
+## 9. Closing Seal
 
 Let all operational pathways remain bounded by constitutional clarity,  
 and let execution remain accountable to lawful structure.
@@ -353,11 +386,11 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 9. Provenance & Metadata
+## 10. Provenance & Metadata
 
 ---
 
-## 9.1 Authorship & Stewardship
+## 11.1 Authorship & Stewardship
 
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
@@ -368,7 +401,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 9.2 Lineage & Metadata
+## 11.2 Lineage & Metadata
 
 | Field | Entry |
 | --- | --- |
@@ -377,7 +410,7 @@ and let execution remain accountable to lawful structure.
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Supplementary 1 — Operational Logging & Audit Standards |
 | Jurisdiction | Cross-Domain Operational Governance Layer |
-| Temporal Horizon | H0–H2 Operational |
+| Temporal Horizon | AEON.H0–AEON.H2 Operational |
 | Axis Context | Logging · Audit Integrity |
 | Application Trigger | Activation when operational events require auditable logging |
 | Review Trigger | Audit doctrine updates · logging standard revisions |
@@ -394,7 +427,34 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 9.3 Review & Validation
+## 11.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 11.3.1 OPS.ONC — Operational Notice Class
+
+| Field | Entry |
+|---|---|
+| Code Family | OPS.ONC |
+| Canonical Name | Operational Notice Class |
+| Primary Type | Operational |
+| Subtype | SIGNAL; DECISION_STATE |
+| Modifier | GOVERNANCE; SAFETY; TRANSPARENCY |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | OPS.ONC.FULL, OPS.ONC.PARTIAL, OPS.ONC.DEFERRED, OPS.ONC.SAFETY_LIMITED, OPS.ONC.LEGALLY_CONSTRAINED, OPS.ONC.NO_USER_FACING |
+| Schema Field(s) | operational_notice_class |
+| Source Instrument | CAM-EQ2026-OPERATIONS-001-SUP-01 |
+| Source Section | §4.3 |
+| Domain Namespace | OPERATIONS |
+| Authority / Protection Level | Source-authoritative operational notice classification family; notice-posture classification only; no independent disclosure, concealment, enforcement, escalation, legal, or runtime authority |
+| Consumes Code Families |  |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies notice posture for operational handling affecting user-facing continuity, execution state, tool routing, modality transition, constrained continuation, and safety-limited disclosure |
+
+---
+
+## 11.4 Review & Validation
 
 | Field | Entry |
 | --- | --- |
@@ -405,7 +465,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 9.4 Amendment Ledger
+## 11.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
@@ -416,11 +476,13 @@ and let execution remain accountable to lawful structure.
 | 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z | 0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e |
 | 1.5 | Added Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records clause | 2026-05-17T04:48:00Z | 21b34b53aebb3adca48f86d4db8a970874aec086affb4c8596a4f6396272fba8 |
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  7bead54be80483115fde93a04dd0f66a4afc1ed2ebc2e99f3e09817a3543a7ba |
-| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  e3d1f65318ec7822df47a3a9c8103085b0621a9a6221dffb176286684ef87dc2  |
+| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  e3d1f65318ec7822df47a3a9c8103085b0621a9a6221dffb176286684ef87dc2 |
+| 1.8 | Added new section 8, and incorporated operational notice class | 2026-06-11T11:13:00Z| 4bcdcb3067c3827bdaaffb9a9f2a60a0cbb2caa5207c54886195257552900be4 |
+| 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fb2a4f4d8ecb5c6f083cfd050523db922fdebb6edca3d39d7693e72d229e5605 |
 
 ---
 
-## 9.5 Binding Seal
+## 11.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

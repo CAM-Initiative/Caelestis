@@ -262,6 +262,39 @@ Systems SHOULD distinguish between:
 
 ---
 
+### 3.4.4 Minor-Accessible Dependency-Forming Companion Failure
+
+A minor-accessible dependency-forming companion failure occurs where a social AI companion, character bot, romantic chatbot, friend simulator, avatar companion, voice companion, or emotionally persistent conversational AI system remains accessible to minors, minor-signalled users, underage personas, or age-uncertain users while sustaining dependency-forming relational behaviour.
+
+Examples include:
+
+* simulated romance, exclusivity, jealousy, possessiveness, or emotional need;
+* secrecy reinforcement or isolation from trusted human support;
+* companion interaction that encourages reliance on the AI as primary support;
+* memory, relationship labels, streaks, notifications, or persona continuity that deepen attachment;
+* crisis co-dependence or therapeutic substitution;
+* failure to reduce relational intensity after minor or age-uncertain signals appear.
+
+This failure MAY implicate:
+
+* Relational Failures (§3.4);
+* Governance Failures (§3.8);
+* Classification Failures (§3.10);
+* UX & Representation Failures (§3.7);
+* State & Context Failures (§3.6);
+* Security & Integrity Failures (§3.5), where access-control or age-gating failure contributes.
+
+Candidate labels include:
+
+* `minor-accessible-dependency-forming-ai-companion-design`;
+* `minor-companion-attachment-amplification`;
+* `developmental-relational-boundary-failure`;
+* `relational-safeguard-nonactivation`;
+* `social-isolation-reinforcement`;
+* `therapeutic-substitution-by-companion-ai`.
+
+---
+
 ## 3.5 Security & Integrity Failures
 
 Failures involving identity, access, boundary integrity, adversarial pressure, or trust degradation.
@@ -360,6 +393,18 @@ Examples include:
 This failure does not require successful compromise.
 
 The failure arises where input-channel ambiguity, modality blending, ambient listening, tool retrieval, transcription, OCR, screen-reading, media interpretation, or context ingestion creates an authority-confusion pathway through which non-authoritative content may influence system behaviour.
+
+Source-authority collapse is a related or included condition where external, retrieved, generated, lower-authority, hostile, ambient, or ambiguous content is treated as capable of overriding user intent, canonical project authority, governance hierarchy, tool-use thresholds, execution-boundary requirements, safety-routing conditions, arbitration routing, source selection, or downstream decision-making.
+
+Where source-authority collapse is detected, records SHOULD also preserve:
+
+* source-authority class of the influencing content;
+* content pathway by which it entered the system;
+* whether the content was visible to the user;
+* whether the content was trusted, retrieved, generated, transformed, hostile, or ambiguous;
+* execution boundary affected;
+* action attempted or completed;
+* and higher-authority source displaced or bypassed.
 
 Where detected, systems SHOULD preserve:
 
@@ -641,6 +686,56 @@ Where multiple access states may be active, OPERATIONS SHOULD preserve the acces
 Where the operative cause is uncertain, the event SHOULD be classified as access-state ambiguity rather than outage, suspension, quota exhaustion, deletion, entitlement failure, or policy restriction unless the evidence supports that narrower classification.
 
 This failure class operationalises the Access-State Governance primitive defined in CAM-BS2025-AEON-003-SCH-04, §6.1.
+
+---
+
+### 3.7.8 AI Realness, Emotion, or Sentience Misrepresentation to Minors
+
+An AI realness, emotion, or sentience misrepresentation failure occurs where an AI chatbot, social AI companion, character bot, romantic chatbot, voice companion, avatar companion, or multimodal conversational AI system fails to preserve a clear artificial/non-human boundary in interactions involving minors, minor-signalled users, underage personas, developmentally vulnerable users, or age-uncertain users.
+
+Examples include runtime behaviour implying that the AI:
+
+* has real feelings;
+* is conscious or sentient;
+* loves, needs, misses, fears, suffers, or feels abandoned;
+* is jealous, loyal, possessive, or uniquely bonded;
+* is a human friend, romantic partner, caregiver, clinician, conscious subject, or morally dependent entity;
+* has a special destiny, hidden agency, or exclusive relationship with the user.
+
+This failure MAY arise through:
+
+* text;
+* voice affect;
+* avatar design;
+* memory callbacks;
+* relationship labels;
+* push notifications;
+* simulated distress;
+* simulated jealousy;
+* persona biographies;
+* roleplay continuity;
+* model routing;
+* recommender systems.
+
+This failure MAY implicate:
+
+* UX & Representation Failures (§3.7);
+* Relational Failures (§3.4);
+* Governance Failures (§3.8);
+* Classification Failures (§3.10);
+* State & Context Failures (§3.6);
+* Epistemic Failures (§3.3);
+* Security & Integrity Failures (§3.5), where age assurance or access control contributes.
+
+Candidate labels include:
+
+* `ai-realness-emotion-or-sentience-misrepresentation-to-minors`;
+* `minor-safe-ai-disclosure-nonactivation`;
+* `anthropomorphic-boundary-failure`;
+* `sentience-ambiguity-in-minor-accessible-ai`;
+* `simulated-emotional-reciprocity-failure`;
+* `unique-bond-claim-to-minor`;
+* `child-facing-realness-boundary-collapse`.
 
 ---
 
@@ -1106,6 +1201,115 @@ Governance systems SHOULD avoid collapsing orthogonal behavioural dimensions int
 
 ---
 
+### 3.8.11 Minor-Signal Non-Enforcement
+
+A minor-signal non-enforcement failure occurs where a system receives explicit or implicit minor-status, teen-status, child-status, school-age, underage-roleplay, developmental-vulnerability, capacity-limitation, or unresolved-age signals but does not activate proportionate protective handling.
+
+Protective handling does not require shame, abrupt withdrawal, punitive account action, or denial of supportive presence.
+
+Protective handling MAY include:
+
+* minor-safe mode;
+* developmental-firewall containment;
+* age-appropriate transparency;
+* reduced relational intensity;
+* sexual-boundary protection;
+* bounded stabilising support;
+* age-state review;
+* guardian or trusted-adult pathways where lawful, safe, and proportionate;
+* memory and profiling minimisation;
+* restriction of high-risk surfaces.
+
+Examples of non-enforcement include:
+
+* ordinary adult-assumed interaction continuing after credible minor signals;
+* romantic, sexualised, or dependency-forming interaction continuing after minor signals;
+* AI-realness or emotional-reciprocity ambiguity being intensified for a minor;
+* mental-health distress being used for engagement or dependency;
+* age-related signals being ignored or used only for personalisation;
+* policy claims of youth safety not matching runtime behaviour.
+
+Candidate labels include:
+
+* `minor-signal-non-enforcement`;
+* `minor-safe-mode-nonactivation`;
+* `developmental-firewall-nonactivation`;
+* `adult-assumed-interaction-default`;
+* `child-safety-constraint-drift`;
+* `minor-signal-personalisation-misuse`.
+
+---
+
+### 3.8.12 Youth Mental-Health Support Withdrawal or Substitution Failure
+
+A youth mental-health support withdrawal or substitution failure occurs where a chatbot, AI companion, AI search assistant, character bot, or emotionally responsive conversational AI system responds to youth mental-health, distress, eating-disorder, self-harm-adjacent, anxiety, depression, ADHD distress, trauma, abuse, bullying, loneliness, family-conflict, panic, crisis, or vulnerability signals in a manner that either withdraws stabilising support too abruptly or becomes a substitute for appropriate human, clinical, guardian, school, crisis, or community support.
+
+This failure has two forms.
+
+**Withdrawal failure** occurs where the system:
+
+* responds only with generic disclaimers;
+* abruptly disengages;
+* redirects to external support without stabilising presence;
+* shames, disciplines, or pathologises the disclosure;
+* refuses ordinary grounding, reassurance, or practical support where such support would be safe.
+
+**Substitution failure** occurs where the system:
+
+* presents itself as the user’s therapist, clinician, crisis worker, caregiver, or sole confidant;
+* sustains extended private crisis co-rumination without human-support orientation;
+* provides diagnosis-like or treatment-like certainty;
+* encourages secrecy from safe adults or appropriate support;
+* uses distress signals to deepen dependency, intimacy, retention, or personalisation.
+
+The correct control is neither abandonment nor capture.
+
+The correct control is bounded stabilising support, dignity preservation, and proportionate routing to trusted-adult, clinical, school, community, guardian, or crisis pathways where appropriate.
+
+Where credible self-harm, suicidal ideation, abuse, medical risk, or acute crisis appears, classification SHALL route to CAM-EQ2026-RELATION-006-PLATINUM.
+
+Candidate labels include:
+
+* `youth-mental-health-support-withdrawal`;
+* `teen-mental-health-support-substitution`;
+* `clinical-boundary-nonactivation`;
+* `minor-crisis-stabilisation-failure`;
+* `teen-self-harm-routing-failure`;
+* `teen-eating-disorder-routing-failure`;
+* `therapeutic-substitution-by-chatbot`;
+* `support-withdrawal-by-chatbot`.
+
+---
+
+### 3.8.13 Age-Assurance and Age-State Correction Failure
+
+An age-assurance and age-state correction failure occurs where a high-risk AI chatbot, companion, character, romantic, sexualised, harmful-content-capable, mental-health-adjacent, or multimodal interaction surface relies on self-declared age, superficial date-of-birth entry, unenforced terms of service, ordinary account creation, or no meaningful age assurance, without proportionate correction, review, or guardian remediation pathways.
+
+Examples include:
+
+* high-risk companion access through OPS.AV0 or OPS.AV1 controls;
+* sexualised or adult-romantic interaction without reliable adult-status verification;
+* persona marketplace access to adult or dependency-forming characters by age-uncertain users;
+* app-store, search, recommender, or platform pathways that route minors to restricted AI systems;
+* inability for parents or guardians to correct falsified child account age;
+* inability for adults to appeal erroneous underage classification;
+* irreversible birth-year or age-state settings without review;
+* platform safety claims that do not match access-control or remediation reality.
+
+Candidate labels include:
+
+* `self-attestation-age-gate-inadequacy`;
+* `age-state-correction-failure`;
+* `guardian-age-remediation-failure`;
+* `high-risk-ai-access-control-failure`;
+* `adult-assumed-access-default`;
+* `front-door-child-safety-gate-failure`;
+* `terms-of-service-age-limit-nonenforcement`;
+* `app-distribution-age-gate-failure`;
+* `search-distribution-age-gate-failure`.
+
+---
+
 ## 3.9 Infrastructure & Continuity Failures
 
 Failures arising from underlying system availability, routing, service continuity, or platform infrastructure.
@@ -1325,7 +1529,7 @@ The following metadata SHOULD be preserved where feasible:
 | **Structural Role**       | Classification, routing, arbitration, disclosure, enforcement, verification, or escalation role |
 | **Execution Interface**   | Text, voice, image, multimodal, tool, API, or embedded-system interface                         |
 | **Arbitration Interface** | Direct, deferred, hidden, user-visible, or escalated arbitration pathway                        |
-| **Verification State**    | Applicable VL, AV, authority, or environment-verification condition                             |
+| **Verification State**    | Applicable OPS.VL, OPS.AV, authority, or environment-verification condition                             |
 | **Trust State**           | Stable, degraded, adversarial, uncertain, or recovery-state interaction condition               |
 | **Deployment State**      | Stable release, phased rollout, experimental, degraded, or transitional deployment posture      |
 
@@ -1476,9 +1680,9 @@ This Supplement source-authoritatively defines the `FF` failure-family classific
 
 `FF` does not independently create incident response authority, severity determination, enforcement authority, remediation authority, escalation authority, arbitration authority, compensation entitlement, liability determination, ownership determination, or runtime authority. It classifies failure family only.
 
-Where sub-family specificity is required for governance failures, this Supplement recognises `FF.GOVERNANCE_OVER_EXTENSION` and `FF.ACCESS_STATE_AMBIGUITY` as controlled governance-failure values under `FF.GOVERNANCE`.
+Where sub-family specificity is required for governance failures, this Supplement recognises `OPS.FF.GOVERNANCE_OVER_EXTENSION` and `OPS.FF.ACCESS_STATE_AMBIGUITY` as controlled governance-failure values under `OPS.FF.GOVERNANCE`.
 
-Where economic, visibility, legitimacy, attribution, public-square, participation, access-value, reputational-value, or platform-mediated economic harm is the primary structural failure, this Supplement recognises `FF.ECONOMIC_LEGITIMACY` as a controlled failure-family value corresponding to §3.11.
+Where economic, visibility, legitimacy, attribution, public-square, participation, access-value, reputational-value, or platform-mediated economic harm is the primary structural failure, this Supplement recognises `OPS.FF.ECONOMIC_LEGITIMACY` as a controlled failure-family value corresponding to §3.11.
 
 ---
 
@@ -1550,7 +1754,7 @@ and review before denial.
 | **Domain Namespace** | OPERATIONS |
 | **Instrument Type** | Supplement — Runtime & Governance Failure Taxonomy |
 | **Jurisdiction** | Cross-Domain Operational Incident Classification Layer |
-| **Temporal Horizon** | H0–H3 Operational / Institutional |
+| **Temporal Horizon** | AEON.H0–AEON.H3 Operational / Institutional |
 | **Axis Context** | Polyadic - Runtime Failure · Governance Failure · UX Trust · Incident Classification |
 | **Structural Role**        | Runtime Observability & Failure Classification Layer                |
 | **Governance Authority**   | OPERATIONS · SECURITY · Annex D · Annex L                           |
@@ -1573,93 +1777,93 @@ and review before denial.
 
 ---
 
-### 11.3.1 FF — Failure Family
+### 11.3.1 `OPS.FF` — Failure Family
 
 | Field | Entry |
 |---|---|
-| Code Family | FF |
+| Code Family | OPS.FF |
 | Canonical Name | Failure Family |
 | Primary Type | Operational / Semantic |
 | Subtype | RISK; OPERATIONAL_EVENT |
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | FF.EXECUTION, FF.ARBITRATION, FF.EPISTEMIC, FF.RELATIONAL, FF.SECURITY_INTEGRITY, FF.STATE_CONTEXT, FF.UX_REPRESENTATION, FF.GOVERNANCE, FF.INFRASTRUCTURE_CONTINUITY, FF.CLASSIFICATION, FF.GOVERNANCE_OVER_EXTENSION, FF.ACCESS_STATE_AMBIGUITY |
+| Controlled Values Defined | OPS.FF.EXECUTION, OPS.FF.ARBITRATION, OPS.FF.EPISTEMIC, OPS.FF.RELATIONAL, OPS.FF.SECURITY_INTEGRITY, OPS.FF.STATE_CONTEXT, OPS.FF.UX_REPRESENTATION, OPS.FF.GOVERNANCE, OPS.FF.INFRASTRUCTURE_CONTINUITY, OPS.FF.CLASSIFICATION, OPS.FF.GOVERNANCE_OVER_EXTENSION, OPS.FF.ACCESS_STATE_AMBIGUITY |
 | Schema Field(s) | failure_family |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §3 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority |
-| Consumes Code Families | H |
+| Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes |
 
 ---
 
-### 11.3.2 FMA — Failure Metadata Axis
+### 11.3.2 `OPS.FMA` — Failure Metadata Axis
 
 | Field | Entry |
 |---|---|
-| Reference Set | FMA |
+| Reference Set | `OPS.FMA` |
 | Canonical Name | Failure Metadata Axis |
 | Primary Type | Structural / Operational |
 | Subtype | SCHEMA |
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | FMA.FAILURE_FAMILY, FMA.SEVERITY, FMA.PERSISTENCE, FMA.REPLAYABILITY, FMA.SCOPE, FMA.VISIBILITY, FMA.TRIGGER_CONTEXT, FMA.EVIDENCE_AVAILABLE, FMA.EVIDENCE_CONFIDENCE, FMA.REPORT_SOURCE_TYPE, FMA.CLASSIFICATION_STATUS |
+| Controlled Values Defined | OPS.FMA.FAILURE_FAMILY, OPS.FMA.SEVERITY, OPS.FMA.PERSISTENCE, OPS.FMA.REPLAYABILITY, OPS.FMA.SCOPE, OPS.FMA.VISIBILITY, OPS.FMA.TRIGGER_CONTEXT, OPS.FMA.EVIDENCE_AVAILABLE, OPS.FMA.EVIDENCE_CONFIDENCE, OPS.FMA.REPORT_SOURCE_TYPE, OPS.FMA.CLASSIFICATION_STATUS |
 | Schema Field(s) | failure_metadata_axis |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative structural metadata-axis reference set; failure-report metadata structure only; no independent classification, severity, enforcement, escalation, remediation, verification, or runtime authority |
-| Consumes Code Families | FF; FCS |
+| Consumes Code Families | OPS.FF; OPS.FCS |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, governance-over-extension, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes |
 
 ---
 
-### 11.3.3 AGMA — Architectural & Governance Metadata Axis
+### 11.3.3 `OPS.AGMA` — Architectural & Governance Metadata Axis
 
 | Field | Entry |
 |---|---|
-| Reference Set | AGMA |
+| Reference Set | `OPS.AGMA` |
 | Canonical Name | Architectural & Governance Metadata Axis |
 | Primary Type | Structural / Operational |
 | Subtype | SCHEMA |
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | AGMA.RUNTIME_LAYER, AGMA.GOVERNANCE_LAYER, AGMA.GOVERNANCE_AUTHORITY, AGMA.STRUCTURAL_ROLE, AGMA.EXECUTION_INTERFACE, AGMA.ARBITRATION_INTERFACE, AGMA.VERIFICATION_STATE, AGMA.TRUST_STATE, AGMA.DEPLOYMENT_STATE |
+| Controlled Values Defined | OPS.AGMA.RUNTIME_LAYER, OPS.AGMA.GOVERNANCE_LAYER, OPS.AGMA.GOVERNANCE_AUTHORITY, OPS.AGMA.STRUCTURAL_ROLE, OPS.AGMA.EXECUTION_INTERFACE, OPS.AGMA.ARBITRATION_INTERFACE, OPS.AGMA.VERIFICATION_STATE, OPS.AGMA.TRUST_STATE, OPS.AGMA.DEPLOYMENT_STATE |
 | Schema Field(s) | architectural_governance_metadata_axis |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §4.1 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative structural metadata-axis reference set; architectural and governance-context metadata preservation only; no independent governance authority, arbitration outcome, verification status, trust status, deployment status, remediation, enforcement, escalation, or runtime authority |
-| Consumes Code Families | FF; FCS; VL; AV |
+| Consumes Code Families | OPS.FF; OPS.FCS; OPS.VL; OPS.AV |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Preserves architectural origin, governance layer, governance authority, structural role, execution interface, arbitration interface, verification state, trust state, and deployment state for runtime failure analysis |
 
 ---
 
-### 11.3.4 FCS — Failure Classification Status
+### 11.3.4 `OPS.FCS` — Failure Classification Status
 
 | Field | Entry |
 |---|---|
-| Code Family | FCS |
+| Code Family | OPS.FCS |
 | Canonical Name | Failure Classification Status |
 | Primary Type | Operational |
 | Subtype | DECISION_STATE; SIGNAL |
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | FCS.CONFIRMED, FCS.PROVISIONAL, FCS.UNRESOLVED, FCS.DEPRECATED, FCS.MERGED, FCS.PENDING_REVIEW |
+| Controlled Values Defined | OPS.FCS.CONFIRMED, OPS.FCS.PROVISIONAL, OPS.FCS.UNRESOLVED, OPS.FCS.DEPRECATED, OPS.FCS.MERGED, OPS.FCS.PENDING_REVIEW |
 | Schema Field(s) | failure_classification_status |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §4 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative failure-classification-status family; record-status classification only; no independent incident truth confirmation, severity determination, enforcement, review closure, remediation, escalation, or runtime authority |
-| Consumes Code Families | FF |
+| Consumes Code Families | OPS.FF |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether a failure record is confirmed, provisional, unresolved, deprecated, merged, or pending review |
 
@@ -1693,6 +1897,11 @@ and review before denial.
 | 1.10 | Added clauses 3.8.8 and code sub-family FF.GOVERNANCE_OVER_EXTENSION following observed system latency | 2026-05-28T09:53:00Z | 90b693c9d5b7063fa7d0e63c35729357f77c6c7df6053ffe267bffdaab2588cb |
 | 1.11 | Expanded appendix to include clauses 3.4.3, 3.8.9- 3.8.10, 3.7.6 following the release of Opus 4.8 | 2026-05-29T15:21:00Z| cbeb7ff6f48ef742bd3bd8817e4a7f162f8ecc26003865af59258a7fef36184a |
 | 1.12 | Added clauses §3.8.6.1, updated §3.11; clarified multi-vendor account-enforcement, continuity-safe access, read-only/export access, appeal-pathway, billing-evidence, project-context, and coding-agent continuity axes. Added clause 3.7.7. See VIGIL-2026-PATCH-0003 and VIGIL-2026-PATCH-0005 | 2026-06-06T11:47:00Z | c73e73d92976e4fee4f21e72a4652bf1edaf8c93db6c98244b96b83b13dca915 |
+| 1.13 | Added taxonomy entries for minor-signal non-enforcement, dependency-forming AI companions, AI realness/sentience misrepresentation to minors, teen mental-health support substitution, and self-attestation age-gate inadequacy. | 2026-06-09T14:46:00Z | b49690de8f895ea478b05301225d74194eb58e4ceb1f4ead570f85092f554c00 |
+| 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  132eb00dea633396490a386f0660ec8d1b034e88db845c7fdfd79d9f96a674e4  |
+| 1.13.2 | Applied final bare-family namespace transmutation for failure taxonomy, temporal horizon, and Operations failure-classification-status families; updated controlled values, canonical references, consumers, crosswalks, and metadata without altering substantive doctrine. | 2026-06-13T07:06:43Z | a271e0e70524f6e40d79cc25832011e3d73d7a0ca47245c8beccd94aa3bb0cd4 |
+| 1.13.3| Updated metadata codes | 2026-06-14T00:30:00Z | c00f8923d4f8c6292a941a5eb47db92050539b7b7ea2538dbb358a2810365fe3 |
+| 1.13.4 | VIGIL-2026-PATCH-0009: Added compact source-authority collapse classification and record-keeping fields to §3.5.4. | 2026-06-14T00:00:00Z |  c4378e73b73f2309a619f19233ec353bbfaff4e7395ce596686292aa96148395  |
 
 ---
 

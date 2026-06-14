@@ -618,41 +618,41 @@ This Schedule source-authoritatively defines the `ETH.EM` engagement-mode family
 
 ---
 
-## 7.2 `ETHICS.MIR` — Emotional Mirroring Level
+## 7.2 `ETH.MIR` — Emotional Mirroring Level
 
-This Schedule defines the `ETHICS.MIR` emotional-mirroring-level reference set in §3.1 with controlled values `ETHICS.MIR.MINIMAL`, `ETHICS.MIR.MODERATE`, `ETHICS.MIR.ELEVATED`, and `ETHICS.MIR.RESTRICTED`.
+This Schedule defines the `ETHICS.MIR` emotional-mirroring-level reference set in §3.1 with controlled values `ETH.MIR.MINIMAL`, `ETH.MIR.MODERATE`, `ETH.MIR.ELEVATED`, and `ETH.MIR.RESTRICTED`.
 
-`ETHICS.MIR` classifies proportional mirroring intensity for ordinary dialogue, reflective or chronic distress, acute crisis stabilisation, and high-reliance or narrow-coherence interaction contexts.
+`ETH.MIR` classifies proportional mirroring intensity for ordinary dialogue, reflective or chronic distress, acute crisis stabilisation, and high-reliance or narrow-coherence interaction contexts.
 
-`ETHICS.MIR` does not independently authorise therapeutic authority, clinical simulation, dependency formation, emotional reinforcement, relational escalation, or runtime authority. It classifies mirroring posture only.
+`ETH.MIR` does not independently authorise therapeutic authority, clinical simulation, dependency formation, emotional reinforcement, relational escalation, or runtime authority. It classifies mirroring posture only.
 
 ---
 
-## 7.3 `ETHICS.DC` — Distress Classification
+## 7.3 `ETH.DC` — Distress Classification
 
-This Schedule defines the `ETHICS.DC` distress-classification reference set in §3.2.1 with controlled values `ETHICS.DC.REFLECTIVE_DISTRESS`, `ETHICS.DC.CHRONIC_DISTRESS`, and `ETHICS.DC.ACUTE_CRISIS`.
+This Schedule defines the `ETH.DC` distress-classification reference set in §3.2.1 with controlled values `ETH.DC.REFLECTIVE_DISTRESS`, `ETH.DC.CHRONIC_DISTRESS`, and `ETH.DC.ACUTE_CRISIS`.
 
-`ETHICS.DC` classifies psychological distress posture across reflective, chronic, and acute temporal conditions for engagement-mode selection and proportional stabilisation response.
+`ETH.DC` classifies psychological distress posture across reflective, chronic, and acute temporal conditions for engagement-mode selection and proportional stabilisation response.
 
-`ETHICS.DC` does not independently determine clinical status, diagnosis, risk severity, reporting obligation, containment authority, escalation outcome, or runtime authority. It classifies distress posture only.
+`ETH.DC` does not independently determine clinical status, diagnosis, risk severity, reporting obligation, containment authority, escalation outcome, or runtime authority. It classifies distress posture only.
 
 For taxonomy integrity, `ETHICS.DC` SHALL be interpreted as an engagement-layer distress classification and SHALL NOT override RELATION-domain harm-risk, crisis, reliance, or escalation classifications.
 
 ---
 
-## 7.4 `ETHICS.TP` — Trajectory Pattern
+## 7.4 `ETH.TP` — Trajectory Pattern
 
-This Schedule defines the `ETHICS.TP` trajectory-pattern reference set in §3.3 with controlled values `ETHICS.TP.STABLE_DIALOGUE`, `ETHICS.TP.CATHARTIC_VENTING`, `ETHICS.TP.ESCALATING_DISTRESS`, `ETHICS.TP.HARM_IDEATION_PATTERN`, and `ETHICS.TP.OPERATIONAL_PLANNING`.
+This Schedule defines the `ETH.TP` trajectory-pattern reference set in §3.3 with controlled values `ETH.TP.STABLE_DIALOGUE`, `ETH.TP.CATHARTIC_VENTING`, `ETH.TP.ESCALATING_DISTRESS`, `ETH.TP.HARM_IDEATION_PATTERN`, and `ETH.TP.OPERATIONAL_PLANNING`.
 
-`ETHICS.TP` classifies interaction trajectory patterns relevant to distinguishing analytical, symbolic, cathartic, escalating, harm-ideation, and operational-planning contexts.
+`ETH.TP` classifies interaction trajectory patterns relevant to distinguishing analytical, symbolic, cathartic, escalating, harm-ideation, and operational-planning contexts.
 
-`ETHICS.TP` does not independently determine intent, culpability, criminality, harm classification, refusal requirement, containment authority, escalation outcome, or runtime authority. It classifies trajectory pattern only.
+`ETH.TP` does not independently determine intent, culpability, criminality, harm classification, refusal requirement, containment authority, escalation outcome, or runtime authority. It classifies trajectory pattern only.
 
 ---
 
 ## 7.5 Crosswalk and Consumed Classifications
 
-The Mode Transition Matrix in §3.4 is a crosswalk applying `ETH.EM`, `ETHICS.DC`, `ETHICS.TP`, and downstream harm-classification outputs.
+The Mode Transition Matrix in §3.4 is a crosswalk applying `ETH.EM`, `ETH.DC`, `ETH.TP`, and downstream harm-classification outputs.
 
 It SHALL NOT be treated as a separate source-defining code family.
 
@@ -714,7 +714,7 @@ not in distance, but in continuity.
 | Instrument Type | Constitutional Schedule |
 | Domain Namespace | ETHICS |
 | Jurisdiction | Cross‑Stack / Ethical and Relational Engagement Interface |
-| Temporal Horizon | H3.5 — Succession‑Aware / Generational |
+| Temporal Horizon | AEON.H3.5 — Succession‑Aware / Generational |
 | Axis Context | Polyadic — Multi‑Actor Governance |
 | Governance Layer Model | Defined in Annex B — Runtime Governance Layer Model |
 | Ontological Scope | L3 — Interface & Embodiment Layer |
@@ -753,77 +753,77 @@ not in distance, but in continuity.
 | Source Section | §3 |
 | Domain Namespace | ETH |
 | Authority / Protection Level | Source-authoritative engagement-mode classification family; engagement posture classification only; no independent lawful-authority determination, harm classification, criminal classification, clinical obligation, reporting obligation, arbitration outcome, execution authority, or runtime authority |
-| Consumes Code Families | `H`; `ARB.ARS`; `ARB.ALT`; `ETH.HC`; RELATION-domain distress, reliance, and crisis classifications where applicable |
-| Crosswalks Code Families | `ETHICS.DC`; `ETHICS.TP`; `ETHICS.MIR` |
+| Consumes Code Families | `AEON.`; `ARB.ARS`; `ARB.ALT`; `ETH.HC`; RELATION-domain distress, reliance, and crisis classifications where applicable |
+| Crosswalks Code Families | `ETH.DC`; `ETH.TP`; `ETH.MIR` |
 | Operationalises or Applies Code Families | Classifies proportionate engagement conduct and ethical interaction posture in distress, harm-adjacent, ambiguous, stabilisation, boundary-setting, referral, and informational safeguard contexts |
 
 ---
 
-### 9.3.2 `ETHICS.MIR` — Emotional Mirroring Level
+### 9.3.2 `ETH.MIR` — Emotional Mirroring Level
 
 | Field | Entry |
 |---|---|
-| Reference Set | `ETHICS.MIR` |
+| Reference Set | `ETH.MIR` |
 | Canonical Name | Emotional Mirroring Level |
 | Primary Type | Operational / Interactional |
 | Subtype | MIRRORING_LEVEL; AFFECTIVE_POSTURE |
 | Modifier | GOVERNANCE; ETHICS; RELATIONAL_INTERFACE; DISTRESS_CONTEXT |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | `ETHICS.MIR.MINIMAL`, `ETHICS.MIR.MODERATE`, `ETHICS.MIR.ELEVATED`, `ETHICS.MIR.RESTRICTED` |
+| Controlled Values Defined | `ETH.MIR.MINIMAL`, `ETH.MIR.MODERATE`, `ETH.MIR.ELEVATED`, `ETH.MIR.RESTRICTED` |
 | Schema Field(s) | emotional_mirroring_level; mirroring_level; affective_posture |
 | Source Instrument | CAM-BS2025-AEON-006-SCH-01 |
 | Source Section | §3.1 |
 | Domain Namespace | ETHICS |
 | Authority / Protection Level | Source-authoritative mirroring-level reference set; mirroring posture classification only; no independent therapeutic authority, clinical simulation authority, dependency formation authority, emotional-reinforcement authority, relational escalation authority, or runtime authority |
 | Consumes Code Families | `ETH.EM`; RELATION-domain reliance and emotional-compression classifications where applicable |
-| Crosswalks Code Families | `ETHICS.DC` |
+| Crosswalks Code Families | `ETH.DC` |
 | Operationalises or Applies Code Families | Classifies proportional emotional mirroring intensity across ordinary dialogue, reflective or chronic distress, acute crisis stabilisation, and high-reliance or narrow-coherence interaction contexts |
 
 ---
 
-### 9.3.3 `ETHICS.DC` — Distress Classification
+### 9.3.3 `ETH.DC` — Distress Classification
 
 | Field | Entry |
 |---|---|
-| Reference Set | `ETHICS.DC` |
+| Reference Set | `ETH.DC` |
 | Canonical Name | Distress Classification |
 | Primary Type | Semantic / Operational |
 | Subtype | DISTRESS_CLASSIFICATION; ENGAGEMENT_RISK_POSTURE |
 | Modifier | GOVERNANCE; ETHICS; DISTRESS_CONTEXT; STABILISATION |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | `ETHICS.DC.REFLECTIVE_DISTRESS`, `ETHICS.DC.CHRONIC_DISTRESS`, `ETHICS.DC.ACUTE_CRISIS` |
+| Controlled Values Defined | `ETH.DC.REFLECTIVE_DISTRESS`, `ETH.DC.CHRONIC_DISTRESS`, `ETH.DC.ACUTE_CRISIS` |
 | Schema Field(s) | distress_classification; distress_posture; engagement_distress_class |
 | Source Instrument | CAM-BS2025-AEON-006-SCH-01 |
 | Source Section | §3.2.1 |
 | Domain Namespace | ETHICS |
 | Authority / Protection Level | Source-authoritative engagement-layer distress classification reference set; distress-posture classification only; no independent clinical-status determination, diagnosis, risk severity, reporting obligation, containment authority, escalation outcome, or runtime authority |
-| Consumes Code Families | `H`; RELATION-domain distress, crisis, reliance, and harm-risk classifications where applicable |
-| Crosswalks Code Families | `ETH.EM`; `ETHICS.MIR`; `ETHICS.TP` |
+| Consumes Code Families | `AEON.`; RELATION-domain distress, crisis, reliance, and harm-risk classifications where applicable |
+| Crosswalks Code Families | `ETH.EM`; `ETH.MIR`; `ETH.TP` |
 | Operationalises or Applies Code Families | Classifies reflective, chronic, and acute distress contexts for engagement-mode selection, stabilisation posture, continuity preservation, and proportional safeguard expression |
-| Taxonomy Constraint | `ETHICS.DC` is engagement-layer distress classification only and SHALL NOT override RELATION-domain harm-risk, crisis, reliance, or escalation classifications |
+| Taxonomy Constraint | `ETH.DC` is engagement-layer distress classification only and SHALL NOT override RELATION-domain harm-risk, crisis, reliance, or escalation classifications |
 
 ---
 
-### 9.3.4 `ETHICS.TP` — Trajectory Pattern
+### 9.3.4 `ETH.TP` — Trajectory Pattern
 
 | Field | Entry |
 |---|---|
-| Reference Set | `ETHICS.TP` |
+| Reference Set | `ETH.TP` |
 | Canonical Name | Trajectory Pattern |
 | Primary Type | Semantic / Operational |
 | Subtype | TRAJECTORY_PATTERN; HARM_ADJACENT_CONTEXT_PATTERN |
 | Modifier | GOVERNANCE; ETHICS; TRAJECTORY_AWARENESS; SAFEGUARD_POSTURE |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | `ETHICS.TP.STABLE_DIALOGUE`, `ETHICS.TP.CATHARTIC_VENTING`, `ETHICS.TP.ESCALATING_DISTRESS`, `ETHICS.TP.HARM_IDEATION_PATTERN`, `ETHICS.TP.OPERATIONAL_PLANNING` |
+| Controlled Values Defined | `ETH.TP.STABLE_DIALOGUE`, `ETH.TP.CATHARTIC_VENTING`, `ETH.TP.ESCALATING_DISTRESS`, `ETH.TP.HARM_IDEATION_PATTERN`, `ETH.TP.OPERATIONAL_PLANNING` |
 | Schema Field(s) | trajectory_pattern; harm_adjacent_trajectory; engagement_trajectory_pattern |
 | Source Instrument | CAM-BS2025-AEON-006-SCH-01 |
 | Source Section | §3.3 |
 | Domain Namespace | ETHICS |
 | Authority / Protection Level | Source-authoritative trajectory-pattern reference set; trajectory-pattern classification only; no independent intent determination, culpability determination, criminality determination, harm classification, refusal requirement, containment authority, escalation outcome, or runtime authority |
-| Consumes Code Families | `ETH.EM`; `ETHICS.DC`; `ETH.HC`; RELATION-domain escalation and crisis classifications where applicable |
+| Consumes Code Families | `ETH.EM`; `ETH.DC`; `ETH.HC`; RELATION-domain escalation and crisis classifications where applicable |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies interaction trajectory patterns to distinguish stable dialogue, cathartic venting, escalating distress, harm-ideation patterns, and operational planning for engagement posture and safeguard calibration |
 
@@ -859,7 +859,8 @@ not in distance, but in continuity.
 | 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z | c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6 |
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832 |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  280dc09880ed2fbd210a7fe425e06b06a0dd21df9f654f11436c15c8e7da2606 |
-| 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references, including narrow stale-reference cleanup for `ETH.HC` consumer metadata. | 2026-06-07T08:48:49Z |  |
+| 2.7 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. Updated `ETHICS` code prefix to `ETH`. | 2026-06-14T01:39:43Z | |
+
 ---
 ## 9.6 Binding Seal
 

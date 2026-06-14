@@ -608,7 +608,7 @@ Let value speak plainly where it arises.
 | Application Trigger | External-facing systems relying on third-party AI systems, hosted models, APIs, infrastructure, or upstream AI-mediated capability |
 | Revision Posture | External Alignment Stabilisation — MVGL Formalisation |
 | Creation Context | CAM Economic Governance Refactor — April 2026 |
-| Horizon Scope | H0–H3 |
+| Horizon Scope | AEON.H0–AEON.H3 |
 | Axis Context | Polyadic / Market-Facing Systems |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
 | Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db  |
@@ -639,6 +639,7 @@ Let value speak plainly where it arises.
 | 1.6 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  798bef0842ee838903cf2f6e206d45c7207338a28a42a68f892b84571204a38f |
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 127b98701fbc19cad530066a220acb951562a80f3d1213294eda78f0a8ec1d1e |
 | 2.1 | Added clause 4.3.1, and normalised Appendix C lineage references to canonical title “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | 66a02caf8ce8f5bd06da1c69228241858fca63a0db96a1b1a38c6249011a64f5 |
+| 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | db97306c3e84934b549555bd31ffa792c6965e2c253384e71f98a591fd076bb7 |
 
 ---
 

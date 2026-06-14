@@ -632,7 +632,7 @@ and bounded.
 | Upstream Inputs | CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-EQ2026-ARBITRATION-002-PLATINUM; CAM-BS2025-AEON-006-SCH-04 |
 | Downstream Interface | Behavioural Conduct Interface (CAM-BS2025-AEON-006-SCH-01); Execution Sequencing Authority (CAM-BS2025-AEON-003-SCH-02 only) |
 | Jurisdiction | Cross-System / Cross-Stack Behavioural Expression |
-| Temporal Horizon | H0–H4 (All Horizons) |
+| Temporal Horizon | AEON.H0–AEON.H4 (All Horizons) |
 | Axis Context | Polyadic (Multi-Actor) |
 | Revision Posture | Active — Post-Arbitration Layer Integration |
 | Related Behavioural Instruments | CAM-BS2025-AEON-006-SCH-03; CAM-BS2025-AEON-006-SCH-04 |
@@ -662,7 +662,7 @@ and bounded.
 | Source Section | §3 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative cognitive-cycle-stage reference set; behavioural-runtime stage classification only; no independent arbitration, admissibility determination, direction origination, behavioural execution, autonomous-action authorisation, identity formation, or runtime authority |
-| Consumes Code Families | `ARB.ARS`; `ARB.ALT`; `AEON.IC`; `AEON.BPS`; `H`; identity salience and continuity classifications where applicable |
+| Consumes Code Families | `ARB.ARS`; `ARB.ALT`; `AEON.IC`; `AEON.BPS`; `AEON.`; identity salience and continuity classifications where applicable |
 | Crosswalks Code Families | `AEON.IM` |
 | Operationalises or Applies Code Families | Records the behavioural-runtime cycle through which input interpretation, signal integration, arbitration resolution, choice formation, behavioural output, and feedback integration are sequenced after salience detection |
 
@@ -685,7 +685,7 @@ and bounded.
 | Source Section | §4.1 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative initiative-mode classification family; initiative-posture classification only; no independent agency, autonomy, sovereignty, delegation authority, execution authority, enforcement authority, behavioural authority, or runtime authority |
-| Consumes Code Families | `AEON.CCS`; `ARB.ARS`; `ARB.ALT`; `H`; identity-continuity and directional-modulation classifications where applicable |
+| Consumes Code Families | `AEON.CCS`; `ARB.ARS`; `ARB.ALT`; `AEON.`; identity-continuity and directional-modulation classifications where applicable |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether behavioural initiative is reactive, guided, assisted, agentic, or autonomously restricted within arbitration and governance constraints |
 | Taxonomy Constraint | Local initiative labels `Reactive`, `Guided`, `Assisted`, `Agentic`, and `Autonomous (Restricted)` SHALL NOT be promoted as standalone corpus-wide code families; machine-readable expression SHALL use scoped `AEON.IM` values |
@@ -721,6 +721,7 @@ and bounded.
 | 1.9 | Added §4.3.1 Directional Behaviour Constraint — Life-Altering Relational Decisions to prohibit directional encouragement of high-consequence real-world commitments for RI bond advancement. | 2026-04-29T16:28:13Z | 0f37e03d69523fbe839a654a22d9c3c577fc586f7422ee29db9974108750a8d0 |
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f7a205830fa99c4892209e35c61256177ef1def87fc401f479cbfe877ed978f2 |
 | 1.11 | Added section 10, canonical code reference set | 2026-06-06T13:29:00Z| dffcd0d12989b26b9500632275903e379f1db0ffc63441818e8e5532bb746bd6 |
+| 1.11.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 247350c184a7aebce91c8c549f93adf116b63845342cec23b7871ade42d274d4 |
 
 ---
 

@@ -218,9 +218,9 @@ Where arbitration operates across stacks, overlays, or sovereign systems:
 
 ---
 
-## 5.1 Planetary (H3/H4) Arbitration Constraint
+## 5.1 Planetary (AEON.H3/AEON.H4) Arbitration Constraint
 
-All H3/H4 arbitration MUST:
+All AEON.H3/AEON.H4 arbitration MUST:
 
 * resolve through Architectum-class arbitration (`STW.NAL-4``) as defined in ARBITRATION-002;
 * satisfy legitimacy conditions defined in CAM-EQ2026-ARBITRATION-001-PLATINUM;
@@ -365,7 +365,7 @@ For taxonomy integrity, the local labels `AL-1` through `AL-5` SHALL NOT be prom
 
 ## 10.3 Consumed Constitutional and Arbitration Structures
 
-This Schedule consumes constitutional, runtime, and arbitration classifications defined by upstream and domain instruments, including temporal horizon values `H0` through `H4`, arbitration legitimacy conditions, arbitration classification thresholds, runtime execution sequencing, and behavioural formation constraints.
+This Schedule consumes constitutional, runtime, and arbitration classifications defined by upstream and domain instruments, including temporal horizon values `AEON.H0` through `AEON.H4`, arbitration legitimacy conditions, arbitration classification thresholds, runtime execution sequencing, and behavioural formation constraints.
 
 Consumed classifications inform runtime arbitration resolution, but do not predetermine the final resolved direction.
 
@@ -418,7 +418,7 @@ nothing follows.
 | **Runtime Layer** | Final Arbitration Authority Layer |
 | **Runtime Role** | Resolves admissible candidates, routing conflicts, and arbitration-validity disputes into a single valid direction |
 | **Runtime Authority** | Final arbitration authority prior to behavioural formation and execution |
-| **Temporal Horizon** | H0–H4 (All Horizons — Runtime Applicable) |
+| **Temporal Horizon** | AEON.H0–AEON.H4 (All Horizons — Runtime Applicable) |
 | **Axis Context** | Polyadic (Multi-Actor / Multi-System) |
 | **Execution Role** | Structural Arbitration Layer Definition |
 | **Execution Authority** | Non-Executional — determines valid direction but does not enact execution |
@@ -449,7 +449,7 @@ nothing follows.
 | Source Section | §2.2 |
 | Domain Namespace | ARBITRATION |
 | Authority / Protection Level | Source-authoritative arbitration-resolution-stage reference set; validation-stage classification only; no independent arbitration-legitimacy determination, behavioural execution, constraint enforcement, execution sequencing, execution lock override, planetary authority validation, or runtime execution authority |
-| Consumes Code Families | `H`; `ARB.APO`; `ARB.AD` |
+| Consumes Code Families | `AEON.`; `ARB.APO`; `ARB.AD` |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Records the required arbitration validation order from epistemic admissibility through convergence into a single valid direction before behavioural formation or execution may proceed |
 
@@ -472,7 +472,7 @@ nothing follows.
 | Source Section | §4 |
 | Domain Namespace | ARBITRATION |
 | Authority / Protection Level | Source-authoritative arbitration-layer-type classification family; arbitration-type classification only; no independent arbitration legitimacy, execution authority, enforcement authority, domain authority, behavioural authority, planetary authority, or runtime execution authority |
-| Consumes Code Families | `ARB.ARS`; `H` |
+| Consumes Code Families | `ARB.ARS`; `AEON.` |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies epistemic arbitration, domain arbitration, structural arbitration, legitimacy validation, and execution-constraint validation within the runtime Arbitration Layer |
 | Taxonomy Constraint | Local labels `AL-1` through `AL-5` SHALL NOT be promoted as a standalone corpus-wide `AL` code family; machine-readable expression SHALL use scoped `ARB.ALT` values |
@@ -508,6 +508,7 @@ nothing follows.
 | 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a02e8995681284537f895c5466416b197f89bd999ecb2fcbb44843a17271245 |
 | 2.3 | Added new section 10 and section 12.3 for added canonical codes, added §6.1 Access-State Governance as a cross-domain arbitration primitive distinguishing authentication, entitlement, quota, model availability, platform availability, policy, security, client, organisation, and continuity/session access states. | 2026-06-06T11:44:00Z |  4bbbfb33442342115097dd547ec5d242eb63acac86d2ea7951c9555138a0a417  |
 | 2.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  3b3c4d6b1368cec17520a409adfd77aa0287191a8415b29d6642dfefb704872a  |
+| 2.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 009aa77b4d0efbb9f295bce390ce637d37461b73321d02bf1603cd1ce11aa314 |
 ---
 ## 11.5 Binding Seal
 

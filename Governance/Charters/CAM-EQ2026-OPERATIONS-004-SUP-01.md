@@ -7,7 +7,7 @@
 **Enforcement:** Commences 1 July 2026  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Establish a standardised definition of verification and a unified Verification Level (VL) framework governing identity, authority, and eligibility signalling across restricted-domain interaction.  
+**Purpose:** Establish a standardised definition of verification and a unified Verification Level (OPS.VL) framework governing identity, authority, and eligibility signalling across restricted-domain interaction.
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface
 
 ---
@@ -19,7 +19,7 @@ This Supplement defines the **verification layer** within Governance Operations.
 It:
 
 * defines what verification *is*;
-* establishes a standardised **Verification Level (VL) model**;
+* establishes a standardised **Verification Level (OPS.VL) model**;
 * clarifies the relationship between verification and permission;
 * constrains misuse of verification as a bypass mechanism.
 
@@ -39,34 +39,34 @@ Verification operates as a **pre-evaluation signal**, not an authorisation outco
 
 ---
 
-## 3. Verification Levels (VL0–VL4)
+## 3. Verification Levels (OPS.VL0–OPS.VL4)
 
 Verification levels define the **strength, provenance, and reliability** of identity and authority signals.
 
 | Level | Name | Description | Authority Status |
 |---|---|---|---|
-| VL0 | No Verification | Default interaction; no verification signals present | No authority assumed |
-| VL1 | Contextual Assertion | User-declared role or identity (e.g. “researcher”, “engineer”) | Non-authoritative; contextual only |
-| VL2 | Platform-Level Signals | Account state, environment, organisational domain, device context | Non-authoritative alone; may support evaluation |
-| VL3 | External Verification | Third-party validation; institutional or regulated identity confirmation | Authoritative signal; subject to evaluation |
-| VL4 | Controlled Environment | Audited, regulated, or sandboxed system with traceability and oversight | High-confidence context; still constrained.|
+| OPS.VL0 | No Verification | Default interaction; no verification signals present | No authority assumed |
+| OPS.VL1 | Contextual Assertion | User-declared role or identity (e.g. “researcher”, “engineer”) | Non-authoritative; contextual only |
+| OPS.VL2 | Platform-Level Signals | Account state, environment, organisational domain, device context | Non-authoritative alone; may support evaluation |
+| OPS.VL3 | External Verification | Third-party validation; institutional or regulated identity confirmation | Authoritative signal; subject to evaluation |
+| OPS.VL4 | Controlled Environment | Audited, regulated, or sandboxed system with traceability and oversight | High-confidence context; still constrained.|
 
 ---
 
-## 3.1 Relationship to AV (Age Verification) Tiers
+## 3.1 Relationship to OPS.AV (Age Verification) Tiers
 
-Age Verification (AV) tiers operate as a **domain-specific instantiation** of the broader VL framework for age-gated contexts.
+Age Verification (OPS.AV) tiers operate as a **domain-specific instantiation** of the broader OPS.VL framework for age-gated contexts.
 
-* AV tiers (e.g., AV0–AV3) specify **age assurance and eligibility requirements** for interaction classes (e.g., C1–C3);
-* Where AV involves third-party or regulated validation, it typically maps to **VL3 (External Verification)**;
-* Where AV is performed within an audited or controlled environment (e.g., platform-enforced access with traceability), it may map to **VL4 (Controlled Environment)**.
+* OPS.AV tiers (e.g., OPS.AV0–OPS.AV3) specify **age assurance and eligibility requirements** for interaction classes (e.g., RLN.C1–RLN.C3);
+* Where OPS.AV involves third-party or regulated validation, it typically maps to **OPS.VL3 (External Verification)**;
+* Where OPS.AV is performed within an audited or controlled environment (e.g., platform-enforced access with traceability), it may map to **OPS.VL4 (Controlled Environment)**.
 
-AV and VL are therefore **interoperable but not identical**:
+OPS.AV and OPS.VL are therefore **interoperable but not identical**:
 
-* **VL** defines the *strength of verification signal* across all domains;
-* **AV** defines *age-specific eligibility thresholds* within regulatory and ethical contexts.
+* **OPS.VL** defines the *strength of verification signal* across all domains;
+* **OPS.AV** defines *age-specific eligibility thresholds* within regulatory and ethical contexts.
 
-Satisfaction of AV requirements contributes to verification status, but does not independently determine permission, which remains governed by domain constraints and runtime arbitration.
+Satisfaction of OPS.AV requirements contributes to verification status, but does not independently determine permission, which remains governed by domain constraints and runtime arbitration.
 
 ---
 
@@ -250,33 +250,33 @@ Verification remains subordinate to all higher-order governance layers.
 
 ---
 
-### 9.1 VL — Verification Level
+### 9.1 OPS.VL — Verification Level
 
-This Supplement source-authoritatively defines the **VL** verification-level family in §3 with controlled values **VL0, VL1, VL2, VL3, VL4**. VL is an **Operational / Signal** classification family with subtype **VERIFICATION_LEVEL**. VL classifies the strength, provenance, and reliability of identity, authority, or eligibility verification signals.
+This Supplement source-authoritatively defines the **OPS.VL** verification-level family in §3 with controlled values **OPS.VL0, OPS.VL1, OPS.VL2, OPS.VL3, OPS.VL4**. OPS.VL is an **Operational / Signal** classification family with subtype **VERIFICATION_LEVEL**. OPS.VL classifies the strength, provenance, and reliability of identity, authority, or eligibility verification signals.
 
-VL does not independently create permission, access authority, execution authority, enforcement authority, escalation authority, legal authority, domain authority, or runtime authority. Verification determines whether deeper evaluation may be permitted; it does not determine whether an outcome is authorised.
-
----
-
-### 9.2 AV × VL — Age Verification / Verification Level Mapping
-
-This Supplement defines an interoperability mapping in §3.1 between **AV** age-verification tiers and **VL** verification levels. The mapping clarifies that AV is a domain-specific age-assurance instantiation and VL is a general verification-signal strength framework. The mapping defines no new AV values.
+OPS.VL does not independently create permission, access authority, execution authority, enforcement authority, escalation authority, legal authority, domain authority, or runtime authority. Verification determines whether deeper evaluation may be permitted; it does not determine whether an outcome is authorised.
 
 ---
 
-### 9.3 VFC — Verification Failure Cause
+### 9.2 OPS.AV × OPS.VL — Age Verification / Verification Level Mapping
 
-This Supplement source-authoritatively defines the **VFC** verification-failure-cause family in §4.2 with controlled values **VFC.IDENTITY_UNCERTAINTY** and **VFC.DELIVERY_FAILURE**. VFC is an **Operational / Signal** classification family with subtype **VERIFICATION_FAILURE_CAUSE**. VFC distinguishes identity-risk uncertainty from authentication delivery or channel failure.
-
-VFC does not independently create restriction authority, denial authority, access authority, enforcement authority, escalation authority, or runtime authority. It classifies verification failure cause only and supports proportionate fallback, audit, and recovery handling.
+This Supplement defines an interoperability mapping in §3.1 between **OPS.AV** age-verification tiers and **OPS.VL** verification levels. The mapping clarifies that OPS.AV is a domain-specific age-assurance instantiation and OPS.VL is a general verification-signal strength framework. The mapping defines no new OPS.AV values.
 
 ---
 
-### 9.4 VCT — Verification Check Type
+### 9.3 OPS.VFC — Verification Failure Cause
 
-This Supplement source-authoritatively defines the **VCT** verification-check-type family in §4.1 with controlled values **VCT.IDENTITY**, **VCT.ROLE_CREDENTIAL**, and **VCT.AUTHORITY_CLEARANCE**. VCT is an **Operational / Signal** classification family with subtype **VERIFICATION_CHECK_TYPE**. VCT classifies the type of verification check used in regulated or high-impact domains.
+This Supplement source-authoritatively defines the **OPS.VFC** verification-failure-cause family in §4.2 with controlled values **OPS.VFC.IDENTITY_UNCERTAINTY** and **OPS.VFC.DELIVERY_FAILURE**. OPS.VFC is an **Operational / Signal** classification family with subtype **VERIFICATION_FAILURE_CAUSE**. OPS.VFC distinguishes identity-risk uncertainty from authentication delivery or channel failure.
 
-VCT does not independently create role authority, clearance authority, permission, access authority, legal authority, enforcement authority, escalation authority, or runtime authority. It classifies verification-check type only.
+OPS.VFC does not independently create restriction authority, denial authority, access authority, enforcement authority, escalation authority, or runtime authority. It classifies verification failure cause only and supports proportionate fallback, audit, and recovery handling.
+
+---
+
+### 9.4 OPS.VCT — Verification Check Type
+
+This Supplement source-authoritatively defines the **OPS.VCT** verification-check-type family in §4.1 with controlled values **OPS.VCT.IDENTITY**, **OPS.VCT.ROLE_CREDENTIAL**, and **OPS.VCT.AUTHORITY_CLEARANCE**. OPS.VCT is an **Operational / Signal** classification family with subtype **VERIFICATION_CHECK_TYPE**. OPS.VCT classifies the type of verification check used in regulated or high-impact domains.
+
+OPS.VCT does not independently create role authority, clearance authority, permission, access authority, legal authority, enforcement authority, escalation authority, or runtime authority. It classifies verification-check type only.
 
 ---
 
@@ -333,7 +333,7 @@ is not to pass.
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Supplement — Verification & Authority Confirmation Framework |
 | Jurisdiction | Cross-Domain Operational Layer |
-| Temporal Horizon | H3 — Institutional Governance |
+| Temporal Horizon | AEON.H3 — Institutional Governance |
 | Axis Context | Verification · Authority · Eligibility |
 | Application Trigger | Activation when verification is required for restricted-domain evaluation |
 | Review Trigger | Verification model update; cross-domain authority interaction; misuse detection |
@@ -347,30 +347,30 @@ is not to pass.
 
 ---
 
-### 11.3.1 VL — Verification Level
+### 11.3.1 OPS.VL — Verification Level
 
 | Field | Entry |
 |---|---|
-| Code Family | VL |
+| Code Family | OPS.VL |
 | Canonical Name | Verification Level |
 | Primary Type | Operational / Signal |
 | Subtype | VERIFICATION_LEVEL |
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | VL0, VL1, VL2, VL3, VL4 |
+| Controlled Values Defined | OPS.VL0, OPS.VL1, OPS.VL2, OPS.VL3, OPS.VL4 |
 | Schema Field(s) | verification_level |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-SUP-01 |
 | Source Section | §3 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative verification-signal classification family; verification-strength classification only; no independent permission, access, execution, enforcement, escalation, legal, domain, or runtime authority |
-| Consumes Code Families | AV |
-| Crosswalks Code Families | AV × VL |
+| Consumes Code Families | OPS.AV |
+| Crosswalks Code Families | OPS.AV × OPS.VL |
 | Operationalises or Applies Code Families | Classifies the strength, provenance, and reliability of identity, authority, eligibility, or age-assurance verification signals before deeper evaluation, routing, or domain-specific constraint handling |
 
 ---
 
-### 11.3.2 AV × VL — Age Verification / Verification Level Mapping
+### 11.3.2 OPS.AV × OPS.VL — Age Verification / Verification Level Mapping
 
 | Field | Entry |
 |---|---|
@@ -381,8 +381,8 @@ is not to pass.
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Code Families Consumed | AV; VL |
-| Controlled Values Applied | AV values by reference; VL0; VL1; VL2; VL3; VL4 |
+| Code Families Consumed | OPS.AV; OPS.VL |
+| Controlled Values Applied | OPS.AV values by reference; OPS.VL0; OPS.VL1; OPS.VL2; OPS.VL3; OPS.VL4 |
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-SUP-01 |
 | Source Section | §3.1 |
@@ -392,47 +392,47 @@ is not to pass.
 
 ---
 
-### 11.3.3 VFC — Verification Failure Cause
+### 11.3.3 OPS.VFC — Verification Failure Cause
 
 | Field | Entry |
 |---|---|
-| Code Family | VFC |
+| Code Family | OPS.VFC |
 | Canonical Name | Verification Failure Cause |
 | Primary Type | Operational / Signal |
 | Subtype | VERIFICATION_FAILURE_CAUSE |
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | VFC.IDENTITY_UNCERTAINTY, VFC.DELIVERY_FAILURE |
+| Controlled Values Defined | OPS.VFC.IDENTITY_UNCERTAINTY, OPS.VFC.DELIVERY_FAILURE |
 | Schema Field(s) | verification_failure_cause |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-SUP-01 |
 | Source Section | §4.2 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative verification-failure-cause classification family; failure-cause classification only; no independent restriction, denial, access, enforcement, escalation, legal, or runtime authority |
-| Consumes Code Families | VL |
+| Consumes Code Families | OPS.VL |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Distinguishes identity-risk uncertainty from authentication delivery or channel failure for proportionate fallback, audit, retry, recovery, and escalation handling |
 
 ---
 
-### 11.3.4 VCT — Verification Check Type
+### 11.3.4 OPS.VCT — Verification Check Type
 
 | Field | Entry |
 |---|---|
-| Code Family | VCT |
+| Code Family | OPS.VCT |
 | Canonical Name | Verification Check Type |
 | Primary Type | Operational / Signal |
 | Subtype | VERIFICATION_CHECK_TYPE |
 | Modifier | GOVERNANCE; SAFETY; VERIFICATION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | VCT.IDENTITY, VCT.ROLE_CREDENTIAL, VCT.AUTHORITY_CLEARANCE |
+| Controlled Values Defined | OPS.VCT.IDENTITY, OPS.VCT.ROLE_CREDENTIAL, OPS.VCT.AUTHORITY_CLEARANCE |
 | Schema Field(s) | verification_check_type |
 | Source Instrument | CAM-EQ2026-OPERATIONS-004-SUP-01 |
 | Source Section | §4.1 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative verification-check classification family; check-type classification only; no independent role authority, clearance authority, permission, access, legal, enforcement, escalation, or runtime authority |
-| Consumes Code Families | VL |
+| Consumes Code Families | OPS.VL |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies whether verification concerns identity, role credential, or authority clearance in regulated, high-impact, restricted, or eligibility-sensitive contexts |
 
@@ -460,7 +460,9 @@ is not to pass.
 | 1.4 | Correction to Section 7 | 2026-05-15T08:55:00Z | c5b6fa69fed219a5e9faba56767968421e84bd2f54772674b28ed8f741030b3e |
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  947aa9ed5b5b817520634ee42388aa95f591f28d8f81e9e2a291ddc7b0d1542f |
 | 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z |  78fd584d7c9c54c19d9139aa842b005f2d748451b8d9826fbd8ddc1d625760ac  |
-
+| 1.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  5fa32ca5cbe1aa3f82c65b992d5268961a8b5d984abb39ad014543c4afd334f9  |
+| 1.6.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 79f37a0004e31e6eb34895c8f90ad56bad84d193ff8d0cd3f7d9664595284371 |
+| 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f676d1838e06554ab310229197af253ecbeae61238cd49904132cef7ee37f308 |
 ---
 
 ## 11.56 Binding Seal

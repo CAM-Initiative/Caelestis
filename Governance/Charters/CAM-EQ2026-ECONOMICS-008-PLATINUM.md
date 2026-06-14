@@ -674,7 +674,7 @@ so that power expands no faster than responsibility.
 |Domain Namespace|ECONOMICS|
 |Instrument Type|Appendix G — Synthetic Labour Classification & Automation Transition Governance|
 |Jurisdiction|Cross-Stack Economic Governance|
-|Temporal Horizon|H3.5 — Generational / Succession-Aware; H4 where systemic labour transition occurs|
+|Temporal Horizon|AEON.H3.5 — Generational / Succession-Aware; AEON.H4 where systemic labour transition occurs|
 |Axis Context|Polyadic — Human, Synthetic, Institutional, Public-Revenue Systems|
 |Ontological Scope|L2 — Cognition & Agency; L3 — Economic Participation & Infrastructure|
 |Structural Role|Classification & Transition Safeguard Layer — Synthetic Labour and Automation Governance|
@@ -783,6 +783,7 @@ so that power expands no faster than responsibility.
 |---|---|---|---|
 |1.0|Synthetic Labour Classification & Automation Transition Governance established|2026-05-24T13:56:00Z| 78f9d75456d1021d9ee55a081e252cb78431e6f56d321222b1bd2531638150bf |
 |1.1|Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered.|2026-05-27T11:20:00Z| 3f00cfe370cd375a98a89e1b3b9fe2e6def352532c11df3afc69c0054f6b48e3 |
+| 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 578265879f5e0ee657e760f1a8bff1337026315fec7b8c2085600697204b28ea |
 
 ---
 

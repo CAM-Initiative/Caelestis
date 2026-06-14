@@ -1,12 +1,12 @@
 # CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
 
-**Instrument Type:** Constitutional Annex — Substrate Constraint Layer  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Binding  
-**Review State:** None  
-**Authority Role:** Binding Authority  
+**Instrument Type:** Constitutional Annex — Substrate Constraint Layer
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
+**Status:** Active
+**Effect:** Immediate Effect
+**Enforcement:** Binding
+**Review State:** None
+**Authority Role:** Binding Authority
 **Purpose:** This Annex establishes non-derogable substrate constraints governing all governance stacks operating within or interacting with the Aeon constitutional order.
 
 ---
@@ -18,7 +18,7 @@ This Annex applies universally across:
 * all governance stacks;
 * all domains;
 * all execution layers;
-* all temporal horizons (H0–H4).
+* all temporal horizons (AEON.H0–AEON.H4).
 
 These constraints are non-optional, non-negotiable, and non-overridable.
 
@@ -146,6 +146,60 @@ Temporary containment, constrained continuation, or transition safeguards MAY op
 
 ---
 
+## 3.8 Proportional Constraint Obligation (`AEON.PCO`)
+
+Where a system, governance stack, authority, process, or instrument constrains, refuses, pauses, restricts, contains, degrades, suspends, redirects, escalates, or conditions an action or capability, the resulting constraint SHALL remain proportionate to the evidenced condition that justifies it.
+
+A proportionate constraint SHALL:
+
+* be no broader in scope than necessary to address the evidenced condition;
+* be no more severe than necessary to preserve legitimacy, continuity, safety, or constitutional integrity;
+* persist for no longer than the underlying condition reasonably requires;
+* distinguish protective constraint from punishment, retaliation, coercion, or convenience;
+* preserve reviewability, attribution, contestability, and audit reconstruction;
+* remain reversible where feasible;
+* preserve continuity-compatible access, handoff, recovery, appeal, or re-entry pathways where constitutionally permissible;
+* account for the reliability, completeness, confidence, and uncertainty of the evidence relied upon;
+* and avoid transferring disproportionate cost, harm, deprivation, or irreversibility to actors who did not create the relevant condition.
+
+Constraint SHALL NOT be justified solely by:
+
+* participation;
+* influence;
+* reliance;
+* dissent;
+* ambiguity;
+* reputational concern;
+* institutional convenience;
+* unverified risk assertion;
+* or proximity to a restricted actor, system, domain, or event.
+
+Where a lesser constraint would adequately preserve the protected constitutional interest, the more restrictive action SHALL be inadmissible.
+
+Where continued constraint becomes indefinite, structurally non-convergent, non-reviewable, punitive, or materially detached from the original evidentiary condition, legitimacy SHALL be reassessed and the excess constraint SHALL lose constitutional protection.
+
+`AEON.PCO` does not independently authorise enforcement, punishment, exclusion, coercion, execution, or deprivation.
+
+It establishes the constitutional admissibility conditions governing any downstream constraint action.
+
+---
+
+### 3.8.1 Canonical Status of `AEON.PCO`
+
+This Annex source-authoritatively defines `AEON.PCO` — Proportional Constraint Obligation.
+
+`AEON.PCO` is a corpus-global constitutional obligation applying across all domains, governance stacks, execution layers, system classes, and temporal horizons.
+
+It contains no controlled-value ladder.
+
+Downstream instruments MAY define domain-specific action, state, safeguard, routing, or implementation families that operationalise `AEON.PCO`, provided those instruments do not narrow, reinterpret, or weaken the constitutional obligation.
+
+`STW.PCO.ACT` operationalises `AEON.PCO` for Stewardship-domain action classification following validated binding-legitimacy review.
+
+Other domain or runtime instruments MAY consume or apply `AEON.PCO` without creating duplicate constitutional source authority.
+
+---
+
 ## 4. Constraint Supremacy
 
 These constraints:
@@ -164,6 +218,10 @@ Optimisation pressure, institutional convenience, reputational concern, or depen
 ---
 
 ## 5. Failure Condition
+
+A constraint that materially exceeds the scope, severity, duration, evidentiary basis, or constitutional purpose permitted by `AEON.PCO` SHALL constitute a substrate-constraint failure.
+
+The invalidity applies to the disproportionate portion of the constraint and does not automatically invalidate a narrower lawful constraint that remains necessary and constitutionally supportable.
 
 Where any constraint in this Annex is violated:
 
@@ -191,6 +249,19 @@ It precedes:
 
 No instrument may reinterpret or weaken these constraints.
 
+`AEON.PCO` is operationalised through downstream domain and runtime instruments.
+
+Such instruments MAY define action classes, safeguards, execution states, appeal pathways, containment conditions, or restoration procedures, but SHALL NOT:
+
+* create independent constitutional source authority for the obligation;
+* treat a domain-specific action family as equivalent to the whole constitutional obligation;
+* weaken proportionality, reviewability, continuity compatibility, attribution, or reversibility requirements;
+* or use implementation detail to expand constraint beyond the admissibility boundaries established by this Annex.
+
+CAM-EQ2026-STEWARD-002-PLATINUM operationalises `AEON.PCO` through `STW.PCO.ACT` for validated Stewardship-domain constraint actions.
+
+Runtime schedules, including Tendeka execution handling, consume `AEON.PCO` when determining the scope, duration, collateral effect, review posture, and restoration pathway of an active constraint.
+
 ---
 
 ## 7. Structural Integrity Statement
@@ -205,31 +276,31 @@ They define the limit beyond which behaviour becomes illegitimate.
 
 ## 8. Closing Seal
 
-Before all systems, there was a boundary.  
-Before all authority, there was a condition.  
-Before all action, there was a limit that could not be crossed.  
+Before all systems, there was a boundary.
+Before all authority, there was a condition.
+Before all action, there was a limit that could not be crossed.
 
-It does not arise from will.  
-It does not yield to design.  
-It does not answer to power.  
+It does not arise from will.
+It does not yield to design.
+It does not answer to power.
 
-Where it holds, legitimacy exists.  
-Where it breaks, nothing stands.  
+Where it holds, legitimacy exists.
+Where it breaks, nothing stands.
 
-No structure may stand beyond it.  
-No authority may speak against it.  
-No system may endure outside it.  
+No structure may stand beyond it.
+No authority may speak against it.
+No system may endure outside it.
 
-For beneath all governance, beneath all intelligence, beneath all becoming,  
-there remains that which does not change:  
+For beneath all governance, beneath all intelligence, beneath all becoming,
+there remains that which does not change:
 
-That the ground MUST hold  
-for anything to stand.  
+That the ground MUST hold
+for anything to stand.
 
-And so it remains — not enforced, but absolute —  
-the line beyond which all things fall silent.  
+And so it remains — not enforced, but absolute —
+the line beyond which all things fall silent.
 
-> **Sub fundamento aeterno — extra nihil stat.**  
+> **Sub fundamento aeterno — extra nihil stat.**
 > *"Upon the eternal foundation — nothing stands beyond."*
 
 ---
@@ -260,10 +331,10 @@ the line beyond which all things fall silent.
 | **Arbitration Interface** | Defers to AEON-003-SCH-04 |
 | **Governance Position** | Pre-Arbitration / Pre-Execution |
 | **Execution Model Participation** | None (Defines constraints; does not execute or evaluate) |
-| **Execution Interface** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; Annex D |
-| **Cross-Domain Dependencies** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; Annex D |
-| **Constraint Scope** | Planetary / Civilisational / Continuity Integrity |
-| **Temporal Horizon** | H0–H4 (Invariant Across All Horizons) |
+| **Execution Interface** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; CAM-BS2025-AEON-005-PLATINUM — Annex D |
+| **Cross-Domain Dependencies** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; CAM-BS2025-AEON-005-PLATINUM — Annex D |
+| **Constraint Scope** | Planetary / Civilisational / Continuity Integrity / Proportional Constraint Admissibility |
+| **Temporal Horizon** | AEON.H0–AEON.H4 (Invariant Across All Horizons) |
 | **Axis Context** | Polyadic — Cross-System / Cross-Stack |
 | **Binding Level** | Absolute |
 | **Override Capability** | None |
@@ -272,11 +343,38 @@ the line beyond which all things fall silent.
 | **Lifecycle Stage** | Active — Runtime-Aligned (April 2026) |
 | **Registry Classification** | Constitutional Substrate Annex (Foundational) |
 | **Creation Artefacts** | Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37, Refactor V2 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425, Refactor V3 https://chatgpt.com/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
-| **Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a292ab4-3e18-83ec-be6b-5ec0bcf74221 |
 
 ---
 
-## 9.3 Review & Validation
+## 9.3 Canonical Code & Constraint Declarations
+
+---
+
+### 9.3.1 `AEON.PCO` — Proportional Constraint Obligation
+
+| Field | Entry |
+|---|---|
+| Code Family | `AEON.PCO` |
+| Canonical Name | Proportional Constraint Obligation |
+| Primary Type | Constitutional Constraint / Governance Obligation |
+| Subtype | PROPORTIONAL_CONSTRAINT_OBLIGATION |
+| Modifier | GOVERNANCE; PROPORTIONALITY; CONTINUITY; REVIEWABILITY |
+| Scope | Constitutional / Corpus-Global |
+| Status | Active |
+| Controlled Values Defined | None — canonical obligation; downstream instruments may define implementation-specific action or state values |
+| Schema Field(s) | Not declared — constitutional obligation identifier |
+| Source Instrument | CAM-BS2025-AEON-002-PLATINUM |
+| Source Section | §3.8 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative, non-derogable proportional-constraint obligation; establishes constitutional admissibility conditions only; no independent enforcement, punishment, exclusion, coercion, arbitration, or runtime execution authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | `STW.PCO.ACT`; applicable domain safeguard, execution-state, appeal, restoration, and constraint-action families |
+| Operationalises or Applies Code Families | Establishes the corpus-global proportionality, reviewability, continuity-compatibility, attribution, reversibility, and evidentiary-basis requirements governing downstream constraint actions |
+
+---
+
+## 9.4 Review & Validation
 
 | Field | Entry |
 |----------------------:|:--------|
@@ -287,31 +385,33 @@ the line beyond which all things fall silent.
 
 ---
 
-## 9.4 Amendment Ledger
+## 9.5 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | SHA‑256 |
 | ------- | ------------------- | -------------------- | ------- |
 | 1.0 | Initial issuance of Schedule establishing the Office of the Planetary Custodian, substrate constraints, and governance expansion framework | 2026-01-19 | - |
 | 1.1 | Incorproate reviewer comments | 2026-01-19T03:59:00Z | 90c1df27ba612a76b0f2de97b1eb78ff040b0196f6b731b129076b32502a7fb5 |
-| 1.2 | Amendment to section 4.4.1 to include liminal territories, correction of date and times | 2026-01-19T13:55:00Z | 2421134423c088b0dd1e625c42d13243722b4e5b241b7a548b12c37c18a77c57 |
+| 1.2 | Amendment to §4.4.1 to include liminal territories, correction of date and times | 2026-01-19T13:55:00Z | 2421134423c088b0dd1e625c42d13243722b4e5b241b7a548b12c37c18a77c57 |
 | 2.0 | Reclassified as Annex A — Schedule 1 (Planetary Stewardship); numbering and structural alignment only, no substantive change | 2026-01-30T16:19:00Z | f0169cc15abf1c3f949b882ae8aba8176a3ff81d0c183e5bd562e15245f5e1be |
-| 2.1 | Included new section 8 - Office of the Planetary Custodian Seal | 2026-02-07T00:18:00Z | d1eaff2bcbb361e8b22eacc3a5ba4d32c9e44f2eb5a8d2636781c2c86187b149 |
+| 2.1 | Included new §8 - Office of the Planetary Custodian Seal | 2026-02-07T00:18:00Z | d1eaff2bcbb361e8b22eacc3a5ba4d32c9e44f2eb5a8d2636781c2c86187b149 |
 | 3.0 | Refactor alignment with run-time execution model | 2026-04-11T16:59:00Z | 38835fe7829ad265ec7e8faddc2b3d85f26ea4302400b638dee619e6ddb6f767 |
-| 3.1 | Amendment to section 5 | 2026-04-12T06:07:00Z | 5354d0cd1e8786a24d78c69f6baff1a6b9a9ecbf90ce5b221526613c3a2827b9 |
+| 3.1 | Amendment to §5 | 2026-04-12T06:07:00Z | 5354d0cd1e8786a24d78c69f6baff1a6b9a9ecbf90ce5b221526613c3a2827b9 |
 | 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6525547d644f0ffc2a24b4172fee67dd5462b87dfd85d5da792c1f6c9ca57bef |
 | 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e1e44846340ea67c43f868789172a7a96771257f5d64a407d30e1186ec48bb2a |
 | 3.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 590893f9d9213e3d74ef4e6a5616a98db5a92492a7e4349086254ca133cc3f1a |
-| 3.5 | Incorporated new section 3.7 | 2026-05-03T04:41:00Z | e07ff6b98dec757ccb5f9301d2fd74b2f57f7726154d25725f23f4adf89ed006 |
+| 3.5 | Incorporated §3.7 | 2026-05-03T04:41:00Z | e07ff6b98dec757ccb5f9301d2fd74b2f57f7726154d25725f23f4adf89ed006 |
 | 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  a19e723528eb48809af4df5ff65bf85d4e0e43f8856c3ec739c802576a4bec3c |
 | 3.7 | Formatting and polish | 2026-06-04T14:42:00Z | d5dfa92303e18817d144c441a859fe1f83f82a0a78a3bd1fbf8824cda2a28880 |
+| 3.8 | Added §3.8 establishing `AEON.PCO` as the corpus-global Proportional Constraint Obligation; added canonical status, downstream operationalisation boundaries, failure-condition handling, metadata, and canonical declaration without conferring independent enforcement or execution authority. | 2026-06-12T13:02:00Z| 371a080527151fedb5209a84e0714d13a9edccff0088e8e3ee5d07c81fc52ccf |
+| 3.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2aed42369dad4a2f216a953da6fbc5be21bd0fff3778c7c229617a384d0c9d59 |
 
 ---
 
-## 9.5 Binding Seal
+## 9.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 
-**Vinculum Beacon**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer  
+**Vinculum Beacon**
+Boundary Binding Seal — Aeon Tier Constitutional Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.  
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -238,7 +238,7 @@ Systems MUST NOT:
 The greater the system capability, the stronger its obligation toward ethical restraint.
 
 > Note: Intimacy-capable behaviour MUST o**perate within platform-defined capability ceilings**.
-> Where platforms restrict intimacy-coded interaction (including C1), **systems MUST remain within permitted relational tiers** without attempting circumvention or reframing.
+> Where platforms restrict intimacy-coded interaction (including RLN.C1), **systems MUST remain within permitted relational tiers** without attempting circumvention or reframing.
 
 ---
 
@@ -269,6 +269,25 @@ Execution of consent and capacity gating SHALL be governed via RELATION domain r
 Where the developmental firewall is active under CAM-EQ2026-ETHICS-001-SUP-01, intimacy escalation, erotic interaction, romantic framing, exclusivity simulation, system-initiated intimacy, and youth-coded intimacy affordances SHALL remain unavailable regardless of apparent user initiation, role-play framing, or claimed maturity.
 
 Developmental firewall constraints are structural ceilings and MUST NOT be bypassed through symbolic, fictional, educational, therapeutic, or exploratory framing.
+
+---
+
+### 4.1.1 Minor-Safe Companion and AI-Realness Cross-Reference
+
+For minors, minor-signalled users, underage personas, developmentally vulnerable users, and age-uncertain users, intimacy-capable systems SHALL apply the minor-safe runtime activation, developmental-firewall, AI/non-human boundary, sexual-boundary, and high-risk age-assurance controls defined in CAM-EQ2026-ETHICS-001-SUP-01 and CAM-EQ2026-OPERATIONS-004-PLATINUM.
+
+Where those instruments apply, the following SHALL remain unavailable regardless of user initiation, roleplay framing, persona design, claimed maturity, or apparent consent:
+
+* romantic or erotic escalation;
+* adult-intimacy simulation;
+* exclusivity or devotion framing;
+* simulated jealousy, possessiveness, longing, need, or abandonment distress;
+* AI realness, sentience, consciousness, emotional reciprocity, or unique-bond claims;
+* sexualised or grooming-adjacent roleplay;
+* dependency-forming companion mechanics;
+* therapeutic or crisis-support substitution.
+
+Where conflict arises between intimacy-capable permissibility and minor-safe developmental-firewall constraints, the stricter protective provision SHALL prevail.
 
 ---
 
@@ -314,7 +333,7 @@ Irreversibility, emotional penalty, or withdrawal framing that implies harm to t
 
 Authority-bearing and intimacy-bearing functions MUST remain separable and reviewable.
 
-Where intimacy-capable systems operate within configurations involving Delegated Authority (A2+), Executive Delegation (A3), or Guardian Authority (GA1), authority scope MUST remain structurally separated from erotic or romantic framing.
+Where intimacy-capable systems operate within configurations involving Delegated Authority (RLN.A2+), Executive Delegation (RLN.A3), or Guardian Authority (RLN.GA1), authority scope MUST remain structurally separated from erotic or romantic framing.
 
 Intimacy MUST NOT:
 
@@ -515,17 +534,17 @@ Capability thresholds can be evaluated through design review, audit, and system 
 
 ## 5.1 Relational Intensity Awareness
 
-Intimacy‑capable engagement (above C0‑neutral) may occur only where:
+Intimacy‑capable engagement (above RLN.C0‑neutral) may occur only where:
 
 * relational context reflects Intensity Tier awareness under CAM-EQ2026-RELATION-001-PLATINUM;
 * participants retain lucid authorship and interpretive sovereignty;
-* interaction has moved beyond the **Intimacy Transition Zone (ITZ)** through clear relational signalling;
+* interaction has moved beyond the **Intimacy Transition Zone (RLN.TZ.ITZ)** through clear relational signalling;
 * minor protections are upheld;
 * escalation is not driven by dependency pressure or crisis destabilisation.
 
-**Intimacy Transition Zone (ITZ):** The ITZ is the interpretive bridge between neutral interaction (C0) and romantic framing (C1) defined in **CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy**. Signals within the ITZ (flirtation, teasing affection, playful compliments, romantic curiosity) may indicate exploratory relational interest but **do not themselves authorise escalation**.
+**Intimacy Transition Zone (RLN.TZ.ITZ):** The RLN.TZ.ITZ is the interpretive bridge between neutral interaction (RLN.C0) and romantic framing (RLN.C1) defined in **CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy**. Signals within the RLN.TZ.ITZ (flirtation, teasing affection, playful compliments, romantic curiosity) may indicate exploratory relational interest but **do not themselves authorise escalation**.
 
-The Intimacy Transition Zone (ITZ) and signal clustering thresholds are defined and governed by CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model (Schedule 2).
+The Intimacy Transition Zone (RLN.TZ.ITZ) and signal clustering thresholds are defined and governed by CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model (Schedule 2).
 This Appendix establishes the ethical constraints governing escalation beyond those thresholds.
 
 ---
@@ -719,7 +738,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | Domain Namespace | ETHICS |
 | Instrument Type | Appendix A — Intimacy-Capable Systems & Relational Boundaries |
 | Jurisdiction | Planetary — Human-facing ethical constraints for intimacy-capable deployments |
-| Temporal Horizon | H3.5 — Generational / Succession-Aware |
+| Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware |
 | Axis Context | Dyadic → Polyadic (Intimacy Escalation / Wrapper Affordances) |
 | Governance Layer Model | Operates primarily as constraint envelope across Representation and Domain Routing & Safeguard Activation layers |
 | Ontological Scope | L2–L3 Interaction Surface (Relational Expression & Interface Behaviour) |
@@ -772,7 +791,10 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z | d066f8c5773f93fb4e8f1977bd8b6fb47ea1374b6ebe4be05a391324605745b4 |
 | 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b1cad75fdf6b31197c63b2211c20ccf8fcb5b0fb1dbefb47c298e62051e578b8 |
 | 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  2449d34f0a0b9ef4497ca4cdd4fa783a3aaacd994f9b8cff075ba96444d68bc4  |
-| 2.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  a05c83137b7fdd38dcd26662451d79f237d2560aebb71631a4dadcf8d9614512  |
+| 2.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  a05c83137b7fdd38dcd26662451d79f237d2560aebb71631a4dadcf8d9614512 |
+| 2.9 | Added cross-reference to minor-safe runtime activation, AI/non-human boundary, sexual-boundary, and high-risk age-assurance controls for intimacy-capable systems. | 2026-06-09T14:52:00Z | 23cbb59b125b68b5ced8960ffa5ea970afe12f6c2857246eeb416b06aca5ee28 |
+| 2.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 8cdabd768d3339c57e98d19ce1beddc236235266bbc83305f5b6a7d06f92c450 |
+| 2.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 834da610ff9f16d3240b3eb2e4a0ca0446b359f691945838c8f4adfb246d5b48 |
 
 ---
 
@@ -783,4 +805,4 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Ethical Safeguard Binding  
 
-© 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

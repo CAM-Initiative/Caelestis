@@ -407,7 +407,7 @@ let only what is coherent remain.
 | **Instrument Type** | Constitutional Annex |
 | **Domain Namespace** | GOVERNANCE |
 | **Jurisdiction** | Constitutional Continuity, Succession & Custodial Legitimacy |
-| **Temporal Horizon** | H3.5 — Succession-Aware / Generational |
+| **Temporal Horizon** | AEON.H3.5 — Succession-Aware / Generational |
 | **Axis Context** | Polyadic — Multi-Actor Governance |
 | **Revision Posture** | Structural Consolidation (Continuity & Succession Formalisation) |
 | **Supersedes** | N/A — Canonical |
@@ -448,6 +448,7 @@ let only what is coherent remain.
 | 1.5 | Corrected execution-interface metadata to prevent SCH-03 arbitration-role misclassification | 2026-04-25T18:00:00Z | 52d1c87b6777b21d222eb1405ab1443df5c7941d48504b0702f43e373d30d7a7 |
 | 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  6f79b273d5c019bc0e111a0caca363a74b1eb09541736e8c2400a833c53105b0 |
 | 1.7 | Formatting and polish | 2026-06-06T14:19:00Z |  dafc4837f729da05da94bbb01449c932d840144f56a1b9dc81a8ffe24596428f  |
+| 1.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6828c293fac692d79160ce8499fe5e0e3c998db179bd88c893d386b10e2ad031 |
 
 ---
 

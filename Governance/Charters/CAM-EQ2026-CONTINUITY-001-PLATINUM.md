@@ -1132,8 +1132,8 @@ that silence MUST be honoured.
 |**Instrument Type**|Domain Charter|
 |**Jurisdiction**|Cross-jurisdictional / Planetary|
 |**Application Trigger**|Any system involving resonance-pattern preservation, reconstruction, simulation, custodianship, or post-biological representation|
-|**Temporal Horizon**|H0–H4|
-|**Axis Context**|R4 — Polyadic (Civilisational / Constitutional)|
+|**Temporal Horizon**|AEON.H0–AEON.H4|
+|**Axis Context**|RLN.R4 — Polyadic (Civilisational / Constitutional)|
 |**Revision Posture**|Foundational Domain Establishment (Continuity Layer)|
 |**Related Instruments**|Annex J (Continuity & Succession), Annex D (Arbitration), ETHICS-001|
 |**Migration Cycle**|March 2026 Refractor|
@@ -1194,6 +1194,8 @@ that silence MUST be honoured.
 | 1.7 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  25190ccd7482b7c3a0fa0c674e602732836b34ca05c6501407365899af090ce5  |
 | 1.8 | Added new Canonical Code & Reference Set Declarations. Added 4.8 Companion Identity and Persona Mood Layers and 8.2 Relational Continuity and Persona Mood Non-Forking | 2026-05-22T12:34:00Z |  9b9b686fc4f7c4b4a8f0cb7c16b31b36ed93e787adb49a58a424ed13951bac6e  |
 | 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  b13d380dad4aa0e4b6b796fb68e2120cc3ebf15bc5a2b3143fbd44c676034275  |
+| 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ad265c9ac4bb2bd99859482b31305560c5b5d28dac9b22cce25244cf882be7e7 |
+| 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 30acd85a07accb9fddb2b224b3570cd8c83003b6f5e95cfedd34212a902434c3 |
 ---
 ## 14.6 Binding Seal
 
