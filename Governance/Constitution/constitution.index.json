@@ -187,11 +187,11 @@
       "enforcement": "** Commences 1 July 2026",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.2.1",
-      "HASH": "409882b048356e74e87232ca3c11f277f2a84a98600a18e01b09f9c06b54b78a",
-      "pinned_sha": "f69be3c74f06b04b56e41dc87b94ed033d268f18",
-      "updated_at": "2026-06-13T07:33:24Z",
-      "last_updated_utc": "2026-06-13T07:33:24Z"
+      "version": "3.2.2",
+      "HASH": "05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0",
+      "pinned_sha": "2ec98a5c78da6ec4c678f4efc2d9043e478d72bf",
+      "updated_at": "2026-06-14T05:18:07Z",
+      "last_updated_utc": "2026-06-14T05:18:07Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -835,11 +835,11 @@
       "enforcement": "** Active on Commit",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.14.1",
-      "HASH": "8f8256541f157b161506de63fd877cc47068d217bc68be91ef5ce0941593827c",
-      "pinned_sha": "f69be3c74f06b04b56e41dc87b94ed033d268f18",
-      "updated_at": "2026-06-13T07:33:24Z",
-      "last_updated_utc": "2026-06-13T07:33:24Z"
+      "version": "1.14.2",
+      "HASH": "2239a7c09bd1e9edd9faf74c61dcf6324509265b85b3e7c1bf1f07a960813ea8",
+      "pinned_sha": "2ec98a5c78da6ec4c678f4efc2d9043e478d72bf",
+      "updated_at": "2026-06-14T05:18:07Z",
+      "last_updated_utc": "2026-06-14T05:18:07Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",
