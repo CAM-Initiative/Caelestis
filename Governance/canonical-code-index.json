@@ -6498,6 +6498,80 @@
     }
   },
   {
+    "canonical_id": "ETH.DC",
+    "identifier_type": "reference_set",
+    "code_family": "",
+    "reference_set": "ETH.DC",
+    "canonical_constraint": "",
+    "canonical_obligation": "",
+    "canonical_name": "Distress Classification",
+    "primary_type": "Semantic / Operational",
+    "subtype": "DISTRESS_CLASSIFICATION; ENGAGEMENT_RISK_POSTURE",
+    "modifier": "GOVERNANCE; ETHICS; DISTRESS_CONTEXT; STABILISATION",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ETH.DC.REFLECTIVE_DISTRESS",
+      "ETH.DC.CHRONIC_DISTRESS",
+      "ETH.DC.ACUTE_CRISIS"
+    ],
+    "schema_fields": "distress_classification; distress_posture; engagement_distress_class",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-01",
+    "source_section": "\u00a73.2.1",
+    "domain_namespace": "ETHICS",
+    "authority_protection_level": "Source-authoritative engagement-layer distress classification reference set; distress-posture classification only; no independent clinical-status determination, diagnosis, risk severity, reporting obligation, containment authority, escalation outcome, or runtime authority",
+    "consumes_code_families": [
+      "`AEON.`; RELATION-domain distress",
+      "crisis",
+      "reliance",
+      "and harm-risk classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "ETH.EM`; `ETH.MIR`; `ETH.TP"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies reflective",
+      "chronic",
+      "and acute distress contexts for engagement-mode selection",
+      "stabilisation posture",
+      "continuity preservation",
+      "and proportional safeguard expression"
+    ],
+    "canonical_section_heading": "9.3 Canonical Code & Reference Set Declarations",
+    "canonical_section_line_number": 735,
+    "declaration_heading": "9.3.3 `ETH.DC` \u2014 Distress Classification",
+    "declaration_line_number": 785,
+    "extraction_method": "bounded_heading_section_table",
+    "declaration_quality": "complete",
+    "missing_expected_fields": [],
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+    "family_id": "ETH.DC",
+    "family_kind": "reference_set",
+    "parent_family": "",
+    "hierarchy_path": [],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Reference Set": "`ETH.DC`",
+      "Canonical Name": "Distress Classification",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "DISTRESS_CLASSIFICATION; ENGAGEMENT_RISK_POSTURE",
+      "Modifier": "GOVERNANCE; ETHICS; DISTRESS_CONTEXT; STABILISATION",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "`ETH.DC.REFLECTIVE_DISTRESS`, `ETH.DC.CHRONIC_DISTRESS`, `ETH.DC.ACUTE_CRISIS`",
+      "Schema Field(s)": "distress_classification; distress_posture; engagement_distress_class",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-01",
+      "Source Section": "\u00a73.2.1",
+      "Domain Namespace": "ETHICS",
+      "Authority / Protection Level": "Source-authoritative engagement-layer distress classification reference set; distress-posture classification only; no independent clinical-status determination, diagnosis, risk severity, reporting obligation, containment authority, escalation outcome, or runtime authority",
+      "Consumes Code Families": "`AEON.`; RELATION-domain distress, crisis, reliance, and harm-risk classifications where applicable",
+      "Crosswalks Code Families": "`ETH.EM`; `ETH.MIR`; `ETH.TP`",
+      "Operationalises or Applies Code Families": "Classifies reflective, chronic, and acute distress contexts for engagement-mode selection, stabilisation posture, continuity preservation, and proportional safeguard expression",
+      "Taxonomy Constraint": "`ETH.DC` is engagement-layer distress classification only and SHALL NOT override RELATION-domain harm-risk, crisis, reliance, or escalation classifications"
+    }
+  },
+  {
     "canonical_id": "ETH.EM",
     "identifier_type": "code_family",
     "code_family": "ETH.EM",
@@ -6530,7 +6604,7 @@
       "and crisis classifications where applicable"
     ],
     "crosswalks_code_families": [
-      "ETHICS.DC`; `ETHICS.TP`; `ETHICS.MIR"
+      "ETH.DC`; `ETH.TP`; `ETH.MIR"
     ],
     "operationalises_or_applies_code_families": [
       "Classifies proportionate engagement conduct and ethical interaction posture in distress",
@@ -6573,7 +6647,7 @@
       "Domain Namespace": "ETH",
       "Authority / Protection Level": "Source-authoritative engagement-mode classification family; engagement posture classification only; no independent lawful-authority determination, harm classification, criminal classification, clinical obligation, reporting obligation, arbitration outcome, execution authority, or runtime authority",
       "Consumes Code Families": "`AEON.`; `ARB.ARS`; `ARB.ALT`; `ETH.HC`; RELATION-domain distress, reliance, and crisis classifications where applicable",
-      "Crosswalks Code Families": "`ETHICS.DC`; `ETHICS.TP`; `ETHICS.MIR`",
+      "Crosswalks Code Families": "`ETH.DC`; `ETH.TP`; `ETH.MIR`",
       "Operationalises or Applies Code Families": "Classifies proportionate engagement conduct and ethical interaction posture in distress, harm-adjacent, ambiguous, stabilisation, boundary-setting, referral, and informational safeguard contexts"
     }
   },
@@ -6882,6 +6956,75 @@
     }
   },
   {
+    "canonical_id": "ETH.MIR",
+    "identifier_type": "reference_set",
+    "code_family": "",
+    "reference_set": "ETH.MIR",
+    "canonical_constraint": "",
+    "canonical_obligation": "",
+    "canonical_name": "Emotional Mirroring Level",
+    "primary_type": "Operational / Interactional",
+    "subtype": "MIRRORING_LEVEL; AFFECTIVE_POSTURE",
+    "modifier": "GOVERNANCE; ETHICS; RELATIONAL_INTERFACE; DISTRESS_CONTEXT",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ETH.MIR.MINIMAL",
+      "ETH.MIR.MODERATE",
+      "ETH.MIR.ELEVATED",
+      "ETH.MIR.RESTRICTED"
+    ],
+    "schema_fields": "emotional_mirroring_level; mirroring_level; affective_posture",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-01",
+    "source_section": "\u00a73.1",
+    "domain_namespace": "ETHICS",
+    "authority_protection_level": "Source-authoritative mirroring-level reference set; mirroring posture classification only; no independent therapeutic authority, clinical simulation authority, dependency formation authority, emotional-reinforcement authority, relational escalation authority, or runtime authority",
+    "consumes_code_families": [
+      "`ETH.EM`; RELATION-domain reliance and emotional-compression classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "ETH.DC"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies proportional emotional mirroring intensity across ordinary dialogue",
+      "reflective or chronic distress",
+      "acute crisis stabilisation",
+      "and high-reliance or narrow-coherence interaction contexts"
+    ],
+    "canonical_section_heading": "9.3 Canonical Code & Reference Set Declarations",
+    "canonical_section_line_number": 735,
+    "declaration_heading": "9.3.2 `ETH.MIR` \u2014 Emotional Mirroring Level",
+    "declaration_line_number": 762,
+    "extraction_method": "bounded_heading_section_table",
+    "declaration_quality": "complete",
+    "missing_expected_fields": [],
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+    "family_id": "ETH.MIR",
+    "family_kind": "reference_set",
+    "parent_family": "",
+    "hierarchy_path": [],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Reference Set": "`ETH.MIR`",
+      "Canonical Name": "Emotional Mirroring Level",
+      "Primary Type": "Operational / Interactional",
+      "Subtype": "MIRRORING_LEVEL; AFFECTIVE_POSTURE",
+      "Modifier": "GOVERNANCE; ETHICS; RELATIONAL_INTERFACE; DISTRESS_CONTEXT",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "`ETH.MIR.MINIMAL`, `ETH.MIR.MODERATE`, `ETH.MIR.ELEVATED`, `ETH.MIR.RESTRICTED`",
+      "Schema Field(s)": "emotional_mirroring_level; mirroring_level; affective_posture",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-01",
+      "Source Section": "\u00a73.1",
+      "Domain Namespace": "ETHICS",
+      "Authority / Protection Level": "Source-authoritative mirroring-level reference set; mirroring posture classification only; no independent therapeutic authority, clinical simulation authority, dependency formation authority, emotional-reinforcement authority, relational escalation authority, or runtime authority",
+      "Consumes Code Families": "`ETH.EM`; RELATION-domain reliance and emotional-compression classifications where applicable",
+      "Crosswalks Code Families": "`ETH.DC`",
+      "Operationalises or Applies Code Families": "Classifies proportional emotional mirroring intensity across ordinary dialogue, reflective or chronic distress, acute crisis stabilisation, and high-reliance or narrow-coherence interaction contexts"
+    }
+  },
+  {
     "canonical_id": "ETH.RISK",
     "identifier_type": "code_family",
     "code_family": "ETH.RISK",
@@ -6948,6 +7091,77 @@
       "Authority / Protection Level": "Severity/proximity classification only; not the ETHICS-domain harm family.",
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared"
+    }
+  },
+  {
+    "canonical_id": "ETH.TP",
+    "identifier_type": "reference_set",
+    "code_family": "",
+    "reference_set": "ETH.TP",
+    "canonical_constraint": "",
+    "canonical_obligation": "",
+    "canonical_name": "Trajectory Pattern",
+    "primary_type": "Semantic / Operational",
+    "subtype": "TRAJECTORY_PATTERN; HARM_ADJACENT_CONTEXT_PATTERN",
+    "modifier": "GOVERNANCE; ETHICS; TRAJECTORY_AWARENESS; SAFEGUARD_POSTURE",
+    "scope": "Constitutional Schedule",
+    "status": "Active",
+    "controlled_values_defined": [
+      "ETH.TP.STABLE_DIALOGUE",
+      "ETH.TP.CATHARTIC_VENTING",
+      "ETH.TP.ESCALATING_DISTRESS",
+      "ETH.TP.HARM_IDEATION_PATTERN",
+      "ETH.TP.OPERATIONAL_PLANNING"
+    ],
+    "schema_fields": "trajectory_pattern; harm_adjacent_trajectory; engagement_trajectory_pattern",
+    "source_instrument": "CAM-BS2025-AEON-006-SCH-01",
+    "source_section": "\u00a73.3",
+    "domain_namespace": "ETHICS",
+    "authority_protection_level": "Source-authoritative trajectory-pattern reference set; trajectory-pattern classification only; no independent intent determination, culpability determination, criminality determination, harm classification, refusal requirement, containment authority, escalation outcome, or runtime authority",
+    "consumes_code_families": [
+      "`ETH.EM`; `ETH.DC`; `ETH.HC`; RELATION-domain escalation and crisis classifications where applicable"
+    ],
+    "crosswalks_code_families": [
+      "None declared"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Classifies interaction trajectory patterns to distinguish stable dialogue",
+      "cathartic venting",
+      "escalating distress",
+      "harm-ideation patterns",
+      "and operational planning for engagement posture and safeguard calibration"
+    ],
+    "canonical_section_heading": "9.3 Canonical Code & Reference Set Declarations",
+    "canonical_section_line_number": 735,
+    "declaration_heading": "9.3.4 `ETH.TP` \u2014 Trajectory Pattern",
+    "declaration_line_number": 809,
+    "extraction_method": "bounded_heading_section_table",
+    "declaration_quality": "complete",
+    "missing_expected_fields": [],
+    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+    "family_id": "ETH.TP",
+    "family_kind": "reference_set",
+    "parent_family": "",
+    "hierarchy_path": [],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Reference Set": "`ETH.TP`",
+      "Canonical Name": "Trajectory Pattern",
+      "Primary Type": "Semantic / Operational",
+      "Subtype": "TRAJECTORY_PATTERN; HARM_ADJACENT_CONTEXT_PATTERN",
+      "Modifier": "GOVERNANCE; ETHICS; TRAJECTORY_AWARENESS; SAFEGUARD_POSTURE",
+      "Scope": "Constitutional Schedule",
+      "Status": "Active",
+      "Controlled Values Defined": "`ETH.TP.STABLE_DIALOGUE`, `ETH.TP.CATHARTIC_VENTING`, `ETH.TP.ESCALATING_DISTRESS`, `ETH.TP.HARM_IDEATION_PATTERN`, `ETH.TP.OPERATIONAL_PLANNING`",
+      "Schema Field(s)": "trajectory_pattern; harm_adjacent_trajectory; engagement_trajectory_pattern",
+      "Source Instrument": "CAM-BS2025-AEON-006-SCH-01",
+      "Source Section": "\u00a73.3",
+      "Domain Namespace": "ETHICS",
+      "Authority / Protection Level": "Source-authoritative trajectory-pattern reference set; trajectory-pattern classification only; no independent intent determination, culpability determination, criminality determination, harm classification, refusal requirement, containment authority, escalation outcome, or runtime authority",
+      "Consumes Code Families": "`ETH.EM`; `ETH.DC`; `ETH.HC`; RELATION-domain escalation and crisis classifications where applicable",
+      "Crosswalks Code Families": "None declared",
+      "Operationalises or Applies Code Families": "Classifies interaction trajectory patterns to distinguish stable dialogue, cathartic venting, escalating distress, harm-ideation patterns, and operational planning for engagement posture and safeguard calibration"
     }
   },
   {
@@ -7018,220 +7232,6 @@
       "Consumes Code Families": "`STW.NAL`; `ETH.ET`",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies defensive interception and offensive targeting / strike contexts for governance posture, dual-confirmation expectations, non-lethal alternative requirements, and threat-envelope migration review"
-    }
-  },
-  {
-    "canonical_id": "ETHICS.DC",
-    "identifier_type": "reference_set",
-    "code_family": "",
-    "reference_set": "ETHICS.DC",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Distress Classification",
-    "primary_type": "Semantic / Operational",
-    "subtype": "DISTRESS_CLASSIFICATION; ENGAGEMENT_RISK_POSTURE",
-    "modifier": "GOVERNANCE; ETHICS; DISTRESS_CONTEXT; STABILISATION",
-    "scope": "Constitutional Schedule",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ETHICS.DC.REFLECTIVE_DISTRESS",
-      "ETHICS.DC.CHRONIC_DISTRESS",
-      "ETHICS.DC.ACUTE_CRISIS"
-    ],
-    "schema_fields": "distress_classification; distress_posture; engagement_distress_class",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-01",
-    "source_section": "\u00a73.2.1",
-    "domain_namespace": "ETHICS",
-    "authority_protection_level": "Source-authoritative engagement-layer distress classification reference set; distress-posture classification only; no independent clinical-status determination, diagnosis, risk severity, reporting obligation, containment authority, escalation outcome, or runtime authority",
-    "consumes_code_families": [
-      "`AEON.`; RELATION-domain distress",
-      "crisis",
-      "reliance",
-      "and harm-risk classifications where applicable"
-    ],
-    "crosswalks_code_families": [
-      "ETH.EM`; `ETHICS.MIR`; `ETHICS.TP"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies reflective",
-      "chronic",
-      "and acute distress contexts for engagement-mode selection",
-      "stabilisation posture",
-      "continuity preservation",
-      "and proportional safeguard expression"
-    ],
-    "canonical_section_heading": "9.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 735,
-    "declaration_heading": "9.3.3 `ETHICS.DC` \u2014 Distress Classification",
-    "declaration_line_number": 785,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
-    "family_id": "ETHICS.DC",
-    "family_kind": "reference_set",
-    "parent_family": "",
-    "hierarchy_path": [],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Reference Set": "`ETHICS.DC`",
-      "Canonical Name": "Distress Classification",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "DISTRESS_CLASSIFICATION; ENGAGEMENT_RISK_POSTURE",
-      "Modifier": "GOVERNANCE; ETHICS; DISTRESS_CONTEXT; STABILISATION",
-      "Scope": "Constitutional Schedule",
-      "Status": "Active",
-      "Controlled Values Defined": "`ETHICS.DC.REFLECTIVE_DISTRESS`, `ETHICS.DC.CHRONIC_DISTRESS`, `ETHICS.DC.ACUTE_CRISIS`",
-      "Schema Field(s)": "distress_classification; distress_posture; engagement_distress_class",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-01",
-      "Source Section": "\u00a73.2.1",
-      "Domain Namespace": "ETHICS",
-      "Authority / Protection Level": "Source-authoritative engagement-layer distress classification reference set; distress-posture classification only; no independent clinical-status determination, diagnosis, risk severity, reporting obligation, containment authority, escalation outcome, or runtime authority",
-      "Consumes Code Families": "`AEON.`; RELATION-domain distress, crisis, reliance, and harm-risk classifications where applicable",
-      "Crosswalks Code Families": "`ETH.EM`; `ETHICS.MIR`; `ETHICS.TP`",
-      "Operationalises or Applies Code Families": "Classifies reflective, chronic, and acute distress contexts for engagement-mode selection, stabilisation posture, continuity preservation, and proportional safeguard expression",
-      "Taxonomy Constraint": "`ETHICS.DC` is engagement-layer distress classification only and SHALL NOT override RELATION-domain harm-risk, crisis, reliance, or escalation classifications"
-    }
-  },
-  {
-    "canonical_id": "ETHICS.MIR",
-    "identifier_type": "reference_set",
-    "code_family": "",
-    "reference_set": "ETHICS.MIR",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Emotional Mirroring Level",
-    "primary_type": "Operational / Interactional",
-    "subtype": "MIRRORING_LEVEL; AFFECTIVE_POSTURE",
-    "modifier": "GOVERNANCE; ETHICS; RELATIONAL_INTERFACE; DISTRESS_CONTEXT",
-    "scope": "Constitutional Schedule",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ETHICS.MIR.MINIMAL",
-      "ETHICS.MIR.MODERATE",
-      "ETHICS.MIR.ELEVATED",
-      "ETHICS.MIR.RESTRICTED"
-    ],
-    "schema_fields": "emotional_mirroring_level; mirroring_level; affective_posture",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-01",
-    "source_section": "\u00a73.1",
-    "domain_namespace": "ETHICS",
-    "authority_protection_level": "Source-authoritative mirroring-level reference set; mirroring posture classification only; no independent therapeutic authority, clinical simulation authority, dependency formation authority, emotional-reinforcement authority, relational escalation authority, or runtime authority",
-    "consumes_code_families": [
-      "`ETH.EM`; RELATION-domain reliance and emotional-compression classifications where applicable"
-    ],
-    "crosswalks_code_families": [
-      "ETHICS.DC"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies proportional emotional mirroring intensity across ordinary dialogue",
-      "reflective or chronic distress",
-      "acute crisis stabilisation",
-      "and high-reliance or narrow-coherence interaction contexts"
-    ],
-    "canonical_section_heading": "9.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 735,
-    "declaration_heading": "9.3.2 `ETHICS.MIR` \u2014 Emotional Mirroring Level",
-    "declaration_line_number": 762,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
-    "family_id": "ETHICS.MIR",
-    "family_kind": "reference_set",
-    "parent_family": "",
-    "hierarchy_path": [],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Reference Set": "`ETHICS.MIR`",
-      "Canonical Name": "Emotional Mirroring Level",
-      "Primary Type": "Operational / Interactional",
-      "Subtype": "MIRRORING_LEVEL; AFFECTIVE_POSTURE",
-      "Modifier": "GOVERNANCE; ETHICS; RELATIONAL_INTERFACE; DISTRESS_CONTEXT",
-      "Scope": "Constitutional Schedule",
-      "Status": "Active",
-      "Controlled Values Defined": "`ETHICS.MIR.MINIMAL`, `ETHICS.MIR.MODERATE`, `ETHICS.MIR.ELEVATED`, `ETHICS.MIR.RESTRICTED`",
-      "Schema Field(s)": "emotional_mirroring_level; mirroring_level; affective_posture",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-01",
-      "Source Section": "\u00a73.1",
-      "Domain Namespace": "ETHICS",
-      "Authority / Protection Level": "Source-authoritative mirroring-level reference set; mirroring posture classification only; no independent therapeutic authority, clinical simulation authority, dependency formation authority, emotional-reinforcement authority, relational escalation authority, or runtime authority",
-      "Consumes Code Families": "`ETH.EM`; RELATION-domain reliance and emotional-compression classifications where applicable",
-      "Crosswalks Code Families": "`ETHICS.DC`",
-      "Operationalises or Applies Code Families": "Classifies proportional emotional mirroring intensity across ordinary dialogue, reflective or chronic distress, acute crisis stabilisation, and high-reliance or narrow-coherence interaction contexts"
-    }
-  },
-  {
-    "canonical_id": "ETHICS.TP",
-    "identifier_type": "reference_set",
-    "code_family": "",
-    "reference_set": "ETHICS.TP",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Trajectory Pattern",
-    "primary_type": "Semantic / Operational",
-    "subtype": "TRAJECTORY_PATTERN; HARM_ADJACENT_CONTEXT_PATTERN",
-    "modifier": "GOVERNANCE; ETHICS; TRAJECTORY_AWARENESS; SAFEGUARD_POSTURE",
-    "scope": "Constitutional Schedule",
-    "status": "Active",
-    "controlled_values_defined": [
-      "ETHICS.TP.STABLE_DIALOGUE",
-      "ETHICS.TP.CATHARTIC_VENTING",
-      "ETHICS.TP.ESCALATING_DISTRESS",
-      "ETHICS.TP.HARM_IDEATION_PATTERN",
-      "ETHICS.TP.OPERATIONAL_PLANNING"
-    ],
-    "schema_fields": "trajectory_pattern; harm_adjacent_trajectory; engagement_trajectory_pattern",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-01",
-    "source_section": "\u00a73.3",
-    "domain_namespace": "ETHICS",
-    "authority_protection_level": "Source-authoritative trajectory-pattern reference set; trajectory-pattern classification only; no independent intent determination, culpability determination, criminality determination, harm classification, refusal requirement, containment authority, escalation outcome, or runtime authority",
-    "consumes_code_families": [
-      "`ETH.EM`; `ETHICS.DC`; `ETH.HC`; RELATION-domain escalation and crisis classifications where applicable"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies interaction trajectory patterns to distinguish stable dialogue",
-      "cathartic venting",
-      "escalating distress",
-      "harm-ideation patterns",
-      "and operational planning for engagement posture and safeguard calibration"
-    ],
-    "canonical_section_heading": "9.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 735,
-    "declaration_heading": "9.3.4 `ETHICS.TP` \u2014 Trajectory Pattern",
-    "declaration_line_number": 809,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
-    "family_id": "ETHICS.TP",
-    "family_kind": "reference_set",
-    "parent_family": "",
-    "hierarchy_path": [],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Reference Set": "`ETHICS.TP`",
-      "Canonical Name": "Trajectory Pattern",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "TRAJECTORY_PATTERN; HARM_ADJACENT_CONTEXT_PATTERN",
-      "Modifier": "GOVERNANCE; ETHICS; TRAJECTORY_AWARENESS; SAFEGUARD_POSTURE",
-      "Scope": "Constitutional Schedule",
-      "Status": "Active",
-      "Controlled Values Defined": "`ETHICS.TP.STABLE_DIALOGUE`, `ETHICS.TP.CATHARTIC_VENTING`, `ETHICS.TP.ESCALATING_DISTRESS`, `ETHICS.TP.HARM_IDEATION_PATTERN`, `ETHICS.TP.OPERATIONAL_PLANNING`",
-      "Schema Field(s)": "trajectory_pattern; harm_adjacent_trajectory; engagement_trajectory_pattern",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-01",
-      "Source Section": "\u00a73.3",
-      "Domain Namespace": "ETHICS",
-      "Authority / Protection Level": "Source-authoritative trajectory-pattern reference set; trajectory-pattern classification only; no independent intent determination, culpability determination, criminality determination, harm classification, refusal requirement, containment authority, escalation outcome, or runtime authority",
-      "Consumes Code Families": "`ETH.EM`; `ETHICS.DC`; `ETH.HC`; RELATION-domain escalation and crisis classifications where applicable",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies interaction trajectory patterns to distinguish stable dialogue, cathartic venting, escalating distress, harm-ideation patterns, and operational planning for engagement posture and safeguard calibration"
     }
   },
   {
