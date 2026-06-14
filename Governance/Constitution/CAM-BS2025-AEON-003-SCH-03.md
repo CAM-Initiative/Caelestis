@@ -25,7 +25,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-BS2025-AEON-001-PLATINUM](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.10 | Active | Immediate Effect | Active on Commit | None | None |
+| [CAM-BS2025-AEON-001-PLATINUM](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.10.1 | Active | Immediate Effect | Active on Commit | None | None |
 | [CAM-BS2025-AEON-002-PLATINUM](../Constitution/CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship | Annex | 3.8.1 | Active | Immediate Effect | Binding | None | Binding Authority |
 | [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic | Annex | 3.16.4 | Active | Immediate Effect | Binding | None | Constitutional Spine |
 | [CAM-BS2025-AEON-004-PLATINUM](../Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework | Annex | 2.8.1 | Active | Immediate Effect | Active on Commit | None | None |

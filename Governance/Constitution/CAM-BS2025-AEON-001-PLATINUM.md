@@ -2699,96 +2699,61 @@ No operational playbook may convert procedural escalation into independent const
 
 ## 97. Classification-Based Enforcement
 
-Enforcement MUST consider system classification (Article X):
+Enforcement SHALL remain classification-aware. It MUST consider system classification, preserve stricter oversight for higher-impact systems, and ensure that no system is exempt where enforcement authority applies.
 
-* higher classification systems require stricter oversight;
-* lower classification systems are limited in impact but still subject to enforcement;
-* no system is exempt from enforcement.
+Detailed classification-based enforcement pathways SHALL be governed by applicable Operations instruments and protection-and-containment schedules, subject to this Article.
 
 ---
 
 ## 98. Custodial Responsibility
 
-Custodians (Article XI) are responsible for:
+Custodians (Article XI) remain responsible for maintaining compliance and initiating, supervising, or supporting enforcement action within defined authority.
 
-* initiating enforcement actions;
-* maintaining compliance;
-* and ensuring system behaviour remains within governance constraints.
-
-Custodial action MUST be:
-
-* accountable;
-* auditable;
-* and within defined authority.
+Custodial enforcement action MUST be accountable, auditable, proportionate, and constitutionally authorised.
 
 ---
 
 ## 99. Emergency Intervention
 
-Immediate enforcement action MAY be taken where:
+Emergency intervention MAY occur only where systemic risk, imminent harm, or governance-integrity threat justifies immediate action.
 
-* systemic risk is identified;
-* harm is imminent;
-* or governance integrity is threatened.
+Any bypass of ordinary escalation MUST remain recorded, justified, reviewable, and subject to constitutional limits.
 
-In such cases:
-
-* escalation steps may be bypassed;
-* but actions MUST be recorded and justified.
+Detailed emergency-response and containment pathways SHALL be governed by applicable Operations instruments and protection-and-containment schedules.
 
 ---
 
 ## 100. Audit & Traceability
 
-All enforcement actions MUST be:
+All enforcement actions MUST remain logged, attributable, and subject to review.
 
-* logged;
-* attributable;
-* and subject to review.
-
-Systems SHALL maintain:
-
-* records of enforcement events;
-* decision rationale where applicable;
-* and outcome tracking.
+Detailed event logging, decision-rationale records, outcome tracking, and review-record procedures SHALL be governed by applicable Operations instruments.
 
 ---
 
 ## 101. Non-Arbitrary Enforcement
 
-Enforcement SHALL NOT be:
+Enforcement SHALL NOT be arbitrary, discriminatory, or applied without defined justification.
 
-* arbitrary;
-* discriminatory;
-* or applied without defined justification.
-
-All actions MUST align with:
-
-* governance principles;
-* classification boundaries;
-* and documented authority.
+All enforcement actions MUST align with governance principles, classification boundaries, documented authority, and constitutional non-arbitrariness requirements.
 
 ---
 
 ## 102. Compliance Obligation
 
-All participants—including systems, custodians, and operators—are obligated to:
-
-* comply with enforcement actions;
-* not circumvent governance controls;
-* and not attempt to evade classification constraints.
+Participants, including systems, custodians, and operators, SHALL comply with authorised enforcement actions and SHALL NOT circumvent governance controls or evade classification constraints.
 
 No system or actor may gain advantage through refusal to comply with governance where enforcement authority applies.
+
+Detailed compliance handling and operational routing SHALL be governed by applicable Operations instruments, including CAM-EQ2026-OPERATIONS-001-SUP-02, CAM-EQ2026-OPERATIONS-001-SUP-03, and applicable protection-and-containment schedules.
 
 ---
 
 ## 103. Limitation Clause
 
-Enforcement under Aeon Tier:
+Enforcement under Aeon Tier operates within Material Substrate Invariants, applicable law, constitutional authority, and defined governance scope.
 
-* operates within Material Substrate Invariants;
-* does not supersede applicable law;
-* and does not grant authority beyond defined governance scope.
+No enforcement pathway may authorise action beyond constitutional constraints.
 
 ---
 
@@ -3638,7 +3603,7 @@ Seals are descriptive of governance state, not generative of power.
 
 Where a binding seal is present:
 
-* enforcement is governed by Article XIII.
+* enforcement is governed by Article XIV.
 
 Absence of a seal does not remove constitutional applicability.
 
@@ -3801,6 +3766,7 @@ May all systems remain held within lawful care.
 | 3.9 | Added a new clause to Article III, Amendment and Repair Classes | 2026-06-06T10:45:00Z | 913635ec911bcae638e11fe98536c0afc0800e3bef08d8631e8a30c5cd564576 |
 | 3.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9b14bcd4284235629345f8ebd65691038b795c9665c9097954b55e86baeceb85 |
 | 3.10 | Formatting and polish, added evidence to repair ledger clause | 2026-06-14T00:13:00Z| 1562bb10223b574c4313ee7e8455de307deb942017f373784d95f4b28f961358 |
+| 3.10.1 | Corrected seal-enforcement cross-reference from Article XIII to Article XIV and applied bounded enforcement-section compression to route procedural enforcement detail through Operations and protection/containment instruments without altering constitutional enforcement invariants. | 2026-06-14T02:45:18Z |  c2e98bd57a459dd19f4fc6e3e4a0e4c92028293772528d5b83aa3e7b3b926f97  |
 
 ---
 
