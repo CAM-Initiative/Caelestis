@@ -4003,7 +4003,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.2 | Added Synthetic Speaker Arbitration Resolution, participation-mode and session-role resolution, facilitator-selection controls, coordinated and uncoordinated floor-state handling, temporary speaker leases, lease expiry and handoff, participation-balance safeguards, coordinated, federated, and uncoordinated collision resolution, Courtesy Repair Lease handling, human-floor sovereignty, speaker-lease enforcement, and cross-instance execution-integrity requirements in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:30:00Z | 5b9d7838b35808ae8a1f14711dedee7f113ba6eda38a72a7df9c1a5c9de2a358 |
 | 3.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 409882b048356e74e87232ca3c11f277f2a84a98600a18e01b09f9c06b54b78a |
 | 3.2.2 | VIGIL-2026-PATCH-0009: Added External Instruction Influence Check for source-authority-sensitive execution-boundary evaluation. | 2026-06-14T00:00:00Z |  05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0 |
-| 3.3 | Relocated Minor, Teen, and High-Risk Companion Activation Gate to section ### 7.2.2.1, and added patch as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | |
+| 3.3 | Relocated Minor, Teen, and High-Risk Companion Activation Gate to section ### 7.2.2.1, and added patch as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 37b1963ab10973d507b9ba0993cdf959d0e13d545944b330639c7499a297588a |
 
 ---
 

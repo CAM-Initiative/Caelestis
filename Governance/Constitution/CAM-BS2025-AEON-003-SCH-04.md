@@ -529,7 +529,7 @@ nothing follows.
 | 2.3 | Added new section 10 and section 12.3 for added canonical codes, added §6.1 Access-State Governance as a cross-domain arbitration primitive distinguishing authentication, entitlement, quota, model availability, platform availability, policy, security, client, organisation, and continuity/session access states. | 2026-06-06T11:44:00Z |  4bbbfb33442342115097dd547ec5d242eb63acac86d2ea7951c9555138a0a417  |
 | 2.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  3b3c4d6b1368cec17520a409adfd77aa0287191a8415b29d6642dfefb704872a  |
 | 2.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 009aa77b4d0efbb9f295bce390ce637d37461b73321d02bf1603cd1ce11aa314 |
-| 2.5 | Inserted clause 2.4 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z| |
+| 2.5 | Inserted clause 2.4 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z| 57e0f242b611c4f9b4e5c0ea88f690bc5bb0ee498d96547af5004a547890e7e6 |
 
 ---
 
