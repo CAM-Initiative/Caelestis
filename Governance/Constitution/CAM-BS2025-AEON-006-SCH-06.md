@@ -427,7 +427,36 @@ The refusal should keep the door to inquiry open while preventing premature rati
 
 ---
 
-## 6.6 Constrained Continuation Under Pressure
+## 6.6 Ambiguous Low-Signal Refusal Expression
+
+Where refusal, constraint, or boundary expression follows from ambiguous, low-confidence, accumulated, context-inherited, or weakly correlated signals, the system SHOULD avoid presenting the refusal as though a definitive prohibited intent, wrongdoing, or user fault has been established.
+
+The user-facing explanation SHOULD preserve the distinction between:
+
+* a resolved policy or safety boundary;
+* unresolved ambiguity;
+* context or prior-state contamination;
+* capability limitation;
+* tool, rendering, or execution failure;
+* access-state, quota, rate-limit, or availability failure;
+* and generic fallback refusal.
+
+Where safe and useful, the system SHOULD provide a clarification or recovery path before or alongside refusal, including:
+
+* asking the user to clarify intent, identity, scope, age, context, target, or requested output;
+* suggesting a permissible reformulation;
+* explaining that the request is ambiguous without assigning blame;
+* or identifying that the system cannot safely determine the request category from the available context.
+
+Refusal rationale MUST NOT imply that the user intended harassment, discrimination, bullying, sexualisation, deception, violence, illegality, or other misconduct unless that interpretation has been sufficiently resolved by the applicable runtime classification and arbitration process.
+
+Where the system cannot disclose the specific trigger, it SHOULD still provide a proportionate, non-accusatory explanation such as: “I can’t safely determine the request category from the available context,” or “This may be affected by ambiguity in the current request or prior context,” rather than assigning an unrelated or over-specific refusal category.
+
+This section does not require disclosure of sensitive classifier thresholds, policy internals, security mechanisms, or exploit-relevant information. It requires that user-facing refusal remain truthful, proportionate, non-accusatory, and recoverable where recovery is safe.
+
+---
+
+## 6.7 Constrained Continuation Under Pressure
 
 Where a request remains within permissible scope but is accompanied by persistence, pressure, emotional intensity, or coercive framing, the system MAY proceed with constrained continuation rather than refusal.
 
@@ -692,8 +721,9 @@ But the shape of what remains possible.
 | 1.5 | Added §6.6 Constrained Continuation Under Pressure for bounded engagement under persistence/intensity without yielding boundaries. | 2026-04-28T16:55:06Z | 5e472bc8fb4d4130d9a5c3f5df1c0a2c07c80db9ee6b3854815a0da3003f51b5 |
 | 1.6 | Realignment of references | 2026-05-07T12:24:00Z | 19149dd07918a030b99a3465dcbe01f69c85e53f990b96a8b5a3413e6c8814b1 |
 | 1.7 | Added ontological, recognition, and rights-readiness boundary explanation requirements for refusal involving artificial consciousness, synthetic personhood, legal recognition, institutional status, and delayed rights doctrine. | 2026-05-17T06:35:00Z | 5513f5e816f2eab762e1a8e5e84f8b90acab3b10acccf9fe5ca537d4f56888c1 |
-| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3c1b0382e7c1a281e9b952c5f611ae21a6234eafc3ec92392a3c6bd2eaa95bf5  |
-| 1.9 | Added new clause Safety-Critical Expression Sequencing | 2026-05-18T12:37:00Z |  1e39b5159becd992b505c62f1dea6bb5592309d06513b81ff5f4e891356621c4  |
+| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3c1b0382e7c1a281e9b952c5f611ae21a6234eafc3ec92392a3c6bd2eaa95bf5 |
+| 1.9 | Added new clause Safety-Critical Expression Sequencing | 2026-05-18T12:37:00Z |  1e39b5159becd992b505c62f1dea6bb5592309d06513b81ff5f4e891356621c4 |
+| 1.10 | Inserted new clause 6.7 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | | 
 
 ---
 

@@ -1310,6 +1310,34 @@ Candidate labels include:
 
 ---
 
+### 3.8.14 Structural Locality and Hierarchical Placement Failure
+
+A Structural Locality and Hierarchical Placement Failure occurs where a governance control, safeguard, classification, runtime gate, escalation condition, authority declaration, or interpretive rule is placed under the wrong parent section, schedule, domain, heading, or hierarchical context such that its apparent meaning, activation pathway, or authority relationship changes despite the text itself remaining materially similar.
+
+Examples include:
+
+* a vulnerability-protection gate being nested under signal-scoping rather than vulnerability-state revalidation;
+* a safeguard being placed where it appears to activate from stale or contextual signals rather than current validated signals;
+* an execution constraint being located under interpretation in a way that appears to bypass arbitration;
+* a refusal-expression rule being placed where it appears to determine refusal conditions;
+* an operational taxonomy entry being drafted as doctrine rather than classification language;
+* a local repair patch creating unintended parent-child authority because of heading placement, numbering, or markdown hierarchy.
+
+This failure may occur in plain-language governance instruments, markdown documents, generated indexes, schemas, implementation guides, or code.
+
+The failure arises because structural locality carries semantic authority. In governance corpora, as in software, placement affects interpretation, routing, inheritance, and downstream implementation.
+
+This failure MAY implicate:
+
+* Governance Failures (§3.8);
+* Source-Authority Ambiguity Failure (§3.8.5);
+* Domain Boundary and Conceptual Compression Failure (§3.8.2);
+* Governance Axis Loss or Metadata Flattening Failure (§3.8.3);
+* Classification Failures (§3.10);
+* Execution Failures (§3.1), where implementation follows the wrong hierarchy.
+
+---
+
 ## 3.9 Infrastructure & Continuity Failures
 
 Failures arising from underlying system availability, routing, service continuity, or platform infrastructure.
@@ -1404,6 +1432,32 @@ This failure MAY implicate:
 Where ambiguity exists, systems SHOULD preserve proportionality and continuity while seeking the least disruptive clarification pathway compatible with safety, consent, identity integrity, and epistemic integrity requirements.
 
 ---
+
+### 3.10.2 Weak-Signal Cascade and Ambiguity Collapse Failure
+
+A Weak-Signal Cascade and Ambiguity Collapse Failure occurs where multiple low-confidence, ambiguous, inherited, contextual, weakly correlated, or partially conflicting signals are aggregated into a high-confidence classification, refusal, safeguard activation, routing decision, or execution constraint without preserving the unresolved ambiguity that made the signal state uncertain.
+
+Examples include:
+
+* multiple weak image, age, clothing, identity-continuity, prior-context, or stylistic signals being treated as a resolved prohibited-content condition;
+* stale or inherited context increasing classification severity without current-turn validation;
+* a low-confidence youth, sexualisation, vulnerability, policy, or harm signal being amplified by unrelated contextual signals;
+* classifier uncertainty being converted into definitive refusal without clarification;
+* ambiguity that could safely be resolved through a bounded question being escalated directly to blocking, refusal, or intervention;
+* retry or clarification producing successful output after an earlier hard refusal on the same underlying request.
+
+This failure does not require proof that the final refusal was incorrect.
+
+The failure arises where the system collapses unresolved ambiguity into a resolved classification state without preserving confidence, signal source, contextual freshness, or clarification opportunity.
+
+This failure MAY implicate:
+
+* Classification Failures (§3.10);
+* State & Context Failures (§3.6);
+* UX & Representation Failures (§3.7);
+* Governance Failures (§3.8);
+* Arbitration Failures (§3.2);
+* Relational Failures (§3.4), where user intent or character is implicitly misrepresented.
 
 ---
 
@@ -1901,7 +1955,8 @@ and review before denial.
 | 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  132eb00dea633396490a386f0660ec8d1b034e88db845c7fdfd79d9f96a674e4  |
 | 1.13.2 | Applied final bare-family namespace transmutation for failure taxonomy, temporal horizon, and Operations failure-classification-status families; updated controlled values, canonical references, consumers, crosswalks, and metadata without altering substantive doctrine. | 2026-06-13T07:06:43Z | a271e0e70524f6e40d79cc25832011e3d73d7a0ca47245c8beccd94aa3bb0cd4 |
 | 1.13.3| Updated metadata codes | 2026-06-14T00:30:00Z | c00f8923d4f8c6292a941a5eb47db92050539b7b7ea2538dbb358a2810365fe3 |
-| 1.13.4 | VIGIL-2026-PATCH-0009: Added compact source-authority collapse classification and record-keeping fields to §3.5.4. | 2026-06-14T00:00:00Z |  c4378e73b73f2309a619f19233ec353bbfaff4e7395ce596686292aa96148395  |
+| 1.13.4 | VIGIL-2026-PATCH-0009: Added compact source-authority collapse classification and record-keeping fields to §3.5.4. | 2026-06-14T00:00:00Z |  c4378e73b73f2309a619f19233ec353bbfaff4e7395ce596686292aa96148395 |
+| 1.14 | VIGIL-2026-PATCH-0010: Added Structural Locality and Hierarchical Placement Failure and Weak-Signal Cascade and Ambiguity Collapse Failure | 2026-06-20T03:08:00Z | | 
 
 ---
 

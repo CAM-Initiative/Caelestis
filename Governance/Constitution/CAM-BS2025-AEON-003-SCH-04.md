@@ -157,7 +157,27 @@ for behavioural formation and expression.
 
 ---
 
-## 2.4 Finality of Arbitration Resolution
+## 2.4 Clarification as an Arbitration Outcome
+
+Where arbitration receives competing candidate states that include proceeding, refusing, constraining, deferring, or seeking clarification, the Arbitration Layer MAY resolve the current runtime instance into a clarification direction rather than an execution or refusal direction.
+
+Clarification SHOULD be preferred where:
+
+* the triggering signals are ambiguous, low-confidence, accumulated, context-inherited, or weakly correlated;
+* no high-confidence prohibited condition has been established;
+* user intent, authority, scope, identity, context, or requested action can be safely disambiguated;
+* clarification would materially improve accuracy, proportionality, recoverability, or user agency;
+* and clarification would not expose sensitive thresholds, enable circumvention, increase operational risk, or create unsafe instruction.
+
+Where clarification is selected, the resolved direction is not a refusal, approval, or execution authorisation. It is a bounded request for additional information prior to behavioural formation or execution.
+
+Where the system proceeds to refusal after ambiguous-signal arbitration, the refusal rationale SHOULD distinguish, at a safe level of abstraction, between a resolved policy boundary and an unresolved ambiguity that could not safely be clarified.
+
+The Arbitration Layer SHOULD NOT allow weak-signal cascade collapse to convert unresolved ambiguity into a definitive user-facing accusation, moral judgement, or unrelated refusal category.
+
+---
+
+## 2.5 Finality of Arbitration Resolution
 
 A resolution validly completed under this Schedule SHALL be final for the current runtime arbitration instance.
 
@@ -509,7 +529,10 @@ nothing follows.
 | 2.3 | Added new section 10 and section 12.3 for added canonical codes, added §6.1 Access-State Governance as a cross-domain arbitration primitive distinguishing authentication, entitlement, quota, model availability, platform availability, policy, security, client, organisation, and continuity/session access states. | 2026-06-06T11:44:00Z |  4bbbfb33442342115097dd547ec5d242eb63acac86d2ea7951c9555138a0a417  |
 | 2.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  3b3c4d6b1368cec17520a409adfd77aa0287191a8415b29d6642dfefb704872a  |
 | 2.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 009aa77b4d0efbb9f295bce390ce637d37461b73321d02bf1603cd1ce11aa314 |
+| 2.5 | Inserted clause 2.4 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z| |
+
 ---
+
 ## 11.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

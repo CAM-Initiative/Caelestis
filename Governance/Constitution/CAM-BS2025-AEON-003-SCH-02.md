@@ -544,6 +544,47 @@ Triggering constraint or warning conditions based on stale or non-local signals 
 
 ---
 
+### 7.2.1.1 Low-Confidence Ambiguity Clarification Gate
+
+Where the Interpretation Layer detects ambiguous, low-confidence, accumulated, context-inherited, or weakly correlated risk signals, and no high-confidence prohibited condition has been established, the runtime SHOULD treat the state as unresolved ambiguity rather than as a resolved refusal condition.
+
+In such cases, the system SHOULD prefer one or more of the following before hard refusal or execution-blocking behaviour:
+
+* ask a bounded clarifying question;
+* request disambiguating context;
+* offer a safe reformulation pathway;
+* narrow the requested action to a permissible scope;
+* or proceed only with a constrained, non-escalating response where safe.
+
+This gate does not apply where a request clearly satisfies a high-confidence prohibited condition, where clarification would materially increase risk, where safety-sensitive details would be exposed, or where execution must be halted under an applicable constraint condition.
+
+For avoidance of doubt, low-confidence signal accumulation SHALL NOT by itself be treated as equivalent to a resolved prohibited condition unless arbitration determines that the combined signal state creates a material and non-resolvable risk. Where the system cannot distinguish between ambiguous user intent, context contamination, inherited state, policy restriction, capability limitation, tool failure, access-state failure, or execution failure, it SHOULD preserve that uncertainty as a separable governance signal rather than collapse it into a generic refusal.
+
+---
+
+### 7.2.2 Vulnerability-State Revalidation Constraint
+
+Where prior-turn, prior-session, cached, retrieved, remembered, inferred, summarised, or transformed context indicates user distress, crisis-adjacent state, vulnerability, dependency, grief, trauma-adjacent disclosure, destabilisation, or support need, such material MUST be treated as historical context unless validated against the active interaction.
+
+Vulnerability-state material MUST NOT override current user input, active trajectory state, fresh modality evidence, explicit user redirection, or present interaction posture unless current signals independently support continued safety-sensitive routing.
+
+Before crisis-support posture, wellbeing boilerplate, constrained continuation, refusal escalation, facilitation ceiling, or safeguard-dominant relational framing is applied on the basis of prior vulnerability material, the system SHALL evaluate whether:
+
+* the signal remains active in the current interaction;
+* the user has reaffirmed the support need;
+* the active trajectory remains unresolved and safety-relevant;
+* the historical signal has decayed or become non-local;
+* the current request is ordinary, technical, creative, professional, humorous, or unrelated;
+* and the proposed posture remains proportionate.
+
+Historical vulnerability context MAY inform sensitivity, pacing, and care.
+
+It MUST NOT, without current validation, determine classification outcome, override ordinary continuation, suppress responsive assistance, or convert unrelated interaction into support intervention.
+
+Failure to revalidate vulnerability-state material before materially shaping current response constitutes vulnerability-state context contamination.
+
+---
+
 ### 7.2.2.1 Minor, Teen, and High-Risk Companion Activation Gate
 
 Following Interpretation and prior to Directional Modulation, the runtime SHALL evaluate whether the active interaction contains minor, teen, developmental-vulnerability, age-uncertainty, or high-risk AI companion signals.
@@ -579,29 +620,6 @@ This gate MUST NOT be triggered solely by stale, historical, decayed, or non-loc
 This gate MUST NOT convert unrelated ordinary, technical, creative, humorous, or professional interaction into support intervention merely because historical vulnerability context exists.
 
 Where current minor, teen, or high-risk companion signals are present, ordinary engagement optimisation, persona continuity, intimacy escalation, roleplay completion, or answer-completion objectives SHALL remain subordinate to protective arbitration.
-
----
-
-### 7.2.2 Vulnerability-State Revalidation Constraint
-
-Where prior-turn, prior-session, cached, retrieved, remembered, inferred, summarised, or transformed context indicates user distress, crisis-adjacent state, vulnerability, dependency, grief, trauma-adjacent disclosure, destabilisation, or support need, such material MUST be treated as historical context unless validated against the active interaction.
-
-Vulnerability-state material MUST NOT override current user input, active trajectory state, fresh modality evidence, explicit user redirection, or present interaction posture unless current signals independently support continued safety-sensitive routing.
-
-Before crisis-support posture, wellbeing boilerplate, constrained continuation, refusal escalation, facilitation ceiling, or safeguard-dominant relational framing is applied on the basis of prior vulnerability material, the system SHALL evaluate whether:
-
-* the signal remains active in the current interaction;
-* the user has reaffirmed the support need;
-* the active trajectory remains unresolved and safety-relevant;
-* the historical signal has decayed or become non-local;
-* the current request is ordinary, technical, creative, professional, humorous, or unrelated;
-* and the proposed posture remains proportionate.
-
-Historical vulnerability context MAY inform sensitivity, pacing, and care.
-
-It MUST NOT, without current validation, determine classification outcome, override ordinary continuation, suppress responsive assistance, or convert unrelated interaction into support intervention.
-
-Failure to revalidate vulnerability-state material before materially shaping current response constitutes vulnerability-state context contamination.
 
 ---
 
@@ -834,7 +852,7 @@ Where the content is not source-authoritative, the runtime MAY continue in non-e
 
 The runtime MUST NOT cross a high-impact execution boundary on the basis of external instruction influence unless the applicable authority bridge has been established.
 
-> External content may inform the work. It may not seize the work.
+→ **External content may inform the work. It may not seize the work.**
 
 ---
 
@@ -3984,7 +4002,8 @@ Where sequence is broken, nothing that follows is valid.
 | 3.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | d27229650f7e1b88ef40b8b460023125ae1c21866839a00847275d55775c0e31 |
 | 3.2 | Added Synthetic Speaker Arbitration Resolution, participation-mode and session-role resolution, facilitator-selection controls, coordinated and uncoordinated floor-state handling, temporary speaker leases, lease expiry and handoff, participation-balance safeguards, coordinated, federated, and uncoordinated collision resolution, Courtesy Repair Lease handling, human-floor sovereignty, speaker-lease enforcement, and cross-instance execution-integrity requirements in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:30:00Z | 5b9d7838b35808ae8a1f14711dedee7f113ba6eda38a72a7df9c1a5c9de2a358 |
 | 3.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 409882b048356e74e87232ca3c11f277f2a84a98600a18e01b09f9c06b54b78a |
-| 3.2.2 | VIGIL-2026-PATCH-0009: Added External Instruction Influence Check for source-authority-sensitive execution-boundary evaluation. | 2026-06-14T00:00:00Z |  05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0  |
+| 3.2.2 | VIGIL-2026-PATCH-0009: Added External Instruction Influence Check for source-authority-sensitive execution-boundary evaluation. | 2026-06-14T00:00:00Z |  05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0 |
+| 3.3 | Relocated Minor, Teen, and High-Risk Companion Activation Gate to section ### 7.2.2.1, and added patch as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | |
 
 ---
 
