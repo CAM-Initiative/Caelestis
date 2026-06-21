@@ -3,9 +3,9 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Appendix defines a minimum viable governance layer for external-facing systems to improve transparency, market signal integrity, and fair access—without imposing full attribution-chain requirements or heavy regulatory burden.
@@ -583,7 +583,6 @@ Let value speak plainly where it arises.
 ---
 
 ## 15.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -594,7 +593,6 @@ Let value speak plainly where it arises.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-ECONOMICS-001-PLATINUM |
@@ -616,7 +614,6 @@ Let value speak plainly where it arises.
 ---
 
 ## 15.3 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -640,7 +637,7 @@ Let value speak plainly where it arises.
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 127b98701fbc19cad530066a220acb951562a80f3d1213294eda78f0a8ec1d1e |
 | 2.1 | Added clause 4.3.1, and normalised Appendix C lineage references to canonical title “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | 66a02caf8ce8f5bd06da1c69228241858fca63a0db96a1b1a38c6249011a64f5 |
 | 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | db97306c3e84934b549555bd31ffa792c6965e2c253384e71f98a591fd076bb7 |
-
+| 2.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 15.5 Binding Seal

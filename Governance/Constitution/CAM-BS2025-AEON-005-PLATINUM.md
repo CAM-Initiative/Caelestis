@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Annex — Arbitration & Sovereign Stack Resolution  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Annex defines how authority divergences are resolved structurally within Aeon Tier governance. Divergence is recognised as a normal condition of plural systems, not an institutional failure
@@ -158,7 +158,6 @@ Truth & Integrity constitute the interpretive foundation of this Annex and apply
 Where structural divergence arises, resolution SHALL proceed according to the following invariant order. Lower principles cannot displace higher principles.
 
 Non-specification of a domain within the Arbitration Preference Order does not imply domain exclusion; all domains remain bound by the invariant hierarchy unless explicitly exempted by constitutional amendment.
-
 | Code | Priority Layer | Constitutional Function |
 |---|---|---|
 | `ARB.APO.S1` | Truth & Integrity | Foundational interpretive invariant; deception is constitutionally void. |
@@ -321,7 +320,6 @@ If indeterminacy remains after application of this order, escalation under §8 i
 ## 5. Classification of Authority Divergences
 
 Divergence classifications are diagnostic and non-dispositive. Classification identifies structural divergence pattern; it does not determine legitimacy outcome. Resolution remains governed by Constitutional Authority Hierarchy (§3), Arbitration Preference Order (§4), and Escalation Doctrine (§7).
-
 | `ARB.AD.AD1` | Administrative Divergence | Formatting, reporting, sequencing, or procedural inconsistencies within otherwise aligned authority logic. | §7.1 |
 | `ARB.AD.AD2` | Policy Divergence | Incompatibilities between internal policy standards, platform governance rules, or domain procedures. | §7.1, §7.2 |
 | `ARB.AD.AD3` | Jurisdictional Divergence | Competing or overlapping territorial, domain, or competence claims across stacks or authorities. | §7.3 |
@@ -668,7 +666,6 @@ but the preservation of coherence where many endure.
 ---
 
 ## 13.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -679,7 +676,6 @@ but the preservation of coherence where many endure.
 ---
 
 ## 13.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Supersedes | Prior versions of CAM-BS2025-AEON-005-PLATINUM (Annex D) |
@@ -710,7 +706,6 @@ but the preservation of coherence where many endure.
 ---
 
 ### 13.3.1 ARB.APO — Arbitration Preference Order
-
 | Field | Entry |
 |---|---|
 | Code Family / Reference Set | ARB.APO |
@@ -734,7 +729,6 @@ but the preservation of coherence where many endure.
 ---
 
 ### 13.3.2 ARB.AD — Authority Divergence Classification
-
 | Field | Entry |
 |---|---|
 | Code Family | ARB.AD |
@@ -758,7 +752,6 @@ but the preservation of coherence where many endure.
 ---
 
 ## 13.4 Review & Validation
-
 | Field            | Entry      |
 | ---------------- | ---------- |
 | Reviewer         | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
@@ -784,7 +777,7 @@ but the preservation of coherence where many endure.
 | 2.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  2ba762398ee6773697cbc5b1e9408720f5d141fd0845db6262ea605ea9a881fc |
 | 2.9 | Added §11 Canonical Code Status and §13.3 Canonical Code & Reference Set Declarations; replaced legacy Type 1–6 references with scoped `ARB.AD.AD1`–`ARB.AD.AD6` references; corrected Structural Position heading numbering; clarified runtime execution references away from Annex A shorthand. | 2026-06-05T14:11:00Z | d521d2ee6fa9fe9f0b79c9a77b6013a9f77ded2779b648f495737bdfd384b206 |
 | 2.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2f1ca0efbb2302de030009ef48bbfdbb932ea79e23b6a1917b018cd227297f62 |
-
+| 2.9.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 13.6 Binding Seal

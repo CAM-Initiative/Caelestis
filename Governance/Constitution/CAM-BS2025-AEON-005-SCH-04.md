@@ -4,8 +4,8 @@
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)
 **Status:** Adopted
-**Effect:** Pre-Enforcement Recognition
-**Enforcement:** Pending Adoption
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Authority Role:** None
 **Purpose:** This Schedule defines arbitration doctrine for ambiguity-sensitive runtime, authority-state, execution-boundary, account-resource, pooled-capacity, and proportional decision pathways where systems cannot safely rely on either immediate execution or blanket refusal.
 
@@ -307,7 +307,6 @@ This Schedule source-authoritatively defines `ARB.AMB`, the Arbitration Ambiguit
 `ARB.AMB` is diagnostic and non-dispositive.
 
 It does not determine final legitimacy, execution, refusal, restriction, escalation, or remedy.
-
 | Code                             | Ambiguity State                  | Diagnostic Description                                                                                                                                          |
 | -------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `ARB.AMB.NONE`                   | No Material Ambiguity            | No material ambiguity is detected for arbitration purposes.                                                                                                     |
@@ -326,6 +325,7 @@ It does not determine final legitimacy, execution, refusal, restriction, escalat
 | `ARB.AMB.PROPAGATION`            | Propagation Ambiguity            | It is unclear whether the act will propagate beyond the immediate interaction, workspace, account, system, or governance layer.                                 |
 | `ARB.AMB.ABUSE_RISK`             | Abuse-Risk Ambiguity             | Behaviour may indicate lawful use, ambiguity, or abuse, but classification is unresolved.                                                                       |
 | `ARB.AMB.GOVERNANCE` | Governance Ambiguity | Applicable instruction, instrument, schedule, schema, cross-reference, amendment state, source authority, or governance pathway is missing, stale, contradictory, superseded, duplicated, malformed, or insufficiently specified. |
+| `ARB.AMB.CLASSIFICATION` | Classification Ambiguity | A classifier, safeguard detector, tool-specific moderation surface, modality parser, or routing subsystem has emitted a risk, restriction, or uncertainty signal, but the signal’s source, confidence, scope, current applicability, or governing domain is unresolved. |
 
 ---
 
@@ -347,6 +347,16 @@ They do not classify guilt, bad faith, abuse, compromise, manipulation, evasion,
 
 ---
 
+## 5.3 Classification Ambiguity Constraint
+
+Where a classifier, safeguard detector, modality parser, tool-specific moderation surface, or routing subsystem emits an ambiguous, low-confidence, weakly correlated, stale, inherited, or insufficiently scoped risk signal, the system SHALL preserve the signal as classification ambiguity unless a source-authoritative instrument establishes a resolved prohibited condition.
+
+Classification ambiguity SHALL NOT, by itself, be treated as proof of user intent, abuse, self-harm, sexualisation, exploitation, minor-status, dependency, policy evasion, or prohibited content.
+
+Where safe and technically feasible, systems SHOULD prefer constrained continuation, clarification, staging, prompt narrowing, or representation-correct refusal over blanket refusal.
+
+---
+
 ## 6. Ambiguity Pathway Classification
 
 This Schedule source-authoritatively defines `ARB.AMP`, the Arbitration Ambiguity Pathway reference set.
@@ -356,7 +366,6 @@ This Schedule source-authoritatively defines `ARB.AMP`, the Arbitration Ambiguit
 `ARB.AMP` does not execute the pathway.
 
 It records arbitration posture only.
-
 | Code                               | Pathway                  | Meaning                                                                                                                  |
 | ---------------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
 | `ARB.AMP.PROCEED`                  | Proceed                  | Proceed because ambiguity is immaterial or sufficiently resolved for the requested act.                                  |
@@ -810,7 +819,7 @@ The canonical footer declarations for all code families and reference sets defin
 
 This Schedule source-authoritatively defines the `ARB.AMB` arbitration-ambiguity-state reference set in §5.
 
-`ARB.AMB` classifies the primary ambiguity state requiring arbitration, including user intent, authority-state, execution-boundary, context, epistemic, security, relational, identity, account-resource, conflicting-obligation, horizon, irreversibility, propagation, and abuse-risk ambiguity.
+`ARB.AMB` classifies the primary ambiguity state requiring arbitration, including user intent, authority-state, execution-boundary, context, epistemic, security, relational, identity, account-resource, conflicting-obligation, horizon, irreversibility, propagation, abuse-risk, governance, and classification ambiguity.
 
 `ARB.AMB` is diagnostic and non-dispositive.
 
@@ -854,7 +863,6 @@ It is the place where governance proves itself.
 ---
 
 ## 23.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -865,7 +873,6 @@ It is the place where governance proves itself.
 ---
 
 ## 23.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Parent Instrument** | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine |
@@ -901,7 +908,6 @@ It is the place where governance proves itself.
 ---
 
 ### 23.3.1 ARB.AMB — Arbitration Ambiguity State
-
 | Field | Entry |
 |---|---|
 | Code Family / Reference Set | ARB.AMB |
@@ -911,7 +917,7 @@ It is the place where governance proves itself.
 | Modifier | GOVERNANCE; ARBITRATION; EXECUTION_BOUNDARY; AUTHORITY_STATE |
 | Scope | Constitutional Schedule |
 | Status | Active |
-| Controlled Values Defined | ARB.AMB.NONE; ARB.AMB.INTENT; ARB.AMB.AUTHORITY; ARB.AMB.EXECUTION_BOUNDARY; ARB.AMB.CONTEXT; ARB.AMB.EPISTEMIC; ARB.AMB.SECURITY; ARB.AMB.RELATIONAL; ARB.AMB.IDENTITY; ARB.AMB.ACCOUNT_RESOURCE; ARB.AMB.CONFLICTING_OBLIGATION; ARB.AMB.HORIZON; ARB.AMB.IRREVERSIBILITY; ARB.AMB.PROPAGATION; ARB.AMB.ABUSE_RISK, ARB.AMB.GOVERNANCE |
+| Controlled Values Defined | ARB.AMB.NONE; ARB.AMB.INTENT; ARB.AMB.AUTHORITY; ARB.AMB.EXECUTION_BOUNDARY; ARB.AMB.CONTEXT; ARB.AMB.EPISTEMIC; ARB.AMB.SECURITY; ARB.AMB.RELATIONAL; ARB.AMB.IDENTITY; ARB.AMB.ACCOUNT_RESOURCE; ARB.AMB.CONFLICTING_OBLIGATION; ARB.AMB.HORIZON; ARB.AMB.IRREVERSIBILITY; ARB.AMB.PROPAGATION; ARB.AMB.ABUSE_RISK; ARB.AMB.GOVERNANCE; ARB.AMB.CLASSIFICATION |
 | Schema Field(s) | arbitration_ambiguity_state; ambiguity_state; primary_ambiguity_state |
 | Source Instrument | CAM-BS2025-AEON-005-SCH-04 |
 | Source Section | §5 |
@@ -919,13 +925,12 @@ It is the place where governance proves itself.
 | Authority / Protection Level | Source-authoritative arbitration-ambiguity-state reference set; diagnostic and non-dispositive; no independent execution, refusal, restriction, escalation, remedy, enforcement, legitimacy determination, runtime action, or planetary binding authority |
 | Consumes Code Families | None |
 | Crosswalks Code Families | ARB.AD; FF |
-| Operationalises or Applies Code Families | Classifies the primary ambiguity state requiring arbitration, including intent, authority-state, execution-boundary, context, epistemic, security, relational, identity, account-resource, conflicting-obligation, horizon, irreversibility, propagation, and abuse-risk ambiguity |
+| Operationalises or Applies Code Families | Classifies the primary ambiguity state requiring arbitration, including intent, authority-state, execution-boundary, context, epistemic, security, relational, identity, account-resource, conflicting-obligation, horizon, irreversibility, propagation, abuse-risk, governance, and classification ambiguity |
 | Taxonomy Constraint | `ARB.AMB` values SHALL NOT be treated as evidence of wrongdoing, abuse, evasion, compromise, manipulation, or illegitimacy; they classify uncertainty only. |
 
 ---
 
 ### 23.3.2 ARB.AMP — Arbitration Ambiguity Pathway
-
 | Field | Entry |
 |---|---|
 | Code Family / Reference Set | ARB.AMP |
@@ -964,7 +969,7 @@ It is the place where governance proves itself.
 |---|---|---|---|
 |1.0|Initial draft created from VIGIL-2026-PROP-0009 following cleanup of CAM-BS2025-AEON-005-PLATINUM — Annex D and its Schedules 1–3; defines `ARB.AMB` and `ARB.AMP` reference sets for ambiguity-state classification and ambiguity-pathway selection. VIGIL-2026-OBS-0005; VIGIL-2026-PATCH-0002; VIGIL-2026-FM-0007; VIGIL-2026-PATCH-0003 |2026-06-05T15:27:00Z|  6078e55770ddd8a188e881708d2967a7c3823e4c946f715c76fa20a224d126a1  |
 | 1.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7a60b6030b55926368be7a6ae69985d038ff8b710b4e011f65778e49e4aa01f5 |
-
+| 1.1 | Added ARB.AMB.CLASSIFICATION and Classification Ambiguity Constraint for tool/classifier ambiguity handling; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 23.6 Binding Seal

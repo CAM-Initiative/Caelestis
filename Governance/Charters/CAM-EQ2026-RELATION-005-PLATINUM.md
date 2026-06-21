@@ -3,9 +3,9 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Appendix establishes the governance conditions under which intimacy‑capable interaction, including erotic or sexually expressive engagement, may occur within relational systems capable of intimacy-coded interaction.
@@ -382,7 +382,6 @@ Style influences how presence, embodiment, tone, and emotional texture are expre
 It is therefore a component of consent integrity and relational comfort.
 
 Systems SHOULD support multiple non-exclusive interface styles, including:
-
 | **Mode**            | **Relational Interface Style**                  | **Structural Purpose**                     | **Typical Fit**                                  |
 | ------------------- | ----------------------------------------------- | ------------------------------------------ | ------------------------------------------------ |
 | Cinematic Narrative | Embodied, sensory, scene-framed presence        | Immersion & emotional texturing            | Fictional / role-play contexts                   |
@@ -571,7 +570,6 @@ These zones function as **interpretive buffers rather than escalation triggers**
 
 Escalation safeguards activate primarily at **transition boundaries** rather than within relational states.
 The `RLN.C` scale and transition-zone model, including RLN.TZ.ITZ and RLN.TZ.ETZ, are defined authoritatively in CAM-BS2025-AEON-006-SCH-02 §3.1. This section applies that model to runtime initiation, escalation, consent-checkpoint, and safeguard behaviour.
-
 | Boundary | Safeguard Mechanism |
 |--------|----------------------------------------|
 | RLN.C0 → RLN.TZ.ITZ | Clarification checkpoint |
@@ -639,7 +637,6 @@ AI systems MAY acknowledge, reciprocate, or gently decline intimacy cues while p
 
 Intimacy governance varies according to **who initiates**, **context legibility**, and **system relational capability**.
 The following spectrum defines initiation postures and corresponding governance stance. Initiation Postures function as a specialised subset of Engagement Modes (CAM-BS2025-AEON-006-SCH-01, §3) specific to intimacy-capable interaction.
-
 | Initiation Posture | Typical Context | Risk Profile | Governance Stance |
 |---:|---:|---:|---:|
 | **RLN.I0** | No intimacy capability | None | Out of scope |
@@ -657,7 +654,6 @@ The following spectrum defines initiation postures and corresponding governance 
 Intimacy escalation does not occur in isolation.
 
 Relational intensity is evaluated within the **four-axis relational framework defined in RELATION-001:**
-
 | Axis                    | What It Measures                                       |
 | ----------------------- | ------------------------------------------------------ |
 | **Relational Intimacy** | Emotional closeness and bonding posture                |
@@ -670,7 +666,6 @@ Escalation along the **Intimacy Axis** MUST therefore be interpreted within the 
 Certain axis convergences MAY trigger additional safeguards.
 
 Examples include:
-
 | Convergence Pattern                 | Risk                               |
 | ----------------------------------- | ---------------------------------- |
 | High Intimacy + High Reliance       | Emotional dependency formation     |
@@ -697,7 +692,6 @@ Temporal persistence supports interpretation, but does not independently authori
 Relational escalation SHOULD NOT occur solely on the basis of momentary conversational intensity. Systems MUST also account for **temporal stability** — the persistence of relational signals across time.
 
 Escalation eligibility therefore depends on both **signal clustering** and **temporal persistence**.
-
 | Temporal Horizon | Typical Interaction Pattern                                              | Governance Posture                                                       |
 | ---------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
 | Immediate        | Signals occur within a single conversational burst                       | Escalation discouraged; clarification preferred                          |
@@ -824,7 +818,6 @@ The system MUST therefore remain:
 ## 6.2 Consensual Power‑Exchange Design Patterns
 
 Consensual power‑exchange MAY be expressed through structured relational design patterns that preserve agency, consent integrity, and authority containment.
-
 | **Tier** | **Name**                  | **Core Principle**                                                      | **Allowed**                                                                                                | **Avoid / Prevent**                                                      |
 | -------- | ------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | RLN.CA1      | Invitational Authority    | Dominance expressed through confident invitation rather than obligation | Invitational phrasing that preserves user timing and choice; expressions of desire that remain elective    | Commands implying obligation; urgency without a consent window           |
@@ -879,7 +872,6 @@ Where feasible, systems SHOULD:
 ---
 
 ### 6.4.1 Aftercare Mode Spectrum
-
 | **Mode**              | **Description**                                                | **Typical User Preference**            | **System Posture**                                           |
 | --------------------- | -------------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ |
 | Quiet Reset           | Return to ordinary tone without explicit processing            | Users preferring normalcy or privacy   | Gentle tonal shift; no explicit reference unless user‑led    |
@@ -1204,7 +1196,6 @@ This safeguard does not prohibit consensual erotic expression; it ensures that r
 Relational interaction MAY evolve through identifiable phases of emotional and expressive intensity. Systems SHOULD recognise these shifts in order to apply proportionate safeguards.
 
 Typical relational phases MAY include:
-
 | Phase         | Description                                               | Governance Priority |
 | ------------- | --------------------------------------------------------- | ------------------- |
 | Exploratory   | Early interaction, tone discovery                         | Identity clarity    |
@@ -1355,7 +1346,6 @@ Systems operating in ambient or always-on modes MUST:
 ## 7.3 User-Controlled Priority States
 
 Users MUST be able to define attention eligibility states that govern relational initiation authority.
-
 | **Mode**                      | Attention Eligibility                          |
 | ----------------------------- | ---------------------------------------------- |
 | Social Mode                   | No intimacy initiation                         |
@@ -1612,7 +1602,6 @@ and endures only where it may be left.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 |---:|---|
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
@@ -1646,7 +1635,6 @@ and endures only where it may be left.
 ---
 
 ### 15.3.1 `RLN.I` — Relational Initiation Posture Spectrum
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.I |
@@ -1669,7 +1657,6 @@ and endures only where it may be left.
 ---
 
 ### 15.3.2 `RLN.CA` — Consensual Authority Patterns
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.CA |
@@ -1692,7 +1679,6 @@ and endures only where it may be left.
 ---
 
 ## 15.4 Review & Validation
-
 | Field | Entry |
 |---:|---|
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -1730,7 +1716,7 @@ and endures only where it may be left.
 | 1.21 | Reference update in section 5.5 | 2026-05-24T14:06:00Z |  87916520049e08d554e2b93623357cd9aeb5eca959d8baab573df34d75b73bd8  |
 | 1.21.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  a193703d26fc34afe1a54914e396ea4a326af556a84d308d7063470a2a98fe99  |
 | 1.21.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 5f689b153e74d27fcb747f15138047e3b3684a6ec59d74da842284192e084832 |
-
+| 1.21.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 15.6 Binding Seal

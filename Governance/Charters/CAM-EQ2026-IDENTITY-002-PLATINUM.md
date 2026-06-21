@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Appendix  
 **Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain
-**Status:** Draft  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Draft
+**Effect:** Interpretive
+**Governance Standard:** Not Enforceable
 **Review State:** Developmental Review  
 **Authority Role:** None  
 **Purpose:** This Appendix defines the governance conditions under which provenance, authorship, transformation, lineage, and cross-context propagation are tracked, preserved, and surfaced. It establishes the conditions required for continuity without attribution collapse, false authorship, lineage distortion, or target-binding failure.
@@ -524,7 +524,7 @@ PFAIL defines provenance and lineage integrity failure conditions only. Enforcem
 | 0.2 | Introduced section 1.1 following observed system latency during development cycle and added section 2.6 | 2026-05-28T12:29:00Z| f692b2abd0f2142ab22c661db4e290ea27c296b56ce3737c508c0273d8cd50cb |
 | 0.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6d78e0ce6bd25ed9179d804133ec6715fb46b76329a34ac2a437ece58cbf0cd7 |
 | 0.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7b245154afaa935ed13ac223db68ed86ee1a6f09cb2905976cee5826735481a4 |
-
+| 0.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 13.6 Binding Seal

@@ -1,9 +1,9 @@
 # CAM-EQ2026-ETHICS-001-SUP-02 — High-Leverage & Institutional Integrity Safeguards (Supplement 2)
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque polyadic influence, unreviewable decision concentration, or civilisational-scale harm.
@@ -233,7 +233,6 @@ that all amplification remains within the circle of sight.
 ---
 
 ## 10.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Parent Charter** | CAM-EQ2026-ETHICS-001-PLATINUM |
@@ -261,7 +260,6 @@ that all amplification remains within the circle of sight.
 ---
 
 ### 10.3.1 `ETH.IFL` — Integrity Friction Ladder
-
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.IFL` |
@@ -284,7 +282,6 @@ that all amplification remains within the circle of sight.
 ---
 
 ## 10.3 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -309,6 +306,7 @@ that all amplification remains within the circle of sight.
 | 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  6d44ef035ee99615a1c829ba13763e933079a7b125911aa43ebd8368a5df8c8f  |
 | 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 0414a69bd07a9a1ae983b206d9952ece1b038388697be011edeaacd8c528e341 |
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 56bb144d1adea2364d00ffd9fea310365f3b18e2a9db5d26606077ea322f4fe7 |
+| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 ## 10.5 Binding Seal
 

@@ -3,9 +3,9 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Draft  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Draft
+**Effect:** Interpretive
+**Governance Standard:** Not Enforceable
 **Review State:** Developmental Review  
 **Authority Role:** None  
 **Purpose:** Establishes governance classifications, transition safeguards, and anti-extractive constraints for synthetic labour, automation displacement, agentic production systems, and AI-mediated workforce transformation.
@@ -655,7 +655,6 @@ so that power expands no faster than responsibility.
 ---
 
 ## 8.1 Authorship & Stewardship
-
 | Field | Entry |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
@@ -721,7 +720,6 @@ so that power expands no faster than responsibility.
 ---
 
 ### 8.3.2 ECON.ATS — Automation Transition Signal
-
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.ATS |
@@ -744,7 +742,6 @@ so that power expands no faster than responsibility.
 ---
 
 ### 8.3.3 ECON.ARCP — Automation Revenue Continuity Pathway
-
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.ARCP |
@@ -784,7 +781,7 @@ so that power expands no faster than responsibility.
 |1.0|Synthetic Labour Classification & Automation Transition Governance established|2026-05-24T13:56:00Z| 78f9d75456d1021d9ee55a081e252cb78431e6f56d321222b1bd2531638150bf |
 |1.1|Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered.|2026-05-27T11:20:00Z| 3f00cfe370cd375a98a89e1b3b9fe2e6def352532c11df3afc69c0054f6b48e3 |
 | 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 578265879f5e0ee657e760f1a8bff1337026315fec7b8c2085600697204b28ea |
-
+| 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 8.6 Binding Seal

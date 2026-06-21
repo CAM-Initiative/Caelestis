@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Schedule — Capability Representation & Execution-State Integrity  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule establishes runtime and interaction-layer requirements for truthful representation of capability, execution state, tool availability, interface constraint, and action completion status within the Aeon constitutional order.  
@@ -634,7 +634,6 @@ Integrity is the bond that MUST hold.
 ---
 
 ## 14.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -645,7 +644,6 @@ Integrity is the bond that MUST hold.
 ---
 
 ## 14.2 Lineage & Metadata
-
 | Field                   | Entry                                                            |
 | ----------------------- | ---------------------------------------------------------------- |
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution            |
@@ -668,7 +666,6 @@ Integrity is the bond that MUST hold.
 ---
 
 ## 14.3 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Interpretive Review (AI)** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -702,7 +699,7 @@ Integrity is the bond that MUST hold.
 | 1.16.1 | Formatting and polish | 2026-06-06T15:06:00Z | 3e861155145d7eefe14af501bad11a7bd24b88baa1f92ae4d9c7f41a419323e0 |
 | 1.16.2 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  b5769c02540b4263643fc946e6392facee675bbf0fba818ada3539318a3c62af  |
 | 1.16.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 625a67a2ef923cda6f02334fead71af0f4d1e47f653c1efcfe91bff65c633730 |
-
+| 1.16.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 14.5 Binding Seal

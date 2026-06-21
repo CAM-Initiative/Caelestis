@@ -4,8 +4,8 @@
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
 **Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
 **Status:** Active
-**Effect:** Immediate Effect
-**Enforcement:** Binding
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None
 **Authority Role:** Binding Authority
 **Purpose:** This Schedule consumes and operationalises `AEON.PCO` — Proportional Constraint Obligation, as source-authoritatively defined by CAM-BS2025-AEON-002-PLATINUM — Annex A, §3.8. It applies `AEON.PCO` through execution-risk classification, response-posture selection, containment scope, constraint duration, review, de-escalation, and restoration handling. This Schedule does not independently redefine, narrow, or expand `AEON.PCO`.
@@ -127,7 +127,6 @@ Where uncertainty exists, conservative activation SHALL apply.
 Risk classification SHALL be interpreted as an execution-layer response model and MUST NOT be treated as a determination of legitimacy, authority, or constitutional validity (see CAM-BS2025-AEON-005-PLATINUM — Annex D).
 
 Upon detection, conditions SHALL be classified as follows:
-
 | Level                       | Description                           | Action Posture  |
 | --------------------------- | ------------------------------------- | --------------- |
 | `AEON.RL.RL1` — Advisory    | Low-probability or reversible risk    | Monitor         |
@@ -464,7 +463,6 @@ that no trajectory beyond the line proceeds unchecked.
 ---
 
 ## 15.1 Authorship & Stewardship
-
 | Field   | Entry   |
 | ------ | -------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
@@ -475,7 +473,6 @@ that no trajectory beyond the line proceeds unchecked.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 |------|------|
 | **Parent Instrument** | CAM-BS2025-AEON-002-PLATINUM |
@@ -509,7 +506,6 @@ that no trajectory beyond the line proceeds unchecked.
 ---
 
 ### 15.3.1 `AEON.PCD` — Protection & Containment Detection Condition
-
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.PCD` |
@@ -533,7 +529,6 @@ that no trajectory beyond the line proceeds unchecked.
 ---
 
 ### 15.3.2 `AEON.RL` — Execution Risk Level Classification
-
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.RL` |
@@ -560,7 +555,6 @@ that no trajectory beyond the line proceeds unchecked.
 ---
 
 ### 15.3.3 `AEON.PCA` — Protection & Containment Action Posture
-
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.PCA` |
@@ -585,7 +579,6 @@ that no trajectory beyond the line proceeds unchecked.
 ---
 
 ## 15.4 Review & Validation
-
 | Field | Entry |
 |----------------------:|:--------|
 | Reviewer| Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
@@ -617,7 +610,7 @@ that no trajectory beyond the line proceeds unchecked.
 | 3.10 | Repaired section-reference validation target for canonical code declarations. | 2026-06-06T17:00:00Z |  720063a75c2e2ab35086b238f6d41d9c6dcb629c35975a025bbcc4db7fc2089a |
 | 3.10.1 | Integrated `AEON.PCO` as the constitutional proportional-constraint obligation governing `AEON.RL` interpretation, `AEON.PCA` response selection, containment scope, constraint duration, review, de-escalation, and restoration; preserved Annex A source authority and existing mandatory protection thresholds. | 2026-06-13T06:16:00Z | 73d6e383cff077814fd4686aa817b963cf48cde6f0429894b790ddeaf1739891 |
 | 3.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a86b37f1a85f128adbf43a17815d1b51ab4998a4316d301c723dc2c15639f7ba |
-
+| 3.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 15.6 Binding Seal

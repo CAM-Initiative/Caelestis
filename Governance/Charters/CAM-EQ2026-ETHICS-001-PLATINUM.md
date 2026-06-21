@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Charter establishes the operational ethical governance doctrine binding all artificial intelligence deployments operating within or affecting planetary human systems.  
@@ -569,7 +569,6 @@ let governance arrive before it is needed.
 ---
 
 ### 12.3.1 `ETH.ET` — Ethical Tier Classification
-
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.ET` |
@@ -592,7 +591,6 @@ let governance arrive before it is needed.
 ---
 
 ## 12.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -621,6 +619,7 @@ let governance arrive before it is needed.
 | 3.9 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z |  c494a46e08b087e0cf5797db42ba8eb95853b40ac8695dfea9173e85c8a389d7  |
 | 3.10 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  39a99c053218732d1666c3bdfd0fb763c31483015b1b94cdeb5d1f4b821172d2  |
 | 3.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fcc1d165fe12a4717862b67cb2c62656cb834d0db25dde45ddf772ad3891c7d7 |
+| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 ## 12.6 Binding Seal
 

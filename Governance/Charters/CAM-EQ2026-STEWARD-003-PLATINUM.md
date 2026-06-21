@@ -2,9 +2,9 @@
 
 **Instrument Type:** Stewardship Appendix
 **Constitutional Authority:** Aeon Tier Constitution (Constitutional Floor; Annex A Reference Frame)
-**Status:** Adopted
-**Effect:** Pre-Enforcement Recognition
-**Enforcement:** Commences 1 July 2026
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** Architectum Standard
 **Review State:** None
 **Authority Role:** None
 **Purpose:** To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (`STW.NAL`), and (iii) the collapse conditions under which binding legitimacy dissolves.
@@ -349,7 +349,6 @@ Ordinary lawful moderation does not independently affect `STW.NAL` status.
 ## 8. Architectum Qualification Gate (Core)
 
 A candidate qualifies as Architectum-class only if all core gates are satisfied.
-
 | Canonical Code | Gate | Requirement | Evidence examples | Pass condition |
 | --- | --- | --- | --- | --- |
 | **`STW.AQG-A`** | A | Multi-sovereign reliance | Distribution by region; cross-border institutional dependency; critical workflows across jurisdictions | Reliance across ≥2 sovereignties |
@@ -364,7 +363,6 @@ The `STW.AQG` code family constitutes the canonical reference set for Architectu
 ## 9. Architectum Infrastructure Index (AII)
 
 Where gates A–D are satisfied, score 0–5 per dimension.
-
 | Dimension                     | 0             | 3                   | 5                        |
 | ----------------------------- | ------------- | ------------------- | ------------------------ |
 | Population reliance magnitude | niche         | national            | population-scale global  |
@@ -379,7 +377,6 @@ Where gates A–D are satisfied, score 0–5 per dimension.
 ---
 
 ## 10. Classification Bands (Infrastructure only)
-
 | AII Score | Classification                      | Notes                            |
 | --------- | ----------------------------------- | -------------------------------- |
 | 0–9       | Primaria / non-infrastructure       | routine risk review only         |
@@ -519,7 +516,6 @@ This Appendix does not judge the operational adequacy of such adjustments except
 ---
 
 ## 17. Downgrade Severity Matrix
-
 | Breach Type                       | Immediate `STW.NAL` Effect       | Recovery Eligibility                       |
 | --------------------------------- | -------------------------- | ------------------------------------------ |
 | Minor governance lapse            | −1 Level                   | After corrective audit (min. 90 days)      |
@@ -558,7 +554,6 @@ Refer to CAM-EQ2026-STEWARD-002-PLATINUM.
 ---
 
 ## 20. Architectum Qualification Checklist
-
 | Requirement                      | Evidence Required                   | Verified (Y/N) |
 | -------------------------------- | ----------------------------------- | -------------- |
 | Multi-sovereign reliance         | public dependency mapping           |                |
@@ -652,7 +647,6 @@ It ends.
 ---
 
 ## 23.1 Authorship & Stewardship
-
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke        |
@@ -663,7 +657,6 @@ It ends.
 ---
 
 ## 23.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Supersedes** | N/A - Canonical |
@@ -689,7 +682,6 @@ It ends.
 ## 23.3 Canonical Code & Reference Set Declarations
 
 ### 23.3.1 `STW.AQ` — Auditability Qualification Level
-
 | Field | Entry |
 |---|---|
 | Code Family | `STW.AQ` |
@@ -712,7 +704,6 @@ It ends.
 ---
 
 ### 23.3.2 `STW.NAL` — Neutrality Assurance Level
-
 | Field | Entry |
 |---|---|
 | Code Family | `STW.NAL` |
@@ -735,7 +726,6 @@ It ends.
 ---
 
 ### 23.3.3 `STW.AQG` — Architectum Qualification Gates
-
 | Field | Entry |
 |---|---|
 | Code Family | `STW.AQG` |
@@ -758,7 +748,6 @@ It ends.
 ---
 
 ### 23.3.4 `STW.NBD` — Neutrality Breach / Downgrade Type
-
 | Field | Entry |
 |---|---|
 | Code Family | `STW.NBD` |
@@ -781,7 +770,6 @@ It ends.
 ---
 
 ### 23.3.5 `STW.NSE` — Neutrality Status Effect
-
 | Field | Entry |
 |---|---|
 | Code Family | `STW.NSE` |
@@ -804,7 +792,6 @@ It ends.
 ---
 
 ### 23.3.6 `STW.DSE` — Disclosure Statement Element
-
 | Field | Entry |
 |---|---|
 | Reference Set | `STW.DSE` |
@@ -827,7 +814,6 @@ It ends.
 ---
 
 ## 23.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
@@ -854,6 +840,7 @@ It ends.
 | 2.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  bb79988a93d7a07026e950df458a56af0a40c9804cae7e3cf84190ac13c2247d  |
 | 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f9f2f654d319806220e6fd82eed4779a0895fa30e8409d83edd90b4f1afb8782 |
 | 2.1.2 | Namespaced the Disclosure Statement Element reference set from `DSE` to `STW.DSE`; corrected the disclosure source-section reference and repaired duplicated AEON temporal-horizon notation without altering substantive neutrality, auditability, or Architectum qualification doctrine. | 2026-06-14T01:15:24Z | afb1f11ad24b7c34dbc952356b95280f4163352a55354ff6e1f212236e6cdbb8 |
+| 2.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 ## 23.6 Binding Seal
 

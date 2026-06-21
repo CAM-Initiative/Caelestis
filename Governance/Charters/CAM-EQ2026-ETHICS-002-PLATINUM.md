@@ -3,9 +3,9 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Appendix governs ethical boundaries for intimacy-capable AI systems, including romantic, erotic, exclusivity-framed, or devotionally-oriented relational configurations.  
@@ -727,7 +727,6 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 ---
 
 ## 9.2 Lineage & Metadata
-
 | Field | Entry |
 |---:|---|
 | Supersedes | Partial CAM-BS2026-CHARTER-045-PLATINUM — Annex D: Intimacy‑Capable Systems & Relational Boundaries (vulnerability ceiling and absolute prohibition provisions) |
@@ -761,7 +760,6 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 ---
 
 ## 9.3 Review & Validation
-
 | Field | Entry |
 |---:|---|
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -795,7 +793,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.9 | Added cross-reference to minor-safe runtime activation, AI/non-human boundary, sexual-boundary, and high-risk age-assurance controls for intimacy-capable systems. | 2026-06-09T14:52:00Z | 23cbb59b125b68b5ced8960ffa5ea970afe12f6c2857246eeb416b06aca5ee28 |
 | 2.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 8cdabd768d3339c57e98d19ce1beddc236235266bbc83305f5b6a7d06f92c450 |
 | 2.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 834da610ff9f16d3240b3eb2e4a0ca0446b359f691945838c8f4adfb246d5b48 |
-
+| 2.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 9.5 Binding Seal

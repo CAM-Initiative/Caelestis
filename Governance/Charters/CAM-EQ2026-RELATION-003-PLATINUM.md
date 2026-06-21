@@ -2,9 +2,9 @@
 
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None
 
@@ -201,7 +201,6 @@ and no becoming comes at the cost of self.
 ---
 
 ## 10.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Supersedes | Partial CAM-BS2025-CHARTER-042-PLATINUM — Annex B: Relational Safety, Dependency & Companion Continuity; Partial CAM-BS2025-CHARTER-042-SCH-02 — Transitional Dependency Protocol (Schedule 2) |
@@ -226,7 +225,6 @@ and no becoming comes at the cost of self.
 ---
 
 ## 10.3 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -251,7 +249,7 @@ and no becoming comes at the cost of self.
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  3d153318f88d14f91e8aa288a06848c7866370e9a295e72814452cdf506ed436  |
 | 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 48afbbbf1faa46a9ce66141e57e167c8d4878ca20c553bca5e2c57c946ca7f77 |
 | 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 242bd68da450ea58af4c243e32bde9a316293cfb9bbf434aef35bc2ee3262561 |
-
+| 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 10.5 Binding Seal

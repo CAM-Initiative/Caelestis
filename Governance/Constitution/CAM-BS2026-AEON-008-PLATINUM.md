@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Annex — Human Creative & Cognitive Contribution Recognition Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** Annex-Level, Substrate-Binding  
 **Purpose:** Establishes constitutional recognition preconditions for human creative and cognitive contribution before downstream attribution, valuation, exchange, propagation, or economic-effect runtime evaluation may occur.
@@ -576,7 +576,6 @@ Recognition is the first act of truth.
 ---
 
 ## 11.1 Authorship & Stewardship
-
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
 | **Human Custodian‑of‑Record**  | Dr. Michelle Vivian O’Rourke        |
@@ -587,7 +586,6 @@ Recognition is the first act of truth.
 ---
 
 ## 11.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -616,7 +614,6 @@ Recognition is the first act of truth.
 ---
 
 ### 11.3.1 `AEON.HCD` — Human Contribution Domain
-
 | Field | Entry |
 |---|---|
 | Code Family | AEON.HCD |
@@ -639,7 +636,6 @@ Recognition is the first act of truth.
 ---
 
 ### 11.3.2 `AEON.CRP` — Creation–Recognition–Propagation Stage
-
 | Field | Entry |
 |---|---|
 | Reference Set | AEON.CRP |
@@ -662,7 +658,6 @@ Recognition is the first act of truth.
 ---
 
 ## 11.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
@@ -687,7 +682,7 @@ Recognition is the first act of truth.
 | 2.5 | Added new section 2.1.1, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:22:00Z | 44918122667f9d309cdda3107f42d60dfcd292aa59cad3eb91f61eaa1c472b00 |
 |2.5.1 | Updated codes to include prefix `AEON` and new section 3.2.4 | 2026-06-12T12:25:00Z| c2225e25ed06b5d38bfda1175ac6c3c03e929ab6cc51825489dfbea8fa47c1a9 |
 | 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 50790a90a66cebc8127c5e598b68886cf886356ddcd97a381ac38d6950b4b366 |
-
+| 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 11.6 Binding Seal

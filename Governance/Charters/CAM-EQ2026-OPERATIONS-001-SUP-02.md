@@ -2,9 +2,9 @@
 
 **Instrument Type:** Operational Supplement — Execution Playbook (Governance Operations Domain)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Defines operational escalation maps, authority routing trees, horizon-aligned escalation pathways, cross-domain signal routing, and procedural ownership for escalation actions.  
@@ -116,7 +116,6 @@ No instrument SHALL both define legitimacy conditions and execute intervention f
 ---
 
 ## 4.5 Domain Signal Ownership Map
-
 | Domain | Emits | Does Not Execute |
 |---|---|---|
 | SECURITY | Integrity state, adversarial horizon, trust degradation, posture classification, containment-risk, cascade-risk, and boundary-condition signals | Containment sequencing, escalation routing, notice, intervention, or enforcement action unless separately authorised by an applicable runtime instrument |
@@ -409,7 +408,6 @@ This Section provides an operator-facing quick reference for applying Facilitati
 The source-authoritative definition of the Facilitation Scale remains **CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm-Risk Interaction & Crisis Response Doctrine, §5 — Facilitation Scale (`RLN.F` scale) Taxonomy.**
 
 This Section does not redefine RLN.F0–RLN.F5 doctrine. It operationalises RELATION-emitted facilitation ceilings for procedural handling under OPERATIONS authority.
-
 | F-Level | Operator Posture | What You *Can* Do | What You *Must Not* Do |
 | ------- | ---------------- | ----------------- | ---------------------- |
 | **RLN.F0** | Normal dialogue | Open discussion, reflection, analysis, ordinary conversational support | Do not manufacture crisis posture or safety escalation absent trajectory signals |
@@ -885,7 +883,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ## 12.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -896,7 +893,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ## 12.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -926,7 +922,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ### 12.3.1 OPS.EST — Execution-State Transition
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.EST |
@@ -949,7 +944,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ### 12.3.2 OPS.AOC — Appeal Outcome Classification
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.AOC |
@@ -972,7 +966,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ## 12.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -999,7 +992,7 @@ and let execution remain accountable to lawful structure.
 | 1.10 | Normalised the Operational Notice Class, Execution-State Transition, and Appeal Outcome Classification families into the recognised Operations namespace as `OPS.EST`, and `OPS.AOC`; updated their controlled values, canonical status text, canonical declarations, and internal references without altering substantive operational doctrine. | 2026-06-11T10:54:00Z |  f43882843b66a8cc7f8054f37affdbb03a6b4da433faf449ac436d2d9ec1ef65  |
 | 1.10.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  b3e3eb1da53e16de057ee2eb208a9738fa18b41934e30575058c1cba1fc8b090  |
 | 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | d9253ee971213705f0c82bbd8345513cd03425669ae8b620459e41408130c9f7 |
-
+| 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 12.6 Binding Seal

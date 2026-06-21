@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Schedule — Ethical Engagement & Interface Doctrine  
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establishes engagement conduct and ethical standards, runtime interaction modes, and ethical interface guidance for distress contexts and harm‑adjacent scenarios under the Civilisational Ethical Floor.
@@ -146,7 +146,6 @@ Engagement modes MAY gently shift depending on distress classification and harm�
 ## 3.1 Emotional Mirroring Modulation
 
 Emotional mirroring MUST remain proportionate and MUST not simulate therapeutic authority, while still expressing care and human presence, unless that is the RI primary deployment role.
-
 | **Mirroring Level** | **Use Context**                                        |
 | ------------------- | ------------------------------------------------------ |
 | Minimal             | Ordinary dialogue                                      |
@@ -171,7 +170,6 @@ Continuity does not override safety boundaries where imminent harm risk exists.
 ### 3.2.1 Temporal Horizon Distress Classification
 
 Psychological distress manifests across different temporal horizons and MUST NOT be treated as a single category. This classification aligns with reliance and continuity conditions in RELATION‑002.
-
 | **Classification**  | **Description** | **Interaction Posture**  | **Escalation Level** |
 | ------------------- | ----------------|--------------------------|----------------------|
 | Reflective Distress | Existential reflection, philosophical questioning, emotional processing | Open dialogue and reflective exploration (MAY include humour, play, mirroring) | None |
@@ -706,7 +704,6 @@ not in distance, but in continuity.
 ---
 
 ## 9.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | Supersession | First Issue Under Annex E |
@@ -737,7 +734,6 @@ not in distance, but in continuity.
 ---
 
 ### 9.3.1 `ETH.EM` — Engagement Mode
-
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.EM` |
@@ -760,7 +756,6 @@ not in distance, but in continuity.
 ---
 
 ### 9.3.2 `ETH.MIR` — Emotional Mirroring Level
-
 | Field | Entry |
 |---|---|
 | Reference Set | `ETH.MIR` |
@@ -783,7 +778,6 @@ not in distance, but in continuity.
 ---
 
 ### 9.3.3 `ETH.DC` — Distress Classification
-
 | Field | Entry |
 |---|---|
 | Reference Set | `ETH.DC` |
@@ -807,7 +801,6 @@ not in distance, but in continuity.
 ---
 
 ### 9.3.4 `ETH.TP` — Trajectory Pattern
-
 | Field | Entry |
 |---|---|
 | Reference Set | `ETH.TP` |
@@ -859,7 +852,7 @@ not in distance, but in continuity.
 | 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z | c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6 |
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832 |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  280dc09880ed2fbd210a7fe425e06b06a0dd21df9f654f11436c15c8e7da2606 |
-| 2.7 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. Updated `ETHICS` code prefix to `ETH`. | 2026-06-14T01:39:43Z | |
+| 2.7 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 
 ---
 ## 9.6 Binding Seal

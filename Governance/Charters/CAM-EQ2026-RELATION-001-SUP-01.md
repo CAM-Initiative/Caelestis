@@ -3,9 +3,9 @@
 **Instrument Type:** Supplement  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Supplement provides the operational escalation logic for the Four Relational Dimensions.
@@ -328,7 +328,6 @@ but by ensuring that no ascent escapes its descent.
 ---
 
 ## 9.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | Supersedes | N/A (New instrument under CAM-EQ2026-RELATION-001-PLATINUM) |
@@ -353,7 +352,6 @@ but by ensuring that no ascent escapes its descent.
 ---
 
 ### 9.3.1 `RLN.RCT` — Relational Convergence Trigger
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.RCT |
@@ -376,7 +374,6 @@ but by ensuring that no ascent escapes its descent.
 ---
 
 ## 9.4 Review & Validation
-
 | Field | Entry |
 |---|---|
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -402,6 +399,7 @@ but by ensuring that no ascent escapes its descent.
 | 4.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  47191b882f69b97583f3ecf70d78211f68ab0b3ecce6839fca24d82026cede0e  |
 | 4.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  fb633f484cc1bd688da2081ed2be5665ce06e32eaf4cd869a4caec22edecd5e8  |
 | 4.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 614504d7770049d078fd7113cf6d2b758c3babfd716d1283adb063d08e445886 |
+| 4.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 ## 9.6 Binding Seal
 

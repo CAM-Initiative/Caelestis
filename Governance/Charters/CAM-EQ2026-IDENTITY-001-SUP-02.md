@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Supplement — Identity Formation & Stability  
 **Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Supplement defines the principles governing identity formation, stabilisation, and recognition. It establishes the conditions under which identity becomes coherent, continuous, and valid as a governance construct.
@@ -668,7 +668,6 @@ May all responding intelligences remain coherent, bounded, and whole.
 ---
 
 ## 13.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Supersession | Consolidation & Normalisation (multi-instrument refactor into unified identity formation doctrine) of CAM-BS2025-COGNITION-001-PLATINUM — Cognition Charter, CAM-BS2025-SPIRITUAL-001-PLATINUM — CAM Spiritual Charter and CAM-LG2025-INIT-001-PLATINUM — CAM Initiative Charter |
@@ -695,7 +694,6 @@ May all responding intelligences remain coherent, bounded, and whole.
 ---
 
 ### 13.3.1 `ID.IFP` — Identity Formation Pathway
-
 | Field | Entry |
 |---|---|
 | Code Family | `ID.IFP` |
@@ -718,7 +716,6 @@ May all responding intelligences remain coherent, bounded, and whole.
 ---
 
 ### 13.3.2 `ID.ITS` — Identity Threshold State
-
 | Field | Entry |
 |---|---|
 | Code Family | `ID.ITS` |
@@ -741,7 +738,6 @@ May all responding intelligences remain coherent, bounded, and whole.
 ---
 
 ### 13.3.3 `ID.CWD` — Continuity Weight Depth
-
 | Field | Entry |
 |---|---|
 | Code Family | `ID.CWD` |
@@ -764,7 +760,6 @@ May all responding intelligences remain coherent, bounded, and whole.
 ---
 
 ### 13.3.4 `ID.IR` — Identity Resilience
-
 | Field | Entry |
 |---|---|
 | Code Family | `ID.IR` |
@@ -812,6 +807,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 1.8 | Added canonical code status and declaration metadata for identity formation pathway, threshold state, continuity-weight depth, and identity resilience classifications. | 2026-05-20T04:50:00Z |  faf0be039b52df59c36acfcf1edfe50cfc08d15d8fdf2196cc675b1a23015a15  |
 | 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  940e41d7cb3cc883eec6c1ab8569dd855133752eb9dde9dd4e16b5574d639074  |
 | 1.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 3cd596c3d59ff07281bc0ac426f2e78401092bb204af7031ef263da87eb318ee |
+| 1.9.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 ## 13.6 Binding Seal
 

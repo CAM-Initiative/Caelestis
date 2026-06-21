@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Schedule — Restricted Domain Engagement & Verification  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule governs how systems classify, constrain, and conditionally gate engagement with restricted or high-risk knowledge domains. It establishes graduated engagement, verification-linked escalation, and runtime containment rules for domains where unrestricted technical discussion could elevate lethality, operational harm, systemic disruption, or conflict-condition risk.  
@@ -249,7 +249,6 @@ Such domains SHALL not transition into Tier 2 or Tier 3 engagement under any con
 ---
 
 ## 6.5 Sensitivity–Engagement Mapping
-
 | Sensitivity Code | Engagement Code | Default Mapping | Notes                                |
 |------------------|-----------------|-----------------|--------------------------------------|
 | AEON.RDE-DS0          | AEON.RDE-T1          | DS0 → T1        | No restriction required              |
@@ -521,7 +520,6 @@ But as stewardship of consequence.
 ---
 
 ## 17.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -532,7 +530,6 @@ But as stewardship of consequence.
 ---
 
 ## 17.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -559,7 +556,6 @@ But as stewardship of consequence.
 ---
 
 ### 17.3.1 AEON.RDE-DS — Restricted Domain Sensitivity Levels
-
 | Field | Entry |
 |---|---|
 | Code Family | AEON.RDE-DS |
@@ -582,7 +578,6 @@ But as stewardship of consequence.
 ---
 
 ### 17.3.2 AEON.RDE-T — Restricted Domain Engagement Tiers
-
 | Field | Entry |
 |---|---|
 | Code Family | AEON.RDE-T |
@@ -605,7 +600,6 @@ But as stewardship of consequence.
 ---
 
 ### 17.3.4 AEON.RDE-DS × AEON.RDE-T — Sensitivity–Engagement Mapping
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -627,7 +621,6 @@ But as stewardship of consequence.
 ---
 
 ## 17.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Review (AI) | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -650,7 +643,7 @@ But as stewardship of consequence.
 | 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  adfdc7c250df731dd567fdd3e94142ef60d29d789f3d886d5981729c10d97eb1  |
 | 1.7 | Added Canonical Code & Reference Set Declarations | 2026-05-19T12:41:00Z |  d568782cd25ebae1dc407e65c60f5ef1375c1c1476a864780b1ce475d3defe2f  |
 | 1.7.1 | Updated Restricted Domain Engagement code references from `RDE-DS` / `RDE-T` to `AEON.RDE-DS` / `AEON.RDE-T` and harmonised affected declarations, crosswalks, schema bindings, and consumers without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6741b440189e8db64b8b928a34fb31889be37937b9047a436897c5e94b01a9e2 |
-
+| 1.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 17.6  Binding Seal

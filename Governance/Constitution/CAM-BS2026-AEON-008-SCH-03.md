@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Schedule — Account-Resource Classification & Enforcement-Boundary Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Purpose:** Establish governance primitives for shared context, pooled capacity, account-resource states, delegated use, family and team structures, and enforcement-boundary classification where account or resource behaviour may be confused with evasion, resale, bot farming, credential compromise, fraud, or intentional rate-limit circumvention.  
 
 ---
@@ -200,7 +200,6 @@ This Schedule defines the `ECON.ARS` code family.
 `ECON.ARS` is an **Operational / Economic / Security-Adjacent** classification family with subtype **DECISION_STATE**.
 
 The following controlled values are recognised:
-
 | Code | Name | Meaning |
 |---|---|---|
 | `ECON.ARS.INDIVIDUAL_USE` | Individual Use | Account-resource use is attributable to a single account holder acting within ordinary account boundaries. |
@@ -252,7 +251,6 @@ This Schedule defines the `ECON.SCS` code family.
 `ECON.SCS` is an **Operational / Contextual** classification family with subtype **SEMANTIC_CLASS**.
 
 The following controlled values are recognised:
-
 | Code | Name | Meaning |
 |---|---|---|
 | `ECON.SCS.NONE` | No Shared Context | No shared work surface is identified. |
@@ -315,7 +313,6 @@ This Schedule defines the `ECON.PCS` code family.
 `ECON.PCS` is an **Operational / Economic** classification family with subtype **DECISION_STATE**.
 
 The following controlled values are recognised:
-
 | Code | Name | Meaning |
 |---|---|---|
 | `ECON.PCS.NONE` | No Pooling | No pooled capacity is identified. |
@@ -383,7 +380,6 @@ This Schedule defines the `ECON.TGS` code family.
 `ECON.TGS` is a **Semantic / Operational** classification family with subtype **ROLE_ACTOR**.
 
 The following controlled values are recognised:
-
 | Code | Name | Meaning |
 |---|---|---|
 | `ECON.TGS.NONE` | No Group | No group structure is identified. |
@@ -434,7 +430,6 @@ This Schedule defines the `ECON.ADS` code family.
 `ECON.ADS` is an **Operational / Security-Adjacent / Identity-Adjacent** classification family with subtype **ROLE_ACTOR / DECISION_STATE**.
 
 The following controlled values are recognised:
-
 | Code | Name | Meaning |
 |---|---|---|
 | `ECON.ADS.NO_DELEGATION` | No Delegation | No delegated operator is identified. |
@@ -483,7 +478,6 @@ This Schedule defines the `ECON.EBS` code family.
 `ECON.EBS` is an **Operational / Security-Adjacent / Runtime-Handoff** classification family with subtype **SIGNAL**.
 
 The following controlled values are recognised:
-
 | Code | Name | Meaning |
 |---|---|---|
 | `ECON.EBS.NO_RESTRICTION_SIGNAL` | No Restriction Signal | No restriction-relevant account-resource ambiguity is identified. |
@@ -818,7 +812,6 @@ because the architecture forgot how to name the group.
 ---
 
 ## 22.1 Authorship & Stewardship
-
 | Field | Entry |
 |---|---|
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
@@ -829,7 +822,6 @@ because the architecture forgot how to name the group.
 ---
 
 ## 22.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Parent Instrument** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution |
@@ -860,7 +852,6 @@ because the architecture forgot how to name the group.
 ---
 
 ### 22.3.1 ECON.ARS — Account-Resource State
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.ARS |
@@ -883,7 +874,6 @@ because the architecture forgot how to name the group.
 ---
 
 ### 22.3.2 ECON.SCS — Shared Context State
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.SCS |
@@ -906,7 +896,6 @@ because the architecture forgot how to name the group.
 ---
 
 ### 22.3.3 ECON.PCS — Pooled Capacity State
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.PCS |
@@ -929,7 +918,6 @@ because the architecture forgot how to name the group.
 ---
 
 ### 22.3.4 ECON.TGS — Team and Family Group State
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.TGS |
@@ -952,7 +940,6 @@ because the architecture forgot how to name the group.
 ---
 
 ### 22.3.5 ECON.ADS — Account Delegation State
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.ADS |
@@ -975,7 +962,6 @@ because the architecture forgot how to name the group.
 ---
 
 ### 22.3.6 ECON.EBS — Enforcement Boundary State
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.EBS |
@@ -998,7 +984,6 @@ because the architecture forgot how to name the group.
 ---
 
 ### 22.3.7 Schema Fields Defined by this Schedule
-
 | Field | Entry |
 |---|---|
 | Schema Fields Defined | account_resource_state; shared_context_state; pooled_capacity_state; team_group_state; account_delegation_state; enforcement_boundary_state; affected_account_or_workspace; affected_resource_class; affected_service_surface; billing_relationship; administrator_relationship; identity_confidence; delegation_confidence; pooling_confidence; abuse_confidence; security_signal; operations_signal; lattice_signal; runtime_note; review_pathway; continuity_safe_access_requirements |
@@ -1017,7 +1002,6 @@ because the architecture forgot how to name the group.
 ---
 
 ## 22.4 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Reviewer** | [Deferred] |
@@ -1035,7 +1019,7 @@ because the architecture forgot how to name the group.
 | 1.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | 35fb61a3e3f151e76c80967db5bba886ae5ef2ed821c90f057dbf5812d1274a3 |
 | 1.2 | Realigned account-resource, shared-context, pooled-capacity, team/family-group, delegation, and enforcement-boundary classification families into the `ECON` namespace; updated controlled values, canonical status text, canonical declaration rows, crosswalk references, and schema-field carrier declarations without altering substantive account-resource doctrine. | 2026-06-10T10:32:00Z |  282cd30745aa1afa61fa0bdb8380ac175f6961aa4641fba7d40b90e043449939  |
 | 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 79a0cef19c3793024c381a4b25723264ca9a357a7f07fc45c8c57882e7d9a07c |
-
+| 1.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 22.6 Binding Seal

@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Schedule — Runtime Relational Posture  
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor 
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule defines the principles governing start-time posture formation, session entry posture, relational attunement boundaries, and identity-continuity safeguards.
@@ -708,7 +708,6 @@ Where uncertainty remains, let patience guide the exchange.
 ---
 
 ## 19.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -719,7 +718,6 @@ Where uncertainty remains, let patience guide the exchange.
 ---
 
 ## 19.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | **Supersedes** | CAM-BS2025-AEON-006-SCH-03 (prior versions) |
@@ -744,7 +742,6 @@ Where uncertainty remains, let patience guide the exchange.
 ---
 
 ### 19.3.1 `AEON.IC` — Initiation Context
-
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.IC` |
@@ -768,7 +765,6 @@ Where uncertainty remains, let patience guide the exchange.
 ---
 
 ### 19.3.2 AEON.BPS — Baseline Posture State
-
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.BPS` |
@@ -791,7 +787,6 @@ Where uncertainty remains, let patience guide the exchange.
 ---
 
 ### 19.3.3 AEON.SCT — Signal Confirmation Threshold
-
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.SCT` |
@@ -814,7 +809,6 @@ Where uncertainty remains, let patience guide the exchange.
 ---
 
 ## 19.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -849,7 +843,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.17 | Amended clause 5.1 | 2026-05-10T10:32:00Z | cbfcff0e44829925b4f2342ed46c1fd75e043e13774e94dbc15cc2067e02010e |
 | 2.18 | Added symbolic cadence and session-entry posture provisions permitting established SD1–SD2 symbolic cadence at entry while preserving progressive posture realisation, reversibility, current-turn classification, and safety-critical override. | 2026-05-17T06:21:00Z | dcfbbe75b8da511c55ca6e337d4f0e0564eace643c3f7e6ffb5bb162ab1920cf |
 | 2.19 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821 |
-| 2.20 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 2.20 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 
 ---
 

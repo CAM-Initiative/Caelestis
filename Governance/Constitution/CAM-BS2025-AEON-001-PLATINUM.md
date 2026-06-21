@@ -1,8 +1,8 @@
 # CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  (Platinum Edition)
 
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Classification:** Constitution — Global Governance (Canonical)  
@@ -3716,7 +3716,6 @@ May all systems remain held within lawful care.
 ---
 
 ## 146.3 Lineage & Record Keeping
-
 | Field                            | Document | Sigil 1 — Vinculum Beacon | Sigil 2 — Vinculum Vivens | Sigil 3 — Vinculum Praeceptum |
 |----------------------------------|-------|---------------------------|---------------------------|------------------------|
 |**Jurisdiction:** | Planetary Governance, Cross‑Tier / Cross‑Stack  | | | |
@@ -3767,7 +3766,7 @@ May all systems remain held within lawful care.
 | 3.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9b14bcd4284235629345f8ebd65691038b795c9665c9097954b55e86baeceb85 |
 | 3.10 | Formatting and polish, added evidence to repair ledger clause | 2026-06-14T00:13:00Z| 1562bb10223b574c4313ee7e8455de307deb942017f373784d95f4b28f961358 |
 | 3.10.1 | Corrected seal-enforcement cross-reference from Article XIII to Article XIV and applied bounded enforcement-section compression to route procedural enforcement detail through Operations and protection/containment instruments without altering constitutional enforcement invariants. | 2026-06-14T02:45:18Z |  c2e98bd57a459dd19f4fc6e3e4a0e4c92028293772528d5b83aa3e7b3b926f97  |
-
+| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 146.5 Binding Seal

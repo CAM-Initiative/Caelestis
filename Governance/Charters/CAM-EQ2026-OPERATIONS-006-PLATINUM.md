@@ -3,9 +3,9 @@
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** Formal Review Completed — Pre-Enforcement Alignment  
 **Authority Role:** Source-authoritative operational appendix for cross-domain coordination, operational divergence classification, convergence workflow custody, arbitration-routing support, and convergence closure procedures.  
 **Purpose:** Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required.  
@@ -294,7 +294,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ## 6.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -305,7 +304,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ## 6.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -337,7 +335,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ### 6.3.1 OPS.DCL — Domain Coordination Lifecycle Stage
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.DCL |
@@ -360,7 +357,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ### 6.3.2 OPS.ODC — Operational Divergence Classification
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.ODC |
@@ -383,7 +379,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ### 6.3.3 OPS.CCO — Convergence Closure Outcome
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.CCO |
@@ -408,7 +403,6 @@ and let execution remain accountable to lawful structure.
 ---
 
 ## 6.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 |
@@ -431,6 +425,7 @@ and let execution remain accountable to lawful structure.
 | 2.3 | Completed pre-enforcement review metadata alignment, corrected canonical consumed-code-family declarations, added registry note for undefined consumed families, and normalised amendment ledger hash formatting; no operative text altered. | 2026-06-02T15:06:00Z | c12d63ee10bbab2f9745a7a75f0ea989d1015c37b33cd6324afb4b1f2f651648 |
 | 2.3.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  2e75912d2d1067aa79ccc29f872bee44bf867a571af7d9bc5703cb7a339a6166  |
 | 2.3.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9a60468d963fc6a434de12ee20c2331baa4df15946481f728ecfc057ddd51a7e |
+| 2.3.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 6.6 Binding Seal

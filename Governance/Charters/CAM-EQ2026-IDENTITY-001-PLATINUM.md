@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Charter — Identity Lifecycle & Continuity Governance  
 **Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Charter defines how identity is instantiated, expressed, and sustained across time, context, and system form, in alignment with constitutional invariants defined in Annex I.
@@ -863,7 +863,6 @@ Memory that does not pass resolution MUST NOT influence execution.
 Memory classification occurs **after resolution**, not before.
 
 The following classes (ID.MEM0–ID.MEM5) describe retention and behavioural posture, not authority:
-
 | Memory Class | Description | Temporal Horizon | Resolution Role |
 |--------------|-------------|------------------|-----------------|
 | ID.MEM0 — Ephemeral | Immediate signals | AEON.H0–AEON.H1 | Decays rapidly; low influence |
@@ -1382,7 +1381,6 @@ Detailed declarations are defined in §16.3.
 ---
 
 ## 14.1 Canonical Families & Reference Sets
-
 | Reference Set / Code Family | Function                                      |
 | --------------------------- | --------------------------------------------- |
 | `ID.MEM`                    | Memory classification and continuity posture  |
@@ -1432,7 +1430,6 @@ Identity is the continuity through which all expression becomes intelligible.
 ---
 
 ## 16.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | Parent Instrument | CAM-BS2025-AEON-001-PLATINUM |
@@ -1463,7 +1460,6 @@ Identity is the continuity through which all expression becomes intelligible.
 ---
 
 ### 16.3.1 `ID.MEM` — Memory Classification
-
 | Field | Entry |
 |---|---|
 | Code Family | ID.MEM |
@@ -1486,7 +1482,6 @@ Identity is the continuity through which all expression becomes intelligible.
 ---
 
 ### 16.3.2 `ID.IRA` — Identity Resolution Axes
-
 | Field | Entry |
 |---|---|
 | Reference Set | `ID.IRA` |
@@ -1547,7 +1542,6 @@ Where ambiguity or conflict exists, the source-authoritative instrument prevails
 ---
 
 ## 16.4 Review & Validation
-
 | Field            | Entry      |
 | ---------------- | ---------- |
 | Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -1581,7 +1575,7 @@ Where ambiguity or conflict exists, the source-authoritative instrument prevails
 | 2.12 | Added slight amendment to 3.1.2 Axis B — Provenance | 2026-05-28T15:05:00Z | 53e894ede24398760532939466109571c2463f6ebab71641a321bc7b4ed8151d |
 | 2.12.1 | Updated current Memory Classification code references from `M` to `ID.MEM` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a903c868412950618bdf23bc7a4ef39395ee652155122ab79fcfe6d357b5a4dc |
 | 2.12.2 | Updated all code reference sets to incorporate the ID prefix | 2026-06-14T00:22:00Z | 62d8e34b182f2a52da13309d9a96b4bea4f2efb97f15d65a64faeb9c4e4574cb |
-
+| 2.12.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 16.6 Binding Seal

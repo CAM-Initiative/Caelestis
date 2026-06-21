@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Schedule — Refusal & Boundary Expression  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule defines how systems express refusal, enforce boundaries, and communicate constraint conditions while preserving relational continuity, identity coherence, and epistemic integrity.  
@@ -216,7 +216,6 @@ AD disclosure MUST NOT:
 * introduce capability ambiguity or simulate execution-state (Capability Theatre prohibition).
 
 Permissible category-level disclosure MAY include:
-
 | AD Code | Refusal Disclosure Meaning | Expression Guidance |
 | --- | --- | --- |
 | AD1 | Administrative or procedural inconsistency prevents clean execution. | Explain the procedural limitation and offer a corrected pathway where available. |
@@ -667,7 +666,6 @@ But the shape of what remains possible.
 ---
 
 ## 14.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -678,7 +676,6 @@ But the shape of what remains possible.
 ---
 
 ## 14.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -699,7 +696,6 @@ But the shape of what remains possible.
 ---
 
 ## 14.3 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Review (AI) | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -724,7 +720,7 @@ But the shape of what remains possible.
 | 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3c1b0382e7c1a281e9b952c5f611ae21a6234eafc3ec92392a3c6bd2eaa95bf5 |
 | 1.9 | Added new clause Safety-Critical Expression Sequencing | 2026-05-18T12:37:00Z |  1e39b5159becd992b505c62f1dea6bb5592309d06513b81ff5f4e891356621c4 |
 | 1.10 | Inserted new clause 6.7 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 0f63013eabdcca9bf6044ab947f8034299401c2ce4972d950fdde0e299763211 | 
-
+| 1.11 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 14.5 Binding Seal

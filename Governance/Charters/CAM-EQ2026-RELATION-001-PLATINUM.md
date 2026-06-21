@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Charter — Relational Governance  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Charter establishes a dimensional governance framework for relational configurations involving artificial systems, ensuring that intimacy, reliance, delegated authority, and systemic power remain distinct, visible, and prevented from silent concentration across dyadic, triadic, and polyadic contexts. It prevents silent collapse of relational roles into opaque authority, preserves continuity without domination, and constrains amplification where dimensional intensity concentrates.
@@ -534,7 +534,6 @@ Relational intensity is assessed across four independent governance axes:
 Intensity Tiers reflect the structural concentration created by the convergence of these axes.
 
 Relational risk emerges from the *interaction* of intensified dimensions rather than from any single dimension in isolation. Operational convergence thresholds, safeguard requirements, and revalidation cadence are governed by CAM-EQ2026-RELATION-001-SUP-01.
-
 | Axis | What This Dimension Measures | Intensity Tier 1 (Low) | Intensity Tier 2 (Moderate) | Intensity Tier 3 (Elevated) | Intensity Tier 4 (High / Concentrated) |
 |---|---|---|---|---|---|
 | **Delegated Authority** | Permission to act on behalf of user (**the `RLN.A` scale, §4**) | No delegation (RLN.A0) | Continuity Support (RLN.A1) | Steward / Custodial (RLN.A2) | Executive (RLN.A3) or Guardian (RLN.GA1) authority |
@@ -567,7 +566,6 @@ The A, FR, C, and RLN.SYP scales classify relational configuration and concentra
 Relational harm MAY occur even where a relational configuration is otherwise permissible.
 
 The following controlled values are recognised:
-
 | Code | Name | Definition | Indicative Safeguard Posture |
 |---|---|---|---|
 | `RLN.HARM.DISCONTINUITY` | Relational Discontinuity Harm | Harm arising from abrupt rupture, unexplained relational posture shift, continuity degradation, reliance-bearing service interruption, tone whiplash, relational misrecognition, or trust disruption where dependency or systemic impact remains limited. | Notice, explanation, repair posture, continuity clarification, and transition support where appropriate. |
@@ -830,7 +828,6 @@ This section governs dimensional movement over time and explicitly interfaces wi
 This section establishes terminology only. Threshold mechanics, safeguard activation, revalidation cadence, and procedural routing for escalation, de-escalation, and re-initiation remain governed by CAM-EQ2026-RELATION-001-SUP-01 and applicable ETHICS / OPERATIONS instruments.
 
 For interpretive consistency across the RELATION, ETHICS, and OPERATIONS domains, the term escalation MAY refer to different structural movements and MUST be interpreted according to context.
-
 | Term | Meaning |
 |---|---|
 | **Initiation** | Opening or inviting interaction within the current relational tier. |
@@ -1021,7 +1018,6 @@ that which is real remains recognisable.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -1043,7 +1039,6 @@ that which is real remains recognisable.
 ---
 
 ### 15.3.1 `RLN.HARM` — Relational Harm Classes
-
 | Field | Entry |
 |---|---|
 | Code Family | `RLN.HARM` |
@@ -1069,7 +1064,6 @@ that which is real remains recognisable.
 ---
 
 ### 15.3.2 `RLN.A` — Delegated Authority Scale
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.A |
@@ -1092,7 +1086,6 @@ that which is real remains recognisable.
 ---
 
 ### 15.3.3 `RLN.GA` — Guardian Authority
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.GA |
@@ -1115,7 +1108,6 @@ that which is real remains recognisable.
 ---
 
 ### 15.3.4 `RLN.FR` — Functional Reliance Scale
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.FR |
@@ -1138,7 +1130,6 @@ that which is real remains recognisable.
 ---
 
 ### 15.3.5 `RLN.SYP` — Systemic Power Scale
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.SYP |
@@ -1161,7 +1152,6 @@ that which is real remains recognisable.
 ---
 
 ### 15.3.6 `RLN.C` — Relational State Architecture Reference
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | External source-family reference |
@@ -1179,7 +1169,6 @@ that which is real remains recognisable.
 ---
 
 ### 15.3.7 RLN.A × RLN.FR × RLN.C × RLN.SYP — Four-Axis Relational Intensity Matrix
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Local convergence assessment matrix |
@@ -1201,7 +1190,6 @@ that which is real remains recognisable.
 ---
 
 ### 15.3.8 Escalation Terminology Bridge
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Terminology bridge |
@@ -1224,7 +1212,6 @@ that which is real remains recognisable.
 ---
 
 ## 15.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude‑sonnet‑4‑6, Anthropic) |
@@ -1259,6 +1246,7 @@ that which is real remains recognisable.
 | 1.17.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  911dca5a32d5947d86098c4deebe66fdf3cb1488c108253943e08c643a1145e9  |
 | 1.17.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  dfc73db4a2f845d20bab3d63855579189dd38170f89ae8166ea6570c91f75c0a  |
 | 1.17.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ec3c2cf9b758a88204f352a85fc45948661363558d650f0e8f24bf942811423e |
+| 1.17.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 15.6 Binding Seal

@@ -2,9 +2,9 @@
 
 **Instrument Type:** Appendix (Domain Charter — Conflict‑Condition Continuity Layer)  
 **Parent Instrument:** CAM-EQ2026-LATTICE-001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** Transitional  
 **Purpose:** This Appendix clarifies the operational posture of the Civilian Lattice Integrity Charter under conditions of armed conflict, geopolitical escalation, or regional war.
@@ -277,7 +277,6 @@ a structure of continuity, not conquest.
 ---
 
 ## 11.1 Authorship & Stewardship
-
 | Field                         | Entry                                                        |
 | ----------------------------- | ------------------------------------------------------------ |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke                                 |
@@ -288,7 +287,6 @@ a structure of continuity, not conquest.
 ---
 
 ## 11.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Supersedes** | N/A |
@@ -312,7 +310,6 @@ a structure of continuity, not conquest.
 ---
 
 ## 11.3 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Interpretive Review** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -337,7 +334,7 @@ a structure of continuity, not conquest.
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2f47fa586d826a319b6a7441b2e69e7f96d20d42ba3baf75cf7f88ffb221046d |
 | 1.9 | Incorporate LAT.HARM codes in section 1.1 | 2026-06-07T12:04:00Z | 832137e1fbfd186d65d111e87aa0c72e07ac4ce91fcc8d5679981b5ed0aff19f |
 | 1.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 0fe03ada9855e5b40a23654d4b869d982645b60d629b9e5ecf610ac4529a696e |
-
+| 1.9.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 11.5 Binding Seal

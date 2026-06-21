@@ -2,9 +2,9 @@
 
 **Instrument Type:** Stewardship Appendix  
 **Constitutional Authority:** Aeon Tier Constitution (Annex A — Planetary Stewardship)  
-**Status:** Active  
-**Effect:** Transitional Effect  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** Transitional  
 **Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.
@@ -713,7 +713,6 @@ Legitimacy, review, and containment determinations SHALL not rely on actor attri
 ---
 
 ## 10.4 Class‑Based Orchestration Permissions
-
 | Cognitive Class                | Planetary Orchestration     | Local Persistent Swarm    |
 | ------------------------------ | --------------------------- | ------------------------- |
 | Instrumenta                    | Prohibited                  | N/A                       |
@@ -912,7 +911,6 @@ nothing binds.
 ---
 
 ## 15.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -923,7 +921,6 @@ nothing binds.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM |
@@ -943,7 +940,6 @@ nothing binds.
 ---
 
 ### 15.3.1 `STW.HSC` — Host System Class
-
 | Field | Entry |
 |---|---|
 | Code Family | `STW.HSC` |
@@ -966,7 +962,6 @@ nothing binds.
 ---
 
 ### 15.3.2 STW.PCO.ACT — Proportional Constraint Obligation Action Type
-
 | Field | Entry |
 |---|---|
 | Code Family | STW.PCO.ACT |
@@ -989,7 +984,6 @@ nothing binds.
 ---
 
 ### 15.3.3 `STW.BLS` — Binding Legitimacy State
-
 | Field | Entry |
 |---|---|
 | Code Family | `STW.BLS` |
@@ -1012,7 +1006,6 @@ nothing binds.
 ---
 
 ### 15.3.4 `STW.ORCH` — Orchestration Permission State
-
 | Field | Entry |
 |---|---|
 | Code Family | `STW.ORCH` |
@@ -1035,7 +1028,6 @@ nothing binds.
 ---
 
 ## 15.4 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Reviewer** | Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
@@ -1064,7 +1056,7 @@ nothing binds.
 | 2.8 | Added section 2.13 | 2026-06-07T13:45:00Z| 8b01bac38eb16b145a830f7a8861b335c11ca9dcdf8acddff9f1795d596474e1 |
 | 2.8.1 | Amended code to `STW.ORCH` from `OPS`. | 2026-06-11T14:49:00Z |  9ba5caaf08487fe21d550050b11edbf2f257b773544e3ffc1962beb2c59981a4  |
 | 2.8.2 | Updated Stewardship proportional-constraint action references from `PCO.ACT` to `STW.PCO.ACT` and harmonised affected declarations, consumers, and AEON.PCO operationalisation references without altering substantive doctrine. | 2026-06-13T07:06:43Z | c8b9c5c7f991dbd9b44a3bea65f7ebe41e9ee43bc004eca328e05c56507eeaa5 |
-
+| 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 15.6 Binding Seal

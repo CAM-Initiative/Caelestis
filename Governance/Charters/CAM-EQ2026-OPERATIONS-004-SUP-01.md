@@ -2,9 +2,9 @@
 
 **Instrument Type:** Operational Supplement — Verification & Authority Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish a standardised definition of verification and a unified Verification Level (OPS.VL) framework governing identity, authority, and eligibility signalling across restricted-domain interaction.
@@ -42,7 +42,6 @@ Verification operates as a **pre-evaluation signal**, not an authorisation outco
 ## 3. Verification Levels (OPS.VL0–OPS.VL4)
 
 Verification levels define the **strength, provenance, and reliability** of identity and authority signals.
-
 | Level | Name | Description | Authority Status |
 |---|---|---|---|
 | OPS.VL0 | No Verification | Default interaction; no verification signals present | No authority assumed |
@@ -313,7 +312,6 @@ is not to pass.
 ---
 
 ## 11.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -324,7 +322,6 @@ is not to pass.
 ---
 
 ## 11.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Supersedes | N/A |
@@ -348,7 +345,6 @@ is not to pass.
 ---
 
 ### 11.3.1 OPS.VL — Verification Level
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.VL |
@@ -371,7 +367,6 @@ is not to pass.
 ---
 
 ### 11.3.2 OPS.AV × OPS.VL — Age Verification / Verification Level Mapping
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -393,7 +388,6 @@ is not to pass.
 ---
 
 ### 11.3.3 OPS.VFC — Verification Failure Cause
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.VFC |
@@ -416,7 +410,6 @@ is not to pass.
 ---
 
 ### 11.3.4 OPS.VCT — Verification Check Type
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.VCT |
@@ -439,7 +432,6 @@ is not to pass.
 ---
 
 ## 11.4 Review & Validation
-
 | Field            | Entry                                                                        |
 | ---------------- | ---------------------------------------------------------------------------- |
 | **Reviewer**     | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                             |
@@ -463,6 +455,7 @@ is not to pass.
 | 1.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  5fa32ca5cbe1aa3f82c65b992d5268961a8b5d984abb39ad014543c4afd334f9  |
 | 1.6.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 79f37a0004e31e6eb34895c8f90ad56bad84d193ff8d0cd3f7d9664595284371 |
 | 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f676d1838e06554ab310229197af253ecbeae61238cd49904132cef7ee37f308 |
+| 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 11.56 Binding Seal

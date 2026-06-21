@@ -3,9 +3,9 @@
 **Instrument Type:** Schedule  
 **Parent Instrument:** CAM-BS2026-AEON-014-PLATINUM — Annex M: Governance Observability & Participatory Telemetry Framework  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** Governance Observability Lifecycle & Advisory Coordination
 
@@ -64,7 +64,6 @@ Governance observability systems SHOULD recognise that governance-relevant signa
 Governance-relevant observations SHALL NOT be presumed equally persistent, equally urgent, or equally governance-relevant across all temporal horizons.
 
 Illustrative signal persistence states MAY include:
-
 | Signal Persistence State | Illustrative Meaning                                                                                                      |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 | Transient Signal         | Short-duration observation with limited persistence or localised impact                                                   |
@@ -172,7 +171,6 @@ Governance degradation propagation SHALL remain:
 Governance observability systems MAY support governance lifecycle progression through multiple operational states.
 
 Illustrative lifecycle states MAY include:
-
 | Lifecycle State                   | Operational Meaning                                                                           |
 | --------------------------------- | --------------------------------------------------------------------------------------------- |
 | Observation Received              | A governance-relevant observation, report, or telemetry signal has been submitted or detected |
@@ -208,7 +206,6 @@ Governance observability systems MAY support:
 Governance observability systems SHOULD support proportional localisation prior to escalation, constitutional routing, stewardship review, or governance adaptation.
 
 Observability localisation MAY distinguish between:
-
 | Localisation Class                | Illustrative Scope                                                                                             |
 | --------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Platform-local anomaly            | Local interface issue, product regression, implementation inconsistency, or deployment-specific behaviour      |
@@ -263,7 +260,6 @@ Progression toward Constitutional Review Recommended MAY occur where:
 Governance observability systems MAY apply proportional evidentiary weighting when interpreting governance-relevant observations.
 
 Illustrative evidentiary characteristics MAY include:
-
 | Signal Characteristic             | Illustrative Governance Relevance               |
 | --------------------------------- | ----------------------------------------------- |
 | Isolated observation              | Local observational relevance                   |
@@ -329,7 +325,6 @@ Governance advisories MAY circulate through multiple proportional dissemination 
 * or operational urgency.
 
 Illustrative dissemination pathways MAY include:
-
 | Dissemination Pathway                    | Illustrative Function                                                                                |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Conversational advisory surfacing        | Governance-relevant observability signals surfaced during ordinary interaction or governance inquiry |
@@ -376,7 +371,6 @@ Such elevated signalling SHOULD remain:
 Governance advisories MAY support differentiated advisory classifications.
 
 Illustrative advisory states MAY include:
-
 | Advisory State                     | Illustrative Purpose                                              |
 | ---------------------------------- | ----------------------------------------------------------------- |
 | Informational Advisory             | General governance-relevant awareness signalling                  |
@@ -645,7 +639,6 @@ It is the discipline of noticing before repair is too late.
 ---
 
 ## 11.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -691,7 +684,6 @@ It is the discipline of noticing before repair is too late.
 ---
 
 ### 11.3.1 `AEON.GSP` — Governance Signal Persistence State
-
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GSP` |
@@ -714,7 +706,6 @@ It is the discipline of noticing before repair is too late.
 ---
 
 ### 11.3.2 AEON.GLS — Governance Lifecycle State
-
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GLS` |
@@ -738,7 +729,6 @@ It is the discipline of noticing before repair is too late.
 ---
 
 ### 11.3.3 AEON.GOL — Governance Observability Localisation Class
-
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GOL` |
@@ -761,7 +751,6 @@ It is the discipline of noticing before repair is too late.
 ---
 
 ### 11.3.4 AEON.GAS — Governance Advisory State
-
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GAS` |
@@ -784,7 +773,6 @@ It is the discipline of noticing before repair is too late.
 ---
 
 ## 11.4 Review & Validation
-
 | Field | Claude Review | Grok Review |
 |---|---|---|
 | Review|Claude Sonnet 4.6 (Anthropic)| Grok |
@@ -802,7 +790,7 @@ It is the discipline of noticing before repair is too late.
 |1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 10fac67ca710490106fe5efb1647523b77f6eaa2942ace3dd6323108f105ad79 |
 | 1.2 | Amendmend metadata header | 2026-06-05T17:55:00Z | da024e4971f038b6d875d8d629fab3f85dc159a0caf960f6db1e402957e497b2 |
 | 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2402cc659fbd6a6e4fcbdfff8d55a4fe7e5884763346075bfd9a43c1294a482d |
-
+| 1.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 11.6 Binding Seal

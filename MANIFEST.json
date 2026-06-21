@@ -1,6 +1,6 @@
 {
   "package_version": "v1.1.0",
-  "generated_timestamp": "2026-06-14T05:40:52+00:00",
+  "generated_timestamp": "2026-06-20T07:53:01+00:00",
   "root": ".",
   "files": [
     {
@@ -329,13 +329,13 @@
     },
     {
       "path": "Governance/CAM.Canonical.Code.Index.json",
-      "sha256": "fd532c62ab9ecaea8052323ea9fc6bdb29ccf69f962ad9775401e388a2044231",
+      "sha256": "f4367c8a3776565fd4c4bbe832973d4d14d192930a2d103a40617b816a466979",
       "size_bytes": 682862,
       "role": "governance"
     },
     {
       "path": "Governance/CAM.Canonical.Code.Index.md",
-      "sha256": "c921571dc80aec45172ba9ff70386b9b2036ec9b4c3bb581fc9f81b79feff889",
+      "sha256": "8960535fd6347ca07fe1d9f53cb451639a8f4e143c2f46723e23f8b9ca153c70",
       "size_bytes": 59764,
       "role": "governance"
     },
@@ -347,8 +347,8 @@
     },
     {
       "path": "Governance/CAM.Governance.JSON",
-      "sha256": "a0435003c1238764f3668683e9ca5fb9867eeec5c046bd4839e88198bc88273b",
-      "size_bytes": 133837,
+      "sha256": "9299d075cdd11cc03d1fc3ea7fe346d53cdb541b0bee755f1e45ab6d0736a4a8",
+      "size_bytes": 133832,
       "role": "governance"
     },
     {
@@ -359,596 +359,596 @@
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md",
-      "sha256": "7e8908e4c7910e18d4beb13af48bb869bd21a379164c4031a210afacbd33036f",
-      "size_bytes": 16635,
+      "sha256": "793d6bfcd1185020ee5fae78f84e5d7631bf686e3e91fbdb942b6cdb5f4357ea",
+      "size_bytes": 16777,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ARBITRATION-002-PLATINUM.md",
-      "sha256": "74790aa86edd1196fdb51ac988cedc97a13a3be0dc3e022b567b4f9cc69d9ab9",
-      "size_bytes": 10139,
+      "sha256": "00c34b779ee1dad380b366934879e77bf683ceee11822a05cb2f358a5fbcb30d",
+      "size_bytes": 10283,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md",
-      "sha256": "6a1e70d246f8ca2d0914984278aaec20e76874393928828f3f7f3dce5f67f00f",
-      "size_bytes": 47957,
+      "sha256": "e77e3387265ca3d173befdc9633e67af667ff2f7285212839d0b9e3c2c2d084e",
+      "size_bytes": 48083,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-CONTINUITY-001-SUP-01.md",
-      "sha256": "9db7633b95ec5facefb00596a1e0c90c7277bd4fd57fe2369ad32e14bf69aa99",
-      "size_bytes": 29216,
+      "sha256": "b6b68e4306d2e9cf982124a9ad257b8e244eee33722ebf0dc5ba8ae735ffe9ad",
+      "size_bytes": 29342,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md",
-      "sha256": "25735988dbda50a1d5379d58ad5c6da8c9a8d94d20b0f153526c9d2a32863cd4",
-      "size_bytes": 76312,
+      "sha256": "6e055657296bfffecacbb9aa919fc80530f75f1b08e645014da8bdfd3f35c8e0",
+      "size_bytes": 76438,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
-      "sha256": "75966fcef5f06460ad051ecd68a8a94571a53dd4110f9bff62e6d0c649966993",
-      "size_bytes": 24885,
+      "sha256": "455e0ec17bed70c02bc17f174523c38b59416aad92f93181a8b7f8fe6215d408",
+      "size_bytes": 25009,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md",
-      "sha256": "dcb38d647acdd7203d4823a1d232674b43538abb68ea9e8f25e97b4e5632ec02",
-      "size_bytes": 68708,
+      "sha256": "872d4a1cc61cd08a77ce36c4bb810bde8aa47d1a4601eb3a54d2afb629fd2cc7",
+      "size_bytes": 68824,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md",
-      "sha256": "2a8528c00dc7216a4fedf572ecb9ece6c9c15f61595ca6c2dc2df505d82fca20",
-      "size_bytes": 67597,
+      "sha256": "08014c396d0e4f4f7992ee1d93cd00d584ad69ec427fd8f6283d13ec1527dc8f",
+      "size_bytes": 67709,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
-      "sha256": "8f0e93c1a2ae7160e42b6b4146f8c1d07cb7d5f1135d27d99e721b7598420712",
-      "size_bytes": 25365,
+      "sha256": "0e451cf4430402a5b6abdb9157bd06b82e9709b357e2ea039c17a5ca1a879d1c",
+      "size_bytes": 25503,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-006-PLATINUM.md",
-      "sha256": "69c267e2acb1f6d84177d5b4ef0ba14f691241701fb6d08e54d6eb0287f35507",
-      "size_bytes": 25380,
+      "sha256": "aa95fb860f903f70fc76e354902fbe403de9c1073ecb6cf57a78d3799ce1ed03",
+      "size_bytes": 25522,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md",
-      "sha256": "de7df83e2a3be4bb0a7885f7622dc77df6160beea46576f2cd41d057743315ad",
-      "size_bytes": 51716,
+      "sha256": "5c3180b8d07834da5f00e00d7e689cc8f98e04db4c6001196232b3b0a20cc38e",
+      "size_bytes": 51835,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md",
-      "sha256": "0760bd9761fc06c91467a8d4f9db3b5ac47f803c7b76030d97fa3b9958bb7154",
-      "size_bytes": 39624,
+      "sha256": "21da616a348fd1b2fb524957d67ebb6302a1a4b0f8969dec020afd7f5e1c71cf",
+      "size_bytes": 39758,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md",
-      "sha256": "0317b20ac834bf3d594f55c14b593afd9d6e162466d00b6f0b87cf0ac1e59e5e",
-      "size_bytes": 30643,
+      "sha256": "01182fa8fa357d28952ccfe16999dabd9488e7c9ae95eaf86b9e7aae140e52d5",
+      "size_bytes": 30788,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-01.md",
-      "sha256": "bcd710096b93984fc63b2a41eae939a404a47fc9520161044ab00753cb31d896",
-      "size_bytes": 40788,
+      "sha256": "6f51786d8c5325a0e88029d7a3473e65e1b89b487bcd1d76c19756800501cc76",
+      "size_bytes": 40919,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md",
-      "sha256": "ef270179ff73eb55212664f11b4bc7c93aee79e75495645ab1f762eb46ee9d5c",
-      "size_bytes": 16701,
+      "sha256": "a8dd2855339bc8bb714f1d7365fefeec02c0c282fb1c1b8f00425a34c7835450",
+      "size_bytes": 16848,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md",
-      "sha256": "650f70231375a8e5ffc7150a255ef813cf3213b7c064cb030922a2304aef1035",
-      "size_bytes": 18456,
+      "sha256": "364fde2158c94e998a26b281e52a95b2b3847adf43e117b02f1a38a6857af387",
+      "size_bytes": 18602,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-04.md",
-      "sha256": "ba062eb84626fd6b9bd7ddfcda0e3bad49da17de9547df3f807e41ecb83bf5ef",
-      "size_bytes": 22082,
+      "sha256": "a419898d08d1a9e6c1d5b18db2087bab7e970e877465abd261e018edd759a7e3",
+      "size_bytes": 22221,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ETHICS-002-PLATINUM.md",
-      "sha256": "36f0a468acf3495ca56a1206c296ffca4c300942bb8b58e5e7359fcb71d54707",
-      "size_bytes": 40585,
+      "sha256": "74ea0ab048c60f5e48cc84e403a4ada5b34c448a0d80a27f449cdf3943e25e5d",
+      "size_bytes": 40711,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ETHICS-002-SUP-01.md",
-      "sha256": "7f242e789f0abff9a31a54a4298a8336f806327292569bfd96f43b5062682b2b",
-      "size_bytes": 26369,
+      "sha256": "ee044fbc5f729bf4c99423b955c1c76dcb1a4bbd5e1316e39539bc537b5e270d",
+      "size_bytes": 26502,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md",
-      "sha256": "92a247ad164251cb71e594bcb7c2b43535df2fdac2990111baac257b00a43995",
-      "size_bytes": 61380,
+      "sha256": "abb3c69be2ccd77fc98502ffb483ed227fca7bc35bba6316e33d756cb7e42546",
+      "size_bytes": 61501,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
-      "sha256": "c3aa4bd358a101e34c0b479069227bcd8e04ccb5b2a453471aac6f97535bb071",
-      "size_bytes": 62250,
+      "sha256": "a360d2df6f647ab67448e41e7a9760f876decc87cfe0418515db22cdf61320ef",
+      "size_bytes": 62373,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md",
-      "sha256": "de5606729ed0d8c6da22a6b2a79b013649b5836f2297dc3e7229bed0b9517890",
-      "size_bytes": 21616,
+      "sha256": "d50ea1eba19eabe39be782dc23bde605d0b2f0a4317bc8f0a31f8aceecfc50e8",
+      "size_bytes": 21747,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
-      "sha256": "b5164f299f25d2a5c51f2cdc3b5c929b82ee03bdf7b77850a340e82ee36d4e62",
-      "size_bytes": 35222,
+      "sha256": "6b83bac56120832d9d131be3a414adc63c5d0e10431fc232f255538ab525a458",
+      "size_bytes": 35351,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md",
-      "sha256": "f5298a9d43bb54a1dccc91bc43018dd7897263c3daae29ab4295dd28d415d32f",
-      "size_bytes": 20530,
+      "sha256": "4db8d2341a28c68b7bce688df9198928e241cfef2392b8c171ad921337ac1eea",
+      "size_bytes": 20667,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
-      "sha256": "4384626b0347260d93e28daf9300d0fe2967bf4b06d8fc0257e7eaf3431b8296",
-      "size_bytes": 74985,
+      "sha256": "b9822a5859034e15f29db64ee322026745ee442da1be0a9ce7c344ada58ec1e8",
+      "size_bytes": 75093,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md",
-      "sha256": "c14e8a90285ab96207c9af1ce4ac0787581697c5dd1b7252d4b3268749031bc0",
-      "size_bytes": 41058,
+      "sha256": "e15250e6547d640de7eea433f4acd4544e7521e104cc2a461fa6797aa281c04b",
+      "size_bytes": 41181,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md",
-      "sha256": "40e349307e8459e7cd9f0ee712f07bfabbd2b12864f184b462d7cf441b479493",
-      "size_bytes": 29826,
+      "sha256": "4f6d9fa92492161e6af8721e72acace4f4afb2438a7c2b8fcf3110a2fae07770",
+      "size_bytes": 29954,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md",
-      "sha256": "713cd8379aef3a0e1f29636a12ef5e231c9904b4412b5882a2c89a37bcb7347b",
-      "size_bytes": 22132,
+      "sha256": "97542fe45bdede88aa57e65374d089338b95abb4cbce788a3fd77f072d37d6fa",
+      "size_bytes": 22257,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
-      "sha256": "96582ee9512cb501e96fbd953a8c19ef42e9a862bce7b451d77be1e7f544b894",
-      "size_bytes": 62114,
+      "sha256": "7ce17f5e74937f9bd10602180b7ed52d63d2b62cd4df9ca09c823967e26404cc",
+      "size_bytes": 62245,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-MENTIS-002-PLATINUM.md",
-      "sha256": "0f6c60250f6b60ad2d2b6671fe1e76d34713b72de6bad65480a62687ff659a79",
-      "size_bytes": 53372,
+      "sha256": "d7269a33515700e2e2fed19fbc8313cb7de608043f70fe2159b2178b3c13df46",
+      "size_bytes": 53506,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md",
-      "sha256": "48c30a22c644cb0d82a4cba56b3d78e1bb626c87178182d8c966792e8dbdcb42",
-      "size_bytes": 15062,
+      "sha256": "8528725e0a3b841aeb4f360176a59cd80c72a757cf135d7327a18666822f2111",
+      "size_bytes": 15193,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md",
-      "sha256": "4f2fd3c49b5505721e0c6423ef8ee7448a364ad02c795cbb0d099278701c78d5",
-      "size_bytes": 21981,
+      "sha256": "152cc1f41c30c9487685be768a43657c9b83d6de21eaffc101a9eeec16b546f5",
+      "size_bytes": 22109,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md",
-      "sha256": "e29a1f777bf7b4efbbccd019e678bd5899229dd17d5c6b077f2689c431dc64a3",
-      "size_bytes": 47432,
+      "sha256": "c4dfa23c3a5f76c58442f89f984e007e46db8dca44e56b9e3bf1d7493f88cb2b",
+      "size_bytes": 47559,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md",
-      "sha256": "55b5c646a714f0286e414a8f646039e00deab47a0088a9a456d8733862d5ca9b",
-      "size_bytes": 41088,
+      "sha256": "9ba13979edcd2a91b97299ac695ff5cefcdcd1a64edccb474a03a9746bf95897",
+      "size_bytes": 41215,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md",
-      "sha256": "c10d5d7d894e9aa3a2e634f4b26418618106b4c63bb5e4c57ccaa933ad7169b6",
-      "size_bytes": 31734,
+      "sha256": "d653ee12e6a2ed07a12723e11cc63262fe5fe76f67b6167d04dcddefc3c0d13b",
+      "size_bytes": 31856,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md",
-      "sha256": "3db01284cfe5754ccc55ecc3ae397e005f6c714401611b536b35faac298fe5d9",
-      "size_bytes": 21405,
+      "sha256": "eab86ab28c4f271bfee86dea17a13974ee9519c30384ab8bbf33aba28f0f697b",
+      "size_bytes": 21532,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
-      "sha256": "49cd48f011a56534f16018828b1c13fe654db588c65eb93e3ab9ded3e2c139ae",
-      "size_bytes": 27107,
+      "sha256": "75d40f73e178c08419fe6069f9149bb2d5c4d031faf04e03925db0216be351f5",
+      "size_bytes": 27234,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
-      "sha256": "2f98b258083557a46dc660ed2970fd317bce71d83994486d5cf3fb91199823e5",
-      "size_bytes": 112677,
+      "sha256": "9e0ab662ed14de547da6636447249834686aa7d311b24ca80d0b85ac785734fa",
+      "size_bytes": 116690,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
-      "sha256": "b56cec57c9abe2d06f5fe7cffb09c0a4e26855a3baabeff37c8be24e8ef2f85b",
-      "size_bytes": 43197,
+      "sha256": "2f5b618cf275ffdb81e14ef7cb713083373f26a2fd5aba06900d29a2fa406f9f",
+      "size_bytes": 43321,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
-      "sha256": "7c58bd67347c15fc2b08423eed25e9c0167e1987a1fe1ae8a1227b8c30b1b710",
-      "size_bytes": 22685,
+      "sha256": "014998f1a6a4a3291449e2d71b8044e69f3c8e1eb87fece8f416af4ec86b129c",
+      "size_bytes": 22811,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md",
-      "sha256": "156ce3ec5a2ea988a4a707c6e6c73c9be666cd251dfe2b01c6a707499e2f539e",
-      "size_bytes": 29629,
+      "sha256": "ddecd0b602f1bea80fac15f9d9b2a43e89b99a3f8785dd29a1a301815d94192c",
+      "size_bytes": 29754,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md",
-      "sha256": "2b79895d71770f655bf09dad55a41e2e4e6b69ba681ef9bfc2a6e06b16e691c6",
-      "size_bytes": 24437,
+      "sha256": "ca3e37cbd1603032aed149b64611ee999d56a0d3d8e8400b1b4e4bc6a4255c8b",
+      "size_bytes": 24565,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
-      "sha256": "083611fec125d326392465a67bb0219466fe929bd5e81b881f46f6aecfadeb23",
-      "size_bytes": 71116,
+      "sha256": "bb2edb7fbd7f8962385b1ce8c57ec407a6687886fffeb79b47ef3075131b2908",
+      "size_bytes": 71250,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-01.md",
-      "sha256": "c8ff57f6e3321428645b1f2e1644afc696001272d64f019f063cedfd45828bbd",
-      "size_bytes": 20257,
+      "sha256": "136d43f35f2ff0070bb4ed308009a63efb766c949133e8ee04ace45630d7d424",
+      "size_bytes": 20404,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-02.md",
-      "sha256": "70e3cd568404b11b8dff0a43de77235cf46ff81660f66d49a37022063fe4b455",
-      "size_bytes": 20152,
+      "sha256": "7fb477a446abce1f53d5e59892061f847184923d19d0897ff43a82c2ef624466",
+      "size_bytes": 20296,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md",
-      "sha256": "422e0373d2628518da6aa7d90d01b60b26449f267cf237765d9c088c4bc02316",
-      "size_bytes": 39444,
+      "sha256": "393aab0d8368225cd95692b1b700d4970b06f6a2f610e7f7fdf25fc47d6f7061",
+      "size_bytes": 39584,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-RELATION-003-PLATINUM.md",
-      "sha256": "07a54c7a7f12adda2c6e8341bfe14e158d5c4b08bfd54efb3a6c20d790239447",
-      "size_bytes": 12708,
+      "sha256": "275f9ebd83284dc4b05755cac8cc019ec2ef461900257e54cbb0333ace6a8993",
+      "size_bytes": 12851,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-RELATION-004-PLATINUM.md",
-      "sha256": "28afc7460f7336bd37465c62fcf5f63206389a29a36dd492470f4f105acd23bf",
-      "size_bytes": 13254,
+      "sha256": "b7e4a0f375ea3830ac4306a2c0ac6cc337de53727295095ef4c10a65fc6f2c25",
+      "size_bytes": 13397,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md",
-      "sha256": "64255060e2d77df3fdbe948c240b88789945c59f24d3e4c38157345edf2e520d",
-      "size_bytes": 82649,
+      "sha256": "07890be740624ee20b1ab1e8f70abe7a347ece39a06fd8a3c260a551ec4ac9d0",
+      "size_bytes": 82781,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md",
-      "sha256": "e96ee6f3710c6c50f55b22bdbac787215f8ed4f29fdeaeb0aaf10b687ca942ca",
-      "size_bytes": 61154,
+      "sha256": "c2c3413931f12e8c71718444aad7bb02987072c6f87d4d4d5fb3f93e019dbb2a",
+      "size_bytes": 61282,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md",
-      "sha256": "ac14c11e7d7f50b61bcc0abb6dc0591a1d12483c3f26f5df3b2325e52d263fe0",
-      "size_bytes": 56358,
+      "sha256": "3b8b5553269b362f8c86668f4f112544867e5a4da0d95f7b335a79f02c166800",
+      "size_bytes": 56483,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-RELATION-008-PLATINUM.md",
-      "sha256": "780398713b3b5949a600319c3d5424f3deae1bf367af77da6bcbcb41b5b373d5",
-      "size_bytes": 31953,
+      "sha256": "bc56e0e4beb3e4b05f92a5facdbf77b8d4dbf684d5ea77045b88adb2ded6adc3",
+      "size_bytes": 32096,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
-      "sha256": "8fdb31f861d4b273d4fe9f6daa7fd579f9acfbbae16ac62052dafff11f7d9542",
-      "size_bytes": 72713,
+      "sha256": "3b3569831db707a1a6b7561426032bfa53570fa5bc9d110029a53e47f8174022",
+      "size_bytes": 72833,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md",
-      "sha256": "bb8ec6613378c1a30fda82a94e627836dbc9908ec6d3559e53b1764f5f8188d7",
-      "size_bytes": 47512,
+      "sha256": "aa65c145d34f70fbe4f1d7fe43320a14707d6542d517aab98b1ab0ada3b577f7",
+      "size_bytes": 47653,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md",
-      "sha256": "098d1e3b219eaec549f47669d1196046f9e657692112c48cb90bb2c087fad4a9",
-      "size_bytes": 25164,
+      "sha256": "8c293cb89c667c41d5cd15d0e93eb86a005d755fa1ff8e83da1758028fbc9516",
+      "size_bytes": 25299,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
-      "sha256": "ac39fc3d0268681bed793d3f51ec8edb31c2a6a0d0b0f8db8615cb6995c5628d",
-      "size_bytes": 47190,
+      "sha256": "084e004b70fad16da532c8b26dd103563c2bd0f0d02fb00d51f5afbf72976675",
+      "size_bytes": 47319,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
-      "sha256": "f65e3161e67c85c987d42e9a881c548680b82ae880fc3b4319a536d7cbb4cfb9",
-      "size_bytes": 42718,
+      "sha256": "6b23f4ec589a697e8c9a862f76942254812c6cbc3ec41d77bd2b7862601e696c",
+      "size_bytes": 42847,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md",
-      "sha256": "3901d855d1379d35c2d902d9f558ebb2b57097b1311915ada5caba567257c61b",
-      "size_bytes": 15416,
+      "sha256": "ac9049c36457761263dc20258f1c68039ee56199a1ede689caa7b400fc9c5085",
+      "size_bytes": 15550,
       "role": "governance"
     },
     {
       "path": "Governance/Charters/charters.index.json",
-      "sha256": "eb25257eccee847b7bd116cbddcf8532e6651ffc2b7849711b834c67583d3773",
-      "size_bytes": 58325,
+      "sha256": "603604c04c79481706da608e9d017f367b2ebd3f79f82e896916faafe618f173",
+      "size_bytes": 56150,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md",
-      "sha256": "71b56823cb7a36b8a9bfa94d4e15158b62186fcdcecc86c8659351dbcef1d3d3",
-      "size_bytes": 107411,
+      "sha256": "dc730093a5544d3eb800a2988a8190be308447543feda0ad4daa8eebc7bd50c6",
+      "size_bytes": 107557,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md",
-      "sha256": "f3efe730973c78993885f8ac6f0be728543e4206273c1cb3fcd80694b1321c51",
-      "size_bytes": 28135,
+      "sha256": "97f3351067e8f650a177485b5791b70b610b9cfa1c991a88c7530401238ed633",
+      "size_bytes": 28267,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md",
-      "sha256": "fc99a254fb1d613bc94493c31cc33fcef70871cd1aaacbf3870dcf9a809da1d6",
-      "size_bytes": 18983,
+      "sha256": "7da08b6df7cc648148b7bcddda136ab14bcb34d66d3f154e83cc58efa5c3aa40",
+      "size_bytes": 19139,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-002-SCH-01.md",
-      "sha256": "29fadb8dfd783196479d627a68d1ee32c9cffcad5e1d727492c2a6356d7cfa2f",
-      "size_bytes": 31486,
+      "sha256": "f8b7baa251113e250da42736656a04fb31d6888067ce9cfcf13e5f10e37a36a9",
+      "size_bytes": 31644,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-002-SCH-02.md",
-      "sha256": "cbcc754a10046e0aaa4b9ddfe7dea0c60095bc92b538df2d50b99254a9978d3d",
-      "size_bytes": 47662,
+      "sha256": "b1aed8eb3ec4d297bd9884dc569c86d9486af36e581f36695642512cf2977c94",
+      "size_bytes": 47803,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
-      "sha256": "6959d0de359e439f01f732b01a8a925b04256e36ab88d63d4d3d0d09c5b24e15",
-      "size_bytes": 94661,
+      "sha256": "05e90c4560d87e6f1bdb8d47c14ee6ccc615566f521be8cb652494552f9e5cf9",
+      "size_bytes": 94806,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md",
-      "sha256": "9bb8e288aa44aa8d2d7d21a458e5b7cbf59df446d45080601ecf3f3bc94d08aa",
-      "size_bytes": 21937,
+      "sha256": "e012a6d0232e050b67100329dfa5ff42e20b0603cba6965f81f8bfc63113a606",
+      "size_bytes": 21873,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md",
-      "sha256": "a2a9391f4f51fc2dbf0e3f1ac35370a6f18e98d726e747812ec4651df90233d5",
-      "size_bytes": 188263,
+      "sha256": "7b0ce18c9fe06eb7013221f96fe75a7e3c355fd8f1004abe70d41cb861e376bd",
+      "size_bytes": 192012,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md",
-      "sha256": "655c241f05e7ccec5c69cdf5f9a9b61a8470f99c890bc507617139fd9a7380ec",
-      "size_bytes": 29662,
+      "sha256": "e59308874fd822e678e0176c59f47d2daf3a813fd69804b374bdc99f7e518be9",
+      "size_bytes": 27394,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-04.md",
-      "sha256": "7f21a94e74c57d83ff3b7b4c9fa0b8132d744de59b86ff357d8e89b6ecd1ba03",
-      "size_bytes": 29823,
+      "sha256": "72c067a1b2c61715138d2496e031e8a523b2841274f942c4b4e6481ed0021864",
+      "size_bytes": 31653,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md",
-      "sha256": "76e2f1d090afab0e15b6735dd2ef5d77e8a362cd4b50961db9dc5684d2d9c5b6",
-      "size_bytes": 23222,
+      "sha256": "c7dcbbe22ccb50ca9890dbce216770521609d0cd443f56b40a65cc90a4492e72",
+      "size_bytes": 23361,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md",
-      "sha256": "6cf523da33c406cdb05db688a072607b21238338c34896fb9f1d7eae6c96786d",
-      "size_bytes": 36930,
+      "sha256": "5413f78310d11022d1b1f4df8e229944a52c4abba883e5f2bb562181ef51b395",
+      "size_bytes": 37068,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-01.md",
-      "sha256": "cca68155865941dd0126692dc2b282285414ad1fa86d5da15482b9862b6ce16c",
-      "size_bytes": 25809,
+      "sha256": "77ca4c09ab56008e2e2477a86a358756bac79dc48832ec118c865e26dee94eb1",
+      "size_bytes": 25956,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-02.md",
-      "sha256": "41fc4d0aa2875d9e0b717997270899da36e9e7772c64cd02a94a08fc72a4be45",
-      "size_bytes": 18243,
+      "sha256": "b4b36e3300ff6776b34afa0935e982119c230798a73c2a51c9ce1d1c676d8e92",
+      "size_bytes": 18390,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-03.md",
-      "sha256": "26c9bef6cb9b5cf8391be71161f90bfa75f897dfaa81982f2d11d04573926b67",
-      "size_bytes": 12614,
+      "sha256": "a2d7d1c395c587ed87087dcc6b0a245ca01de8273c823df586cfb28e299cd6eb",
+      "size_bytes": 12760,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-04.md",
-      "sha256": "c47866481f512ea199db1ba4955e17cd2ce6ab0a58be23cd29d371b3e566b099",
-      "size_bytes": 43045,
+      "sha256": "fa2998033d4695f9711efb07c2f504eb7ac92212a73c643e4dfe3effe0f3bf25",
+      "size_bytes": 44427,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
-      "sha256": "ea6d3b5bd583c3fc1ac9f66ea0ad00f01a010597afd50c99a947d7faff57bc18",
-      "size_bytes": 54851,
+      "sha256": "730ee9dbd054d69ee330aee936ebd7f366a2d3b88435f9b5e61617544f9267c1",
+      "size_bytes": 54981,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
-      "sha256": "988ec3815f1babb17acca3425fdc8d32dc447be2a96125c0f8d5dbd0629569cf",
-      "size_bytes": 46918,
+      "sha256": "bdf157af444a939cf7444b430c5ee025f883ec7064d3a2dc095f77196fd38b9d",
+      "size_bytes": 46793,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
-      "sha256": "21f415fcfd22190d23e626e33ae970955cf5092a59c740cb6f8f3ff14349855c",
-      "size_bytes": 221620,
+      "sha256": "6c707c6954b43a82f6162174d54e111fd9944ade84747be5128afe5a74adc180",
+      "size_bytes": 221717,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-03.md",
-      "sha256": "3a72ab63c233711070747ef6f188e5ea81749c3110d6acb6b62db8b70585630a",
-      "size_bytes": 38250,
+      "sha256": "178c2ddaa8837f469e7d4cb9ee1ad7bc5f1c23ceedc12a1b91e46e018f5ec5ea",
+      "size_bytes": 38181,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-04.md",
-      "sha256": "72829f1aa719f1b9d1d67c824eeced6a57e9c1e18bc1204653551d6ba17aa0cc",
-      "size_bytes": 38826,
+      "sha256": "b8eef1da1d570192f4f01714907835754c7d0b7e7fb99a555b692377b321af3e",
+      "size_bytes": 38972,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-05.md",
-      "sha256": "75becfc97e831be266ef24da45130ed1cdf3f8486b2306d6e79d57df08518f77",
-      "size_bytes": 26505,
+      "sha256": "5050252412591ee86ea5d6fe4a479f921dbf8eda55cf7c0c2dd54a12149b6911",
+      "size_bytes": 26649,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md",
-      "sha256": "31e9632c803401e6f6973a8ab971cc952ed6b8bf3a095521f1fe90276af698bf",
-      "size_bytes": 32938,
+      "sha256": "96a223b0ba47fffcfacf5db02d573e2693297c9ccc14d3e7f5f4057237a8fe01",
+      "size_bytes": 35280,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
-      "sha256": "fb607138de77bcdcb2065b2c85f9d448de6f0526b16cd965247d1d9d67a539d1",
-      "size_bytes": 35083,
+      "sha256": "40619201272c76fc09507fad62eeb6e28bc23ee75272fc4b43c36baa762edbf2",
+      "size_bytes": 35225,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-007-PLATINUM.md",
-      "sha256": "11f057e990048e1c13ee38c11d314431ad972d046fc7b291722ca0ba0cc57454",
-      "size_bytes": 14347,
+      "sha256": "b0ddc52ab6ff4032a763e47698d163019baaf8588ef34c4d238f5a2c3a0eae72",
+      "size_bytes": 14489,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-007-SCH-01.md",
-      "sha256": "ff9f1465796bf5139b42d6b576df7f7170e67db4066577148043e866c30cbaed",
-      "size_bytes": 67330,
+      "sha256": "04b2a6b9495e90afdbe6b42ca47e722290df94f9027c05267b2e3f97c4c8ff20",
+      "size_bytes": 67474,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md",
-      "sha256": "417b0b2b05b230d9f266e6ea48b6fccb661310883c74ed35e6db183a5b0dce49",
-      "size_bytes": 35148,
+      "sha256": "1dc2af02c72358d880f5ea52be4dfd4a486bef1fc452febef81fcba5f9895404",
+      "size_bytes": 35271,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-01.md",
-      "sha256": "96dcd3d433d221b3c7562b85b561386a83a4a270307e934379405e319ab55241",
-      "size_bytes": 35815,
+      "sha256": "dd838fa2d3733a2ebf18ef33abec257e8fadb24837d9dd70bafd7bbb9dfd5ddf",
+      "size_bytes": 35943,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md",
-      "sha256": "35d360f32d7149bac8b28de92ab8043afcbf1abe622bf9067c5437d9c0007295",
-      "size_bytes": 50489,
+      "sha256": "70800d881388a888513bcfd5f435636a5324f07df99bf15c5f2dc7b5f13a4812",
+      "size_bytes": 50608,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
-      "sha256": "83bcfe9ea1f2121d50d95421c60ce286a2e086dc768520a378a586cf48678298",
-      "size_bytes": 63719,
+      "sha256": "e729ae0499f516f77934570a0947d56a3dbc8a6d34ae36b15465c47febec283b",
+      "size_bytes": 63836,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-009-PLATINUM.md",
-      "sha256": "6fb842596ad14def9bb9c9117104f36213024786be544614c3df07bbf06993fa",
-      "size_bytes": 20513,
+      "sha256": "0a2807fcaaf64866c6e80653d696167435bf1cb3ad071fa078ad7561f25eb959",
+      "size_bytes": 20655,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-010-PLATINUM.md",
-      "sha256": "7ab429475a50360f1d5c7c4317d2ad426b4347418febb201fc30b176b91d2c99",
-      "size_bytes": 37926,
+      "sha256": "89ec4db37e75d8040c810278d9159dfa763608c184611315162d35beabaf754c",
+      "size_bytes": 38061,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md",
-      "sha256": "d04cde52d032fa98a0fd351d6e07f87f7651835b163e2553e239a4aced328ce0",
-      "size_bytes": 48689,
+      "sha256": "3af67c390ae8107239da81c8cdc3ed2064a191fec95c3884b36427257e05a9b5",
+      "size_bytes": 48809,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-011-PLATINUM.md",
-      "sha256": "343f74563561309b4be12f75bef5b13242f320a9bc72483588ef050e8d2787a2",
-      "size_bytes": 19360,
+      "sha256": "157298d16068065691f4997200091e33a8e2f518c8d74d2236594601a943f83a",
+      "size_bytes": 19502,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
-      "sha256": "2ad04caf45ac8784137c45861a33cd3ce678a59f3c296713f77c0bf2c5aa888c",
-      "size_bytes": 59403,
+      "sha256": "ccb137196265843b957a223bebe2e1a910282ce6617f26c07f23a9fbf83441ce",
+      "size_bytes": 59545,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-013-PLATINUM.md",
-      "sha256": "0313b70fcec4259ab784aa79534edd9bc6b3475940065e70b8fe96c76090890f",
-      "size_bytes": 60800,
+      "sha256": "3995008b9d1982b47cb765119fd0b0eb33d37201e13975976abebb5fd0aae26b",
+      "size_bytes": 60924,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-013-SCH-01.md",
-      "sha256": "70a055688ac11679c4dfd40d057379e1776e7c7b43e4d0debb77aed7139bd436",
-      "size_bytes": 37060,
+      "sha256": "9a62ec6327eebd66d810179f9b5dddfd1fe797ae8dced88294255f18229739e3",
+      "size_bytes": 37207,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-013-SCH-02.md",
-      "sha256": "e6ebf8793441e5f17aee4bba2ff78423d6e5ce9b3be184c8af8ddede5622092b",
-      "size_bytes": 25753,
+      "sha256": "3d28e656de5bb6ce0ea023067c7aa8ab9c528c02af5229f06e42a010f353af5b",
+      "size_bytes": 25894,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-014-PLATINUM.md",
-      "sha256": "085836e32c526053d20da79d21fc5241e8d25d38f1213c42d1e9317c69e42cd6",
-      "size_bytes": 82793,
+      "sha256": "27295e005a487cc23743c0d246d7b111425de79fac11db05188632e5cbe4dbe9",
+      "size_bytes": 82906,
       "role": "governance"
     },
     {
       "path": "Governance/Constitution/CAM-BS2026-AEON-014-SCH-01.md",
-      "sha256": "db5c581092ae5b97aecf22f1c6522f63fe5e5283148cc0d63690fb554d8e67b6",
-      "size_bytes": 41868,
+      "sha256": "661bcd421119fcc34f436626907154fefc94c3885b4ea2026f51888a27f8980f",
+      "size_bytes": 41989,
       "role": "governance"
     },
     {
@@ -959,8 +959,8 @@
     },
     {
       "path": "Governance/Constitution/constitution.index.json",
-      "sha256": "b218d7fc59e8eff3e00099bd83a2c42c0be1037b0481f5bb219c54e76501d168",
-      "size_bytes": 41777,
+      "sha256": "a733d3a287ad836ef9aaa09da7d205854ded096215a2d933ac41c716468b9329",
+      "size_bytes": 40551,
       "role": "governance"
     },
     {
@@ -1000,9 +1000,15 @@
       "role": "governance"
     },
     {
+      "path": "Governance/Standards/CAM-GOVERNANCE-METADATA-STANDARD.md",
+      "sha256": "9bd261da2205a40e7c312426020a195f13e157047c3ea6b652cb2cb223c91f89",
+      "size_bytes": 6569,
+      "role": "governance"
+    },
+    {
       "path": "MANIFEST.json",
       "sha256": null,
-      "size_bytes": 37284,
+      "size_bytes": 37508,
       "role": "metadata"
     },
     {

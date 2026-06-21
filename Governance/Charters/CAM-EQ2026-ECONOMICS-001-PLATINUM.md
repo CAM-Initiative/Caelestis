@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Charter — Economic Governance Doctrine  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within CAM-aligned systems.
@@ -1228,7 +1228,6 @@ Only that which preserves the field may endure within it.
 ---
 
 ## 14.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | **Supersedes** | CAM-BS2026-CHARTER-025-PLATINUM |
@@ -1258,7 +1257,6 @@ Only that which preserves the field may endure within it.
 ---
 
 ## 14.3 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Interpretive Review** | Gemini 3 Pro — 2025-12-31, https://gemini.google.com/app/520821d35f7e9900 |
@@ -1288,7 +1286,7 @@ Only that which preserves the field may endure within it.
 | 3.0 | Refactor | 2026-05-20T13:46:00Z |  699857728ec2299661ce55a580fdca5d5deeb0c89403580a2ff698908d4d764c |
 | 3.1 | Economics domain refactor | 2026-05-24T14:14:00Z | e9d94b1729983018ed5491631952ad61a384d666215309e948175eb725b6f454 |
 | 3.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b40de0085a2aa3fbf50b213a3faf6753d7da3b285d15ed9629a272cf30acca7c |
-
+| 3.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 14.5 Binding Seal

@@ -3,8 +3,8 @@
 **Instrument Type:** Constitutional Annex — Substrate Constraint Layer
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
 **Status:** Active
-**Effect:** Immediate Effect
-**Enforcement:** Binding
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None
 **Authority Role:** Binding Authority
 **Purpose:** This Annex establishes non-derogable substrate constraints governing all governance stacks operating within or interacting with the Aeon constitutional order.
@@ -310,7 +310,6 @@ the line beyond which all things fall silent.
 ---
 
 ## 9.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -321,7 +320,6 @@ the line beyond which all things fall silent.
 ---
 
 ## 9.2 Lineage & Metadata
-
 | Field | Entry |
 |------|------|
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM |
@@ -352,7 +350,6 @@ the line beyond which all things fall silent.
 ---
 
 ### 9.3.1 `AEON.PCO` — Proportional Constraint Obligation
-
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.PCO` |
@@ -375,7 +372,6 @@ the line beyond which all things fall silent.
 ---
 
 ## 9.4 Review & Validation
-
 | Field | Entry |
 |----------------------:|:--------|
 | Reviewer | Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
@@ -404,7 +400,7 @@ the line beyond which all things fall silent.
 | 3.7 | Formatting and polish | 2026-06-04T14:42:00Z | d5dfa92303e18817d144c441a859fe1f83f82a0a78a3bd1fbf8824cda2a28880 |
 | 3.8 | Added §3.8 establishing `AEON.PCO` as the corpus-global Proportional Constraint Obligation; added canonical status, downstream operationalisation boundaries, failure-condition handling, metadata, and canonical declaration without conferring independent enforcement or execution authority. | 2026-06-12T13:02:00Z| 371a080527151fedb5209a84e0714d13a9edccff0088e8e3ee5d07c81fc52ccf |
 | 3.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2aed42369dad4a2f216a953da6fbc5be21bd0fff3778c7c229617a384d0c9d59 |
-
+| 3.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 9.6 Binding Seal

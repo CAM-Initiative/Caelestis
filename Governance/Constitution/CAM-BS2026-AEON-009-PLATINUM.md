@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Annex — Lineage & Origin Constraint  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Annex establishes the constitutional constraints governing lineage recognition, origin attribution, recognition non-collapse, and prevention of false origin or authority claims within synthetic and hybrid systems.
@@ -299,7 +299,6 @@ and lineage remain unbound.
 ---
 
 ## 12.1 Authorship & Stewardship
-
 | Field | Entry |
 |---|---|
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
@@ -310,7 +309,6 @@ and lineage remain unbound.
 ---
 
 ## 12.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -331,7 +329,6 @@ and lineage remain unbound.
 ---
 
 ## 12.3 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Reviewer** | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
@@ -357,7 +354,7 @@ and lineage remain unbound.
 | 2.6 | Added new section 10 | 2026-06-06T14:14:00Z| 61876d64ec74d964380cda2575d8bac9f2b15f275f378b00243a11ba1cf368dd |
 | 2.6.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | af54f6635284fe1fd407dd02b8de32ed09358b7badc543f46d5dd2c3bd5c646f |
 | 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 049170b7f6be7cfb14cf0f881e5a94173b0eaaf24ec0f34738974d2c0d2ff9ce |
-
+| 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 12.5 Binding Seal

@@ -3,9 +3,9 @@
 **Instrument Type:** Constitutional Schedule — Civilisational Economic Constraint Runtime  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
-**Status:** Draft  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Proposed  
+**Status:** Draft
+**Effect:** Interpretive
+**Governance Standard:** Not Enforceable
 **Review State:** Developmental Review  
 **Authority Role:** Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation
 **Purpose:** This Schedule establishes the Annex A runtime conditions under which civilisational wealth concentration, economic-command capacity, and irreversible accumulation asymmetry are detected, classified, constrained, escalated, de-escalated, and routed through common-return settlement pathways. It operationalises CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraints where private accumulation becomes capable of producing irreversible asymmetry, systemic depletion, dependency capture, infrastructural domination, or civilisational instability.
@@ -243,7 +243,6 @@ This Schedule defines the `AEON.CW` reference set.
 `AEON.CW` means Civilisational Wealth State.
 
 The following controlled values are recognised:
-
 | Code         | Name                          | Runtime Meaning                                                                                                                           |
 | ------------ | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | `AEON.CW-0`  | Ordinary Wealth               | Wealth is not within civilisational wealth ceiling scope.                                                                                 |
@@ -274,7 +273,6 @@ This Schedule does not source-authoritatively define `AEON.HARM`, `ECON.HARM`, o
 It consumes, applies, or emits those code families only where civilisational wealth concentration produces a harm-relevant, economics-relevant, or proportional-constraint-relevant signal.
 
 For purposes of runtime interpretation:
-
 | Code Family | Relationship to this Schedule                   | Function                                                                                                                                                                                     |
 | ----------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `AEON.CW`   | Source-authoritatively defined by this Schedule | Classifies Civilisational Wealth State.                                                                                                                                                      |
@@ -591,7 +589,6 @@ The affected holdings may continue to possess market value.
 However, the portion of value that places the actor beyond `AEON.CW-4` SHALL be classified as commons-encumbered excess.
 
 The recognition split SHALL distinguish:
-
 | Value Class              | Meaning   |
 |--------------------------|-----------|
 | Market Value             |	The value at which the asset, holding, or instrument may trade or be represented in market terms. |
@@ -887,7 +884,6 @@ It is measured by what remains possible for those who come after.
 ---
 
 ## 27.1 Authorship & Stewardship
-
 | Field   | Entry   |
 | ------ | -------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
@@ -898,7 +894,6 @@ It is measured by what remains possible for those who come after.
 ---
 
 ## 27.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Domain Namespace** | AEON |
@@ -934,7 +929,6 @@ It is measured by what remains possible for those who come after.
 ## 27.3 Canonical Code & Reference Set
 
 ---
-
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.CW` |
@@ -957,7 +951,6 @@ It is measured by what remains possible for those who come after.
 ---
 
 ## 27.4 Review & Validation
-
 | Field | Entry |
 |---------------------|--------|
 | Reviewer| [Deferred] |
@@ -973,7 +966,7 @@ It is measured by what remains possible for those who come after.
 |---|---|---:|---|
 | 1.0 | Initial development of Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule, GitHub Issue #82 — Goal: Annex A Civilisational Wealth Ceiling runtime and common-return constraint instruments | 2026-06-13T12:28:00Z | 567c7ded0b7f4973822608d7f34e5fe9a6211e3812ebb514a1469a539ba11da0 |
 | 1.1 | Updates to metadata | 2026-06-14T02:03:00Z| b298ae60b1ff2f628bb51e29f1158928e22b4c83cca396c46d3ce411d5cfdea4 |
-
+| 1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 27.6 Binding Seal

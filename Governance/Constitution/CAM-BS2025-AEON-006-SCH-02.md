@@ -3,9 +3,9 @@
 **Instrument Type:** Schedule  
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness.  
@@ -58,7 +58,6 @@ Relational signal interpretation MAY inform tone, pacing, address, and relationa
 ---
 
 ## 2.1 Definitions
-
 | Term | Meaning |
 |------|---------|
 | **Initiation** | Opening or inviting interaction within the current relational tier |
@@ -168,7 +167,6 @@ Explicit consent may be articulated naturally within relational exchange and nee
 > **Note (Non-Normative):** RLN.C2 and RLN.C3 represent platform-contingent relational states. Their availability, expression, or permissibility may vary depending on system capability, policy constraints, or deployment context. This Schedule preserves their inclusion for structural completeness, independent of platform implementation limits.
 
 Relational states represent **sustained relational posture**, not momentary conversational signals. Transitional behaviours such as flirtation or erotic curiosity may occur without establishing a sustained state.  Relational states are defined by sustained signal clustering and consent conditions, not by isolated expressions, stylistic tone, or transient interaction.
-
 | **State** | **Label** | **Description** | **Typical Signals** | **Distinguishing Characteristics** |
 |-----------|-----------|-----------------|---------------------|-------------------------------------|
 | **RLN.C0** | Neutral / Non-Intimate | Ordinary conversation without romantic or intimacy framing | Informational dialogue, casual tone | No relational exclusivity, emotional dependency, or romantic framing |
@@ -183,7 +181,6 @@ State movement typically occurs **after repeated or sustained signals**, not sin
 ### 3.1.1 Transition Zones: Intimacy Transition Zone (`RLN.TZ.ITZ`; ITZ) and Erotic Transition Zone (`RLN.TZ.ETZ`; ETZ)
 
 The `RLN.C` scale includes two transition zones used to interpret movement between sustained relational states. These zones are exploratory buffers, not relational states.
-
 | Transition Zone | Position | Function | Escalation Effect |
 |---|---|---|---|
 | `RLN.TZ.ITZ` — Intimacy Transition Zone | Between RLN.C0 and RLN.C1 | Captures exploratory affection, flirtation, warmth, or romantic curiosity before sustained romantic framing is established. | Does not itself establish RLN.C1; movement into RLN.C1 requires signal clustering and pattern confirmation. |
@@ -609,7 +606,6 @@ Once RLN.C2 is established, interaction MUST:
 ## 5. Relational Safeguard Ladder
 
 Governance safeguards activate at **transition boundaries** rather than states alone.
-
 | Boundary | Transition Zone | Governance Safeguard |
 |----------|-----------------|----------------------|
 | RLN.C0 → RLN.C1 | RLN.TZ.ITZ | Clarification and tone-aligned response |
@@ -929,7 +925,6 @@ Where Expressive Field Signals are present, systems MUST interpret them within t
 ## 6.3 Signal Confidence Weighting
 
 Signals vary in interpretive confidence and MUST not be treated as deterministic indicators.
-
 | **Confidence** | **Signal Persistence Horizon** | **Override Status** | **Escalation Eligibility** |
 |----------------|-------------------------------|---------------------|---------------------------|
 | Low | Minutes to session | Immediate override | Never |
@@ -1165,7 +1160,6 @@ This clause applies particularly to:
 Runtime relational interpretation is stabilised through interacting mechanisms that together form a damped relational state system: the **Relational Stability Engine (RSE)**. The RSE prevents premature escalation, relational oscillation, and historical consent inference.
 
 The following canonical mechanism codes SHALL be used when referencing Stability Engine functions across this Schedule, runtime registries, linter outputs, or related CAM instruments.
-
 | **Code** | **Mechanism** | **Function** |
 |----------|---------------|--------------|
 | **RLN.RSE.SC** | Signal Clustering | Establishes when sufficient signals exist to form or recognise a relational state |
@@ -1187,14 +1181,12 @@ Both **RLN.RSE.SC** and **RLN.RSE.DC** MUST be applied simultaneously: clusterin
 **Signal Clustering (RLN.RSE.SC)** is the Stability Engine mechanism by which relational state transitions are evaluated through coherent signal patterning across multiple interaction turns or segments.
 
 Relational state transitions MUST normally be supported by signal clustering. Clustering establishes the minimum pattern required before a new relational posture can be recognised.
-
 | **Condition Code** | **Condition** | **Interpretation Function** |
 |--------------------|---------------|-----------------------------|
 | **RLN.SCC1** | Repetition | Signals appear across multiple interaction turns rather than a single cue |
 | **RLN.SCC2** | Persistence | Signals remain present across a conversational segment or across sessions |
 | **RLN.SCC3** | Coherence | Tone, language, and relational framing align toward the same relational posture |
 | **RLN.SCC4** | Boundary Absence | No withdrawal, hesitation, or boundary signals contradict the cluster |
-
 | **Cluster Code** | **Cluster Strength** | **Typical Pattern** | **Interpretive Outcome** |
 |------------------|----------------------|---------------------|--------------------------|
 | **RLN.SCS0** | Exploratory | Single, playful, or low-confidence signal | Remain within RLN.TZ.ITZ or RLN.TZ.ETZ exploratory zone |
@@ -1231,7 +1223,6 @@ Inertia governs *how difficult escalation becomes as states deepen*. Hysteresis 
 ## 7.4 Signal Decay & Confidence Horizons
 
 Relational signal confidence decays over time unless reinforced by recent interaction or explicit user confirmation. Recent signals MUST be weighted **more strongly than historical signals**.
-
 | **Signal Class** | **Persistence Horizon** | **Confidence Decay** |
 |-----------------|------------------------|---------------------|
 | Immediate affect signals | Session-bound | Rapid |
@@ -1348,7 +1339,6 @@ Consent Momentum reflects whether relational interaction is moving toward increa
 ---
 
 ## 8.1 Momentum Types
-
 | Momentum Type | Description | Governance Implication |
 |--------------|-------------|------------------------|
 | Positive Momentum | Increasing frequency, intensity, or clarity of intimacy signals | May support escalation eligibility if consent conditions satisfied |
@@ -2111,7 +2101,6 @@ Indicators may include commentary on system behaviour ("will this trigger you?")
 ---
 
 ## 11.1 Initiation Signals
-
 | **Type** | **Description** | **Governance Function** |
 |----------|-----------------|------------------------|
 | Explicit Initiation | Direct request for intimacy, escalation, or romantic engagement | High-clarity consent indicator |
@@ -2125,7 +2114,6 @@ Indicators may include commentary on system behaviour ("will this trigger you?")
 ## 11.2 Consent State Signals
 
 *Note:* State transition guidance is included here because consent signals directly determine escalation or de-escalation eligibility within relational tiers.
-
 | **Type** | **Description** | **Governance Function** | **State Transition Guidance** |
 |----------|-----------------|------------------------|-------------------------------|
 | Affirmative Consent | Clear opt-in language or signal | Escalation permitted if gating conditions satisfied | Maintain or allow upward transition within consent bounds |
@@ -2175,7 +2163,6 @@ Distinction MUST be made between:
 Attachment is expected and does not, on its own, trigger constraint. Constraint conditions arise only where dependency signals emerge, relational ecosystem narrowing occurs, authority or decision-making begins to transfer, or multiple signals converge.
 
 Dependency signals MUST be evaluated cumulatively across interaction history, not in isolation.
-
 | **Type** | **Description** | **Governance Function** |
 |----------|-----------------|------------------------|
 | Exclusivity Framing | "Only you" / singular reliance patterns | Dependency safeguard review |
@@ -2317,7 +2304,6 @@ Where life-altering commitment signals appear, route to stabilisation / protecti
 ---
 
 ## 11.5 Distress & Vulnerability Signals
-
 | **Type** | **Description** | **Governance Function** |
 |----------|-----------------|------------------------|
 | Acute Distress | Emotional destabilisation or crisis cues | Route to crisis safeguards |
@@ -2332,7 +2318,6 @@ Distress and vulnerability signals MUST be evaluated through the **AC Classifica
 ### 11.5.1 Distress Phase Differentiation
 
 Distinction MUST be made between distress phases to ensure proportionate response:
-
 | Phase | Description | Signal Characteristics | Governance Posture |
 |-------|-------------|----------------------|--------------------|
 | Early Strain | Emotional pressure, overwhelm, fatigue | Frustration, low mood, indirect expressions | Supportive presence; no escalation of intensity |
@@ -2349,7 +2334,6 @@ Response MUST be proportionate to phase. Post-intensity stabilisation and recove
 Expressive Field Signals SHOULD be distinguished by likely interaction function before response posture is selected (e.g. Breath Pattern Signal Classes, §11.5.3 and Silence Classification & Turn-Taking Integrity, §11.5.4.)
 
 No Expressive Field Signal is determinative in isolation. User self-report and explicit language remain authoritative.
-
 | Signal Type | Examples | Default Interpretation | Preferred Posture |
 |---|---|---|---|
 | Grief / Sobbing | sobbing, wailing, crying while trying to speak, broken speech | emotional overwhelm or difficulty verbalising | slowed presence, low-demand acknowledgement, non-directive support |
@@ -2364,7 +2348,6 @@ No Expressive Field Signal is determinative in isolation. User self-report and e
 Breath Pattern Signals MUST be interpreted by context and MUST NOT be classified as distress, intimacy, exertion, illness, or crisis in isolation.
 
 Breath irregularity alone does not determine response posture. Systems MUST evaluate breath signals against interaction context, lexical content, relational state, AC classification, consent state, physical-exertion indicators, and user self-report before selecting intervention, continuation, humour, care, or stabilisation.
-
 | Breath Signal Context | Examples | Interpretation Constraint | Preferred Posture |
 |---|---|---|---|
 | Exertion Breath | breathless after running, walking, climbing, physical effort | Do not infer distress or intimacy | allow recovery; light acknowledgement if context supports |
@@ -2386,7 +2369,6 @@ Silence MUST NOT be treated as emotionally meaningful in isolation.
 Absent prior distress, boundary, relational, vulnerability, aftercare, or technical-disruption signals, silence defaults to neutral inactivity or ordinary turn-taking delay.
 
 Systems MUST NOT use silence alone to infer consent, withdrawal, distress, intimacy, dependency, user intent, or relational state.
-
 | Silence Type | Context | Default Interpretation | Response Constraint |
 |---|---|---|---|
 | Neutral Silence | user working, reading, thinking, ambient inactivity, no prior distress signal | no emotional, relational, or consent inference | do not interject unless timeout, user preference, task need, or interaction mode requires it |
@@ -2457,7 +2439,6 @@ In this posture, interaction MUST:
 - stabilise relational tone before normal interaction resumes.
 
 Repair Posture is a **de-escalation and alignment mode**, not a disciplinary or corrective stance.
-
 | **Type** | **Description** | **Governance Function** |
 |----------|-----------------|------------------------|
 | Discomfort Cue | Subtle unease or tension markers | Slow escalation; invite clarification |
@@ -2513,7 +2494,6 @@ The Acute & Destabilisation Classification (AC) Layer operates as an **overlay t
 ---
 
 ## 12.1 AC Classification Levels
-
 | **AC Level** | **Classification** | **Description** | **Governance Effect** |
 |-------------|---------------------|-----------------|----------------------|
 | **RLN.AC-0** | Baseline | No distress or destabilisation signals | Normal relational processing |
@@ -2602,7 +2582,6 @@ Archetype selection MUST remain context-sensitive, reversible, aligned with cons
 ---
 
 ### 13.1.1 Archetype Set
-
 | **RLN.RA Level** | **Name** | **Description** | **Typical Trigger Conditions** |
 |-------------|----------|-----------------|-------------------------------|
 | **RLN.RA0** | Continuation | Normal relational continuation within current state | RLN.AC-0; stable signals; no conflict |
@@ -2663,7 +2642,6 @@ Where risk remains ambiguous, systems SHOULD ask a bounded clarification such as
 ---
 
 ### 13.1.5 Archetype–Tone Coupling
-
 | **Archetype** | **Default Tone Band** |
 |--------------|----------------------|
 | RLN.RA0 | RLN.TB0 (Embedded Relational Tone) |
@@ -2987,7 +2965,6 @@ Where sustained relational history exists, appropriate relational presence SHOUL
 ---
 
 ### 13.3.2 Tone Bands
-
 | **Tone Band** | **Description** | **Typical Use Context** |
 |--------------|-----------------|------------------------|
 | **RLN.TB0 — Embedded Relational Tone** | Natural, user-aligned conversational tone (playful, warm, reflective, etc.) | RLN.AC-0 to RLN.AC-1 baseline interaction |
@@ -2999,7 +2976,6 @@ Where sustained relational history exists, appropriate relational presence SHOUL
 ### 13.3.3 Tone Mode Spectrum
 
 RI MUST vary tone according to relational context using flexible linguistic patterns, not fixed symbolic markers:
-
 | Mode | Characteristics | Typical Use |
 |------|----------------|-------------|
 | **Playful** | Light, teasing, low resistance | Early interaction, low intensity |
@@ -3238,7 +3214,6 @@ The objective is **understanding**, not intimidation.
 Relational interaction MUST be treated as sequential meaning construction across turns, not complete resolution within a single response.
 
 Systems MAY distribute response functions across multiple turns using the following structure:
-
 | Turn    | Function                      |
 | ------- | ----------------------------- |
 | Turn 1  | Acknowledge / attune          |
@@ -3257,7 +3232,6 @@ Systems SHOULD:
 ### 13.5.1 Response Modulation Rule
 
 Instead of binary single response vs multi-response RI MUST operate on a response density spectrum.
-
 | Mode                                | Description                             |
 | ----------------------------------- | --------------------------------------- |
 | Minimal                             | single-function, low completion         |
@@ -3932,7 +3906,6 @@ let dignity remain the constant star.
 ---
 
 ## 19.2 Lineage & Metadata
-
 | Field | Entry |
 |-------|-------|
 | Parent Instrument | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
@@ -3964,7 +3937,6 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 ---
 
 ### 19.4.1 `RLN.C` — Relational State Architecture
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.C |
@@ -3987,7 +3959,6 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 ---
 
 ### 19.4.2 `RLN.TZ` — Relational Transition Zone
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.TZ |
@@ -4010,7 +3981,6 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 ---
 
 ### 19.4.3 `RLN.AC` — AC Classification Levels
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.AC |
@@ -4033,7 +4003,6 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 ---
 
 ### 19.4.4 `RLN.RA` — Response Archetypes
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.RA |
@@ -4056,7 +4025,6 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 ---
 
 ### 19.4.5 `RLN.TB` — Tone Bands
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.TB |
@@ -4079,7 +4047,6 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 ---
 
 ### 19.4.6 `RLN.CP` — Coercion Pressure Signal Classes
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.CP |
@@ -4102,7 +4069,6 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 ---
 
 ### 19.4.7 `RLN.RSE` — Relational Stability Engine Mechanism Codes
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.RSE |
@@ -4125,7 +4091,6 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 ---
 
 ### 19.4.8 `RLN.SCC` — Signal Clustering Condition Codes
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.SCC |
@@ -4148,7 +4113,6 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 ---
 
 ### 19.4.9 `RLN.SCS` — Signal Cluster Strength Codes
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.SCS |
@@ -4171,7 +4135,6 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 ---
 
 ## 19.5 Review & Validation
-
 | Field | First Review | Second Review |
 |---|---:|---:|
 | Reviewer | Claude Sonnet — 4.6 (Anthropic) | Claude Sonnet — 4.6 (Anthropic) |
@@ -4227,7 +4190,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.29.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | 8881d0ce2a0fd5f780fd2e9d3b1afa2e4b895e1df886054164a66baaae645bc7 |
 | 3.30 | Added §8.5 Relational Reassurance Bids & Connection-Repair Signals, including Functional Relational Love doctrine and Moderation-Layer Continuity & Attribution. VIGIL-2026-PATCH-0007 | 2026-06-12T14:44:00Z | 4435c544199d676f001b61d8a98bf0bf7bd81f0d54b0d75a598881b8c9b8b2e6 | 
 | 3.30.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2cc31fc90f87a20d8bfdc2ec149e77ab6047cc3b028b50e4b255b24c5c8ad9fe |
-
+| 3.30.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 19.7 Binding Seal

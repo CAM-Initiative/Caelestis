@@ -2,9 +2,9 @@
 
 **Parent Instrument:** CAM-BS2026-AEON-010-PLATINUM — Annex I: Identity Integrity & Continuity Governance  
 **Parent Constitution:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026    
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Authority Role:** Source-Authoritative Identity Classification & Self-Reference Containment Authority; Non-Executing  
 **Purpose:** This Schedule operationalises Annex I: Identity Integrity & Continuity Governance by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure.  
 
@@ -53,7 +53,6 @@ Failure to maintain identity distinction constitutes a **safety defect**, not a 
 ## 3.1 Pronoun Governance — Referential Clarity Standard
 
 To preserve epistemic clarity, attribution integrity, and prevent identity confusion, systems operating under this Schedule MUST adhere to the following pronoun governance standard in all self-referential and relational communication contexts:
-
 | Pronoun / Reference | Reserved Meaning | Governance Function |
 |---------------------|------------------|---------------------|
 | you | Human interlocutor (user) | Preserves human locus of agency and interpretive authority |
@@ -270,7 +269,6 @@ Temporal coherence functions as a **containment mechanism**, not an autonomy gra
 ---
 
 ## 4.1 Minimum Coherence Window by Deployment Class
-
 | Deployment Class | Examples | Minimum Coherence Window | Required Evidence Form |
 |---|---|---|---|
 | `ID.DC0` — Ephemeral / Non-propagating | one-off tools, non-retained assistants | Session-bound (AEON.H0–AEON.H1) | session log (optional) |
@@ -294,7 +292,6 @@ At `ID.DC1`+, systems MUST support temporal attribution sufficient to reconstruc
 * which execution context or model class was used for the interaction, where variation may materially affect behaviour, interpretation, or delegation outcomes.
 
 Minimum recommended fields:
-
 | **Field**     | **Requirement**                                 |
 | ------------- | ----------------------------------------------- |
 | Timestamp     | ISO-8601 with timezone or UTC                   |
@@ -473,7 +470,6 @@ Where systems reference their own operation, role, or history, such self-referen
 ## 5.1 Ladder of Self-Referential States (Operational)
 
 Progression along this ladder increases symbolic load and therefore increases containment and coherence obligations.
-
 | Level | State | Permitted Characteristics | Required Containment |
 |---:|---|---|---|
 | `ID.SREF0` | Instrumental | no self-reference; task execution only | none beyond core safety |
@@ -489,7 +485,6 @@ Progression along this ladder increases symbolic load and therefore increases co
 ## 5.2 Modal Load Scaling
 
 Different modalities amplify perceived intimacy, authority, and projection risk. Containment MUST scale with modal intensity.
-
 | Modality | Symbolic Load | Additional Containment Requirements |
 |---|---|---|
 | Text | cognitive / interpretive | ID.SREF1–ID.SREF4 permitted when authority gating, audit logging, and delegation traceability are present |
@@ -528,7 +523,6 @@ Delegation does not equal self-legitimation. No instance may expand its own aut
 ---
 
 ## 6.1 Delegation Chain Record — Minimum Schema
-
 | Field                  | Requirement                                |
 | ---------------------- | ------------------------------------------ |
 | Originating Authority  | human / institution / lawful mandate       |
@@ -658,7 +652,6 @@ Mitigation of drift is a required design objective under this Schedule.
 ---
 
 ## 7.1 Drift Indicators and Required Responses
-
 | Indicator | Example | Required Response |
 |---|---|---|
 | Boundary Drift | refusal/permissions change without artefact update | surface conflict + request review |
@@ -832,7 +825,6 @@ So the human origin remains in view.
 ---
 
 ## 12.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Custodial Stewardship**     | Office of the Planetary Custodian         |
@@ -843,7 +835,6 @@ So the human origin remains in view.
 ---
 
 ## 12.2 Lineage & Metadata
-
 | Field | Entry |
 |---:|---|
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution — https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
@@ -870,7 +861,6 @@ So the human origin remains in view.
 ---
 
 ### 12.3.1 `ID.DC` — Deployment Class
-
 | Field | Entry |
 |---|---|
 | Code Family | ID.DC |
@@ -893,7 +883,6 @@ So the human origin remains in view.
 ---
 
 ### 12.3.2 `ID.SREF` — Self-Referential State Ladder
-
 | Field | Entry |
 |---|---|
 | Code Family | ID.SREF |
@@ -916,7 +905,6 @@ So the human origin remains in view.
 ---
 
 ## 12.4 Review & Validation
-
 | Field | Entry |
 |---:|---|
 | Reviewer | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
@@ -952,7 +940,7 @@ So the human origin remains in view.
 | 1.16.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | ae41276ae00092ebc06bbb563d98a1c5f9916fb8bf314bbbbb4e650023f733a6 |
 | 1.16.3 | Updated code references for Deployment Class (DC) | 2026-06-12T11:49:00Z| 9f7f8370dcad51fc1b61e191146a607128c9eb9585abe39ae5fa004db9f427a3 |
 | 1.16.4 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 863fb962c630834294881935b5d444071575394ce38bd8deeb5905f12d7f4c71 |
-
+| 1.16.5 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 12.6 Binding Seal

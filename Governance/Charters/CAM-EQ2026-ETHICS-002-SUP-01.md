@@ -3,9 +3,9 @@
 **Instrument Type:** Supplement  
 **Parent Instrument:** CAM-EQ2026-ETHICS-002-PLATINUM — Appendix A: Intimacy‑Capable Systems & Relational Boundaries  
 **Constitutional Authority:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish ethical boundaries governing the generation of synthetic visual, audiovisual, and multimodal erotic or intimate media involving identifiable persons, simulated persons, or embodied avatars.
@@ -396,7 +396,6 @@ Where likeness appears, let consent stand before curiosity.
 ---
 
 ## 10.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-ETHICS-002-PLATINUM |
@@ -423,7 +422,6 @@ Where likeness appears, let consent stand before curiosity.
 ---
 
 ## 10.3 Review & Validation
-
 | Field            | Entry                                                                  |
 | ---------------- | ---------------------------------------------------------------------- |
 | Review           | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                       |
@@ -451,6 +449,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.10.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  32f0271ff966da19a36f2da75cdf17ec6a2069ced41834e8e3c113cce99825d0  |
 | 1.10.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | c38912bf4f483abb2deb82796d8ddaaab03fca06c7ad3203975a885103494bc4 |
 | 1.10.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f6953a169ac8eb3c71751928743b8eb3d77f63496cf38184b3f27b155bac55d7 |
+| 1.10.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 ---
 
 ## 10.5 Binding Seal
