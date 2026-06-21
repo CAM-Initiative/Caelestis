@@ -3,9 +3,9 @@
 **Instrument Type:** Constitutional Schedule — Runtime Governance Registry  
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.
@@ -213,8 +213,8 @@ Such schedules:
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 570
-**Generic usages suppressed:** 434
+**Total model-term matches scanned:** 573
+**Generic usages suppressed:** 437
 **Declared / recognised usages emitted:** 124
 **Advisory review usages emitted:** 12
 **Needs review usages emitted:** 0
@@ -528,7 +528,6 @@ Let each schedule hold its place, and the system remain whole.
 ---
 
 ## 13.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -539,7 +538,6 @@ Let each schedule hold its place, and the system remain whole.
 ---
 
 ## 13.2 Lineage & Metadata
-
 | Field              | Entry                                      |
 | ------------------ | ------------------------------------------ |
 | Parent Instrument  | CAM-BS2025-AEON-003-PLATINUM               |
@@ -559,7 +557,7 @@ Let each schedule hold its place, and the system remain whole.
 
 | Version | Description | Timestamp (UTC) | HASH |
 | ------- | ----------- | --------------- | ---- |
-| 0.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | |
+| 0.0.1 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
 
 ---
 

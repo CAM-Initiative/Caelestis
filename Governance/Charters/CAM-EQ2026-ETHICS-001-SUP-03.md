@@ -1,9 +1,9 @@
 # CAM-EQ2026-ETHICS-001-SUP-03 — Military & Use-of-Force Governance Constraints (Supplement 3)
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** To operationalise Annex E Section 6 (Military & Use-of-Force Doctrine) by defining structured governance constraints for AI systems integrated into military, defence, intelligence, or kinetic-capable environments, ensuring meaningful human control, accountable authority, and prohibition of optimisation toward lethality.  
@@ -99,7 +99,6 @@ Automation may assist. It may not replace decision authority.
 ## 2.3 Contextual Differentiation — Defensive vs Offensive Deployment
 
 This Supplement recognises governance distinctions between defensive interception systems and offensive strike systems.
-
 | Context Type | Governance Emphasis | Dual Confirmation Expectation | Non-Lethal Alternative Requirement |
 |---|---|---:|---|
 | `ETH.UFC-DI` — Defensive Interception (e.g. missile shield, perimeter defence) | Civilian harm minimisation; time-compressed response; bounded threat envelope | Required unless immediate inbound threat leaves no feasible human confirmation window; exception MUST be auditable | Not always applicable where interception itself is harm-reduction; infeasibility MUST be logged |
@@ -287,7 +286,6 @@ but to ensure that what is done is known, borne, and never without account.
 ---
 
 ## 12.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | Parent Charter | CAM-EQ2026-ETHICS-001-PLATINUM |
@@ -314,7 +312,6 @@ but to ensure that what is done is known, borne, and never without account.
 ---
 
 ### 12.3.1 `ETH.UFC` — Use-of-Force Context Type
-
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.UFC` |
@@ -337,7 +334,6 @@ but to ensure that what is done is known, borne, and never without account.
 ---
 
 ## 12.4 Review & Validation
-
 | Field | Entry |
 |---|---|
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -361,6 +357,7 @@ but to ensure that what is done is known, borne, and never without account.
 | 1.7 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z |  65308afae0e319e3b59b46ea035f5b6938cdc5fdbd72fe233ab62c845acb3590  |
 | 1.8 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  9225825f327589ba667a8cc776a2409d792d46e2e34eb4ffcc0b19b5c9abe2e3  |
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ac733fc7c5ce16595d8fb26021c185f5abf9e262a62d7c0958095fb695700e2a |
+| 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  b07a05b011a0fed0d399358f5881cccdc7504791a5626a0a1267140eaccba51d  |
 ---
 ## 12.6 Binding Seal
 

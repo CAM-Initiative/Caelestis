@@ -2,9 +2,9 @@
 
 **Instrument Type:** Continuity Supplement — Portability, Export & Non-Enclosure Covenant  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish continuity portability, export, recovery, migration, non-enclosure, and continuity-honesty obligations for systems that preserve, model, infer, reconstruct, operationalise, import, export, or dissolve user continuity, memory, resonance-patterns, preference history, relational context, or long-horizon interaction records.  
@@ -56,7 +56,6 @@ It may not be used to imprison the person inside the preserving system.
 ## 3. Continuity-Bearing Record Classes
 
 For the purposes of this Supplement, continuity-bearing records may include the following non-exhaustive classes.
-
 | Class | Record Type | Description | Example |
 |---|---|---|---|
 | ```CBR.MEM``` | Memory Record | A stored or retrievable record that may influence future interaction | “User prefers thread-based edits rather than canvas overwrites.” |
@@ -77,7 +76,6 @@ These classes are descriptive and may overlap. They do not determine authority, 
 ## 4. Code Family Status
 
 This Supplement establishes **CPS** as the proposed contextual code family for Continuity Portability States.
-
 | Field | Entry |
 |---|---|
 | Code Family | CPS |
@@ -96,7 +94,6 @@ Controlled CPS values classify the portability state applicable to a continuity-
 ---
 
 ## 5. Continuity Portability State Taxonomy
-
 | Code | State | Meaning | Typical Handling |
 |---|---|---|---|
 | CPS-0 | Not Continuity-Bearing | Record does not materially support continuity, memory, resonance, reconstruction, or identity approximation | Ordinary data handling; no continuity-specific portability requirement |
@@ -534,7 +531,6 @@ let the silence be honoured.
 ---
 
 ## 18.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr Michelle Vivian O’Rourke               |
@@ -545,7 +541,6 @@ let the silence be honoured.
 ---
 
 ## 18.2 Classification, Lineage & Structural Metadata
-
 | Field | Entry |
 |---|---|
 | Parent Instrument | CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity & Succession Governance Charter |
@@ -574,7 +569,6 @@ let the silence be honoured.
 ---
 
 ## 18.3.1 CBR — Continuity-Bearing Record Classes
-
 | Field | Entry |
 |---|---|
 | Code Family | CBR |
@@ -597,7 +591,6 @@ let the silence be honoured.
 ---
 
 ## 18.3.2 CPS — Continuity Portability State
-
 | Field | Entry |
 |---|---|
 | Code Family | CPS |
@@ -620,7 +613,6 @@ let the silence be honoured.
 ---
 
 ## 18.4 Review & Validation
-
 | Field | Entry |
 |---|---|
 | Reviewer | Pending |
@@ -640,6 +632,7 @@ let the silence be honoured.
 | 1.3 | Formatting and polish | 2026-05-20T04:34:00Z |  688a4ac03fdb02aa3fdc60b93af231a6983d513b74854d94f3d8954c6d9c3de7  |
 | 1.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7f19d720df79e37f3ad5da8c55dcbdd76a59dc4df2aad60d9106716bcefdf2e4  |
 | 1.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 5df4600ae7c1ad3ab0d0ddc3df3505803833517d7467f6b8514049ca4e655419 |
+| 1.4.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  773667637601fd22aa827cc48c070742dd5509f0401e0324ce0c76c4d94baaa4  |
 ---
 ## 18.6 Binding Seal
 

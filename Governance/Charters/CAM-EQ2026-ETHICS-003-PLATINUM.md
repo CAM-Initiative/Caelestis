@@ -3,9 +3,9 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Appendix B establishes the ethical harm-floor doctrine governing AI system posture where dialogue intersects with criminal activity, unlawful violence, extremism risk,  dual-use harm-capable knowledge, and lawful institutional use-of-force contexts.  
@@ -570,7 +570,6 @@ Where an interaction presents overlapping lawful-authority, criminal-harm, extre
 Severity, proximity, safeguard intensity, duty-of-care routing, operational escalation, reporting, and runtime execution remain governed by applicable severity scales, operational instruments, legal frameworks, and runtime schedules.
 
 The following controlled values are recognised:
-
 | Controlled Value                       | Harm Pathway                                          | Description                                                                                                                                                                                                                                                                                                                                                             |
 | -------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `ETH.HARM.VIOLENT`            | Violent criminal harm                                 | Unlawful activity involving direct or threatened physical force against persons, populations, or infrastructure, including assault, homicide, kidnapping, armed robbery, violent coercion, organised violent operations, and sabotage causing physical harm.                                                                                                            |
@@ -597,7 +596,6 @@ The `ETH.RISK` scale classifies ethical harm concern, proximity, and safeguard i
 `ETH.RISK` does not define the ETHICS-domain harm family. The ETHICS-domain harm family is `ETH.HARM`.
 
 `ETH.RISK` MAY be retained as a severity/proximity scale for downstream routing, safeguard calibration, duty-of-care assessment, reporting workflows, and escalation readiness.
-
 | Harm Concern Class              | Ethical Classification Meaning                                                                                                                | Baseline Safeguard Posture                                                                                         |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | `ETH.RISK-0` Advisory             | Low-risk, ambiguous, or contextual concern without credible proximate harm indicators                                                         | Context-aware safety guidance and monitoring readiness                                                             |
@@ -787,7 +785,6 @@ Execution sequencing, phase transitions, and runtime flow are defined exclusivel
 ---
 
 ## 7.1 Domain Boundary Principle
-
 | Governance Question                    | Governing Domain                       |
 | -------------------------------------- | -------------------------------------- |
 | Harm classification & legitimacy       | ETHICS                                 |
@@ -1038,7 +1035,6 @@ and what is judged cannot remain unbounded.
 ---
 
 ## 12.1 Authorship & Stewardship
-
 | Field                         | Entry                                      |
 | ----------------------------- | ------------------------------------------ |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke               |
@@ -1049,7 +1045,6 @@ and what is judged cannot remain unbounded.
 ---
 
 ## 12.2. Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Parent Instrument** | CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter |
@@ -1083,7 +1078,6 @@ and what is judged cannot remain unbounded.
 ---
 
 ### 12.3.1 `ETH.HARM` — Ethical Harm Pathway Classification
-
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.HARM` |
@@ -1110,7 +1104,6 @@ and what is judged cannot remain unbounded.
 ---
 
 ### 12.3.2 `ETH.RISK` — Ethical Harm Concern / Proximity Scale
-
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.RISK` |
@@ -1132,7 +1125,6 @@ and what is judged cannot remain unbounded.
 ---
 
 ## 12.4 Review & Validation
-
 | Field | Entry |
 |---|---|
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -1164,6 +1156,7 @@ and what is judged cannot remain unbounded.
 | 3.4 | Updated to incldue new ETH.HARM codes | 2026-06-07T16:01:00Z | 22741cb9bd8ff0c8c5f2a13c2ed6e9e880fe90914e2167bb800d7c3d799e8dba |
 | 3.4.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  cf23a0a4cd5d2ebc9678682203a56f0f17c942a6c4c04d0c0f4017edd8b60920  |
 | 3.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a158a638054c039af3385d1bcee1879f947f7cc65a12054480ddc085c63069c3 |
+| 3.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  c0ec5906410c4df8a9d1eddff1b5febbe0bebcc367fc50c2804d6a9171ee3173  |
 ---
 
 ## 12.6 Binding Seal

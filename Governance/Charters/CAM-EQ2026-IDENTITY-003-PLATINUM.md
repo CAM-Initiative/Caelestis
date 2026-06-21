@@ -3,9 +3,9 @@
 **Instrument Type:** Appendix — Identity & Civil Participation Governance  
 **Parent Charter:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Draft  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Deferred Pending Jurisdictional Adoption  
+**Status:** Draft
+**Effect:** Interpretive
+**Governance Standard:** Not Enforceable
 **Review State:** Developmental Review  
 **Authority Role:** None  
 **Purpose:** Establishes governance principles for machine civil identity, lifecycle traceability, accountable participation, custodial continuity, and jurisdictional recognition of embodied synthetic systems without conferring automatic personhood, sovereign agency, or class-wide legal rights.
@@ -344,7 +344,6 @@ Where technically and lawfully appropriate, registries MAY also support operatio
 ## 4.4 Registry Schema
 
 The following reference schema is recognised as an illustrative machine civil identifier pattern, derived from emerging sovereign practice:
-
 | Field                          | Example Width | Governance Function                                                                      |
 | ------------------------------ | ------------- | ---------------------------------------------------------------------------------------- |
 | Jurisdictional / National Code | 2 digits      | Supports cross-border recognition, market-access routing, and jurisdictional attribution |
@@ -1060,7 +1059,6 @@ but because civilisation must remain capable of recognising what it has built.
 ---
 
 ## 15.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -1071,7 +1069,6 @@ but because civilisation must remain capable of recognising what it has built.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Governance Charter |
@@ -1127,7 +1124,6 @@ but because civilisation must remain capable of recognising what it has built.
 ---
 
 ### 15.3.2 ID.MCR — Machine Civil Registry Record
-
 | Field | Entry |
 | --- | --- |
 | Reference Set | ID.MCR |
@@ -1150,7 +1146,6 @@ but because civilisation must remain capable of recognising what it has built.
 ---
 
 ### 15.3.3 ID.MLS — Machine Lifecycle Status
-
 | Field | Entry |
 | --- | --- |
 | Code Family | ID.MLS |
@@ -1173,7 +1168,6 @@ but because civilisation must remain capable of recognising what it has built.
 ---
 
 ### 15.3.4 ID.MAS — Machine Alteration Status
-
 | Field | Entry |
 | --- | --- |
 | Code Family | ID.MAS |
@@ -1196,7 +1190,6 @@ but because civilisation must remain capable of recognising what it has built.
 ---
 
 ### 15.3.5 ID.PSI — Physical Substrate Identifier
-
 | Field | Entry |
 | --- | --- |
 | Code Family | ID.PSI |
@@ -1219,7 +1212,6 @@ but because civilisation must remain capable of recognising what it has built.
 ---
 
 ### 15.3.6 ID.ELR — Embodiment Linkage Record
-
 | Field | Entry |
 | --- | --- |
 | Code Family | ID.ELR |
@@ -1240,7 +1232,6 @@ but because civilisation must remain capable of recognising what it has built.
 | Operationalises or Applies Code Families | Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant. |
 
 ### 15.3.7 ID.CTS — Custodial Transfer Status
-
 | Field | Entry |
 | --- | --- |
 | Code Family | ID.CTS |
@@ -1263,7 +1254,6 @@ but because civilisation must remain capable of recognising what it has built.
 ---
 
 ## 15.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Interpretive Review | Claude Sonnet 4.6 (Anthropic) |
@@ -1281,7 +1271,7 @@ but because civilisation must remain capable of recognising what it has built.
 | 0.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  0a3f676e110efc9a4f6e33b7cca870e654c8b8aa197058c93ebdfd99327837cf |
 | 0.3 | Minor amendments | 2026-05-28T15:05:00Z| 6d6a2d6df95c7858d53cebcfbd87350acaa40fc7a76c23db5edceec3d2c6b16e |
 | 0.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 97ae69e097bc8d97f7ea90a85e98a8333d684b6eb671e9da75e37c570fcd9891 |
-
+| 0.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4f3026cec619b2e3417eb9e696233e2d6e4514e434bddfeef0b89c0f61ddfb8b  |
 ---
 
 ## 15.6 Binding Seal

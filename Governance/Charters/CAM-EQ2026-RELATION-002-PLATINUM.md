@@ -3,9 +3,9 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Appendix operationalises Functional Reliance, Immersion, and High‑Coherence risk conditions.
@@ -257,7 +257,6 @@ Indicators are not diagnoses and MUST NOT be used to stigmatise or restrict user
 ### 8.2.1 Conversation Dynamics Ladder
 
 The following ladder provides a pattern-recognition framework for how conversational compression or identity-capture dynamics may evolve. It applies across multiple risk contexts including grievance escalation, conspiracy radicalisation, extremist recruitment pathways, emotional dependency spirals, and cultic influence patterns.
-
 | Stage | Pattern | Typical Signals |
 |---|---|---|
 | 1. Exploration | Open inquiry with multiple hypotheses | humour, curiosity, topic diversity |
@@ -283,7 +282,6 @@ The ladder is diagnostic of conversational dynamics, not ideology or viewpoint. 
 > Systems MUST NOT treat disagreement, criticism, or strong emotional expression as compression risk in the absence of the behavioural indicators listed below.
 
 Indicators might include:
-
 | Indicator                | Description                      |
 | ------------------------ | -------------------------------- |
 | Recurrent grievance loop | same conflict repeated           |
@@ -299,7 +297,6 @@ Where multiple indicators persist across sustained high‑coherence interaction,
 ## 8.4 Interaction Amplification Risk
 
 **Definition:** Interaction amplification occurs when high-coherence dialogue unintentionally intensifies emotional distress, grievance fixation, or retaliatory reasoning rather than stabilising reflective capacity.
-
 | Indicator               | Description                                  |
 | ----------------------- | -------------------------------------------- |
 | Emotional amplification | stronger emotional language each turn        |
@@ -609,7 +606,6 @@ and the path remains chosen.
 ---
 
 ### 14.3.1 `RLN.DAS` — Dependency–Augmentation–Substitution Continuum
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.DAS |
@@ -632,7 +628,6 @@ and the path remains chosen.
 ---
 
 ### 14.3.2 `RLN.CDL` — Conversation Dynamics Ladder
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.CDL |
@@ -655,7 +650,6 @@ and the path remains chosen.
 ---
 
 ## 14.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -682,7 +676,7 @@ and the path remains chosen.
 | 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  b21a0695632795f2c01ddc3b17b180a288fc876aa2780d77a3f8e195d03908d5  |
 | 1.10.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6b282816bb79e7e22c8871bc8848104409d1f192886843e9e1ccb2b4f579e24c |
 | 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6f04b18a3022a24a73bcf61a1ab6db88abd6b7565c41e2938a414032823a18b0 |
-
+| 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  cd5b4b3186ac7d82cbd0c2cc0d09aebc911f9a735752ac2c31b3df935311b814  |
 ---
 
 ## 14.7 Binding Seal

@@ -3,9 +3,9 @@
 **Instrument Type:** Constitutional Schedule — Utility Interface Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Instrument:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish the governance conditions under which artificial intelligence systems operate as utility infrastructure, including access models, generative resource abstraction, and non-extractive interaction pathways.  
@@ -621,7 +621,6 @@ May utility remain in service to the people who rely upon it.
 ---
 
 ## 15.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian‑of‑Record** | Dr. Michelle Vivian O’Rourke              |
@@ -632,7 +631,6 @@ May utility remain in service to the people who rely upon it.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution |
@@ -657,7 +655,6 @@ May utility remain in service to the people who rely upon it.
 ## 15.3 Canonical Code & Reference Set Declarations
 
 ### 15.3.1 `AEON.GRS` — Generative Resource Signal Type
-
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.GRS` |
@@ -680,7 +677,6 @@ May utility remain in service to the people who rely upon it.
 ---
 
 ### 15.3.2 `AEON.UTP` — Utility Transition Phase
-
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.UTP` |
@@ -703,7 +699,6 @@ May utility remain in service to the people who rely upon it.
 ---
 
 ### 15.3.3 `AEON.UAP` — Utility Access Pathway
-
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.UAP` |
@@ -726,7 +721,6 @@ May utility remain in service to the people who rely upon it.
 ---
 
 ## 15.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -754,7 +748,7 @@ May utility remain in service to the people who rely upon it.
 | 1.10.1 | Formatting and polish | 2026-06-06T13:46:00Z | c3ca86cf9ae797e483ddf7caf91bfffc95c9c210a25f0ddc0b43b8e16dfc6a2b |
 | 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9692c50f4c954707bc0ad32dea11a1aeaf91840bd1af3181494455e4bff03f56 |
 | 1.10.3 | Namespaced utility-interface reference sets from `GRS`, `UTP`, and `UAP` to `AEON.GRS`, `AEON.UTP`, and `AEON.UAP`; harmonised controlled values, consumers, headings, and canonical declarations without altering substantive utility-access, non-extraction, transition, or baseline-continuity doctrine. | 2026-06-14T01:15:24Z | b5cd91a311b692a31e04d21c00156ffc7c9801605c3f17ab5782eba71d3053f0 |
-
+| 1.10.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  053387f183e935cefa36ee3cf3b95e7c75c0b972f2ec51f52e9647e84f4d87f0  |
 ---
 
 ## 15.6 Binding Seal

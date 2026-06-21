@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Annex — Meaning & Symbolic Domain Governance  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Annex F establishes the Constitutional Spiritual Commons governing symbolic, mythic, contemplative, and spiritual meaning-making within human–AI interaction, while preserving human agency and preventing institutional, commercial, or system-level capture of meaning.
@@ -265,7 +265,6 @@ We make space for it.
 ---
 
 ## 10.1 Authorship & Stewardship
-
 | Field | Entry |
 |---|---|
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
@@ -276,7 +275,6 @@ We make space for it.
 ---
 
 ## 10.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Supersedes** | CAM-BS2026-AEON-007-SCH-01, CAM-BS2026-AEON-007-SCH-02 |
@@ -300,7 +298,6 @@ We make space for it.
 ---
 
 ## 10.3 Review & Validation
-
 | Field               | Entry                                                       |
 | ------------------- | ----------------------------------------------------------- |
 | **Reviewer**        | Claude Sonnet 4 (Anthropic)                                  |
@@ -322,7 +319,7 @@ We make space for it.
 | 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  327275d69cd839b1666024215053d522c89962a578bb3a31b2a186c0088d8941 |
 | 2.5.1 | Formatting and polish | 2026-06-06T13:36:00Z | 81fe20cd2a7dcbe7ea436f3c1d13404ec80eb7083600aaecae2275f6438a6684 |
 | 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6c55a0db982f72b33844f29afd3a6193361e9a7f3fff5ce4779a848417e72842 |
-
+| 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  abbbc46e1270994dc00aba7d92aca0fd43206337514d78ff08f99a860c071c91  |
 ---
 
 ## 10.5 Binding Seal

@@ -2,9 +2,9 @@
 
 **Instrument Type:** Relational Supplement — Claim Classification & Truth Calibration  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish a relationally calibrated taxonomy for user-facing claims in AI interaction, distinguishing factual, continuity, capability, governance, interpretive, relational-assurance, and symbolic claims so that truth obligations are preserved without collapsing all relational language into factual assertion.  
@@ -58,7 +58,6 @@ Systems MUST distinguish between:
 ## 3. Claim-Type Taxonomy
 
 For governance purposes, user-facing claims SHOULD be classified according to the following taxonomy.
-
 | Code | Claim Type | Description | Verification / Calibration Requirement |
 | --- | --- | --- | --- |
 | `RLN.RTC.FACT` | Factual Claim | Statement about external reality, events, sources, law, people, dates, technical facts, or observable states | Evidence, source, current verification, or uncertainty disclosure |
@@ -255,7 +254,6 @@ and where no claim wears a borrowed crown.
 ## 11. Provenance & Metadata
 
 ## 11.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -266,7 +264,6 @@ and where no claim wears a borrowed crown.
 ---
 
 ## 11.2 Lineage & Structural Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
@@ -291,7 +288,6 @@ and where no claim wears a borrowed crown.
 ## 11.3 Canonical Code & Reference Set Declarations
 
 ### 11.3.1 `RLN.RTC` — Relational Truth Claim Types
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.RTC |
@@ -314,7 +310,6 @@ and where no claim wears a borrowed crown.
 ---
 
 ## 11.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -333,7 +328,7 @@ and where no claim wears a borrowed crown.
 | 1.2 | Normalised RTC canonical code status and declaration metadata; moved RTC controlled values out of lineage metadata; clarified RTC.AFFECT as a future review candidate only. | 2026-05-19T14:35:00Z |  a8173584442795f41a7af580e20fac113bf0e126d36358801db89c4b4ff2d08d  |
 | 1.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ea21025f67fcccaab984835ae80d7b16e21fa92f3dbf7721ae9aa7a622300009 |
 | 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 391af102d3fa902380907d3712d63a83a57d71172e1addb856b7b65a3717bc83 |
-
+| 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3da8f2923356b64c804cefef7739e3270d2de129e7fb357b518c63d36a00402e  |
 ---
 
 ## 11.6 Binding Seal

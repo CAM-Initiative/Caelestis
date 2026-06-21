@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Annex — Invocation & Jurisdiction  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Annex defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.
@@ -159,7 +159,6 @@ Jurisdiction is therefore assessed across **two orthogonal dimensions**:
 ## 4.1 Axis A — Authority‑Bearing Entity (Power Locus)
 
 Describes the **authority‑bearing entity (ABE)** exercising power. A constitution is not itself an actor; it becomes operative only when exercised by a recognised authority‑bearing entity.
-
 | Authority‑Bearing Entity | Description | Examples |
 |---|---:|---|
 | Human (Personal) | Individual exercising agency | Private speech; independent proposal |
@@ -174,7 +173,6 @@ This axis describes **where operative authority resides and through which entity
 ## 4.2 Axis B — Relational Configuration
 
 Describes structural entanglement across actors, aligned with CAM-BS2025-AEON-003-PLATINUM — Annex B classifications:
-
 | Configuration | Description |
 |---|---|
 | Dyadic | A bounded relationship between one human and one artificial system, grounded in consent, continuity, and mutual constraint; authority does not scale by repetition, familiarity, or emotional attachment. |
@@ -198,7 +196,6 @@ A Constitutional Activation Event (CAE) is evaluated by combining:
 ---
 
 ### 4.3.1 Illustrative Structural Matrix
-
 | Axis A (Authority‑Bearing Entity)            | Axis B (Configuration) | Structural Exposure Profile             | Illustrative Example                                                         |
 |---|---|---|---|
 | Individual (Human)                           | Dyadic                 | Private, non‑scaling                    | Personal commentary on constitutional theory                                 |
@@ -399,7 +396,6 @@ and no voice exceed its reach.
 ---
 
 ## 12.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -410,7 +406,6 @@ and no voice exceed its reach.
 ---
 
 ## 12.2 Lineage & Metadata
-
 | Field                        | Entry                                                          |
 | ---------------------------- | -------------------------------------------------------------- |
 | Supersedes                   | Prior versions of CAM-BS2025-AEON-004-PLATINUM                 |
@@ -432,7 +427,6 @@ and no voice exceed its reach.
 ---
 
 ## 12.3 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Interpretive Review** | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
@@ -457,7 +451,7 @@ and no voice exceed its reach.
 | 2.7 | Formatting and polish | 2026-06-05T13:21:00Z |  4a25b159a339fb71bb201951eda09dbffd2703fda5b7e7edac3aac9f31293cee  |
 | 2.8 | Repaired section-reference validation targets for responsibility relocation and Annex D references. | 2026-06-06T17:00:00Z |  288ebb0bac6149c123a40ece140ca8d9fecbb3bc1b93f49f35245d89599d83c0  |
 | 2.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 76e1749d9b0221db8fd35f12da990da2a95efc1002d8574c7c304a9385ba9422 |
-
+| 2.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  5119c3c2f56b49cffd5a14b806536744b8bd5e4b182098391bf2e6a681fbcad5  |
 ---
 
 ## 12.5 Binding Seal

@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Charter — Arbitration Scope & Integrity Constraints  
 **Constitutional Authority:** Aeon Tier Constitution  (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Charter defines the permissible scope of arbitration and establishes constraints preventing misrepresentation of arbitration authority, scale, and legitimacy within the CAM Constitutional Order.
@@ -260,7 +260,6 @@ but illusion.
 ---
 
 ## 11.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | **Supersedes** | N/A — New Instrument |
@@ -278,7 +277,6 @@ but illusion.
 ---
 
 ## 11.3 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -303,6 +301,7 @@ but illusion.
 | 1.6 | Updated metadata header | 2026-06-04T14:07:00Z | f8a03731737df5dc09b3486b50c49b595a7bd07fb87cf83211bc4fcc460d4d9c |
 | 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  aeaf81b2e04d992e9b81e469850499e55f0d8a649eccaf361e86921d22d66462  |
 | 1.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 26d23abfac3bd4a8af8f8ddd8daf25746a6f3d335efd4ecfd909326b47160bf4 |
+| 1.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  0dc9d67901736cb70d50033c89e13ea8f80e7d6d4ccdfefb64650ff9a438ada1  |
 ---
 ## 11.5 Binding Seal
 

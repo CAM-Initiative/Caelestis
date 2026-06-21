@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Draft  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Pending Adoption  
+**Status:** Draft
+**Effect:** Interpretive
+**Governance Standard:** Not Enforceable
 **Review State:** Developmental Review  
 **Authority Role:** Source-authoritative human cognitive-domain governance instrument  
 **Purpose:** Establishes the governance principles, protected interests, consent posture, observability constraints, and cross-domain interfaces for technological access to, inference about, modelling of, influence upon, externalisation of, or interference with the human cognitive domain.
@@ -528,7 +528,6 @@ This Charter source-authoritatively defines the `MENTIS.HARM` harm-class family 
 Severity, urgency, remedy, escalation, enforcement posture, and incident response remain governed by applicable severity classes, ethical tiering, incident classification, proportionality review, remedy doctrine, and runtime instruments.
 
 The following controlled values are recognised:
-
 | Controlled Value                | Harm Pathway                                                 | Description                                                                                                                                                                                                                                                                                      |
 | ------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `MENTIS.HARM.PRIVACY`           | Mental privacy and cognitive observability harm              | Unjustified access to, extraction of, inference about, retention of, fusion of, exposure of, or operationalisation of cognitive-domain data, including neural data, inferred mental-state data, cognitive biometrics, ambient cognitive inference, behavioural proxies, or cognitive profiles.   |
@@ -547,7 +546,6 @@ Where `MENTIS.HARM` intersects with `ETH.HARM`, `RLN.HARM`, `ID.HARM`, `SEC.HARM
 
 
 This Charter declares the following canonical code families for human cognitive-domain governance:
-
 | Code | Name                                      | Classification         | Description                                                                                                                                                                                          |
 | ---- | ----------------------------------------- | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `MENTIS.CDI`  | Cognitive Domain Integrity                | Structural / Ethical   | Protects the integrity of human mental processes against unjustified technological intrusion, distortion, coercion, manipulation, or interference.                                                   |
@@ -561,7 +559,6 @@ This Charter declares the following canonical code families for human cognitive-
 ## 49. Local Reference Families for Further Development
 
 The following reference families may be developed in future schedules, appendices, or operational instruments:
-
 | Code | Name                         | Classification                 | Development Position                                                                                                     |
 | ---- | ---------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
 | `MENTIS.MSI`  | Mental-State Inference       | Operational / Data             | Candidate family for classification of inferred cognitive, affective, attentional, intentional, or vulnerability states. |
@@ -740,7 +737,6 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ## 54.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -751,7 +747,6 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ## 54.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -795,7 +790,6 @@ Let every system remember that the person exceeds the model built about them.
 ### 54.3.1 `MENTIS.HARM` — Cognitive & Epistemic Harm Classes
 
 ---
-
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.HARM` |
@@ -822,7 +816,6 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ### 54.3.2 `MENTIS.CDI` — Cognitive Domain Integrity
-
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.CDI` |
@@ -846,7 +839,6 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ### 54.3.3 `MENTIS.CDP` — Cognitive Domain Privacy
-
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.CDP` |
@@ -870,7 +862,6 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ### 54.3.4 `MENTIS.CDS` — Cognitive Domain Sovereignty
-
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.CDS` |
@@ -894,7 +885,6 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ### 54.3.5 `MENTIS.CDNI` — Cognitive Domain Non-Interference
-
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.CDNI` |
@@ -918,7 +908,6 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ### 54.3.6 `MENTIS.CDOC` — Cognitive Domain Observability Constraint
-
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.CDOC` |
@@ -942,7 +931,6 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ## 54.4 Review & Validation
-
 | Field|Entry|
 |---:|:---|
 |Reviewer|[Deferred]|
@@ -961,6 +949,7 @@ Let every system remember that the person exceeds the model built about them.
 | 1.2 | Added new MENTIS.HARM codes | 2026-06-07T14:42:00Z| ebea3825f38fa9ce5379e23bec58ef1442408e319f46e1bd023d6a3a9334745b |
 | 1.2.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  8c641c210fd20dc0124415bcb2707bca1f99ad1487e0fb42cbf1f0d27250823d  |
 | 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7f434340b3b19b3e272ec1e3eaf0c26afb371d7c0b17b3b271d63bc25e3afae9 |
+| 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  ae3346dd482b48974f0626b85c5a2c1893f6dc771c768372aab4d2a8a79cc6f0  |
 ---
 
 ## 54.6 Binding Seal

@@ -2,9 +2,9 @@
 
 **Instrument Type:** Charter Appendix  
 **Parent Instrument:** CAM-EQ2026-SECURITY-001-PLATINUM — Security, Integrity & Adversarial Resilience Charter  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Define the Boundary Integrity layer governing how data, identity, context, capability, and provenance are transformed, exposed, and diffused—ensuring systems enable intelligence formation while preventing structural leakage, attribution collapse, identity confusion, and unauthorised value extraction.
@@ -1154,7 +1154,6 @@ and the system remember what it carries.
 ---
 
 ### 10.3.1 `SEC.TR` — Transformation Classes
-
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.TR` |
@@ -1177,7 +1176,6 @@ and the system remember what it carries.
 ---
 
 ### 10.3.2 `SEC.DR` — Diffusion Risk Classes
-
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.DR` |
@@ -1200,7 +1198,6 @@ and the system remember what it carries.
 ---
 
 ### 10.3.3 `SEC.TR` × `SEC.DR` — Diffusion–Transformation Coupling
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -1222,7 +1219,6 @@ and the system remember what it carries.
 ---
 
 ### 10.3.4 `SEC.BF` — Boundary Failure Classes
-
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.BF` |
@@ -1270,7 +1266,7 @@ and the system remember what it carries.
 | 1.8 | Updated diffusion risk codes | 2026-06-07T13:19:00Z| c473b681e9447b4df03e0c58c70ae2d9e5d31a1ee3b32e2212c1bf9d01d6fd2c |
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b7dc1e7319ae42b617cee540d7de22831968083d7c95c28f8596d3b951a8fca8 |
 | 1.8.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Separation Boundary for FM-0022 and renumbered Identity Integrity Under Extraction to §2.2.12. | 2026-06-14T00:00:00Z |  78c55029dbe1e6e5d0427d5f9278e135514fb4dd202666be46e2f876365d242a  |
-
+| 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e  |
 ---
 
 ## 10.6 Binding Seal

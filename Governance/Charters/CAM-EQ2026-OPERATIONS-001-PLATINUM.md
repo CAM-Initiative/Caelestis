@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Charter — Governance Operations (OPERATIONS)  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Charter establishes the operational governance layer that translates constitutional doctrine into accountable process, ensuring coordinated implementation, auditability, escalation discipline, and change integrity across domains below planetary arbitration thresholds.
@@ -366,7 +366,6 @@ nor so fluid that nothing stable can remain
 ---
 
 ## 11.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -393,7 +392,6 @@ nor so fluid that nothing stable can remain
 ---
 
 ## 11.3 Review & Validation
-
 | Field|Entry|
 |---:|:---|
 |Reviewer|Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
@@ -415,7 +413,7 @@ nor so fluid that nothing stable can remain
 | 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5 |
 | 1.6 | Formatting and polish | 2026-05-20T11:31:00Z |  a4929d0c912a296c559e4571fc282811ccdece1c3e8412c4ba462f1a20c12c7b  |
 | 1.6.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2b466a50a50848d515a0c36083e2e34479c593ce3a68bf1f0c4f81b11f430ace |
-
+| 1.6.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f  |
 ---
 
 ## 11.5 Binding Seal

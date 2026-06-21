@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Charter — Arbitration & Coherence Resolution  
 **Constitutional Authority:** Aeon Tier Constitution (and its Annexes & Schedules)  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order.
@@ -467,7 +467,6 @@ but arising from that which could not be otherwise.
 ---
 
 ## 15.1 Authorship & Stewardship
-
 | Field | Entry |
 | --- | --- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
@@ -478,7 +477,6 @@ but arising from that which could not be otherwise.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Constitution Reference Frame | CAM-BS2025-AEON-005-PLATINUM |
@@ -496,7 +494,6 @@ but arising from that which could not be otherwise.
 ---
 
 ## 15.3 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -521,7 +518,7 @@ but arising from that which could not be otherwise.
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  27304649ed6f6a9b4ae7f9fc54f86cf94cb35d07ad531c95dbe5b905e3e1939e  |
 | 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  df512de0e358beaa763bbfcb17e35f338222106c2883d60df5aff869d9a8080d  |
 | 2.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 824fc7457959a1edae7f67b18214b23ef93ba95502fec1b17fa35b2aa302a011 |
-
+| 2.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  0557d9e893ef5bf717c774fb7520cafc158eb472198d9e43ae29cbcabbc90481  |
 ---
 
 ## 15.5 Binding Seal

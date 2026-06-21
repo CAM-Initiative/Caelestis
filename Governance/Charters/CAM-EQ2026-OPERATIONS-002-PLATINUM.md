@@ -2,9 +2,9 @@
 
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Appendix governs the operational procedures that implement arbitration doctrine within live governance environments. It defines how arbitration determinations are initiated, routed, recorded, executed, and reviewed below planetary legitimacy thresholds, ensuring procedural consistency without altering constitutional authority, preference order, or domain legitimacy.  
@@ -44,7 +44,6 @@ It ensures arbitration doctrine is enacted through consistent, reviewable proced
 ## 2.1 Arbitration System Architecture
 
 Arbitration governance within the CAM constitutional order operates across three coordinated layers:
-
 | Layer                 | Function                                                                  | Governing Instrument           |
 | --------------------- | ------------------------------------------------------------------------- | ------------------------------ |
 | **Doctrine Layer**    | Defines legitimacy, authority hierarchy, and arbitration preference order | Annex D — Arbitration Doctrine |
@@ -72,7 +71,6 @@ Its role is to ensure that **procedural governance faithfully carries doctrine i
 ## 2.2 Arbitration Routing Rule
 
 To maintain coherence between doctrine, operational procedure, and runtime safeguards, the CAM arbitration system follows a unified routing rule:
-
 | Trigger Source | Operational Pathway | Governing Layer |
 | --- | --- | --- |
 | Runtime safeguard trigger | CAM-EQ2026-OPERATIONS-002-PLATINUM — Arbitration Initiation Pathway §4 | Operational Layer (this Appendix) |
@@ -223,7 +221,6 @@ Evidence handling SHALL preserve:
 ## 5.2 Procedural Timelines
 
 Procedural timelines SHOULD scale with urgency classification:
-
 | Urgency Tier | Typical Resolution Window                           |
 | ------------ | --------------------------------------------------- |
 | Routine      | within normal governance cycle                      |
@@ -428,7 +425,6 @@ may remain worthy of being followed.
 ---
 
 ## 15.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -439,7 +435,6 @@ may remain worthy of being followed.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -465,7 +460,6 @@ may remain worthy of being followed.
 ---
 
 ### 15.3.1 OPS.AIP — Arbitration Initiation Pathway
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.AIP |
@@ -488,7 +482,6 @@ may remain worthy of being followed.
 ---
 
 ## 15.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -512,6 +505,7 @@ may remain worthy of being followed.
 | 1.6.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  2324b8c1a9440708fbf8974f87c8cff8870d3abc0c9a9c5eb50ae864fe11ec8f  |
 | 1.6.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  4cfbd6adaf5e9b0235e73f937e9d463f7727819aecb83d7a37dad37262272d7f  |
 | 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 0cf3e7970fdb59f2e4959364c5fa205dc99bf0486b931722068674e2f4b7f2c9 |
+| 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  27d5262dc2eaf6cc8dd710468a3b8b85eea064e79879766a7a19539840aecdb9  |
 ---
 
 ## 15.6 Binding Seal

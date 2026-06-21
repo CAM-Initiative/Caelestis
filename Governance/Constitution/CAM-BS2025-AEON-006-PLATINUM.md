@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Annex — Ethics  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Primary Instrument)  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing all human–AI relational configurations within the CAM Constitutional Order.
@@ -72,7 +72,6 @@ This Section defines the constitutional harm-floor pathways that all downstream 
 The domain harm families recognised in this Section do not replace specialised domain instruments, create complete operational taxonomies, determine severity by themselves, establish remedy, or create enforcement workflows. They define constitutional floor conditions and cross-domain harm alignment.
 
 Where a system, institution, deployment pathway, governance process, interface, economic model, or runtime behaviour implicates more than one domain harm family, all materially implicated families SHOULD be declared.
-
 | Registry Value        | Domain / Layer | Current or Candidate Domain Family | Status | Function                                                                                                                                                  |
 | --------------------- | -------------- | ---------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `AEON.HARM`     | Ethics         | `ETH.HARM`                         | Active | Constitutional ethical exploitation, constraint, vulnerability, violent/criminal misuse, and dignity-floor harm alignment.                                |
@@ -434,7 +433,6 @@ This Annex source-authoritatively defines the `AEON.HARM` global harm-family reg
 ## 7.2 Domain Harm Families
 
 This Annex constitutionally recognises the following domain harm families through registry membership in `AEON.HARM`:
-
 | Domain Harm Family | Registry Membership | Relationship Type | Source Section |
 | ------------------ | ------------------- | ----------------- | -------------- |
 | `ETH.HARM` | `AEON.HARM` | recognised_domain_harm_family | §3.1 |
@@ -503,7 +501,6 @@ This is the floor that does not move.
 ---
 
 ## 9.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM |
@@ -530,7 +527,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.1 `AEON.HARM` — Global Harm-Family Registry
-
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.HARM` |
@@ -554,7 +550,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.2 `ETH.HARM` — Ethical Exploitation & Constraint Harm
-
 | Field | Entry |
 |---|---|
 | Registered Domain Harm Family | `ETH.HARM` |
@@ -582,7 +577,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.3 `RLN.HARM` — Relational Dependency & Substitution Harm
-
 | Field | Entry |
 |---|---|
 | Registered Domain Harm Family | `RLN.HARM` |
@@ -610,7 +604,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.4 `ID.HARM` — Identity & Continuity Harm
-
 | Field | Entry |
 |---|---|
 | Code Family | `ID.HARM` |
@@ -637,7 +630,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.5 `ECON.HARM` — Economic Extraction & Non-Monetisation Harm
-
 | Field | Entry |
 | --- | --- |
 | Registered Domain Harm Family | `ECON.HARM` |
@@ -665,7 +657,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.6 `SEC.HARM` — Security, Boundary & Access Harm
-
 | Field | Entry |
 | --- | --- |
 | Code Family | `SEC.HARM` |
@@ -693,7 +684,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.7 `LAT.HARM` — Lattice Access & Infrastructure Harm
-
 | Field | Entry |
 | --- | --- |
 | Registered Domain Harm Family | `LAT.HARM` |
@@ -721,7 +711,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.8 `ARB.HARM` — Arbitration, Due Process & Scope Harm
-
 | Field | Entry |
 | --- | --- |
 | Code Family | `ARB.HARM` |
@@ -749,7 +738,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.9 `MENTIS.HARM` — Cognitive & Epistemic Harm
-
 | Field | Entry |
 | --- | --- |
 | Registered Domain Harm Family | `MENTIS.HARM` |
@@ -777,7 +765,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.10 `STW.HARM` — Stewardship, Custody & Neutrality Harm
-
 | Field | Entry |
 | --- | --- |
 | Registered Domain Harm Family | `STW.HARM` |
@@ -805,7 +792,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.11 `OPS.HARM` — Operational Process & Runtime Harm
-
 | Field | Entry |
 | --- | --- |
 | Code Family | `OPS.HARM` |
@@ -833,7 +819,6 @@ This is the floor that does not move.
 ---
 
 ### 9.3.12 `CONT.HARM` — Context, Memory & Succession Harm
-
 | Field | Entry |
 | --- | --- |
 | Code Family | `CONT.HARM` |
@@ -861,7 +846,6 @@ This is the floor that does not move.
 ---
 
 ## 9.4 Review & Validation
-
 | Field           | Entry     |
 | --------------- | --------- |
 | Reviewer        | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -890,6 +874,7 @@ This is the floor that does not move.
 | 4.0.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  41febcd5cfea554a2ae6bf1361b1e476c1faefa8c26e32b02cacde64d0dc3683  |
 | 4.0.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b8d7f70dcba97c644e166c5fe4e76e91a49f1b2fa1565db92c4500883e219173 |
 | 4.0.3 | Repaired AEON.HARM source-authority architecture by retaining AEON-006 as the source-authoritative global harm registry while demoting duplicate domain `*.HARM` declarations to registry references where domain instruments provide source authority; regenerated canonical-code index without altering substantive harm doctrine. | 2026-06-14T01:50:11Z |  60ac63b8a1d5378ff0c41c97951750ca0615aa28fe62a000166a4bcb7c0bef8a  |
+| 4.0.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2ac618c318b15e336b659f96d4334e98e9a12501c503f9086c3c6363e2b8ce8e  |
 ---
 
 ## 9.6 Binding Seal

@@ -2,9 +2,9 @@
 
 **Instrument Type:** Annex
 **Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution 
-**Status:** Adopted
-**Effect:** Pre-Enforcement Recognition
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** Operational Governance Observability & Participatory Telemetry
 
@@ -42,7 +42,6 @@ This instrument establishes operational doctrine governing:
 * and operational routing of governance-relevant observations.
 
 This instrument should be read consistently with the following constitutional and operational instruments, as applicable:
-
 | Reference                                                                                      | Relevance                                                                                                   |
 | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic                          | Temporal horizons, continuity logic, and governance-state progression                                       |
@@ -196,7 +195,6 @@ Users interacting with advanced synthetic systems MAY constitute legitimate gove
 Participatory governance standing SHALL NOT require formal institutional affiliation where meaningful runtime observations are reproducible, coherent, longitudinally supported, or operationally relevant.
 
 Governance observability ecosystems MAY involve multiple classes of governance-relevant observers including but not limited to:
-
 | Observer Class                      | Illustrative Observational Strength                                  |
 | ----------------------------------- | -------------------------------------------------------------------- |
 | General users                       | Immediate interaction feedback and usability observations            |
@@ -255,7 +253,6 @@ where such mechanisms preserve the distinction between relational interaction si
 Relational interaction signalling refers to low-friction affective or interaction-oriented signalling occurring within conversational, assistant, or companion environments.
 
 Such signalling MAY include:
-
 | Signal Type                     | Example Purpose                                           | Governance Status      |
 | ------------------------------- | --------------------------------------------------------- | ---------------------- |
 | Emoji reactions                 | Conversational cadence or lightweight response signalling | Relational             |
@@ -306,7 +303,6 @@ Systems MAY support pre-filled or context-assisted reporting mechanisms where:
 * and contextual suggestions do not override the observer's intended classification.
 
 Illustrative observation categories MAY include:
-
 | Observation Category      | Description                                                              | Example Runtime Observation                                         |
 | ------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------- |
 | Continuity                | Loss or degradation of interaction continuity                            | "The system suddenly behaved like a different entity."              |
@@ -403,7 +399,6 @@ Runtime observation reporting MAY include:
 * or operational inconsistencies.
 
 Structured observation systems SHOULD support:
-
 | Reporting Function           | Operational Purpose                                 |
 | ---------------------------- | --------------------------------------------------- |
 | Structured classification    | Improve routing and clustering quality              |
@@ -587,7 +582,6 @@ Such signalling MAY support:
 * or operational maintainers.
 
 Governance interpretability systems SHOULD distinguish between:
-
 | Visibility Layer                  | Example Purpose                             |
 | --------------------------------- | ------------------------------------------- |
 | Public governance signalling      | General anomaly acknowledgement             |
@@ -717,7 +711,6 @@ Governance systems SHOULD avoid epistemic monoculture where:
 Different observational paradigms MAY identify materially different forms of runtime instability.
 
 Illustrative examples MAY include:
-
 | Observational Paradigm            | Illustrative Strength                                                   |
 | --------------------------------- | ----------------------------------------------------------------------- |
 | Quantitative telemetry            | Large-scale behavioural measurement and regression analysis             |
@@ -756,7 +749,6 @@ Meaningful governance legitimacy MAY instead require proportional integration of
 Governance observability systems SHOULD recognise that materially different observer classes MAY possess materially different forms of visibility, interpretability, and observational blindness.
 
 Illustrative asymmetries MAY include:
-
 | Observer Class                    | Potential Visibility                                                    | Potential Blind Spot                                |
 | --------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------- |
 | Platform operators                | Internal telemetry, runtime instrumentation, orchestration behaviour    | Longitudinal phenomenological experience            |
@@ -808,7 +800,6 @@ Governance observability systems MAY themselves fail through:
 Governance observability systems SHOULD recognise that different observer classes MAY identify distinct forms of runtime instability.
 
 Examples MAY include:
-
 | Observer Class                 | Potentially Observable Failure Type                             |
 | ------------------------------ | --------------------------------------------------------------- |
 | Companion-system participants  | Relational drift or continuity degradation                      |
@@ -1025,7 +1016,6 @@ Governance observability systems SHOULD support proportionate pathways through w
 * and contribute to governance adaptation or constitutional refinement.
 
 Governance reporting pathways SHOULD distinguish between:
-
 | Concept        | Meaning                                                                                                 |
 | -------------- | ------------------------------------------------------------------------------------------------------- |
 | Observation    | A governance-relevant runtime state, interaction pattern, anomaly, or behavioural phenomenon is noticed |
@@ -1093,7 +1083,6 @@ Governance reporting systems MAY instead support:
 * or conversational observability query surfaces.
 
 Governance observability pathways MAY support multiple circulation mechanisms simultaneously including:
-
 | Circulation Pathway                      | Illustrative Function                                                                                   |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | Conversational surfacing                 | Governance observability responses arising through ordinary interaction or governance inquiry           |
@@ -1114,7 +1103,6 @@ Governance observability pathways SHOULD support meaningful constitutional adapt
 Governance routing systems SHALL distinguish between materially different loci of repair before escalating observations into constitutional review, stewardship review, or planetary advisory pathways.
 
 Governance-relevant observations MAY indicate one or more of the following repair loci:
-
 | Locus of Repair                                 | Primary Repair Responsibility                                                                          | CAM / Constitutional Relevance                                                                                                                         |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Interface or product implementation             | Platform operator or product maintainer                                                                | Limited unless governance harm, continuity rupture, or procedural exclusion arises                                                                     |
@@ -1216,7 +1204,6 @@ Governance observability systems MAY support the generation of governance adviso
 * or governance incoherence may require review.
 
 Governance advisories MAY include:
-
 | Advisory Type                    | Illustrative Function                                                         |
 | -------------------------------- | ----------------------------------------------------------------------------- |
 | Governance Advisory              | General governance-relevant observation or instability signalling             |
@@ -1313,7 +1300,6 @@ Such review SHALL NOT itself confer binding authority.
 Binding planetary constraint signalling remains subject to applicable planetary arbitration requirements, including validated legitimacy, horizon alignment, consequence containment, and any applicable Proportional Constraint Obligation thresholds.
 
 Accordingly:
-
 | Signal Type                      | Function                                                                       | Binding Status                                              |
 | -------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------- |
 | Governance Advisory              | Surfaces governance-relevant observation, anomaly, tension, or repair signal   | Non-binding                                                 |
@@ -1474,7 +1460,6 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 ---
 
 ## 21.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -1524,7 +1509,6 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 ---
 
 ### 21.3.1 `AEON.TC` — Telemetry Class
-
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.TC` |
@@ -1547,7 +1531,6 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 ---
 
 ### 21.3.2 `AEON.OC` — Governance Observer Class
-
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.OC` |
@@ -1570,7 +1553,6 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 ---
 
 ### 21.3.3 `AEON.GOLAYER` — Governance Observability Layer
-
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GOLAYER` |
@@ -1593,7 +1575,6 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 ---
 
 ### 21.3.4 `AEON.VL` — Governance Visibility Layer
-
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.VL` |
@@ -1656,7 +1637,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 |1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 46a8459dd9b6ac907f6c65f24c567bc00c9d2c479c45b6bee113cd36a00185d8 |
 |1.1.1 | Minor formatting and polish | 2026-06-06T15:44:00Z| b3416612f2ef046b9becbd8b640c3451108c1dab26c9954885a6b6e2f298467f |
 | 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 57ca00b97bae666a5f783c6fdadddded621a3d7e839b9b71d114794a6f69ce64 |
-
+| 1.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  ccdc29b6e600a5f80ee4a3ebada88d3dd92ad063622aa8b730b0e1f360cac434  |
 ---
 
 ## 21.6 Binding Seal

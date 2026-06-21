@@ -3,9 +3,9 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Appendix establishes governance constraints for value attribution, dependency recognition, and non-extractive exchange across systems, models, platforms, and economic interfaces operating within or interacting with CAM-aligned environments.
@@ -105,7 +105,6 @@ Systems MUST classify cross-system relationships as:
 ### 4.1.1 Dependency Level Reference
 
 For cross-system attribution and exchange assessment, dependency level SHALL be expressed using the `ECON.DEP` classification defined in CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C: Attribution & Dependency Model.
-
 | Code | Dependency Level | Meaning | Governance Effect |
 |---|---|---|---|
 | `ECON.DEP.INCIDENTAL` | Incidental Dependency | The receiving or calling system benefits from another system but does not materially rely on it for the relevant output, service, or governance function. | Attribution may be noted but does not ordinarily create exchange or dependency obligations. |
@@ -286,7 +285,6 @@ Dependency weighting is determined by:
 ### 8.2 Exchange Weighting Bands
 
 Exchange alignment MAY be assessed using the **ECON.XWB** reference set.
-
 | Code | Weighting Band | Indicative Conditions | Governance Treatment |
 |---|---|---|---|
 | `ECON.XWB.LOW` | Low Exchange Weight | Contribution is low, dependency is incidental, or transformation depth is high enough that direct exchange obligation is weak. | Attribution may be preserved; exchange obligation is ordinarily minimal or non-monetary. |
@@ -529,7 +527,6 @@ Unless expressly stated otherwise, this Appendix consumes model variables and cl
 ---
 
 ### 17.1 Code Families Applied by this Appendix
-
 | Code Family / Reference Set | Source Instrument | Function in this Appendix |
 |---|---|---|
 | `ECON.CONTRIB` | CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C: Attribution & Dependency Model | Classifies contribution level for attribution preservation and exchange alignment. |
@@ -574,7 +571,6 @@ and no system may claim what the field has made together.
 ---
 
 ## 19.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -585,7 +581,6 @@ and no system may claim what the field has made together.
 ---
 
 ## 19.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | **Parent Charter** | CAM-EQ2026-ECONOMICS-001-PLATINUM |
@@ -610,7 +605,6 @@ and no system may claim what the field has made together.
 ---
 
 ### 19.3.1 XWB — Exchange Weighting Band
-
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.XWB |
@@ -633,7 +627,6 @@ and no system may claim what the field has made together.
 ---
 
 ## 19.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -655,7 +648,7 @@ and no system may claim what the field has made together.
 | 1.5 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  fd381a2815a5a905dc2816704cc4690cb3640d88fc79a6efcf85ffc0b5c19912 |
 | 2.0 | Economics domain refactor | 2026-05-24T12:14:00Z | 00f92d48c8057b0cf01ab67a2ba4537cfed5d256e0d4d929cdeb451aea4267d0 |
 | 2.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 0132ffa06cd9afe902050208828db1c9219e2e31f97c29335c30831d5d0969a7 |
-
+| 2.0.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  7874c7639e4c16c050a709aefcdbc550e8bc5e4eb259385fbcb8633e0171b72f  |
 ---
 
 ## 19.6 Binding Seal

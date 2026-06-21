@@ -3,9 +3,9 @@
 **Instrument Type:** Domain Instrument — Cognitive Data & Inference Governance  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Domain Authority:** CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy  
-**Status:** Draft  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Pending Adoption  
+**Status:** Draft
+**Effect:** Interpretive
+**Governance Standard:** Not Enforceable
 **Review State:** Developmental Review  
 **Authority Role:** Source-authoritative operational governance instrument for cognitive inference, neurodata, cognitive biometrics, and ambient biosignal processing  
 **Purpose:** This Appendix establishes governance requirements for the collection, inference, modelling, fusion, retention, sharing, validation, and operational use of neurodata, inferred mental-state data, cognitive biometrics, biosignals, and ambient cognitive-domain indicators.
@@ -780,7 +780,6 @@ And what is most observable is not always what is most true.
 ---
 
 ## 55.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -791,7 +790,6 @@ And what is most observable is not always what is most true.
 ---
 
 ## 55.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | Parent Instrument | `CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy` |
@@ -837,7 +835,6 @@ And what is most observable is not always what is most true.
 ---
 
 ### 55.3.1 `MENTIS.MSI` — Mental-State Inference
-
 | Field | Entry |
 |---|---|
 | Reference Set | `MENTIS.MSI` |
@@ -861,7 +858,6 @@ And what is most observable is not always what is most true.
 ---
 
 ### 55.3.2 `MENTIS.CBIO` — Cognitive Biometric
-
 | Field | Entry |
 |---|---|
 | Reference Set | `MENTIS.CBIO` |
@@ -885,7 +881,6 @@ And what is most observable is not always what is most true.
 ---
 
 ### 55.3.3 `MENTIS.ACI` — Ambient Cognitive Inference
-
 | Field | Entry |
 |---|---|
 | Reference Set | `MENTIS.ACI` |
@@ -909,7 +904,6 @@ And what is most observable is not always what is most true.
 ---
 
 ### 55.3.4 `MENTIS.CFP` — Cognitive Fusion Pathway
-
 | Field | Entry |
 |---|---|
 | Reference Set | `MENTIS.CFP` |
@@ -933,7 +927,6 @@ And what is most observable is not always what is most true.
 ---
 
 ### 55.3.5 `MENTIS.CDPR` — Cognitive Data Processing Record
-
 | Field | Entry |
 |---|---|
 | Reference Set | `MENTIS.CDPR` |
@@ -957,7 +950,6 @@ And what is most observable is not always what is most true.
 ---
 
 ## 55.4 Review & Validation
-
 | Field|Entry|
 |---:|:---|
 |Reviewer|[Deferred]|
@@ -974,7 +966,7 @@ And what is most observable is not always what is most true.
 | 1.0 | Initial development of Appendix A of MENTIS Domain| 2026-06-06T09:04:00Z |  9bccf9b3deb00ddad3804920aa0b948f5b3d57c7c73d011dd0cecccff7c5d1d8 |
 | 1.1 | Added minor mental-state and dependency signal non-exploitation rule to prevent teen mental-health, emotional vulnerability, and developmental signals being converted into engagement, intimacy, profiling, retention, or companion-dependency assets. | 2026-06-09T14:50:00Z | e262ed3e7dc9e998e76bf3984030dbcb412d5a9851fcfa5eb67e0e10321ec2b5 |
 | 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b8034276b3b6ab69fe682df0dbd07e3743d10234513e51111ae4bfd31cf8330a |
-
+| 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  070fe90324236390da3637475465a824c22727bc7bd72decb181600f0109d99b  |
 ---
 
 ## 55.6 Binding Seal

@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Schedule — Behavioural / Directional Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule defines the runtime behavioural system through which arbitration-resolved direction is expressed, including the structured processes of choice, initiative, and cognition that govern system behaviour.  
@@ -296,7 +296,6 @@ Initiative defines how a system expresses direction relative to user input.
 ---
 
 ## 4.1 Initiative Modes
-
 | Mode                    | Description                                           |
 | ----------------------- | ----------------------------------------------------- |
 | Reactive                | Responds only to direct input                         |
@@ -609,7 +608,6 @@ and bounded.
 ---
 
 ## 12.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -620,7 +618,6 @@ and bounded.
 ---
 
 ## 12.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM |
@@ -646,7 +643,6 @@ and bounded.
 ---
 
 ### 12.3.1 `AEON.CCS` — Cognitive Cycle Stage
-
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.CCS` |
@@ -669,7 +665,6 @@ and bounded.
 ---
 
 ### 12.3.2 `AEON.IM` — Initiative Mode
-
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.IM` |
@@ -693,7 +688,6 @@ and bounded.
 ---
 
 ## 12.4 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -722,7 +716,7 @@ and bounded.
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f7a205830fa99c4892209e35c61256177ef1def87fc401f479cbfe877ed978f2 |
 | 1.11 | Added section 10, canonical code reference set | 2026-06-06T13:29:00Z| dffcd0d12989b26b9500632275903e379f1db0ffc63441818e8e5532bb746bd6 |
 | 1.11.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 247350c184a7aebce91c8c549f93adf116b63845342cec23b7871ade42d274d4 |
-
+| 1.11.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  973ec98561d2f706d8c8b7f567a4ab75c0f6c8282ee135d612c8a077ca00c30b  |
 ---
 
 ## 12.6 Binding Seal

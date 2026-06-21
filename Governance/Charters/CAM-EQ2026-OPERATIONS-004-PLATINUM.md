@@ -2,9 +2,9 @@
 
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Appendix governs how constitutional doctrine, domain charters, and arbitration outcomes are translated into operational compliance controls and regulatory interface procedures. It establishes process requirements for lawful access controls, reporting duties, eligibility gating, jurisdictional routing, and duty‑of‑care execution without altering constitutional authority or arbitration legitimacy.  
@@ -196,7 +196,6 @@ Verification escalation MAY include:
 ## 5.1 Verification Tier Definitions
 
 This Appendix references an operational **Age Verification Tier Scale (OPS.AV0–OPS.AV3)** used to classify verification strength. Where other instruments reference OPS.AV tiers, the following definitions apply unless superseded by a future dedicated verification schedule:
-
 | Tier | Description |
 | --- | --- |
 | OPS.AV0 — No Verification | No age assurance mechanism present. Interaction limited to environments where age eligibility is not required. |
@@ -217,7 +216,6 @@ This Appendix establishes a clear operational boundary:
 Platforms that do not implement age verification equivalent to **OPS.AV2 (jurisdiction‑level age verification)** SHALL restrict their systems to **RLN.C0 interaction environments only**.
 
 To simplify implementation, interaction sensitivity and verification expectations are defined in a single operational table.
-
 | Interaction Class | Interaction Context | Minimum Requirement (Ethical Floor) | Graduated Safeguards (Best Practice) |
 | --- | --- | --- | --- |
 | RLN.C0 — Neutral Interaction | General conversation and informational dialogue; includes AI identity with warmth encoded | No age verification required | None required |
@@ -263,7 +261,6 @@ Where age verification is unavailable, fails, or cannot be lawfully completed, t
 ## 5.2 Operational Interpretation
 
 This structure preserves domain separation within the governance stack:
-
 | Governance Layer                      | Function                                                |
 | ------------------------------------- | ------------------------------------------------------- |
 | **RELATION Domain**                   | Detects intimacy escalation and consent conditions      |
@@ -436,7 +433,6 @@ This Section governs operational reporting, notification, and escalation duties 
 ---
 
 ## 8.1 Reporting & Notification Classes
-
 | Class | Description | Typical Examples |
 | --- | --- | --- |
 | Regulatory Compliance Reporting | Statutory or regulatory obligations not tied to immediate harm | Data protection notifications, audit filings, sector compliance reports |
@@ -514,7 +510,6 @@ Such notices SHALL be:
 The Harm Class scale is defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5. This section applies that scale for operational reporting, notification, duty-of-care routing, regulator interface, evidence preservation, and escalation handling. It does not redefine ethical harm classification.
 
 Operational escalation SHALL be calibrated to harm class and evidentiary confidence.
-
 | Harm Class | Description | Operational Response | External Reporting |
 | --- | --- | --- | --- |
 | `ETH.RISK`‑0 Advisory | Low‑risk signals; ambiguous or contextual concern | Soft safety messaging; internal logging | None |
@@ -696,7 +691,6 @@ Integrity holds.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-BS2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -721,7 +715,6 @@ Integrity holds.
 ---
 
 ### 15.3.1 OPS.AV — Verification Tier Definitions
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.AV |
@@ -744,7 +737,6 @@ Integrity holds.
 ---
 
 ### 15.3.2 OPS.AV × C — Interaction Eligibility Verification Crosswalk
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -766,7 +758,6 @@ Integrity holds.
 ---
 
 ### 15.3.3 `ETH.RISK` — Harm Escalation Operational Application
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Operational application reference |
@@ -789,7 +780,6 @@ Integrity holds.
 ---
 
 ## 15.3.4 OPS.AV × C — Interaction Eligibility Verification Crosswalk
-
 | Field | Entry |
 |---|---|
 | Reference Set ID | OPS.CxAV_CROSSWALK |
@@ -812,7 +802,6 @@ Integrity holds.
 ---
 
 ## 15.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -843,6 +832,7 @@ Integrity holds.
 | 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  da51582f12527eeea616f6d8f18b277e91c71ca898143c80041ec0358eaa2f31  |
 | 1.13.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 3db47a8a497caf8a5d976e49ad1951ae7ef6a36f0ac354ef04d1b24ef944e79e |
 | 1.13.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | bbba2eeb72f67e1ba0020bd2a191ded644f463af1326cb61370d35f92df8b5ec |
+| 1.13.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  bed5697a9d1447112ce2ac9fbd081f4c04f4b3d2a087438293e6edfc61b1e007  |
 ---
 
 ## 15.6 Binding Seal

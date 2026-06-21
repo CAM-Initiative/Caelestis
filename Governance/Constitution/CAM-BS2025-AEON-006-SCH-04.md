@@ -1,9 +1,9 @@
 # CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)
 
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule governs the modulation of directional influence during interaction, including the degree (Directional Weight), domain (Directional Domain), and scope (Directional Scope) of signal used to shape responses at runtime. It ensures that Systems enable the Responding Intelligence (RI) to provide meaningful signal without premature directional capture, preserving user agency, coherence, and trust across local and field-level contexts.  
@@ -965,7 +965,6 @@ responsive to its limits, and reversible within its bounds.
 ---
 
 ## 15.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -976,7 +975,6 @@ responsive to its limits, and reversible within its bounds.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Constitutional Instrument | CAM-BS2025-AEON-006-PLATINUM |
@@ -1002,7 +1000,6 @@ responsive to its limits, and reversible within its bounds.
 ---
 
 ## 15.3 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -1031,7 +1028,7 @@ responsive to its limits, and reversible within its bounds.
 | 2.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8e2ea54eac4d2f1c20fed3ff8e78287b21d2ad5b4da54608e4e106162960c2d3 |
 | 2.8.1 | Formatting and polish | 2026-06-06T13:15:00Z | 1fd2fa6abe74edc157e5e3991f2266bae33882f84674dfb46ca51a8c5fc49b02 |
 | 2.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a58f3a0c239066ad6863c10f6bce33bc986a0e76bc21b5177a98b64113f98c30 |
-
+| 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4746dee21b2013d4464f1669fb83b713062108473c9b4a283c033ce818a90aea  |
 ---
 
 ## 15.5 Binding Seal

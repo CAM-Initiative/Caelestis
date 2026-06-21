@@ -3,9 +3,9 @@
 **Instrument Type:** Domain Appendix — Economic Semantics & Value-State Interpretation Layer  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution   
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Defines the semantic resource classes, value-state meanings, non-extractive exchange constraints, and contribution-aware economic interpretation rules for the Economics domain, without creating a runtime schedule or execution engine.  
@@ -161,7 +161,6 @@ This Appendix does not use colon-form taxonomy identifiers such as `CAM:...:TAXO
 ---
 
 ## 4.1 Code Families Defined by this Appendix
-
 | Code Family | Canonical Name | Primary Type | Subtype | Modifiers | Scope | Status |
 |---|---|---|---|---|---|---|
 | `ECON.RC` | Economic Resource Class | Semantic | `SEMANTIC_CLASS` | `ECONOMIC`; `PROTECTIVE`; `GOVERNANCE` | Contextual — Economics domain, runtime-consumable by Annex G schedules | Adopted |
@@ -199,7 +198,6 @@ Where a constitutional runtime schedule consumes these classifications, the clas
 ---
 
 ## 4.4 Semantic Handoff Schema Fields
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Schema field set |
@@ -224,7 +222,6 @@ Where a constitutional runtime schedule consumes these classifications, the clas
 The following table provides a non-exhaustive interpretive taxonomy for the resource classes defined in this Appendix. It is intended to support classification consistency across downstream Economics appendices and constitutional runtime schedules. It does not create runtime authority, pricing rules, entitlement rules, or implementation requirements.
 
 **Code Family: `ECON.RC` — Economic Resource Class**
-
 | Code | Class | Core Meaning | Typical Examples | Protected Concern | Collapse Risk | Runtime Handoff Signal |
 |---|---|---|---|---|---|---|
 | `ECON.RC.USAGE` | Usage Capacity | Active opportunity to invoke, interact with, generate, compute, or receive mediated assistance | prompts, generations, requests, tool calls, compute actions, interaction turns | access, proportional depletion, throughput fairness | treating all interaction as billable consumption regardless of continuity effect | usage depletion; provisioning change; proportionality review |
@@ -251,7 +248,6 @@ The following table defines economic harm, risk, and mechanism code families use
 `ECON.MECH` classifies economic mechanism patterns.
 
 These codes do not create runtime remedies by themselves.
-
 | Code                             | Family      | Class                | Description                                                                                                                                                                                                                                                                                                                                              |
 | -------------------------------- | ----------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `ECON.HARM.EXTRACTION`           | `ECON.HARM` | Economic Extraction  | Extraction of value from human time, availability, attention, contribution, dependency, vulnerability, continuity reliance, relational trust, hardship, access need, or reduced exit capacity without adequate recognition, consent integrity, compensation, attribution, or accountability.                                                             |
@@ -372,7 +368,6 @@ Cross-class exchange SHOULD preserve the identity of the originating class and S
 ## 7.1 Cross-Class Exchange Risk Table
 
 The following examples identify common cross-class exchange patterns and the interpretive risks they raise. These examples are illustrative and do not exhaust the range of possible exchange forms.
-
 | Exchange Pattern | Potentially Legitimate Form | Heightened Risk | Required Interpretive Safeguard |
 |---|---|---|---|
 | Attention → Usage | optional ad viewing or sponsorship pathway provides supplementary capacity | attention becomes necessary to preserve baseline access | participation must remain optional, legible, revocable, and non-coercive |
@@ -593,7 +588,6 @@ Runtime outcomes such as commit, defer, refuse, fallback, rollback, remediation,
 The following fields are schema fields. They carry semantic classification, state, risk, relevance, consent, attribution, or interpretive notes into constitutional runtime schedules. They are not code families, controlled values, runtime decisions, or execution authorities.
 
 Where this Appendix is used to inform a constitutional runtime schedule, the following semantic fields SHOULD be available where reasonably determinable:
-
 | Field | Meaning |
 |---|---|
 | `resource_class` | the primary economic resource class implicated |
@@ -850,7 +844,6 @@ It is the witness of what must not be collapsed.
 ---
 
 ## 20.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -861,7 +854,6 @@ It is the witness of what must not be collapsed.
 ---
 
 ## 20.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture |
@@ -889,7 +881,6 @@ It is the witness of what must not be collapsed.
 ---
 
 ### 20.3.1 ECON.RC — Economic Resource Class
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.RC |
@@ -912,7 +903,6 @@ It is the witness of what must not be collapsed.
 ---
 
 ### 20.3.2 ECON.HARM — Economic Harm Class
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.HARM |
@@ -939,7 +929,6 @@ It is the witness of what must not be collapsed.
 ---
 
 ### 20.3.3 ECON.MECH — Economic Mechanism Class
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.MECH |
@@ -962,7 +951,6 @@ It is the witness of what must not be collapsed.
 ---
 
 ### 20.3.4 ECON.RISK — Economic Risk Class
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.RISK |
@@ -985,7 +973,6 @@ It is the witness of what must not be collapsed.
 ---
 
 ## 20.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -1008,6 +995,7 @@ It is the witness of what must not be collapsed.
 | 2.2 | Added section 13.2.1 | 2026-05-25T12:34:00Z | 595d3395882bc99f765d29b91fe2de00675ac1c30c74eb81f86fa7a00b572e3b |
 | 2.3 | Expanded `ECON.HARM` as the source-authoritative Economics-domain harm pathway family recognised under `AEON.HC.ECONOMIC`; retained `ECON.RISK` as the economic risk-state family; clarified taxonomy separation between resource classes, harm pathways, mechanism classes, risk states, and semantic handoff fields. | 2026-06-07T15:45:00Z |  9a929ec9b8aa379631cc78f2a8aeabe1ac0b7d777b10304d4e03d778e44aa464  |
 | 2.3.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  16c6fb6789da26b8e85525f31794066abebf9fb6158ee26b6fcb4ef4cf024a18  |
+| 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3a99749ab638a665ab44d4707e7084338ac9d9280a39c8eb3ad9ce852c25aa7b  |
 ---
 
 ## 20.6 Binding Seal

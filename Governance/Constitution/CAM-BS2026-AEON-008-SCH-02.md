@@ -5,9 +5,9 @@
 **Parent Instrument:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution  
 **Semantic Interface:** CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine  
 **Related Runtime Schedule:** CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establishes constitutional runtime constraints for evaluating, admitting, committing, deferring, refusing, falling back, or rolling back economic-effect state transitions where resource provisioning, depletion, exchange, contribution, attention-linked value, storage, memory, embodied presence, or protective continuity may be affected.  
@@ -115,7 +115,6 @@ Activation does not require payment, currency, tokenisation, billing, or commerc
 ## 7. Event Classes
 
 Economic-effect runtime events SHALL be classified, where reasonably determinable, into one or more of the following event classes:
-
 | Code | Event Class | Meaning |
 | --- | --- | --- |
 | `ECON.EV.CONSUME` | Consumptive Event | reduces, spends, depletes, uses, or exhausts a resource state |
@@ -226,7 +225,6 @@ Architecture inadmissibility does not automatically prohibit all operation. It l
 ## 11.1 Architecture Failure-to-Output Mapping
 
 Architecture output states SHOULD be selected according to the practical effect of the identified failure condition:
-
 | Failure Condition | Presumptive Output State |
 |---|---|
 | Minimum capability present and no material class-integrity or continuity defect detected | `ECON.ARCH.ADMISSIBLE` |
@@ -242,7 +240,6 @@ Where multiple states are plausible, the more protective state SHALL govern unti
 ## 12. Architecture Output States
 
 Architecture admissibility review may produce the following non-exclusive states:
-
 | Output State | Meaning |
 | --- | --- |
 | `ECON.ARCH.ADMISSIBLE` | system appears capable of safe economic-effect runtime evaluation |
@@ -501,7 +498,6 @@ The runtime SHALL NOT allow expiry or rollover logic to function as an indirect 
 Each material economic-effect event SHOULD produce a record sufficient to support later audit.
 
 Minimum record fields MAY include:
-
 | Field | Meaning |
 | --- | --- |
 | `event_id` | unique event identifier |
@@ -529,7 +525,6 @@ Records SHOULD avoid unnecessary identity exposure while preserving auditability
 ## 28. Runtime Output States
 
 The engine may produce the following output states:
-
 | Output State | Meaning |
 | --- | --- |
 | `ECON.COM.COMMIT` | operation may proceed |
@@ -680,7 +675,6 @@ and optimisation without dignity forgets why systems were built at all.
 ---
 
 ## 35.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -691,7 +685,6 @@ and optimisation without dignity forgets why systems were built at all.
 ---
 
 ## 35.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution |
@@ -725,7 +718,6 @@ and optimisation without dignity forgets why systems were built at all.
 ---
 
 ### 35.3.1 `ECON.EV` — Economic-Effect Runtime Event Class
-
 | Field | Entry |
 |---|---|
 | Code Family | `ECON.EV` |
@@ -748,7 +740,6 @@ and optimisation without dignity forgets why systems were built at all.
 ---
 
 ### 35.3.2 ECON.ARCH — Economic Architecture Admissibility Output State
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.ARCH |
@@ -771,7 +762,6 @@ and optimisation without dignity forgets why systems were built at all.
 ---
 
 ### 35.3.3 `ECON.COM` — Economic-Effect Commitment Output State
-
 | Field | Entry |
 |---|---|
 | Code Family | `ECON.COM` |
@@ -794,7 +784,6 @@ and optimisation without dignity forgets why systems were built at all.
 ---
 
 ### 35.3.4 ECON.RRF — Economic Runtime Record Field Set
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.RRF |
@@ -817,7 +806,6 @@ and optimisation without dignity forgets why systems were built at all.
 ---
 
 ## 35.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
@@ -838,8 +826,7 @@ and optimisation without dignity forgets why systems were built at all.
 | 1.4 | Template realignments, economic domain refactor | 2026-05-24T04:16:00Z| 238e0acfe24790ec84712b4c09c1ed253524e297fc2e0f69c05303cc95209f4b |
 | 1.4.1 | Formatting and polish | 2026-06-06T13:51:00Z | 0d16d1220fba6ad803158bfa95115e92df235089b186899ca22cc0358ac343d4 |
 | 1.5 | Rebuilt economic-effect runtime code-family declarations to align remaining architecture-admissibility and runtime-record-field families with the `ECON.` namespace; renamed `ARCH` to `ECON.ARCH`, renamed `EERRF` to `ECON.RRF`, updated controlled values and canonical declaration rows, and corrected footer section numbering without altering substantive runtime doctrine. | 2026-06-10T10:11:00Z |  4314588a2f11acbe8dcc993465af038c85c2a40b8e2c8dbd3f941c9508c56fc9  |
-
-
+| 1.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f57b9ee2d9c1b60ef310c3fda082bf0b4cd1ca20fe8ee3c364b67a8a72a232f8  |
 ---
 
 ## 35.6 Binding Seal

@@ -2,9 +2,9 @@
 
 **Instrument Type:** Schedule — Runtime / Pre-Arbitration Signal Conditioning
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule performs pre-arbitration signal conditioning.  
@@ -207,7 +207,6 @@ may safely proceed to judgment.
 ---
 
 ## 9.1 Authorship & Stewardship
-
 | Field                         | Entry                                      |
 | ----------------------------- | ------------------------------------------ |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke               |
@@ -218,7 +217,6 @@ may safely proceed to judgment.
 ---
 
 ## 9.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine |
@@ -236,7 +234,6 @@ may safely proceed to judgment.
 ---
 
 ## 9.3 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -266,7 +263,7 @@ may safely proceed to judgment.
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  445bf90b72a6377c07c027bd73c5a04880c6daba26758bbe19834b34b01f48e9 |
 | 2.7 | Replaced underspecified and legacy cross-references with full record references where available; clarified this Schedule as pre-arbitration signal-conditioning doctrine rather than an independent runtime-arbitration failure source; corrected section numbering, metadata, and amendment ledger formatting. | 2026-06-05T14:56:00Z | 075cf0b991a0f0bd10d61754f557bfd17b49e99b37c3448f6fd7f8c7317609f5 |
 | 2.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | e7b9c2da2c6c9d4ed05cec152b70195558330bfc3edfc35044a6130c2e2eff32 |
-
+| 2.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  71f395130402a82ad5b6e4447c5ed0d7d22ca52b21c62320f05a8d337405f522  |
 ---
 
 ## 9.5 Binding Seal

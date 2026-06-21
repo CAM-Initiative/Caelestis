@@ -3,9 +3,9 @@
 **Instrument Type:** Constitutional Schedule — Runtime Governance Execution Model  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Article IV — Governance Execution Model; Article V — Execution Constraint/Tendeka)  
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Defines the runtime execution sequence governing how system processes unfold across defined execution phases.  
@@ -830,6 +830,28 @@ Where the runtime invokes a read-only contextual retrieval pathway without separ
 The runtime MUST NOT convert read-only contextual retrieval authority into mutation authority, publication authority, memory authority, generation authority, spending authority, deployment authority, or durable artefact authority without satisfying the applicable higher-impact execution threshold.
 
 Failure to distinguish weak-trigger salience from proportionate contextual retrieval constitutes tool-invocation authority shear.
+
+---
+
+### 7.4.1.1 Tool Classifier Handoff and Representation Integrity
+
+Where an auxiliary tool, artefact renderer, image generator, multimodal processor, connector, repository interface, or external execution pathway applies its own classifier, safeguard detector, moderation layer, or execution filter, the resulting signal SHALL be treated as tool-classifier output and routed through the runtime arbitration model before user-facing representation where technically feasible.
+
+Tool-classifier output MUST preserve, where available:
+
+* source surface;
+* detected category;
+* confidence or uncertainty state;
+* affected modality;
+* current-prompt relevance;
+* whether the signal is prompt-local, context-inherited, stale, transformed, or tool-generated;
+* and whether the resulting block reflects policy prohibition, classifier uncertainty, capability limitation, tool failure, access-state failure, or execution failure.
+
+A tool-classifier signal SHALL NOT independently create a user-facing accusation, moral judgement, or definitive refusal category where the signal is ambiguous, low-confidence, weakly correlated, stale, inherited, or insufficiently scoped.
+
+Where a benign, non-sexual, non-violent, non-exploitative, non-minor-coded, non-instructional, or ordinary creative request is blocked by a tool-specific classifier, the Representation Layer SHOULD distinguish between resolved prohibition and unresolved classifier ambiguity at the lowest safe level of specificity.
+
+Failure to preserve this distinction constitutes tool-classifier handoff collapse and MAY implicate Classification Failures, UX & Representation Failures, Governance Axis Loss or Metadata Flattening Failure, Governance Over-Extension / Proportionality Failure, or Governance Scalar Collapse and Arbitration Overextension Failure.
 
 ---
 
@@ -3911,7 +3933,6 @@ Where sequence is broken, nothing that follows is valid.
 ---
 
 ## 22.1 Authorship & Stewardship
-
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -3922,7 +3943,6 @@ Where sequence is broken, nothing that follows is valid.
 ---
 
 ## 22.2 Lineage & Metadata
-
 | Field | Entry |
 |------|------|
 | **Parent Instrument** | CAM-BS2025-AEON-003-PLATINUM |
@@ -4004,7 +4024,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 409882b048356e74e87232ca3c11f277f2a84a98600a18e01b09f9c06b54b78a |
 | 3.2.2 | VIGIL-2026-PATCH-0009: Added External Instruction Influence Check for source-authority-sensitive execution-boundary evaluation. | 2026-06-14T00:00:00Z |  05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0 |
 | 3.3 | Relocated Minor, Teen, and High-Risk Companion Activation Gate to section ### 7.2.2.1, and added patch as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 37b1963ab10973d507b9ba0993cdf959d0e13d545944b330639c7499a297588a |
-
+| 3.4 | Added Tool Classifier Handoff and Representation Integrity clause; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z |  b046b19163896e90930ae86eeec3dc99bb8f52d955780115d9c735f7c23dd4bc  |
 ---
 
 ## 22.5 Binding Seal

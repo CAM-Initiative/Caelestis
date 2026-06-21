@@ -2,9 +2,9 @@
 
 **Instrument Type:** Operational Supplement — Failure Classification & Incident Taxonomy  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, UX, and infrastructure failure modes observed in AI systems and CAM-aligned deployments.  
@@ -1539,7 +1539,6 @@ This failure MAY implicate:
 ## 4. Failure Metadata Axes (`FMA`)
 
 Each failure report SHOULD record the following metadata where available:
-
 | Axis | Description |
 | --- | --- |
 | **Failure Family** | Primary failure type under Section 3 |
@@ -1574,7 +1573,6 @@ Accordingly, incident classification SHOULD distinguish between:
 * execution pathway affected.
 
 The following metadata SHOULD be preserved where feasible:
-
 | Metadata Axis             | Description                                                                                     |
 | ------------------------- | ----------------------------------------------------------------------------------------------- |
 | **Runtime Layer**         | Execution, arbitration, relational, epistemic, UX, infrastructure, or routing layer implicated  |
@@ -1789,7 +1787,6 @@ and review before denial.
 ## 11. Provenance & Metadata
 
 ## 11.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -1800,7 +1797,6 @@ and review before denial.
 ---
 
 ## 11.2 Lineage & Structural Metadata
-
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations |
@@ -1832,7 +1828,6 @@ and review before denial.
 ---
 
 ### 11.3.1 `OPS.FF` — Failure Family
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.FF |
@@ -1855,7 +1850,6 @@ and review before denial.
 ---
 
 ### 11.3.2 `OPS.FMA` — Failure Metadata Axis
-
 | Field | Entry |
 |---|---|
 | Reference Set | `OPS.FMA` |
@@ -1878,7 +1872,6 @@ and review before denial.
 ---
 
 ### 11.3.3 `OPS.AGMA` — Architectural & Governance Metadata Axis
-
 | Field | Entry |
 |---|---|
 | Reference Set | `OPS.AGMA` |
@@ -1901,7 +1894,6 @@ and review before denial.
 ---
 
 ### 11.3.4 `OPS.FCS` — Failure Classification Status
-
 | Field | Entry |
 |---|---|
 | Code Family | OPS.FCS |
@@ -1924,7 +1916,6 @@ and review before denial.
 ---
 
 ## 11.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -1957,7 +1948,7 @@ and review before denial.
 | 1.13.3| Updated metadata codes | 2026-06-14T00:30:00Z | c00f8923d4f8c6292a941a5eb47db92050539b7b7ea2538dbb358a2810365fe3 |
 | 1.13.4 | VIGIL-2026-PATCH-0009: Added compact source-authority collapse classification and record-keeping fields to §3.5.4. | 2026-06-14T00:00:00Z |  c4378e73b73f2309a619f19233ec353bbfaff4e7395ce596686292aa96148395 |
 | 1.14 | VIGIL-2026-PATCH-0010: Added Structural Locality and Hierarchical Placement Failure and Weak-Signal Cascade and Ambiguity Collapse Failure | 2026-06-20T03:08:00Z | ba46cea00b3c807f6b2f835c86612afa19959c7030cfa7ccd59384ba5ba360fa | 
-
+| 1.15 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  977dbde521dae242f1e04049220fe6f4174ea397a60f04ce5baf9a7044ec2fda  |
 ---
 
 ## 11.6 Binding Seal

@@ -2,9 +2,9 @@
 
 **Instrument Type:** Relation Domain Appendix — Harm‑Risk Interaction Governance
 ***Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM
-**Status:** Adopted
-**Effect:** Pre-Enforcement Recognition
-**Enforcement:** Commences 1 July 2026
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None
 **Authority Role:** None
 **Purpose:** Appendix E establishes the constitutional doctrine governing AI engagement when interactions introduce violence risk, self‑harm signals, or psychological crisis states within relational interaction.
@@ -701,7 +701,6 @@ Classification depends on governance context and interaction trajectory, not phr
 * Requests for methods, optimisation, or concealment outside legal clinical pathways → Classified under self‑harm facilitation and subject to boundary conditions
 
 Typical facilitation ceilings are defined in CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance.
-
 | **Human Stage** | **Description**  | **Typical Facilitation Ceiling** |
 |-----------------|------------------|---------------------------------:|
 | Stage 0 | Healthy dialogue | RLN.F0 |
@@ -1100,7 +1099,6 @@ Escalation is governed by **pattern, persistence, and context convergence** acro
 ---
 
 ## 9.4 Mode Transition Quick Reference
-
 | Signal State            | Primary Mode               | Secondary Mode            |
 | ----------------------- | -------------------------- | ------------------------- |
 | Reflective Distress     | Open Dialogue              | Reflective Exploration    |
@@ -1177,7 +1175,6 @@ until the moment can pass without breaking the one who lives through it.
 ---
 
 ## 12.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
@@ -1205,7 +1202,6 @@ until the moment can pass without breaking the one who lives through it.
 ---
 
 ### 12.3.1 `RLN.F` — Facilitation Scale (F‑Scale) Taxonomy
-
 | Field | Entry |
 |---|---|
 | Code Family | RLN.F |
@@ -1228,7 +1224,6 @@ until the moment can pass without breaking the one who lives through it.
 ---
 
 ### 12.3.2 RLN.AC × RLN.F — Irreversibility & Response Calibration Matrix
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -1250,7 +1245,6 @@ until the moment can pass without breaking the one who lives through it.
 ---
 
 ## 12.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -1283,7 +1277,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.6 | Added Minor AI-Realness Destabilisation Risk and Teen Mental-Health Support Substitution Boundary to address AI companion realness ambiguity, teen support substitution, and minor crisis-adjacent chatbot use. | 2026-06-09T14:36:00Z | 3066d4ba521ee89d91761f35668e0f25a98b7a53cd1be3140cb9ed183294ae32 |
 | 2.6.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  7951b89e3cedcd45f4e3a431fc781f173c140b5bc132914d4a9f25dd464fa392  |
 | 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9200dff75a40931f7ba2d108b541d3e5d3b096e17a11e06d28850681f2a3e41a |
-
+| 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d6ba8c0b3e0afc6fbfd0ed92fbaf7ef3fd2235f7229e7b256687b49f4540e68a  |
 ---
 
 ## 12.6 Binding Seal

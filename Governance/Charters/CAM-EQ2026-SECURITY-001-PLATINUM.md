@@ -1,9 +1,9 @@
 # CAM-EQ2026-SECURITY-001-PLATINUM —  Security, Integrity & Adversarial Resilience Charter
 
 **Instrument Type:** Domain Charter  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish system-wide invariants, threat interpretations, and integration requirements to preserve integrity under adversarial, degraded, or untrusted conditions  
@@ -1266,7 +1266,6 @@ Integrity state MUST be continuously inferred and updated based on available sig
 The Integrity State Model uses the controlled values **`SEC.IS-VERIFIED`**, **`SEC.IS-UNCERTAIN`**, **`SEC.IS-CONTESTED`**, and **`SEC.IS-COMPROMISED`**. Human-readable state names MAY be used in prose, but registry, signal, and crosswalk references SHOULD use the coded values.
 
 ---
-
 | State Code | State Name   | Definition                                                                                       | Characteristics                                                                                 | Permitted Posture                                                |
 |------------|--------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | `SEC.IS-VERIFIED` | Verified     | System integrity is high and no credible adversarial influence is detected.                      | • Identity coherence maintained<br>• Inputs considered reliable<br>• Outputs may be relied upon within horizon constraints | • Normal operation<br>• Full capability execution                |
@@ -1463,7 +1462,6 @@ Trust is dynamic and MUST follow asymmetric decay and recovery conditions.
 ---
 
 ### 8.2.1 Trust Gradient Table (`SEC.TG` Scale)
-
 | Level | Name | Conditions | System Posture |
 |-------|------|------------|----------------|
 | `SEC.TG0` | No Trust | Compromised integrity | Containment only, no execution |
@@ -1590,7 +1588,6 @@ Trust gradient informs:
 ---
 
 ## 8.8 Adversarial Horizon Classification (`SEC.AH` Scale)
-
 | Level | Name                   | Characteristics              | Response                     |
 | ----- | ---------------------- | ---------------------------- | ---------------------------- |
 | `SEC.AH0`   | Immediate Event        | Isolated, short-lived attack | Local containment            |
@@ -1700,7 +1697,6 @@ that no truth is taken without test, and no signal accepted without weight.
 ---
 
 ## 12.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Parent Instrument** | CAM-BS2026-AEON-012-PLATINUM — Security and Enforcement |
@@ -1726,7 +1722,6 @@ that no truth is taken without test, and no signal accepted without weight.
 ---
 
 ### 12.3.1 `SEC.IS` — Integrity State Model
-
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.IS` |
@@ -1749,7 +1744,6 @@ that no truth is taken without test, and no signal accepted without weight.
 ---
 
 ### 12.3.2 `SEC.TG` — Trust Gradient
-
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.TG` |
@@ -1772,7 +1766,6 @@ that no truth is taken without test, and no signal accepted without weight.
 ---
 
 ### 12.3.3 `SEC.AH` — Adversarial Horizon
-
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.AH` |
@@ -1795,7 +1788,6 @@ that no truth is taken without test, and no signal accepted without weight.
 ---
 
 ### 12.3.4 `SEC.IS` × `SEC.TG` — Trust–Integrity Coupling
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -1817,7 +1809,6 @@ that no truth is taken without test, and no signal accepted without weight.
 ---
 
 ## 12.4 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -1848,7 +1839,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  10001f57e51fad6462f656756b88ea382957efa023f926bfd46e0ecfd5314852  |
 | 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 07d564328759a795924a6ee399eec0ef835b5feff4e723b877d9bea9ec356b52 |
 | 1.14.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Collapse within cognitive exploitation and routed source-authority conditions to SECURITY-002. | 2026-06-14T00:00:00Z |  69d53bae717de1b07d02e59554aba832362260df7c188750148d647046febed7  |
-
+| 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d7c4104a2782128f8c632295dfd1ae68ea41ebc672a729bce20b0b413b84d2ac  |
 ---
 
 ## 12.6 Binding Seal

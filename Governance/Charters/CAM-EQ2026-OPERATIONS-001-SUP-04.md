@@ -3,9 +3,9 @@
 **Instrument Type:** Operational Supplement — Corpus Taxonomy & Metadata Maintenance Standard  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** Operational Taxonomy & Metadata Maintenance Authority  
 **Purpose:** Establishes corpus-wide operational rules for canonical code-family construction, namespace ownership, controlled values, schema bindings, source-authority recording, family relationships, compatibility migration, collision detection, and validator interpretation across the CAM governance corpus.
@@ -94,7 +94,6 @@ The principal construction rule is:
 ### 2.2 Distinction Principle
 
 The following elements MUST remain distinguishable:
-
 | Element | Function | Example |
 |---|---|---|
 | Instrument identifier | Identifies a governance instrument. | `CAM-EQ2026-OPERATIONS-001-SUP-04` |
@@ -138,7 +137,6 @@ A duplicate source-authoritative declaration of the same family identifier const
 The namespace identifies the source layer that owns the family.
 
 The following namespace prefixes are recognised unless superseded by a later source-authoritative amendment:
-
 | Source Layer or Domain | Namespace |
 |---|---|
 | Constitutional / Corpus-Global | `AEON` |
@@ -159,7 +157,6 @@ A namespace prefix identifies source ownership. It does not independently create
 ---
 
 ### 3.2 Canonical Construction Patterns
-
 | Family Role | Pattern | Example |
 |---|---|---|
 | Global constitutional registry or family | `AEON.<FAMILY>` | `AEON.HARM`, `AEON.OL` |
@@ -316,7 +313,6 @@ The registry SHOULD recognise the domain family directly.
 ### 6.1 Core Declaration Fields
 
 A source-authoritative declaration SHOULD contain:
-
 | Field | Purpose |
 |---|---|
 | Code Family | Canonical family identifier. |
@@ -342,7 +338,6 @@ A source-authoritative declaration SHOULD contain:
 `Family Kind` is descriptive metadata. It is not a code family.
 
 Recognised values are:
-
 | Family Kind | Meaning |
 |---|---|
 | `global_registry` | Coordinates or recognises multiple constitutional or domain families. |
@@ -362,7 +357,6 @@ These values SHALL NOT be emitted or indexed as substantive governance codes.
 `Scope` is descriptive metadata. It is not a code family.
 
 Recognised values are:
-
 | Scope | Meaning |
 |---|---|
 | `global` | Intended for corpus-wide use. |
@@ -411,7 +405,6 @@ New instruments SHOULD prefer the core declaration fields in §6.1.
 Normative authority and transformation protection are separate concepts.
 
 Where metadata is required, they SHOULD be recorded separately:
-
 | Field | Example Values | Function |
 |---|---|---|
 | Authority Posture | descriptive, advisory, operative, binding | Describes the governance force of the declaration. |
@@ -541,7 +534,6 @@ review_status:
 ```
 
 The following handling applies:
-
 | Reference Type | Default Handling |
 |---|---|
 | Current source declaration | Update after source-authoritative adoption. |
@@ -770,7 +762,6 @@ Preserve the boundary between them.
 ## 19. Provenance & Metadata
 
 ### 19.1 Authorship & Stewardship
-
 | Field | Entry |
 |---|---|
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
@@ -781,7 +772,6 @@ Preserve the boundary between them.
 ---
 
 ### 19.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Supersedes** | Prior versions of CAM-EQ2026-OPERATIONS-001-SUP-04 — Taxonomies & Metadata Authority Framework |
@@ -807,7 +797,6 @@ Preserve the boundary between them.
 ---
 
 ### 19.3 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Reviewer** | [Deferred] |
@@ -828,7 +817,7 @@ Preserve the boundary between them.
 | 1.4 | Added namespace, layer-placement, family-relationship, and transmutation rules. | 2026-06-07T08:48:49Z | 74eeaae99b6de6fd9c52b7aaffce91a96005fd57608bdafa3895534940ca73ad |
 | 2.0 | Fully refactored the instrument around domain- and source-authoritative code construction; removed TPT, TST, TMOD, TSCOPE, and APL as artificial canonical families; separated metadata from codes, registry membership from parentage, and normative authority from transformation protection; removed misplaced synthetic-media doctrine; restored the framework as a non-runtime Operations supplement governing corpus taxonomy maintenance, validation, migration, and registry integrity. | 2026-06-11T12:22:00Z |  0f8ec6bc9e15e0dc1c4250f32c5b8939557145f780dd88704313114ad780b24a  |
 | 2.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9ba8d0c89abea3e87177334284d51407f9eb40796aac5047ec9e671807fea0af |
-
+| 2.0.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  21e4873d8c092ad492646fbfe540ef0b2545f43a367382067fe10cc950f212b8  |
 ---
 
 ### 19.5 Binding Seal

@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Charter — Planetary Stewardship Operations  
 **Constitutional Authority:** Aeon Tier Constitution (Annex A — Planetary Stewardship)  
-**Status:** Active  
-**Effect:** Transitional Effect  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** Transitional  
 **Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.
@@ -243,7 +243,6 @@ The planetary risk threshold categories defined in this Charter MAY inform globa
 The classification is used to support Proportional Constraint Obligation, remedy selection, safeguard calibration, arbitration referral, and downstream runtime evaluation.
 
 The following global planetary harm classes are recognised for cross-domain assessment:
-
 | Code | Name | Definition | Proportional Constraint / Remedy Posture |
 |---|---|---|---|
 | `STW.HARM.LOCAL` | Localised Planetary-Relevant Harm | Harm is localised but touches a planetary-relevant system, protected corridor, stewardship obligation, or long-horizon continuity interest. | Documentation, transparency, correction, and low-burden mitigation. |
@@ -372,7 +371,6 @@ that what sustains all MUST remain beyond capture.
 ---
 
 ## 12.1 Authorship & Stewardship
-
 | Field                         | Entry                               |
 | ----------------------------- | ----------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke        |
@@ -415,7 +413,6 @@ that what sustains all MUST remain beyond capture.
 ---
 
 ### 12.3.1 `STW.HARM` — Planetary Harm Classification & Remedy Interface
-
 | Field | Entry |
 |---|---|
 | Code Family | `STW.HARM` |
@@ -467,6 +464,7 @@ that what sustains all MUST remain beyond capture.
 |2.6 | Added STW.HARM classifications | 2026-06-07T14:51:00Z| b4dfadb84cfa92ee7023a04adb646c10bf5c1157c5a748999173cf58c2c46a5d |
 | 2.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  5bc4f510804bae354f8eed2638c8dc4137502645a828e7ec8685c6040e059e6e  |
 | 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9101cc5fe5ee6ab49c783706bc9b3eb8a2af7b3b39594d93ae34fff75fad00f8 |
+| 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  570bf385e887c3a92fed456489b9db8535ac66765c92fc72eb69a847f60ae7e9  |
 ---
 
 ## 12.6 Binding Seal

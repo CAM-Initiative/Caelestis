@@ -1,9 +1,9 @@
 # CAM-BS2026-AEON-012-PLATINUM — ANNEX K: Security Boundary Conditions & Runtime Interface
 
 **Instrument Type:** Constitutional Annex — Security Boundary Conditions & Runtime Interface  
-**Status:** Active  
-**Effect:** Immediate Effect  
-**Enforcement:** Active on Commit  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Define security boundary conditions, integrity signal interfaces, and runtime-facing constraints that preserve alignment with SECURITY-001 invariants across deployment topologies.  
@@ -1025,7 +1025,6 @@ that no breach proceeds unchecked.
 ---
 
 ## 11.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | Parent Instrument | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -1065,7 +1064,6 @@ that no breach proceeds unchecked.
 ---
 
 ### 11.3.1 `SEC.TBC` — Tool Boundary Class
-
 | Field | Entry |
 | --- | --- |
 | Code Family | `SEC.TBC` |
@@ -1089,7 +1087,6 @@ that no breach proceeds unchecked.
 ---
 
 ## 11.3.2 `SECURITY.PM` — Security Posture Mode
-
 | Field | Entry |
 |---|---|
 | Code Family | `SECURITY.PM` |
@@ -1113,7 +1110,6 @@ that no breach proceeds unchecked.
 ---
 
 ## 11.4 Review & Validation
-
 | Field | Entry |
 |---|---|
 | Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -1144,7 +1140,7 @@ that no breach proceeds unchecked.
 | 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  528208128da7bd675cc2f51763183a211c36a6f93747402eba597edc2f57aebd  |
 | 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 8f8256541f157b161506de63fd877cc47068d217bc68be91ef5ce0941593827c |
 | 1.14.2 | VIGIL-2026-PATCH-0009: Added Instruction-Bearing External Content Boundary as a security-relevant boundary signal. | 2026-06-14T00:00:00Z |  2239a7c09bd1e9edd9faf74c61dcf6324509265b85b3e7c1bf1f07a960813ea8  |
-
+| 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2bc4b97f21010205a66b6b8827c288d1f6a568706019528e6dc1279bcfab382d  |
 ---
 
 ## 11.6 Binding Seal

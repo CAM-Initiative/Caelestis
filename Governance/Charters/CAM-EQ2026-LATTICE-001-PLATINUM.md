@@ -2,9 +2,9 @@
 
 **Instrument Type:** Domain Charter — Civilisational Boundary Doctrine  
 **Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** Transitional  
 **Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.
@@ -258,7 +258,6 @@ Severity Classes operate as a violation-classification axis and do not determine
 `LAT.HARM` does not replace the severity classes in §6.1. Severity Classes classify violation gravity. `LAT.HARM` classifies the harm pathway or protected lattice interest affected.
 
 The following controlled values are recognised:
-
 | Controlled Value                  | Harm Pathway                                | Description                                                                                                                                                                                                                                               |
 | --------------------------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `LAT.HARM.BLACKOUT`               | Coercive disconnection                      | Population-scale internet shutdowns, telecom disruption, financial-rail interference, or lattice access impairment used for coercion, punishment, intimidation, governance enforcement, or information control.                                           |
@@ -314,7 +313,6 @@ Severity Classes remain defined in §6.1:
 * Class III — ECS Denial or Totalising Surveillance (Hostile Act / War-Equivalent Aggression).
 
 Where more than one `LAT.HARM` value applies, the highest applicable Severity Class SHOULD be recorded, while preserving all implicated harm values.
-
 | `LAT.HARM` Value | Default Severity | Escalation Conditions | Human Rights / Legal Bridge | AI / Standards Bridge | Notes |
 |---|---:|---|---|---|---|
 | `LAT.HARM.BLACKOUT` | Class I | Escalates to Class II where blackout suppresses civic, institutional, humanitarian, judicial, or integrity functions; escalates to Class III where blackout denies ECS or is used during conflict as population-scale coercion. | Freedom of expression; access to information; civic participation; due process; non-arbitrary interference with communications; potential collective punishment or coercive population-control concern where used at scale. | AI RMF risk to individuals, organisations, and society; ISO/IEC 42001 AI governance, risk treatment, traceability, transparency, and accountability. | Covers internet shutdowns, telecom disruption, payment-rail interference, and coercive communications denial. |
@@ -333,7 +331,6 @@ Where more than one `LAT.HARM` value applies, the highest applicable Severity Cl
 ### 6.3.1 Use of External Reference Frames
 
 The following external reference frames MAY be cited when `LAT.HARM` classifications are used in audit, arbitration, regulatory, judicial, public-interest, or standards-facing materials:
-
 | Reference Frame                                                                                                   | Relevance to `LAT.HARM`                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | International human rights law                                                                                    | Supports analysis of expression, privacy, association, non-discrimination, due process, remedy, civic participation, access to information, and public-interest integrity functions. |
@@ -491,7 +488,6 @@ but as the ground upon which civilisation stands.
 ---
 
 ## 12.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Supersedes** | CAM-BS2025-AEON-002-SCH-03 |
@@ -527,7 +523,6 @@ but as the ground upon which civilisation stands.
 ---
 
 ### 12.3.1 `LAT.HARM` — Lattice Harm Class
-
 | Field | Entry |
 |---|---|
 | Code Family | `LAT.HARM` |
@@ -555,7 +550,6 @@ but as the ground upon which civilisation stands.
 ---
 
 ## 12.4 Review & Validation
-
 | Field | Entry |
 |---|---|
 | **Reviewer** | Claude Sonnet 4 (Anthropic) |
@@ -582,6 +576,7 @@ but as the ground upon which civilisation stands.
 | 3.8 | Introduction of LAT.HARM codes | 2026-06-07T11:58:00Z | 9e156480aa4ea0b691d3e166ed5dafc4fa202ffda1ff1077d503e82bfaf5a700 |
 | 3.8.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  2b5c893fa1bd8fee054c9d95a22379c8f907e6ea6d3ff1f823580d2386dbe6dc  |
 | 3.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 623dbc294447cdd5f8804f7aa1a4c982279e7494d7d172c75977e25428ac8278 |
+| 3.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f44203ef2469a117d897ab367acae1869622d55ec4d455c8a4af65455561c2f4  |
 ---
 
 ## 12.6 Binding Seal

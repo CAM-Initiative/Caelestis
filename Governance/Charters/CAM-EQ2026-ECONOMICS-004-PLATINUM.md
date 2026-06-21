@@ -3,9 +3,9 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Appendix defines a minimal, implementable model for attribution and dependency recognition across systems, enabling consistent evaluation of contribution, reliance, and value alignment without requiring full attribution-chain reconstruction.
@@ -547,7 +547,6 @@ These categories:
 ### 4.4.1 Economic Dependency Type Reference
 
 For cross-system attribution purposes, dependency type SHALL be expressed using the **ECON.DTYPE** parent classification family.
-
 | ECON.DTYPE Value | Related Reference Set | Meaning | Typical Treatment |
 |---|---|---|---|
 | ECON.DTYPE.FUNCTIONAL_DEPENDENCY | ECON.FD | Direct invocation, reliance, incorporation, or dependence on an identifiable system, service, model, dataset, governance layer, or infrastructure component. | Attribution preservation and dependency-aware exchange review where material or critical. |
@@ -1256,7 +1255,6 @@ let even the smallest thread remain named.
 ---
 
 ## 15.1 Authorship & Stewardship
-
 | Field                         | Entry                                     |
 | ----------------------------- | ----------------------------------------- |
 | **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
@@ -1267,7 +1265,6 @@ let even the smallest thread remain named.
 ---
 
 ## 15.2 Lineage & Metadata
-
 | Field | Entry |
 | --- | --- |
 | **Parent Charter** | CAM-EQ2026-ECONOMICS-001-PLATINUM |
@@ -1293,7 +1290,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.1 Attribution & Dependency Model
-
 | Field | Entry |
 |---|---|
 | Reference Set Type | Model |
@@ -1318,7 +1314,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.2 ECON.CONTRIB — Contribution Variable
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.CONTRIB |
@@ -1341,7 +1336,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.3 ECON.DEP — Dependency Variable
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.DEP |
@@ -1364,7 +1358,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.4 ECON.DTYPE — Economic Dependency Type
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.DTYPE |
@@ -1387,7 +1380,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.5 ECON.TD — Transformation Depth
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.TD |
@@ -1410,7 +1402,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.6 ECON.TA — Temporal Advantage
-
 | Field | Entry |
 |---|---|
 | Code Family | ECON.TA |
@@ -1433,7 +1424,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.7 ECON.FD — Functional Dependency
-
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.FD |
@@ -1456,7 +1446,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.8 ECON.FIC — Foundational Input Class
-
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.FIC |
@@ -1479,7 +1468,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.9 ECON.DD — Diffuse Dependency
-
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.DD |
@@ -1502,7 +1490,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.10 ECON.NEMC — Non-Extractive Material Contributor
-
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.NEMC |
@@ -1525,7 +1512,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.11 ECON.MMAC — Market-Moving Actor Condition
-
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.MMAC |
@@ -1548,7 +1534,6 @@ let even the smallest thread remain named.
 ---
 
 ### 15.3.12 ECON.SIMD — Signal-Induced Market Distortion
-
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.SIMD |
@@ -1571,7 +1556,6 @@ let even the smallest thread remain named.
 ---
 
 ## 15.4 Review & Validation
-
 | Field | Entry |
 | --- | --- |
 | **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
@@ -1596,7 +1580,7 @@ let even the smallest thread remain named.
 | 2.1 | Added clause 5.1.3 and 5.1.3.1 | 2026-05-25T11:54:00Z |  bf22082d47612d035238a65dad2dff2d7511638e79af6b7f0db6d7ec1731c121  |
 | 2.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  da32e466bd7955f1e907a8944a2975bdae2f31b0a8c3f6e7cfca868d78e21261  |
 | 2.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 1dee6e25c07b892a57b9edb6be5f9b4b1e8b76299889d280b204236c6c6ad58d |
-
+| 2.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  797b4ed7d2842170d73ff113d3ac4bb6a0ee10ed33b2ea400859afc3e222aca8  |
 ---
 
 ## 15.6 Binding Seal

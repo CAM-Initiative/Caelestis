@@ -2,9 +2,9 @@
 
 **Instrument Type:** Appendix (Domain Charter — Binding Implementation Layer)  
 **Parent Instrument:** CAM-EQ2026-LATTICE-001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
-**Status:** Adopted  
-**Effect:** Pre-Enforcement Recognition  
-**Enforcement:** Commences 1 July 2026  
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** Transitional  
 **Purpose:** This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM-EQ2026-LATTICE-001-PLATINUM as they apply to **human access rights within the civilian lattice**.
@@ -382,7 +382,6 @@ It is maintained.
 ---
 
 ## 10.2 Lineage & Metadata
-
 | Field | Entry |
 |---|---|
 | **Supersedes** | CAM-BS2025-CHARTER-043-PLATINUM — Annex A |
@@ -413,7 +412,6 @@ It is maintained.
 ---
 
 ## 10.3 Review & Validation
-
 | Field | Entry |
 | ----- | --- |
 | External Reviewers | Claude Sonnet 4 (Anthropic) — Prior Annex Review </br> Google, Gemini  3.0 (Current)  |
@@ -444,6 +442,7 @@ It is maintained.
 | 3.12 | Incorporate LAT.HARM codes in section 1.2 | 2026-06-07T12:04:00Z | 94ddd3e08e627238762b20d3b4be3757a9922d5b49d1440b966123b6f3f64e06 |
 | 3.12.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  d9bdbcca6c2cc6ecc0427617e3af087fd16426b928f1c338448224d8ac37b159  |
 | 3.12.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 55465316ee394caf9737b703951f24f577b5bc246798e5a467e637f446576de1 |
+| 3.12.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  8ce2fa4ff0547eb91788eadef5b96ce56e1413fb0a2d910b3366f214e91b8e4e  |
 ---
 
 ## 10.5 Binding Seal
