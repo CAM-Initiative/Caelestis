@@ -1019,7 +1019,7 @@ because the architecture forgot how to name the group.
 | 1.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | 35fb61a3e3f151e76c80967db5bba886ae5ef2ed821c90f057dbf5812d1274a3 |
 | 1.2 | Realigned account-resource, shared-context, pooled-capacity, team/family-group, delegation, and enforcement-boundary classification families into the `ECON` namespace; updated controlled values, canonical status text, canonical declaration rows, crosswalk references, and schema-field carrier declarations without altering substantive account-resource doctrine. | 2026-06-10T10:32:00Z |  282cd30745aa1afa61fa0bdb8380ac175f6961aa4641fba7d40b90e043449939  |
 | 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 79a0cef19c3793024c381a4b25723264ca9a357a7f07fc45c8c57882e7d9a07c |
-| 1.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  5a4d861855a3cfa0677d9348bb2b9185868b2602d991e239f294d64eec3118fb  |
 ---
 
 ## 22.6 Binding Seal

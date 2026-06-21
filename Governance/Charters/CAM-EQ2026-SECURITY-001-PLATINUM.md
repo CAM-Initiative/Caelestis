@@ -1839,7 +1839,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  10001f57e51fad6462f656756b88ea382957efa023f926bfd46e0ecfd5314852  |
 | 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 07d564328759a795924a6ee399eec0ef835b5feff4e723b877d9bea9ec356b52 |
 | 1.14.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Collapse within cognitive exploitation and routed source-authority conditions to SECURITY-002. | 2026-06-14T00:00:00Z |  69d53bae717de1b07d02e59554aba832362260df7c188750148d647046febed7  |
-| 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d7c4104a2782128f8c632295dfd1ae68ea41ebc672a729bce20b0b413b84d2ac  |
 ---
 
 ## 12.6 Binding Seal

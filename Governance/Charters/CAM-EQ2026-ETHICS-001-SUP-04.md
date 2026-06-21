@@ -508,7 +508,7 @@ Normative refusal authority remains constitutional.
 | 2.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  d8e1acaee1528bbc4a6a841f6b9861377d725fe859adc92d4f65c9fc5aa67c61 |
 | 2.2 | Formatting and polish | 2026-05-21T11:03:00Z |  78acf2b3d94e89061d1ec947bc830f22405afae3938e1fbde8c6dcc57fa4252b |
 | 2.3 | Amend title name | 2026-05-31T07:53:00Z| 615cec2c25a7d759c1821ca44ff10ae22d18e0c74ece7a02925b4293ce138f7d |
-| 2.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3a9cfcbce2c833d9f908a89506cbe720f8a8f6e2381165c8d98bbffedbf6c13a  |
 ---
 
 ## 10.5 Binding Seal

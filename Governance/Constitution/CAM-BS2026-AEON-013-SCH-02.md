@@ -515,7 +515,7 @@ cannot be trusted.
 | 1.4 | Added canonical code section 12 | 2026-06-06T15:16:00Z |  4df6c00740bbb9b3d7da1e9a8b2821c9d740232b13fd488ab6d584117a0f6940  |
 | 1.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 5276a85d708cf2f89b9f01fdf1ed148ebe1792c1bdbe1498d80996a2b4e772f2 |
 | 1.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 4222c16e33119225e83c61951c362ca2f82fb4f16be061544c89c018a47a901b |
-| 1.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  905e77d989413d715f93ce5678db2c7335ac44c962c1e81a3d150f89f95faa66  |
 ---
 
 ## 14.6 Binding Seal

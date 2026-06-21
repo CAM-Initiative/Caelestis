@@ -682,7 +682,7 @@ Recognition is the first act of truth.
 | 2.5 | Added new section 2.1.1, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:22:00Z | 44918122667f9d309cdda3107f42d60dfcd292aa59cad3eb91f61eaa1c472b00 |
 |2.5.1 | Updated codes to include prefix `AEON` and new section 3.2.4 | 2026-06-12T12:25:00Z| c2225e25ed06b5d38bfda1175ac6c3c03e929ab6cc51825489dfbea8fa47c1a9 |
 | 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 50790a90a66cebc8127c5e598b68886cf886356ddcd97a381ac38d6950b4b366 |
-| 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d84789034947a3cd102e52dcf3f08ddcf22619fc9758df422b02d6e2db039821  |
 ---
 
 ## 11.6 Binding Seal

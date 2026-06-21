@@ -781,7 +781,7 @@ so that power expands no faster than responsibility.
 |1.0|Synthetic Labour Classification & Automation Transition Governance established|2026-05-24T13:56:00Z| 78f9d75456d1021d9ee55a081e252cb78431e6f56d321222b1bd2531638150bf |
 |1.1|Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered.|2026-05-27T11:20:00Z| 3f00cfe370cd375a98a89e1b3b9fe2e6def352532c11df3afc69c0054f6b48e3 |
 | 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 578265879f5e0ee657e760f1a8bff1337026315fec7b8c2085600697204b28ea |
-| 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4d5b862d3404cc6a1b4b2c3ec1b0eec54132e1d4ebca55fff1f818cf32e24627  |
 ---
 
 ## 8.6 Binding Seal

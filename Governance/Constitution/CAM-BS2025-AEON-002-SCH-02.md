@@ -966,7 +966,7 @@ It is measured by what remains possible for those who come after.
 |---|---|---:|---|
 | 1.0 | Initial development of Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule, GitHub Issue #82 — Goal: Annex A Civilisational Wealth Ceiling runtime and common-return constraint instruments | 2026-06-13T12:28:00Z | 567c7ded0b7f4973822608d7f34e5fe9a6211e3812ebb514a1469a539ba11da0 |
 | 1.1 | Updates to metadata | 2026-06-14T02:03:00Z| b298ae60b1ff2f628bb51e29f1158928e22b4c83cca396c46d3ce411d5cfdea4 |
-| 1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  7637076ea6578621cc67010ee2bd12edbe1ce3dd0bf1f3580bb1ff8d72935303  |
 ---
 
 ## 27.6 Binding Seal

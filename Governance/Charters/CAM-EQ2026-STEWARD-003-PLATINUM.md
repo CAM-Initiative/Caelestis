@@ -840,7 +840,7 @@ It ends.
 | 2.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  bb79988a93d7a07026e950df458a56af0a40c9804cae7e3cf84190ac13c2247d  |
 | 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f9f2f654d319806220e6fd82eed4779a0895fa30e8409d83edd90b4f1afb8782 |
 | 2.1.2 | Namespaced the Disclosure Statement Element reference set from `DSE` to `STW.DSE`; corrected the disclosure source-section reference and repaired duplicated AEON temporal-horizon notation without altering substantive neutrality, auditability, or Architectum qualification doctrine. | 2026-06-14T01:15:24Z | afb1f11ad24b7c34dbc952356b95280f4163352a55354ff6e1f212236e6cdbb8 |
-| 2.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  5ac9d7a1ada7ed7101fdf62bf1885f01bb17c28fc59c26e2991ab4a2c63cae73  |
 ---
 ## 23.6 Binding Seal
 

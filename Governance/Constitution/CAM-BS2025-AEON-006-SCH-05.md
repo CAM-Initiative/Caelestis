@@ -716,7 +716,7 @@ and bounded.
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f7a205830fa99c4892209e35c61256177ef1def87fc401f479cbfe877ed978f2 |
 | 1.11 | Added section 10, canonical code reference set | 2026-06-06T13:29:00Z| dffcd0d12989b26b9500632275903e379f1db0ffc63441818e8e5532bb746bd6 |
 | 1.11.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 247350c184a7aebce91c8c549f93adf116b63845342cec23b7871ade42d274d4 |
-| 1.11.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.11.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  973ec98561d2f706d8c8b7f567a4ab75c0f6c8282ee135d612c8a077ca00c30b  |
 ---
 
 ## 12.6 Binding Seal

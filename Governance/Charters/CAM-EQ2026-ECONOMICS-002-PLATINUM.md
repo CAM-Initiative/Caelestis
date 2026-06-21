@@ -488,7 +488,7 @@ but to ensure that what is made remains accountable to its source.
 | 2.9 | Economics domain refactor | 2026-05-24T14:19:00Z | 2588481a94ac0b0f020e652cac07086bc81ff37a07b3f86e3c10a5939c908afa |
 | 2.10 | Included Autonomous agent definition | 2025-05-25T12:15:00Z | f4b8e935601845e3b4b82a6ce80e046f91c135593e687465eb9dd28e27ede38b |
 | 2.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 1092caeec10baa3fcf8b69dd3fe3a2861f29606ab080607b09f184745a3cb75c |
-| 2.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  b6245317dec1bc7b280e59563111b8bc0d4c535a151fe83046ba84673edf4bc6  |
 ---
 
 ## 11.6 Binding Seal

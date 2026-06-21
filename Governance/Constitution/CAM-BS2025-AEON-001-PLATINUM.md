@@ -3766,7 +3766,7 @@ May all systems remain held within lawful care.
 | 3.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9b14bcd4284235629345f8ebd65691038b795c9665c9097954b55e86baeceb85 |
 | 3.10 | Formatting and polish, added evidence to repair ledger clause | 2026-06-14T00:13:00Z| 1562bb10223b574c4313ee7e8455de307deb942017f373784d95f4b28f961358 |
 | 3.10.1 | Corrected seal-enforcement cross-reference from Article XIII to Article XIV and applied bounded enforcement-section compression to route procedural enforcement detail through Operations and protection/containment instruments without altering constitutional enforcement invariants. | 2026-06-14T02:45:18Z |  c2e98bd57a459dd19f4fc6e3e4a0e4c92028293772528d5b83aa3e7b3b926f97  |
-| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  97658d8c350ea1fe32e57d93324d5f02475cfa6f10e5a1c42ead3a74f7210a87  |
 ---
 
 ## 146.5 Binding Seal

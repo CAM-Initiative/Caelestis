@@ -676,7 +676,7 @@ and the path remains chosen.
 | 1.10 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  b21a0695632795f2c01ddc3b17b180a288fc876aa2780d77a3f8e195d03908d5  |
 | 1.10.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6b282816bb79e7e22c8871bc8848104409d1f192886843e9e1ccb2b4f579e24c |
 | 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6f04b18a3022a24a73bcf61a1ab6db88abd6b7565c41e2938a414032823a18b0 |
-| 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  cd5b4b3186ac7d82cbd0c2cc0d09aebc911f9a735752ac2c31b3df935311b814  |
 ---
 
 ## 14.7 Binding Seal

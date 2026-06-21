@@ -826,7 +826,7 @@ and optimisation without dignity forgets why systems were built at all.
 | 1.4 | Template realignments, economic domain refactor | 2026-05-24T04:16:00Z| 238e0acfe24790ec84712b4c09c1ed253524e297fc2e0f69c05303cc95209f4b |
 | 1.4.1 | Formatting and polish | 2026-06-06T13:51:00Z | 0d16d1220fba6ad803158bfa95115e92df235089b186899ca22cc0358ac343d4 |
 | 1.5 | Rebuilt economic-effect runtime code-family declarations to align remaining architecture-admissibility and runtime-record-field families with the `ECON.` namespace; renamed `ARCH` to `ECON.ARCH`, renamed `EERRF` to `ECON.RRF`, updated controlled values and canonical declaration rows, and corrected footer section numbering without altering substantive runtime doctrine. | 2026-06-10T10:11:00Z |  4314588a2f11acbe8dcc993465af038c85c2a40b8e2c8dbd3f941c9508c56fc9  |
-| 1.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f57b9ee2d9c1b60ef310c3fda082bf0b4cd1ca20fe8ee3c364b67a8a72a232f8  |
 ---
 
 ## 35.6 Binding Seal

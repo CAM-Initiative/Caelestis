@@ -940,7 +940,7 @@ So the human origin remains in view.
 | 1.16.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | ae41276ae00092ebc06bbb563d98a1c5f9916fb8bf314bbbbb4e650023f733a6 |
 | 1.16.3 | Updated code references for Deployment Class (DC) | 2026-06-12T11:49:00Z| 9f7f8370dcad51fc1b61e191146a607128c9eb9585abe39ae5fa004db9f427a3 |
 | 1.16.4 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 863fb962c630834294881935b5d444071575394ce38bd8deeb5905f12d7f4c71 |
-| 1.16.5 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.16.5 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d286446c65113a82017fd4938c694bd9c61f72aa91cad5d7e844ee874488bd26  |
 ---
 
 ## 12.6 Binding Seal

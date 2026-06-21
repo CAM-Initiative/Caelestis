@@ -551,7 +551,7 @@ and let execution remain accountable to lawful structure.
 | 2.2 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z | 2127574125234f1851a480752f39b3637425d37968264617f332dfd0922728b0 | 
 | 2.3 | Completed pre-enforcement review metadata alignment and normalised amendment ledger hash formatting. | 2026-06-01T14:30:00Z | 05591d918621b319d1a8c30e2d0bac883cac6404d7b9b93ed89c8b2d59059806 |
 | 2.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 4e1c398edf3426215829223b3622f9c40caa06f55b9818339c623ac4bc5baf14 |
-| 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  438b92ff451bfe345bff489cc569a0e8dc176ce7d61375de279a8fe046c804eb  |
 ---
 
 ## 6.6 Binding Seal

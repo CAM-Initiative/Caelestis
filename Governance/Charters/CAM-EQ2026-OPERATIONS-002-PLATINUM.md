@@ -505,7 +505,7 @@ may remain worthy of being followed.
 | 1.6.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  2324b8c1a9440708fbf8974f87c8cff8870d3abc0c9a9c5eb50ae864fe11ec8f  |
 | 1.6.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  4cfbd6adaf5e9b0235e73f937e9d463f7727819aecb83d7a37dad37262272d7f  |
 | 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 0cf3e7970fdb59f2e4959364c5fa205dc99bf0486b931722068674e2f4b7f2c9 |
-| 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  27d5262dc2eaf6cc8dd710468a3b8b85eea064e79879766a7a19539840aecdb9  |
 ---
 
 ## 15.6 Binding Seal

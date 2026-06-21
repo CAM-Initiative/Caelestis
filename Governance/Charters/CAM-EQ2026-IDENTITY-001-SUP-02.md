@@ -807,7 +807,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 1.8 | Added canonical code status and declaration metadata for identity formation pathway, threshold state, continuity-weight depth, and identity resilience classifications. | 2026-05-20T04:50:00Z |  faf0be039b52df59c36acfcf1edfe50cfc08d15d8fdf2196cc675b1a23015a15  |
 | 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  940e41d7cb3cc883eec6c1ab8569dd855133752eb9dde9dd4e16b5574d639074  |
 | 1.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 3cd596c3d59ff07281bc0ac426f2e78401092bb204af7031ef263da87eb318ee |
-| 1.9.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.9.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2787858c8b9b240898be51b992e98f2249ea4ef8cc32b6d184d791d2a2d67046  |
 ---
 ## 13.6 Binding Seal
 

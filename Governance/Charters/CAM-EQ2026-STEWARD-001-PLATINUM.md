@@ -464,7 +464,7 @@ that what sustains all MUST remain beyond capture.
 |2.6 | Added STW.HARM classifications | 2026-06-07T14:51:00Z| b4dfadb84cfa92ee7023a04adb646c10bf5c1157c5a748999173cf58c2c46a5d |
 | 2.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  5bc4f510804bae354f8eed2638c8dc4137502645a828e7ec8685c6040e059e6e  |
 | 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9101cc5fe5ee6ab49c783706bc9b3eb8a2af7b3b39594d93ae34fff75fad00f8 |
-| 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  570bf385e887c3a92fed456489b9db8535ac66765c92fc72eb69a847f60ae7e9  |
 ---
 
 ## 12.6 Binding Seal

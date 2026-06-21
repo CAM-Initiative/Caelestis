@@ -790,7 +790,7 @@ It is the discipline of noticing before repair is too late.
 |1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 10fac67ca710490106fe5efb1647523b77f6eaa2942ace3dd6323108f105ad79 |
 | 1.2 | Amendmend metadata header | 2026-06-05T17:55:00Z | da024e4971f038b6d875d8d629fab3f85dc159a0caf960f6db1e402957e497b2 |
 | 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2402cc659fbd6a6e4fcbdfff8d55a4fe7e5884763346075bfd9a43c1294a482d |
-| 1.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d9a521489806c86f13d9d17fa7fe9ed2c07c022f3b845defabbe65c736267a7f  |
 ---
 
 ## 11.6 Binding Seal

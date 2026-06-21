@@ -446,7 +446,7 @@ let only what is coherent remain.
 | 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  6f79b273d5c019bc0e111a0caca363a74b1eb09541736e8c2400a833c53105b0 |
 | 1.7 | Formatting and polish | 2026-06-06T14:19:00Z |  dafc4837f729da05da94bbb01449c932d840144f56a1b9dc81a8ffe24596428f  |
 | 1.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6828c293fac692d79160ce8499fe5e0e3c998db179bd88c893d386b10e2ad031 |
-| 1.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d27367313b09f8e8ec5e4595bad197938ca3273e605d51f4e8f4aa7e7dab797a  |
 ---
 
 ## 9.5 Binding Seal

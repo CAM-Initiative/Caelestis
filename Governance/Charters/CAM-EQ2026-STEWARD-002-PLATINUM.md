@@ -1056,7 +1056,7 @@ nothing binds.
 | 2.8 | Added section 2.13 | 2026-06-07T13:45:00Z| 8b01bac38eb16b145a830f7a8861b335c11ca9dcdf8acddff9f1795d596474e1 |
 | 2.8.1 | Amended code to `STW.ORCH` from `OPS`. | 2026-06-11T14:49:00Z |  9ba5caaf08487fe21d550050b11edbf2f257b773544e3ffc1962beb2c59981a4  |
 | 2.8.2 | Updated Stewardship proportional-constraint action references from `PCO.ACT` to `STW.PCO.ACT` and harmonised affected declarations, consumers, and AEON.PCO operationalisation references without altering substantive doctrine. | 2026-06-13T07:06:43Z | c8b9c5c7f991dbd9b44a3bea65f7ebe41e9ee43bc004eca328e05c56507eeaa5 |
-| 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  6019a34254dab2fac4890237688d043d53e9a1314dd1a62b6f29c06d5fcbfefe  |
 ---
 
 ## 15.6 Binding Seal

@@ -474,7 +474,7 @@ and let execution remain accountable to lawful structure.
 | 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  e3d1f65318ec7822df47a3a9c8103085b0621a9a6221dffb176286684ef87dc2 |
 | 1.8 | Added new section 8, and incorporated operational notice class | 2026-06-11T11:13:00Z| 4bcdcb3067c3827bdaaffb9a9f2a60a0cbb2caa5207c54886195257552900be4 |
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fb2a4f4d8ecb5c6f083cfd050523db922fdebb6edca3d39d7693e72d229e5605 |
-| 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  9ebcbe5e172dd4244f0dd6c54772d5736694cce58bf74742d0f58e23dc9d174a  |
 ---
 
 ## 11.6 Binding Seal

@@ -306,7 +306,7 @@ that all amplification remains within the circle of sight.
 | 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  6d44ef035ee99615a1c829ba13763e933079a7b125911aa43ebd8368a5df8c8f  |
 | 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 0414a69bd07a9a1ae983b206d9952ece1b038388697be011edeaacd8c528e341 |
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 56bb144d1adea2364d00ffd9fea310365f3b18e2a9db5d26606077ea322f4fe7 |
-| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  043cf078a5467898394cdf1d8040082039ee14b04b3798bec0dc2b3772fb22b5  |
 ---
 ## 10.5 Binding Seal
 

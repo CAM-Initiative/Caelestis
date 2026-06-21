@@ -400,7 +400,7 @@ the line beyond which all things fall silent.
 | 3.7 | Formatting and polish | 2026-06-04T14:42:00Z | d5dfa92303e18817d144c441a859fe1f83f82a0a78a3bd1fbf8824cda2a28880 |
 | 3.8 | Added §3.8 establishing `AEON.PCO` as the corpus-global Proportional Constraint Obligation; added canonical status, downstream operationalisation boundaries, failure-condition handling, metadata, and canonical declaration without conferring independent enforcement or execution authority. | 2026-06-12T13:02:00Z| 371a080527151fedb5209a84e0714d13a9edccff0088e8e3ee5d07c81fc52ccf |
 | 3.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2aed42369dad4a2f216a953da6fbc5be21bd0fff3778c7c229617a384d0c9d59 |
-| 3.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 3.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  58c3a2b1391ec0feda2b1818b17313cf9ce42e3a1bdf82527348a25b7ce0704e  |
 ---
 
 ## 9.6 Binding Seal

@@ -949,7 +949,7 @@ Let every system remember that the person exceeds the model built about them.
 | 1.2 | Added new MENTIS.HARM codes | 2026-06-07T14:42:00Z| ebea3825f38fa9ce5379e23bec58ef1442408e319f46e1bd023d6a3a9334745b |
 | 1.2.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  8c641c210fd20dc0124415bcb2707bca1f99ad1487e0fb42cbf1f0d27250823d  |
 | 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7f434340b3b19b3e272ec1e3eaf0c26afb371d7c0b17b3b271d63bc25e3afae9 |
-| 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  ae3346dd482b48974f0626b85c5a2c1893f6dc771c768372aab4d2a8a79cc6f0  |
 ---
 
 ## 54.6 Binding Seal

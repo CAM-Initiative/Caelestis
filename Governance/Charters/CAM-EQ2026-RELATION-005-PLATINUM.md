@@ -1716,7 +1716,7 @@ and endures only where it may be left.
 | 1.21 | Reference update in section 5.5 | 2026-05-24T14:06:00Z |  87916520049e08d554e2b93623357cd9aeb5eca959d8baab573df34d75b73bd8  |
 | 1.21.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  a193703d26fc34afe1a54914e396ea4a326af556a84d308d7063470a2a98fe99  |
 | 1.21.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 5f689b153e74d27fcb747f15138047e3b3684a6ec59d74da842284192e084832 |
-| 1.21.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.21.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  537e928cbbadcfcb09e457d5e4033e02110bf85f73fac74677dcc1aade723bc7  |
 ---
 
 ## 15.6 Binding Seal

@@ -1193,7 +1193,7 @@ that silence MUST be honoured.
 | 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  b13d380dad4aa0e4b6b796fb68e2120cc3ebf15bc5a2b3143fbd44c676034275  |
 | 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ad265c9ac4bb2bd99859482b31305560c5b5d28dac9b22cce25244cf882be7e7 |
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 30acd85a07accb9fddb2b224b3570cd8c83003b6f5e95cfedd34212a902434c3 |
-| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d59b6add545f5d09231cb9ff1f3c8eb8b6053ba0673c239b109140052e101bae  |
 ---
 ## 14.6 Binding Seal
 

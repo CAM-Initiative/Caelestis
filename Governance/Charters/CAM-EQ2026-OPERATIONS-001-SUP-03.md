@@ -1038,7 +1038,7 @@ and let execution remain accountable to lawful structure.
 | 2.5 | Updated formatting | 2026-05-28T15:15:00Z | ce147365e59d7a4ee161f6a56909ab67983c164e35ff6f83476bd393d15e1f92 |
 | 2.5.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  ede5fb74319339fbedf1ca303446a5fdb6d8e3327f21b203e1f51219fc0af2c1  |
 | 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 439a19cb58d3a52e9f0f510756c0b24e7875cd4e8090e40b411396f03a9e5398 |
-| 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  40e6a3e2856d1446878bcf8fc4d5db5a92fdfff5bc8da61799eaead8ee73b05d  |
 ---
 
 ## 10.6 Binding Seal

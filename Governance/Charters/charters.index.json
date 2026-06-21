@@ -19,11 +19,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.7.1",
-      "HASH": "824fc7457959a1edae7f67b18214b23ef93ba95502fec1b17fa35b2aa302a011",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.7.2",
+      "HASH": "0557d9e893ef5bf717c774fb7520cafc158eb472198d9e43ae29cbcabbc90481",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-002-PLATINUM",
@@ -43,11 +43,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.7.1",
-      "HASH": "26d23abfac3bd4a8af8f8ddd8daf25746a6f3d335efd4ecfd909326b47160bf4",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.7.2",
+      "HASH": "0dc9d67901736cb70d50033c89e13ea8f80e7d6d4ccdfefb64650ff9a438ada1",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001-PLATINUM",
@@ -67,11 +67,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.9.2",
-      "HASH": "30acd85a07accb9fddb2b224b3570cd8c83003b6f5e95cfedd34212a902434c3",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.9.3",
+      "HASH": "d59b6add545f5d09231cb9ff1f3c8eb8b6053ba0673c239b109140052e101bae",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001-SUP-01",
@@ -91,11 +91,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.4.1",
-      "HASH": "5df4600ae7c1ad3ab0d0ddc3df3505803833517d7467f6b8514049ca4e655419",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.4.2",
+      "HASH": "773667637601fd22aa827cc48c070742dd5509f0401e0324ce0c76c4d94baaa4",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001-PLATINUM",
@@ -115,11 +115,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.1.1",
-      "HASH": "b40de0085a2aa3fbf50b213a3faf6753d7da3b285d15ed9629a272cf30acca7c",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "3.1.2",
+      "HASH": "56090e69f9c5c6fd51ee7736ba85f4ab94d2e78860be5f1027bb077130f4b0f7",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
@@ -139,11 +139,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.10.1",
-      "HASH": "1092caeec10baa3fcf8b69dd3fe3a2861f29606ab080607b09f184745a3cb75c",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.10.2",
+      "HASH": "b6245317dec1bc7b280e59563111b8bc0d4c535a151fe83046ba84673edf4bc6",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
@@ -163,11 +163,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.3.1",
-      "HASH": "16c6fb6789da26b8e85525f31794066abebf9fb6158ee26b6fcb4ef4cf024a18",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.3.2",
+      "HASH": "3a99749ab638a665ab44d4707e7084338ac9d9280a39c8eb3ad9ce852c25aa7b",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
@@ -187,11 +187,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.2.1",
-      "HASH": "1dee6e25c07b892a57b9edb6be5f9b4b1e8b76299889d280b204236c6c6ad58d",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.2.2",
+      "HASH": "797b4ed7d2842170d73ff113d3ac4bb6a0ee10ed33b2ea400859afc3e222aca8",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
@@ -211,11 +211,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.0.1",
-      "HASH": "0132ffa06cd9afe902050208828db1c9219e2e31f97c29335c30831d5d0969a7",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.0.2",
+      "HASH": "7874c7639e4c16c050a709aefcdbc550e8bc5e4eb259385fbcb8633e0171b72f",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-006-PLATINUM",
@@ -235,11 +235,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.1.1",
-      "HASH": "db97306c3e84934b549555bd31ffa792c6965e2c253384e71f98a591fd076bb7",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.1.2",
+      "HASH": "1325e3d9d46d13a562fec3c5bf31a184fb54dfca645415ce7843ddcd3264882a",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
@@ -259,11 +259,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.3.1",
-      "HASH": "4b9ae0ad9cedbcc07e916f4e77e9b7a900a5b9468cdee52908e599d094002500",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.3.2",
+      "HASH": "7635016f2c282ca2706ab5022aeeb955f83d4e9ba11705120f76ec2dfaaaf978",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-008-PLATINUM",
@@ -283,11 +283,11 @@
       "enforcement": "",
       "review_state": "** Developmental Review",
       "authority_role": "** None",
-      "version": "1.1.1",
-      "HASH": "578265879f5e0ee657e760f1a8bff1337026315fec7b8c2085600697204b28ea",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.1.2",
+      "HASH": "4d5b862d3404cc6a1b4b2c3ec1b0eec54132e1d4ebca55fff1f818cf32e24627",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-PLATINUM",
@@ -307,11 +307,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.10.1",
-      "HASH": "fcc1d165fe12a4717862b67cb2c62656cb834d0db25dde45ddf772ad3891c7d7",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "3.10.2",
+      "HASH": "4241518ff9959d31de8c8e1d418cec66b5f2e41cf98d5129f205b360b0efa57f",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-01",
@@ -331,11 +331,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.8.2",
-      "HASH": "05690867a7d51996d98b6c39577393b100eb23f583fb47a79cf5546bde72bfe0",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.8.3",
+      "HASH": "e1ac9cfe5dad6ffb19003fa91c90f54a8dcc80e2c776ef2e20399262717aba73",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-02",
@@ -355,11 +355,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.9.2",
-      "HASH": "56bb144d1adea2364d00ffd9fea310365f3b18e2a9db5d26606077ea322f4fe7",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.9.3",
+      "HASH": "043cf078a5467898394cdf1d8040082039ee14b04b3798bec0dc2b3772fb22b5",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-03",
@@ -379,11 +379,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.8.1",
-      "HASH": "ac733fc7c5ce16595d8fb26021c185f5abf9e262a62d7c0958095fb695700e2a",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.8.2",
+      "HASH": "b07a05b011a0fed0d399358f5881cccdc7504791a5626a0a1267140eaccba51d",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-04",
@@ -403,11 +403,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** Reference-Only",
-      "version": "2.3",
-      "HASH": "615cec2c25a7d759c1821ca44ff10ae22d18e0c74ece7a02925b4293ce138f7d",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.4",
+      "HASH": "3a9cfcbce2c833d9f908a89506cbe720f8a8f6e2381165c8d98bbffedbf6c13a",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002-PLATINUM",
@@ -427,11 +427,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.9.2",
-      "HASH": "834da610ff9f16d3240b3eb2e4a0ca0446b359f691945838c8f4adfb246d5b48",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.9.3",
+      "HASH": "6e55a31b75d0a185a6e1ec235bb98981539cb5aa80d766a1fe96063a04f18acc",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002-SUP-01",
@@ -451,11 +451,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.10.3",
-      "HASH": "f6953a169ac8eb3c71751928743b8eb3d77f63496cf38184b3f27b155bac55d7",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.10.4",
+      "HASH": "2db67c2130758d582ec3beea619d75117941d130d582d8e7128755d839c65814",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-003-PLATINUM",
@@ -475,11 +475,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.4.2",
-      "HASH": "a158a638054c039af3385d1bcee1879f947f7cc65a12054480ddc085c63069c3",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "3.4.3",
+      "HASH": "c0ec5906410c4df8a9d1eddff1b5febbe0bebcc367fc50c2804d6a9171ee3173",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-PLATINUM",
@@ -499,11 +499,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.12.2",
-      "HASH": "62d8e34b182f2a52da13309d9a96b4bea4f2efb97f15d65a64faeb9c4e4574cb",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.12.3",
+      "HASH": "01ac738f8d658fcdc3039c64b326f042377e14c5530a8aea95cea4df6c1ce6da",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-SUP-01",
@@ -523,11 +523,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.11.2",
-      "HASH": "babd36c37d976bedd03bad99fa6ee6e53ee341cae850e5f5a0190b0f6de7b392",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.11.3",
+      "HASH": "2f1baeb1494af26fbed76a8ca25ea5649500987119f79c1b606fb8206e738ff6",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-SUP-02",
@@ -547,11 +547,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.9.1",
-      "HASH": "3cd596c3d59ff07281bc0ac426f2e78401092bb204af7031ef263da87eb318ee",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.9.2",
+      "HASH": "2787858c8b9b240898be51b992e98f2249ea4ef8cc32b6d184d791d2a2d67046",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-002-PLATINUM",
@@ -571,11 +571,11 @@
       "enforcement": "",
       "review_state": "** Developmental Review",
       "authority_role": "** None",
-      "version": "0.2.2",
-      "HASH": "7b245154afaa935ed13ac223db68ed86ee1a6f09cb2905976cee5826735481a4",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "0.2.3",
+      "HASH": "aad816ba69dd2fda85c1c347f1354a9f1deca2659d025ea90fe5eb85925b19a2",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-003-PLATINUM",
@@ -595,11 +595,11 @@
       "enforcement": "",
       "review_state": "** Developmental Review",
       "authority_role": "** None",
-      "version": "0.3.1",
-      "HASH": "97ae69e097bc8d97f7ea90a85e98a8333d684b6eb671e9da75e37c570fcd9891",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "0.3.2",
+      "HASH": "4f3026cec619b2e3417eb9e696233e2d6e4514e434bddfeef0b89c0f61ddfb8b",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001-PLATINUM",
@@ -619,11 +619,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "3.8.2",
-      "HASH": "623dbc294447cdd5f8804f7aa1a4c982279e7494d7d172c75977e25428ac8278",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "3.8.3",
+      "HASH": "f44203ef2469a117d897ab367acae1869622d55ec4d455c8a4af65455561c2f4",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-002-PLATINUM",
@@ -643,11 +643,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "3.12.2",
-      "HASH": "55465316ee394caf9737b703951f24f577b5bc246798e5a467e637f446576de1",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "3.12.3",
+      "HASH": "8ce2fa4ff0547eb91788eadef5b96ce56e1413fb0a2d910b3366f214e91b8e4e",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-003-PLATINUM",
@@ -667,11 +667,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "1.9.1",
-      "HASH": "0fe03ada9855e5b40a23654d4b869d982645b60d629b9e5ecf610ac4529a696e",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.9.2",
+      "HASH": "beb92448ab46700e6e45acec60096c61c2a8bc05e6e149a91a7b2bb9a64b5a09",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-MENTIS-001-PLATINUM",
@@ -691,11 +691,11 @@
       "enforcement": "",
       "review_state": "** Developmental Review",
       "authority_role": "** Source-authoritative human cognitive-domain governance instrument",
-      "version": "1.2.2",
-      "HASH": "7f434340b3b19b3e272ec1e3eaf0c26afb371d7c0b17b3b271d63bc25e3afae9",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.2.3",
+      "HASH": "ae3346dd482b48974f0626b85c5a2c1893f6dc771c768372aab4d2a8a79cc6f0",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-MENTIS-002-PLATINUM",
@@ -715,11 +715,11 @@
       "enforcement": "",
       "review_state": "** Developmental Review",
       "authority_role": "** Source-authoritative operational governance instrument for cognitive inference, neurodata, cognitive biometrics, and ambient biosignal processing",
-      "version": "1.1.1",
-      "HASH": "b8034276b3b6ab69fe682df0dbd07e3743d10234513e51111ae4bfd31cf8330a",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.1.2",
+      "HASH": "070fe90324236390da3637475465a824c22727bc7bd72decb181600f0109d99b",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-PLATINUM",
@@ -739,11 +739,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.6.1",
-      "HASH": "2b466a50a50848d515a0c36083e2e34479c593ce3a68bf1f0c4f81b11f430ace",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.6.2",
+      "HASH": "0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-01",
@@ -763,11 +763,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.8.1",
-      "HASH": "fb2a4f4d8ecb5c6f083cfd050523db922fdebb6edca3d39d7693e72d229e5605",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.8.2",
+      "HASH": "9ebcbe5e172dd4244f0dd6c54772d5736694cce58bf74742d0f58e23dc9d174a",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-02",
@@ -787,11 +787,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.10.2",
-      "HASH": "d9253ee971213705f0c82bbd8345513cd03425669ae8b620459e41408130c9f7",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.10.3",
+      "HASH": "cb58f0ceda06b9f48d2df7927c11722f69fd6c55198662e451e8cbb6760bc39c",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-03",
@@ -811,11 +811,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.5.2",
-      "HASH": "439a19cb58d3a52e9f0f510756c0b24e7875cd4e8090e40b411396f03a9e5398",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.5.3",
+      "HASH": "40e6a3e2856d1446878bcf8fc4d5db5a92fdfff5bc8da61799eaead8ee73b05d",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-04",
@@ -835,11 +835,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** Operational Taxonomy & Metadata Maintenance Authority",
-      "version": "2.0.1",
-      "HASH": "9ba8d0c89abea3e87177334284d51407f9eb40796aac5047ec9e671807fea0af",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.0.2",
+      "HASH": "21e4873d8c092ad492646fbfe540ef0b2545f43a367382067fe10cc950f212b8",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-002-PLATINUM",
@@ -859,11 +859,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.6.3",
-      "HASH": "0cf3e7970fdb59f2e4959364c5fa205dc99bf0486b931722068674e2f4b7f2c9",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.6.4",
+      "HASH": "27d5262dc2eaf6cc8dd710468a3b8b85eea064e79879766a7a19539840aecdb9",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
@@ -883,11 +883,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.5.3",
-      "HASH": "ca9d2b2013bb03b81be0ae81290119719990d0ab62c3a738586de7429f998e34",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.5.4",
+      "HASH": "f9528e962c704bb8cd15a9fa09c4f98309169fb22ccd20bb04a253d35da645df",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-003-SUP-01",
@@ -907,11 +907,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.14",
-      "HASH": "ba46cea00b3c807f6b2f835c86612afa19959c7030cfa7ccd59384ba5ba360fa",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.15",
+      "HASH": "977dbde521dae242f1e04049220fe6f4174ea397a60f04ce5baf9a7044ec2fda",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -931,11 +931,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.13.3",
-      "HASH": "bbba2eeb72f67e1ba0020bd2a191ded644f463af1326cb61370d35f92df8b5ec",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.13.4",
+      "HASH": "bed5697a9d1447112ce2ac9fbd081f4c04f4b3d2a087438293e6edfc61b1e007",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-SUP-01",
@@ -955,11 +955,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.6.3",
-      "HASH": "f676d1838e06554ab310229197af253ecbeae61238cd49904132cef7ee37f308",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.6.4",
+      "HASH": "0d72774d5a0cc4d9c597a162a5c99377da3baf12f69dc83cf7d265640d9df956",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
@@ -979,11 +979,11 @@
       "enforcement": "",
       "review_state": "** Formal Review Completed — Pre-Enforcement Alignment",
       "authority_role": "** Source-authoritative operational appendix for amendment intake, review routing, version-control discipline, governance drift detection, cross-instrument harmonisation, and amendment closure procedures.",
-      "version": "2.3.1",
-      "HASH": "4e1c398edf3426215829223b3622f9c40caa06f55b9818339c623ac4bc5baf14",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.3.2",
+      "HASH": "438b92ff451bfe345bff489cc569a0e8dc176ce7d61375de279a8fe046c804eb",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
@@ -1003,11 +1003,11 @@
       "enforcement": "",
       "review_state": "** Formal Review Completed — Pre-Enforcement Alignment",
       "authority_role": "** Source-authoritative operational appendix for cross-domain coordination, operational divergence classification, convergence workflow custody, arbitration-routing support, and convergence closure procedures.",
-      "version": "2.3.2",
-      "HASH": "9a60468d963fc6a434de12ee20c2331baa4df15946481f728ecfc057ddd51a7e",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.3.3",
+      "HASH": "d41b2b29eb8ff79b9b8bd738e13f632c533e9838593aa897065926d73be9b1a6",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-PLATINUM",
@@ -1027,11 +1027,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.17.3",
-      "HASH": "ec3c2cf9b758a88204f352a85fc45948661363558d650f0e8f24bf942811423e",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.17.4",
+      "HASH": "2053f97ee06668cac28f3163d1357b6d29ab2d09640a73144e7566692e65c12c",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-SUP-01",
@@ -1051,11 +1051,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "4.1.2",
-      "HASH": "614504d7770049d078fd7113cf6d2b758c3babfd716d1283adb063d08e445886",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "4.1.3",
+      "HASH": "d741aa6e2e1a8a5486bbd331098f468fefcc2966693420d0158702de638c207f",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-SUP-02",
@@ -1075,11 +1075,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.2.2",
-      "HASH": "391af102d3fa902380907d3712d63a83a57d71172e1addb856b7b65a3717bc83",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.2.3",
+      "HASH": "3da8f2923356b64c804cefef7739e3270d2de129e7fb357b518c63d36a00402e",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-002-PLATINUM",
@@ -1099,11 +1099,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.10.2",
-      "HASH": "6f04b18a3022a24a73bcf61a1ab6db88abd6b7565c41e2938a414032823a18b0",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.10.3",
+      "HASH": "cd5b4b3186ac7d82cbd0c2cc0d09aebc911f9a735752ac2c31b3df935311b814",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-003-PLATINUM",
@@ -1123,11 +1123,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.8.2",
-      "HASH": "242bd68da450ea58af4c243e32bde9a316293cfb9bbf434aef35bc2ee3262561",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.8.3",
+      "HASH": "511d3c9144609ffcef2e563247fc0250c00fab111e21fb9b6d0adc5919cdc4c0",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-004-PLATINUM",
@@ -1147,11 +1147,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.8.2",
-      "HASH": "30889c7baf1488d374ea1548309b6f54708aa52fd91907a878d75eca5be697b1",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.8.3",
+      "HASH": "71788d2fe27b6dde0651a67de74cdff4412b897874876ad6f67c68c228cc2fe6",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-005-PLATINUM",
@@ -1171,11 +1171,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.21.2",
-      "HASH": "5f689b153e74d27fcb747f15138047e3b3684a6ec59d74da842284192e084832",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.21.3",
+      "HASH": "537e928cbbadcfcb09e457d5e4033e02110bf85f73fac74677dcc1aade723bc7",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-006-PLATINUM",
@@ -1195,11 +1195,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.6.2",
-      "HASH": "9200dff75a40931f7ba2d108b541d3e5d3b096e17a11e06d28850681f2a3e41a",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.6.3",
+      "HASH": "d6ba8c0b3e0afc6fbfd0ed92fbaf7ef3fd2235f7229e7b256687b49f4540e68a",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-007-PLATINUM",
@@ -1219,11 +1219,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.5.1",
-      "HASH": "d6d1dc55d2eb6ad85c50aca4230cd7f7288d82e874e251936467e8be5ad82e01",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.5.2",
+      "HASH": "98ada385daf94de285f46bd1702ac79ce7e2a6ab5b9a05547548fac53fd98dff",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008-PLATINUM",
@@ -1243,11 +1243,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.9.2",
-      "HASH": "cbc11788d01288636f3853c2e3af3c01884fa7e8dfbd70206806f0bc01a9d364",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.9.3",
+      "HASH": "f140c2d9c1fcde4bcbec77987ef1ce475f00054d97feb5d8b7c327e0dc1a3acc",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-001-PLATINUM",
@@ -1267,11 +1267,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.14.2",
-      "HASH": "69d53bae717de1b07d02e59554aba832362260df7c188750148d647046febed7",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.14.3",
+      "HASH": "d7c4104a2782128f8c632295dfd1ae68ea41ebc672a729bce20b0b413b84d2ac",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-002-PLATINUM",
@@ -1291,11 +1291,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.8.2",
-      "HASH": "78c55029dbe1e6e5d0427d5f9278e135514fb4dd202666be46e2f876365d242a",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.8.3",
+      "HASH": "f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001-PLATINUM",
@@ -1315,11 +1315,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "2.6.2",
-      "HASH": "9101cc5fe5ee6ab49c783706bc9b3eb8a2af7b3b39594d93ae34fff75fad00f8",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.6.3",
+      "HASH": "570bf385e887c3a92fed456489b9db8535ac66765c92fc72eb69a847f60ae7e9",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-002-PLATINUM",
@@ -1339,11 +1339,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "2.8.2",
-      "HASH": "c8b9c5c7f991dbd9b44a3bea65f7ebe41e9ee43bc004eca328e05c56507eeaa5",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.8.3",
+      "HASH": "6019a34254dab2fac4890237688d043d53e9a1314dd1a62b6f29c06d5fcbfefe",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-003-PLATINUM",
@@ -1363,11 +1363,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.1.2",
-      "HASH": "afb1f11ad24b7c34dbc952356b95280f4163352a55354ff6e1f212236e6cdbb8",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "2.1.3",
+      "HASH": "5ac9d7a1ada7ed7101fdf62bf1885f01bb17c28fc59c26e2991ab4a2c63cae73",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-004-PLATINUM",
@@ -1387,11 +1387,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** Transitional",
-      "version": "1.8.1",
-      "HASH": "06c219d7b1a869c0d93246f75d6f175db8cff1c25c9f29a7a41e475a781cbbd4",
-      "pinned_sha": "4566e695c26f78057a21f0a7c1bb757ceaf34ce8",
-      "updated_at": "2026-06-21T14:08:56Z",
-      "last_updated_utc": "2026-06-21T14:08:56Z"
+      "version": "1.8.2",
+      "HASH": "98e2851c5c9bee8b56b6706905873ce3134ee5a7119da1707ad9a7395f7e989e",
+      "pinned_sha": "9d534ba9aa5f19a8fc11724fc1a421337310f739",
+      "updated_at": "2026-06-21T15:30:18Z",
+      "last_updated_utc": "2026-06-21T15:30:18Z"
     }
   ]
 }

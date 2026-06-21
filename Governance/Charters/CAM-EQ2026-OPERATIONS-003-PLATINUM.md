@@ -446,7 +446,7 @@ and let execution remain accountable to lawful structure.
 | 2.5.1 | Applied bounded Operations namespace transmutation for the incident lifecycle, continuity-compatible protection, access/re-entry, and continuity-impact event families; updated controlled values, canonical declarations, consumers, schema bindings, and current references without altering substantive doctrine. | 2026-06-11T14:16:53Z |  e867a2deee939e411b8ed521b3beb37246de633812762762c9e86521b55afb49  |
 | 2.5.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | eee99fc6bd22e6f54b31c64b5c2756d7e04bc885d2a42f54c2785878f8c68fc4 |
 | 2.5.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ca9d2b2013bb03b81be0ae81290119719990d0ab62c3a738586de7429f998e34 |
-| 2.5.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.5.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f9528e962c704bb8cd15a9fa09c4f98309169fb22ccd20bb04a253d35da645df  |
 ---
 
 ## 8.6 Binding Seal

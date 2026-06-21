@@ -623,7 +623,7 @@ Integrity at runtime is a form of respect.
 | 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e5e3e7cc5db1b84625c3ee95c37b7834a244d36750928e669a00bfa7c78ca174 |
 | 1.10 | Replaced legacy Type 6 references with scoped `ARB.AD.AD6` references; corrected parent Annex references and runtime arbitration cross-references. | 2026-06-05T14:31:00Z | 2912bbae7db68e61ef45a10c4411627deabd4ce869d52fc572765fdf2f7368bb |
 | 1.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | d2d91af4c827a2307c69464b1ad70cc67f0e0da33dd092ea708dbbee60cb5d19 |
-| 1.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  b659a8faecd435be2784a41c985e4b891bd54fab8954bc40be3054a853e5a622  |
 ---
 
 ## 12.5 Binding Seal

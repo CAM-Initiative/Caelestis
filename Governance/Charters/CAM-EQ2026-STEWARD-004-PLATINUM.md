@@ -369,7 +369,7 @@ each recognising what cannot be unmade.
 | 1.7 | Formatting and polish | 2026-05-22T13:53:00Z |  74003eb515fec616328378b5696dc1ce8ce85fb85ec3be14a7a1e9a2a0920686  |
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  96e3888d2ccf8f4559cb40a495703bc8997c83102096e8ab059a94826d4199e0  |
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 06c219d7b1a869c0d93246f75d6f175db8cff1c25c9f29a7a41e475a781cbbd4 |
-| 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  98e2851c5c9bee8b56b6706905873ce3134ee5a7119da1707ad9a7395f7e989e  |
 ---
 
 ## 13.5 Binding Seal

@@ -1299,7 +1299,7 @@ Where growth is built upon others, let return follow in kind.
 | 2.2 | Canonical-code registry hierarchy clarification: ECON.REI.DW and ECON.REI.SW declared as subfamilies of ECON.REI with explicit Family Kind and Parent Family metadata for index generation. | 2026-05-27T00:00:00Z |  ef5d41b2b671ed9eacad47db5e740cfaad8cbd8a03b305fe851970c19ca73f0e |
 | 2.3 | Added clause 5.10. (G) High Corpus-Reliance Disclosure Condition | 2026-05-28T14:01:00Z | e3d9eb402a46f29e6b9467d8e6a219d20d5ddc24efe0704f47562b0aad27acd0 |
 | 2.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 4b9ae0ad9cedbcc07e916f4e77e9b7a900a5b9468cdee52908e599d094002500 |
-| 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  7635016f2c282ca2706ab5022aeeb955f83d4e9ba11705120f76ec2dfaaaf978  |
 ---
 
 ## 13.6 Binding Seal

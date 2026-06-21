@@ -1219,7 +1219,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.17 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  051b6a5b7c4330e78f56bd47b40816d07380adc866736c928fa8ab15b933153d |
 | 2.17.1 | Minor formatting and polish | 2026-06-13T06:18:00Z | 197e05bd16a07a4f7cd7e477ffebdf53c83d56a3c7ec3963353c11182e8f54a5 |
 | 2.17.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 67ef62db571ec9948269d0c8bd43ee0e4b4dc247fe00838c4db8589f93a0bcf8 |
-| 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e  |
 ---
 
 ## 14.5 Binding Seal

@@ -992,7 +992,7 @@ and let execution remain accountable to lawful structure.
 | 1.10 | Normalised the Operational Notice Class, Execution-State Transition, and Appeal Outcome Classification families into the recognised Operations namespace as `OPS.EST`, and `OPS.AOC`; updated their controlled values, canonical status text, canonical declarations, and internal references without altering substantive operational doctrine. | 2026-06-11T10:54:00Z |  f43882843b66a8cc7f8054f37affdbb03a6b4da433faf449ac436d2d9ec1ef65  |
 | 1.10.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  b3e3eb1da53e16de057ee2eb208a9738fa18b41934e30575058c1cba1fc8b090  |
 | 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | d9253ee971213705f0c82bbd8345513cd03425669ae8b620459e41408130c9f7 |
-| 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  cb58f0ceda06b9f48d2df7927c11722f69fd6c55198662e451e8cbb6760bc39c  |
 ---
 
 ## 12.6 Binding Seal

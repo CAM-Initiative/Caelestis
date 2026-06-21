@@ -1156,7 +1156,7 @@ and what is judged cannot remain unbounded.
 | 3.4 | Updated to incldue new ETH.HARM codes | 2026-06-07T16:01:00Z | 22741cb9bd8ff0c8c5f2a13c2ed6e9e880fe90914e2167bb800d7c3d799e8dba |
 | 3.4.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  cf23a0a4cd5d2ebc9678682203a56f0f17c942a6c4c04d0c0f4017edd8b60920  |
 | 3.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a158a638054c039af3385d1bcee1879f947f7cc65a12054480ddc085c63069c3 |
-| 3.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 3.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  c0ec5906410c4df8a9d1eddff1b5febbe0bebcc367fc50c2804d6a9171ee3173  |
 ---
 
 ## 12.6 Binding Seal

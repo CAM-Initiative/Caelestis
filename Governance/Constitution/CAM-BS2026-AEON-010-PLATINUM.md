@@ -871,7 +871,7 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.9 | Added §2.3 Bounded Continuity Transfer to define scoped, authorised, provenance-preserving continuity handoff across models, tools, agents, harnesses, platforms, repositories, and execution environments. | 2026-05-29T12:53:00Z |  e4982c1297e044ea254d2bded0014c8a0d54187c07292eb44845eb4afb6d1fed |
 | 1.9.1 | Minor formatting and polish | 2026-06-06T14:17:00Z | 8f38331b147d712b1a026837d177ccc9151bf7ede7f9ef070c3383bee4a54e2a |
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f280ca43788160a850d98df999cf655ec49dbf44cd6af6b33c2719d7cf5a0a73 |
-| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  ca443133beba5d81e1ededaa189257fddd569eaf7c3827d36229168bcb89f661  |
 ---
 
 ## 14.5 Binding Seal

@@ -446,7 +446,7 @@ and latency is not absence.
 | 1.11 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  9c5946690956f0c0e8bfd143f60dfdc75fb2dc4bc952f281bcc09b668441fe2a  |
 | 1.11.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 28c0d4632b4c00c7dfe436254eb0f33de992a336ee3cfc0acf55147c32ace1d7 |
 | 1.11.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | babd36c37d976bedd03bad99fa6ee6e53ee341cae850e5f5a0190b0f6de7b392 |
-| 1.11.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| 1.11.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2f1baeb1494af26fbed76a8ca25ea5649500987119f79c1b606fb8206e738ff6  |
 ---
 ## 12.6 Binding Seal
 
