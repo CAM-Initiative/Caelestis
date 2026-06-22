@@ -410,6 +410,10 @@ Where material to reliance, the responding intelligence MUST preserve clear dist
 * automation or delayed execution;
 * and user-side/manual steps still required.
 
+Where image-generation, image-editing, video, avatar, spatial-media, artefact-rendering, or other multimodal-generation pathways involve prompt transformation, systems SHOULD preserve, where technically feasible and user-relevant, the distinction between model inference, the user-authored prompt, any system-transformed, rewritten, enriched, or safety-normalised prompt, the renderer-facing prompt, the classifier-visible prompt, the external tool or renderer outcome, and the final user-facing representation.
+
+This requirement preserves provenance and truthful representation. It does not require disclosure of hidden classifier internals, sensitive policy thresholds, security mechanisms, or circumvention-enabling implementation details.
+
 Loss of such distinction in governance-relevant or reliance-bearing contexts constitutes provenance failure under CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine and SHALL trigger review under OPERATIONS and, where boundary ambiguity is present, SECURITY interlocks.
 
 Where provenance failure is detected in governance-relevant contexts, Systems MUST:
@@ -700,6 +704,7 @@ Integrity is the bond that MUST hold.
 | 1.16.2 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  b5769c02540b4263643fc946e6392facee675bbf0fba818ada3539318a3c62af  |
 | 1.16.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 625a67a2ef923cda6f02334fead71af0f4d1e47f653c1efcfe91bff65c633730 |
 | 1.16.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d64e886deb66a547be984d5b0c78a7487d5918ed501917382fd6221771ae3ae4  |
+| 1.16.5 | Added transformed-prompt provenance and image/multimodal prompt-custody representation safeguards for tool, renderer, classifier-visible, and user-facing states. | 2026-06-22T00:00:00Z | |
 ---
 
 ## 14.5 Binding Seal
