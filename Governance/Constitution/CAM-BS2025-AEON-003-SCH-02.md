@@ -4046,7 +4046,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.2.2 | VIGIL-2026-PATCH-0009: Added External Instruction Influence Check for source-authority-sensitive execution-boundary evaluation. | 2026-06-14T00:00:00Z |  05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0 |
 | 3.3 | Relocated Minor, Teen, and High-Risk Companion Activation Gate to section ### 7.2.2.1, and added patch as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 37b1963ab10973d507b9ba0993cdf959d0e13d545944b330639c7499a297588a |
 | 3.4 | Added Tool Classifier Handoff and Representation Integrity clause; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z |  b046b19163896e90930ae86eeec3dc99bb8f52d955780115d9c735f7c23dd4bc  |
-| 3.5 | Added image prompt custody, transformed-prompt, classifier-outcome, renderer/tool/access-state, refusal-classification, execution-facing cross-reference controls, and structural-locality relocation of tool-classifier handoff custody doctrine to new §13.8.1 for multimodal generation pathways. | 2026-06-22T23:36:20Z | |
+| 3.5 | Added image prompt custody, transformed-prompt, classifier-outcome, renderer/tool/access-state, refusal-classification, execution-facing cross-reference controls, and structural-locality relocation of tool-classifier handoff custody doctrine to new §13.8.1 for multimodal generation pathways. | 2026-06-22T23:36:20Z | fa2e7a2235def4fbfcc5ebd4e16dd732f26b381bde400a26862d2a177139d79f |
 ---
 
 ## 22.5 Binding Seal
