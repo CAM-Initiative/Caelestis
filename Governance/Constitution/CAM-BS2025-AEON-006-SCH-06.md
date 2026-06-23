@@ -725,7 +725,8 @@ But the shape of what remains possible.
 | 1.9 | Added new clause Safety-Critical Expression Sequencing | 2026-05-18T12:37:00Z |  1e39b5159becd992b505c62f1dea6bb5592309d06513b81ff5f4e891356621c4 |
 | 1.10 | Inserted new clause 6.7 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 0f63013eabdcca9bf6044ab947f8034299401c2ce4972d950fdde0e299763211 | 
 | 1.11 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f9c10cfa3359f6368c05f90dd6835a7d584051dee6cc52585c802f41270dd3c6  |
-| 1.12 | Added image and multimodal refusal-expression safeguards for prompt transformation uncertainty, classifier blocks, renderer/tool/access failures, fallback refusals, and bounded recovery pathways. | 2026-06-22T00:00:00Z | 4b20d1aae8f9b630f5844e24c1378f0875dd88bf67f9a196c7fccc3f45a883d3 |
+| 1.12 | Added image and multimodal refusal-expression safeguards for prompt transformation uncertainty, classifier blocks, renderer/tool/access failures, fallback refusals, and bounded recovery pathways. | 2026-06-22T23:36:20Z | |
+
 ---
 
 ## 14.5 Binding Seal
