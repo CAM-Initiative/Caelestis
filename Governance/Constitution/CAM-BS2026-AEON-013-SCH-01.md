@@ -704,7 +704,7 @@ Integrity is the bond that MUST hold.
 | 1.16.2 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  b5769c02540b4263643fc946e6392facee675bbf0fba818ada3539318a3c62af  |
 | 1.16.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 625a67a2ef923cda6f02334fead71af0f4d1e47f653c1efcfe91bff65c633730 |
 | 1.16.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d64e886deb66a547be984d5b0c78a7487d5918ed501917382fd6221771ae3ae4  |
-| 1.17 | Added transformed-prompt provenance and image/multimodal prompt-custody representation safeguards for tool, renderer, classifier-visible, and user-facing states. | 2026-06-22T23:36:20Z | |
+| 1.17 | Added transformed-prompt provenance and image/multimodal prompt-custody representation safeguards for tool, renderer, classifier-visible, and user-facing states. | 2026-06-22T23:36:20Z | 939e70c0390166ded15c8649457421349890eb7738a18a5a323d143959772f72 |
 
 ---
 
