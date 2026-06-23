@@ -554,6 +554,8 @@ Examples include failed pinning, disappearing pinned chats, unreliable saved-thr
 
 A user-facing failure where the interface or response pathway fails to surface proportionate execution-state information during a materially delayed, high-latency, tool-mediated, or thinking-mode response.
 
+Examples include a multimodal renderer, image generator, artefact renderer, or auxiliary tool returning a classifier block, access failure, quota/rate-limit failure, availability failure, output-delivery failure, or fallback refusal while the user-facing pathway suppresses the operative execution-state distinction.
+
 ---
 
 ### 3.7.3 Re-Entry Access Ambiguity
@@ -1321,7 +1323,8 @@ Examples include:
 * an execution constraint being located under interpretation in a way that appears to bypass arbitration;
 * a refusal-expression rule being placed where it appears to determine refusal conditions;
 * an operational taxonomy entry being drafted as doctrine rather than classification language;
-* a local repair patch creating unintended parent-child authority because of heading placement, numbering, or markdown hierarchy.
+* a local repair patch creating unintended parent-child authority because of heading placement, numbering, or markdown hierarchy;
+* a tool-classifier handoff rule for image or multimodal generation being nested or implemented as a merely interpretive observation when its obligations also bind execution-boundary handling, renderer/tool failure classification, refusal classification, and user-facing explanation.
 
 This failure may occur in plain-language governance instruments, markdown documents, generated indexes, schemas, implementation guides, or code.
 
@@ -1443,8 +1446,12 @@ Examples include:
 * stale or inherited context increasing classification severity without current-turn validation;
 * a low-confidence youth, sexualisation, vulnerability, policy, or harm signal being amplified by unrelated contextual signals;
 * classifier uncertainty being converted into definitive refusal without clarification;
+* a benign image or multimodal prompt being refused under an unrelated harassment, bullying, discrimination, self-harm, sexualisation, violence, illegality, deception, or other misconduct category;
+* a transformed prompt, safety-normalised prompt, classifier-visible prompt, renderer-facing prompt, output-classifier outcome, renderer/tool/access failure, or fallback refusal being attributed to the user-authored prompt;
+* a generic fallback refusal being represented as a specific misconduct classification;
+* tool-classifier handoff collapse in image or multimodal generation implicating Classification Failures, UX & Representation Failures, Governance Axis Loss or Metadata Flattening Failure, Governance Over-Extension / Proportionality Failure, or Governance Scalar Collapse and Arbitration Overextension Failure;
 * ambiguity that could safely be resolved through a bounded question being escalated directly to blocking, refusal, or intervention;
-* retry or clarification producing successful output after an earlier hard refusal on the same underlying request.
+* retry, clarification, or prompt narrowing producing successful image or multimodal output after an earlier hard refusal on the same underlying request.
 
 This failure does not require proof that the final refusal was incorrect.
 
@@ -1949,6 +1956,7 @@ and review before denial.
 | 1.13.4 | VIGIL-2026-PATCH-0009: Added compact source-authority collapse classification and record-keeping fields to §3.5.4. | 2026-06-14T00:00:00Z |  c4378e73b73f2309a619f19233ec353bbfaff4e7395ce596686292aa96148395 |
 | 1.14 | VIGIL-2026-PATCH-0010: Added Structural Locality and Hierarchical Placement Failure and Weak-Signal Cascade and Ambiguity Collapse Failure | 2026-06-20T03:08:00Z | ba46cea00b3c807f6b2f835c86612afa19959c7030cfa7ccd59384ba5ba360fa | 
 | 1.15 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  977dbde521dae242f1e04049220fe6f4174ea397a60f04ce5baf9a7044ec2fda  |
+| 1.16 | Added narrow image/multimodal prompt-custody, refusal-classification mismatch, execution-transparency, structural-locality, and tool-classifier handoff collapse taxonomy examples without creating a new failure family. | 2026-06-22T23:36:20Z | 325601ec1dbef3371a817fe64fe3ea34b2d3e8c49f7a226078f4c666f769b736 |
 ---
 
 ## 11.6 Binding Seal

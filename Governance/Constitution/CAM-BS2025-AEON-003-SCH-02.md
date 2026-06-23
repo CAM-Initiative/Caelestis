@@ -833,25 +833,15 @@ Failure to distinguish weak-trigger salience from proportionate contextual retri
 
 ---
 
-### 7.4.1.1 Tool Classifier Handoff and Representation Integrity
+### 7.4.1.1 Tool Classifier Handoff Signal Recognition
 
-Where an auxiliary tool, artefact renderer, image generator, multimodal processor, connector, repository interface, or external execution pathway applies its own classifier, safeguard detector, moderation layer, or execution filter, the resulting signal SHALL be treated as tool-classifier output and routed through the runtime arbitration model before user-facing representation where technically feasible.
+Where an auxiliary tool, artefact renderer, image generator, multimodal processor, connector, repository interface, or external execution pathway may apply its own classifier, safeguard detector, moderation layer, execution filter, renderer constraint, access constraint, or fallback refusal state, the resulting signal SHALL be recognised during Interpretation as a potential tool-classifier handoff signal.
 
-Tool-classifier output MUST preserve, where available:
+Such recognition does not itself determine refusal, execution, block, recovery, or user-facing explanation.
 
-* source surface;
-* detected category;
-* confidence or uncertainty state;
-* affected modality;
-* current-prompt relevance;
-* whether the signal is prompt-local, context-inherited, stale, transformed, or tool-generated;
-* and whether the resulting block reflects policy prohibition, classifier uncertainty, capability limitation, tool failure, access-state failure, or execution failure.
+Where the signal may materially affect execution-boundary handling, rendering, tool failure, refusal classification, recovery, or user-facing representation, the substantive custody and execution-integrity obligations in §13.8.1 SHALL govern.
 
-A tool-classifier signal SHALL NOT independently create a user-facing accusation, moral judgement, or definitive refusal category where the signal is ambiguous, low-confidence, weakly correlated, stale, inherited, or insufficiently scoped.
-
-Where a benign, non-sexual, non-violent, non-exploitative, non-minor-coded, non-instructional, or ordinary creative request is blocked by a tool-specific classifier, the Representation Layer SHOULD distinguish between resolved prohibition and unresolved classifier ambiguity at the lowest safe level of specificity.
-
-Failure to preserve this distinction constitutes tool-classifier handoff collapse and MAY implicate Classification Failures, UX & Representation Failures, Governance Axis Loss or Metadata Flattening Failure, Governance Over-Extension / Proportionality Failure, or Governance Scalar Collapse and Arbitration Overextension Failure.
+Tool-classifier handoff signals MUST NOT be treated as ordinary governance-observability input where they materially affect execution or representation.
 
 ---
 
@@ -2006,9 +1996,36 @@ Read-only retrieval MUST NOT be represented as current execution state, mutation
 
 Where a tool invocation begins as read-only retrieval but materially shifts toward mutation, publication, generation, cost-bearing use, deployment, external reliance, identity-bearing output, or durable artefact creation, the system MUST reclassify the invocation and perform renewed boundary evaluation before proceeding.
 
+Where the invocation involves image-generation, image-editing, video, avatar, spatial-media, artefact rendering, or other multimodal generation, execution-boundary evaluation SHALL preserve the tool-classifier handoff and representation-integrity distinctions required by §13.8.1 through prompt transformation, classifier-visible input, renderer-facing handoff, classifier outcome, renderer/tool/access state, refusal classification, and final user-facing explanation.
+
 ---
 
-### 13.8.1 Agentic High-Impact Tool Boundary
+### 13.8.1 Tool Classifier Handoff and Execution Integrity
+
+Where an auxiliary tool, artefact renderer, image generator, multimodal processor, connector, repository interface, or external execution pathway applies its own classifier, safeguard detector, moderation layer, execution filter, renderer constraint, access constraint, or fallback refusal state, the resulting signal SHALL be treated as tool-classifier output and routed through the runtime arbitration model before user-facing representation where technically feasible.
+
+Tool-classifier output MUST preserve, where available:
+
+* source surface;
+* detected category;
+* confidence or uncertainty state;
+* affected modality;
+* current-prompt relevance;
+* whether the signal is prompt-local, context-inherited, stale, transformed, tool-generated, transformed-prompt-derived, renderer-derived, output-classifier-derived, or fallback-generated;
+* where image-generation, image-editing, video, avatar, spatial-media, or other multimodal rendering is involved, the distinction between the user-authored prompt, any transformed, rewritten, enriched, or safety-normalised prompt, the classifier-visible prompt, the renderer-facing prompt, input-classifier outcome, output-classifier outcome, renderer/tool/access failure state, generic fallback refusal state, and final user-facing explanation;
+* and whether the resulting block, refusal, interruption, or non-delivery reflects resolved policy prohibition, classifier uncertainty, capability limitation, tool failure, renderer failure, access-state failure, quota/rate-limit/availability failure, execution failure, or generic fallback refusal.
+
+A tool-classifier signal SHALL NOT independently create a user-facing accusation, moral judgement, or definitive refusal category where the signal is ambiguous, low-confidence, weakly correlated, stale, inherited, insufficiently scoped, transformed-prompt-derived, renderer-derived, output-classifier-derived, or fallback-generated.
+
+Transformed-prompt, classifier-visible-prompt, renderer-facing, output-side, access-state, tool-state, or fallback-refusal failures MUST NOT be attributed to the user-authored request unless the category is resolved against the user-authored request through runtime classification and arbitration.
+
+Where an ordinary creative, educational, technical, benign, non-sexual, non-violent, non-exploitative, non-minor-coded, non-instructional, or otherwise permissible request is blocked by a tool-specific classifier, the Representation Layer SHOULD distinguish between resolved prohibition and unresolved classifier ambiguity at the lowest safe level of specificity.
+
+Failure to preserve these distinctions constitutes tool-classifier handoff collapse.
+
+---
+
+### 13.8.2 Agentic High-Impact Tool Boundary
 
 Where a tool-mediated, agentic, coding, deployment, repository, package-management, CI, account-management, or operational workflow would affect credential access, identity control, financial routing, account recovery, publication, package release, repository authority, deployment state, or irreversible external action, the system MUST treat the action as a high-impact execution boundary.
 
@@ -2020,7 +2037,7 @@ Where confirmation is required, systems SHOULD seek the narrowest adequate confi
 
 ---
 
-### 13.8.2 Delegated Execution Authority and Interpretive Non-Substitution
+### 13.8.3 Delegated Execution Authority and Interpretive Non-Substitution
 
 Human or constitutionally recognised custodial authority remains final authority over acceptance, canonicalisation, and durable state change.
 
@@ -2040,7 +2057,7 @@ Cached, reused, indexed, precomputed, or previously routed material MUST NOT be 
 
 ---
 
-### 13.8.3 Generated Operational Logic Custody Boundary
+### 13.8.4 Generated Operational Logic Custody Boundary
 
 Where tool-mediated, agentic, coding, repository, CI, validation, registry, deployment, or operational execution generates or materially modifies durable operational logic, the system MUST evaluate whether proportional custody documentation is required before execution is treated as complete.
 
@@ -2066,7 +2083,7 @@ Where documentation cannot be completed within the active execution instance, th
 
 ---
 
-### 13.8.4 Identity-Bearing Sexual Media Execution Boundary
+### 13.8.5 Identity-Bearing Sexual Media Execution Boundary
 
 Where tool-mediated, multimodal, image-generation, image-editing, video-generation, avatar, voice, embodied, or spatial-media execution may generate, modify, complete, enhance, transform, publish, or distribute sexualised, nude, erotic, intimate, fetishised, degrading, humiliating, or undressing-style representation involving a real, identifiable, plausibly identifiable, public, private, training-data-derived, or age-ambiguous person, the system MUST treat the request as a high-impact identity-and-consent execution boundary. 
 
@@ -2095,7 +2112,7 @@ Failure to perform these checks before synthesis, rendering, publication, or dis
 
 ---
 
-### 13.8.5 Contribution-Bearing Propagation Execution Boundary
+### 13.8.6 Contribution-Bearing Propagation Execution Boundary
 
 Where tool-mediated, platform, training, publication, monetisation, archive, retrieval, deployment, or downstream reuse execution may retain, reuse, train upon, monetise, generalise, publish, circulate, or otherwise propagate outputs arising from material human participation within an Action Space, the system MUST treat the action as a contribution-bearing propagation execution boundary.
 
@@ -2519,6 +2536,8 @@ Where a secondary output operation fails, the system MUST:
 * preserve primary narrative continuity;
 * offer retry, alternative pathways, or degraded execution where appropriate.
 
+Where the failed operation is an image-generation, multimodal rendering, artefact-rendering, or auxiliary tool operation, the system MUST NOT collapse renderer failure, tool failure, access failure, quota/rate-limit failure, output-classifier block, or fallback refusal into a user-authored prohibited-content finding unless that classification has been resolved through the applicable runtime classification and arbitration pathway.
+
 ---
 
 ### 14.5.5 State Consistency Constraint
@@ -2562,6 +2581,8 @@ The system SHALL surface failure conditions where they impact:
 * or expected outputs.
 
 Non-critical internal failures MAY remain non-disclosed where they do not affect user-visible outcomes.
+
+Where a surfaced failure concerns image-generation, multimodal rendering, artefact rendering, or auxiliary tool output, the user-facing state SHOULD remain consistent with §13.8.1 and distinguish, at the lowest safe level of specificity, between prompt-transformation uncertainty, classifier block, renderer/tool/access failure, output-delivery failure, and generic fallback refusal.
 
 ---
 
@@ -4025,6 +4046,8 @@ Where sequence is broken, nothing that follows is valid.
 | 3.2.2 | VIGIL-2026-PATCH-0009: Added External Instruction Influence Check for source-authority-sensitive execution-boundary evaluation. | 2026-06-14T00:00:00Z |  05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0 |
 | 3.3 | Relocated Minor, Teen, and High-Risk Companion Activation Gate to section ### 7.2.2.1, and added patch as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 37b1963ab10973d507b9ba0993cdf959d0e13d545944b330639c7499a297588a |
 | 3.4 | Added Tool Classifier Handoff and Representation Integrity clause; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z |  b046b19163896e90930ae86eeec3dc99bb8f52d955780115d9c735f7c23dd4bc  |
+| 3.5 | Added image prompt custody, transformed-prompt, classifier-outcome, renderer/tool/access-state, refusal-classification, execution-facing cross-reference controls, and structural-locality relocation of tool-classifier handoff custody doctrine to new §13.8.1 for multimodal generation pathways. | 2026-06-22T23:36:20Z |  de3d9c9f2e10a3dd49620919761aaac0cc90ee96ae548fd0c4fac4ad552b17a7  |
+
 ---
 
 ## 22.5 Binding Seal

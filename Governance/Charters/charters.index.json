@@ -907,11 +907,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.15",
-      "HASH": "977dbde521dae242f1e04049220fe6f4174ea397a60f04ce5baf9a7044ec2fda",
-      "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
-      "updated_at": "2026-06-21T15:30:41Z",
-      "last_updated_utc": "2026-06-21T15:30:41Z"
+      "version": "1.16",
+      "HASH": "325601ec1dbef3371a817fe64fe3ea34b2d3e8c49f7a226078f4c666f769b736",
+      "pinned_sha": "a1b95eab19745aa24baa24a0ba1173326fdfe013",
+      "updated_at": "2026-06-22T23:55:03Z",
+      "last_updated_utc": "2026-06-22T23:55:03Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
