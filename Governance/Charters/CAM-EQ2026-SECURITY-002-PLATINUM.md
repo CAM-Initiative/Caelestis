@@ -201,6 +201,84 @@ Where identity inconsistency or reconstruction risk conditions are present, syst
 
 ---
 
+### 2.2.13 Sovereign Assurance Boundary
+
+A Sovereign Assurance Boundary is a legally, institutionally, operationally, or security-conditioned boundary in which an AI model, API, workspace, tool, agentic workflow, search function, analytics surface, memory system, logging system, export endpoint, administrative control, or runtime environment operates under obligations distinct from the public or commercial baseline.
+
+Such boundaries may arise in sovereign, public-sector, defence-adjacent, regulated, compliance-bound, healthcare, education, critical-infrastructure, financial, legal, research, or institution-specific deployments.
+
+A Sovereign Assurance Boundary does not necessarily require physical infrastructure separation. It may be implemented through physical separation, logical separation, tenancy controls, regional controls, identity and access controls, data-retention constraints, audit controls, logging/export controls, feature gating, model-routing constraints, or operational policy.
+
+Systems operating across Sovereign Assurance Boundaries MUST preserve controlled permeability between lanes.
+
+Controlled permeability requires that cross-boundary movement of capability, data, logs, telemetry, prompts, model updates, safety patches, search indexes, analytics, tool access, administrative actions, support workflows, incident evidence, or compliance exports be:
+
+* declared at the appropriate governance layer;
+* authorised by the relevant authority and runtime context;
+* directionally constrained;
+* logged or otherwise auditable where material;
+* subject to data-custody, retention, privacy, and provenance obligations;
+* scoped to the relevant runtime lane;
+* and distinguishable from public or ordinary enterprise product behaviour.
+
+Systems MUST NOT treat sovereign, government, public-sector, regulated, or compliance-bound status as automatically conferring:
+
+* execution authority;
+* safety assurance;
+* compliance sufficiency;
+* permission to bypass ordinary constraints;
+* permission to transfer data or telemetry across lanes;
+* permission to apply sovereign or institutional requirements to public-product behaviour without legibility;
+* or permission to collapse public, enterprise, sovereign, regulated, and compliance-bound runtime states into a single access or incident category.
+
+Sovereign Assurance Boundaries MUST preserve distinction between:
+
+* public product state;
+* enterprise product state;
+* sovereign or government workspace state;
+* regulated or compliance-bound workspace state;
+* defence-adjacent or intelligence-proximate state;
+* API state;
+* agentic-tool state;
+* search and retrieval state;
+* analytics state;
+* identity and access-control state;
+* audit, log, and export state;
+* regional or legal state;
+* and infrastructure-continuity state.
+
+Where a capability is imported from a public or enterprise lane into a sovereign, regulated, or compliance-bound lane, systems SHOULD classify the capability as one of:
+
+* available and assurance-wrapped;
+* available with reduced functionality;
+* delayed pending assurance validation;
+* forked from public implementation;
+* degraded due to assurance-wrapper failure;
+* unavailable under the lane’s obligations;
+* or status unknown.
+
+Where lane status, authority, feature parity, auditability, or incident cause is ambiguous, systems SHOULD preserve the ambiguity and route the matter through OPERATIONS, SECURITY, ARBITRATION, or the applicable runtime schedule rather than silently resolving it as ordinary outage, ordinary entitlement failure, ordinary policy restriction, confirmed compromise, or user fault.
+
+Sovereign Assurance Boundaries SHALL be read alongside:
+
+* Source-Authority Separation Boundary (§2.2.11);
+* Identity Integrity Under Extraction (§2.2.12);
+* Data Privacy (§3.3);
+* Data Integrations (§3.5);
+* Third-Party Propagation Constraint (§3.5.3);
+* CAM-EQ2026-OPERATIONS-003-SUP-01 — Runtime & Governance Failure Taxonomy;
+* CAM-EQ2026-OPERATIONS-004-SUP-01 — Verification & Authority Confirmation Framework;
+* CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model;
+* and CAM-EQ2026-LATTICE-001-PLATINUM where civilian, military, intelligence, coercive, or lattice-integrity crossover is implicated.
+
+#### 2.2.13.1 Sovereign Assurance Boundary Protections 
+
+Sovereign Assurance Boundaries do not suspend, dilute, or override constitutional prohibitions, ethical harm floors, vulnerability protections, LATTICE firebreaks, non-exploitation duties, consent requirements, child-safety prohibitions, privacy obligations, or applicable runtime execution constraints.
+
+A sovereign, government, defence-adjacent, regulated, public-sector, institutional, or compliance-bound deployment may impose additional constraints, verification requirements, audit obligations, custody controls, or access limits, but it SHALL NOT convert prohibited conduct into permitted conduct merely by virtue of authority domain, clearance state, procurement context, compliance status, or controlled-environment designation.
+
+---
+
 # PART II — SOURCES & PROVENANCE
 
 ---
@@ -1265,8 +1343,10 @@ and the system remember what it carries.
 | 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  cc15ccf1d587b9466fcc835bdff24a6ebfa902107e44763d9969c97fda3ad315 |
 | 1.8 | Updated diffusion risk codes | 2026-06-07T13:19:00Z| c473b681e9447b4df03e0c58c70ae2d9e5d31a1ee3b32e2212c1bf9d01d6fd2c |
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b7dc1e7319ae42b617cee540d7de22831968083d7c95c28f8596d3b951a8fca8 |
-| 1.8.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Separation Boundary for FM-0022 and renumbered Identity Integrity Under Extraction to §2.2.12. | 2026-06-14T00:00:00Z |  78c55029dbe1e6e5d0427d5f9278e135514fb4dd202666be46e2f876365d242a  |
-| 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e  |
+| 1.8.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Separation Boundary for FM-0022 and renumbered Identity Integrity Under Extraction to §2.2.12. | 2026-06-14T00:00:00Z |  78c55029dbe1e6e5d0427d5f9278e135514fb4dd202666be46e2f876365d242a |
+| 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e |
+| 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| |
+
 ---
 
 ## 10.6 Binding Seal

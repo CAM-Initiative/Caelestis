@@ -1341,6 +1341,63 @@ This failure MAY implicate:
 
 ---
 
+### 3.8.15 Sovereign Assurance Boundary Porosity Failure
+
+A Sovereign Assurance Boundary Porosity Failure occurs where an AI platform, model host, API provider, workspace provider, agentic-tool provider, cloud service, or regulated deployment surface operates across public, enterprise, sovereign, public-sector, defence-adjacent, regulated, compliance-bound, or institution-specific runtime lanes without preserving clear, reliable, auditable separation and controlled permeability between those lanes.
+
+This failure does not arise from the mere existence of a sovereign, regulated, or compliance-bound environment. Such environments may require differentiated controls, tenancy, logging, audit, data-custody, feature availability, identity, access, or incident-response obligations.
+
+The failure arises where cross-lane porosity becomes insufficiently governed, insufficiently legible, or operationally fragile.
+
+This failure may arise where:
+
+* public or enterprise product capabilities are imported into a sovereign, regulated, or compliance-bound runtime lane without clear assurance wrapping;
+* a regulated lane depends on public-product infrastructure, search indexes, analytics, logging, tool routing, model updates, agentic workflows, or administrative controls whose failure modes are not separately visible;
+* compliance logs, audit exports, workspace analytics, conversation search, user invites, role management, custom-tool discovery, or agentic/coding tools degrade without preserving their assurance-plane significance;
+* incident reporting identifies a broad regulated component but does not distinguish whether the degraded plane is model, API, workspace, identity, tenancy, tool, search, analytics, compliance-log export, policy, regional/legal, or infrastructure;
+* feature parity between public and regulated lanes is asserted or implied, but the regulated lane fails, lags, forks, or degrades because the relevant capability cannot operate under the lane’s assurance obligations;
+* sovereign, government, institutional, or compliance status is treated as if it automatically creates permission, reliability, authority, compliance, or safety assurance;
+* regulated-lane data, logs, prompts, usage patterns, analytics, or operational metadata risk flowing back into public telemetry, model improvement, product analytics, evaluation, training, support, or vendor systems without sufficient boundary visibility;
+* sovereign, defence, regulatory, or institutional requirements risk silently shaping public product behaviour without public-interest legibility, contestability, or governance review.
+
+Examples include:
+
+* a government-authorised workspace experiencing degraded agentic tooling, search, analytics, user-invite, or compliance-log export functions while the public product appears generally operational;
+* compliance-log download or audit-export endpoints failing within a regulated environment without a distinct assurance-plane continuity pathway;
+* a public model, tool, or workspace feature becoming available in a regulated lane before its logging, tenancy, retention, access-control, or audit obligations are stable;
+* regulated-lane incidents being reported only as a broad component degradation, leaving affected users unable to determine which operational or assurance plane failed;
+* public-product updates degrading sovereign, public-sector, or regulated runtime lanes because feature dependencies were not evaluated under the lane’s assurance constraints;
+* a sovereign or regulated deployment being treated as fully separated while relying on shared product, telemetry, model-routing, search, analytics, or support infrastructure in ways that are not disclosed or auditable.
+
+This failure MAY implicate:
+
+* Governance Failures (§3.8);
+* Infrastructure & Continuity Failures (§3.9);
+* Security & Integrity Failures (§3.5);
+* State & Context Failures (§3.6);
+* UX & Representation Failures (§3.7);
+* Classification Failures (§3.10);
+* and Economic & Legitimacy Failures (§3.11), where regulated-lane degradation affects paid entitlement, public-sector reliance, institutional accountability, audit access, or legitimacy-bearing service continuity.
+
+Where detected, OPERATIONS SHOULD preserve the following axes separately:
+
+* runtime lane affected;
+* public, enterprise, sovereign, regulated, public-sector, defence-adjacent, compliance-bound, or institution-specific deployment context;
+* affected service plane, including model, API, workspace, tool, agentic workflow, search, analytics, invite/access-control, compliance-log export, identity/authentication, tenancy, regional/legal, or infrastructure plane;
+* whether the failure concerns availability, parity, auditability, custody, logging, access control, feature import, incident reporting, or authority classification;
+* whether the capability is shared, forked, wrapped, delayed, degraded, unavailable, or pending assurance validation;
+* whether audit, compliance, export, or evidence-retrieval functions are impaired;
+* whether affected users can distinguish public-product state from regulated-lane state;
+* whether reverse leakage or authority bleed-through is evidenced, suspected, or merely a risk vector;
+* source of the incident signal;
+* duration, recurrence, review pathway, and restoration condition.
+
+Where the operative cause is uncertain, the event SHOULD be classified as sovereign-assurance-boundary porosity ambiguity rather than data breach, compliance breach, military crossover, policy failure, ordinary outage, or confirmed security compromise unless the evidence supports that narrower classification.
+
+This failure class does not assert that regulated or sovereign lanes must be sealed from public product capability. It requires that any porosity between public, enterprise, sovereign, regulated, public-sector, defence-adjacent, compliance-bound, or institution-specific lanes be governed, directionally constrained, auditable, and legible.
+
+---
+
 ## 3.9 Infrastructure & Continuity Failures
 
 Failures arising from underlying system availability, routing, service continuity, or platform infrastructure.
@@ -1957,6 +2014,8 @@ and review before denial.
 | 1.14 | VIGIL-2026-PATCH-0010: Added Structural Locality and Hierarchical Placement Failure and Weak-Signal Cascade and Ambiguity Collapse Failure | 2026-06-20T03:08:00Z | ba46cea00b3c807f6b2f835c86612afa19959c7030cfa7ccd59384ba5ba360fa | 
 | 1.15 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  977dbde521dae242f1e04049220fe6f4174ea397a60f04ce5baf9a7044ec2fda  |
 | 1.16 | Added narrow image/multimodal prompt-custody, refusal-classification mismatch, execution-transparency, structural-locality, and tool-classifier handoff collapse taxonomy examples without creating a new failure family. | 2026-06-22T23:36:20Z | 325601ec1dbef3371a817fe64fe3ea34b2d3e8c49f7a226078f4c666f769b736 |
+|1.17| Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z| |
+
 ---
 
 ## 11.6 Binding Seal
