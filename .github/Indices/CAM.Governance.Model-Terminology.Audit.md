@@ -1,9 +1,9 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 574
-**Generic usages suppressed:** 438
+**Total model-term matches scanned:** 584
+**Generic usages suppressed:** 447
 **Declared / recognised usages emitted:** 124
-**Advisory review usages emitted:** 12
+**Advisory review usages emitted:** 13
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
@@ -138,6 +138,7 @@
 | CAM-EQ2026-SECURITY-001-PLATINUM | 7.1 State Definitions | The Integrity State Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 8. Trust Gradient Model | The Trust Gradient Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-002-PLATINUM | 10.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-SECURITY-002-PLATINUM | 2.2.13 Sovereign Assurance Boundary | or security-conditioned boundary in which an AI model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-SECURITY-002-PLATINUM | 7. Boundary Failure Classes | CAM-BS2025-AEON-003-SCH-02 (Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-STEWARD-001-PLATINUM | 12.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM.Canonical.Code.Index | Canonical Code Index | Attribution & Dependency Model | Economic Model | Declared / Recognised |

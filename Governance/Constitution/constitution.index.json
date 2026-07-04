@@ -187,11 +187,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.5",
-      "HASH": "de3d9c9f2e10a3dd49620919761aaac0cc90ee96ae548fd0c4fac4ad552b17a7",
-      "pinned_sha": "cd6939be16e0d55a21094289c64dffaabf8aa406",
-      "updated_at": "2026-06-23T00:23:06Z",
-      "last_updated_utc": "2026-06-23T00:23:06Z"
+      "version": "3.6",
+      "HASH": "6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443",
+      "pinned_sha": "101164d7499e1bd8f4aade13e2601ee6e9b5849e",
+      "updated_at": "2026-07-04T10:51:28Z",
+      "last_updated_utc": "2026-07-04T10:51:28Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",

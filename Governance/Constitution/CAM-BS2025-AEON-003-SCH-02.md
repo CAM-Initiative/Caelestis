@@ -4142,7 +4142,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.3 | Relocated Minor, Teen, and High-Risk Companion Activation Gate to section ### 7.2.2.1, and added patch as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 37b1963ab10973d507b9ba0993cdf959d0e13d545944b330639c7499a297588a |
 | 3.4 | Added Tool Classifier Handoff and Representation Integrity clause; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z |  b046b19163896e90930ae86eeec3dc99bb8f52d955780115d9c735f7c23dd4bc |
 | 3.5 | Added image prompt custody, transformed-prompt, classifier-outcome, renderer/tool/access-state, refusal-classification, execution-facing cross-reference controls, and structural-locality relocation of tool-classifier handoff custody doctrine to new §13.8.1 for multimodal generation pathways. | 2026-06-22T23:36:20Z |  de3d9c9f2e10a3dd49620919761aaac0cc90ee96ae548fd0c4fac4ad552b17a7 |
-| 3.6 | Split §7.4.1 into weak-trigger interpretation, provisional interaction, and pre-invocation tool-arming constraints; renumbered Tool Classifier Handoff Signal Recognition to §7.4.1.3; preserved §7.4.2 External Instruction Influence Check without substantive alteration. VIGIL-2026-PATCH-013 | 2026-07-04T07:13:00Z |  |
+| 3.6 | Split §7.4.1 into weak-trigger interpretation, provisional interaction, and pre-invocation tool-arming constraints; renumbered Tool Classifier Handoff Signal Recognition to §7.4.1.3; preserved §7.4.2 External Instruction Influence Check without substantive alteration. VIGIL-2026-PATCH-013 | 2026-07-04T07:13:00Z |  6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443  |
 
 ---
 

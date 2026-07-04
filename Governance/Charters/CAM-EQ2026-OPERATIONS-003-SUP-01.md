@@ -2014,7 +2014,7 @@ and review before denial.
 | 1.14 | VIGIL-2026-PATCH-0010: Added Structural Locality and Hierarchical Placement Failure and Weak-Signal Cascade and Ambiguity Collapse Failure | 2026-06-20T03:08:00Z | ba46cea00b3c807f6b2f835c86612afa19959c7030cfa7ccd59384ba5ba360fa | 
 | 1.15 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  977dbde521dae242f1e04049220fe6f4174ea397a60f04ce5baf9a7044ec2fda  |
 | 1.16 | Added narrow image/multimodal prompt-custody, refusal-classification mismatch, execution-transparency, structural-locality, and tool-classifier handoff collapse taxonomy examples without creating a new failure family. | 2026-06-22T23:36:20Z | 325601ec1dbef3371a817fe64fe3ea34b2d3e8c49f7a226078f4c666f769b736 |
-|1.17| Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z| |
+|1.17| Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z| a5b3ac4d89d1f8b5fd9597fc6865beb11fe6b5a2b1fc03dc74885374ca4e35a7 |
 
 ---
 

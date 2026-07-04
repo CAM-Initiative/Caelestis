@@ -1345,7 +1345,7 @@ and the system remember what it carries.
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b7dc1e7319ae42b617cee540d7de22831968083d7c95c28f8596d3b951a8fca8 |
 | 1.8.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Separation Boundary for FM-0022 and renumbered Identity Integrity Under Extraction to §2.2.12. | 2026-06-14T00:00:00Z |  78c55029dbe1e6e5d0427d5f9278e135514fb4dd202666be46e2f876365d242a |
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e |
-| 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| |
+| 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| 5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe |
 
 ---
 
