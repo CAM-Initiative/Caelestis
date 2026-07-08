@@ -165,9 +165,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "cd6939be16e0d55a21094289c64dffaabf8aa406",
-      "updated_at": "2026-06-23T00:23:06Z",
-      "last_updated_utc": "2026-06-23T00:23:06Z"
+      "pinned_sha": "1a694f0340a18c2859fe2bd410e05ba49757d955",
+      "updated_at": "2026-07-04T10:52:00Z",
+      "last_updated_utc": "2026-07-04T10:52:00Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "3.6",
       "HASH": "6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443",
-      "pinned_sha": "101164d7499e1bd8f4aade13e2601ee6e9b5849e",
-      "updated_at": "2026-07-04T10:51:28Z",
-      "last_updated_utc": "2026-07-04T10:51:28Z"
+      "pinned_sha": "1a694f0340a18c2859fe2bd410e05ba49757d955",
+      "updated_at": "2026-07-04T10:52:00Z",
+      "last_updated_utc": "2026-07-04T10:52:00Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -213,9 +213,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "cd6939be16e0d55a21094289c64dffaabf8aa406",
-      "updated_at": "2026-06-23T00:23:06Z",
-      "last_updated_utc": "2026-06-23T00:23:06Z"
+      "pinned_sha": "1a694f0340a18c2859fe2bd410e05ba49757d955",
+      "updated_at": "2026-07-04T10:52:00Z",
+      "last_updated_utc": "2026-07-04T10:52:00Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -859,11 +859,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.17.3",
-      "HASH": "90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e",
-      "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
-      "updated_at": "2026-06-21T15:30:41Z",
-      "last_updated_utc": "2026-06-21T15:30:41Z"
+      "version": "2.18",
+      "HASH": "94e10ac8cd138767f0f45ed6fd8bd90a4672a0e11689f4ab912013c8e14e3938",
+      "pinned_sha": "968f20e89d95e8ae3951c63e4c78fdcae51575af",
+      "updated_at": "2026-07-08T00:55:14Z",
+      "last_updated_utc": "2026-07-08T00:55:14Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
