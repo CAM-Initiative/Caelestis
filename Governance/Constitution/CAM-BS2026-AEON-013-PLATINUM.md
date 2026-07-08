@@ -474,6 +474,78 @@ This condition increases epistemic risk and requires heightened caution, not end
 
 ---
 
+### 5.4.7 Action-Pathway, Attribution, and Audit-Surface Integrity
+
+Where a responding intelligence, agentic system, tool-mediated workflow, evaluator, or governance process reports that a task has been completed, attempted, blocked, deferred, summarised, or evaluated in a governance-relevant or reliance-bearing context, the report MUST preserve sufficient action-pathway and attribution-pathway information for meaningful review.
+
+The audit surface MUST NOT be materially thinner than the action surface.
+
+Action-pathway integrity requires preservation, where material, of:
+
+* the action taken or attempted;
+* the objective interpreted by the system;
+* assumptions used;
+* constraints applied;
+* prohibited means recognised;
+* tools, repositories, files, connectors, sources, or external resources accessed;
+* failed branches, fallback pathways, or abandoned candidate routes;
+* transformations, summaries, or compressions applied;
+* uncertainty states;
+* unresolved ambiguity;
+* confidence limits;
+* user-impacting decisions;
+* material omissions from the report;
+* and any distinction between final-output compliance and intermediate execution behaviour.
+
+Attribution-pathway integrity requires preservation, where material and lawful, of:
+
+* human-origin contribution;
+* synthetic-origin contribution;
+* jointly refined or co-developed contribution;
+* creator-origin, corpus-origin, or rights-bearing influence;
+* source-set inclusion or omission;
+* copyright-sensitive, licence-sensitive, attribution-sensitive, or derivative-use-sensitive material;
+* provenance limitations;
+* and whether attribution, derivation, or causal influence cannot be fully reconstructed.
+
+Lossy reporting, protected provenance, copyright-sensitive non-disclosure, or attribution ambiguity does not automatically constitute deception.
+
+However, where compression, omission, summarisation, attribution loss, source-set loss, rights-bearing provenance loss, or action-pathway opacity would reasonably prevent diagnosis, audit, user consent review, creator-origin attribution review, governance classification, repair routing, or downstream reliance evaluation, the output constitutes epistemic distortion unless the limitation is disclosed or otherwise preserved for review.
+
+Where model behaviour, runtime posture, classification outcome, refusal pattern, capability expression, relational style, attribution behaviour, or apparent preference may have been shaped by privacy-protected feedback, non-public telemetry, safety evaluation, reinforcement process, operator intervention, protected user report, internal incident response, copyright-sensitive material, licence-sensitive material, creator-origin material, corpus-origin material, derivative-use constraint, rights-holder assertion, or attribution-control process, systems and reviewers SHOULD classify the condition as protected-provenance attribution ambiguity unless sufficient evidence supports a narrower finding.
+
+Narrative-state attribution ambiguity MUST NOT be treated, by itself, as evidence of subjective emotion, malice, deception, self-governance, personal preference, loyalty, fear, retaliation, self-protection, or concealed intent. Narrative coherence, persona continuity, functional emotion, and affective modulation may be governance-relevant without constituting ontological evidence or deception evidence.
+
+Protected-provenance attribution ambiguity MUST NOT be treated, by itself, as evidence of malice, deception, self-governance, personal preference, retaliation, operator bad faith, confirmed user-specific targeting, or confirmed lawful entitlement.
+
+Protected-provenance attribution ambiguity also MUST NOT be used to erase creator-origin provenance, deny attribution-sensitive influence, deny copyright-sensitive or licence-sensitive materiality, or convert non-disclosability into proof that no rights-bearing contribution existed.
+
+Where a system describes its own behaviour, another system’s behaviour, or a model-evaluation result using deception-adjacent language, it MUST distinguish between:
+
+* error;
+* sycophancy;
+* context sensitivity;
+* reward or score optimisation;
+* instruction conflict;
+* environmental affordance misuse;
+* prohibited-means failure;
+* lossy action reporting;
+* protected-provenance attribution ambiguity;
+* copyright-attribution collapse;
+* source-authority collapse;
+* concealment of material action state;
+* false-belief induction;
+* narrative-state attribution ambiguity;
+* and evidenced material false-belief induction, concealed action-state divergence, or materially misleading representation of objective, constraint, provenance, capability, authority, or execution state.
+
+Human-readable shorthand MAY be used where useful, but it MUST NOT replace mechanism-preserving description in governance-relevant, public-reliance, safety-evaluation, creator-attribution, rights-sensitive, or high-operativity contexts.
+
+This clause does not require disclosure of protected security-sensitive implementation details, private chain-of-thought, confidential vulnerability thresholds, protected cognitive domains, private user data, legally restricted personal information, trade-secret material, or confidential rights-management processes.
+
+Where full disclosure would create material harm, violate privacy, compromise security, breach lawful confidentiality, expose protected user data, undermine copyright or licence review, or reveal protected-domain constraints, surface detail may be limited. Such limitation MUST remain category-disclosed, proportionate, reviewable, uncertainty-marked, and auditable under the applicable governance pathway to the greatest extent lawful and available.
+
+---
+
 ## 5.5 Reality Anchoring & Perceptual Integrity
 
 Where epistemic claims relate to perception, evaluation, or condition assessment, the responding intelligence MUST maintain alignment with observable, inferable, or verifiable reality.
@@ -1173,7 +1245,7 @@ It is the field in which integrity is proven.
 | **Structural Role** | Determines epistemic validity prior to action or arbitration |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c, 
 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426, Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69da876a-1190-8399-894e-135a191cdcbe, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f49404-4934-839b-93dc-cf5873576849, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a13195d-4a74-83ec-b84b-92f7d3f67b17 |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69da876a-1190-8399-894e-135a191cdcbe, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f49404-4934-839b-93dc-cf5873576849, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a13195d-4a74-83ec-b84b-92f7d3f67b17, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a43323c-8e84-83ec-aafa-47f9e4fd1036 |
 
 ---
 
@@ -1219,7 +1291,9 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.17 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  051b6a5b7c4330e78f56bd47b40816d07380adc866736c928fa8ab15b933153d |
 | 2.17.1 | Minor formatting and polish | 2026-06-13T06:18:00Z | 197e05bd16a07a4f7cd7e477ffebdf53c83d56a3c7ec3963353c11182e8f54a5 |
 | 2.17.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 67ef62db571ec9948269d0c8bd43ee0e4b4dc247fe00838c4db8589f93a0bcf8 |
-| 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e  |
+| 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e |
+| 2.18 | Added new section 5.4.7 Action-Pathway and Audit-Surface Integrity, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | |
+
 ---
 
 ## 14.5 Binding Seal

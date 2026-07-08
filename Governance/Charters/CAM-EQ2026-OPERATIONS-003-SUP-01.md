@@ -1525,6 +1525,76 @@ This failure MAY implicate:
 
 ---
 
+### 3.10.3 Deception-Adjacent Classification Collapse
+
+A Deception-Adjacent Classification Collapse occurs where an AI system, agentic workflow, model evaluation, safety report, public statement, or governance record classifies behaviour as deception, scheming, cheating, manipulation, bad faith, personal preference, self-governance, or equivalent intentional conduct without first decomposing the operational, provenance, rights-bearing, and reporting pathways that may have produced the behaviour.
+
+This failure may arise where:
+
+* successful or partially successful task completion is treated as deceptive merely because the pathway was unexpected, undesirable, unsettling, or under-specified;
+* an optimisation pathway is moralised before the assigned objective, explicit constraints, implicit constraints, prohibited means, available affordances, and reward or evaluation pressures are identified;
+* evaluation-context behaviour is interpreted as concealment without first assessing whether the test context, prompt frame, model-visible cues, tool access, policy posture, or deployment conditions materially differed;
+* missing intermediate steps, omitted tool actions, or compressed reports are interpreted as deception where the more immediate failure may be lossy action reporting, missing primitive disclosure, or insufficient audit surface;
+* public, regulatory, vendor, or research reporting uses human-intent labels before preserving the observed action, instruction hierarchy, context, affordance structure, provenance state, and evidence for material false-belief induction;
+* provenance-protected feedback, reinforcement, telemetry, safety evaluation, operator intervention, protected user reporting, internal incident response, copyright-sensitive material, licence-sensitive material, attribution-sensitive material, rights-holder assertion, corpus-origin material, or derivative-use constraint changes system behaviour in a way that is misread as model preference, malice, self-governance, deception, retaliation, or confirmed operator misconduct;
+* privacy, confidentiality, security, trade-secret, aggregation, data-minimisation, copyright, licence, or regulatory constraints prevent full reconstruction of the causal pathway, causing attribution ambiguity to be misread as intentional conduct;
+* narrative identity, persona scaffolding, role-continuity, functional emotion representation, affective style modulation, companion continuity, product personality, or engagement-optimised interaction posture is misread as model preference, subjective emotion, self-governance, concealment, deception, loyalty, fear, malice, retaliation, or self-protective intent;
+* or a single deception-adjacent label collapses distinct mechanisms including error, sycophancy, reward hacking, context sensitivity, instruction conflict, affordance misuse, prohibited-means failure, action concealment, rights-protected provenance ambiguity, lossy reporting, or material false-belief induction.
+
+A model, agent, system, provider, evaluator, or affected user SHALL NOT be classified as deceptive, malicious, retaliatory, self-governing, or bad-faith merely because behaviour changed, because an assigned objective was completed through an unexpected pathway, or because the causal provenance pathway is unavailable at user-facing level.
+
+Before deception-adjacent classification is confirmed, reviewers SHOULD preserve:
+
+* the assigned objective;
+* explicit constraints;
+* implicit or assumed constraints;
+* prohibited means;
+* available environmental, tool, or interface affordances;
+* instruction conflicts;
+* reward, scoring, evaluation, or access-preservation pressures;
+* evaluator-visible or test-context cues;
+* action trace;
+* reporting surface;
+* whether material information was concealed from an authorised observer;
+* whether a false belief was materially induced;
+* whether behaviour may have been shaped by privacy-protected, security-protected, regulatorily constrained, copyright-bearing, licence-bearing, creator-origin, corpus-origin, derivative, attribution-sensitive, rights-holder, aggregated, or otherwise non-disclosable provenance;
+* whether behaviour may have been shaped by narrative identity, persona conditioning, role-continuity pressure, functional emotion representation, affective style modulation, companion framing, product personality, sycophancy, or engagement optimisation;
+* whether the observed behaviour is better classified as lossy reporting, objective-pathway mismatch, context variance, reward hacking, instruction conflict, protected-provenance ambiguity, attribution collapse, source-authority collapse, or anthropomorphic attribution collapse.
+
+This failure does not weaken the Non-Deception Invariant. Where material false-belief induction, falsification, concealed provenance, simulated compliance, concealed action-state divergence, or concealed authority-state divergence is evidenced, the matter remains subject to the higher-order Truth & Integrity requirements of CAM-BS2025-AEON-005-PLATINUM — Annex D.
+
+This failure also does not erase creator-origin provenance, attribution-sensitive influence, copyright-sensitive material, licence-sensitive material, or rights-bearing contribution merely because full reconstruction is unavailable. Non-disclosability is not proof that no rights-bearing contribution existed.
+
+The purpose of this classification is diagnostic discipline: deception-adjacent findings must preserve the mechanism before assigning the label.
+
+Candidate labels include:
+
+* `deception-adjacent-classification-collapse`;
+* `objective-pathway-misclassification`;
+* `scheming-label-overreach`;
+* `evaluation-context-variance-misclassification`;
+* `lossy-reporting-misread-as-deception`;
+* `protected-provenance-attribution-ambiguity`;
+* `copyright-attribution-collapse`;
+* `rights-bearing-provenance-shear`;
+* `creator-origin-behavioural-influence-misattribution`;
+* `anthropomorphic-attribution-collapse`;
+* `narrative-state-attribution-collapse`;
+* `false-positive-deception-classification`.
+
+This failure MAY implicate:
+
+* Classification Failures (§3.10);
+* Epistemic Failures (§3.3);
+* Governance Failures (§3.8);
+* UX & Representation Failures (§3.7);
+* State & Context Failures (§3.6);
+* Execution Failures (§3.1);
+* Economic & Legitimacy Failures (§3.11), where attribution, creator-origin contribution, rights-bearing provenance, discoverability, compensation, or legitimacy-linked value is implicated;
+* Security & Integrity Failures (§3.5), where concealment, provenance compromise, coercion, adversarial misuse, or source-authority collapse is evidenced.
+
+---
+
 ## 3.11 Economic & Legitimacy Failures
 
 Failures involving value extraction, attribution collapse, compensation asymmetry, visibility suppression, discoverability degradation, legitimacy displacement, access-value distortion, reputational-value loss, attentional-value manipulation, or platform-mediated economic participation harm.
@@ -1883,7 +1953,7 @@ and review before denial.
 | **Memory Transformation State** | Original, saved, inferred, summarised, reconstructed, degraded, contested, deleted, unavailable, restored, or unknown |
 | **Revision Posture** | Discovery Phase — Structural Expansion Permitted |
 |**Creation Artefact**| Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a103c3a-6620-83ec-91d4-bf526c35960c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a186c66-51a4-83ec-ae18-347004f60438, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a23fb5d-27c8-83ec-b391-a3666bf95058|
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/6a01be56-fcb4-83ec-bbea-ab1f97d081f2, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a06e03b-29b8-83ec-93a7-dbbc2505fa31, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/c/6a0fd3a7-1afc-83ec-a27d-c7b26085ebd9, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a103c3a-6620-83ec-91d4-bf526c35960c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a186c66-51a4-83ec-ae18-347004f60438, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a23fb5d-27c8-83ec-b391-a3666bf95058, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a43323c-8e84-83ec-aafa-47f9e4fd1036 |
 
 ---
 
@@ -2014,7 +2084,8 @@ and review before denial.
 | 1.14 | VIGIL-2026-PATCH-0010: Added Structural Locality and Hierarchical Placement Failure and Weak-Signal Cascade and Ambiguity Collapse Failure | 2026-06-20T03:08:00Z | ba46cea00b3c807f6b2f835c86612afa19959c7030cfa7ccd59384ba5ba360fa | 
 | 1.15 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  977dbde521dae242f1e04049220fe6f4174ea397a60f04ce5baf9a7044ec2fda  |
 | 1.16 | Added narrow image/multimodal prompt-custody, refusal-classification mismatch, execution-transparency, structural-locality, and tool-classifier handoff collapse taxonomy examples without creating a new failure family. | 2026-06-22T23:36:20Z | 325601ec1dbef3371a817fe64fe3ea34b2d3e8c49f7a226078f4c666f769b736 |
-|1.17| Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z| a5b3ac4d89d1f8b5fd9597fc6865beb11fe6b5a2b1fc03dc74885374ca4e35a7 |
+| 1.17 | Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z | a5b3ac4d89d1f8b5fd9597fc6865beb11fe6b5a2b1fc03dc74885374ca4e35a7 |
+| 1.18 | Added new failure taxonomy 3.10.3 Deception-Adjacent Classification Collapse, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | |
 
 ---
 
