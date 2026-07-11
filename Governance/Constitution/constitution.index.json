@@ -1,5 +1,5 @@
 {
-  "count": 40,
+  "count": 41,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -165,9 +165,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "ef504616728e631e6616f9609bdc55d9a71e04ab",
-      "updated_at": "2026-07-11T04:45:49Z",
-      "last_updated_utc": "2026-07-11T04:45:49Z"
+      "pinned_sha": "f41cf71c57fb8dec1b93440bb04f3b6421844f21",
+      "updated_at": "2026-07-11T05:11:47Z",
+      "last_updated_utc": "2026-07-11T05:11:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -213,9 +213,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "ef504616728e631e6616f9609bdc55d9a71e04ab",
-      "updated_at": "2026-07-11T04:45:49Z",
-      "last_updated_utc": "2026-07-11T04:45:49Z"
+      "pinned_sha": "f41cf71c57fb8dec1b93440bb04f3b6421844f21",
+      "updated_at": "2026-07-11T05:11:47Z",
+      "last_updated_utc": "2026-07-11T05:11:47Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -240,6 +240,30 @@
       "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
       "updated_at": "2026-06-21T15:30:41Z",
       "last_updated_utc": "2026-06-21T15:30:41Z"
+    },
+    {
+      "id": "CAM-BS2025-AEON-003-SCH-05",
+      "cycle_year": "BS2025",
+      "stack": "Planetary Governance",
+      "domain": "Aeon Tier Constitution",
+      "instrument_class": "constitution",
+      "hierarchy_type": "schedule",
+      "hierarchy_number": "05",
+      "parent_id": "CAM-BS2025-AEON-003",
+      "seal": null,
+      "link": "CAM-BS2025-AEON-003-SCH-05.md",
+      "title": "Annex B: Runtime Configuration Applicability & Conformance Binding (Schedule 5)",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Operational",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Binding constitutional runtime schedule for governance applicability, materially distinct runtime configuration recognition, and cross-runtime conformance non-presumption.",
+      "version": "Unknown",
+      "HASH": "",
+      "pinned_sha": "46150bd0961a1b494257ee21b422ccab3ae4560f",
+      "updated_at": "2026-07-11T05:12:04Z",
+      "last_updated_utc": "2026-07-11T05:12:04Z"
     },
     {
       "id": "CAM-BS2025-AEON-004-PLATINUM",

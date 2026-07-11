@@ -1,5 +1,5 @@
 {
-  "count": 60,
+  "count": 59,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -840,30 +840,6 @@
       "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
       "updated_at": "2026-06-21T15:30:41Z",
       "last_updated_utc": "2026-06-21T15:30:41Z"
-    },
-    {
-      "id": "CAM-EQ2026-OPERATIONS-001-SUP-05",
-      "cycle_year": "EQ2026",
-      "stack": "Planetary Governance",
-      "domain": "OPERATIONS",
-      "instrument_class": "charter",
-      "hierarchy_type": "supplement",
-      "hierarchy_number": "05",
-      "parent_id": "CAM-EQ2026-OPERATIONS-001",
-      "seal": null,
-      "link": "CAM-EQ2026-OPERATIONS-001-SUP-05.md",
-      "title": "Runtime Governance Applicability & Conformance Protocol",
-      "summary": "",
-      "status": "** Proposed",
-      "effect": "** Operational",
-      "enforcement": "",
-      "review_state": "** Draft",
-      "authority_role": "** None",
-      "version": "Unknown",
-      "HASH": "",
-      "pinned_sha": "e2b724267f4fb329579865c4677a41b2c957575e",
-      "updated_at": "2026-07-11T04:45:32Z",
-      "last_updated_utc": "2026-07-11T04:45:32Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-002-PLATINUM",
