@@ -145,6 +145,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-OPERATIONS-001-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Escalation Pathway Playbooks (Supplement 2) | Supplement | 1.10.3 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-03](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Governance Capture Detection Procedures (Supplement 3) | Supplement | 2.5.3 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-04](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md) | Taxonomies & Metadata Authority Framework (Supplement 4) | Supplement | 2.0.2 | Adopted | Operational | Metadata Review Required | None | Operational Taxonomy & Metadata Maintenance Authority |
+| [CAM-EQ2026-OPERATIONS-001-SUP-05](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-05.md) | Runtime Governance Applicability & Conformance Protocol | Supplement | Unknown | Proposed | Operational | Metadata Review Required | Draft | None |
 | [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.18 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.6.4 | Adopted | Operational | Metadata Review Required | None | None |
 
