@@ -1,9 +1,9 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 601
-**Generic usages suppressed:** 462
-**Declared / recognised usages emitted:** 125
-**Advisory review usages emitted:** 14
+**Total model-term matches scanned:** 616
+**Generic usages suppressed:** 474
+**Declared / recognised usages emitted:** 127
+**Advisory review usages emitted:** 15
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
@@ -121,6 +121,9 @@
 | CAM-EQ2026-OPERATIONS-001-SUP-05 | 11. Runtime Governance Reach Failure | classified as governance-reach ambiguity rather than attributed to a specific model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-003-SUP-01 | 1. Scope | This Supplement defines a common classification model | Classification Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-003-SUP-01 | 3.4 Relational Failures | continuity rupture after policy or model | Governance Model | Declared / Recognised |
+| CAM-EQ2026-OPERATIONS-007-PLATINUM | 1. Scope | single-model and multi-model | Technical / AI Model | Advisory Review |
+| CAM-EQ2026-OPERATIONS-007-PLATINUM | 12. Runtime Governance Reach Failure | classified as governance-reach ambiguity rather than attributed to a specific model | Governance Model | Declared / Recognised |
+| CAM-EQ2026-OPERATIONS-007-PLATINUM | 14. Relationship to Existing Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-001-PLATINUM | 6.1.1 Relational Influence Boundary (Execution Constraint Alignment) | and maintains alignment with the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-005-PLATINUM | 5.2 Relational Safeguard Ladder | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-006-PLATINUM | 3. Acute Crisis-Risk Classification Model (AC Framework) | posture for each classification is determined through the Response Calibration Model | Domain-Recognised Model | Declared / Recognised |

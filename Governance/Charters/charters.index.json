@@ -1,5 +1,5 @@
 {
-  "count": 59,
+  "count": 60,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -1032,6 +1032,30 @@
       "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
       "updated_at": "2026-06-21T15:30:41Z",
       "last_updated_utc": "2026-06-21T15:30:41Z"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-007-PLATINUM",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "007",
+      "parent_id": "CAM-EQ2026-OPERATIONS-001",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-OPERATIONS-007-PLATINUM.md",
+      "title": "Appendix F: Runtime Governance Applicability & Conformance",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Operational",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Source-authoritative operational appendix for runtime applicability, corpus governance reach, cross-runtime conformance, runtime-role accountability, transition classification, and governance-reach failure handling.",
+      "version": "Unknown",
+      "HASH": "",
+      "pinned_sha": "0c8d6260c0cc42684b2fb926815e730fc40b33e0",
+      "updated_at": "2026-07-11T05:11:32Z",
+      "last_updated_utc": "2026-07-11T05:11:32Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-PLATINUM",

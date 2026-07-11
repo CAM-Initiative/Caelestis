@@ -1,5 +1,5 @@
 {
-  "count": 103,
+  "count": 104,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -177,9 +177,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "0a5189a0339e13a4f7eeeceadaf10a159148457d",
-      "updated_at": "2026-07-08T00:55:45Z",
-      "last_updated_utc": "2026-07-08T00:55:45Z",
+      "pinned_sha": "ef504616728e631e6616f9609bdc55d9a71e04ab",
+      "updated_at": "2026-07-11T04:45:49Z",
+      "last_updated_utc": "2026-07-11T04:45:49Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.",
       "is_derived": true
     },
@@ -229,9 +229,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "0a5189a0339e13a4f7eeeceadaf10a159148457d",
-      "updated_at": "2026-07-08T00:55:45Z",
-      "last_updated_utc": "2026-07-08T00:55:45Z",
+      "pinned_sha": "ef504616728e631e6616f9609bdc55d9a71e04ab",
+      "updated_at": "2026-07-11T04:45:49Z",
+      "last_updated_utc": "2026-07-11T04:45:49Z",
       "purpose": "Canonical, human-readable registry of all governance instruments.",
       "is_derived": true
     },
@@ -2261,6 +2261,32 @@
       "updated_at": "2026-06-21T15:30:41Z",
       "last_updated_utc": "2026-06-21T15:30:41Z",
       "purpose": "Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required.",
+      "is_derived": false
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-007-PLATINUM",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "007",
+      "parent_id": "CAM-EQ2026-OPERATIONS-001",
+      "seal": "PLATINUM",
+      "link": "Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md",
+      "title": "Appendix F: Runtime Governance Applicability & Conformance",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Operational",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Source-authoritative operational appendix for runtime applicability, corpus governance reach, cross-runtime conformance, runtime-role accountability, transition classification, and governance-reach failure handling.",
+      "version": "Unknown",
+      "HASH": "2f738fb9ab5e91008891cca2eab3a3b56e3272d9a537b207b3f41f28e6d5dc3b",
+      "pinned_sha": "0c8d6260c0cc42684b2fb926815e730fc40b33e0",
+      "updated_at": "2026-07-11T05:11:32Z",
+      "last_updated_utc": "2026-07-11T05:11:32Z",
+      "purpose": "Governs how constitutional and domain obligations are operationally applied across materially distinct runtime formations, including routed, composite, multimodal, platform-controlled, custom, Speculum-Classis, Sovereigni, and identity-indeterminate systems.",
       "is_derived": false
     },
     {
