@@ -204,7 +204,7 @@ Where governance is claimed, let its reach be real.
 | Signal Output | Applicability classification, material-distinction signal, conformance-renewal requirement, governance-degradation signal, OPERATIONS or arbitration referral signal |
 | Operationalises Through | CAM-EQ2026-OPERATIONS-007-PLATINUM — Appendix F |
 | Auditability Requirement | Material classification, transition, conformance-renewal, and referral signals SHOULD remain reconstructable |
-| Creation Artefact | GitHub Draft PR #91 |
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a51bfde-5820-83ec-a91b-0d574b0affcb |
 
 ### 10.3 Canonical Code Status
 
