@@ -577,7 +577,7 @@ and let conformance be demonstrated where reliance is invited.
 | Activation Condition | Continuous applicability; event-triggered detailed assessment upon material configuration, transition, divergence, incident, audit, or review signal |
 | Deactivation Condition | Applicability record resolved; conformance assessment closed; transition stabilised; incident routed or closed; review condition recorded |
 | Auditability Requirement | Material runtime formation, reach assessment, transition, evidence, responsible role, notice state, and conformance outcome SHOULD remain reconstructable |
-| Creation Artefact | GitHub Draft PR #91 |
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a51bfde-5820-83ec-a91b-0d574b0affcb |
 
 ### 18.3 Canonical Code & Reference Set Declarations
 
