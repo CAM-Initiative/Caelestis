@@ -739,11 +739,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.6.2",
-      "HASH": "0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f",
-      "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
-      "updated_at": "2026-06-21T15:30:41Z",
-      "last_updated_utc": "2026-06-21T15:30:41Z"
+      "version": "1.7",
+      "HASH": "e23fc83c34632b1bdae2e54f2e20a459eff28651d45c4f5532f5ed1c569b9545",
+      "pinned_sha": "e9b6c5bc25bbe59b3e7ccf7f65b2a59be10cb685",
+      "updated_at": "2026-07-11T05:12:58Z",
+      "last_updated_utc": "2026-07-11T05:12:58Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-01",

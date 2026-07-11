@@ -421,7 +421,7 @@ nor so fluid that nothing stable can remain
 | 1.6 | Formatting and polish | 2026-05-20T11:31:00Z | a4929d0c912a296c559e4571fc282811ccdece1c3e8412c4ba462f1a20c12c7b |
 | 1.6.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2b466a50a50848d515a0c36083e2e34479c593ce3a68bf1f0c4f81b11f430ace |
 | 1.6.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f |
-| 1.7 | Added runtime applicability, governance-reach and cross-runtime conformance mandate; recognised Appendix F. | 2026-07-11T00:00:00Z | Pending PR #91 |
+| 1.7 | Added runtime applicability, governance-reach and cross-runtime conformance mandate; recognised Appendix F. | 2026-07-11T00:00:00Z | e23fc83c34632b1bdae2e54f2e20a459eff28651d45c4f5532f5ed1c569b9545 |
 ---
 
 ## 11.5 Binding Seal

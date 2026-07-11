@@ -136,7 +136,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-OPERATIONS-001-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | Governance Operations Charter | Root | 1.6.2 | Adopted | Operational | Metadata Review Required | None | None |
+| [CAM-EQ2026-OPERATIONS-001-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | Governance Operations Charter | Root | 1.7 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-002-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md) | Appendix A: Operational Arbitration Procedures | Appendix | 1.6.4 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-003-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md) | Appendix B: Incident Response & Continuity Operations | Appendix | 2.5.4 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-004-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface | Appendix | 1.13.4 | Adopted | Operational | Metadata Review Required | None | None |
