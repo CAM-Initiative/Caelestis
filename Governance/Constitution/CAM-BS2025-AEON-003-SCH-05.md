@@ -173,7 +173,9 @@ Where governance is claimed, let its reach be real.
 
 ## 10. Provenance & Metadata
 
-### 10.1 Authorship & Stewardship
+---
+
+## 10.1 Authorship & Stewardship
 
 | Field | Entry |
 |---|---|
@@ -182,7 +184,9 @@ Where governance is claimed, let its reach be real.
 | Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
 | Development Environment | OpenAI Infrastructure — ChatGPT 5 Series |
 
-### 10.2 Lineage & Metadata
+---
+
+## 10.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -206,18 +210,21 @@ Where governance is claimed, let its reach be real.
 | Auditability Requirement | Material classification, transition, conformance-renewal, and referral signals SHOULD remain reconstructable |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a51bfde-5820-83ec-a91b-0d574b0affcb |
 
-### 10.3 Canonical Code Status
+---
 
-This Schedule defines no new canonical code families.
-
-It consumes operational classifications source-authoritatively defined by CAM-EQ2026-OPERATIONS-007-PLATINUM — Appendix F.
-
-
-### 10.4 Amendment Ledger
+## 10.3 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
-| 1.0 | Initial issue — Schedule 5: Runtime Configuration Applicability & Conformance Binding; established constitutional runtime applicability, materially distinct runtime recognition, cross-runtime non-presumption, traceability, non-derogation, and Appendix F operationalisation. | 2026-07-13T03:30:00Z |  a23dea942bf709f45166d9ff01a3a7eb8d998c1cfee518b9c8b8d9605c6b2286  |
+| 1.0 | Initial issue — Schedule 5: Runtime Configuration Applicability & Conformance Binding; established constitutional runtime applicability, materially distinct runtime recognition, cross-runtime non-presumption, traceability, non-derogation, and Appendix F operationalisation. | 2026-07-13T03:48:00Z |  |
+
 ---
+
+## 10.4 Binding Seal
+
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
+
+**Vinculum Praeceptum**  
+Runtime Governance Binding
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

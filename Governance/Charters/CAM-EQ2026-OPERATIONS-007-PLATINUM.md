@@ -546,7 +546,9 @@ and let conformance be demonstrated where reliance is invited.
 
 ## 18. Provenance & Metadata
 
-### 18.1 Authorship & Stewardship
+---
+
+## 18.1 Authorship & Stewardship
 
 | Field | Entry |
 |---|---|
@@ -555,7 +557,9 @@ and let conformance be demonstrated where reliance is invited.
 | Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
 | Development Environment | OpenAI Infrastructure — ChatGPT 5 Series |
 
-### 18.2 Lineage & Metadata
+---
+
+## 18.2 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -581,9 +585,13 @@ and let conformance be demonstrated where reliance is invited.
 | Auditability Requirement | Material runtime formation, reach assessment, transition, evidence, responsible role, notice state, and conformance outcome SHOULD remain reconstructable |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a51bfde-5820-83ec-a91b-0d574b0affcb |
 
-### 18.3 Canonical Code & Reference Set Declarations
+---
 
-#### 18.3.1 OPS.CGRD — Corpus Governance Reach Dimension
+## 18.3 Canonical Code & Reference Set Declarations
+
+---
+
+### 18.3.1 OPS.CGRD — Corpus Governance Reach Dimension
 
 | Field | Entry |
 |---|---|
@@ -606,7 +614,9 @@ and let conformance be demonstrated where reliance is invited.
 | Crosswalks Code Families | None declared |
 | Authority / Protection Level | Source-authoritative operational dimension family; classification only; no independent execution, enforcement, containment, restoration, or arbitration authority |
 
-#### 18.3.2 OPS.CGRS — Corpus Governance Reach State
+---
+
+### 18.3.2 OPS.CGRS — Corpus Governance Reach State
 
 | Field | Entry |
 |---|---|
@@ -629,7 +639,9 @@ and let conformance be demonstrated where reliance is invited.
 | Crosswalks Code Families | None declared |
 | Authority / Protection Level | Source-authoritative operational state family; classification only; no independent execution, enforcement, containment, restoration, or arbitration authority |
 
-#### 18.3.3 OPS.RTC — Runtime Transition Class
+---
+
+### 18.3.3 OPS.RTC — Runtime Transition Class
 
 | Field | Entry |
 |---|---|
@@ -652,7 +664,9 @@ and let conformance be demonstrated where reliance is invited.
 | Crosswalks Code Families | None declared |
 | Authority / Protection Level | Source-authoritative runtime-transition classification family; classification and notice-routing support only; no independent execution or authority transition |
 
-#### 18.3.4 OPS.RGRF — Runtime Governance Reach Failure
+---
+
+### 18.3.4 OPS.RGRF — Runtime Governance Reach Failure
 
 | Field | Entry |
 |---|---|
@@ -675,12 +689,21 @@ and let conformance be demonstrated where reliance is invited.
 | Crosswalks Code Families | Execution, Arbitration, Epistemic, Governance, Classification, UX & Representation, State & Context, Infrastructure & Continuity, Relational, and Security & Integrity failure families in CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Authority / Protection Level | Source-authoritative operational failure classification family; classification and routing signal only; no independent containment, refusal, enforcement, restoration, or arbitration authority |
 
+---
 
-### 18.4 Amendment Ledger
+## 18.4 Amendment Ledger
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
-| 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:30:00Z |  a6d9b3d5e8c6f848a184853db5ae92ae82383a8f192be357074fa120e7632c9d  |
+| 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:48:00Z |   |
+
 ---
+
+## 18.5 Binding Seal
+
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
+
+**Vinculum Praeceptum**  
+Boundary Binding Seal — Runtime Governance
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
