@@ -165,9 +165,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "3a4143e67628c9e7d4cebd461ab2d35e9e4fb5ef",
-      "updated_at": "2026-07-11T05:12:37Z",
-      "last_updated_utc": "2026-07-11T05:12:37Z"
+      "pinned_sha": "9b0ce40db55ea1e52df4942a64a0d24df5968afe",
+      "updated_at": "2026-07-13T04:15:36Z",
+      "last_updated_utc": "2026-07-13T04:15:36Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -213,9 +213,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "c9958af97375761ec8d4ff940e771ac7fd8f159f",
-      "updated_at": "2026-07-11T05:13:15Z",
-      "last_updated_utc": "2026-07-11T05:13:15Z"
+      "pinned_sha": "9b0ce40db55ea1e52df4942a64a0d24df5968afe",
+      "updated_at": "2026-07-13T04:15:36Z",
+      "last_updated_utc": "2026-07-13T04:15:36Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -260,10 +260,10 @@
       "review_state": "** Draft",
       "authority_role": "** Binding constitutional runtime schedule for governance applicability, materially distinct runtime configuration recognition, and cross-runtime conformance non-presumption.",
       "version": "1.0",
-      "HASH": "a23dea942bf709f45166d9ff01a3a7eb8d998c1cfee518b9c8b8d9605c6b2286",
-      "pinned_sha": "fa339a44b2b400c3331831aa7f5449055b051278",
-      "updated_at": "2026-07-11T05:47:22Z",
-      "last_updated_utc": "2026-07-11T05:47:22Z"
+      "HASH": "c968085fd68e95e5b2ab5f7f65c439e1c216beee8b1cffdd8f9c1049d4959cae",
+      "pinned_sha": "9b0ce40db55ea1e52df4942a64a0d24df5968afe",
+      "updated_at": "2026-07-13T04:15:36Z",
+      "last_updated_utc": "2026-07-13T04:15:36Z"
     },
     {
       "id": "CAM-BS2025-AEON-004-PLATINUM",

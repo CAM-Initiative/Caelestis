@@ -2100,7 +2100,7 @@ and review before denial.
 | 1.16 | Added narrow image/multimodal prompt-custody, refusal-classification mismatch, execution-transparency, structural-locality, and tool-classifier handoff collapse taxonomy examples without creating a new failure family. | 2026-06-22T23:36:20Z | 325601ec1dbef3371a817fe64fe3ea34b2d3e8c49f7a226078f4c666f769b736 |
 | 1.17 | Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z | a5b3ac4d89d1f8b5fd9597fc6865beb11fe6b5a2b1fc03dc74885374ca4e35a7 |
 | 1.18 | Added new failure taxonomy 3.10.3 Deception-Adjacent Classification Collapse, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | bf12295be9ddf1cee4ddb87af812b2ea19f5e8d8fd3deb311ca2934c9770a1b6 |
-| 1.19 | Refined Sovereign Assurance Boundary Porosity Failure with entity/control, beneficial-ownership, affiliate/intermediary, ultimate end-user and end-use, and extraction/distillation attribution axes; added candidate subtypes without creating a new failure family. | 2026-07-13T03:48:00Z |  |
+| 1.19 | Refined Sovereign Assurance Boundary Porosity Failure with entity/control, beneficial-ownership, affiliate/intermediary, ultimate end-user and end-use, and extraction/distillation attribution axes; added candidate subtypes without creating a new failure family. | 2026-07-13T03:48:00Z |  a79b722e00f1a60cf5d2e4c90bda79675bd32f1b68da5b87b35e1a99fb467e33  |
 
 ---
 
