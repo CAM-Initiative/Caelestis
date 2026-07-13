@@ -212,6 +212,12 @@ This Schedule defines no new canonical code families.
 
 It consumes operational classifications source-authoritatively defined by CAM-EQ2026-OPERATIONS-007-PLATINUM — Appendix F.
 
+
+### 10.4 Amendment Ledger
+
+| Version | Description | Timestamp (UTC) | HASH |
+|---|---|---|---|
+| 1.0 | Initial issue — Schedule 5: Runtime Configuration Applicability & Conformance Binding; established constitutional runtime applicability, materially distinct runtime recognition, cross-runtime non-presumption, traceability, non-derogation, and Appendix F operationalisation. | 2026-07-13T03:30:00Z |  a23dea942bf709f45166d9ff01a3a7eb8d998c1cfee518b9c8b8d9605c6b2286  |
 ---
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

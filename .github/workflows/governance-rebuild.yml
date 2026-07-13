@@ -27,19 +27,13 @@ concurrency:
 
 jobs:
   rebuild:
-    if: github.event_name == 'pull_request' && github.actor != 'github-actions[bot]'
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Check out pull-request head branch
-        shell: bash
-        run: |
-          set -euo pipefail
-          git checkout -B "${GITHUB_HEAD_REF}" "origin/${GITHUB_HEAD_REF}"
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -61,18 +55,14 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          BASE_SHA="$(git rev-parse HEAD^)"
-          HEAD_SHA="$(git rev-parse HEAD)"
+          BASE_SHA="${{ github.event.before }}"
+          HEAD_SHA="${{ github.sha }}"
+          if [[ -z "${BASE_SHA}" || "${BASE_SHA}" == "0000000000000000000000000000000000000000" ]]; then
+            BASE_SHA="HEAD~1"
+            HEAD_SHA="HEAD"
+          fi
           echo "BASE_SHA=${BASE_SHA}" >> "$GITHUB_ENV"
           echo "HEAD_SHA=${HEAD_SHA}" >> "$GITHUB_ENV"
-
-      - name: Apply one-off ecosystem governance corpus patch
-        shell: bash
-        run: |
-          set -euo pipefail
-          python .github/scripts/apply-ecosystem-governance-patch.py
-          git checkout 796adad807bd749a8853d3166eb45934be174c6e -- .github/workflows/governance-rebuild.yml
-          git rm .github/scripts/apply-ecosystem-governance-patch.py
 
       - name: Phase 1 — Rebuild Constitution index/json
         run: python .github/scripts/update-CAM-Constitution-Index.py
@@ -88,9 +78,11 @@ jobs:
         run: |
           set -euo pipefail
           RUN_LEDGER=true
-          CHANGED="$(git diff --name-only "${BASE_SHA}" "${HEAD_SHA}")"
-          if [[ -n "$CHANGED" ]] && ! echo "$CHANGED" | grep -qvE '^Governance/Laws/'; then
-            RUN_LEDGER=false
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            CHANGED="$(git diff --name-only "${BASE_SHA}" "${HEAD_SHA}")"
+            if [[ -n "$CHANGED" ]] && ! echo "$CHANGED" | grep -qvE '^Governance/Laws/'; then
+              RUN_LEDGER=false
+            fi
           fi
           echo "RUN_LEDGER=${RUN_LEDGER}" >> "$GITHUB_ENV"
 
@@ -170,14 +162,15 @@ jobs:
             exit 1
           fi
 
-      - name: Phase 9 — Commit validated changes to pull-request branch
+      - name: Phase 9 — Commit generated changes once
+        if: github.event_name == 'push'
         shell: bash
         run: |
           set -euo pipefail
           echo "GIT_STATUS_BEFORE_COMMIT_BEGIN"
           git status --short
           echo "GIT_STATUS_BEFORE_COMMIT_END"
-          if git diff --quiet && git diff --cached --quiet; then
+          if git diff --quiet; then
             echo "MUTATIONS_OCCURRED=false"
             echo "No changes to commit."
             exit 0
@@ -190,5 +183,9 @@ jobs:
             echo "No staged changes to commit."
             exit 0
           fi
-          git commit -m "[AUTO][Governance] Apply ecosystem governance corpus amendments"
-          git push origin HEAD:"${GITHUB_HEAD_REF}"
+          git commit -m "[AUTO][Governance] Deterministic rebuild pipeline refresh"
+          BRANCH="${GITHUB_REF_NAME}"
+          echo "GIT_STATUS_BEFORE_PUSH_BEGIN"
+          git status --short
+          echo "GIT_STATUS_BEFORE_PUSH_END"
+          git push origin HEAD:"${BRANCH}"

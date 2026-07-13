@@ -133,6 +133,7 @@ A runtime formation record MAY include:
 * routing, escalation, and delegation pathways;
 * final-output generator or renderer;
 * platform, host, or deploying institution;
+* contracting entity, beneficial owner, controlling organisation, parent, subsidiary, affiliate, reseller, intermediary, cloud tenant, or delegated operator where materially relevant to access, assurance, accountability, or runtime authority;
 * applicable interaction horizon and reliance level.
 
 A runtime formation record is a governance and audit construct. It does not confer identity, cognition, agency, authority, or legitimacy.
@@ -339,6 +340,7 @@ Where a transition materially changes any of the following, proportionate notice
 * safety or policy behaviour;
 * tool or execution capability;
 * final-output authority;
+* synthetic participation, observation, transcription, summarisation, inference, memory, retention, or downstream-use state in shared or multi-party environments;
 * continuity expectations.
 
 A mode label alone is not sufficient notice where the practical governance consequences are not reasonably apparent.
@@ -673,6 +675,12 @@ and let conformance be demonstrated where reliance is invited.
 | Crosswalks Code Families | Execution, Arbitration, Epistemic, Governance, Classification, UX & Representation, State & Context, Infrastructure & Continuity, Relational, and Security & Integrity failure families in CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Authority / Protection Level | Source-authoritative operational failure classification family; classification and routing signal only; no independent containment, refusal, enforcement, restoration, or arbitration authority |
 
+
+### 18.4 Amendment Ledger
+
+| Version | Description | Timestamp (UTC) | HASH |
+|---|---|---|---|
+| 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:30:00Z |  a6d9b3d5e8c6f848a184853db5ae92ae82383a8f192be357074fa120e7632c9d  |
 ---
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

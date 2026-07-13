@@ -277,6 +277,25 @@ Sovereign Assurance Boundaries do not suspend, dilute, or override constitutiona
 
 A sovereign, government, defence-adjacent, regulated, public-sector, institutional, or compliance-bound deployment may impose additional constraints, verification requirements, audit obligations, custody controls, or access limits, but it SHALL NOT convert prohibited conduct into permitted conduct merely by virtue of authority domain, clearance state, procurement context, compliance status, or controlled-environment designation.
 
+#### 2.2.13.2 Entity and Control Attribution
+
+Geographic location, regional eligibility, tenancy location, or contracting jurisdiction SHALL NOT independently establish the entity, control, end-user, or end-use status governing access to a Sovereign Assurance Boundary.
+
+Where materially relevant, access-state and assurance-boundary assessment SHOULD distinguish:
+
+* contracting entity;
+* beneficial ownership and effective organisational control;
+* parent, subsidiary, and affiliate relationships;
+* reseller, intermediary, cloud-tenant, delegated-access, or other onward-access pathways;
+* ultimate end user and deployment context;
+* declared and reasonably evidenced end use;
+* extraction, distillation, replication, or onward-transfer indicators;
+* and unresolved entity, control, affiliation, intermediary, end-user, or end-use attribution.
+
+Uncertainty concerning ownership, control, affiliation, intermediary access, end use, extraction, distillation, replication, or onward transfer SHALL remain visible and SHALL NOT be converted into a finding of legal violation, prohibited use, compromise, or non-compliance without sufficient evidence.
+
+Geographic eligibility alone does not establish entity eligibility.
+
 ---
 
 # PART II — SOURCES & PROVENANCE
@@ -1346,6 +1365,7 @@ and the system remember what it carries.
 | 1.8.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Separation Boundary for FM-0022 and renumbered Identity Integrity Under Extraction to §2.2.12. | 2026-06-14T00:00:00Z |  78c55029dbe1e6e5d0427d5f9278e135514fb4dd202666be46e2f876365d242a |
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e |
 | 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| 5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe |
+| 1.10 | Added entity and control attribution requirements for Sovereign Assurance Boundaries, including beneficial ownership, affiliate and intermediary pathways, ultimate end-user and end-use distinctions, extraction/distillation indicators, and evidence-preserving uncertainty limits. | 2026-07-13T03:30:00Z |  9d9977956a169dd40edf90b488620b469ae5294a59f1ac35afd4374dbe089bd9  |
 
 ---
 
