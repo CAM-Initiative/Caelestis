@@ -21,6 +21,7 @@ This Charter establishes the operational governance layer responsible for:
 * audit, logging, and traceability standards;
 * change management and amendment routing;
 * operational compliance controls (e.g., jurisdictional reporting, age gating, regulatory triggers);
+* runtime applicability, governance-reach assessment, and cross-runtime conformance mapping;
 * operational escalation pathways below planetary arbitration (AEON.H0–AEON.H2).
 
 This Charter governs *how governance is operationalised*, not how legitimacy is determined.
@@ -42,6 +43,7 @@ It ensures doctrinal coherence during:
 * implementation;
 * update cycles;
 * cross-domain coordination;
+* runtime configuration and modality transitions;
 * incident response;
 * amendment processing.
 
@@ -144,6 +146,7 @@ GovOps arbitration interface SHALL activate when one or more of the following **
 * regulatory or jurisdictional compliance collision;
 * runtime safeguard escalation requiring authority clarification;
 * host–overlay or platform–governance divergence;
+* material cross-runtime governance divergence or governance-reach ambiguity;
 * unresolved domain-level dispute exceeding local competence;
 * audit-triggered governance anomaly (see §6 Incident Response Governance).
 
@@ -221,6 +224,7 @@ GovOps governs operational response to:
 * systemic runtime failures (Type 6 escalation beyond Schedule 1);
 * structural policy contradictions;
 * inter-domain misalignment;
+* runtime governance reach failures and unexplained cross-runtime conformance divergence;
 * governance capture indicators;
 * audit anomalies.
 
@@ -315,6 +319,9 @@ Governs amendment intake, review routing, version control discipline, drift dete
 **Appendix E — Domain Coordination & Convergence Operations**
 Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required.
 
+**Appendix F — Runtime Governance Applicability & Conformance**
+Governs governance applicability across materially distinct runtime formations, corpus governance reach, runtime-role accountability, cross-runtime conformance, transition classification, and governance-reach failure handling.
+
 ---
 
 ## 9.3 Supplementary (Execution Playbooks)
@@ -386,7 +393,7 @@ nor so fluid that nothing stable can remain
 |Temporal Horizon|AEON.H0–AEON.H2 (Operational)|
 |Axis Context|Polyadic (Multi‑Actor Governance)|
 |Revision Posture|Foundational Issue|
-|Application Trigger|Operational implementation, coordination, or escalation below planetary arbitration thresholds|
+|Application Trigger|Operational implementation, coordination, runtime applicability, conformance assessment, or escalation below planetary arbitration thresholds|
 |Creation Artefact|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7|
 
 ---
@@ -410,10 +417,11 @@ nor so fluid that nothing stable can remain
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ee771ec33d79607c660862b88dc0d86ee072d245613282ca0914e4957f5d7a25 |
 | 1.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 82ecb9b23134ded42a871547587a76bed5ff4cb05dc76b268f12a75fdb41d700 |
 | 1.4 | Realignment of references | 2026-05-07T10:34:00Z | d6773a374bc01dc677404e2f7fb0b9b936e61f831760f02e3ba0b6f69664d6f7 |
-| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5 |
-| 1.6 | Formatting and polish | 2026-05-20T11:31:00Z |  a4929d0c912a296c559e4571fc282811ccdece1c3e8412c4ba462f1a20c12c7b  |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5 |
+| 1.6 | Formatting and polish | 2026-05-20T11:31:00Z | a4929d0c912a296c559e4571fc282811ccdece1c3e8412c4ba462f1a20c12c7b |
 | 1.6.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2b466a50a50848d515a0c36083e2e34479c593ce3a68bf1f0c4f81b11f430ace |
-| 1.6.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f  |
+| 1.6.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f |
+| 1.7 | Added runtime applicability, governance-reach and cross-runtime conformance mandate; recognised Appendix F. | 2026-07-11T00:00:00Z | e23fc83c34632b1bdae2e54f2e20a459eff28651d45c4f5532f5ed1c569b9545 |
 ---
 
 ## 11.5 Binding Seal

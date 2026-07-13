@@ -172,6 +172,7 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-003-SCH-02 | Annex B: Runtime Governance Execution Model (Schedule 2) | AEON | Non-Layer (Execution Model) | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-04 | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | ARBITRATION | Event-Triggered (Per Arbitration Resolution Cycle) | Final Arbitration Authority Layer |
+| CAM-BS2025-AEON-003-SCH-05 | Annex B: Runtime Configuration Applicability & Conformance Binding (Schedule 5) | AEON | Continuous | Interpretation Layer |
 | CAM-BS2025-AEON-005-SCH-01 | Annex D: Runtime Arbitration Integrity (Schedule 1) | ARBITRATION | Continuous | Continuous (Execution Integrity Enforcement) |
 | CAM-BS2025-AEON-005-SCH-02 | Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2) | ARBITRATION | Continuous | Event-Triggered (Epistemic Instability / Failure State) |
 | CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning (Schedule 3) | ARBITRATION | Continuous | Event-Triggered (Signal Threshold / Risk Detection) |
@@ -213,10 +214,10 @@ Such schedules:
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 590
-**Generic usages suppressed:** 453
-**Declared / recognised usages emitted:** 124
-**Advisory review usages emitted:** 13
+**Total model-term matches scanned:** 614
+**Generic usages suppressed:** 473
+**Declared / recognised usages emitted:** 127
+**Advisory review usages emitted:** 14
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 

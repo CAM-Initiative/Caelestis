@@ -1,5 +1,5 @@
 {
-  "count": 58,
+  "count": 59,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -739,11 +739,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.6.2",
-      "HASH": "0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f",
-      "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
-      "updated_at": "2026-06-21T15:30:41Z",
-      "last_updated_utc": "2026-06-21T15:30:41Z"
+      "version": "1.7",
+      "HASH": "e23fc83c34632b1bdae2e54f2e20a459eff28651d45c4f5532f5ed1c569b9545",
+      "pinned_sha": "c9958af97375761ec8d4ff940e771ac7fd8f159f",
+      "updated_at": "2026-07-11T05:13:15Z",
+      "last_updated_utc": "2026-07-11T05:13:15Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-01",
@@ -907,11 +907,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.18",
-      "HASH": "bf12295be9ddf1cee4ddb87af812b2ea19f5e8d8fd3deb311ca2934c9770a1b6",
-      "pinned_sha": "968f20e89d95e8ae3951c63e4c78fdcae51575af",
-      "updated_at": "2026-07-08T00:55:14Z",
-      "last_updated_utc": "2026-07-08T00:55:14Z"
+      "version": "1.19",
+      "HASH": "9b7b7e1de3f051a215bc72a53ccde0eeff86a3f48822f7548077e919db2427e3",
+      "pinned_sha": "0a5189a0339e13a4f7eeeceadaf10a159148457d",
+      "updated_at": "2026-07-08T00:55:45Z",
+      "last_updated_utc": "2026-07-08T00:55:45Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -1008,6 +1008,30 @@
       "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
       "updated_at": "2026-06-21T15:30:41Z",
       "last_updated_utc": "2026-06-21T15:30:41Z"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-007-PLATINUM",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "007",
+      "parent_id": "CAM-EQ2026-OPERATIONS-001",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-OPERATIONS-007-PLATINUM.md",
+      "title": "Appendix F: Runtime Governance Applicability & Conformance",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Operational",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Source-authoritative operational appendix for runtime applicability, corpus governance reach, cross-runtime conformance, runtime-role accountability, transition classification, and governance-reach failure handling.",
+      "version": "1.0",
+      "HASH": "a6d9b3d5e8c6f848a184853db5ae92ae82383a8f192be357074fa120e7632c9d",
+      "pinned_sha": "1c276e3b04b9620968fa690fd420e4d8cf985b88",
+      "updated_at": "2026-07-11T05:48:32Z",
+      "last_updated_utc": "2026-07-11T05:48:32Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-PLATINUM",
@@ -1219,8 +1243,8 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.5.2",
-      "HASH": "98ada385daf94de285f46bd1702ac79ce7e2a6ab5b9a05547548fac53fd98dff",
+      "version": "2.6",
+      "HASH": "fe8e027822a9d964d15d8348aef8a86de6a0fb7831779e2aff1f8da6d25d7165",
       "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
       "updated_at": "2026-06-21T15:30:41Z",
       "last_updated_utc": "2026-06-21T15:30:41Z"
@@ -1291,8 +1315,8 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.9",
-      "HASH": "5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe",
+      "version": "1.10",
+      "HASH": "9d9977956a169dd40edf90b488620b469ae5294a59f1ac35afd4374dbe089bd9",
       "pinned_sha": "1a694f0340a18c2859fe2bd410e05ba49757d955",
       "updated_at": "2026-07-04T10:52:00Z",
       "last_updated_utc": "2026-07-04T10:52:00Z"

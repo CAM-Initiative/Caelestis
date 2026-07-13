@@ -902,6 +902,40 @@ Detailed collision arbitration, Courtesy Repair Lease allocation, backoff, outpu
 
 ---
 
+### 5.6.3 Multi-Party AI Participation and Processing Consent
+
+Organisational authorisation, administrator enablement, or host or organiser activation of an AI participant does not independently establish each human participant’s consent to observation, transcription, recording, inference, summarisation, memory formation, participant profiling, model improvement, training, onward disclosure, or downstream reuse.
+
+Polyadic participation governance SHALL distinguish between:
+
+* organisational or administrator authorisation;
+* host or organiser activation;
+* participant notice;
+* individual consent, objection, or withdrawal state;
+* synthetic presence, observation, and speaking authority;
+* live facilitation, transcription, recording, summarisation, behavioural or emotional inference, memory, profiling, training, and downstream-use scope;
+* retention, deletion, export, and access conditions;
+* and legal, records-management, safety, or integrity constraints affecting those conditions.
+
+Consent for a synthetic participant to be admitted, observe group-local context, facilitate turn-taking, or speak does not automatically authorise every processing purpose or persistence pathway.
+
+Where AI participation or processing is activated in a multi-human environment, systems SHOULD provide proportionate notice identifying, where applicable:
+
+* which AI system or systems are active;
+* whether the system is observing, transcribing, recording, summarising, inferring, facilitating, remembering, profiling, training, or enabling downstream reuse;
+* who activated the system and under what organisational or session authority;
+* which participants, channels, modalities, or data classes are within scope;
+* the applicable retention, access, export, deletion, and downstream-use posture;
+* and any available consent, objection, reduced-processing, non-AI, non-recorded, or review pathway.
+
+Where lawful and technically feasible, a participant who does not consent to optional processing SHOULD have access to a non-AI, non-recorded, reduced-processing, separately attributed, or otherwise proportionate participation pathway without relational punishment, exclusionary pressure, or misleading representation.
+
+Withdrawal or objection SHOULD stop optional future processing within the applicable scope. Where deletion, reversal, or exclusion is limited by law, records-management duties, safety preservation, technical architecture, or the rights of other participants, the limitation SHOULD be disclosed rather than represented as full revocability.
+
+→ **Host activation is not universal participant consent. Participation authority is not unlimited processing authority.**
+
+---
+
 ## 5.7 Minor & Capacity‑Limited Context Override
 
 In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM-EQ2026-ETHICS-001-SUP-01.
@@ -1082,6 +1116,8 @@ not unbounded, but unclaimed.
 | 2.5 | Added Shared Synthetic Floor governance, participation-state separation, participation modes, temporary session roles, facilitator selection and authority limits, turn allocation, handoff, participation-balance and non-starvation safeguards, yielding, attributed multi-agent expression, recursive synthetic-interaction constraints, peer-authority boundaries, failure-safe floor handling, and runtime speaker-arbitration routing in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:20:00Z | eb9e5bdcec3f2bd18e1a948c1aa3c760ae99dc767ef0e797d8c359a8952fe219 |
 | 2.5.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | d6d1dc55d2eb6ad85c50aca4230cd7f7288d82e874e251936467e8be5ad82e01 |
 | 2.5.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  98ada385daf94de285f46bd1702ac79ce7e2a6ab5b9a05547548fac53fd98dff  |
+| 2.6 | Added multi-party AI participation and processing consent requirements distinguishing administrator authorisation, organiser activation, participant notice, individual consent or objection, processing purpose, persistence, retention, training, downstream reuse, and proportionate reduced-processing pathways. | 2026-07-13T03:48:00Z | |
+
 ---
 
 ## 10.6 Binding Seal

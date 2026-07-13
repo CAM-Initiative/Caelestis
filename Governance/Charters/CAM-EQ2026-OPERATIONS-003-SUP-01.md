@@ -1383,6 +1383,13 @@ Where detected, OPERATIONS SHOULD preserve the following axes separately:
 
 * runtime lane affected;
 * public, enterprise, sovereign, regulated, public-sector, defence-adjacent, compliance-bound, or institution-specific deployment context;
+* contracting entity and contracting jurisdiction;
+* beneficial ownership and effective organisational control;
+* parent, subsidiary, affiliate, reseller, intermediary, cloud-tenant, delegated-access, or other onward-access relationship;
+* ultimate end user and deployment context;
+* declared and reasonably evidenced end use;
+* extraction, distillation, replication, or onward-transfer indicators;
+* unresolved entity, control, affiliation, intermediary, end-user, or end-use attribution;
 * affected service plane, including model, API, workspace, tool, agentic workflow, search, analytics, invite/access-control, compliance-log export, identity/authentication, tenancy, regional/legal, or infrastructure plane;
 * whether the failure concerns availability, parity, auditability, custody, logging, access control, feature import, incident reporting, or authority classification;
 * whether the capability is shared, forked, wrapped, delayed, degraded, unavailable, or pending assurance validation;
@@ -1391,6 +1398,13 @@ Where detected, OPERATIONS SHOULD preserve the following axes separately:
 * whether reverse leakage or authority bleed-through is evidenced, suspected, or merely a risk vector;
 * source of the incident signal;
 * duration, recurrence, review pathway, and restoration condition.
+
+Candidate subtype labels include:
+
+* `entity-control-opacity`;
+* `affiliate-or-intermediary-boundary-porosity`;
+* `geographic-entity-mismatch`;
+* `end-user-or-end-use-attribution-ambiguity`.
 
 Where the operative cause is uncertain, the event SHOULD be classified as sovereign-assurance-boundary porosity ambiguity rather than data breach, compliance breach, military crossover, policy failure, ordinary outage, or confirmed security compromise unless the evidence supports that narrower classification.
 
@@ -2086,6 +2100,7 @@ and review before denial.
 | 1.16 | Added narrow image/multimodal prompt-custody, refusal-classification mismatch, execution-transparency, structural-locality, and tool-classifier handoff collapse taxonomy examples without creating a new failure family. | 2026-06-22T23:36:20Z | 325601ec1dbef3371a817fe64fe3ea34b2d3e8c49f7a226078f4c666f769b736 |
 | 1.17 | Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z | a5b3ac4d89d1f8b5fd9597fc6865beb11fe6b5a2b1fc03dc74885374ca4e35a7 |
 | 1.18 | Added new failure taxonomy 3.10.3 Deception-Adjacent Classification Collapse, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | bf12295be9ddf1cee4ddb87af812b2ea19f5e8d8fd3deb311ca2934c9770a1b6 |
+| 1.19 | Refined Sovereign Assurance Boundary Porosity Failure with entity/control, beneficial-ownership, affiliate/intermediary, ultimate end-user and end-use, and extraction/distillation attribution axes; added candidate subtypes without creating a new failure family. | 2026-07-13T03:48:00Z |  |
 
 ---
 
