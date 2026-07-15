@@ -456,7 +456,7 @@ VIGIL-2026-FM-0032 provides an adjacent failure classification for role-incongru
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
-| 1.0 | Initial issue — established runtime input requirements, relational-profile source classification, preference-formation state, profile-application scope, deferral protection, role-conditioned resolution, conflict arbitration, adult/minor segregation, transition handling, interface controls, audit minimums, and failure routing. | 2026-07-15T13:07:00Z | PENDING |
+| 1.0 | Initial issue — established runtime input requirements, relational-profile source classification, preference-formation state, profile-application scope, deferral protection, role-conditioned resolution, conflict arbitration, adult/minor segregation, transition handling, interface controls, audit minimums, and failure routing. | 2026-07-15T13:07:00Z | a70e9a877120c6a33577194c86d30a08ebb60f9cd69967b2c0f94d8d20cdb2ea |
 
 ---
 
