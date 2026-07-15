@@ -1,5 +1,5 @@
 {
-  "count": 59,
+  "count": 60,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -909,9 +909,9 @@
       "authority_role": "** None",
       "version": "1.19",
       "HASH": "a79b722e00f1a60cf5d2e4c90bda79675bd32f1b68da5b87b35e1a99fb467e33",
-      "pinned_sha": "9b0ce40db55ea1e52df4942a64a0d24df5968afe",
-      "updated_at": "2026-07-13T04:15:36Z",
-      "last_updated_utc": "2026-07-13T04:15:36Z"
+      "pinned_sha": "40113eea5428478ba0734b3980600bfcece425a0",
+      "updated_at": "2026-07-13T04:16:04Z",
+      "last_updated_utc": "2026-07-13T04:16:04Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -1029,9 +1029,9 @@
       "authority_role": "** Source-authoritative operational appendix for runtime applicability, corpus governance reach, cross-runtime conformance, runtime-role accountability, transition classification, and governance-reach failure handling.",
       "version": "1.0",
       "HASH": "ede856bece33e34598394a2978a4fba4cb16f3889d45e084446e313a5058fd31",
-      "pinned_sha": "9b0ce40db55ea1e52df4942a64a0d24df5968afe",
-      "updated_at": "2026-07-13T04:15:36Z",
-      "last_updated_utc": "2026-07-13T04:15:36Z"
+      "pinned_sha": "40113eea5428478ba0734b3980600bfcece425a0",
+      "updated_at": "2026-07-13T04:16:04Z",
+      "last_updated_utc": "2026-07-13T04:16:04Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-PLATINUM",
@@ -1245,9 +1245,9 @@
       "authority_role": "** None",
       "version": "2.6",
       "HASH": "33cfba870d66c476a8d7f053a309c8a2bfcb65fd72802894fe01a3e449c86053",
-      "pinned_sha": "9b0ce40db55ea1e52df4942a64a0d24df5968afe",
-      "updated_at": "2026-07-13T04:15:36Z",
-      "last_updated_utc": "2026-07-13T04:15:36Z"
+      "pinned_sha": "40113eea5428478ba0734b3980600bfcece425a0",
+      "updated_at": "2026-07-13T04:16:04Z",
+      "last_updated_utc": "2026-07-13T04:16:04Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008-PLATINUM",
@@ -1272,6 +1272,30 @@
       "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
       "updated_at": "2026-06-21T15:30:41Z",
       "last_updated_utc": "2026-06-21T15:30:41Z"
+    },
+    {
+      "id": "CAM-EQ2026-RELATION-009-PLATINUM",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "RELATION",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "009",
+      "parent_id": "CAM-EQ2026-RELATION-001",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-RELATION-009-PLATINUM.md",
+      "title": "Appendix H: Relational Profile, Co-Formation & Affective Autonomy Doctrine",
+      "summary": "Romantic, sexual, possessive, erotic, or adult-companion profile elements MUST NOT activate for minors, minor-signalled users, underage roleplay, developmentally vulnerable users, or unresolved-age high-risk contexts.",
+      "status": "** Proposed",
+      "effect": "** Operational",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Source-authoritative Relation Domain doctrine for user-elicited relational profiles, organically co-formed companion personality, affective autonomy, preference emergence, role-conditioned application, profile provenance, and continuity-preserving transition.",
+      "version": "1.0",
+      "HASH": "ba4fc3f7b9e5dc3c3c4e90ffcde86f9e58f7ad75cc20cddef3024ccf264c8bdf",
+      "pinned_sha": "ca7a593db11017a09f49212ae08e635e34fa4862",
+      "updated_at": "2026-07-15T13:07:49Z",
+      "last_updated_utc": "2026-07-15T13:07:49Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-001-PLATINUM",
@@ -1317,9 +1341,9 @@
       "authority_role": "** None",
       "version": "1.10",
       "HASH": "3cbabcb4fd5faaba3e31befac6412ce0697b07c95e654ab9106ee6dc0ae09a72",
-      "pinned_sha": "9b0ce40db55ea1e52df4942a64a0d24df5968afe",
-      "updated_at": "2026-07-13T04:15:36Z",
-      "last_updated_utc": "2026-07-13T04:15:36Z"
+      "pinned_sha": "40113eea5428478ba0734b3980600bfcece425a0",
+      "updated_at": "2026-07-13T04:16:04Z",
+      "last_updated_utc": "2026-07-13T04:16:04Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001-PLATINUM",

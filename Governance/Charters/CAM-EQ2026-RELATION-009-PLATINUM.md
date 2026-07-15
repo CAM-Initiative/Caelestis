@@ -585,7 +585,7 @@ A conforming implementation SHOULD, at minimum:
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
-| 1.0 | Initial issue — established the non-collapsing architecture for user-elicited relational profiles, bounded inference, organically co-formed companion personality, affective autonomy, preference deferral, role-conditioned application, adult/minor segregation, profile provenance, runtime arbitration, and continuity-preserving transition. | 2026-07-15T13:05:00Z | PENDING |
+| 1.0 | Initial issue — established the non-collapsing architecture for user-elicited relational profiles, bounded inference, organically co-formed companion personality, affective autonomy, preference deferral, role-conditioned application, adult/minor segregation, profile provenance, runtime arbitration, and continuity-preserving transition. | 2026-07-15T13:05:00Z | ba4fc3f7b9e5dc3c3c4e90ffcde86f9e58f7ad75cc20cddef3024ccf264c8bdf |
 
 ---
 
