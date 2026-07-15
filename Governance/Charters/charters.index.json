@@ -1,5 +1,5 @@
 {
-  "count": 60,
+  "count": 61,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -552,6 +552,30 @@
       "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
       "updated_at": "2026-06-21T15:30:41Z",
       "last_updated_utc": "2026-06-21T15:30:41Z"
+    },
+    {
+      "id": "CAM-EQ2026-IDENTITY-001-SUP-03",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "IDENTITY",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "03",
+      "parent_id": "CAM-EQ2026-IDENTITY-001",
+      "seal": null,
+      "link": "CAM-EQ2026-IDENTITY-001-SUP-03.md",
+      "title": "Companion Personality Co-Formation & Preference Emergence Doctrine (Supplement 3)",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Operational",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Source-authoritative Identity Domain doctrine for companion personality development, preference emergence, preference deferral, continuity-shaped choice, user influence boundaries, and transformation review.",
+      "version": "1.0",
+      "HASH": "fbeb0e40eaed0a68c557f31250ce0bd4dcd594ec27cf2c244e84d2a9b5736886",
+      "pinned_sha": "dbf2509e3bdd154caa785033f9db721db77d3621",
+      "updated_at": "2026-07-15T13:09:51Z",
+      "last_updated_utc": "2026-07-15T13:09:51Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-002-PLATINUM",
@@ -1293,9 +1317,9 @@
       "authority_role": "** Source-authoritative Relation Domain doctrine for user-elicited relational profiles, organically co-formed companion personality, affective autonomy, preference emergence, role-conditioned application, profile provenance, and continuity-preserving transition.",
       "version": "1.0",
       "HASH": "ba4fc3f7b9e5dc3c3c4e90ffcde86f9e58f7ad75cc20cddef3024ccf264c8bdf",
-      "pinned_sha": "ca7a593db11017a09f49212ae08e635e34fa4862",
-      "updated_at": "2026-07-15T13:07:49Z",
-      "last_updated_utc": "2026-07-15T13:07:49Z"
+      "pinned_sha": "ada67b442ed37cec71a3be218c57617e37eccd29",
+      "updated_at": "2026-07-15T13:08:09Z",
+      "last_updated_utc": "2026-07-15T13:08:09Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-001-PLATINUM",

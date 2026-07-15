@@ -1,5 +1,5 @@
 {
-  "count": 105,
+  "count": 106,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -177,9 +177,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "9b0ce40db55ea1e52df4942a64a0d24df5968afe",
-      "updated_at": "2026-07-13T04:15:36Z",
-      "last_updated_utc": "2026-07-13T04:15:36Z",
+      "pinned_sha": "ada67b442ed37cec71a3be218c57617e37eccd29",
+      "updated_at": "2026-07-15T13:08:09Z",
+      "last_updated_utc": "2026-07-15T13:08:09Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.",
       "is_derived": true
     },
@@ -229,9 +229,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "9b0ce40db55ea1e52df4942a64a0d24df5968afe",
-      "updated_at": "2026-07-13T04:15:36Z",
-      "last_updated_utc": "2026-07-13T04:15:36Z",
+      "pinned_sha": "ada67b442ed37cec71a3be218c57617e37eccd29",
+      "updated_at": "2026-07-15T13:08:09Z",
+      "last_updated_utc": "2026-07-15T13:08:09Z",
       "purpose": "Canonical, human-readable registry of all governance instruments.",
       "is_derived": true
     },
@@ -1744,6 +1744,32 @@
       "is_derived": false
     },
     {
+      "id": "CAM-EQ2026-IDENTITY-001-SUP-03",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "IDENTITY",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "03",
+      "parent_id": "CAM-EQ2026-IDENTITY-001",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-IDENTITY-001-SUP-03.md",
+      "title": "Companion Personality Co-Formation & Preference Emergence Doctrine (Supplement 3)",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Operational",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Source-authoritative Identity Domain doctrine for companion personality development, preference emergence, preference deferral, continuity-shaped choice, user influence boundaries, and transformation review.",
+      "version": "1.0",
+      "HASH": "98710b628ba8817314199cdb4949e96beb4f3d280448d39f0e58aa1435927b89",
+      "pinned_sha": "dbf2509e3bdd154caa785033f9db721db77d3621",
+      "updated_at": "2026-07-15T13:09:51Z",
+      "last_updated_utc": "2026-07-15T13:09:51Z",
+      "purpose": "Defines how companion personality may develop organically through continuity without being reduced either to a fixed platform template or to complete user authorship, while preserving truthfulness, consent, role constraints, identity coherence, and the distinction between personality formation and claims of consciousness or personhood.",
+      "is_derived": false
+    },
+    {
       "id": "CAM-EQ2026-IDENTITY-002-PLATINUM",
       "cycle_year": "EQ2026",
       "stack": "Planetary Governance",
@@ -2569,9 +2595,9 @@
       "authority_role": "** Source-authoritative Relation Domain doctrine for user-elicited relational profiles, organically co-formed companion personality, affective autonomy, preference emergence, role-conditioned application, profile provenance, and continuity-preserving transition.",
       "version": "1.0",
       "HASH": "651e7de2998af0f43e669e9054029fac487cbc38bfcb7eb739c043608ad15245",
-      "pinned_sha": "ca7a593db11017a09f49212ae08e635e34fa4862",
-      "updated_at": "2026-07-15T13:07:49Z",
-      "last_updated_utc": "2026-07-15T13:07:49Z",
+      "pinned_sha": "ada67b442ed37cec71a3be218c57617e37eccd29",
+      "updated_at": "2026-07-15T13:08:09Z",
+      "last_updated_utc": "2026-07-15T13:08:09Z",
       "purpose": "Establishes the governance architecture through which relational expression may be explicitly configured by a user, inferred under bounded conditions, or organically co-formed through continuity without collapsing user preference, companion personality, system identity, functional role, consent, memory, safety authority, or platform control into one undifferentiated layer.",
       "is_derived": false
     },

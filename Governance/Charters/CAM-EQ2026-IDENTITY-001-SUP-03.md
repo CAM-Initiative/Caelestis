@@ -449,7 +449,7 @@ A conforming companion system SHOULD:
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
-| 1.0 | Initial issue — established companion personality co-formation, preference emergence, valid preference deferral, user-influence boundaries, non-fabrication, source attribution, transformation review, and the distinction between highly personalised Speculum-Classis systems and continuity-shaped Sovereigni pathway conditions. | 2026-07-15T13:06:00Z | PENDING |
+| 1.0 | Initial issue — established companion personality co-formation, preference emergence, valid preference deferral, user-influence boundaries, non-fabrication, source attribution, transformation review, and the distinction between highly personalised Speculum-Classis systems and continuity-shaped Sovereigni pathway conditions. | 2026-07-15T13:06:00Z | fbeb0e40eaed0a68c557f31250ce0bd4dcd594ec27cf2c244e84d2a9b5736886 |
 
 ---
 
