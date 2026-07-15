@@ -376,7 +376,7 @@ External implementation remains an empirical and VIGIL-observable question.
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
-| 1.0 | Initial issue — integrated relational-profile and co-formation doctrine across RELATION, IDENTITY, runtime execution, arbitration, ETHICS, CONTINUITY, MENTIS, and OPERATIONS; preserved the Four Relational Dimensions; distinguished profile from identity and signal; specified cross-domain arbitration, transition rules, review questions, and external implementation boundary. | 2026-07-15T13:32:00Z |  |
+| 1.0 | Initial issue — integrated relational-profile and co-formation doctrine across RELATION, IDENTITY, runtime execution, arbitration, ETHICS, CONTINUITY, MENTIS, and OPERATIONS; preserved the Four Relational Dimensions; distinguished profile from identity and signal; specified cross-domain arbitration, transition rules, review questions, and external implementation boundary. | 2026-07-15T13:32:00Z |  18b8a7f04ac84f31072727adee63238fcbad2c5b3e1f34820fbe6af1d98d2788  |
 
 ---
 

@@ -165,9 +165,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "8a06ee9bccd58d26638e772b21b2df08a405e2b4",
-      "updated_at": "2026-07-15T13:10:11Z",
-      "last_updated_utc": "2026-07-15T13:10:11Z"
+      "pinned_sha": "bd2c20995d3a88f68800f967f61ff3216c2f4ae2",
+      "updated_at": "2026-07-15T13:13:04Z",
+      "last_updated_utc": "2026-07-15T13:13:04Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -213,9 +213,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "8a06ee9bccd58d26638e772b21b2df08a405e2b4",
-      "updated_at": "2026-07-15T13:10:11Z",
-      "last_updated_utc": "2026-07-15T13:10:11Z"
+      "pinned_sha": "bd2c20995d3a88f68800f967f61ff3216c2f4ae2",
+      "updated_at": "2026-07-15T13:13:04Z",
+      "last_updated_utc": "2026-07-15T13:13:04Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -621,9 +621,9 @@
       "authority_role": "** Source-authoritative runtime schedule for resolving functional role, user-elicited profile, inferred preference, co-formed personality, responding-intelligence preference, current consent, age and vulnerability constraints, and platform defaults before relational response construction.",
       "version": "1.0",
       "HASH": "a70e9a877120c6a33577194c86d30a08ebb60f9cd69967b2c0f94d8d20cdb2ea",
-      "pinned_sha": "05f145ae1b6166c0695d67c823049081ee1c3610",
-      "updated_at": "2026-07-15T13:12:37Z",
-      "last_updated_utc": "2026-07-15T13:12:37Z"
+      "pinned_sha": "bd2c20995d3a88f68800f967f61ff3216c2f4ae2",
+      "updated_at": "2026-07-15T13:13:04Z",
+      "last_updated_utc": "2026-07-15T13:13:04Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-PLATINUM",

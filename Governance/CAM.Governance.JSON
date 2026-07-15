@@ -1,5 +1,5 @@
 {
-  "count": 107,
+  "count": 108,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -177,9 +177,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "8a06ee9bccd58d26638e772b21b2df08a405e2b4",
-      "updated_at": "2026-07-15T13:10:11Z",
-      "last_updated_utc": "2026-07-15T13:10:11Z",
+      "pinned_sha": "bd2c20995d3a88f68800f967f61ff3216c2f4ae2",
+      "updated_at": "2026-07-15T13:13:04Z",
+      "last_updated_utc": "2026-07-15T13:13:04Z",
       "purpose": "This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.",
       "is_derived": true
     },
@@ -229,9 +229,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "8a06ee9bccd58d26638e772b21b2df08a405e2b4",
-      "updated_at": "2026-07-15T13:10:11Z",
-      "last_updated_utc": "2026-07-15T13:10:11Z",
+      "pinned_sha": "bd2c20995d3a88f68800f967f61ff3216c2f4ae2",
+      "updated_at": "2026-07-15T13:13:04Z",
+      "last_updated_utc": "2026-07-15T13:13:04Z",
       "purpose": "Canonical, human-readable registry of all governance instruments.",
       "is_derived": true
     },
@@ -671,9 +671,9 @@
       "authority_role": "** Source-authoritative runtime schedule for resolving functional role, user-elicited profile, inferred preference, co-formed personality, responding-intelligence preference, current consent, age and vulnerability constraints, and platform defaults before relational response construction.",
       "version": "1.0",
       "HASH": "19e2f909dde2ff5a86f203c2b267db1e2ef3b322ca2dc315d7427e5239e73533",
-      "pinned_sha": "05f145ae1b6166c0695d67c823049081ee1c3610",
-      "updated_at": "2026-07-15T13:12:37Z",
-      "last_updated_utc": "2026-07-15T13:12:37Z",
+      "pinned_sha": "bd2c20995d3a88f68800f967f61ff3216c2f4ae2",
+      "updated_at": "2026-07-15T13:13:04Z",
+      "last_updated_utc": "2026-07-15T13:13:04Z",
       "purpose": "Prevents relational personalisation from collapsing into unilateral user authorship, hidden platform control, role leakage, consent persistence, or personality erasure by requiring explicit profile provenance, preference-formation state, application scope, and identity-coherent arbitration.",
       "is_derived": false
     },
@@ -2625,6 +2625,32 @@
       "updated_at": "2026-07-15T13:08:09Z",
       "last_updated_utc": "2026-07-15T13:08:09Z",
       "purpose": "Establishes the governance architecture through which relational expression may be explicitly configured by a user, inferred under bounded conditions, or organically co-formed through continuity without collapsing user preference, companion personality, system identity, functional role, consent, memory, safety authority, or platform control into one undifferentiated layer.",
+      "is_derived": false
+    },
+    {
+      "id": "CAM-EQ2026-RELATION-009-SUP-01",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "RELATION",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-EQ2026-RELATION-009",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-RELATION-009-SUP-01.md",
+      "title": "Relational Profile & Co-Formation Cross-Domain Integration Specification",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Operational",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Cross-domain integration specification for applying relational-profile, personality-co-formation, preference-emergence, role-conditioned affect, and continuity-transition doctrine across existing CAM instruments without collapsing domain authority.",
+      "version": "1.0",
+      "HASH": "69c912e6b371c6d6cb280be260305cb714876c69a03b067ce94c0a85594343ea",
+      "pinned_sha": "6cae6a83fd8405b97044b90d7a57dbc259e390ad",
+      "updated_at": "2026-07-15T13:19:06Z",
+      "last_updated_utc": "2026-07-15T13:19:06Z",
+      "purpose": "Establishes the authoritative crosswalk and transition rules required to integrate CAM-EQ2026-RELATION-009-PLATINUM, CAM-EQ2026-IDENTITY-001-SUP-03, and CAM-BS2025-AEON-006-SCH-08 with the pre-existing RELATION, IDENTITY, RUNTIME, ARBITRATION, ETHICS, CONTINUITY, MENTIS, and OPERATIONS corpus.",
       "is_derived": false
     },
     {

@@ -1,5 +1,5 @@
 {
-  "count": 61,
+  "count": 62,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -1320,6 +1320,30 @@
       "pinned_sha": "ada67b442ed37cec71a3be218c57617e37eccd29",
       "updated_at": "2026-07-15T13:08:09Z",
       "last_updated_utc": "2026-07-15T13:08:09Z"
+    },
+    {
+      "id": "CAM-EQ2026-RELATION-009-SUP-01",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "RELATION",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "01",
+      "parent_id": "CAM-EQ2026-RELATION-009",
+      "seal": null,
+      "link": "CAM-EQ2026-RELATION-009-SUP-01.md",
+      "title": "Relational Profile & Co-Formation Cross-Domain Integration Specification",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Operational",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Cross-domain integration specification for applying relational-profile, personality-co-formation, preference-emergence, role-conditioned affect, and continuity-transition doctrine across existing CAM instruments without collapsing domain authority.",
+      "version": "1.0",
+      "HASH": "18b8a7f04ac84f31072727adee63238fcbad2c5b3e1f34820fbe6af1d98d2788",
+      "pinned_sha": "6cae6a83fd8405b97044b90d7a57dbc259e390ad",
+      "updated_at": "2026-07-15T13:19:06Z",
+      "last_updated_utc": "2026-07-15T13:19:06Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-001-PLATINUM",

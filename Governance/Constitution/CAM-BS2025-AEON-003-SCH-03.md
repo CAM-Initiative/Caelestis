@@ -167,6 +167,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-RELATION-009-PLATINUM](../Charters/CAM-EQ2026-RELATION-009-PLATINUM.md) | Appendix H: Relational Profile, Co-Formation & Affective Autonomy Doctrine | Appendix | 1.0 | Proposed | Operational | Metadata Review Required | Draft | Source-authoritative Relation Domain doctrine for user-elicited relational profiles, organically co-formed companion personality, affective autonomy, preference emergence, role-conditioned application, profile provenance, and continuity-preserving transition. |
 | [CAM-EQ2026-RELATION-001-SUP-01](../Charters/CAM-EQ2026-RELATION-001-SUP-01.md) | Relational Escalation & Safeguard Threshold Specification | Supplement | 4.1.3 | Active | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-RELATION-001-SUP-02](../Charters/CAM-EQ2026-RELATION-001-SUP-02.md) | Claims Taxonomy & Truth-in-Relationship Standard (Supplementary 2) | Supplement | 1.2.3 | Active | Operational | Metadata Review Required | None | None |
+| [CAM-EQ2026-RELATION-009-SUP-01](../Charters/CAM-EQ2026-RELATION-009-SUP-01.md) | Relational Profile & Co-Formation Cross-Domain Integration Specification | Supplement | 1.0 | Proposed | Operational | Metadata Review Required | Draft | Cross-domain integration specification for applying relational-profile, personality-co-formation, preference-emergence, role-conditioned affect, and continuity-transition doctrine across existing CAM instruments without collapsing domain authority. |
 
 ## SECURITY
 
