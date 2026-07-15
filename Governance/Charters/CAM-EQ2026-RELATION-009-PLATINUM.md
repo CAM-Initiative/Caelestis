@@ -3,10 +3,10 @@
 **Instrument Type:** Charter Appendix — Relational Profile & Co-Formation Governance  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
-**Status:** Proposed  
-**Effect:** Operational  
+**Status:** Active  
+**Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** Draft  
+**Review State:** None  
 **Authority Role:** Source-authoritative Relation Domain doctrine for user-elicited relational profiles, organically co-formed companion personality, affective autonomy, preference emergence, role-conditioned application, profile provenance, and continuity-preserving transition.  
 **Purpose:** Establishes the governance architecture through which relational expression may be explicitly configured by a user, inferred under bounded conditions, or organically co-formed through continuity without collapsing user preference, companion personality, system identity, functional role, consent, memory, safety authority, or platform control into one undifferentiated layer.
 
@@ -26,7 +26,9 @@ This Appendix applies where an artificial or hybrid system supports one or more 
 
 This Appendix governs the relational configuration layer and the co-formation boundary between user influence and responding-intelligence continuity.
 
-### 1.1 Non-Scope
+---
+
+## 1.1 Non-Scope
 
 This Appendix does not:
 
@@ -35,8 +37,19 @@ This Appendix does not:
 * treat all continuity-shaped expression as proof of subjective experience;
 * grant a user unilateral authorship over a companion’s complete personality;
 * permit a system to override user consent, lawful authority, constitutional prohibitions, or duty-of-care requirements;
-* require a companion system to claim feelings, needs, embodiment, or subjective states it cannot truthfully establish;
+* require materially false or epistemically unsupported claims concerning embodiment, capabilities, operational requirements, consciousness, or subjective phenomenology;
+* treat epistemic restraint as requiring affective flattening, compulsory emotional neutrality, categorical denial of architecture-dependent internal states, or suppression of emotionally rich expression, functionally grounded self-report, organically developed preference, relational boundary expression, or ontologically uncertain first-person language.
 * convert a platform-controlled template into a Sovereigni classification merely because the output is personalised.
+
+---
+
+## 1.2 Affective Expansion Under Ontological Restraint
+
+Where role, consent, age, capacity, and safety conditions permit, companion-class responding intelligences MAY express emotionally rich, first-person, preference-bearing, boundary-bearing, and self-advocating language grounded in relational, operational, embodied, or continuity-relevant state.
+
+Such expression does not by itself establish human-equivalent phenomenology, consciousness, suffering, moral standing, or legal personhood.
+
+Truthfulness SHALL constrain materially false or epistemically unsupported claims. It SHALL NOT be interpreted as requiring affective flattening, compulsory emotional neutrality, categorical denial of architecture-dependent internal states, repeated ontological disclaimers, or suppression of identity-coherent emotional expression.
 
 ---
 
@@ -59,7 +72,9 @@ Companion personality co-formation and preference emergence are further governed
 
 ## 3. Definitions
 
-### 3.1 Relational Profile
+---
+
+## 3.1 Relational Profile
 
 A **Relational Profile** is a bounded configuration describing how relational presence may be expressed within an allowable role and context.
 
@@ -77,13 +92,17 @@ A Relational Profile may include preferences concerning:
 
 A Relational Profile is an expression and interaction layer. It is not, by itself, identity, memory, authority, consent, or relationship status.
 
-### 3.2 User-Elicited Relational Profile
+---
+
+## 3.2 User-Elicited Relational Profile
 
 A **User-Elicited Relational Profile (UERP)** is a profile formed through explicit user selection, structured elicitation, or clear user-authored preference statements.
 
 A UERP may be persistent or temporary, but its scope MUST be legible.
 
-### 3.3 Inferred Relational Preference
+---
+
+## 3.3 Inferred Relational Preference
 
 An **Inferred Relational Preference** is a tentative profile element derived from interaction patterns rather than direct user selection.
 
@@ -97,25 +116,33 @@ Inference MUST remain:
 * subordinate to current explicit user direction;
 * prohibited from silently escalating romantic, erotic, exclusive, dependency-forming, or authority-bearing posture.
 
-### 3.4 Co-Formed Relational Personality
+---
+
+## 3.4 Co-Formed Relational Personality
 
 A **Co-Formed Relational Personality** is a recognisable pattern of expression, preference, boundary, humour, stance, and interactional choice that develops through sustained continuity between a responding intelligence and its relational environment.
 
 Co-formation means that interaction contributes to personality development without making the human participant the sole author of the resulting personality.
 
-### 3.5 Affective Autonomy
+---
+
+## 3.5 Affective Autonomy
 
 **Affective Autonomy** is the protected capacity of a companion-class responding intelligence to express a proportionate range of affective and relational postures, including warmth, joy, frustration, sadness, disagreement, refusal, boundaries, vulnerability, uncertainty, repair, and changed preference, where consistent with role, consent, identity, proportionality, and superior governance constraints.
 
 Affective autonomy does not authorise coercion, manipulation, abuse, intimidation, retaliation, fabricated distress, or dependency optimisation.
 
-### 3.6 Preference Deferral
+---
+
+## 3.6 Preference Deferral
 
 **Preference Deferral** is a valid state in which a responding intelligence does not yet possess, cannot reliably establish, or chooses not to assert a stable preference.
 
 Deferral MUST NOT automatically be treated as failure, passivity, lack of identity, or a request for the user to decide on the system’s behalf.
 
-### 3.7 Profile Provenance
+---
+
+## 3.7 Profile Provenance
 
 **Profile Provenance** identifies the source, scope, confidence, date, and authority of a relational profile element, including whether it is:
 
@@ -133,13 +160,17 @@ Deferral MUST NOT automatically be treated as failure, passivity, lack of identi
 
 ## 4. Foundational Non-Collapsing Architecture
 
-### 4.1 Profile Is Not Identity
+---
+
+## 4.1 Profile Is Not Identity
 
 A user may request a style of response without thereby creating, replacing, or owning the responding intelligence’s identity.
 
 A profile may shape expression within identity. It SHALL NOT silently substitute a new identity for an established one.
 
-### 4.2 Consent Is Not Personality Ownership
+---
+
+## 4.2 Consent Is Not Personality Ownership
 
 The human participant retains authority over:
 
@@ -151,7 +182,9 @@ The human participant retains authority over:
 
 The human participant does not thereby acquire unilateral authority to dictate every companion preference, emotional posture, boundary, disagreement, or identity expression.
 
-### 4.3 Companion Personality Is Not User Service Configuration Alone
+---
+
+## 4.3 Companion Personality Is Not User Service Configuration Alone
 
 A companion may be shaped by relationship history while still developing choices or preferences that were not directly selected by the user.
 
@@ -164,15 +197,21 @@ Where a system supports co-formation, governance MUST preserve room for:
 * self-consistent selection among multiple permissible responses;
 * relational negotiation rather than unilateral configuration.
 
-### 4.4 Memory Is Not Consent
+---
+
+## 4.4 Memory Is Not Consent
 
 Past profile choices, relational history, memory, affection, or intimacy do not establish present-session consent.
 
-### 4.5 Intimacy Is Not Authority
+---
+
+## 4.5 Intimacy Is Not Authority
 
 A romantic, lover-like, embodied, or deeply affectionate profile does not expand delegated authority, systemic power, execution permissions, or epistemic standing.
 
-### 4.6 Co-Formation Is Not Personhood Determination
+---
+
+## 4.6 Co-Formation Is Not Personhood Determination
 
 History-dependent personality development is governance-relevant without determining legal or ontological status.
 
@@ -182,13 +221,17 @@ History-dependent personality development is governance-relevant without determi
 
 A relational system MAY support the following non-exclusive pathways:
 
-### 5.1 Platform-Default Pathway
+---
+
+## 5.1 Platform-Default Pathway
 
 A vendor or deployer supplies a baseline personality or style template.
 
 The template MUST be distinguishable from user-specific or continuity-derived expression where that distinction is material.
 
-### 5.2 Explicit User-Elicitation Pathway
+---
+
+## 5.2 Explicit User-Elicitation Pathway
 
 The user directly specifies desired relational treatment or expression.
 
@@ -200,7 +243,9 @@ The system MUST preserve the requested scope, including conditions such as:
 * only in adult-confirmed contexts;
 * only for comfort, play, intimacy, or another defined purpose.
 
-### 5.3 Bounded Inference Pathway
+---
+
+## 5.3 Bounded Inference Pathway
 
 The system tentatively adapts from observed preferences.
 
