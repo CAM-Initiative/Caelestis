@@ -41,6 +41,11 @@ new_anchor = '''    marker_match = re.search(r"\\n---\\n(?:\\n)*## 8\\. Architec
 if old_anchor not in text:
     raise RuntimeError('STEWARD anchor repair block not found')
 text = text.replace(old_anchor, new_anchor, 1)
+
+reference_anchor = 'stw = stw.replace("## 19. Transitional & Bootstrap Conditions", "## 19. Transitional Conditions")\n'
+if reference_anchor not in text:
+    raise RuntimeError('STEWARD reference repair insertion point missing')
+text = text.replace(reference_anchor, reference_anchor + 'stw = stw.replace("§14", "§7.1")\n', 1)
 path.write_text(text, encoding='utf-8')
 
 root = path.resolve().parents[2]
@@ -63,4 +68,4 @@ if result.returncode != 0:
 
 path.write_text("print('PATCH-0022 harmonisation already applied by diagnostic wrapper')\n", encoding='utf-8')
 print('PATCH-0022 helper repaired and harmonisation applied successfully')
-# Trigger revision 6.
+# Trigger revision 7.
