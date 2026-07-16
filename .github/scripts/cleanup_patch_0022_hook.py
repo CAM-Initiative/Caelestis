@@ -53,6 +53,7 @@ workflow.write_text(text, encoding='utf-8')
 
 for rel in [
     '.github/workflows/apply-patch-0022-harmonisation.yml',
+    '.github/scripts/fix_patch_0022_helper.py',
     '.github/scripts/harmonise_patch_0022.py',
     '.github/scripts/cleanup_patch_0022_hook.py',
 ]:
@@ -61,4 +62,3 @@ for rel in [
         p.unlink()
 
 print('PATCH-0022 temporary workflow hooks removed')
-# Trigger revision 2.
