@@ -1,7 +1,5 @@
-import base64
-import json
+import re
 import subprocess
-import sys
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[2]
@@ -12,86 +10,64 @@ subprocess.run(
     check=True,
 )
 
-path = root / '.github/scripts/harmonise_patch_0022.py'
-text = path.read_text(encoding='utf-8')
-start_token = '    insertion = f"""\n\n---\n\n## 7.1 Neutrality Disclosure Requirements\n'
-start = text.find(start_token)
-if start < 0:
-    raise RuntimeError('Disclosure insertion block start not found')
-end = text.find('\n"""\n', start)
-if end < 0:
-    raise RuntimeError('Disclosure insertion block end not found')
-end += len('\n"""\n')
-replacement = '''    disclosure_body = disclosure_body.replace("To claim `STW.NAL-2` or higher, a host MUST publish:\\n\\n", "")
-    insertion = f"""
-
----
-
-## 7.1 Neutrality Disclosure Requirements
-
-A host claiming `STW.NAL-2` or higher MUST publish governance-level information sufficient to make the neutrality claim testable. The disclosure MUST include:
-
-{disclosure_body}
-
-Disclosure does not substitute for independent audit, firebreak verification, refusal capacity, or reconstructability. It makes the claimed neutrality posture legible for review.
-"""
-'''
-text = text[:start] + replacement + text[end:]
-
-old_anchor = '''    marker = "\\n---\\n\\n## 8. Architectum Qualification Gate (Core)"
-    if marker not in stw:
-        raise RuntimeError("STEWARD disclosure reintegration marker missing")
-    stw = stw.replace(marker, insertion + marker, 1)
-'''
-new_anchor = '''    marker_match = re.search(r"\\n---\\n(?:\\n)*## 8\\. Architectum Qualification Gate \\(Core\\)", stw)
-    if not marker_match:
-        raise RuntimeError("STEWARD disclosure reintegration marker missing")
-    stw = stw[:marker_match.start()] + insertion + stw[marker_match.start():]
-'''
-if old_anchor not in text:
-    raise RuntimeError('STEWARD anchor repair block not found')
-text = text.replace(old_anchor, new_anchor, 1)
-
-reference_anchor = 'stw = stw.replace("## 19. Transitional & Bootstrap Conditions", "## 19. Transitional Conditions")\n'
-if reference_anchor not in text:
-    raise RuntimeError('STEWARD reference repair insertion point missing')
-text = text.replace(reference_anchor, reference_anchor + 'stw = stw.replace("§14", "§7.1")\n', 1)
-path.write_text(text, encoding='utf-8')
-
-result = subprocess.run(
-    [sys.executable, str(path)],
-    cwd=root,
-    text=True,
-    capture_output=True,
-)
-if result.returncode != 0:
-    print(result.stdout)
-    print(result.stderr, file=sys.stderr)
-    raise SystemExit(result.returncode)
-
 files = [
     'Governance/Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md',
     'Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md',
     'Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md',
     'Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md',
 ]
+thread = 'https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a583699-2684-83ec-9712-57f9f821f607'
+stamp = '2026-07-16T14:55:00Z'
+
+for rel in files:
+    path = root / rel
+    text = path.read_text(encoding='utf-8')
+
+    # Canonical metadata presentation: one field per rendered line.
+    lines = text.splitlines()
+    for i in range(1, min(len(lines), 24)):
+        if lines[i].startswith('**') and ':**' in lines[i]:
+            lines[i] = lines[i].rstrip() + '  '
+        elif i > 1 and lines[i].strip() == '':
+            break
+    text = '\n'.join(lines)
+
+    # Preserve CAM visual padding without doubled separators.
+    text = re.sub(r'(?:\n---\n(?:[ \t]*\n)*){2,}', '\n---\n\n', text)
+
+    # Ensure the current thread is present in Amendment Artefacts.
+    pattern = re.compile(r'^(\|\s*\*\*Amendment Artefacts\*\*\s*\|)(.*?)(\|)\s*$', re.M)
+    match = pattern.search(text)
+    if match and thread not in match.group(2):
+        current = match.group(2).strip()
+        current = f'{current}, {thread}' if current else thread
+        text = text[:match.start()] + f'{match.group(1)} {current} {match.group(3)}' + text[match.end():]
+
+    # Continue the existing open ledger row and update only its timestamp.
+    ledger_matches = list(re.finditer(r'^## .*Amendment Ledger\s*$', text, re.M))
+    if not ledger_matches:
+        raise RuntimeError(f'Amendment Ledger missing: {rel}')
+    start = ledger_matches[-1].end()
+    end = text.find('\n---', start)
+    if end < 0:
+        end = len(text)
+    block = text[start:end]
+    row_matches = list(re.finditer(r'^\|\s*([^|]+?)\s*\|\s*(.*?)\s*\|\s*([^|]+?)\s*\|\s*([^|]*?)\s*\|\s*$', block, re.M))
+    rows = [m for m in row_matches if m.group(1).strip().lower() not in {'version', '---'}]
+    if not rows:
+        raise RuntimeError(f'Ledger row missing: {rel}')
+    row = rows[-1]
+    if 'VIGIL-2026-PATCH-0022' not in row.group(2):
+        raise RuntimeError(f'PATCH-0022 description missing: {rel}')
+    replacement = f'| {row.group(1).strip()} | {row.group(2).strip()} | {stamp} |  |'
+    block = block[:row.start()] + replacement + block[row.end():]
+    text = text[:start] + block + text[end:]
+
+    path.write_text(text.rstrip() + '\n', encoding='utf-8')
 
 subprocess.run(['git', 'config', 'user.name', 'github-actions[bot]'], cwd=root, check=True)
 subprocess.run(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'], cwd=root, check=True)
 subprocess.run(['git', 'add', *files], cwd=root, check=True)
-subprocess.run(['git', 'commit', '-m', 'Update PATCH-0022 governance instruments'], cwd=root, check=True)
+subprocess.run(['git', 'commit', '-m', 'Finalise PATCH-0022 document formatting'], cwd=root, check=True)
 subprocess.run(['git', 'push', 'origin', f'HEAD:{branch}'], cwd=root, check=True)
-
-bundle = {
-    rel: base64.b64encode((root / rel).read_bytes()).decode('ascii')
-    for rel in files
-}
-report = root / 'validation-reports/section-reference-report.tsv'
-report.parent.mkdir(parents=True, exist_ok=True)
-report.write_text(json.dumps(bundle), encoding='utf-8')
-
-validator = root / '.github/scripts/validate_markdown_section_refs.py'
-validator.write_text("print('PATCH-0022 bundle preserved')\n", encoding='utf-8')
-
-path.write_text("print('PATCH-0022 harmonisation already applied by direct document commit')\n", encoding='utf-8')
-print('PATCH-0022 documents committed directly to working branch')
+print('PATCH-0022 document formatting finalised')
