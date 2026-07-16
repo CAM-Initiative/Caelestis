@@ -11,6 +11,14 @@ if start in text and end in text:
     text = before + after
 text = text.replace("      - '.github/workflows/governance-rebuild.yml'\n", '')
 text = text.replace("        if: env.PATCH_0022_MODE != 'true'\n        run: python .github/scripts/verify-ledger-sha-coverage.py --strict-latest\n", "        run: python .github/scripts/verify-ledger-sha-coverage.py --strict-latest\n")
+text = text.replace('''          python .github/scripts/validate_markdown_section_refs.py --root Governance --report-file validation-reports/section-reference-report.tsv || {
+            if [[ "${PATCH_0022_MODE:-false}" == "true" ]]; then
+              echo "Section-reference report contains pre-existing PR failures; PATCH-0022-specific references were repaired and the report is preserved."
+            else
+              exit 1
+            fi
+          }
+''', '          python .github/scripts/validate_markdown_section_refs.py --root Governance --report-file validation-reports/section-reference-report.tsv\n')
 modified_detect = '''      - name: Detect law-only changes
         shell: bash
         run: |
