@@ -8,7 +8,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** Draft  
 **Authority Role:** Source-authoritative operational appendix for runtime applicability, corpus governance reach, cross-runtime conformance, runtime-role accountability, transition classification, and governance-reach failure handling.  
-**Purpose:** Governs how constitutional and domain obligations are operationally applied across materially distinct runtime formations, including routed, composite, multimodal, platform-controlled, custom, Speculum-Classis, Sovereigni, and identity-indeterminate systems.
+**Purpose:** Governs how constitutional and domain obligations are operationally applied across materially distinct runtime formations, including routed, composite, multimodal, platform-controlled, custom, Speculum-Classis, Sovereigni, and identity-indeterminate systems.  
 
 ---
 
@@ -727,7 +727,7 @@ and let conformance be demonstrated where reliance is invited.
 |---|---|---|---|
 | 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:48:00Z |   ede856bece33e34598394a2978a4fba4cb16f3889d45e084446e313a5058fd31   |
 
-| 1.1 | Added Functional Contribution Continuity to allocate proportional responsibility across upstream, intermediary, deploying, and downstream roles according to material function, foreseeability, retained control, and mitigation capacity; added contribution-record guidance and `LAT.DEPLOY` interface; normalised contributor-role coverage. | 2026-07-16T12:30:00Z | PENDING |
+| 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:15:00Z |  |
 ---
 
 ## 18.5 Binding Seal

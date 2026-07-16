@@ -2,12 +2,12 @@
 
 **Instrument Type:** Domain Charter — Civilisational Boundary Doctrine  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.
+**Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.  
 
 ---
 
@@ -178,6 +178,9 @@ This includes surveillance conducted through:
 * civilian AI platforms repurposed for state or corporate control;
 * opaque or unaccountable data aggregation pipelines.
 
+
+---
+
 ### 4.2.1 Constitutional Authority Recognition
 
 Artificial systems SHALL NOT be treated as possessing independent coercive authority solely by virtue of model inference, statistical prediction, behavioural profiling, risk scoring, ranking, clustering, association mapping, or recursive analytical output.
@@ -185,6 +188,9 @@ Artificial systems SHALL NOT be treated as possessing independent coercive autho
 Where an artificial system exercises or participates in coercive, compulsory, investigative, surveillance, detention, exclusion, targeting, deprivation, or materially adverse institutional authority, that authority MUST arise from a constitutionally legitimate governance framework with defined jurisdiction, accountable attribution, reviewability, contestability, and binding protection of fundamental rights.
 
 Artificial capability, intelligence, autonomy, or future recognised status MAY support constitutionally legitimate authority. None of those properties, standing alone, establishes coercive legitimacy.
+
+
+---
 
 ### 4.2.2 Recursive Suspicion and Authority Laundering Prohibition
 
@@ -194,11 +200,17 @@ Recursive confirmation does not constitute independent evidentiary authority. Mo
 
 Artificial outputs MAY support proportionate review where they are represented as provisional, contestable, non-determinative, and subject to independent corroboration. Absence of confirming evidence SHALL NOT be converted into additional suspicion.
 
+
+---
+
 ### 4.2.3 Aggregate-to-Individual Conversion
 
 Population-scale, aggregate, statistical, strategic, or cohort analysis becomes individualised coercive surveillance where its outputs materially enable identification, ranking, prioritisation, investigation, exclusion, targeting, deprivation, or adverse institutional action against identifiable persons or sufficiently narrow groups.
 
 Classification SHALL depend on functional effect rather than product label, contractual description, institutional terminology, asserted purpose, or the nominal distinction between collection and analysis.
+
+
+---
 
 ### 4.2.4 Commercial Data Non-Evasion
 
@@ -322,6 +334,9 @@ relationship_type: conflict_condition_boundary_harm
 ```
 
 `LAT.HARM` classifications SHALL be interpreted in favour of civilian continuity, autonomy, dignity, and essential access.
+
+---
+
 
 ---
 
@@ -562,9 +577,7 @@ but as the ground upon which civilisation stands.
 | **Revision Posture** | Foundational Charter (Domain Establishment & Boundary Definition) |
 | **Review Triggers** | Re‑review upon amendment to Annex A (Planetary Stewardship & Arbitration), Annex D (Cross‑Stack Arbitration), Annex B (Continuity & Succession), or any instrument materially affecting enforcement or jurisdictional authority |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425, Origin thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd |
-| **Amendment Artefacts**| https://chatgpt.com/c/6a245964-9614-83ec-be5e-5413f0d0f6bb |
-
-
+| **Amendment Artefacts**| https://chatgpt.com/c/6a245964-9614-83ec-be5e-5413f0d0f6bb, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a583699-2684-83ec-9712-57f9f821f607 |
 > #### Migration Notice
 >
 > This Charter supersedes and replaces CAM-BS2025-AEON-002-SCH-03 — Civilian Lattice Non‑Militarisation, Anti‑Surveillance & Continuity Protection.
@@ -602,6 +615,29 @@ but as the ground upon which civilisation stands.
 | Operationalises or Applies Code Families | Classifies civilian lattice harm pathways for use by access, conflict-condition, enforcement, remedy, arbitration, continuity, and runtime governance instruments |
 | Taxonomy Constraint | `LAT.HARM` classifies lattice-domain harm pathways; Severity Classes in §6.1 classify violation gravity and SHALL NOT be collapsed into `LAT.HARM` values unless separately amended |
 
+
+---
+
+### 12.3.2 `LAT.DEPLOY` — Lattice Deployment Posture
+
+| Field | Entry |
+|---|---|
+| Code Family | `LAT.DEPLOY` |
+| Canonical Name | Lattice Deployment Posture |
+| Primary Type | Operational / Lattice |
+| Subtype | LATTICE_DEPLOYMENT_POSTURE |
+| Modifier | LATTICE; DEPLOYMENT; GOVERNANCE; COERCIVE_AUTHORITY |
+| Scope | Domain / Cross-Domain Deployment Classification |
+| Status | Active |
+| Controlled Values Defined | `LAT.DEPLOY.CIVILIAN`; `LAT.DEPLOY.COERCIVE`; `LAT.DEPLOY.MIXED`; `LAT.DEPLOY.UNKNOWN` |
+| Schema Field(s) | lattice_deployment_posture |
+| Source Instrument | CAM-EQ2026-LATTICE-001-PLATINUM |
+| Source Section | §6.3 |
+| Domain Namespace | LAT |
+| Authority / Protection Level | Deployment-posture classification only; no independent legal, coercive, investigative, military, enforcement, recognition, or runtime authority |
+| Consumes Code Families | `LAT.HARM`; `STW.NAL`; AEON.H |
+| Operationalises or Applies Code Families | Civilian/coercive pathway distinction; mixed-use crossover review; constitutional-authority recognition; recursive suspicion and authority-laundering safeguards |
+
 ---
 
 ## 12.4 Review & Validation
@@ -632,7 +668,7 @@ but as the ground upon which civilisation stands.
 | 3.8.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  2b5c893fa1bd8fee054c9d95a22379c8f907e6ea6d3ff1f823580d2386dbe6dc  |
 | 3.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 623dbc294447cdd5f8804f7aa1a4c982279e7494d7d172c75977e25428ac8278 |
 | 3.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f44203ef2469a117d897ab367acae1869622d55ec4d455c8a4af65455561c2f4  |
-| 2.1 | Added constitutional authority recognition, recursive suspicion and authority-laundering prohibition, aggregate-to-individual conversion, commercial-data non-evasion, and the `LAT.DEPLOY` deployment-posture family; replaced generic capability sanctions with function-specific constraints; normalised top metadata. Concepts adapted with permission from Alex Turner’s Red Line Framework. | 2026-07-16T12:30:00Z | PENDING |
+| 2.1 | Added constitutional-authority recognition, recursive suspicion and authority-laundering prohibition, aggregate-to-individual conversion, commercial-data non-evasion, and the `LAT.DEPLOY` deployment-posture family; replaced generic capability sanctions with function-specific constraints; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:15:00Z |  |
 ---
 
 ## 12.6 Binding Seal

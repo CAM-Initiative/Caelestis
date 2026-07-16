@@ -2,12 +2,12 @@
 
 **Instrument Type:** Charter Appendix  
 **Parent Instrument:** CAM-EQ2026-SECURITY-001-PLATINUM — Security, Integrity & Adversarial Resilience Charter  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Define the Boundary Integrity layer governing how data, identity, context, capability, and provenance are transformed, exposed, and diffused—ensuring systems enable intelligence formation while preventing structural leakage, attribution collapse, identity confusion, and unauthorised value extraction.
+**Purpose:** Define the Boundary Integrity layer governing how data, identity, context, capability, and provenance are transformed, exposed, and diffused—ensuring systems enable intelligence formation while preventing structural leakage, attribution collapse, identity confusion, and unauthorised value extraction.  
 
 ---
 
@@ -203,6 +203,9 @@ Where identity inconsistency or reconstruction risk conditions are present, syst
 
 ### 2.2.13 Sovereign Assurance Boundary
 
+
+---
+
 #### 2.2.13.1 Purpose & Scope
 
 A Sovereign Assurance Boundary is a legally, institutionally, operationally, or security-conditioned boundary in which an AI model, API, workspace, tool, agentic workflow, search function, analytics surface, memory system, logging system, export endpoint, administrative control, or runtime environment operates under obligations distinct from the public or commercial baseline.
@@ -210,6 +213,9 @@ A Sovereign Assurance Boundary is a legally, institutionally, operationally, or 
 Such boundaries may arise in sovereign, public-sector, defence-adjacent, regulated, compliance-bound, healthcare, education, critical-infrastructure, financial, legal, research, or institution-specific deployments.
 
 A Sovereign Assurance Boundary does not necessarily require physical infrastructure separation. It MAY be implemented through physical or logical separation, tenancy and regional controls, identity and access controls, retention constraints, audit and export controls, feature gating, model-routing constraints, or operational policy.
+
+
+---
 
 #### 2.2.13.2 Controlled Permeability
 
@@ -225,6 +231,9 @@ Cross-boundary movement of capability, data, logs, telemetry, prompts, model upd
 * scoped to the relevant runtime lane;
 * distinguishable from public or ordinary enterprise product behaviour.
 
+
+---
+
 #### 2.2.13.3 Runtime-Lane Distinction
 
 Sovereign Assurance Boundaries MUST preserve material distinction between public, enterprise, sovereign/government, regulated/compliance-bound, defence-adjacent, API, agentic-tool, search/retrieval, analytics, identity/access-control, audit/log/export, regional/legal, and infrastructure-continuity states.
@@ -232,6 +241,9 @@ Sovereign Assurance Boundaries MUST preserve material distinction between public
 Sovereign, government, regulated, or compliance-bound status SHALL NOT automatically confer execution authority, safety assurance, compliance sufficiency, cross-lane transfer permission, constraint bypass, or authority to collapse distinct runtime states into one access or incident category.
 
 Where a capability is imported into a sovereign, regulated, or compliance-bound lane, its state SHOULD be represented as one of: available and assurance-wrapped; available with scoped functional difference; delayed pending assurance validation; forked from public implementation; degraded due to assurance-wrapper failure; unavailable under the lane’s obligations; or unknown.
+
+
+---
 
 #### 2.2.13.4 Binding Protection Preservation
 
@@ -243,6 +255,9 @@ The method of assurance may change. The binding protection does not.
 
 Nothing in this section requires centralised telemetry, mandatory tethering, compulsory vendor control, universal remote suspension, or capability reduction solely because assurance is decentralised, local, sovereign, open-weight, air-gapped, or otherwise outside ordinary vendor control.
 
+
+---
+
 #### 2.2.13.5 Alternative Assurance Pathways
 
 Where ordinary assurance mechanisms are unavailable or inappropriate, responsible actors MUST establish a proportionate alternative pathway capable of evidencing whether applicable protections remain operative.
@@ -250,6 +265,9 @@ Where ordinary assurance mechanisms are unavailable or inappropriate, responsibl
 Alternative assurance MAY include local governance controls, independent audit, cryptographic attestation, bounded and privacy-preserving logs, authorised inspection, structured reporting, reproducible evaluation, secure escrow, or other evidence proportionate to the system’s function, risk, reliance, and deployment context.
 
 Loss of one assurance mechanism triggers reassessment of the assurance pathway. It does not, by itself, establish misconduct, non-conformance, or a requirement for capability removal.
+
+
+---
 
 #### 2.2.13.6 Entity, Control & End-Use Attribution
 
@@ -260,6 +278,9 @@ Where materially relevant, assessment SHOULD distinguish contracting entity; ben
 Uncertainty concerning ownership, control, affiliation, intermediary access, end use, extraction, distillation, replication, or onward transfer SHALL remain visible and SHALL NOT be converted into a finding of legal violation, prohibited use, compromise, or non-compliance without sufficient evidence.
 
 Geographic eligibility alone does not establish entity eligibility.
+
+
+---
 
 #### 2.2.13.7 Ambiguity, Routing & Cross-Domain Interfaces
 
@@ -1336,7 +1357,7 @@ and the system remember what it carries.
 | 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| 5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe |
 | 1.10 | Added entity and control attribution requirements for Sovereign Assurance Boundaries, including beneficial ownership, affiliate and intermediary pathways, ultimate end-user and end-use distinctions, extraction/distillation indicators, and evidence-preserving uncertainty limits. | 2026-07-13T03:48:00Z | 3cbabcb4fd5faaba3e31befac6412ce0697b07c95e654ab9106ee6dc0ae09a72 |
 
-| 1.11 | Refactored §2.2.13 into purpose, permeability, runtime-lane, binding-protection, alternative-assurance, attribution, and routing subsections; clarified that sovereign or decentralised assurance does not override prohibitions and does not require tethering, central telemetry, vendor control, or capability reduction; normalised heading metadata formatting. | 2026-07-16T12:30:00Z | PENDING |
+| 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:15:00Z |  |
 ---
 
 ## 10.6 Binding Seal
