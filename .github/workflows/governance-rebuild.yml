@@ -49,6 +49,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          python .github/scripts/fix_patch_0022_helper.py
           python .github/scripts/harmonise_patch_0022.py
           echo "PATCH_0022_MODE=true" >> "$GITHUB_ENV"
           echo "RUN_LEDGER=false" >> "$GITHUB_ENV"
