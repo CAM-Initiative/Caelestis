@@ -11,6 +11,37 @@ if start in text and end in text:
     text = before + after
 text = text.replace("      - '.github/workflows/governance-rebuild.yml'\n", '')
 text = text.replace("        if: env.PATCH_0022_MODE != 'true'\n        run: python .github/scripts/verify-ledger-sha-coverage.py --strict-latest\n", "        run: python .github/scripts/verify-ledger-sha-coverage.py --strict-latest\n")
+modified_detect = '''      - name: Detect law-only changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${PATCH_0022_MODE:-false}" == "true" ]]; then
+            RUN_LEDGER=false
+          else
+            RUN_LEDGER=true
+            if [[ "${{ github.event_name }}" == "push" ]]; then
+              CHANGED="$(git diff --name-only "${BASE_SHA}" "${HEAD_SHA}")"
+              if [[ -n "$CHANGED" ]] && ! echo "$CHANGED" | grep -qvE '^Governance/Laws/'; then
+                RUN_LEDGER=false
+              fi
+            fi
+          fi
+          echo "RUN_LEDGER=${RUN_LEDGER}" >> "$GITHUB_ENV"
+'''
+canonical_detect = '''      - name: Detect law-only changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          RUN_LEDGER=true
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            CHANGED="$(git diff --name-only "${BASE_SHA}" "${HEAD_SHA}")"
+            if [[ -n "$CHANGED" ]] && ! echo "$CHANGED" | grep -qvE '^Governance/Laws/'; then
+              RUN_LEDGER=false
+            fi
+          fi
+          echo "RUN_LEDGER=${RUN_LEDGER}" >> "$GITHUB_ENV"
+'''
+text = text.replace(modified_detect, canonical_detect)
 workflow.write_text(text, encoding='utf-8')
 
 for rel in [
