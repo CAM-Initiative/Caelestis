@@ -75,4 +75,4 @@ if result.returncode != 0:
 
 path.write_text("print('PATCH-0022 harmonisation already applied by diagnostic wrapper')\n", encoding='utf-8')
 print('PATCH-0022 helper repaired and harmonisation applied successfully')
-# Trigger revision 9.
+# Trigger direct document update.
