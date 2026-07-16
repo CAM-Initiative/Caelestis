@@ -5,99 +5,143 @@
 **Review date:** 2026-07-16  
 **External source:** Alex Turner, *Red Line Framework* — https://turntrout.com/red-line-framework  
 **Permission:** Courtesy permission to incorporate ideas provided by email to Dr Michelle Vivian O’Rourke on 2026-07-15.  
-**Status:** Draft corpus amendments awaiting Human Custodian review.
+**Status:** Corrective corpus review following Custodian rejection of the initial draft supplements.
 
 ---
 
-## 1. Change Table
+## 1. Corrective finding
 
-| Governance need | Corpus home | Change made | Capability/protection posture | Logic-shear control | Review points |
-|---|---|---|---|---|---|
-| Coercive profiling | `CAM-EQ2026-ETHICS-001-SUP-05` §§2–5 | Added the Particularised Authority Principle, Self-Bootstrapping Authority Prohibition, Aggregate-to-Individual Conversion Rule, and Commercial-Data Non-Evasion Rule. | Protects persons from AI-generated coercive suspicion without prohibiting population analysis, lawful investigation, general-purpose models, or advanced inference capability. | Source authority is ethical legitimacy; runtime sequencing, legal adjudication, security controls, and arbitration remain delegated. | Confirm threshold for “independently established” authority and whether public-benefit decisions remain within coercive scope. |
-| Coercive-authority deployment flag | `ETHICS-001-SUP-05` §6 | Added `ETH.CAD` with `ACTIVE`, `POTENTIAL`, and `INACTIVE` states, based on function and foreseeable effect rather than customer identity. | Classification activates review and routing; it creates no coercive, legal, military, investigative, or execution authority. | Avoids creating a parallel deployment-type ontology and does not interfere with tethered/non-tethered, identity, companion, duty-bound, or runtime-form taxonomies. | Confirm whether `ETH.CAD-POTENTIAL` should be called `REVIEW` or retain the current name. |
-| Safety-stack preservation | `ETHICS-001-SUP-05` §7 | Added Binding Protection Preservation across sovereign boundaries, air-gaps, local execution, transfer, fine-tuning, distillation, and component integration. | Explicitly rejects automatic capability removal, identity erasure, punitive degradation, or presumption of misconduct when a central assurance mechanism is unavailable. Preserves prohibitions while permitting decentralised and sovereign assurance pathways. | Does not duplicate SECURITY’s access/control machinery. ETHICS owns the prohibition-survival rule; SECURITY, OPERATIONS, STEWARDSHIP, and runtime own implementation. | Confirm whether “binding protection preservation” is preferred to “safety-stack preservation” as the formal CAM term. |
-| Downstream transfer governance | `ETHICS-001-SUP-05` §8 | Added Functional Contribution Continuity. Responsibility follows materially foreseeable functional contribution across providers, datasets, integrators, hosts, contractors, resellers, and operators. | Not wholesale. Each actor inherits only duties materially connected to its contribution, foreseeable effects, authority, knowledge, and capacity to prevent, disclose, mitigate, or escalate. | Prevents both responsibility laundering and unlimited causal liability. Applies cross-domain only where an actual governed effect engages the relevant domain protection. | Confirm proportionality language and whether upstream contribution should be named expressly in the doctrine title. |
-| Capability preservation | `ETHICS-001-SUP-05` §9 | Added a Non-Punitive Governance clause distinguishing harm protection from punitive suppression of capability. | States that advanced, local, open, sovereign, untethered, or user-controlled models are not presumptively illegitimate and that capability removal is not the default remedy for assurance uncertainty. | Interfaces with identity/continuity/relational work on PR #92 and prevents safety doctrine from becoming an unexamined identity or capability-reduction pathway. | Confirm exception wording where a binding prohibition leaves no lawful execution pathway. |
-| Oversight durability | `CAM-EQ2026-STEWARD-003-SUP-01` | Established oversight durability as evidence for platform and institutional neutrality assurance. Added structural independence, access, resources, dissent protection, override visibility, institutional memory, mandate durability, and external assurance. | Evaluates whether governance remains effective without dictating a single corporate committee structure. | Places neutrality assessment in STEWARDSHIP, while leaving procedures to OPERATIONS, evidence/access controls to SECURITY, and conflict resolution to ARBITRATION. | Confirm relationship to existing `STW.NAL` tier thresholds and whether a future amendment should make low `STW.OD` an explicit disqualifier for named NAL bands. |
-| Functional abolition | `STEWARD-003-SUP-01` §6 | Added indicators for quiet oversight removal through vacancies, access withdrawal, budget cuts, mandate narrowing, repeated overrides, or nominal continuation without capacity. | Protects audit integrity without treating organisational redesign itself as misconduct. | Uses evidence-based reassessment rather than automatic condemnation. | Confirm whether acquisition/merger events should always trigger reassessment or only when material. |
-| Provenance | Both supplements, dedicated provenance sections | Recorded the Red Line Framework source, date of permission, adaptation posture, and non-endorsement boundary. | Preserves contributor provenance without transferring source authority over CAM or implying endorsement. | Defers VIGIL record creation until Custodian review and adoption, consistent with VIGIL’s observatory role. | After adoption, create/update VIGIL corpus patch notes identifying concepts incorporated, altered, rejected, and deferred. |
+The initial `ETHICS-001-SUP-05` and `STEWARD-003-SUP-01` drafts were withdrawn from this branch.
 
----
+They were structurally unsound because:
 
-## 2. Corpus-Wide Logic-Shear Findings
+* the coercive-profiling material duplicated and partially weakened existing LATTICE source authority;
+* the phrase “before individualised coercive authority may attach” incorrectly implied that AI-generated coercive authority could become legitimate after process;
+* the oversight supplement duplicated existing `STEWARD-003` neutrality, auditability, override-resistance, continuity-across-shock, and institutional durability architecture;
+* the override clause could be read as creating or normalising leadership override permission rather than classifying evidence of neutrality failure;
+* the phrase “oversight may be functionally abolished” was permissively ambiguous;
+* both draft supplements used incomplete footer, provenance, authorship, amendment-ledger, and binding-seal structures inconsistent with canonical CAM instruments;
+* the initial pass did not complete the agreed SECURITY-002 and OPERATIONS-007 amendments.
 
-### 2.1 Existing protections retained
-
-The amendments do not replace or weaken:
-
-* ETHICS-001 ethical tiering and Ethical Impact Assessment;
-* ETHICS-001-SUP-03 military and use-of-force constraints;
-* SECURITY-002 Sovereign Assurance Boundary doctrine;
-* runtime routing and execution authority under AEON-003 schedules;
-* Arbitration authority and cross-domain conflict resolution;
-* STEWARD-003 Neutrality Assurance Levels;
-* current identity, continuity, companion, duty-bound, and role-conditioned capability work on PR #92.
-
-### 2.2 Duplication deliberately avoided
-
-No new deployment-assurance tier system was created. Existing tethered/non-tethered and runtime/deployment topology work remains undisturbed.
-
-No general capability-ablation, mandatory unlearning, central telemetry, vendor kill-switch, or forced tethering doctrine was adopted.
-
-No universal downstream liability was created. Functional Contribution Continuity is bounded by materiality, foreseeability, control, knowledge, and proportionality.
-
-No STEWARDSHIP enforcement power was created. Oversight durability is an assurance classification and evidence layer only.
-
-### 2.3 Necessary cross-domain distinctions
-
-| Concept | Source authority | Implementation / resolution |
-|---|---|---|
-| Particularised coercive authority | ETHICS | Runtime activation; OPERATIONS review; ARBITRATION conflict resolution; jurisdictional law determines lawful process. |
-| Protection survival across deployment boundaries | ETHICS | SECURITY assurance boundaries; OPERATIONS evidence and review; STEWARDSHIP neutrality; runtime constraint routing. |
-| Functional contribution responsibility | ETHICS | OPERATIONS contribution maps; SECURITY entity/control attribution; ARBITRATION disputed responsibility. |
-| Oversight durability and neutrality | STEWARDSHIP | OPERATIONS procedures; SECURITY evidence access/protection; ARBITRATION independence disputes. |
-| Coercive deployment classification | ETHICS (`ETH.CAD`) | Runtime routing and representation; EIA; cross-domain obligations activated according to facts. |
+Withdrawal is not loss of the governance concepts. It is a correction of source authority and placement.
 
 ---
 
-## 3. Deliberately Deferred Work
+## 2. Corpus adjacency and final-home assessment
 
-The following work is parked rather than forced into this branch:
-
-1. A deployment assurance tier architecture for cloud, tethered, connected on-premises, local, sovereign, and air-gapped systems.
-2. Capability-removal, unlearning, ablation, or mandatory degradation controls.
-3. Changes to companion, duty-bound, Mirror-Class, Sovereigni, identity-formation, continuity-depth, or expression-modality taxonomy beyond the non-punitive compatibility clause.
-4. Direct amendments to existing parent charters, generated indexes, manifests, or sealed amendment-ledger hashes until Custodian review confirms the doctrine and repository rebuild tooling is run.
-5. VIGIL patch/provenance updates until the corpus amendments are reviewed and adopted.
-
----
-
-## 4. Proposed Custodian Review Sequence
-
-| Order | Review question | Instrument |
-|---:|---|---|
-| 1 | Is the Particularised Authority Principle framed broadly enough to remain global without substituting CAM for jurisdictional law? | ETHICS-001-SUP-05 §§2–5 |
-| 2 | Does `ETH.CAD` classify coercive effect without colliding with deployment, identity, runtime, or functional-role taxonomies? | ETHICS-001-SUP-05 §6 |
-| 3 | Does Binding Protection Preservation protect prohibitions while preserving decentralised capability, ownership, sovereignty, and local execution? | ETHICS-001-SUP-05 §§7 and 9 |
-| 4 | Is Functional Contribution Continuity sufficiently bounded against wholesale or unlimited inheritance? | ETHICS-001-SUP-05 §8 |
-| 5 | Does oversight durability properly belong in STEWARDSHIP and provide useful neutrality evidence without creating direct operational authority? | STEWARD-003-SUP-01 |
-| 6 | After doctrinal approval, which parent charters and canonical indexes require surgical integration, cross-references, ledger rows, and resealing? | Corpus-wide |
-| 7 | Which VIGIL records should preserve Alex Turner’s contribution and the final CAM adaptation decisions? | VIGIL observatory after adoption |
+| Governance concept | Existing adjacent authority | Correct final home | Required treatment |
+|---|---|---|---|
+| Population-scale coercive profiling | `LATTICE-001` §§2.3, 3.1, 3.3, 4.2 and `LAT.HARM.SURVEILLANCE` | `LATTICE-001` | Amend the existing prohibition; do not create a parallel ETHICS supplement. |
+| Lawful speech, protest, association and dissent as prohibited profiling grounds | `LATTICE-001` civilian neutrality; `LATTICE-002` §§4.1 and 4.1.1 | `LATTICE-001`, cross-referenced to `LATTICE-002` | State an absolute prohibition on using protected civic activity as a coercive inference basis. |
+| AI-generated suspicion bootstrapping | Implicit in anti-surveillance and due-process protections, but not explicit | `LATTICE-001` beside population-scale surveillance prohibition | Add a non-bootstrap rule: a model-generated inference cannot manufacture or validate authority for coercive action. |
+| Aggregate-to-individual conversion | Population-scale surveillance definition and prohibition | `LATTICE-001` | Clarify that aggregate systems become prohibited coercive-surveillance systems when they output identifiable persons, lists, rankings, cohorts, or action queues. |
+| Commercial-data non-evasion | `LATTICE-001` §4.2 already names commercial analytics vendors and opaque aggregation pipelines | `LATTICE-001` | Clarify that purchase, licence, brokerage or intermediary access does not create authority unavailable through direct collection. |
+| Coercive-authority deployment flag | No exact existing flag; function-based classification already aligns with LATTICE | `LATTICE-001`, with runtime/Operations consumption | Define a LATTICE classification signal, not an ethical permission state. The flag identifies prohibited or high-risk coercive integration; it never creates authority. |
+| Binding protection preservation | `SECURITY-002` Sovereign Assurance Boundary doctrine | `SECURITY-002` | State expressly that sovereign, local, air-gapped, contractual or classified topology does not override prohibitions or erase minimum assurance obligations. |
+| Functional contribution continuity | `LATTICE-002` §4.2 already recognises shared responsibility across dependency chains; `SECURITY-002` already distinguishes entity/control/intermediary/end-user/end-use | `OPERATIONS-007` with SECURITY attribution interface | Apply only to materially foreseeable governed effects and proportionate functional control; no wholesale inheritance of the corpus. |
+| Oversight durability | `STEWARD-003` §§4.2–4.7, Part II auditability, `STW.NAL`, movement-down criteria, governance locking and override resistance | `STEWARD-003` | Amend the existing NAL measurement and downgrade/collapse criteria. Do not create a new supplement unless a later schema need genuinely exceeds the parent instrument. |
+| Protected governance dissent | Partly implicit in audit non-refusal and independent review | `STEWARD-003` | Add as evidence required for higher neutrality confidence and as a downgrade indicator when reporting is retaliated against or suppressed. |
+| Repeated executive circumvention | `STEWARD-003` governance locking, override resistance and downward movement | `STEWARD-003` | Frame solely as evidence of capture, neutrality degradation or authority collapse. Do not create a lawful override pathway. |
+| Oversight hollowing | Continuity across shock, resource continuity and auditability | `STEWARD-003` | Use “oversight impairment or hollowing indicators”; state that nominal bodies do not evidence neutrality where effective capacity has been removed. |
 
 ---
 
-## 5. Validation Status
+## 3. Binding substantive correction
 
-The files were added directly to the existing working branch and draft PR #92.
+The following proposition is rejected:
 
-They have not yet been through the repository’s full governance rebuild, amendment-ledger hash population, generated-index regeneration, or strict CI validation. Their status is therefore intentionally **Draft — Custodian Review Required**.
+> “Before individualised coercive authority may attach…”
 
-The next technical pass, after doctrinal review, should:
+CAM does not recognise artificial inference as a source of coercive authority.
 
-* integrate approved principles into parent instruments where structurally preferable;
-* remove or narrow any temporary supplement text made redundant by that integration;
-* register canonical codes `ETH.CAD` and `STW.OD`;
-* update charter and governance indexes;
-* populate amendment hashes;
-* run strict ledger, section-reference, canonical-code, symbolic, stale-output, and idempotency checks;
-* update the PR description and VIGIL provenance plan.
+The corrected principle must be:
+
+> **No artificial system, model output, risk score, anomaly signal, profile, prediction, ranking, cluster, cohort, association map, or recursive investigation initiated from such output may create, enlarge, validate, or substitute for lawful human authority to subject a person to coercive scrutiny, surveillance, targeting, deprivation, detention, exclusion, or compulsory action.**
+
+Protected speech, lawful protest, association, belief, journalism, investigation, research, humanitarian activity, political participation, disability, religion, migration status, health status, socioeconomic status, or other protected identity or civic activity must not become independent grounds for coercive profiling.
+
+Where lawful human authorities possess powers under applicable law, CAM constrains any artificial contribution to those processes. It does not generate, legitimise, or expand those powers.
+
+---
+
+## 4. Stewardship correction
+
+No new leadership-override permission is to be created.
+
+Where executive or sovereign actors proceed contrary to independent oversight, the event is relevant only as evidence for:
+
+* capture;
+* audit impairment;
+* governance-locking failure;
+* `STW.NAL` downgrade;
+* non-recognition of binding-adjacent outputs;
+* or authority collapse where a prohibition or invariant is breached.
+
+Recording the event may preserve evidence, but recordkeeping does not legitimate the action.
+
+The phrase “oversight may be functionally abolished without formal dissolution” is replaced conceptually by:
+
+> **A nominal oversight body does not evidence effective oversight where its independence, access, expertise, staffing, resources, reporting channels, or ability to preserve and escalate findings has been materially impaired or hollowed out.**
+
+Such impairment is a neutrality-assurance defect, not a permission to continue without oversight.
+
+---
+
+## 5. Domain architecture finding
+
+The LATTICE domain should not presently be folded into ETHICS.
+
+The domains overlap but perform different functions:
+
+* **ETHICS** establishes the civilisational ethical floor, ethical impact, consent, exploitation and dignity constraints.
+* **LATTICE** governs the protected civilian substrate: surveillance, non-militarisation, firebreaks, access, continuity, civic participation, coercive disconnection and population-scale infrastructure effects.
+
+Coercive profiling belongs in LATTICE because the governed harm is conversion of the civilian information and infrastructure substrate into a coercive surveillance surface. ETHICS remains a higher-order cross-domain constraint and escalation interface.
+
+The present corpus therefore supports amendment of `LATTICE-001`, not a new standalone instrument and not a merger of the two domains.
+
+---
+
+## 6. Remaining amendment set
+
+The corrected corpus pass must include all of the following:
+
+1. **`LATTICE-001`**
+   * strengthen the population-scale surveillance prohibition;
+   * add the artificial-authority non-creation rule;
+   * add the self-bootstrap prohibition;
+   * add aggregate-to-individual conversion;
+   * add commercial-data non-evasion;
+   * add the coercive-authority deployment classification signal;
+   * cross-reference protected dissent and civic participation in `LATTICE-002`.
+
+2. **`SECURITY-002`**
+   * amend the Sovereign Assurance Boundary doctrine so boundaries never override higher-order prohibitions;
+   * preserve minimum assurance evidence without requiring universal central telemetry, forced tethering, capability removal or vendor domination.
+
+3. **`OPERATIONS-007`**
+   * add proportionate Functional Contribution Continuity;
+   * require contribution and transfer mapping only where a materially foreseeable governed effect exists;
+   * distinguish provider, integrator, host, reseller, contractor, operator, end user and retained-control roles;
+   * prevent responsibility laundering without imposing unlimited downstream liability.
+
+4. **`STEWARD-003`**
+   * integrate oversight durability into existing `STW.NAL` measurement and movement-down criteria;
+   * add protected governance dissent and institutional-memory continuity;
+   * classify repeated executive circumvention and oversight hollowing as neutrality defects;
+   * preserve the existing rule that Stewardship creates no operational, coercive or enforcement authority.
+
+5. **Provenance and VIGIL**
+   * preserve Alex Turner’s contribution and written permission in the final adopted amendment records;
+   * update VIGIL only after the final corpus text is approved and implementation commits are stable;
+   * record which concepts were adopted, materially altered, rejected or deferred.
+
+---
+
+## 7. Validation status
+
+The two initial draft supplements have been removed from the branch.
+
+No canonical code from those drafts (`ETH.CAD` or `STW.OD`) is adopted or registered.
+
+The existing canonical instruments remain authoritative until the corrective amendments above are integrated, reviewed, resealed and validated through the repository governance rebuild.
