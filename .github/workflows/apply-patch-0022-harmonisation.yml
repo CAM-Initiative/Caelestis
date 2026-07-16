@@ -54,3 +54,5 @@ jobs:
           git add Governance/ .github/Indices/ .github/scripts/harmonise_patch_0022.py .github/workflows/apply-patch-0022-harmonisation.yml
           git commit -m "Harmonise PATCH-0022 corpus amendments"
           git push origin HEAD:governance/relational-profile-coformation
+
+# Triggered after workflow registration.
