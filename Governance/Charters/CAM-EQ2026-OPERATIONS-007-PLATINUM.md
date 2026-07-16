@@ -289,7 +289,8 @@ Runtime accountability MAY be distributed across:
 * tool or execution subsystem;
 * interface, speech, avatar, or output renderer;
 * deploying institution;
-* authorised human operator.
+* authorised human operator;
+* model, dataset, classifier, retrieval, fine-tuning, integration, hosting, resale, contracting, procurement, or assurance contributor where materially relevant.
 
 ### 9.2 Responsibility Non-Collapse
 
@@ -314,6 +315,35 @@ Where the internal pathway is unavailable or proprietary:
 * responsibility SHOULD be assigned to the narrowest externally identifiable controlling role;
 * uncertainty SHOULD be preserved as responsibility ambiguity rather than falsely resolved;
 * the platform or deploying operator retains responsibility for ensuring the overall formation satisfies applicable obligations.
+
+### 9.4 Functional Contribution Continuity
+
+Governance responsibility follows materially foreseeable functional contribution and retained control.
+
+Responsibility MAY attach proportionately across upstream, intermediary, deploying, and downstream roles where an actor materially provides, configures, controls, transfers, integrates, hosts, operates, updates, monitors, suspends, assures, or represents a function necessary to the governed effect.
+
+Responsibility SHALL be assessed according to:
+
+* the function materially contributed or controlled;
+* the reasonably foreseeable deployment or transfer context;
+* retained authority, access, knowledge, and technical control;
+* the practical capacity to prevent, constrain, disclose, mitigate, correct, or escalate the governed effect;
+* the applicable binding protection and the actor’s role in preserving or weakening it.
+
+No actor may avoid responsibility solely by describing itself as a foundation-model provider, dataset supplier, classifier provider, cloud host, reseller, integrator, consultant, contractor, procurement body, or intermediary where its contribution is materially necessary to the governed effect and that effect is reasonably foreseeable.
+
+Conversely, no actor shall inherit obligations unrelated to the function it materially contributes, conduct it could not reasonably foresee, or effects it has no meaningful capacity to influence, detect, disclose, mitigate, or escalate.
+
+For high-impact, `LAT.DEPLOY.COERCIVE`, `LAT.DEPLOY.MIXED`, Architectum-relevant, or otherwise binding-protection-sensitive deployments, a contribution record SHOULD preserve, where known and material:
+
+* contributing entities and functional roles;
+* transfer, integration, hosting, derivative, and onward-use pathways;
+* retained and lost control or assurance capabilities;
+* applicable prohibitions and domain constraints;
+* material attribution or foreseeability uncertainty;
+* notification, remediation, escalation, and evidence-preservation responsibilities.
+
+Functional Contribution Continuity allocates operational accountability. It does not independently determine legal liability, moral blame, enforcement outcome, or arbitral remedy.
 
 ---
 
@@ -448,7 +478,7 @@ This Appendix SHALL be interpreted consistently with:
 * CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations;
 * CAM-EQ2026-OPERATIONS-003-SUP-01 — Runtime & Governance Failure Taxonomy;
 * CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks;
-* applicable ETHICS, RELATION, SECURITY, ARBITRATION, and LATTICE instruments.
+* applicable ETHICS, RELATION, SECURITY, ARBITRATION, and LATTICE instruments, including `LAT.DEPLOY` where coercive or mixed deployment posture is implicated.
 
 Where substantive domain obligations conflict, this Appendix does not adjudicate the conflict. It identifies applicability, runtime roles, governance reach, and conformance state, then routes the matter through the competent domain or arbitration pathway.
 
@@ -697,6 +727,7 @@ and let conformance be demonstrated where reliance is invited.
 |---|---|---|---|
 | 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:48:00Z |   ede856bece33e34598394a2978a4fba4cb16f3889d45e084446e313a5058fd31   |
 
+| 1.1 | Added Functional Contribution Continuity to allocate proportional responsibility across upstream, intermediary, deploying, and downstream roles according to material function, foreseeability, retained control, and mitigation capacity; added contribution-record guidance and `LAT.DEPLOY` interface; normalised contributor-role coverage. | 2026-07-16T12:30:00Z | PENDING |
 ---
 
 ## 18.5 Binding Seal
