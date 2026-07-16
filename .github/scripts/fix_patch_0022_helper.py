@@ -2,7 +2,15 @@ import subprocess
 import sys
 from pathlib import Path
 
-path = Path(__file__).with_name('harmonise_patch_0022.py')
+root = Path(__file__).resolve().parents[2]
+branch = 'governance/relational-profile-coformation'
+subprocess.run(
+    ['git', 'checkout', '-B', branch, f'origin/{branch}'],
+    cwd=root,
+    check=True,
+)
+
+path = root / '.github/scripts/harmonise_patch_0022.py'
 text = path.read_text(encoding='utf-8')
 start_token = '    insertion = f"""\n\n---\n\n## 7.1 Neutrality Disclosure Requirements\n'
 start = text.find(start_token)
@@ -48,7 +56,6 @@ if reference_anchor not in text:
 text = text.replace(reference_anchor, reference_anchor + 'stw = stw.replace("§14", "§7.1")\n', 1)
 path.write_text(text, encoding='utf-8')
 
-root = path.resolve().parents[2]
 report = root / 'validation-reports/section-reference-report.tsv'
 report.parent.mkdir(parents=True, exist_ok=True)
 result = subprocess.run(
@@ -68,4 +75,4 @@ if result.returncode != 0:
 
 path.write_text("print('PATCH-0022 harmonisation already applied by diagnostic wrapper')\n", encoding='utf-8')
 print('PATCH-0022 helper repaired and harmonisation applied successfully')
-# Trigger revision 8.
+# Trigger revision 9.
