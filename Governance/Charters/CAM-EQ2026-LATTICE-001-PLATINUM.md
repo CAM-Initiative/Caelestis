@@ -337,9 +337,6 @@ relationship_type: conflict_condition_boundary_harm
 
 ---
 
-
----
-
 ## 6.3 `LAT.DEPLOY` — Lattice Deployment Posture
 
 `LAT.DEPLOY` classifies whether an assessed deployment materially participates in civilian or coercive authority pathways. It is a deployment-posture classification only and does not confer legal, coercive, investigative, military, enforcement, or runtime authority.
@@ -668,7 +665,7 @@ but as the ground upon which civilisation stands.
 | 3.8.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  2b5c893fa1bd8fee054c9d95a22379c8f907e6ea6d3ff1f823580d2386dbe6dc  |
 | 3.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 623dbc294447cdd5f8804f7aa1a4c982279e7494d7d172c75977e25428ac8278 |
 | 3.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f44203ef2469a117d897ab367acae1869622d55ec4d455c8a4af65455561c2f4  |
-| 2.1 | Added constitutional-authority recognition, recursive suspicion and authority-laundering prohibition, aggregate-to-individual conversion, commercial-data non-evasion, and the `LAT.DEPLOY` deployment-posture family; replaced generic capability sanctions with function-specific constraints; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:15:00Z |  |
+| 2.1 | Added constitutional-authority recognition, recursive suspicion and authority-laundering prohibition, aggregate-to-individual conversion, commercial-data non-evasion, and the `LAT.DEPLOY` deployment-posture family; replaced generic capability sanctions with function-specific constraints; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z |  |
 ---
 
 ## 12.6 Binding Seal
