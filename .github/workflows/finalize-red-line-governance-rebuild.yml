@@ -1,0 +1,67 @@
+name: Finalize Red Line Governance Rebuild
+
+on:
+  push:
+    branches:
+      - governance/relational-profile-coformation
+    paths:
+      - .github/workflows/finalize-red-line-governance-rebuild.yml
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Rebuild indexes and populate amendment hashes
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE_SHA="$(git rev-parse HEAD~3)"
+          SOURCE_SHA="$(git rev-parse HEAD~2)"
+          python .github/scripts/update-CAM-Constitution-Index.py
+          python .github/scripts/update-CAM-Charters-Index.py
+          python .github/scripts/update-CAM-Laws-Index.py
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${SOURCE_SHA}" --fix
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${SOURCE_SHA}" --strict
+          python .github/scripts/update-CAM-Constitution-Index.py
+          python .github/scripts/update-CAM-Charters-Index.py
+          python .github/scripts/update-CAM-Laws-Index.py
+          python .github/scripts/verify-ledger-sha-coverage.py --strict-latest
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${SOURCE_SHA}" --strict
+          python .github/scripts/validate_canonical_headers.py
+          mkdir -p validation-reports
+          python .github/scripts/validate_markdown_section_refs.py --root Governance --report-file validation-reports/section-reference-report.tsv
+          python .github/scripts/build-canonical-code-index.py --root Governance
+          python .github/scripts/lint-symbolic-structures.py --index Governance/CAM.Canonical.Code.Index.json
+
+      - name: Remove temporary rebuild artefacts
+        run: |
+          rm -f .github/scripts/.red-line-rebuild-trigger
+          rm .github/workflows/finalize-red-line-governance-rebuild.yml
+
+      - name: Commit validated corpus and generated outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Governance/ .github/Indices/ .github/scripts/.red-line-rebuild-trigger .github/workflows/finalize-red-line-governance-rebuild.yml
+          git commit -m "[AUTO][Governance] Finalize Red Line corpus integration"
+          git push origin HEAD:governance/relational-profile-coformation
