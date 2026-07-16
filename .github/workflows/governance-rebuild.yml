@@ -182,7 +182,7 @@ jobs:
           fi
 
       - name: Phase 9 — Commit generated changes once
-        if: github.event_name == 'push'
+        if: github.event_name == 'push' || env.PATCH_0022_MODE == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -203,7 +203,11 @@ jobs:
             exit 0
           fi
           git commit -m "[AUTO][Governance] Deterministic rebuild pipeline refresh"
-          BRANCH="${GITHUB_REF_NAME}"
+          if [[ "${PATCH_0022_MODE:-false}" == "true" ]]; then
+            BRANCH="governance/relational-profile-coformation"
+          else
+            BRANCH="${GITHUB_REF_NAME}"
+          fi
           echo "GIT_STATUS_BEFORE_PUSH_BEGIN"
           git status --short
           echo "GIT_STATUS_BEFORE_PUSH_END"
