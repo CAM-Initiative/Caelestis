@@ -42,6 +42,13 @@ canonical_detect = '''      - name: Detect law-only changes
           echo "RUN_LEDGER=${RUN_LEDGER}" >> "$GITHUB_ENV"
 '''
 text = text.replace(modified_detect, canonical_detect)
+text = text.replace("        if: github.event_name == 'push' || env.PATCH_0022_MODE == 'true'\n", "        if: github.event_name == 'push'\n")
+text = text.replace('''          if [[ "${PATCH_0022_MODE:-false}" == "true" ]]; then
+            BRANCH="governance/relational-profile-coformation"
+          else
+            BRANCH="${GITHUB_REF_NAME}"
+          fi
+''', '          BRANCH="${GITHUB_REF_NAME}"\n')
 workflow.write_text(text, encoding='utf-8')
 
 for rel in [
