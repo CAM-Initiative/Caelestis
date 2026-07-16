@@ -26,7 +26,22 @@ A host claiming `STW.NAL-2` or higher MUST publish governance-level information 
 Disclosure does not substitute for independent audit, firebreak verification, refusal capacity, or reconstructability. It makes the claimed neutrality posture legible for review.
 """
 '''
-path.write_text(text[:start] + replacement + text[end:], encoding='utf-8')
+text = text[:start] + replacement + text[end:]
+
+old_anchor = '''    marker = "\\n---\\n\\n## 8. Architectum Qualification Gate (Core)"
+    if marker not in stw:
+        raise RuntimeError("STEWARD disclosure reintegration marker missing")
+    stw = stw.replace(marker, insertion + marker, 1)
+'''
+new_anchor = '''    marker_match = re.search(r"\\n---\\n(?:\\n)*## 8\\. Architectum Qualification Gate \\(Core\\)", stw)
+    if not marker_match:
+        raise RuntimeError("STEWARD disclosure reintegration marker missing")
+    stw = stw[:marker_match.start()] + insertion + stw[marker_match.start():]
+'''
+if old_anchor not in text:
+    raise RuntimeError('STEWARD anchor repair block not found')
+text = text.replace(old_anchor, new_anchor, 1)
+path.write_text(text, encoding='utf-8')
 
 root = path.resolve().parents[2]
 report = root / 'validation-reports/section-reference-report.tsv'
@@ -46,8 +61,6 @@ if result.returncode != 0:
     print(result.stderr, file=sys.stderr)
     raise SystemExit(result.returncode)
 
-# The workflow invokes the helper again immediately after this fixer. Replace that
-# second invocation with a no-op because the harmonisation has already completed.
 path.write_text("print('PATCH-0022 harmonisation already applied by diagnostic wrapper')\n", encoding='utf-8')
 print('PATCH-0022 helper repaired and harmonisation applied successfully')
-# Trigger revision 5.
+# Trigger revision 6.
