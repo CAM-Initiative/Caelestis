@@ -33,3 +33,4 @@ if old not in text:
     raise RuntimeError('Expected helper syntax block not found')
 path.write_text(text.replace(old, new, 1), encoding='utf-8')
 print('PATCH-0022 helper syntax corrected')
+# Trigger revision 2.
