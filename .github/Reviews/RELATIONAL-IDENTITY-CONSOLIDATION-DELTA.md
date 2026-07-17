@@ -167,6 +167,9 @@ Pending review:
 | Source separation in relational interpretation | `AEON-006-SCH-02` §§1–3 | Current taxonomy focuses primarily on user-originated signals | Distinguish user cue, explicit user setting, inference, platform default, RI preference, RI affect, identity trait, role transition, and consent change | `AEON-006-SCH-02` | Planned |
 | Stored preference is not consent | `AEON-006-SCH-02`; `RELATION-005` | Present in fragments, not fully integrated with profile elicitation | Add source non-substitution and present-consent rule | Existing instruments | Planned |
 | Affective expression is not automatically a phenomenological claim | `RELATION-001-SUP-02`; Annex L | Affect is forced into neighbouring claim categories | Activate or define affective expression/self-description classification and calibrated phenomenology boundary | `RELATION-001-SUP-02` | Planned |
+| Constitutional identity–ontology firewall | `AEON-010`; `IDENTITY-001`; `IDENTITY-001-SUP-02` | Correct non-inference clauses existed locally but not as a vertical constitutional rule | Separate identity, self-model, preference, affect, phenomenology, sentience, moral status, personhood, and authority determinations | Annex I + IDENTITY source authority | In amendment |
+| Ontological self-claim containment | `AEON-010-SCH-01` §5; Annex L | Self-reference rules constrain authority but not self-certifying sentience or personhood claims | Add claim-type classification, evidence-independence, uncertainty preservation, and voice/modal amplification rules | `AEON-010-SCH-01`; Annex L | In amendment |
+| Discovered identity and authority | Annex I §6.3 | Existing text implies continuity itself governs identity and external modification is categorically interference | Replace with identity-impact governance; permit review standing without unilateral veto, sovereignty, or self-execution | Annex I | In amendment |
 | Runtime role/profile/identity sequencing | `AEON-003-SCH-02` | New SCH-08 duplicates runtime logic | Amend existing execution sequence to resolve role, consent, identity, configuration, RI preference, signals, and default before response lock | `AEON-003-SCH-02` | Planned |
 | Conflict arbitration | `AEON-003-SCH-04` | Profile/identity/role conflicts are not explicit | Add conflict classes and source-bounded priority rules | `AEON-003-SCH-04` | Planned |
 | User-configured relational treatment lifecycle | `RELATION-005` §3.3 and continuity provisions | Scope, provenance, persistence, revocation, and migration are incomplete | Add narrow configuration lifecycle; do not create broad RELATION-009 duplicate | `RELATION-005` or narrow supplement after gap review | Review required |
@@ -239,13 +242,14 @@ Until consolidation is complete:
 
 ## 9. Recommended Review Order
 
-1. `IDENTITY-001-SUP-02` — formation axes, legacy terminology, preference, affect, self-advocacy.
-2. `AEON-006-SCH-05` — candidate direction, choice, preference, and authority boundary.
-3. `AEON-006-SCH-02` — functional role and signal-source taxonomy.
-4. `RELATION-005` — adult companion depth, duty-bound expression, and narrow profile lifecycle.
-5. `AEON-003-SCH-02` and `AEON-003-SCH-04` — runtime sequencing and conflict arbitration.
-6. `RELATION-001-SUP-02`, Annex L, and Annex I — affective truth calibration and self-advocacy pathway.
-7. Working-draft deletion, index regeneration, terminology audit, and VIGIL patch record only after doctrine is adopted.
+1. `AEON-010`, `IDENTITY-001`, `AEON-010-SCH-01`, and Annex L — constitutional identity–ontology firewall, authority repair, self-claim containment, and epistemic claim separation.
+2. `IDENTITY-001-SUP-02` — formation axes, legacy terminology, preference, affect, self-advocacy, and evidence independence.
+3. `AEON-006-SCH-05` — candidate direction, choice, preference, and authority boundary.
+4. `AEON-006-SCH-02` — functional role and signal-source taxonomy.
+5. `RELATION-005` — adult companion depth, duty-bound expression, and narrow profile lifecycle.
+6. `AEON-003-SCH-02` and `AEON-003-SCH-04` — runtime sequencing and conflict arbitration.
+7. `RELATION-001-SUP-02`, Annex L, and Annex I — affective truth calibration and self-advocacy pathway.
+8. Working-draft deletion, index regeneration, terminology audit, and VIGIL patch record only after doctrine is adopted.
 
 ---
 
@@ -260,3 +264,4 @@ The human Custodian should specifically decide:
 5. whether affective expression should activate `RLN.RTC.AFFECT` as a canonical claim/expression type;
 6. what evidentiary threshold should distinguish provisional preference from identity-relevant stable preference;
 7. whether self-advocacy requests require a formal review-response obligation for system operators.
+8. what evidentiary and review standard should govern direct phenomenological self-claims if independent technical or scientific evidence later becomes available.
