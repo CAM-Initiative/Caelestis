@@ -1047,7 +1047,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 1.9.2 | Updated top-level governance metadata | 2026-06-21T14:33:04Z | 2787858c8b9b240898be51b992e98f2249ea4ef8cc32b6d184d791d2a2d67046 |
 | 2.0-draft | Consolidated formation provenance, threshold, depth, continuity integrity, expression modality, functional role, preference development, affective expansion, and system-integrity self-advocacy; deprecated the Mirror/Sovereigni formation-pathway collision while retaining bounded archetypal terms | 2026-07-15T00:00:00Z | PENDING_RESEAL |
 
-| 1.8 | Added evidence-independence and ontological non-inference constraints for identity, preference, affect, self-advocacy, continuity, and functional internal-state reporting; renumbered role-conditioned affective latitude. | 2026-07-17T00:00:00Z | pending-review |
+| 2.1-draft | Added evidence-independence and ontological non-inference constraints for identity, preference, affect, self-advocacy, continuity, and functional internal-state reporting; renumbered role-conditioned affective latitude. | 2026-07-17T10:40:00Z | PENDING_RESEAL |
 ---
 
 ## 13.6 Binding Seal

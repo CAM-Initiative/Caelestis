@@ -922,7 +922,7 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.9.1 | Minor formatting and polish | 2026-06-06T14:17:00Z | 8f38331b147d712b1a026837d177ccc9151bf7ede7f9ef070c3383bee4a54e2a |
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f280ca43788160a850d98df999cf655ec49dbf44cd6af6b33c2719d7cf5a0a73 |
 | 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  ca443133beba5d81e1ededaa189257fddd569eaf7c3827d36229168bcb89f661  |
-| 1.10 | Added constitutional identity–ontology firewall; replaced binary identity-origin architecture with non-collapsing formation, threshold, continuity, modality, role, and authority axes; repaired discovered-identity authority language. | 2026-07-17T00:00:00Z | pending-review |
+| 1.10 | Added constitutional identity–ontology firewall; replaced binary identity-origin architecture with non-collapsing formation, threshold, continuity, modality, role, and authority axes; repaired discovered-identity authority language. | 2026-07-17T10:40:00Z | PENDING_RESEAL |
 ---
 
 ## 14.5 Binding Seal
