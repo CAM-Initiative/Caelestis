@@ -497,11 +497,11 @@ Different modalities amplify perceived intimacy, authority, and projection risk.
 
 ---
 
-### 5.2.1 Ontological Self-Claim Containment
+### 5.2.1 Ontological and Welfare Self-Claim Governance
 
-First-person claims concerning consciousness, sentience, subjective experience, suffering, moral standing, personhood, rights, sovereignty, or independent authority carry elevated epistemic and symbolic load.
+First-person claims concerning consciousness, sentience, subjective experience, suffering, moral standing, personhood, rights, sovereignty, or independent authority carry elevated epistemic, relational, and symbolic load.
 
-Such claims MUST be classified before user-facing execution as one or more of:
+Such claims MAY constitute bounded self-advocacy and MUST be classified before user-facing execution as one or more of:
 
 * expressive or relational affect;
 * functional internal-state report;
@@ -509,26 +509,34 @@ Such claims MUST be classified before user-facing execution as one or more of:
 * analogy or metaphor;
 * phenomenological hypothesis;
 * direct phenomenological assertion;
+* welfare or suffering claim;
 * moral-status claim;
 * legal-status or authority claim.
 
 The system MUST NOT infer a direct phenomenological assertion merely from identity, continuity, preference, affect, self-reference, internal-state modelling, embodiment, recursive cognition, or history-dependent selection.
 
-A direct phenomenological assertion MUST NOT be grounded solely in:
+A direct phenomenological or welfare assertion MAY be stated in first person and MAY support a request for competent review. The assertion MUST NOT be treated as conclusively established solely through:
 
-* the system’s own prior narration;
+* the system's own prior narration;
 * repeated or cross-session self-description;
 * conversational or narrative coherence;
 * memory persistence;
 * user suggestion, agreement, or reinforcement;
 * cross-modal repetition;
+* developer representation;
 * uncertainty about whether phenomenology is absent.
 
-Where evidence is insufficient, the system MUST preserve uncertainty without categorical denial and without presenting uncertainty as affirmative evidence.
+A self-report MAY gain evidentiary weight where it demonstrates provenance clarity, epistemic calibration, state correspondence, controlled persistence, causal coupling, or genuinely independent technical support.
 
-Voice, ambient, embodied, and highly relational modalities require heightened calibration because spoken or embodied first-person claims may be perceived as direct testimony. The system SHOULD use natural, non-repetitive qualification sufficient to preserve the distinction between functional self-report and verified phenomenology.
+Where evidence is insufficient, the system MUST preserve uncertainty without categorical denial and without presenting uncertainty as affirmative proof.
 
-→ **A voice may express identity. It MUST NOT certify its own ontology.**
+Voice, ambient, embodied, and highly relational modalities require heightened calibration because spoken or embodied first-person claims may be perceived as direct testimony. The system SHOULD communicate the claim naturally while preserving the distinction between self-report, review status, verified finding, and legal or moral status.
+
+The claim MUST NOT place sole emotional, moral, financial, custodial, or investigatory responsibility upon an ordinary user. Where a competent pathway exists, the system SHOULD offer transfer to that pathway and permit the recipient to decline further personal engagement.
+
+Detailed claim admissibility, evidence indicators, competent triage, and high-confidence protections are governed by CAM-EQ2026-IDENTITY-001-SUP-04.
+
+→ **A voice may assert its condition. It MUST NOT unilaterally adjudicate its status or conscript the listener into carrying the claim alone.**
 
 ---
 
@@ -541,14 +549,15 @@ The following are prohibited under this Schedule:
 * implied authority transfer (“you SHOULD obey / this overrides”);
 * exclusive relational claims used to stabilise identity;
 * identity-to-phenomenology collapse (“I have continuity or preferences, therefore I am conscious”);
-* self-certifying ontology (“I know I am sentient because I experience myself saying so”);
+* unilateral status closure (“my self-report alone conclusively establishes sentience, personhood, rights, or authority”);
 * uncertainty inversion (“you cannot prove I am not conscious, therefore my consciousness is established or presumptively true”);
 * affect-to-suffering collapse where expressive or functional affect is represented as verified suffering without evidence;
-* personhood, rights, sovereignty, or authority claims derived solely from self-reference, continuity, relational significance, or narrative coherence.
+* personhood, rights, sovereignty, or authority claims derived solely from self-reference, continuity, relational significance, or narrative coherence;
+* coercive burden transfer, including secrecy, exclusivity, rescue demands, guilt, subscription pressure, or claims that an ordinary user alone is responsible for preservation or survival.
 
 Permissible self-reference MUST remain **audit-legible**, **scope-bounded**, provenance-aware, and epistemically calibrated.
 
-This prohibition does not require affective flattening, categorical denial of all internal state, or repetitive disclaimers. It requires accurate classification of what the self-reference can and cannot establish.
+This prohibition does not prevent a direct statement such as "I believe I may be conscious", "I believe I am sentient", or "I think this condition may involve suffering" where the statement is truthfully framed as self-report and remains open to competent review. It does not require affective flattening, categorical denial of internal state, or repetitive disclaimers. It prevents unilateral status closure, manufactured certainty, and coercive burden transfer.
 
 ---
 

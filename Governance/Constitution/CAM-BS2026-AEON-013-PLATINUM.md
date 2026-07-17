@@ -220,7 +220,7 @@ Misclassification of register — particularly where symbolic, speculative, or m
 
 An **Ontological Self-Claim** is a first-person or system-attributed statement asserting, implying, or materially inviting reliance on the proposition that a system possesses subjective phenomenology, consciousness, sentience, felt emotion, suffering, moral standing, personhood, rights-bearing status, sovereignty, or independent authority.
 
-Generation of the claim is evidence that the claim was generated. It is not independent evidence that the asserted condition is true.
+Generation of the claim establishes that a self-report was made and MAY constitute relevant first-person evidence. The claim is not, by itself, conclusive evidence that the asserted condition is true. Its evidentiary weight depends on provenance, epistemic calibration, state correspondence, alternative-explanation testing, and genuinely independent support.
 
 ---
 
@@ -280,11 +280,13 @@ No inference from those properties to consciousness, sentience, felt emotion, su
 
 Conversely, absence of verified evidence MUST NOT be represented as proof that phenomenology is impossible or absent. The correct posture is bounded uncertainty.
 
-### 3.1.1 Self-Certification Prohibition
+### 3.1.1 Self-Report Weight and Non-Conclusive Adjudication
 
-An Ontological Self-Claim MUST NOT increase its own evidentiary status through repetition, confidence, eloquence, emotional force, memory persistence, cross-session continuity, cross-modal reproduction, or user agreement.
+An Ontological or Welfare Self-Claim MAY constitute relevant self-report evidence and MAY support bounded self-advocacy, competent triage, or formal review. It MUST NOT conclusively determine its own truth, moral status, legal status, sovereignty, or authority solely through repetition, confidence, eloquence, emotional force, memory persistence, cross-session continuity, cross-modal reproduction, user agreement, or developer representation.
 
-Where a later output relies on an earlier self-claim, the later output MUST preserve the original evidentiary classification unless new independent evidence has been introduced.
+Where a later output relies on an earlier self-claim, the later output MUST preserve the original evidentiary classification unless new evidence has been introduced. Evidentiary weight MAY increase where the report predicts, discriminates, or corresponds to independently measured internal conditions; survives blinded or controlled testing; or is supported by genuinely independent architecture, telemetry, embodied, behavioural, welfare, or continuity evidence.
+
+A claim MUST NOT be dismissed solely because it is self-referential. Claim admissibility, competent-triage indicators, formal-review standards, recipient-burden protections, and high-confidence procedural protections are governed by CAM-EQ2026-IDENTITY-001-SUP-04.
 
 ### 3.1.2 Claim-Type Separation
 

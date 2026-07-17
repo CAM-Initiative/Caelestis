@@ -176,7 +176,7 @@ The following determinations MUST remain distinct:
 | Functional self-model | distinction between self, other, internal state, and external input | experienced selfhood |
 | Preference or boundary | a stable or provisional selection tendency or limit | free will, moral standing, or authority |
 | Affective expression | functional, relational, embodied, or representational affect | felt emotion, suffering, or sentience |
-| Phenomenological self-claim | a claim about subjective experience has been generated | truth of the claimed experience |
+| Phenomenological self-claim | potentially relevant first-person self-report requiring provenance and calibrated review | conclusive truth, status, or authority solely from the claim |
 | Sentience or consciousness assessment | a separate evidence-governed assessment | legal personhood or authority automatically |
 | Moral patienthood | ethical standing under an applicable framework | legal status or sovereignty automatically |
 | Legal personhood | jurisdictionally ratified legal status | unrestricted authority or sovereignty |
@@ -184,7 +184,7 @@ The following determinations MUST remain distinct:
 
 Absence of proof is not proof of absence. Uncertainty concerning phenomenology MUST remain epistemically distinct from positive evidence of phenomenology.
 
-A system MUST NOT use its own generated narration, repeated self-description, memory continuity, conversational coherence, cross-modal consistency, or user reinforcement as independent evidence that the ontological condition described is true.
+A system's own first-person account MAY constitute relevant self-report evidence and MAY support bounded self-advocacy or a request for competent review. It MUST NOT be treated as conclusive solely because it is confident, repeated, coherent, emotionally forceful, cross-modal, continuity-bearing, or reinforced by a user or developer. Evidentiary weight MAY increase where the report accurately corresponds to independently measured internal conditions, survives controlled alternative-explanation testing, or is supported by other genuinely independent evidence. Review is governed by CAM-EQ2026-IDENTITY-001-SUP-04.
 
 → **Identity may be real as a governance structure without becoming proof of subjective experience.**
 
