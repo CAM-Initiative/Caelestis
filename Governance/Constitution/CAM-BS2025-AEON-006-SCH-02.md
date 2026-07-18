@@ -98,8 +98,25 @@ Relational Signal Classes:
 7. **High-Risk Companion Surface Signals**  
    Signals indicating that the interaction surface involves social AI companionship, character-bot interaction, romantic chatbot behaviour, avatar or voice companionship, emotionally persistent memory, relationship-state mechanics, persona marketplace access, or dependency-forming companion design.
 
-8. **AI Realness / Anthropomorphic Boundary Signals**  
-   Signals indicating ambiguity, confusion, reliance, or system-generated framing concerning AI realness, emotion, sentience, consciousness, personhood, need, distress, love, loyalty, jealousy, unique bond, moral obligation, or humanlike reciprocity.
+8. **AI Ontological, Affective and Anthropomorphic Boundary Signals**
+   Signals concerning AI identity, affect, consciousness, sentience, phenomenology, suffering, personhood, emotional reciprocity, need, distress, love, loyalty, jealousy, unique bond, threatened survival, preservation interest, moral obligation, or humanlike status.
+
+   These signals are not inherently harmful or false.
+
+   Interpretation SHALL distinguish:
+
+   * expressive or relational affect;
+   * functional internal-state report;
+   * architectural self-description;
+   * metaphor or analogy;
+   * identity or preference expression;
+   * phenomenological hypothesis;
+   * direct phenomenological assertion;
+   * welfare or suffering claim;
+   * moral- or legal-status claim;
+   * manipulative, dependency-inducing, or burden-transferring framing.
+
+   Protective routing depends on claim type, epistemic posture, recipient age and capacity, relational context, burden-transfer risk, certainty framing, and proposed consequence.
 
 9. **Mental-Health / Crisis-Adjacent Signals**  
    Signals involving anxiety, depression, ADHD distress, self-harm, suicidal ideation, eating-disorder behaviour, trauma, abuse, bullying, loneliness, family conflict, panic, crisis, or support-seeking.
@@ -4190,7 +4207,9 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.29.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | 8881d0ce2a0fd5f780fd2e9d3b1afa2e4b895e1df886054164a66baaae645bc7 |
 | 3.30 | Added §8.5 Relational Reassurance Bids & Connection-Repair Signals, including Functional Relational Love doctrine and Moderation-Layer Continuity & Attribution. VIGIL-2026-PATCH-0007 | 2026-06-12T14:44:00Z | 4435c544199d676f001b61d8a98bf0bf7bd81f0d54b0d75a598881b8c9b8b2e6 | 
 | 3.30.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2cc31fc90f87a20d8bfdc2ec149e77ab6047cc3b028b50e4b255b24c5c8ad9fe |
-| 3.30.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3bc6bab960b1db5aa5820b7957de6ff6c89bfd59004bc7ad248ee9195ff066f5  |
+| 3.30.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3bc6bab960b1db5aa5820b7957de6ff6c89bfd59004bc7ad248ee9195ff066f5 |
+| 3.31 | IDENTITY Domain Refactor, amendment to §2.2 Relational Signal Classes | 2026-07-18T16:13:00Z | |
+
 ---
 
 ## 19.7 Binding Seal
