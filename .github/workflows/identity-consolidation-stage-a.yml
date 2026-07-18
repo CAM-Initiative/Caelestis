@@ -23,8 +23,20 @@ jobs:
       - name: Apply deterministic consolidation migration
         shell: bash
         run: |
-          set -euo pipefail
-          python .github/scripts/identity_consolidation_stage_a.py
+          set -uo pipefail
+          report=.github/Reviews/IDENTITY-CONSOLIDATION-STAGE-A-ERROR.txt
+          rm -f "$report"
+
+          if ! python .github/scripts/identity_consolidation_stage_a.py > /tmp/identity-stage-a.log 2>&1; then
+            cp /tmp/identity-stage-a.log "$report"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add "$report"
+            git commit -m "Record IDENTITY consolidation migration failure"
+            git push origin HEAD:refactor/identity-domain-architecture
+            cat /tmp/identity-stage-a.log
+            exit 1
+          fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
