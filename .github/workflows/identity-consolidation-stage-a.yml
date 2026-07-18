@@ -12,7 +12,6 @@ permissions:
 
 jobs:
   migrate-and-retire-redundant-profile-stack:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Check out working branch
@@ -252,7 +251,6 @@ jobs:
           text = text.replace(ledger_anchor, ledger_anchor + ledger_row, 1)
           RELATION5.write_text(text, encoding='utf-8')
 
-          # Retire duplicate instruments after migration.
           for path in RETIRED_PATHS:
               if not path.exists():
                   raise SystemExit(f'Retirement target missing: {path}')
@@ -263,7 +261,6 @@ jobs:
               'CAM-EQ2026-IDENTITY-001-SUP-02 — Companion Personality Co‑Formation & Preference Emergence Doctrine',
           )
 
-          # Active prose and Markdown indexes: remove retired instrument lines and migrate stale SUP-02 references.
           for path in list((ROOT / 'Governance').rglob('*.md')) + [ROOT / 'MANIFEST.md']:
               if not path.exists():
                   continue
@@ -305,9 +302,7 @@ jobs:
               if isinstance(value, list):
                   result = []
                   for item in value:
-                      if isinstance(item, dict) and any(
-                          k in identity_keys and contains_retired(v) for k, v in item.items()
-                      ):
+                      if isinstance(item, dict) and any(k in identity_keys and contains_retired(v) for k, v in item.items()):
                           continue
                       cleaned = clean_json(item)
                       if cleaned is not None:
@@ -337,7 +332,6 @@ jobs:
               obj = clean_json(obj)
               path.write_text(json.dumps(obj, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
 
-          # Hard checks for active corpus state.
           for path in RETIRED_PATHS:
               if path.exists():
                   raise SystemExit(f'Retired file still exists: {path}')
