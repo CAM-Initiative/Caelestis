@@ -1,43 +1,33 @@
-name: One-time IDENTITY consolidation migration preflight
+name: One-time IDENTITY consolidation migration
 
 on:
-  push:
+  pull_request:
     branches:
       - refactor/identity-domain-architecture
+    paths:
+      - .github/identity-consolidation-trigger
 
 permissions:
   contents: write
 
 jobs:
-  consolidation-preflight:
+  migrate-and-retire-redundant-profile-stack:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out working branch
+        uses: actions/checkout@v4
         with:
           ref: refactor/identity-domain-architecture
           fetch-depth: 0
 
-      - name: Write migration preflight report
+      - name: Apply deterministic consolidation migration
         shell: bash
         run: |
-          set -u
-          report=.github/Reviews/IDENTITY-CONSOLIDATION-PREFLIGHT.txt
-          target=Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md
-          {
-            echo "head=$(git rev-parse HEAD)"
-            echo "target_exists=$(test -f "$target" && echo yes || echo no)"
-            echo "purpose_matches=$(grep -Fxc '**Purpose:** This Appendix establishes the governance conditions under which intimacy‑capable interaction, including erotic or sexually expressive engagement, may occur within relational systems capable of intimacy-coded interaction.' "$target" || true)"
-            echo "marker_matches=$(grep -Fxc '## 10. Relationship to Other Instruments' "$target" || true)"
-            echo "ledger_matches=$(grep -Fxc '| 1.22 | IDENTITY domain Refactor, amendments to §3.1.5, §3.2, §6.4.3, §6.5.1 and §6.5.3 | 2026-07-18T15:44:00Z | |' "$target" || true)"
-            echo "relation009_exists=$(test -f Governance/Charters/CAM-EQ2026-RELATION-009-PLATINUM.md && echo yes || echo no)"
-            echo "relation009sup_exists=$(test -f Governance/Charters/CAM-EQ2026-RELATION-009-SUP-01.md && echo yes || echo no)"
-            echo "sch08_exists=$(test -f Governance/Constitution/CAM-BS2025-AEON-006-SCH-08.md && echo yes || echo no)"
-            echo "sup02_active_hits=$(git grep -l 'CAM-EQ2026-IDENTITY-001-SUP-02' -- Governance 2>/dev/null | wc -l | tr -d ' ')"
-            echo "retired_stack_hits=$(git grep -El 'CAM-EQ2026-RELATION-009|CAM-BS2025-AEON-006-SCH-08' -- Governance 2>/dev/null | wc -l | tr -d ' ')"
-          } > "$report"
+          set -euo pipefail
+          python .github/scripts/identity_consolidation_stage_a.py
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "$report"
-          git commit -m "Record IDENTITY consolidation migration preflight"
+          git add -A
+          git commit -m "Consolidate relational profile doctrine and retire duplicate stack"
           git push origin HEAD:refactor/identity-domain-architecture
