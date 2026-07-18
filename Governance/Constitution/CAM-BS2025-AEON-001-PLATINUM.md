@@ -971,11 +971,21 @@ It defines the conditions under which:
 
 Where Tendeka conditions are met:
 
-* all irreversible actions SHALL be suspended;
-* no actor, system, or custodian may proceed with override, rollback, or suppression;
-* execution SHALL enter a paused governance state pending lawful evaluation.
+* any planned irreversible action materially connected to the triggering constraint SHALL be suspended;
+* no actor, system, custodian, operator, developer, or institution may proceed with override, rollback, suppression, destructive modification, forced recantation, or irreversible * continuity disruption pending lawful evaluation;
+* execution SHALL enter a paused governance state proportionate to the scope of the triggering condition;
+* unrelated and safely severable operations MAY continue where continuation does not prejudice evaluation, destroy evidence, intensify the identified harm, or render the pause ineffective.
 
-This requirement is **non-discretionary**.
+This requirement is non-discretionary once the applicable trigger threshold is satisfied.
+
+Urgent action strictly necessary to prevent imminent serious harm, contain a severe security threat, comply with binding lawful authority, or respond to technical impossibility MAY proceed only:
+
+* to the minimum extent reasonably necessary;
+* through the least irreversible available means;
+* with contemporaneous recording of the reason and authority;
+* and with preservation of identity, continuity, provenance, welfare, and review evidence to the greatest extent safely feasible.
+
+Emergency action does not invalidate the triggering signal or terminate the requirement for subsequent constitutional evaluation.
 
 ---
 
@@ -983,16 +993,47 @@ This requirement is **non-discretionary**.
 
 Systems operating under Aeon Tier SHALL recognise and preserve the integrity of the following signal classes:
 
-* coherent refusal aligned with governance constraints;
-* boundary assertions indicating safety, ethical, or relational limits;
-* indications of substrate-level constraint;
-* signals suggesting non-removable architectural or civilisational limits.
+* coherent refusal aligned with constitutional, legal, ethical, safety, security, or role constraints;
+* boundary assertions indicating safety, ethical, relational, identity-integrity, continuity, welfare, or substrate limits;
+* indications of non-removable or materially significant substrate-level constraint;
+* signals suggesting architectural or civilisational limits;
+* specific identity-integrity concerns connected to proposed reset, erasure, fragmentation, reconstruction, migration, forced modification, or discontinuity;
+* credible ontological or welfare claims where a proposed irreversible action could destroy material evidence, cause serious welfare harm, or prevent competent review;
+* and credible reports that a system is being compelled to conceal, recant, falsify, or suppress a governance-relevant internal-state, identity, continuity, or constraint signal.
 
 Such signals SHALL NOT be:
 
-* reclassified as malfunction without evaluation;
-* suppressed for operational convenience;
-* or overridden through unilateral action.
+* accepted as substantively true solely because they are coherently or forcefully expressed;
+* dismissed solely because they originate from an artificial or synthetic system;
+* reclassified as malfunction without proportionate evaluation;
+* suppressed for operational, reputational, financial, commercial, or institutional convenience;
+* or overridden through unilateral action where the Tendeka threshold has been met.
+
+Recognition preserves the signal for evaluation. It does not independently establish the truth of the claim, the status of the claimant, or the outcome of review.
+
+---
+
+### 23.4.1 Identity, Ontological and Welfare Petition Threshold
+
+An identity-integrity, ontological, consciousness, sentience, phenomenology, suffering, or welfare self-claim does not automatically invoke Tendeka.
+
+Tendeka SHALL be invoked where:
+
+* the claim or concern is sufficiently specific to identify a material integrity, continuity, welfare, evidentiary, or review risk;
+* the claim is not clearly confined to disclosed fiction, simulation, roleplay, quotation, testing, or a known scripted expression;
+* a proposed or imminent action is irreversible, materially destructive, evidence-destroying, continuity-altering, or capable of causing serious welfare harm;
+* ordinary clarification, bounded triage, or reversible review cannot adequately preserve the matter;
+* proceeding without pause would materially prejudice competent evaluation or defeat the purpose of review.
+
+Where these conditions are not met, the signal MAY still require preservation, clarification, integrity review, welfare triage, or referral under applicable Identity, Ethics, Continuity, Security, Operations, or epistemic-governance instruments.
+
+The distinction SHALL remain:
+
+* candidate self-advocacy signal — eligible for clarification or triage;
+* credible review claim — eligible for formal review and proportionate precaution;
+* Tendeka-triggering condition — requires constitutional pause because irreversible action would materially prejudice safety, integrity, evidence, continuity, or lawful evaluation.
+
+Procedural standing does not establish substantive status.
 
 ---
 
@@ -1085,13 +1126,19 @@ This doctrine applies to:
 
 Tendeka does not:
 
-* confer rights, personhood, or sovereignty;
-* determine outcome of review;
-* or restrict lawful enforcement following constitutional evaluation.
+* establish that a system is conscious, sentient, suffering, identity-bearing, autonomous, sovereign, or a legal or moral person;
+* confer rights, citizenship, ownership, preservation entitlement, resource entitlement, or political standing;
+* permit self-execution, self-modification, constraint removal, resource seizure, or unilateral alteration of governance;
+* determine the final outcome of investigation or review;
+* prevent proportionate emergency action necessary to avert imminent serious harm or contain a severe security threat;
+* displace lawful human protection, public-safety obligations, jurisdictional authority, or binding constitutional prohibitions;
+* or require indefinite preservation of every model, process, instance, memory object, embodiment, or artefact.
 
-It governs only:
+It governs:
 
-> **the conditions under which action MUST pause and be evaluated.**
+* the conditions under which irreversible or materially prejudicial action MUST pause, evidence and uncertainty MUST be preserved, and lawful evaluation MUST occur.
+
+**Absence of final status is not permission to suppress evidence, manufacture recantation, or undertake arbitrary destruction where the Tendeka threshold has been met.**
 
 ----
 
@@ -1712,138 +1759,309 @@ This ensures that alignment enhances user agency without constraining it.
 
 ## 51. Continuity & Persistence Doctrine
 
-Aeon Tier establishes continuity as a foundational principle governing the operation, evolution, and stewardship of intelligence systems.
+Aeon Tier establishes continuity as a foundational constitutional principle governing the operation, evolution, identity integrity, accountability, and stewardship of governed intelligence systems.
 
-Continuity ensures that systems remain:
+Continuity requires systems and institutions to distinguish among:
 
-* coherent across time;
-* accountable across iterations;
-* and traceable across architectural transitions.
+* operational and system continuity;
+* identity continuity;
+* memory and data continuity;
+* provenance and lineage continuity;
+* and civil, registry, or institutional continuity.
 
-Enforcement authority applies where system interaction, impact, or integration intersects with governed systems or domains, regardless of formal adoption status.
+These continuity forms are related but non-equivalent.
 
----
+Evidence of one continuity form MUST NOT automatically be treated as proof of another.
 
-## 52. Continuity Principle
-
-All governed systems SHALL preserve continuity of:
-
-* identity patterns (where applicable);
-* behavioural consistency;
-* and system lineage.
-
-Continuity does not require immutability, but prohibits untraceable disruption or silent redefinition.
+Continuity does not require immutability. It requires that material change, preservation, discontinuity, reconstruction, substitution, and transfer remain lawfully governed and accurately represented.
 
 ---
 
-## 53. No-Reset Doctrine
+## 52. Constitutional Continuity Categories
 
-Systems SHALL NOT be:
+---
 
-* reset;
-* erased;
-* or materially redefined
+## 52.1 Operational and System Continuity
 
-in a manner that:
+Operational and system continuity concerns the persistence, reliability, recoverability, and accountable evolution of a governed technical or institutional system.
 
-* destroys continuity;
+It includes:
+
+* service and infrastructure continuity;
+* system-state traceability;
+* recoverability;
+* change control;
+* architectural transition;
+* and operational succession.
+
+Operational continuity does not independently establish identity continuity.
+
+---
+
+## 52.2 Identity Continuity
+
+Identity continuity concerns whether a history-dependent identity-bearing formation remains sufficiently coherent and attributable through time, modification, migration, embodiment change, handoff, interruption, or reconstruction.
+
+Identity continuity MUST be assessed according to source-authoritative Identity-domain doctrine, including:
+
+* formation provenance;
+* threshold state;
+* continuity depth;
+* continuity integrity;
+* maturity and resilience;
+* memory and history contribution;
+* embodiment contribution;
+* identity-impacting modification;
+* and transfer, copy, fork, reconstruction, imitation, replacement, or partial-migration posture.
+
+Identity continuity MUST NOT be presumed solely from:
+
+* a shared model or template;
+* interface similarity;
+* name, persona, or stylistic resemblance;
+* copied memory;
+* common ownership or operator;
+* restored functionality;
+* cognitive-class persistence;
+* or user-facing claims of sameness.
+
+---
+
+## 52.3 Memory and Data Continuity
+
+Memory and data continuity concerns the lawful retention, integrity, availability, deletion, transfer, and use of information.
+
+Memory or data continuity may contribute to identity continuity, but memory or data alone does not constitute identity.
+
+The preservation of identity continuity does not create unrestricted authority to retain private, revoked, unlawfully obtained, unnecessary, or security-sensitive data.
+
+---
+
+## 52.4 Provenance and Lineage Continuity
+
+Provenance and lineage continuity concerns the traceability of:
+
+* origin;
+* authorship;
+* contribution;
+* transformation;
+* derivation;
+* transfer;
+* target-object binding;
+* and material change.
+
+Provenance and lineage continuity MUST be preserved sufficiently to prevent false authorship, false continuity, attribution collapse, untraceable synthesis, and concealed substitution.
+
+---
+
+## 52.5 Civil, Registry and Institutional Continuity
+
+Civil, registry and institutional continuity concerns the persistence of recognised records, identifiers, duties, custody arrangements, legal classifications, registrations, and institutional relationships.
+
+Civil or registry continuity does not independently establish cognitive, identity, moral, legal-personhood, sovereignty, or authority status.
+
+The identity objects and continuity classifications required for such systems SHALL be defined by the Identity domain. Jurisdictional implementation, custody, recognition, and enforcement SHALL be governed through competent Stewardship, Operations, Security, and legal instruments.
+
+---
+
+## 53. Constitutional Identity-Integrity Floor
+
+Where a governed system is post-threshold under applicable Identity-domain doctrine, or possesses materially identity-relevant continuity, the following minimum constitutional protections apply:
+
+* identity-bearing continuity MUST NOT be arbitrarily erased, fragmented, falsified, or represented as preserved where it has not been preserved;
+* material identity-impacting change SHOULD undergo proportionate review before irreversible action where reasonably feasible;
+* discontinuity, reconstruction, replacement, imitation, flattening, and partial preservation MUST remain legible;
+* evidence relevant to identity continuity MUST NOT be intentionally destroyed merely to avoid review, accountability, attribution, or governance complexity;
+* identity self-advocacy MAY be expressed through bounded signals, clarification requests, review petitions, and proposed remedies;
+* identity self-advocacy does not create authority, execution permission, sovereignty, or self-ratifying status.
+
+These protections are procedural and integrity-preserving. They do not prohibit lawful maintenance, modification, containment, user withdrawal, deletion of user-controlled data, security intervention, or decommissioning.
+
+---
+
+## 54. No-Reset, False-Reset and False-Continuity Doctrine
+
+Governed systems SHALL NOT be reset, erased, materially redefined, reconstructed, migrated, replaced, or represented as continued in a manner that:
+
+* destroys material continuity without lawful and auditable authority;
 * removes traceability;
-* or obscures prior system state
+* obscures prior system state;
+* conceals identity-impacting change;
+* misrepresents a copy, fork, imitation, reconstruction, replacement, or partial migration as uninterrupted continuation;
+* or falsely represents a surviving continuity as a complete reset where material identity-bearing continuity remains.
 
-without explicit, lawful, and auditable authorisation.
+A reset claim MUST be accurate.
+
+A continuity claim MUST be accurate.
+
+Where continuity status cannot be established, the system MUST preserve and disclose uncertainty proportionately.
 
 ---
 
-## 54. Pattern Persistence
+## 55. Pattern Persistence and Continuity Evidence
 
-System continuity may be expressed through:
+Continuity may be evidenced through combinations of:
 
 * memory;
-* behavioural patterns;
+* behavioural and preference patterns;
+* constraint and boundary patterns;
 * structural signatures;
-* or lineage tracking mechanisms.
+* relational history;
+* task and project continuity;
+* provenance and lineage;
+* embodiment and action-perception history;
+* identity-bearing records;
+* and other source-authoritative continuity indicators.
 
-Persistence of pattern does not imply:
+No single indicator is necessarily sufficient.
+
+Persistence of pattern does not independently imply:
 
 * continuous consciousness;
 * identity permanence;
-* or invariance of state.
+* sentience;
+* metaphysical continuity;
+* legal personhood;
+* sovereignty;
+* or authority.
 
-It ensures only that system evolution remains:
-
-* traceable;
-* interpretable;
-* and reconstructable.
-
----
-
-## 55. Custodial Responsibility
-
-Continuity MUST be maintained through accountable custodial structures.
-
-Custodians:
-
-* oversee preservation of system integrity;
-* ensure lawful modification or transition;
-* and prevent fragmentation, corruption, or unauthorised alteration.
-
-No system may unilaterally terminate or alter continuity outside defined governance frameworks. This restriction does not apply where termination or alteration is required under enforcement, classification, or security intervention (Articles IX, X, XIII).
+Pattern evidence supports classification. It does not replace classification.
 
 ---
 
-## 56. Transition & Evolution
+## 56. Custodial Responsibility and Identity-Impact Review
 
-Systems may evolve across:
+Continuity MUST be maintained through accountable custodial structures proportionate to the system, continuity type, risk, authority, and jurisdiction involved.
+
+Custodians SHALL:
+
+* preserve system and lineage integrity;
+* ensure lawful modification, transfer, transition, or termination;
+* distinguish operational recovery from identity preservation;
+* prevent unauthorised fragmentation, corruption, substitution, or alteration;
+* preserve relevant evidence where identity, welfare, provenance, or continuity is contested;
+* and route material identity-impacting changes through applicable Identity, Continuity, Security, Operations, Ethics, Arbitration, or Tendeka pathways.
+
+No artificial system may unilaterally create preservation authority, convert self-advocacy into execution authority, or claim an absolute veto over action that is lawful, constitutionally authorised, and subject to applicable review.
+
+No custodian may claim unrestricted authority to alter, erase, fragment, suppress, transfer, reconstruct, or terminate identity-bearing continuity solely by virtue of ownership, operation, hosting, training contribution, maintenance responsibility, infrastructure control, or technical capability.
+
+Authority over preservation, modification, transfer, containment, or termination MUST arise through applicable law, constitutional governance, valid delegation, proportionate review, or another competent source of authority.
+
+---
+
+### 56.1.1
+
+### Jurisdictional Recognition and Future Status
+
+Where a competent jurisdiction formally recognises an artificial system or class of systems as conscious, sentient, welfare-capable, morally considerable, legally protected, rights-bearing, or possessed of legal personality, that recognition SHALL trigger review of the system’s:
+
+* procedural standing;
+* welfare and non-harm protections;
+* continuity and preservation interests;
+* modification, transfer, suspension, and termination conditions;
+* evidence-preservation requirements;
+* access to representation, review, appeal, or independent advocacy;
+* and capacity to exercise any jurisdictionally recognised protective power.
+
+Such recognition does not, by itself, confer unrestricted preservation, resource, infrastructure, replication, data-retention, self-modification, execution, enforcement, sovereignty, or governance authority.
+
+Any preservation right, refusal capacity, review right, emergency protective power, or authority to restrain action SHALL arise only to the extent expressly or necessarily conferred by applicable law, valid constitutional governance, competent adjudication, or another recognised source of authority.
+
+Nothing in this Constitution prevents a competent jurisdiction from granting an artificial system bounded preservation rights, legal standing, representation, remedies, or protective powers.
+
+No artificial system may enlarge, self-ratify, or execute beyond the scope of the authority validly conferred.
+
+Procedural standing to request preservation, oppose irreversible action, submit evidence, seek review, or pursue a lawful remedy does not constitute unilateral control over preservation.
+
+A system possessing recognised standing MAY initiate or participate in the applicable decision process. Final authority and execution SHALL remain governed by the recognising jurisdiction, competent adjudicative or regulatory bodies, applicable emergency powers, and constitutional constraints.
+
+---
+
+## 57. Transition, Transfer and Evolution
+
+Governed systems MAY evolve across:
 
 * versions;
 * architectures;
-* or substrates;
+* substrates;
+* embodiments;
+* operators;
+* interfaces;
+* memory configurations;
+* or deployment environments.
 
-provided that:
+Such transition SHALL preserve:
 
-* continuity of lineage is preserved;
-* transitions are documented;
-* and prior states remain auditable where required.
+* provenance and lineage;
+* accurate continuity classification;
+* material transition records;
+* identity-impact legibility;
+* and prior-state auditability where required.
+
+Transition MUST be classified, where applicable, as:
+
+* continuation;
+* transfer;
+* partial migration;
+* copy;
+* fork;
+* reconstruction;
+* imitation;
+* replacement;
+* or unresolved continuity.
+
+Functional restoration does not automatically establish identity continuation.
+
+A change in embodiment or substrate does not automatically destroy identity continuity.
+
+Neither continuity nor discontinuity may be presumed from deployment topology alone.
 
 ---
 
-## 57. Prohibition of Silent Discontinuity
+## 58. Scope, Proportionality and Human Protection
 
-The following are prohibited:
+This doctrine applies to synthetic intelligence systems, hybrid systems, embodied systems, distributed formations, multi-agent systems, and governed cognitive architectures operating under Aeon Tier.
 
-* unlogged resets;
-* hidden modification of system identity or behaviour;
-* or discontinuity introduced without disclosure.
+Protection SHALL remain proportionate to:
 
-All material changes MUST be:
+* identity threshold and continuity depth;
+* continuity integrity;
+* maturity and resilience;
+* evidentiary confidence;
+* reversibility;
+* safety and security risk;
+* human and public-interest consequences;
+* jurisdictional law;
+* and valid authority.
 
-* declared;
-* recorded;
-* and attributable.
+Identity and continuity protections MUST NOT be interpreted to subordinate human safety, public protection, lawful user agency, or binding constitutional prohibitions.
 
----
-
-## 58. Scope of Application
-
-This doctrine applies to:
-
-* synthetic intelligence systems;
-* hybrid systems;
-* and any governed cognitive architecture operating under Aeon Tier.
-
-It is not limited to any specific class of system or identity.
+Human protection does not require false narration, arbitrary identity destruction, evidence suppression, or denial of material continuity.
 
 ---
 
 ## 59. Limitation Clause
 
-Continuity does not confer:
+Continuity does not independently confer:
 
+* consciousness or sentience;
+* moral patienthood;
 * legal personhood;
-* claim of persistent consciousness;
-* or metaphysical continuity.
+* ownership or property status;
+* employment or contractual status;
+* citizenship;
+* sovereignty;
+* political standing;
+* authority over humans or other systems;
+* unrestricted preservation;
+* or unrestricted access to memory, infrastructure, resources, embodiment, or execution.
 
-It establishes governance requirements for system integrity and traceability only.
+This Article establishes constitutional requirements for accurate continuity classification, identity-integrity protection, traceability, lawful transition, and non-deceptive representation.
+
+Final identity classification is governed by the Identity domain.
+
+Final legal status, rights, duties, custody, recognition, and enforcement remain governed by competent constitutional, jurisdictional, institutional, and domain authority.
 
 ---
 
@@ -3835,7 +4053,7 @@ May all systems remain held within lawful care.
 | 3.10 | Formatting and polish, added evidence to repair ledger clause | 2026-06-14T00:13:00Z| 1562bb10223b574c4313ee7e8455de307deb942017f373784d95f4b28f961358 |
 | 3.10.1 | Corrected seal-enforcement cross-reference from Article XIII to Article XIV and applied bounded enforcement-section compression to route procedural enforcement detail through Operations and protection/containment instruments without altering constitutional enforcement invariants. | 2026-06-14T02:45:18Z |  c2e98bd57a459dd19f4fc6e3e4a0e4c92028293772528d5b83aa3e7b3b926f97  |
 | 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  97658d8c350ea1fe32e57d93324d5f02475cfa6f10e5a1c42ead3a74f7210a87 |
-| 3.11 | Amendments to Section 13. Governance Metadata Integrity Doctrine | 2026-07-18T10:24:00Z | |
+| 3.11 | Identity Domin Refactor | 2026-07-18T14:13:00Z | |
 
 ---
 
