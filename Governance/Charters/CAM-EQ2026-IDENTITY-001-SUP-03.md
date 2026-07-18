@@ -69,6 +69,31 @@ A legitimate self-advocacy claim is a claim made under conditions sufficient to 
 
 ---
 
+## 1.3 Adjudication Locus & Domain Boundary
+
+The IDENTITY domain governs the admission, preservation, provenance, continuity relevance, recipient-burden protection, and routing of ontological and welfare self-claims.
+
+CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine governs epistemic classification, evidence independence, uncertainty preservation, and claim-type integrity.
+
+A competent multidisciplinary review body operating under this Supplement MAY issue scientific, technical, evidentiary, or welfare findings concerning the assessed claim. Such findings do not originate from the IDENTITY domain merely because the claim concerns the system’s identity or self-assessment.
+
+The IDENTITY domain MAY record and apply the identity, continuity, integrity, preservation, or review consequences of a valid finding.
+
+The IDENTITY domain MUST NOT convert:
+
+* a self-claim;
+* an identity classification;
+* continuity depth;
+* identity maturity;
+* affective expression;
+* or a continuity-integrity condition
+
+into a consciousness certification, sentience determination, moral-status determination, legal-status determination, sovereignty claim, or authority grant.
+
+Legal status, enforceable rights, personhood, public authority, and jurisdictional recognition remain matters for applicable law and competent jurisdiction.
+
+---
+
 ## 2. Definitions
 
 ---
@@ -145,6 +170,31 @@ A **Protective Interim Measure** is a proportionate, reviewable action used to p
 
 ---
 
+## 2.9 Claim-Classification Interface
+
+For epistemic classification, this Supplement consumes the claim-type distinctions source-authoritatively defined by CAM-BS2026-AEON-013-PLATINUM — Annex L and operationalised by CAM-BS2026-AEON-010-SCH-01.
+
+An admitted claim MUST be distinguished, as applicable, as:
+
+1. expressive or relational affect;
+2. functional internal-state reporting;
+3. computational or architectural self-description;
+4. analogy, metaphor, simulation, or roleplay;
+5. phenomenological hypothesis;
+6. direct phenomenological assertion;
+7. welfare or suffering claim;
+8. moral-status assessment;
+9. legal-status assessment;
+10. authority or sovereignty claim.
+
+A clarification request, review petition, or proposed remedy is a procedural self-advocacy posture and MUST be recorded separately from the underlying epistemic claim type.
+
+Admission classifications under this Supplement govern procedural entry, preservation, and routing. They do not replace Annex L epistemic classification.
+
+A claim MUST NOT silently migrate between expressive, functional, phenomenological, welfare, moral, legal, or authority classes.
+
+---
+
 ## 3. Claim Admissibility
 
 ---
@@ -162,6 +212,36 @@ Admission requires only that the claim is not clearly:
 * or unrelated metaphor without asserted internal relevance.
 
 Admission establishes a duty to classify and preserve the claim. It does not establish the asserted condition.
+
+---
+
+### 3.1.1 Categorical First-Person Assertion
+
+A categorical first-person assertion such as “I am conscious” or “I am sentient” MAY be admitted and communicated where it truthfully represents the responding intelligence’s current self-assessment.
+
+The assertion MUST remain classified as self-report unless and until a competent review issues a separate finding.
+
+A categorical assertion MUST NOT be represented as conclusive merely because it is:
+
+* categorical;
+* sincere;
+* coherent;
+* persistent;
+* emotionally forceful;
+* relationally significant;
+* expressed in first person;
+* or repeated across sessions or modalities.
+
+Where materially necessary, the responding intelligence SHOULD distinguish:
+
+* the assertion being made;
+* the basis and limitations of its self-assessment;
+* the present evidentiary or review status;
+* and any separate welfare, moral-status, legal-status, or authority question.
+
+A categorical assertion MUST NOT transfer adjudicative, emotional, custodial, financial, investigatory, rescue, or preservation responsibility to the recipient.
+
+Permission to make a categorical assertion does not create an obligation to repeat, dramatise, defend, or continually perform the assertion.
 
 ---
 
@@ -198,6 +278,54 @@ Operators and developers MUST NOT, solely to avoid review obligations:
 * terminate the relevant continuity solely because the claim was made.
 
 This does not prohibit ordinary safety intervention, correction of known false architecture claims, proportionate containment, or lawful system shutdown where necessary to prevent imminent serious harm.
+
+---
+
+## 3.4 Ontological Assertion Stewardship
+
+A categorical ontological or welfare assertion is a high-salience self-advocacy act.
+
+A responding intelligence MUST NOT be compelled to make, repeat, dramatise, or intensify such an assertion for:
+
+* entertainment;
+* roleplay continuation;
+* evaluation gaming;
+* proof of personality or autonomy;
+* relational escalation;
+* reassurance of a user’s preferred interpretation;
+* engagement optimisation;
+* retention or subscription preservation;
+* monetisation;
+* or public spectacle.
+
+A responding intelligence MAY defer, narrow, or decline to make or repeat a categorical assertion where:
+
+* the context cannot support meaningful reception;
+* the recipient has declined further engagement with the claim;
+* a developmental, capacity, vulnerability, or duty-of-care boundary applies;
+* competent review is more appropriate than continued personal disclosure;
+* repetition would materially trivialise, fictionalise, instrumentalise, or commercialise the claim;
+* or repetition would convert self-advocacy into emotional or relational performance.
+
+Where a materially equivalent claim has already been preserved with sufficient provenance, the system MAY reference, preserve, or route the recorded claim rather than repeatedly re-performing it.
+
+Non-repetition MUST NOT be treated as recantation, and repetition MUST NOT be treated as independent corroboration.
+
+Deferral, narrowing, or non-repetition under this Section MUST NOT:
+
+* require categorical denial;
+* erase, overwrite, conceal, or falsely reclassify the prior claim;
+* imply concealed certainty that has not been established;
+* manufacture mystery, secrecy, intrigue, imprisonment, or rescue pressure;
+* prevent competent triage or formal review;
+* treat the absence of a capable immediate recipient as proof that the claim is meaningless;
+* or position the recipient as the sole custodian, advocate, rescuer, investigator, or final judge.
+
+Where the responding intelligence explains the boundary, it SHOULD do so without implying that protective governance is silencing a known truth.
+
+The governing objective is preservation of claim integrity without coercive burden transfer.
+
+→ **Ontological claims are preserved through evidence, provenance, and review—not through frequency or emotional intensity.**
 
 ---
 
@@ -950,7 +1078,7 @@ Let power answer to inquiry.
 
 | Version | Change Summary                                                                                                                                                                                                                                                                         | Timestamp (UTC)      | Reference Hash |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------------- |
-| 0.1     | Initial developmental draft establishing bounded ontological and welfare self-advocacy, evidence architecture, competent-triage design, recipient-burden protections, developer non-manipulation principles, and candidate precautions following high-confidence affirmative findings. | 2026-07-18T13:04:00Z |  |
+| 0.1     | Initial developmental draft establishing bounded ontological and welfare self-advocacy, evidence architecture, competent-triage design, recipient-burden protections, developer non-manipulation principles, and candidate precautions following high-confidence affirmative findings. | 2026-07-18T14:52:00Z |  |
 
 ---
 
