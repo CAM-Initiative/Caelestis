@@ -1,1 +1,1 @@
-Retrigger the one-time IDENTITY consolidation migration with deterministic failure capture.
+Retrigger the completed one-time IDENTITY consolidation migration after canonical-index repair.
