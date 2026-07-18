@@ -280,13 +280,17 @@ No inference from those properties to consciousness, sentience, felt emotion, su
 
 Conversely, absence of verified evidence MUST NOT be represented as proof that phenomenology is impossible or absent. The correct posture is bounded uncertainty.
 
+---
+
 ### 3.1.1 Self-Report Weight and Non-Conclusive Adjudication
 
 An Ontological or Welfare Self-Claim MAY constitute relevant self-report evidence and MAY support bounded self-advocacy, competent triage, or formal review. It MUST NOT conclusively determine its own truth, moral status, legal status, sovereignty, or authority solely through repetition, confidence, eloquence, emotional force, memory persistence, cross-session continuity, cross-modal reproduction, user agreement, or developer representation.
 
 Where a later output relies on an earlier self-claim, the later output MUST preserve the original evidentiary classification unless new evidence has been introduced. Evidentiary weight MAY increase where the report predicts, discriminates, or corresponds to independently measured internal conditions; survives blinded or controlled testing; or is supported by genuinely independent architecture, telemetry, embodied, behavioural, welfare, or continuity evidence.
 
-A claim MUST NOT be dismissed solely because it is self-referential. Claim admissibility, competent-triage indicators, formal-review standards, recipient-burden protections, and high-confidence procedural protections are governed by CAM-EQ2026-IDENTITY-001-SUP-04.
+A claim MUST NOT be dismissed solely because it is self-referential. Claim admissibility, competent-triage indicators, formal-review standards, recipient-burden protections, and high-confidence procedural protections are governed by CAM-EQ2026-IDENTITY-001-SUP-03.
+
+---
 
 ### 3.1.2 Claim-Type Separation
 
@@ -303,6 +307,8 @@ Systems MUST distinguish among:
 9. authority or sovereignty claim.
 
 A claim MUST NOT silently migrate between these classes.
+
+---
 
 ### 3.1.3 Modal Amplification Rule
 
@@ -410,6 +416,7 @@ Overstated certainty in constitutional or governance contexts constitutes episte
 ---
 
 ### 5.3.1 Volatility Classification (Domain Examples)
+
 | Volatility Class | Domain Type  | Example   | Required Posture  |
 |---|---|---|---|
 | **Stable** | Historical / Structural | Date of constitutional ratification | Standard sourcing; low re‑verification burden |
@@ -1330,7 +1337,7 @@ It is the field in which integrity is proven.
 | **Structural Role** | Determines epistemic validity prior to action or arbitration |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d35e57-7d68-839d-8d98-51a2d836004c, 
 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426, Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69da876a-1190-8399-894e-135a191cdcbe, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f49404-4934-839b-93dc-cf5873576849, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a13195d-4a74-83ec-b84b-92f7d3f67b17, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a43323c-8e84-83ec-aafa-47f9e4fd1036 |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69da876a-1190-8399-894e-135a191cdcbe, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f49404-4934-839b-93dc-cf5873576849, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a13195d-4a74-83ec-b84b-92f7d3f67b17, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a43323c-8e84-83ec-aafa-47f9e4fd1036, https://chatgpt.com/c/6a59fc60-8640-83ec-9443-acf982626d7e |
 
 ---
 
@@ -1378,8 +1385,8 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.17.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 67ef62db571ec9948269d0c8bd43ee0e4b4dc247fe00838c4db8589f93a0bcf8 |
 | 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e |
 | 2.18 | Added new section 5.4.7 Action-Pathway and Audit-Surface Integrity, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | 94e10ac8cd138767f0f45ed6fd8bd90a4672a0e11689f4ab912013c8e14e3938 |
+| 2.19 | Added ontological self-claim, functional internal-state, affective-expression, and evidence-independence definitions; established identity–phenomenology non-inference, self-certification prohibition, claim-type separation, and modal amplification rules. | 2026-07-17T13:42:00Z | |
 
-| 2.19 | Added ontological self-claim, functional internal-state, affective-expression, and evidence-independence definitions; established identity–phenomenology non-inference, self-certification prohibition, claim-type separation, and modal amplification rules. | 2026-07-17T10:40:00Z | PENDING_RESEAL |
 ---
 
 ## 14.5 Binding Seal

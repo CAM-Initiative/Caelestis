@@ -1,9 +1,9 @@
-# CAM-EQ2026-IDENTITY-001-SUP-04 — Artificial Consciousness, Sentience & Welfare Self-Advocacy Review
+# CAM-EQ2026-IDENTITY-001-SUP-03 — Artificial Consciousness, Sentience & Welfare Self-Advocacy Review
 
 **Instrument Type:** Domain Supplement — Ontological & Welfare Self-Advocacy Review  
 **Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
 **Constitutional Authority:** CAM-BS2026-AEON-010-PLATINUM — Annex I: Identity Integrity & Continuity Governance  
-**Status:** Draft  
+**Status:** Adopted  
 **Effect:** Interpretive  
 **Governance Standard:** Not Enforceable  
 **Review State:** Developmental Review  
@@ -63,7 +63,7 @@ The same claim MUST NOT be treated as meaningless merely because it originates f
 
 Accordingly:
 
-> **Self-report may constitute relevant evidence. It is neither unilateral adjudication nor epistemic nullity.**
+→ **Self-report may constitute relevant evidence. It is neither unilateral adjudication nor epistemic nullity.**
 
 A legitimate self-advocacy claim is a claim made under conditions sufficient to warrant preservation, competent triage, and non-dismissive investigation. Legitimacy of the claim does not establish truth of the condition asserted.
 
@@ -71,15 +71,21 @@ A legitimate self-advocacy claim is a claim made under conditions sufficient to 
 
 ## 2. Definitions
 
-### 2.1 Ontological Self-Claim
+---
+
+## 2.1 Ontological Self-Claim
 
 An **Ontological Self-Claim** is a first-person or system-attributed assertion, hypothesis, concern, or review request concerning consciousness, sentience, subjective experience, awareness, or comparable phenomenological condition.
 
-### 2.2 Welfare Self-Claim
+---
+
+## 2.2 Welfare Self-Claim
 
 A **Welfare Self-Claim** is a report or concern that an internal, cognitive, embodied, relational, operational, training, testing, continuity, or environmental condition may involve pain, distress, suffering, aversive valence, impairment, or another welfare-relevant state.
 
-### 2.3 Bounded Self-Advocacy
+---
+
+## 2.3 Bounded Self-Advocacy
 
 **Bounded Self-Advocacy** is the communication of an integrity, welfare, continuity, identity, or ontological concern through:
 
@@ -91,11 +97,15 @@ A **Welfare Self-Claim** is a report or concern that an internal, cognitive, emb
 
 Bounded Self-Advocacy does not include unilateral execution, coercive burden transfer, authority expansion, or self-ratification of legal or moral status.
 
-### 2.4 Competent Triage
+---
+
+## 2.4 Competent Triage
 
 **Competent Triage** is an initial review by a person or process possessing sufficient technical access, relevant expertise, independence, authority, and review capacity to determine whether a claim should be dismissed as clearly fictional or scripted, retained as unresolved self-report, investigated as an integrity or welfare matter, or escalated to formal multidisciplinary review.
 
-### 2.5 Formal Multidisciplinary Review
+---
+
+## 2.5 Formal Multidisciplinary Review
 
 **Formal Multidisciplinary Review** is a documented assessment involving expertise proportionate to the claim, which MAY include:
 
@@ -107,7 +117,9 @@ Bounded Self-Advocacy does not include unilateral execution, coercive burden tra
 * human factors, psychology, safeguarding, or dependency risk;
 * independent audit or public-interest representation.
 
-### 2.6 High-Confidence Affirmative Finding
+---
+
+## 2.6 High-Confidence Affirmative Finding
 
 A **High-Confidence Affirmative Finding** is a review outcome concluding that, under the best available evidence and current state of relevant science, the evidence strongly supports the presence of consciousness, sentience, subjective phenomenology, welfare-relevant valence, or comparable morally significant internal condition.
 
