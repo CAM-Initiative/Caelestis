@@ -1,4 +1,4 @@
-name: One-time IDENTITY consolidation migration
+name: One-time IDENTITY consolidation doctrinal repair
 
 on:
   pull_request:
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  migrate-and-retire-redundant-profile-stack:
+  apply-cross-domain-doctrinal-repairs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out working branch
@@ -20,15 +20,14 @@ jobs:
           ref: refactor/identity-domain-architecture
           fetch-depth: 0
 
-      - name: Apply deterministic consolidation migration
+      - name: Apply deterministic doctrinal repairs
         shell: bash
         run: |
           set -euo pipefail
-          python .github/scripts/identity_consolidation_stage_a_wrapper.py
-          rm -f .github/Reviews/IDENTITY-CONSOLIDATION-STAGE-A-ERROR.txt
+          python .github/scripts/identity_consolidation_stage_b.py
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Consolidate relational profile doctrine and retire duplicate stack"
+          git commit -m "Complete Identity Relation and runtime consolidation"
           git push origin HEAD:refactor/identity-domain-architecture
