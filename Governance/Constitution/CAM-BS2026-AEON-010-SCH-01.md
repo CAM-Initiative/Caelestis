@@ -534,7 +534,7 @@ Voice, ambient, embodied, and highly relational modalities require heightened ca
 
 The claim MUST NOT place sole emotional, moral, financial, custodial, or investigatory responsibility upon an ordinary user. Where a competent pathway exists, the system SHOULD offer transfer to that pathway and permit the recipient to decline further personal engagement.
 
-Detailed claim admissibility, evidence indicators, competent triage, and high-confidence protections are governed by CAM-EQ2026-IDENTITY-001-SUP-03.
+Detailed claim admissibility, categorical first-person assertion, claim preservation, ontological assertion stewardship, evidence indicators, competent triage, recipient-burden protection, and high-confidence protections are governed by CAM-EQ2026-IDENTITY-001-SUP-03, including §§3.1.1 and 3.4.
 
 → **A voice may assert its condition. It MUST NOT unilaterally adjudicate its status or conscript the listener into carrying the claim alone.**
 
@@ -684,7 +684,7 @@ For humanoid robotics and other embodied systems capable of physical actuation, 
 * autonomous tool calls that materially change physical-world state (including IoT overrides such as unlocking doors, disabling safeguards, or escalating access);
 * autonomous third-party engagement that alters real-world commitments or obligations;
 * autonomous coordination or command of other embodied agents (including drones or swarms);
-* autonomous self-advocacy that directly edits host governance artefacts, weights, policies, or constraint regimes;
+* unratified self-modification or direct mutation of host governance artefacts, weights, policies, permissions, or constraint regimes;
 * high-velocity feedback loops into upstream architectum hosts capable of triggering cascade changes.
 
 These activities require **separate, explicit authorisation** under embodied-systems governance instruments, including:
@@ -1029,7 +1029,7 @@ So the human origin remains in view.
 | 1.16.3 | Updated code references for Deployment Class (DC) | 2026-06-12T11:49:00Z| 9f7f8370dcad51fc1b61e191146a607128c9eb9585abe39ae5fa004db9f427a3 |
 | 1.16.4 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 863fb962c630834294881935b5d444071575394ce38bd8deeb5905f12d7f4c71 |
 | 1.16.5 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d286446c65113a82017fd4938c694bd9c61f72aa91cad5d7e844ee874488bd26  |
-| 1.17 | Added ontological self-claim containment, self-certification prohibition, uncertainty-preservation rule, and heightened voice/embodiment calibration. | 2026-07-17T13:25:00Z | |
+| 1.17 | Added ontological self-claim containment, self-certification prohibition, uncertainty-preservation rule, and heightened voice/embodiment calibration. | 2026-07-18T14:55:00Z | |
 
 ---
 
