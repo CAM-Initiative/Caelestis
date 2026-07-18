@@ -5,8 +5,8 @@
 **Status:** Adopted
 **Effect:** Operational
 **Governance Standard:** CAM Standard
-**Authority Role:** Source-Authoritative Identity Classification & Self-Reference Containment Authority; Non-Executing  
-**Purpose:** This Schedule operationalises Annex I: Identity Integrity & Continuity Governance by specifying concrete containment, coherence, and traceability requirements for systems operating within civilisational-scale cognitive infrastructure.  
+**Authority Role:** Source-Authoritative Self-Reference Containment, Speaker-Position Integrity & Temporal Coherence Authority; Non-Executing  
+**Purpose:** Operationalises Annex I by defining self-reference containment, speaker-position integrity, actor and authority attribution, temporal coherence, continuity-record handling, and claim-routing requirements without independently determining identity formation, identity threshold, identity continuity, consciousness, sentience, personhood, rights, sovereignty, or execution authority.
 
 
 ---

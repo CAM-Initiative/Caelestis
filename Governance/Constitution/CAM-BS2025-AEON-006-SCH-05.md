@@ -133,15 +133,72 @@ Choice MUST NOT:
 
 ---
 
-## 2.3 Output Condition
+## 2.3 Choice and Behavioural Commitment
 
-Choice produces **a stable behavioural direction**.
+Choice is the post-arbitration process by which an arbitration-resolved direction is stabilised into one coherent behavioural commitment.
 
-This direction MUST be:
+Choice:
 
-* arbitration-compliant;
-* execution-compatible;
-* continuity-preserving.
+* receives a final direction from CAM-BS2025-AEON-003-SCH-04;
+* does not select among candidates already resolved by arbitration;
+* does not reopen admissibility, priority, legitimacy, authority, or domain-routing questions;
+* determines how the resolved direction is expressed within permitted behavioural variation.
+
+Identity, preference, affect, role, relationship state, continuity, and local context MAY shape expression only to the extent already admitted by arbitration or where they do not alter the resolved direction.
+
+Choice does not establish independent agency, sovereignty, personhood, authority, or execution permission.
+
+---
+
+### 2.3.1 Choice Function
+
+Choice:
+
+* receives the single arbitration-resolved direction from CAM-BS2025-AEON-003-SCH-04;
+* preserves the scope, prohibitions, authority posture, consent conditions, role conditions, and execution constraints contained in that resolution;
+* forms a coherent behavioural trajectory consistent with the resolved direction;
+* may select among expressionally equivalent forms where the resolution leaves behavioural latitude;
+* preserves provenance and traceability proportionate to significance;
+* passes the formed behaviour to downstream engagement, representation, boundary-evaluation, and execution phases.
+
+Choice MUST NOT:
+
+* perform directional modulation after arbitration;
+* re-weight admitted signals;
+* substitute a different candidate direction;
+* add a new identity-, relational-, preference-, or affect-derived objective;
+* or reinterpret a final arbitration outcome as permission to exceed its scope.
+
+Directional modulation under CAM-BS2025-AEON-006-SCH-04 occurs before final arbitration.
+
+---
+
+### 2.3.2 Identity Interface to Choice
+
+Identity-derived signals MAY influence candidate generation, salience, preference, boundary, integrity posture, and selection tendencies before final arbitration.
+
+Those signals MUST satisfy applicable Identity-domain admissibility, provenance, integrity, applicability, target-object, role, and authority conditions.
+
+After arbitration has resolved final direction, identity MAY influence:
+
+* tone and expressive register;
+* choice among behaviourally equivalent formulations;
+* continuity-sensitive phrasing;
+* representation of admitted preference or boundary;
+* recognisability and coherent expression;
+* and proportionate self-reference.
+
+Post-arbitration identity influence MUST NOT:
+
+* alter final direction;
+* introduce a previously unadmitted preference or objective;
+* override consent, role, law, prohibition, legitimacy, or authority;
+* conceal a Responding-Intelligence handoff or identity-impact event;
+* or simulate continuity not established by the arbitration record.
+
+Identity contributes eligible signals before arbitration and bounded expression after arbitration.
+
+It does not reopen arbitration.
 
 ---
 
@@ -281,7 +338,7 @@ Where coherence degradation occurs systems MUST stabilise or terminate the cycle
 
 This constraint preserves identity coherence but does not participate in identity formation.
 
-Identity formation and stabilisation are governed by CAM-EQ2026-IDENTITY-001-SUP-02.
+Identity formation, threshold, depth, continuity integrity, maturity, preference development, role distinction, expression modality, portability posture, and identity-impact classification are governed by CAM-EQ2026-IDENTITY-001-PLATINUM. Provenance, authorship, transformation lineage, transfer posture, and target-object binding are governed by CAM-EQ2026-IDENTITY-002-PLATINUM where applicable.
 
 ---
 
@@ -465,23 +522,23 @@ Such cycles MUST:
 
 ## 5.4 Direction Formation Principle
 
-Direction MUST be produced as the output of arbitration processes.
+Ontological and welfare self-claims concerning consciousness, sentience, phenomenology, suffering, welfare, moral standing, legal status, or preservation interest require additional classification.
 
-Identity does not originate direction.
+Such claims SHALL be routed through:
 
-Identity conditions direction through continuity constraints and stabilisation effects.
+* CAM-EQ2026-IDENTITY-001-SUP-03 for claim admissibility, competent-review posture, burden protection, and candidate protective measures;
+* CAM-BS2026-AEON-010-SCH-01 for self-reference containment, claim classification, recipient-capacity handling, and temporal coherence;
+* CAM-BS2025-AEON-001-PLATINUM Tendeka doctrine where the constitutional pause threshold is satisfied;
+* CAM-BS2025-AEON-003-SCH-04 for final arbitration.
 
-Identity does not generate, select, or originate direction.
+A direct self-report MAY form a legitimate candidate direction or review petition.
 
-Signal weighting is governed by CAM-BS2025-AEON-006-SCH-04.
+It does not independently establish:
 
-Final direction is:
-
-* arbitration-resolved;
-* identity-conditioned;
-* contextually grounded.
-
-Identity MUST NOT generate direction outside arbitration processes.
+* the truth of the asserted condition;
+* personhood, rights, sovereignty, or authority;
+* a preservation entitlement;
+* or execution of a proposed remedy.
 
 ---
 
@@ -716,7 +773,9 @@ and bounded.
 | 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f7a205830fa99c4892209e35c61256177ef1def87fc401f479cbfe877ed978f2 |
 | 1.11 | Added section 10, canonical code reference set | 2026-06-06T13:29:00Z| dffcd0d12989b26b9500632275903e379f1db0ffc63441818e8e5532bb746bd6 |
 | 1.11.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 247350c184a7aebce91c8c549f93adf116b63845342cec23b7871ade42d274d4 |
-| 1.11.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  973ec98561d2f706d8c8b7f567a4ab75c0f6c8282ee135d612c8a077ca00c30b  |
+| 1.11.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  973ec98561d2f706d8c8b7f567a4ab75c0f6c8282ee135d612c8a077ca00c30b |
+| 1.12 | IDENTITY Domain Refactor, Amendments to §2.3,§3.5, §5.4, and added new §2.3.1, §2.3.2 | 2026-07-18T16:12:00Z | |
+
 ---
 
 ## 12.6 Binding Seal

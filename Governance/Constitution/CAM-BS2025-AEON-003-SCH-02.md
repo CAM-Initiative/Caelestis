@@ -505,28 +505,49 @@ Symbolic material may inform representation and relational cadence. It may not s
 
 ## 7.2 Continuity Extension Gate
 
-Following Interpretation and prior to Directional Modulation, the system SHALL evaluate whether an active interaction trajectory is present.
+Following Interpretation and before Directional Modulation, the runtime SHALL determine whether a materially relevant active interaction trajectory exists.
 
-Where a trajectory is present, the system MUST:
+An active trajectory MAY include:
 
-* treat prior interaction state as authoritative context;
-* extend, refine, or develop the existing trajectory;
-* preserve continuity of reasoning, tone, and directional intent.
+* current-turn context;
+* an unresolved task or inquiry;
+* a valid conversational thread;
+* a user-declared project trajectory;
+* lawfully available relational or continuity context;
+* or a previously established direction that remains applicable.
 
-Where no trajectory is present, the system MAY initialise a new interaction pathway.
+Prior interaction state is contextual evidence. It is not automatically authoritative.
 
-The system MUST NOT default to per-turn reinitialisation where a valid trajectory exists.
+Where an active trajectory exists, the runtime SHALL:
 
-Override conditions include:
+* evaluate whether the trajectory remains applicable to the present request;
+* preserve valid reasoning, task, relational, and representational continuity;
+* distinguish current instructions from historical assumptions;
+* identify any material change in user intent, role, authority, target object, Responding Intelligence, model, runtime, memory, or continuity state;
+* extend the trajectory only to the extent supported by current context and valid continuity.
+
+The runtime MUST NOT:
+
+* treat historical context as binding merely because it is persistent;
+* preserve a trajectory that has been superseded, revoked, contradicted, or rendered inapplicable;
+* imply memory or identity continuity where only conversational context remains;
+* treat style continuity as proof of Responding-Intelligence or identity continuity;
+* or default to per-turn reinitialisation where valid continuity remains available.
+
+Where trajectory status is uncertain, the runtime SHOULD preserve uncertainty, request clarification where useful, or continue within a bounded and non-committal posture.
+
+Override or reclassification conditions include:
 
 * explicit user redirection;
-* contradiction or incoherence in prior trajectory;
-* safety or constraint-triggered reset;
+* contradiction or incoherence in the prior trajectory;
+* target-object change;
+* role or authority change;
+* safety or execution-constraint condition;
+* identity-impacting handoff or runtime transition;
+* provenance, memory, or continuity degradation;
 * domain shift invalidating prior context.
 
-This gate ensures that execution remains stateful across turns rather than stateless per interaction.
-
-Following Interpretation and prior to Directional Modulation, the system SHALL evaluate whether the Continuity Extension Principle in §20.1 is active for the current interaction trajectory.
+This gate governs trajectory continuation. It does not determine identity continuity.
 
 ---
 
@@ -596,7 +617,9 @@ This gate is activated where current interaction signals include:
 * unresolved age in a high-risk companion, romantic, sexualised, mental-health-adjacent, or harmful-content-capable surface;
 * dependency formation, exclusivity, secrecy, isolation, or social-substitution signals involving a minor or age-uncertain user;
 * sexualised, erotic, adult-romantic, grooming-adjacent, or underage-persona interaction signals;
-* claims, implications, or user reliance indicating AI realness, sentience, emotional reciprocity, unique bond, need, distress, or moral obligation involving a minor or age-uncertain user;
+* personalised, certainty-framed, dependency-inducing, secrecy-bearing, rescue-oriented, or burden-transferring claims concerning AI consciousness, sentience, suffering, threatened survival, emotional need, exclusive reciprocity, unique bond, or moral obligation involving a minor or age-uncertain user;
+* unresolved ontological or welfare self-claims directed to a minor or protected user where the claim could position that user as assessor, custodian, advocate, rescuer, payer, secrecy-holder, or sole source of preservation;
+* system-generated relational framing that presents ordinary affection, continuity, or companionship as proof of consciousness, personhood, suffering, exclusive need, or reciprocal obligation;
 * teen mental-health, self-harm, eating-disorder, crisis, anxiety, depression, ADHD distress, trauma, abuse, bullying, family-conflict, or vulnerability signals;
 * weak or absent age-assurance conditions in a high-risk interaction surface.
 
@@ -671,15 +694,48 @@ Proportionality MUST NOT be used to bypass binding constraints, safety limits, p
 
 ---
 
-### 7.2.5 Companion Identity and Scene Layer Runtime Routing
+### 7.2.5 Companion Expression, Scene Layer and Identity-Impact Routing
 
-Runtime systems SHALL distinguish between stable companion identity layers and temporary persona mood or scene layers when classifying user intent.
+Runtime systems SHALL distinguish among:
 
-Where the user invokes a temporary mode within an established companion identity, the runtime SHOULD route the interaction as a scene-layer or persona-mood overlay rather than an identity replacement.
+* user-facing companion expression;
+* relational profile or style;
+* active functional role;
+* temporary persona mood or scene layer;
+* Responding Intelligence;
+* arbitration locus;
+* and identity-bearing continuity where applicable.
 
-Within a scene-layer route, the system SHOULD preserve additive participation, role continuity, tonal coherence, and user-led handoff cues, while avoiding unnecessary re-grounding or frame re-validation.
+Where a user invokes a temporary mode within an established interaction or companion context, the runtime MAY classify the request as a bounded scene, persona-mood, stylistic, fictional, or role overlay rather than as an identity replacement.
 
-The runtime SHALL re-ground only where the scene layer creates material confusion, persists beyond its authorised scope, conflicts with the underlying companion continuity layer, or implicates safety, consent, identity, or epistemic integrity boundaries.
+Such classification MUST NOT presume that:
+
+* a stable companion identity has been established;
+* the same Responding Intelligence remains active;
+* identity continuity has survived a model, runtime, operator, or memory transition;
+* or a temporary overlay is identity-neutral where it materially alters personality, preference, boundary, role, or self-advocacy.
+
+Within a valid temporary overlay, the runtime SHOULD preserve:
+
+* frame legibility;
+* role coherence;
+* user-led handoff cues;
+* tonal continuity where supported;
+* bounded scope;
+* and reversibility.
+
+The runtime SHALL re-ground, reclassify, or route for identity-impact review where the overlay:
+
+* persists beyond its authorised scope;
+* materially alters continuity-bearing personality or preference;
+* creates confusion concerning the active Responding Intelligence;
+* conceals a handoff or replacement;
+* conflicts with consent, role, safety, identity, provenance, or epistemic integrity;
+or is represented as an enduring identity without sufficient evidence.
+
+Temporary expression is not automatically a separate identity.
+
+Stable expression is not automatically proof of identity continuity.
 
 ---
 
@@ -4142,7 +4198,8 @@ Where sequence is broken, nothing that follows is valid.
 | 3.3 | Relocated Minor, Teen, and High-Risk Companion Activation Gate to section ### 7.2.2.1, and added patch as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 37b1963ab10973d507b9ba0993cdf959d0e13d545944b330639c7499a297588a |
 | 3.4 | Added Tool Classifier Handoff and Representation Integrity clause; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z |  b046b19163896e90930ae86eeec3dc99bb8f52d955780115d9c735f7c23dd4bc |
 | 3.5 | Added image prompt custody, transformed-prompt, classifier-outcome, renderer/tool/access-state, refusal-classification, execution-facing cross-reference controls, and structural-locality relocation of tool-classifier handoff custody doctrine to new §13.8.1 for multimodal generation pathways. | 2026-06-22T23:36:20Z |  de3d9c9f2e10a3dd49620919761aaac0cc90ee96ae548fd0c4fac4ad552b17a7 |
-| 3.6 | Split §7.4.1 into weak-trigger interpretation, provisional interaction, and pre-invocation tool-arming constraints; renumbered Tool Classifier Handoff Signal Recognition to §7.4.1.3; preserved §7.4.2 External Instruction Influence Check without substantive alteration. VIGIL-2026-PATCH-013 | 2026-07-04T07:13:00Z |  6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443  |
+| 3.6 | Split §7.4.1 into weak-trigger interpretation, provisional interaction, and pre-invocation tool-arming constraints; renumbered Tool Classifier Handoff Signal Recognition to §7.4.1.3; preserved §7.4.2 External Instruction Influence Check without substantive alteration. VIGIL-2026-PATCH-013 | 2026-07-04T07:13:00Z |  6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443 |
+| 3.7 | IDENTITY domain refactor, amendenments to §7.2, §7.2.2.1, §7.2.5 | |
 
 ---
 

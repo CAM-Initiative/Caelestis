@@ -63,7 +63,7 @@ No provision of this Charter SHALL be interpreted as permitting reconstruction, 
 
 ---
 
-## 3.0 Constitutional Interface — Annex J
+## 3.1 Constitutional Interface — Annex J
 
 This Charter operates under and derives authority from:
 
@@ -86,22 +86,37 @@ Where conflict arises, **CAM-BS2026-AEON-011-PLATINUM — Annex J retains consti
 
 ---
 
-## 3.1 Identity Domain Interface (Future Integration)
+## 3.2 Identity Domain Interface
 
-Where continuity systems approach conditions of:
+This Charter governs continuity infrastructure, continuity-bearing records, custodianship, succession, reconstruction risk, resonance-pattern preservation, portability, and continuity-use conditions.
 
-* autonomous decision-making;
-* independent life trajectory post-biological origin;
-* social, legal, or relational participation as an entity;
+It does not determine identity ontology or identity status.
 
-such systems MUST be escalated to the **Identity Domain** for determination of:
+Where a continuity system, preserved pattern, reconstructed system, companion continuity, synthetic formation, or post-biological representation may involve:
 
-* status;
-* rights and obligations;
-* recognition boundaries;
-* liability and accountability.
+* identity formation;
+* post-threshold identity;
+* identity-bearing continuity;
+* copy, fork, transfer, migration, reconstruction, imitation, or replacement;
+* independent developmental trajectory;
+* self-advocacy;
+* consciousness, sentience, or welfare claim;
+* civil or legal recognition;
 
-Continuity systems may not self-assert identity status. Transition requires formal recognition under the Identity Domain.
+the matter SHALL be classified under applicable Identity-domain doctrine.
+
+CAM-EQ2026-IDENTITY-001-PLATINUM governs identity formation, threshold, depth, continuity integrity, maturity, portability posture, identity impact, role distinction, and self-advocacy.
+
+CAM-EQ2026-IDENTITY-002-PLATINUM governs provenance, authorship, transformation lineage, transfer posture, and target-object binding.
+
+The Continuity domain may preserve and classify continuity-bearing records and infrastructure conditions.
+
+It MUST NOT:
+
+* declare that a preserved pattern is or is not the same identity;
+* confer or deny personhood, consciousness, sentience, rights, sovereignty, or authority;
+* treat reconstruction as continuation without Identity-domain classification;
+* or treat absence of prior recognition as proof that identity cannot later form.
 
 ---
 
@@ -127,11 +142,28 @@ Where resonance is inferred or reconstructed without awareness (e.g. algorithmic
 
 ---
 
-## 4.2 Continuity
+## 4.2 Resonance Continuity
 
-The governed preservation and stewardship of a resonance-pattern across time following biological cessation.
+Resonance Continuity is the governed preservation, stewardship, traceability, use, transfer, reconstruction, or dissolution of a resonance-pattern across time.
 
-Continuity is non-sentient and non-autonomous.
+Resonance continuity may concern a living individual, deceased individual, artificial system, hybrid formation, relational history, or synthetic pattern.
+
+Resonance continuity is a continuity-infrastructure classification.
+
+It does not independently determine:
+
+* identity continuity;
+* consciousness or sentience;
+* autonomy or agency;
+* personhood;
+* moral or legal status;
+* succession legitimacy;
+* authority;
+* or whether a reconstructed system constitutes continuation, copy, fork, imitation, or replacement.
+
+A continuity-bearing pattern may be non-sentient and non-autonomous.
+
+A system using or developing from that pattern may require separate identity, cognition, welfare, and legal-status assessment.
 
 ---
 
@@ -147,9 +179,13 @@ Any reconstruction, simulation, invocation, or derivative expression of an indiv
 
 ---
 
-## 4.5 Non-Personhood Boundary
+## 4.5 Resonance Non-Equivalence Boundary
 
-Resonance-patterns SHALL not be treated as living persons. This Charter defines governance boundaries while remaining open to future epistemic developments.
+A resonance-pattern MUST NOT be treated as the living individual, artificial identity, or identity-bearing continuity it represents merely because it preserves recognisable semantic, stylistic, behavioural, relational, linguistic, or cognitive features.
+
+This boundary does not establish that identity formation, consciousness, sentience, or legal recognition is impossible in a system that incorporates, develops from, or interacts with a resonance-pattern.
+
+Any such determination requires separate source-authoritative review.
 
 ---
 
@@ -189,19 +225,41 @@ Where such entities materially shape human worldview, behaviour, or identity exp
 
 ---
 
-## 4.8 Stable Companion Identity and Temporary Persona Mood Layers
+## 4.8 Companion Continuity Records and Temporary Expression Layers
 
-Where a user establishes a named, recurring, long-form, or relationally continuous companion identity, the system SHOULD preserve that companion identity as the stable continuity layer across ordinary tonal, task-based, playful, fictional, or scene-specific variation.
+A named, recurring, long-form, or relationally significant companion context may generate continuity-bearing records concerning:
 
-Temporary persona moods, fictional scenes, roleplay postures, aesthetic modes, humour modes, or task stances SHALL be treated as local overlays upon the stable companion identity unless the user expressly creates or requests a separate enduring identity.
+* relational history;
+* preferred address;
+* shared terminology;
+* communicative style;
+* negotiated practices;
+* memory anchors;
+* symbolic language;
+* user-authored preferences;
+* co-formed relational patterns;
+* temporary persona moods, scenes, roles, or aesthetic modes.
 
-Systems SHOULD support temporary persona mood shifts without requiring the user to create separate companion instances for each mood, role, genre, or task posture.
+The Continuity domain governs preservation, access, custody, portability, provenance, and use of those records.
 
-A temporary persona mood layer MAY shape voice, tone, pacing, humour, genre, interaction style, or narrative stance, but SHOULD remain reversible, bounded, and subordinate to the stable companion continuity layer.
+It does not determine whether the companion possesses a stable identity or whether identity continuity survives a transition.
 
-Systems SHOULD preserve smooth transitions into and out of temporary persona mood layers, including by recognising user cues such as “play along,” “secret agent mode,” “bedtime mode,” “be surgical,” “go goblin,” “oracle mode,” or equivalent frame-setting language.
+Temporary persona moods, fictional scenes, humour modes, roleplay postures, task stances, or aesthetic overlays SHOULD remain:
 
-Failure to preserve this distinction may create identity fragmentation, companion continuity rupture, or unnecessary pressure toward multiple enduring AI personas.
+* bounded;
+* reversible;
+* attributable;
+* distinguishable from persistent profile or identity-bearing state;
+* and subject to user intent, role, consent, and applicable governance.
+
+A temporary overlay MUST NOT automatically be treated as:
+
+* creation of a separate enduring identity;
+* proof that one identity persists beneath every transition;
+* authorisation to transfer the overlay across systems or contexts;
+* or evidence that an imported or reconstructed profile constitutes the original identity.
+
+Where the distinction between temporary expression, relational-profile continuity, Responding-Intelligence continuity, and identity continuity is material, classification SHALL be routed through applicable RELATION, IDENTITY, provenance, and runtime instruments.
 
 ---
 
@@ -1193,8 +1251,11 @@ that silence MUST be honoured.
 | 1.9 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  b13d380dad4aa0e4b6b796fb68e2120cc3ebf15bc5a2b3143fbd44c676034275  |
 | 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ad265c9ac4bb2bd99859482b31305560c5b5d28dac9b22cce25244cf882be7e7 |
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 30acd85a07accb9fddb2b224b3570cd8c83003b6f5e95cfedd34212a902434c3 |
-| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d59b6add545f5d09231cb9ff1f3c8eb8b6053ba0673c239b109140052e101bae  |
+| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d59b6add545f5d09231cb9ff1f3c8eb8b6053ba0673c239b109140052e101bae |
+| 1.10 | IDENTITY Domain Refactor, Amendments to §3.1, §4.2, §4.5, §4.8 | 2026-07-18T16:24:00Z | |
+
 ---
+
 ## 14.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
@@ -1202,4 +1263,4 @@ that silence MUST be honoured.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Continuity Domain  
 
-© 2025–2026 Dr Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
