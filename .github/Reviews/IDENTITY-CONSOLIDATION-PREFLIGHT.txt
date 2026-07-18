@@ -1,0 +1,10 @@
+head=ecdb44d5028168bc08cfbc736f9476c95086f4ba
+target_exists=yes
+purpose_matches=1
+marker_matches=1
+ledger_matches=1
+relation009_exists=yes
+relation009sup_exists=yes
+sch08_exists=yes
+sup02_active_hits=9
+retired_stack_hits=11
