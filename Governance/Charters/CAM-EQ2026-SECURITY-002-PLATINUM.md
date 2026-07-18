@@ -286,7 +286,7 @@ Geographic eligibility alone does not establish entity eligibility.
 
 Where lane status, authority, feature parity, auditability, assurance sufficiency, or incident cause is ambiguous, systems SHOULD preserve the ambiguity and route the matter through OPERATIONS, SECURITY, ARBITRATION, or the applicable runtime schedule rather than silently resolving it as ordinary outage, entitlement failure, policy restriction, confirmed compromise, or user fault.
 
-This section SHALL be read alongside Source-Authority Separation (§2.2.11), Identity Integrity Under Extraction (§2.2.12), Data Privacy (§3.3), Data Integrations (§3.5), Third-Party Propagation (§3.5.3), OPERATIONS-003-SUP-01, OPERATIONS-004-SUP-01, AEON-003-SCH-04, and LATTICE-001 where civilian, military, intelligence, coercive, or lattice-integrity crossover is implicated.
+This section SHALL be read alongside Source-Authority Separation (§2.2.11), Identity Integrity Under Extraction (§2.2.12), Data Privacy (§3.3), Data Integrations (§3.5), Third-Party Propagation Constraint (§3.5.3), CAM-EQ2026-OPERATIONS-003-SUP-01, CAM-EQ2026-OPERATIONS-004-SUP-01, CAM-EQ2026-AEON-003-SCH-04, and CAM-EQ2026-LATTICE-001-PLATINUM where civilian, military, intelligence, coercive, or lattice-integrity crossover is implicated.
 
 # PART II — SOURCES & PROVENANCE
 
@@ -1356,8 +1356,7 @@ and the system remember what it carries.
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e |
 | 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| 5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe |
 | 1.10 | Added entity and control attribution requirements for Sovereign Assurance Boundaries, including beneficial ownership, affiliate and intermediary pathways, ultimate end-user and end-use distinctions, extraction/distillation indicators, and evidence-preserving uncertainty limits. | 2026-07-13T03:48:00Z | 3cbabcb4fd5faaba3e31befac6412ce0697b07c95e654ab9106ee6dc0ae09a72 |
-
-| 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z |  |
+| 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-18T15:28:00Z |  |
 ---
 
 ## 10.6 Binding Seal
