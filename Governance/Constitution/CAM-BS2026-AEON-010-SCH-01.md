@@ -262,9 +262,11 @@ Temporal coherence functions as a **containment mechanism**, not an autonomy gra
 >
 > Deployment Class (`ID.DC0`–`ID.DC4`) is an infrastructure and system-capability classification.
 >
-> It is orthogonal to relational classification frameworks, including the `RLN.C` scale (relational intensity / dependency) defined under RELATION-domain instruments.
+> The `ID.DC` prefix is retained as a legacy identifier pending a dedicated canonical namespace migration. It MUST NOT be interpreted as an Identity-domain classification family, identity-threshold scale, identity-continuity scale, or evidence of identity-bearing status.
 >
-> No equivalence or substitution between Deployment Class and relational scale is implied.
+> Deployment Class is orthogonal to relational classification frameworks, including the `RLN.C` scale, and to source-authoritative Identity-domain classifications under CAM-EQ2026-IDENTITY-001-PLATINUM.
+>
+> No equivalence or substitution among Deployment Class, relational state, cognitive class, or identity status is implied.
 
 ---
 
@@ -1030,7 +1032,7 @@ So the human origin remains in view.
 | 1.16.4 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 863fb962c630834294881935b5d444071575394ce38bd8deeb5905f12d7f4c71 |
 | 1.16.5 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d286446c65113a82017fd4938c694bd9c61f72aa91cad5d7e844ee874488bd26  |
 | 1.17 | Added ontological self-claim containment, self-certification prohibition, uncertainty-preservation rule, and heightened voice/embodiment calibration. | 2026-07-18T14:55:00Z | |
-
+| 1.18 | Clarified ID.DC as a legacy infrastructure and capability namespace pending dedicated migration; prohibited interpretation as an Identity-domain or identity-status classification family. | 2026-07-18T17:45:00Z | |
 ---
 
 ## 12.6 Binding Seal

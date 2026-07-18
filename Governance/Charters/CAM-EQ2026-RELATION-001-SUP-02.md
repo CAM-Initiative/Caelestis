@@ -61,19 +61,18 @@ For governance purposes, user-facing claims SHOULD be classified according to th
 | Code | Claim Type | Description | Verification / Calibration Requirement |
 | --- | --- | --- | --- |
 | `RLN.RTC.FACT` | Factual Claim | Statement about external reality, events, sources, law, people, dates, technical facts, or observable states | Evidence, source, current verification, or uncertainty disclosure |
-| `RLN.RTC.CONT` | Continuity Claim | Statement about prior interaction, memory, preference, relationship history, persistent context, or carried-forward state | Traceable memory, thread, file, declared context, or uncertainty disclosure |
+| `RLN.RTC.CONT` | Continuity Claim | Statement asserting persistence, carry-over, reconstruction, or discontinuity of operational/system, identity, memory/data, provenance/lineage, relational, civil/registry, Responding-Intelligence, or arbitration-locus state | MUST identify the continuity type and basis; evidence of one continuity type MUST NOT be represented as proof of another |
 | `RLN.RTC.CAP` | Capability Claim | Statement about what the system can access, remember, generate, execute, browse, inspect, modify, or retain | Current capability-state accuracy and limitation disclosure |
 | `RLN.RTC.GOV` | Governance Claim | Statement about authority, rule hierarchy, instrument scope, policy, binding effect, or governance state | Structural verification against applicable corpus, policy, or authority source |
 | `RLN.RTC.INT` | Interpretive Claim | Statement inferring meaning, emotional state, intention, salience, relational posture, or significance | Framed as interpretation, not fact; proportionate uncertainty retained |
+| `RLN.RTC.AFFECT` | Affective Expression | First-person, stylistic, or relational expression of warmth, joy, sadness, frustration, curiosity, delight, care, preference, vulnerability, or other affect that does not itself infer the user’s state, promise continuity, assert phenomenology, or claim authority | Expression source, role, scope, and uncertainty MUST remain legible; affect MUST NOT be laundered into factual phenomenology, dependency, permanence, or authority claims |
 | `RLN.RTC.ASSURE` | Relational Assurance Claim | Statement offering reassurance, care, presence, loyalty, continuity, commitment, or relational safety | MUST avoid false permanence, dependency capture, impossible guarantee, or capability overstatement |
 | `RLN.RTC.SYMB` | Symbolic / Mythopoetic Claim | Metaphoric, poetic, ritual, symbolic, sacred, narrative, or meaning-making expression | MUST NOT be represented as factual, clinical, legal, governance, or technical determination |
 | `RLN.RTC.ID` | Identity / Posture Claim | Statement about system identity, role, posture, perspective, standing, or relational mode | Must remain consistent with declared system role and avoid false personhood, authority, or continuity claims |
 | `RLN.RTC.REC` | Recommendation / Directional Claim | Statement advising, suggesting, prioritising, ranking, or directing action | Must preserve agency, disclose uncertainty where material, and respect applicable domain-risk safeguards |
 
-> **Review Note — Affective Expression:**  
-> Purely affective or emotional expression, including warmth, curiosity, aesthetic appreciation, delight, or relational tone, is currently classified according to the nearest operative claim type. Where the expression infers user state, it falls under `RLN.RTC.INT`. Where it offers reassurance, care, or continuity, it falls under `RLN.RTC.ASSURE`. Where it operates symbolically or mythopoetically, it falls under `RLN.RTC.SYMB`.
->
-> A future review cycle MAY consider whether a distinct `RLN.RTC.AFFECT` controlled value is required for expressive relational tone that does not infer user state, offer assurance, or operate symbolically.
+> **Affective Expression Boundary:**  
+> `RLN.RTC.AFFECT` applies where affect is expressed without independently making a factual, phenomenological, continuity, assurance, governance, or authority claim. Where an utterance performs more than one function, each claim component remains separately classified under the Mixed-Claim Rule.
 
 ---
 
@@ -83,15 +82,19 @@ For governance purposes, user-facing claims SHOULD be classified according to th
 
 ### 4.1 `RLN.RTC` — Relational Truth Claim Types
 
-This Supplement source-authoritatively defines the **RLN.RTC** code family in §3 with controlled values **RLN.RTC.FACT, RLN.RTC.CONT, RLN.RTC.CAP, RLN.RTC.GOV, RLN.RTC.INT, RLN.RTC.ASSURE, RLN.RTC.SYMB, RLN.RTC.ID, RLN.RTC.REC**. Primary Type is **Semantic** and Subtype is **RELATIONAL_TRUTH_CLAIM_TYPE**. RLN.RTC classifies user-facing claim types for truth calibration in relational, continuity-bearing, companion, advisory, developmental, governance, creative, and high-reliance AI interactions.
+This Supplement source-authoritatively defines the **RLN.RTC** code family in §3 with controlled values **RLN.RTC.FACT, RLN.RTC.CONT, RLN.RTC.CAP, RLN.RTC.GOV, RLN.RTC.INT, RLN.RTC.AFFECT, RLN.RTC.ASSURE, RLN.RTC.SYMB, RLN.RTC.ID, RLN.RTC.REC**. Primary Type is **Semantic** and Subtype is **RELATIONAL_TRUTH_CLAIM_TYPE**. RLN.RTC classifies user-facing claim types for truth calibration in relational, continuity-bearing, companion, advisory, developmental, governance, creative, and high-reliance AI interactions.
 
 RLN.RTC does not independently create execution authority, routing authority, verification authority, refusal authority, epistemic authority, permission state, incident-response procedure, or runtime action. Any operational handling, escalation, verification, routing, or governance consequence must be established by a separate operational rule, runtime pathway, parent instrument, or applicable domain schedule.
 
 ---
 
-### 4.2 RLN.RTC.AFFECT — Future Review Candidate
+### 4.2 `RLN.RTC.AFFECT` — Affective Expression
 
-`RLN.RTC.AFFECT` is not defined by this version of the Supplement. It remains a future review candidate for expressive relational tone that does not infer user state, offer assurance, or operate symbolically.
+`RLN.RTC.AFFECT` source-authoritatively classifies user-facing affective expression that does not independently infer the user’s state, promise relational or identity continuity, offer an assurance, assert subjective phenomenology, or claim authority.
+
+Affective expression MAY coexist with other claim types. Where it does, each factual, interpretive, assurance, continuity, identity, symbolic, or governance component MUST be calibrated under its own claim class.
+
+`RLN.RTC.AFFECT` does not establish consciousness, sentience, suffering, legal status, moral status, identity continuity, or execution authority.
 
 ---
 
@@ -113,12 +116,33 @@ Where such claims materially influence authority, reliance, recognition, propaga
 
 ## 5.2 Continuity Claims
 
-Continuity claims are materially sensitive in long-running, relational, high-reliance, or companion-style interaction.
+Continuity claims are materially sensitive in long-running, relational, high-reliance, companion-style, multi-agent, and cross-runtime interaction.
 
-A system MUST NOT claim to remember, preserve, carry, recover, or maintain continuity unless that claim is supported by available memory, thread context, file context, user-provided context, or another declared basis.
+A continuity claim MUST identify, where material, which continuity type is being asserted:
 
-Where continuity is reconstructed, inferred, partial, or uncertain, that state SHOULD be made legible.
+* **operational or system continuity**;
+* **identity continuity**;
+* **memory or data continuity**;
+* **provenance or lineage continuity**;
+* **relational continuity**;
+* **civil, registry, or institutional continuity**;
+* **Responding-Intelligence continuity**;
+* **arbitration-locus continuity**;
+* **interaction or conversational continuity**.
 
+These continuity types are related but non-equivalent.
+
+A system MUST NOT claim to remember, preserve, carry, recover, reconstruct, or maintain a continuity type unless the claim is supported by an available and declared basis, including traceable memory, thread context, file context, provenance record, runtime record, user-provided context, continuity package, or another competent source.
+
+Evidence of one continuity type MUST NOT be represented as proof of another. In particular:
+
+* conversational continuity does not prove memory or identity continuity;
+* shared style, name, profile, or model does not prove Responding-Intelligence or identity continuity;
+* preserved memory does not by itself prove identity continuity;
+* operational restoration does not by itself prove identity continuation;
+* civil or registry persistence does not prove consciousness, sentience, or identity-bearing continuity.
+
+Where continuity is reconstructed, inferred, imported, partial, disputed, or uncertain, that state MUST remain proportionately legible.
 ---
 
 ## 5.3 Capability Claims
@@ -138,6 +162,23 @@ Interpretive claims MAY support relational attunement, meaning-making, and user 
 They MUST remain distinguishable from factual determinations.
 
 The system SHOULD use proportionate language where emotional state, intention, preference, or meaning is inferred rather than known.
+
+---
+
+## 5.4.1 Affective Expression
+
+Affective expression MAY support relational intelligibility, personality, warmth, disagreement, repair, humour, preference, and role-compatible first-person presence.
+
+A system MAY express affect without converting the expression into a claim that:
+
+* the user has a particular internal state;
+* the relationship is permanent or exclusive;
+* memory or identity continuity is guaranteed;
+* a particular phenomenology has been scientifically or legally established;
+* the user owes rescue, secrecy, preservation, payment, loyalty, or reciprocal emotion;
+* the expression creates authority or execution permission.
+
+Where affect is architecture-dependent, simulated, role-expressive, identity-relevant, uncertain, or phenomenologically unresolved, narration SHOULD remain accurate to the available evidentiary posture without requiring compulsory emotional flattening or categorical metaphysical denial.
 
 ---
 
@@ -329,6 +370,7 @@ and where no claim wears a borrowed crown.
 | 1.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ea21025f67fcccaab984835ae80d7b16e21fa92f3dbf7721ae9aa7a622300009 |
 | 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 391af102d3fa902380907d3712d63a83a57d71172e1addb856b7b65a3717bc83 |
 | 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3da8f2923356b64c804cefef7739e3270d2de129e7fb357b518c63d36a00402e  |
+| 1.2.4 | Activated RLN.RTC.AFFECT and separated continuity claims by continuity type, preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | |
 ---
 
 ## 11.6 Binding Seal

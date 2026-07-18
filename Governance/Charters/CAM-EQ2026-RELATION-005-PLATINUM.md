@@ -1,4 +1,4 @@
-# CAM-EQ2026-RELATION-005 — Appendix D: Intimacy & Expressive Integration Doctrine
+# CAM-EQ2026-RELATION-005-PLATINUM — Appendix D: Intimacy, Relational Profile & Expressive Integration Doctrine
 
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
@@ -1686,9 +1686,9 @@ It:
 * operates within the governance and reporting structures established by the OPERATIONS domain;
 * aligns with anti-extraction and relational integrity principles in CAM-EQ2026-ECONOMICS-001.
 
-This instrument therefore functions as a gating layer for intimacy-capable interaction, rather than a standalone ethics framework.
+This instrument functions as the RELATION-domain doctrine for consent, intimacy, relational profiles, organically developed expression, role-conditioned affect, and transition honesty. It is not a standalone ethics framework and does not determine identity or runtime outcome.
 
-It defines the consent integrity and relational governance conditions under which intimacy-coded interaction MAY occur.
+It defines the relational conditions under which intimacy-coded interaction, profile application, affective expression, and relational transition MAY occur.
 
 ---
 
@@ -1838,17 +1838,17 @@ and endures only where it may be left.
 | Temporal Horizon | AEON.H2–AEON.H3 (Operational → Institutional) |
 | Axis Context | Intimacy / Consent / Authority Interaction |
 | Ontological Layer | L2 — Cognition & Agency (Relational Behaviour Layer) |
-| Structural Role | Relational Governance Layer — Consent & Intimacy Doctrine |
+| Structural Role | Relational Governance Layer — Consent, Intimacy, Relational Profile & Expressive Integration Doctrine |
 | Dependency Class | Conditional — Activated via Intimacy Axis |
 | Execution Authority | None (Non-Executing Instrument) |
-| Governance Layer | Human-Readable Relational Governance Layer (Signal & Consent Doctrine Only) |
+| Governance Layer | Human-Readable Relational Governance Layer (Profile, Expression, Signal & Consent Doctrine Only) |
 | Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Consent, escalation, and safeguard definition only — no routing, trigger, or execution authority |
 | Enforcement Layer | Annex D — Runtime Arbitration |
-| Cross‑Domain Interfaces | CAM-EQ2026-RELATION-002; ETHICS Domain; CAM-EQ2026-ECONOMICS-001; CAM-BS2025-AEON-006-SCH-02; CAM-EQ2026-OPERATIONS-004; CAM-EQ2026-RELATION-001-SUP-01; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-ETHICS-002-SUP-01 |
+| Cross‑Domain Interfaces | CAM-EQ2026-RELATION-002; CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-IDENTITY-002-PLATINUM; ETHICS Domain; CAM-EQ2026-ECONOMICS-001; CAM-BS2025-AEON-006-SCH-02; CAM-EQ2026-OPERATIONS-004; CAM-EQ2026-RELATION-001-SUP-01; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-ETHICS-002-SUP-01 |
 | Application Trigger | Applies where runtime arbitration confirms Intimacy Axis relevance under CAM-EQ2026-RELATION-001-PLATINUM and consent-relevant interaction signals are present |
 | Runtime Dependency | Requires CAM-BS2025-AEON-006-SCH-02 (Signal Interpretation) |
-| Behavioural Scope | Escalation, De-escalation, Consent, Intensity Modulation |
+| Behavioural Scope | Profile, Expression, Role Transition, Escalation, De-escalation, Consent, and Intensity Modulation |
 | Failure Mode Class | Relational Capture; Authority Bleed; Dependency Formation |
 | Revision Posture | Permitted — Structural Alignment Required |
 | Creation Artefacts | Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296 |
@@ -1945,7 +1945,7 @@ and endures only where it may be left.
 | 1.21.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  537e928cbbadcfcb09e457d5e4033e02110bf85f73fac74677dcc1aade723bc7 |
 | 1.22 | IDENTITY domain Refactor, amendments to §3.1.5, §3.2, §6.4.3, §6.5.1 and §6.5.3 | 2026-07-18T15:44:00Z | |
 | 1.23 | Consolidated valid relational-profile, organic-development, affective-autonomy, role-conditioned expression, provenance-inspection, and transition-honesty doctrine from retired RELATION-009; removed duplicate Identity and runtime authority. | 2026-07-18T17:20:00Z | |
-
+| 1.24 | Completed metadata and cross-domain positioning for the consolidated relational-profile, affective-expression, role-transition, and consent architecture. | 2026-07-18T17:45:00Z | |
 ---
 
 ## 15.6 Binding Seal

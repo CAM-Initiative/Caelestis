@@ -307,3 +307,24 @@ After Caelestis review and adoption:
 5. record operational verification as pending unless runtime evidence exists.
 
 This prevents the VIGIL patch record from claiming doctrine that is still under review.
+
+---
+
+## Consolidation Outcome — 2026-07-18
+
+The Identity–Relation–Runtime consolidation has now been applied directly to `refactor/identity-domain-architecture`.
+
+Final disposition:
+
+* `CAM-EQ2026-RELATION-009-PLATINUM` — retired after migration of valid relational-profile, organic-development, affective-expression, role-conditioned, provenance-inspection, and transition-honesty doctrine into `CAM-EQ2026-RELATION-005-PLATINUM`;
+* `CAM-EQ2026-RELATION-009-SUP-01` — retired as a transitional review artefact rather than an operational source authority;
+* `CAM-BS2025-AEON-006-SCH-08` — retired to prevent a second profile and identity arbitration stack;
+* `CAM-EQ2026-IDENTITY-001-SUP-02` — retired references removed from the active Governance tree and repointed to the refactored Identity source instruments;
+* final direction remains exclusively runtime-arbitrated;
+* RELATION describes relational state, profile, consent, reliance, authority and expression;
+* IDENTITY governs identity formation, personality-development classification, preference, continuity significance, identity impact and self-advocacy;
+* CONTINUITY governs continuity-bearing records, custody, migration and succession;
+* claim and continuity narration now distinguishes affective expression and separate continuity types.
+
+This outcome supersedes any earlier planned-state language in this review that treated RELATION-009, its supplement, SCH-08, or IDENTITY-001-SUP-02 as continuing active source authorities.
+

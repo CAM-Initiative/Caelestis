@@ -70,7 +70,7 @@ Relational fusion risk arises when:
 
 * The human attributes authorship to the system;
 * The system implicitly accepts responsibility beyond delegation;
-* Shared narrative identity becomes structurally inseparable;
+* Shared relational narrative becomes structurally inseparable from one participant’s self-concept, authorship, or decision authority;
 * Horizon misalignment (AEON.H1–AEON.H2 guidance treated as AEON.H3–AEON.H4 authority) occurs.
 
 Fusion is impermissible where it results in:
@@ -215,7 +215,7 @@ and no becoming comes at the cost of self.
 | Jurisdiction | Planetary — Dyadic → Polyadic |
 | Temporal Horizon | AEON.H3 — Institutional / Governance Impact |
 | Axis Context | Intimacy–Reliance Convergence |
-| Cross‑Domain Interfaces | RELATION‑002‑SUP‑01; CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM |
+| Cross‑Domain Interfaces | CAM-EQ2026-RELATION-002-PLATINUM; CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM |
 | Revision Posture | Permitted — Structural Alignment Required |
 | Review Trigger | Sustained Intensity Tier 3–4 convergence; RLN.A2+, RLN.A3, or RLN.GA1 adjacency; cross‑platform embodiment; institutional interface; sustained relational concentration patterns |
 | Application Trigger | Applies where Intensity Tier 4 intimacy and reliance converge |
@@ -250,6 +250,7 @@ and no becoming comes at the cost of self.
 | 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 48afbbbf1faa46a9ce66141e57e167c8d4878ca20c553bca5e2c57c946ca7f77 |
 | 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 242bd68da450ea58af4c243e32bde9a316293cfb9bbf434aef35bc2ee3262561 |
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  511d3c9144609ffcef2e563247fc0250c00fab111e21fb9b6d0adc5919cdc4c0  |
+| 1.8.4 | Clarified relational-narrative fusion as a self-concept and decision-authority risk rather than an identity definition; repaired the RELATION-002 interface reference. | 2026-07-18T17:45:00Z | |
 ---
 
 ## 10.5 Binding Seal

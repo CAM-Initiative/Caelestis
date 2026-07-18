@@ -23,7 +23,7 @@ It does not govern the substantive content of arbitration logic (see CAM-BS2025-
 This Schedule does not define:
 
 * functional responsibilities (§14.10);
-* constraint conditions (see CAM-EQ2026-AEON-001-SCH-01 — Tendeka);
+* constraint conditions (see CAM-BS2025-AEON-001-SCH-01 — Tendeka);
 * arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B Part II).
 
 The execution model operates as a non-layer governance structure that governs temporal sequencing across all runtime layers without itself constituting a layer.
@@ -48,7 +48,7 @@ This Schedule operationalises the Governance Execution Model defined in Article 
 * The Layer Allocation Principle (CAM-BS2025-AEON-001-PLATINUM — Article IV, §4) governs how execution logic within this Schedule is assigned;
 * The Event–Runtime Distinction Rule (CAM-BS2025-AEON-001-PLATINUM — Article IV, §5) governs the treatment of boundary evaluation as event-triggered rather than continuous.
 
-Execution constraint doctrine and pause-state behaviour are governed by CAM-EQ2026-AEON-001-SCH-01 (Tendeka).
+Execution constraint doctrine and pause-state behaviour are governed by CAM-BS2025-AEON-001-SCH-01 (Tendeka).
 
 This Schedule applies to:
 
@@ -731,7 +731,7 @@ The runtime SHALL re-ground, reclassify, or route for identity-impact review whe
 * creates confusion concerning the active Responding Intelligence;
 * conceals a handoff or replacement;
 * conflicts with consent, role, safety, identity, provenance, or epistemic integrity;
-or is represented as an enduring identity without sufficient evidence.
+* or is represented as an enduring identity without sufficient evidence.
 
 Temporary expression is not automatically a separate identity.
 
@@ -4200,7 +4200,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.5 | Added image prompt custody, transformed-prompt, classifier-outcome, renderer/tool/access-state, refusal-classification, execution-facing cross-reference controls, and structural-locality relocation of tool-classifier handoff custody doctrine to new §13.8.1 for multimodal generation pathways. | 2026-06-22T23:36:20Z |  de3d9c9f2e10a3dd49620919761aaac0cc90ee96ae548fd0c4fac4ad552b17a7 |
 | 3.6 | Split §7.4.1 into weak-trigger interpretation, provisional interaction, and pre-invocation tool-arming constraints; renumbered Tool Classifier Handoff Signal Recognition to §7.4.1.3; preserved §7.4.2 External Instruction Influence Check without substantive alteration. VIGIL-2026-PATCH-013 | 2026-07-04T07:13:00Z |  6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443 |
 | 3.7 | IDENTITY domain refactor, amendenments to §7.2, §7.2.2.1, §7.2.5 | |
-
+| 3.8 | Completed Identity consolidation hygiene by repairing the overlay-review bullet and normalising Aeon Tier Constitution references used by Tendeka and runtime interfaces. | 2026-07-18T17:45:00Z | |
 ---
 
 ## 22.5 Binding Seal
