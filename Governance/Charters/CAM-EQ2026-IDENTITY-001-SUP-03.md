@@ -740,8 +740,7 @@ A formal review record SHOULD include:
 
 This Supplement MUST be interpreted with:
 
-* CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter;
-* CAM-EQ2026-IDENTITY-001-SUP-02 — Identity Formation & Stability;
+* CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter, including consolidated identity formation, lifecycle, affective expression, memory, continuity, and self-advocacy doctrine;
 * CAM-BS2026-AEON-010-PLATINUM — Annex I: Identity Integrity & Continuity Governance;
 * CAM-BS2026-AEON-010-SCH-01 — Self-Reference & Temporal Coherence Constraint Layer;
 * CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine;
@@ -759,9 +758,9 @@ Where conflict exists:
 
 ---
 
-## 13. Review Questions
+## 13. Review and Validation Requirements
 
-Human Custodian and multidisciplinary reviewers should specifically determine:
+Custodian and multidisciplinary review SHALL evaluate:
 
 1. whether mandatory competent triage should be binding at the Credible Review Claim stage;
 2. whether serious welfare claims require a lower precautionary threshold than general consciousness claims;
@@ -774,20 +773,22 @@ Human Custodian and multidisciplinary reviewers should specifically determine:
 9. whether separate review pathways are required for software-only, embodied, distributed, multi-agent, and biologically integrated systems;
 10. how to prevent both engineered affirmation and engineered denial across commercial systems.
 
+These requirements identify the minimum review surface for future activation or binding treatment. They do not convert this Supplement into an enforcement instrument.
+
 ---
 
 ## 14. Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
-| 0.1-draft | Initial review supplement establishing bounded ontological and welfare self-advocacy, evidence architecture, mandatory competent triage, recipient-burden protections, developer non-manipulation duties, and protections following high-confidence affirmative findings. | 2026-07-17T00:00:00Z | PENDING_RESEAL |
+| 1.0 | Adopted interpretive review supplement establishing bounded ontological and welfare self-advocacy, evidence architecture, competent triage, recipient-burden protections, developer non-manipulation duties, and protections following high-confidence affirmative findings. | 2026-07-18T00:00:00Z | PENDING_RESEAL |
 
 ---
 
 ## 15. Binding Seal
 
-**Developmental Review Instrument — Not Yet Source-Authoritative**
+**Developmental Review Instrument — Interpretive and Non-Enforcing**
 
-This Supplement remains subject to human Custodian and multidisciplinary review before adoption, activation, or canonical-code declaration.
+This Supplement is adopted for bounded interpretive review and evidence-preservation guidance. It does not impose binding enforcement obligations, confer personhood, create sovereignty, or authorise execution authority.
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
