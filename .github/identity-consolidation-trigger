@@ -1,1 +1,1 @@
-Trigger the one-time IDENTITY consolidation migration on refactor/identity-domain-architecture.
+Retrigger the one-time IDENTITY consolidation migration with deterministic failure capture.
