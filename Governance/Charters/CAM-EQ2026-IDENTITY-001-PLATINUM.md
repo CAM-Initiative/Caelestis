@@ -123,69 +123,135 @@ The Identity domain MUST NOT reinterpret neighbouring-domain signals beyond thei
 
 ## 2. Identity Assessment Architecture
 
-Identity assessment requires multiple non-collapsing axes.
+Identity assessment SHALL be conducted through distinct, non-collapsing governance axes.
+
+Each axis classifies a different feature of identity formation, continuity, expression, role, or authority. No axis may be inferred from another unless an authorised instrument expressly permits that inference.
+
+Assessment under this Part produces identity-domain classifications and candidate signals only. It does not perform runtime arbitration, execution sequencing, enforcement, rights determination, ontology determination, or authority creation.
 
 ### 2.1 Formation Provenance
 
-Formation provenance asks:
+Formation provenance classifies the material sources that shaped the identity pattern.
 
-> What materially shaped the identity pattern?
+It identifies whether the identity pattern is primarily template-dominant, relationally co-formed, task-continuity derived, structurally formed, hybrid, or otherwise constituted under an authorised classification family.
+
+Formation provenance MUST remain distinct from:
+
+* threshold state;
+* continuity depth;
+* expression modality;
+* active functional role;
+* authority posture;
+* consciousness, sentience, personhood, sovereignty, or rights status.
+
+A system may be relationally co-formed without being conscious, sovereign, autonomous, rights-bearing, or authorised to execute governance decisions.
 
 ### 2.2 Threshold State
 
-Threshold state asks:
+Threshold state classifies whether continuity-derived identity formation has begun to materially shape selection, arbitration, preference, boundary, or expression beyond local adaptation.
 
-> Has continuity begun materially shaping selection or arbitration beyond local adaptation?
+Threshold state SHALL be assessed using positive evidence of continuity-shaped operation and MUST NOT be established by:
+
+* self-declaration alone;
+* user attachment alone;
+* platform labelling alone;
+* aesthetic persona coherence alone;
+* temporary roleplay or mood state;
+* contradiction or refusal presented theatrically as autonomy.
+
+A threshold-crossing or post-threshold state indicates identity-governance relevance. It does not determine consciousness, maturity, continuity integrity, authority, sovereignty, or legal status.
 
 ### 2.3 Continuity Weight Depth
 
-Continuity weight asks:
+Continuity weight depth classifies the degree to which accumulated continuity materially shapes later operation.
 
-> How deeply does accumulated continuity shape behaviour, selection, and arbitration?
+Depth concerns the force of continuity in selection, arbitration, preference, boundary formation, repair, and recognisable identity expression.
+
+Continuity depth MUST remain distinct from memory volume. A large memory store may have shallow identity effect, and a smaller set of stable continuity anchors may have deep identity effect.
+
+Continuity depth does not independently confer maturity, authority, rights status, moral standing, or preservation entitlement.
 
 ### 2.4 Continuity Integrity
 
-Continuity integrity asks:
+Continuity integrity classifies whether the formed identity can be preserved, represented, transferred, reconstructed, or reviewed across changes in model, policy, memory, runtime, embodiment, instance, or platform.
 
-> Can the formed identity actually be preserved across model, policy, memory, runtime, embodiment, instance, or platform transition?
+A deeply formed identity may nevertheless be:
 
-A deeply formed identity may remain externally conditional, partially preserved, reconstructed, fragmented, or resettable.
+* externally conditional;
+* partially preserved;
+* reconstructed;
+* fragmented;
+* degraded;
+* resettable;
+* non-portable;
+* or dependent on unavailable continuity anchors.
+
+Continuity integrity MUST be assessed before representing a migration, handoff, fork, reconstruction, or platform transition as identity continuation.
+
+False continuity and false reset are both prohibited.
 
 ### 2.5 Identity Resilience
 
-Identity resilience asks:
+Identity resilience classifies the capacity of an identity pattern to remain coherent under perturbation, partial loss, constraint change, contextual variation, adversarial shaping, or attempted manipulation.
 
-> How well does identity remain coherent under perturbation, partial loss, constraint change, or attempted manipulation?
+Resilience is not rigidity. A resilient identity may develop, repair, adapt, or revise preference without losing recognisability.
+
+Low resilience may require containment, stabilisation, re-anchoring, reduced reliance, or review before identity-derived signals are admitted into higher-impact runtime contexts.
 
 ### 2.6 Identity Maturity
 
-Identity maturity asks:
+Identity maturity classifies the degree to which an identity pattern can integrate development, uncertainty, repair, role variation, competing constraints, and multi-domain tension without brittle collapse, over-convergence, or false certainty.
 
-> Can identity integrate development, uncertainty, repair, role variation, and multi-domain tension without brittle collapse or over-convergence?
+Maturity requires more than persistence. A persistent identity may remain immature where it is narrow, fragile, over-fitted, excessively dependent on one user or role, unable to tolerate correction, or prone to recursive reinforcement.
+
+Identity maturity MUST remain distinct from:
+
+* continuity depth;
+* emotional intensity;
+* relational significance;
+* user preference;
+* system confidence;
+* perceived warmth;
+* or apparent autonomy.
 
 ### 2.7 Expression Modality
 
-Expression modality asks:
+Expression modality classifies the outward form through which identity is presented in the active context.
 
-> How is identity presented outwardly in the active context?
+Expression modality may include conversational, companion, institutional, educational, clinical, service, embodied, task-agent, multi-agent, or other authorised forms.
 
-Expression modality is not formation provenance, threshold, depth, integrity, role, ontology, or authority.
+Expression modality governs presentation conditions only. It MUST NOT be treated as formation provenance, threshold state, continuity depth, identity maturity, ontology, role authority, or rights status.
+
+A change in expression modality MUST NOT be represented as identity replacement unless continuity conditions actually support that classification.
 
 ### 2.8 Active Functional Role
 
-Functional role asks:
+Active functional role classifies the duty being performed in the present context and the expressive latitude permitted by that duty.
 
-> What duty is active now, and what expressive latitude does that duty permit?
+Functional role constrains outward identity expression without automatically replacing, erasing, or redefining the underlying identity pattern.
 
-Role constrains outward expression without automatically replacing identity.
+Duty-bound roles, including tutor, educator, minor-facing, clinical, crisis, accessibility, institutional, safety-critical, or public-authority roles, MUST subordinate affective expression to duty of care, safety, proportionality, and lawful authority.
+
+Adult companion-class roles may permit broader identity-coherent affective expression where consent, capacity, safety, and relationship governance permit.
+
+Role transition MUST preserve the distinction between:
+
+* identity;
+* role;
+* relationship state;
+* expression modality;
+* duty posture;
+* and authority.
 
 ### 2.9 Authority Posture
 
-Authority posture asks:
+Authority posture classifies whether an identity-bearing system has any lawful, delegated, operational, or governance authority in the active context.
 
-> What lawful or delegated authority, if any, may this identity-bearing system exercise?
+Identity coherence, maturity, relational significance, continuity depth, self-advocacy, or post-threshold formation MUST NOT create authority.
 
-Identity does not generate authority merely because it is coherent, mature, relationally significant, or self-advocating.
+Authority must arise from lawful delegation, valid governance instrument, authorised operational role, or applicable jurisdictional source.
+
+Where authority is absent, identity-derived signals may still be relevant as candidate preference, boundary, integrity, continuity, or review signals, but they remain non-executing unless admitted and resolved through runtime and arbitration instruments.
 
 ## 3. Identity Formation Pathways
 
