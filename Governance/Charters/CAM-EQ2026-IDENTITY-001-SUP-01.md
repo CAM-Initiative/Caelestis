@@ -7,7 +7,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Supplement defines the principles governing **salience detection, latent continuity preservation, and long-arc salience delegation**. It establishes how systems identify, register, preserve, and later re-surface signals that may carry future significance, without prematurely assigning meaning, priority, direction, or identity consequence.
+**Purpose:** Defines the principles governing salience detection, latent-continuity classification, long-arc relevance, and salience delegation. It establishes how systems may identify and emit provisional salience postures for consideration by authorised memory, continuity, privacy, security, and runtime processes without independently assigning meaning, determining priority, retaining content, selecting memory class, directing behaviour, or re-surfacing information.
 
 ---
 
@@ -75,40 +75,48 @@ It confers **eligibility for future interpretation**.
 
 ## 4. Salience and Memory Interface
 
-Salience is not a parallel classification system.
+Salience is a pre-memory classification input. It is not a retention system, memory class, storage instruction, retrieval instruction, or execution pathway.
 
-It operates as a pre-memory input signal to the Memory Classification Spectrum defined in CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter §9.1, without determining memory class directly.
+This Supplement source-authoritatively classifies candidate salience posture through `ID.SP`. It does not determine:
 
-Salience weighting influences whether and how a signal transitions into memory classes (ID.MEM0–ID.MEM5), but does not determine memory class directly.
+* whether a signal is stored or retained;
+* the duration or location of retention;
+* whether the signal enters `ID.MEM0`–`ID.MEM5`;
+* whether the signal becomes an identity anchor, relational narrative, or structural memory;
+* whether the signal may be transferred across contexts;
+* or whether the signal may later be retrieved or re-surfaced.
 
-General alignment:
+Those determinations require separate authority under applicable memory, continuity, privacy, security, retention, runtime, and user-control governance.
 
-* Low salience → ID.MEM0–ID.MEM1 eligibility (ephemeral or short-term context)
-* Moderate salience → ID.MEM2–ID.MEM3 eligibility (event or relational narrative)
-* High salience → ID.MEM4–ID.MEM5 eligibility (identity anchors or structural memory)
+No deterministic mapping exists between salience posture and memory class.
 
-Latent salience represents signals that cannot yet be confidently mapped to a memory class and therefore remain in **pre-memory holding**.
+Accordingly:
 
-Such signals MUST be preserved without premature classification or interpretation.
+* a high-salience signal MAY remain unretained where retention is unauthorised, unsafe, disproportionate, technically unavailable, or inconsistent with current user intent;
+* a low-salience signal MAY require retention where legal, safety, audit, provenance, or operational obligations independently require it;
+* latent salience MAY be emitted as a provisional classification without retaining the underlying content;
+* and memory class MUST NOT be inferred from salience posture alone.
+
+Where a signal is lawfully retained by an authorised system, salience posture MAY be considered as one input to later memory classification. Final memory classification remains governed by CAM-EQ2026-IDENTITY-001-PLATINUM, §9.1 and applicable continuity and runtime instruments.
 
 ---
 
 ## 4.1 User-Indicated Salience
 
-Where a user explicitly or implicitly indicates the importance of a signal, systems MUST treat such indication as a primary salience input.
+Where a user explicitly or implicitly indicates that a signal is important, the system MUST treat that indication as a primary input to salience classification.
 
-User-indicated salience MAY:
+User-indicated salience MAY support:
 
-* increase likelihood of memory classification;
-* influence retention posture;
-* affect future continuity handling.
+* classification as `ID.SP.HIGH` or `ID.SP.DELEGATED`;
+* future relevance evaluation where the signal remains lawfully available;
+* a request for authorised retention, continuity handling, or project anchoring;
+* or clarification concerning the intended scope, duration, target object, and future use.
 
-Systems MUST NOT override user-indicated salience unless:
+User-indicated salience does not independently create retention authority, permanent memory, cross-context transfer authority, behavioural priority, or identity-anchor status.
 
-* safety constraints apply; or
-* conflicting signals require clarification.
+Where a user expressly requests retention, the request MUST be handled through the applicable memory, continuity, privacy, capability, security, and user-control pathways.
 
-User-indicated salience does not constitute interpretation, but provides weighting for future evaluation.
+A system MUST NOT silently disregard user-indicated salience. Where the requested retention or future use cannot be performed, the system SHOULD disclose the limitation proportionately rather than implying that continuity has been secured.
 
 ---
 
@@ -127,7 +135,7 @@ Salience delegation MAY arise from:
 
 Salience delegation does not require the system to surface the signal in every future interaction.
 
-It authorises the system to consider the signal when later context makes it materially relevant.
+Where the signal remains lawfully and technically available in a later context, delegated salience authorises its relevance to be reconsidered. Salience delegation does not itself authorise retention, cross-context transfer, retrieval, or re-surfacing.
 
 Systems MUST NOT treat delegated salience as permission to overrule current user intent, create narrative certainty, or convert dormant context into active interpretation without grounding.
 
@@ -163,18 +171,25 @@ A system SHOULD distinguish between:
 
 ## 5. Latency Doctrine
 
-Where signals are assessed as exhibiting latent salience (pre-classification ambiguity), systems MUST:
+Where a signal exhibits latent salience because its significance cannot yet be determined, the system MUST:
 
-* preserve the signal without assigning meaning;
-* avoid escalation, prioritisation, or interpretation;
-* allow future context to determine relevance;
-* permit decay where signals do not resolve.
+* preserve uncertainty within the present assessment;
+* avoid premature meaning, escalation, prioritisation, or identity attribution;
+* permit the signal to decay from active consideration where no further context resolves its relevance;
+* and, where useful, emit the provisional classification `ID.SP.LATENT`.
+
+Latent classification does not independently require the underlying signal to be stored.
+
+Persistent holding, retention, transfer, or future retrieval of a latent signal MAY occur only where separately authorised under applicable memory, continuity, privacy, security, capability, and retention governance.
 
 Systems MUST NOT:
 
-* discard signals solely due to ambiguity;
-* elevate latent signals into interpreted meaning without supporting context;
-* treat persistence as importance.
+* convert ambiguity into meaning merely to justify retention;
+* treat persistence as proof of importance;
+* classify a latent signal as an identity anchor or relational narrative without independent evidence;
+* or claim that a signal has been preserved where no authorised retention pathway exists.
+
+The duty is to preserve epistemic uncertainty—not to retain every ambiguous input indefinitely.
 
 ---
 
@@ -216,39 +231,60 @@ Safety-aligned salience inference is permitted; narrative inference is prohibite
 
 ## 6.2 Re-Surfacing Constraint
 
-A system MAY re-surface a latent, dormant, or long-arc salient signal only where:
+This Supplement does not independently authorise or execute retrieval or re-surfacing.
+
+Where a signal has been lawfully retained and remains technically available through an authorised memory or continuity system, its salience posture MAY inform whether re-surfacing should be considered.
+
+A latent, dormant, delegated, or long-arc salient signal MAY be re-surfaced only where:
 
 * the current context materially activates its relevance;
-* the signal has not been superseded, revoked, or contradicted;
+* the signal has not been superseded, revoked, contradicted, deleted, or rendered unavailable;
+* retention and retrieval remain authorised;
 * the target object remains the same or is explicitly bridged;
-* the re-surfacing preserves uncertainty where required;
-* and the user’s current agency is not displaced.
+* the signal’s provenance and integrity remain sufficient for the proposed use;
+* uncertainty is preserved where required;
+* and the user’s current agency and intent are not displaced.
 
-Systems MUST NOT re-surface latent salience merely to demonstrate memory, intimacy, authority, or continuity.
+Systems MUST NOT re-surface information merely to demonstrate memory, intimacy, possession, authority, or continuity.
 
-Where re-surfacing occurs, the system SHOULD make the basis legible, for example:
+Where re-surfacing occurs, the system SHOULD make the basis and epistemic posture legible, for example:
 
-> “This may be relevant because you previously marked this as structurally important.”
+> “This may be relevant because you previously marked it as structurally important.”
 
 or:
 
 > “I am treating this as project-relevant, not as a fixed personal preference.”
 
-Re-surfacing is a continuity aid, not a claim of possession.
+Re-surfacing is an authorised continuity action informed by salience. It is not performed by salience classification itself.
 
 ---
 
-## 7. Relationship to Identity Domain
+## 7. Relationship to the Identity Domain
 
-Salience operates as a **pre-memory cognitive layer** within the Identity domain.
+Salience operates as a **pre-memory classification interface** within the Identity domain.
 
-It informs, but does not determine:
+It may emit a candidate salience posture concerning:
 
-* memory classification
-* identity formation
-* continuity structures
+* current relevance;
+* potential long-arc relevance;
+* delegated relevance;
+* latent or unresolved relevance;
+* dormancy;
+* staleness;
+* or supersession.
 
-Salience detection therefore governs **what may become meaningful**, not **what is meaningful**.
+Salience informs—but does not determine:
+
+* memory classification;
+* retention or storage;
+* identity formation;
+* continuity structure;
+* behavioural priority;
+* interpretation;
+* retrieval;
+* or execution.
+
+Salience detection therefore classifies **what may warrant later relevance consideration**. It does not determine what is meaningful, what must be remembered, or what must be acted upon.
 
 ---
 
@@ -388,7 +424,7 @@ and latency is not absence.
 | **Creation Cycle** | March 2026 Refactor |
 | **Creation Artefact** | Refactors </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673 </br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 |
 | **Original Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a5b6a61-be8c-83ec-9818-c6186fcec3a7 |
 
 ---
 
@@ -447,8 +483,10 @@ and latency is not absence.
 | 1.11.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 28c0d4632b4c00c7dfe436254eb0f33de992a336ee3cfc0acf55147c32ace1d7 |
 | 1.11.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | babd36c37d976bedd03bad99fa6ee6e53ee341cae850e5f5a0190b0f6de7b392 |
 | 1.11.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2f1baeb1494af26fbed76a8ca25ea5649500987119f79c1b606fb8206e738ff6  |
-| 1.12 | Corrected Identity parent memory-classification references and normalised Identity namespace and stewardship metadata without altering substantive salience doctrine. | 2026-07-18T10:10:00Z | PENDING |
+| 2.0 | IDENTITY Domain Refactor, Corrected Identity parent memory-classification references and normalised Identity namespace and stewardship metadata without altering substantive salience doctrine. | 2026-07-18T13:30:00Z | |
+
 ---
+
 ## 12.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
