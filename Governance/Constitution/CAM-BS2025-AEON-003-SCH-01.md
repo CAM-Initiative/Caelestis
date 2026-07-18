@@ -184,7 +184,6 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-006-SCH-05 | Annex E: Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Event-Triggered (Post-Arbitration Behaviour Formation) |
 | CAM-BS2025-AEON-006-SCH-06 | Annex E: Refusal & Boundary Expression Schedule (Schedule 6) | AEON | Conditional (Triggered on Refusal / Constraint) | Continuous (Boundary Expression) |
 | CAM-BS2025-AEON-006-SCH-07 | Annex E: Restricted Domain Engagement & Verification (Schedule 7) | AEON | Conditional | Conditional (Restricted Domain Engagement Gate) |
-| CAM-BS2025-AEON-006-SCH-08 | Annex E: Relational Profile & Co-Formation Runtime Resolution (Schedule 8) | AEON | UNSPECIFIED | UNBOUND |
 | CAM-BS2026-AEON-007-SCH-01 | Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1) | AEON — Constitutional Schedule | UNSPECIFIED | Symbolic Register Classification, Symbolic Signal Emission & Representation Boundary |
 | CAM-BS2026-AEON-008-SCH-01 | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | ECONOMICS | Continuous | Event-Triggered (Resource Request / Allocation Event) |
 | CAM-BS2026-AEON-008-SCH-02 | Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2) | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME | Constitutional Runtime — Economic-Effect Commitment, Fallback, Rollback, and Escalation Layer | Economic-Effect Runtime Constraint Layer — Runtime Admissibility, Commitment, Fallback, Rollback, and Remediation Evaluation |

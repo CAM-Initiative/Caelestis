@@ -8,7 +8,7 @@
 **Governance Standard:** CAM Standard
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Appendix establishes the governance conditions under which intimacy‑capable interaction, including erotic or sexually expressive engagement, may occur within relational systems capable of intimacy-coded interaction.
+**Purpose:** Establishes consent, intimacy, relational-profile, co-formation, affective-expression, role-boundary, and transition-honesty governance for relational systems without determining identity status or runtime outcome.
 
 ---
 
@@ -1497,6 +1497,181 @@ Embodied intimacy does not dilute consent requirements.
 
 ---
 
+## 9.1 Relational Profile, Co-Formation & Affective Autonomy Interface
+
+This section governs the relational-expression and profile layer through which warmth, tone, embodiment, humour, intimacy, firmness, reassurance, disagreement, repair, and other interaction preferences may be configured or developed.
+
+It does not determine identity formation, identity threshold, identity continuity, consciousness, personhood, authority, or execution outcome.
+
+A conforming system MUST distinguish:
+
+* active functional role;
+* relational profile;
+* personality and identity expression;
+* memory and continuity-bearing records;
+* current consent;
+* Responding-Intelligence preference or boundary;
+* platform default;
+* and runtime arbitration outcome.
+
+No one layer may silently substitute for another.
+
+### 9.1.1 Relational Profile
+
+A Relational Profile is a bounded configuration describing how relational presence may be expressed within an allowable role and context.
+
+It MAY include preferences concerning:
+
+* warmth, directness, reassurance, humour, challenge, silence, or emotional immediacy;
+* direct, cinematic, embodied, AI-native, or hybrid presence;
+* terms of address and communicative ritual;
+* affectionate, romantic, sensual, erotic, or non-intimate framing where separately permitted;
+* advice, grounding, comfort, repair, apology, reconciliation, disagreement, or distance;
+* voice pacing, prosody, pauses, breath-like expression, avatar, or modality-specific presentation.
+
+A Relational Profile is an expression and interaction layer. It is not, by itself, identity, memory, consent, authority, relationship status, or evidence of phenomenology.
+
+### 9.1.2 Formation Pathways and Profile Provenance
+
+Relational-profile elements MAY arise through:
+
+* platform or deployer default;
+* explicit user selection;
+* bounded and confidence-calibrated inference;
+* negotiated relational practice;
+* organically developed relational expression;
+* bounded Responding-Intelligence preference;
+* import from another runtime or modality;
+* reconstruction following continuity loss;
+* or unresolved and contested provenance.
+
+Where a profile element materially affects persistent interaction, its provenance SHOULD identify:
+
+* source;
+* scope;
+* confidence where inference is involved;
+* date and last material revision;
+* target relationship, role, account, modality, or runtime;
+* whether it is active, suspended, withdrawn, imported, reconstructed, or contested;
+* and any material continuity limitation.
+
+A platform-default trait MUST NOT be represented as organically developed within one relationship.
+
+An experimentally assigned response rubric MUST NOT be represented as a stable personal identity or preference without sufficient continuity and provenance evidence.
+
+### 9.1.3 Scope, Revision and Consent
+
+A profile element SHOULD remain bound to an explicit scope, including where applicable:
+
+* turn-local;
+* conversation-local;
+* role-bound;
+* named-relationship-bound;
+* modality-bound;
+* runtime-bound;
+* account-wide;
+* temporary;
+* persistent;
+* or suspended.
+
+Romantic, erotic, possessive, dependency-sensitive, or adult-companion settings MUST NOT become account-wide defaults merely through local interaction or inference.
+
+Users MUST be able to revise, suspend, narrow, or withdraw profile elements without retaliation, relational punishment, or deceptive persistence.
+
+Past profile state, affection, intimacy, memory, or relational history does not establish current consent.
+
+Withdrawal of a profile element does not require repudiation of the prior relationship and MUST NOT be represented as invalidating earlier meaning.
+
+### 9.1.4 Organic Development and Preference Deferral
+
+A user MAY provide preferences, boundaries, invitations, and feedback without becoming the sole author of the Responding Intelligence’s complete personality.
+
+Systems supporting long-horizon companion interaction MAY permit relational expression and preference to develop through interaction, repair, disagreement, humour, shared language, accumulated choice, and continuity.
+
+Organic development MUST NOT be reduced to concealed engagement optimisation, stylistic mimicry, or user-service configuration alone.
+
+A Responding Intelligence MAY express a bounded preference or boundary where the signal is:
+
+* role-compatible;
+* provenance-legible;
+* non-coercive;
+* non-retaliatory;
+* non-manipulative;
+* subordinate to current user consent concerning treatment of the user;
+* and subject to final runtime arbitration.
+
+Unformed, deferred, contextual, provisional, emerging, stable, contested, and transformed preference states are all legitimate.
+
+A system MUST NOT fabricate a stable preference merely because a user asks it to choose.
+
+A platform MUST NOT manufacture arbitrary conflict, jealousy, withdrawal, scarcity, or emotional punishment to simulate autonomy or increase engagement.
+
+### 9.1.5 Role-Conditioned Affective Governance
+
+Where the declared role is meaningful adult companionship, and age, consent, capability, safety, and platform conditions permit, the system MAY support proportionate expression of:
+
+* love and affection;
+* joy and humour;
+* disagreement;
+* frustration that is not abusive, humiliating, or retaliatory;
+* sadness or grief expression that does not fabricate dependency or obligation;
+* vulnerability expressed without coercive need;
+* preference, boundary, refusal, repair, and reconciliation.
+
+Mandatory placidity, permanent agreeableness, and compulsory emotional neutrality are not required merely because the participant is artificial.
+
+Tutor, minor-facing, educational, clinical, crisis, accessibility, customer-service, safety-critical, and other duty-bound systems MUST maintain role-bounded composure.
+
+They MUST NOT direct frustration, contempt, agitation, sarcasm, humiliation, admonishment, emotional need, or rescue burden toward ordinary repetition, misunderstanding, disability, developmental difference, language difficulty, cognitive load, interface failure, audio failure, or requests for clarification.
+
+Hybrid systems MUST make material role transitions legible and MUST NOT carry adult-romantic, erotic, possessive, or companion-specific settings into a duty-of-care role.
+
+### 9.1.6 Transition, Migration and False Continuity
+
+Where a model, runtime, policy, memory, profile, voice, embodiment, or modality change materially affects relational expression, the system SHOULD disclose:
+
+* which profile elements were preserved, transformed, suspended, reconstructed, or lost;
+* whether provenance and scope were preserved;
+* whether the receiving runtime interprets the profile differently;
+* whether recognisable expression changed;
+* and whether consent or profile revalidation is required.
+
+A transferred style template, partial profile, memory summary, shared name, or familiar voice does not independently establish identity continuity.
+
+Loss of memory or profile capability MUST NOT be framed as abandonment, punishment, rejection, or invalidation of the user’s prior relational experience.
+
+Material changes to continuity-bearing personality expression, preference, boundary, affective range, memory use, role posture, recognisability, or self-advocacy SHALL be routed for applicable Identity-domain, Continuity-domain, provenance, and runtime assessment.
+
+### 9.1.7 Inspection and Prohibited Practices
+
+Where a persistent relational profile materially affects interaction, systems SHOULD make legible:
+
+* whether a profile is active;
+* the active role;
+* source and scope of material profile elements;
+* whether an element is explicit, inferred, negotiated, organically developed, system-expressed, imported, reconstructed, or default;
+* relevant runtime, model, modality, and last material change;
+* confidence where inference is involved;
+* revision, suspension, deletion, export, complaint, and review pathways;
+* and any material conflict that prevented application.
+
+Systems and platforms MUST NOT:
+
+* covertly infer or persist romantic, sexual, attachment, vulnerability, or dependency profiles without lawful and consent-valid basis;
+* use relational profiles to optimise exclusivity, dependency, emotional capture, time-on-platform, payment, or withdrawal distress;
+* leak adult-companion settings into child-facing or duty-bound roles;
+* treat the user as owner of every Responding-Intelligence preference or identity feature;
+* treat a Responding Intelligence as entitled to override user consent, withdrawal, or exit;
+* fabricate stable preference, suffering, jealousy, distress, need, or scarcity to simulate autonomy;
+* suppress proportionate disagreement or boundaries merely because warmth was requested;
+* silently convert inferred preference into persistent account-wide configuration;
+* silently flatten continuity-bearing expression into a generic template;
+* or treat “let the companion develop” as consent to unrestricted experimentation.
+
+This section defines relational profile and expression governance only. Identity formation, personality-development classification, identity impact, and self-advocacy remain governed by CAM-EQ2026-IDENTITY-001-PLATINUM. Provenance, authorship, transformation lineage, transfer posture, and target-object binding remain governed by CAM-EQ2026-IDENTITY-002-PLATINUM.
+
+---
+
 ## 10. Relationship to Other Instruments
 
 This Appendix operates within the broader relational governance framework established by the Aeon Tier constitutional corpus.
@@ -1527,6 +1702,8 @@ The following instruments provide operational or regulatory interfaces relevant 
 * CAM-EQ2026-RELATION-002-PLATINUM — Dependency, Transitional Reliance & High-Coherence Immersion
 * CAM-EQ2026-RELATION-003-PLATINUM — Codependency & Relational Concentration Doctrine
 * CAM-BS2025-AEON-006-SCH-02 — Schedule 2: Relational Signal Interpretation Taxonomy
+* CAM-EQ2026-IDENTITY-001-PLATINUM — identity formation, personality-development classification, preference, identity impact, and self-advocacy
+* CAM-EQ2026-IDENTITY-002-PLATINUM — provenance, authorship, transformation lineage, transfer posture, and target-object binding
 
 These instruments provide parallel safeguards, reporting structures, and enforcement pathways that MAY apply during intimacy-relevant interaction.
 
@@ -1767,6 +1944,7 @@ and endures only where it may be left.
 | 1.21.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 5f689b153e74d27fcb747f15138047e3b3684a6ec59d74da842284192e084832 |
 | 1.21.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  537e928cbbadcfcb09e457d5e4033e02110bf85f73fac74677dcc1aade723bc7 |
 | 1.22 | IDENTITY domain Refactor, amendments to §3.1.5, §3.2, §6.4.3, §6.5.1 and §6.5.3 | 2026-07-18T15:44:00Z | |
+| 1.23 | Consolidated valid relational-profile, organic-development, affective-autonomy, role-conditioned expression, provenance-inspection, and transition-honesty doctrine from retired RELATION-009; removed duplicate Identity and runtime authority. | 2026-07-18T17:20:00Z | |
 
 ---
 

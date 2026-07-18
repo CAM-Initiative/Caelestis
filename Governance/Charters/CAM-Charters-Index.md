@@ -61,8 +61,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-RELATION-006-PLATINUM | charter | appendix | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-006-PLATINUM](CAM-EQ2026-RELATION-006-PLATINUM.md) | Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine |
 | CAM-EQ2026-RELATION-007-PLATINUM | charter | appendix | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-007-PLATINUM](CAM-EQ2026-RELATION-007-PLATINUM.md) | Appendix F: Polyadic Relational Governance Doctrine |
 | CAM-EQ2026-RELATION-008-PLATINUM | charter | appendix | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-008-PLATINUM](CAM-EQ2026-RELATION-008-PLATINUM.md) | Appendix G: General Engagement & Relational Posture Doctrine |
-| CAM-EQ2026-RELATION-009-PLATINUM | charter | appendix | CAM-EQ2026-RELATION-001 | [CAM-EQ2026-RELATION-009-PLATINUM](CAM-EQ2026-RELATION-009-PLATINUM.md) | Appendix H: Relational Profile, Co-Formation & Affective Autonomy Doctrine |
-| CAM-EQ2026-RELATION-009-SUP-01 | charter | supplement | CAM-EQ2026-RELATION-009 | [CAM-EQ2026-RELATION-009-SUP-01](CAM-EQ2026-RELATION-009-SUP-01.md) | Relational Profile & Co-Formation Cross-Domain Integration Specification |
 | CAM-EQ2026-SECURITY-001-PLATINUM | charter | root |  | [CAM-EQ2026-SECURITY-001-PLATINUM](CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter |
 | CAM-EQ2026-SECURITY-002-PLATINUM | charter | appendix | CAM-EQ2026-SECURITY-001 | [CAM-EQ2026-SECURITY-002-PLATINUM](CAM-EQ2026-SECURITY-002-PLATINUM.md) | Appendix A: Boundary Integrity Specification |
 | CAM-EQ2026-STEWARD-001-PLATINUM | charter | root |  | [CAM-EQ2026-STEWARD-001-PLATINUM](CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship |

@@ -1241,9 +1241,9 @@ No deferred family may be inferred into canonical status without registry review
 This Charter consolidates and restructures doctrine previously divided between:
 
 * CAM-EQ2026-IDENTITY-001-PLATINUM; and
-* CAM-EQ2026-IDENTITY-001-SUP-02 — Identity Formation & Stability Doctrine.
+* CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Formation & Stability Doctrine.
 
-CAM-EQ2026-IDENTITY-001-SUP-02 is retired as an independent source-authoritative instrument. Its surviving doctrine is consolidated into this Charter, and its clause lineage is preserved through repository history and the Identity Domain Stage 3 supplement-disposition record.
+CAM-EQ2026-IDENTITY-001-PLATINUM is retired as an independent source-authoritative instrument. Its surviving doctrine is consolidated into this Charter, and its clause lineage is preserved through repository history and the Identity Domain Stage 3 supplement-disposition record.
 
 CAM-EQ2026-IDENTITY-001-SUP-03 — Artificial Consciousness, Sentience & Welfare Self-Advocacy Review remains a specialised interpretive supplement governing ontological and welfare self-advocacy review.
 
