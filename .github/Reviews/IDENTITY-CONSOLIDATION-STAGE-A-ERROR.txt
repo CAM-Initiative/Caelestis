@@ -1,0 +1,2 @@
+Active stale references remain:
+Governance/CAM.Canonical.Code.Index.json: retired IDENTITY-001-SUP-02
