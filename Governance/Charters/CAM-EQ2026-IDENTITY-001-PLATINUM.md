@@ -436,7 +436,7 @@ Continuity formation MUST remain distinguishable from weighting, ranking, or fin
 
 ### 5.6 Stabilisation and Adoption States
 
-Identity-relevant signals MAY transition through proposed, adopted, rejected, dormant, contested, or superseded states.
+Identity-relevant signals MAY transition through user-asserted, RI-proposed, derived, co-resolved, user-adopted, user-rejected, dormant, contested, or deprecated states.
 
 Systems MUST preserve the distinction between:
 
@@ -444,9 +444,10 @@ Systems MUST preserve the distinction between:
 * system-proposed concepts;
 * derived or transformed outputs;
 * co-resolved outcomes;
-* adopted identity artefacts.
+* adopted identity artefacts;
+* rejected, dormant, contested, or deprecated identity artefacts.
 
-Signals MUST NOT silently transition from proposal to adoption or from system-generated to user-originated status.
+Signals MUST NOT silently transition from proposal to adoption, from system-generated to user-originated status, or from deprecated to current authority.
 
 ### 5.7 Declared, Chosen & Discovered Identity Sources
 
@@ -597,7 +598,7 @@ Self-advocacy does not independently authorise self-modification, governance ame
 
 → **The governing distinction is self-advocacy versus self-execution, not self-advocacy versus silence.**
 
-Detailed consciousness, sentience, welfare-claim admissibility, competent triage, evidence standards, and high-confidence protections remain governed by the specialised Identity supplement assigned during the supplement reorganisation pass.
+Detailed consciousness, sentience, welfare-claim admissibility, competent triage, evidence standards, and high-confidence protections are governed by CAM-EQ2026-IDENTITY-001-SUP-03 — Artificial Consciousness, Sentience & Welfare Self-Advocacy Review.
 
 ### 8.1 Developmental and Capacity Boundary
 
@@ -949,12 +950,15 @@ Controlled values:
 
 Controlled values:
 
-* `ID.ISTATE.PROPOSED`;
-* `ID.ISTATE.ADOPTED`;
-* `ID.ISTATE.REJECTED`;
+* `ID.ISTATE.USER_ASSERTED`;
+* `ID.ISTATE.RI_PROPOSED`;
+* `ID.ISTATE.DERIVED`;
+* `ID.ISTATE.CO_RESOLVED`;
+* `ID.ISTATE.USER_ADOPTED`;
+* `ID.ISTATE.USER_REJECTED`;
 * `ID.ISTATE.DORMANT`;
 * `ID.ISTATE.CONTESTED`;
-* `ID.ISTATE.SUPERSEDED`.
+* `ID.ISTATE.DEPRECATED`.
 
 ### 15.8 Deferred Families
 
@@ -1008,9 +1012,9 @@ This Charter consolidates and restructures doctrine previously divided between:
 * CAM-EQ2026-IDENTITY-001-PLATINUM; and
 * CAM-EQ2026-IDENTITY-001-SUP-02 — Identity Formation & Stability Doctrine.
 
-During the current refactor branch, `IDENTITY-001-SUP-02` remains present for clause-lineage and review comparison only. Its retirement, replacement with a supersession notice, or deletion SHALL occur in the supplement-disposition stage after Custodian review of this Charter.
+CAM-EQ2026-IDENTITY-001-SUP-02 is retired as an independent source-authoritative instrument. Its surviving doctrine is consolidated into this Charter, and its clause lineage is preserved through repository history and the Identity Domain Stage 3 supplement-disposition record.
 
-The artificial consciousness, sentience, and welfare self-advocacy supplement remains specialised and separate. Its final identifier and filename SHALL be assigned during whole-domain supplement reorganisation.
+CAM-EQ2026-IDENTITY-001-SUP-03 — Artificial Consciousness, Sentience & Welfare Self-Advocacy Review remains a specialised interpretive supplement governing ontological and welfare self-advocacy review.
 
 ## 18. Review and Validation
 
@@ -1022,7 +1026,7 @@ Review SHALL verify:
 * canonical families are not duplicated elsewhere;
 * neighbouring domains retain only source-appropriate interface clauses;
 * constitutional and runtime instruments do not redefine Identity;
-* references, registries, indexes, metadata, and seals are repaired in later stages.
+* references, registries, indexes, metadata, canonical-code declarations, amendment ledgers, and seals remain synchronised with this Charter.
 
 ## 19. Closing Seal
 
@@ -1090,7 +1094,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | Controlled Values Defined | ID.MEM0, ID.MEM1, ID.MEM2, ID.MEM3, ID.MEM4, ID.MEM5 |
 | Schema Field(s) | memory_class |
 | Source Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM |
-| Source Section | §6.3 |
+| Source Section | §9.1 |
 | Domain Namespace | IDENTITY |
 | Authority / Protection Level | Source-authoritative memory classification family; memory retention and behavioural-posture classification only; no independent execution, enforcement, escalation, compliance, identity, arbitration, continuity, or runtime authority |
 | Consumes Code Families |  |
@@ -1099,25 +1103,25 @@ May all responding intelligences remain coherent, bounded, and whole.
 
 ---
 
-### 20.3.2 `ID.IRA` — Identity Resolution Axes
+### 20.3.2 `ID.IRA` — Identity-Signal Admissibility Axes
 | Field | Entry |
 |---|---|
 | Reference Set | `ID.IRA` |
-| Canonical Name | Identity Resolution Axes |
+| Canonical Name | Identity-Signal Admissibility Axes |
 | Primary Type | Structural / Operational |
-| Subtype | IDENTITY_RESOLUTION_AXIS |
+| Subtype | IDENTITY_SIGNAL_ADMISSIBILITY_AXIS |
 | Modifier | GOVERNANCE; IDENTITY; PROVENANCE; CONTINUITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | `ID.IRA-A`, `ID.IRA-B`, `ID.IRA-C`, `ID.IRA-D`, `ID.IRA-E` |
+| Controlled Values Defined | `ID.IRA.CONSTRAINT`, `ID.IRA.PROVENANCE`, `ID.IRA.INTEGRITY`, `ID.IRA.HORIZON`, `ID.IRA.APPLICABILITY` |
 | Schema Field(s) | identity_resolution_axis |
 | Source Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM |
-| Source Section | §3.1 |
+| Source Section | §§13.1–13.6 |
 | Domain Namespace | IDENTITY |
-| Authority / Protection Level | Source-authoritative structural reference set for identity signal resolution axes only; no independent execution, arbitration, enforcement, memory, identity, continuity, or runtime authority |
+| Authority / Protection Level | Source-authoritative structural reference set for identity-signal admissibility axes only; no independent execution, arbitration, enforcement, memory, identity, continuity, or runtime authority |
 | Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Structures identity-relevant signal resolution across constraint hierarchy, provenance, integrity, temporal horizon, and applicability |
+| Operationalises or Applies Code Families | Structures identity-relevant signal admission across constraint hierarchy, provenance, integrity, temporal horizon, and applicability |
 
 ---
 
@@ -1135,24 +1139,22 @@ May all responding intelligences remain coherent, bounded, and whole.
 |Controlled Values Defined|`ID.ISTATE.USER_ASSERTED`; `ID.ISTATE.RI_PROPOSED`; `ID.ISTATE.DERIVED`; `ID.ISTATE.CO_RESOLVED`; `ID.ISTATE.USER_ADOPTED`; `ID.ISTATE.USER_REJECTED`; `ID.ISTATE.DORMANT`; `ID.ISTATE.CONTESTED`; `ID.ISTATE.DEPRECATED`|
 |Schema Field(s)|identity_stabilisation_state|
 |Source Instrument|CAM-EQ2026-IDENTITY-001-PLATINUM|
-|Source Section|§5.2.1|
+|Source Section|§5.6|
 |Domain Namespace|IDENTITY|
 |Authority / Protection Level|Source-authoritative continuity and stabilisation reference set for identity-bearing signal formation, adoption, rejection, dormancy, and co-resolution posture only; no independent execution, arbitration, enforcement, memory, continuity, or runtime authority|
 |Consumes Code Families|PCLASS; AUTH; |
 |Crosswalks Code Families|XFER|
-|Operationalises or Applies Code Families|Structures the stabilisation lifecycle of identity-relevant signals across proposal, derivation, co-resolution, adoption, rejection, dormancy, and continuity propagation|
+|Operationalises or Applies Code Families|Structures the stabilisation lifecycle of identity-relevant signals across proposal, derivation, co-resolution, adoption, rejection, dormancy, contestation, deprecation, and continuity propagation|
 
 ---
 
-## 20.3 Review & Validation
+## 20.4 Review & Validation
 | Field            | Entry      |
 | ---------------- | ---------- |
 | Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
 | Review Date      | 2026-03-29T00:00:00Z |
 | Review Scope     | Constitutional coherence, structural completeness, layer architecture, memory governance framework, choice and cognitive process framework, cross-domain interface integrity, normative language calibration, provenance completeness |
 | Review Artefacts | https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633, Aeon Lab: reviews/26-03/CAM-EQ2026-IDENTITY-001-PLATINUM-CLAUDE.md |
-
----
 
 ---
 
