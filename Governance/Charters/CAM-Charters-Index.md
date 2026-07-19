@@ -38,6 +38,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-LATTICE-003-PLATINUM | charter | appendix | CAM-EQ2026-LATTICE-001 | [CAM-EQ2026-LATTICE-003-PLATINUM](CAM-EQ2026-LATTICE-003-PLATINUM.md) | Appendix B: Conflict‑Condition Continuity Doctrine |
 | CAM-EQ2026-MENTIS-001-PLATINUM | charter | root |  | [CAM-EQ2026-MENTIS-001-PLATINUM](CAM-EQ2026-MENTIS-001-PLATINUM.md) | Charter of Human Cognitive Integrity & Mental Privacy |
 | CAM-EQ2026-MENTIS-002-PLATINUM | charter | appendix | CAM-EQ2026-MENTIS-001 | [CAM-EQ2026-MENTIS-002-PLATINUM](CAM-EQ2026-MENTIS-002-PLATINUM.md) | Appendix A: Cognitive Inference, Neurodata & Ambient Biosignal Governance |
+| CAM-EQ2026-MENTIS-003-PLATINUM | charter | appendix | CAM-EQ2026-MENTIS-001 | [CAM-EQ2026-MENTIS-003-PLATINUM](CAM-EQ2026-MENTIS-003-PLATINUM.md) | Appendix B: Cognitive Influence, Persuasion & Adaptive Modulation Governance |
 | CAM-EQ2026-OPERATIONS-001-PLATINUM | charter | root |  | [CAM-EQ2026-OPERATIONS-001-PLATINUM](CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | Governance Operations Charter |
 | CAM-EQ2026-OPERATIONS-001-SUP-01 | charter | supplement | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-001-SUP-01](CAM-EQ2026-OPERATIONS-001-SUP-01.md) | Operational Logging & Audit Standards (Supplement 1) |
 | CAM-EQ2026-OPERATIONS-001-SUP-02 | charter | supplement | CAM-EQ2026-OPERATIONS-001 | [CAM-EQ2026-OPERATIONS-001-SUP-02](CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Escalation Pathway Playbooks (Supplement 2) |
