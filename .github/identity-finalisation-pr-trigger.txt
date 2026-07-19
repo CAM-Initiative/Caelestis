@@ -1,1 +1,2 @@
 Temporary PR trigger only. This branch will not be merged.
+Retry after relaxing Markdown whitespace validation.
