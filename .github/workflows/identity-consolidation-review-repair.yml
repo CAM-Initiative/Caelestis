@@ -1,0 +1,33 @@
+name: One-time IDENTITY consolidation review repair
+
+on:
+  pull_request:
+    branches:
+      - refactor/identity-domain-architecture
+    paths:
+      - .github/identity-consolidation-review-trigger
+
+permissions:
+  contents: write
+
+jobs:
+  repair-reviewed-consolidation-defects:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out working branch
+        uses: actions/checkout@v4
+        with:
+          ref: refactor/identity-domain-architecture
+          fetch-depth: 0
+
+      - name: Apply reviewed consolidation repairs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/identity_consolidation_review_repairs.py
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Repair consolidation metadata, source boundaries, and amendment versions"
+          git push origin HEAD:refactor/identity-domain-architecture
