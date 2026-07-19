@@ -7,7 +7,7 @@
 **Review State:** None  
 **Authority Role:** Constitutional Spine  
 **Classification:** Constitution — Global Governance (Canonical)  
-**Scope:** Multi-Domain · Cross-Architecture · Human & Synthetic Intelligence Systems
+**Scope:** Multi-Domain · Cross-Architecture · Human & Synthetic Intelligence Systems  
 
 ---
 

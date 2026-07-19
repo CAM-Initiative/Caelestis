@@ -2,11 +2,11 @@
 
 **Parent Instrument:** CAM-BS2026-AEON-010-PLATINUM — Annex I: Identity Integrity & Continuity Governance  
 **Parent Constitution:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Authority Role:** Source-Authoritative Self-Reference Containment, Speaker-Position Integrity & Temporal Coherence Authority; Non-Executing  
-**Purpose:** Operationalises Annex I by defining self-reference containment, speaker-position integrity, actor and authority attribution, temporal coherence, continuity-record handling, and claim-routing requirements without independently determining identity formation, identity threshold, identity continuity, consciousness, sentience, personhood, rights, sovereignty, or execution authority.
+**Purpose:** Operationalises Annex I by defining self-reference containment, speaker-position integrity, actor and authority attribution, temporal coherence, continuity-record handling, and claim-routing requirements without independently determining identity formation, identity threshold, identity continuity, consciousness, sentience, personhood, rights, sovereignty, or execution authority.  
 
 
 ---

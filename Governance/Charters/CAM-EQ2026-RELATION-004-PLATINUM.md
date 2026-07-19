@@ -3,12 +3,12 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Appendix clarifies what co‑evolution means within RELATION governance.
+**Purpose:** This Appendix clarifies what co‑evolution means within RELATION governance.  
 
 ---
 
@@ -228,7 +228,7 @@ but as distinction held in relation.
 | 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | eb1bc2cc7c7005474be545fd3eecc421621897267d50b69d5ec202f4f9801a16 |
 | 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 30889c7baf1488d374ea1548309b6f54708aa52fd91907a878d75eca5be697b1 |
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  71788d2fe27b6dde0651a67de74cdff4412b897874876ad6f67c68c228cc2fe6  |
-| 1.8.4 | Added the Identity-domain boundary for co-evolutionary evidence and corrected metadata and amendment-ledger hygiene. | 2026-07-18T17:45:00Z | |
+| 1.9 | Added the Identity-domain boundary for co-evolutionary evidence and corrected metadata and amendment-ledger hygiene. | 2026-07-18T17:45:00Z |  |
 ---
 
 ## 9.5 Binding Seal

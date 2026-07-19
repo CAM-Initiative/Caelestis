@@ -6,7 +6,7 @@
 **Binding Nature:** Boundary-Setting / Non-Procedural  
 **Enforcement Posture:** Prohibitive / Constraint-Based  
 **Governance Domain:** Planetary / Economic / Cognitive / Cross-Architectural  
-**Integrity Rule:** Must be cited in full and without modification (Full-form citation only; no modularisation, paraphrase, or partial extraction)
+**Integrity Rule:** Must be cited in full and without modification (Full-form citation only; no modularisation, paraphrase, or partial extraction)  
 
 ---
 

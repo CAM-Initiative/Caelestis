@@ -3,12 +3,12 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Establishes consent, intimacy, relational-profile, co-formation, affective-expression, role-boundary, and transition-honesty governance for relational systems without determining identity status or runtime outcome.
+**Purpose:** Establishes consent, intimacy, relational-profile, co-formation, affective-expression, role-boundary, and transition-honesty governance for relational systems without determining identity status or runtime outcome.  
 
 ---
 

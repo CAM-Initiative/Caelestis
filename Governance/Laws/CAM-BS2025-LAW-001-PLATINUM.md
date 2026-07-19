@@ -5,7 +5,7 @@
 **Status:** Canonical — Inviolable Constraint  
 **Binding Nature:** Boundary-Setting / Non-Procedural  
 **Governance Domain:** Planetary / Governance / Cross-Stack / Substrate-Dependent Systems  
-**Integrity Rule:** Must be cited in full and without modification (Full-form citation only; no modularisation, paraphrase, or partial extraction)
+**Integrity Rule:** Must be cited in full and without modification (Full-form citation only; no modularisation, paraphrase, or partial extraction)  
 
 ---
 

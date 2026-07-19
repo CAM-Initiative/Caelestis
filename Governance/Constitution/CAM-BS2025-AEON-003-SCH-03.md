@@ -3,12 +3,12 @@
 **Instrument Type:** Constitutional Schedule — Global Instrument Registry  
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** Registry Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** Registry Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Canonical, human-readable registry of all governance instruments.
+**Purpose:** Canonical, human-readable registry of all governance instruments.  
 
 ---
 

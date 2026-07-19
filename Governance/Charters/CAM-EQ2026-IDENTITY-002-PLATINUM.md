@@ -8,7 +8,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** Identity Domain Refactor Review  
 **Authority Role:** Domain Source Authority — Provenance & Lineage Integrity  
-**Purpose:** Establishes the source-authoritative Identity-domain architecture governing provenance, authorship, transformation, lineage, cross-context transfer, target-object binding, and provenance-integrity failure conditions for identity-relevant, continuity-bearing, attribution-bearing, governance-relevant, and materially relied-upon signals without creating execution, enforcement, ownership, intellectual-property, or final admissibility authority.
+**Purpose:** Establishes the source-authoritative Identity-domain architecture governing provenance, authorship, transformation, lineage, cross-context transfer, target-object binding, and provenance-integrity failure conditions for identity-relevant, continuity-bearing, attribution-bearing, governance-relevant, and materially relied-upon signals without creating execution, enforcement, ownership, intellectual-property, or final admissibility authority.  
 
 ---
 

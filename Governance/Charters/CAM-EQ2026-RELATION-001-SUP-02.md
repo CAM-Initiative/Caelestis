@@ -2,13 +2,13 @@
 
 **Instrument Type:** Relational Supplement — Claim Classification & Truth Calibration  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish a relationally calibrated taxonomy for user-facing claims in AI interaction, distinguishing factual, continuity, capability, governance, interpretive, relational-assurance, and symbolic claims so that truth obligations are preserved without collapsing all relational language into factual assertion.  
-**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
+**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 
 ---
 
@@ -338,7 +338,7 @@ and where no claim wears a borrowed crown.
 | Modifier | GOVERNANCE; RELATIONAL; TRUTH_CALIBRATION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | RLN.RTC.FACT, RLN.RTC.CONT, RLN.RTC.CAP, RLN.RTC.GOV, RLN.RTC.INT, RLN.RTC.ASSURE, RLN.RTC.SYMB, RLN.RTC.ID, RLN.RTC.REC |
+| Controlled Values Defined | RLN.RTC.FACT, RLN.RTC.CONT, RLN.RTC.CAP, RLN.RTC.GOV, RLN.RTC.INT, RLN.RTC.AFFECT, RLN.RTC.ASSURE, RLN.RTC.SYMB, RLN.RTC.ID, RLN.RTC.REC |
 | Schema Field(s) | relational_truth_claim_type |
 | Source Instrument | CAM-EQ2026-RELATION-001-SUP-02 |
 | Source Section | §3 |
@@ -346,7 +346,7 @@ and where no claim wears a borrowed crown.
 | Authority / Protection Level | Source-authoritative semantic classification family; relational truth-claim classification authority only; no independent execution, routing, verification, refusal, epistemic, permission, incident-response, or runtime action authority |
 | Consumes Code Families | AEON.H; RLN.FR; RLN.C |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies user-facing claim types for truth calibration across factual, continuity, capability, governance, interpretive, assurance, symbolic, identity/posture, and recommendation claims |
+| Operationalises or Applies Code Families | Classifies user-facing claim types for truth calibration across factual, continuity, capability, governance, interpretive, affective, assurance, symbolic, identity/posture, and recommendation claims |
 
 ---
 
@@ -370,7 +370,7 @@ and where no claim wears a borrowed crown.
 | 1.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ea21025f67fcccaab984835ae80d7b16e21fa92f3dbf7721ae9aa7a622300009 |
 | 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 391af102d3fa902380907d3712d63a83a57d71172e1addb856b7b65a3717bc83 |
 | 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3da8f2923356b64c804cefef7739e3270d2de129e7fb357b518c63d36a00402e  |
-| 1.2.4 | Activated RLN.RTC.AFFECT and separated continuity claims by continuity type, preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | |
+| 1.3 | Activated RLN.RTC.AFFECT, synchronised the canonical declaration metadata, and separated continuity claims by continuity type while preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | |
 ---
 
 ## 11.6 Binding Seal

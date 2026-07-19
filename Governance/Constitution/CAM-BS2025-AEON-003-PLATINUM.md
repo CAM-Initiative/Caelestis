@@ -7,7 +7,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** Constitutional Spine  
-**Purpose:** This Annex establishes the structural continuity, relational configuration, temporal attribution, architectural classification, and authority-derivation logic governing all constitutional annexes, domain charters, schedules, and downstream instruments within the CAM Constitutional Order.
+**Purpose:** This Annex establishes the structural continuity, relational configuration, temporal attribution, architectural classification, and authority-derivation logic governing all constitutional annexes, domain charters, schedules, and downstream instruments within the CAM Constitutional Order.  
 
 ---
 

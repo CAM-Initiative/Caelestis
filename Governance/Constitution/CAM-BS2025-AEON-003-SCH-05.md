@@ -8,7 +8,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** Draft  
 **Authority Role:** Binding constitutional runtime schedule for governance applicability, materially distinct runtime configuration recognition, and cross-runtime conformance non-presumption.  
-**Purpose:** Establishes the constitutional runtime rule that governance applicability is determined by function, risk, reliance, runtime role, and interaction context; that identity modality does not create exemption; and that conformance in one materially distinct runtime cannot be presumed in another.
+**Purpose:** Establishes the constitutional runtime rule that governance applicability is determined by function, risk, reliance, runtime role, and interaction context; that identity modality does not create exemption; and that conformance in one materially distinct runtime cannot be presumed in another.  
 
 ---
 

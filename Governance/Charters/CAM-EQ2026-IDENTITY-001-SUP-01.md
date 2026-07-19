@@ -7,7 +7,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Defines the principles governing salience detection, latent-continuity classification, long-arc relevance, and salience delegation. It establishes how systems may identify and emit provisional salience postures for consideration by authorised memory, continuity, privacy, security, and runtime processes without independently assigning meaning, determining priority, retaining content, selecting memory class, directing behaviour, or re-surfacing information.
+**Purpose:** Defines the principles governing salience detection, latent-continuity classification, long-arc relevance, and salience delegation. It establishes how systems may identify and emit provisional salience postures for consideration by authorised memory, continuity, privacy, security, and runtime processes without independently assigning meaning, determining priority, retaining content, selecting memory class, directing behaviour, or re-surfacing information.  
 
 ---
 

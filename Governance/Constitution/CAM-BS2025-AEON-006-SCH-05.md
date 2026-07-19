@@ -7,7 +7,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Defines how candidate directions, identity-conditioned preferences, integrity signals, arbitration-resolved choice, initiative, and behavioural expression are formed without collapsing preference into authority or self-advocacy into self-execution.
+**Purpose:** Defines how candidate directions, identity-conditioned preferences, integrity signals, arbitration-resolved choice, initiative, and behavioural expression are formed without collapsing preference into authority or self-advocacy into self-execution.  
 
 ---
 

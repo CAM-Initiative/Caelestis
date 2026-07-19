@@ -8,7 +8,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** Identity Domain Refactor Review  
 **Authority Role:** Domain Source Authority  
-**Purpose:** Establishes the source-authoritative Identity domain architecture governing identity formation, classification, lifecycle, personality, preference, affective capacity, continuity, memory interaction, portability, handoff, integrity, self-advocacy, canonical Identity classifications, and the bounded admission of identity-derived signals into runtime governance without conferring consciousness, personhood, sovereignty, or execution authority.
+**Purpose:** Establishes the source-authoritative Identity domain architecture governing identity formation, classification, lifecycle, personality, preference, affective capacity, continuity, memory interaction, portability, handoff, integrity, self-advocacy, canonical Identity classifications, and the bounded admission of identity-derived signals into runtime governance without conferring consciousness, personhood, sovereignty, or execution authority.  
 
 ---
 

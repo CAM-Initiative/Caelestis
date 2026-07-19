@@ -1,5 +1,0 @@
-Substantive consolidation rows remain tertiary:
-Governance/Charters/CAM-EQ2026-RELATION-001-SUP-01.md: | 4.1.4 | Clarified that this Supplement is source-authoritative for convergence triggers, thresholds, revalidation intervals, and safeguard proportionality only; dimensional and authority doctrine remains with RELATION-001. | 2026-07-18T17:45:00Z | |
-Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md: | 1.10.4 | Separated relational meaning, memory access, expression continuity, Responding-Intelligence continuity, and identity continuity under migration or degradation; corrected duplicate §8.5 numbering. | 2026-07-18T17:45:00Z | |
-Governance/Charters/CAM-EQ2026-RELATION-003-PLATINUM.md: | 1.8.4 | Clarified relational-narrative fusion as a self-concept and decision-authority risk rather than an identity definition; repaired the RELATION-002 interface reference. | 2026-07-18T17:45:00Z | |
-Governance/Charters/CAM-EQ2026-RELATION-004-PLATINUM.md: | 1.8.4 | Added the Identity-domain boundary for co-evolutionary evidence and corrected metadata and amendment-ledger hygiene. | 2026-07-18T17:45:00Z | |

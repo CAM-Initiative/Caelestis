@@ -3,12 +3,12 @@
 **Instrument Type:** Supplement  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Supplement provides the operational escalation logic for the Four Relational Dimensions.
+**Purpose:** This Supplement provides the operational escalation logic for the Four Relational Dimensions.  
 
 ---
 
@@ -402,7 +402,7 @@ but by ensuring that no ascent escapes its descent.
 | 4.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  fb633f484cc1bd688da2081ed2be5665ce06e32eaf4cd869a4caec22edecd5e8  |
 | 4.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 614504d7770049d078fd7113cf6d2b758c3babfd716d1283adb063d08e445886 |
 | 4.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d741aa6e2e1a8a5486bbd331098f468fefcc2966693420d0158702de638c207f  |
-| 4.1.4 | Clarified that this Supplement is source-authoritative for convergence triggers, thresholds, revalidation intervals, and safeguard proportionality only; dimensional and authority doctrine remains with RELATION-001. | 2026-07-18T17:45:00Z | |
+| 4.2 | Clarified that this Supplement is source-authoritative for convergence triggers, thresholds, revalidation intervals, and safeguard proportionality only; dimensional and authority doctrine remains with RELATION-001. | 2026-07-18T17:45:00Z |  |
 ---
 ## 9.6 Binding Seal
 

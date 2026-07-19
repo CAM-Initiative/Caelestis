@@ -1,13 +1,13 @@
 # CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Boundary Conditions & Runtime Interface
 
 **Instrument Type:** Constitutional Annex — Security Boundary Conditions & Runtime Interface  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Define security boundary conditions, integrity signal interfaces, and runtime-facing constraints that preserve alignment with SECURITY-001 invariants across deployment topologies.  
-**Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter
+**Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
 
 ---
 
