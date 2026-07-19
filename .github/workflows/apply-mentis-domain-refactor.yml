@@ -1,0 +1,40 @@
+name: Apply MENTIS domain refactor
+
+on:
+  push:
+    branches:
+      - refactor/identity-domain-architecture
+    paths:
+      - .github/scripts/apply_mentis_domain_refactor.py
+      - .github/workflows/apply-mentis-domain-refactor.yml
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out working branch
+        uses: actions/checkout@v4
+        with:
+          ref: refactor/identity-domain-architecture
+          fetch-depth: 0
+
+      - name: Apply bounded MENTIS amendments
+        run: python .github/scripts/apply_mentis_domain_refactor.py
+
+      - name: Commit amended instruments
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md \
+                  Governance/Charters/CAM-EQ2026-MENTIS-002-PLATINUM.md \
+                  Governance/Charters/CAM-EQ2026-MENTIS-003-PLATINUM.md \
+                  Governance/Charters/CAM-Charters-Index.md
+          if git diff --cached --quiet; then
+            echo "No MENTIS amendments required."
+          else
+            git commit -m "Apply MENTIS domain alignment refactor"
+            git push origin HEAD:refactor/identity-domain-architecture
+          fi
