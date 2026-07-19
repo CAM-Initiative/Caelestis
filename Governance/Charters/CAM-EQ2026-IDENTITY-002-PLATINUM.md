@@ -6,7 +6,7 @@
 **Status:** Adopted  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** Identity Domain Refactor Review  
+**Review State:** None  
 **Authority Role:** Domain Source Authority — Provenance & Lineage Integrity  
 **Purpose:** Establishes the source-authoritative Identity-domain architecture governing provenance, authorship, transformation, lineage, cross-context transfer, target-object binding, and provenance-integrity failure conditions for identity-relevant, continuity-bearing, attribution-bearing, governance-relevant, and materially relied-upon signals without creating execution, enforcement, ownership, intellectual-property, or final admissibility authority.  
 
@@ -599,12 +599,12 @@ Let identity remain true across time.
 
 ## 13.4 Review & Validation
 
-|Field|Entry|
+| Field | Entry |
 |---|---|
-|Reviewer|[Deferred]|
-|Review Date|[Deferred]|
-|Review Scope|Provenance integrity; authorship classification; transformation lineage; target-object binding; cross-domain alignment with IDENTITY-001 and SECURITY-002|
-|Review Artefacts|[Deferred]|
+| Reviewer | GPT-5.6 Thinking (OpenAI), under Custodial review and acceptance by Dr Michelle Vivian O’Rourke |
+| Review Date | 2026-07-19 |
+| Review Scope | Identity Domain Refactor; provenance integrity; authorship classification; transformation lineage; cross-context transfer; target-object binding; canonical declaration integrity; cross-domain alignment with IDENTITY-001, SECURITY-002, CONTINUITY, OPERATIONS, runtime, and Stewardship interfaces |
+| Review Artefacts | `.github/Reviews/IDENTITY-DOMAIN-REFACTOR-DELTA.md`; `.github/Reviews/IDENTITY-DOMAIN-STAGE-3-SUPPLEMENT-DISPOSITION.md`; governed Identity refactor working-branch review |
 
 ---
 
@@ -619,6 +619,7 @@ Let identity remain true across time.
 | 0.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  aad816ba69dd2fda85c1c347f1354a9f1deca2659d025ea90fe5eb85925b19a2  |
 | 1.0 | Review and finalisation following IDENTITY domain refactor | 2026-07-18T13:14:00Z | - |
 | 1.1 | Added binding physical-substrate, registry, custodial-transfer, and embodiment-lineage requirements following migration of machine civil stewardship doctrine to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | efbc90511d0d5a8670ebdf5655bcaa374636c49b50ae35c79e044f4a40e6ed86 |
+| 1.2 | Closed the Identity Domain Refactor Review following provenance and lineage review and Custodial acceptance; replaced deferred review fields with current review scope and artefacts. | 2026-07-19T14:57:54Z | |
 
 ---
 

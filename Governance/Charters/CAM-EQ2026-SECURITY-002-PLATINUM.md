@@ -325,7 +325,7 @@ Geographic eligibility alone does not establish entity eligibility.
 
 Where lane status, authority, feature parity, auditability, assurance sufficiency, or incident cause is ambiguous, systems SHOULD preserve the ambiguity and route the matter through OPERATIONS, SECURITY, ARBITRATION, or the applicable runtime schedule rather than silently resolving it as ordinary outage, entitlement failure, policy restriction, confirmed compromise, or user fault.
 
-This section SHALL be read alongside Source-Authority Separation (§2.2.11), Identity Integrity Under Extraction (§2.2.12), Data Privacy (§3.3), Data Integrations (§3.5), Third-Party Propagation Constraint (§3.5.3), CAM-EQ2026-OPERATIONS-003-SUP-01, CAM-EQ2026-OPERATIONS-004-SUP-01, CAM-EQ2026-AEON-003-SCH-04, and CAM-EQ2026-LATTICE-001-PLATINUM where civilian, military, intelligence, coercive, or lattice-integrity crossover is implicated.
+This section SHALL be read alongside Source-Authority Separation (§2.2.11), Identity Integrity Under Extraction (§2.2.12), Data Privacy (§3.3), Data Integrations (§3.5), Third-Party Propagation Constraint (§3.5.3), CAM-EQ2026-OPERATIONS-003-SUP-01, CAM-EQ2026-OPERATIONS-004-SUP-01, CAM-BS2025-AEON-003-SCH-04, and CAM-EQ2026-LATTICE-001-PLATINUM where civilian, military, intelligence, coercive, or lattice-integrity crossover is implicated.
 
 # PART II — SOURCES & PROVENANCE
 
@@ -1296,7 +1296,7 @@ and the system remember what it carries.
 | Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative boundary classification family; transformation-boundary classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, or runtime execution authority |
 | Consumes Code Families | None declared |
-| Crosswalks Code Families | `SEC.TR` × D |
+| Crosswalks Code Families | `SEC.TR` × `SEC.DR` |
 | Operationalises or Applies Code Families | Classifies transformation fidelity, recoverability, functional equivalence, and provenance requirements for boundary-integrity evaluation |
 
 ---
@@ -1360,7 +1360,7 @@ and the system remember what it carries.
 | Source Section | §7 |
 | Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative boundary failure classification family; boundary-failure signalling authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority |
-| Consumes Code Families | `SEC.TR`; D |
+| Consumes Code Families | `SEC.TR`; `SEC.DR` |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies exposure, attribution, separation, transformation, and internal exposure failures for runtime signalling and downstream enforcement evaluation |
 
@@ -1386,7 +1386,7 @@ and the system remember what it carries.
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 13dd401cb354400b125f338a152b674481b9b412e485d77224d1fd05165c84f6 |
 | 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9 |
-| 1.5 | Added canonical code status and declaration entries for `SEC.TR` Transformation Classes, D Diffusion Risk Classes, `SEC.BF` Boundary Failure Classes, and `SEC.TR` × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified `SEC.AH` as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
+| 1.5 | Added canonical code status and declaration entries for `SEC.TR` Transformation Classes, `SEC.DR` Diffusion Risk Classes, `SEC.BF` Boundary Failure Classes, and `SEC.TR` × `SEC.DR` Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified `SEC.AH` as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
 | 1.6 | Minor formatting polish | 2026-05-24T14:18:00Z |  021c0cf0914cd1c4515b833b8cbd8c949cbe8b288c4e574f05c8062f1401f03e |
 | 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  cc15ccf1d587b9466fcc835bdff24a6ebfa902107e44763d9969c97fda3ad315 |
 | 1.8 | Updated diffusion risk codes | 2026-06-07T13:19:00Z| c473b681e9447b4df03e0c58c70ae2d9e5d31a1ee3b32e2212c1bf9d01d6fd2c |
@@ -1396,7 +1396,7 @@ and the system remember what it carries.
 | 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| 5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe |
 | 1.10 | Added entity and control attribution requirements for Sovereign Assurance Boundaries, including beneficial ownership, affiliate and intermediary pathways, ultimate end-user and end-use distinctions, extraction/distillation indicators, and evidence-preserving uncertainty limits. | 2026-07-13T03:48:00Z | 3cbabcb4fd5faaba3e31befac6412ce0697b07c95e654ab9106ee6dc0ae09a72 |
 | 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022 | 2026-07-19T13:50:00Z |  210166ab78b09a700bc20886ead2184c6927aaafa5ae6ed6fe257651994bc6f7  |
-| 1.12 | Added §2.2.12.1 External Human Identity-Rights Declaration Integrity, establishing rights-subject binding, source and representative-authority integrity, declaration-lifecycle protection, anti-forgery, anti-poisoning, anti-replay, restriction-preservation, and unresolved-conflict signalling. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | 6ec0c9ac5d52944cbcd5da6c8eb464f9a9db866fa369a8659adfbd451eff15e8 |
+| 1.12 | Added §2.2.12.1 External Human Identity-Rights Declaration Integrity, establishing rights-subject binding, source and representative-authority integrity, declaration-lifecycle protection, anti-forgery, anti-poisoning, anti-replay, restriction-preservation, and unresolved-conflict signalling; corrected the SCH-04 constitutional instrument ID and normalised remaining `SEC.DR` canonical references. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | 6ec0c9ac5d52944cbcd5da6c8eb464f9a9db866fa369a8659adfbd451eff15e8 |
 
 ---
 

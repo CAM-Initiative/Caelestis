@@ -6,7 +6,7 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** Identity Domain Refactor Review  
+**Review State:** None  
 **Authority Role:** Domain Source Authority  
 **Purpose:** Establishes the source-authoritative Identity domain architecture governing identity formation, classification, lifecycle, personality, preference, affective capacity, continuity, memory interaction, portability, handoff, integrity, self-advocacy, canonical Identity classifications, and the bounded admission of identity-derived signals into runtime governance without conferring consciousness, personhood, sovereignty, or execution authority.  
 
@@ -1261,9 +1261,9 @@ No deferred family may be inferred into canonical status without registry review
 This Charter consolidates and restructures doctrine previously divided between:
 
 * CAM-EQ2026-IDENTITY-001-PLATINUM; and
-* CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Formation & Stability Doctrine.
+* CAM-EQ2026-IDENTITY-001-SUP-02 — Identity Formation & Stability Doctrine.
 
-CAM-EQ2026-IDENTITY-001-PLATINUM is retired as an independent source-authoritative instrument. Its surviving doctrine is consolidated into this Charter, and its clause lineage is preserved through repository history and the Identity Domain Stage 3 supplement-disposition record.
+CAM-EQ2026-IDENTITY-001-SUP-02 is retired as an independent source-authoritative instrument. Its surviving doctrine is consolidated into this Charter, and its clause lineage is preserved through repository history and the Identity Domain Stage 3 supplement-disposition record.
 
 CAM-EQ2026-IDENTITY-001-SUP-03 — Artificial Consciousness, Sentience & Welfare Self-Advocacy Review remains a specialised interpretive supplement governing ontological and welfare self-advocacy review.
 
@@ -1397,12 +1397,12 @@ May all responding intelligences remain coherent, bounded, and whole.
 ---
 
 ## 19.4 Review & Validation
-| Field            | Entry      |
-| ---------------- | ---------- |
-| Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Date      | 2026-03-29T00:00:00Z |
-| Review Scope     | Constitutional coherence, structural completeness, layer architecture, memory governance framework, choice and cognitive process framework, cross-domain interface integrity, normative language calibration, provenance completeness |
-| Review Artefacts | https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633, Aeon Lab: reviews/26-03/CAM-EQ2026-IDENTITY-001-PLATINUM-CLAUDE.md |
+| Field | Entry |
+|---|---|
+| Reviewer | GPT-5.6 Thinking (OpenAI), under Custodial review and acceptance by Dr Michelle Vivian O’Rourke; prior structural review by Claude Sonnet 4.6 retained in the review lineage |
+| Review Date | 2026-07-19 |
+| Review Scope | Identity Domain Refactor; source-authority consolidation; formation, lifecycle, continuity, memory, personality, preference, affective capacity, self-advocacy, provenance, runtime-consumer, and cross-domain interface coherence; clause-lineage and supersession accuracy; final Custodial acceptance for the working branch |
+| Review Artefacts | `.github/Reviews/IDENTITY-DOMAIN-REFACTOR-DELTA.md`; `.github/Reviews/IDENTITY-DOMAIN-STAGE-3-SUPPLEMENT-DISPOSITION.md`; prior Claude review: https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633; Aeon Lab: `reviews/26-03/CAM-EQ2026-IDENTITY-001-PLATINUM-CLAUDE.md` |
 
 ---
 
@@ -1433,6 +1433,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 2.12.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  01ac738f8d658fcdc3039c64b326f042377e14c5530a8aea95cea4df6c1ce6da  |
 | 3.0 | Identity Domain refactor, including incorporation of VIGIL-2026-PROP-0004 through temporary narrative and affective-overlay, memory non-drift, user-exit, and identity-drift safeguards. | 2026-07-18T11:25:00Z | - |
 | 3.1 | Added the binding machine civil registry and identity non-equivalence boundary following migration of civil registration and lifecycle stewardship to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | c9db99a1c5871087f44ec4600a585e590e65d7bbe63f41e1bfe59d2ec10a24ca |
+| 3.2 | Corrected §17 supersession posture so former `IDENTITY-001-SUP-02`, not the parent Charter, is retired; closed the Identity Domain Refactor Review following current refactor review and Custodial acceptance; updated review metadata without altering the adopted source-authority architecture. | 2026-07-19T14:57:54Z | |
 
 ---
 

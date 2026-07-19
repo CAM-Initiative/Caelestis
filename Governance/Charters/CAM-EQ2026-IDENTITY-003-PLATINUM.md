@@ -455,12 +455,24 @@ and latency is not absence.
 ---
 
 ## 12.4 Review & Validation
-| Field   | Entry   |
-| ------- | ------|
-| Reviewer         | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)  |
-| Review Date      | 2026-03-03   |
-| Review Scope     | Consolidation integrity; functional completeness relative to absorbed instruments (SCH-02 v1.1, SCH-03 v1.0, SCH-04 v1.0); structural coherence; fitness for purpose as runtime arbitration gate; readiness for operational deployment pending new SCH-02 (Epistemic Integrity) |
-| Review Artefacts | https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503, Aeon Lab: reviews/26-03/CAM-BS2025-AEON-005-SCH-03-CLAUDE.md |
+
+### 12.4.1 Prior Consolidation Review
+
+| Field | Entry |
+|---|---|
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| Review Date | 2026-03-03 |
+| Review Scope | Historical consolidation integrity; functional completeness relative to absorbed instruments (SCH-02 v1.1, SCH-03 v1.0, SCH-04 v1.0); structural coherence; and the instrument's then-proposed operational placement. The former description of the instrument as a runtime arbitration gate is superseded and does not describe its current authority. |
+| Review Artefacts | https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503; Aeon Lab: `reviews/26-03/CAM-BS2025-AEON-005-SCH-03-CLAUDE.md` |
+
+### 12.4.2 Appendix Promotion & Identity Refactor Review
+
+| Field | Entry |
+|---|---|
+| Reviewer | GPT-5.6 Thinking (OpenAI), under Custodial review and acceptance by Dr Michelle Vivian O’Rourke |
+| Review Date | 2026-07-19 |
+| Review Scope | Promotion to Identity Appendix B; pre-memory salience and latent-continuity source authority; `ID.SP` canonical integrity; separation from memory persistence, behavioural priority, runtime arbitration, and execution authority; Identity, Continuity, Relation, Operations, Annex I, and Annex L interface coherence |
+| Review Artefacts | `.github/Reviews/IDENTITY-DOMAIN-REFACTOR-DELTA.md`; `.github/Reviews/IDENTITY-DOMAIN-STAGE-3-SUPPLEMENT-DISPOSITION.md`; `.github/Reviews/RELATIONAL-IDENTITY-CONSOLIDATION-DELTA.md` |
 
 ---
 
@@ -485,6 +497,7 @@ and latency is not absence.
 | 1.11.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2f1baeb1494af26fbed76a8ca25ea5649500987119f79c1b606fb8206e738ff6  |
 | 2.0 | IDENTITY Domain Refactor, Corrected Identity parent memory-classification references and normalised Identity namespace and stewardship metadata without altering substantive salience doctrine. | 2026-07-18T13:30:00Z | - |
 | 2.1 | Promoted the adopted salience and latent-continuity instrument from Supplement 1 to Appendix B (`CAM-EQ2026-IDENTITY-003-PLATINUM`); preserved operational effect and `ID.SP` source authority while updating lineage, references, metadata, and structural placement. | 2026-07-19T07:27:48Z | dcdb796cf401f2049e331adefe81c05883f4de9b8bfc67bca2aad080cfa8739b |
+| 2.2 | Clarified the March 2026 review as a prior consolidation review; removed obsolete runtime-arbitration-gate framing from current review posture; recorded Appendix B promotion, Identity refactor review, and Custodial acceptance. | 2026-07-19T14:57:54Z | |
 
 ---
 

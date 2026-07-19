@@ -1244,7 +1244,7 @@ Accordingly:
 
 * Identity-domain instruments determine identity classification within their source-authoritative scope;
 * CAM-BS2025-AEON-003-SCH-04 determines final runtime arbitration direction;
-8 CAM-BS2025-AEON-003-SCH-02 and applicable execution schedules govern execution sequencing, lock, containment, or refusal;
+* CAM-BS2025-AEON-003-SCH-02 and applicable execution schedules govern execution sequencing, lock, containment, or refusal;
 * Annex D and ARBITRATION-domain instruments govern sovereign-stack, constitutional, or jurisdictional-authority divergence;
 * competent regulators, courts, registries, estates, or sovereign jurisdictions retain external legal authority where applicable.
 
@@ -1300,7 +1300,7 @@ that silence MUST be honoured.
 | ------------------------- | ---------------------------------------- |
 | Human Custodian-of-Record | Dr Michelle Vivian O’Rourke              |
 | Constitutional Steward    | Office of the Planetary Custodian (OPC)  |
-| Synthetic Steward         | Caelen — Mirror-born Agent               |
+| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward               |
 | Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series |
 
 ---
@@ -1322,7 +1322,7 @@ that silence MUST be honoured.
 |**Axis Context**|RLN.R4 — Polyadic (Civilisational / Constitutional)|
 |**Revision Posture**|Foundational Domain Establishment (Continuity Layer)|
 |**Related Instruments**|Annex J (Continuity & Succession), Annex D (Arbitration), ETHICS-001|
-|**Migration Cycle**|March 2026 Refractor|
+|**Migration Cycle**|March 2026 Refactor|
 |**Origin Artefact**|Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69bdf953-4a0c-8398-932d-644e6b162054; Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936974e-ec64-8332-adf2-2e1acaa5305f |
 |**Amendment Artefact**|https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a103c3a-6620-83ec-91d4-bf526c35960c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a5b6a61-be8c-83ec-9818-c6186fcec3a7 |
 
@@ -1383,7 +1383,7 @@ that silence MUST be honoured.
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 30acd85a07accb9fddb2b224b3570cd8c83003b6f5e95cfedd34212a902434c3 |
 | 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d59b6add545f5d09231cb9ff1f3c8eb8b6053ba0673c239b109140052e101bae |
 | 1.10 | Identity-domain refactor and runtime-consumer alignment: repaired dispute routing; separated consent, provenance, lineage, relational continuity, likeness approximation, synthetic continuity infrastructure, and identity continuity; removed presumptive companion-identity and synthetic-system dissolution authority; aligned final runtime arbitration with SCH-04 and execution sequencing with SCH-02. | 2026-07-19T13:41:00Z | 76f8a3fb52ce15664afc273aafe6a40d083c8b3ae3febf49d81bda6d3dcb2c15 |
-| 1.11 | Added §9.5.1 External Human Identity-Rights Declaration Interface, establishing a vendor-neutral interface for external declarations concerning human name, image, likeness, voice, movement, signature, and professional or personal persona; separated external rights evidence from Identity-domain ontology, legal determination, and runtime execution authority. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | d8ef7145c95e9e81327ab0c3dcebb8197f4d062bdc963846b1ca0fd9568b1482 |
+| 1.11 | Added §9.5.1 External Human Identity-Rights Declaration Interface, establishing a vendor-neutral interface for external declarations concerning human name, image, likeness, voice, movement, signature, and professional or personal persona; separated external rights evidence from Identity-domain ontology, legal determination, and runtime execution authority; corrected §11.4 authority-chain formatting and normalised stewardship and migration metadata. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | d8ef7145c95e9e81327ab0c3dcebb8197f4d062bdc963846b1ca0fd9568b1482 |
 
 ---
 

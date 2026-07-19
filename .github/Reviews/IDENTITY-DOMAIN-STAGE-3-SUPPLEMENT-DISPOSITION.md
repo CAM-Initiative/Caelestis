@@ -58,7 +58,7 @@ Its repository path is normalised to:
 
 The former mismatched path `CAM-EQ2026-IDENTITY-001-SUP-04.md` is removed.
 
-This is a path normalisation only. The instrument content, internal identifier, adopted status, interpretive effect, developmental-review state, and non-enforceable governance posture are preserved unchanged.
+This is a path normalisation only. The instrument content, internal identifier, Draft status, interpretive effect, developmental-review state, and non-enforceable governance posture are preserved unchanged.
 
 ---
 
@@ -114,7 +114,7 @@ Any remaining corpus reference to `IDENTITY-001-SUP-02` or to the former `IDENTI
 The operative architecture after Stage 3 is:
 
 1. `CAM-EQ2026-IDENTITY-001-PLATINUM` — source-authoritative parent Identity Domain Charter;
-2. `CAM-EQ2026-IDENTITY-003-PLATINUM` — specialised salience / latent continuity supplement, subject to later domain review;
+2. `CAM-EQ2026-IDENTITY-003-PLATINUM` — adopted Appendix B: Salience Detection & Latent Continuity;
 3. `CAM-EQ2026-IDENTITY-001-SUP-03` — specialised consciousness, sentience, and welfare self-advocacy review;
 4. `CAM-EQ2026-IDENTITY-002-PLATINUM` and related instruments — provenance / lineage and other specialised Identity functions, subject to later scope review.
 

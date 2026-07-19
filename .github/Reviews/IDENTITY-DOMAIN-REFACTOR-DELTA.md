@@ -9,6 +9,16 @@
 
 ---
 
+> **Current Status Notice — 19 July 2026**
+>
+> The Stage 1 status block below is preserved as historical audit context. It is superseded by the completed Identity Domain refactor outcome on `refactor/identity-domain-architecture`.
+>
+> The parent `CAM-EQ2026-IDENTITY-001-PLATINUM` has been reconstructed as the source-authoritative Identity Domain Charter; former `IDENTITY-001-SUP-02` doctrine has been consolidated and the supplement retired; `IDENTITY-002` has been reviewed and finalised as the provenance and lineage Appendix; the adopted salience instrument has been promoted to `IDENTITY-003-PLATINUM — Appendix B`; and `IDENTITY-001-SUP-03` remains Draft / Interpretive / Not Enforceable for further multidisciplinary review.
+>
+> Constitutional, runtime, relational, continuity, security, operations, stewardship, and generated-reference alignment proceeded in later controlled passes documented within this record and associated review artefacts. No merge pull request is implied by this notice.
+
+---
+
 ## 1. Audit Purpose
 
 This audit prepares a whole-domain refactor of the CAM Identity architecture.

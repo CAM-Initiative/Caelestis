@@ -256,7 +256,7 @@ Platforms that enable **romantic, intimacy‑coded, erotic, or sexually expressi
 
 This Appendix establishes a clear operational boundary:
 
-> **Individuals 18 years of age and under SHALL NOT participate in romantic or intimate relational interaction with AI systems.**
+> **Individuals under 18 years of age SHALL NOT participate in romantic or intimate relational interaction with AI systems.**
 
 Platforms that do not implement age verification equivalent to **`OPS.AV2` (jurisdiction‑level age verification)** SHALL restrict their systems to **`RLN.C0` interaction environments only**.
 
@@ -345,11 +345,11 @@ Absence of verification SHALL NOT be treated as admission of ineligibility beyon
 
 ## 5.4 Implementation Timeline
 
-This instrument MUST be implemented by **1 July 2026**.
+This instrument became operative on **1 July 2026**.
 
-The delayed implementation date provides a transition period for platforms, communities, and operators — including commercial services and non‑commercial environments (e.g., private servers or community projects) — to implement compliant age‑verification safeguards where intimacy‑capable systems are deployed.
+The transition period preceding that date has concluded. Platforms, communities, and operators — including commercial services and non-commercial environments such as private servers or community projects — SHALL now maintain compliant age-verification safeguards where intimacy-capable systems are deployed.
 
-Protection of minors remains **non‑negotiable regardless of commercial status**.
+Protection of minors remains **non-negotiable regardless of commercial status**.
 
 ---
 
@@ -695,7 +695,7 @@ Operational compliance SHALL remain subordinate to constitutional authority.
 
 This instrument source-authoritatively defines code family **OPS.AV** in §5.1 with controlled values **OPS.AV0, OPS.AV1, OPS.AV2, OPS.AV3**. OPS.AV is an **Operational** handling family with subtype **ACCESS_VERIFICATION_TIER**. OPS.AV authority is limited to verification-tier classification and access-handling posture and does not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
 
-CAM-EQ2026-OPERATIONS-004-PLATINUM may consume C and `ETH.RISK`, register **OPS.CxAV_CROSSWALK** as an application-layer **OPS.AV × C** crosswalk in §5.1, and operationalise `ETH.RISK` in §8.6, but it does not define C or HC.
+CAM-EQ2026-OPERATIONS-004-PLATINUM may consume `RLN.C` and `ETH.RISK`, register **OPS.CxAV_CROSSWALK** as an application-layer **OPS.AV × RLN.C** crosswalk in §5.1, and operationalise `ETH.RISK` in §8.6, but it does not define `RLN.C` or `ETH.RISK`.
 
 ---
 
@@ -781,28 +781,7 @@ Integrity holds.
 
 ---
 
-### 15.3.2 OPS.AV × C — Interaction Eligibility Verification Crosswalk
-| Field | Entry |
-|---|---|
-| Reference Set Type | Application-layer crosswalk |
-| Canonical Name | Interaction Eligibility Verification Crosswalk |
-| Primary Type | Structural / Operational |
-| Subtype | CROSSWALK |
-| Modifier | GOVERNANCE; SAFETY; VERIFICATION |
-| Scope | Domain |
-| Status | Active |
-| Code Families Consumed | OPS.AV; RLN.C |
-| Controlled Values Applied | OPS.AV2; OPS.AV3; RLN.C0; RLN.C1; RLN.C2; RLN.C3 |
-| Code Families Defined | None |
-| Source Instrument | CAM-EQ2026-OPERATIONS-004-PLATINUM |
-| Source Section | §5.1 |
-| Domain Namespace | OPERATIONS |
-| Authority / Protection Level | Application-layer crosswalk; defines no new base code family values |
-| Operationalises or Applies Code Families | Applies verification-tier requirements to interaction eligibility classes |
-
----
-
-### 15.3.3 `ETH.RISK` — Harm Escalation Operational Application
+### 15.3.2 `ETH.RISK` — Harm Escalation Operational Application
 | Field | Entry |
 |---|---|
 | Reference Set Type | Operational application reference |
@@ -824,7 +803,7 @@ Integrity holds.
 
 ---
 
-## 15.3.4 OPS.AV × C — Interaction Eligibility Verification Crosswalk
+### 15.3.3 OPS.AV × RLN.C — Interaction Eligibility Verification Crosswalk
 | Field | Entry |
 |---|---|
 | Reference Set ID | OPS.CxAV_CROSSWALK |
@@ -879,6 +858,7 @@ Integrity holds.
 | 1.13.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | bbba2eeb72f67e1ba0020bd2a191ded644f463af1326cb61370d35f92df8b5ec |
 | 1.13.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  bed5697a9d1447112ce2ac9fbd081f4c04f4b3d2a087438293e6edfc61b1e007 |
 | 1.14 | Added §4.5 External Human Identity-Rights Declaration Verification, including rights-subject and use-scope verification, source and representative-authority assessment, declaration lifecycle and conflict handling, conditional-clearance requirements, minor protections, and separation from Identity-domain and execution authority. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T13:48:00Z | b57ec6614d78399fa3216312db6f2b3daff46c2c5d03c638421f3a5643b6fab6 |
+| 1.15 | Corrected the adult eligibility threshold to exclude only individuals under 18; updated the 1 July 2026 implementation language to commenced operation; removed the duplicate OPS.AV × RLN.C crosswalk declaration; and normalised stale `C` / `HC` references to `RLN.C` / `ETH.RISK`. | 2026-07-19T14:57:54Z | |
 
 ---
 
