@@ -1,0 +1,33 @@
+name: One-time IDENTITY-003 stewardship migration
+
+on:
+  pull_request:
+    branches:
+      - refactor/identity-domain-architecture
+    paths:
+      - .github/identity-003-stewardship-migration-trigger
+
+permissions:
+  contents: write
+
+jobs:
+  migrate-machine-civil-identity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out working branch
+        uses: actions/checkout@v4
+        with:
+          ref: refactor/identity-domain-architecture
+          fetch-depth: 0
+
+      - name: Apply stewardship migration
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/identity_003_to_steward_005.py
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Migrate machine civil identity governance to Stewardship"
+          git push origin HEAD:refactor/identity-domain-architecture
