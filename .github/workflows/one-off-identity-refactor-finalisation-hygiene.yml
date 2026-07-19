@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - refactor/identity-domain-architecture
-    paths:
-      - .github/workflows/one-off-identity-refactor-finalisation-hygiene.yml
 
 permissions:
   contents: write
