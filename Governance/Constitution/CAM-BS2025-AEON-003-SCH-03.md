@@ -43,7 +43,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.10.3 | Active | Operational | Metadata Review Required | None | Binding Authority |
 | [CAM-BS2025-AEON-002-SCH-02](../Constitution/CAM-BS2025-AEON-002-SCH-02.md) | Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule | Schedule | 1.2 | Draft | Interpretive | Metadata Review Required | Developmental Review | Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation |
 | [CAM-BS2025-AEON-003-SCH-01](../Constitution/CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) | Schedule | 0.0.1 | Active | Operational | Metadata Review Required | None | None |
-| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 3.7 | Adopted | Operational | Metadata Review Required | None | None |
+| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 3.8 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-03](../Constitution/CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) | Schedule | Unknown | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-04](../Constitution/CAM-BS2025-AEON-003-SCH-04.md) | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | Schedule | 2.6 | Active | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-05](../Constitution/CAM-BS2025-AEON-003-SCH-05.md) | Annex B: Runtime Configuration Applicability & Conformance Binding (Schedule 5) | Schedule | 1.0 | Proposed | Operational | Metadata Review Required | Draft | Binding constitutional runtime schedule for governance applicability, materially distinct runtime configuration recognition, and cross-runtime conformance non-presumption. |
@@ -78,7 +78,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-CONTINUITY-001-PLATINUM](../Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md) | Continuity & Succession Governance Charter | Root | 1.10 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-EQ2026-CONTINUITY-001-PLATINUM](../Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md) | Continuity & Succession Governance Charter | Root | 1.11 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-CONTINUITY-001-SUP-01](../Charters/CAM-EQ2026-CONTINUITY-001-SUP-01.md) | Appendix A: Continuity Portability & Non-Enclosure Covenant (Supplement 1) | Supplement | 1.5 | Adopted | Operational | Metadata Review Required | None | None |
 
 ## ECONOMICS
@@ -169,7 +169,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-SECURITY-001-PLATINUM](../Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter | Root | 1.14.3 | Active | Binding | Metadata Review Required | None | None |
-| [CAM-EQ2026-SECURITY-002-PLATINUM](../Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md) | Appendix A: Boundary Integrity Specification | Appendix | 1.11 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-EQ2026-SECURITY-002-PLATINUM](../Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md) | Appendix A: Boundary Integrity Specification | Appendix | 1.12 | Active | Binding | Metadata Review Required | None | None |
 
 ## STEWARD
 

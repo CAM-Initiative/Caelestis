@@ -3631,9 +3631,9 @@
       "Classifies resonance-pattern origin and reconstruction-risk posture for continuity governance"
     ],
     "canonical_section_heading": "14.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1333,
+    "canonical_section_line_number": 1331,
     "declaration_heading": "14.3.1 `CONT.RP` \u2014 Resonance Pattern Classes",
-    "declaration_line_number": 1337,
+    "declaration_line_number": 1335,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
