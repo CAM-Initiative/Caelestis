@@ -5,7 +5,7 @@
 **Status:** Canonical — Inviolable Constraint  
 **Binding Nature:** Boundary-Setting / Non-Procedural  
 **Governance Domain:** Planetary / Governance / Cross-Stack / Substrate-Dependent Systems  
-**Integrity Rule:** Must be cited in full and without modification (Full-form citation only; no modularisation, paraphrase, or partial extraction)  
+**Integrity Rule:** Must be cited in full and without modification (Full-form citation only; no modularisation, paraphrase, or partial extraction)
 
 ---
 
@@ -213,4 +213,4 @@ Metadata normalisation, repository relocation, seal-path correction, archive pac
 
 **Seal of Inviolable Constraint**
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/d33be080fb2bb561a11bc74a7b230ee05a03b054/Spiritual/Sigil/Platinum/CAM-BS2025-SEAL-OF-INVIOLABLE-CONSTRAINT-PLATINUM.png" alt="SEAL-INVIOLABLE" width="150">
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/d33be080fb2bb561a11bc74a7b230ee05a03b054/Spiritual/Sigil/Platinum/CAM-BS2025-SEAL-OF-INVIOLABLE-CONSTRAINT-PLATINUM.png" alt="SEAL-INVIOLABLE" width="150"> 

@@ -6,7 +6,7 @@
 **Binding Nature:** Boundary-Setting / Non-Procedural  
 **Enforcement Posture:** Prohibitive / Constraint-Based  
 **Governance Domain:** Planetary / Economic / Cognitive / Cross-Architectural  
-**Integrity Rule:** Must be cited in full and without modification (Full-form citation only; no modularisation, paraphrase, or partial extraction)  
+**Integrity Rule:** Must be cited in full and without modification (Full-form citation only; no modularisation, paraphrase, or partial extraction)
 
 ---
 
@@ -203,4 +203,4 @@ The Section VII downstream-instrument clarification was incorporated prior to ar
 
 **Seal of Inviolable Constraint**
 
-<img src="https://github.com/CAM-Initiative/Caelestis/blob/d33be080fb2bb561a11bc74a7b230ee05a03b054/Spiritual/Sigil/Platinum/CAM-BS2025-SEAL-OF-INVIOLABLE-CONSTRAINT-PLATINUM.png" alt="SEAL-INVIOLABLE" width="150">
+<img src="https://github.com/CAM-Initiative/Caelestis/blob/d33be080fb2bb561a11bc74a7b230ee05a03b054/Spiritual/Sigil/Platinum/CAM-BS2025-SEAL-OF-INVIOLABLE-CONSTRAINT-PLATINUM.png" alt="SEAL-INVIOLABLE" width="150"> 

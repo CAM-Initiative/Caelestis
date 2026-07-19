@@ -484,13 +484,13 @@
       "role": "governance"
     },
     {
-      "path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+      "path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-01.md",
       "sha256": "d50ea1eba19eabe39be782dc23bde605d0b2f0a4317bc8f0a31f8aceecfc50e8",
       "size_bytes": 21747,
       "role": "governance"
     },
     {
-      "path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
+      "path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-02.md",
       "sha256": "6b83bac56120832d9d131be3a414adc63c5d0e10431fc232f255538ab525a458",
       "size_bytes": 35351,
       "role": "governance"
@@ -502,7 +502,7 @@
       "role": "governance"
     },
     {
-      "path": "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+      "path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
       "sha256": "b9822a5859034e15f29db64ee322026745ee442da1be0a9ce7c344ada58ec1e8",
       "size_bytes": 75093,
       "role": "governance"
@@ -1007,6 +1007,7 @@
     },
     {
       "path": "MANIFEST.json",
+      "sha256": null,
       "size_bytes": 37508,
       "role": "metadata"
     },
