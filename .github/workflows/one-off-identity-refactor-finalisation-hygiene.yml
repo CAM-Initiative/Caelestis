@@ -25,14 +25,16 @@ jobs:
       - name: Refresh branch state
         run: git pull --ff-only origin refactor/identity-domain-architecture
 
-      - name: Apply finalisation hygiene
-        run: python .github/scripts/apply-identity-refactor-finalisation-hygiene.py
+      - name: Apply finalisation hygiene and cleanup
+        run: python .github/scripts/run-identity-finalisation-and-cleanup.py
 
       - name: Validate bounded change shape
         run: |
           git diff --check
           git status --short
+          test ! -e .github/automation-trigger-identity-finalisation-20260719.txt
           test ! -e .github/scripts/apply-identity-refactor-finalisation-hygiene.py
+          test ! -e .github/scripts/run-identity-finalisation-and-cleanup.py
           test ! -e .github/workflows/one-off-identity-refactor-finalisation-hygiene.yml
           ! grep -R "CAM-EQ2026-AEON-003-SCH-04" Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md
           ! grep -R "Individuals 18 years of age and under" Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md
