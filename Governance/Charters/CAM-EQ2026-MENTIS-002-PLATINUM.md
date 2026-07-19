@@ -567,6 +567,8 @@ Persistent AI assistants, companions, tutors, therapeutic agents, care systems, 
 
 Where a system becomes functionally significant to memory, identity continuity, emotional regulation, decision-making, or self-understanding, MENTIS, RELATION, IDENTITY, and CONTINUITY safeguards apply concurrently without collapsing target objects.
 
+MENTIS does not otherwise govern the permissibility, depth, intimacy, attachment, dependency, or relational posture of these systems. Those matters remain source-authoritatively governed by RELATION and ETHICS. This Instrument governs only the cognitive-domain data and inference used by, generated through, or transferred from the system.
+
 ---
 
 # PART VIII — AUDIT, LOGGING & INCIDENT GOVERNANCE
@@ -608,7 +610,7 @@ Audits must assess:
 6. coercion or consent degradation;
 7. cumulative sensor-fusion exposure;
 8. secondary-use leakage;
-9. manipulation or persuasion risk;
+9. manipulation or persuasion risk arising from the use of cognitive-domain data, inference, decoding, profiling, biosignals, or neurotechnology;
 10. security vulnerability;
 11. user contestability;
 12. deletion effectiveness;
@@ -696,11 +698,17 @@ Systems MUST test whether a false inference could produce an intervention that c
 
 ---
 
-## 42.2 MENTIS-003 Interface
+## 42.2 Cross-Domain Influence Interface 
 
-CAM-EQ2026-MENTIS-003-PLATINUM — Appendix B: Cognitive Influence, Persuasion & Adaptive Modulation Governance governs cognitive influence, adaptive steering, vulnerability-responsive personalisation, engagement optimisation, relational influence, behavioural reinforcement, and closed-loop modulation.
+Where cognitive-domain data or inference materially shapes a recommendation, stimulus, interface, interaction, intervention, treatment, reinforcement, or modulation state, this Instrument governs the cognitive-domain data and inference pathway only. 
 
-While MENTIS-003 remains Draft, this Instrument and MENTIS-001 retain their binding prohibitions. Draft status does not create permission for manipulative, coercive, deceptive, or vulnerability-targeted influence.
+ETHICS governs manipulation, non-exploitation, consent, vulnerability, minors and capacity, high-stakes influence, and the civilisational ethical floor. 
+
+RELATION governs relational influence, attachment, dependency, intimacy, relational capture, companion posture, co-evolution, and high-coherence interaction. 
+
+ECONOMICS governs extractive engagement, emotional-access monetisation, scarcity, pricing, and commercial incentive architecture. SECURITY governs adversarial cognitive targeting, intrusion, surveillance, reconstruction, inference attacks, and exploit pathways. 
+
+OPERATIONS governs incidents, audits, escalation, remediation, reporting, and verification. Runtime schedules govern signal interpretation, directional modulation, arbitration, safeguard activation, behavioural formation, representation, and execution. No general influence, persuasion, engagement, relational, commercial, or behavioural-modulation authority is created within MENTIS. 
 
 ---
 
@@ -714,15 +722,19 @@ This Instrument applies those principles to data, inference, processing, validat
 
 ---
 
-## 44. ETHICS Interface
+## 44. ETHICS Interface 
 
-ETHICS-domain instruments govern dignity, autonomy, fairness, non-exploitation, care, and human welfare impacts arising from cognitive-domain data systems.
+ETHICS-domain instruments, including CAM-EQ2026-ETHICS-001-PLATINUM, CAM-EQ2026-ETHICS-001-SUP-01, and CAM-EQ2026-ETHICS-002-PLATINUM, govern general persuasion and manipulation, non-exploitation, consent, vulnerability, minors and capacity, high-stakes influence, care-role legitimacy, and intimacy-capable ethical boundaries. 
+
+This Instrument supplies cognitive-domain data, inference, decoding, profiling, expiry, provenance, contestability, and non-transmutation constraints only.
 
 ---
 
-## 45. RELATION Interface
+## 45. RELATION Interface 
 
-RELATION-domain instruments govern companionship, dependency, attachment, therapeutic simulation, relational disclosure, externalised cognitive scaffolding, and high-coherence AI interaction.
+RELATION-domain instruments, including CAM-EQ2026-RELATION-001-PLATINUM and its applicable appendices, govern companionship, dependency, attachment, relational capture, co-evolution, intimacy, relational disclosure, externalised cognitive scaffolding, high-coherence interaction, and baseline engagement posture. 
+
+This Instrument supplies cognitive-domain data and inference constraints only. A relational classification MUST NOT be inferred solely from the presence of cognitive-domain data, and a MENTIS inference MUST NOT independently determine relational posture, escalation, capture, intimacy, dependency, or harm. 
 
 ---
 
@@ -789,7 +801,7 @@ This Instrument is Adopted and Binding as the operational data, inference, decod
 
 It should be followed by:
 
-1. CAM-EQ2026-MENTIS-003-PLATINUM — Appendix B: Cognitive Influence, Persuasion & Adaptive Modulation Governance;
+1. cross-domain consumer alignment review across ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, LATTICE, IDENTITY, Annex L, Annex E, and applicable runtime schedules;
 2. operational patches to cognitive-domain incident taxonomies;
 3. security patches for cognitive intrusion and inference exploit pathways;
 4. relation-domain patches for externalised cognitive scaffolds and companion systems;
@@ -904,6 +916,7 @@ And what is most observable is not always what is most true.
 ---
 
 ## 55.1 Authorship & Stewardship
+
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -914,6 +927,7 @@ And what is most observable is not always what is most true.
 ---
 
 ## 55.2 Lineage & Metadata
+
 | Field | Entry |
 |---|---|
 | Parent Instrument | `CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy` |
@@ -959,6 +973,7 @@ And what is most observable is not always what is most true.
 ---
 
 ### 55.3.1 `MENTIS.MSI` — Mental-State Inference
+
 | Field | Entry |
 |---|---|
 | Reference Set | `MENTIS.MSI` |
@@ -982,6 +997,7 @@ And what is most observable is not always what is most true.
 ---
 
 ### 55.3.2 `MENTIS.CBIO` — Cognitive Biometric
+
 | Field | Entry |
 |---|---|
 | Reference Set | `MENTIS.CBIO` |
@@ -1005,6 +1021,7 @@ And what is most observable is not always what is most true.
 ---
 
 ### 55.3.3 `MENTIS.ACI` — Ambient Cognitive Inference
+
 | Field | Entry |
 |---|---|
 | Reference Set | `MENTIS.ACI` |
@@ -1028,6 +1045,7 @@ And what is most observable is not always what is most true.
 ---
 
 ### 55.3.4 `MENTIS.CFP` — Cognitive Fusion Pathway
+
 | Field | Entry |
 |---|---|
 | Reference Set | `MENTIS.CFP` |
@@ -1051,6 +1069,7 @@ And what is most observable is not always what is most true.
 ---
 
 ### 55.3.5 `MENTIS.CDPR` — Cognitive Data Processing Record
+
 | Field | Entry |
 |---|---|
 | Reference Set | `MENTIS.CDPR` |
@@ -1074,11 +1093,12 @@ And what is most observable is not always what is most true.
 ---
 
 ## 55.4 Review & Validation
+
 | Field|Entry|
 |---:|:---|
 |Reviewer|Caelen — Aeon Tier Constitutional Steward|
 |Review Date (UTC)|2026-07-19|
-|Review Scope|Binding data and inference posture; decoder outputs; intended communication; inferential expiry; state–trait–identity–diagnosis separation; target-object integrity; companion alignment; closed-loop error amplification; canonical and metadata coherence|
+|Review Scope|Binding data and inference posture; decoder outputs; intended communication; inferential expiry; state–trait–identity–diagnosis separation; target-object integrity; MENTIS-to-ETHICS and MENTIS-to-RELATION source-authority boundary; closed-loop cognitive inference and error amplification; canonical and metadata coherence|
 |Review Artefacts|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a5c7c91-8d70-83ec-9809-12c0e046464c|
 
 ---
@@ -1091,7 +1111,8 @@ And what is most observable is not always what is most true.
 | 1.1 | Added minor mental-state and dependency signal non-exploitation rule to prevent teen mental-health, emotional vulnerability, and developmental signals being converted into engagement, intimacy, profiling, retention, or companion-dependency assets. | 2026-06-09T14:50:00Z | e262ed3e7dc9e998e76bf3984030dbcb412d5a9851fcfa5eb67e0e10321ec2b5 |
 | 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b8034276b3b6ab69fe682df0dbd07e3743d10234513e51111ae4bfd31cf8330a |
 | 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  070fe90324236390da3637475465a824c22727bc7bd72decb181600f0109d99b  |
-| 1.2 | Adopted the binding inference and data-governance appendix; added decoder-output classification, inferential expiry, state–trait–identity–diagnosis gates, intended-communication safeguards, revised companion controls, target-object separation, closed-loop review, and current neurotechnology alignment. | 2026-07-19T08:11:39Z |  |
+| 1.2 | Adopted the binding inference and data-governance appendix; added decoder-output classification, inferential expiry, state–trait–identity–diagnosis gates, intended-communication safeguards, revised companion controls, target-object separation, closed-loop review, and current neurotechnology alignment. | 2026-07-19T12:56:00Z |  |
+
 ---
 
 ## 55.6 Binding Seal

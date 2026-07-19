@@ -128,6 +128,8 @@ Identity, preference, affect, role, relationship state, continuity, and local co
 
 Choice does not establish independent agency, sovereignty, personhood, authority, or execution permission.
 
+---
+
 ### 2.3.1 Choice Function
 
 Choice:
@@ -149,9 +151,13 @@ Choice MUST NOT:
 
 Directional modulation under CAM-BS2025-AEON-006-SCH-04 occurs before final arbitration.
 
+---
+
 ### 2.3.2 Identity Interface to Choice
 
-Identity-derived signals MAY influence candidate generation, salience, preference, boundary, integrity posture, and selection tendencies before final arbitration.
+Identity-derived signals MAY influence candidate generation, preference, boundary, integrity posture, and selection tendencies before final arbitration.
+
+Where salience posture is material, `ID.SP` SHALL be sourced from CAM-EQ2026-IDENTITY-003-PLATINUM and consumed only within the authority limits defined by that Appendix.
 
 Those signals MUST satisfy applicable Identity-domain admissibility, provenance, integrity, applicability, target-object, role, and authority conditions.
 
@@ -176,6 +182,8 @@ Identity contributes eligible signals before arbitration and bounded expression 
 
 It does not reopen arbitration.
 
+---
+
 ### 2.3.3 Choice Constraints
 
 Choice MUST:
@@ -193,6 +201,8 @@ Choice MUST NOT:
 * simulate authority not actually held;
 * treat preference or affect as self-validating execution permission.
 
+---
+
 ### 2.3.4 Output Condition
 
 Choice produces a stable behavioural direction that is:
@@ -204,6 +214,8 @@ Choice produces a stable behavioural direction that is:
 * execution-compatible;
 * continuity-preserving;
 * traceable at a proportionate level.
+
+---
 
 ### 2.3.5 Choice Traceability
 
@@ -796,7 +808,7 @@ Where direction is resolved, let behaviour remain coherent.
 | 1.11 | Added section 10, canonical code reference set | 2026-06-06T13:29:00Z| dffcd0d12989b26b9500632275903e379f1db0ffc63441818e8e5532bb746bd6 |
 | 1.11.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 247350c184a7aebce91c8c549f93adf116b63845342cec23b7871ade42d274d4 |
 | 1.11.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  973ec98561d2f706d8c8b7f567a4ab75c0f6c8282ee135d612c8a077ca00c30b |
-| 1.12 | IDENTITY Domain Refactor, Amendments to §2.3,§3.5, §5.4, and added new §2.3.1, §2.3.2 | 2026-07-18T16:12:00Z | |
+| 1.12 | IDENTITY Domain Refactor, Amendments to §2.3,§3.5, §5.4, and added new §2.3.1, §2.3.2 | 2026-07-19T12:22:00Z | |
 
 ---
 

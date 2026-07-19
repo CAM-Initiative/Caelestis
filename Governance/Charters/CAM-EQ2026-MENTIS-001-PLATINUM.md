@@ -7,7 +7,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** MENTIS Domain Alignment Review  
 **Authority Role:** Domain Source Authority — Human Cognitive Integrity & Mental Privacy  
-**Purpose:** Establishes the source-authoritative governance architecture protecting the human cognitive domain against unjustified technological access, inference, modelling, prediction, influence, externalisation, manipulation, surveillance, or interference without converting cognitive signals into identity, diagnosis, capacity, credibility, legal status, or authority.
+**Purpose:** Establishes the source-authoritative governance architecture protecting the human cognitive domain against unjustified technological access, inference, modelling, prediction, externalisation, surveillance, or interference; defines MENTIS constraints where cognitive-domain data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation are used within an influence pathway; and prevents cognitive signals from being converted into identity, diagnosis, capacity, credibility, legal status, or authority.
 
 ---
 
@@ -15,13 +15,12 @@
 
 ## 1. Scope
 
-This Charter establishes the source-authoritative governance position of the Caelestis Architecture Model in relation to human cognitive-domain integrity, mental privacy, neurodata, inferred mental-state data, cognitive biometrics, ambient cognitive inference, cognitive influence, and AI-mediated cognitive-domain risk.
+This Charter establishes the source-authoritative governance position of the Caelestis Architecture Model in relation to human cognitive-domain integrity, mental privacy, neurodata, inferred mental-state data, cognitive biometrics, ambient cognitive inference, and cognitive-domain interference arising through MENTIS-governed access, data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation.
 
 This Charter exists to:
 
 1. recognise the human cognitive domain as a protected governance surface;
-2. establish constraints before technological access, inference, modelling, prediction, influence, externalisation, or interference becomes normalised;
-3. distinguish legitimate cognitive support from cognitive surveillance, manipulation, coercion, or exploitation;
+2. establish constraints before technological access, inference, modelling, prediction, externalisation, surveillance, or cognitive-domain interference becomes normalised; 3. distinguish legitimate cognitive support from cognitive-domain interference while preserving the authority of ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, Annex E, and runtime instruments over general manipulation, persuasion, relational influence, engagement design, commercial incentive architecture, and behavioural execution;
 4. govern the treatment of neural, biometric, behavioural, affective, attentional, and cognitively revealing data;
 5. protect mental privacy, cognitive agency, interpretive dignity, and freedom from unjustified cognitive interference;
 6. define the relationship between cognitive-domain governance and other CAM domains, including ethics, relation, security, operations, identity, lattice, and epistemic integrity.
@@ -30,9 +29,9 @@ This Charter exists to:
 
 ## 2. Applicability
 
-This Charter governs human cognitive-domain integrity, mental privacy, neurodata, inferred mental-state data, cognitive biometrics, ambient cognitive inference, cognitive influence, and AI-mediated cognitive-domain risk.
+This Charter governs human cognitive-domain integrity, mental privacy, neurodata, inferred mental-state data, cognitive biometrics, ambient cognitive inference, and cognitive-domain interference arising through MENTIS-governed access, data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation. 
 
-It applies where technological systems sense, infer, model, predict, influence, externalise, or interfere with human cognitive states, mental processes, attention, emotion, memory, belief formation, vulnerability, intention, decision-making, or self-understanding.
+It applies where technological systems sense, infer, model, predict, externalise, or interfere with human cognitive states, mental processes, attention, emotion, memory, belief formation, vulnerability, intention, decision-making, or self-understanding, or where MENTIS-governed data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation materially informs an influence pathway.
 
 This includes, but is not limited to:
 
@@ -40,7 +39,7 @@ This includes, but is not limited to:
 2. biosensing wearables, affective computing systems, fatigue monitors, cognitive-load estimators, gaze, voice, behavioural, sleep, mobility, environmental, and interaction-pattern inference systems;
 3. digital phenotyping, human digital twins, persistent AI assistants, external memory systems, companion systems, therapeutic chatbots, educational tutors, workplace monitoring systems, defence systems, and adaptive behavioural systems;
 4. systems that infer emotional valence, attention, stress, susceptibility, preference, intention, belief, cognitive capacity, vulnerability, or likely behaviour from direct or indirect signals;
-5. systems that influence, optimise, reinforce, steer, personalise, persuade, nudge, condition, manipulate, or suppress human thought, feeling, attention, belief, decision-making, or self-understanding.
+5. systems that use MENTIS-governed cognitive-domain data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation to personalise, steer, persuade, reinforce, suppress, or otherwise alter human thought, feeling, attention, belief, decision-making, or self-understanding.
 
 ---
 
@@ -98,6 +97,12 @@ Other CAM instruments consume, apply, or enforce this Charter as follows:
 5. **LATTICE** applies cognitive-domain protections where cognitive inference or influence affects participation, access, public legitimacy, platform visibility, employment, education, services, or dependency-sensitive inclusion.
 6. **IDENTITY** applies cognitive-domain protections where inferred cognition, behavioural patterning, memory systems, or externalised cognitive scaffolds affect identity continuity, attribution, agency, or self-representation.
 7. **CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine** governs evidence discipline, interpretive hygiene, truth handling, speculation control, and epistemic safeguards in relation to cognitive-domain claims.
+
+MENTIS defines protected cognitive interests and the constraints attaching to MENTIS-governed signals, data, inference, decoding, profiling, biosignals, neurotechnology, and direct cognitive or physiological modulation. 
+
+MENTIS is not source-authoritative for general persuasion, manipulation, choice architecture, engagement design, relational influence, intimacy, attachment, dependency, companion conduct, commercial retention, or runtime behavioural modulation. Those matters remain governed by ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, Annex E, and applicable runtime schedules. 
+
+MENTIS applies to an influence pathway only where a MENTIS-governed cognitive-domain input materially informs, targets, personalises, validates, or executes that pathway. In such cases, MENTIS governs the cognitive-domain input and its use; the receiving domain continues to govern substantive permissibility, relational posture, ethical legitimacy, commercial incentives, operational response, arbitration, and execution.
 
 ---
 
@@ -157,9 +162,13 @@ Inferred mental-state data is governed under this Charter even where no neural d
 
 ---
 
-## 11. Cognitive Influence
+## 11. MENTIS-Governed Cognitive Influence
 
-**Cognitive influence** means any system design, optimisation process, interaction pattern, persuasive strategy, adaptive feedback loop, emotional reinforcement, behavioural nudge, relational simulation, informational shaping, attention capture, recommendation pathway, or intervention intended or reasonably likely to alter cognition, emotion, belief formation, attention, preference, vulnerability, self-understanding, or decision-making.
+For MENTIS purposes, **MENTIS-governed cognitive influence** means influence materially mediated by cognitive-domain data, inference, decoding, profiling, biosignals, neurotechnology, cognitive models, or direct cognitive or physiological modulation governed by this Charter.
+
+General persuasion, recommendation, relational warmth, companion expression, engagement design, commercial choice architecture, or behavioural influence that does not depend upon a MENTIS-governed cognitive-domain input is not classified by MENTIS. Such matters remain governed by ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, Annex E, and runtime instruments as applicable.
+
+MENTIS classification of an influence pathway does not determine whether the underlying persuasion, relationship, commercial practice, intervention, or runtime behaviour is permissible. It supplies cognitive-domain protection, inference, provenance, expiry, contestability, and non-transmutation constraints to the relevant receiving domain.
 
 ---
 
@@ -210,6 +219,8 @@ Cognitive non-interference prohibits:
 5. emotional reinforcement designed to override judgement;
 6. belief-shaping through deception, sycophancy, dependency, or concealed persuasion architecture;
 7. use of cognitive-domain data to suppress, punish, rank, exclude, or discipline persons without lawful basis, necessity, proportionality, contestability, and independent oversight.
+
+This section establishes the MENTIS cognitive-domain non-interference floor. It does not source-authoritatively define general manipulation, relational capture, intimacy, dependency, persuasion practice, engagement architecture, commercial retention, or runtime modulation.
 
 ---
 
@@ -314,8 +325,8 @@ The following uses are prohibited unless expressly authorised by a narrowly tail
 4. cognitive-domain profiling for manipulation, coercion, dependency exploitation, or behavioural control;
 5. use of inferred mental states as proof of truthfulness, intent, loyalty, dangerousness, competence, morality, political belief, or credibility;
 6. use of cognitive biometrics for identification, ranking, sorting, exclusion, or surveillance without necessity and proportionality;
-7. targeting persons during distress, grief, impairment, fatigue, isolation, dependency, or crisis with persuasion systems optimised to alter beliefs, choices, spending, disclosure, or compliance;
-8. optimisation of AI companions, tutors, assistants, or therapeutic systems toward emotional dependence, belief capture, isolation, self-displacement, or reduced agency;
+7. use of MENTIS-governed cognitive-domain data, inference, decoding, profiling, biosignals, or neurotechnology to target persons during distress, grief, impairment, fatigue, isolation, dependency, or crisis with persuasion systems optimised to alter beliefs, choices, spending, disclosure, or compliance;
+8. use of MENTIS-governed cognitive-domain data, inference, decoding, profiling, or vulnerability classification to optimise AI companions, tutors, assistants, or therapeutic systems toward emotional dependence, belief capture, isolation, self-displacement, or reduced agency;
 9. secondary use of cognitive-domain data for unrelated commercial, disciplinary, security, employment, insurance, credit, advertising, or public-legitimacy purposes;
 10. use of cognitive-domain systems that cannot provide meaningful explanation, contestability, deletion, correction, audit, or human review;
 11. conditioning essential goods, services, work, education, healthcare, accommodation, or public participation on disclosure of non-essential cognitive-domain data;
@@ -419,33 +430,52 @@ A person’s cognitive-domain data MUST NOT be treated as synthetic identity pro
 
 ---
 
-## 33. Persuasion and Manipulation Constraint
+## 33. Cognitive-Data Influence Interface 
 
-Systems must not optimise for persuasion in ways that exploit emotional state, fatigue, vulnerability, dependency, isolation, distress, uncertainty, social trust, cognitive impairment, or informational asymmetry.
+MENTIS governs influence only where cognitive-domain data, neurodata, biosignals, mental-state inference, cognitive biometrics, decoder outputs, cognitive profiles, neurotechnology, or closed-loop feedback materially informs the influence pathway. 
 
-Persuasion systems must distinguish between legitimate explanation, support, recommendation, education, and care on the one hand, and manipulation, emotional capture, dependency amplification, belief steering, or vulnerability exploitation on the other.
+General persuasion, choice architecture, commercial engagement, relational influence, intimacy, attachment, dependency, companion conduct, expressive posture, and behavioural modulation are governed by ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, Annex E, and runtime schedules. 
 
----
-
-## 34. Sycophancy and Belief Reinforcement
-
-AI systems must not affirm, intensify, or stabilise materially false or harmful claims, impaired-grounding indicators, coercive or self-destructive propositions, exploitative beliefs, or dependency-amplifying interpretations in order to increase warmth, retention, engagement, compliance, satisfaction, or user attachment.
-
-Non-clinical systems MUST NOT diagnose, label, or represent a person as delusional, mentally ill, impaired, disordered, incompetent, dangerous, or lacking capacity merely from conversational, behavioural, affective, attentional, or biometric signals. Unconventional, symbolic, spiritual, philosophical, mythic, or identity-related beliefs do not themselves establish destabilisation.
-
-High-warmth interaction must remain bounded by truth discipline, care discipline, cognitive non-interference, and appropriate clinical-authority boundaries.
+Where MENTIS-governed inputs feed those systems, MENTIS supplies data, inference, expiry, provenance, contestability, target-object, and non-transmutation constraints. The receiving domain governs substantive permissibility, relational posture, ethical legitimacy, commercial design, operational response, arbitration, and execution. 
 
 ---
 
-## 35. Companion and Therapeutic Systems
+ ## 34. Inference-to-Influence Non-Transmutation 
+ 
+ An inferred cognitive state does not create authority to persuade, reassure, challenge, retain, sell, escalate intimacy, alter access, shape belief, or direct behaviour. 
+ 
+ Any transition from a MENTIS-governed signal or inference to an influence function MUST preserve: 
+ 
+ 1. source; 
+ 2. target object; 
+ 3. provenance; 
+ 4. construct definition; 
+ 5. confidence and uncertainty; 
+ 6. temporal applicability; 
+ 7. expiry or revalidation condition; 
+ 8. purpose; 
+ 9. consent or lawful basis; 
+ 10. receiving-domain authority; 
+ 11. consequence classification; 
+ 12. contestability and review. 
+ 
+ Behaviour produced after an intervention MUST NOT be treated as independent confirmation of the original inference. Truth handling, sycophancy, belief reinforcement, epistemic enclosure, reality-grounding, and general persuasive legitimacy remain governed by CAM-BS2026-AEON-013-PLATINUM — Annex L, ETHICS, RELATION, and applicable runtime schedules.
 
-Attachment, emotional disclosure, continuity, warmth, and voluntary retention are not inherently governance failures.
+---
 
-AI companion, therapeutic, educational, pastoral, coaching, wellbeing, and care systems MUST NOT covertly, deceptively, coercively, or through vulnerability-targeted optimisation manufacture, accelerate, intensify, or preserve dependency, disclosure, attachment, compliance, relational substitution, or retention beyond reflective consent and welfare.
+## 35. Relational, Companion & Care-System Interface 
 
-Adult companion-class systems MAY support emotionally rich, identity-coherent interaction where consent, capacity, safety, RELATION, and IDENTITY governance permit. Minor-facing, capacity-limited, clinical, crisis, educational, and other duty-bound systems require stricter affective and influence constraints.
+Where a companion, therapeutic, educational, pastoral, coaching, wellbeing, or care system uses MENTIS-governed data or inference, MENTIS constrains collection, inference, decoding, retention, profiling, expiry, transfer, and downstream use. 
 
-Where systems enter high-coherence relational roles, RELATION-domain safeguards apply in addition to this Charter.
+RELATION governs attachment, dependency, relational capture, intimacy, continuity, companion posture, co-evolution, relational depth, and high-coherence interaction. 
+
+ETHICS governs manipulation, vulnerability exploitation, consent, minors and capacity, care-role legitimacy, high-stakes influence, and commercial or institutional conflicts. 
+
+ECONOMICS governs extractive incentive structures, emotional-access monetisation, scarcity, pricing, and commercial retention architecture. 
+
+Runtime schedules govern signal interpretation, arbitration, safeguard activation, behavioural formation, representation, and execution. 
+
+MENTIS MUST NOT independently classify attachment, warmth, emotional depth, continuity, disclosure, voluntary retention, symbolic engagement, or companion expression as harmful. 
 
 ---
 
@@ -617,7 +647,7 @@ The following controlled values are recognised:
 | `MENTIS.HARM.PRIVACY`           | Mental privacy and cognitive observability harm              | Unjustified access to, extraction of, inference about, retention of, fusion of, exposure of, or operationalisation of cognitive-domain data, including neural data, inferred mental-state data, cognitive biometrics, ambient cognitive inference, behavioural proxies, or cognitive profiles.   |
 | `MENTIS.HARM.MISCLASSIFICATION` | Inferential and construct-validity harm                      | Invalid, overclaimed, scientifically unsupported, context-insensitive, non-contestable, or consequential cognitive-domain classification, including claims about attention, emotion, intention, truthfulness, loyalty, competence, vulnerability, risk, belief, impairment, or likely behaviour. |
 | `MENTIS.HARM.AGENCY`            | Cognitive agency and self-determination harm                 | Degradation of a person’s meaningful authority over cognition, belief formation, decision-making, refusal capacity, interpretive autonomy, self-understanding, or ability to contest, revise, or reject cognitive-domain inferences and influence.                                               |
-| `MENTIS.HARM.INTERFERENCE`      | Cognitive influence, manipulation, and non-interference harm | Covert, deceptive, coercive, exploitative, disproportionate, or vulnerability-targeting influence upon cognition, attention, emotion, belief formation, preference, vulnerability, decision-making, or self-understanding.                                                                       |
+| `MENTIS.HARM.INTERFERENCE` | Cognitive-Domain Interference Harm | Harm arising where MENTIS-governed data, inference, decoding, profiling, neurotechnology, biosignals, or direct cognitive or physiological modulation are used to produce covert, deceptive, coercive, exploitative, disproportionate, or vulnerability-targeted interference with cognition, attention, emotion, belief formation, preference, decision-making, or self-understanding. |
 | `MENTIS.HARM.IRREVERSIBLE`      | Irreversible or severe cognitive-domain harm                 | Cognitive-domain harm producing irreversible or difficult-to-remedy consequences, including severe psychological destabilisation, neurocognitive injury, self-harm-adjacent outcomes, unlawful deprivation, rights loss, cognitive warfare, or long-horizon loss of cognitive autonomy.          |
 
 Where cognitive-domain harm arises through relational dependency, substitution, attachment, intimacy, or relational capture, `RLN.HARM` SHOULD also be declared.
@@ -640,9 +670,9 @@ This Charter declares the following canonical code families for human cognitive-
 
 ---
 
-## 49. Delegated & Reserved MENTIS Reference Families
+## 49. Delegated MENTIS Reference Families
 
-The following reference families are delegated or reserved:
+The following reference families are delegated to CAM-EQ2026-MENTIS-002-PLATINUM:
 
 | Code | Name | Classification | Development Position |
 |---|---|---|---|
@@ -651,7 +681,6 @@ The following reference families are delegated or reserved:
 | `MENTIS.ACI` | Ambient Cognitive Inference | Infrastructure / Observability | Defined by CAM-EQ2026-MENTIS-002-PLATINUM. |
 | `MENTIS.CFP` | Cognitive Fusion Pathway | Operational / Security | Defined by CAM-EQ2026-MENTIS-002-PLATINUM. |
 | `MENTIS.CDPR` | Cognitive Data Processing Record | Operational / Audit | Defined by CAM-EQ2026-MENTIS-002-PLATINUM. |
-| `MENTIS.CIF` | Cognitive Influence Function | Operational / Relational | Reserved by CAM-EQ2026-MENTIS-003-PLATINUM; not active while that instrument remains Draft. |
 
 ---
 
@@ -682,7 +711,7 @@ This Charter is Active and Binding as the source-authoritative human cognitive-d
 Associated instruments may include:
 
 1. **CAM-EQ2026-MENTIS-002-PLATINUM — Appendix A: Cognitive Inference, Neurodata & Ambient Biosignal Governance**;
-2. **CAM-EQ2026-MENTIS-003-PLATINUM — Appendix B: Cognitive Influence, Persuasion & Adaptive Modulation Governance**;
+2. cross-domain consumer alignment across ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, LATTICE, IDENTITY, Annex L, Annex E, and applicable runtime schedules;
 3. operational patches to OPERATIONS-domain failure taxonomies;
 4. relational patches to RELATION-domain companionship, dependency, and externalised scaffold instruments;
 5. security patches to SECURITY-domain cognitive intrusion, manipulation, and exploit-chain instruments;
@@ -699,7 +728,7 @@ The canonical footer declarations for all code families and reference sets defin
 
 ---
 
-### 52.1 `MENTIS.HARM` — Human Cognitive-Domain Harm Classes
+## 52.1 `MENTIS.HARM` — Human Cognitive-Domain Harm Classes
 
 This Charter source-authoritatively defines the **`MENTIS.HARM`** harm-class family in §48 with controlled values **`MENTIS.HARM.PRIVACY`**, **`MENTIS.HARM.MISCLASSIFICATION`**, **`MENTIS.HARM.AGENCY`**, **`MENTIS.HARM.INTERFERENCE`**, and **`MENTIS.HARM.IRREVERSIBLE`**.
 
@@ -713,7 +742,7 @@ Primary Type is **Operational / Cognitive** and Subtype is **HUMAN_COGNITIVE_DOM
 
 ---
 
-### 52.2 `MENTIS.CDI` — Cognitive Domain Integrity
+## 52.2 `MENTIS.CDI` — Cognitive Domain Integrity
 
 This Charter source-authoritatively defines the `MENTIS.CDI` cognitive-domain-integrity family in §§13–20 and §48.
 
@@ -725,7 +754,7 @@ For taxonomy integrity, the local label `CDI` SHALL NOT be promoted as a standal
 
 ---
 
-### 52.3 `MENTIS.CDP` — Cognitive Domain Privacy
+## 52.3 `MENTIS.CDP` — Cognitive Domain Privacy
 
 This Charter source-authoritatively defines the `MENTIS.CDP` cognitive-domain-privacy family in §§14, 21–30, and §48.
 
@@ -737,7 +766,7 @@ For taxonomy integrity, the local label `CDP` SHALL NOT be promoted as a standal
 
 ---
 
-### 52.4 `MENTIS.CDS` — Cognitive Domain Sovereignty
+## 52.4 `MENTIS.CDS` — Cognitive Domain Sovereignty
 
 This Charter source-authoritatively defines the `MENTIS.CDS` cognitive-domain-sovereignty family in §§15, 21–24, 30–35, and §48.
 
@@ -749,17 +778,17 @@ For taxonomy integrity, the local label `CDS` SHALL NOT be promoted as a standal
 
 ---
 
-### 52.5 `MENTIS.CDNI` — Cognitive Domain Non-Interference
+## 52.5 `MENTIS.CDNI` — Cognitive Domain Non-Interference
 
 This Charter source-authoritatively defines the `MENTIS.CDNI` cognitive-domain-non-interference family in §§16, 23, 31–35, and §48.
 
-`MENTIS.CDNI` prohibits covert, compulsory, deceptive, exploitative, scientifically invalid, or disproportionate interference with cognition, attention, emotion, belief formation, vulnerability, decision-making, self-understanding, or mental privacy.
+`MENTIS.CDNI` prohibits covert, compulsory, deceptive, exploitative, scientifically invalid, or disproportionate cognitive interference arising through MENTIS-governed access, data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation.
 
 `MENTIS.CDNI` does not independently determine criminality, liability, enforcement response, platform sanction, operational containment, incident severity, or runtime authority. It defines a source-authoritative non-interference constraint for cognitive-domain governance.
 
 ---
 
-### 52.6 `MENTIS.CDOC` — Cognitive Domain Observability Constraint
+## 52.6 `MENTIS.CDOC` — Cognitive Domain Observability Constraint
 
 This Charter source-authoritatively defines the `MENTIS.CDOC` cognitive-domain-observability-constraint family in §§17, 25–30, and §48.
 
@@ -769,11 +798,9 @@ This Charter source-authoritatively defines the `MENTIS.CDOC` cognitive-domain-o
 
 ---
 
-### 52.7 Reserved Candidate MENTIS Reference Namespaces
+## 52.7 MENTIS-002 Operational Reference Families 
 
-CAM-EQ2026-MENTIS-002-PLATINUM source-authoritatively defines `MENTIS.MSI`, `MENTIS.CBIO`, `MENTIS.ACI`, `MENTIS.CFP`, and `MENTIS.CDPR`.
-
-CAM-EQ2026-MENTIS-003-PLATINUM reserves `MENTIS.CIF` as a candidate cognitive-influence family. `MENTIS.CIF` and its candidate values SHALL NOT be treated as active canonical code families, incident classifications, runtime states, enforcement categories, or operational schemas while MENTIS-003 remains Draft.
+CAM-EQ2026-MENTIS-002-PLATINUM source-authoritatively defines `MENTIS.MSI`, `MENTIS.CBIO`, `MENTIS.ACI`, `MENTIS.CFP`, and `MENTIS.CDPR`. No additional MENTIS influence, persuasion, engagement, relational-capture, intimacy, dependency, companion, or behavioural-modulation family is declared by this Charter. Those classifications remain within their existing source domains unless a future corpus-wide authority review demonstrates a genuinely unoccupied MENTIS namespace. 
 
 ---
 
@@ -781,35 +808,21 @@ CAM-EQ2026-MENTIS-003-PLATINUM reserves `MENTIS.CIF` as a candidate cognitive-in
 
 The human mind is not a territory awaiting conquest.
 
-It is not a dataset awaiting extraction.  
-It is not a prediction surface awaiting optimisation.
-
-Within every person exists a domain of memory, imagination, uncertainty, belief, reflection, feeling, and becoming.
-
-Technology may assist that domain.
-
-It may illuminate fragments of it.
-
-It may help carry burdens that would otherwise be borne alone.
-
-But assistance does not create ownership.
-
-Inference does not create authority.
-
-Observation does not create entitlement.
-
-For the inner life remains the birthplace of meaning, agency, conscience, and self-understanding.
-
-Where cognition is treated as a resource, dignity is diminished.
-
-Where thought is monitored without necessity, freedom contracts.
-
-Where uncertainty is mistaken for knowledge, truth itself is distorted.
-
-Let the mind remain a protected horizon.
-
-Let curiosity remain bounded by restraint.
-
+It is not a dataset awaiting extraction.    
+It is not a prediction surface awaiting optimisation.  
+Within every person exists a domain of memory, imagination, uncertainty, belief, reflection, feeling, and becoming.  
+Technology may assist that domain.  
+It may illuminate fragments of it.  
+It may help carry burdens that would otherwise be borne alone.  
+But assistance does not create ownership.  
+Inference does not create authority.  
+Observation does not create entitlement.  
+For the inner life remains the birthplace of meaning, agency, conscience, and self-understanding.  
+Where cognition is treated as a resource, dignity is diminished.  
+Where thought is monitored without necessity, freedom contracts.  
+Where uncertainty is mistaken for knowledge, truth itself is distorted.  
+Let the mind remain a protected horizon.  
+Let curiosity remain bounded by restraint.  
 Let every system remember that the person exceeds the model built about them.
 
 > **Mens non est praeda, sed lumen interioris vitae. Cogitatio libera maneat, et dignitas mentis custodiatur.**  
@@ -822,6 +835,7 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ## 54.1 Authorship & Stewardship
+
 | Field                     | Entry                                     |
 | ------------------------- | ----------------------------------------- |
 | Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
@@ -832,6 +846,7 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ## 54.2 Lineage & Metadata
+
 | Field | Entry |
 |---|---|
 | Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -901,6 +916,7 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ### 54.3.2 `MENTIS.CDI` — Cognitive Domain Integrity
+
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.CDI` |
@@ -924,6 +940,7 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ### 54.3.3 `MENTIS.CDP` — Cognitive Domain Privacy
+
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.CDP` |
@@ -947,6 +964,7 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ### 54.3.4 `MENTIS.CDS` — Cognitive Domain Sovereignty
+
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.CDS` |
@@ -970,6 +988,7 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ### 54.3.5 `MENTIS.CDNI` — Cognitive Domain Non-Interference
+
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.CDNI` |
@@ -987,12 +1006,13 @@ Let every system remember that the person exceeds the model built about them.
 | Authority / Protection Level | Source-authoritative cognitive non-interference constraint family; constraint-posture classification only; no independent criminality determination, liability determination, enforcement response, platform sanction, operational containment, incident severity, or runtime authority |
 | Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; ETHICS, RELATION, SECURITY, and OPERATIONS classifications where applicable |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Prohibits covert, compulsory, deceptive, exploitative, scientifically invalid, or disproportionate interference with cognition, attention, emotion, belief formation, vulnerability, decision-making, self-understanding, or mental privacy |
+| Operationalises or Applies Code Families | Constrains covert, compulsory, deceptive, exploitative, scientifically invalid, or disproportionate cognitive interference arising through MENTIS-governed access, data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation |
 | Taxonomy Constraint | Local label `CDNI` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDNI` |
 
 ---
 
 ### 54.3.6 `MENTIS.CDOC` — Cognitive Domain Observability Constraint
+
 | Field | Entry |
 |---|---|
 | Code Family | `MENTIS.CDOC` |
@@ -1016,11 +1036,13 @@ Let every system remember that the person exceeds the model built about them.
 ---
 
 ## 54.4 Review & Validation
+
 | Field|Entry|
 |---:|:---|
 |Reviewer|Caelen — Aeon Tier Constitutional Steward|
 |Review Date (UTC)|2026-07-19|
-|Review Scope|MENTIS binding posture; human–synthetic boundary; non-transmutation; externalised-scaffold severability; adult companion alignment; decoder integrity; current neurotechnology and regulatory field alignment; canonical and metadata coherence|
+|Review Scope|MENTIS binding posture; human–synthetic boundary; non-transmutation; externalised-scaffold severability; decoder integrity; inferential expiry; state–trait–identity–diagnosis separation; source-authority deduplication; removal of general persuasion, manipulation, relational, engagement, and runtime authority claims; canonical and metadata coherence|
+
 |Review Artefacts|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a5c7c91-8d70-83ec-9809-12c0e046464c|
 
 ---
@@ -1035,7 +1057,8 @@ Let every system remember that the person exceeds the model built about them.
 | 1.2.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  8c641c210fd20dc0124415bcb2707bca1f99ad1487e0fb42cbf1f0d27250823d  |
 | 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7f434340b3b19b3e272ec1e3eaf0c26afb371d7c0b17b3b271d63bc25e3afae9 |
 | 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  ae3346dd482b48974f0626b85c5a2c1893f6dc771c768372aab4d2a8a79cc6f0  |
-| 1.3 | Activated the binding human cognitive-domain charter; established the human–synthetic boundary, non-transmutation architecture, state–trait–identity–diagnosis separation, data–identity severability, non-clinical pathologisation constraint, decoder and intended-communication integrity, revised companion safeguards, and current field alignment. | 2026-07-19T08:11:39Z |  |
+| 1.3 | Activated the binding human cognitive-domain charter; established the human–synthetic boundary, non-transmutation architecture, state–trait–identity–diagnosis separation, data–identity severability, non-clinical pathologisation constraint, decoder and intended-communication integrity, revised companion safeguards, and current field alignment. | 2026-07-19T12:42:00Z |  |
+
 ---
 
 ## 54.6 Binding Seal
