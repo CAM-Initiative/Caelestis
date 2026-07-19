@@ -28,6 +28,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          sed -i 's/## 7.3 Directional Modulation/## 7.3 Execution Intent Threshold/' .github/scripts/identity_003_to_steward_005.py
+
           if ! python .github/scripts/identity_003_to_steward_005.py 2> /tmp/identity-003-migration-error.txt; then
             cp /tmp/identity-003-migration-error.txt .github/IDENTITY-003-MIGRATION-DIAGNOSTIC.txt
             git add .github/IDENTITY-003-MIGRATION-DIAGNOSTIC.txt
