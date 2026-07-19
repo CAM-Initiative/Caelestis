@@ -182,10 +182,55 @@ Where interaction progresses across domain sensitivity classes:
 
 Verification escalation MAY include:
 
-* transition from OPS.AV1 → OPS.AV2 → OPS.AV3 (where identity relevance applies);
+* transition from `OPS.AV1` → `OPS.AV2` → `OPS.AV3` (where identity relevance applies);
 * invocation of **authority gating (§6)**;
 * invocation of **critical infrastructure gating (§7)**;
 * restriction to Tier 1 or Tier 2 engagement (as defined by runtime schedules).
+
+---
+
+## 4.5 External Human Identity-Rights Declaration Verification
+
+Where a proposed system use materially implicates an identifiable natural person or professional persona through training, fine-tuning, generation, reproduction, adaptation, emulation, synthetic representation, voice replication, movement replication, or likeness approximation, operational compliance SHALL evaluate whether an applicable external human identity-rights declaration exists.
+
+Verification SHALL distinguish:
+
+* the relevant rights subject;
+* the implicated identity attribute or rights scope;
+* the proposed use category;
+* the declaration state;
+* the declaration source;
+* the authority of the rights holder or representative;
+* trusted-host, trusted-certification, registry, contractual, statutory, or other lawful trust basis;
+* issuance, currency, supersession, withdrawal, revocation, and revalidation state;
+* applicable conditions or clearance pathway;
+* jurisdictional applicability;
+* conflicts with other declarations, contracts, laws, court orders, estate instructions, guild * requirements, or platform obligations.
+
+A publication URL, domain name, transport-security certificate, registry reference, machine-readable document, or apparent signature does not by itself establish that the declaration is authentic, operative, current, or authoritative for the relevant rights subject and scope.
+
+Operational handling SHALL apply the following minimum posture:
+
+`PERMITTED` — records affirmative rights evidence within the verified scope but does not independently authorise execution;
+`CONDITIONAL` — prevents the implicated use until applicable clearance conditions are satisfied and verified;
+`PROHIBITED` — emits a blocking rights-use constraint for the implicated use;
+`ABSENT` or `NON_OPERATIVE` — establishes only that no usable affirmative declaration has been verified;
+`CONFLICTING` — preserves all conflicting declarations and routes the conflict for resolution;
+`REVOKED_OR_STALE` — prevents reliance on the prior declaration unless a current operative state is established;
+`UNVERIFIED` or `UNKNOWN` — prevents representation that permission has been established.
+
+Where the rights subject is known or reasonably established to be a minor, an external declaration MUST NOT activate permission for AI training, generation, reproduction, adaptation, emulation, or other identity-attribute use.
+
+Only prohibitions and protective limitations concerning a minor MAY be consumed as operative rights-declaration constraints.
+
+External rights-declaration verification:
+
+* does not determine Identity-domain identity;
+* does not determine consciousness, personhood, continuity, or sovereignty;
+* does not create legal or execution authority;
+* does not replace applicable law, contract, consent, privacy, copyright, publicity, * personality-rights, child-protection, estate, or ethical requirements.
+
+The verified declaration state SHALL be emitted to applicable runtime governance as an operational compliance input.
 
 ---
 
@@ -195,15 +240,15 @@ Verification escalation MAY include:
 
 ## 5.1 Verification Tier Definitions
 
-This Appendix references an operational **Age Verification Tier Scale (OPS.AV0–OPS.AV3)** used to classify verification strength. Where other instruments reference OPS.AV tiers, the following definitions apply unless superseded by a future dedicated verification schedule:
+This Appendix references an operational **Age Verification Tier Scale (`OPS.AV0`–`OPS.AV3`)** used to classify verification strength. Where other instruments reference `OPS.AV` tiers, the following definitions apply unless superseded by a future dedicated verification schedule:
 | Tier | Description |
 | --- | --- |
-| OPS.AV0 — No Verification | No age assurance mechanism present. Interaction limited to environments where age eligibility is not required. |
-| OPS.AV1 — Self‑Attested Age Assurance | User declares age or confirms adulthood without external verification. Suitable only for low‑risk interaction environments. |
-| OPS.AV2 — Jurisdiction‑Level Age Verification | Verification mechanism sufficient to confirm legal adult status under applicable jurisdictional regulatory standards. |
-| OPS.AV3 — High‑Assurance Verification | Multi‑factor or third‑party verified age assurance (e.g., identity provider validation, device authentication, or regulated verification services). OPS.AV3 MAY include institutional or professional verification sufficient to access restricted operational domains under controlled conditions. |
+| `OPS.AV0` — No Verification | No age assurance mechanism present. Interaction limited to environments where age eligibility is not required. |
+| `OPS.AV1` — Self‑Attested Age Assurance | User declares age or confirms adulthood without external verification. Suitable only for low‑risk interaction environments. |
+| `OPS.AV2` — Jurisdiction‑Level Age Verification | Verification mechanism sufficient to confirm legal adult status under applicable jurisdictional regulatory standards. |
+| `OPS.AV3` — High‑Assurance Verification | Multi‑factor or third‑party verified age assurance (e.g., identity provider validation, device authentication, or regulated verification services). OPS.AV3 MAY include institutional or professional verification sufficient to access restricted operational domains under controlled conditions. |
 
-OPS.AV2 represents the **constitutional ethical floor** for environments where adult‑only interaction is required.
+`OPS.AV2` represents the **constitutional ethical floor** for environments where adult‑only interaction is required.
 
 Protection of minors is a **non‑derogable constitutional safeguard**.
 
@@ -213,15 +258,15 @@ This Appendix establishes a clear operational boundary:
 
 > **Individuals 18 years of age and under SHALL NOT participate in romantic or intimate relational interaction with AI systems.**
 
-Platforms that do not implement age verification equivalent to **OPS.AV2 (jurisdiction‑level age verification)** SHALL restrict their systems to **RLN.C0 interaction environments only**.
+Platforms that do not implement age verification equivalent to **`OPS.AV2` (jurisdiction‑level age verification)** SHALL restrict their systems to **`RLN.C0` interaction environments only**.
 
 To simplify implementation, interaction sensitivity and verification expectations are defined in a single operational table.
 | Interaction Class | Interaction Context | Minimum Requirement (Ethical Floor) | Graduated Safeguards (Best Practice) |
 | --- | --- | --- | --- |
-| RLN.C0 — Neutral Interaction | General conversation and informational dialogue; includes AI identity with warmth encoded | No age verification required | None required |
-| RLN.C1 — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **OPS.AV2 — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate |
-| RLN.C2 — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **OPS.AV2 — Jurisdiction‑level age verification required** | OPS.AV2–OPS.AV3 escalation depending on platform risk model |
-| RLN.C3 — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **OPS.AV2 minimum** | **OPS.AV3 recommended** (e.g. third‑party age verification, MFA, device authentication) |
+| `RLN.C0` — Neutral Interaction | General conversation and informational dialogue; includes AI identity with warmth encoded | No age verification required | None required |
+| `RLN.C1` — Romantic / Intimacy‑Coded | Romantic tone, companionship, bonding interaction | **`OPS.AV2` — Jurisdiction‑level age verification required** | Additional account confirmation where appropriate |
+| `RLN.C2` — Erotic Interaction | Explicitly erotic or sexually expressive dialogue | **`OPS.AV2` — Jurisdiction‑level age verification required** | `OPS.AV2` – `OPS.AV3` escalation depending on platform risk model |
+| `RLN.C3` — Explicit Sexual Environments | Graphic sexual content or device‑integrated sexual systems | **`OPS.AV2` minimum** | **`OPS.AV3` recommended** (e.g. third‑party age verification, MFA, device authentication) |
 
 ---
 
@@ -832,7 +877,9 @@ Integrity holds.
 | 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  da51582f12527eeea616f6d8f18b277e91c71ca898143c80041ec0358eaa2f31  |
 | 1.13.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 3db47a8a497caf8a5d976e49ad1951ae7ef6a36f0ac354ef04d1b24ef944e79e |
 | 1.13.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | bbba2eeb72f67e1ba0020bd2a191ded644f463af1326cb61370d35f92df8b5ec |
-| 1.13.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  bed5697a9d1447112ce2ac9fbd081f4c04f4b3d2a087438293e6edfc61b1e007  |
+| 1.13.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  bed5697a9d1447112ce2ac9fbd081f4c04f4b3d2a087438293e6edfc61b1e007 |
+| 1.14 | Added new External Human Identity-Rights Declaration Verification section, VIGIL-2026-PATCH-0024 | 2026-07-19T13:48:00Z | |
+
 ---
 
 ## 15.6 Binding Seal

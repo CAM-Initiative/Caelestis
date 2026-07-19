@@ -201,6 +201,45 @@ Where identity inconsistency or reconstruction risk conditions are present, syst
 
 ---
 
+#### 2.2.12.1 External Human Identity-Rights Declaration Integrity
+
+Systems consuming external human identity-rights declarations MUST preserve integrity between:
+
+* the rights subject;
+* the protected attribute or rights scope;
+* the proposed use;
+* the rights holder or representative;
+* the declaration source;
+* the declaration lifecycle;
+* the operative permission, restriction, or conditional state.
+
+Systems MUST detect, prevent, or route material risk arising from:
+
+* forged or fabricated declarations;
+* registry poisoning;
+* rights-subject mismatch;
+* substitution of one person’s declaration for another;
+* false or unsupported representative authority;
+* compromised hosts or certification pathways;
+* invalid or untrusted certification;
+* stale cached permissions;
+* use of superseded, withdrawn, expired, or revoked declarations;
+* omission of applicable conditions;
+* downgrade from prohibited or conditional status to permitted status;
+* stripping of prohibitions or limitations during transfer, export, summarisation, transformation, or migration;
+* conflict suppression;
+* declaration replay outside its temporal, territorial, platform, or use scope.
+
+A declaration MUST NOT be treated as authoritative merely because it was retrieved from a registry, website, API, metadata field, model context, connector, document, or machine-readable source.
+
+Where a credible prohibition, withdrawal, or restriction conflicts with an apparent permission, the permission MUST NOT be represented as resolved until source trust, subject binding, authority, lifecycle, scope, and conflict conditions have been evaluated.
+
+Security classification does not determine final rights ownership, legal permissibility, or execution outcome.
+
+It preserves declaration integrity and emits authenticity, tampering, mismatch, lifecycle, and conflict signals to OPERATIONS and applicable runtime governance.
+
+---
+
 ### 2.2.13 Sovereign Assurance Boundary
 
 
@@ -1356,7 +1395,8 @@ and the system remember what it carries.
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e |
 | 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| 5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe |
 | 1.10 | Added entity and control attribution requirements for Sovereign Assurance Boundaries, including beneficial ownership, affiliate and intermediary pathways, ultimate end-user and end-use distinctions, extraction/distillation indicators, and evidence-preserving uncertainty limits. | 2026-07-13T03:48:00Z | 3cbabcb4fd5faaba3e31befac6412ce0697b07c95e654ab9106ee6dc0ae09a72 |
-| 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-18T15:28:00Z |  |
+| 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022 and VIGIL-2026-PATCH-0024 | 2026-07-19T13:50:00Z |  |
+
 ---
 
 ## 10.6 Binding Seal

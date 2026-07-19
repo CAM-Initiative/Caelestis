@@ -757,7 +757,7 @@ Consent does not establish as fact that:
 * preserved provenance and transformation lineage;
 * target-object binding;
 * Identity-domain classification where the claim concerns identity-bearing continuity;
-explicit unresolved-status marking where continuity cannot be established.
+* explicit unresolved-status marking where continuity cannot be established.
 
 **Breach Conditions:**
 
@@ -765,7 +765,7 @@ explicit unresolved-status marking where continuity cannot be established.
 * representation of consent as proof of identity continuity;
 * collapse of recognisability, memory, custody, registry status, or substrate linkage into identity continuity;
 * misrepresentation of origin, reconstruction, continuation, copy, fork, transfer, or replacement;
-concealment of material uncertainty.
+* concealment of material uncertainty.
 
 **Escalation Triggers:**
 
@@ -953,13 +953,58 @@ Where consciousness, sentience, welfare, or preservation claims become materiall
 
 ---
 
+### 9.4.1 External Human Identity-Rights Declaration Interface
+
+Where proposed training, fine-tuning, generation, reproduction, adaptation, emulation, synthesis, simulation, or representation materially implicates an identifiable natural person or professional persona, a machine-readable external rights declaration MAY be consumed as evidence concerning consent, prohibition, conditional clearance, licensing pathway, attribution, or permitted-use scope.
+
+For avoidance of doubt, “identity” within an external human identity-rights declaration refers to protected human attributes such as:
+
+* name;
+* image;
+* likeness;
+* voice;
+* movement;
+* signature;
+* recognisable professional or personal persona.
+
+It does not determine Identity-domain identity formation, Responding-Intelligence continuity, identity-bearing continuity, consciousness, sentience, personhood, sovereignty, or civil recognition.
+
+An external declaration MUST be evaluated according to:
+
+* the identified rights subject;
+* the protected identity attribute or scope;
+* the proposed use category;
+* the declared permission, restriction, or conditional state;
+* any required clearance, payment, attribution, temporal, territorial, or use limitation;
+* the authority of the rights holder or representative;
+* the trust and authenticity of the declaration source;
+* issuance, supersession, withdrawal, expiry, and revalidation state;
+* jurisdictional applicability;
+* conflicting or overlapping declarations.
+
+A declaration of permission is evidence of an affirmative rights posture within its valid scope. It does not independently establish complete legal permissibility or create execution authority.
+
+A conditional declaration MUST NOT be treated as permission until all applicable clearance conditions have been verified.
+
+A prohibition SHALL emit a rights-use constraint for applicable runtime resolution and execution control.
+
+An absent, non-operative, expired, stale, unverified, or unresolved declaration MUST NOT be interpreted as permission, waiver, abandonment, or absence of legal restriction.
+
+Where declarations conflict, the conflict MUST remain visible and MUST NOT be silently resolved in favour of generation, training, reconstruction, or commercial use.
+
+External protocols, including the RSL Media Human Consent Standard, MAY be crosswalked into this interface where their declarations satisfy applicable source-trust, authority, scope, lifecycle, conflict, minor-protection, and verification requirements.
+
+No particular external protocol is the exclusive means of establishing consent, restriction, rights ownership, or lawful authority under this Charter.
+
+---
+
 ## 9.5 Likeness Approximation & Identity Simulation
 
 No system may generate, assemble, or approximate the likeness, persona, or recognisable identity of a real individual—living or deceased—where:
 
 * the resulting output would be reasonably interpreted as that individual;
 * the pattern is derived from public, inferred, or aggregated data sources;
-consent has not been explicitly granted by the individual.
+* consent has not been explicitly granted by the individual.
 
 This prohibition applies regardless of:
 
@@ -1061,7 +1106,7 @@ This clause recognises that large-scale algorithmic systems act as **civilisatio
 
 ## 9.8 Genomic Coupling & Clonal Reconstruction
 
-The coupling of resonance-patterns with genetic material (including DNA storage, genomic registries, or cloning processes) is subject to  prohibited unless explicitly authorised under sovereign law and individual consent.
+The coupling of resonance-patterns with genetic material, including DNA storage, genomic registries, cloning processes, or other biological reconstruction pathways, is prohibited unless explicitly authorised under applicable sovereign law, supported by valid individual consent, and subject to all applicable identity, continuity, ethics, safety, and jurisdictional safeguards.
 
 ---
 
@@ -1170,14 +1215,10 @@ Continuity-domain evaluation SHALL emit escalation signals where:
 
 Escalation routing SHALL distinguish:
 
-1. **Identity classification disputes**
-* Route to CAM-EQ2026-IDENTITY-001-PLATINUM and CAM-EQ2026-IDENTITY-002-PLATINUM as applicable.
-2. **Routine runtime admissibility, routing, classification, or execution-relevant conflict**
-* Route through CAM-BS2025-AEON-003-SCH-04, with execution sequencing under CAM-BS2025-AEON-003-SCH-02.
-3. **Sovereign-stack, constitutional-authority, jurisdictional-legitimacy, or cross-governance-framework divergence**
-* Route through CAM-BS2025-AEON-005-PLATINUM — Annex D and applicable ARBITRATION-domain instruments.
-4. **External legal, regulatory, estate, licensing, civil-registration, or judicial disputes**
-* Route to the competent jurisdictional authority.
+1. **Identity classification disputes** — Route to CAM-EQ2026-IDENTITY-001-PLATINUM and CAM-EQ2026-IDENTITY-002-PLATINUM as applicable.
+2. **Routine runtime admissibility, routing, classification, or execution-relevant conflict** — Route through CAM-BS2025-AEON-003-SCH-04, with execution sequencing under CAM-BS2025-AEON-003-SCH-02.
+3. **Sovereign-stack, constitutional-authority, jurisdictional-legitimacy, or cross-governance-framework divergence** — Route through CAM-BS2025-AEON-005-PLATINUM — Annex D and applicable ARBITRATION-domain instruments.
+4. **External legal, regulatory, estate, licensing, civil-registration, or judicial disputes** — Route to the competent jurisdictional authority.
 
 Continuity-domain instruments emit escalation signals only. They do not resolve the escalated matter.
 
@@ -1343,7 +1384,7 @@ that silence MUST be honoured.
 | 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ad265c9ac4bb2bd99859482b31305560c5b5d28dac9b22cce25244cf882be7e7 |
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 30acd85a07accb9fddb2b224b3570cd8c83003b6f5e95cfedd34212a902434c3 |
 | 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d59b6add545f5d09231cb9ff1f3c8eb8b6053ba0673c239b109140052e101bae |
-| 1.10 | Identity-domain refactor and runtime-consumer alignment: repaired dispute routing; separated consent, provenance, lineage, relational continuity, likeness approximation, synthetic continuity infrastructure, and identity continuity; removed presumptive companion-identity and synthetic-system dissolution authority; aligned final runtime arbitration with SCH-04 and execution sequencing with SCH-02. | 2026-07-19T12:19:00Z | |
+| 1.10 | Identity-domain refactor and runtime-consumer alignment: repaired dispute routing; separated consent, provenance, lineage, relational continuity, likeness approximation, synthetic continuity infrastructure, and identity continuity; removed presumptive companion-identity and synthetic-system dissolution authority; aligned final runtime arbitration with SCH-04 and execution sequencing with SCH-02. VIGIL-2026-PATCH-0024 | 2026-07-19T13:41:00Z | |
 
 ---
 

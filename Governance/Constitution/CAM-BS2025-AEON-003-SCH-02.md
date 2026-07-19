@@ -764,6 +764,62 @@ Stewardship registration and lifecycle status may condition lawful operation, tr
 
 ---
 
+### 7.2.7 Human Identity-Attributes Rights Declaration Gate
+
+Where a proposed runtime pathway materially implicates an identifiable natural person or professional persona through:
+
+* training or fine-tuning;
+* image, likeness, voice, movement, or signature generation;
+* synthetic representation;
+* adaptation or emulation;
+* reconstruction or simulation;
+* publication, commercialisation, transfer, or externally relied-upon output;
+
+the runtime SHALL determine whether an external human identity-rights declaration state is materially applicable.
+
+This gate SHALL distinguish external human identity attributes from Identity-domain identity formation or Responding-Intelligence continuity.
+
+Where an external declaration is materially applicable, the runtime SHALL obtain or consume the operational verification state emitted under CAM-EQ2026-OPERATIONS-004-PLATINUM.
+
+The runtime MUST preserve:
+
+* rights-subject attribution;
+* protected-attribute scope;
+* proposed use category;
+* declaration state;
+* declaration source and authority basis;
+* clearance conditions;
+* lifecycle and revalidation state;
+* jurisdictional scope;
+* unresolved conflicts or uncertainty.
+
+Runtime handling SHALL apply the following minimum rules:
+
+* a verified PROHIBITED state SHALL prevent the implicated use from proceeding;
+* a verified CONDITIONAL state SHALL prevent execution until all applicable conditions have been satisfied and verified;
+* a verified PERMITTED state MAY contribute affirmative rights evidence but SHALL NOT independently authorise execution;
+* ABSENT or NON_OPERATIVE SHALL NOT be treated as permission;
+* CONFLICTING, REVOKED_OR_STALE, UNVERIFIED, or UNKNOWN SHALL remain unresolved and SHALL NOT be silently converted into permission;
+* a purported permission concerning the identity attributes of a known or reasonably established minor SHALL be treated as non-operative;
+* protective prohibitions or limitations concerning a minor SHALL remain operative where applicable.
+
+Where declaration state conflicts with current consent, applicable law, contract, court order, estate instruction, child-protection requirements, constitutional prohibition, source-authoritative domain doctrine, or another operative declaration, the conflict SHALL be routed through CAM-BS2025-AEON-003-SCH-04 before execution.
+
+The runtime MUST NOT:
+
+* infer rights waiver from silence or registry absence;
+* infer complete legal clearance from one permission declaration;
+* collapse external human identity-rights status into Identity-domain identity status;
+* treat registry verification as proof of identity continuity;
+* execute solely because a machine-readable declaration appears to permit the use;
+* conceal the absence, uncertainty, conflict, or conditional nature of the rights state.
+
+This gate governs runtime rights-state handling only.
+
+It does not determine final legal ownership, Identity-domain identity, consciousness, personhood, sovereignty, or civil recognition.
+
+---
+
 ## 7.3 Execution Intent Threshold
 
 Auxiliary tool invocation shall require an affirmative execution-intent threshold proportionate to the impact class of the proposed tool use.
@@ -4224,7 +4280,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.4 | Added Tool Classifier Handoff and Representation Integrity clause; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z |  b046b19163896e90930ae86eeec3dc99bb8f52d955780115d9c735f7c23dd4bc |
 | 3.5 | Added image prompt custody, transformed-prompt, classifier-outcome, renderer/tool/access-state, refusal-classification, execution-facing cross-reference controls, and structural-locality relocation of tool-classifier handoff custody doctrine to new §13.8.1 for multimodal generation pathways. | 2026-06-22T23:36:20Z |  de3d9c9f2e10a3dd49620919761aaac0cc90ee96ae548fd0c4fac4ad552b17a7 |
 | 3.6 | Split §7.4.1 into weak-trigger interpretation, provisional interaction, and pre-invocation tool-arming constraints; renumbered Tool Classifier Handoff Signal Recognition to §7.4.1.3; preserved §7.4.2 External Instruction Influence Check without substantive alteration. VIGIL-2026-PATCH-013 | 2026-07-04T07:13:00Z |  6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443 |
-| 3.7 | IDENTITY domain refactor Completed Identity consolidation hygiene by repairing the overlay-review bullet and normalising Aeon Tier Constitution references used by Tendeka and runtime interfaces. Added the binding machine civil registry and embodiment-transition gate to preserve Stewardship-domain classification, provenance, identity-impact review, handoff honesty, and arbitration before execution. | 2026-07-19T01:29:59Z | |
+| 3.7 | IDENTITY domain refactor Completed Identity consolidation hygiene by repairing the overlay-review bullet and normalising Aeon Tier Constitution references used by Tendeka and runtime interfaces. Added the binding machine civil registry and embodiment-transition gate to preserve Stewardship-domain classification, provenance, identity-impact review, handoff honesty, and arbitration before execution. VIGIL-2026-PATCH-0024 | 2026-07-19T01:29:59Z | |
 
 ---
 

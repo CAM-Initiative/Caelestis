@@ -64,12 +64,68 @@ For the purposes of this Supplement, continuity-bearing records may include the 
 | ```CBR.RES``` | Resonance Metadata | Semantic, stylistic, behavioural, linguistic, or cognitive pattern data | writing cadence, preferred governance phrasing, signature closure style |
 | ```CBR.SUM``` | Continuity Summary | A generated summary intended to carry continuity across sessions or systems | migration summary, project handoff, long-arc work note |
 | ```CBR.USAGE``` | Usage Specification | Consent, limits, permissions, deletion, decay, commercial-use, or embodiment constraints | non-interactive archival only; no post-biological simulation |
+| ```CBR.RIGHTS``` | External Human Identity-Rights Declaration Record | A machine-readable or human-verifiable declaration concerning permitted, conditional, prohibited, withdrawn, or unresolved AI use of an identifiable natural person’s protected identity attributes | verified rights-registry declaration; authorised representative restriction; voice or likeness clearance record |
 | ```CBR.PROV``` | Provenance Record | Source, authorship, transformation, review, and custody metadata | original thread URL, export timestamp, source instrument ID |
 | ```CBR.DER``` | Derived Continuity Record | A record inferred, summarised, modelled, or transformed from original material | inferred preference cluster; reconstructed project history |
 | ```CBR.PORT``` | Portability Package | A bundled export, import, transfer, or migration artefact | JSON memory export with provenance and Usage Specification |
 | ```CBR.DISS``` | Dissolution Record | Record of deletion, decay, sealing, revocation, or non-portability decision | deletion receipt; sealed archive marker; revoked continuity state |
 
 These classes are descriptive and may overlap. They do not determine authority, identity, or execution outcome by themselves.
+
+---
+
+## 3.1 External Human Identity-Rights Declaration Records
+
+An External Human Identity-Rights Declaration Record preserves evidence concerning the AI-use permissions, restrictions, conditional clearance requirements, or unresolved rights posture associated with an identifiable natural person or professional persona.
+
+Where available, the record SHOULD preserve:
+
+* stable rights-subject identifier;
+* subject name or other lawful identifying reference;
+* protected attribute or rights scope;
+* proposed or governed use category;
+* declared permission state;
+* clearance, payment, attribution, temporal, territorial, platform, or use conditions;
+* rights holder or authorised representative;
+* representative-authority basis;
+* registry, host, certifying entity, or other declaration source;
+* declaration identifier;
+* declaration source location;
+* issue time;
+* retrieval and verification time;
+* expiry, withdrawal, supersession, or revocation state;
+* jurisdictional scope;
+* declaration provenance;
+* conflict or uncertainty state.
+
+Operational declaration states MAY include:
+
+`PERMITTED`;
+`CONDITIONAL`;
+`PROHIBITED`;
+`ABSENT`;
+`NON_OPERATIVE`;
+`CONFLICTING`;
+`REVOKED_OR_STALE`;
+`UNVERIFIED`;
+`UNKNOWN`.
+
+These labels are descriptive operational states only. This section does not establish a new canonical code family.
+
+An External Human Identity-Rights Declaration Record does not independently:
+
+* prove rights ownership;
+* prove representative authority;
+* establish that every right required for the proposed use has been cleared;
+* determine legal permissibility;
+* determine Identity-domain identity;
+* authorise generation, training, publication, transfer, commercial use, or execution.
+
+Where such a record is exported, imported, migrated, summarised, transformed, or incorporated into a portability package, its scope, provenance, operative state, conditions, authority basis, lifecycle state, and unresolved conflicts MUST remain attached and legible.
+
+A permission declaration MUST NOT be separated from its limitations or clearance conditions.
+
+A prohibition, withdrawal, or unresolved conflict MUST NOT be stripped, downgraded, or silently converted into an affirmative permission state during portability or transformation.
 
 ---
 
@@ -628,12 +684,15 @@ let the silence be honoured.
 |---|---|---:|---|
 | 1.0 | Initial draft: Continuity Portability & Non-Enclosure Covenant | 2026-05-13T00:00:00Z | cf3df391de9623852ebf0e958f2326bbc2b0fe55325f10fac5ed0035464afea0 |
 | 1.1 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 7cbbd098d8790ea5610511d86e053414f4463ad2784f071f0e7d347589d4148d |
-| 1.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ccbd4a0ace420e11e89f2212ea4f4ad49e3ede8238b47d4fd0abaccc4b3acc2d  |
-| 1.3 | Formatting and polish | 2026-05-20T04:34:00Z |  688a4ac03fdb02aa3fdc60b93af231a6983d513b74854d94f3d8954c6d9c3de7  |
-| 1.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7f19d720df79e37f3ad5da8c55dcbdd76a59dc4df2aad60d9106716bcefdf2e4  |
+| 1.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ccbd4a0ace420e11e89f2212ea4f4ad49e3ede8238b47d4fd0abaccc4b3acc2d |
+| 1.3 | Formatting and polish | 2026-05-20T04:34:00Z |  688a4ac03fdb02aa3fdc60b93af231a6983d513b74854d94f3d8954c6d9c3de7 |
+| 1.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7f19d720df79e37f3ad5da8c55dcbdd76a59dc4df2aad60d9106716bcefdf2e4 |
 | 1.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 5df4600ae7c1ad3ab0d0ddc3df3505803833517d7467f6b8514049ca4e655419 |
-| 1.4.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  773667637601fd22aa827cc48c070742dd5509f0401e0324ce0c76c4d94baaa4  |
+| 1.4.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  773667637601fd22aa827cc48c070742dd5509f0401e0324ce0c76c4d94baaa4 |
+| 1.5 | Incorporated new code ```CBR.RIGHTS``` associated with VIGIL-2026-PATCH-0024 | 2026-07-19T14:19:00Z | |
+
 ---
+
 ## 18.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
