@@ -1,0 +1,50 @@
+name: One-off Identity refactor finalisation hygiene
+
+on:
+  push:
+    branches:
+      - refactor/identity-domain-architecture
+    paths:
+      - .github/workflows/one-off-identity-refactor-finalisation-hygiene.yml
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out working branch
+        uses: actions/checkout@v4
+        with:
+          ref: refactor/identity-domain-architecture
+          fetch-depth: 0
+
+      - name: Refresh branch state
+        run: git pull --ff-only origin refactor/identity-domain-architecture
+
+      - name: Apply finalisation hygiene
+        run: python .github/scripts/apply-identity-refactor-finalisation-hygiene.py
+
+      - name: Validate bounded change shape
+        run: |
+          git diff --check
+          git status --short
+          test ! -e .github/scripts/apply-identity-refactor-finalisation-hygiene.py
+          test ! -e .github/workflows/one-off-identity-refactor-finalisation-hygiene.yml
+          ! grep -R "CAM-EQ2026-AEON-003-SCH-04" Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md
+          ! grep -R "Individuals 18 years of age and under" Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md
+          ! grep -R "CAM-EQ2026-IDENTITY-001-PLATINUM is retired" Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md
+
+      - name: Commit repaired instruments and review records
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 1
+          fi
+          git commit -m "Finalise Identity refactor review and metadata hygiene"
+          git pull --rebase origin refactor/identity-domain-architecture
+          git push origin HEAD:refactor/identity-domain-architecture
