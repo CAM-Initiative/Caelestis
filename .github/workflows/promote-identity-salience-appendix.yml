@@ -1,0 +1,33 @@
+name: One-time salience appendix promotion
+
+on:
+  pull_request:
+    branches:
+      - refactor/identity-domain-architecture
+    paths:
+      - .github/promote-identity-salience-appendix-trigger
+
+permissions:
+  contents: write
+
+jobs:
+  promote-salience-appendix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out working branch
+        uses: actions/checkout@v4
+        with:
+          ref: refactor/identity-domain-architecture
+          fetch-depth: 0
+
+      - name: Promote adopted salience instrument
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/promote_identity_salience_appendix.py
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Promote adopted salience doctrine to IDENTITY-003"
+          git push origin HEAD:refactor/identity-domain-architecture
