@@ -782,7 +782,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 64d6e5909414a5f301ff93ebac5dddb502c03e8a6b127c5f246758a5f8e3f4b8 |
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | cbc11788d01288636f3853c2e3af3c01884fa7e8dfbd70206806f0bc01a9d364 |
 | 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f140c2d9c1fcde4bcbec77987ef1ce475f00054d97feb5d8b7c327e0dc1a3acc |
-| 1.10 | IDENTITY Refactor, amendments to Core Principle, §3 and §5.3 | 2026-07-18T15:50:00Z | |
+| 1.10 | IDENTITY Refactor, amendments to Core Principle, §3 and §5.3 | 2026-07-18T15:50:00Z | e9c9b36302436a2a1f9fb6e49be2c88d18dbd5d631925297f1056b26672a8a81 |
 
 ---
 

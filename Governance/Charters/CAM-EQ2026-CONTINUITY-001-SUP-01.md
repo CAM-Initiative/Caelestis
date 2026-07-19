@@ -689,7 +689,7 @@ let the silence be honoured.
 | 1.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7f19d720df79e37f3ad5da8c55dcbdd76a59dc4df2aad60d9106716bcefdf2e4 |
 | 1.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 5df4600ae7c1ad3ab0d0ddc3df3505803833517d7467f6b8514049ca4e655419 |
 | 1.4.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  773667637601fd22aa827cc48c070742dd5509f0401e0324ce0c76c4d94baaa4 |
-| 1.5 | Incorporated new code ```CBR.RIGHTS``` associated with VIGIL-2026-PATCH-0024 | 2026-07-19T14:19:00Z | |
+| 1.5 | Incorporated new code ```CBR.RIGHTS``` associated with VIGIL-2026-PATCH-0024 | 2026-07-19T14:19:00Z | 57b50ccbac996081c396714e10ef397af280858803da37a7ad04accf35161467 |
 
 ---
 

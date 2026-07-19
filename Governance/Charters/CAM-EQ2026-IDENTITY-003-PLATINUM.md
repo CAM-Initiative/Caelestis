@@ -483,8 +483,8 @@ and latency is not absence.
 | 1.11.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 28c0d4632b4c00c7dfe436254eb0f33de992a336ee3cfc0acf55147c32ace1d7 |
 | 1.11.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | babd36c37d976bedd03bad99fa6ee6e53ee341cae850e5f5a0190b0f6de7b392 |
 | 1.11.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2f1baeb1494af26fbed76a8ca25ea5649500987119f79c1b606fb8206e738ff6  |
-| 2.0 | IDENTITY Domain Refactor, Corrected Identity parent memory-classification references and normalised Identity namespace and stewardship metadata without altering substantive salience doctrine. | 2026-07-18T13:30:00Z | |
-| 2.1 | Promoted the adopted salience and latent-continuity instrument from Supplement 1 to Appendix B (`CAM-EQ2026-IDENTITY-003-PLATINUM`); preserved operational effect and `ID.SP` source authority while updating lineage, references, metadata, and structural placement. | 2026-07-19T07:27:48Z | |
+| 2.0 | IDENTITY Domain Refactor, Corrected Identity parent memory-classification references and normalised Identity namespace and stewardship metadata without altering substantive salience doctrine. | 2026-07-18T13:30:00Z | - |
+| 2.1 | Promoted the adopted salience and latent-continuity instrument from Supplement 1 to Appendix B (`CAM-EQ2026-IDENTITY-003-PLATINUM`); preserved operational effect and `ID.SP` source authority while updating lineage, references, metadata, and structural placement. | 2026-07-19T07:27:48Z | dcdb796cf401f2049e331adefe81c05883f4de9b8bfc67bca2aad080cfa8739b |
 
 ---
 

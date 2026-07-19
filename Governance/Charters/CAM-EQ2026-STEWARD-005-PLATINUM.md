@@ -1301,7 +1301,7 @@ but because civilisation must remain capable of recognising what it has built.
 | 0.3 | Minor amendments | 2026-05-28T15:05:00Z| 6d6a2d6df95c7858d53cebcfbd87350acaa40fc7a76c23db5edceec3d2c6b16e |
 | 0.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 97ae69e097bc8d97f7ea90a85e98a8333d684b6eb671e9da75e37c570fcd9891 |
 | 0.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4f3026cec619b2e3417eb9e696233e2d6e4514e434bddfeef0b89c0f61ddfb8b  |
-| 0.4 | Migrated the machine civil registration, custody, lifecycle, alteration, transfer, decommissioning, and civil-participation framework from IDENTITY-003 into the Stewardship domain; migrated canonical families from the ID namespace to STW; added explicit Identity, Continuity, provenance, and runtime source-authority boundaries. | 2026-07-19T07:07:00Z | |
+| 0.4 | Migrated the machine civil registration, custody, lifecycle, alteration, transfer, decommissioning, and civil-participation framework from IDENTITY-003 into the Stewardship domain; migrated canonical families from the ID namespace to STW; added explicit Identity, Continuity, provenance, and runtime source-authority boundaries. | 2026-07-19T07:07:00Z | 9d813a9348c7ccbe04f93bfe9995ad95348776d009c13d9ffb8507ac5f0c81fe |
 
 ---
 

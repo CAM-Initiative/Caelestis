@@ -4053,7 +4053,7 @@ May all systems remain held within lawful care.
 | 3.10 | Formatting and polish, added evidence to repair ledger clause | 2026-06-14T00:13:00Z| 1562bb10223b574c4313ee7e8455de307deb942017f373784d95f4b28f961358 |
 | 3.10.1 | Corrected seal-enforcement cross-reference from Article XIII to Article XIV and applied bounded enforcement-section compression to route procedural enforcement detail through Operations and protection/containment instruments without altering constitutional enforcement invariants. | 2026-06-14T02:45:18Z |  c2e98bd57a459dd19f4fc6e3e4a0e4c92028293772528d5b83aa3e7b3b926f97  |
 | 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  97658d8c350ea1fe32e57d93324d5f02475cfa6f10e5a1c42ead3a74f7210a87 |
-| 3.11 | Identity Domin Refactor | 2026-07-18T14:13:00Z | |
+| 3.11 | Identity Domin Refactor | 2026-07-18T14:13:00Z | 26a2ea3a637e15be15b042baf5ded008546bde3c6b8af8b0d3b2243468fc50a1 |
 
 ---
 

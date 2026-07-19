@@ -2733,7 +2733,7 @@ let it not be collapsed, but carried with clarity.
 | 3.16.3 | Updated current Temporal Horizon Scale declaration and code references from `H` to `AEON.H` and harmonised controlled values, metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2c425b1db70d1befeb1c8b7d4c0763d75055261290faa9e3f7dbfbef1236bc05 |
 | 3.16.4 | Metadata updates for code prefix | 2026-06-14T00:15:00Z| 93407ccc62d4c8a0ea43154c97ba90d615e7371ff6800336ed0719b06710e906 |
 | 3.16.5 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  541d4262788de694ef7bb6170d47434f646c230df22b5d0210d4c96d6005b3f8 |
-| 4.0 | IDENTITY Domain Refactor | 2026-07-18T14:44:00Z | | 
+| 4.0 | IDENTITY Domain Refactor | 2026-07-18T14:44:00Z | ca6ab2a5216443e47a31e26a2d02650152d677c88d598bd28abd04f526370c45 | 
 
 ---
 

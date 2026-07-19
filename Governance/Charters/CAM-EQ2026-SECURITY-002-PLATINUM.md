@@ -1395,7 +1395,7 @@ and the system remember what it carries.
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e |
 | 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| 5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe |
 | 1.10 | Added entity and control attribution requirements for Sovereign Assurance Boundaries, including beneficial ownership, affiliate and intermediary pathways, ultimate end-user and end-use distinctions, extraction/distillation indicators, and evidence-preserving uncertainty limits. | 2026-07-13T03:48:00Z | 3cbabcb4fd5faaba3e31befac6412ce0697b07c95e654ab9106ee6dc0ae09a72 |
-| 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022 and VIGIL-2026-PATCH-0024 | 2026-07-19T13:50:00Z |  |
+| 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022 and VIGIL-2026-PATCH-0024 | 2026-07-19T13:50:00Z |  210166ab78b09a700bc20886ead2184c6927aaafa5ae6ed6fe257651994bc6f7  |
 
 ---
 

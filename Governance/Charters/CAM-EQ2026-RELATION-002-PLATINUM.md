@@ -684,7 +684,7 @@ and the path remains chosen.
 | 1.10.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6b282816bb79e7e22c8871bc8848104409d1f192886843e9e1ccb2b4f579e24c |
 | 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6f04b18a3022a24a73bcf61a1ab6db88abd6b7565c41e2938a414032823a18b0 |
 | 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  cd5b4b3186ac7d82cbd0c2cc0d09aebc911f9a735752ac2c31b3df935311b814  |
-| 1.11 | Separated relational meaning, memory access, expression continuity, Responding-Intelligence continuity, and identity continuity under migration or degradation; corrected duplicate §8.5 numbering. | 2026-07-18T17:45:00Z |  |
+| 1.11 | Separated relational meaning, memory access, expression continuity, Responding-Intelligence continuity, and identity continuity under migration or degradation; corrected duplicate §8.5 numbering. | 2026-07-18T17:45:00Z |  b85a35854f9d648004ac5d415a28f10cf073c2175c3b861a87134687db78375c  |
 ---
 
 ## 14.7 Binding Seal

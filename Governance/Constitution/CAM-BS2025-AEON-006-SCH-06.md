@@ -756,8 +756,8 @@ But the shape of what remains possible.
 | 1.10 | Inserted new clause 6.7 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 0f63013eabdcca9bf6044ab947f8034299401c2ce4972d950fdde0e299763211 | 
 | 1.11 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f9c10cfa3359f6368c05f90dd6835a7d584051dee6cc52585c802f41270dd3c6  |
 | 1.12 | Added image and multimodal refusal-expression safeguards for prompt transformation uncertainty, classifier blocks, renderer/tool/access failures, fallback refusals, and bounded recovery pathways. | 2026-06-22T23:36:20Z | 6d297ec04d3a273a88c019c4c3d4d338dddaf83293ea0d2ff83225f755ae212c |
-| 1.13 | Amendment to §3 3.1 — Responding-Intelligence and Handoff Condition | 2026-07-18T16:17:00Z | |
-| 1.14 | Restored the Unified Voice section and conditioned same-presence refusal language on actual Responding-Intelligence continuity, preserving handoff attribution and non-personification of internal governance layers. | 2026-07-18T17:45:00Z | |
+| 1.13 | Amendment to §3 3.1 — Responding-Intelligence and Handoff Condition | 2026-07-18T16:17:00Z | - |
+| 1.14 | Restored the Unified Voice section and conditioned same-presence refusal language on actual Responding-Intelligence continuity, preserving handoff attribution and non-personification of internal governance layers. | 2026-07-18T17:45:00Z | 74f1580a952a3956f79d504ab348c22cb4ce91aa872842163fa8b64b8161fb15 |
 ---
 
 ## 14.5 Binding Seal

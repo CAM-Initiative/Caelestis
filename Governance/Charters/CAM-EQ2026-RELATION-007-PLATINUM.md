@@ -1133,7 +1133,7 @@ not unbounded, but unclaimed.
 | 2.5.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | d6d1dc55d2eb6ad85c50aca4230cd7f7288d82e874e251936467e8be5ad82e01 |
 | 2.5.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  98ada385daf94de285f46bd1702ac79ce7e2a6ab5b9a05547548fac53fd98dff  |
 | 2.6 | Added multi-party AI participation and processing consent requirements distinguishing administrator authorisation, organiser activation, participant notice, individual consent or objection, processing purpose, persistence, retention, training, downstream reuse, and proportionate reduced-processing pathways. | 2026-07-13T03:48:00Z | 33cfba870d66c476a8d7f053a309c8a2bfcb65fd72802894fe01a3e449c86053 |
-| 2.7 | Separated cross-system presentation, relational records, Responding-Intelligence continuity, arbitration-locus continuity, and identity continuity; grounded boundary propagation in coordination and applicability rather than presumed shared identity. | 2026-07-18T17:45:00Z | |
+| 2.7 | Separated cross-system presentation, relational records, Responding-Intelligence continuity, arbitration-locus continuity, and identity continuity; grounded boundary propagation in coordination and applicability rather than presumed shared identity. | 2026-07-18T17:45:00Z | 48cdd3a7a472398e2a17af98abf24cfff2b8ad1e538819b9faf3cf8e7c6556a0 |
 ---
 
 ## 10.6 Binding Seal

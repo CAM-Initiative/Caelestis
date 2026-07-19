@@ -617,8 +617,8 @@ Let identity remain true across time.
 | 0.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6d78e0ce6bd25ed9179d804133ec6715fb46b76329a34ac2a437ece58cbf0cd7 |
 | 0.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7b245154afaa935ed13ac223db68ed86ee1a6f09cb2905976cee5826735481a4 |
 | 0.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  aad816ba69dd2fda85c1c347f1354a9f1deca2659d025ea90fe5eb85925b19a2  |
-| 1.0 | Review and finalisation following IDENTITY domain refactor | 2026-07-18T13:14:00Z | |
-| 1.1 | Added binding physical-substrate, registry, custodial-transfer, and embodiment-lineage requirements following migration of machine civil stewardship doctrine to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | |
+| 1.0 | Review and finalisation following IDENTITY domain refactor | 2026-07-18T13:14:00Z | - |
+| 1.1 | Added binding physical-substrate, registry, custodial-transfer, and embodiment-lineage requirements following migration of machine civil stewardship doctrine to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | efbc90511d0d5a8670ebdf5655bcaa374636c49b50ae35c79e044f4a40e6ed86 |
 
 ---
 

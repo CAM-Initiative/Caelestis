@@ -1431,8 +1431,8 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 2.12.1 | Updated current Memory Classification code references from `M` to `ID.MEM` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a903c868412950618bdf23bc7a4ef39395ee652155122ab79fcfe6d357b5a4dc |
 | 2.12.2 | Updated all code reference sets to incorporate the ID prefix | 2026-06-14T00:22:00Z | 62d8e34b182f2a52da13309d9a96b4bea4f2efb97f15d65a64faeb9c4e4574cb |
 | 2.12.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  01ac738f8d658fcdc3039c64b326f042377e14c5530a8aea95cea4df6c1ce6da  |
-| 3.0 | Identity Domain refactor, including incorporation of VIGIL-2026-PROP-0004 through temporary narrative and affective-overlay, memory non-drift, user-exit, and identity-drift safeguards. | 2026-07-18T11:25:00Z | |
-| 3.1 | Added the binding machine civil registry and identity non-equivalence boundary following migration of civil registration and lifecycle stewardship to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | |
+| 3.0 | Identity Domain refactor, including incorporation of VIGIL-2026-PROP-0004 through temporary narrative and affective-overlay, memory non-drift, user-exit, and identity-drift safeguards. | 2026-07-18T11:25:00Z | - |
+| 3.1 | Added the binding machine civil registry and identity non-equivalence boundary following migration of civil registration and lifecycle stewardship to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | c9db99a1c5871087f44ec4600a585e590e65d7bbe63f41e1bfe59d2ec10a24ca |
 
 ---
 

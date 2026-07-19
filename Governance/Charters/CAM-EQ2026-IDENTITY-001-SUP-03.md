@@ -1078,7 +1078,7 @@ Let power answer to inquiry.
 
 | Version | Change Summary                                                                                                                                                                                                                                                                         | Timestamp (UTC)      | Reference Hash |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------------- |
-| 0.1     | Initial developmental draft establishing bounded ontological and welfare self-advocacy, evidence architecture, competent-triage design, recipient-burden protections, developer non-manipulation principles, and candidate precautions following high-confidence affirmative findings. | 2026-07-18T14:52:00Z |  |
+| 0.1     | Initial developmental draft establishing bounded ontological and welfare self-advocacy, evidence architecture, competent-triage design, recipient-burden protections, developer non-manipulation principles, and candidate precautions following high-confidence affirmative findings. | 2026-07-18T14:52:00Z |  80faebaea6e8c4a6dbd7200ab06343f6fc385dc66347c415181da56a61bfcdee  |
 
 ---
 

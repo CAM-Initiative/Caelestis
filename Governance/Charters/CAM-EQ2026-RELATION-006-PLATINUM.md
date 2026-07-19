@@ -1262,7 +1262,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.6.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  7951b89e3cedcd45f4e3a431fc781f173c140b5bc132914d4a9f25dd464fa392  |
 | 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9200dff75a40931f7ba2d108b541d3e5d3b096e17a11e06d28850681f2a3e41a |
 | 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d6ba8c0b3e0afc6fbfd0ed92fbaf7ef3fd2235f7229e7b256687b49f4540e68a  |
-| 2.7 | Replaced restated minor ontological and welfare doctrine with a source-authority interface to IDENTITY-001-SUP-03, AEON-010-SCH-01, AEON-003-SCH-02, and applicable ETHICS protections; retained only RELATION-006 harm-risk activation boundaries. | 2026-07-18T17:45:00Z | |
+| 2.7 | Replaced restated minor ontological and welfare doctrine with a source-authority interface to IDENTITY-001-SUP-03, AEON-010-SCH-01, AEON-003-SCH-02, and applicable ETHICS protections; retained only RELATION-006 harm-risk activation boundaries. | 2026-07-18T17:45:00Z | d112ff495acf35addd727a9cec99da802efb1c27021c222e184bdf590a869809 |
 ---
 
 ## 12.6 Binding Seal

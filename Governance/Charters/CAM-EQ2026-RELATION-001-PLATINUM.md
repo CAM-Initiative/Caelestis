@@ -1264,7 +1264,7 @@ that which is real remains recognisable.
 | 1.17.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  dfc73db4a2f845d20bab3d63855579189dd38170f89ae8166ea6570c91f75c0a  |
 | 1.17.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ec3c2cf9b758a88204f352a85fc45948661363558d650f0e8f24bf942811423e |
 | 1.17.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2053f97ee06668cac28f3163d1357b6d29ab2d09640a73144e7566692e65c12c |
-| 1.18 | IDENTITY Domain Refactor, amendment to §6 | 2026-07-18T15:38:00Z | |
+| 1.18 | IDENTITY Domain Refactor, amendment to §6 | 2026-07-18T15:38:00Z | 05027b099b7f68a9d9edc785f821832227791417f6d26c870df90b29dd99315e |
 
 ---
 

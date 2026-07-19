@@ -1111,7 +1111,7 @@ And what is most observable is not always what is most true.
 | 1.1 | Added minor mental-state and dependency signal non-exploitation rule to prevent teen mental-health, emotional vulnerability, and developmental signals being converted into engagement, intimacy, profiling, retention, or companion-dependency assets. | 2026-06-09T14:50:00Z | e262ed3e7dc9e998e76bf3984030dbcb412d5a9851fcfa5eb67e0e10321ec2b5 |
 | 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b8034276b3b6ab69fe682df0dbd07e3743d10234513e51111ae4bfd31cf8330a |
 | 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  070fe90324236390da3637475465a824c22727bc7bd72decb181600f0109d99b  |
-| 1.2 | Adopted the binding inference and data-governance appendix; added decoder-output classification, inferential expiry, state–trait–identity–diagnosis gates, intended-communication safeguards, revised companion controls, target-object separation, closed-loop review, and current neurotechnology alignment. | 2026-07-19T12:56:00Z |  |
+| 1.2 | Adopted the binding inference and data-governance appendix; added decoder-output classification, inferential expiry, state–trait–identity–diagnosis gates, intended-communication safeguards, revised companion controls, target-object separation, closed-loop review, and current neurotechnology alignment. | 2026-07-19T12:56:00Z |  add5fa932234a5754ae855e65c59e5612da02661d3c98e7a5636c0a4058bbf67  |
 
 ---
 
