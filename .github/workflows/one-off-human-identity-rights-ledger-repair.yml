@@ -1,0 +1,43 @@
+name: One-off human identity-rights ledger repair
+
+on:
+  push:
+    branches:
+      - refactor/identity-domain-architecture
+    paths:
+      - .github/workflows/one-off-human-identity-rights-ledger-repair.yml
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out working branch
+        uses: actions/checkout@v4
+        with:
+          ref: refactor/identity-domain-architecture
+          fetch-depth: 0
+
+      - name: Apply source and ledger repairs
+        run: python .github/scripts/apply-human-identity-rights-ledger-repair.py
+
+      - name: Validate patch shape
+        run: |
+          git diff --check
+          git status --short
+          test ! -e .github/scripts/apply-human-identity-rights-ledger-repair.py
+          test ! -e .github/workflows/one-off-human-identity-rights-ledger-repair.yml
+
+      - name: Commit repaired instruments
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 1
+          fi
+          git commit -m "Repair human identity-rights interfaces and ledgers"
+          git push origin HEAD:refactor/identity-domain-architecture
