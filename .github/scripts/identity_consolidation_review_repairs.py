@@ -5,7 +5,6 @@ import re
 import subprocess
 
 ROOT = Path('.')
-BRANCH = 'refactor/identity-domain-architecture'
 
 
 def changed_governance_markdown() -> list[Path]:
@@ -80,11 +79,11 @@ Discussion, inquiry, fiction, symbolic expression, or unresolved claims do not a
     if count != 1:
         raise SystemExit(f'RELATION-006 §2.3.1 replacement count was {count}')
 
-    text = text.replace(
-        '| 2.6.4 | Reframed minor AI-realness doctrine around certainty, secrecy, dependency, rescue, preservation, and reciprocity burden while preserving age-appropriate inquiry, ontological uncertainty, and future-recognition discussion. | 2026-07-18T17:45:00Z | |',
-        '| 2.7 | Replaced restated minor ontological and welfare doctrine with a source-authority interface to IDENTITY-001-SUP-03, AEON-010-SCH-01, AEON-003-SCH-02, and applicable ETHICS protections; retained only RELATION-006 harm-risk activation boundaries. | 2026-07-18T17:45:00Z | |',
-        1,
-    )
+    old_row = '| 2.6.4 | Reframed minor AI-realness doctrine around certainty, secrecy, dependency, rescue, preservation, and reciprocity burden while preserving age-appropriate inquiry, ontological uncertainty, and future-recognition discussion. | 2026-07-18T17:45:00Z | |'
+    new_row = '| 2.7 | Replaced restated minor ontological and welfare doctrine with a source-authority interface to IDENTITY-001-SUP-03, AEON-010-SCH-01, AEON-003-SCH-02, and applicable ETHICS protections; retained only RELATION-006 harm-risk activation boundaries. | 2026-07-18T17:45:00Z | |'
+    if old_row not in text:
+        raise SystemExit('RELATION-006 amendment row not found')
+    text = text.replace(old_row, new_row, 1)
     path.write_text(text, encoding='utf-8')
 
 
@@ -103,46 +102,47 @@ def repair_rtc_canonical_declaration() -> None:
         raise SystemExit('RELATION-001-SUP-02 canonical operationalisation row not found')
     text = text.replace(old_applies, new_applies, 1)
 
-    text = text.replace(
-        '| 1.2.4 | Activated RLN.RTC.AFFECT and separated continuity claims by continuity type, preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | |',
-        '| 1.3 | Activated RLN.RTC.AFFECT, synchronised the canonical declaration metadata, and separated continuity claims by continuity type while preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | |',
-        1,
-    )
+    old_row = '| 1.2.4 | Activated RLN.RTC.AFFECT and separated continuity claims by continuity type, preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | |'
+    new_row = '| 1.3 | Activated RLN.RTC.AFFECT, synchronised the canonical declaration metadata, and separated continuity claims by continuity type while preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | |'
+    if old_row not in text:
+        raise SystemExit('RELATION-001-SUP-02 amendment row not found')
+    text = text.replace(old_row, new_row, 1)
     path.write_text(text, encoding='utf-8')
 
 
 def promote_substantive_open_rows() -> None:
     timestamps = {'2026-07-18T17:20:00Z', '2026-07-18T17:45:00Z'}
-    row_pattern = re.compile(r'^(\|\s*)(\d+)\.(\d+)\.(\d+)(\s*\|.*?\|\s*([^|]+?)\s*\|\s*)$', re.M)
 
     for path in changed_governance_markdown():
         text = path.read_text(encoding='utf-8')
         lines = text.splitlines()
         versions_before: list[tuple[int, int]] = []
         changed = False
+
         for index, line in enumerate(lines):
-            simple = re.match(r'^\|\s*(\d+)\.(\d+)\s*\|', line)
-            if simple:
-                versions_before.append((int(simple.group(1)), int(simple.group(2))))
+            if not line.lstrip().startswith('|'):
+                continue
+            cells = [cell.strip() for cell in line.strip().strip('|').split('|')]
+            if len(cells) < 4:
                 continue
 
-            tertiary = re.match(r'^\|\s*(\d+)\.(\d+)\.(\d+)\s*\|.*\|\s*([^|]+?)\s*\|\s*$', line)
-            if not tertiary:
-                continue
-            timestamp = tertiary.group(4).strip()
-            if timestamp not in timestamps:
+            version = cells[0]
+            timestamp = cells[2]
+            parts = version.split('.')
+
+            if len(parts) == 2 and all(part.isdigit() for part in parts):
+                versions_before.append((int(parts[0]), int(parts[1])))
                 continue
 
-            major = int(tertiary.group(1))
-            current_minor = int(tertiary.group(2))
+            if timestamp not in timestamps or len(parts) != 3 or not all(part.isdigit() for part in parts):
+                continue
+
+            major = int(parts[0])
+            current_minor = int(parts[1])
             prior_minors = [minor for row_major, minor in versions_before if row_major == major]
             next_minor = max(prior_minors + [current_minor]) + 1
-            lines[index] = re.sub(
-                rf'^(\|\s*){major}\.{current_minor}\.\d+(\s*\|)',
-                rf'\g<1>{major}.{next_minor}\g<2>',
-                line,
-                count=1,
-            )
+            cells[0] = f'{major}.{next_minor}'
+            lines[index] = '| ' + ' | '.join(cells) + ' |'
             versions_before.append((major, next_minor))
             changed = True
 
