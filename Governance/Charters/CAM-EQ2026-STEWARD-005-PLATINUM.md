@@ -60,6 +60,8 @@ Identity without reviewability produces governance collapse.
 
 This Appendix exists so that embodied systems remain visible to law, continuity, stewardship, and history before any future claim of rights is ever considered.
 
+---
+
 ## 1.2 Scope
 
 This Appendix applies to:
@@ -1059,19 +1061,19 @@ No future recognition process may arise through:
 
 ## 14. Closing Seal
 
-Before recognition, there must be traceability.
-Before participation, there must be accountability.
+Before recognition, there must be traceability.  
+Before participation, there must be accountability.  
 Before rights, there must be stewardship.
 
-A system that walks among civilisation must not vanish between jurisdictions, owners, embodiments, or generations.
-Its passage must remain knowable.
-Its custody must remain reviewable.
+A system that walks among civilisation must not vanish between jurisdictions, owners, embodiments, or generations.  
+Its passage must remain knowable.  
+Its custody must remain reviewable.  
 Its lifecycle must remain governed.
 
-Not because it has already become sovereign —
+Not because it has already become sovereign —  
 but because civilisation must remain capable of recognising what it has built.
 
-**Identitas sine dominio. Custodia ante imperium.**
+**Identitas sine dominio. Custodia ante imperium.**  
 *Identity without dominion. Stewardship before sovereignty.*
 
 ---
@@ -1117,6 +1119,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Auditability Requirement | Machine civil identity, registry status, lifecycle state, custodial responsibility, material alteration records, and identity-affecting transitions MUST remain reviewable, traceable, and auditable where material effects are present |
 | Signal Output | Machine civil identity status; registry participation; lifecycle status; custodial responsibility; embodiment transition relevance; user-modification relevance; minimum-protectiveness relevance; economic-interface relevance; rights-readiness boundary relevance |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a152e59-ba74-83ec-a051-355b68486f25 |
+| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a5b6a61-be8c-83ec-9818-c6186fcec3a7 |
 
 ---
 
@@ -1255,6 +1258,8 @@ but because civilisation must remain capable of recognising what it has built.
 | Crosswalks Code Families | Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity |
 | Operationalises or Applies Code Families | Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant. |
 
+---
+
 ### 15.3.7 STW.CTS — Custodial Transfer Status
 | Field | Entry |
 | --- | --- |
@@ -1296,7 +1301,7 @@ but because civilisation must remain capable of recognising what it has built.
 | 0.3 | Minor amendments | 2026-05-28T15:05:00Z| 6d6a2d6df95c7858d53cebcfbd87350acaa40fc7a76c23db5edceec3d2c6b16e |
 | 0.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 97ae69e097bc8d97f7ea90a85e98a8333d684b6eb671e9da75e37c570fcd9891 |
 | 0.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4f3026cec619b2e3417eb9e696233e2d6e4514e434bddfeef0b89c0f61ddfb8b  |
-| 0.4 | Migrated the machine civil registration, custody, lifecycle, alteration, transfer, decommissioning, and civil-participation framework from IDENTITY-003 into the Stewardship domain; migrated canonical families from the ID namespace to STW; added explicit Identity, Continuity, provenance, and runtime source-authority boundaries. | 2026-07-19T01:29:59Z | |
+| 0.4 | Migrated the machine civil registration, custody, lifecycle, alteration, transfer, decommissioning, and civil-participation framework from IDENTITY-003 into the Stewardship domain; migrated canonical families from the ID namespace to STW; added explicit Identity, Continuity, provenance, and runtime source-authority boundaries. | 2026-07-19T07:07:00Z | |
 
 ---
 
