@@ -513,7 +513,7 @@ Identity MUST NOT locally weaken Annex L evidence-independence requirements.
 ### Set A — Source Authority
 
 * `CAM-EQ2026-IDENTITY-001-PLATINUM`
-* `CAM-EQ2026-IDENTITY-001-SUP-01`
+* `CAM-EQ2026-IDENTITY-003-PLATINUM`
 * `CAM-EQ2026-IDENTITY-001-SUP-02`
 * consciousness/sentience supplement path and internal identifier
 * `CAM-EQ2026-IDENTITY-002-PLATINUM`
@@ -733,3 +733,26 @@ The refactor has proceeded non-linearly, but the governing sequence is now reali
 6. perform final Custodian acceptance review before opening the merge PR.
 
 This migration is a source-authority correction, not a claim that machine civil registration, civil participation or stewardship status establishes identity ontology or legal personhood.
+
+---
+
+## Salience Appendix Promotion — 2026-07-19T07:27:48Z
+
+`CAM-EQ2026-IDENTITY-001-SUP-01` has been promoted from adopted Supplement 1 to `CAM-EQ2026-IDENTITY-003-PLATINUM — Appendix B: Salience Detection & Latent Continuity`.
+
+The move is structural, not a demotion or doctrinal reset:
+
+* Status remains **Adopted**;
+* Effect remains **Operational**;
+* Governance Standard remains **CAM Standard**;
+* `ID.SP` remains the source-authoritative Identity-domain salience-posture family;
+* the instrument remains subordinate to `IDENTITY-001` and does not independently create retention, retrieval, interpretation, behavioural-priority, execution, enforcement, or runtime authority.
+
+The active Identity architecture is now:
+
+1. `IDENTITY-001` — parent Domain Charter;
+2. `IDENTITY-002` — Appendix A: Provenance & Lineage Integrity;
+3. `IDENTITY-003` — Appendix B: Salience Detection & Latent Continuity;
+4. `IDENTITY-001-SUP-03` — interpretive consciousness, sentience and welfare self-advocacy review material.
+
+This disposition supersedes review-stage language that treated the salience instrument as `IDENTITY-001-SUP-01`.

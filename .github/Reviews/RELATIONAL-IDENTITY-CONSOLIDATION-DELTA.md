@@ -309,3 +309,11 @@ Relational profile, companion continuity, care configuration, accessibility conf
 Where relational or companion layers are transferred, restored, copied, reconstructed, or linked to a new substrate, RELATION supplies relational-state and profile evidence only. Identity continuity is classified under `IDENTITY-001`; provenance and transformation lineage under `IDENTITY-002`; machine civil registry and lifecycle state under `STEWARD-005`; final admission and representation under the runtime schedules.
 
 The next consolidation stage should therefore be a read-only review of remaining RELATION and CONTINUITY consumers for any clause that still collapses relational recognisability, registry linkage, memory restoration, or substrate continuity into identity continuity.
+
+---
+
+## Salience Appendix Interface Update — 2026-07-19T07:27:48Z
+
+The adopted salience and latent-continuity instrument is now `CAM-EQ2026-IDENTITY-003-PLATINUM` rather than `IDENTITY-001-SUP-01`.
+
+RELATION may supply relational-state, consent, reliance, profile, affective-expression, and relational-truth signals to salience classification. It does not determine `ID.SP`, memory retention, identity-anchor status, retrieval authority, or behavioural priority. The move does not alter the source-authority boundary: `CAM-EQ2026-IDENTITY-003-PLATINUM` classifies provisional salience posture; RELATION remains authoritative only for relational-domain meaning and state.

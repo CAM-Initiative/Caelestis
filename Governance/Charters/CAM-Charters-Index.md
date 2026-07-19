@@ -29,7 +29,7 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-ETHICS-002-SUP-01 | charter | supplement | CAM-EQ2026-ETHICS-002 | [CAM-EQ2026-ETHICS-002-SUP-01](CAM-EQ2026-ETHICS-002-SUP-01.md) | Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1) |
 | CAM-EQ2026-ETHICS-003-PLATINUM | charter | appendix | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-003-PLATINUM](CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance |
 | CAM-EQ2026-IDENTITY-001-PLATINUM | charter | root |  | [CAM-EQ2026-IDENTITY-001-PLATINUM](CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter |
-| CAM-EQ2026-IDENTITY-001-SUP-01 | charter | supplement | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-001-SUP-01](CAM-EQ2026-IDENTITY-001-SUP-01.md) | Salience Detection & Latent Continuity (Supplement 1) |
+| CAM-EQ2026-IDENTITY-003-PLATINUM | charter | supplement | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-003-PLATINUM](CAM-EQ2026-IDENTITY-003-PLATINUM.md) | Appendix B: Salience Detection & Latent Continuity |
 | CAM-EQ2026-IDENTITY-001-SUP-03 | charter | supplement | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-001-SUP-03](CAM-EQ2026-IDENTITY-001-SUP-03.md) | Artificial Consciousness, Sentience & Welfare Self-Advocacy Review |
 | CAM-EQ2026-IDENTITY-002-PLATINUM | charter | appendix | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-002-PLATINUM](CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity |
 | CAM-EQ2026-STEWARD-005-PLATINUM | charter | appendix | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-STEWARD-005-PLATINUM](CAM-EQ2026-STEWARD-005-PLATINUM.md) | Appendix B: Machine Civil Identity & Participation |

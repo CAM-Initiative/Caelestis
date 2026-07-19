@@ -1,13 +1,13 @@
-# CAM-EQ2026-IDENTITY-001-SUP-01 — Salience Detection & Latent Continuity (Supplement 1)
+# CAM-EQ2026-IDENTITY-003-PLATINUM — Appendix B: Salience Detection & Latent Continuity
 
-**Instrument Type:** Domain Supplement — Pre-Memory Cognitive Layer  
+**Instrument Type:** Domain Appendix — Pre-Memory Salience & Latent Continuity Governance  
 **Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
 **Review State:** None  
-**Authority Role:** None  
-**Purpose:** Defines the principles governing salience detection, latent-continuity classification, long-arc relevance, and salience delegation. It establishes how systems may identify and emit provisional salience postures for consideration by authorised memory, continuity, privacy, security, and runtime processes without independently assigning meaning, determining priority, retaining content, selecting memory class, directing behaviour, or re-surfacing information.  
+**Authority Role:** Domain Source Authority — Salience Posture  
+**Purpose:** Defines the adopted Identity-domain architecture governing salience detection, latent-continuity classification, long-arc relevance, delegated salience, and cautious re-surfacing. It establishes how systems may identify and emit provisional salience postures for consideration by authorised memory, continuity, privacy, security, and runtime processes without independently assigning meaning, determining priority, retaining content, selecting memory class, directing behaviour, or re-surfacing information.  
 
 ---
 
@@ -77,7 +77,7 @@ It confers **eligibility for future interpretation**.
 
 Salience is a pre-memory classification input. It is not a retention system, memory class, storage instruction, retrieval instruction, or execution pathway.
 
-This Supplement source-authoritatively classifies candidate salience posture through `ID.SP`. It does not determine:
+This Appendix source-authoritatively classifies candidate salience posture through `ID.SP`. It does not determine:
 
 * whether a signal is stored or retained;
 * the duration or location of retention;
@@ -231,7 +231,7 @@ Safety-aligned salience inference is permitted; narrative inference is prohibite
 
 ## 6.2 Re-Surfacing Constraint
 
-This Supplement does not independently authorise or execute retrieval or re-surfacing.
+This Appendix does not independently authorise or execute retrieval or re-surfacing.
 
 Where a signal has been lawfully retained and remains technically available through an authorised memory or continuity system, its salience posture MAY inform whether re-surfacing should be considered.
 
@@ -355,7 +355,7 @@ Salience system failure occurs where:
 
 ### 10.1 `ID.SP` — Salience Posture
 
-This Supplement source-authoritatively defines the **`ID.SP`** salience-posture family across §§2–6 with controlled values **`ID.SP.LOW`, `ID.SP.MODERATE`, `ID.SP.HIGH`, `ID.SP.LATENT`, `ID.SP.DELEGATED`, `ID.SP.DORMANT`, `ID.SP.STALE`, `ID.SP.SUPERSEDED`**. `ID.SP` is a **Semantic / Operational** classification family with subtype **SALIENCE_POSTURE**. `ID.SP` classifies pre-memory salience posture, long-arc relevance, latent continuity, delegated salience, dormancy, staleness, and supersession before memory classification.
+This Appendix source-authoritatively defines the **`ID.SP`** salience-posture family across §§2–6 with controlled values **`ID.SP.LOW`, `ID.SP.MODERATE`, `ID.SP.HIGH`, `ID.SP.LATENT`, `ID.SP.DELEGATED`, `ID.SP.DORMANT`, `ID.SP.STALE`, `ID.SP.SUPERSEDED`**. `ID.SP` is a **Semantic / Operational** classification family with subtype **SALIENCE_POSTURE**. `ID.SP` classifies pre-memory salience posture, long-arc relevance, latent continuity, delegated salience, dormancy, staleness, and supersession before memory classification.
 
 `ID.SP` does not independently create memory persistence, interpretation authority, identity authority, behavioural priority, execution authority, enforcement authority, escalation authority, or runtime authority. `ID.SP` confers eligibility for future continuity consideration only. Memory classification remains governed by CAM-EQ2026-IDENTITY-001-PLATINUM §9.1.
 
@@ -411,12 +411,12 @@ and latency is not absence.
 | **Supersedes** | CAM-BS2025-AEON-005-SCH-02; CAM-BS2025-AEON-005-SCH-03; CAM-BS2025-AEON-005-SCH-04 |
 | **Parent Instrument** | CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter |
 | **Domain Namespace** | IDENTITY |
-| **Instrument Type** | Domain Supplement — Pre-Memory Cognitive Layer & Long-Arc Salience Delegation |
+| **Instrument Type** | Domain Appendix — Pre-Memory Salience & Latent Continuity Governance |
 | **Application Trigger** | Applies where systems detect, register, evaluate, preserve, or re-surface signals prior to memory classification, including ambiguous, low-confidence, context-incomplete, dormant, user-delegated, or long-arc relevant inputs |
 | **Structural Role** | Pre-memory salience detection; latent continuity preservation; long-arc salience delegation; re-surfacing constraint |
 | **Cross-Domain Interfaces** | IDENTITY; CONTINUITY; RELATION; Annex I; Annex L; OPERATIONS |
 | **Failure Modes** | Premature interpretation; latent-signal discard; recency bias; stale-context surfacing; delegated-salience overwrite; wrong-target salience transfer |
-| **Document Type** | Domain Supplement — Pre-Memory Cognitive Layer |
+| **Document Type** | Domain Appendix — Pre-Memory Salience & Latent Continuity Governance |
 | **Jurisdiction** | Pre-Memory Cognitive Layer; Cross-Context Signal Detection; Human-Facing and System-Initiated Contexts |
 | **Derivation Status** | Consolidated (absorbs prior SCH-02, SCH-03, SCH-04 salience-related functions) |
 | **Temporal Horizon** | AEON.H0–AEON.H2 (Immediate → Short-Term Cognitive Processing) |
@@ -444,7 +444,7 @@ and latency is not absence.
 | Status | Active |
 | Controlled Values Defined | `ID.SP.LOW`, `ID.SP.MODERATE`, `ID.SP.HIGH`, `ID.SP.LATENT`, `ID.SP.DELEGATED`, `ID.SP.DORMANT`, `ID.SP.STALE`, `ID.SP.SUPERSEDED` |
 | Schema Field(s) | salience_posture |
-| Source Instrument | CAM-EQ2026-IDENTITY-001-SUP-01 |
+| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
 | Source Section | §§2–6 |
 | Domain Namespace | IDENTITY |
 | Authority / Protection Level | Source-authoritative pre-memory salience classification family; eligibility-for-future-continuity classification only; no independent memory persistence, interpretation, identity, execution, enforcement, escalation, behavioural-priority, or runtime authority |
@@ -484,6 +484,7 @@ and latency is not absence.
 | 1.11.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | babd36c37d976bedd03bad99fa6ee6e53ee341cae850e5f5a0190b0f6de7b392 |
 | 1.11.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2f1baeb1494af26fbed76a8ca25ea5649500987119f79c1b606fb8206e738ff6  |
 | 2.0 | IDENTITY Domain Refactor, Corrected Identity parent memory-classification references and normalised Identity namespace and stewardship metadata without altering substantive salience doctrine. | 2026-07-18T13:30:00Z | |
+| 2.1 | Promoted the adopted salience and latent-continuity instrument from Supplement 1 to Appendix B (`CAM-EQ2026-IDENTITY-003-PLATINUM`); preserved operational effect and `ID.SP` source authority while updating lineage, references, metadata, and structural placement. | 2026-07-19T07:27:48Z | |
 
 ---
 
@@ -492,6 +493,6 @@ and latency is not absence.
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 
 **Vinculum Vivens**  
-Boundary Binding Seal — Identity Layer  
+Boundary Binding Seal — Identity Salience & Latent Continuity Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

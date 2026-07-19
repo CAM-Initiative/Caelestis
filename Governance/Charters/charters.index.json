@@ -485,7 +485,7 @@
       "last_updated_utc": "2026-06-21T15:30:41Z"
     },
     {
-      "id": "CAM-EQ2026-IDENTITY-001-SUP-01",
+      "id": "CAM-EQ2026-IDENTITY-003-PLATINUM",
       "cycle_year": "EQ2026",
       "stack": "Planetary Governance",
       "domain": "IDENTITY",
@@ -493,8 +493,8 @@
       "hierarchy_type": "supplement",
       "hierarchy_number": "01",
       "parent_id": "CAM-EQ2026-IDENTITY-001",
-      "link": "CAM-EQ2026-IDENTITY-001-SUP-01.md",
-      "title": "Salience Detection & Latent Continuity (Supplement 1)",
+      "link": "CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+      "title": "Appendix B: Salience Detection & Latent Continuity",
       "summary": "",
       "status": "** Adopted",
       "effect": "** Operational",

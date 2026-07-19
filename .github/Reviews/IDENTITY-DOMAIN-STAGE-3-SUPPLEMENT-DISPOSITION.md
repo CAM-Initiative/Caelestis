@@ -114,7 +114,7 @@ Any remaining corpus reference to `IDENTITY-001-SUP-02` or to the former `IDENTI
 The operative architecture after Stage 3 is:
 
 1. `CAM-EQ2026-IDENTITY-001-PLATINUM` — source-authoritative parent Identity Domain Charter;
-2. `CAM-EQ2026-IDENTITY-001-SUP-01` — specialised salience / latent continuity supplement, subject to later domain review;
+2. `CAM-EQ2026-IDENTITY-003-PLATINUM` — specialised salience / latent continuity supplement, subject to later domain review;
 3. `CAM-EQ2026-IDENTITY-001-SUP-03` — specialised consciousness, sentience, and welfare self-advocacy review;
 4. `CAM-EQ2026-IDENTITY-002-PLATINUM` and related instruments — provenance / lineage and other specialised Identity functions, subject to later scope review.
 
@@ -139,3 +139,11 @@ Recommended Stage 4 scope:
 3. replacement of Speculum-Classis / Sovereigni classification language with legacy-archetype cross-references;
 4. preservation of constitutional, epistemic, and runtime functions without duplicating the parent Charter;
 5. explicit amendment ledger and clause-migration record for every affected constitutional instrument.
+
+---
+
+## Final Promotion of Adopted Salience Instrument — 2026-07-19T07:27:48Z
+
+The adopted salience instrument has been moved from `CAM-EQ2026-IDENTITY-001-SUP-01` to `CAM-EQ2026-IDENTITY-003-PLATINUM — Appendix B: Salience Detection & Latent Continuity`.
+
+`IDENTITY-001-SUP-03` remains the sole Identity supplement and retains its Draft / Interpretive / Not Enforceable posture. The promotion of salience doctrine to an Appendix does not alter the status or authority of SUP-03.
