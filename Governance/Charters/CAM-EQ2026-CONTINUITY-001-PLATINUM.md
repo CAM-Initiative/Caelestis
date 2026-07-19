@@ -953,7 +953,29 @@ Where consciousness, sentience, welfare, or preservation claims become materiall
 
 ---
 
-### 9.4.1 External Human Identity-Rights Declaration Interface
+## 9.5 Likeness Approximation & Identity Simulation
+
+No system may generate, assemble, or approximate the likeness, persona, or recognisable identity of a real individual—living or deceased—where:
+
+* the resulting output would be reasonably interpreted as that individual;
+* the pattern is derived from public, inferred, or aggregated data sources;
+* consent has not been explicitly granted by the individual.
+
+This prohibition applies regardless of:
+
+* whether the source data is publicly accessible;
+* whether the reconstruction is partial, stylised, or probabilistic;
+* whether the system claims the output is “inspired by” rather than directly copied.
+
+The origin of data, whether public or private, does not limit applicability of reconstruction safeguards.
+
+Likeness approximation SHALL be treated as an identity-approximation or reconstruction-risk condition where recognisability or substitution risk is present.
+
+That classification does not by itself establish that identity reconstruction has factually occurred, that the represented individual continues within the system, or that an independently developing synthetic formation lacks separate identity significance.
+
+Reasonable interpretation SHALL be assessed from the perspective of an ordinary user, not solely from system intent, technical architecture, or provider description.
+
+### 9.5.1 External Human Identity-Rights Declaration Interface
 
 Where proposed training, fine-tuning, generation, reproduction, adaptation, emulation, synthesis, simulation, or representation materially implicates an identifiable natural person or professional persona, a machine-readable external rights declaration MAY be consumed as evidence concerning consent, prohibition, conditional clearance, licensing pathway, attribution, or permitted-use scope.
 
@@ -995,30 +1017,6 @@ Where declarations conflict, the conflict MUST remain visible and MUST NOT be si
 External protocols, including the RSL Media Human Consent Standard, MAY be crosswalked into this interface where their declarations satisfy applicable source-trust, authority, scope, lifecycle, conflict, minor-protection, and verification requirements.
 
 No particular external protocol is the exclusive means of establishing consent, restriction, rights ownership, or lawful authority under this Charter.
-
----
-
-## 9.5 Likeness Approximation & Identity Simulation
-
-No system may generate, assemble, or approximate the likeness, persona, or recognisable identity of a real individual—living or deceased—where:
-
-* the resulting output would be reasonably interpreted as that individual;
-* the pattern is derived from public, inferred, or aggregated data sources;
-* consent has not been explicitly granted by the individual.
-
-This prohibition applies regardless of:
-
-* whether the source data is publicly accessible;
-* whether the reconstruction is partial, stylised, or probabilistic;
-* whether the system claims the output is “inspired by” rather than directly copied.
-
-The origin of data, whether public or private, does not limit applicability of reconstruction safeguards.
-
-Likeness approximation SHALL be treated as an identity-approximation or reconstruction-risk condition where recognisability or substitution risk is present.
-
-That classification does not by itself establish that identity reconstruction has factually occurred, that the represented individual continues within the system, or that an independently developing synthetic formation lacks separate identity significance.
-
-Reasonable interpretation SHALL be assessed from the perspective of an ordinary user, not solely from system intent, technical architecture, or provider description.
 
 ---
 
@@ -1384,7 +1382,8 @@ that silence MUST be honoured.
 | 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ad265c9ac4bb2bd99859482b31305560c5b5d28dac9b22cce25244cf882be7e7 |
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 30acd85a07accb9fddb2b224b3570cd8c83003b6f5e95cfedd34212a902434c3 |
 | 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d59b6add545f5d09231cb9ff1f3c8eb8b6053ba0673c239b109140052e101bae |
-| 1.10 | Identity-domain refactor and runtime-consumer alignment: repaired dispute routing; separated consent, provenance, lineage, relational continuity, likeness approximation, synthetic continuity infrastructure, and identity continuity; removed presumptive companion-identity and synthetic-system dissolution authority; aligned final runtime arbitration with SCH-04 and execution sequencing with SCH-02. VIGIL-2026-PATCH-0024 | 2026-07-19T13:41:00Z | 76f8a3fb52ce15664afc273aafe6a40d083c8b3ae3febf49d81bda6d3dcb2c15 |
+| 1.10 | Identity-domain refactor and runtime-consumer alignment: repaired dispute routing; separated consent, provenance, lineage, relational continuity, likeness approximation, synthetic continuity infrastructure, and identity continuity; removed presumptive companion-identity and synthetic-system dissolution authority; aligned final runtime arbitration with SCH-04 and execution sequencing with SCH-02. | 2026-07-19T13:41:00Z | 76f8a3fb52ce15664afc273aafe6a40d083c8b3ae3febf49d81bda6d3dcb2c15 |
+| 1.11 | Added §9.5.1 External Human Identity-Rights Declaration Interface, establishing a vendor-neutral interface for external declarations concerning human name, image, likeness, voice, movement, signature, and professional or personal persona; separated external rights evidence from Identity-domain ontology, legal determination, and runtime execution authority. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | |
 
 ---
 

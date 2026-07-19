@@ -100,15 +100,15 @@ Where available, the record SHOULD preserve:
 
 Operational declaration states MAY include:
 
-`PERMITTED`;
-`CONDITIONAL`;
-`PROHIBITED`;
-`ABSENT`;
-`NON_OPERATIVE`;
-`CONFLICTING`;
-`REVOKED_OR_STALE`;
-`UNVERIFIED`;
-`UNKNOWN`.
+* `PERMITTED`;
+* `CONDITIONAL`;
+* `PROHIBITED`;
+* `ABSENT`;
+* `NON_OPERATIVE`;
+* `CONFLICTING`;
+* `REVOKED_OR_STALE`;
+* `UNVERIFIED`;
+* `UNKNOWN`.
 
 These labels are descriptive operational states only. This section does not establish a new canonical code family.
 
@@ -555,7 +555,7 @@ Dissolution does not mean erasure of accountability where a dissolution receipt,
 
 ## 16. Canonical Code Status
 
-This instrument source-authoritatively defines code families **CBR** (§3) and **CPS** (§4–§5). **CBR** controlled values are **CBR.MEM, CBR.PREF, CBR.REL, CBR.RES, CBR.SUM, CBR.USAGE, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS** with Primary Type **Semantic** and subtype **RECORD_CLASSIFICATION**. **CPS** controlled values are **CPS-0, CPS-1, CPS-2, CPS-3, CPS-4, CPS-U** with Primary Type **Operational** and subtype **DECISION_STATE**. These families provide classification and handling authority only and do not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
+This instrument source-authoritatively defines code families **CBR** (§3) and **CPS** (§4–§5). **CBR** controlled values are **CBR.MEM, CBR.PREF, CBR.REL, CBR.RES, CBR.SUM, CBR.USAGE, CBR.RIGHTS, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS** with Primary Type **Semantic** and subtype **RECORD_CLASSIFICATION**. **CPS** controlled values are **CPS-0, CPS-1, CPS-2, CPS-3, CPS-4, CPS-U** with Primary Type **Operational** and subtype **DECISION_STATE**. These families provide classification and handling authority only and do not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
 
 ---
 
@@ -634,7 +634,7 @@ let the silence be honoured.
 | Modifier | None declared |
 | Scope | Source-defining scope in this instrument |
 | Status | Active |
-| Controlled Values Defined | CBR.MEM, CBR.PREF, CBR.REL, CBR.RES, CBR.SUM, CBR.USAGE, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS |
+| Controlled Values Defined | CBR.MEM, CBR.PREF, CBR.REL, CBR.RES, CBR.SUM, CBR.USAGE, CBR.RIGHTS, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-EQ2026-CONTINUITY-001-SUP-01 |
 | Source Section | §3 |
@@ -689,7 +689,7 @@ let the silence be honoured.
 | 1.4 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  7f19d720df79e37f3ad5da8c55dcbdd76a59dc4df2aad60d9106716bcefdf2e4 |
 | 1.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 5df4600ae7c1ad3ab0d0ddc3df3505803833517d7467f6b8514049ca4e655419 |
 | 1.4.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  773667637601fd22aa827cc48c070742dd5509f0401e0324ce0c76c4d94baaa4 |
-| 1.5 | Incorporated new code ```CBR.RIGHTS``` associated with VIGIL-2026-PATCH-0024 | 2026-07-19T14:19:00Z | 57b50ccbac996081c396714e10ef397af280858803da37a7ad04accf35161467 |
+| 1.5 | Established `CBR.RIGHTS` — External Human Identity-Rights Declaration Record; added §3.1 declaration content, operational declaration states, lifecycle and portability-preservation requirements, and source-authoritative CBR controlled-value alignment. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:19:00Z | 57b50ccbac996081c396714e10ef397af280858803da37a7ad04accf35161467 |
 
 ---
 

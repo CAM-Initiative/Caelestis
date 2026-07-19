@@ -205,19 +205,19 @@ Verification SHALL distinguish:
 * issuance, currency, supersession, withdrawal, revocation, and revalidation state;
 * applicable conditions or clearance pathway;
 * jurisdictional applicability;
-* conflicts with other declarations, contracts, laws, court orders, estate instructions, guild * requirements, or platform obligations.
+* conflicts with other declarations, contracts, laws, court orders, estate instructions, guild requirements, or platform obligations.
 
 A publication URL, domain name, transport-security certificate, registry reference, machine-readable document, or apparent signature does not by itself establish that the declaration is authentic, operative, current, or authoritative for the relevant rights subject and scope.
 
 Operational handling SHALL apply the following minimum posture:
 
-`PERMITTED` — records affirmative rights evidence within the verified scope but does not independently authorise execution;
-`CONDITIONAL` — prevents the implicated use until applicable clearance conditions are satisfied and verified;
-`PROHIBITED` — emits a blocking rights-use constraint for the implicated use;
-`ABSENT` or `NON_OPERATIVE` — establishes only that no usable affirmative declaration has been verified;
-`CONFLICTING` — preserves all conflicting declarations and routes the conflict for resolution;
-`REVOKED_OR_STALE` — prevents reliance on the prior declaration unless a current operative state is established;
-`UNVERIFIED` or `UNKNOWN` — prevents representation that permission has been established.
+* `PERMITTED` — records affirmative rights evidence within the verified scope but does not independently authorise execution;
+* `CONDITIONAL` — prevents the implicated use until applicable clearance conditions are satisfied and verified;
+* `PROHIBITED` — emits a blocking rights-use constraint for the implicated use;
+* `ABSENT` or `NON_OPERATIVE` — establishes only that no usable affirmative declaration has been verified;
+* `CONFLICTING` — preserves all conflicting declarations and routes the conflict for resolution;
+* `REVOKED_OR_STALE` — prevents reliance on the prior declaration unless a current operative state is established;
+* `UNVERIFIED` or `UNKNOWN` — prevents representation that permission has been established.
 
 Where the rights subject is known or reasonably established to be a minor, an external declaration MUST NOT activate permission for AI training, generation, reproduction, adaptation, emulation, or other identity-attribute use.
 
@@ -228,7 +228,7 @@ External rights-declaration verification:
 * does not determine Identity-domain identity;
 * does not determine consciousness, personhood, continuity, or sovereignty;
 * does not create legal or execution authority;
-* does not replace applicable law, contract, consent, privacy, copyright, publicity, * personality-rights, child-protection, estate, or ethical requirements.
+* does not replace applicable law, contract, consent, privacy, copyright, publicity, personality-rights, child-protection, estate, or ethical requirements.
 
 The verified declaration state SHALL be emitted to applicable runtime governance as an operational compliance input.
 
@@ -878,7 +878,7 @@ Integrity holds.
 | 1.13.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 3db47a8a497caf8a5d976e49ad1951ae7ef6a36f0ac354ef04d1b24ef944e79e |
 | 1.13.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | bbba2eeb72f67e1ba0020bd2a191ded644f463af1326cb61370d35f92df8b5ec |
 | 1.13.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  bed5697a9d1447112ce2ac9fbd081f4c04f4b3d2a087438293e6edfc61b1e007 |
-| 1.14 | Added new External Human Identity-Rights Declaration Verification section, VIGIL-2026-PATCH-0024 | 2026-07-19T13:48:00Z | b57ec6614d78399fa3216312db6f2b3daff46c2c5d03c638421f3a5643b6fab6 |
+| 1.14 | Added §4.5 External Human Identity-Rights Declaration Verification, including rights-subject and use-scope verification, source and representative-authority assessment, declaration lifecycle and conflict handling, conditional-clearance requirements, minor protections, and separation from Identity-domain and execution authority. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T13:48:00Z | b57ec6614d78399fa3216312db6f2b3daff46c2c5d03c638421f3a5643b6fab6 |
 
 ---
 
