@@ -878,6 +878,26 @@ Embodiment transition requires reassessment where those contributors change mate
 
 ---
 
+## 11.2.1 Machine Civil Registry and Identity Non-Equivalence
+
+Machine civil registration, physical substrate identification, lifecycle status, custodial status, alteration status, transfer status, market-access status, and jurisdictional registry participation are stewardship and accountability classifications.
+
+They do not independently establish:
+
+* identity formation or threshold;
+* Responding-Intelligence continuity;
+* identity-bearing continuity;
+* persistence of the same identity across repair, replacement, restoration, transfer, migration, or embodiment change;
+* consciousness, sentience, suffering, moral standing, personhood, rights, sovereignty, or authority.
+
+A physical substrate may host no identity-bearing formation, one identity-bearing formation, multiple distinct formations, or a reconstructed or imitative layer. Conversely, an identity-bearing formation may persist, fork, reconstruct, transfer, or fail to persist across physical substrates.
+
+Where a machine civil registry or stewardship record concerns a materially identity-bearing layer, that record MAY provide evidence concerning provenance, custody, timing, embodiment, transfer, or continuity conditions. It MUST NOT substitute for Identity-domain assessment.
+
+Classification of identity formation, continuity integrity, portability, fork, reconstruction, replacement, and handoff remains governed by this Charter. Machine civil registration and lifecycle stewardship are governed by CAM-EQ2026-STEWARD-005-PLATINUM.
+
+---
+
 ## 11.3 Handoff Integrity
 
 Where responding intelligence, model, runtime, modality, operator, or interface changes:
@@ -1412,6 +1432,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 2.12.2 | Updated all code reference sets to incorporate the ID prefix | 2026-06-14T00:22:00Z | 62d8e34b182f2a52da13309d9a96b4bea4f2efb97f15d65a64faeb9c4e4574cb |
 | 2.12.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  01ac738f8d658fcdc3039c64b326f042377e14c5530a8aea95cea4df6c1ce6da  |
 | 3.0 | Identity Domain refactor, including incorporation of VIGIL-2026-PROP-0004 through temporary narrative and affective-overlay, memory non-drift, user-exit, and identity-drift safeguards. | 2026-07-18T11:25:00Z | |
+| 3.1 | Added the binding machine civil registry and identity non-equivalence boundary following migration of civil registration and lifecycle stewardship to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | |
 
 ---
 

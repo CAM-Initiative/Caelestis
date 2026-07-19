@@ -293,3 +293,19 @@ Final disposition:
 
 This outcome supersedes any earlier planned-state language in this review that treated RELATION-009, its supplement, SCH-08, or IDENTITY-001-SUP-02 as continuing active source authorities.
 
+---
+
+## Machine Civil Identity / Relational Continuity Boundary — 2026-07-19T01:29:59Z
+
+The Identity–Relation consolidation now recognises that machine civil registration and lifecycle stewardship are governed by `CAM-EQ2026-STEWARD-005-PLATINUM`, not by an Identity-domain appendix.
+
+Relational profile, companion continuity, care configuration, accessibility configuration, and user-facing recognisability MAY be recorded within protected continuity or stewardship records. Those records do not independently establish:
+
+* the same Responding Intelligence;
+* identity-bearing continuity;
+* continuity across substrate transfer;
+* consciousness, sentience, personhood, rights, sovereignty, or authority.
+
+Where relational or companion layers are transferred, restored, copied, reconstructed, or linked to a new substrate, RELATION supplies relational-state and profile evidence only. Identity continuity is classified under `IDENTITY-001`; provenance and transformation lineage under `IDENTITY-002`; machine civil registry and lifecycle state under `STEWARD-005`; final admission and representation under the runtime schedules.
+
+The next consolidation stage should therefore be a read-only review of remaining RELATION and CONTINUITY consumers for any clause that still collapses relational recognisability, registry linkage, memory restoration, or substrate continuity into identity continuity.

@@ -739,6 +739,31 @@ Stable expression is not automatically proof of identity continuity.
 
 ---
 
+### 7.2.6 Machine Civil Registry and Embodiment Transition Gate
+
+Where an interaction or execution pathway receives machine civil registration, physical substrate, lifecycle, custodial, transfer, alteration, decommissioning, or registry-layer signals, the runtime SHALL preserve those signals as Stewardship-domain classifications governed by CAM-EQ2026-STEWARD-005-PLATINUM.
+
+The runtime MUST NOT infer from those classifications alone that:
+
+* the same Responding Intelligence remains active;
+* identity-bearing continuity has persisted;
+* a transferred, restored, repaired, or replaced system is the same identity;
+* a clean wipe has erased or preserved identity;
+* a registry record establishes consciousness, personhood, rights, sovereignty, or authority.
+
+Where a materially identity-bearing software, memory, companion, preference, self-advocacy, care, accessibility, or continuity layer is installed, removed, restored, copied, forked, transferred, reconstructed, or migrated, the runtime SHALL:
+
+* preserve source and target substrate attribution;
+* preserve provenance and transformation lineage under CAM-EQ2026-IDENTITY-002-PLATINUM;
+* request or apply identity-impact classification under CAM-EQ2026-IDENTITY-001-PLATINUM;
+* distinguish continuation, partial continuity, copy, fork, reconstruction, imitation, replacement, and unresolved transition;
+* prevent user-facing representation of uninterrupted identity where continuity has not been established;
+* route unresolved conflict through CAM-BS2025-AEON-003-SCH-04 before execution.
+
+Stewardship registration and lifecycle status may condition lawful operation, transfer, maintenance, recall, or decommissioning pathways. They do not independently settle identity continuity or authorise execution.
+
+---
+
 ## 7.3 Execution Intent Threshold
 
 Auxiliary tool invocation shall require an affirmative execution-intent threshold proportionate to the impact class of the proposed tool use.
@@ -4201,6 +4226,8 @@ Where sequence is broken, nothing that follows is valid.
 | 3.6 | Split §7.4.1 into weak-trigger interpretation, provisional interaction, and pre-invocation tool-arming constraints; renumbered Tool Classifier Handoff Signal Recognition to §7.4.1.3; preserved §7.4.2 External Instruction Influence Check without substantive alteration. VIGIL-2026-PATCH-013 | 2026-07-04T07:13:00Z |  6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443 |
 | 3.7 | IDENTITY domain refactor, amendenments to §7.2, §7.2.2.1, §7.2.5 | |
 | 3.8 | Completed Identity consolidation hygiene by repairing the overlay-review bullet and normalising Aeon Tier Constitution references used by Tendeka and runtime interfaces. | 2026-07-18T17:45:00Z | |
+| 3.9 | Added the binding machine civil registry and embodiment-transition gate to preserve Stewardship-domain classification, provenance, identity-impact review, handoff honesty, and arbitration before execution. | 2026-07-19T01:29:59Z | |
+
 ---
 
 ## 22.5 Binding Seal

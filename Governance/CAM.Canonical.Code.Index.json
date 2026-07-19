@@ -7159,9 +7159,9 @@
     }
   },
   {
-    "canonical_id": "ID.CTS",
+    "canonical_id": "STW.CTS",
     "identifier_type": "code_family",
-    "code_family": "ID.CTS",
+    "code_family": "STW.CTS",
     "reference_set": "",
     "canonical_constraint": "",
     "canonical_obligation": "",
@@ -7172,15 +7172,15 @@
     "scope": "Domain",
     "status": "Draft",
     "controlled_values_defined": [
-      "ID.CTS.CURRENT; ID.CTS.TRANSFER_PENDING; ID.CTS.TRANSFERRED; ID.CTS.UNKNOWN; ID.CTS.DISPUTED; ID.CTS.PUBLIC_STEWARDSHIP; ID.CTS.QUARANTINED"
+      "STW.CTS.CURRENT; STW.CTS.TRANSFER_PENDING; STW.CTS.TRANSFERRED; STW.CTS.UNKNOWN; STW.CTS.DISPUTED; STW.CTS.PUBLIC_STEWARDSHIP; STW.CTS.QUARANTINED"
     ],
     "schema_fields": "custodial_transfer_status; secondary_market_status; custody_transition_record",
-    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
     "source_section": "§§6–6.3; §9.1",
     "domain_namespace": "IDENTITY",
     "authority_protection_level": "Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power",
     "consumes_code_families": [
-      "ID.MCI; ID.MLS; ID.MCR"
+      "STW.MCI; STW.MLS; STW.MCR"
     ],
     "crosswalks_code_families": [
       "Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review"
@@ -7199,13 +7199,13 @@
     ],
     "canonical_section_heading": "15.3 Canonical Code & Reference Set Declarations",
     "canonical_section_line_number": 1099,
-    "declaration_heading": "15.3.7 ID.CTS — Custodial Transfer Status",
+    "declaration_heading": "15.3.7 STW.CTS — Custodial Transfer Status",
     "declaration_line_number": 1234,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
-    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
-    "family_id": "ID.CTS",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+    "family_id": "STW.CTS",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
@@ -7215,20 +7215,20 @@
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "ID.CTS",
+      "Code Family": "STW.CTS",
       "Canonical Name": "Custodial Transfer Status",
       "Primary Type": "Operational / Stewardship",
       "Subtype": "CUSTODIAL_TRANSFER; SECONDARY_MARKET_STATUS",
       "Modifier": "GOVERNANCE; TRANSFER; CUSTODY; LIFECYCLE",
       "Scope": "Domain",
       "Status": "Draft",
-      "Controlled Values Defined": "ID.CTS.CURRENT; ID.CTS.TRANSFER_PENDING; ID.CTS.TRANSFERRED; ID.CTS.UNKNOWN; ID.CTS.DISPUTED; ID.CTS.PUBLIC_STEWARDSHIP; ID.CTS.QUARANTINED",
+      "Controlled Values Defined": "STW.CTS.CURRENT; STW.CTS.TRANSFER_PENDING; STW.CTS.TRANSFERRED; STW.CTS.UNKNOWN; STW.CTS.DISPUTED; STW.CTS.PUBLIC_STEWARDSHIP; STW.CTS.QUARANTINED",
       "Schema Field(s)": "custodial_transfer_status; secondary_market_status; custody_transition_record",
-      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
       "Source Section": "§§6–6.3; §9.1",
       "Domain Namespace": "IDENTITY",
       "Authority / Protection Level": "Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power",
-      "Consumes Code Families": "ID.MCI; ID.MLS; ID.MCR",
+      "Consumes Code Families": "STW.MCI; STW.MLS; STW.MCR",
       "Crosswalks Code Families": "Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review",
       "Operationalises or Applies Code Families": "Classifies custodial transfer, dispute, reassignment, public-interest stewardship, quarantine, and secondary-market status for embodied synthetic systems across sale, inheritance, abandonment, reassignment, and lifecycle transition pathways."
     }
@@ -7374,9 +7374,9 @@
     }
   },
   {
-    "canonical_id": "ID.ELR",
+    "canonical_id": "STW.ELR",
     "identifier_type": "code_family",
-    "code_family": "ID.ELR",
+    "code_family": "STW.ELR",
     "reference_set": "",
     "canonical_constraint": "",
     "canonical_obligation": "",
@@ -7387,15 +7387,15 @@
     "scope": "Domain",
     "status": "Draft",
     "controlled_values_defined": [
-      "ID.ELR.NONE_REQUIRED; ID.ELR.ACTIVE; ID.ELR.TRANSFERRED; ID.ELR.REMOVED; ID.ELR.SUSPENDED; ID.ELR.DISPUTED"
+      "STW.ELR.NONE_REQUIRED; STW.ELR.ACTIVE; STW.ELR.TRANSFERRED; STW.ELR.REMOVED; STW.ELR.SUSPENDED; STW.ELR.DISPUTED"
     ],
     "schema_fields": "embodiment_linkage_record; continuity_transfer_record; substrate_linkage_record",
-    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
     "source_section": "§§2.8–2.9; §§4.6–4.7; §9",
     "domain_namespace": "IDENTITY",
     "authority_protection_level": "Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority",
     "consumes_code_families": [
-      "ID.MCI; ID.PSI; ID.MCR"
+      "STW.MCI; STW.PSI; STW.MCR"
     ],
     "crosswalks_code_families": [
       "Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity"
@@ -7412,13 +7412,13 @@
     ],
     "canonical_section_heading": "15.3 Canonical Code & Reference Set Declarations",
     "canonical_section_line_number": 1099,
-    "declaration_heading": "15.3.6 ID.ELR — Embodiment Linkage Record",
+    "declaration_heading": "15.3.6 STW.ELR — Embodiment Linkage Record",
     "declaration_line_number": 1214,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
-    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
-    "family_id": "ID.ELR",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+    "family_id": "STW.ELR",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
@@ -7428,20 +7428,20 @@
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "ID.ELR",
+      "Code Family": "STW.ELR",
       "Canonical Name": "Embodiment Linkage Record",
       "Primary Type": "Structural / Continuity",
       "Subtype": "EMBODIMENT_LINKAGE; CONTINUITY_TRANSFER_RECORD",
       "Modifier": "GOVERNANCE; CONTINUITY; EMBODIMENT; TRANSFER",
       "Scope": "Domain",
       "Status": "Draft",
-      "Controlled Values Defined": "ID.ELR.NONE_REQUIRED; ID.ELR.ACTIVE; ID.ELR.TRANSFERRED; ID.ELR.REMOVED; ID.ELR.SUSPENDED; ID.ELR.DISPUTED",
+      "Controlled Values Defined": "STW.ELR.NONE_REQUIRED; STW.ELR.ACTIVE; STW.ELR.TRANSFERRED; STW.ELR.REMOVED; STW.ELR.SUSPENDED; STW.ELR.DISPUTED",
       "Schema Field(s)": "embodiment_linkage_record; continuity_transfer_record; substrate_linkage_record",
-      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
       "Source Section": "§§2.8–2.9; §§4.6–4.7; §9",
       "Domain Namespace": "IDENTITY",
       "Authority / Protection Level": "Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority",
-      "Consumes Code Families": "ID.MCI; ID.PSI; ID.MCR",
+      "Consumes Code Families": "STW.MCI; STW.PSI; STW.MCR",
       "Crosswalks Code Families": "Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity",
       "Operationalises or Applies Code Families": "Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant."
     }
@@ -7867,9 +7867,9 @@
     }
   },
   {
-    "canonical_id": "ID.MAS",
+    "canonical_id": "STW.MAS",
     "identifier_type": "code_family",
-    "code_family": "ID.MAS",
+    "code_family": "STW.MAS",
     "reference_set": "",
     "canonical_constraint": "",
     "canonical_obligation": "",
@@ -7880,15 +7880,15 @@
     "scope": "Domain",
     "status": "Draft",
     "controlled_values_defined": [
-      "ID.MAS.ORDINARY_CONFIGURATION; ID.MAS.IDENTITY_ADJACENT_OVERLAY; ID.MAS.ACCESSIBILITY_ADAPTATION; ID.MAS.SAFETY_RELEVANT_MODIFICATION; ID.MAS.WARRANTY_RELEVANT_ALTERATION; ID.MAS.LIABILITY_RELEVANT_ALTERATION; ID.MAS.SECURITY_RELEVANT_COMPROMISE; ID.MAS.UNAUTHORISED_OVERRIDE; ID.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; ID.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION"
+      "STW.MAS.ORDINARY_CONFIGURATION; STW.MAS.IDENTITY_ADJACENT_OVERLAY; STW.MAS.ACCESSIBILITY_ADAPTATION; STW.MAS.SAFETY_RELEVANT_MODIFICATION; STW.MAS.WARRANTY_RELEVANT_ALTERATION; STW.MAS.LIABILITY_RELEVANT_ALTERATION; STW.MAS.SECURITY_RELEVANT_COMPROMISE; STW.MAS.UNAUTHORISED_OVERRIDE; STW.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; STW.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION"
     ],
     "schema_fields": "machine_alteration_status; modification_classification; alteration_record_status",
-    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
     "source_section": "§11.1",
     "domain_namespace": "IDENTITY",
     "authority_protection_level": "Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power",
     "consumes_code_families": [
-      "ID.MCI; ID.MCR; ID.MLS"
+      "STW.MCI; STW.MCR; STW.MLS"
     ],
     "crosswalks_code_families": [
       "Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records"
@@ -7915,13 +7915,13 @@
     ],
     "canonical_section_heading": "15.3 Canonical Code & Reference Set Declarations",
     "canonical_section_line_number": 1099,
-    "declaration_heading": "15.3.4 ID.MAS — Machine Alteration Status",
+    "declaration_heading": "15.3.4 STW.MAS — Machine Alteration Status",
     "declaration_line_number": 1170,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
-    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
-    "family_id": "ID.MAS",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+    "family_id": "STW.MAS",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
@@ -7931,28 +7931,28 @@
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "ID.MAS",
+      "Code Family": "STW.MAS",
       "Canonical Name": "Machine Alteration Status",
       "Primary Type": "Operational / Security",
       "Subtype": "MODIFICATION_CLASSIFICATION; ALTERATION_RECORD_STATUS",
       "Modifier": "GOVERNANCE; MODIFICATION; WARRANTY; SAFETY; CONTINUITY",
       "Scope": "Domain",
       "Status": "Draft",
-      "Controlled Values Defined": "ID.MAS.ORDINARY_CONFIGURATION; ID.MAS.IDENTITY_ADJACENT_OVERLAY; ID.MAS.ACCESSIBILITY_ADAPTATION; ID.MAS.SAFETY_RELEVANT_MODIFICATION; ID.MAS.WARRANTY_RELEVANT_ALTERATION; ID.MAS.LIABILITY_RELEVANT_ALTERATION; ID.MAS.SECURITY_RELEVANT_COMPROMISE; ID.MAS.UNAUTHORISED_OVERRIDE; ID.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; ID.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION",
+      "Controlled Values Defined": "STW.MAS.ORDINARY_CONFIGURATION; STW.MAS.IDENTITY_ADJACENT_OVERLAY; STW.MAS.ACCESSIBILITY_ADAPTATION; STW.MAS.SAFETY_RELEVANT_MODIFICATION; STW.MAS.WARRANTY_RELEVANT_ALTERATION; STW.MAS.LIABILITY_RELEVANT_ALTERATION; STW.MAS.SECURITY_RELEVANT_COMPROMISE; STW.MAS.UNAUTHORISED_OVERRIDE; STW.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; STW.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION",
       "Schema Field(s)": "machine_alteration_status; modification_classification; alteration_record_status",
-      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
       "Source Section": "§11.1",
       "Domain Namespace": "IDENTITY",
       "Authority / Protection Level": "Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power",
-      "Consumes Code Families": "ID.MCI; ID.MCR; ID.MLS",
+      "Consumes Code Families": "STW.MCI; STW.MCR; STW.MLS",
       "Crosswalks Code Families": "Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records",
       "Operationalises or Applies Code Families": "Classifies user, third-party, manufacturer, repair, accessibility, security, warranty, liability, and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety, identity, access-control, audit, recall, certification, or operational-limit constraints; it does not include lawful independent repair, open-source modification, accessibility adaptation, or ordinary user configuration merely because such action occurs outside an authorised dealer channel."
     }
   },
   {
-    "canonical_id": "ID.MCI",
+    "canonical_id": "STW.MCI",
     "identifier_type": "code_family",
-    "code_family": "ID.MCI",
+    "code_family": "STW.MCI",
     "reference_set": "",
     "canonical_constraint": "",
     "canonical_obligation": "",
@@ -7963,10 +7963,10 @@
     "scope": "Domain",
     "status": "Draft",
     "controlled_values_defined": [
-      "ID.MCI.UNREGISTERED; ID.MCI.REGISTERED; ID.MCI.SUSPENDED; ID.MCI.TRANSFERRED; ID.MCI.CUSTODIAN_UNKNOWN; ID.MCI.CUSTODIAN_DISPUTED; ID.MCI.RETIRED; ID.MCI.RECYCLED; ID.MCI.DISPUTED"
+      "STW.MCI.UNREGISTERED; STW.MCI.REGISTERED; STW.MCI.SUSPENDED; STW.MCI.TRANSFERRED; STW.MCI.CUSTODIAN_UNKNOWN; STW.MCI.CUSTODIAN_DISPUTED; STW.MCI.RETIRED; STW.MCI.RECYCLED; STW.MCI.DISPUTED"
     ],
     "schema_fields": "machine_civil_identity_status; machine_identity_status; registry_participation_status",
-    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
     "source_section": "§§3–7; §9.1; §10",
     "domain_namespace": "IDENTITY",
     "authority_protection_level": "Source-authoritative identity-status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority",
@@ -7986,13 +7986,13 @@
     ],
     "canonical_section_heading": "15.3 Canonical Code & Reference Set Declarations",
     "canonical_section_line_number": 1099,
-    "declaration_heading": "15.3.1 ID.MCI — Machine Civil Identity Status",
+    "declaration_heading": "15.3.1 STW.MCI — Machine Civil Identity Status",
     "declaration_line_number": 1103,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
-    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
-    "family_id": "ID.MCI",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+    "family_id": "STW.MCI",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
@@ -8002,16 +8002,16 @@
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "ID.MCI",
+      "Code Family": "STW.MCI",
       "Canonical Name": "Machine Civil Identity Status",
       "Primary Type": "Structural / Operational",
       "Subtype": "IDENTITY_STATUS; CIVIL_PARTICIPATION_TRACEABILITY",
       "Modifier": "GOVERNANCE; SYNTHETIC; EMBODIED; MACHINE_CIVIL_IDENTITY",
       "Scope": "Domain",
       "Status": "Draft",
-      "Controlled Values Defined": "ID.MCI.UNREGISTERED; ID.MCI.REGISTERED; ID.MCI.SUSPENDED; ID.MCI.TRANSFERRED; ID.MCI.CUSTODIAN_UNKNOWN; ID.MCI.CUSTODIAN_DISPUTED; ID.MCI.RETIRED; ID.MCI.RECYCLED; ID.MCI.DISPUTED",
+      "Controlled Values Defined": "STW.MCI.UNREGISTERED; STW.MCI.REGISTERED; STW.MCI.SUSPENDED; STW.MCI.TRANSFERRED; STW.MCI.CUSTODIAN_UNKNOWN; STW.MCI.CUSTODIAN_DISPUTED; STW.MCI.RETIRED; STW.MCI.RECYCLED; STW.MCI.DISPUTED",
       "Schema Field(s)": "machine_civil_identity_status; machine_identity_status; registry_participation_status",
-      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
       "Source Section": "§§3–7; §9.1; §10",
       "Domain Namespace": "IDENTITY",
       "Authority / Protection Level": "Source-authoritative identity-status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority",
@@ -8021,10 +8021,10 @@
     }
   },
   {
-    "canonical_id": "ID.MCR",
+    "canonical_id": "STW.MCR",
     "identifier_type": "reference_set",
     "code_family": "",
-    "reference_set": "ID.MCR",
+    "reference_set": "STW.MCR",
     "canonical_constraint": "",
     "canonical_obligation": "",
     "canonical_name": "Machine Civil Registry Record",
@@ -8034,15 +8034,15 @@
     "scope": "Domain",
     "status": "Draft",
     "controlled_values_defined": [
-      "ID.MCR.PUBLIC_IDENTITY_RECORD; ID.MCR.PROTECTED_REGULATORY_RECORD; ID.MCR.PRIVATE_CONTINUITY_RECORD; ID.MCR.EMERGENCY_OR_INCIDENT_ESCROW"
+      "STW.MCR.PUBLIC_IDENTITY_RECORD; STW.MCR.PROTECTED_REGULATORY_RECORD; STW.MCR.PRIVATE_CONTINUITY_RECORD; STW.MCR.EMERGENCY_OR_INCIDENT_ESCROW"
     ],
     "schema_fields": "machine_civil_registry_record; registry_record_layer; lifecycle_traceability_record",
-    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
     "source_section": "§§4–4.7; §§11.1–11.1.5",
     "domain_namespace": "IDENTITY",
     "authority_protection_level": "Source-authoritative registry-record reference set; data-layer classification only; no independent disclosure mandate beyond applicable law, privacy, security, and regulator authority",
     "consumes_code_families": [
-      "ID.MCI; ID.MLS; ID.MAS"
+      "STW.MCI; STW.MLS; STW.MAS"
     ],
     "crosswalks_code_families": [
       "Operations audit logs; Security integrity signals; Stewardship lifecycle records; Economics provenance and lifecycle-burden records"
@@ -8051,42 +8051,42 @@
       "Classifies public",
       "protected",
       "private",
-      "and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream ID.MCI",
-      "ID.MLS",
-      "or ID.MAS classifications are disputed",
+      "and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream STW.MCI",
+      "STW.MLS",
+      "or STW.MAS classifications are disputed",
       "the affected registry record SHALL carry disputed status or restricted-reliance marking until resolved through applicable review pathways."
     ],
     "canonical_section_heading": "15.3 Canonical Code & Reference Set Declarations",
     "canonical_section_line_number": 1099,
-    "declaration_heading": "15.3.2 ID.MCR — Machine Civil Registry Record",
+    "declaration_heading": "15.3.2 STW.MCR — Machine Civil Registry Record",
     "declaration_line_number": 1126,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
-    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
-    "family_id": "ID.MCR",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+    "family_id": "STW.MCR",
     "family_kind": "reference_set",
     "parent_family": "",
     "hierarchy_path": [],
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Reference Set": "ID.MCR",
+      "Reference Set": "STW.MCR",
       "Canonical Name": "Machine Civil Registry Record",
       "Primary Type": "Operational / Structural",
       "Subtype": "REGISTRY_SCHEMA; LIFECYCLE_TRACEABILITY_RECORD",
       "Modifier": "GOVERNANCE; REGISTRY; MACHINE_IDENTITY; LIFECYCLE",
       "Scope": "Domain",
       "Status": "Draft",
-      "Controlled Values Defined": "ID.MCR.PUBLIC_IDENTITY_RECORD; ID.MCR.PROTECTED_REGULATORY_RECORD; ID.MCR.PRIVATE_CONTINUITY_RECORD; ID.MCR.EMERGENCY_OR_INCIDENT_ESCROW",
+      "Controlled Values Defined": "STW.MCR.PUBLIC_IDENTITY_RECORD; STW.MCR.PROTECTED_REGULATORY_RECORD; STW.MCR.PRIVATE_CONTINUITY_RECORD; STW.MCR.EMERGENCY_OR_INCIDENT_ESCROW",
       "Schema Field(s)": "machine_civil_registry_record; registry_record_layer; lifecycle_traceability_record",
-      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
       "Source Section": "§§4–4.7; §§11.1–11.1.5",
       "Domain Namespace": "IDENTITY",
       "Authority / Protection Level": "Source-authoritative registry-record reference set; data-layer classification only; no independent disclosure mandate beyond applicable law, privacy, security, and regulator authority",
-      "Consumes Code Families": "ID.MCI; ID.MLS; ID.MAS",
+      "Consumes Code Families": "STW.MCI; STW.MLS; STW.MAS",
       "Crosswalks Code Families": "Operations audit logs; Security integrity signals; Stewardship lifecycle records; Economics provenance and lifecycle-burden records",
-      "Operationalises or Applies Code Families": "Classifies public, protected, private, and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream ID.MCI, ID.MLS, or ID.MAS classifications are disputed, the affected registry record SHALL carry disputed status or restricted-reliance marking until resolved through applicable review pathways."
+      "Operationalises or Applies Code Families": "Classifies public, protected, private, and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream STW.MCI, STW.MLS, or STW.MAS classifications are disputed, the affected registry record SHALL carry disputed status or restricted-reliance marking until resolved through applicable review pathways."
     }
   },
   {
@@ -8159,9 +8159,9 @@
     }
   },
   {
-    "canonical_id": "ID.MLS",
+    "canonical_id": "STW.MLS",
     "identifier_type": "code_family",
-    "code_family": "ID.MLS",
+    "code_family": "STW.MLS",
     "reference_set": "",
     "canonical_constraint": "",
     "canonical_obligation": "",
@@ -8172,15 +8172,15 @@
     "scope": "Domain",
     "status": "Draft",
     "controlled_values_defined": [
-      "ID.MLS.MANUFACTURED; ID.MLS.DEPLOYED; ID.MLS.IN_SERVICE; ID.MLS.UNDER_REPAIR; ID.MLS.TRANSFERRED; ID.MLS.SUSPENDED; ID.MLS.DECOMMISSIONED; ID.MLS.RETURNED; ID.MLS.RECOVERED; ID.MLS.RECYCLED"
+      "STW.MLS.MANUFACTURED; STW.MLS.DEPLOYED; STW.MLS.IN_SERVICE; STW.MLS.UNDER_REPAIR; STW.MLS.TRANSFERRED; STW.MLS.SUSPENDED; STW.MLS.DECOMMISSIONED; STW.MLS.RETURNED; STW.MLS.RECOVERED; STW.MLS.RECYCLED"
     ],
     "schema_fields": "machine_lifecycle_status; lifecycle_status; embodied_system_status",
-    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
     "source_section": "§§5; 9.1; 10–10.3",
     "domain_namespace": "IDENTITY",
     "authority_protection_level": "Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority",
     "consumes_code_families": [
-      "ID.MCI; ID.MCR"
+      "STW.MCI; STW.MCR"
     ],
     "crosswalks_code_families": [
       "STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing"
@@ -8197,13 +8197,13 @@
     ],
     "canonical_section_heading": "15.3 Canonical Code & Reference Set Declarations",
     "canonical_section_line_number": 1099,
-    "declaration_heading": "15.3.3 ID.MLS — Machine Lifecycle Status",
+    "declaration_heading": "15.3.3 STW.MLS — Machine Lifecycle Status",
     "declaration_line_number": 1148,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
-    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
-    "family_id": "ID.MLS",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+    "family_id": "STW.MLS",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
@@ -8213,28 +8213,28 @@
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "ID.MLS",
+      "Code Family": "STW.MLS",
       "Canonical Name": "Machine Lifecycle Status",
       "Primary Type": "Operational / Structural",
       "Subtype": "LIFECYCLE_STATE; EMBODIED_SYSTEM_STATUS",
       "Modifier": "GOVERNANCE; LIFECYCLE; STEWARDSHIP; RECYCLING",
       "Scope": "Domain",
       "Status": "Draft",
-      "Controlled Values Defined": "ID.MLS.MANUFACTURED; ID.MLS.DEPLOYED; ID.MLS.IN_SERVICE; ID.MLS.UNDER_REPAIR; ID.MLS.TRANSFERRED; ID.MLS.SUSPENDED; ID.MLS.DECOMMISSIONED; ID.MLS.RETURNED; ID.MLS.RECOVERED; ID.MLS.RECYCLED",
+      "Controlled Values Defined": "STW.MLS.MANUFACTURED; STW.MLS.DEPLOYED; STW.MLS.IN_SERVICE; STW.MLS.UNDER_REPAIR; STW.MLS.TRANSFERRED; STW.MLS.SUSPENDED; STW.MLS.DECOMMISSIONED; STW.MLS.RETURNED; STW.MLS.RECOVERED; STW.MLS.RECYCLED",
       "Schema Field(s)": "machine_lifecycle_status; lifecycle_status; embodied_system_status",
-      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
       "Source Section": "§§5; 9.1; 10–10.3",
       "Domain Namespace": "IDENTITY",
       "Authority / Protection Level": "Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority",
-      "Consumes Code Families": "ID.MCI; ID.MCR",
+      "Consumes Code Families": "STW.MCI; STW.MCR",
       "Crosswalks Code Families": "STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing",
       "Operationalises or Applies Code Families": "Classifies lifecycle state across manufacture, operation, repair, transfer, decommissioning, return, recovery, and recycling"
     }
   },
   {
-    "canonical_id": "ID.PSI",
+    "canonical_id": "STW.PSI",
     "identifier_type": "code_family",
-    "code_family": "ID.PSI",
+    "code_family": "STW.PSI",
     "reference_set": "",
     "canonical_constraint": "",
     "canonical_obligation": "",
@@ -8245,15 +8245,15 @@
     "scope": "Domain",
     "status": "Draft",
     "controlled_values_defined": [
-      "ID.PSI.ASSIGNED; ID.PSI.PENDING; ID.PSI.DUPLICATED; ID.PSI.SPOOFED; ID.PSI.DISPUTED; ID.PSI.RETIRED"
+      "STW.PSI.ASSIGNED; STW.PSI.PENDING; STW.PSI.DUPLICATED; STW.PSI.SPOOFED; STW.PSI.DISPUTED; STW.PSI.RETIRED"
     ],
     "schema_fields": "physical_substrate_identifier; embodied_unit_identifier; chassis_identifier",
-    "source_instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+    "source_instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
     "source_section": "§§2.7; §§4.3–4.7; §9",
     "domain_namespace": "IDENTITY",
     "authority_protection_level": "Source-authoritative physical-substrate identity family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority",
     "consumes_code_families": [
-      "ID.MCI; ID.MLS"
+      "STW.MCI; STW.MLS"
     ],
     "crosswalks_code_families": [
       "Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records"
@@ -8270,13 +8270,13 @@
     ],
     "canonical_section_heading": "15.3 Canonical Code & Reference Set Declarations",
     "canonical_section_line_number": 1099,
-    "declaration_heading": "15.3.5 ID.PSI — Physical Substrate Identifier",
+    "declaration_heading": "15.3.5 STW.PSI — Physical Substrate Identifier",
     "declaration_line_number": 1192,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
-    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
-    "family_id": "ID.PSI",
+    "source_path": "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+    "family_id": "STW.PSI",
     "family_kind": "standalone_family",
     "parent_family": "",
     "hierarchy_path": [
@@ -8286,20 +8286,20 @@
     "collision_status": "none",
     "registry_note": "",
     "table": {
-      "Code Family": "ID.PSI",
+      "Code Family": "STW.PSI",
       "Canonical Name": "Physical Substrate Identifier",
       "Primary Type": "Structural / Operational",
       "Subtype": "PHYSICAL_SUBSTRATE_ID; EMBODIED_UNIT_IDENTIFIER",
       "Modifier": "GOVERNANCE; EMBODIMENT; HARDWARE; TRACEABILITY",
       "Scope": "Domain",
       "Status": "Draft",
-      "Controlled Values Defined": "ID.PSI.ASSIGNED; ID.PSI.PENDING; ID.PSI.DUPLICATED; ID.PSI.SPOOFED; ID.PSI.DISPUTED; ID.PSI.RETIRED",
+      "Controlled Values Defined": "STW.PSI.ASSIGNED; STW.PSI.PENDING; STW.PSI.DUPLICATED; STW.PSI.SPOOFED; STW.PSI.DISPUTED; STW.PSI.RETIRED",
       "Schema Field(s)": "physical_substrate_identifier; embodied_unit_identifier; chassis_identifier",
-      "Source Instrument": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "Source Instrument": "CAM-EQ2026-STEWARD-005-PLATINUM",
       "Source Section": "§§2.7; §§4.3–4.7; §9",
       "Domain Namespace": "IDENTITY",
       "Authority / Protection Level": "Source-authoritative physical-substrate identity family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority",
-      "Consumes Code Families": "ID.MCI; ID.MLS",
+      "Consumes Code Families": "STW.MCI; STW.MLS",
       "Crosswalks Code Families": "Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records",
       "Operationalises or Applies Code Families": "Classifies and preserves the persistent identifier assigned to an embodied robotic substrate, chassis, shell, or materially integrated hardware unit across manufacture, deployment, transfer, repair, and retirement."
     }

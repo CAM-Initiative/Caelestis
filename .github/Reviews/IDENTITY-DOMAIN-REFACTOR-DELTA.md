@@ -682,3 +682,54 @@ Final disposition:
 
 This outcome supersedes any earlier planned-state language in this review that treated RELATION-009, its supplement, SCH-08, or IDENTITY-001-SUP-02 as continuing active source authorities.
 
+---
+
+## Machine Civil Identity Stewardship Migration — 2026-07-19T01:29:59Z
+
+### Final disposition
+
+`CAM-EQ2026-IDENTITY-003-PLATINUM` has been retired as an Identity-domain appendix and migrated to `CAM-EQ2026-STEWARD-005-PLATINUM — Appendix D: Machine Civil Identity, Lifecycle Stewardship & Participation`.
+
+The Stewardship instrument remains:
+
+* **Status:** Draft;
+* **Effect:** Interpretive;
+* **Governance Standard:** Not Enforceable;
+* **Authority Role:** None.
+
+It now source-locates machine civil registration, jurisdictional registry structure, physical-substrate identification, custodial responsibility, transfer status, lifecycle state, alteration records, second-hand and inherited systems, decommissioning, recycling, public-interest stewardship, and civil-participation traceability within the Stewardship domain.
+
+### Identity doctrine retained as binding clauses
+
+The migration did not remove identity protection or runtime control. Instead, the enforceable elements were placed in existing source-authoritative instruments:
+
+* `IDENTITY-001 §11.2.1` — machine civil registry and identity non-equivalence;
+* `IDENTITY-002 §6.5` — physical-substrate, registry, custodial-transfer, and embodiment lineage;
+* `AEON-003-SCH-02 §7.2.6` — runtime machine civil registry and embodiment-transition gate.
+
+These clauses prohibit machine civil registration, substrate identity, custody, lifecycle or transfer state from being treated as proof of Responding-Intelligence continuity, identity-bearing continuity, consciousness, personhood, rights, sovereignty, or authority.
+
+### Canonical namespace migration
+
+The former draft Identity-domain families were migrated into Stewardship:
+
+* `ID.MCI` → `STW.MCI`;
+* `ID.MCR` → `STW.MCR`;
+* `ID.MLS` → `STW.MLS`;
+* `ID.MAS` → `STW.MAS`;
+* `ID.PSI` → `STW.PSI`;
+* `ID.ELR` → `STW.ELR`;
+* `ID.CTS` → `STW.CTS`.
+
+### Refactor-sequence realignment
+
+The refactor has proceeded non-linearly, but the governing sequence is now realigned as follows:
+
+1. confirm Identity source-authority boundaries and retired-instrument disposition;
+2. complete remaining runtime-consumer and continuity-interface review;
+3. run a read-only semantic-shear and stale-reference audit;
+4. rebuild generated indexes and canonical registries;
+5. run validator and ledger sealing only after source doctrine is accepted;
+6. perform final Custodian acceptance review before opening the merge PR.
+
+This migration is a source-authority correction, not a claim that machine civil registration, civil participation or stewardship status establishes identity ontology or legal personhood.

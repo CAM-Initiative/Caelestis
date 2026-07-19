@@ -578,7 +578,7 @@
       "last_updated_utc": "2026-06-21T15:30:41Z"
     },
     {
-      "id": "CAM-EQ2026-IDENTITY-003-PLATINUM",
+      "id": "CAM-EQ2026-STEWARD-005-PLATINUM",
       "cycle_year": "EQ2026",
       "stack": "Planetary Governance",
       "domain": "IDENTITY",
@@ -587,7 +587,7 @@
       "hierarchy_number": "003",
       "parent_id": "CAM-EQ2026-IDENTITY-001",
       "seal": "PLATINUM",
-      "link": "CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+      "link": "CAM-EQ2026-STEWARD-005-PLATINUM.md",
       "title": "Appendix B: Machine Civil Identity & Participation",
       "summary": "This Appendix establishes governance standards for persistent machine identity and civil participation pathways applicable to embodied, robotic, synthetic, companion, industrial, caregiving, and autonomous systems operating within human environments.",
       "status": "** Draft",

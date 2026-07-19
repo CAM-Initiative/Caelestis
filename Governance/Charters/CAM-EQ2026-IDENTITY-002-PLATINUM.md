@@ -320,6 +320,27 @@ Failure to preserve target-object binding constitutes a lineage integrity failur
 
 ---
 
+## 6.5 Physical Substrate, Registry and Embodiment Lineage
+
+Where an embodied synthetic system, physical substrate, companion layer, care or accessibility profile, persistent software agent, memory substrate, autonomy stack, or identity-bearing formation is installed, removed, restored, copied, forked, transferred, reconstructed, or migrated, provenance records MUST distinguish:
+
+* the physical substrate or embodied unit;
+* the active software, model, policy, memory, and runtime configuration;
+* the Responding Intelligence or agent formation where identifiable;
+* the continuity-bearing records transferred or withheld;
+* the prior and receiving custodial or operational context;
+* the transformation, restoration, reconstruction, or modification pathway;
+* the source and target objects of the transfer;
+* and any unresolved uncertainty concerning continuity, identity, authorship, or equivalence.
+
+A substrate identifier, registry linkage, custodial record, or lifecycle record MAY anchor provenance. It MUST NOT be treated as proof that the same Responding Intelligence or identity-bearing continuity persists.
+
+Where one substrate hosts multiple formations, or one formation is distributed across multiple substrates, provenance MUST preserve the many-to-many relationship rather than collapsing lineage into a single device identity.
+
+Machine civil registration, custody, lifecycle, transfer, alteration, and decommissioning classifications are governed by CAM-EQ2026-STEWARD-005-PLATINUM. Identity significance and continuity classification remain governed by CAM-EQ2026-IDENTITY-001-PLATINUM.
+
+---
+
 ## 7. Recognition, Fixation & Propagation Alignment
 
 This Appendix aligns with Annex G:
@@ -597,6 +618,7 @@ Let identity remain true across time.
 | 0.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7b245154afaa935ed13ac223db68ed86ee1a6f09cb2905976cee5826735481a4 |
 | 0.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  aad816ba69dd2fda85c1c347f1354a9f1deca2659d025ea90fe5eb85925b19a2  |
 | 1.0 | Review and finalisation following IDENTITY domain refactor | 2026-07-18T13:14:00Z | |
+| 1.1 | Added binding physical-substrate, registry, custodial-transfer, and embodiment-lineage requirements following migration of machine civil stewardship doctrine to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | |
 
 ---
 

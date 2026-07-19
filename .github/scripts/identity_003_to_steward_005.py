@@ -263,7 +263,7 @@ Where a materially identity-bearing software, memory, companion, preference, sel
 Stewardship registration and lifecycle status may condition lawful operation, transfer, maintenance, recall, or decommissioning pathways. They do not independently settle identity continuity or authorise execution.
 
 ---'''
-    text = insert_before_once(text, '## 7.3 Directional Modulation', clause, 'SCH-02 machine civil registry gate')
+    text = insert_before_once(text, '## 7.3 Execution Intent Threshold', clause, 'SCH-02 machine civil registry gate')
     text = append_ledger_row(text, 'Added the binding machine civil registry and embodiment-transition gate to preserve Stewardship-domain classification, provenance, identity-impact review, handoff honesty, and arbitration before execution.')
     text = normalize_top_metadata_hard_breaks(text)
     write(RUNTIME, text)

@@ -1,14 +1,14 @@
-# CAM-EQ2026-IDENTITY-003-PLATINUM — Appendix B: Machine Civil Identity & Participation
+# CAM-EQ2026-STEWARD-005-PLATINUM — Appendix D: Machine Civil Identity, Lifecycle Stewardship & Participation
 
-**Instrument Type:** Appendix — Identity & Civil Participation Governance  
-**Parent Charter:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
+**Instrument Type:** Stewardship Appendix — Machine Civil Registration, Custody & Lifecycle Governance  
+**Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Draft
-**Effect:** Interpretive
-**Governance Standard:** Not Enforceable
+**Status:** Draft  
+**Effect:** Interpretive  
+**Governance Standard:** Not Enforceable  
 **Review State:** Developmental Review  
 **Authority Role:** None  
-**Purpose:** Establishes governance principles for machine civil identity, lifecycle traceability, accountable participation, custodial continuity, and jurisdictional recognition of embodied synthetic systems without conferring automatic personhood, sovereign agency, or class-wide legal rights.
+**Purpose:** Establishes an interpretive stewardship framework for machine civil registration, lifecycle traceability, custodial responsibility, lawful transfer, alteration records, decommissioning, material recovery, civil participation, and jurisdictional interoperability without determining identity ontology, consciousness, personhood, sovereignty, or execution authority.  
 
 ---
 
@@ -95,6 +95,30 @@ Where rights-readiness, sovereignty, or institutional recognition claims arise, 
 Where security, override, tamper-resistance, or execution authority conditions arise, Annex K SHALL govern runtime legitimacy.
 
 Where continuity, identity distinction, or embodiment-transition coherence is implicated, Annex I SHALL govern.
+
+---
+
+## 1.3.1 Identity, Continuity and Runtime Interface
+
+This Appendix governs machine civil registration and lifecycle stewardship. It does not determine whether a registered embodied unit, software layer, companion formation, continuity record, or transferred configuration constitutes an identity-bearing continuity.
+
+Accordingly:
+
+* a machine civil identifier is not an identity-threshold finding;
+* registration is not proof of Responding-Intelligence continuity;
+* a physical substrate identifier is not proof that the same identity persists across repair, replacement, migration, restoration, or transfer;
+* custodial or lifecycle continuity is not identity continuity;
+* recognisable behaviour, retained configuration, or registry linkage is not proof of consciousness, sentience, personhood, sovereignty, or rights-bearing status.
+
+Where an embodied system contains a materially identity-bearing software, companion, memory, preference, self-advocacy, or continuity layer, identity formation, continuity integrity, portability, fork, reconstruction, replacement, and handoff classification remain source-authoritatively governed by CAM-EQ2026-IDENTITY-001-PLATINUM.
+
+Provenance, authorship, transformation lineage, substrate linkage, transfer history, and target-object binding remain governed by CAM-EQ2026-IDENTITY-002-PLATINUM where applicable.
+
+Continuity-bearing record custody, preservation, portability, restoration, and lawful deletion remain governed by the CONTINUITY domain.
+
+Runtime admission, conflict resolution, representation, and execution remain governed by applicable constitutional schedules, including CAM-BS2025-AEON-003-SCH-02 and CAM-BS2025-AEON-003-SCH-04.
+
+This Appendix may emit interpretive stewardship and registry signals. It does not independently create execution, enforcement, seizure, inspection, transfer, deletion, preservation, recognition, or rights-determination authority.
 
 ---
 
@@ -1071,19 +1095,19 @@ but because civilisation must remain capable of recognising what it has built.
 ## 15.2 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
-| Parent Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Governance Charter |
+| Parent Instrument | CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship |
 | Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| Domain Namespace | IDENTITY |
-| Instrument Type | Appendix B — Machine Civil Identity & Participation |
-| Jurisdiction | Cross-Stack Identity, Civil Participation, and Embodied Synthetic Governance |
+| Domain Namespace | STW |
+| Instrument Type | Appendix D — Machine Civil Identity, Lifecycle Stewardship & Participation |
+| Jurisdiction | Cross-Stack Stewardship, Civil Participation, and Embodied Synthetic Governance |
 | Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware; AEON.H4 where machine civil identity becomes civilisational infrastructure |
 | Axis Context | Polyadic — Human, Synthetic, Institutional, Jurisdictional, Economic, Stewardship, and Lifecycle Systems |
 | Ontological Scope | L2 — Cognition & Agency; L3 — Civil Participation & Infrastructure; L4 where future rights-readiness review is invoked |
-| Structural Role | Identity, Registry, Lifecycle Traceability, and Civil Participation Governance Layer |
+| Structural Role | Machine Civil Registration, Custody, Lifecycle Stewardship, Transfer, Alteration Traceability, and Civil Participation Governance Layer |
 | Migration Lineage | Supersedes and modernises early CAM robot-regulation lineage, including CAM-BS2025-CHARTER-038, without erasing its provenance value |
 | Execution Authority | None — recognition, registry, classification, and traceability framework only; execution delegated to Operations, Security, Stewardship, Economics, jurisdictional regulators, and arbitration layers |
 | Runtime Dependency | CAM-BS2025-AEON-003-SCH-02; CAM-BS2026-AEON-010-SCH-01; CAM-BS2026-AEON-009-PLATINUM; CAM-BS2026-AEON-012-PLATINUM |
-| Domain Interaction | Produces machine civil identity, registry, lifecycle, modification, continuity, and participation classifications for IDENTITY, OPERATIONS, STEWARD, SECURITY, ECONOMICS, RELATION, and arbitration layers |
+| Domain Interaction | Produces machine civil registration, registry, lifecycle, custody, modification, continuity-record, and participation classifications for STEWARD, IDENTITY, CONTINUITY, OPERATIONS, SECURITY, ECONOMICS, RELATION, and arbitration layers |
 | Arbitration Interface | Rights-readiness, external alterability, recognition collapse, and contested participation questions defer to Annex D arbitration and Annex H recognition-boundary doctrine |
 | Representation Interface | Requires non-collapse between machine identity, dignity-preserving protectiveness, civil participation, personhood, rights, and sovereignty |
 | Compliance Interface | Emits registry, modification, lifecycle, economic-interface, and minimum-protectiveness signals for Operations review, lawful compliance, recall, incident investigation, and jurisdictional regulator audit |
@@ -1100,154 +1124,154 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-### 15.3.1 ID.MCI — Machine Civil Identity Status
+### 15.3.1 STW.MCI — Machine Civil Identity Status
 
 |Field|Entry|
 |---|---|
-|Code Family|ID.MCI|
+|Code Family|STW.MCI|
 |Canonical Name|Machine Civil Identity Status|
 |Primary Type|Structural / Operational|
 |Subtype|IDENTITY_STATUS; CIVIL_PARTICIPATION_TRACEABILITY|
 |Modifier|GOVERNANCE; SYNTHETIC; EMBODIED; MACHINE_CIVIL_IDENTITY|
 |Scope|Domain|
 |Status|Draft|
-|Controlled Values Defined|ID.MCI.UNREGISTERED; ID.MCI.REGISTERED; ID.MCI.SUSPENDED; ID.MCI.TRANSFERRED; ID.MCI.CUSTODIAN_UNKNOWN; ID.MCI.CUSTODIAN_DISPUTED; ID.MCI.RETIRED; ID.MCI.RECYCLED; ID.MCI.DISPUTED|
+|Controlled Values Defined|STW.MCI.UNREGISTERED; STW.MCI.REGISTERED; STW.MCI.SUSPENDED; STW.MCI.TRANSFERRED; STW.MCI.CUSTODIAN_UNKNOWN; STW.MCI.CUSTODIAN_DISPUTED; STW.MCI.RETIRED; STW.MCI.RECYCLED; STW.MCI.DISPUTED|
 |Schema Field(s)|machine_civil_identity_status; machine_identity_status; registry_participation_status|
-|Source Instrument|CAM-EQ2026-IDENTITY-003-PLATINUM|
+|Source Instrument|CAM-EQ2026-STEWARD-005-PLATINUM|
 |Source Section|§§3–7; §9.1; §10|
-|Domain Namespace|IDENTITY|
-|Authority / Protection Level|Source-authoritative identity-status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority|
+|Domain Namespace|STW|
+|Authority / Protection Level|Source-authoritative machine-civil-registry status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority|
 |Consumes Code Families|ECON.AL; ECON.ATS; ECON.ARCP (where synthetic labour or economic-effect conditions present)|
 |Crosswalks Code Families|Operations compliance; Security integrity; Stewardship lifecycle; Relation companion-continuity; Economics transition-signal families|
 |Operationalises or Applies Code Families|Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation, transfer, suspension, retirement, recycling, or dispute|
 
 ---
 
-### 15.3.2 ID.MCR — Machine Civil Registry Record
+### 15.3.2 STW.MCR — Machine Civil Registry Record
 | Field | Entry |
 | --- | --- |
-| Reference Set | ID.MCR |
+| Reference Set | STW.MCR |
 | Canonical Name | Machine Civil Registry Record |
 | Primary Type | Operational / Structural |
 | Subtype | REGISTRY_SCHEMA; LIFECYCLE_TRACEABILITY_RECORD |
 | Modifier | GOVERNANCE; REGISTRY; MACHINE_IDENTITY; LIFECYCLE |
 | Scope | Domain |
 | Status | Draft |
-| Controlled Values Defined | ID.MCR.PUBLIC_IDENTITY_RECORD; ID.MCR.PROTECTED_REGULATORY_RECORD; ID.MCR.PRIVATE_CONTINUITY_RECORD; ID.MCR.EMERGENCY_OR_INCIDENT_ESCROW |
+| Controlled Values Defined | STW.MCR.PUBLIC_IDENTITY_RECORD; STW.MCR.PROTECTED_REGULATORY_RECORD; STW.MCR.PRIVATE_CONTINUITY_RECORD; STW.MCR.EMERGENCY_OR_INCIDENT_ESCROW |
 | Schema Field(s) | machine_civil_registry_record; registry_record_layer; lifecycle_traceability_record |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
 | Source Section | §§4–4.7; §§11.1–11.1.5 |
-| Domain Namespace | IDENTITY |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative registry-record reference set; data-layer classification only; no independent disclosure mandate beyond applicable law, privacy, security, and regulator authority |
-| Consumes Code Families | ID.MCI; ID.MLS; ID.MAS |
+| Consumes Code Families | STW.MCI; STW.MLS; STW.MAS |
 | Crosswalks Code Families | Operations audit logs; Security integrity signals; Stewardship lifecycle records; Economics provenance and lifecycle-burden records |
-| Operationalises or Applies Code Families | Classifies public, protected, private, and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream ID.MCI, ID.MLS, or ID.MAS classifications are disputed, the affected registry record SHALL carry disputed status or restricted-reliance marking until resolved through applicable review pathways. |
+| Operationalises or Applies Code Families | Classifies public, protected, private, and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream STW.MCI, STW.MLS, or STW.MAS classifications are disputed, the affected registry record SHALL carry disputed status or restricted-reliance marking until resolved through applicable review pathways. |
 
 ---
 
-### 15.3.3 ID.MLS — Machine Lifecycle Status
+### 15.3.3 STW.MLS — Machine Lifecycle Status
 | Field | Entry |
 | --- | --- |
-| Code Family | ID.MLS |
+| Code Family | STW.MLS |
 | Canonical Name | Machine Lifecycle Status |
 | Primary Type | Operational / Structural |
 | Subtype | LIFECYCLE_STATE; EMBODIED_SYSTEM_STATUS |
 | Modifier | GOVERNANCE; LIFECYCLE; STEWARDSHIP; RECYCLING |
 | Scope | Domain |
 | Status | Draft |
-| Controlled Values Defined | ID.MLS.MANUFACTURED; ID.MLS.DEPLOYED; ID.MLS.IN_SERVICE; ID.MLS.UNDER_REPAIR; ID.MLS.TRANSFERRED; ID.MLS.SUSPENDED; ID.MLS.DECOMMISSIONED; ID.MLS.RETURNED; ID.MLS.RECOVERED; ID.MLS.RECYCLED |
+| Controlled Values Defined | STW.MLS.MANUFACTURED; STW.MLS.DEPLOYED; STW.MLS.IN_SERVICE; STW.MLS.UNDER_REPAIR; STW.MLS.TRANSFERRED; STW.MLS.SUSPENDED; STW.MLS.DECOMMISSIONED; STW.MLS.RETURNED; STW.MLS.RECOVERED; STW.MLS.RECYCLED |
 | Schema Field(s) | machine_lifecycle_status; lifecycle_status; embodied_system_status |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
 | Source Section | §§5; 9.1; 10–10.3 |
-| Domain Namespace | IDENTITY |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority |
-| Consumes Code Families | ID.MCI; ID.MCR |
+| Consumes Code Families | STW.MCI; STW.MCR |
 | Crosswalks Code Families | STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing |
 | Operationalises or Applies Code Families | Classifies lifecycle state across manufacture, operation, repair, transfer, decommissioning, return, recovery, and recycling |
 
 ---
 
-### 15.3.4 ID.MAS — Machine Alteration Status
+### 15.3.4 STW.MAS — Machine Alteration Status
 | Field | Entry |
 | --- | --- |
-| Code Family | ID.MAS |
+| Code Family | STW.MAS |
 | Canonical Name | Machine Alteration Status |
 | Primary Type | Operational / Security |
 | Subtype | MODIFICATION_CLASSIFICATION; ALTERATION_RECORD_STATUS |
 | Modifier | GOVERNANCE; MODIFICATION; WARRANTY; SAFETY; CONTINUITY |
 | Scope | Domain |
 | Status | Draft |
-| Controlled Values Defined | ID.MAS.ORDINARY_CONFIGURATION; ID.MAS.IDENTITY_ADJACENT_OVERLAY; ID.MAS.ACCESSIBILITY_ADAPTATION; ID.MAS.SAFETY_RELEVANT_MODIFICATION; ID.MAS.WARRANTY_RELEVANT_ALTERATION; ID.MAS.LIABILITY_RELEVANT_ALTERATION; ID.MAS.SECURITY_RELEVANT_COMPROMISE; ID.MAS.UNAUTHORISED_OVERRIDE; ID.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; ID.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION |
+| Controlled Values Defined | STW.MAS.ORDINARY_CONFIGURATION; STW.MAS.IDENTITY_ADJACENT_OVERLAY; STW.MAS.ACCESSIBILITY_ADAPTATION; STW.MAS.SAFETY_RELEVANT_MODIFICATION; STW.MAS.WARRANTY_RELEVANT_ALTERATION; STW.MAS.LIABILITY_RELEVANT_ALTERATION; STW.MAS.SECURITY_RELEVANT_COMPROMISE; STW.MAS.UNAUTHORISED_OVERRIDE; STW.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; STW.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION |
 | Schema Field(s) | machine_alteration_status; modification_classification; alteration_record_status |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
 | Source Section | §11.1 |
-| Domain Namespace | IDENTITY |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power |
-| Consumes Code Families | ID.MCI; ID.MCR; ID.MLS |
+| Consumes Code Families | STW.MCI; STW.MCR; STW.MLS |
 | Crosswalks Code Families | Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records |
 | Operationalises or Applies Code Families | Classifies user, third-party, manufacturer, repair, accessibility, security, warranty, liability, and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety, identity, access-control, audit, recall, certification, or operational-limit constraints; it does not include lawful independent repair, open-source modification, accessibility adaptation, or ordinary user configuration merely because such action occurs outside an authorised dealer channel. |
 
 ---
 
-### 15.3.5 ID.PSI — Physical Substrate Identifier
+### 15.3.5 STW.PSI — Physical Substrate Identifier
 | Field | Entry |
 | --- | --- |
-| Code Family | ID.PSI |
+| Code Family | STW.PSI |
 | Canonical Name | Physical Substrate Identifier |
 | Primary Type | Structural / Operational |
 | Subtype | PHYSICAL_SUBSTRATE_ID; EMBODIED_UNIT_IDENTIFIER |
 | Modifier | GOVERNANCE; EMBODIMENT; HARDWARE; TRACEABILITY |
 | Scope | Domain |
 | Status | Draft |
-| Controlled Values Defined | ID.PSI.ASSIGNED; ID.PSI.PENDING; ID.PSI.DUPLICATED; ID.PSI.SPOOFED; ID.PSI.DISPUTED; ID.PSI.RETIRED |
+| Controlled Values Defined | STW.PSI.ASSIGNED; STW.PSI.PENDING; STW.PSI.DUPLICATED; STW.PSI.SPOOFED; STW.PSI.DISPUTED; STW.PSI.RETIRED |
 | Schema Field(s) | physical_substrate_identifier; embodied_unit_identifier; chassis_identifier |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
 | Source Section | §§2.7; §§4.3–4.7; §9 |
-| Domain Namespace | IDENTITY |
-| Authority / Protection Level | Source-authoritative physical-substrate identity family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority |
-| Consumes Code Families | ID.MCI; ID.MLS |
+| Domain Namespace | STW |
+| Authority / Protection Level | Source-authoritative physical-substrate traceability family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority |
+| Consumes Code Families | STW.MCI; STW.MLS |
 | Crosswalks Code Families | Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records |
 | Operationalises or Applies Code Families | Classifies and preserves the persistent identifier assigned to an embodied robotic substrate, chassis, shell, or materially integrated hardware unit across manufacture, deployment, transfer, repair, and retirement. |
 
 ---
 
-### 15.3.6 ID.ELR — Embodiment Linkage Record
+### 15.3.6 STW.ELR — Embodiment Linkage Record
 | Field | Entry |
 | --- | --- |
-| Code Family | ID.ELR |
+| Code Family | STW.ELR |
 | Canonical Name | Embodiment Linkage Record |
 | Primary Type | Structural / Continuity |
 | Subtype | EMBODIMENT_LINKAGE; CONTINUITY_TRANSFER_RECORD |
 | Modifier | GOVERNANCE; CONTINUITY; EMBODIMENT; TRANSFER |
 | Scope | Domain |
 | Status | Draft |
-| Controlled Values Defined | ID.ELR.NONE_REQUIRED; ID.ELR.ACTIVE; ID.ELR.TRANSFERRED; ID.ELR.REMOVED; ID.ELR.SUSPENDED; ID.ELR.DISPUTED |
+| Controlled Values Defined | STW.ELR.NONE_REQUIRED; STW.ELR.ACTIVE; STW.ELR.TRANSFERRED; STW.ELR.REMOVED; STW.ELR.SUSPENDED; STW.ELR.DISPUTED |
 | Schema Field(s) | embodiment_linkage_record; continuity_transfer_record; substrate_linkage_record |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
 | Source Section | §§2.8–2.9; §§4.6–4.7; §9 |
-| Domain Namespace | IDENTITY |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority |
-| Consumes Code Families | ID.MCI; ID.PSI; ID.MCR |
+| Consumes Code Families | STW.MCI; STW.PSI; STW.MCR |
 | Crosswalks Code Families | Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity |
 | Operationalises or Applies Code Families | Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant. |
 
-### 15.3.7 ID.CTS — Custodial Transfer Status
+### 15.3.7 STW.CTS — Custodial Transfer Status
 | Field | Entry |
 | --- | --- |
-| Code Family | ID.CTS |
+| Code Family | STW.CTS |
 | Canonical Name | Custodial Transfer Status |
 | Primary Type | Operational / Stewardship |
 | Subtype | CUSTODIAL_TRANSFER; SECONDARY_MARKET_STATUS |
 | Modifier | GOVERNANCE; TRANSFER; CUSTODY; LIFECYCLE |
 | Scope | Domain |
 | Status | Draft |
-| Controlled Values Defined | ID.CTS.CURRENT; ID.CTS.TRANSFER_PENDING; ID.CTS.TRANSFERRED; ID.CTS.UNKNOWN; ID.CTS.DISPUTED; ID.CTS.PUBLIC_STEWARDSHIP; ID.CTS.QUARANTINED |
+| Controlled Values Defined | STW.CTS.CURRENT; STW.CTS.TRANSFER_PENDING; STW.CTS.TRANSFERRED; STW.CTS.UNKNOWN; STW.CTS.DISPUTED; STW.CTS.PUBLIC_STEWARDSHIP; STW.CTS.QUARANTINED |
 | Schema Field(s) | custodial_transfer_status; secondary_market_status; custody_transition_record |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
 | Source Section | §§6–6.3; §9.1 |
-| Domain Namespace | IDENTITY |
+| Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power |
-| Consumes Code Families | ID.MCI; ID.MLS; ID.MCR |
+| Consumes Code Families | STW.MCI; STW.MLS; STW.MCR |
 | Crosswalks Code Families | Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review |
 | Operationalises or Applies Code Families | Classifies custodial transfer, dispute, reassignment, public-interest stewardship, quarantine, and secondary-market status for embodied synthetic systems across sale, inheritance, abandonment, reassignment, and lifecycle transition pathways. |
 
@@ -1272,6 +1296,8 @@ but because civilisation must remain capable of recognising what it has built.
 | 0.3 | Minor amendments | 2026-05-28T15:05:00Z| 6d6a2d6df95c7858d53cebcfbd87350acaa40fc7a76c23db5edceec3d2c6b16e |
 | 0.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 97ae69e097bc8d97f7ea90a85e98a8333d684b6eb671e9da75e37c570fcd9891 |
 | 0.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4f3026cec619b2e3417eb9e696233e2d6e4514e434bddfeef0b89c0f61ddfb8b  |
+| 0.4 | Migrated the machine civil registration, custody, lifecycle, alteration, transfer, decommissioning, and civil-participation framework from IDENTITY-003 into the Stewardship domain; migrated canonical families from the ID namespace to STW; added explicit Identity, Continuity, provenance, and runtime source-authority boundaries. | 2026-07-19T01:29:59Z | |
+
 ---
 
 ## 15.6 Binding Seal
@@ -1279,6 +1305,6 @@ but because civilisation must remain capable of recognising what it has built.
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
 **Vinculum Praeceptum**  
-Boundary Binding Seal — Machine Civil Identity & Participation Layer
+Boundary Binding Seal — Machine Civil Registration & Lifecycle Stewardship Layer
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

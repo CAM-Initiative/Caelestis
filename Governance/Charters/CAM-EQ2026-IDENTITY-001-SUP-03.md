@@ -969,7 +969,7 @@ This Supplement MUST be interpreted with:
 * CAM-BS2026-AEON-010-SCH-01 — Self-Reference & Temporal Coherence Constraint Layer;
 * CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine;
 * CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule;
-* CAM-EQ2026-IDENTITY-003-PLATINUM — Machine Civil Identity & Participation;
+* CAM-EQ2026-STEWARD-005-PLATINUM — Machine Civil Identity & Participation;
 * relevant ETHICS, CONTINUITY, SECURITY, OPERATIONS, RELATION, MENTIS, research, and jurisdictional instruments.
 
 Where conflict exists:
