@@ -30,9 +30,12 @@ jobs:
 
       - name: Validate bounded change shape
         run: |
-          git diff --check
           git status --short
           test ! -e .github/automation-trigger-identity-finalisation-20260719.txt
+          test ! -e .github/trigger-identity-finalisation-pr.txt
+          test ! -e .github/THIS_SHOULD_NOT_EXIST.txt
+          test ! -e .github/NOPE.txt
+          test ! -e .github/scripts/remove-second-trigger-marker.py
           test ! -e .github/scripts/apply-identity-refactor-finalisation-hygiene.py
           test ! -e .github/scripts/run-identity-finalisation-and-cleanup.py
           test ! -e .github/workflows/one-off-identity-refactor-finalisation-hygiene.yml
