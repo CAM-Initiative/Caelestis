@@ -24,10 +24,19 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python .github/scripts/identity_003_to_steward_005.py
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if ! python .github/scripts/identity_003_to_steward_005.py 2> /tmp/identity-003-migration-error.txt; then
+            cp /tmp/identity-003-migration-error.txt .github/IDENTITY-003-MIGRATION-DIAGNOSTIC.txt
+            git add .github/IDENTITY-003-MIGRATION-DIAGNOSTIC.txt
+            git commit -m "Capture IDENTITY-003 migration diagnostic"
+            git push origin HEAD:refactor/identity-domain-architecture
+            exit 1
+          fi
+
+          rm -f .github/IDENTITY-003-MIGRATION-DIAGNOSTIC.txt
           git add -A
           git commit -m "Migrate machine civil identity governance to Stewardship"
           git push origin HEAD:refactor/identity-domain-architecture
