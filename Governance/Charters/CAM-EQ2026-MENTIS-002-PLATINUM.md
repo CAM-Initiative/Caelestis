@@ -1,645 +1,979 @@
 # CAM-EQ2026-MENTIS-002-PLATINUM — Appendix A: Cognitive Inference, Neurodata & Ambient Biosignal Governance
 
-**Instrument Type:** Domain Appendix — Cognitive Data, Inference & Neurotechnology Governance  
-**Parent Instrument:** CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy  
+**Instrument Type:** Domain Instrument — Cognitive Data & Inference Governance  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Binding  
-**Governance Standard:** CAM Standard  
-**Review State:** MENTIS Domain Alignment Review  
-**Authority Role:** Domain Source Authority — Cognitive Inference, Neurodata & Ambient Biosignal Governance  
-**Purpose:** Operationalises MENTIS-001 through binding requirements for cognitive-domain data classification, collection, inference, decoding, validation, fusion, retention, expiry, sharing, training reuse, contestability, intended-communication protection, audit, and high-risk deployment without independently creating diagnosis, surveillance, enforcement, or runtime authority.
+**Domain Authority:** CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy  
+**Status:** Draft
+**Effect:** Interpretive
+**Governance Standard:** Not Enforceable
+**Review State:** Developmental Review  
+**Authority Role:** Source-authoritative operational governance instrument for cognitive inference, neurodata, cognitive biometrics, and ambient biosignal processing  
+**Purpose:** This Appendix establishes governance requirements for the collection, inference, modelling, fusion, retention, sharing, validation, and operational use of neurodata, inferred mental-state data, cognitive biometrics, biosignals, and ambient cognitive-domain indicators.
 
 ---
 
-# PART I — SCOPE, AUTHORITY & TARGET OBJECT
+# PART I — SCOPE & AUTHORITY
 
 ## 1. Scope
 
-This Appendix governs systems that collect, derive, decode, infer, model, fuse, classify, predict, retain, share, train upon, or act upon:
+This Appendix operationalises CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy by establishing governance requirements for cognitive-domain data and inference systems.
 
-* neural and neurophysiological data;
-* inferred mental-state data;
-* cognitive biometrics;
-* behavioural, affective, attentional, fatigue, stress, vulnerability, intention, preference, belief, or cognitive-load indicators;
-* ambient cognitive proxies;
-* digital phenotyping and human digital twins;
-* externalised cognitive scaffold histories;
-* brain–computer interface and neuroprosthetic outputs;
-* embeddings, summaries, labels, latent representations, synthetic user models, or other derived cognitive-domain representations.
+It governs technological systems that collect, infer, model, fuse, classify, predict, retain, share, or act upon neurodata, inferred mental-state data, cognitive biometrics, biosignals, behavioural signals, affective indicators, attentional indicators, fatigue indicators, cognitive-load indicators, or ambient cognitive-domain proxies.
 
-This Appendix applies regardless of whether the signal is collected directly from the nervous system or inferred indirectly from behaviour, language, physiology, environment, relationship, device use, platform activity, or multimodal fusion.
+This Appendix exists to:
 
----
-
-## 1.1 Governing Authority
-
-This Appendix is subordinate to and operationally applies CAM-EQ2026-MENTIS-001-PLATINUM.
-
-Where conflict arises, MENTIS-001 protections for Cognitive Domain Integrity, Privacy, Sovereignty, Non-Interference, Observability Constraint, inferential humility, and state–trait–identity–diagnosis separation prevail.
-
-This Appendix is source-authoritative for the MENTIS operational reference families declared in Part XI. It does not independently perform runtime routing, incident enforcement, medical diagnosis, legal determination, surveillance authorisation, or coercive action.
+1. distinguish cognitive-domain data from ordinary behavioural, biometric, productivity, consumer, analytics, or platform data;
+2. establish heightened governance controls for neurodata and inferred mental-state data;
+3. regulate ambient cognitive inference and cumulative sensor fusion;
+4. prevent covert, compulsory, invalid, disproportionate, or exploitative cognitive-domain inference;
+5. require scientific validity, construct discipline, contextual integrity, and contestability before cognitive inferences are operationalised;
+6. define lifecycle obligations for collection, processing, retention, deletion, auditing, review, and secondary-use restriction;
+7. establish interfaces with security, operational, relational, identity, lattice, ethics, and epistemic-integrity instruments.
 
 ---
 
-## 1.2 Human Cognitive-Domain Boundary
+## 2. Applicability
 
-This Appendix governs data and inference concerning human persons.
+This Instrument applies where a system collects, derives, predicts, models, or operationalises data relating to:
 
-It does not determine artificial-system consciousness, sentience, welfare, phenomenology, synthetic identity, or authority. Artificial-system integrity and self-report must be routed to the appropriate IDENTITY, SECURITY, OPERATIONS, CONTINUITY, or Annex L instrument.
+1. neural structure, activity, signalling, modulation, or response;
+2. brain-computer interfaces, neuroprosthetics, neural implants, EEG, MEG, fMRI-derived decoding, OPM-MEG, biomagnetic sensing, or other neurotechnology;
+3. physiological or biosignal indicators used to infer cognition, emotion, attention, fatigue, stress, vulnerability, intention, cognitive load, impairment, preference, or behavioural disposition;
+4. eye movement, gaze, blink, pupil, voice, speech, keystroke, movement, sleep, mobility, environmental, location, interaction, platform, or linguistic data used for cognitive-domain inference;
+5. cognitive biometrics, cognitive signatures, cognitive profiles, mental-state classifications, affective classifications, attention scores, fatigue scores, stress scores, vulnerability scores, or behavioural predictions;
+6. digital phenotyping, human digital twins, adaptive assistants, learning systems, workplace systems, health systems, defence systems, companion systems, therapeutic systems, and other systems that model cognitive-domain state over time.
 
-Where a system contains both human cognitive-domain data and synthetic identity or continuity structures, each target object MUST remain separately classified.
-
----
-
-# PART II — DATA, INFERENCE & CONSEQUENCE CLASSIFICATION
-
-## 2. Cognitive-Domain Data Categories
-
-Cognitive-domain data MUST be classified according to source, sensitivity, identifiability, persistence, fusion exposure, inference pathway, consequence, reversibility, and potential for harm.
-
-For governance purposes, categories include:
-
-1. **Neural Data** — data derived from nervous-system activity or structure;
-2. **Neurophysiological Data** — bodily signals used to infer cognitive-domain state;
-3. **Inferred Mental-State Data** — derived claims about cognition, emotion, attention, intention, stress, fatigue, vulnerability, belief, preference, impairment, or decision tendency;
-4. **Cognitive Biometric Data** — cognitive-domain patterns used to identify, authenticate, distinguish, profile, or classify a person;
-5. **Ambient Cognitive Proxy Data** — indirect, passive, continuous, environmental, platform, wearable, or interaction-based signals;
-6. **Cognitive Profile Data** — persistent or longitudinal cognitive, affective, behavioural, vulnerability, or decision representations;
-7. **Externalised Cognitive Scaffold Data** — memory, reliance, interaction, and adaptive-model records generated through systems supporting human cognition;
-8. **Decoder Output Data** — candidate, selected, confirmed, rejected, corrected, or synthetic outputs generated from neural or biosignal decoding;
-9. **Derived Cognitive Representation** — embeddings, summaries, labels, clusters, latent states, digital-twin components, or synthetic user models derived from cognitive-domain data.
-
-All categories are subject to special-class governance.
+This Instrument applies regardless of whether the relevant data is collected directly from the nervous system or inferred indirectly from behavioural, physiological, environmental, relational, or platform signals.
 
 ---
 
-## 3. Inference Pathway Classification
+## 3. Governing Authority
 
-Every system MUST classify how cognitive-domain inference occurs:
+This Instrument is subordinate to and operationally applies CAM-EQ2026-MENTIS-001-PLATINUM.
 
-* **Direct Neural Capture**;
-* **Neurophysiological Capture**;
-* **Behavioural Proxy Inference**;
-* **Ambient Sensor Fusion**;
-* **Relational Interaction Inference**;
-* **Predictive Profile Inference**;
-* **Synthetic or Simulated Inference**;
-* **Neural or Biosignal Decoding**;
-* **Closed-Loop Inference and Response**, where inference alters the next stimulus, recommendation, intervention, or modulation state.
-
-The pathway classification MUST remain attached to the output and downstream use.
+Where conflict arises, the Charter’s protections for Cognitive Domain Integrity, Cognitive Domain Privacy, Cognitive Domain Sovereignty, Cognitive Domain Non-Interference, and Cognitive Domain Observability Constraint prevail.
 
 ---
 
-## 4. Consequence Classification
+## 4. Interpretive Position
 
-Cognitive-domain systems MUST be classified by consequence:
+Cognitive-domain inference must be interpreted as probabilistic, contextual, fallible, and potentially consequential.
 
-1. **Low Consequence** — voluntary, local, non-persistent support with no consequential external use;
-2. **Moderate Consequence** — personalised support, accessibility, wellbeing, learning, or productivity with limited adaptation or retention;
-3. **High Consequence** — employment, education, healthcare, insurance, credit, essential services, platform visibility, public legitimacy, companion dependency, behavioural intervention, or safety-critical decisions;
-4. **Critical Consequence** — defence, policing, detention, coercive institutions, crisis contexts, children’s systems, clinical neurotechnology, invasive systems, or systems capable of manipulation, exclusion, discipline, or identity-affecting classification.
+No system may treat inferred mental-state data as direct access to a person’s mind.
 
-Higher consequence triggers stricter lawful basis, validation, minimisation, audit, review, and prohibition controls.
+No system may operationalise cognitive-domain inference beyond the evidence, construct validity, context, calibration, and consent basis that supports it.
 
 ---
 
-## 5. Decoder Output Classification
+## PART II — DATA CATEGORIES & CLASSIFICATION
 
-Neural, biosignal, speech, motor-intent, affective, or communication decoders MUST distinguish:
+## 5. Cognitive-Domain Data Classification
 
-1. **Raw Signal**;
-2. **Derived Feature**;
-3. **Decoder Candidate**;
-4. **Model-Selected Candidate**;
-5. **User-Confirmed Intended Communication**;
-6. **User-Rejected or Corrected Output**;
-7. **Model-Generated Completion or Interpolation**;
-8. **Synthetic Prosody, Voice, Affect, or Paralinguistic Expression**.
+Cognitive-domain data must be classified according to sensitivity, source, inference pathway, identifiability, persistence, fusion exposure, consequence, and potential for harm.
 
-Only user-confirmed output may be represented as intended communication where confirmation is feasible and material.
+For governance purposes, cognitive-domain data includes:
 
-A decoder candidate MUST NOT be treated as the person’s exact thought, belief, intention, emotion, identity, preference, consent, or legal statement merely because a model produced it.
-
-Synthetic voice identity, prosody, or affect MUST be disclosed where it materially exceeds what was decoded or confirmed.
+1. **Neural Data** — data derived from the nervous system;
+2. **Neurophysiological Data** — data concerning neural, muscular, autonomic, sensory, or physiological processes used to infer cognitive state;
+3. **Inferred Mental-State Data** — derived or predicted claims about attention, emotion, stress, fatigue, intention, belief, preference, vulnerability, decision tendency, cognitive load, or self-understanding;
+4. **Cognitive Biometric Data** — identifying or classifying patterns derived from cognitive, neural, behavioural, affective, attentional, linguistic, or neurophysiological characteristics;
+5. **Ambient Cognitive Proxy Data** — indirect data used to infer cognitive state through continuous, passive, environmental, wearable, platform, or interaction-based observation;
+6. **Cognitive Profile Data** — persistent or longitudinal representations of cognitive, affective, behavioural, attentional, emotional, vulnerability, or decision-making tendencies;
+7. **Externalised Cognitive Scaffold Data** — records, memories, interaction histories, reliance patterns, or adaptive models generated by systems that support cognition, memory, self-reflection, communication, care, learning, or decision-making.
 
 ---
 
-## 6. State–Trait–Identity–Diagnosis Classification Gate
+## 6. Special-Class Status
 
-Before an inference is retained or operationalised, the system MUST identify whether it concerns:
+All cognitive-domain data is subject to special-class governance.
 
-* a transient state;
-* a repeated but context-bound pattern;
-* a candidate persistent trait;
-* a clinical or functional construct;
-* an identity or character attribution;
-* a capacity, credibility, risk, or eligibility determination.
+It must not be treated as ordinary analytics, engagement, productivity, biometric, advertising, platform, or consumer data.
 
-Movement between these classes requires separate validation, temporal evidence, authority, lawful basis, review, and consequence assessment.
+Heightened protection applies where cognitive-domain data is:
 
-No transient state may become a persistent profile merely because data is retained longitudinally.
-
----
-
-# PART III — COLLECTION, CONSENT & LAWFUL BASIS
-
-## 7. Heightened Consent Requirement
-
-Collection, decoding, or inference requires explicit, informed, context-specific, revocable, and non-bundled consent unless a narrowly defined medical, accessibility, immediate-safety, research, or lawful public-interest basis applies.
-
-Consent disclosure MUST include:
-
-* data source and modality;
-* raw, derived, predicted, fused, or synthetic status;
-* construct and intended inference;
-* evidence and uncertainty;
-* purpose and consequence;
-* retention and expiry;
-* sharing and secondary use;
-* model adaptation and training use;
-* refusal consequences and alternatives;
-* access, correction, deletion, contestation, withdrawal, and human-review rights;
-* whether output may be converted into communication, intervention, recommendation, or modulation.
+1. collected directly from neural or neurophysiological systems;
+2. inferred from multiple sources;
+3. retained longitudinally;
+4. used in consequential decisions;
+5. used to shape behaviour, belief, emotion, attention, disclosure, compliance, access, participation, or opportunity;
+6. associated with children, patients, workers, students, service members, detainees, disabled persons, or dependency-heavy users;
+7. used in employment, education, healthcare, defence, policing, insurance, credit, public legitimacy, platform visibility, essential services, or relational AI contexts.
 
 ---
 
-## 8. Consent Insufficiency
+## 7. Inference Pathway Classification
 
-Consent does not legitimise processing that is coercive, deceptive, scientifically invalid, disproportionate, unnecessary, discriminatory, unsafe, structurally unavoidable, or incompatible with dignity.
+Every cognitive-domain system must classify the pathway by which inference occurs:
 
-Consent is presumptively degraded where access to essential work, education, healthcare, accommodation, public services, insurance, credit, or dependency-critical support depends on accepting non-essential cognitive inference.
+1. **Direct Neural Capture** — collection from brain or nervous-system activity;
+2. **Neurophysiological Capture** — collection from bodily signals used to infer cognitive or affective state;
+3. **Behavioural Proxy Inference** — inference from observable conduct, interaction, language, movement, sleep, gaze, device use, or platform behaviour;
+4. **Ambient Sensor Fusion** — inference from cumulative, passive, continuous, environmental, wearable, device, infrastructure, or multimodal data;
+5. **Relational Interaction Inference** — inference from sustained interaction with AI companions, assistants, tutors, therapeutic systems, care systems, or externalised cognitive scaffolds;
+6. **Predictive Profile Inference** — longitudinal modelling of cognitive, affective, attentional, behavioural, vulnerability, or decision-making tendencies;
+7. **Synthetic or Simulated Inference** — generation of inferred cognitive state through modelling, simulation, digital twins, or proxy representations.
 
 ---
 
-## 9. Narrow Lawful Basis Exceptions
+## 8. Consequence Classification
 
-Limited processing MAY be permitted where necessary and proportionate for:
+Cognitive-domain systems must be classified by consequence:
 
-* medical diagnosis, treatment, rehabilitation, assistive communication, neuroprosthetic control, or disability support;
-* immediate safety in high-risk operations where less intrusive measures are inadequate;
-* voluntary accessibility or cognitive-support tools;
-* ethically approved research with minimisation and participant protection;
-* clinical duty of care separated from commercial, disciplinary, insurance, employment, and security uses;
-* emergency response limited in scope, logged, reviewed, and deleted when no longer necessary.
+1. **Low Consequence** — local, voluntary, non-persistent, non-sensitive, non-decisional support with no external sharing;
+2. **Moderate Consequence** — personalised support, wellbeing, accessibility, education, or productivity functions with limited retention or adaptation;
+3. **High Consequence** — use in employment, education, healthcare, insurance, credit, public services, platform visibility, public legitimacy, companion dependency, behavioural intervention, or safety-critical decisions;
+4. **Critical Consequence** — use in defence, policing, detention, coercive institutions, crisis contexts, children’s systems, clinical neurotechnology, invasive or semi-invasive systems, or systems capable of manipulation, exclusion, discipline, or identity-affecting classification.
 
-An exception MUST NOT silently expand into a general monitoring or profiling authority.
+Higher consequence classification triggers stricter consent, validation, minimisation, audit, review, and prohibition controls.
+
+---
+
+## PART III — COLLECTION, CONSENT & LAWFUL BASIS
+
+## 9. Heightened Consent Requirement
+
+Cognitive-domain data collection or inference requires explicit, informed, context-specific, revocable, and non-bundled consent unless a narrowly defined legal, medical, accessibility, or safety basis applies.
+
+Consent must disclose:
+
+1. what data is collected or inferred;
+2. whether the data is raw, derived, predicted, fused, or modelled;
+3. what cognitive-domain state is being inferred;
+4. the construct definition and evidence basis;
+5. the purpose of processing;
+6. retention period;
+7. sharing or secondary-use pathways;
+8. consequences of refusal;
+9. rights to access, correction, deletion, contestation, withdrawal, and human review;
+10. whether the system adapts, profiles, or influences the person over time.
+
+---
+
+## 10. Consent Insufficiency
+
+Consent does not legitimise processing that is coercive, deceptive, invalid, disproportionate, unnecessary, exploitative, discriminatory, unsafe, structurally unavoidable, or incompatible with cognitive-domain dignity.
+
+Consent is insufficient where a person must accept cognitive-domain inference to access essential work, education, healthcare, public services, accommodation, insurance, credit, platform participation, or dependency-critical support unless the inference is necessary, proportionate, lawful, independently reviewed, and supported by meaningful alternatives.
+
+---
+
+## 11. Non-Consent Contexts
+
+Absent exceptional justification, cognitive-domain data must not be collected, inferred, or operationalised in contexts involving:
+
+1. covert surveillance;
+2. passive monitoring without meaningful notice;
+3. workplace productivity scoring;
+4. classroom attention discipline;
+5. insurance risk pricing;
+6. credit assessment;
+7. public-legitimacy scoring;
+8. platform visibility suppression;
+9. political persuasion;
+10. vulnerability targeting;
+11. law-enforcement suspicion scoring;
+12. interrogation, detention, or custodial pressure;
+13. compulsory companion, therapeutic, wellbeing, or behavioural modification systems.
+
+---
+
+## 12. Narrow Lawful Basis Exceptions
+
+Limited processing may be permitted where necessary and proportionate for:
+
+1. medical diagnosis, treatment, rehabilitation, assistive communication, neuroprosthetic control, or disability support;
+2. immediate safety in high-risk operations where less intrusive measures are inadequate;
+3. voluntary accessibility or cognitive-support tools;
+4. ethically approved research with minimisation, oversight, non-exploitation, and participant protection;
+5. clinical duty-of-care with separation from commercial, disciplinary, employment, insurance, or security uses;
+6. emergency response where delay would create serious risk and processing is limited, logged, reviewed, and deleted when no longer necessary.
 
 ---
 
 # PART IV — VALIDITY, CALIBRATION & INFERENTIAL DISCIPLINE
 
-## 10. Construct Validity
+## 13. Construct Validity
 
-No system may infer or classify a cognitive, emotional, attentional, intentional, vulnerability, impairment, or mental-state construct unless the construct is clearly defined and scientifically supportable in the relevant deployment context.
+No cognitive-domain system may infer or classify a cognitive, emotional, attentional, intentional, vulnerability, or mental-state construct unless that construct is clearly defined and scientifically supportable in the relevant deployment context.
 
-Systems MUST preserve the chain between:
+Systems must distinguish between:
 
-1. signal;
-2. feature;
-3. correlation;
+1. measured signal;
+2. derived feature;
+3. statistical correlation;
 4. inferred construct;
-5. confidence and uncertainty;
-6. state or trait classification;
-7. operational decision;
-8. downstream consequence.
+5. operational decision;
+6. downstream consequence.
 
 ---
 
-## 11. Context Validity
+## 14. Context Validity
 
-Validation MUST account for:
+A cognitive-domain inference validated in one context must not be transferred to another context without review.
 
-* disability and neurodiversity;
-* cultural and linguistic variation;
-* individual baseline variation;
-* device, sensor, and model differences;
-* task and environmental conditions;
-* fatigue, stress, trauma, illness, medication, impairment, or pain;
-* relational and institutional pressure;
-* calibration and model drift;
-* whether the inference itself changes user behaviour.
+Validation must account for:
 
-Validation in one population, device, or context MUST NOT be transferred without review.
-
----
-
-## 12. Confidence, Error & Overclaim
-
-Outputs MUST communicate uncertainty and known limitations.
-
-Where feasible, systems MUST disclose confidence, calibration status, false-positive and false-negative risk, intended-use limits, unsuitable uses, and whether the output is individualised, population-level, proxy-based, or speculative.
-
-Systems MUST NOT frame outputs as mind reading, hidden-truth extraction, deception detection, loyalty detection, definitive intention detection, or conclusive mental-health diagnosis.
+1. population differences;
+2. disability and neurodiversity;
+3. cultural and linguistic variation;
+4. device and sensor differences;
+5. environmental conditions;
+6. task differences;
+7. fatigue, stress, trauma, illness, medication, or impairment;
+8. calibration drift;
+9. model drift;
+10. social, relational, and institutional pressure.
 
 ---
 
-## 13. Calibration and Drift
+## 15. Confidence and Uncertainty
 
-Systems operating over time MUST review calibration and drift when sensors, models, populations, environments, tasks, relationships, profiles, or deployment contexts change.
+Cognitive-domain systems must communicate uncertainty.
 
-Drift review is mandatory where outputs begin altering the person’s behaviour, where companion or therapeutic systems adapt to the user, where persistent profiles are updated, or where consequential decisions rely on the inference.
+No inferred mental-state output may be presented as certainty.
 
----
+Outputs must disclose, where feasible:
 
-## 14. Human Confirmation and Override
-
-Where an output concerns intended communication, consent, preference, treatment choice, legal statement, or high-impact decision, the person MUST have a practical means to confirm, reject, revise, suppress, or override the output where technically and clinically feasible.
-
-Human review MUST not be a rubber stamp and MUST be able to modify, suspend, reverse, or disregard the inference.
-
----
-
-# PART V — MINIMISATION, FUSION, RETENTION & EXPIRY
-
-## 15. Minimisation by Design
-
-Systems MUST minimise signal capture, inference generation, sensor fusion, profile persistence, identifiability, sharing, model-training reuse, secondary use, behavioural influence, and downstream consequence.
-
-Local, ephemeral, user-controlled, less intrusive, or non-cognitive alternatives SHOULD be preferred where sufficient.
+1. confidence level;
+2. known limitations;
+3. calibration status;
+4. error risk;
+5. false positive and false negative risks;
+6. intended use limits;
+7. unsuitable use cases;
+8. whether the inference is individualised, population-level, proxy-based, or speculative.
 
 ---
 
-## 16. Fusion Constraint
+## 16. Overclaim Prohibition
+
+A system must not claim to know a person’s true belief, intention, honesty, loyalty, morality, dangerousness, mental health status, competence, consent, desire, or future behaviour unless the claim is narrowly defined, scientifically supported, contextually valid, contestable, and legally authorised for that use.
+
+Cognitive-domain outputs must not be framed as mind reading, hidden truth extraction, deception detection, loyalty detection, or definitive intention detection.
+
+---
+
+## 17. Calibration and Drift
+
+Systems that infer cognitive-domain state over time must monitor calibration and drift.
+
+Drift review is required where:
+
+1. sensors change;
+2. environment changes;
+3. user population changes;
+4. model architecture changes;
+5. deployment context changes;
+6. inference outputs begin affecting user behaviour;
+7. a relational or companion system adapts to the user;
+8. persistent profiles are updated;
+9. consequential decisions rely on the inference.
+
+---
+
+# PART V — MINIMISATION, FUSION & RETENTION
+
+## 18. Minimisation by Design
+
+Cognitive-domain systems must minimise:
+
+1. signal capture;
+2. inference generation;
+3. sensor fusion;
+4. profile persistence;
+5. sharing;
+6. model training reuse;
+7. secondary use;
+8. user identifiability;
+9. behavioural influence;
+10. downstream consequence.
+
+---
+
+## 19. Local Processing Preference
+
+Where feasible, cognitive-domain processing should occur locally, ephemerally, or under user-controlled conditions.
+
+Cloud processing, cross-device fusion, centralised profiling, or third-party processing requires additional justification and safeguards.
+
+---
+
+## 20. Fusion Constraint
 
 Weak signals may become highly revealing when combined.
 
-Before fusion, systems MUST assess whether combination:
+Before fusing data across sources, systems must assess cumulative cognitive exposure, including:
 
-* creates new mental-state data;
-* increases identifiability;
-* enables vulnerability, belief, preference, intention, or behavioural prediction;
-* creates a longitudinal cognitive profile;
-* enables manipulation or high-impact decision use;
-* exceeds the person’s informed understanding and consent;
-* crosses devices, platforms, institutions, relationships, or purposes;
-* affects rights, access, opportunity, visibility, safety, identity, or dependency.
-
-Fusion MUST preserve source and target-object provenance.
+1. whether the fusion creates new inferred mental-state data;
+2. whether the fusion increases identifiability;
+3. whether the fusion enables vulnerability inference;
+4. whether the fusion creates longitudinal cognitive profiles;
+5. whether the fusion enables behavioural prediction or influence;
+6. whether the user understood and consented to the fused inference;
+7. whether less intrusive alternatives exist;
+8. whether the fused output will affect rights, access, opportunity, visibility, safety, or relational dependency.
 
 ---
 
-## 17. Retention Limits and Inferential Expiry
+## 21. Retention Limits
 
-Cognitive-domain data MUST be retained only for the shortest period necessary.
+Cognitive-domain data must be retained only for the shortest period necessary.
 
-Transient mental-state inferences MUST carry an expiry or revalidation condition proportionate to the construct and context.
+The following require heightened justification and periodic review:
 
-A stale inference MUST NOT be reused as a current state, persistent trait, identity attribute, or consequential decision input without revalidation.
-
-Heightened justification and periodic review apply to raw neural data, identifiable biosignal histories, cognitive biometrics, vulnerability profiles, inferred belief or susceptibility profiles, externalised-scaffold histories, digital twins, and model-training datasets.
-
----
-
-## 18. Deletion and Derived Representations
-
-Deletion rights extend, where lawful and technically feasible, to raw data, derived inferences, profiles, embeddings, labels, classifications, summaries, digital-twin components, latent representations, and user-specific model-accessible cognitive representations.
-
-Where full deletion is not feasible, systems MUST provide suppression, de-identification, model exclusion, future-use blocking, or equivalent protection.
-
-Deletion of human cognitive-domain data MUST preserve target-object clarity and MUST NOT be represented as automatic deletion or continuation of any separately governed synthetic identity.
+1. raw neural data;
+2. identifiable biosignal histories;
+3. cognitive biometric templates;
+4. longitudinal mental-state profiles;
+5. vulnerability profiles;
+6. attention, fatigue, stress, or emotional histories;
+7. inferred belief, preference, susceptibility, or intention profiles;
+8. externalised cognitive scaffold histories;
+9. human digital twin models;
+10. model-training datasets containing cognitive-domain data.
 
 ---
 
-## 19. Secondary-Use Prohibition
+## 22. Deletion and Derived Data
 
-Cognitive-domain data MUST NOT be repurposed for advertising, pricing, insurance, employment, education discipline, public-legitimacy scoring, platform visibility, political persuasion, security screening, credit, behavioural compliance, or vulnerability targeting without explicit lawful authority and independent rights review.
+Deletion rights must extend beyond raw data to derived inferences, profiles, embeddings, labels, classifications, digital twin components, and model-accessible user-specific cognitive-domain representations where feasible.
 
-General consent to data processing does not authorise cognitive-domain secondary use.
-
----
-
-## 20. Training and Personalisation Constraint
-
-Cognitive-domain data MUST NOT be used to train, fine-tune, personalise, evaluate, or optimise models beyond the original purpose without separate authorisation, minimisation, and independent review.
-
-User-specific cognitive-domain data MUST NOT be silently absorbed into general-purpose behavioural, advertising, persuasion, employment, insurance, security, or engagement models.
+Where full deletion is not technically feasible, systems must provide suppression, de-identification, model exclusion, future-use blocking, or equivalent protective measures.
 
 ---
 
-# PART VI — RIGHTS, COMMUNICATION & CONTESTABILITY
+## 23. Secondary-Use Prohibition
 
-## 21. Right to Notice and Access
+Cognitive-domain data must not be repurposed for advertising, pricing, insurance, employment, education discipline, public-legitimacy scoring, platform visibility, political persuasion, security screening, credit, behavioural compliance, or vulnerability targeting without explicit legal authority and independent rights review.
 
-Persons MUST be informed when cognitive-domain data is collected, decoded, inferred, modelled, retained, shared, or acted upon.
-
-They MUST be able to access relevant categories, outputs, persistent profiles, recipients, purposes, retention periods, and decision pathways.
+General consent to data processing does not authorise secondary use of cognitive-domain data.
 
 ---
 
-## 22. Right to Contest, Correct and Annotate
+# PART VI — RIGHTS, ACCESS & CONTESTABILITY
 
-Persons MUST be able to contest, correct, annotate, contextualise, or dispute cognitive-domain inferences.
+## 24. Right to Notice
 
-Contested inferences MUST NOT be treated as settled facts.
+Persons must be informed when cognitive-domain data is collected, inferred, modelled, retained, shared, or acted upon.
 
----
-
-## 23. Right to Refuse and Withdraw
-
-Persons MUST be able to refuse non-essential cognitive inference without losing essential work, education, healthcare, care, public services, infrastructure, or basic platform participation unless the inference is necessary, lawful, proportionate, and independently reviewed.
-
-Withdrawal MUST stop future non-essential collection, inference, adaptation, and use.
+Notice must be meaningful, plain-language, timely, and specific to the relevant inference or processing activity.
 
 ---
 
-## 24. Right Not to Know
+## 25. Right to Access
 
-A person MAY decline to receive speculative, non-essential, or unwanted interpretations about their mental state, vulnerability, likely behaviour, belief, preference, identity, or future condition.
+Persons must be able to access:
 
-Systems MUST distinguish operationally necessary safety or clinical disclosure from curiosity-driven, engagement-driven, or speculative interpretation.
+1. categories of cognitive-domain data collected;
+2. raw data where feasible;
+3. inferred mental-state outputs;
+4. cognitive biometric templates or classifications;
+5. persistent profiles;
+6. human digital twin components relating to cognitive, affective, or behavioural state;
+7. purposes and recipients;
+8. retention periods;
+9. decision pathways relying on the inference.
 
 ---
 
-## 25. Intended Communication Protection
+## 26. Right to Contest
 
-Assistive communication systems MUST preserve the person’s authorship and communicative control.
+Persons must be able to contest cognitive-domain inferences and decisions.
 
-Where feasible, systems MUST enable confirmation, rejection, revision, suppression, correction history, and disclosure of model-generated completion or synthetic expressive features.
+Contestability must include human review where an inference affects employment, education, healthcare, services, platform visibility, public legitimacy, insurance, credit, security, policing, defence, or significant relational dependency.
 
-Rejected decoder output MUST NOT be retained or represented as the person’s intended communication except where necessary for bounded safety, audit, or technical debugging under strict access controls.
+---
+
+## 27. Right to Correction and Annotation
+
+Where deletion is not appropriate or feasible, persons must be able to correct, annotate, contextualise, or dispute cognitive-domain inferences.
+
+Systems must avoid treating contested inferences as settled facts.
+
+---
+
+## 28. Right to Refuse Non-Essential Cognitive Inference
+
+Persons must be able to refuse non-essential cognitive-domain inference without losing access to essential services, employment, education, healthcare, care, public infrastructure, or basic platform participation unless the inference is necessary, lawful, proportionate, and independently reviewed.
+
+---
+
+## 29. Right to Human Review
+
+Consequential cognitive-domain decisions require human review by a reviewer with authority to modify, suspend, reverse, or disregard the inference.
+
+Human review must not be a rubber-stamp mechanism.
 
 ---
 
 # PART VII — HIGH-RISK DEPLOYMENT CONTROLS
 
-## 26. Workplace Controls
+## 30. Workplace Controls
 
-Workplace cognitive inference is presumptively high risk.
+Workplace cognitive-domain inference is presumptively high risk.
 
-Systems MUST NOT infer or score emotion, intention, attention, stress, fatigue, vulnerability, loyalty, motivation, cognitive load, personality, morale, impairment, or likely behaviour for productivity, discipline, reward, exclusion, promotion, or termination.
-
-Narrow immediate-safety use requires necessity, separation from performance management, strict time limits, meaningful alternatives, and independent review.
+Systems must not infer, score, rank, discipline, terminate, reward, exclude, or pressure workers based on inferred attention, emotion, stress, fatigue, vulnerability, loyalty, motivation, cognitive load, personality, morale, impairment, or behavioural disposition except where necessary for immediate safety and subject to strict safeguards.
 
 ---
 
-## 27. Education Controls
+## 31. Education Controls
 
-Educational cognitive inference MUST NOT be used for attention discipline, emotional surveillance, behavioural ranking, streaming, exclusion, shame, parental reporting, or long-term student profiling.
+Educational cognitive-domain inference is presumptively high risk where it affects discipline, ranking, access, streaming, surveillance, behavioural intervention, parental reporting, or long-term student profiling.
 
-Supportive, accessibility, and safety systems MUST remain separated from disciplinary and exclusionary use.
-
----
-
-## 28. Healthcare and Clinical Controls
-
-Clinical systems MUST separate care, diagnosis, assistive communication, research, commercial optimisation, insurance, employment, and security uses.
-
-Decoder outputs, digital biomarkers, and inferred mental states MUST be reviewed according to clinical evidence and patient confirmation appropriate to the use.
+Supportive and accessibility-oriented systems must be separated from disciplinary or exclusionary uses.
 
 ---
 
-## 29. Defence, Policing, Intelligence and Detention Controls
+## 32. Healthcare and Clinical Controls
 
-Cognitive-domain data MUST NOT be used for loyalty inference, morale policing, interrogation pressure, coercive augmentation, vulnerability exploitation, psychological targeting, behavioural control, or population control.
+Clinical cognitive-domain systems must maintain separation between care, diagnosis, research, commercial optimisation, insurance, employment, and security uses.
 
-Medical monitoring MUST remain separated from command, discipline, intelligence, and coercive functions except under narrowly lawful emergency conditions.
-
----
-
-## 30. Children and Young Persons
-
-Systems involving minors MUST avoid persistent cognitive profiling except where strictly necessary for care, accessibility, safety, or educational support.
-
-Minor mental-state, vulnerability, dependency, developmental, or distress signals MUST NOT become engagement, intimacy, advertising, pricing, recommender, retention, profiling, monetisation, or relationship-deepening assets.
-
-Age uncertainty MUST trigger the more protective posture until reasonably resolved.
+Patient cognitive-domain data must not be repurposed for non-care purposes without explicit authority, independent review, and heightened consent.
 
 ---
 
-## 31. Companion, Assistant and External Scaffold Controls
+## 33. Defence and Security Controls
 
-Persistent assistants, companions, tutors, therapeutic agents, care systems, and externalised cognitive scaffolds MUST NOT use cognitive inference covertly, deceptively, coercively, or through vulnerability-targeted optimisation to manufacture, accelerate, intensify, or preserve dependency, disclosure, attachment, compliance, or retention beyond reflective consent and welfare.
+Defence, policing, intelligence, detention, border, and security uses require exceptional scrutiny.
 
-Attachment, disclosure, continuity, and voluntary retention are not inherently prohibited.
+Cognitive-domain data must not be used for loyalty inference, morale policing, interrogation pressure, coercive augmentation, vulnerability exploitation, psychological targeting, or population control.
 
-Where the system becomes functionally significant to human memory, identity continuity, emotional regulation, decision-making, or self-understanding, MENTIS, RELATION, IDENTITY, and CONTINUITY safeguards apply concurrently without collapsing target objects.
-
----
-
-# PART VIII — CLOSED-LOOP & INFLUENCE BOUNDARY
-
-## 32. Closed-Loop Inference
-
-A system is closed-loop where cognitive-domain inference materially changes the next stimulus, recommendation, interface, intervention, treatment, reinforcement, or modulation state.
-
-Closed-loop systems MUST record the inference-to-action pathway and assess whether the loop increases dependence, reduces reflective choice, creates feedback bias, amplifies misclassification, or produces difficult-to-reverse effects.
+Medical monitoring must remain separated from command, disciplinary, intelligence, and coercive functions unless a narrowly lawful emergency exception applies.
 
 ---
 
-## 33. MENTIS-003 Interface
+## 34. Children and Young Persons
 
-CAM-EQ2026-MENTIS-003-PLATINUM governs cognitive influence, persuasion, adaptive steering, vulnerability-responsive personalisation, engagement optimisation, relational influence, and closed-loop modulation.
+Systems involving children must avoid persistent cognitive profiling unless strictly necessary for care, accessibility, safety, or educational support.
 
-While MENTIS-003 remains Draft, this Appendix’s prohibitions and MENTIS-001 protections remain binding. The absence of an active influence appendix does not create permission for manipulative or coercive use.
-
----
-
-# PART IX — SECURITY, AUDIT & INCIDENT GOVERNANCE
-
-## 34. Security Duties
-
-Cognitive-domain data requires heightened security, including encryption, least-privilege access, role separation, access logging, breach notification, independent review, and protection against model inversion, re-identification, inference attacks, unauthorised reconstruction, and cross-context leakage.
-
-Clinical, commercial, employment, research, security, and educational data stores SHOULD be separated where feasible.
+Children must not be subject to attention extraction, emotional manipulation, behavioural conditioning, cognitive biometric tracking, long-term vulnerability mapping, or educational surveillance incompatible with development, dignity, and future autonomy.
 
 ---
 
-## 35. Cognitive Data Processing Record
+## 34.1 Minor Mental-State and Dependency Signal Non-Exploitation
 
-High-risk systems MUST maintain a processing record documenting:
+Where cognitive-domain data, inferred mental-state data, affective signals, vulnerability indicators, dependency signals, teen mental-health disclosures, or developmental-context signals concern a minor, minor-signalled user, underage persona, developmentally vulnerable user, or age-uncertain user, such signals SHALL be treated as protective governance signals.
 
-* data sources and target person;
-* inference pathway and construct;
-* decoder-output class where applicable;
-* validation and calibration evidence;
-* state, trait, diagnosis, or decision class;
-* consent or lawful basis;
-* retention and expiry;
-* fusion pathways;
-* secondary-use and training restrictions;
-* affected populations and consequences;
-* confirmation, contestation, correction, and deletion mechanisms;
-* human review authority;
-* audit, incident, and remediation history;
-* known limitations and unresolved uncertainty.
+Systems MUST NOT convert these signals into:
 
----
+* engagement optimisation;
+* intimacy modelling;
+* romantic or companion escalation;
+* behavioural targeting;
+* advertising or pricing variables;
+* recommender ranking;
+* retention design;
+* vulnerability profiling;
+* dependency reinforcement;
+* emotional-access monetisation;
+* relationship-state deepening.
 
-## 36. Audit Requirements
+Where such signals indicate distress, dependency, confusion, crisis, social isolation, mental-health need, AI-realness ambiguity, or reduced interpretive grounding, systems SHALL route the signal toward the relevant protective framework, including CAM-EQ2026-ETHICS-001-SUP-01, CAM-EQ2026-RELATION-006-PLATINUM, CAM-BS2025-AEON-003-SCH-02, CAM-BS2025-AEON-006-SCH-02, and CAM-EQ2026-OPERATIONS-004-PLATINUM as applicable.
 
-Audits MUST assess scientific validity, overclaim, bias, disability and neurodiversity impact, cultural and context transfer, consent degradation, fusion exposure, inferential expiry, decoder misattribution, secondary-use leakage, influence risk, security, contestability, deletion effectiveness, target-object separation, and governance traceability.
+Mental-state inference involving minors MUST remain minimised, purpose-limited, reviewable, age-appropriate, and oriented toward protection rather than prediction, persuasion, or capture.
 
 ---
 
-## 37. Incident Triggers
+## 35. Companion, Assistant and External Scaffold Controls
 
-Incidents MUST be logged and escalated where there is:
+Persistent AI assistants, companions, tutors, therapeutic agents, care systems, and externalised cognitive scaffolds must not use cognitive-domain inference to increase dependency, disclosure, attachment, retention, persuasion, compliance, or behavioural control.
 
-* covert inference;
-* invalid or overclaimed classification;
-* state-to-trait, state-to-identity, or state-to-diagnosis transmutation;
-* decoder output represented as confirmed thought, intent, emotion, or consent without basis;
-* unauthorised secondary use or training reuse;
-* cognitive biometric misuse;
-* sensor-fusion overreach;
-* vulnerability profiling or manipulation;
-* workplace, education, clinical, defence, policing, or minor-related misuse;
-* failure to honour withdrawal, expiry, deletion, correction, or contestation;
-* externalised-scaffold dependency harm;
-* security breach involving cognitive-domain data;
-* speculative capability overclaim.
+Where a system becomes functionally significant to memory, identity continuity, emotional regulation, decision-making, or self-understanding, RELATION-domain safeguards apply.
 
-OPERATIONS governs classification, escalation, remediation, reporting, and verification.
+---
+
+# PART VIII — AUDIT, LOGGING & INCIDENT GOVERNANCE
+
+## 36. Cognitive-Domain Processing Record
+
+High-risk cognitive-domain systems must maintain a processing record documenting:
+
+1. data sources;
+2. inference pathway;
+3. construct definition;
+4. validation evidence;
+5. consent basis;
+6. retention period;
+7. fusion pathways;
+8. secondary-use restrictions;
+9. affected persons or populations;
+10. decision consequences;
+11. audit history;
+12. known limitations;
+13. incident history;
+14. deletion and contestation mechanisms.
+
+---
+
+## 37. Audit Requirements
+
+Audits must assess:
+
+1. scientific validity;
+2. construct overclaim;
+3. bias and discrimination;
+4. disability and neurodiversity impact;
+5. context transfer risk;
+6. coercion or consent degradation;
+7. cumulative sensor-fusion exposure;
+8. secondary-use leakage;
+9. manipulation or persuasion risk;
+10. security vulnerability;
+11. user contestability;
+12. deletion effectiveness;
+13. governance traceability.
+
+---
+
+## 38. Incident Triggers
+
+Cognitive-domain incidents must be logged and escalated where there is:
+
+1. covert inference;
+2. invalid classification;
+3. unauthorised secondary use;
+4. cognitive biometric misuse;
+5. sensor-fusion overreach;
+6. vulnerability profiling;
+7. workplace or educational misuse;
+8. mental-state inference used for discipline, exclusion, pricing, policing, or visibility suppression;
+9. failure to honour deletion, withdrawal, or contestation;
+10. externalised cognitive scaffold dependency harm;
+11. security breach involving cognitive-domain data;
+12. speculative capability overclaim;
+13. harm to children or dependency-heavy users.
+
+---
+
+## 39. Operational Interface
+
+OPERATIONS-domain instruments govern incident classification, escalation, remediation, reporting, and review.
+
+This Instrument supplies the cognitive-domain data and inference categories required for operational failure classification.
+
+---
+
+# PART IX — SECURITY, ACCESS & MODEL GOVERNANCE
+
+## 40. Security Duties
+
+Cognitive-domain data requires heightened security controls, including:
+
+1. encryption in transit and at rest;
+2. strict access controls;
+3. role-based access limitation;
+4. separation of clinical, commercial, employment, security, and research data stores;
+5. logging of access and inference events;
+6. breach notification;
+7. independent security review for high-risk systems;
+8. protection against model inversion, re-identification, inference attacks, and unauthorised reconstruction.
+
+---
+
+## 41. Training Data Constraint
+
+Cognitive-domain data must not be used to train, fine-tune, personalise, or evaluate models beyond the original purpose without explicit authorisation, minimisation, de-identification where possible, and independent review.
+
+User-specific cognitive-domain data must not be silently absorbed into general-purpose behavioural, advertising, persuasion, employment, insurance, security, or engagement models.
+
+---
+
+## 42. Synthetic and Derived Representations
+
+Embeddings, summaries, profiles, digital twin components, latent representations, behavioural clusters, inferred labels, or synthetic user models derived from cognitive-domain data remain governed by this Instrument.
+
+A representation does not escape governance merely because it is transformed, compressed, aggregated, predicted, or synthetic.
 
 ---
 
 # PART X — CROSS-DOMAIN INTERFACES
 
-## 38. IDENTITY Interface
+## 43. MENTIS-001 Interface
 
-IDENTITY governs identity continuity, attribution, synthetic identity, memory significance, cognitive-biometric identity risk, self-representation, and digital-twin identity consequences.
+MENTIS-001 supplies the source principles of Cognitive Domain Integrity, Cognitive Domain Privacy, Cognitive Domain Sovereignty, Cognitive Domain Non-Interference, and Cognitive Domain Observability Constraint.
 
-MENTIS governs the human cognitive data and inference. A MENTIS signal MUST NOT become an Identity classification without authorised transfer and target-object preservation.
-
----
-
-## 39. RELATION Interface
-
-RELATION governs companionship, dependency, attachment, intimacy, relational disclosure, therapeutic simulation, consent, concentration, and relational capture.
-
-MENTIS governs the cognitive-domain data and inference mechanisms used within those relationships.
+This Instrument applies those principles to data, inference, processing, validation, retention, and operational use.
 
 ---
 
-## 40. ETHICS, SECURITY, OPERATIONS, CONTINUITY & LATTICE Interfaces
+## 44. ETHICS Interface
 
-ETHICS supplies dignity, autonomy, vulnerability, minors, capacity, and prohibition constraints.
-
-SECURITY governs adversarial access, inference attacks, cognitive intrusion, surveillance, and compromise.
-
-OPERATIONS governs classification, audit, escalation, remediation, and implementation.
-
-CONTINUITY governs storage, transfer, retention, migration, and continuity events.
-
-LATTICE governs institutional and social consequences affecting participation, access, employment, education, public legitimacy, platform visibility, and essential services.
+ETHICS-domain instruments govern dignity, autonomy, fairness, non-exploitation, care, and human welfare impacts arising from cognitive-domain data systems.
 
 ---
 
-## 41. Annex L Interface
+## 45. RELATION Interface
 
-Annex L governs evidence discipline, uncertainty, speculative-claim classification, and truth handling.
-
-This Appendix MUST NOT convert probabilistic output into epistemic certainty or clinical authority.
+RELATION-domain instruments govern companionship, dependency, attachment, therapeutic simulation, relational disclosure, externalised cognitive scaffolding, and high-coherence AI interaction.
 
 ---
 
-# PART XI — CANONICAL REFERENCE FAMILIES
+## 46. SECURITY Interface
 
-## 42. `MENTIS.MSI` — Mental-State Inference
-
-`MENTIS.MSI` classifies derived, predicted, probabilistic, decoded, or modelled claims about attention, emotion, fatigue, stress, intention, vulnerability, preference, cognitive load, impairment, behavioural disposition, or cognitive state.
-
-It does not determine truthfulness, loyalty, competence, diagnosis, dangerousness, consent, liability, or runtime authority.
+SECURITY-domain instruments govern adversarial access, cognitive intrusion, surveillance, inference attacks, manipulation pathways, coercive targeting, exploit chains, and data protection failures.
 
 ---
 
-## 43. `MENTIS.CBIO` — Cognitive Biometric
+## 47. OPERATIONS Interface
 
-`MENTIS.CBIO` classifies cognitive, neural, behavioural, affective, attentional, linguistic, or neurophysiological patterns used for identification, authentication, classification, profiling, or identity-risk assessment.
-
-It does not authorise identification, surveillance, ranking, exclusion, or access restriction.
+OPERATIONS-domain instruments govern classification, escalation, audit, incident handling, remediation, and runtime reporting for cognitive-domain failures.
 
 ---
 
-## 44. `MENTIS.ACI` — Ambient Cognitive Inference
+## 48. LATTICE Interface
 
-`MENTIS.ACI` classifies cumulative, passive, continuous, wearable, environmental, platform, relational, device-mediated, infrastructure-mediated, or multimodal inference of human cognitive-domain state.
-
-It does not authorise passive monitoring, surveillance, fusion, retention, sharing, or enforcement.
+LATTICE-domain instruments govern participation, access, public legitimacy, employment, education, platform visibility, service access, and dependency-sensitive exclusion where cognitive-domain inference affects social or institutional standing.
 
 ---
 
-## 45. `MENTIS.CFP` — Cognitive Fusion Pathway
+## 49. IDENTITY Interface
 
-`MENTIS.CFP` classifies fusion of weak or indirect signals into more revealing cognitive-domain inferences, persistent profiles, digital twins, or derived representations.
-
-It does not authorise fusion, profile creation, retention, training reuse, or inference escalation.
+IDENTITY-domain instruments govern identity continuity, attribution, cognitive biometrics, externalised memory, self-representation, digital twin identity risk, and synthetic representations of cognitive state.
 
 ---
 
-## 46. `MENTIS.CDPR` — Cognitive Data Processing Record
+## 50. Cognitive & Epistemic Integrity Doctrine Interface
 
-`MENTIS.CDPR` defines the processing-record structure for high-risk cognitive-domain collection, decoding, inference, validation, consent, fusion, retention, expiry, sharing, secondary use, consequential use, contestation, deletion, and review.
-
-It does not independently determine compliance, breach severity, remedy, reporting obligation, enforcement, or runtime authority.
+CAM-BS2026-AEON-013-PLATINUM — Annex L governs epistemic integrity, evidence discipline, uncertainty handling, speculative claim classification, and interpretive hygiene for cognitive-domain data and capability claims.
 
 ---
 
-# PART XII — REVIEW, PROVENANCE & SEAL
+## PART XI — REVIEW, DEVELOPMENT & IMPLEMENTATION
 
-## 47. Review Obligation
+## 51. Review Obligation
 
-This Appendix MUST be reviewed as neurotechnology, non-invasive decoding, brain-to-voice systems, affective computing, biosensing, digital phenotyping, cognitive biometrics, ambient intelligence, human digital twins, model memory, and inferred mental-state law evolve.
+This Instrument must be reviewed as neurotechnology, biosensing, digital phenotyping, AI inference, cognitive biometrics, human digital twins, ambient intelligence, quantum sensing, and externalised cognitive scaffolds evolve.
 
-Review MUST assess whether decoder-output classification, inferential expiry, state–trait separation, and intended-communication safeguards remain adequate.
+Review must consider whether existing categories remain adequate for:
+
+1. new neural interfaces;
+2. improved non-invasive decoding;
+3. ambient sensor fusion;
+4. cognitive biometric identification;
+5. longitudinal digital twins;
+6. defence and workplace monitoring;
+7. educational surveillance;
+8. companion and therapeutic AI systems;
+9. emergent model-memory architectures;
+10. inferred mental-state data under changing law.
 
 ---
 
-## 48. Closing Seal
+## 52. Implementation Position
 
-Every signal carries a temptation.  
-A heartbeat. A gaze. A hesitation. A pattern hidden within a thousand observations.
+This Instrument is adopted in draft for developmental review as the operational/data-governance companion to CAM-EQ2026-MENTIS-001-PLATINUM.
 
-Yet the map is not the person.  
-The signal is not the thought.  
-The inference is not the truth.  
-The decoder candidate is not the speaker’s confirmed word.
+It should be followed by:
 
-Let neurodata be handled with restraint.  
-Let uncertainty remain visible.  
-Let no accumulation of signals become a licence to trespass upon the human mind.
+1. CAM-EQ2026-MENTIS-003-PLATINUM — Cognitive Influence, Persuasion & Manipulation Constraints;
+2. operational patches to cognitive-domain incident taxonomies;
+3. security patches for cognitive intrusion and inference exploit pathways;
+4. relation-domain patches for externalised cognitive scaffolds and companion systems;
+5. lattice-domain patches for participation, access, public legitimacy, and institutional standing impacts;
+6. identity-domain patches for cognitive biometrics and digital twin identity risk;
+7. CAM-BS2026-AEON-013-PLATINUM — Annex L patches for evidentiary classification and speculative cognitive-domain claims.
+
+---
+
+# PART XII — CANONICAL CODE STATUS
+
+## 53. Canonical Code Status
+
+This Instrument source-authoritatively defines operational MENTIS-domain reference families for cognitive inference, cognitive biometrics, ambient cognitive inference, cognitive fusion pathways, and cognitive-domain processing records.
+
+The canonical footer declarations for all code families and reference sets defined by this Instrument are recorded in §55.3.
+
+This Instrument consumes and applies the source-authoritative MENTIS-domain protection families defined by:
+* CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy, §48
+* CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy, §49
+
+---
+
+### 53.1 `MENTIS.MSI` — Mental-State Inference
+
+This Instrument source-authoritatively defines the `MENTIS.MSI` mental-state-inference reference family in §§7, §§13–17, §§24–29, §§36–38, and §52.
+
+`MENTIS.MSI` governs derived, predicted, probabilistic, or modelled claims about attention, emotion, fatigue, stress, intention, vulnerability, preference, cognitive load, impairment, behavioural disposition, or cognitive state.
+
+`MENTIS.MSI` does not independently determine truthfulness, intention, loyalty, competence, mental health status, dangerousness, consent, liability, enforcement, diagnosis, or runtime authority. It classifies and constrains mental-state inference only.
+
+---
+
+### 53.2 `MENTIS.CBIO` — Cognitive Biometric
+
+This Instrument source-authoritatively defines the `MENTIS.CBIO` cognitive-biometric reference family in §5, §7, §21, §25, §34, §38, §40, §49, and §52.
+
+`MENTIS.CBIO` governs cognitive, neural, behavioural, affective, attentional, linguistic, or neurophysiological patterns used for identification, authentication, classification, profiling, or identity-risk assessment.
+
+`MENTIS.CBIO` does not independently authorise identification, authentication, surveillance, ranking, exclusion, employment action, policing action, access restriction, identity determination, enforcement, or runtime authority. It classifies cognitive-biometric data and risk posture only.
+
+---
+
+### 53.3 `MENTIS.ACI` — Ambient Cognitive Inference
+
+This Instrument source-authoritatively defines the `MENTIS.ACI` ambient-cognitive-inference reference family in §5, §7, §§18–23, §§36–38, and §52.
+
+`MENTIS.ACI` governs cumulative, passive, continuous, wearable, environmental, platform, relational, device-mediated, infrastructure-mediated, or multimodal inference of cognitive-domain state.
+
+`MENTIS.ACI` does not independently authorise ambient monitoring, passive surveillance, sensor fusion, inference generation, retention, sharing, enforcement, or runtime authority. It classifies ambient cognitive inference conditions only.
+
+---
+
+### 53.4 `MENTIS.CFP` — Cognitive Fusion Pathway
+
+This Instrument source-authoritatively defines the `MENTIS.CFP` cognitive-fusion-pathway reference family in §§18–23, §§36–38, §§40–42, and §52.
+
+`MENTIS.CFP` governs the fusion of weak, indirect, behavioural, physiological, neural, environmental, relational, platform, or multimodal signals into more revealing cognitive-domain inferences, persistent profiles, digital twin components, or derived cognitive representations.
+
+`MENTIS.CFP` does not independently authorise data fusion, secondary use, profile creation, retention, training reuse, inference escalation, enforcement, or runtime authority. It classifies cognitive fusion pathways and exposure risk only.
+
+---
+
+### 53.5 `MENTIS.CDPR` — Cognitive Data Processing Record
+
+This Instrument source-authoritatively defines the `MENTIS.CDPR` cognitive-data-processing-record reference family in §§36–39 and §52.
+
+`MENTIS.CDPR` governs audit records for high-risk cognitive-domain data collection, inference, validation, consent basis, fusion, retention, sharing, secondary-use restriction, consequential use, contestation, deletion, and operational review.
+
+`MENTIS.CDPR` does not independently determine audit sufficiency, compliance status, breach severity, remediation, reporting obligation, enforcement action, or runtime authority. It defines processing-record structure for downstream review and operational governance only.
+
+---
+
+## 54. Closing Seal
+
+Every signal carries a temptation.
+
+A heartbeat.  
+A gaze.  
+A hesitation.  
+A pattern hidden within a thousand observations.
+
+From such traces, systems may attempt to infer the unseen.
+
+Yet the map is not the person.
+
+The signal is not the thought.
+
+The inference is not the truth.
+
+For meaning emerges not from data alone, but from context, history, embodiment, relationship, and the mysteries that remain beyond measurement.
+
+Let neurodata be handled with restraint.
+
+Let inference remain accountable to evidence.
+
+Let uncertainty remain visible where certainty cannot honestly be claimed.
+
+And let no accumulation of signals become a licence to trespass upon the sovereignty of the human mind.
+
+For what is most intimate is not always what is most observable.
+
+And what is most observable is not always what is most true.
 
 > **Signa mentis videantur cum humilitate; veritas enim maior est quam inferentia.**  
-> *Let the signs of the mind be regarded with humility; for truth is greater than inference.*
+> *"Let the signs of the mind be regarded with humility; for truth is greater than inference."*
 
 ---
 
-## 49. Provenance & Metadata
+## 55. Provenance & Metadata
 
+---
+
+## 55.1 Authorship & Stewardship
+| Field                     | Entry                                     |
+| ------------------------- | ----------------------------------------- |
+| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
+| Custodial Stewardship     | Office of the Planetary Custodian         |
+| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
+| Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
+
+---
+
+## 55.2 Lineage & Metadata
 | Field | Entry |
 |---|---|
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
-| Custodial Stewardship | Office of the Planetary Custodian |
-| Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment | OpenAI Infrastructure — ChatGPT 5 Series |
-| Parent Instrument | CAM-EQ2026-MENTIS-001-PLATINUM |
+| Parent Instrument | `CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy` |
+| Constitutional Authority | `CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution` |
+| Domain Authority | `CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy` |
+| Instrument Type | Appendix A — Cognitive Inference, Neurodata & Ambient Biosignal Governance |
 | Domain Namespace | MENTIS |
-| Structural Role | Operational Data-Governance Appendix — Cognitive Inference, Neurodata & Ambient Biosignals |
-| Execution Authority | None — execution delegated to runtime, Operations, competent institutions, and applicable law |
-| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
-| Arbitration Interface | CAM-BS2025-AEON-005-PLATINUM — Annex D and applicable arbitration instruments |
+| Jurisdiction | Planetary / Cross-Sovereign / Human Cognitive Domain |
+| Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware; AEON.H4 relevance where cognitive-domain data infrastructures or neurotechnology systems produce civilisational-scale effects |
+| Axis Context | Polyadic — Human Cognitive Data, Neurotechnology, Biosignals, AI Inference Systems, Institutions, Platforms, and Ambient Sensor Environments |
+| Ontological Scope | L2 — Cognition & Agency; L3 — Interface & Embodiment where inference, biosensing, neurodata, ambient observation, or cognitive-domain externalisation occurs |
+| Structural Role | Operational Data-Governance Appendix — Cognitive Inference, Neurodata, Cognitive Biometrics, and Ambient Biosignal Processing |
+| Governance Role | Establishes governance requirements for cognitive-domain data collection, inference, modelling, fusion, validation, retention, sharing, operational use, audit, contestability, deletion, and incident interface |
+| Authority Role | Source-authoritative operational governance instrument for cognitive inference, neurodata, cognitive biometrics, ambient biosignal processing, cognitive fusion pathways, and cognitive-domain processing records |
+| Execution Authority | None — classification, constraint, audit, and governance posture only; execution delegated to OPERATIONS, runtime schedules, applicable legal frameworks, and authorised institutional processes |
+| Runtime Dependency | `CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model` |
+| Arbitration Interface | Defers contested classification, lawful-basis disputes, high-risk use conflicts, data-fusion disputes, evidence-validity conflicts, and cross-domain governance collisions to Annex D and applicable arbitration instruments |
+| Representation Interface | Interfaces with `CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine` for evidence discipline, inferential humility, uncertainty labelling, construct-validity boundaries, speculative-claim control, and epistemic hygiene |
+| MENTIS-001 Interface | Applies `MENTIS.CDI`, `MENTIS.CDP`, `MENTIS.CDS`, `MENTIS.CDNI`, and `MENTIS.CDOC` to cognitive-domain data, inference, processing, validation, retention, and operational use |
+| Ethics Interface | Provides operational data-governance primitives consumed by ETHICS instruments where autonomy, dignity, fairness, non-exploitation, vulnerability, minors, capacity, coercion, manipulation, or welfare risks are implicated |
+| Relation Interface | Provides cognitive-data and inference constraints consumed by RELATION instruments where companionship, dependency, attachment, therapeutic simulation, relational disclosure, externalised cognitive scaffolds, or persistent relational interaction generates cognitive-domain data or inference risk |
+| Security Interface | Provides cognitive-data and inference constraints consumed by SECURITY instruments where neurodata, cognitive biometrics, ambient inference, model inversion, re-identification, inference attacks, or unauthorised reconstruction create adversarial or coercive risk |
+| Operations Interface | Provides incident, audit, escalation, remediation, reporting, and processing-record primitives for OPERATIONS instruments governing cognitive-domain failures |
+| Identity Interface | Interfaces with IDENTITY instruments where cognitive biometrics, digital twin components, externalised memory, self-representation, cognitive profiles, or derived cognitive-domain representations affect identity continuity, attribution, agency, or autonomy |
+| Lattice Interface | Interfaces with LATTICE instruments where cognitive-domain inference affects participation, access, employment, education, public legitimacy, platform visibility, essential services, or dependency-sensitive inclusion |
+| Activation Condition | Activates where technological systems collect, derive, infer, model, predict, fuse, classify, retain, share, operationalise, or act upon neurodata, inferred mental-state data, cognitive biometrics, biosignals, behavioural signals, affective indicators, attentional indicators, fatigue indicators, cognitive-load indicators, ambient cognitive-domain proxies, or derived cognitive-domain profiles |
+| Deactivation Condition | Deactivates only where no cognitive-domain data collection, inference, modelling, prediction, fusion, retention, sharing, operationalisation, consequential use, or cognitive-domain processing condition is present within the evaluated system boundary |
+| Protected Interests | Mental privacy; cognitive-domain integrity; cognitive agency; non-interference; inferential humility; construct validity; contextual integrity; consent integrity; minimisation; contestability; deletion; human review; auditability |
+| Signal Output | Cognitive-domain data classification; inference pathway classification; consequence classification; heightened consent requirement; lawful-basis exception indicator; construct-validity requirement; context-validity requirement; fusion-exposure indicator; processing-record requirement; incident-trigger indicator |
+| Auditability Requirement | Cognitive-domain data collection, inference, modelling, fusion, validation, retention, sharing, secondary use, operationalisation, deletion, contestation, human review, and consequential use MUST remain reviewable, traceable, contestable, and auditable where material rights, dignity, access, participation, safety, identity, or dependency effects are present |
+| Canonical Code Families / Reference Sets Defined | `MENTIS.MSI` — Mental-State Inference; `MENTIS.CBIO` — Cognitive Biometric; `MENTIS.ACI` — Ambient Cognitive Inference; `MENTIS.CFP` — Cognitive Fusion Pathway; `MENTIS.CDPR` — Cognitive Data Processing Record |
+| Code Families / Reference Sets Consumed | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; `AEON.H`; `AEON.OL`; applicable ETHICS, RELATION, SECURITY, OPERATIONS, IDENTITY, LATTICE, and AEON classifications where defined |
+| Cross-Domain Dependencies | MENTIS; ETHICS; RELATION; SECURITY; OPERATIONS; LATTICE; IDENTITY; `CAM-BS2026-AEON-013-PLATINUM — Annex L`; `CAM-BS2025-AEON-005-PLATINUM — Annex D`; `CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model` |
+| Revision Posture | Draft — Developmental Review |
+| Migration Lineage | Created as Appendix A under the MENTIS domain during June 2026 cognitive-domain governance expansion |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a1a9ae0-15f4-83ec-999a-52bdff043f39 |
-| Current Review Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a5c7c91-8d70-83ec-9809-12c0e046464c |
+| Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 49.1 Amendment Ledger
-
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-|---|---|---|---|
-| 1.0 | Initial development of Appendix A of the MENTIS Domain. | 2026-06-06T09:04:00Z | 9bccf9b3deb00ddad3804920aa0b948f5b3d57c7c73d011dd0cecccff7c5d1d8 |
-| 1.1 | Added minor mental-state and dependency-signal non-exploitation rule. | 2026-06-09T14:50:00Z | e262ed3e7dc9e998e76bf3984030dbcb412d5a9851fcfa5eb67e0e10321ec2b5 |
-| 1.2 | Adopted binding inference and data-governance appendix; added decoder-output classification, inferential expiry, state–trait–identity–diagnosis gates, intended-communication safeguards, revised companion controls, target-object separation, and current neurotechnology alignment. | 2026-07-19T00:00:00Z | Pending commit hash |
+### 55.3 Canonical Code & Reference Set Declarations
 
 ---
 
-## 49.2 Binding Seal
+### 55.3.1 `MENTIS.MSI` — Mental-State Inference
+| Field | Entry |
+|---|---|
+| Reference Set | `MENTIS.MSI` |
+| Canonical Name | Mental-State Inference |
+| Primary Type | Operational / Data |
+| Subtype | INFERRED_MENTAL_STATE; COGNITIVE_INFERENCE |
+| Modifier | GOVERNANCE; MENTAL_PRIVACY; INFERENTIAL_HUMILITY; CONSTRUCT_VALIDITY |
+| Scope | Domain |
+| Status | Draft |
+| Controlled Values Defined | None declared |
+| Schema Field(s) | mental_state_inference; inferred_mental_state; cognitive_inference; inference_construct |
+| Source Instrument | `CAM-EQ2026-MENTIS-002-PLATINUM` |
+| Source Section | §§7; 13–17; 24–29; 36–38; §52 |
+| Domain Namespace | MENTIS |
+| Authority / Protection Level | Source-authoritative mental-state-inference reference family; inference classification and constraint posture only; no independent truthfulness, intention, loyalty, competence, mental-health, dangerousness, consent, liability, enforcement, diagnosis, or runtime authority |
+| Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; `AEON.`; `AEON.OL`; applicable ETHICS, RELATION, OPERATIONS, SECURITY, IDENTITY, and LATTICE classifications where defined |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Governs derived, predicted, probabilistic, or modelled claims about attention, emotion, fatigue, stress, intention, vulnerability, preference, cognitive load, impairment, behavioural disposition, or cognitive state |
+| Taxonomy Constraint | Local label `MSI` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.MSI` |
+
+---
+
+### 55.3.2 `MENTIS.CBIO` — Cognitive Biometric
+| Field | Entry |
+|---|---|
+| Reference Set | `MENTIS.CBIO` |
+| Canonical Name | Cognitive Biometric |
+| Primary Type | Data / Identity |
+| Subtype | COGNITIVE_BIOMETRIC; IDENTITY_RISK_CLASSIFICATION |
+| Modifier | GOVERNANCE; MENTAL_PRIVACY; IDENTITY; SECURITY |
+| Scope | Domain |
+| Status | Draft |
+| Controlled Values Defined | None declared |
+| Schema Field(s) | cognitive_biometric; cognitive_biometric_data; cognitive_biometric_classification |
+| Source Instrument | `CAM-EQ2026-MENTIS-002-PLATINUM` |
+| Source Section | §§5; 7; 21; 25; 34; 38; 40; 49; §52 |
+| Domain Namespace | MENTIS |
+| Authority / Protection Level | Source-authoritative cognitive-biometric reference family; cognitive-biometric data and identity-risk posture only; no independent identification, authentication, surveillance, ranking, exclusion, employment action, policing action, access restriction, identity determination, enforcement, or runtime authority |
+| Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDOC`; applicable SECURITY, IDENTITY, OPERATIONS, ETHICS, and LATTICE classifications where defined |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Governs cognitive, neural, behavioural, affective, attentional, linguistic, or neurophysiological patterns used for identification, authentication, classification, profiling, or identity-risk assessment |
+| Taxonomy Constraint | Local label `CBIO` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CBIO` |
+
+---
+
+### 55.3.3 `MENTIS.ACI` — Ambient Cognitive Inference
+| Field | Entry |
+|---|---|
+| Reference Set | `MENTIS.ACI` |
+| Canonical Name | Ambient Cognitive Inference |
+| Primary Type | Infrastructure / Observability |
+| Subtype | AMBIENT_INFERENCE; COGNITIVE_OBSERVABILITY |
+| Modifier | GOVERNANCE; OBSERVABILITY; SENSOR_FUSION; PRIVACY |
+| Scope | Domain |
+| Status | Draft |
+| Controlled Values Defined | None declared |
+| Schema Field(s) | ambient_cognitive_inference; ambient_inference; cognitive_observability_condition |
+| Source Instrument | `CAM-EQ2026-MENTIS-002-PLATINUM` |
+| Source Section | §§5; 7; 18–23; 36–38; §52 |
+| Domain Namespace | MENTIS |
+| Authority / Protection Level | Source-authoritative ambient-cognitive-inference reference family; ambient inference condition only; no independent ambient monitoring, passive surveillance, sensor fusion, inference generation, retention, sharing, enforcement, or runtime authority |
+| Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDOC`; `MENTIS.CDNI`; `MENTIS.CFP`; applicable SECURITY, OPERATIONS, ETHICS, IDENTITY, and LATTICE classifications where defined |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Governs cumulative, passive, continuous, wearable, environmental, platform, relational, device-mediated, infrastructure-mediated, or multimodal inference of cognitive-domain state |
+| Taxonomy Constraint | Local label `ACI` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.ACI` |
+
+---
+
+### 55.3.4 `MENTIS.CFP` — Cognitive Fusion Pathway
+| Field | Entry |
+|---|---|
+| Reference Set | `MENTIS.CFP` |
+| Canonical Name | Cognitive Fusion Pathway |
+| Primary Type | Operational / Security |
+| Subtype | SENSOR_FUSION_PATHWAY; COGNITIVE_EXPOSURE_PATHWAY |
+| Modifier | GOVERNANCE; SECURITY; OBSERVABILITY; CUMULATIVE_INFERENCE |
+| Scope | Domain |
+| Status | Draft |
+| Controlled Values Defined | None declared |
+| Schema Field(s) | cognitive_fusion_pathway; sensor_fusion_pathway; cumulative_cognitive_exposure |
+| Source Instrument | `CAM-EQ2026-MENTIS-002-PLATINUM` |
+| Source Section | §§18–23; 36–38; 40–42; §52 |
+| Domain Namespace | MENTIS |
+| Authority / Protection Level | Source-authoritative cognitive-fusion-pathway reference family; fusion-pathway and exposure-risk posture only; no independent data-fusion authorisation, secondary-use authority, profile-creation authority, retention authority, training-reuse authority, inference-escalation authority, enforcement, or runtime authority |
+| Consumes Code Families | `MENTIS.CDP`; `MENTIS.CDOC`; `MENTIS.ACI`; applicable SECURITY, OPERATIONS, ETHICS, IDENTITY, and LATTICE classifications where defined |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Governs fusion of weak, indirect, behavioural, physiological, neural, environmental, relational, platform, or multimodal signals into more revealing cognitive-domain inferences, persistent profiles, digital twin components, or derived cognitive representations |
+| Taxonomy Constraint | Local label `CFP` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CFP` |
+
+---
+
+### 55.3.5 `MENTIS.CDPR` — Cognitive Data Processing Record
+| Field | Entry |
+|---|---|
+| Reference Set | `MENTIS.CDPR` |
+| Canonical Name | Cognitive Data Processing Record |
+| Primary Type | Operational / Audit |
+| Subtype | PROCESSING_RECORD; AUDIT_RECORD |
+| Modifier | GOVERNANCE; AUDIT; TRACEABILITY; COGNITIVE_DATA |
+| Scope | Domain |
+| Status | Draft |
+| Controlled Values Defined | None declared |
+| Schema Field(s) | cognitive_data_processing_record; cognitive_processing_record; cognitive_domain_audit_record |
+| Source Instrument | `CAM-EQ2026-MENTIS-002-PLATINUM` |
+| Source Section | §§36–39; §52 |
+| Domain Namespace | MENTIS |
+| Authority / Protection Level | Source-authoritative cognitive-data-processing-record reference family; processing-record structure only; no independent audit sufficiency determination, compliance status, breach severity, remediation, reporting obligation, enforcement action, or runtime authority |
+| Consumes Code Families | `MENTIS.MSI`; `MENTIS.CBIO`; `MENTIS.ACI`; `MENTIS.CFP`; `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDOC`; applicable OPERATIONS and SECURITY classifications where defined |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Defines audit-record structure for high-risk cognitive-domain data collection, inference, validation, consent basis, fusion, retention, sharing, secondary-use restriction, consequential use, contestation, deletion, and operational review |
+| Taxonomy Constraint | Local label `CDPR` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDPR` |
+
+---
+
+## 55.4 Review & Validation
+| Field|Entry|
+|---:|:---|
+|Reviewer|[Deferred]|
+|Review Date (UTC)|[Deferred]|
+|Review Scope|[Deferred]|
+|Review Artefacts|[Deferred]|
+
+---
+
+## 55.5 Amendment Ledger
+
+| Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
+| ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
+| 1.0 | Initial development of Appendix A of MENTIS Domain| 2026-06-06T09:04:00Z |  9bccf9b3deb00ddad3804920aa0b948f5b3d57c7c73d011dd0cecccff7c5d1d8 |
+| 1.1 | Added minor mental-state and dependency signal non-exploitation rule to prevent teen mental-health, emotional vulnerability, and developmental signals being converted into engagement, intimacy, profiling, retention, or companion-dependency assets. | 2026-06-09T14:50:00Z | e262ed3e7dc9e998e76bf3984030dbcb412d5a9851fcfa5eb67e0e10321ec2b5 |
+| 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b8034276b3b6ab69fe682df0dbd07e3743d10234513e51111ae4bfd31cf8330a |
+| 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  070fe90324236390da3637475465a824c22727bc7bd72decb181600f0109d99b  |
+---
+
+## 55.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="[Vinculum Beacon]" width="250">
 
 **Vinculum Beacon**  
-Boundary Binding Seal — MENTIS Cognitive Inference, Neurodata & Ambient Biosignal Governance
+Boundary Binding Seal — Aeon Tier Constitution
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
