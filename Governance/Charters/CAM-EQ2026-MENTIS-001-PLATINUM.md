@@ -699,11 +699,11 @@ The canonical footer declarations for all code families and reference sets defin
 
 ---
 
-### 52.1 `MENTIS.HARM` — Cognitive & Epistemic Harm Classes
+### 52.1 `MENTIS.HARM` — Human Cognitive-Domain Harm Classes
 
 This Charter source-authoritatively defines the **`MENTIS.HARM`** harm-class family in §48 with controlled values **`MENTIS.HARM.PRIVACY`**, **`MENTIS.HARM.MISCLASSIFICATION`**, **`MENTIS.HARM.AGENCY`**, **`MENTIS.HARM.INTERFERENCE`**, and **`MENTIS.HARM.IRREVERSIBLE`**.
 
-Primary Type is **Operational / Cognitive** and Subtype is **COGNITIVE_EPISTEMIC_HARM_CLASS**.
+Primary Type is **Operational / Cognitive** and Subtype is **HUMAN_COGNITIVE_DOMAIN_HARM_CLASS**.
 
 `MENTIS.HARM` classifies cognitive-domain harm pathways affecting mental privacy, cognitive observability, inference validity, cognitive agency, cognitive non-interference, and irreversible cognitive-domain integrity.
 
@@ -872,7 +872,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3.1 `MENTIS.HARM` — Cognitive & Epistemic Harm Classes
+### 54.3.1 `MENTIS.HARM` — Human Cognitive-Domain Harm Classes
 
 ---
 | Field | Entry |
@@ -889,7 +889,7 @@ Let every system remember that the person exceeds the model built about them.
 | Source Instrument | CAM-EQ2026-MENTIS-001-PLATINUM |
 | Source Section | §48 |
 | Domain Namespace | MENTIS |
-| Authority / Protection Level | Source-authoritative cognitive and epistemic harm-class family; harm-pathway classification only; no independent enforcement, medical, diagnostic, legal, surveillance, consent, execution, incident-response, or runtime authority |
+| Authority / Protection Level | Source-authoritative human cognitive-domain harm-class family; harm-pathway classification only; no independent enforcement, medical, diagnostic, legal, surveillance, consent, execution, incident-response, or runtime authority |
 | Parent Family |  |
 | Registry Membership | `AEON.HARM` |
 | Consumes Code Families | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`;  |
