@@ -1,9 +1,13 @@
 name: One-off Identity refactor finalisation hygiene
 
 on:
-  push:
+  pull_request:
     branches:
       - refactor/identity-domain-architecture
+    types:
+      - opened
+      - synchronize
+      - reopened
 
 permissions:
   contents: write
