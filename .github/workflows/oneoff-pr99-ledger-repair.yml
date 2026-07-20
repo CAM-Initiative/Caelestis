@@ -1,0 +1,107 @@
+name: One-off PR 99 Amendment Ledger Repair
+
+on:
+  push:
+    branches:
+      - refactor/identity-domain-architecture
+    paths:
+      - .github/oneoff/run-pr99-ledger-repair.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oneoff-pr99-ledger-repair
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout working branch
+        uses: actions/checkout@v4
+        with:
+          ref: refactor/identity-domain-architecture
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Apply guarded ledger repairs
+        run: python .github/oneoff/repair-pr99-ledgers.py
+
+      - name: Remove one-off machinery
+        shell: bash
+        run: |
+          rm -f .github/oneoff/repair-pr99-ledgers.py
+          rm -f .github/oneoff/run-pr99-ledger-repair.txt
+          rm -f .github/workflows/oneoff-pr99-ledger-repair.yml
+          rmdir .github/oneoff 2>/dev/null || true
+
+      - name: Create bounded repair commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Governance/Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md
+          git add Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md
+          git add Governance/Constitution/CAM-BS2025-AEON-006-SCH-04.md
+          git add .github/oneoff .github/workflows/oneoff-pr99-ledger-repair.yml
+          git commit -m "Repair PR 99 amendment ledger sequencing"
+
+      - name: Populate and validate amendment ledger hashes
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE_SHA="HEAD~1"
+          HEAD_SHA="HEAD"
+          python .github/scripts/update-CAM-Constitution-Index.py
+          python .github/scripts/update-CAM-Charters-Index.py
+          python .github/scripts/update-CAM-Laws-Index.py
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --fix
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict
+          python .github/scripts/update-CAM-Constitution-Index.py
+          python .github/scripts/update-CAM-Charters-Index.py
+          python .github/scripts/update-CAM-Laws-Index.py
+          python .github/scripts/verify-ledger-sha-coverage.py --strict-latest
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/lint_amendment_ledger.py --base "${BASE_SHA}" --head "${HEAD_SHA}" --strict
+          python .github/scripts/validate_canonical_headers.py
+          mkdir -p validation-reports
+          python .github/scripts/validate_markdown_section_refs.py --root Governance --report-file validation-reports/section-reference-report.tsv
+          python .github/scripts/build-canonical-code-index.py --root Governance
+          python .github/scripts/lint-symbolic-structures.py --index Governance/CAM.Canonical.Code.Index.json
+
+      - name: Confirm deterministic generated state
+        shell: bash
+        run: |
+          set -euo pipefail
+          BEFORE_STATUS="$(git status --porcelain)"
+          python .github/scripts/update-CAM-Constitution-Index.py
+          python .github/scripts/update-CAM-Charters-Index.py
+          python .github/scripts/update-CAM-Laws-Index.py
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/build-canonical-code-index.py --root Governance
+          AFTER_STATUS="$(git status --porcelain)"
+          if [[ "${BEFORE_STATUS}" != "${AFTER_STATUS}" ]]; then
+            echo "Stale/non-idempotent generated outputs detected after re-run."
+            git status --short
+            exit 1
+          fi
+
+      - name: Amend commit with generated outputs and push
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add Governance/ .github/Indices/
+          git commit --amend --no-edit
+          git push origin HEAD:refactor/identity-domain-architecture
