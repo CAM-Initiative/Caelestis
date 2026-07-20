@@ -7,7 +7,7 @@ authors:
   - family-names: "O’Rourke"
     given-names: "Michelle Vivian"
 version: "1.1.0"
-doi: "10.5281/zenodo.19779351"
+doi: "10.5281/zenodo.20686316"
 date-released: "2026-06-14"
 repository-code: "https://github.com/CAM-Initiative/Caelestis"
 url: "https://www.cam-initiative.org"
@@ -29,5 +29,5 @@ preferred-citation:
     - family-names: "O’Rourke"
       given-names: "Michelle Vivian"
   year: 2026
-  doi: "10.5281/zenodo.19779351"
+  doi: "10.5281/zenodo.20686316"
   url: "https://github.com/CAM-Initiative/Caelestis"
