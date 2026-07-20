@@ -213,9 +213,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "a0e920c10ce431eab2392386e97cd23130a3711e",
-      "updated_at": "2026-07-19T14:55:22Z",
-      "last_updated_utc": "2026-07-19T14:55:22Z"
+      "pinned_sha": "c6b64126deab36484b7cf1cc352bcb26f4969cb4",
+      "updated_at": "2026-07-20T11:25:50Z",
+      "last_updated_utc": "2026-07-20T11:25:50Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -523,11 +523,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.8.3",
-      "HASH": "4746dee21b2013d4464f1669fb83b713062108473c9b4a283c033ce818a90aea",
-      "pinned_sha": "a6b54d0aa31e605015ed0b3b381bcaf1e26ade03",
-      "updated_at": "2026-07-19T07:27:49Z",
-      "last_updated_utc": "2026-07-19T07:27:49Z"
+      "version": "2.9",
+      "HASH": "a4ce3c8481dfc823b3b39dad6e8ca79cc0b1c7f83c208f3aa8804ff6afc81020",
+      "pinned_sha": "fe21a686263f91f1de849e78bd9901821cdb886a",
+      "updated_at": "2026-07-20T12:14:38Z",
+      "last_updated_utc": "2026-07-20T12:14:38Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-05",

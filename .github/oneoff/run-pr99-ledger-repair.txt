@@ -1,1 +1,0 @@
-Run the guarded PR #99 amendment-ledger repair and remove all one-off machinery after successful validation.
