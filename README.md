@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19779351.svg)](https://doi.org/10.5281/zenodo.19779351)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20686316.svg)](https://doi.org/10.5281/zenodo.20686316)
 
 > ## Reader Notice
 >
@@ -54,7 +54,7 @@ Before citing, adapting, placing CAM material into model context, using CAM-deri
 
 The current archive DOI is:
 
-- <https://doi.org/10.5281/zenodo.19779351>
+- <https://doi.org/10.5281/zenodo.20686316>
 
 Citation metadata is maintained in `CITATION.cff` for tools that support Citation File Format. If citation metadata and archive records differ, preserve the intended CAM project identity and consult maintainers before making citation or archival changes.
 
