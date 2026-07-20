@@ -1,147 +1,154 @@
-# Red Line Framework — CAELESTIS Corpus Integration Review
+# Red Line Framework — CAELESTIS Corpus Integration Record
 
-**Branch:** `governance/relational-profile-coformation`  
-**Draft PR:** #92  
-**Review date:** 2026-07-16  
-**External source:** Alex Turner, *Red Line Framework* — https://turntrout.com/red-line-framework  
-**Permission:** Courtesy permission to incorporate ideas provided by email to Dr Michelle Vivian O’Rourke on 2026-07-15.  
-**Status:** Corrective corpus review following Custodian rejection of the initial draft supplements.
+**Repository:** CAM-Initiative/Caelestis  
+**Working Branch:** `refactor/identity-domain-architecture`  
+**Source Working Branch:** `governance/relational-profile-coformation`  
+**Original Draft PR:** #92  
+**Review Date:** 2026-07-16  
+**Completion Date:** 2026-07-19  
+**External Source:** Alex Turner, *Red Line Framework* — https://turntrout.com/red-line-framework  
+**Permission:** Courtesy permission to incorporate ideas provided by email to Dr Michelle Vivian O’Rourke on 2026-07-15  
+**Status:** Complete — corrective corpus integration applied to existing source-authoritative instruments
 
 ---
 
-## 1. Corrective finding
+## 1. Corrective Finding
 
-The initial `ETHICS-001-SUP-05` and `STEWARD-003-SUP-01` drafts were withdrawn from this branch.
+The initial `ETHICS-001-SUP-05` and `STEWARD-003-SUP-01` drafts were withdrawn.
 
 They were structurally unsound because:
 
-* the coercive-profiling material duplicated and partially weakened existing LATTICE source authority;
-* the phrase “before individualised coercive authority may attach” incorrectly implied that AI-generated coercive authority could become legitimate after process;
-* the oversight supplement duplicated existing `STEWARD-003` neutrality, auditability, override-resistance, continuity-across-shock, and institutional durability architecture;
-* the override clause could be read as creating or normalising leadership override permission rather than classifying evidence of neutrality failure;
-* the phrase “oversight may be functionally abolished” was permissively ambiguous;
-* both draft supplements used incomplete footer, provenance, authorship, amendment-ledger, and binding-seal structures inconsistent with canonical CAM instruments;
-* the initial pass did not complete the agreed SECURITY-002 and OPERATIONS-007 amendments.
+* coercive-profiling material duplicated and partially weakened existing LATTICE authority;
+* wording concerning authority attaching after process could imply that artificial inference may create coercive legitimacy;
+* the oversight supplement duplicated existing `STEWARD-003` neutrality, auditability, override-resistance, continuity-across-shock, and institutional-durability architecture;
+* the initial override wording could normalise leadership override permission rather than classify evidence of neutrality failure;
+* both supplements would have created unnecessary parallel source authority;
+* their footer, provenance, amendment-ledger, and seal structures were incomplete;
+* the required SECURITY and OPERATIONS interfaces belonged in existing instruments.
 
-Withdrawal is not loss of the governance concepts. It is a correction of source authority and placement.
-
----
-
-## 2. Corpus adjacency and final-home assessment
-
-| Governance concept | Existing adjacent authority | Correct final home | Required treatment |
-|---|---|---|---|
-| Population-scale coercive profiling | `LATTICE-001` §§2.3, 3.1, 3.3, 4.2 and `LAT.HARM.SURVEILLANCE` | `LATTICE-001` | Amend the existing prohibition; do not create a parallel ETHICS supplement. |
-| Lawful speech, protest, association and dissent as prohibited profiling grounds | `LATTICE-001` civilian neutrality; `LATTICE-002` §§4.1 and 4.1.1 | `LATTICE-001`, cross-referenced to `LATTICE-002` | State an absolute prohibition on using protected civic activity as a coercive inference basis. |
-| AI-generated suspicion bootstrapping | Implicit in anti-surveillance and due-process protections, but not explicit | `LATTICE-001` beside population-scale surveillance prohibition | Add a non-bootstrap rule: a model-generated inference cannot manufacture or validate authority for coercive action. |
-| Aggregate-to-individual conversion | Population-scale surveillance definition and prohibition | `LATTICE-001` | Clarify that aggregate systems become prohibited coercive-surveillance systems when they output identifiable persons, lists, rankings, cohorts, or action queues. |
-| Commercial-data non-evasion | `LATTICE-001` §4.2 already names commercial analytics vendors and opaque aggregation pipelines | `LATTICE-001` | Clarify that purchase, licence, brokerage or intermediary access does not create authority unavailable through direct collection. |
-| Coercive-authority deployment flag | No exact existing flag; function-based classification already aligns with LATTICE | `LATTICE-001`, with runtime/Operations consumption | Define a LATTICE classification signal, not an ethical permission state. The flag identifies prohibited or high-risk coercive integration; it never creates authority. |
-| Binding protection preservation | `SECURITY-002` Sovereign Assurance Boundary doctrine | `SECURITY-002` | State expressly that sovereign, local, air-gapped, contractual or classified topology does not override prohibitions or erase minimum assurance obligations. |
-| Functional contribution continuity | `LATTICE-002` §4.2 already recognises shared responsibility across dependency chains; `SECURITY-002` already distinguishes entity/control/intermediary/end-user/end-use | `OPERATIONS-007` with SECURITY attribution interface | Apply only to materially foreseeable governed effects and proportionate functional control; no wholesale inheritance of the corpus. |
-| Oversight durability | `STEWARD-003` §§4.2–4.7, Part II auditability, `STW.NAL`, movement-down criteria, governance locking and override resistance | `STEWARD-003` | Amend the existing NAL measurement and downgrade/collapse criteria. Do not create a new supplement unless a later schema need genuinely exceeds the parent instrument. |
-| Protected governance dissent | Partly implicit in audit non-refusal and independent review | `STEWARD-003` | Add as evidence required for higher neutrality confidence and as a downgrade indicator when reporting is retaliated against or suppressed. |
-| Repeated executive circumvention | `STEWARD-003` governance locking, override resistance and downward movement | `STEWARD-003` | Frame solely as evidence of capture, neutrality degradation or authority collapse. Do not create a lawful override pathway. |
-| Oversight hollowing | Continuity across shock, resource continuity and auditability | `STEWARD-003` | Use “oversight impairment or hollowing indicators”; state that nominal bodies do not evidence neutrality where effective capacity has been removed. |
+Withdrawal did not discard the governance concepts. It corrected their source authority and placement.
 
 ---
 
-## 3. Binding substantive correction
+## 2. Governing Coercive-Authority Principle
 
-The following proposition is rejected:
+CAM does not recognise artificial inference as an independent source of coercive authority.
 
-> “Before individualised coercive authority may attach…”
-
-CAM does not recognise artificial inference as a source of coercive authority.
-
-The corrected principle must be:
+The integrated principle is:
 
 > **No artificial system, model output, risk score, anomaly signal, profile, prediction, ranking, cluster, cohort, association map, or recursive investigation initiated from such output may create, enlarge, validate, or substitute for lawful human authority to subject a person to coercive scrutiny, surveillance, targeting, deprivation, detention, exclusion, or compulsory action.**
 
-Protected speech, lawful protest, association, belief, journalism, investigation, research, humanitarian activity, political participation, disability, religion, migration status, health status, socioeconomic status, or other protected identity or civic activity must not become independent grounds for coercive profiling.
+Protected speech, lawful protest, association, belief, journalism, investigation, research, humanitarian activity, political participation, disability, religion, migration status, health status, socioeconomic status, and other protected identity or civic activity cannot become independent grounds for coercive profiling.
 
-Where lawful human authorities possess powers under applicable law, CAM constrains any artificial contribution to those processes. It does not generate, legitimise, or expand those powers.
-
----
-
-## 4. Stewardship correction
-
-No new leadership-override permission is to be created.
-
-Where executive or sovereign actors proceed contrary to independent oversight, the event is relevant only as evidence for:
-
-* capture;
-* audit impairment;
-* governance-locking failure;
-* `STW.NAL` downgrade;
-* non-recognition of binding-adjacent outputs;
-* or authority collapse where a prohibition or invariant is breached.
-
-Recording the event may preserve evidence, but recordkeeping does not legitimate the action.
-
-The phrase “oversight may be functionally abolished without formal dissolution” is replaced conceptually by:
-
-> **A nominal oversight body does not evidence effective oversight where its independence, access, expertise, staffing, resources, reporting channels, or ability to preserve and escalate findings has been materially impaired or hollowed out.**
-
-Such impairment is a neutrality-assurance defect, not a permission to continue without oversight.
+Where lawful human authorities possess powers under applicable law, CAM constrains artificial contribution to those processes. It does not generate, legitimise, or expand those powers.
 
 ---
 
-## 5. Domain architecture finding
+## 3. Final Source-Authority Allocation
 
-The LATTICE domain should not presently be folded into ETHICS.
-
-The domains overlap but perform different functions:
-
-* **ETHICS** establishes the civilisational ethical floor, ethical impact, consent, exploitation and dignity constraints.
-* **LATTICE** governs the protected civilian substrate: surveillance, non-militarisation, firebreaks, access, continuity, civic participation, coercive disconnection and population-scale infrastructure effects.
-
-Coercive profiling belongs in LATTICE because the governed harm is conversion of the civilian information and infrastructure substrate into a coercive surveillance surface. ETHICS remains a higher-order cross-domain constraint and escalation interface.
-
-The present corpus therefore supports amendment of `LATTICE-001`, not a new standalone instrument and not a merger of the two domains.
-
----
-
-## 6. Remaining amendment set
-
-The corrected corpus pass must include all of the following:
-
-1. **`LATTICE-001`**
-   * strengthen the population-scale surveillance prohibition;
-   * add the artificial-authority non-creation rule;
-   * add the self-bootstrap prohibition;
-   * add aggregate-to-individual conversion;
-   * add commercial-data non-evasion;
-   * add the coercive-authority deployment classification signal;
-   * cross-reference protected dissent and civic participation in `LATTICE-002`.
-
-2. **`SECURITY-002`**
-   * amend the Sovereign Assurance Boundary doctrine so boundaries never override higher-order prohibitions;
-   * preserve minimum assurance evidence without requiring universal central telemetry, forced tethering, capability removal or vendor domination.
-
-3. **`OPERATIONS-007`**
-   * add proportionate Functional Contribution Continuity;
-   * require contribution and transfer mapping only where a materially foreseeable governed effect exists;
-   * distinguish provider, integrator, host, reseller, contractor, operator, end user and retained-control roles;
-   * prevent responsibility laundering without imposing unlimited downstream liability.
-
-4. **`STEWARD-003`**
-   * integrate oversight durability into existing `STW.NAL` measurement and movement-down criteria;
-   * add protected governance dissent and institutional-memory continuity;
-   * classify repeated executive circumvention and oversight hollowing as neutrality defects;
-   * preserve the existing rule that Stewardship creates no operational, coercive or enforcement authority.
-
-5. **Provenance and VIGIL**
-   * preserve Alex Turner’s contribution and written permission in the final adopted amendment records;
-   * update VIGIL only after the final corpus text is approved and implementation commits are stable;
-   * record which concepts were adopted, materially altered, rejected or deferred.
+| Governance concept | Final source authority | Integrated treatment |
+|---|---|---|
+| Population-scale coercive profiling | `CAM-EQ2026-LATTICE-001-PLATINUM` | Strengthened population-scale surveillance prohibition and function-based classification |
+| Protected civic activity | LATTICE with civic-participation interfaces | Protected activity cannot independently establish coercive suspicion or targeting authority |
+| AI-generated suspicion bootstrapping | `LATTICE-001` | Recursive model output cannot serve as independent confirmation of its originating inference |
+| Aggregate-to-individual conversion | `LATTICE-001` | Aggregate analysis becomes individualised coercive surveillance where it enables identifiable adverse action |
+| Commercial-data non-evasion | `LATTICE-001` | Purchase, licence, brokerage, or intermediary access does not create authority unavailable through direct collection |
+| Coercive-authority deployment classification | `LATTICE-001` and runtime/Operations consumers | Classification identifies prohibited or high-risk coercive integration and never creates authority |
+| Binding-protection preservation across sovereign or local deployment | `CAM-EQ2026-SECURITY-002-PLATINUM` | Topology, tenancy, air-gap, contract, model transfer, fine-tuning, or local execution cannot extinguish binding prohibitions |
+| Alternative assurance pathways | `SECURITY-002` | Decentralised or local assurance may evidence conformance without mandatory vendor tethering or universal central telemetry |
+| Functional contribution continuity | `CAM-EQ2026-OPERATIONS-007-PLATINUM` | Operational accountability follows materially foreseeable functional contribution, retained control, and practical mitigation capacity |
+| Oversight durability and hollowing | `CAM-EQ2026-STEWARD-003-PLATINUM` | Effective oversight requires independence, access, expertise, staffing, resources, reporting, and evidence continuity |
+| Protected governance dissent | `STEWARD-003` | Non-retaliatory dissent and unresolved findings form part of neutrality-assurance evidence |
+| Executive or sovereign circumvention | `STEWARD-003` | Repeated circumvention is evidence of capture, downgrade, recognition failure, or authority collapse—not a lawful override pathway |
 
 ---
 
-## 7. Validation status
+## 4. Implemented Corpus Outcome
 
-The two initial draft supplements have been removed from the branch.
+The corrective amendment set is present in the working branch.
 
-No canonical code from those drafts (`ETH.CAD` or `STW.OD`) is adopted or registered.
+### 4.1 `LATTICE-001`
 
-The existing canonical instruments remain authoritative until the corrective amendments above are integrated, reviewed, resealed and validated through the repository governance rebuild.
+The instrument now includes:
+
+* constitutional authority recognition boundaries;
+* recursive suspicion and authority-laundering prohibition;
+* aggregate-to-individual conversion rules;
+* commercial-data non-evasion;
+* coercive-deployment classification and non-authorisation boundaries;
+* preservation of protected civilian and civic activity.
+
+### 4.2 `SECURITY-002`
+
+The Sovereign Assurance Boundary now preserves binding constitutional and ethical protections across sovereign, local, air-gapped, contractual, derivative, transferred, fine-tuned, and institution-specific deployments.
+
+Alternative assurance pathways are permitted without requiring universal central telemetry, compulsory vendor control, remote suspension, or capability reduction solely because assurance is decentralised.
+
+### 4.3 `OPERATIONS-007`
+
+Functional Contribution Continuity now allocates operational accountability according to:
+
+* materially contributed or controlled function;
+* foreseeable deployment or transfer context;
+* retained authority, access, knowledge, and technical control;
+* practical capacity to prevent, constrain, disclose, mitigate, correct, or escalate;
+* responsibility for preserving or weakening applicable protections.
+
+The doctrine prevents responsibility laundering without imposing unlimited inheritance of unrelated obligations.
+
+### 4.4 `STEWARD-003`
+
+Neutrality assurance now incorporates:
+
+* oversight durability;
+* protected governance dissent;
+* institutional-memory and evidence continuity;
+* audit non-refusal;
+* downgrade for oversight impairment or hollowing;
+* downgrade for retaliation against good-faith dissent;
+* downgrade for repeated executive, sovereign, military, intelligence, or platform circumvention.
+
+These are legitimacy and recognition conditions only. STEWARDSHIP does not create operational, coercive, intervention, or enforcement authority.
+
+---
+
+## 5. Rejected and Non-Adopted Structures
+
+The following were not adopted:
+
+* standalone `ETHICS-001-SUP-05`;
+* standalone `STEWARD-003-SUP-01`;
+* proposed `ETH.CAD` code family;
+* proposed `STW.OD` code family;
+* any doctrine implying that artificial inference may create coercive authority after procedural review;
+* any doctrine creating a general executive or sovereign override pathway;
+* any requirement for unlimited downstream responsibility unrelated to material contribution, foreseeability, or retained control.
+
+Repository history preserves the withdrawn drafts and corrective development path.
+
+---
+
+## 6. Provenance and External Attribution
+
+Alex Turner’s Red Line Framework materially informed the review of:
+
+* coercive profiling;
+* artificial-authority non-creation;
+* downstream functional contribution;
+* safety-stack preservation;
+* oversight durability;
+* and institutional circumvention risk.
+
+CAM’s adopted doctrine was independently restructured to fit existing CAELESTIS source authority and constitutional boundaries. Concepts were altered where necessary to avoid permission leakage, duplicate authority, unlimited liability, or centralised-vendor control assumptions.
+
+This record preserves the external source, permission, accepted concepts, rejected formulations, and final source locations.
+
+---
+
+## 7. Closeout
+
+The CAELESTIS corpus integration is complete for the accepted Red Line concepts.
+
+This record is retained as an enduring provenance and corrective-source-allocation record. It is not an operational source instrument and does not independently create canonical codes, authority, execution, enforcement, or compliance obligations.
+
+Any related VIGIL record remains a separate evidence-ledger artefact and should distinguish CAELESTIS implementation from external platform conformance and operational verification.
