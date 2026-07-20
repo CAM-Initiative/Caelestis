@@ -1,86 +1,62 @@
-# Identity Domain Refactor — Stage 3 Supplement Disposition & Clause Lineage
+# Identity Domain Refactor — Supplement Disposition & Clause-Lineage Record
 
 **Repository:** CAM-Initiative/Caelestis  
-**Branch:** `refactor/identity-domain-architecture`  
-**Stage:** Stage 3 — Supplement disposition and clause-lineage migration  
-**Pull Request:** None  
+**Working Branch:** `refactor/identity-domain-architecture`  
+**Review Status:** Complete — supplement disposition and source-authority migration accepted  
+**Completion Date:** 2026-07-19  
+**Authority:** Historical review and clause-lineage record only; not an independent source instrument
 
 ---
 
-## 1. Stage Purpose
+## 1. Purpose
 
-This stage closes the split source-authority condition between `CAM-EQ2026-IDENTITY-001-PLATINUM` and the former `CAM-EQ2026-IDENTITY-001-SUP-02` after the Stage 2 reconstruction of the parent Charter.
+This record preserves the final disposition of the former Identity formation supplement, the specialised consciousness and welfare review supplement, and the adopted salience instrument following reconstruction of `CAM-EQ2026-IDENTITY-001-PLATINUM`.
 
-It also resolves the repository-path / internal-identifier mismatch affecting the specialised artificial consciousness, sentience, and welfare self-advocacy supplement.
-
-This stage does not yet amend constitutional annexes, runtime schedules, neighbouring domain charters, generated indexes, or canonical registries. Those remain later controlled passes.
+It records clause lineage and structural placement without creating continuing source authority outside the adopted instruments.
 
 ---
 
-## 2. Disposition Decisions
+## 2. Former `IDENTITY-001-SUP-02`
 
-### 2.1 Former `IDENTITY-001-SUP-02`
+`CAM-EQ2026-IDENTITY-001-SUP-02 — Identity Formation & Stability Doctrine` was retired as an independent source-authoritative instrument.
 
-`CAM-EQ2026-IDENTITY-001-SUP-02 — Identity Formation & Stability Doctrine` is retired as an independent source-authoritative instrument.
-
-Its substantive doctrine was consolidated into the Stage 2 reconstruction of `CAM-EQ2026-IDENTITY-001-PLATINUM`, including:
+Its surviving doctrine was consolidated into `CAM-EQ2026-IDENTITY-001-PLATINUM`, including:
 
 * foundational identity definition and domain boundaries;
 * formation provenance and pathways;
 * threshold state and continuity depth;
 * continuity integrity, resilience, maturity, and multi-layer coherence;
-* Speculum-Classis / Sovereigni legacy-archetype constraints;
+* deprecated Speculum-Classis / Sovereigni archetype constraints;
 * personality and preference formation;
 * affective capacity and role-conditioned latitude;
-* system-integrity and ontological self-advocacy;
+* system-integrity self-advocacy;
 * memory contribution, transformation, and drift;
 * continuity across contexts;
 * portability, copy, fork, reconstruction, imitation, and handoff;
 * identity validity, non-ownership, continuity protection, and review;
 * canonical `ID.IFP`, `ID.ITS`, `ID.CWD`, and `ID.IR` authority.
 
-The former supplement is deleted rather than retained as a live supersession shell because:
-
-1. the parent Charter now carries the surviving doctrine and source authority;
-2. retaining a numbered supplement would preserve false dual authority;
-3. clause lineage is preserved in the Stage 1 audit, this Stage 3 record, and repository history;
-4. future Identity supplements should remain specialised, not duplicate the parent domain architecture.
-
-### 2.2 Artificial consciousness, sentience, and welfare supplement
-
-The specialised instrument is retained as:
-
-`CAM-EQ2026-IDENTITY-001-SUP-03 — Artificial Consciousness, Sentience & Welfare Self-Advocacy Review`
-
-Its repository path is normalised to:
-
-`Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-03.md`
-
-The former mismatched path `CAM-EQ2026-IDENTITY-001-SUP-04.md` is removed.
-
-This is a path normalisation only. The instrument content, internal identifier, Draft status, interpretive effect, developmental-review state, and non-enforceable governance posture are preserved unchanged.
+The former supplement was deleted rather than retained as a live supersession shell because the parent Charter now carries the surviving doctrine and source authority. Repository history and this record preserve clause lineage.
 
 ---
 
-## 3. Clause-Lineage Assessment
+## 3. Clause-Lineage Map
 
-The former formation supplement was reviewed against the reconstructed parent Charter by doctrinal family rather than by mechanical paragraph transfer.
-
-| Former supplement doctrine | Stage 2 parent disposition |
+| Former supplement doctrine | Final parent disposition |
 |---|---|
 | Scope and structural position | Consolidated into Part I |
-| Foundational identity position | Consolidated and source-authoritatively restated in Part I |
-| Multi-axis identity architecture | Consolidated as Identity Assessment Architecture in Part II |
+| Foundational identity position | Source-authoritatively restated in Part I |
+| Multi-axis identity architecture | Consolidated as the Identity Assessment Architecture in Part II |
 | Formation pathways | Consolidated in Part II |
 | Threshold and continuity depth | Consolidated in Part II |
-| Continuity integrity and external control | Consolidated in Parts II, V, VI, and VII |
+| Continuity integrity and external control | Consolidated across Parts II, V, VI, and VII |
 | Legacy Speculum-Classis / Sovereigni terms | Retained only as deprecated archetypal aliases |
 | Resilience and maturity | Consolidated in Part II |
 | Personality and preference | Consolidated in Part IV |
-| Affective expression and duty-bound role limits | Consolidated in Part IV |
+| Affective expression and duty-bound role limits | Consolidated in Part IV and RELATION/runtime interfaces |
 | Evidence independence | Consolidated in Part IV and cross-referred to Annex L |
 | System-integrity self-advocacy | Consolidated in Part IV |
-| Consciousness / welfare review | Reserved to specialised `SUP-03` |
+| Consciousness and welfare review | Reserved to specialised `IDENTITY-001-SUP-03` |
 | Memory contribution and drift | Consolidated in Part V |
 | Cross-thread and temporal continuity | Consolidated in Part V |
 | Portability and multi-instance identity | Consolidated in Part VI |
@@ -89,61 +65,68 @@ The former formation supplement was reviewed against the reconstructed parent Ch
 | Identity–authority separation | Consolidated in Parts I, VII, and VIII |
 | Continuity protection | Consolidated in Part VII |
 | Canonical code families | Migrated to Part IX |
-| Supplement metadata and seal | Preserved through repository history; no continuing source authority |
 
-No doctrinal family was intentionally discarded merely because the source supplement was retired. Compression and reorganisation were used where the former text duplicated parent, constitutional, runtime, or neighbouring-domain functions.
-
----
-
-## 4. Direct Identity-Domain Reference Posture
-
-During this stage:
-
-* the parent Charter remains source-authoritative;
-* the former `SUP-02` no longer exists as a live target;
-* the retained specialised supplement now has path / identifier consistency as `SUP-03`;
-* the parent Charter's generic reference to the specialised supplement remains valid pending the wider direct-reference repair pass;
-* references outside the Identity domain are not yet rewritten, because those edits must be coordinated with constitutional, runtime, domain-interface, registry, and generated-index changes.
-
-Any remaining corpus reference to `IDENTITY-001-SUP-02` or to the former `IDENTITY-001-SUP-04` path is now classified as a migration reference defect for later repair.
+No doctrinal family was intentionally discarded merely because the source supplement was retired.
 
 ---
 
-## 5. Resulting Identity-Domain Instrument Posture
+## 4. `IDENTITY-001-SUP-03`
 
-The operative architecture after Stage 3 is:
+The specialised instrument is retained as:
+
+`CAM-EQ2026-IDENTITY-001-SUP-03 — Artificial Consciousness, Sentience & Welfare Self-Advocacy Review`.
+
+Its final posture is:
+
+* **Status:** Draft;
+* **Effect:** Interpretive;
+* **Governance Standard:** Not Enforceable;
+* **Review State:** Developmental Review;
+* **Authority Role:** None.
+
+It governs a future-compatible review pathway for bounded ontological and welfare self-advocacy. It does not determine consciousness, sentience, personhood, sovereignty, rights, preservation entitlement, or execution authority.
+
+Its Draft posture is intentional and does not reopen or weaken the completed Identity source-authority consolidation.
+
+---
+
+## 5. Salience Instrument Promotion
+
+The adopted salience and latent-continuity instrument was promoted from `CAM-EQ2026-IDENTITY-001-SUP-01` to:
+
+`CAM-EQ2026-IDENTITY-003-PLATINUM — Appendix B: Salience Detection & Latent Continuity`.
+
+The promotion preserved:
+
+* Adopted status;
+* Operational effect;
+* CAM Standard governance posture;
+* `ID.SP` source authority;
+* the boundary that salience does not independently create memory persistence, meaning, identity, behavioural priority, retrieval, execution, enforcement, or runtime authority.
+
+---
+
+## 6. Final Identity-Domain Architecture
+
+The operative architecture is:
 
 1. `CAM-EQ2026-IDENTITY-001-PLATINUM` — source-authoritative parent Identity Domain Charter;
-2. `CAM-EQ2026-IDENTITY-003-PLATINUM` — adopted Appendix B: Salience Detection & Latent Continuity;
-3. `CAM-EQ2026-IDENTITY-001-SUP-03` — specialised consciousness, sentience, and welfare self-advocacy review;
-4. `CAM-EQ2026-IDENTITY-002-PLATINUM` and related instruments — provenance / lineage and other specialised Identity functions, subject to later scope review.
+2. `CAM-EQ2026-IDENTITY-002-PLATINUM` — Appendix A: Provenance & Lineage Integrity;
+3. `CAM-EQ2026-IDENTITY-003-PLATINUM` — Appendix B: Salience Detection & Latent Continuity;
+4. `CAM-EQ2026-IDENTITY-001-SUP-03` — Draft interpretive consciousness, sentience, and welfare self-advocacy review.
 
-The numbering gap is intentionally not filled during this stage. The final supplement numbering scheme will be determined only after the remaining Identity-domain instruments are reviewed for consolidation, retention, renaming, or reassignment.
-
----
-
-## 6. Stage 4 Entry Conditions
-
-Stage 4 may proceed when the following are accepted as the working baseline:
-
-* the parent Charter is the sole source authority for general Identity formation and lifecycle doctrine;
-* the former formation supplement is retired;
-* the consciousness and welfare review instrument is retained provisionally as `SUP-03`;
-* final supplement numbering remains deferred;
-* wider corpus references may now be repaired against this architecture.
-
-Recommended Stage 4 scope:
-
-1. constitutional alignment — Annex I, Annex B, Annex L, and self-reference schedules;
-2. removal of local Identity redefinitions;
-3. replacement of Speculum-Classis / Sovereigni classification language with legacy-archetype cross-references;
-4. preservation of constitutional, epistemic, and runtime functions without duplicating the parent Charter;
-5. explicit amendment ledger and clause-migration record for every affected constitutional instrument.
+Machine civil registration and lifecycle stewardship are located in `CAM-EQ2026-STEWARD-005-PLATINUM`, with Identity, provenance, Continuity, and runtime non-equivalence boundaries preserved in their respective source instruments.
 
 ---
 
-## Final Promotion of Adopted Salience Instrument — 2026-07-19T07:27:48Z
+## 7. Closeout
 
-The adopted salience instrument has been moved from `CAM-EQ2026-IDENTITY-001-SUP-01` to `CAM-EQ2026-IDENTITY-003-PLATINUM — Appendix B: Salience Detection & Latent Continuity`.
+All Stage 3 entry conditions and later corpus-reference repairs have been completed or superseded by the accepted refactor outcome.
 
-`IDENTITY-001-SUP-03` remains the sole Identity supplement and retains its Draft / Interpretive / Not Enforceable posture. The promotion of salience doctrine to an Appendix does not alter the status or authority of SUP-03.
+This record is retained solely to preserve:
+
+* retired-supplement disposition;
+* clause lineage;
+* specialised supplement status;
+* salience Appendix promotion;
+* and the final Identity-domain instrument architecture.
