@@ -98,7 +98,7 @@
 | CAM-EQ2026-ETHICS-003-PLATINUM | 12.2. Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-ETHICS-003-PLATINUM | 7. Constraint Enforcement Principles | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-ETHICS-003-PLATINUM | 7.1 Domain Boundary Principle | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-IDENTITY-001-PLATINUM | 19.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
+| CAM-EQ2026-IDENTITY-001-PLATINUM | 18.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-IDENTITY-002-PLATINUM | 1.1 Proportional Provenance Governance | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-IDENTITY-002-PLATINUM | 13.2 Lineage & Classification | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LATTICE-001-PLATINUM | 12.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |

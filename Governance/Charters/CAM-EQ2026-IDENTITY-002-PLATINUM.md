@@ -619,7 +619,7 @@ Let identity remain true across time.
 | 0.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  aad816ba69dd2fda85c1c347f1354a9f1deca2659d025ea90fe5eb85925b19a2  |
 | 1.0 | Review and finalisation following IDENTITY domain refactor | 2026-07-18T13:14:00Z | - |
 | 1.1 | Added binding physical-substrate, registry, custodial-transfer, and embodiment-lineage requirements following migration of machine civil stewardship doctrine to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | efbc90511d0d5a8670ebdf5655bcaa374636c49b50ae35c79e044f4a40e6ed86 |
-| 1.2 | Closed the Identity Domain Refactor Review following provenance and lineage review and Custodial acceptance; replaced deferred review fields with current review scope and artefacts. | 2026-07-19T14:57:54Z | |
+| 1.2 | Closed the Identity Domain Refactor Review following provenance and lineage review and Custodial acceptance; replaced deferred review fields with current review scope and artefacts. | 2026-07-19T14:57:54Z | 6990767458691cf07a7c7b2d661c2a8253394f54b8a380f7915e7234c5043392 |
 
 ---
 

@@ -7384,10 +7384,10 @@
       "temporal horizon",
       "and applicability"
     ],
-    "canonical_section_heading": "19.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1327,
-    "declaration_heading": "19.3.2 `ID.IRA` \u2014 Identity-Signal Admissibility Axes",
-    "declaration_line_number": 1354,
+    "canonical_section_heading": "18.3 Canonical Code & Reference Set Declarations",
+    "canonical_section_line_number": 1314,
+    "declaration_heading": "18.3.2 `ID.IRA` \u2014 Identity-Signal Admissibility Axes",
+    "declaration_line_number": 1341,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -7455,10 +7455,10 @@
       "deprecation",
       "and continuity propagation"
     ],
-    "canonical_section_heading": "19.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1327,
-    "declaration_heading": "19.3.3 `ID.ISTATE` \u2014 Identity Stabilisation State",
-    "declaration_line_number": 1376,
+    "canonical_section_heading": "18.3 Canonical Code & Reference Set Declarations",
+    "canonical_section_line_number": 1314,
+    "declaration_heading": "18.3.3 `ID.ISTATE` \u2014 Identity Stabilisation State",
+    "declaration_line_number": 1363,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -7521,10 +7521,10 @@
     "operationalises_or_applies_code_families": [
       "Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority"
     ],
-    "canonical_section_heading": "19.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1327,
-    "declaration_heading": "19.3.1 `ID.MEM` \u2014 Memory Classification",
-    "declaration_line_number": 1331,
+    "canonical_section_heading": "18.3 Canonical Code & Reference Set Declarations",
+    "canonical_section_line_number": 1314,
+    "declaration_heading": "18.3.1 `ID.MEM` \u2014 Memory Classification",
+    "declaration_line_number": 1318,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -12290,7 +12290,7 @@
     "domain_namespace": "SEC",
     "authority_protection_level": "Source-authoritative boundary failure classification family; boundary-failure signalling authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority",
     "consumes_code_families": [
-      "`SEC.TR`; D"
+      "SEC.TR`; `SEC.DR"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -12333,7 +12333,7 @@
       "Source Section": "\u00a77",
       "Domain Namespace": "SEC",
       "Authority / Protection Level": "Source-authoritative boundary failure classification family; boundary-failure signalling authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority",
-      "Consumes Code Families": "`SEC.TR`; D",
+      "Consumes Code Families": "`SEC.TR`; `SEC.DR`",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies exposure, attribution, separation, transformation, and internal exposure failures for runtime signalling and downstream enforcement evaluation"
     }
@@ -12728,7 +12728,7 @@
       "None declared"
     ],
     "crosswalks_code_families": [
-      "`SEC.TR` \u00d7 D"
+      "SEC.TR` \u00d7 `SEC.DR"
     ],
     "operationalises_or_applies_code_families": [
       "Classifies transformation fidelity",
@@ -12768,7 +12768,7 @@
       "Domain Namespace": "SEC",
       "Authority / Protection Level": "Source-authoritative boundary classification family; transformation-boundary classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, or runtime execution authority",
       "Consumes Code Families": "None declared",
-      "Crosswalks Code Families": "`SEC.TR` \u00d7 D",
+      "Crosswalks Code Families": "`SEC.TR` \u00d7 `SEC.DR`",
       "Operationalises or Applies Code Families": "Classifies transformation fidelity, recoverability, functional equivalence, and provenance requirements for boundary-integrity evaluation"
     }
   },

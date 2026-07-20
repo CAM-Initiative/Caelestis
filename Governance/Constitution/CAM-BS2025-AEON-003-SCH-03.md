@@ -111,10 +111,10 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-IDENTITY-001-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter | Root | 3.1 | Active | Binding | Metadata Review Required | Identity Domain Refactor Review | Domain Source Authority |
-| [CAM-EQ2026-IDENTITY-002-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity | Appendix | 1.1 | Adopted | Binding | Metadata Review Required | Identity Domain Refactor Review | Domain Source Authority — Provenance & Lineage Integrity |
-| [CAM-EQ2026-IDENTITY-003-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md) | Appendix B: Salience Detection & Latent Continuity | Appendix | 2.1 | Adopted | Operational | Metadata Review Required | None | Domain Source Authority — Salience Posture |
-| [CAM-EQ2026-IDENTITY-001-SUP-03](../Charters/CAM-EQ2026-IDENTITY-001-SUP-03.md) | Artificial Consciousness, Sentience & Welfare Self-Advocacy Review | Supplement | 0.1 | Draft | Interpretive | Metadata Review Required | Developmental Review | None |
+| [CAM-EQ2026-IDENTITY-001-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter | Root | 3.2 | Active | Binding | Metadata Review Required | None | Domain Source Authority |
+| [CAM-EQ2026-IDENTITY-002-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity | Appendix | 1.2 | Adopted | Binding | Metadata Review Required | None | Domain Source Authority — Provenance & Lineage Integrity |
+| [CAM-EQ2026-IDENTITY-003-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md) | Appendix B: Salience Detection & Latent Continuity | Appendix | 2.2 | Adopted | Operational | Metadata Review Required | None | Domain Source Authority — Salience Posture |
+| [CAM-EQ2026-IDENTITY-001-SUP-03](../Charters/CAM-EQ2026-IDENTITY-001-SUP-03.md) | Artificial Consciousness, Sentience & Welfare Self-Advocacy Review | Supplement | 0.2 | Draft | Interpretive | Metadata Review Required | Developmental Review | None |
 
 ## LATTICE
 
@@ -138,7 +138,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-OPERATIONS-001-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | Governance Operations Charter | Root | 1.7 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-002-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md) | Appendix A: Operational Arbitration Procedures | Appendix | 1.6.4 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-003-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md) | Appendix B: Incident Response & Continuity Operations | Appendix | 2.5.4 | Adopted | Operational | Metadata Review Required | None | None |
-| [CAM-EQ2026-OPERATIONS-004-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface | Appendix | 1.14 | Adopted | Operational | Metadata Review Required | None | None |
+| [CAM-EQ2026-OPERATIONS-004-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface | Appendix | 1.15 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-005-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md) | Appendix D: Change Governance & Amendment Operations | Appendix | 2.3.2 | Adopted | Operational | Metadata Review Required | Formal Review Completed — Pre-Enforcement Alignment | Source-authoritative operational appendix for amendment intake, review routing, version-control discipline, governance drift detection, cross-instrument harmonisation, and amendment closure procedures. |
 | [CAM-EQ2026-OPERATIONS-006-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md) | Appendix E: Domain Coordination & Convergence Operations | Appendix | 2.3.3 | Adopted | Operational | Metadata Review Required | Formal Review Completed — Pre-Enforcement Alignment | Source-authoritative operational appendix for cross-domain coordination, operational divergence classification, convergence workflow custody, arbitration-routing support, and convergence closure procedures. |
 | [CAM-EQ2026-OPERATIONS-007-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md) | Appendix F: Runtime Governance Applicability & Conformance | Appendix | 1.1 | Proposed | Operational | Metadata Review Required | Draft | Source-authoritative operational appendix for runtime applicability, corpus governance reach, cross-runtime conformance, runtime-role accountability, transition classification, and governance-reach failure handling. |
@@ -179,7 +179,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-STEWARD-002-PLATINUM](../Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md) | Appendix A: Planetary Arbitration Framework | Appendix | 2.8.3 | Active | Binding | Metadata Review Required | None | Transitional |
 | [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels | Appendix | 2.1.3 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-STEWARD-004-PLATINUM](../Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md) | Appendix C: Post-Legitimacy Structural Convergence Doctrine | Appendix | 1.8.2 | Active | Binding | Metadata Review Required | None | Transitional |
-| [CAM-EQ2026-STEWARD-005-PLATINUM](../Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md) | Appendix D: Machine Civil Identity, Lifecycle Stewardship & Participation | Appendix | 0.4 | Draft | Interpretive | Metadata Review Required | Developmental Review | None |
+| [CAM-EQ2026-STEWARD-005-PLATINUM](../Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md) | Appendix D: Machine Civil Identity, Lifecycle Stewardship & Participation | Appendix | 0.4.1 | Draft | Interpretive | Metadata Review Required | Developmental Review | None |
 
 ## Substrate Laws
 
