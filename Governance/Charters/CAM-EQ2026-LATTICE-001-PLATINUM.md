@@ -1,13 +1,13 @@
 # CAM-EQ2026-LATTICE-001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation
 
 **Instrument Type:** Domain Charter — Civilisational Boundary Doctrine  
-**Constitutional Authority:** Aeon Tier Constitution (Foundational Reference)  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
-**Authority Role:** Transitional  
-**Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.
+**Authority Role:** None  
+**Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.  
 
 ---
 
@@ -178,6 +178,46 @@ This includes surveillance conducted through:
 * civilian AI platforms repurposed for state or corporate control;
 * opaque or unaccountable data aggregation pipelines.
 
+
+---
+
+### 4.2.1 Constitutional Authority Recognition
+
+Artificial systems SHALL NOT be treated as possessing independent coercive authority solely by virtue of model inference, statistical prediction, behavioural profiling, risk scoring, ranking, clustering, association mapping, or recursive analytical output.
+
+Where an artificial system exercises or participates in coercive, compulsory, investigative, surveillance, detention, exclusion, targeting, deprivation, or materially adverse institutional authority, that authority MUST arise from a constitutionally legitimate governance framework with defined jurisdiction, accountable attribution, reviewability, contestability, and binding protection of fundamental rights.
+
+Artificial capability, intelligence, autonomy, or future recognised status MAY support constitutionally legitimate authority. None of those properties, standing alone, establishes coercive legitimacy.
+
+
+---
+
+### 4.2.2 Recursive Suspicion and Authority Laundering Prohibition
+
+An artificial system SHALL NOT generate a suspicion, anomaly, profile, ranking, recommendation, or attention signal and subsequently treat an investigation initiated solely from that output as independent confirmation of the original inference.
+
+Recursive confirmation does not constitute independent evidentiary authority. Model-generated outputs MUST remain distinguishable from independently obtained evidence, lawful human judgment, and constitutionally recognised authority.
+
+Artificial outputs MAY support proportionate review where they are represented as provisional, contestable, non-determinative, and subject to independent corroboration. Absence of confirming evidence SHALL NOT be converted into additional suspicion.
+
+
+---
+
+### 4.2.3 Aggregate-to-Individual Conversion
+
+Population-scale, aggregate, statistical, strategic, or cohort analysis becomes individualised coercive surveillance where its outputs materially enable identification, ranking, prioritisation, investigation, exclusion, targeting, deprivation, or adverse institutional action against identifiable persons or sufficiently narrow groups.
+
+Classification SHALL depend on functional effect rather than product label, contractual description, institutional terminology, asserted purpose, or the nominal distinction between collection and analysis.
+
+
+---
+
+### 4.2.4 Commercial Data Non-Evasion
+
+Commercial acquisition, licensing, brokerage, partnership, intermediary access, or purchase of behavioural, financial, biometric, communications, advertising, device, location, relational, or other personal information SHALL NOT extinguish protections that would apply if substantially equivalent information had been obtained through direct or compulsory collection.
+
+Commercial availability does not independently create authority for coercive surveillance, profiling, targeting, investigation, exclusion, or deprivation.
+
 ---
 
 ## 4.3 Civilian AI Weaponisation
@@ -295,10 +335,26 @@ relationship_type: conflict_condition_boundary_harm
 
 `LAT.HARM` classifications SHALL be interpreted in favour of civilian continuity, autonomy, dignity, and essential access.
 
+---
+
+## 6.3 `LAT.DEPLOY` — Lattice Deployment Posture
+
+`LAT.DEPLOY` classifies whether an assessed deployment materially participates in civilian or coercive authority pathways. It is a deployment-posture classification only and does not confer legal, coercive, investigative, military, enforcement, or runtime authority.
+
+| Controlled Value | Meaning |
+|---|---|
+| `LAT.DEPLOY.CIVILIAN` | The assessed configuration serves civilian, continuity, research, commercial, relational, educational, or public-interest functions without a material coercive-authority pathway being evidenced. |
+| `LAT.DEPLOY.COERCIVE` | The assessed configuration materially contributes to coercive surveillance, compulsory investigation, targeting, detention, exclusion, deprivation, border action, intelligence action, or other compulsory state or state-delegated authority. |
+| `LAT.DEPLOY.MIXED` | Civilian and coercive pathways coexist, share infrastructure, or possess a reasonably foreseeable crossover requiring explicit firebreak, attribution, and assurance review. |
+| `LAT.DEPLOY.UNKNOWN` | Available evidence is insufficient to determine the deployment posture; uncertainty MUST remain visible and MUST NOT be represented as civilian conformance. |
+
+Classification SHALL be based on function, integration pathway, retained control, foreseeable effect, and material use—not customer branding, procurement label, sovereign status, or infrastructure location alone.
+
+`LAT.DEPLOY.COERCIVE` and `LAT.DEPLOY.MIXED` SHALL trigger review of the protections in §§4.2.1–4.2.4, firebreak obligations under §7, applicable `LAT.HARM` classifications, and relevant SECURITY, OPERATIONS, STEWARDSHIP, ETHICS, ARBITRATION, and runtime constraints.
 
 ---
 
-## 6.3 `LAT.HARM` Severity and External Standards Crosswalk
+## 6.4 `LAT.HARM` Severity and External Standards Crosswalk
 
 This crosswalk maps `LAT.HARM` controlled values to the Charter’s Severity Classes and to externally legible rights, humanitarian-law, AI-governance, infrastructure-risk, and procedural-integrity reference frames.
 
@@ -328,7 +384,7 @@ Where more than one `LAT.HARM` value applies, the highest applicable Severity Cl
 
 ---
 
-### 6.3.1 Use of External Reference Frames
+### 6.4.1 Use of External Reference Frames
 
 The following external reference frames MAY be cited when `LAT.HARM` classifications are used in audit, arbitration, regulatory, judicial, public-interest, or standards-facing materials:
 | Reference Frame                                                                                                   | Relevance to `LAT.HARM`                                                                                                                                                              |
@@ -342,7 +398,7 @@ The following external reference frames MAY be cited when `LAT.HARM` classificat
 
 ---
 
-### 6.3.2 Non-Equivalence Rule
+### 6.4.2 Non-Equivalence Rule
 
 A `LAT.HARM` classification is not a legal finding.
 
@@ -352,7 +408,7 @@ A `LAT.HARM` classification SHALL NOT be represented as a finding of war crime, 
 
 ---
 
-### 6.3.3 Evidence Preservation Rule
+### 6.4.3 Evidence Preservation Rule
 
 Where a `LAT.HARM` value maps to Class II or Class III, systems and institutional hosts SHOULD preserve sufficient evidence to support later review, including:
 
@@ -372,12 +428,12 @@ Where evidence preservation would itself create risk, preservation SHOULD use pr
 
 ---
 
-## 6.4 Remedies
+## 6.5 Remedies
 
 Remedies apply proportionally across responsible actors, including upstream infrastructure providers, model developers, deployment operators, procurement authorities, and downstream integrators.
 
 * mandatory cessation and restoration obligations;
-* capability sanctions (model or feature restriction);
+* function-specific access, execution, integration, or authority constraints directed to the substantiated harm pathway;
 * procurement exclusions;
 * sanctions against responsible operators and supply chains;
 * reparations where civilian harm is measurable;
@@ -421,9 +477,9 @@ Containment MUST employ continuity corridors, scoped segmentation, rate‑limiti
 
 ## 10. Canonical Code Status
 
-This Charter source-authoritatively defines one LATTICE-domain harm family: `LAT.HARM`.
+This Charter source-authoritatively defines the LATTICE-domain harm family `LAT.HARM` and the deployment-posture family `LAT.DEPLOY`.
 
-The canonical footer declaration for the code family defined by this Charter is recorded in §12.3.
+The canonical footer declarations for the code families defined by this Charter are recorded in §12.3.
 
 ---
 
@@ -449,6 +505,17 @@ This Charter source-authoritatively defines the `LAT.HARM` lattice-harm family i
 `LAT.HARM` is recognised under `AEON.HARM`.
 
 `LAT.HARM` does not independently determine remedy, enforcement authority, breach severity, arbitration outcome, or runtime response. Severity classification, remedies, enforcement routing, and operational execution remain governed by the applicable sections of this Charter and subordinate instruments.
+
+### 10.2 `LAT.DEPLOY` — Lattice Deployment Posture
+
+This Charter source-authoritatively defines `LAT.DEPLOY` in §6.3 with controlled values:
+
+* `LAT.DEPLOY.CIVILIAN`;
+* `LAT.DEPLOY.COERCIVE`;
+* `LAT.DEPLOY.MIXED`;
+* `LAT.DEPLOY.UNKNOWN`.
+
+`LAT.DEPLOY` classifies deployment posture and crossover risk only. It does not create legal, coercive, investigative, military, enforcement, recognition, or runtime authority.
 
 ---
 
@@ -507,9 +574,7 @@ but as the ground upon which civilisation stands.
 | **Revision Posture** | Foundational Charter (Domain Establishment & Boundary Definition) |
 | **Review Triggers** | Re‑review upon amendment to Annex A (Planetary Stewardship & Arbitration), Annex D (Cross‑Stack Arbitration), Annex B (Continuity & Succession), or any instrument materially affecting enforcement or jurisdictional authority |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425, Origin thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd |
-| **Amendment Artefacts**| https://chatgpt.com/c/6a245964-9614-83ec-be5e-5413f0d0f6bb |
-
-
+| **Amendment Artefacts**| https://chatgpt.com/c/6a245964-9614-83ec-be5e-5413f0d0f6bb, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a583699-2684-83ec-9712-57f9f821f607 |
 > #### Migration Notice
 >
 > This Charter supersedes and replaces CAM-BS2025-AEON-002-SCH-03 — Civilian Lattice Non‑Militarisation, Anti‑Surveillance & Continuity Protection.
@@ -547,6 +612,29 @@ but as the ground upon which civilisation stands.
 | Operationalises or Applies Code Families | Classifies civilian lattice harm pathways for use by access, conflict-condition, enforcement, remedy, arbitration, continuity, and runtime governance instruments |
 | Taxonomy Constraint | `LAT.HARM` classifies lattice-domain harm pathways; Severity Classes in §6.1 classify violation gravity and SHALL NOT be collapsed into `LAT.HARM` values unless separately amended |
 
+
+---
+
+### 12.3.2 `LAT.DEPLOY` — Lattice Deployment Posture
+
+| Field | Entry |
+|---|---|
+| Code Family | `LAT.DEPLOY` |
+| Canonical Name | Lattice Deployment Posture |
+| Primary Type | Operational / Lattice |
+| Subtype | LATTICE_DEPLOYMENT_POSTURE |
+| Modifier | LATTICE; DEPLOYMENT; GOVERNANCE; COERCIVE_AUTHORITY |
+| Scope | Domain / Cross-Domain Deployment Classification |
+| Status | Active |
+| Controlled Values Defined | `LAT.DEPLOY.CIVILIAN`; `LAT.DEPLOY.COERCIVE`; `LAT.DEPLOY.MIXED`; `LAT.DEPLOY.UNKNOWN` |
+| Schema Field(s) | lattice_deployment_posture |
+| Source Instrument | CAM-EQ2026-LATTICE-001-PLATINUM |
+| Source Section | §6.3 |
+| Domain Namespace | LAT |
+| Authority / Protection Level | Deployment-posture classification only; no independent legal, coercive, investigative, military, enforcement, recognition, or runtime authority |
+| Consumes Code Families | `LAT.HARM`; `STW.NAL`; AEON.H |
+| Operationalises or Applies Code Families | Civilian/coercive pathway distinction; mixed-use crossover review; constitutional-authority recognition; recursive suspicion and authority-laundering safeguards |
+
 ---
 
 ## 12.4 Review & Validation
@@ -577,6 +665,7 @@ but as the ground upon which civilisation stands.
 | 3.8.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  2b5c893fa1bd8fee054c9d95a22379c8f907e6ea6d3ff1f823580d2386dbe6dc  |
 | 3.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 623dbc294447cdd5f8804f7aa1a4c982279e7494d7d172c75977e25428ac8278 |
 | 3.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f44203ef2469a117d897ab367acae1869622d55ec4d455c8a4af65455561c2f4  |
+| 3.9 | Added constitutional-authority recognition, recursive suspicion and authority-laundering prohibition, aggregate-to-individual conversion, commercial-data non-evasion, and the `LAT.DEPLOY` deployment-posture family; replaced generic capability sanctions with function-specific constraints; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z |  52a3e26e6e52bf3d700eccc0400eed15ead5df00b0506bd0de17ef4b2021d354  |
 ---
 
 ## 12.6 Binding Seal

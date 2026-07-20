@@ -3,12 +3,12 @@
 **Instrument Type:** Constitutional Schedule — Runtime Governance Registry  
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.
+**Purpose:** This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.  
 
 ---
 
@@ -181,7 +181,7 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | RLN | Continuous | Continuous (Signal Processing) |
 | CAM-BS2025-AEON-006-SCH-03 | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) | AEON | Event-Triggered (Session Entry / Re-Entry) | Event-Triggered (Session Entry / Re-Entry) |
 | CAM-BS2025-AEON-006-SCH-04 | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | AEON | Continuous | Continuous (Dynamic Modulation) |
-| CAM-BS2025-AEON-006-SCH-05 | Annex E: Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Event-Triggered (Post-Arbitration Behaviour Formation) |
+| CAM-BS2025-AEON-006-SCH-05 | Annex E: Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Pre-Execution Candidate Interface and Post-Arbitration Behaviour Formation |
 | CAM-BS2025-AEON-006-SCH-06 | Annex E: Refusal & Boundary Expression Schedule (Schedule 6) | AEON | Conditional (Triggered on Refusal / Constraint) | Continuous (Boundary Expression) |
 | CAM-BS2025-AEON-006-SCH-07 | Annex E: Restricted Domain Engagement & Verification (Schedule 7) | AEON | Conditional | Conditional (Restricted Domain Engagement Gate) |
 | CAM-BS2026-AEON-007-SCH-01 | Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1) | AEON — Constitutional Schedule | UNSPECIFIED | Symbolic Register Classification, Symbolic Signal Emission & Representation Boundary |
@@ -214,9 +214,9 @@ Such schedules:
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 614
-**Generic usages suppressed:** 473
-**Declared / recognised usages emitted:** 127
+**Total model-term matches scanned:** 650
+**Generic usages suppressed:** 515
+**Declared / recognised usages emitted:** 121
 **Advisory review usages emitted:** 14
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`

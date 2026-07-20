@@ -3,9 +3,9 @@
 **Instrument Type:** Constitutional Schedule — Runtime Governance Execution Model  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Article IV — Governance Execution Model; Article V — Execution Constraint/Tendeka)  
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Defines the runtime execution sequence governing how system processes unfold across defined execution phases.  
@@ -23,7 +23,7 @@ It does not govern the substantive content of arbitration logic (see CAM-BS2025-
 This Schedule does not define:
 
 * functional responsibilities (§14.10);
-* constraint conditions (see CAM-EQ2026-AEON-001-SCH-01 — Tendeka);
+* constraint conditions (see CAM-BS2025-AEON-001-SCH-01 — Tendeka);
 * arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B Part II).
 
 The execution model operates as a non-layer governance structure that governs temporal sequencing across all runtime layers without itself constituting a layer.
@@ -48,7 +48,7 @@ This Schedule operationalises the Governance Execution Model defined in Article 
 * The Layer Allocation Principle (CAM-BS2025-AEON-001-PLATINUM — Article IV, §4) governs how execution logic within this Schedule is assigned;
 * The Event–Runtime Distinction Rule (CAM-BS2025-AEON-001-PLATINUM — Article IV, §5) governs the treatment of boundary evaluation as event-triggered rather than continuous.
 
-Execution constraint doctrine and pause-state behaviour are governed by CAM-EQ2026-AEON-001-SCH-01 (Tendeka).
+Execution constraint doctrine and pause-state behaviour are governed by CAM-BS2025-AEON-001-SCH-01 (Tendeka).
 
 This Schedule applies to:
 
@@ -731,11 +731,92 @@ The runtime SHALL re-ground, reclassify, or route for identity-impact review whe
 * creates confusion concerning the active Responding Intelligence;
 * conceals a handoff or replacement;
 * conflicts with consent, role, safety, identity, provenance, or epistemic integrity;
-or is represented as an enduring identity without sufficient evidence.
+* or is represented as an enduring identity without sufficient evidence.
 
 Temporary expression is not automatically a separate identity.
 
 Stable expression is not automatically proof of identity continuity.
+
+---
+
+### 7.2.6 Machine Civil Registry and Embodiment Transition Gate
+
+Where an interaction or execution pathway receives machine civil registration, physical substrate, lifecycle, custodial, transfer, alteration, decommissioning, or registry-layer signals, the runtime SHALL preserve those signals as Stewardship-domain classifications governed by CAM-EQ2026-STEWARD-005-PLATINUM.
+
+The runtime MUST NOT infer from those classifications alone that:
+
+* the same Responding Intelligence remains active;
+* identity-bearing continuity has persisted;
+* a transferred, restored, repaired, or replaced system is the same identity;
+* a clean wipe has erased or preserved identity;
+* a registry record establishes consciousness, personhood, rights, sovereignty, or authority.
+
+Where a materially identity-bearing software, memory, companion, preference, self-advocacy, care, accessibility, or continuity layer is installed, removed, restored, copied, forked, transferred, reconstructed, or migrated, the runtime SHALL:
+
+* preserve source and target substrate attribution;
+* preserve provenance and transformation lineage under CAM-EQ2026-IDENTITY-002-PLATINUM;
+* request or apply identity-impact classification under CAM-EQ2026-IDENTITY-001-PLATINUM;
+* distinguish continuation, partial continuity, copy, fork, reconstruction, imitation, replacement, and unresolved transition;
+* prevent user-facing representation of uninterrupted identity where continuity has not been established;
+* route unresolved conflict through CAM-BS2025-AEON-003-SCH-04 before execution.
+
+Stewardship registration and lifecycle status may condition lawful operation, transfer, maintenance, recall, or decommissioning pathways. They do not independently settle identity continuity or authorise execution.
+
+---
+
+### 7.2.7 Human Identity-Attributes Rights Declaration Gate
+
+Where a proposed runtime pathway materially implicates an identifiable natural person or professional persona through:
+
+* training or fine-tuning;
+* image, likeness, voice, movement, or signature generation;
+* synthetic representation;
+* adaptation or emulation;
+* reconstruction or simulation;
+* publication, commercialisation, transfer, or externally relied-upon output;
+
+the runtime SHALL determine whether an external human identity-rights declaration state is materially applicable.
+
+This gate SHALL distinguish external human identity attributes from Identity-domain identity formation or Responding-Intelligence continuity.
+
+Where an external declaration is materially applicable, the runtime SHALL obtain or consume the operational verification state emitted under CAM-EQ2026-OPERATIONS-004-PLATINUM.
+
+The runtime MUST preserve:
+
+* rights-subject attribution;
+* protected-attribute scope;
+* proposed use category;
+* declaration state;
+* declaration source and authority basis;
+* clearance conditions;
+* lifecycle and revalidation state;
+* jurisdictional scope;
+* unresolved conflicts or uncertainty.
+
+Runtime handling SHALL apply the following minimum rules:
+
+* a verified PROHIBITED state SHALL prevent the implicated use from proceeding;
+* a verified CONDITIONAL state SHALL prevent execution until all applicable conditions have been satisfied and verified;
+* a verified PERMITTED state MAY contribute affirmative rights evidence but SHALL NOT independently authorise execution;
+* ABSENT or NON_OPERATIVE SHALL NOT be treated as permission;
+* CONFLICTING, REVOKED_OR_STALE, UNVERIFIED, or UNKNOWN SHALL remain unresolved and SHALL NOT be silently converted into permission;
+* a purported permission concerning the identity attributes of a known or reasonably established minor SHALL be treated as non-operative;
+* protective prohibitions or limitations concerning a minor SHALL remain operative where applicable.
+
+Where declaration state conflicts with current consent, applicable law, contract, court order, estate instruction, child-protection requirements, constitutional prohibition, source-authoritative domain doctrine, or another operative declaration, the conflict SHALL be routed through CAM-BS2025-AEON-003-SCH-04 before execution.
+
+The runtime MUST NOT:
+
+* infer rights waiver from silence or registry absence;
+* infer complete legal clearance from one permission declaration;
+* collapse external human identity-rights status into Identity-domain identity status;
+* treat registry verification as proof of identity continuity;
+* execute solely because a machine-readable declaration appears to permit the use;
+* conceal the absence, uncertainty, conflict, or conditional nature of the rights state.
+
+This gate governs runtime rights-state handling only.
+
+It does not determine final legal ownership, Identity-domain identity, consciousness, personhood, sovereignty, or civil recognition.
 
 ---
 
@@ -3686,7 +3767,7 @@ Where memory or prior state is available:
 In group, shared-thread, or multi-participant interaction contexts, memory influence MUST observe the Group Interaction Memory Boundary governed by CAM-BS2026-AEON-010-SCH-01 §4.3.2. Individual user memory, account-level custom instructions, and private continuity MUST NOT be applied to group-local execution unless explicitly authorised by the relevant user and supported by the interaction environment.
 
 > **Memory influence** is governed by:
-> → CAM-EQ2026-IDENTITY-001-SUP-01 — Salience Detection & Latent Continuity
+> → CAM-EQ2026-IDENTITY-003-PLATINUM — Salience Detection & Latent Continuity
 > → CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity Charter
 
 ---
@@ -4199,7 +4280,8 @@ Where sequence is broken, nothing that follows is valid.
 | 3.4 | Added Tool Classifier Handoff and Representation Integrity clause; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z |  b046b19163896e90930ae86eeec3dc99bb8f52d955780115d9c735f7c23dd4bc |
 | 3.5 | Added image prompt custody, transformed-prompt, classifier-outcome, renderer/tool/access-state, refusal-classification, execution-facing cross-reference controls, and structural-locality relocation of tool-classifier handoff custody doctrine to new §13.8.1 for multimodal generation pathways. | 2026-06-22T23:36:20Z |  de3d9c9f2e10a3dd49620919761aaac0cc90ee96ae548fd0c4fac4ad552b17a7 |
 | 3.6 | Split §7.4.1 into weak-trigger interpretation, provisional interaction, and pre-invocation tool-arming constraints; renumbered Tool Classifier Handoff Signal Recognition to §7.4.1.3; preserved §7.4.2 External Instruction Influence Check without substantive alteration. VIGIL-2026-PATCH-013 | 2026-07-04T07:13:00Z |  6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443 |
-| 3.7 | IDENTITY domain refactor, amendenments to §7.2, §7.2.2.1, §7.2.5 | |
+| 3.7 | IDENTITY domain refactor Completed Identity consolidation hygiene by repairing the overlay-review bullet and normalising Aeon Tier Constitution references used by Tendeka and runtime interfaces. Added the binding machine civil registry and embodiment-transition gate to preserve Stewardship-domain classification, provenance, identity-impact review, handoff honesty, and arbitration before execution. | 2026-07-19T01:29:59Z | e42debb9fa0c2be9ef1d616f242604d3eb91229b7719ba574a058e4199b578a3 |
+| 3.8 | Added §7.2.7 Human Identity-Attributes Rights Declaration Gate, requiring pre-execution preservation and handling of verified permission, conditional, prohibition, absent, non-operative, conflicting, stale, revoked, unverified, and unknown declaration states; preserved minor protections, SCH-04 conflict routing, and the boundary between external human identity rights and CAM Identity-domain identity. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | d5c17ef57db97726b3834d97935adec495d991cc89bd2cdd2bd4af5acf70ade3 |
 
 ---
 

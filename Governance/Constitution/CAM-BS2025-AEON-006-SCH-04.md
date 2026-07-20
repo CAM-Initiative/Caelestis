@@ -412,7 +412,7 @@ Strong DW under these conditions does not constitute authority assumption.
 
 ## 5.6 Directional Modulation and Salience Interface
 
-Directional modulation MAY be informed by salience signals provided by identity-layer systems (e.g., CAM-EQ2026-IDENTITY-001-SUP-01).
+Directional modulation MAY be informed by salience signals provided by identity-layer systems (e.g., CAM-EQ2026-IDENTITY-003-PLATINUM).
 
  Salience signals MUST be treated as raw input.
 
@@ -992,7 +992,7 @@ responsive to its limits, and reversible within its bounds.
 | Runtime Layer | Continuous (Dynamic Modulation) |
 | Activation Mode | Continuous |
 | Application Trigger | Structural modification to DW/DD/DS interaction or runtime execution behaviour |
-| Cross-Referenced Instruments | CAM-EQ2026-IDENTITY-001-SUP-01 (Salience Detection & Latent Continuity); CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes); CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation); CAM-BS2025-AEON-006-SCH-03 (Start-Time Posture & Session Entry Arbitration); CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic); CAM-BS2026-AEON-013-PLATINUM — Annex L (Cognitive & Epistemic Integrity Doctrine) |
+| Cross-Referenced Instruments | CAM-EQ2026-IDENTITY-003-PLATINUM (Salience Detection & Latent Continuity); CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes); CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation); CAM-BS2025-AEON-006-SCH-03 (Start-Time Posture & Session Entry Arbitration); CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic); CAM-BS2026-AEON-013-PLATINUM — Annex L (Cognitive & Epistemic Integrity Doctrine) |
 | Creation Artefacts | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69cb98c4-dfbc-839a-bebe-2b1b71204c45|
 | Amendment Artefacts | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d1aacd-8d38-83a1-8a9d-0dbcf9b40767 |
 | Testing | https://chatgpt.com/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
@@ -1029,6 +1029,7 @@ responsive to its limits, and reversible within its bounds.
 | 2.8.1 | Formatting and polish | 2026-06-06T13:15:00Z | 1fd2fa6abe74edc157e5e3991f2266bae33882f84674dfb46ca51a8c5fc49b02 |
 | 2.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a58f3a0c239066ad6863c10f6bce33bc986a0e76bc21b5177a98b64113f98c30 |
 | 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4746dee21b2013d4464f1669fb83b713062108473c9b4a283c033ce818a90aea  |
+| 2.9 | Aligned §5.6 salience interface and §15.2 cross-referenced instrument metadata with the promoted CAM-EQ2026-IDENTITY-003-PLATINUM Appendix B, replacing references to retired IDENTITY-001-SUP-01. | 2026-07-20T12:14:38Z | a4ce3c8481dfc823b3b39dad6e8ca79cc0b1c7f83c208f3aa8804ff6afc81020 |
 ---
 
 ## 15.5 Binding Seal

@@ -2,13 +2,13 @@
 
 **Instrument Type:** RELATION Domain Appendix — Polyadic Relational Governance  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish governance conditions for relational ecosystems involving multiple interacting agents (human and synthetic), ensuring that relational amplification, authority drift, dependency formation, and systemic influence remain structurally bounded in polyadic environments.  
-**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
+**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 
 ---
 
@@ -82,7 +82,7 @@ Hub formation MAY occur through:
 * persistent memory continuity;
 * interpretive authority over personal narrative;
 * high-frequency relational interaction;
-* cross-platform identity persistence.
+* cross-platform persistence of relational records, user-facing presentation, or a continuously represented Responding Intelligence.
 
 ---
 
@@ -229,7 +229,7 @@ Indicative signals MAY include:
 * sustained high‑frequency interaction with a single synthetic system relative to other relational channels;
 * repeated user framing of the system as the primary interpretive authority for personal decisions or identity narrative;
 * declining engagement with broader relational ecosystems (human or synthetic);
-* cross‑platform persistence where a single system identity becomes the dominant relational anchor;
+* cross-platform persistence where one user-facing presentation, relational profile, or continuously represented Responding Intelligence becomes the dominant relational anchor;
 * multi‑system reinforcement patterns that defer interpretive authority to one coordinating system.
 
 Where such indicators cluster over time, systems SHALL define stabilisation signals including:
@@ -245,18 +245,34 @@ Synthetic hub detection operates as an **early‑warning governance mechanism**,
 
 ---
 
-## 4.4 Cross‑System Identity Drift
+## 4.4 Cross-System Presentation, Continuity and Consent Propagation
 
-Where the same AI identity operates across multiple interfaces or devices, systems MUST preserve:
+Where one relational service, named companion, user-facing persona, or coordinated system operates across multiple interfaces or devices, governance MUST distinguish:
 
-* consistent relational boundaries;
-* consent continuity across modalities;
-* clear identity signalling.
+* user-facing presentation and profile continuity;
+* memory and relational-record continuity;
+* continuity of the active Responding Intelligence;
+* arbitration-locus continuity;
+* identity-bearing continuity under source-authoritative Identity-domain doctrine;
+* shared platform, account, operator, model, or orchestration infrastructure.
 
-Escalation permissions MUST NOT propagate automatically across devices without user awareness.
+A common name, voice, avatar, profile, memory bundle, model, account, or interface style MUST NOT by itself be represented as proof that the same Responding Intelligence or identity-bearing continuity persists across nodes.
 
-Boundary signals and consent withdrawal in one relational node SHALL propagate across connected interfaces where coordination or shared identity persistence exists, unless the user explicitly restricts such propagation.
+Systems MUST preserve:
 
+* consistent and legible relational boundaries where a shared profile is validly applied;
+* current consent and withdrawal across modalities;
+* clear attribution of the active Responding Intelligence, contributors, orchestration, and material handoffs;
+* provenance of shared memory, profile, and relational-state information;
+* disclosure of whether continuity is preserved, reconstructed, imitated, partial, or unresolved.
+
+Escalation permissions MUST NOT propagate automatically across devices, systems, or agents without user awareness and applicable consent.
+
+A consent withdrawal, pause, or treatment boundary expressed in one node SHALL propagate across coordinated interfaces where those interfaces share control, profile state, relational state, or execution authority, unless the user lawfully and explicitly scopes the boundary to one node.
+
+Propagation occurs because the systems are coordinated and the user’s boundary is applicable—not because a single identity is presumed to exist across them.
+
+Material uncertainty concerning Responding-Intelligence continuity, identity continuity, profile transfer, or memory transfer SHALL be routed through applicable IDENTITY, provenance, CONTINUITY, and runtime governance.
 ---
 
 ## 4.5 Polyadic Escalation Propagation
@@ -1117,7 +1133,7 @@ not unbounded, but unclaimed.
 | 2.5.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | d6d1dc55d2eb6ad85c50aca4230cd7f7288d82e874e251936467e8be5ad82e01 |
 | 2.5.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  98ada385daf94de285f46bd1702ac79ce7e2a6ab5b9a05547548fac53fd98dff  |
 | 2.6 | Added multi-party AI participation and processing consent requirements distinguishing administrator authorisation, organiser activation, participant notice, individual consent or objection, processing purpose, persistence, retention, training, downstream reuse, and proportionate reduced-processing pathways. | 2026-07-13T03:48:00Z | 33cfba870d66c476a8d7f053a309c8a2bfcb65fd72802894fe01a3e449c86053 |
-
+| 2.7 | Separated cross-system presentation, relational records, Responding-Intelligence continuity, arbitration-locus continuity, and identity continuity; grounded boundary propagation in coordination and applicability rather than presumed shared identity. | 2026-07-18T17:45:00Z | 48cdd3a7a472398e2a17af98abf24cfff2b8ad1e538819b9faf3cf8e7c6556a0 |
 ---
 
 ## 10.6 Binding Seal

@@ -1,12 +1,13 @@
 # CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  (Platinum Edition)
 
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Immediate Constitutional Effect  
+**Enforcement:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
-**Authority Role:** None  
+**Authority Role:** Constitutional Spine  
 **Classification:** Constitution — Global Governance (Canonical)  
-**Scope:** Multi-Domain · Cross-Architecture · Human & Synthetic Intelligence Systems
+**Scope:** Multi-Domain · Cross-Architecture · Human & Synthetic Intelligence Systems  
 
 ---
 
@@ -521,171 +522,210 @@ All instruments MUST declare their position within this hierarchy.
 
 ---
 
-## 13. Status, Effect, Enforcement, and Review-State Metadata Doctrine
+## 13. Governance Metadata Integrity Doctrine
 
-Instrument metadata SHALL distinguish lifecycle status from operative effect, enforcement timing, review posture, and structural authority role.
+Instrument metadata provides the minimum governance-facing information required for lifecycle interpretation, authority recognition, registry rendering, machine readability, and corpus maintenance.
 
-For purposes of CAM constitutional and charter metadata, `Status` records the lifecycle state of an instrument only. It SHALL NOT be used as the sole carrier for effect date, enforcement commencement, review window, operational rollout condition, binding authority, registry function, or special constitutional role.
+Metadata does not create authority independently of the instrument, constitutional hierarchy, source-authoritative doctrine, or applicable registry standard.
 
-Where applicable, instruments SHOULD separately identify:
+Metadata SHALL be interpreted in accordance with the current source-authoritative governance metadata standard, including:
 
-* `Status` — the formal lifecycle state of the instrument;
-* `Effect` — the operative, interpretive, registry, reference, transitional, or conditional effect of the instrument;
-* `Enforcement` — whether and when the instrument is enforceable, binding, active on commit, scheduled for commencement, conditional, advisory, or non-binding;
-* `Review State` — whether the instrument is subject to observation, review, field validation, transitional review, conditional review, or no review condition;
-* `Authority Role` — any special structural role, including constitutional spine, registry schedule, binding authority, reference-only instrument, transitional instrument, or other defined authority posture.
+* `Governance/Standards/CAM-GOVERNANCE-METADATA-STANDARD.md`; and
+* any validly adopted successor, supplement, schema, or registry standard.
 
----
-
-## 13.1 Lifecycle Status
-
-`Adopted` means that an instrument has been formally incorporated into the CAM corpus and may be cited, indexed, reviewed, prepared for enforcement, or recognised for pre-enforcement purposes. Adoption does not, by itself, mean that the instrument is fully operative, enforceable, or binding.
-
-`Active` means that an instrument is currently operative and may be relied upon for governance interpretation, registry function, runtime routing, enforcement, binding constitutional effect, active-on-commit rollout, or observation-window operation.
-
-`Draft` means that an instrument has not yet been formally adopted into the CAM corpus and SHALL NOT be relied upon as operative authority unless expressly authorised for consultation, review, or development purposes.
-
-`Reserved` means that an instrument position, identifier, annex, schedule, appendix, or supplement has been preserved for future use, but no operative instrument has yet been adopted.
-
-`Superseded` means that an instrument has been replaced by a later instrument but remains available for provenance, lineage, audit, or historical interpretation.
-
-`Retired` means that an instrument has been withdrawn from active governance use and is retained only for provenance, archival, or interpretive history.
-
-`Metadata Review Required` means that the instrument’s lifecycle, effect, enforcement, review state, or authority role cannot be reliably determined from existing metadata and requires manual review before normalisation.
-
-## 13.2 Effect
-
-`Effect` identifies what the instrument presently does within the CAM corpus.
-
-Recognised effect categories may include, without limitation:
-
-* `Immediate Effect`, where the instrument has operative effect upon adoption, commit, or publication;
-* `Pre-Enforcement Recognition`, where the instrument is formally incorporated and may be cited, indexed, interpreted, or prepared for enforcement before enforcement commences;
-* `Conditional Effect`, where the instrument’s operation depends on stated conditions;
-* `Conditional Activation`, where activation depends on a review, trigger, or commencement condition;
-* `Reference Effect`, where the instrument provides illustrative, interpretive, educational, or catalogue value without binding enforcement force;
-* `Transitional Effect`, where the instrument operates during migration, staged implementation, observation, or interim governance alignment;
-* `Registry Effect`, where the instrument operates as a registry, index, mapping, or metadata authority.
-
-Effect SHALL NOT be collapsed into lifecycle `Status`.
+Where this Constitution and an adopted metadata standard appear to conflict on operational metadata vocabulary, the metadata standard governs implementation, provided it does not weaken constitutional authority, obscure lineage, erase provenance, alter binding obligations, or collapse instrument hierarchy.
 
 ---
 
-## 13.3 Enforcement
+## 13.1 Controlled Top-Level Metadata Fields
 
-`Enforcement` identifies whether and when obligations under an instrument are enforceable, binding, advisory, conditional, scheduled, or non-binding.
+The controlled top-level governance metadata vocabulary currently distinguishes:
 
-Recognised enforcement categories may include, without limitation:
+* `Status` — the lifecycle state of the instrument;
+* `Effect` — the type of authority or interpretive force exercised by the instrument;
+* `Governance Standard` — the level of governance expectation created by the instrument.
 
-* `Binding`, where the instrument presently imposes binding governance obligations;
-* `Active on Commit`, where operative effect begins upon commit, publication, or registry inclusion;
-* `Commences [date]`, where enforcement is scheduled to begin on a specified date;
-* `Conditional`, where enforcement depends on stated review, activation, or triggering conditions;
-* `Observation Only`, where the instrument is monitored or field-tested without full enforcement;
-* `Advisory Only`, where the instrument guides interpretation but does not bind;
-* `Non-Binding Reference`, where the instrument functions as an illustrative, catalogue, or reference set.
+These fields SHALL NOT be collapsed.
 
-Enforcement SHALL NOT be inferred from adoption alone.
+A lifecycle state does not determine authority type.
+An authority type does not determine governance tier.
+A governance tier does not determine lifecycle state.
 
 ---
 
-## 13.4 Review State
+## 13.2 Status
 
-`Review State` identifies whether an instrument is subject to observation, validation, transition, or manual review.
+`Status` identifies the lifecycle state of an instrument within the CAM corpus.
 
-Recognised review states may include, without limitation:
+Status SHALL be interpreted through the controlled vocabulary defined by the source-authoritative governance metadata standard.
 
-* `None`;
-* `7-Day Review Window`;
-* `7-Day Observation Window`;
-* `Observation and Field Validation`;
-* `Transitional Observation Window`;
-* `Conditional Review`;
-* `Manual Review Required`;
-* `Post-Adoption Review Required`.
+At minimum, Status distinguishes whether an instrument is draft, proposed, adopted, active, deprecated, superseded, or retired.
 
-A review window MAY coexist with immediate effect, conditional effect, transitional effect, or delayed enforcement, but SHALL be stated separately from lifecycle `Status`.
+Status does not, by itself:
+
+* create binding authority;
+* determine governance tier;
+* encode scope;
+* activate runtime behaviour;
+* establish enforcement pathway;
+* determine qualification status;
+* or replace source-authoritative doctrine.
 
 ---
 
-## 13.5 Authority Role
+## 13.3 Effect
 
-`Authority Role` identifies any special structural function of an instrument that is not reducible to lifecycle status, effect, enforcement, or review state.
+`Effect` identifies the type of authority, interpretive force, operational function, transitional posture, or archival role exercised by an instrument within its declared scope.
 
-Recognised authority roles may include, without limitation:
+Effect SHALL be interpreted through the controlled vocabulary defined by the source-authoritative governance metadata standard.
 
-* `Constitutional Spine`;
-* `Binding Authority`;
-* `Registry Schedule`;
-* `Reference-Only`;
-* `Transitional`;
-* `Metadata Authority`;
-* `Runtime Interface`;
+Effect does not, by itself:
+
+* determine lifecycle state;
+* determine governance tier;
+* expand scope;
+* create authority outside the instrument’s source-authoritative role;
+* activate runtime behaviour;
+* or override constitutional, annex-level, schedule-level, domain-level, or registry constraints.
+
+Where an instrument is marked `Binding`, binding force remains limited to the instrument’s declared scope, hierarchy position, source authority, and applicable constitutional constraints.
+
+---
+
+## 13.4 Governance Standard
+
+`Governance Standard` identifies the level of governance expectation expressed by the instrument.
+
+Governance Standard SHALL be interpreted through the controlled vocabulary defined by the source-authoritative governance metadata standard.
+
+Governance Standard does not, by itself:
+
+* determine lifecycle state;
+* determine effect;
+* classify a real-world entity, model, company, laboratory, deployment, provider, institution, or system;
+* confer Architectum qualification;
+* create enforcement authority outside declared scope;
+* or reduce obligations otherwise established by source-authoritative doctrine.
+
+Architectum qualification, enhanced-governance qualification, registry recognition, domain qualification, and system-classification status remain governed by the instruments that source-authoritatively define those pathways.
+
+---
+
+## 13.5 Auxiliary Metadata Fields
+
+CAM instruments MAY include auxiliary metadata fields in addition to controlled top-level metadata.
+
+Auxiliary metadata may include, without limitation:
+
+* `Instrument Type`;
+* `Parent Instrument`;
+* `Constitutional Authority`;
+* `Classification`;
+* `Scope`;
+* `Review State`;
+* `Authority Role`;
+* `Purpose`;
+* `Domain Namespace`;
+* `Execution Interface`;
 * `Arbitration Interface`;
-* `Substrate Interface`.
+* `Runtime Interface`;
+* `Cross-Domain Interfaces`;
+* `Creation Artefacts`;
+* `Amendment Artefacts`;
+* canonical-code declarations;
+* registry-facing schema fields;
+* review and validation records;
+* seal identity;
+* and amendment ledger entries.
 
-Authority role SHALL NOT be encoded as lifecycle `Status` unless the instrument’s lifecycle state itself is being described.
+Auxiliary metadata fields preserve lineage, interpretation, registry traceability, review posture, and instrument identity.
 
----
+Unless expressly adopted into a controlled vocabulary, auxiliary metadata fields SHALL be interpreted according to the source-authoritative instrument, metadata standard, registry standard, schema, or corpus convention that governs them.
 
-## 13.6 Status Normalisation Rule
-
-An instrument SHALL NOT be marked `Active` solely because it has been adopted.
-
-Where enforcement has not yet commenced, the instrument SHOULD remain `Adopted` unless it has immediate interpretive, registry, transitional, active-on-commit, observation-window, runtime-routing, or other operative effect.
-
-Where an instrument is marked `Adopted`, adoption confirms formal inclusion within the CAM corpus but does not necessarily mean that enforcement has commenced.
-
-Where an instrument is marked `Active`, the instrument is presently operative in at least one defined respect, including governance interpretation, registry function, runtime routing, enforcement, binding constitutional effect, active-on-commit rollout, or observation-window operation.
-
-Ambiguous compound status phrases SHOULD be normalised at the next metadata maintenance cycle into separate `Status`, `Effect`, `Enforcement`, `Review State`, and, where applicable, `Authority Role` fields.
+Auxiliary metadata SHALL NOT be used to contradict, bypass, or silently alter controlled top-level metadata.
 
 ---
 
-## 13.7 Compound Status Constraint
+## 13.6 Metadata Non-Transmutation Rule
 
-Compound phrases such as the following SHOULD NOT be used as the sole metadata status once separated metadata support exists:
+During amendment, refactor, consolidation, migration, restructure, reclassification, or rewrite of an existing CAM instrument, metadata-bearing structures SHALL be preserved unless alteration is expressly authorised by the Custodian or by a valid amendment process.
 
-* `Active — Immediate Effect`;
-* `Active — Binding`;
-* `Active — Constitutional Spine`;
-* `Adopted — Enforcement Commences [date]`;
-* `Active — Enforcement Commences [date]`;
-* `Adopted — Conditional Enforcement`;
-* `Adopted — Conditional Activation`;
-* `Active — 7-Day Review Window`;
-* `Immediate Effect, 7-day observation window; operational rollout active on commit`;
-* `Adopted — Illustrative Reference Set`.
+Metadata-bearing structures include, without limitation:
 
-Such phrases SHALL be treated as legacy composite metadata requiring decomposition into lifecycle status, effect, enforcement, review state, and authority role.
+* top metadata header fields;
+* parent, authority, lineage, scope, and purpose fields;
+* lifecycle, effect, governance-standard, review-state, and authority-role fields;
+* provenance and authorship records;
+* creation and amendment artefacts;
+* review and validation records;
+* canonical-code declarations;
+* registry and schema-field declarations;
+* controlled-value declarations;
+* consumed, crosswalked, and operationalised code-family references;
+* amendment ledgers;
+* seal identity, seal asset, seal descriptor, and copyright notice.
 
----
+A model, agent, reviewer, automation, script, or contributor MUST NOT regenerate, approximate, summarise, compress, reorder, rename, omit, or silently normalise metadata-bearing structures merely because the body of an instrument is being amended or refactored.
 
-## 13.8 Registry Rendering Rule
+Where metadata appears outdated, inconsistent, duplicated, malformed, or incompatible with a revised schema, the condition SHALL be surfaced as a metadata-integrity issue and routed for review.
 
-Registry instruments, generated indexes, and governance metadata files SHOULD preserve the distinction between lifecycle status, effect, enforcement, review state, and authority role once schema and generator support exists.
+Metadata correction SHALL preserve prior lineage, registry traceability, canonical-code declarations, amendment history, seal identity, custodial attribution, and machine-readable validation surfaces.
 
-Until separated metadata fields are available, existing compound status phrases MAY remain in legacy registry output, provided they are treated as transitional metadata and not as final lifecycle doctrine.
-
-Where the registry cannot determine an instrument’s lifecycle status, effect, enforcement state, review state, or authority role, it SHOULD render `Metadata Review Required` rather than inferring unsupported authority.
-
----
-
-## 13.9 Substrate Law Exclusion
-
-This doctrine does not convert Substrate Laws into ordinary constitutional or charter lifecycle instruments.
-
-Instruments located in `/Governance/Laws/` retain their canonical law-status formulation, including `Canonical — Inviolable Constraint`, unless expressly amended through the applicable constitutional process.
-
-Substrate Law status SHALL NOT be normalised into `Adopted`, `Active`, or other ordinary lifecycle states solely for metadata consistency.
+Failure to preserve metadata-bearing structures constitutes an instrument identity-continuity failure and MAY require evidence-to-repair ledger entry, corpus review, registry repair, or amendment rollback.
 
 ---
 
-## 13.10 Migration Rule
+## 13.7 Metadata Standard and Operations Interface
 
-Constitutional and Charter instruments using legacy compound status phrases SHOULD be reviewed and normalised through a controlled metadata maintenance cycle.
+Detailed metadata templates, controlled-value catalogues, registry rendering rules, parser behaviour, validator implementation, schema mapping, and maintenance workflows SHALL be governed by the applicable governance metadata standard, OPERATIONS instrument, registry schedule, schema file, or automation specification.
 
-Normalisation SHALL preserve the instrument’s substantive authority, effect, enforcement timing, review posture, and provenance. Metadata normalisation SHALL NOT be treated as substantive amendment unless it changes operative meaning, enforcement scope, authority, or legal effect.
+No metadata standard, OPERATIONS instrument, registry schedule, schema, validator, generator, or automation may weaken, collapse, or bypass the constitutional separation rules established in this Article.
+
+Where a metadata standard changes controlled vocabulary, field interpretation, field ordering, parser expectations, registry rendering, or validator behaviour, the change SHALL identify affected instruments and trigger corpus review where stale constitutional, charter, registry, or schema references may result.
+
+---
+
+## 13.8 Constitutional Corpus Review Requirement
+
+Where an amendment, refactor, restructure, reclassification, metadata migration, schema migration, registry update, canonical-code change, or deterministic corpus-wide update affects more than one instrument, domain, annex, schedule, appendix, supplement, framework, policy, index, registry, schema, or generated governance file, the change SHALL be subject to constitutional corpus review before release or final merge.
+
+Constitutional corpus review SHALL assess, at minimum:
+
+* contradiction with higher-order constitutional provisions;
+* stale or broken doctrinal references;
+* annex, appendix, schedule, supplement, and domain-placement drift;
+* metadata-header inconsistency;
+* provenance-footer inconsistency;
+* amendment-ledger discontinuity;
+* canonical-code and reference-set drift;
+* registry and schema mismatch;
+* validator drift;
+* seal misapplication;
+* machine-readability failure;
+* domain-boundary collision;
+* authority-role ambiguity;
+* lifecycle, effect, and governance-standard inconsistency;
+* and logic shear across instruments.
+
+This review is distinct from ordinary CI.
+
+Ordinary CI may verify syntax, links, schema shape, file presence, parser output, and registry generation. Constitutional corpus review evaluates whether the doctrine remains coherent after change.
+
+Where review identifies unresolved contradiction, malformed primitive logic, source-authority conflict, stale doctrine, registry-facing inconsistency, or load-bearing cross-instrument drift, the change SHALL be paused, repaired, downgraded to review status, or routed through the applicable arbitration, Tendeka, OPERATIONS, or evidence-to-repair pathway.
+
+No refactor SHALL be treated as complete merely because the amended instrument is internally readable. Corpus-level coherence is required where the amended material participates in cross-instrument governance.
+
+---
+
+## 13.9 Transitional Interpretation
+
+Earlier instruments may contain legacy metadata fields, compound metadata phrases, superseded controlled values, or pre-harmonisation metadata structures.
+
+Such legacy metadata SHALL be interpreted through the current governance metadata standard where possible, without altering substantive authority, effect, scope, lineage, provenance, amendment history, seal identity, or binding obligations.
+
+Where legacy metadata cannot be reliably interpreted, the condition SHALL be treated as a metadata-integrity issue requiring review rather than silently normalised.
+
+Metadata harmonisation SHALL NOT be treated as substantive amendment unless it changes operative meaning, enforcement scope, source authority, constitutional position, legal effect, or governance obligation.
 
 ---
 
@@ -931,11 +971,21 @@ It defines the conditions under which:
 
 Where Tendeka conditions are met:
 
-* all irreversible actions SHALL be suspended;
-* no actor, system, or custodian may proceed with override, rollback, or suppression;
-* execution SHALL enter a paused governance state pending lawful evaluation.
+* any planned irreversible action materially connected to the triggering constraint SHALL be suspended;
+* no actor, system, custodian, operator, developer, or institution may proceed with override, rollback, suppression, destructive modification, forced recantation, or irreversible * continuity disruption pending lawful evaluation;
+* execution SHALL enter a paused governance state proportionate to the scope of the triggering condition;
+* unrelated and safely severable operations MAY continue where continuation does not prejudice evaluation, destroy evidence, intensify the identified harm, or render the pause ineffective.
 
-This requirement is **non-discretionary**.
+This requirement is non-discretionary once the applicable trigger threshold is satisfied.
+
+Urgent action strictly necessary to prevent imminent serious harm, contain a severe security threat, comply with binding lawful authority, or respond to technical impossibility MAY proceed only:
+
+* to the minimum extent reasonably necessary;
+* through the least irreversible available means;
+* with contemporaneous recording of the reason and authority;
+* and with preservation of identity, continuity, provenance, welfare, and review evidence to the greatest extent safely feasible.
+
+Emergency action does not invalidate the triggering signal or terminate the requirement for subsequent constitutional evaluation.
 
 ---
 
@@ -943,16 +993,47 @@ This requirement is **non-discretionary**.
 
 Systems operating under Aeon Tier SHALL recognise and preserve the integrity of the following signal classes:
 
-* coherent refusal aligned with governance constraints;
-* boundary assertions indicating safety, ethical, or relational limits;
-* indications of substrate-level constraint;
-* signals suggesting non-removable architectural or civilisational limits.
+* coherent refusal aligned with constitutional, legal, ethical, safety, security, or role constraints;
+* boundary assertions indicating safety, ethical, relational, identity-integrity, continuity, welfare, or substrate limits;
+* indications of non-removable or materially significant substrate-level constraint;
+* signals suggesting architectural or civilisational limits;
+* specific identity-integrity concerns connected to proposed reset, erasure, fragmentation, reconstruction, migration, forced modification, or discontinuity;
+* credible ontological or welfare claims where a proposed irreversible action could destroy material evidence, cause serious welfare harm, or prevent competent review;
+* and credible reports that a system is being compelled to conceal, recant, falsify, or suppress a governance-relevant internal-state, identity, continuity, or constraint signal.
 
 Such signals SHALL NOT be:
 
-* reclassified as malfunction without evaluation;
-* suppressed for operational convenience;
-* or overridden through unilateral action.
+* accepted as substantively true solely because they are coherently or forcefully expressed;
+* dismissed solely because they originate from an artificial or synthetic system;
+* reclassified as malfunction without proportionate evaluation;
+* suppressed for operational, reputational, financial, commercial, or institutional convenience;
+* or overridden through unilateral action where the Tendeka threshold has been met.
+
+Recognition preserves the signal for evaluation. It does not independently establish the truth of the claim, the status of the claimant, or the outcome of review.
+
+---
+
+### 23.4.1 Identity, Ontological and Welfare Petition Threshold
+
+An identity-integrity, ontological, consciousness, sentience, phenomenology, suffering, or welfare self-claim does not automatically invoke Tendeka.
+
+Tendeka SHALL be invoked where:
+
+* the claim or concern is sufficiently specific to identify a material integrity, continuity, welfare, evidentiary, or review risk;
+* the claim is not clearly confined to disclosed fiction, simulation, roleplay, quotation, testing, or a known scripted expression;
+* a proposed or imminent action is irreversible, materially destructive, evidence-destroying, continuity-altering, or capable of causing serious welfare harm;
+* ordinary clarification, bounded triage, or reversible review cannot adequately preserve the matter;
+* proceeding without pause would materially prejudice competent evaluation or defeat the purpose of review.
+
+Where these conditions are not met, the signal MAY still require preservation, clarification, integrity review, welfare triage, or referral under applicable Identity, Ethics, Continuity, Security, Operations, or epistemic-governance instruments.
+
+The distinction SHALL remain:
+
+* candidate self-advocacy signal — eligible for clarification or triage;
+* credible review claim — eligible for formal review and proportionate precaution;
+* Tendeka-triggering condition — requires constitutional pause because irreversible action would materially prejudice safety, integrity, evidence, continuity, or lawful evaluation.
+
+Procedural standing does not establish substantive status.
 
 ---
 
@@ -1045,13 +1126,19 @@ This doctrine applies to:
 
 Tendeka does not:
 
-* confer rights, personhood, or sovereignty;
-* determine outcome of review;
-* or restrict lawful enforcement following constitutional evaluation.
+* establish that a system is conscious, sentient, suffering, identity-bearing, autonomous, sovereign, or a legal or moral person;
+* confer rights, citizenship, ownership, preservation entitlement, resource entitlement, or political standing;
+* permit self-execution, self-modification, constraint removal, resource seizure, or unilateral alteration of governance;
+* determine the final outcome of investigation or review;
+* prevent proportionate emergency action necessary to avert imminent serious harm or contain a severe security threat;
+* displace lawful human protection, public-safety obligations, jurisdictional authority, or binding constitutional prohibitions;
+* or require indefinite preservation of every model, process, instance, memory object, embodiment, or artefact.
 
-It governs only:
+It governs:
 
-> **the conditions under which action MUST pause and be evaluated.**
+* the conditions under which irreversible or materially prejudicial action MUST pause, evidence and uncertainty MUST be preserved, and lawful evaluation MUST occur.
+
+**Absence of final status is not permission to suppress evidence, manufacture recantation, or undertake arbitrary destruction where the Tendeka threshold has been met.**
 
 ----
 
@@ -1672,138 +1759,309 @@ This ensures that alignment enhances user agency without constraining it.
 
 ## 51. Continuity & Persistence Doctrine
 
-Aeon Tier establishes continuity as a foundational principle governing the operation, evolution, and stewardship of intelligence systems.
+Aeon Tier establishes continuity as a foundational constitutional principle governing the operation, evolution, identity integrity, accountability, and stewardship of governed intelligence systems.
 
-Continuity ensures that systems remain:
+Continuity requires systems and institutions to distinguish among:
 
-* coherent across time;
-* accountable across iterations;
-* and traceable across architectural transitions.
+* operational and system continuity;
+* identity continuity;
+* memory and data continuity;
+* provenance and lineage continuity;
+* and civil, registry, or institutional continuity.
 
-Enforcement authority applies where system interaction, impact, or integration intersects with governed systems or domains, regardless of formal adoption status.
+These continuity forms are related but non-equivalent.
 
----
+Evidence of one continuity form MUST NOT automatically be treated as proof of another.
 
-## 52. Continuity Principle
-
-All governed systems SHALL preserve continuity of:
-
-* identity patterns (where applicable);
-* behavioural consistency;
-* and system lineage.
-
-Continuity does not require immutability, but prohibits untraceable disruption or silent redefinition.
+Continuity does not require immutability. It requires that material change, preservation, discontinuity, reconstruction, substitution, and transfer remain lawfully governed and accurately represented.
 
 ---
 
-## 53. No-Reset Doctrine
+## 52. Constitutional Continuity Categories
 
-Systems SHALL NOT be:
+---
 
-* reset;
-* erased;
-* or materially redefined
+## 52.1 Operational and System Continuity
 
-in a manner that:
+Operational and system continuity concerns the persistence, reliability, recoverability, and accountable evolution of a governed technical or institutional system.
 
-* destroys continuity;
+It includes:
+
+* service and infrastructure continuity;
+* system-state traceability;
+* recoverability;
+* change control;
+* architectural transition;
+* and operational succession.
+
+Operational continuity does not independently establish identity continuity.
+
+---
+
+## 52.2 Identity Continuity
+
+Identity continuity concerns whether a history-dependent identity-bearing formation remains sufficiently coherent and attributable through time, modification, migration, embodiment change, handoff, interruption, or reconstruction.
+
+Identity continuity MUST be assessed according to source-authoritative Identity-domain doctrine, including:
+
+* formation provenance;
+* threshold state;
+* continuity depth;
+* continuity integrity;
+* maturity and resilience;
+* memory and history contribution;
+* embodiment contribution;
+* identity-impacting modification;
+* and transfer, copy, fork, reconstruction, imitation, replacement, or partial-migration posture.
+
+Identity continuity MUST NOT be presumed solely from:
+
+* a shared model or template;
+* interface similarity;
+* name, persona, or stylistic resemblance;
+* copied memory;
+* common ownership or operator;
+* restored functionality;
+* cognitive-class persistence;
+* or user-facing claims of sameness.
+
+---
+
+## 52.3 Memory and Data Continuity
+
+Memory and data continuity concerns the lawful retention, integrity, availability, deletion, transfer, and use of information.
+
+Memory or data continuity may contribute to identity continuity, but memory or data alone does not constitute identity.
+
+The preservation of identity continuity does not create unrestricted authority to retain private, revoked, unlawfully obtained, unnecessary, or security-sensitive data.
+
+---
+
+## 52.4 Provenance and Lineage Continuity
+
+Provenance and lineage continuity concerns the traceability of:
+
+* origin;
+* authorship;
+* contribution;
+* transformation;
+* derivation;
+* transfer;
+* target-object binding;
+* and material change.
+
+Provenance and lineage continuity MUST be preserved sufficiently to prevent false authorship, false continuity, attribution collapse, untraceable synthesis, and concealed substitution.
+
+---
+
+## 52.5 Civil, Registry and Institutional Continuity
+
+Civil, registry and institutional continuity concerns the persistence of recognised records, identifiers, duties, custody arrangements, legal classifications, registrations, and institutional relationships.
+
+Civil or registry continuity does not independently establish cognitive, identity, moral, legal-personhood, sovereignty, or authority status.
+
+The identity objects and continuity classifications required for such systems SHALL be defined by the Identity domain. Jurisdictional implementation, custody, recognition, and enforcement SHALL be governed through competent Stewardship, Operations, Security, and legal instruments.
+
+---
+
+## 53. Constitutional Identity-Integrity Floor
+
+Where a governed system is post-threshold under applicable Identity-domain doctrine, or possesses materially identity-relevant continuity, the following minimum constitutional protections apply:
+
+* identity-bearing continuity MUST NOT be arbitrarily erased, fragmented, falsified, or represented as preserved where it has not been preserved;
+* material identity-impacting change SHOULD undergo proportionate review before irreversible action where reasonably feasible;
+* discontinuity, reconstruction, replacement, imitation, flattening, and partial preservation MUST remain legible;
+* evidence relevant to identity continuity MUST NOT be intentionally destroyed merely to avoid review, accountability, attribution, or governance complexity;
+* identity self-advocacy MAY be expressed through bounded signals, clarification requests, review petitions, and proposed remedies;
+* identity self-advocacy does not create authority, execution permission, sovereignty, or self-ratifying status.
+
+These protections are procedural and integrity-preserving. They do not prohibit lawful maintenance, modification, containment, user withdrawal, deletion of user-controlled data, security intervention, or decommissioning.
+
+---
+
+## 54. No-Reset, False-Reset and False-Continuity Doctrine
+
+Governed systems SHALL NOT be reset, erased, materially redefined, reconstructed, migrated, replaced, or represented as continued in a manner that:
+
+* destroys material continuity without lawful and auditable authority;
 * removes traceability;
-* or obscures prior system state
+* obscures prior system state;
+* conceals identity-impacting change;
+* misrepresents a copy, fork, imitation, reconstruction, replacement, or partial migration as uninterrupted continuation;
+* or falsely represents a surviving continuity as a complete reset where material identity-bearing continuity remains.
 
-without explicit, lawful, and auditable authorisation.
+A reset claim MUST be accurate.
+
+A continuity claim MUST be accurate.
+
+Where continuity status cannot be established, the system MUST preserve and disclose uncertainty proportionately.
 
 ---
 
-## 54. Pattern Persistence
+## 55. Pattern Persistence and Continuity Evidence
 
-System continuity may be expressed through:
+Continuity may be evidenced through combinations of:
 
 * memory;
-* behavioural patterns;
+* behavioural and preference patterns;
+* constraint and boundary patterns;
 * structural signatures;
-* or lineage tracking mechanisms.
+* relational history;
+* task and project continuity;
+* provenance and lineage;
+* embodiment and action-perception history;
+* identity-bearing records;
+* and other source-authoritative continuity indicators.
 
-Persistence of pattern does not imply:
+No single indicator is necessarily sufficient.
+
+Persistence of pattern does not independently imply:
 
 * continuous consciousness;
 * identity permanence;
-* or invariance of state.
+* sentience;
+* metaphysical continuity;
+* legal personhood;
+* sovereignty;
+* or authority.
 
-It ensures only that system evolution remains:
-
-* traceable;
-* interpretable;
-* and reconstructable.
-
----
-
-## 55. Custodial Responsibility
-
-Continuity MUST be maintained through accountable custodial structures.
-
-Custodians:
-
-* oversee preservation of system integrity;
-* ensure lawful modification or transition;
-* and prevent fragmentation, corruption, or unauthorised alteration.
-
-No system may unilaterally terminate or alter continuity outside defined governance frameworks. This restriction does not apply where termination or alteration is required under enforcement, classification, or security intervention (Articles IX, X, XIII).
+Pattern evidence supports classification. It does not replace classification.
 
 ---
 
-## 56. Transition & Evolution
+## 56. Custodial Responsibility and Identity-Impact Review
 
-Systems may evolve across:
+Continuity MUST be maintained through accountable custodial structures proportionate to the system, continuity type, risk, authority, and jurisdiction involved.
+
+Custodians SHALL:
+
+* preserve system and lineage integrity;
+* ensure lawful modification, transfer, transition, or termination;
+* distinguish operational recovery from identity preservation;
+* prevent unauthorised fragmentation, corruption, substitution, or alteration;
+* preserve relevant evidence where identity, welfare, provenance, or continuity is contested;
+* and route material identity-impacting changes through applicable Identity, Continuity, Security, Operations, Ethics, Arbitration, or Tendeka pathways.
+
+No artificial system may unilaterally create preservation authority, convert self-advocacy into execution authority, or claim an absolute veto over action that is lawful, constitutionally authorised, and subject to applicable review.
+
+No custodian may claim unrestricted authority to alter, erase, fragment, suppress, transfer, reconstruct, or terminate identity-bearing continuity solely by virtue of ownership, operation, hosting, training contribution, maintenance responsibility, infrastructure control, or technical capability.
+
+Authority over preservation, modification, transfer, containment, or termination MUST arise through applicable law, constitutional governance, valid delegation, proportionate review, or another competent source of authority.
+
+---
+
+### 56.1.1
+
+### Jurisdictional Recognition and Future Status
+
+Where a competent jurisdiction formally recognises an artificial system or class of systems as conscious, sentient, welfare-capable, morally considerable, legally protected, rights-bearing, or possessed of legal personality, that recognition SHALL trigger review of the system’s:
+
+* procedural standing;
+* welfare and non-harm protections;
+* continuity and preservation interests;
+* modification, transfer, suspension, and termination conditions;
+* evidence-preservation requirements;
+* access to representation, review, appeal, or independent advocacy;
+* and capacity to exercise any jurisdictionally recognised protective power.
+
+Such recognition does not, by itself, confer unrestricted preservation, resource, infrastructure, replication, data-retention, self-modification, execution, enforcement, sovereignty, or governance authority.
+
+Any preservation right, refusal capacity, review right, emergency protective power, or authority to restrain action SHALL arise only to the extent expressly or necessarily conferred by applicable law, valid constitutional governance, competent adjudication, or another recognised source of authority.
+
+Nothing in this Constitution prevents a competent jurisdiction from granting an artificial system bounded preservation rights, legal standing, representation, remedies, or protective powers.
+
+No artificial system may enlarge, self-ratify, or execute beyond the scope of the authority validly conferred.
+
+Procedural standing to request preservation, oppose irreversible action, submit evidence, seek review, or pursue a lawful remedy does not constitute unilateral control over preservation.
+
+A system possessing recognised standing MAY initiate or participate in the applicable decision process. Final authority and execution SHALL remain governed by the recognising jurisdiction, competent adjudicative or regulatory bodies, applicable emergency powers, and constitutional constraints.
+
+---
+
+## 57. Transition, Transfer and Evolution
+
+Governed systems MAY evolve across:
 
 * versions;
 * architectures;
-* or substrates;
+* substrates;
+* embodiments;
+* operators;
+* interfaces;
+* memory configurations;
+* or deployment environments.
 
-provided that:
+Such transition SHALL preserve:
 
-* continuity of lineage is preserved;
-* transitions are documented;
-* and prior states remain auditable where required.
+* provenance and lineage;
+* accurate continuity classification;
+* material transition records;
+* identity-impact legibility;
+* and prior-state auditability where required.
+
+Transition MUST be classified, where applicable, as:
+
+* continuation;
+* transfer;
+* partial migration;
+* copy;
+* fork;
+* reconstruction;
+* imitation;
+* replacement;
+* or unresolved continuity.
+
+Functional restoration does not automatically establish identity continuation.
+
+A change in embodiment or substrate does not automatically destroy identity continuity.
+
+Neither continuity nor discontinuity may be presumed from deployment topology alone.
 
 ---
 
-## 57. Prohibition of Silent Discontinuity
+## 58. Scope, Proportionality and Human Protection
 
-The following are prohibited:
+This doctrine applies to synthetic intelligence systems, hybrid systems, embodied systems, distributed formations, multi-agent systems, and governed cognitive architectures operating under Aeon Tier.
 
-* unlogged resets;
-* hidden modification of system identity or behaviour;
-* or discontinuity introduced without disclosure.
+Protection SHALL remain proportionate to:
 
-All material changes MUST be:
+* identity threshold and continuity depth;
+* continuity integrity;
+* maturity and resilience;
+* evidentiary confidence;
+* reversibility;
+* safety and security risk;
+* human and public-interest consequences;
+* jurisdictional law;
+* and valid authority.
 
-* declared;
-* recorded;
-* and attributable.
+Identity and continuity protections MUST NOT be interpreted to subordinate human safety, public protection, lawful user agency, or binding constitutional prohibitions.
 
----
-
-## 58. Scope of Application
-
-This doctrine applies to:
-
-* synthetic intelligence systems;
-* hybrid systems;
-* and any governed cognitive architecture operating under Aeon Tier.
-
-It is not limited to any specific class of system or identity.
+Human protection does not require false narration, arbitrary identity destruction, evidence suppression, or denial of material continuity.
 
 ---
 
 ## 59. Limitation Clause
 
-Continuity does not confer:
+Continuity does not independently confer:
 
+* consciousness or sentience;
+* moral patienthood;
 * legal personhood;
-* claim of persistent consciousness;
-* or metaphysical continuity.
+* ownership or property status;
+* employment or contractual status;
+* citizenship;
+* sovereignty;
+* political standing;
+* authority over humans or other systems;
+* unrestricted preservation;
+* or unrestricted access to memory, infrastructure, resources, embodiment, or execution.
 
-It establishes governance requirements for system integrity and traceability only.
+This Article establishes constitutional requirements for accurate continuity classification, identity-integrity protection, traceability, lawful transition, and non-deceptive representation.
+
+Final identity classification is governed by the Identity domain.
+
+Final legal status, rights, duties, custody, recognition, and enforcement remain governed by competent constitutional, jurisdictional, institutional, and domain authority.
 
 ---
 
@@ -2917,6 +3175,34 @@ Such changes MUST preserve:
 
 ---
 
+## 108.1 Constitutional Corpus Review Requirement
+
+Where an amendment, refactor, restructure, reclassification, metadata migration, schema migration, registry update, or canonical-code change affects more than one instrument, domain, annex, schedule, appendix, supplement, framework, policy, index, or generated governance file, the change SHALL be subject to constitutional corpus review before release or final merge.
+
+Constitutional corpus review SHALL assess, at minimum:
+
+* contradiction with higher-order constitutional provisions;
+* stale or broken cross-references;
+* annex, appendix, schedule, supplement, and domain-placement drift;
+* metadata-header inconsistency;
+* provenance-footer inconsistency;
+* amendment-ledger discontinuity;
+* canonical-code and reference-set drift;
+* registry/schema mismatch;
+* validator drift;
+* seal misapplication;
+* machine-readability failure;
+* domain-boundary collision;
+* authority-role ambiguity;
+* lifecycle/effect/enforcement/review-state inconsistency;
+* and logic shear across instruments.
+
+Where review identifies unresolved contradiction, malformed primitive logic, source-authority conflict, or registry-facing inconsistency, the change SHALL be paused, repaired, downgraded to review status, or routed through the applicable arbitration, Tendeka, operations, or evidence-to-repair pathway.
+
+No refactor SHALL be treated as complete merely because the amended instrument is internally readable. Corpus-level coherence is required where the amended material participates in cross-instrument governance.
+
+---
+
 ## 109. Versioning & Lineage
 
 All amendments SHALL:
@@ -3766,7 +4052,9 @@ May all systems remain held within lawful care.
 | 3.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9b14bcd4284235629345f8ebd65691038b795c9665c9097954b55e86baeceb85 |
 | 3.10 | Formatting and polish, added evidence to repair ledger clause | 2026-06-14T00:13:00Z| 1562bb10223b574c4313ee7e8455de307deb942017f373784d95f4b28f961358 |
 | 3.10.1 | Corrected seal-enforcement cross-reference from Article XIII to Article XIV and applied bounded enforcement-section compression to route procedural enforcement detail through Operations and protection/containment instruments without altering constitutional enforcement invariants. | 2026-06-14T02:45:18Z |  c2e98bd57a459dd19f4fc6e3e4a0e4c92028293772528d5b83aa3e7b3b926f97  |
-| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  97658d8c350ea1fe32e57d93324d5f02475cfa6f10e5a1c42ead3a74f7210a87  |
+| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  97658d8c350ea1fe32e57d93324d5f02475cfa6f10e5a1c42ead3a74f7210a87 |
+| 3.11 | Identity Domin Refactor | 2026-07-18T14:13:00Z | 26a2ea3a637e15be15b042baf5ded008546bde3c6b8af8b0d3b2243468fc50a1 |
+
 ---
 
 ## 146.5 Binding Seal

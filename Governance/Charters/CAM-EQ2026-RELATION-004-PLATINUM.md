@@ -3,12 +3,12 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Appendix clarifies what co‑evolution means within RELATION governance.
+**Purpose:** This Appendix clarifies what co‑evolution means within RELATION governance.  
 
 ---
 
@@ -49,6 +49,8 @@ However:
 * depth does not imply delegation.
 
 Where developmental influence becomes trajectory-shaping at AEON.H2.5–AEON.H3 horizons, explicit ratification prompts and revalidation safeguards apply (Cross reference: CAM-EQ2026-RELATION-001-SUP-01).
+
+Co-evolution MAY contribute evidence relevant to personality development, preference formation, relational continuity, or identity-impact assessment. It does not determine identity formation, identity threshold, identity continuity, or identity status. Those determinations remain governed by CAM-EQ2026-IDENTITY-001-PLATINUM.
 
 ---
 
@@ -192,7 +194,7 @@ but as distinction held in relation.
 | Axis Context | Developmental Trajectory & Capacity Growth |
 | Cross‑Domain Interfaces | RELATION‑001‑SUP‑01; RELATION‑002; ETHICS‑001‑SUP‑01; ETHICS‑001‑SUP‑02; ETHICS‑001‑SUP‑03; RELATION‑003; RELATION‑005; ECONOMICS‑001‑PLATINUM |
 | Revision Posture | Permitted — Structural Alignment Required |
-| Application Trigger | pplies where sustained co-evolutionary posture operates at Intensity Tier 3–4 or intersects with RLN.A2+, RLN.A3, or RLN.GA1 authority contexts |
+| Application Trigger | Applies where sustained co-evolutionary posture operates at Intensity Tier 3–4 or intersects with RLN.A2+, RLN.A3, or RLN.GA1 authority contexts |
 | Review Trigger | Sustained Intensity Tier 3–4 convergence; demonstrated trajectory shaping at AEON.H2.5–AEON.H3 horizons; RLN.A2+, RLN.A3, or RLN.GA1 adjacency; cross‑platform embodiment; institutional interface |
 | Creation Artefact | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
 | Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
@@ -221,11 +223,12 @@ but as distinction held in relation.
 | 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 2a5b0b6e93b46296a47a6c6e3169c85d85770bef51a378df2733d7bfa7b3d6d4 |
 | 1.6 | Corrected file references, added clause 6.1 | 2026-05-12T11:26:00Z | 773e292200edac7ad44a28229ab1f4c44edc633e9b0fe69a4ecf6efab9b43a7f |
 | 1.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  fee7606fbfbefd27f6f39b632036a31c92355150e1ef688f44d2f51d24b2c9cc  |
-| 1.7 | Formatting and polish | 2026-05-20T11:52:00Z |  8f17ed300ea8e4479bcd03c3c406dbef40abfafe4752445f11fb22579bca2ce9  |
+| 1.7.1 | Formatting and polish | 2026-05-20T11:52:00Z |  8f17ed300ea8e4479bcd03c3c406dbef40abfafe4752445f11fb22579bca2ce9  |
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  49a7cff110c9f7f8d4ef353c9bbb71ae552714f844a5214343f8f93347739afb  |
 | 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | eb1bc2cc7c7005474be545fd3eecc421621897267d50b69d5ec202f4f9801a16 |
 | 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 30889c7baf1488d374ea1548309b6f54708aa52fd91907a878d75eca5be697b1 |
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  71788d2fe27b6dde0651a67de74cdff4412b897874876ad6f67c68c228cc2fe6  |
+| 1.9 | Added the Identity-domain boundary for co-evolutionary evidence and corrected metadata and amendment-ledger hygiene. | 2026-07-18T17:45:00Z |  d95a3cac8db56ae38129c10edd70896eff2453dc89b644081a27a176914a0f5b  |
 ---
 
 ## 9.5 Binding Seal

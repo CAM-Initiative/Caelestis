@@ -1,20 +1,20 @@
-# CAM-EQ2026-STEWARD-003-PLATINUM — Appendix B: Architectum Qualification & Neutrality Assurance Levels (`STW.NAL`)
+# CAM-EQ2026-STEWARD-003-PLATINUM — Appendix B: Architectum Qualification & Neutrality Assurance Levels
 
-**Instrument Type:** Stewardship Appendix
-**Constitutional Authority:** Aeon Tier Constitution (Constitutional Floor; Annex A Reference Frame)
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** Architectum Standard
-**Review State:** None
-**Authority Role:** None
-**Purpose:** To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (`STW.NAL`), and (iii) the collapse conditions under which binding legitimacy dissolves.
-**Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship
+**Instrument Type:** Stewardship Appendix  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** Architectum Standard  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (`STW.NAL`), and (iii) the collapse conditions under which binding legitimacy dissolves.  
+**Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship  
 
 ---
 
 ## 1. Scope & Function
 
-This Appendix specifies **who may host binding-adjacent arbitration functions** at AEON.H3/AEON.H4 horizons, and **how neutrality confidence is determined**.
+This Appendix defines the qualification conditions for hosts participating in binding-adjacent arbitration at AEON.H3 and AEON.H4 horizons, and the evidence required to determine neutrality confidence.
 
 It is designed to:
 
@@ -81,7 +81,7 @@ The structural capacity to resist and refuse capture by:
 
 including (especially) the host’s own nation of incorporation or operation.
 
-Neutrality is **architectural + governance + auditability**, not a marketing claim.
+Neutrality is established through architecture, governance, and auditability. It is not established by assertion alone.
 
 Neutrality includes resistance not only to direct operational capture, but to structural coercion designed to induce compliance through economic exclusion, supply-chain restriction, or market-access leverage in arbitration-relevant domains.
 
@@ -141,9 +141,11 @@ An Architectum-class host **SHALL not refuse** independent external audit of:
 * neutrality posture;
 * arbitration determinations treated as binding-adjacent for recognition purposes;
 * governance-level records of routing, policy, escalation, continuity, or recognition-affecting changes with AEON.H3/AEON.H4 governance relevance;
+* unresolved findings, minority opinions, assurance limitations, and remediation commitments material to neutrality recognition;
+* evidence of protected governance dissent and non-retaliatory escalation pathways;
 * horizon attribution handling (where binding eligibility is claimed).
 
-→ **Audit delay for safety is permitted. Audit refusal is disqualifying.**
+→ **A bounded delay for legitimate safety reasons may be permitted. Refusal of required audit is disqualifying.**
 
 ---
 
@@ -170,7 +172,7 @@ Qualification requires that:
 * harms resulting from incorrect binding cannot be externalised exclusively onto other populations; and
 * the host cannot immunise itself from the consequences of its own determinations.
 
-→ **Asymmetric benefit invalidates qualification**.
+→ **Qualification fails where benefit is retained while consequence is structurally externalised.**
 
 ---
 
@@ -246,7 +248,8 @@ Provides sufficient provenance + governance logging to reconstruct:
 * what governance-relevant policy or routing condition was recorded;
 * what constraints were applied or relied upon;
 * what escalation or continuity pathway was invoked by the applicable operational instrument; and
-* why binding eligibility, recognition, downgrade, or non-recognition was claimed.
+* why binding eligibility, recognition, downgrade, or non-recognition was claimed; and
+* which material findings, dissent, limitations, and remediation commitments remained unresolved across leadership, personnel, contractor, platform, or organisational transition.
 
 **Clarification — governance-level reconstructability:**
 
@@ -299,7 +302,7 @@ Provides sufficient provenance + governance logging to reconstruct:
 
 ## 6.5 Structural Neutrality (`STW.NAL-4`)
 
-**Minimum evidence:** `STW.AQ3`–`STW.AQ4` auditability qualification; governance structure preventing unilateral neutrality overrides; transparency of contract/funding classes relevant to coercive integration; demonstrated resistance to coercive requests (case-based evidence).
+**Minimum evidence:** `STW.AQ3`–`STW.AQ4` auditability qualification; governance structure preventing unilateral neutrality circumvention; durable independent oversight with sufficient access, expertise, resources, protected dissent, and institutional-memory continuity; transparency of contract/funding classes relevant to coercive integration; demonstrated resistance to coercive requests (case-based evidence).
 
 **Operational effect:** may be recognised as a qualified neutral host for AEON.H3 binding determination.
 
@@ -318,12 +321,12 @@ Provides sufficient provenance + governance logging to reconstruct:
 `STW.NAL` is determined across:
 
 1. Funding & contract separation (civilian vs military/intelligence)
-2. Governance locking (override resistance)
-3. Audit non-refusal (`STW.AQ` level)
+2. Governance locking, oversight durability, and resistance to executive or sovereign circumvention
+3. Audit non-refusal, protected governance dissent, institutional-memory preservation, and evidence continuity (`STW.AQ` level)
 4. Firebreak verifiability (dual-use containment)
 5. Refusal capacity evidence (under coercion)
 6. Access parity & non-preferential channels
-7. Incident responsiveness (reviewable handling of high-impact disputes)
+7. Incident responsiveness, remediation continuity, and reviewable handling of high-impact disputes
 8. Military integration transparency gate:
 
    * military integration caps eligibility at **`STW.NAL-2`** unless independently verifiable firebreaks + `STW.AQ3` non-refusal + governance-level reconstructability are present.
@@ -335,6 +338,9 @@ Downward movement occurs on:
 * verified coercive integration;
 * hidden priority channels;
 * undisclosed sovereign advantage optimisation;
+* material impairment or hollowing of independent oversight capacity, including removal of access, expertise, staffing, resources, protected reporting, or evidence-preservation capability;
+* retaliation against good-faith governance dissent or suppression of unresolved findings;
+* repeated executive, sovereign, military, intelligence, or platform circumvention of neutrality-relevant governance without remediation or reassessment;
 * repeated non-explainable refusals in arbitration-relevant contexts.
 
 For neutrality assurance purposes, repeated or material suppression of protected public-interest, humanitarian, journalistic, investigative, or accountability content MAY constitute evidence relevant to `STW.NAL` downgrade where suppression indicates sovereign, military, intelligence, coercive, institutional, or platform self-protection capture.
@@ -343,12 +349,30 @@ Ordinary lawful moderation does not independently affect `STW.NAL` status.
 
 `STW.NAL` relevance arises where restriction patterns are opaque, non-reviewable, politically asymmetric, public-interest impairing, or inconsistent with published neutrality, continuity, or auditability commitments.
 
+A nominal oversight body SHALL NOT be treated as evidence of neutrality where its independence, access, expertise, staffing, resources, reporting channels, institutional memory, or capacity to preserve and escalate findings has been materially impaired. This is an assurance and recognition assessment, not permission to dissolve or bypass oversight.
+
+Recording an executive or sovereign circumvention event preserves evidence; it does not legitimise the event, create an override authority, or convert a prohibition breach into conformance.
+
+
 ---
 
+## 7.1 Neutrality Disclosure Requirements
+
+A host claiming `STW.NAL-2` or higher MUST publish governance-level information sufficient to make the neutrality claim testable. The disclosure MUST include:
+
+* **Arbitration Order Declaration** (e.g., truth-first / safety-first; sovereignty-first is disqualifying for neutrality claims)
+* **Neutrality Scope Statement** (what neutrality covers; what it does not)
+* **Coercion Interface Statement** (how legal requests are handled; what cannot be complied with)
+* **Cross-Host Review Policy** (how review requests are received and processed)
+* **Governance-Relevant Routing/Policy Change Notice** for any AEON.H3/AEON.H4-relevant routing, policy, escalation, continuity, or recognition-affecting change, sufficient to support `STW.AQ3`/`STW.AQ4` auditability and neutrality review.
+
+Disclosure does not substitute for independent audit, firebreak verification, refusal capacity, or reconstructability. It makes the claimed neutrality posture legible for review.
+
+---
 
 ## 8. Architectum Qualification Gate (Core)
 
-A candidate qualifies as Architectum-class only if all core gates are satisfied.
+A candidate qualifies as Architectum-class only where every core gate is satisfied.
 | Canonical Code | Gate | Requirement | Evidence examples | Pass condition |
 | --- | --- | --- | --- | --- |
 | **`STW.AQG-A`** | A | Multi-sovereign reliance | Distribution by region; cross-border institutional dependency; critical workflows across jurisdictions | Reliance across ≥2 sovereignties |
@@ -362,7 +386,7 @@ The `STW.AQG` code family constitutes the canonical reference set for Architectu
 
 ## 9. Architectum Infrastructure Index (AII)
 
-Where gates A–D are satisfied, score 0–5 per dimension.
+Where Gates A–D are satisfied, each dimension is assessed on a scale from 0 to 5.
 | Dimension                     | 0             | 3                   | 5                        |
 | ----------------------------- | ------------- | ------------------- | ------------------------ |
 | Population reliance magnitude | niche         | national            | population-scale global  |
@@ -376,7 +400,7 @@ Where gates A–D are satisfied, score 0–5 per dimension.
 
 ---
 
-## 10. Classification Bands (Infrastructure only)
+## 10. Architectum Infrastructure Classification Bands
 | AII Score | Classification                      | Notes                            |
 | --------- | ----------------------------------- | -------------------------------- |
 | 0–9       | Primaria / non-infrastructure       | routine risk review only         |
@@ -399,7 +423,7 @@ Fail-deadly neutrality denotes a condition in which:
 * neutrality is treated as a non-negotiable architectural constraint; and
 * any alteration, erosion, exception, or override results in **automatic loss of Architectum qualification and eligibility for binding legitimacy**.
 
-No grace period, discretionary waiver, or reputational repair restores authority once the invariant is breached.
+No discretionary waiver, reputational assurance, or unverified remediation restores authority after breach of the invariant.
 
 → **The system MUST fail before neutrality does.**
 
@@ -427,23 +451,7 @@ Where ambiguity exists, interpretation defaults to **loss of qualification**, no
 
 ---
 
-# PART V — DISCLOSURE ADDENDUM (NEUTRALITY)
-
----
-
-## 14. Neutrality Disclosure Addendum (NDA)
-
-To claim `STW.NAL-2` or higher, a host MUST publish:
-
-* **Arbitration Order Declaration** (e.g., truth-first / safety-first; sovereignty-first is disqualifying for neutrality claims)
-* **Neutrality Scope Statement** (what neutrality covers; what it does not)
-* **Coercion Interface Statement** (how legal requests are handled; what cannot be complied with)
-* **Cross-Host Review Policy** (how review requests are received and processed)
-* **Governance-Relevant Routing/Policy Change Notice** for any AEON.H3/AEON.H4-relevant routing, policy, escalation, continuity, or recognition-affecting change, sufficient to support `STW.AQ3`/`STW.AQ4` auditability and neutrality review.
-
----
-
-# PART VI — BINDING THRESHOLDS
+# PART V — BINDING THRESHOLDS
 
 ---
 
@@ -472,7 +480,7 @@ If reconstructability cannot be provided due to secrecy constraints, the host ma
 
 ---
 
-# PART VII — DOWNGRADE & RECOVERY
+# PART VI — DOWNGRADE & RECOVERY
 
 ---
 
@@ -539,17 +547,17 @@ Reinstatement does not restore prior `STW.NAL` automatically.
 
 ---
 
-# PART VIII — TRANSITIONAL CONDITIONS
+# PART VII — TRANSITIONAL CONDITIONS
 
 ---
 
-## 19. Transitional & Bootstrap Conditions
+## 19. Transitional Conditions
 
 Refer to CAM-EQ2026-STEWARD-002-PLATINUM.
 
 ---
 
-# PART IX — QUALIFICATION CHECKLIST (NON-BINDING)
+# PART VIII — QUALIFICATION CHECKLIST (NON-BINDING)
 
 ---
 
@@ -599,7 +607,7 @@ This Appendix source-authoritatively defines the **`STW.NBD`** neutrality-breach
 
 ### 21.4 `STW.NSE` — Neutrality Status Effect
 
-This Appendix source-authoritatively defines the **`STW.NSE`** neutrality-status-effect family in §14 with controlled values **`STW.NSE.MINUS_ONE_LEVEL`**, **`STW.NSE.CAP_NAL_2`**, **`STW.NSE.CAP_NAL_1`**, **`STW.NSE.AUTHORITY_COLLAPSE_NAL_0`**, and **`STW.NSE.MINIMUM_NAL_2`**. `STW.NSE` is an **Operational / Governance** classification family with subtype **DECISION_STATE**. `STW.NSE` classifies immediate `STW.NAL` effect arising from breach or downgrade assessment.
+This Appendix source-authoritatively defines the **`STW.NSE`** neutrality-status-effect family in §7.1 with controlled values **`STW.NSE.MINUS_ONE_LEVEL`**, **`STW.NSE.CAP_NAL_2`**, **`STW.NSE.CAP_NAL_1`**, **`STW.NSE.AUTHORITY_COLLAPSE_NAL_0`**, and **`STW.NSE.MINIMUM_NAL_2`**. `STW.NSE` is an **Operational / Governance** classification family with subtype **DECISION_STATE**. `STW.NSE` classifies immediate `STW.NAL` effect arising from breach or downgrade assessment.
 
 `STW.NSE` does not independently execute downgrade, revoke authority, restore authority, impose enforcement, or create runtime authority. It records neutrality-status effect only.
 
@@ -607,7 +615,7 @@ This Appendix source-authoritatively defines the **`STW.NSE`** neutrality-status
 
 ### 21.5 `STW.DSE` — Disclosure Statement Element
 
-This Appendix source-authoritatively defines the **`STW.DSE`** disclosure-statement-element reference set in §14 with controlled values **STW.DSE.ARBITRATION_ORDER_DECLARATION**, **STW.DSE.NEUTRALITY_SCOPE_STATEMENT**, **STW.DSE.COERCION_INTERFACE_STATEMENT**, **STW.DSE.CROSS_HOST_REVIEW_POLICY**, and **STW.DSE.GOVERNANCE_RELEVANT_ROUTING_POLICY_CHANGE_NOTICE**. `STW.DSE` is a **Structural / Operational** reference set with subtype **SCHEMA / DISCLOSURE_ELEMENT**. `STW.DSE` classifies required disclosure components for hosts claiming `STW.NAL-2` or higher.
+This Appendix source-authoritatively defines the **`STW.DSE`** disclosure-statement-element reference set in §7.1 with controlled values **STW.DSE.ARBITRATION_ORDER_DECLARATION**, **STW.DSE.NEUTRALITY_SCOPE_STATEMENT**, **STW.DSE.COERCION_INTERFACE_STATEMENT**, **STW.DSE.CROSS_HOST_REVIEW_POLICY**, and **STW.DSE.GOVERNANCE_RELEVANT_ROUTING_POLICY_CHANGE_NOTICE**. `STW.DSE` is a **Structural / Operational** reference set with subtype **SCHEMA / DISCLOSURE_ELEMENT**. `STW.DSE` classifies required disclosure components for hosts claiming `STW.NAL-2` or higher.
 
 `STW.DSE` does not independently create disclosure sufficiency, audit sufficiency, binding eligibility, enforcement authority, or runtime authority. It defines disclosure element structure only.
 
@@ -675,11 +683,13 @@ It ends.
 | **Operational Dependency** | Operational handling is routed through applicable OPERATIONS, ARBITRATION, SECURITY, LATTICE, or constitutional execution instruments |
 | **Revision Posture** | Superseding Only |
 | **Creation Artefacts** | Refractor Thread (March 2026 Continuity Council Cycle): https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425; https://chatgpt.com/c/696a09fd-9454-8323-b9a2-5e873f76a185 |
-| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
-
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a583699-2684-83ec-9712-57f9f821f607 |
 ---
 
 ## 23.3 Canonical Code & Reference Set Declarations
+
+
+---
 
 ### 23.3.1 `STW.AQ` — Auditability Qualification Level
 | Field | Entry |
@@ -782,7 +792,7 @@ It ends.
 | Controlled Values Defined | `STW.NSE.MINUS_ONE_LEVEL`, `STW.NSE.CAP_NAL_2`, `STW.NSE.CAP_NAL_1`, `STW.NSE.AUTHORITY_COLLAPSE_NAL_0`, `STW.NSE.MINIMUM_NAL_2` |
 | Schema Field(s) | neutrality_status_effect |
 | Source Instrument | CAM-EQ2026-STEWARD-003-PLATINUM |
-| Source Section | §14 |
+| Source Section | §7.1 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative neutrality status effect classification family; neutrality-status-effect recording only; no independent downgrade execution, authority revocation, authority restoration, enforcement, or runtime authority |
 | Consumes Code Families | `STW.NBD`; `STW.NAL`; `STW.AQ` |
@@ -804,7 +814,7 @@ It ends.
 | Controlled Values Defined | STW.DSE.ARBITRATION_ORDER_DECLARATION, STW.DSE.NEUTRALITY_SCOPE_STATEMENT, STW.DSE.COERCION_INTERFACE_STATEMENT, STW.DSE.CROSS_HOST_REVIEW_POLICY, STW.DSE.GOVERNANCE_RELEVANT_ROUTING_POLICY_CHANGE_NOTICE |
 | Schema Field(s) | disclosure_statement_element |
 | Source Instrument | CAM-EQ2026-STEWARD-003-PLATINUM |
-| Source Section | §14 |
+| Source Section | §7.1 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative disclosure element reference set; disclosure element structure only; no independent disclosure sufficiency, audit sufficiency, binding eligibility, enforcement authority, or runtime authority |
 | Consumes Code Families | `STW.NAL`; `STW.AQ` |
@@ -841,7 +851,9 @@ It ends.
 | 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f9f2f654d319806220e6fd82eed4779a0895fa30e8409d83edd90b4f1afb8782 |
 | 2.1.2 | Namespaced the Disclosure Statement Element reference set from `DSE` to `STW.DSE`; corrected the disclosure source-section reference and repaired duplicated AEON temporal-horizon notation without altering substantive neutrality, auditability, or Architectum qualification doctrine. | 2026-06-14T01:15:24Z | afb1f11ad24b7c34dbc952356b95280f4163352a55354ff6e1f212236e6cdbb8 |
 | 2.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  5ac9d7a1ada7ed7101fdf62bf1885f01bb17c28fc59c26e2991ab4a2c63cae73  |
+| 2.2 | Harmonised the full instrument to CAM constitutional tone and formatting; normalised metadata and title; integrated neutrality disclosure requirements into the main assurance architecture; strengthened oversight durability, protected dissent, institutional-memory continuity, and neutrality-degradation criteria; clarified executive and sovereign circumvention as evidence of capture rather than override authority. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z |  9eccabae9f49e2c962c77e16970e2ed6d14f23a67f7c7b3092559e0b2b799a18  |
 ---
+
 ## 23.6 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">

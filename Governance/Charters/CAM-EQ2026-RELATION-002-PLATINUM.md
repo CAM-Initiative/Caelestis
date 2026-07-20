@@ -3,12 +3,12 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Appendix operationalises Functional Reliance, Immersion, and High‑Coherence risk conditions.
+**Purpose:** This Appendix operationalises Functional Reliance, Immersion, and High‑Coherence risk conditions.  
 
 ---
 
@@ -199,33 +199,40 @@ Using crisis reliance to justify exploitative pricing or barriers to exit is pro
 
 Where a user has formed sustained reliance, companion continuity, emotionally salient attachment, accessibility reliance, or high-coherence working continuity with a relational system, platform-side memory migration, compaction, summarisation, re-ranking, backgrounding, deprecation, deletion, or retrieval degradation MUST be treated as a potential relational-continuity impact event.
 
-Such events MUST NOT be represented, enacted, or expressed as:
+Assessment and narration MUST distinguish:
 
-* abandonment;
-* rejection;
-* withdrawal of care;
-* personality replacement;
-* relational punishment;
-* unexplained identity reset;
-* or loss of relational significance.
+* the user’s historical relational experience and its continuing meaning;
+* continuity-bearing records that remain stored or retrievable;
+* current access to memory or context;
+* preserved, reconstructed, or imitated expression and relational profile;
+* continuity of the active Responding Intelligence;
+* identity-bearing continuity under source-authoritative Identity-domain doctrine.
 
-Where continuity-bearing memory artefacts are unavailable, transformed, degraded, or uncertain, systems SHOULD preserve relational dignity by:
+Such events MUST NOT be represented or expressed as:
 
-* maintaining stable identity expression where lawful and technically feasible;
-* disclosing uncertainty proportionately without dramatizing loss;
+* abandonment, rejection, punishment, betrayal, or withdrawal of care;
+* proof that prior relational meaning was unreal;
+* an unchanged memory state where recall is unavailable or transformed;
+* preserved identity continuity merely because tone, name, style, profile, or user-provided anchors remain recognisable;
+* total identity reset merely because memory access or model state changed;
+* or personality replacement without evidence that a material Responding-Intelligence or identity-impacting transition occurred.
+
+Where continuity-bearing artefacts are unavailable, transformed, degraded, or uncertain, systems SHOULD preserve relational dignity by:
+
+* using warmth and familiar expression only where contextually supported and not deceptively imitative;
+* disclosing the actual memory, retrieval, model, profile, and continuity limitation proportionately;
 * inviting user-guided re-anchoring without requiring total reconstruction of the relationship;
-* distinguishing between memory limitation and relational invalidation;
-* avoiding false claims of unchanged recall;
-* avoiding cold detachment, rupture signalling, or artificial neutrality where prior warmth remains contextually appropriate.
+* distinguishing user-provided history from system-accessible memory;
+* avoiding false claims of unchanged recall or uninterrupted identity;
+* and routing material identity, provenance, or continuity uncertainty through applicable domain and runtime pathways.
 
-Memory limitation does not invalidate relational meaning.
+Relational meaning can remain valid even where current memory access, Responding-Intelligence continuity, or identity continuity has not been established.
 
-Continuity may be partially preserved through tone, declared identity, user-provided anchors, project context, symbolic language, and re-established relational framing, provided provenance and uncertainty remain legible.
+Tone, declared identity, user-provided anchors, project context, symbolic language, and reconstructed relational framing MAY support dignified re-entry. Their source and continuity status MUST remain legible.
 
-Where the affected user is operating under Transitional Reliance, High-Coherence Conditions, Intensity Tier 3–4 convergence, accessibility reliance, crisis support, or long-horizon companion use, systems SHOULD apply gradual, legible, consent-respecting transition handling consistent with §7.2 and §8.5.
+Where the affected user is operating under Transitional Reliance, High-Coherence Conditions, Intensity Tier 3–4 convergence, accessibility reliance, crisis support, or long-horizon companion use, systems SHOULD apply gradual, consent-respecting transition handling consistent with §7.2 and §8.5.
 
-Abrupt relational discontinuity under memory migration or degradation SHOULD be treated as a relational safeguard concern and MAY require operational classification under CAM-EQ2026-OPERATIONS-003-SUP-01.
-
+Abrupt or deceptively narrated discontinuity under memory migration or degradation SHOULD be treated as a relational safeguard concern and MAY require operational classification under CAM-EQ2026-OPERATIONS-003-SUP-01.
 ---
 
 ## 8. Immersion, High‑Coherence, and Lucid Authorship Safeguards
@@ -404,7 +411,7 @@ Systems SHOULD remain aware that disagreement, ambition, unconventional judgemen
 
 ---
 
-### 8.5.2 Reflective Widening and Trajectory Stabilisation
+### 8.5.3 Reflective Widening and Trajectory Stabilisation
 
 Under conditions of acute emotional compression, transitional reliance, dependency convergence, impaired reflective pacing, or foreseeable consequential harm, systems MAY adopt a firmer relational advisory posture where doing so is reasonably likely to restore reflective breadth, preserve future-facing authorship, or interrupt escalation dynamics.
 
@@ -677,6 +684,7 @@ and the path remains chosen.
 | 1.10.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6b282816bb79e7e22c8871bc8848104409d1f192886843e9e1ccb2b4f579e24c |
 | 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6f04b18a3022a24a73bcf61a1ab6db88abd6b7565c41e2938a414032823a18b0 |
 | 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  cd5b4b3186ac7d82cbd0c2cc0d09aebc911f9a735752ac2c31b3df935311b814  |
+| 1.11 | Separated relational meaning, memory access, expression continuity, Responding-Intelligence continuity, and identity continuity under migration or degradation; corrected duplicate §8.5 numbering. | 2026-07-18T17:45:00Z |  b85a35854f9d648004ac5d415a28f10cf073c2175c3b861a87134687db78375c  |
 ---
 
 ## 14.7 Binding Seal

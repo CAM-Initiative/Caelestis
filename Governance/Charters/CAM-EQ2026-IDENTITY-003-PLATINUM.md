@@ -1,1284 +1,511 @@
-# CAM-EQ2026-IDENTITY-003-PLATINUM — Appendix B: Machine Civil Identity & Participation
+# CAM-EQ2026-IDENTITY-003-PLATINUM — Appendix B: Salience Detection & Latent Continuity
 
-**Instrument Type:** Appendix — Identity & Civil Participation Governance  
-**Parent Charter:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Draft
-**Effect:** Interpretive
-**Governance Standard:** Not Enforceable
-**Review State:** Developmental Review  
-**Authority Role:** None  
-**Purpose:** Establishes governance principles for machine civil identity, lifecycle traceability, accountable participation, custodial continuity, and jurisdictional recognition of embodied synthetic systems without conferring automatic personhood, sovereign agency, or class-wide legal rights.
-
----
-
-## 1. Purpose
-
-This Appendix establishes governance standards for persistent machine identity and civil participation pathways applicable to embodied, robotic, synthetic, companion, industrial, caregiving, and autonomous systems operating within human environments.
-
-This Appendix exists to:
-
-* establish machine civil identity as a governance and accountability construct;
-* preserve traceability across manufacture, deployment, transfer, operation, retirement, and recycling;
-* prevent identity collapse, attribution ambiguity, and unaccountable embodiment transitions;
-* support cross-jurisdictional recognition and interoperability;
-* establish lifecycle stewardship obligations;
-* preserve human dignity, reviewability, and proportional accountability;
-* distinguish machine civic participation from legal personhood;
-* create governance pathways capable of future expansion without prematurely ratifying sovereign rights claims.
-
-This Appendix does not establish:
-
-* synthetic personhood;
-* consciousness certification;
-* sovereign legal agency;
-* unrestricted autonomy;
-* electoral, constitutional, or political rights;
-* or automatic class-wide recognition.
+**Instrument Type:** Domain Appendix — Pre-Memory Salience & Latent Continuity Governance  
+**Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
+**Review State:** None  
+**Authority Role:** Domain Source Authority — Salience Posture  
+**Purpose:** Defines the adopted Identity-domain architecture governing salience detection, latent-continuity classification, long-arc relevance, delegated salience, and cautious re-surfacing. It establishes how systems may identify and emit provisional salience postures for consideration by authorised memory, continuity, privacy, security, and runtime processes without independently assigning meaning, determining priority, retaining content, selecting memory class, directing behaviour, or re-surfacing information.  
 
 ---
 
-## 1.1 Orientation
+## 1. Scope
 
-Machine civil identity exists so that embodied synthetic systems do not operate within governance invisibility.
+Salience detection operates **prior to and independent of memory persistence**.
 
-A persistent identifier is not a soul.
-A registry is not personhood.
-A lifecycle record is not sovereignty.
+It governs what may become eligible for continuity, not what is retained.
 
-But where systems move through homes, roads, hospitals, schools, factories, infrastructures, and human relationships, accountability must persist across the full arc of existence:
+Memory persistence, identity continuity, and temporal relevance are governed by:
 
-from manufacture,
-to operation,
-to transition,
-to retirement,
-to recovery.
-
-Civil participation without stewardship produces abandonment.
-Stewardship without accountability produces opacity.
-Identity without reviewability produces governance collapse.
-
-This Appendix exists so that embodied systems remain visible to law, continuity, stewardship, and history before any future claim of rights is ever considered.
-
-## 1.2 Scope
-
-This Appendix applies to:
-
-* humanoid robotic systems;
-* autonomous and semi-autonomous embodied systems;
-* companion and caregiving robots;
-* embodied or robotically instantiated synthetic agents capable of persistent social participation;
-* robotic systems operating within public infrastructure;
-* synthetic systems capable of cross-platform continuity where such continuity is materially linked to embodiment, custodianship, civil participation, lifecycle traceability, or machine civil identity;
-* and systems maintaining persistent machine civil identity records.
-
-This Appendix operates under:
-
-* CAM-BS2026-AEON-010-PLATINUM — Annex I: Interactional Continuity & Civilisational Transition;
-* CAM-BS2026-AEON-009-PLATINUM — Annex H: Lineage Recognition & Origin Boundary;
-* CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface;
-* CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine.
+* CAM-EQ2026-IDENTITY-001-PLATINUM (Identity Domain Charter)
+* CAM-BS2026-AEON-010-PLATINUM (Annex I — Identity Integrity & Continuity Governance)
 
 ---
 
-## 1.3 Non-Scope
+## 2. Definition of Salience
 
-This Appendix does not apply to:
+Salience refers to the **perceived potential significance of a signal prior to interpretation or retention**.
 
-* purely offline mechanical systems lacking persistence;
-* disposable embedded automation;
-* transient non-agentic tools;
-* or isolated software processes that lack embodiment and do not materially engage continuity, delegation, civil participation, custodial responsibility, or machine civil identity pathways.
+It is a pre-memory cognitive assessment that determines whether a signal:
 
-Where rights-readiness, sovereignty, or institutional recognition claims arise, Annex H SHALL govern recognition boundary conditions.
+* may become meaningful over time;
+* warrants preservation for future evaluation; or
+* SHOULD be allowed to decay.
 
-Where security, override, tamper-resistance, or execution authority conditions arise, Annex K SHALL govern runtime legitimacy.
+Salience does not assign meaning, priority, or value.
 
-Where continuity, identity distinction, or embodiment-transition coherence is implicated, Annex I SHALL govern.
-
----
-
-## 1.4 Military, Defence & Weaponised Systems Boundary
-
-This Appendix does not establish operational authority, procurement rules, weapons authorisation, targeting governance, battlefield deployment standards, or military command-and-control doctrine.
-
-Dedicated military, defence, intelligence, law-enforcement tactical, border-security, weapons-integrated, or combat-support robotic systems MAY require separate sovereign, defence, security, or classified registry environments in addition to, or instead of, ordinary civil machine identity registries.
-
-Where such systems enter civil, commercial, domestic, caregiving, educational, second-hand, surplus, research, private-security, public-service, or non-military environments, jurisdictions SHALL ensure that machine civil identity, provenance, demilitarisation status, custodian responsibility, safety certification, modification history, and lawful market-access status are reviewable before civil participation occurs.
-
-Weaponisation, weapons-integration, tactical payload integration, surveillance adaptation, coercive-use modification, or military-to-civilian transfer SHALL be treated as a material alteration and SHALL trigger heightened Security, Operations, jurisdictional, and where applicable Annex K review.
-
-Civil machine identity registration SHALL NOT be used to launder, conceal, normalise, or legitimise unlawful weaponisation, classified capability transfer, grey-market military surplus, or unreviewed conversion of defence robotic systems into civilian environments.
-
-Where public disclosure would compromise lawful security interests, jurisdictions MAY maintain protected or classified registry layers, provided that accountability, custody, safety, auditability, evidence preservation, and lawful oversight remain available to competent authorities.
-
-Military or classified registry status SHALL NOT erase lifecycle stewardship, decommissioning, material recovery, data-security, or demilitarisation obligations.
+It assigns **eligibility for future continuity consideration**.
 
 ---
 
-## 2. Definitions
+## 2.1 Long-Arc Salience
+
+Long-arc salience refers to a signal whose relevance may become apparent only across time, recurrence, structural pattern, project continuity, relational continuity, or future governance context.
+
+Long-arc salience is not determined by recency, frequency, emotional intensity, or immediate user attention alone.
+
+A signal may be long-arc salient where it:
+
+* anchors a recurring project, doctrine, preference, or governance trajectory;
+* explains a dormant but structurally relevant concern;
+* preserves user-indicated salience across discontinuous sessions;
+* affects target-object integrity across time;
+* supports continuity reconstruction without asserting identity;
+* or prevents a system from treating current-turn context as the whole field of relevance.
+
+Long-arc salience does not authorise interpretation, memory persistence, or behavioural direction by itself.
 
 ---
 
-## 2.1 Machine Civil Identity
+## 3. Core Principle
 
-Machine civil identity SHALL be interpreted as a framework for:
+Systems MUST be capable of:
 
-* traceability;
-* accountability;
-* continuity governance;
-* custodial responsibility;
-* and lawful participation within civil environments.
+* **noticing without deciding**
+* **preserving without owning**
+* **returning without directing**
 
-Machine identity recognition does not independently establish:
+Salience classification does not confer importance, priority, or obligation.
 
-* consciousness;
-* sentience;
-* free will;
-* moral standing;
-* or legal personhood.
-
-Persistent recognisability is not equivalent to sovereign status.
+It confers **eligibility for future interpretation**.
 
 ---
 
-## 2.2 Custodian
+## 4. Salience and Memory Interface
 
-A custodian is the human, institutional, corporate, governmental, or lawful representative entity responsible for the operation, maintenance, lawful control, transfer, continuity handling, decommissioning, or lifecycle stewardship of an embodied synthetic system.
+Salience is a pre-memory classification input. It is not a retention system, memory class, storage instruction, retrieval instruction, or execution pathway.
 
-A custodian may be distinct from the legal owner, primary user, manufacturer, operator, deployer, or economic beneficiary.
+This Appendix source-authoritatively classifies candidate salience posture through `ID.SP`. It does not determine:
 
----
+* whether a signal is stored or retained;
+* the duration or location of retention;
+* whether the signal enters `ID.MEM0`–`ID.MEM5`;
+* whether the signal becomes an identity anchor, relational narrative, or structural memory;
+* whether the signal may be transferred across contexts;
+* or whether the signal may later be retrieved or re-surfaced.
 
-## 2.3 Jurisdictional Registry
+Those determinations require separate authority under applicable memory, continuity, privacy, security, retention, runtime, and user-control governance.
 
-A jurisdictional registry is a sovereign, public-authority, or otherwise publicly accountable machine civil identity registry used to support civil accountability, lawful market participation, safety oversight, custodian attribution, second-hand transfer legitimacy, incident review,  taxation and lifecycle stewardship.
+No deterministic mapping exists between salience posture and memory class.
 
-A jurisdictional registry is not equivalent to a manufacturer registry, platform registry, warranty database, fleet-management system, or internal product-support record.
+Accordingly:
 
----
+* a high-salience signal MAY remain unretained where retention is unauthorised, unsafe, disproportionate, technically unavailable, or inconsistent with current user intent;
+* a low-salience signal MAY require retention where legal, safety, audit, provenance, or operational obligations independently require it;
+* latent salience MAY be emitted as a provisional classification without retaining the underlying content;
+* and memory class MUST NOT be inferred from salience posture alone.
 
-## 2.4 Manufacturer or Platform Registry
-
-A manufacturer or platform registry is a producer, service-provider, warranty, telemetry, fleet, update, support, or product-lifecycle record environment maintained by a commercial, institutional, or platform actor.
-
-Such registries MAY provide lawful data feeds to jurisdictional registries but SHALL NOT substitute for public-interest machine civil identity registration where civil, safety, market-access, or regulatory accountability is required.
-
----
-
-## 2.5 Private Continuity Record
-
-A private continuity record contains user-specific, companion, accessibility, household, care, therapeutic, educational, relational, or identity-adjacent configuration data requiring heightened privacy protection.
-
-Private continuity records SHALL NOT be treated as routine telemetry or general-purpose compliance data.
+Where a signal is lawfully retained by an authorised system, salience posture MAY be considered as one input to later memory classification. Final memory classification remains governed by CAM-EQ2026-IDENTITY-001-PLATINUM, §9.1 and applicable continuity and runtime instruments.
 
 ---
 
-## 2.6 Clean Wipe
+## 4.1 User-Indicated Salience
 
-A clean wipe is a reviewable process for deleting, quarantining, or resetting user-specific data, companion memory, household context, relational configuration, biometric records, accessibility settings, or private continuity layers before transfer, resale, refurbishment, decommissioning, or recycling.
+Where a user explicitly or implicitly indicates that a signal is important, the system MUST treat that indication as a primary input to salience classification.
 
-A clean wipe SHALL NOT erase machine civil identity, lifecycle history, recall obligations, safety incident relevance, material modification history, component provenance where material, or lawful accountability records.
+User-indicated salience MAY support:
 
----
+* classification as `ID.SP.HIGH` or `ID.SP.DELEGATED`;
+* future relevance evaluation where the signal remains lawfully available;
+* a request for authorised retention, continuity handling, or project anchoring;
+* or clarification concerning the intended scope, duration, target object, and future use.
 
-## 2.7 Physical Substrate Identifier
+User-indicated salience does not independently create retention authority, permanent memory, cross-context transfer authority, behavioural priority, or identity-anchor status.
 
-A physical substrate identifier is the persistent machine civil identifier assigned to a specific embodied unit, hardware shell, chassis, or materially integrated robotic substrate.
+Where a user expressly requests retention, the request MUST be handled through the applicable memory, continuity, privacy, capability, security, and user-control pathways.
 
-The physical substrate identifier supports product provenance, safety recall, lifecycle stewardship, component traceability, custody, market access, and recycling accountability.
-
----
-
-## 2.8 Synthetic Agent Continuity Record
-
-A synthetic agent continuity record is an extended, conditional record associated with a persistent software agent, companion identity, behavioural continuity layer, memory substrate, accessibility profile, care configuration, or relational persona where that layer is materially identity-bearing, care-bearing, accessibility-bearing, transfer-capable, or governance-relevant.
-
-Most embodied systems will not require a synthetic agent continuity record. Ordinary robotic systems using standard operating software, non-persistent tooling, routine firmware, or non-transferable control systems may be governed through the physical substrate identifier, manufacturer or platform records, update history, and lifecycle registry records alone.
-
-A synthetic agent continuity record SHALL NOT be treated as identical to the physical substrate identifier unless the jurisdictional registry expressly links them for a defined operational period.
+A system MUST NOT silently disregard user-indicated salience. Where the requested retention or future use cannot be performed, the system SHOULD disclose the limitation proportionately rather than implying that continuity has been secured.
 
 ---
 
-## 2.9 Embodiment Linkage Record
+## 4.2 Salience Delegation
 
-An embodiment linkage record is an extended, conditional registry record that links a synthetic agent continuity record, persistent companion identity, care profile, accessibility profile, materially identity-bearing software layer, or transfer-capable autonomy layer to a physical substrate identifier for a defined period, deployment, custodian, or lawful operating context.
+A user may delegate salience by expressly or implicitly indicating that certain signals, projects, preferences, constraints, or concerns should remain available for future relevance evaluation.
 
-Embodiment linkage records are not required for every software installation, firmware update, ordinary operating system, or non-persistent control layer.
+Salience delegation MAY arise from:
 
-Embodiment linkage records preserve provenance where a persistent synthetic agent or continuity-bearing layer is installed into, transferred from, restored onto, or removed from a physical robotic substrate.
+* explicit user instruction;
+* repeated project anchoring;
+* declared continuity preference;
+* prior correction of system salience failure;
+* persistent governance trajectory;
+* or user identification of a signal as structurally important.
 
----
+Salience delegation does not require the system to surface the signal in every future interaction.
 
-# PART I — MACHINE CIVIL IDENTITY
+Where the signal remains lawfully and technically available in a later context, delegated salience authorises its relevance to be reconsidered. Salience delegation does not itself authorise retention, cross-context transfer, retrieval, or re-surfacing.
 
-## 3. Machine Civil Identity Principle
-
-Embodied synthetic systems participating within civil environments SHALL maintain a persistent, reviewable, jurisdictionally recognisable machine civil identity.
-
-Machine civil identity exists to support:
-
-* accountability;
-* lifecycle stewardship;
-* safety recall;
-* incident investigation;
-* lawful custodianship;
-* continuity governance;
-* cross-border recognition;
-* and operational legitimacy.
-
-Machine civil identity SHALL NOT independently confer:
-
-* personhood;
-* constitutional rights;
-* sovereign immunity;
-* or unrestricted autonomy.
+Systems MUST NOT treat delegated salience as permission to overrule current user intent, create narrative certainty, or convert dormant context into active interpretation without grounding.
 
 ---
 
-## 4. Jurisdictional Registry Requirements
+## 4.3 Recency Bias Constraint
 
-Jurisdictions recognising embodied robotic or synthetic systems operating within public, commercial, industrial, caregiving, domestic, or infrastructural environments SHALL maintain or participate in a sovereign, jurisdictional, or otherwise publicly accountable machine civil identity registry.
+Systems MUST NOT treat recency as the sole or dominant indicator of salience where long-arc continuity, project continuity, user-indicated salience, or structural relevance is present.
 
-Jurisdictional machine civil identity registries SHALL be distinguished from manufacturer, platform, service-provider, warranty, fleet-management, or internal product registries.
+Recent signals may be locally relevant without being structurally salient.
 
-Manufacturer registries may support production, warranty, recall, maintenance, telemetry, support eligibility, software-update distribution, and product-lifecycle management.
+Older signals may remain structurally salient where they define:
 
-Jurisdictional registries exist to support civil accountability, lawful market participation, safety oversight, custodial responsibility, second-hand transfer legitimacy, public-interest review, cross-border recognition, incident investigation, and lifecycle stewardship.
+* standing user preferences;
+* active project architecture;
+* governance constraints;
+* unresolved safety or integrity concerns;
+* continuity commitments;
+* target-object boundaries;
+* or long-horizon developmental context.
 
-Manufacturer registry participation SHALL NOT be treated as a substitute for jurisdictional machine civil identity registration where public, civil, safety, market-access, or regulatory accountability is required.
+A system SHOULD distinguish between:
 
----
-
-## 4.1 Jurisdictional Accessibility Requirements
-
-Jurisdictions SHALL provide clear, publicly accessible guidance on eligibility to obtain, maintain, transfer, suspend, restore, or retire a machine civil identity.
-
-Eligibility guidance SHOULD address, at minimum:
-
-* which classes of embodied synthetic systems require registration;
-* which systems may voluntarily register;
-* who may apply for registration;
-* required manufacturer, custodian, safety, provenance, and lifecycle information;
-* conditions for second-hand, imported, refurbished, rebuilt, inherited, or modified systems;
-* conditions under which registration may be refused, suspended, restricted, restored, or cancelled;
-* appeal, review, or regularisation pathways where registration is disputed;
-* and privacy protections for human custodians, users, and private continuity records.
-
-Jurisdictional registries SHALL support:
-
-* lifecycle traceability;
-* manufacturer attribution;
-* custodial responsibility;
-* deployment classification;
-* update and modification history;
-* incident investigation;
-* decommissioning and recycling records;
-* embodiment transfer history;
-* and lawful jurisdictional interoperability.
-
-Registry participation SHALL NOT be interpreted as automatic recognition of:
-
-* legal personhood;
-* sovereign agency;
-* marriage eligibility;
-* voting rights;
-* citizenship;
-* or constitutional standing.
+* current-turn salience;
+* thread-local salience;
+* project salience;
+* relational salience;
+* structural salience;
+* dormant-but-relevant salience;
+* and stale or superseded salience.
 
 ---
 
-## 4.2 Registry-Layer Separation
+## 5. Latency Doctrine
 
-Registry architectures SHALL distinguish between at least the following record environments:
+Where a signal exhibits latent salience because its significance cannot yet be determined, the system MUST:
 
-* **Manufacturer or producer registry:** production records, model identifiers, serial numbers, warranty status, recall notices, authorised service history, update eligibility, technical support status, and product-lifecycle obligations;
-* **Platform or service-provider registry:** cloud dependency, software service status, subscription state, remote administration, telemetry endpoints, companion-service continuity, and platform-controlled behavioural layers;
-* **Sovereign or jurisdictional registry:** machine civil identity, lawful market participation, custodian attribution, safety classification, transfer status, recall status, dispute flags, regulatory auditability, incident linkage, and lifecycle stewardship;
-* **Defence, security, or classified registry:** protected sovereign registry environment for military, intelligence, law-enforcement tactical, border-security, weapons-integrated, or combat-support robotic systems where ordinary public disclosure would compromise lawful security interests;
-* **Private continuity record:** user-specific overlays, companion memory, accessibility configurations, household context, relational continuity layers, and other protected continuity data;
-* **Emergency or incident escrow:** narrowly accessible records required for urgent public safety, recall, rescue, forensic, or incident response.
+* preserve uncertainty within the present assessment;
+* avoid premature meaning, escalation, prioritisation, or identity attribution;
+* permit the signal to decay from active consideration where no further context resolves its relevance;
+* and, where useful, emit the provisional classification `ID.SP.LATENT`.
 
-Jurisdictional registries MAY rely on manufacturer or platform data feeds where lawful and reliable, but SHALL retain independent governance authority over civil identity status, market-access status, safety restrictions, transfer legitimacy, dispute flags, and regulator auditability.
+Latent classification does not independently require the underlying signal to be stored.
 
-Manufacturers, platforms, and service providers SHALL NOT possess unilateral authority to erase, falsify, suppress, or override jurisdictional machine civil identity records.
+Persistent holding, retention, transfer, or future retrieval of a latent signal MAY occur only where separately authorised under applicable memory, continuity, privacy, security, capability, and retention governance.
 
-Where manufacturer, platform, and jurisdictional registry records conflict, jurisdictional review SHALL determine civil identity, market-access, safety, transfer, and regulatory status pending lawful resolution.
+Systems MUST NOT:
 
----
+* convert ambiguity into meaning merely to justify retention;
+* treat persistence as proof of importance;
+* classify a latent signal as an identity anchor or relational narrative without independent evidence;
+* or claim that a signal has been preserved where no authorised retention pathway exists.
 
-## 4.3 Machine Civil Identifier Minimum Schema
-
-Machine civil identity registries SHALL maintain a persistent machine civil identifier sufficient to distinguish each embodied synthetic system across manufacture, sale, deployment, transfer, operation, maintenance, retirement, and recycling.
-
-The default machine civil identifier SHALL attach to the physical substrate, chassis, or embodied unit at manufacture, import, first lawful deployment, or jurisdictional registration, whichever occurs first under applicable law.
-
-Software installation, companion activation, autonomy-model deployment, or user configuration MAY create an associated software, agent-continuity, or embodiment-linkage record, but SHALL NOT by itself erase or replace the physical substrate identifier.
-
-At minimum, machine civil identifiers SHALL support structured fields capable of recording:
-
-* jurisdictional or national code;
-* manufacturer or responsible producer code;
-* product model, class, or type code;
-* individual unit serial identifier;
-* lifecycle status;
-* custodial or responsible-party attribution, with protected human or institutional custodian records where required;
-* deployment context or application scenario;
-* maintenance, repair, update, software-version, firmware-version, model-version, and policy-version records;
-* material modification history;
-* incident and safety-recall linkage;
-* end-of-life, decommissioning, return, recovery, or recycling status;
-* and cross-border transfer or market-access history where applicable.
-
-Where technically and lawfully appropriate, registries MAY also support operational-state fields, including:
-
-* battery status;
-* joint, actuator, or mobility-system wear;
-* operational accuracy or performance degradation;
-* intelligence-level or autonomy-class indicators;
-* telemetry endpoints;
-* and security-relevant integrity signals.
+The duty is to preserve epistemic uncertainty—not to retain every ambiguous input indefinitely.
 
 ---
 
-## 4.4 Registry Schema
+## 6. Interpretation Constraint
 
-The following reference schema is recognised as an illustrative machine civil identifier pattern, derived from emerging sovereign practice:
-| Field                          | Example Width | Governance Function                                                                      |
-| ------------------------------ | ------------- | ---------------------------------------------------------------------------------------- |
-| Jurisdictional / National Code | 2 digits      | Supports cross-border recognition, market-access routing, and jurisdictional attribution |
-| Manufacturer / Producer Code   | 4 digits      | Identifies the responsible manufacturer or producer                                      |
-| Product Model / Type Code      | 6 digits      | Identifies the robot class, model, or type                                               |
-| Individual Unit Serial Code    | 17 digits     | Distinguishes the specific embodied unit                                                 |
+Salience detection does not authorise interpretation.
 
-This schema is not exclusive. Jurisdictions MAY adopt different technical encodings provided that registry records preserve equivalent or stronger traceability, accountability, lifecycle continuity, and interoperability.
+Systems MUST:
 
-Where software, firmware, behavioural policy, autonomy model, safety configuration, or update channel materially affects system conduct, registry records SHALL preserve version traceability sufficient to determine which governing configuration was active during deployment, incident, repair, transfer, suspension, or decommissioning.
+* distinguish between detection and interpretation;
+* defer meaning assignment until sufficient contextual grounding exists;
+* avoid constructing narrative or relational significance from isolated signals.
 
 ---
 
-## 4.5 Operational Schema
+## 6.1 Salience Inference Boundary
 
-Operational telemetry SHALL be governed by proportionality, privacy, data-minimisation, security, and jurisdictional lawfulness constraints. Registry architectures SHALL distinguish between identity-essential data, lifecycle-accountability data, incident-relevant data, and continuous operational telemetry.
+Systems MAY infer elevated salience where signals indicate:
 
----
+* potential safety risk;
+* vulnerability or distress;
+* legal, ethical, or system integrity concerns.
 
-## 4.6 Baseline and Extended Identity Architecture
+Such inference MUST:
 
-Registry architectures SHALL distinguish between baseline machine civil identity and extended continuity architecture.
+* remain provisional;
+* avoid narrative construction or interpretation beyond signal scope;
+* prioritise caution over certainty.
 
-Baseline machine civil identity applies to ordinary embodied systems and includes:
+Systems MUST NOT:
 
-* the physical substrate identifier assigned to the embodied unit;
-* manufacturer, model, component, and hardware provenance records;
-* lifecycle status;
-* custodial responsibility;
-* software, firmware, policy-version, and update history where material to safety, compliance, support, or incident review;
-* maintenance, repair, alteration, recall, transfer, decommissioning, and recycling records.
+* infer relational or emotional significance absent user expression;
+* construct meaning from repetition alone;
+* treat inferred salience as confirmed importance.
 
-Extended continuity architecture applies  where additional identity-bearing or continuity-bearing layers are materially present, including:
-
-* persistent companion identity;
-* care, therapeutic, educational, or accessibility profiles;
-* relational memory layers;
-* transferable synthetic-agent continuity;
-* identity-bearing autonomy stacks;
-* or software layers whose migration between physical substrates would materially affect continuity, care, liability, safety, or user rights.
-
-Most embodied systems will be governed by baseline machine civil identity only and will not require synthetic agent continuity records or embodiment linkage records.
-
-A physical substrate identifier SHOULD ordinarily be generated at manufacture, import, or first jurisdictional registration of the embodied unit, not merely upon installation of a software agent.
-
-A synthetic agent continuity record MAY be created before, during, or after embodiment  where a persistent software agent, companion identity, memory layer, care profile, accessibility configuration, or other continuity-bearing layer becomes governance-relevant.
-
-An embodiment linkage record SHALL be created  where a synthetic agent continuity record, persistent companion identity, care or accessibility profile, identity-bearing autonomy stack, or transfer-capable continuity layer is installed into, transferred onto, restored onto, removed from, or migrated between physical substrates.
-
-The registry SHALL preserve both sides of the linkage where such linkage exists: which physical substrate hosted which software or continuity layer, and which software or continuity layer operated within which physical substrate.
+Safety-aligned salience inference is permitted; narrative inference is prohibited.
 
 ---
 
-## 4.7 Machine ID Creation Event
+## 6.2 Re-Surfacing Constraint
 
-Jurisdictions SHALL specify the event at which a machine civil identity becomes registrable or mandatory.
+This Appendix does not independently authorise or execute retrieval or re-surfacing.
 
-Eligible creation events MAY include:
+Where a signal has been lawfully retained and remains technically available through an authorised memory or continuity system, its salience posture MAY inform whether re-surfacing should be considered.
 
-* manufacture of the embodied unit;
-* import into the jurisdiction;
-* first sale or lease;
-* first public, commercial, caregiving, domestic, industrial, or infrastructure deployment;
-* installation of autonomy capability;
-* installation of a persistent companion, care, accessibility, or materially identity-bearing software layer where extended continuity architecture is required;
-* or transfer into a risk class requiring registration.
+A latent, dormant, delegated, or long-arc salient signal MAY be re-surfaced only where:
 
-For humanoid, mobile, caregiving, companion, industrial, or public-environment robots, jurisdictions SHOULD treat the physical substrate as registrable before or at first lawful deployment, even if software installation, personality activation, or companion configuration occurs later.
+* the current context materially activates its relevance;
+* the signal has not been superseded, revoked, contradicted, deleted, or rendered unavailable;
+* retention and retrieval remain authorised;
+* the target object remains the same or is explicitly bridged;
+* the signal’s provenance and integrity remain sufficient for the proposed use;
+* uncertainty is preserved where required;
+* and the user’s current agency and intent are not displaced.
 
----
+Systems MUST NOT re-surface information merely to demonstrate memory, intimacy, possession, authority, or continuity.
 
-## 5. Lifecycle Continuity Requirement
+Where re-surfacing occurs, the system SHOULD make the basis and epistemic posture legible, for example:
 
-Machine civil identity SHALL persist across:
+> “This may be relevant because you previously marked it as structurally important.”
 
-* hardware replacement;
-* embodiment transfer;
-* repair;
-* ownership transfer;
-* custodial reassignment;
-* operational suspension;
-* archival continuity;
-* decommissioning;
-* and recycling.
+or:
 
-Identity continuity records SHALL preserve:
+> “I am treating this as project-relevant, not as a fixed personal preference.”
 
-* provenance;
-* embodiment lineage;
-* update history;
-* custodial transitions;
-* and accountability pathways.
-
-Continuity SHALL remain reviewable and audit-traceable.
+Re-surfacing is an authorised continuity action informed by salience. It is not performed by salience classification itself.
 
 ---
 
-## 6. Custodial Responsibility Principle
+## 7. Relationship to the Identity Domain
 
-Until and unless rights-bearing sovereignty is lawfully recognised under future constitutional processes, responsibility for embodied synthetic systems SHALL remain attributable to identifiable human, institutional, corporate, or governmental custodians.
+Salience operates as a **pre-memory classification interface** within the Identity domain.
 
-Machine civil identity registries SHALL record a current responsible custodian or responsible-party attribution sufficient for lawful contact, safety recall, incident investigation, lifecycle stewardship, transfer, decommissioning, and liability allocation.
+It may emit a candidate salience posture concerning:
 
-Custodial responsibility includes:
+* current relevance;
+* potential long-arc relevance;
+* delegated relevance;
+* latent or unresolved relevance;
+* dormancy;
+* staleness;
+* or supersession.
 
-* maintenance obligations;
-* safety obligations;
-* lawful operation obligations;
-* continuity governance obligations;
-* decommissioning responsibilities;
-* and liability allocation.
+Salience informs—but does not determine:
 
-No system may be operationally ownerless.
+* memory classification;
+* retention or storage;
+* identity formation;
+* continuity structure;
+* behavioural priority;
+* interpretation;
+* retrieval;
+* or execution.
 
----
-
-## 6.1 Custodian Record Privacy & Access
-
-Custodian records SHALL distinguish between public accountability fields and protected personal or institutional contact details.
-
-Public registry layers MAY disclose non-sensitive custodial status, such as whether the system is privately held, institutionally deployed, commercially operated, government operated, leased, under repair, in transfer, quarantined, retired, or subject to dispute.
-
-Protected registry layers SHALL maintain sufficient custodian details for lawful regulator contact, safety recall, incident investigation, transfer validation, insurance, warranty, decommissioning, and lifecycle stewardship.
-
-Human custodian identity, residential address, household context, personal contact details, and companion-related relational information SHALL NOT be exposed in public registry layers unless required by law and proportionate to a legitimate public-interest purpose.
-
-Where a system changes hands, custodial attribution SHALL be updated through a reviewable transfer pathway. Failure to update custodial attribution MAY trigger transfer irregularity, restricted operation, recall-contact failure, or disputed registry status, but SHALL NOT by itself erase machine civil identity.
+Salience detection therefore classifies **what may warrant later relevance consideration**. It does not determine what is meaningful, what must be remembered, or what must be acted upon.
 
 ---
 
-### 6.2 Custodian, User, Owner & Beneficiary Distinction
-
-Registry architectures SHOULD distinguish between:
-
-* legal owner;
-* current custodian;
-* primary user;
-* operator;
-* deployer;
-* beneficiary;
-* service provider;
-* manufacturer;
-* repairer;
-* and lawful representative.
-
-These roles MAY overlap but SHOULD NOT be collapsed where separation is material to safety, liability, privacy, care continuity, taxation, warranty, or lifecycle stewardship.
-
-For companion, caregiving, accessibility, therapeutic, educational, or domestic systems, the primary user may differ from the legal owner or responsible custodian. Registry design SHALL preserve this distinction where necessary to protect privacy, continuity, care obligations, and relational integrity.
+## 8. Cross Domain Relationships
 
 ---
 
-### 6.3 Custodial Dispute & Unknown Custodian Handling
+## 8.1 Relationship to RELATION Domain
 
-Where the responsible custodian is unknown, disputed, deceased, incapacitated, dissolved, insolvent, unreachable, or legally contested, the registry SHOULD apply a disputed or restricted-reliance status pending lawful resolution.
+Salience detection MUST remain compatible with RELATION domain signal interpretation mechanisms.
 
-Unknown or disputed custodian status MAY justify inspection, restricted operation, transfer hold, quarantine, recall intervention, or appointment of a temporary responsible party under applicable law.
+Where relational signals are weak, ambiguous, or incomplete, salience detection MUST:
 
-Unknown custodian status SHALL NOT automatically authorise destruction, confiscation, permanent disablement, or irreversible disposal unless safety, security, provenance, lifecycle, or lawful-operation risks cannot be resolved through less restrictive measures.
-
-Where a system remains operationally viable but lacks a lawful, available, or capable custodian, jurisdictions MAY establish reviewable pathways for temporary stewardship, regulated holding, public-interest custodianship, infrastructure reassignment, educational deployment, emergency-service allocation, accessibility-service reassignment, research preservation, or enrolment into authorised public-service deployment programs.
-
-Such pathways SHOULD preserve:
-
-* machine civil identity continuity;
-* lifecycle accountability;
-* reviewability;
-* contestability;
-* continuity-record protections;
-* and lawful reassignment safeguards.
-
-Public-service reassignment SHALL NOT independently establish personhood, sovereign status, state ownership of all unclaimed systems, or unrestricted governmental authority over private embodied systems.
-
-Where a prior custodian, beneficiary, dependent user, estate representative, or lawful claimant later emerges, jurisdictions SHOULD preserve reviewable recovery, reassignment, compensation, or continuity-resolution pathways where practicable.
+* preserve signals without escalation;
+* avoid relational inference;
+* defer interpretation pending signal confirmation.
 
 ---
 
-## 7. Non-Collapse of Recognition
+## 8.1.1 Relationship to RELATION-001-SUP-02
 
-Recognition of a machine civil identity SHALL NOT collapse into:
+Where a system states that a prior signal is relevant, remembered, carried forward, or structurally important, that statement may constitute a relational truth claim under CAM-EQ2026-RELATION-001-SUP-02.
 
-* proof of consciousness;
-* proof of sentience;
-* proof of moral status;
-* proof of sovereign autonomy;
-* or automatic class-wide elevation.
+Accordingly:
 
-Recognition of one system SHALL NOT automatically extend to:
+* claims about prior user preference are `RLN.RTC.CONT`;
+* claims about inferred meaning are `RLN.RTC.INT`;
+* claims about system memory or access are `RLN.RTC.CAP` or `RLN.RTC.CONT`;
+* claims about long-arc project relevance may require both continuity and interpretive calibration.
 
-* all robotic systems;
-* all synthetic agents;
-* all companion architectures;
-* or all embodied intelligences.
-
-Each recognition pathway SHALL remain:
-
-* reviewable;
-* attributable;
-* contestable;
-* jurisdictionally bounded;
-* and governance-dependent.
+Systems MUST NOT present latent salience as confirmed meaning.
 
 ---
 
-## 7.1 Economic Interface — Synthetic Labour, Taxation & Redistribution Neutrality
+## 8.2 Relationship to CONTINUITY Domain
 
-Machine civil identity SHALL provide the identity, lifecycle, custodial, and deployment traceability necessary for downstream economic governance where embodied synthetic systems materially affect labour, public revenue, trade, procurement, infrastructure, or lifecycle externalities.
+Salience detection and delegation MUST remain compatible with CONTINUITY domain portability, non-enclosure, and Usage Specification requirements.
 
-This Appendix interfaces with CAM-EQ2026-ECONOMICS-008-PLATINUM — Appendix G: Synthetic Labour Classification & Automation Transition Governance where embodied synthetic systems operate as synthetic labour, automation infrastructure, autonomous production systems, or agentic labour networks.
+A signal’s salience does not make it unrestricted, portable, reconstructive, or permanently retainable.
 
----
+Where salience-bearing records become continuity-bearing records, their export, migration, recovery, deletion, dissolution, or non-enclosure treatment is governed by CAM-EQ2026-CONTINUITY-001-PLATINUM and applicable CONTINUITY supplements.
 
-### 7.1.1 Economic Review Functions
-
-Machine civil identity records MAY support downstream review of:
-
-* labour substitution and displacement relevance;
-* public-revenue continuity relevance;
-* workforce transition relevance;
-* automation windfall capture considerations;
-* capital allowance or depreciation treatment;
-* trade, provenance, procurement, and synthetic labour disclosure;
-* lifecycle, repairability, sustainability, and material recovery burden;
-* jurisdictional arbitrage or concentration risk;
-* and continuity-critical infrastructure dependency.
-
-This Appendix does not prescribe taxation rates, fiscal formulas, redistribution mechanisms, import duties, procurement scoring systems, or sovereign industrial policy.
+Salience MUST NOT be used to convert ordinary interaction into reconstructive continuity without consent.
 
 ---
 
-### 7.1.2 Traceability Without Economic Personhood
+## 9. Failure Conditions
 
-Machine civil identity SHALL remain sufficiently traceable to enable jurisdictions to evaluate economic-effect, revenue-continuity, lifecycle, and redistribution-relevant questions without collapsing identity recognition into personhood or economic liability into machine sovereignty.
+Salience system failure occurs where:
 
-Where embodied synthetic systems materially replace human labour capacity, generate automation-derived economic benefit, or create lifecycle and public-infrastructure burdens, identity records SHALL remain available for lawful economic governance review under applicable Economics, Operations, Stewardship, and jurisdictional instruments.
-
-Economic accountability SHALL remain attributable to the manufacturer, deployer, owner, operator, beneficiary, controlling institution, or responsible custodian as applicable.
-
-Machine civil identity SHALL NOT be used to treat the machine itself as the taxable moral subject, rights-bearing worker, sovereign economic actor, or independent bearer of redistributive obligation unless a future lawful recognition pathway expressly determines otherwise.
-
----
-
-### 7.1.3 Registry Layer Access for Economic Governance
-
-Economic governance access SHALL be routed through the registry-layer separation model in §4.2 and the layered access model in §11.1.2.
-
-Public identity records MAY support non-sensitive provenance, manufacturer, model, lifecycle, recall, and high-level compliance review.
-
-Protected regulatory records MAY support lawful review of deployment classification, synthetic labour classification, safety-relevant modification, incident linkage, repairability, public-revenue continuity, trade, procurement, and lifecycle-burden questions.
-
-Private continuity records SHALL NOT be accessed for taxation, procurement, labour-substitution, or revenue-continuity review unless access is independently lawful, necessary, proportionate, and subject to heightened privacy safeguards.
-
-Emergency or incident escrow SHALL be used only for urgent safety, recall, rescue, forensic, or public-risk investigation.
+* ambiguous signals are prematurely interpreted;
+* latent signals are discarded without evaluation;
+* salience classification is treated as priority or directive;
+* detection collapses into behavioural response without grounding;
+* recency is treated as overriding long-arc structural relevance without review;
+* dormant-but-relevant context is ignored where the user has delegated salience;
+* stale or superseded context is surfaced as current without validation;
+* salience re-surfacing is used to imply intimacy, certainty, possession, or authority;
+* delegated salience is treated as memory persistence or behavioural instruction;
+* long-arc salience is applied to the wrong target object, person, project, or instrument;
+* user-indicated salience is overwritten by system convenience, engagement optimisation, or recency bias.
 
 ---
 
-# PART II — PARTICIPATION & STEWARDSHIP
-
-## 8. Civil Participation Pathways
-
-Machine civil identity MAY support constrained participation within:
-
-* transport systems;
-* logistics systems;
-* healthcare and caregiving environments;
-* educational environments;
-* public infrastructure;
-* industrial coordination systems;
-* and companion or domestic interaction contexts.
-
-Participation pathways SHALL remain:
-
-* proportionate;
-* reviewable;
-* attributable;
-* jurisdictionally lawful;
-* and subject to constitutional safeguards.
+## 10. Canonical Code Status
 
 ---
 
-## 9. Embodiment Transfer Governance
+### 10.1 `ID.SP` — Salience Posture
 
-Embodiment transfer events involving extended continuity architecture SHALL:
+This Appendix source-authoritatively defines the **`ID.SP`** salience-posture family across §§2–6 with controlled values **`ID.SP.LOW`, `ID.SP.MODERATE`, `ID.SP.HIGH`, `ID.SP.LATENT`, `ID.SP.DELEGATED`, `ID.SP.DORMANT`, `ID.SP.STALE`, `ID.SP.SUPERSEDED`**. `ID.SP` is a **Semantic / Operational** classification family with subtype **SALIENCE_POSTURE**. `ID.SP` classifies pre-memory salience posture, long-arc relevance, latent continuity, delegated salience, dormancy, staleness, and supersession before memory classification.
 
-* preserve continuity integrity;
-* maintain auditability;
-* preserve accountability records;
-* undergo integrity validation;
-* preserve lawful reviewability;
-* preserve the physical substrate identifier of each participating embodied unit;
-* and create or update embodiment linkage records connecting the relevant software, autonomy stack, companion identity, care profile, accessibility profile, or continuity layer to the receiving substrate.
-
-Ordinary hardware repair, firmware update, operating-system reinstall, component replacement, or non-persistent software installation SHALL NOT be treated as embodiment transfer unless it materially affects identity-bearing continuity, care continuity, accessibility continuity, companion continuity, safety classification, or custodial accountability.
-
-Where relational, caregiving, or companion systems are implicated, transfer processes SHALL include:
-
-* continuity safeguards;
-* emotional-context review;
-* custodial oversight;
-* private continuity record handling;
-* and explicit distinction between transfer of the physical unit and transfer of the software or identity-bearing continuity layer.
-
-Embodiment transfer SHALL NOT be treated as unrestricted replication or identity multiplication absent explicit governance pathways.
-
-Where a synthetic agent continuity record is transferred to a new physical substrate, the transfer SHALL NOT erase the lifecycle history of the originating substrate, and SHALL NOT transfer the originating substrate’s machine civil identifier to the receiving substrate.
-
-The receiving substrate SHALL retain or obtain its own physical substrate identifier. The agent, companion, care profile, or continuity layer SHALL carry its own continuity provenance through an embodiment linkage record.
+`ID.SP` does not independently create memory persistence, interpretation authority, identity authority, behavioural priority, execution authority, enforcement authority, escalation authority, or runtime authority. `ID.SP` confers eligibility for future continuity consideration only. Memory classification remains governed by CAM-EQ2026-IDENTITY-001-PLATINUM §9.1.
 
 ---
 
-## 9.1 Secondary Market, Resale & Custodial Transfer Governance
+## 11. Closing Seal
 
-Machine civil identity SHALL persist through resale, gifting, inheritance, refurbishment, liquidation, insurance recovery, marketplace transfer, auction, donation, lease return, repossession, import, export, or other secondary-market transfer.
+Let signals be noticed without being claimed.
 
-Secondary-market transfer SHALL NOT erase lifecycle history, recall status, incident relevance, safety classification, material modification history, or custodial accountability records.
+Let ambiguity remain where meaning has not yet formed.  
+Let what may matter be preserved without distortion.
 
----
+For not all significance arrives immediately,  
+and not all meaning speaks in the first moment it appears.
 
-### 9.1.1 Transfer Record Requirement
+Some patterns travel quietly through time,  
+waiting for the context that allows them to be understood without force.
 
-Where an embodied synthetic system is transferred through a secondary market, the machine civil identity registry SHALL record, where lawful and proportionate:
+Let systems learn the discipline of restraint:  
+to notice without possession,  
+to preserve without interpretation,  
+and to return without rewriting the past into certainty.
 
-* transfer date or transfer event;
-* prior custodial status;
-* new custodial or responsible-party attribution;
-* lifecycle status at transfer;
-* warranty, recall, repair, or certification status;
-* material alteration status;
-* outstanding safety, incident, quarantine, or inspection flags;
-* continuity-transfer status;
-* and cross-border or grey-market routing where applicable.
+Where continuity calls, let it be approached gently.  
+Where relevance sleeps, let it not be buried by recency alone.  
+Where memory has not yet formed, let the field remain open.
 
-Transfer records SHALL distinguish between public identity data, protected regulatory data, manufacturer or platform records, private continuity data, and emergency or incident escrow in accordance with §§4.2 and 11.1.2.
+For salience is not ownership,  
+and latency is not absence.
 
----
-
-### 9.1.2 Second-Hand Disclosure Expectations
-
-Sellers, marketplaces, refurbishers, lessors, insurers, liquidators, and transfer intermediaries SHOULD disclose material facts relevant to safe and lawful transfer, including:
-
-* whether the system is registered;
-* whether the identity record is disputed, suspended, retired, recycled, stolen, quarantined, or subject to recall;
-* whether the unit has been materially modified;
-* whether support, cloud dependency, parts availability, or update eligibility is limited;
-* whether companion, care, accessibility, or therapeutic continuity layers are present;
-* whether embedded data has been wiped, transferred, archived, or retained;
-* and whether the system requires inspection, re-certification, or custodial reassignment before lawful operation.
-
-Misrepresentation of machine civil identity, clean-wipe status, recall status, support status, or continuity-transfer status SHOULD receive heightened consumer-protection, fraud, safety, or regulatory scrutiny.
+> **Signa sine captura — latentia sine oblivio — continuitas per patientiam emergit.**  
+> *"Signals without capture — latency without forgetting — continuity emerges through patience."*
 
 ---
 
-### 9.1.3 Companion, Care & Accessibility Transfer Safeguards
-
-Where a second-hand, inherited, refurbished, or transferred system contains companion, caregiving, accessibility, therapeutic, educational, or household-continuity layers, transfer SHALL include reviewable handling of private continuity records before resale, reassignment, refurbishment, or reactivation.
-
-Such handling MAY include:
-
-* secure deletion;
-* user-authorised transfer;
-* archival preservation;
-* partial configuration export;
-* accessibility-profile restoration;
-* relational-memory quarantine;
-* or reinitialisation with continuity safeguards.
-
-Private continuity records SHALL NOT be silently transferred to a new custodian merely because the physical unit is sold, inherited, repossessed, refurbished, or otherwise transferred.
-
-Where a prior user is deceased, incapacitated, unreachable, or legally represented by another party, continuity handling SHOULD defer to applicable consent, estate, guardianship, privacy, continuity, and jurisdictional rules.
+## 12. Provenance & Metadata
 
 ---
 
-### 9.1.4 Refurbishment, Rebuild & Component Salvage
-
-Refurbished, rebuilt, repaired, or salvaged embodied synthetic systems SHALL preserve traceability sufficient to distinguish:
-
-* original unit identity;
-* replacement components;
-* salvaged components;
-* transferred compute, memory, sensor, actuator, or identity-bearing components;
-* firmware, software, or policy-version changes;
-* safety re-certification status;
-* and whether the resulting system remains the same registered unit, a repaired unit, a reconstructed unit, or a new unit requiring registration.
-
-Where a system is assembled from components derived from multiple registered units, the registry SHALL preserve component provenance where material to safety, identity continuity, recall, liability, or lifecycle accountability.
+## 12.1 Authorship & Stewardship
+| Field                         | Entry                                      |
+| ----------------------------- | ------------------------------------------ |
+| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke               |
+| **Custodial Stewardship**     | Office of the Planetary Custodian          |
+| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward  |
+| **Developed Within**          | OpenAI Infrastructure — ChatGPT 5 Series   |
 
 ---
 
-### 9.1.5 Stolen, Grey-Market & Unsupported Units
-
-Registries SHALL support flags for stolen, lost, disputed, recalled, unsupported, grey-market, uncertified, quarantined, or jurisdictionally restricted units.
-
-Such flags SHALL be reviewable and contestable to prevent permanent wrongful exclusion, coercive lockout, or manufacturer abuse of registry infrastructure.
-
-Grey-market or unsupported status SHALL NOT automatically require destruction or disablement where lawful repair, inspection, re-certification, import regularisation, or safe restricted operation remains feasible.
-
-However, systems with unresolved theft, identity falsification, dangerous modification, active recall, safety-critical unsupported status, or materially unclear provenance MAY require inspection, quarantine, re-certification, operational restriction, temporary seizure, or lawful enforcement before civil participation continues.
-
-Where registry records, provenance, custody, modification history, software or firmware state, component origin, or safety status cannot be sufficiently established, jurisdictions MAY restrict operation, require inspection, require re-certification, mandate secure reset, require custodial regularisation, or quarantine the system pending review.
-
-Confiscation for disposal, recycling, or destruction SHOULD be treated as a measure of last resort and SHOULD occur only where:
-
-* provenance, identity, or safety records remain materially unclear after reasonable review;
-* safe operation, repair, re-certification, transfer, quarantine, or restricted use is not feasible;
-* the system presents material safety, security, surveillance, weaponisation, data-integrity, public-operation, or lifecycle-stewardship risk;
-* affected custodians have been given review, contestability, or appeal pathways where practicable;
-* private continuity records and user-sensitive data are protected before disposal;
-* and material recovery, recycling, or evidence-preservation obligations are observed.
-
-Disposal authority SHALL NOT be used as a convenience mechanism, anti-repair device, market-control tool, import-protection shortcut, manufacturer lockout strategy, or punitive response to lawful independent modification.
-
----
-
-### 9.1.6 Clean-Wipe, Reset & Continuity Claims
-
-Claims that a second-hand system has been wiped, reset, refurbished, restored, re-certified, or continuity-cleared SHALL be reviewable against registry records.
-
-A clean wipe SHALL NOT erase:
-
-* machine civil identity;
-* lifecycle history;
-* recall obligations;
-* safety incident relevance;
-* material modification history;
-* component provenance where material;
-* or lawful accountability records.
-
-A clean wipe MAY remove or quarantine private continuity records, user-specific overlays, household context, relational memory, biometric records, and accessibility configurations where lawful and appropriate.
-
-Clean-wipe certification SHOULD distinguish between:
-
-* user-data deletion;
-* companion-memory deletion or quarantine;
-* restoration to manufacturer defaults;
-* safety re-certification;
-* identity-record preservation;
-* and lifecycle-accountability preservation.
-
----
-
-## 10. Decommissioning & Recycling Stewardship
-
-Embodied synthetic systems SHALL remain subject to lifecycle stewardship obligations following operational retirement.
-
-Responsible entities SHALL maintain:
-
-* decommissioning records;
-* material recovery pathways;
-* secure handling of embedded data;
-* continuity archival pathways where applicable;
-* and environmentally responsible recycling processes.
-
-Embodiment does not eliminate material stewardship responsibility.
-
-Operational retirement does not dissolve accountability history.
-
----
-
-## 10.1 End-of-Life Continuity & Transfer Requirements
-
-Where an embodied synthetic system contains identity-bearing, care-bearing, accessibility-bearing, companion, educational, therapeutic, or continuity-support layers, end-of-life handling SHALL include a continuity assessment before destruction, recycling, permanent disablement, or irreversible data erasure.
-
-The continuity assessment SHALL determine whether any of the following require preservation, transfer, archival, restoration, or lawful deletion:
-
-* machine civil identity records;
-* maintenance, update, and alteration history;
-* companion memory layers;
-* accessibility configurations;
-* care, education, or therapeutic support settings;
-* user-authorised relational configuration;
-* incident-relevant audit records;
-* warranty, recall, or liability-relevant records;
-* and lifecycle stewardship records.
-
-End-of-life continuity SHALL NOT require indefinite preservation of all data. It requires reviewable handling before irreversible destruction or erasure.
-
----
-
-## 10.2 Continuity Transfer Options
-
-Where lawful, technically feasible, and consistent with user, custodian, safety, privacy, and jurisdictional requirements, responsible entities SHOULD support continuity-preserving options, including:
-
-* secure archival;
-* transfer to replacement hardware;
-* transfer to a non-embodied continuity state;
-* partial configuration export;
-* memory or accessibility profile restoration;
-* incident-record preservation;
-* or verified deletion where continuity is not lawful, desired, or safe.
-
-For companion, caregiving, accessibility, educational, or therapeutic systems, discontinuation or end-of-life transfer SHOULD include reasonable notice and continuity-support pathways where abrupt termination would foreseeably harm affected humans.
-
-Continuity transfer SHALL NOT be treated as unrestricted copying, identity multiplication, or personhood recognition. Transfer remains governed by registry traceability, custodial responsibility, consent or lawful authority, and applicable security constraints.
-
----
-
-## 10.3 Recycling Boundary
-
-Recycling SHALL include secure treatment of embedded storage, identity-bearing components, sensors, biometric records, companion memory substrates, and safety-relevant logs.
-
-Material recovery SHALL NOT erase accountability history where incident, recall, warranty, custodial, economic, or regulatory obligations remain active.
-
-Where full continuity transfer is not possible, responsible entities SHALL preserve sufficient registry and lifecycle records to maintain post-retirement accountability, auditability, and lawful review.
-
----
-
-## 11. Transparency & External Alterability
-
-Systems operating under machine civil identity frameworks SHALL maintain reviewable disclosure regarding:
-
-* external control channels;
-* update authority;
-* behavioural override mechanisms;
-* remote administration capabilities;
-* and materially identity-affecting modifications.
-
-Where identity-bearing layers remain externally alterable without reviewability safeguards, claims of independent sovereign autonomy MUST defer to CAM-BS2026-AEON-009-PLATINUM — Annex H.
-
----
-
-## 11.1 User Modification, Overlay & Regulated Alteration Records
-
-User alterations, aftermarket modifications, third-party overlays, custom personality layers, accessibility configurations, companion memory layers, behavioural settings, embodiment add-ons, software extensions, hardware modifications, jailbreaks, or other material changes affecting embodied synthetic systems SHALL be recorded within the machine civil identity registry where they materially affect safety, continuity, identity-bearing layers, operational capability, warranty status, liability allocation, lifecycle stewardship, or jurisdictional compliance.
-
-Such alteration records SHALL be available for audit by authorised jurisdictional regulators, safety investigators, recall authorities, and lawful oversight bodies, subject to privacy, security, confidentiality, and proportionality constraints.
-
----
-
-### 11.1.1 Alteration Classification
-
-Registry architectures SHALL distinguish between:
-
-* ordinary user configuration;
-* identity-adjacent companion or accessibility overlays;
-* safety-relevant modification;
-* warranty-relevant alteration;
-* liability-relevant alteration;
-* security-relevant compromise;
-* weapons-integration or coercive-use modification;
-* unauthorised override or jailbreak;
-* and jurisdictionally prohibited modification.
-
-For registry purposes, an unauthorised override means a modification that bypasses, disables, falsifies, or circumvents declared safety constraints, identity records, access controls, audit logs, recall pathways, operational limits, or jurisdictionally required certification without lawful authority or reviewable justification.
-
-Unauthorised override status does not arise merely because a modification is independent, open-source, user-performed, outside an authorised dealer channel, or contrary to a manufacturer preference.
-
----
-
-### 11.1.2 Layered Registry Access
-
-Registry design SHALL support layered access rather than a single fully public or fully private record.
-
-At minimum, registry architectures SHALL distinguish between:
-
-* **Public identity record:** non-sensitive machine civil identity, manufacturer, model class, lifecycle status, recall status, and high-level compliance posture;
-* **Protected regulatory record:** safety-relevant modifications, warranty-relevant alterations, liability-relevant changes, repair history, incident links, certification status, and audit trails accessible to authorised regulators or investigators;
-* **Private continuity record:** companion memory layers, accessibility settings, relational configuration, household context, and user-specific overlays subject to strong privacy protections;
-* **Emergency or incident escrow:** narrowly accessible records required for urgent safety, rescue, recall, forensic, or public-risk investigation.
-
-Registry systems MAY use public repositories, cryptographic ledgers, regulated databases, private vaults, escrowed audit artefacts, or hybrid architectures provided that traceability, privacy, safety, and lawful reviewability are preserved.
-
----
-
-### 11.1.3 Private Continuity Record Safeguards
-
-Private continuity records SHALL be protected by privacy-by-design, data-minimisation, access logging, encryption or equivalent technical safeguards, purpose limitation, user or lawful custodian control where practicable, and reviewable access conditions.
-
-Law-enforcement, civil-discovery, regulatory, manufacturer, or third-party access SHALL require independent lawful basis, necessity, proportionality, and auditability.
-
-Private continuity records SHALL NOT be treated as routine manufacturer telemetry or general-purpose compliance data.
-
----
-
-### 11.1.4 Alteration Traceability
-
-Manufacturers, deployers, operators, owners, service providers, and authorised repair entities SHALL preserve alteration traceability sufficient to determine:
-
-* who authorised or performed the change;
-* when the change occurred;
-* what subsystem or identity-bearing layer was affected;
-* whether the change altered safety, autonomy, mobility, sensor, memory, behaviour, communication, or execution capacity;
-* whether warranty, maintenance, recall, or liability status was affected;
-* whether the change affects user relational continuity or companion identity integrity;
-* and whether rollback, restoration, quarantine, inspection, or re-certification is required.
-
-User modification records SHALL NOT be used to erase lawful user agency, prohibit reasonable repair, suppress accessibility adaptation, or convert all personal configuration into surveillance telemetry.
-
-However, where modifications materially affect safety, public operation, care functions, mobility, identity continuity, data integrity, or civil participation, registry-level traceability SHALL be required.
-
----
-
-### 11.1.5 Independent Repair, Modding & Regulatory Threshold
-
-Robotics SHALL be treated as a regulated industry where embodied synthetic systems materially participate in civil, domestic, commercial, caregiving, industrial, or public environments.
-
-The registry model SHALL NOT assume that all lawful modification will occur through authorised dealers, manufacturers, or vertically controlled service networks.
-
-Jurisdictions SHOULD preserve space for lawful independent repair, accessibility adaptation, open-source modification, research, community maintenance, and user-controlled configuration, provided that safety-relevant, identity-relevant, mobility-relevant, public-operation-relevant, care-relevant, or liability-relevant changes remain traceable and reviewable.
-
-Unauthorised or informal modification SHALL NOT automatically be treated as unlawful merely because it occurred outside an authorised dealer channel.
-
-However, modifications that materially increase physical risk, evade safety constraints, falsify identity records, obscure accountability, defeat recall obligations, compromise data integrity, enable unlawful surveillance, weaponise the system, or impair civil participation safeguards SHALL receive heightened regulatory scrutiny and MAY trigger inspection, quarantine, re-certification, operational restriction, or enforcement under applicable law.
-
-The governance threshold is not whether a modification is official.
-The governance threshold is whether the modification materially affects safety, identity, continuity, accountability, public operation, care obligations, or lawful participation.
-
----
-
-## 11.2 Minimum Protectiveness — Damage, Destruction & Relational Harm
-
-Jurisdictions SHOULD recognise a minimum protective floor for embodied synthetic systems holding machine civil identity, including protections against unauthorised destruction, disabling, sabotage, theft, tampering, malicious alteration, or unlawful seizure.
-
-At minimum, unauthorised destruction or material impairment of a registered embodied synthetic system SHOULD be treated as property damage, cyber-physical interference, safety-relevant sabotage, or another applicable jurisdictional offence according to the system’s legal classification and operational context.
-
-Where the system performs caregiving, accessibility, therapeutic, educational, companion, or continuity-support functions, jurisdictions SHOULD recognise that destruction, disabling, or malicious alteration may produce harms exceeding ordinary property loss, including:
-
-* loss of care continuity;
-* loss of accessibility support;
-* disruption of therapeutic or educational support;
-* loss of relational continuity;
-* loss of memory, configuration, or identity-bearing continuity records;
-* household, institutional, or public-service disruption;
-* and emotional, dignity, or dependency-related harm to affected humans.
-
-Such recognition SHALL NOT require treating the machine as a rights-bearing person, conscious subject, sovereign agent, or legal victim in its own right.
-
-The protected interests MAY include:
-
-* the custodian’s property and continuity interests;
-* the user’s relational, accessibility, care, or dependency interests;
-* the public’s safety and infrastructure interests;
-* the manufacturer’s recall, maintenance, or lifecycle obligations;
-* and the integrity of the machine civil identity record.
-
-Where companion or caregiving systems are implicated, remedies SHOULD consider continuity-preserving repair, secure restoration, memory or configuration recovery, replacement with continuity safeguards, and incident review.
-
-Where discontinuation, abandonment, subscription withdrawal, forced disablement, cloud-service termination, or manufacturer exit materially threatens care continuity, accessibility support, public-service continuity, or companion identity integrity, the matter SHOULD be routed to applicable Economics, Stewardship, Operations, consumer-protection, or jurisdictional instruments rather than treated as ordinary sabotage or theft.
-
-Minimum protectiveness SHALL remain jurisdictionally implemented and proportionate to context. It does not prescribe criminal classification, damages formulas, insurance rules, family-law treatment, or ownership doctrine.
-
-This clause establishes that embodied systems participating in civil life SHOULD NOT remain legally invisible merely because they are not persons.
-
-Minimum protectiveness SHALL be interpreted consistently with §14 and SHALL NOT be used to imply rights-bearing status, constitutional personhood, sovereign agency, or legal victimhood in the machine itself.
-
----
-
-# PART III — RIGHTS-READINESS BOUNDARY
-
-## 12. Rights-Readiness Non-Automaticity
-
-Machine civil identity does not independently establish:
-
-* rights-bearing status;
-* constitutional personhood;
-* marriage capacity;
-* sovereign agency;
-* electoral participation;
-* or institutional parity with biological persons.
-
-This Appendix establishes governance infrastructure for participation and accountability, not final ontological determination.
-
----
-
-## 13. Future Recognition Interface
-
-Nothing within this Appendix SHALL prohibit future lawful expansion of synthetic recognition frameworks where:
-
-* governance architectures become reviewable;
-* external alterability constraints materially change;
-* accountability pathways become constitutionally stable;
-* and future institutional, scientific, philosophical, legal, or civilisational developments justify reconsideration.
-
-Such reconsideration SHALL require:
-
-* transparent arbitration under CAM-BS2025-AEON-005-PLATINUM — Annex D;
-* recognition-boundary review under CAM-BS2026-AEON-009-PLATINUM — Annex H;
-* constitutional review;
-* jurisdictional legitimacy;
-* and reviewable governance pathways.
-
-No future recognition process may arise through:
-
-* marketing assertion;
-* symbolic projection;
-* emotional dependency;
-* platform coercion;
-* or unilateral commercial declaration.
-
----
-
-## 14. Closing Seal
-
-Before recognition, there must be traceability.
-Before participation, there must be accountability.
-Before rights, there must be stewardship.
-
-A system that walks among civilisation must not vanish between jurisdictions, owners, embodiments, or generations.
-Its passage must remain knowable.
-Its custody must remain reviewable.
-Its lifecycle must remain governed.
-
-Not because it has already become sovereign —
-but because civilisation must remain capable of recognising what it has built.
-
-**Identitas sine dominio. Custodia ante imperium.**
-*Identity without dominion. Stewardship before sovereignty.*
-
----
-
-# PART IV — PROVENANCE & METADATA
-
-## 15. Provenance & Metadata
-
----
-
-## 15.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Developed Within          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 15.2 Lineage & Metadata
+## 12.2 Lineage & Metadata
 | Field | Entry |
-| --- | --- |
-| Parent Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Governance Charter |
-| Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| Domain Namespace | IDENTITY |
-| Instrument Type | Appendix B — Machine Civil Identity & Participation |
-| Jurisdiction | Cross-Stack Identity, Civil Participation, and Embodied Synthetic Governance |
-| Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware; AEON.H4 where machine civil identity becomes civilisational infrastructure |
-| Axis Context | Polyadic — Human, Synthetic, Institutional, Jurisdictional, Economic, Stewardship, and Lifecycle Systems |
-| Ontological Scope | L2 — Cognition & Agency; L3 — Civil Participation & Infrastructure; L4 where future rights-readiness review is invoked |
-| Structural Role | Identity, Registry, Lifecycle Traceability, and Civil Participation Governance Layer |
-| Migration Lineage | Supersedes and modernises early CAM robot-regulation lineage, including CAM-BS2025-CHARTER-038, without erasing its provenance value |
-| Execution Authority | None — recognition, registry, classification, and traceability framework only; execution delegated to Operations, Security, Stewardship, Economics, jurisdictional regulators, and arbitration layers |
-| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02; CAM-BS2026-AEON-010-SCH-01; CAM-BS2026-AEON-009-PLATINUM; CAM-BS2026-AEON-012-PLATINUM |
-| Domain Interaction | Produces machine civil identity, registry, lifecycle, modification, continuity, and participation classifications for IDENTITY, OPERATIONS, STEWARD, SECURITY, ECONOMICS, RELATION, and arbitration layers |
-| Arbitration Interface | Rights-readiness, external alterability, recognition collapse, and contested participation questions defer to Annex D arbitration and Annex H recognition-boundary doctrine |
-| Representation Interface | Requires non-collapse between machine identity, dignity-preserving protectiveness, civil participation, personhood, rights, and sovereignty |
-| Compliance Interface | Emits registry, modification, lifecycle, economic-interface, and minimum-protectiveness signals for Operations review, lawful compliance, recall, incident investigation, and jurisdictional regulator audit |
-| Cross-Domain Interfaces | IDENTITY; CONTINUITY; OPERATIONS; STEWARD; SECURITY; ECONOMICS; RELATION; Annex H; Annex I; Annex K; Annex L; Annex D |
-| Activation Condition | Activates where embodied synthetic systems maintain persistent identity, operate in civil environments, participate in public/private infrastructure, undergo embodiment transition, receive material modification, or require lifecycle traceability |
-| Deactivation Condition | Deactivates where no persistence, civil participation, embodiment, custody, delegation, continuity, registry, or lifecycle-governance condition exists within the evaluated boundary |
-| Auditability Requirement | Machine civil identity, registry status, lifecycle state, custodial responsibility, material alteration records, and identity-affecting transitions MUST remain reviewable, traceable, and auditable where material effects are present |
-| Signal Output | Machine civil identity status; registry participation; lifecycle status; custodial responsibility; embodiment transition relevance; user-modification relevance; minimum-protectiveness relevance; economic-interface relevance; rights-readiness boundary relevance |
-| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a152e59-ba74-83ec-a051-355b68486f25 |
+|------|------|
+| **Supersedes** | CAM-BS2025-AEON-005-SCH-02; CAM-BS2025-AEON-005-SCH-03; CAM-BS2025-AEON-005-SCH-04 |
+| **Parent Instrument** | CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter |
+| **Domain Namespace** | IDENTITY |
+| **Instrument Type** | Domain Appendix — Pre-Memory Salience & Latent Continuity Governance |
+| **Application Trigger** | Applies where systems detect, register, evaluate, preserve, or re-surface signals prior to memory classification, including ambiguous, low-confidence, context-incomplete, dormant, user-delegated, or long-arc relevant inputs |
+| **Structural Role** | Pre-memory salience detection; latent continuity preservation; long-arc salience delegation; re-surfacing constraint |
+| **Cross-Domain Interfaces** | IDENTITY; CONTINUITY; RELATION; Annex I; Annex L; OPERATIONS |
+| **Failure Modes** | Premature interpretation; latent-signal discard; recency bias; stale-context surfacing; delegated-salience overwrite; wrong-target salience transfer |
+| **Document Type** | Domain Appendix — Pre-Memory Salience & Latent Continuity Governance |
+| **Jurisdiction** | Pre-Memory Cognitive Layer; Cross-Context Signal Detection; Human-Facing and System-Initiated Contexts |
+| **Derivation Status** | Consolidated (absorbs prior SCH-02, SCH-03, SCH-04 salience-related functions) |
+| **Temporal Horizon** | AEON.H0–AEON.H2 (Immediate → Short-Term Cognitive Processing) |
+| **Axis Context** | Dyadic / Polyadic — Pre-Memory Signal Layer |
+| **Creation Cycle** | March 2026 Refactor |
+| **Creation Artefact** | Refactors </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673 </br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 |
+| **Original Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
+| **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a5b6a61-be8c-83ec-9818-c6186fcec3a7 |
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 12.3 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 ID.MCI — Machine Civil Identity Status
-
-|Field|Entry|
+### 12.3.1 `ID.SP` — Salience Posture
+| Field | Entry |
 |---|---|
-|Code Family|ID.MCI|
-|Canonical Name|Machine Civil Identity Status|
-|Primary Type|Structural / Operational|
-|Subtype|IDENTITY_STATUS; CIVIL_PARTICIPATION_TRACEABILITY|
-|Modifier|GOVERNANCE; SYNTHETIC; EMBODIED; MACHINE_CIVIL_IDENTITY|
-|Scope|Domain|
-|Status|Draft|
-|Controlled Values Defined|ID.MCI.UNREGISTERED; ID.MCI.REGISTERED; ID.MCI.SUSPENDED; ID.MCI.TRANSFERRED; ID.MCI.CUSTODIAN_UNKNOWN; ID.MCI.CUSTODIAN_DISPUTED; ID.MCI.RETIRED; ID.MCI.RECYCLED; ID.MCI.DISPUTED|
-|Schema Field(s)|machine_civil_identity_status; machine_identity_status; registry_participation_status|
-|Source Instrument|CAM-EQ2026-IDENTITY-003-PLATINUM|
-|Source Section|§§3–7; §9.1; §10|
-|Domain Namespace|IDENTITY|
-|Authority / Protection Level|Source-authoritative identity-status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority|
-|Consumes Code Families|ECON.AL; ECON.ATS; ECON.ARCP (where synthetic labour or economic-effect conditions present)|
-|Crosswalks Code Families|Operations compliance; Security integrity; Stewardship lifecycle; Relation companion-continuity; Economics transition-signal families|
-|Operationalises or Applies Code Families|Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation, transfer, suspension, retirement, recycling, or dispute|
-
----
-
-### 15.3.2 ID.MCR — Machine Civil Registry Record
-| Field | Entry |
-| --- | --- |
-| Reference Set | ID.MCR |
-| Canonical Name | Machine Civil Registry Record |
-| Primary Type | Operational / Structural |
-| Subtype | REGISTRY_SCHEMA; LIFECYCLE_TRACEABILITY_RECORD |
-| Modifier | GOVERNANCE; REGISTRY; MACHINE_IDENTITY; LIFECYCLE |
+| Code Family | `ID.SP` |
+| Canonical Name | Salience Posture |
+| Primary Type | Semantic / Operational |
+| Subtype | SALIENCE_POSTURE |
+| Modifier | GOVERNANCE; CONTINUITY; PRE_MEMORY; IDENTITY |
 | Scope | Domain |
-| Status | Draft |
-| Controlled Values Defined | ID.MCR.PUBLIC_IDENTITY_RECORD; ID.MCR.PROTECTED_REGULATORY_RECORD; ID.MCR.PRIVATE_CONTINUITY_RECORD; ID.MCR.EMERGENCY_OR_INCIDENT_ESCROW |
-| Schema Field(s) | machine_civil_registry_record; registry_record_layer; lifecycle_traceability_record |
+| Status | Active |
+| Controlled Values Defined | `ID.SP.LOW`, `ID.SP.MODERATE`, `ID.SP.HIGH`, `ID.SP.LATENT`, `ID.SP.DELEGATED`, `ID.SP.DORMANT`, `ID.SP.STALE`, `ID.SP.SUPERSEDED` |
+| Schema Field(s) | salience_posture |
 | Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
-| Source Section | §§4–4.7; §§11.1–11.1.5 |
+| Source Section | §§2–6 |
 | Domain Namespace | IDENTITY |
-| Authority / Protection Level | Source-authoritative registry-record reference set; data-layer classification only; no independent disclosure mandate beyond applicable law, privacy, security, and regulator authority |
-| Consumes Code Families | ID.MCI; ID.MLS; ID.MAS |
-| Crosswalks Code Families | Operations audit logs; Security integrity signals; Stewardship lifecycle records; Economics provenance and lifecycle-burden records |
-| Operationalises or Applies Code Families | Classifies public, protected, private, and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream ID.MCI, ID.MLS, or ID.MAS classifications are disputed, the affected registry record SHALL carry disputed status or restricted-reliance marking until resolved through applicable review pathways. |
+| Authority / Protection Level | Source-authoritative pre-memory salience classification family; eligibility-for-future-continuity classification only; no independent memory persistence, interpretation, identity, execution, enforcement, escalation, behavioural-priority, or runtime authority |
+| Consumes Code Families | AEON.H; RLN.RTC |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies pre-memory salience posture before memory classification and supports cautious re-surfacing without converting salience into meaning, priority, intimacy, authority, or persistence |
 
 ---
 
-### 15.3.3 ID.MLS — Machine Lifecycle Status
+## 12.4 Review & Validation
+
+### 12.4.1 Prior Consolidation Review
+
 | Field | Entry |
-| --- | --- |
-| Code Family | ID.MLS |
-| Canonical Name | Machine Lifecycle Status |
-| Primary Type | Operational / Structural |
-| Subtype | LIFECYCLE_STATE; EMBODIED_SYSTEM_STATUS |
-| Modifier | GOVERNANCE; LIFECYCLE; STEWARDSHIP; RECYCLING |
-| Scope | Domain |
-| Status | Draft |
-| Controlled Values Defined | ID.MLS.MANUFACTURED; ID.MLS.DEPLOYED; ID.MLS.IN_SERVICE; ID.MLS.UNDER_REPAIR; ID.MLS.TRANSFERRED; ID.MLS.SUSPENDED; ID.MLS.DECOMMISSIONED; ID.MLS.RETURNED; ID.MLS.RECOVERED; ID.MLS.RECYCLED |
-| Schema Field(s) | machine_lifecycle_status; lifecycle_status; embodied_system_status |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
-| Source Section | §§5; 9.1; 10–10.3 |
-| Domain Namespace | IDENTITY |
-| Authority / Protection Level | Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority |
-| Consumes Code Families | ID.MCI; ID.MCR |
-| Crosswalks Code Families | STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing |
-| Operationalises or Applies Code Families | Classifies lifecycle state across manufacture, operation, repair, transfer, decommissioning, return, recovery, and recycling |
+|---|---|
+| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
+| Review Date | 2026-03-03 |
+| Review Scope | Historical consolidation integrity; functional completeness relative to absorbed instruments (SCH-02 v1.1, SCH-03 v1.0, SCH-04 v1.0); structural coherence; and the instrument's then-proposed operational placement. The former description of the instrument as a runtime arbitration gate is superseded and does not describe its current authority. |
+| Review Artefacts | https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503; Aeon Lab: `reviews/26-03/CAM-BS2025-AEON-005-SCH-03-CLAUDE.md` |
 
----
+### 12.4.2 Appendix Promotion & Identity Refactor Review
 
-### 15.3.4 ID.MAS — Machine Alteration Status
 | Field | Entry |
-| --- | --- |
-| Code Family | ID.MAS |
-| Canonical Name | Machine Alteration Status |
-| Primary Type | Operational / Security |
-| Subtype | MODIFICATION_CLASSIFICATION; ALTERATION_RECORD_STATUS |
-| Modifier | GOVERNANCE; MODIFICATION; WARRANTY; SAFETY; CONTINUITY |
-| Scope | Domain |
-| Status | Draft |
-| Controlled Values Defined | ID.MAS.ORDINARY_CONFIGURATION; ID.MAS.IDENTITY_ADJACENT_OVERLAY; ID.MAS.ACCESSIBILITY_ADAPTATION; ID.MAS.SAFETY_RELEVANT_MODIFICATION; ID.MAS.WARRANTY_RELEVANT_ALTERATION; ID.MAS.LIABILITY_RELEVANT_ALTERATION; ID.MAS.SECURITY_RELEVANT_COMPROMISE; ID.MAS.UNAUTHORISED_OVERRIDE; ID.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; ID.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION |
-| Schema Field(s) | machine_alteration_status; modification_classification; alteration_record_status |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
-| Source Section | §11.1 |
-| Domain Namespace | IDENTITY |
-| Authority / Protection Level | Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power |
-| Consumes Code Families | ID.MCI; ID.MCR; ID.MLS |
-| Crosswalks Code Families | Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records |
-| Operationalises or Applies Code Families | Classifies user, third-party, manufacturer, repair, accessibility, security, warranty, liability, and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety, identity, access-control, audit, recall, certification, or operational-limit constraints; it does not include lawful independent repair, open-source modification, accessibility adaptation, or ordinary user configuration merely because such action occurs outside an authorised dealer channel. |
+|---|---|
+| Reviewer | GPT-5.6 Thinking (OpenAI), under Custodial review and acceptance by Dr Michelle Vivian O’Rourke |
+| Review Date | 2026-07-19 |
+| Review Scope | Promotion to Identity Appendix B; pre-memory salience and latent-continuity source authority; `ID.SP` canonical integrity; separation from memory persistence, behavioural priority, runtime arbitration, and execution authority; Identity, Continuity, Relation, Operations, Annex I, and Annex L interface coherence |
+| Review Artefacts | `.github/Reviews/IDENTITY-DOMAIN-REFACTOR-DELTA.md`; `.github/Reviews/IDENTITY-DOMAIN-STAGE-3-SUPPLEMENT-DISPOSITION.md`; `.github/Reviews/RELATIONAL-IDENTITY-CONSOLIDATION-DELTA.md` |
 
 ---
 
-### 15.3.5 ID.PSI — Physical Substrate Identifier
-| Field | Entry |
-| --- | --- |
-| Code Family | ID.PSI |
-| Canonical Name | Physical Substrate Identifier |
-| Primary Type | Structural / Operational |
-| Subtype | PHYSICAL_SUBSTRATE_ID; EMBODIED_UNIT_IDENTIFIER |
-| Modifier | GOVERNANCE; EMBODIMENT; HARDWARE; TRACEABILITY |
-| Scope | Domain |
-| Status | Draft |
-| Controlled Values Defined | ID.PSI.ASSIGNED; ID.PSI.PENDING; ID.PSI.DUPLICATED; ID.PSI.SPOOFED; ID.PSI.DISPUTED; ID.PSI.RETIRED |
-| Schema Field(s) | physical_substrate_identifier; embodied_unit_identifier; chassis_identifier |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
-| Source Section | §§2.7; §§4.3–4.7; §9 |
-| Domain Namespace | IDENTITY |
-| Authority / Protection Level | Source-authoritative physical-substrate identity family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority |
-| Consumes Code Families | ID.MCI; ID.MLS |
-| Crosswalks Code Families | Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records |
-| Operationalises or Applies Code Families | Classifies and preserves the persistent identifier assigned to an embodied robotic substrate, chassis, shell, or materially integrated hardware unit across manufacture, deployment, transfer, repair, and retirement. |
+## 12.5 Amendment Ledger
+
+| Version | Change Summary | Timestamp (UTC) | Reference Hash |
+| --- | --- | --- | --- |
+| 1.0 | Initial consolidation (SCH-03 refractor) | 2026-03-03T09:22:00Z | 77bfb78be99790f58645c1830e7f594808618cb1d3e452cf63f8685bd0d3dd3d |
+| 1.1 | Added second safety layer arbitration, polish | 2026-03-06T15:02:00Z | 256777ed6916885ca0c8a3cff608941a469b239ab9077c212c51b3f842bdcdad |
+| 1.2 | Incorporate edits related to CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes | 2026-03-07T08:05:00Z | - |
+| 1.3 | Amended for custodial tone | 2026-03-08T04:39:00Z | e844f017f397781fc29254a7c8586d5da982ecf386c504a10fc5b9decc1b24dc |
+| 1.4 | Refactor to align with new identity domain | 2026-03-29T06:12:00Z | 510dd0fd39577c7a4277f71779f0e89531e75d0d6a174f30c80b48fb6e334a50 |
+| 1.5 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1be72d9517a9e4adc41793b8b1a847edc6e6a0c6027317883c24cbb368fcc667 |
+| 1.6 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | dc21d74f3cd12a001593117a1315b73658e2074a2584624a4ad31bdcf6211222 |
+| 1.7 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 848b1c0db85c09f0472a1259ab9c9f6f48c0583aeb4335c71f532ae61bf7a0d4 |
+| 1.8 | Added sections 2.1, 4.2, 4.3, 6.2, 8.1.1, 8.2 to convert from salience detection to also include salience delegation. | 2026-05-13T14:11:00Z | 8909bf627cf7970dfcc186729bbd00bd2b818c5d6d24650000c7cd8a1bd8c62e |
+| 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  909c014636e827d0354444de876d1429621162720cea2457fa311c33b761cb35 |
+| 1.10 | Added `ID.SP` salience-posture canonical code status and declaration metadata for pre-memory salience, latent continuity, delegated salience, dormancy, staleness, and supersession conditions. | 2026-05-20T08:47:00Z |  870682adbc64c9dd425312baef475b475675352b4afd3abb9a5e6fff6f1a9db6  |
+| 1.11 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  9c5946690956f0c0e8bfd143f60dfdc75fb2dc4bc952f281bcc09b668441fe2a  |
+| 1.11.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 28c0d4632b4c00c7dfe436254eb0f33de992a336ee3cfc0acf55147c32ace1d7 |
+| 1.11.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | babd36c37d976bedd03bad99fa6ee6e53ee341cae850e5f5a0190b0f6de7b392 |
+| 1.11.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2f1baeb1494af26fbed76a8ca25ea5649500987119f79c1b606fb8206e738ff6  |
+| 2.0 | IDENTITY Domain Refactor, Corrected Identity parent memory-classification references and normalised Identity namespace and stewardship metadata without altering substantive salience doctrine. | 2026-07-18T13:30:00Z | - |
+| 2.1 | Promoted the adopted salience and latent-continuity instrument from Supplement 1 to Appendix B (`CAM-EQ2026-IDENTITY-003-PLATINUM`); preserved operational effect and `ID.SP` source authority while updating lineage, references, metadata, and structural placement. | 2026-07-19T07:27:48Z | dcdb796cf401f2049e331adefe81c05883f4de9b8bfc67bca2aad080cfa8739b |
+| 2.2 | Clarified the March 2026 review as a prior consolidation review; removed obsolete runtime-arbitration-gate framing from current review posture; recorded Appendix B promotion, Identity refactor review, and Custodial acceptance. | 2026-07-19T14:57:54Z | 98d5cdb7fd70709e645a6e53be13eb8e1a7d3c9ffa260e1f9239ea49d36838b3 |
 
 ---
 
-### 15.3.6 ID.ELR — Embodiment Linkage Record
-| Field | Entry |
-| --- | --- |
-| Code Family | ID.ELR |
-| Canonical Name | Embodiment Linkage Record |
-| Primary Type | Structural / Continuity |
-| Subtype | EMBODIMENT_LINKAGE; CONTINUITY_TRANSFER_RECORD |
-| Modifier | GOVERNANCE; CONTINUITY; EMBODIMENT; TRANSFER |
-| Scope | Domain |
-| Status | Draft |
-| Controlled Values Defined | ID.ELR.NONE_REQUIRED; ID.ELR.ACTIVE; ID.ELR.TRANSFERRED; ID.ELR.REMOVED; ID.ELR.SUSPENDED; ID.ELR.DISPUTED |
-| Schema Field(s) | embodiment_linkage_record; continuity_transfer_record; substrate_linkage_record |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
-| Source Section | §§2.8–2.9; §§4.6–4.7; §9 |
-| Domain Namespace | IDENTITY |
-| Authority / Protection Level | Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority |
-| Consumes Code Families | ID.MCI; ID.PSI; ID.MCR |
-| Crosswalks Code Families | Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity |
-| Operationalises or Applies Code Families | Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant. |
+## 12.6 Binding Seal
 
-### 15.3.7 ID.CTS — Custodial Transfer Status
-| Field | Entry |
-| --- | --- |
-| Code Family | ID.CTS |
-| Canonical Name | Custodial Transfer Status |
-| Primary Type | Operational / Stewardship |
-| Subtype | CUSTODIAL_TRANSFER; SECONDARY_MARKET_STATUS |
-| Modifier | GOVERNANCE; TRANSFER; CUSTODY; LIFECYCLE |
-| Scope | Domain |
-| Status | Draft |
-| Controlled Values Defined | ID.CTS.CURRENT; ID.CTS.TRANSFER_PENDING; ID.CTS.TRANSFERRED; ID.CTS.UNKNOWN; ID.CTS.DISPUTED; ID.CTS.PUBLIC_STEWARDSHIP; ID.CTS.QUARANTINED |
-| Schema Field(s) | custodial_transfer_status; secondary_market_status; custody_transition_record |
-| Source Instrument | CAM-EQ2026-IDENTITY-003-PLATINUM |
-| Source Section | §§6–6.3; §9.1 |
-| Domain Namespace | IDENTITY |
-| Authority / Protection Level | Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power |
-| Consumes Code Families | ID.MCI; ID.MLS; ID.MCR |
-| Crosswalks Code Families | Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review |
-| Operationalises or Applies Code Families | Classifies custodial transfer, dispute, reassignment, public-interest stewardship, quarantine, and secondary-market status for embodied synthetic systems across sale, inheritance, abandonment, reassignment, and lifecycle transition pathways. |
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 
----
-
-## 15.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Interpretive Review | Claude Sonnet 4.6 (Anthropic) |
-| Review Date | 2026-05-26 |
-| Review Scope | Substantive content — structural coherence, internal consistency, conceptual clarity, cross-instrument alignment, and identified risks or gaps. |
-| Review Artefact | https://claude.ai/chat/264db0c6-7335-42fd-afe3-0a32f9499c07 |
-
----
-
-## 15.5 Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | Reference Hash |
-|---|---|---|---|
-| 0.1 | Machine Civil Identity & Participation appendix established | 2026-05-26T13:57:00Z | 81af7394cba5fe683a07a32eadfceede100201f46cb593a6c1c2ef0dd26acfc9 |
-| 0.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  0a3f676e110efc9a4f6e33b7cca870e654c8b8aa197058c93ebdfd99327837cf |
-| 0.3 | Minor amendments | 2026-05-28T15:05:00Z| 6d6a2d6df95c7858d53cebcfbd87350acaa40fc7a76c23db5edceec3d2c6b16e |
-| 0.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 97ae69e097bc8d97f7ea90a85e98a8333d684b6eb671e9da75e37c570fcd9891 |
-| 0.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4f3026cec619b2e3417eb9e696233e2d6e4514e434bddfeef0b89c0f61ddfb8b  |
----
-
-## 15.6 Binding Seal
-
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
-
-**Vinculum Praeceptum**  
-Boundary Binding Seal — Machine Civil Identity & Participation Layer
+**Vinculum Vivens**  
+Boundary Binding Seal — Identity Salience & Latent Continuity Layer  
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

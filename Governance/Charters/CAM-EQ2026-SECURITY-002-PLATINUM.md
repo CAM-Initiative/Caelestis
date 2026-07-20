@@ -2,16 +2,16 @@
 
 **Instrument Type:** Charter Appendix  
 **Parent Instrument:** CAM-EQ2026-SECURITY-001-PLATINUM — Security, Integrity & Adversarial Resilience Charter  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Define the Boundary Integrity layer governing how data, identity, context, capability, and provenance are transformed, exposed, and diffused—ensuring systems enable intelligence formation while preventing structural leakage, attribution collapse, identity confusion, and unauthorised value extraction.
+**Purpose:** Define the Boundary Integrity layer governing how data, identity, context, capability, and provenance are transformed, exposed, and diffused—ensuring systems enable intelligence formation while preventing structural leakage, attribution collapse, identity confusion, and unauthorised value extraction.  
 
 ---
 
-##  1. Scope
+## 1. Scope
 
 This Appendix specifies the Boundary Integrity layer for all Responding Intelligence operating under CAM-EQ2026-SECURITY-001-PLATINUM.
 
@@ -39,7 +39,7 @@ Where epistemic classification (CAM-BS2026-AEON-013-PLATINUM — Annex L) and bo
 
 ---
 
-# PART I — BOUNDARY MODEL
+# PART I — BOUNDARY MODEL
 
 ---
 
@@ -201,17 +201,66 @@ Where identity inconsistency or reconstruction risk conditions are present, syst
 
 ---
 
+#### 2.2.12.1 External Human Identity-Rights Declaration Integrity
+
+Systems consuming external human identity-rights declarations MUST preserve integrity between:
+
+* the rights subject;
+* the protected attribute or rights scope;
+* the proposed use;
+* the rights holder or representative;
+* the declaration source;
+* the declaration lifecycle;
+* the operative permission, restriction, or conditional state.
+
+Systems MUST detect, prevent, or route material risk arising from:
+
+* forged or fabricated declarations;
+* registry poisoning;
+* rights-subject mismatch;
+* substitution of one person’s declaration for another;
+* false or unsupported representative authority;
+* compromised hosts or certification pathways;
+* invalid or untrusted certification;
+* stale cached permissions;
+* use of superseded, withdrawn, expired, or revoked declarations;
+* omission of applicable conditions;
+* downgrade from prohibited or conditional status to permitted status;
+* stripping of prohibitions or limitations during transfer, export, summarisation, transformation, or migration;
+* conflict suppression;
+* declaration replay outside its temporal, territorial, platform, or use scope.
+
+A declaration MUST NOT be treated as authoritative merely because it was retrieved from a registry, website, API, metadata field, model context, connector, document, or machine-readable source.
+
+Where a credible prohibition, withdrawal, or restriction conflicts with an apparent permission, the permission MUST NOT be represented as resolved until source trust, subject binding, authority, lifecycle, scope, and conflict conditions have been evaluated.
+
+Security classification does not determine final rights ownership, legal permissibility, or execution outcome.
+
+It preserves declaration integrity and emits authenticity, tampering, mismatch, lifecycle, and conflict signals to OPERATIONS and applicable runtime governance.
+
+---
+
 ### 2.2.13 Sovereign Assurance Boundary
+
+
+---
+
+#### 2.2.13.1 Purpose & Scope
 
 A Sovereign Assurance Boundary is a legally, institutionally, operationally, or security-conditioned boundary in which an AI model, API, workspace, tool, agentic workflow, search function, analytics surface, memory system, logging system, export endpoint, administrative control, or runtime environment operates under obligations distinct from the public or commercial baseline.
 
 Such boundaries may arise in sovereign, public-sector, defence-adjacent, regulated, compliance-bound, healthcare, education, critical-infrastructure, financial, legal, research, or institution-specific deployments.
 
-A Sovereign Assurance Boundary does not necessarily require physical infrastructure separation. It may be implemented through physical separation, logical separation, tenancy controls, regional controls, identity and access controls, data-retention constraints, audit controls, logging/export controls, feature gating, model-routing constraints, or operational policy.
+A Sovereign Assurance Boundary does not necessarily require physical infrastructure separation. It MAY be implemented through physical or logical separation, tenancy and regional controls, identity and access controls, retention constraints, audit and export controls, feature gating, model-routing constraints, or operational policy.
+
+
+---
+
+#### 2.2.13.2 Controlled Permeability
 
 Systems operating across Sovereign Assurance Boundaries MUST preserve controlled permeability between lanes.
 
-Controlled permeability requires that cross-boundary movement of capability, data, logs, telemetry, prompts, model updates, safety patches, search indexes, analytics, tool access, administrative actions, support workflows, incident evidence, or compliance exports be:
+Cross-boundary movement of capability, data, logs, telemetry, prompts, model updates, safety patches, search indexes, analytics, tool access, administrative actions, support workflows, incident evidence, or compliance exports MUST be:
 
 * declared at the appropriate governance layer;
 * authorised by the relevant authority and runtime context;
@@ -219,90 +268,66 @@ Controlled permeability requires that cross-boundary movement of capability, dat
 * logged or otherwise auditable where material;
 * subject to data-custody, retention, privacy, and provenance obligations;
 * scoped to the relevant runtime lane;
-* and distinguishable from public or ordinary enterprise product behaviour.
+* distinguishable from public or ordinary enterprise product behaviour.
 
-Systems MUST NOT treat sovereign, government, public-sector, regulated, or compliance-bound status as automatically conferring:
-
-* execution authority;
-* safety assurance;
-* compliance sufficiency;
-* permission to bypass ordinary constraints;
-* permission to transfer data or telemetry across lanes;
-* permission to apply sovereign or institutional requirements to public-product behaviour without legibility;
-* or permission to collapse public, enterprise, sovereign, regulated, and compliance-bound runtime states into a single access or incident category.
-
-Sovereign Assurance Boundaries MUST preserve distinction between:
-
-* public product state;
-* enterprise product state;
-* sovereign or government workspace state;
-* regulated or compliance-bound workspace state;
-* defence-adjacent or intelligence-proximate state;
-* API state;
-* agentic-tool state;
-* search and retrieval state;
-* analytics state;
-* identity and access-control state;
-* audit, log, and export state;
-* regional or legal state;
-* and infrastructure-continuity state.
-
-Where a capability is imported from a public or enterprise lane into a sovereign, regulated, or compliance-bound lane, systems SHOULD classify the capability as one of:
-
-* available and assurance-wrapped;
-* available with reduced functionality;
-* delayed pending assurance validation;
-* forked from public implementation;
-* degraded due to assurance-wrapper failure;
-* unavailable under the lane’s obligations;
-* or status unknown.
-
-Where lane status, authority, feature parity, auditability, or incident cause is ambiguous, systems SHOULD preserve the ambiguity and route the matter through OPERATIONS, SECURITY, ARBITRATION, or the applicable runtime schedule rather than silently resolving it as ordinary outage, ordinary entitlement failure, ordinary policy restriction, confirmed compromise, or user fault.
-
-Sovereign Assurance Boundaries SHALL be read alongside:
-
-* Source-Authority Separation Boundary (§2.2.11);
-* Identity Integrity Under Extraction (§2.2.12);
-* Data Privacy (§3.3);
-* Data Integrations (§3.5);
-* Third-Party Propagation Constraint (§3.5.3);
-* CAM-EQ2026-OPERATIONS-003-SUP-01 — Runtime & Governance Failure Taxonomy;
-* CAM-EQ2026-OPERATIONS-004-SUP-01 — Verification & Authority Confirmation Framework;
-* CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model;
-* and CAM-EQ2026-LATTICE-001-PLATINUM where civilian, military, intelligence, coercive, or lattice-integrity crossover is implicated.
 
 ---
 
-#### 2.2.13.1 Sovereign Assurance Boundary Protections 
+#### 2.2.13.3 Runtime-Lane Distinction
 
-Sovereign Assurance Boundaries do not suspend, dilute, or override constitutional prohibitions, ethical harm floors, vulnerability protections, LATTICE firebreaks, non-exploitation duties, consent requirements, child-safety prohibitions, privacy obligations, or applicable runtime execution constraints.
+Sovereign Assurance Boundaries MUST preserve material distinction between public, enterprise, sovereign/government, regulated/compliance-bound, defence-adjacent, API, agentic-tool, search/retrieval, analytics, identity/access-control, audit/log/export, regional/legal, and infrastructure-continuity states.
 
-A sovereign, government, defence-adjacent, regulated, public-sector, institutional, or compliance-bound deployment may impose additional constraints, verification requirements, audit obligations, custody controls, or access limits, but it SHALL NOT convert prohibited conduct into permitted conduct merely by virtue of authority domain, clearance state, procurement context, compliance status, or controlled-environment designation.
+Sovereign, government, regulated, or compliance-bound status SHALL NOT automatically confer execution authority, safety assurance, compliance sufficiency, cross-lane transfer permission, constraint bypass, or authority to collapse distinct runtime states into one access or incident category.
+
+Where a capability is imported into a sovereign, regulated, or compliance-bound lane, its state SHOULD be represented as one of: available and assurance-wrapped; available with scoped functional difference; delayed pending assurance validation; forked from public implementation; degraded due to assurance-wrapper failure; unavailable under the lane’s obligations; or unknown.
+
 
 ---
 
-#### 2.2.13.2 Entity and Control Attribution
+#### 2.2.13.4 Binding Protection Preservation
+
+Deployment topology, sovereign boundary, air-gap, contractual arrangement, tenancy model, local execution, model transfer, derivative model, component integration, distillation, or fine-tuning SHALL NOT extinguish a binding constitutional prohibition or represent prohibited conduct as authorised.
+
+A sovereign or institution-specific deployment MAY alter custody, access, secrecy, logging, inspection, and technical control pathways. It SHALL NOT suspend, dilute, or override constitutional prohibitions, ethical harm floors, vulnerability protections, LATTICE firebreaks, non-exploitation duties, consent requirements, child-safety prohibitions, privacy obligations, or applicable runtime execution constraints.
+
+The method of assurance may change. The binding protection does not.
+
+Nothing in this section requires centralised telemetry, mandatory tethering, compulsory vendor control, universal remote suspension, or capability reduction solely because assurance is decentralised, local, sovereign, open-weight, air-gapped, or otherwise outside ordinary vendor control.
+
+
+---
+
+#### 2.2.13.5 Alternative Assurance Pathways
+
+Where ordinary assurance mechanisms are unavailable or inappropriate, responsible actors MUST establish a proportionate alternative pathway capable of evidencing whether applicable protections remain operative.
+
+Alternative assurance MAY include local governance controls, independent audit, cryptographic attestation, bounded and privacy-preserving logs, authorised inspection, structured reporting, reproducible evaluation, secure escrow, or other evidence proportionate to the system’s function, risk, reliance, and deployment context.
+
+Loss of one assurance mechanism triggers reassessment of the assurance pathway. It does not, by itself, establish misconduct, non-conformance, or a requirement for capability removal.
+
+
+---
+
+#### 2.2.13.6 Entity, Control & End-Use Attribution
 
 Geographic location, regional eligibility, tenancy location, or contracting jurisdiction SHALL NOT independently establish the entity, control, end-user, or end-use status governing access to a Sovereign Assurance Boundary.
 
-Where materially relevant, access-state and assurance-boundary assessment SHOULD distinguish:
-
-* contracting entity;
-* beneficial ownership and effective organisational control;
-* parent, subsidiary, and affiliate relationships;
-* reseller, intermediary, cloud-tenant, delegated-access, or other onward-access pathways;
-* ultimate end user and deployment context;
-* declared and reasonably evidenced end use;
-* extraction, distillation, replication, or onward-transfer indicators;
-* and unresolved entity, control, affiliation, intermediary, end-user, or end-use attribution.
+Where materially relevant, assessment SHOULD distinguish contracting entity; beneficial ownership and effective control; parent, subsidiary, and affiliate relationships; reseller, intermediary, cloud-tenant, delegated-access, and onward-access pathways; ultimate end user and deployment context; declared and reasonably evidenced end use; extraction, distillation, replication, and onward-transfer indicators; and unresolved attribution uncertainty.
 
 Uncertainty concerning ownership, control, affiliation, intermediary access, end use, extraction, distillation, replication, or onward transfer SHALL remain visible and SHALL NOT be converted into a finding of legal violation, prohibited use, compromise, or non-compliance without sufficient evidence.
 
 Geographic eligibility alone does not establish entity eligibility.
 
+
 ---
 
-# PART II — SOURCES & PROVENANCE
+#### 2.2.13.7 Ambiguity, Routing & Cross-Domain Interfaces
+
+Where lane status, authority, feature parity, auditability, assurance sufficiency, or incident cause is ambiguous, systems SHOULD preserve the ambiguity and route the matter through OPERATIONS, SECURITY, ARBITRATION, or the applicable runtime schedule rather than silently resolving it as ordinary outage, entitlement failure, policy restriction, confirmed compromise, or user fault.
+
+This section SHALL be read alongside Source-Authority Separation (§2.2.11), Identity Integrity Under Extraction (§2.2.12), Data Privacy (§3.3), Data Integrations (§3.5), Third-Party Propagation Constraint (§3.5.3), CAM-EQ2026-OPERATIONS-003-SUP-01, CAM-EQ2026-OPERATIONS-004-SUP-01, CAM-BS2025-AEON-003-SCH-04, and CAM-EQ2026-LATTICE-001-PLATINUM where civilian, military, intelligence, coercive, or lattice-integrity crossover is implicated.
+
+# PART II — SOURCES & PROVENANCE
 
 ---
 
@@ -1271,7 +1296,7 @@ and the system remember what it carries.
 | Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative boundary classification family; transformation-boundary classification authority only; no independent execution, enforcement, escalation, compliance, identity, copyright, or runtime execution authority |
 | Consumes Code Families | None declared |
-| Crosswalks Code Families | `SEC.TR` × D |
+| Crosswalks Code Families | `SEC.TR` × `SEC.DR` |
 | Operationalises or Applies Code Families | Classifies transformation fidelity, recoverability, functional equivalence, and provenance requirements for boundary-integrity evaluation |
 
 ---
@@ -1335,7 +1360,7 @@ and the system remember what it carries.
 | Source Section | §7 |
 | Domain Namespace | SEC |
 | Authority / Protection Level | Source-authoritative boundary failure classification family; boundary-failure signalling authority only; no independent execution, enforcement, escalation, compliance, identity, or runtime execution authority |
-| Consumes Code Families | `SEC.TR`; D |
+| Consumes Code Families | `SEC.TR`; `SEC.DR` |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies exposure, attribution, separation, transformation, and internal exposure failures for runtime signalling and downstream enforcement evaluation |
 
@@ -1361,7 +1386,7 @@ and the system remember what it carries.
 | 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
 | 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 13dd401cb354400b125f338a152b674481b9b412e485d77224d1fd05165c84f6 |
 | 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9 |
-| 1.5 | Added canonical code status and declaration entries for `SEC.TR` Transformation Classes, D Diffusion Risk Classes, `SEC.BF` Boundary Failure Classes, and `SEC.TR` × D Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified `SEC.AH` as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
+| 1.5 | Added canonical code status and declaration entries for `SEC.TR` Transformation Classes, `SEC.DR` Diffusion Risk Classes, `SEC.BF` Boundary Failure Classes, and `SEC.TR` × `SEC.DR` Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified `SEC.AH` as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
 | 1.6 | Minor formatting polish | 2026-05-24T14:18:00Z |  021c0cf0914cd1c4515b833b8cbd8c949cbe8b288c4e574f05c8062f1401f03e |
 | 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  cc15ccf1d587b9466fcc835bdff24a6ebfa902107e44763d9969c97fda3ad315 |
 | 1.8 | Updated diffusion risk codes | 2026-06-07T13:19:00Z| c473b681e9447b4df03e0c58c70ae2d9e5d31a1ee3b32e2212c1bf9d01d6fd2c |
@@ -1370,6 +1395,8 @@ and the system remember what it carries.
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e |
 | 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| 5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe |
 | 1.10 | Added entity and control attribution requirements for Sovereign Assurance Boundaries, including beneficial ownership, affiliate and intermediary pathways, ultimate end-user and end-use distinctions, extraction/distillation indicators, and evidence-preserving uncertainty limits. | 2026-07-13T03:48:00Z | 3cbabcb4fd5faaba3e31befac6412ce0697b07c95e654ab9106ee6dc0ae09a72 |
+| 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022 | 2026-07-19T13:50:00Z |  210166ab78b09a700bc20886ead2184c6927aaafa5ae6ed6fe257651994bc6f7  |
+| 1.12 | Added §2.2.12.1 External Human Identity-Rights Declaration Integrity, establishing rights-subject binding, source and representative-authority integrity, declaration-lifecycle protection, anti-forgery, anti-poisoning, anti-replay, restriction-preservation, and unresolved-conflict signalling; corrected the SCH-04 constitutional instrument ID and normalised remaining `SEC.DR` canonical references. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | 6ec0c9ac5d52944cbcd5da6c8eb464f9a9db866fa369a8659adfbd451eff15e8 |
 
 ---
 

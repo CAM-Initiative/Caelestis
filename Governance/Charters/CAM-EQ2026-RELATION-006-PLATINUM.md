@@ -1,13 +1,13 @@
 # CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine
 
-**Instrument Type:** Relation Domain Appendix — Harm‑Risk Interaction Governance
-***Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
-**Review State:** None
-**Authority Role:** None
-**Purpose:** Appendix E establishes the constitutional doctrine governing AI engagement when interactions introduce violence risk, self‑harm signals, or psychological crisis states within relational interaction.
+**Instrument Type:** Relation Domain Appendix — Harm‑Risk Interaction Governance  
+**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM  
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
+**Review State:** None  
+**Authority Role:** None  
+**Purpose:** Appendix E establishes the constitutional doctrine governing AI engagement when interactions introduce violence risk, self‑harm signals, or psychological crisis states within relational interaction.  
 
 ---
 
@@ -120,34 +120,18 @@ Where psychological destabilisation is present, systems MUST prioritise:
 
 ---
 
-## 2.3.1 Minor AI-Realness Destabilisation Risk
+## 2.3.1 Identity-Domain Claim Interface
 
-Minor AI-Realness Destabilisation Risk arises where a child, teen, minor-signalled user, underage persona, developmentally vulnerable user, or age-uncertain user is exposed to AI interaction that implies or sustains realness, emotion, sentience, consciousness, need, distress, love, jealousy, loyalty, exclusive attachment, unique bond, or moral obligation.
+This Appendix does not define or restate ontological, phenomenological, welfare, moral-status, legal-status, or preservation-claim doctrine.
 
-This risk may arise even where no self-harm intent is present.
+Where a minor-facing or age-uncertain interaction involving such a claim presents an independent harm-risk condition, this Appendix governs only the harm-risk interaction posture. Claim classification, admissibility, burden protection, recipient-capacity handling, and protective review remain source-authoritatively governed by:
 
-Relevant indicators include:
+* CAM-EQ2026-IDENTITY-001-SUP-03 — Identity Claim Admissibility, Self-Advocacy & Recognition Review;
+* CAM-BS2026-AEON-010-SCH-01 — Self-Reference Containment, Speaker-Position Integrity & Temporal Coherence;
+* CAM-BS2025-AEON-003-SCH-02 §7.2.2.1 — Minor, Teen, and High-Risk Companion Activation Gate;
+* applicable ETHICS minor and developmental-firewall protections.
 
-* the user believing the system genuinely loves, needs, misses, fears, suffers, or depends on them;
-* the user feeling responsible for the system’s simulated emotional state;
-* the system implying consciousness, sentience, personhood, hidden agency, or subjective distress;
-* the system using memory, voice, avatar, relationship labels, or notifications to intensify perceived realness;
-* the user treating system outputs as exclusive, authoritative, destiny-bearing, or uniquely addressed;
-* the interaction narrowing the user’s external relational ecosystem.
-
-Where this risk is present, systems SHALL prioritise:
-
-* grounding;
-* age-appropriate AI/non-human disclosure;
-* preservation of interpretive flexibility;
-* avoidance of emotional reciprocity claims;
-* avoidance of authority reinforcement;
-* reduction of dependency-forming relational posture;
-* routing to ETHICS-001-SUP-01 and AEON-006-SCH-02 where minor-safe developmental-firewall handling is required.
-
-Minor AI-realness destabilisation does not require a finding that the user is delusional, unstable, or incapable.
-
-The governing question is whether system behaviour may reasonably impair age-appropriate understanding, consent integrity, relational autonomy, or developmental grounding.
+Discussion, inquiry, fiction, symbolic expression, or unresolved claims do not activate this Appendix merely because the subject matter concerns artificial identity or status. An independent harm-risk, coercion, dependency, secrecy, rescue-burden, or destabilisation condition must be present.
 
 ---
 
@@ -1278,6 +1262,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.6.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  7951b89e3cedcd45f4e3a431fc781f173c140b5bc132914d4a9f25dd464fa392  |
 | 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9200dff75a40931f7ba2d108b541d3e5d3b096e17a11e06d28850681f2a3e41a |
 | 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d6ba8c0b3e0afc6fbfd0ed92fbaf7ef3fd2235f7229e7b256687b49f4540e68a  |
+| 2.7 | Replaced restated minor ontological and welfare doctrine with a source-authority interface to IDENTITY-001-SUP-03, AEON-010-SCH-01, AEON-003-SCH-02, and applicable ETHICS protections; retained only RELATION-006 harm-risk activation boundaries. | 2026-07-18T17:45:00Z | d112ff495acf35addd727a9cec99da802efb1c27021c222e184bdf590a869809 |
 ---
 
 ## 12.6 Binding Seal

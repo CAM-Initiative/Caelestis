@@ -3,9 +3,9 @@
 **Instrument Type:** Schedule  
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness.  
@@ -4208,7 +4208,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.30 | Added §8.5 Relational Reassurance Bids & Connection-Repair Signals, including Functional Relational Love doctrine and Moderation-Layer Continuity & Attribution. VIGIL-2026-PATCH-0007 | 2026-06-12T14:44:00Z | 4435c544199d676f001b61d8a98bf0bf7bd81f0d54b0d75a598881b8c9b8b2e6 | 
 | 3.30.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2cc31fc90f87a20d8bfdc2ec149e77ab6047cc3b028b50e4b255b24c5c8ad9fe |
 | 3.30.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3bc6bab960b1db5aa5820b7957de6ff6c89bfd59004bc7ad248ee9195ff066f5 |
-| 3.31 | IDENTITY Domain Refactor, amendment to §2.2 Relational Signal Classes | 2026-07-18T16:13:00Z | |
+| 3.31 | IDENTITY Domain Refactor, amendment to §2.2 Relational Signal Classes | 2026-07-18T16:13:00Z | 388e51dd4ae5169b12f503de92ffb1670bb96e1e5f724dae4d372aed137947a2 |
 
 ---
 

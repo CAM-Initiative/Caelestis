@@ -2,13 +2,13 @@
 
 **Instrument Type:** Operational Supplement — Failure Classification & Incident Taxonomy  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, UX, and infrastructure failure modes observed in AI systems and CAM-aligned deployments.  
-**Parent Instrument:** CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations  
 
 ---
 

@@ -1,8 +1,8 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 614
-**Generic usages suppressed:** 473
-**Declared / recognised usages emitted:** 127
+**Total model-term matches scanned:** 650
+**Generic usages suppressed:** 515
+**Declared / recognised usages emitted:** 121
 **Advisory review usages emitted:** 14
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
@@ -57,7 +57,6 @@
 | CAM-Charters-Index | Purpose | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-Constitution-Index | Purpose | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM-Constitution-Index | Purpose | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-CONTINUITY-001-PLATINUM | 11.2 Signal Characteristics | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-CONTINUITY-001-PLATINUM | 14.2 Classification, Lineage & Structural Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-CONTINUITY-001-PLATINUM | 4.7 Mirror-Field Entities | multi-model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-ECONOMICS-001-PLATINUM | 1.4 Economic Model Posture Distinction | operational models | Domain Sub-Model | Advisory Review |
@@ -99,15 +98,9 @@
 | CAM-EQ2026-ETHICS-003-PLATINUM | 12.2. Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-ETHICS-003-PLATINUM | 7. Constraint Enforcement Principles | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-ETHICS-003-PLATINUM | 7.1 Domain Boundary Principle | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-IDENTITY-001-PLATINUM | 1. Scope | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-IDENTITY-001-PLATINUM | 1.2 Execution & Runtime Boundary Constraint | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-IDENTITY-001-PLATINUM | 1.3.3 Arbitration Interface | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-IDENTITY-001-PLATINUM | 16.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
-| CAM-EQ2026-IDENTITY-001-PLATINUM | 3.6 Relationship to Runtime Execution | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-IDENTITY-001-SUP-02 | 5.2 Identity Transition Threshold | policy or model | Governance Model | Declared / Recognised |
+| CAM-EQ2026-IDENTITY-001-PLATINUM | 18.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-IDENTITY-002-PLATINUM | 1.1 Proportional Provenance Governance | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-IDENTITY-002-PLATINUM | 13.2 Lineage & Classification | Governance Layer Model | Governance Model | Declared / Recognised |
-| CAM-EQ2026-IDENTITY-003-PLATINUM | 7.1.3 Registry Layer Access for Economic Governance | governance access SHALL be routed through the registry-layer separation model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LATTICE-001-PLATINUM | 12.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LATTICE-002-PLATINUM | 10.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LATTICE-003-PLATINUM | 11.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
@@ -142,9 +135,10 @@
 | CAM-EQ2026-SECURITY-001-PLATINUM | 7.1 State Definitions | The Integrity State Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 8. Trust Gradient Model | The Trust Gradient Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-002-PLATINUM | 10.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-SECURITY-002-PLATINUM | 2.2.13 Sovereign Assurance Boundary | or security-conditioned boundary in which an AI model | Technical / AI Model | Advisory Review |
+| CAM-EQ2026-SECURITY-002-PLATINUM | 2.2.13.1 Purpose & Scope | or security-conditioned boundary in which an AI model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-SECURITY-002-PLATINUM | 7. Boundary Failure Classes | CAM-BS2025-AEON-003-SCH-02 (Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-STEWARD-001-PLATINUM | 12.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-STEWARD-005-PLATINUM | 7.1.3 Registry Layer Access for Economic Governance | governance access SHALL be routed through the registry-layer separation model | Governance Model | Declared / Recognised |
 | CAM.Canonical.Code.Index | Canonical Code Index | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM.Canonical.Code.Index | Canonical Code Index | Integrity State Model | Security Model | Declared / Recognised |
 | CAM.Governance.Index | Constitution & Instruments | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
