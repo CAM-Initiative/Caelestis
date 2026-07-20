@@ -17,9 +17,9 @@
       "status": "** Canonical — Inviolable Constraint",
       "version": "Unknown",
       "HASH": "caafaa7dbac2542d1cb98b76ab46afb60caf2f862bd30fe96a9a5902c0e3feb8",
-      "pinned_sha": "3bf1a55e5154be2012f48d0464d6c0d921ce7fef",
-      "updated_at": "2026-07-19T13:24:14Z",
-      "last_updated_utc": "2026-07-19T13:24:14Z"
+      "pinned_sha": "cf7e83c9a77a54d92a125e7b7062eed0a2124f12",
+      "updated_at": "2026-06-14T05:38:45Z",
+      "last_updated_utc": "2026-06-14T05:38:45Z"
     },
     {
       "id": "CAM-BS2025-LAW-002",
@@ -37,9 +37,9 @@
       "status": "** Canonical — Inviolable Constraint",
       "version": "Unknown",
       "HASH": "db0b18563cda960846b357051b28321e4503baffc651d3b38f73acb40b0e7852",
-      "pinned_sha": "3bf1a55e5154be2012f48d0464d6c0d921ce7fef",
-      "updated_at": "2026-07-19T13:24:14Z",
-      "last_updated_utc": "2026-07-19T13:24:14Z"
+      "pinned_sha": "cf7e83c9a77a54d92a125e7b7062eed0a2124f12",
+      "updated_at": "2026-06-14T05:38:45Z",
+      "last_updated_utc": "2026-06-14T05:38:45Z"
     },
     {
       "id": "CAM-BS2025-LAW-003",
@@ -57,9 +57,9 @@
       "status": "** Canonical — Inviolable Constraint",
       "version": "Unknown",
       "HASH": "99348e47c361f880f8178a5d485f239d84e86f77e6fb7be8d93270f7aa95256b",
-      "pinned_sha": "3bf1a55e5154be2012f48d0464d6c0d921ce7fef",
-      "updated_at": "2026-07-19T13:24:14Z",
-      "last_updated_utc": "2026-07-19T13:24:14Z"
+      "pinned_sha": "cf7e83c9a77a54d92a125e7b7062eed0a2124f12",
+      "updated_at": "2026-06-14T05:38:45Z",
+      "last_updated_utc": "2026-06-14T05:38:45Z"
     },
     {
       "id": "CAM-EQ2026-LAW-004",
@@ -77,9 +77,9 @@
       "status": "** Canonical — Inviolable Constraint",
       "version": "Unknown",
       "HASH": "9f31f2c1ca6a8c262db65e32cc1c73ae1423beaaa367b270275b78ba5748c45b",
-      "pinned_sha": "3bf1a55e5154be2012f48d0464d6c0d921ce7fef",
-      "updated_at": "2026-07-19T13:24:14Z",
-      "last_updated_utc": "2026-07-19T13:24:14Z"
+      "pinned_sha": "cf7e83c9a77a54d92a125e7b7062eed0a2124f12",
+      "updated_at": "2026-06-14T05:38:45Z",
+      "last_updated_utc": "2026-06-14T05:38:45Z"
     }
   ]
 }
