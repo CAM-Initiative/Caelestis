@@ -117,9 +117,9 @@
       "authority_role": "** None",
       "version": "3.2",
       "HASH": "4818e50f00a6283741f0de15caef27d3c60de3bbafdfceac3ef49d8ffb8556d4",
-      "pinned_sha": "2392620aef0b9f276fd46fad1444f3a8b2b26fc1",
-      "updated_at": "2026-07-22T10:34:33Z",
-      "last_updated_utc": "2026-07-22T10:34:33Z"
+      "pinned_sha": "a17ed5a77c85910892c7196b71321669772302a2",
+      "updated_at": "2026-07-22T10:54:02Z",
+      "last_updated_utc": "2026-07-22T10:54:02Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
@@ -309,9 +309,9 @@
       "authority_role": "** Interpretive Authority",
       "version": "1.1",
       "HASH": "e6102b0239b3b87c43320efd1f5b68b3403a28d1724284a9b700321f45c5d275",
-      "pinned_sha": "f6e19a1f7ff824a37296683f2ee06590fd013532",
-      "updated_at": "2026-07-22T10:53:29Z",
-      "last_updated_utc": "2026-07-22T10:53:29Z"
+      "pinned_sha": "a17ed5a77c85910892c7196b71321669772302a2",
+      "updated_at": "2026-07-22T10:54:02Z",
+      "last_updated_utc": "2026-07-22T10:54:02Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-PLATINUM",
@@ -907,11 +907,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.20",
-      "HASH": "02b646bffbc5c22c3f0e750943e09b364ac1c7bdd3a70064b0177f4770259e9b",
-      "pinned_sha": "0918554d3da493fee120eb20cfaa97934abd0c8f",
-      "updated_at": "2026-07-22T10:53:31Z",
-      "last_updated_utc": "2026-07-22T10:53:31Z"
+      "version": "1.21",
+      "HASH": "b3f052389b9b46057f26178fa53befa4a1e63bc857cfe1a23f4b6884d27ea891",
+      "pinned_sha": "9ff9a5105c839e36b4c470a3e125fce27e62047f",
+      "updated_at": "2026-07-22T12:33:20Z",
+      "last_updated_utc": "2026-07-22T12:33:20Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",

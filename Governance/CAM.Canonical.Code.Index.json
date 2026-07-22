@@ -8369,9 +8369,9 @@
       "and deployment state for runtime failure analysis"
     ],
     "canonical_section_heading": "11.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2177,
+    "canonical_section_line_number": 2360,
     "declaration_heading": "11.3.3 `OPS.AGMA` \u2014 Architectural & Governance Metadata Axis",
-    "declaration_line_number": 2225,
+    "declaration_line_number": 2408,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9360,9 +9360,9 @@
       "or pending review"
     ],
     "canonical_section_heading": "11.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2177,
+    "canonical_section_line_number": 2360,
     "declaration_heading": "11.3.4 `OPS.FCS` \u2014 Failure Classification Status",
-    "declaration_line_number": 2247,
+    "declaration_line_number": 2430,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9430,10 +9430,13 @@
     "authority_protection_level": "Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority",
     "consumes_code_families": [],
     "crosswalks_code_families": [
-      "OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; applicable domain-specific identity",
+      "AEON.HARM and domain harm families; OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; OPS.GCC; OPS.CPC; OPS.SAS; OPS.RCC; AMEND.DRIFT; AMEND.REL; AMEND.OUTCOME; OPS.VFC; OPS.ODC; OPS.CCO; MENTIS.HARM; ECON.AL; ECON.ATS; ECON.ARCP; applicable domain-specific identity",
       "continuity",
       "relational",
       "stewardship",
+      "security",
+      "cognitive-domain",
+      "runtime",
       "and economics classifications"
     ],
     "operationalises_or_applies_code_families": [
@@ -9442,18 +9445,21 @@
       "security",
       "relational",
       "epistemic",
+      "cognitive-domain",
+      "polyadic-coordination",
       "identity-relevant",
       "UX",
       "infrastructure",
       "state/context",
       "arbitration",
       "classification",
+      "automation-transition",
       "and economic-legitimacy failure modes"
     ],
     "canonical_section_heading": "11.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2177,
+    "canonical_section_line_number": 2360,
     "declaration_heading": "11.3.1 `OPS.FF` \u2014 Failure Family",
-    "declaration_line_number": 2181,
+    "declaration_line_number": 2364,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9482,8 +9488,8 @@
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority",
       "Consumes Code Families": "",
-      "Crosswalks Code Families": "OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; applicable domain-specific identity, continuity, relational, stewardship, and economics classifications",
-      "Operationalises or Applies Code Families": "Classifies primary structural failure family across runtime, governance, security, relational, epistemic, identity-relevant, UX, infrastructure, state/context, arbitration, classification, and economic-legitimacy failure modes"
+      "Crosswalks Code Families": "AEON.HARM and domain harm families; OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; OPS.GCC; OPS.CPC; OPS.SAS; OPS.RCC; AMEND.DRIFT; AMEND.REL; AMEND.OUTCOME; OPS.VFC; OPS.ODC; OPS.CCO; MENTIS.HARM; ECON.AL; ECON.ATS; ECON.ARCP; applicable domain-specific identity, continuity, relational, stewardship, security, cognitive-domain, runtime, and economics classifications",
+      "Operationalises or Applies Code Families": "Classifies primary structural failure family across runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, identity-relevant, UX, infrastructure, state/context, arbitration, classification, automation-transition, and economic-legitimacy failure modes"
     }
   },
   {
@@ -9537,9 +9543,9 @@
       "and classification failure modes"
     ],
     "canonical_section_heading": "11.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2177,
+    "canonical_section_line_number": 2360,
     "declaration_heading": "11.3.2 `OPS.FMA` \u2014 Failure Metadata Axis",
-    "declaration_line_number": 2203,
+    "declaration_line_number": 2386,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
