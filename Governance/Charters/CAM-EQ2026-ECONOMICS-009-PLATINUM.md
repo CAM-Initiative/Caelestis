@@ -407,7 +407,7 @@ The disclosure triggers, consolidated-control measures, civilisational concentra
 | Version | Description | Timestamp (UTC) | SHA-256 |
 | --- | --- | --- | --- |
 | 1.0 | Initial Appendix H instrument established | 2026-07-22T00:00:00Z | 0b7c8077f0aa6132bdf07799e15f67e012454776f137f1f59e5e58005be98658 |
-| 1.1 | Added canonical-code posture, provenance and lineage metadata, review posture, amendment ledger, and binding seal to align the instrument with the CAM Governance Metadata Standard; normalised the parent-instrument section reference for validator compatibility; no substantive doctrine altered. | 2026-07-22T10:22:29Z |  |
+| 1.1 | Added canonical-code posture, provenance and lineage metadata, review posture, amendment ledger, and binding seal to align the instrument with the CAM Governance Metadata Standard; normalised the parent-instrument section reference for validator compatibility; no substantive doctrine altered. | 2026-07-22T10:22:29Z |  e6102b0239b3b87c43320efd1f5b68b3403a28d1724284a9b700321f45c5d275  |
 
 ---
 

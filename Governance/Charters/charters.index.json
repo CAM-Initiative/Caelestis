@@ -1,5 +1,5 @@
 {
-  "count": 59,
+  "count": 60,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -69,9 +69,9 @@
       "authority_role": "** None",
       "version": "1.11",
       "HASH": "a58fcb3f12b90b23fed7dd859b44a785bc8cf033e804afbfe8c3c4226a32875e",
-      "pinned_sha": "b3fa45cb9247e5464f0a955ffdb0e46f492257eb",
-      "updated_at": "2026-07-20T12:35:18Z",
-      "last_updated_utc": "2026-07-20T12:35:18Z"
+      "pinned_sha": "0e994b827d4aad0ea8617f123b02d75a17fc06e9",
+      "updated_at": "2026-07-20T12:35:38Z",
+      "last_updated_utc": "2026-07-20T12:35:38Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001-SUP-01",
@@ -93,9 +93,9 @@
       "authority_role": "** None",
       "version": "1.5",
       "HASH": "357d5c80e9130eecbc0026487d367eda1a8e53b15b407c9d10cd85cf8dba6d88",
-      "pinned_sha": "b3fa45cb9247e5464f0a955ffdb0e46f492257eb",
-      "updated_at": "2026-07-20T12:35:18Z",
-      "last_updated_utc": "2026-07-20T12:35:18Z"
+      "pinned_sha": "0e994b827d4aad0ea8617f123b02d75a17fc06e9",
+      "updated_at": "2026-07-20T12:35:38Z",
+      "last_updated_utc": "2026-07-20T12:35:38Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001-PLATINUM",
@@ -115,11 +115,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.1.2",
-      "HASH": "56090e69f9c5c6fd51ee7736ba85f4ab94d2e78860be5f1027bb077130f4b0f7",
-      "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
-      "updated_at": "2026-06-21T15:30:41Z",
-      "last_updated_utc": "2026-06-21T15:30:41Z"
+      "version": "3.2",
+      "HASH": "4818e50f00a6283741f0de15caef27d3c60de3bbafdfceac3ef49d8ffb8556d4",
+      "pinned_sha": "2392620aef0b9f276fd46fad1444f3a8b2b26fc1",
+      "updated_at": "2026-07-22T10:34:33Z",
+      "last_updated_utc": "2026-07-22T10:34:33Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-002-PLATINUM",
@@ -288,6 +288,30 @@
       "pinned_sha": "bd14b56e4267ed862217ad8931a8c5018a77ee8f",
       "updated_at": "2026-06-21T15:30:41Z",
       "last_updated_utc": "2026-06-21T15:30:41Z"
+    },
+    {
+      "id": "CAM-EQ2026-ECONOMICS-009-PLATINUM",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "ECONOMICS",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "009",
+      "parent_id": "CAM-EQ2026-ECONOMICS-001",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-ECONOMICS-009-PLATINUM.md",
+      "title": "Appendix H: Civilisational Wealth, Concentrated Governance Capacity & Public-Interest Disclosure",
+      "summary": "This Appendix interprets the extreme accumulation, civilisational concentration, ownership-preservation, overflow, and anti-misapplication principles established by CAM-EQ2026-ECONOMICS-001-PLATINUM.",
+      "status": "** Draft",
+      "effect": "** Interpretive",
+      "enforcement": "",
+      "review_state": "** Developmental Review",
+      "authority_role": "** Interpretive Authority",
+      "version": "1.1",
+      "HASH": "e6102b0239b3b87c43320efd1f5b68b3403a28d1724284a9b700321f45c5d275",
+      "pinned_sha": "f6e19a1f7ff824a37296683f2ee06590fd013532",
+      "updated_at": "2026-07-22T10:53:29Z",
+      "last_updated_utc": "2026-07-22T10:53:29Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-PLATINUM",
@@ -883,11 +907,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.19",
-      "HASH": "a79b722e00f1a60cf5d2e4c90bda79675bd32f1b68da5b87b35e1a99fb467e33",
-      "pinned_sha": "b3fa45cb9247e5464f0a955ffdb0e46f492257eb",
-      "updated_at": "2026-07-20T12:35:18Z",
-      "last_updated_utc": "2026-07-20T12:35:18Z"
+      "version": "1.20",
+      "HASH": "02b646bffbc5c22c3f0e750943e09b364ac1c7bdd3a70064b0177f4770259e9b",
+      "pinned_sha": "0918554d3da493fee120eb20cfaa97934abd0c8f",
+      "updated_at": "2026-07-22T10:53:31Z",
+      "last_updated_utc": "2026-07-22T10:53:31Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -1293,9 +1317,9 @@
       "authority_role": "** None",
       "version": "1.12",
       "HASH": "fa1805c845c83ea280d8eace0035b640a926c5be3be1b58718554c63569cf321",
-      "pinned_sha": "b3fa45cb9247e5464f0a955ffdb0e46f492257eb",
-      "updated_at": "2026-07-20T12:35:18Z",
-      "last_updated_utc": "2026-07-20T12:35:18Z"
+      "pinned_sha": "0e994b827d4aad0ea8617f123b02d75a17fc06e9",
+      "updated_at": "2026-07-20T12:35:38Z",
+      "last_updated_utc": "2026-07-20T12:35:38Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001-PLATINUM",

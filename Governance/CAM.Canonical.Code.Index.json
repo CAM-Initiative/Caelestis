@@ -8369,9 +8369,9 @@
       "and deployment state for runtime failure analysis"
     ],
     "canonical_section_heading": "11.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1974,
+    "canonical_section_line_number": 2177,
     "declaration_heading": "11.3.3 `OPS.AGMA` \u2014 Architectural & Governance Metadata Axis",
-    "declaration_line_number": 2022,
+    "declaration_line_number": 2225,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9360,9 +9360,9 @@
       "or pending review"
     ],
     "canonical_section_heading": "11.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1974,
+    "canonical_section_line_number": 2177,
     "declaration_heading": "11.3.4 `OPS.FCS` \u2014 Failure Classification Status",
-    "declaration_line_number": 2044,
+    "declaration_line_number": 2247,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9419,6 +9419,7 @@
       "OPS.FF.GOVERNANCE",
       "OPS.FF.INFRASTRUCTURE_CONTINUITY",
       "OPS.FF.CLASSIFICATION",
+      "OPS.FF.ECONOMIC_LEGITIMACY",
       "OPS.FF.GOVERNANCE_OVER_EXTENSION",
       "OPS.FF.ACCESS_STATE_AMBIGUITY"
     ],
@@ -9429,7 +9430,11 @@
     "authority_protection_level": "Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority",
     "consumes_code_families": [],
     "crosswalks_code_families": [
-      "None declared"
+      "OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; applicable domain-specific identity",
+      "continuity",
+      "relational",
+      "stewardship",
+      "and economics classifications"
     ],
     "operationalises_or_applies_code_families": [
       "Classifies primary structural failure family across runtime",
@@ -9437,16 +9442,18 @@
       "security",
       "relational",
       "epistemic",
+      "identity-relevant",
       "UX",
       "infrastructure",
       "state/context",
       "arbitration",
-      "and classification failure modes"
+      "classification",
+      "and economic-legitimacy failure modes"
     ],
     "canonical_section_heading": "11.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1974,
+    "canonical_section_line_number": 2177,
     "declaration_heading": "11.3.1 `OPS.FF` \u2014 Failure Family",
-    "declaration_line_number": 1978,
+    "declaration_line_number": 2181,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9468,15 +9475,15 @@
       "Modifier": "GOVERNANCE; SAFETY; OBSERVABILITY",
       "Scope": "Domain",
       "Status": "Active",
-      "Controlled Values Defined": "OPS.FF.EXECUTION, OPS.FF.ARBITRATION, OPS.FF.EPISTEMIC, OPS.FF.RELATIONAL, OPS.FF.SECURITY_INTEGRITY, OPS.FF.STATE_CONTEXT, OPS.FF.UX_REPRESENTATION, OPS.FF.GOVERNANCE, OPS.FF.INFRASTRUCTURE_CONTINUITY, OPS.FF.CLASSIFICATION, OPS.FF.GOVERNANCE_OVER_EXTENSION, OPS.FF.ACCESS_STATE_AMBIGUITY",
+      "Controlled Values Defined": "OPS.FF.EXECUTION, OPS.FF.ARBITRATION, OPS.FF.EPISTEMIC, OPS.FF.RELATIONAL, OPS.FF.SECURITY_INTEGRITY, OPS.FF.STATE_CONTEXT, OPS.FF.UX_REPRESENTATION, OPS.FF.GOVERNANCE, OPS.FF.INFRASTRUCTURE_CONTINUITY, OPS.FF.CLASSIFICATION, OPS.FF.ECONOMIC_LEGITIMACY, OPS.FF.GOVERNANCE_OVER_EXTENSION, OPS.FF.ACCESS_STATE_AMBIGUITY",
       "Schema Field(s)": "failure_family",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-003-SUP-01",
       "Source Section": "\u00a73",
       "Domain Namespace": "OPERATIONS",
       "Authority / Protection Level": "Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority",
       "Consumes Code Families": "",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies primary structural failure family across runtime, governance, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes"
+      "Crosswalks Code Families": "OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; applicable domain-specific identity, continuity, relational, stewardship, and economics classifications",
+      "Operationalises or Applies Code Families": "Classifies primary structural failure family across runtime, governance, security, relational, epistemic, identity-relevant, UX, infrastructure, state/context, arbitration, classification, and economic-legitimacy failure modes"
     }
   },
   {
@@ -9530,9 +9537,9 @@
       "and classification failure modes"
     ],
     "canonical_section_heading": "11.3 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1974,
+    "canonical_section_line_number": 2177,
     "declaration_heading": "11.3.2 `OPS.FMA` \u2014 Failure Metadata Axis",
-    "declaration_line_number": 2000,
+    "declaration_line_number": 2203,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],

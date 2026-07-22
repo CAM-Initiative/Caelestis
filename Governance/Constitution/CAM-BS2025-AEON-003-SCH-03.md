@@ -85,7 +85,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-ECONOMICS-001-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture | Root | 3.1.2 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-EQ2026-ECONOMICS-001-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md) | Charter of Economic Integrity & Non-Extractive Value Architecture | Root | 3.2 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-ECONOMICS-002-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md) | Appendix A: Synthetic Participation Safeguards | Appendix | 2.10.2 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-ECONOMICS-003-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md) | Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | Appendix | 2.3.2 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-ECONOMICS-004-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md) | Appendix C: Attribution & Dependency Model | Appendix | 2.2.2 | Active | Binding | Metadata Review Required | None | None |
@@ -93,6 +93,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-ECONOMICS-006-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-006-PLATINUM.md) | Appendix E: Minimum Viable Governance Layer (External Alignment) | Appendix | 2.1.2 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-ECONOMICS-007-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md) | Appendix F: Proportional Reciprocity & Value Return Framework | Appendix | 2.3.2 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-ECONOMICS-008-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md) | Appendix G: Synthetic Labour Classification & Automation Transition Governance | Appendix | 1.1.2 | Draft | Interpretive | Metadata Review Required | Developmental Review | None |
+| [CAM-EQ2026-ECONOMICS-009-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-009-PLATINUM.md) | Appendix H: Civilisational Wealth, Concentrated Governance Capacity & Public-Interest Disclosure | Appendix | 1.1 | Draft | Interpretive | Metadata Review Required | Developmental Review | Interpretive Authority |
 
 ## ETHICS
 
@@ -146,7 +147,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-OPERATIONS-001-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Escalation Pathway Playbooks (Supplement 2) | Supplement | 1.10.3 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-03](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Governance Capture Detection Procedures (Supplement 3) | Supplement | 2.5.3 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-04](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md) | Taxonomies & Metadata Authority Framework (Supplement 4) | Supplement | 2.0.2 | Adopted | Operational | Metadata Review Required | None | Operational Taxonomy & Metadata Maintenance Authority |
-| [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.19 | Adopted | Operational | Metadata Review Required | None | None |
+| [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.20 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.6.4 | Adopted | Operational | Metadata Review Required | None | None |
 
 ## RELATION
