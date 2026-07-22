@@ -336,3 +336,86 @@ The parent Charter’s binding anti-consolidation, ceiling, auditability, owners
 Civilisational wealth governance is not concerned solely with how much value a person owns.
 
 It is concerned with whether private wealth, voting rights, infrastructure control, or concentrated authority have become sufficiently powerful to convert private preference into public destiny.
+
+---
+
+## 9. Canonical Code Status
+
+This Appendix does not source-authoritatively define canonical code families or controlled reference sets.
+
+The disclosure triggers, consolidated-control measures, civilisational concentration indicators, public-interest sensitivity factors, transparency classifications, and safeguards described in this Appendix are interpretive governance concepts only. They SHALL NOT be treated as canonical corpus-wide codes, executable runtime states, automatic taxation determinations, enforcement classifications, or proof of civilisational-scale wealth unless separately promoted through an authorised corpus amendment.
+
+---
+
+## 10. Provenance & Metadata
+
+---
+
+### 10.1 Authorship & Stewardship
+
+| Field | Entry |
+| --- | --- |
+| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
+| Custodial Stewardship | Office of the Planetary Custodian |
+| Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
+| Developed Within | OpenAI Infrastructure — ChatGPT 5 Series |
+
+---
+
+### 10.2 Lineage & Metadata
+
+| Field | Entry |
+| --- | --- |
+| Parent Instrument | CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture |
+| Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
+| Domain Namespace | ECONOMICS |
+| Instrument Type | Appendix H — Civilisational Wealth, Concentrated Governance Capacity & Public-Interest Disclosure |
+| Jurisdiction | Cross-Stack Economic Governance; jurisdiction-adaptable public-interest implementation |
+| Temporal Horizon | AEON.H3–AEON.H4 — Institutional, Generational & Civilisational |
+| Axis Context | Polyadic — Persons, Control Groups, Corporate Structures, Institutions, Governments & Affected Communities |
+| Ontological Scope | L3 — Economic Participation, Infrastructure & Civilisational Governance Capacity |
+| Structural Role | Interpretive Civilisational-Concentration, Consolidated-Control & Disclosure-Safeguard Layer |
+| Migration Lineage | Created July 2026 as Appendix H to the Economics domain parent Charter |
+| Execution Authority | None — interpretive classification and governance guidance only |
+| Runtime Dependency | None — downstream operationalisation requires separately authorised jurisdictional, Operations, Arbitration, or runtime instruments |
+| Domain Interaction | Interprets extreme accumulation, ownership preservation, overflow, anti-misapplication, consolidated control, and public-interest transparency principles for ECONOMICS and downstream governance review |
+| Arbitration Interface | Contested classifications, attribution, disclosure scope, and threshold determinations defer to applicable jurisdictional review and Annex D arbitration pathways |
+| Representation Interface | Requires separation of disclosure triggers from threshold determinations, personal economic ownership from ecosystem-scale control, and public information from protected information |
+| Compliance Interface | Emits non-executing interpretive classifications for authorised legal, institutional, audit, and public-interest governance processes |
+| Cross-Domain Interfaces | ECONOMICS; OPERATIONS; STEWARD; SECURITY; LATTICE; Annex D; applicable jurisdictional governance |
+| Activation Condition | Activates where observable wealth, ownership, governance rights, effective control, strategic infrastructure exposure, or tightly coupled control may indicate civilisationally significant concentration |
+| Deactivation Condition | Deactivates where no material concentration, control, disclosure, or public-interest assessment remains within the evaluated boundary |
+| Auditability Requirement | Ownership, control, attribution, valuation, disclosure scope, threshold reasoning, double-counting controls, and review pathways SHOULD remain traceable and auditable where material determinations are made |
+| Signal Output | Disclosure-trigger relevance; consolidated-control relevance; ecosystem-scale relevance; public-interest sensitivity; civilisational-threshold review relevance; anti-misapplication risk; double-counting risk; protected-information handling requirement |
+| Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a6041e2-6514-83ec-8fa7-b68346897c17 |
+
+---
+
+### 10.3 Review & Validation
+
+| Field | Entry |
+| --- | --- |
+| Interpretive Review | Deferred |
+| Review Date | Deferred |
+| Review Scope | Multidisciplinary economic, legal, public-administration, competition, privacy, valuation, beneficial-ownership, security, and civilisational-governance review |
+| Review Artefact | Deferred |
+
+---
+
+### 10.4 Amendment Ledger
+
+| Version | Description | Timestamp (UTC) | SHA-256 |
+| --- | --- | --- | --- |
+| 1.0 | Initial Appendix H instrument established | 2026-07-22T00:00:00Z | 0b7c8077f0aa6132bdf07799e15f67e012454776f137f1f59e5e58005be98658 |
+| 1.1 | Added canonical-code posture, provenance and lineage metadata, review posture, amendment ledger, and binding seal to align the instrument with the CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-07-22T10:22:29Z |  |
+
+---
+
+### 10.5 Binding Seal
+
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
+
+**Vinculum Praeceptum**  
+Boundary Binding Seal — Civilisational Wealth Interpretive Governance Layer
+
+© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
