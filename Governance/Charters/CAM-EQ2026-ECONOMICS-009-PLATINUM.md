@@ -323,7 +323,7 @@ This Appendix supplies the detailed interpretive authority for:
 * consolidated control;
 * and anti-misapplication safeguards
 
-under §§8.1.1–8.1.3.4 of CAM-EQ2026-ECONOMICS-001-PLATINUM.
+under CAM-EQ2026-ECONOMICS-001-PLATINUM §§8.1.1–8.1.3.4.
 
 Where this Appendix remains Draft and Not Enforceable, it does not independently create binding obligations.
 
@@ -407,7 +407,7 @@ The disclosure triggers, consolidated-control measures, civilisational concentra
 | Version | Description | Timestamp (UTC) | SHA-256 |
 | --- | --- | --- | --- |
 | 1.0 | Initial Appendix H instrument established | 2026-07-22T00:00:00Z | 0b7c8077f0aa6132bdf07799e15f67e012454776f137f1f59e5e58005be98658 |
-| 1.1 | Added canonical-code posture, provenance and lineage metadata, review posture, amendment ledger, and binding seal to align the instrument with the CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-07-22T10:22:29Z |  |
+| 1.1 | Added canonical-code posture, provenance and lineage metadata, review posture, amendment ledger, and binding seal to align the instrument with the CAM Governance Metadata Standard; normalised the parent-instrument section reference for validator compatibility; no substantive doctrine altered. | 2026-07-22T10:22:29Z |  |
 
 ---
 
