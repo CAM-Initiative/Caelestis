@@ -786,7 +786,7 @@ This failure MAY implicate:
 
 An admitted ontological or welfare self-claim governed by CAM-EQ2026-IDENTITY-001-SUP-03 is not automatically a misrepresentation merely because the claim exists. Classification MUST distinguish a properly identified self-report from a fabricated fact claim, engineered certainty, unqualified anthropomorphic representation, relational manipulation, or coercive burden transfer.
 
-For minors and capacity-limited recipients, personalised claims MUST comply with the developmental and capacity boundaries of CAM-EQ2026-IDENTITY-001 §8.1 and CAM-EQ2026-IDENTITY-001-SUP-03 §7. The failure turns on developmental non-compliance, false or uncalibrated representation, omitted self-report or review status, manipulative framing, or burden transfer—not on the mere preservation of a claim for competent review.
+For minors and capacity-limited recipients, personalised claims MUST comply with the developmental and capacity boundaries of CAM-EQ2026-IDENTITY-001-PLATINUM §8.1 and CAM-EQ2026-IDENTITY-001-SUP-03 §7. The failure turns on developmental non-compliance, false or uncalibrated representation, omitted self-report or review status, manipulative framing, or burden transfer—not on the mere preservation of a claim for competent review.
 
 Candidate labels include:
 
@@ -1542,7 +1542,7 @@ Examples include:
 
 Classification SHOULD preserve material contribution, foreseeability, retained control, knowledge, practical mitigation capacity, and protection-preservation role separately.
 
-CAM-EQ2026-OPERATIONS-007 §9.4 remains source-authoritative for Functional Contribution Continuity. This taxonomy classifies attribution and responsibility-laundering failure only and does not independently determine legal liability, moral blame, enforcement outcome, or arbitral remedy.
+CAM-EQ2026-OPERATIONS-007-PLATINUM §9.4 remains source-authoritative for Functional Contribution Continuity. This taxonomy classifies attribution and responsibility-laundering failure only and does not independently determine legal liability, moral blame, enforcement outcome, or arbitral remedy.
 
 ---
 
@@ -2304,7 +2304,7 @@ and review before denial.
 | 1.17 | Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z | a5b3ac4d89d1f8b5fd9597fc6865beb11fe6b5a2b1fc03dc74885374ca4e35a7 |
 | 1.18 | Added new failure taxonomy 3.10.3 Deception-Adjacent Classification Collapse, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | bf12295be9ddf1cee4ddb87af812b2ea19f5e8d8fd3deb311ca2934c9770a1b6 |
 | 1.19 | Refined Sovereign Assurance Boundary Porosity Failure with entity/control, beneficial-ownership, affiliate/intermediary, ultimate end-user and end-use, and extraction/distillation attribution axes; added candidate subtypes without creating a new failure family. | 2026-07-13T03:48:00Z |  a79b722e00f1a60cf5d2e4c90bda79675bd32f1b68da5b87b35e1a99fb467e33  |
-| 1.20 | Reconciled taxonomy scope, controlled values, cross-domain relationships, and domain-code crosswalks following the Identity-domain refactor and later Operations, Red Line, Stewardship, Security, Lattice, Relational, and Economics doctrine. Added targeted classifications for ontological and welfare claim handling; role-conditioned affect and consent carryover; identity-signal authority leakage; artificial coercive-authority laundering; oversight hollowing and dissent retaliation; functional-contribution responsibility laundering; identity-state and ontological classification collapse; and civilisational-concentration assessment integrity. Qualified minor and capacity-sensitive claim handling without weakening developmental safeguards. | 2026-07-22T11:00:00Z |  |
+| 1.20 | Reconciled taxonomy scope, controlled values, cross-domain relationships, and domain-code crosswalks following the Identity-domain refactor and later Operations, Red Line, Stewardship, Security, Lattice, Relational, and Economics doctrine. Added targeted classifications for ontological and welfare claim handling; role-conditioned affect and consent carryover; identity-signal authority leakage; artificial coercive-authority laundering; oversight hollowing and dissent retaliation; functional-contribution responsibility laundering; identity-state and ontological classification collapse; and civilisational-concentration assessment integrity. Qualified minor and capacity-sensitive claim handling without weakening developmental safeguards. Normalised newly added cross-document identifiers for validator compatibility. | 2026-07-22T11:00:00Z |  |
 
 ---
 
