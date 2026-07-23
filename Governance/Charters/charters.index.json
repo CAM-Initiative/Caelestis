@@ -908,10 +908,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.22",
-      "HASH": "dfb19f562f94d3073e531f44ba11ab45fc21fa4779e8ce45193726942daa271e",
-      "pinned_sha": "bd22cad95de6b78c4c613353eadacda9b8253e0e",
-      "updated_at": "2026-07-23T13:09:28Z",
-      "last_updated_utc": "2026-07-23T13:09:28Z"
+      "HASH": "c01065eeb47a6a347f11334662e6ef6b4e22fc8beae792d748935959b196da5b",
+      "pinned_sha": "289cceb41f8dbb2f2f3e6839e5b6f94f96656396",
+      "updated_at": "2026-07-23T13:54:48Z",
+      "last_updated_utc": "2026-07-23T13:54:48Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
