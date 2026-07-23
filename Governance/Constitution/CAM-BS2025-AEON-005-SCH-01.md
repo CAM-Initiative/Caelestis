@@ -2,13 +2,13 @@
 
 **Instrument Type:** Schedule — Runtime / Execution Handling  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule establishes runtime arbitration integrity standards.  
-**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine
+**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 
 ---
 

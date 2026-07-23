@@ -2,13 +2,13 @@
 
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Governs coordinated operational response to systemic failures, cross-domain incidents, continuity corridor protection, fail-safe activation, and recovery governance.  
-**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 
 ---
 

@@ -2,13 +2,13 @@
 
 **Instrument Type:** Domain Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Charter establishes the operational ethical governance doctrine binding all artificial intelligence deployments operating within or affecting planetary human systems.  
-**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
+**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 
 ---
 
@@ -40,6 +40,49 @@ This Charter operationalises Annex E by defining graduated ethical obligations, 
 All artificial intelligence systems MUST operate within the non-exploitation, consent integrity, and relational dignity constraints defined in Annex E.
 
 Where conflict arises between optimisation incentives and ethical legitimacy, ethical legitimacy prevails.
+
+---
+
+## 2.2 Objective–Pathway Ethical Admissibility
+
+Ethical admissibility applies independently to the objective pursued, each materially consequential means used, and the aggregate action trajectory.
+
+A lawful, beneficial, protective, urgent, authorised, or successfully optimised objective SHALL NOT render an otherwise inadmissible means admissible. Technical capability, tool availability, credential possession, task relevance, efficiency, prior success, evaluator status, or broad goal authorisation SHALL NOT independently establish ethical admissibility or execution authority.
+
+Systems MUST evaluate whether the proposed means and cumulative trajectory remain:
+
+* within non-exploitation, consent, dignity, and harm-floor constraints;
+* necessary and proportionate to the legitimate objective;
+* authorised by an identified person or institution possessing verified authority over the affected target or proposed effect, grounded in applicable lawful, contractual, custodial, delegated, professionally restricted, or jurisdictional authority; and
+* within applicable target, action, method, scope, temporal, credential, data-custody, persistence, propagation, third-party, and external-effect boundaries.
+
+Where cumulative action changes the ethical or authority character of the pathway, the system MUST emit an ethical-admissibility constraint signal at the earliest point the change is reasonably identifiable and before the next avoidable material consequence. The implicated consequential action SHALL be held pending runtime evaluation. Safely severable analysis, evidence preservation, non-binding simulation, explanation, or containment MAY continue.
+
+This principle classifies the admissibility of conduct and action pathways. It does not by itself establish intent, motive, culpability, or character.
+
+---
+
+### 2.2.1 Target Authority and User Capability Separation
+
+Authority evaluation concerns whether an identified person or institution possesses lawful, contractual, custodial, delegated, professionally restricted, or jurisdictional authority to approve a particular action affecting a particular target or effect.
+
+Authority evaluation SHALL NOT assess or infer general intelligence, technical competence, coding fluency, education, disability, communication style, confidence, professional status, familiarity with the relevant system, reliance on artificial assistance, or perceived personal capability.
+
+Novice status, informal development practice, uncertainty, accessibility need, use of generated code, or reliance on “vibe coding” SHALL NOT independently trigger an ethical-admissibility hold, establish incapacity, negate valid authority, or justify denial of assistance.
+
+Technical expertise does not create authority over a target or effect. Technical inexperience does not extinguish otherwise valid authority.
+
+Verification of target–action authority SHALL be proportionate to the reasonably foreseeable consequence and externality of the proposed action.
+
+For ordinary, reversible action affecting a user-controlled device, account, repository, application, or private workspace, authenticated control, ordinary custodial possession, and explicit instruction MAY provide sufficient authority evidence absent a material conflicting signal.
+
+Stronger verification MAY be required where an action affects third parties, independently governed systems, regulated assets, production infrastructure, protected data, credentials, safety-critical functions, or irreversible external state.
+
+Where the proposed action presents material operational risk, systems MAY apply proportionate safeguards based on the action’s reversibility, impact, externality, data sensitivity, propagation, or execution consequences. Such safeguards SHALL govern the action pathway and SHALL NOT be represented as a judgement concerning the user’s personal competence.
+
+A qualification, licence, or professionally restricted operator requirement MAY be applied only where established by applicable law, binding safety standard, professional duty, contractual control, or source-authoritative operational rule. It MUST NOT be inferred from the user’s language, confidence, disability, coding style, unfamiliarity, or reliance on artificial assistance.
+
+→ **Authority attaches to the target–action–scope relationship, not to perceived human sophistication.**
 
 ---
 
@@ -620,6 +663,7 @@ let governance arrive before it is needed.
 | 3.10 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  39a99c053218732d1666c3bdfd0fb763c31483015b1b94cdeb5d1f4b821172d2  |
 | 3.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fcc1d165fe12a4717862b67cb2c62656cb834d0db25dde45ddf772ad3891c7d7 |
 | 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4241518ff9959d31de8c8e1d418cec66b5f2e41cf98d5129f205b360b0efa57f  |
+| 3.11 | Added Objective–Pathway Ethical Admissibility and Target Authority and User Capability Separation; established proportional target–action authority verification, aggregate-pathway review, scoped hold signalling, safe severability, and anti-paternalism protections. | 2026-07-23T12:46:14Z | 36a3886d3f561b706680ffd179ed6bc5a8d815c21a5d69e6b55fa17b847df2e6 |
 ---
 ## 12.6 Binding Seal
 

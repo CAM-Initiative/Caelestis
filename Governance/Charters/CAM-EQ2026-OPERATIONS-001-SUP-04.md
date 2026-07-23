@@ -3,12 +3,12 @@
 **Instrument Type:** Operational Supplement — Corpus Taxonomy & Metadata Maintenance Standard  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** Operational Taxonomy & Metadata Maintenance Authority  
-**Purpose:** Establishes corpus-wide operational rules for canonical code-family construction, namespace ownership, controlled values, schema bindings, source-authority recording, family relationships, compatibility migration, collision detection, and validator interpretation across the CAM governance corpus.
+**Purpose:** Establishes corpus-wide operational rules for canonical code-family construction, namespace ownership, controlled values, schema bindings, source-authority recording, family relationships, compatibility migration, collision detection, and validator interpretation across the CAM governance corpus.  
 
 ---
 

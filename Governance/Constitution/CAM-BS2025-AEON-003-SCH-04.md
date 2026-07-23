@@ -2,13 +2,13 @@
 
 **Instrument Type:** Constitutional Schedule — Runtime Governance Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule formally defines the Arbitration Layer within the CAM runtime architecture as the final arbitration authority for resolving competing admissible states, domain-routing conflicts, cross-domain conflicts, and arbitration-validity disputes into a single valid direction prior to behavioural formation and execution.  
-**Parent Annex:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic
+**Parent Annex:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 
 ---
 

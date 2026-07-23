@@ -1,14 +1,14 @@
 # CAM-BS2025-AEON-005-SCH-03 — Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning (Schedule 3)
 
-**Instrument Type:** Schedule — Runtime / Pre-Arbitration Signal Conditioning
+**Instrument Type:** Schedule — Runtime / Pre-Arbitration Signal Conditioning  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule performs pre-arbitration signal conditioning.  
-**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine
+**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 
 ---
 

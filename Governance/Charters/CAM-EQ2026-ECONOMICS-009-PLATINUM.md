@@ -8,7 +8,7 @@
 **Governance Standard:** Not Enforceable  
 **Review State:** Developmental Review  
 **Authority Role:** Interpretive Authority  
-**Purpose:** Establishes interpretive classifications and safeguards for identifying civilisational-scale private wealth, concentrated governance capacity, disclosure triggers, consolidated control, and public-interest transparency obligations without prescribing taxation rates, confiscatory mechanisms, or jurisdiction-specific enforcement machinery.
+**Purpose:** Establishes interpretive classifications and safeguards for identifying civilisational-scale private wealth, concentrated governance capacity, disclosure triggers, consolidated control, and public-interest transparency obligations without prescribing taxation rates, confiscatory mechanisms, or jurisdiction-specific enforcement machinery.  
 
 ---
 

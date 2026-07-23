@@ -3,12 +3,12 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Draft
-**Effect:** Interpretive
-**Governance Standard:** Not Enforceable
+**Status:** Draft  
+**Effect:** Interpretive  
+**Governance Standard:** Not Enforceable  
 **Review State:** Developmental Review  
 **Authority Role:** None  
-**Purpose:** Establishes governance classifications, transition safeguards, and anti-extractive constraints for synthetic labour, automation displacement, agentic production systems, and AI-mediated workforce transformation.
+**Purpose:** Establishes governance classifications, transition safeguards, and anti-extractive constraints for synthetic labour, automation displacement, agentic production systems, and AI-mediated workforce transformation.  
 
 ---
 

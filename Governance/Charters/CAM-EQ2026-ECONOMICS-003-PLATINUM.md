@@ -2,10 +2,10 @@
 
 **Instrument Type:** Domain Appendix — Economic Semantics & Value-State Interpretation Layer  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution   
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Defines the semantic resource classes, value-state meanings, non-extractive exchange constraints, and contribution-aware economic interpretation rules for the Economics domain, without creating a runtime schedule or execution engine.  

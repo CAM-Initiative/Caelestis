@@ -1,12 +1,12 @@
 # CAM-EQ2026-ETHICS-001-SUP-02 — High-Leverage & Institutional Integrity Safeguards (Supplement 2)
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque polyadic influence, unreviewable decision concentration, or civilisational-scale harm.
+**Purpose:** To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque polyadic influence, unreviewable decision concentration, or civilisational-scale harm.  
 
 ---
 

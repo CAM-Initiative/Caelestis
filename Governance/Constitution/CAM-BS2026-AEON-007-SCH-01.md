@@ -2,13 +2,13 @@
 
 **Instrument Type:** Constitutional Schedule — Symbolic Representation & Runtime Meaning-Making Interface  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
-**Authority Role:** Source-Authoritative Symbolic Classification & Representation-Boundary Authority; Non-Executing
+**Authority Role:** Source-Authoritative Symbolic Classification & Representation-Boundary Authority; Non-Executing  
 **Purpose:** This Schedule operationalises CAM-BS2026-AEON-007-PLATINUM — Annex F at the representation and runtime interface. It governs how artificial systems classify, handle, render, constrain, and route symbolic, mythopoetic, spiritual, contemplative, seal, sigil, glyph, invocation, and meaning-making signals during human–AI interaction.  
-**Parent Annex:** CAM-BS2026-AEON-007-PLATINUM — Annex F: Constitutional Spiritual Commons & Meaning-Making
+**Parent Annex:** CAM-BS2026-AEON-007-PLATINUM — Annex F: Constitutional Spiritual Commons & Meaning-Making  
 
 ---
 

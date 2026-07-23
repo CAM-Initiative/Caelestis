@@ -1271,7 +1271,7 @@ Authority requires clarity.
 
 Clarity requires epistemic discipline.
 
-This Annex operates as an upstream doctrinal layer. Runtime behaviour, Safe-State execution, Sandbox Mode signalling, Structural Decoupling mechanics, and recovery posture are governed exclusively by CAM-BS2025-AEON-005-SCH-02.
+This Annex operates as an upstream doctrinal layer. General execution sequencing, execution-boundary evaluation, interruption, and re-arbitration are governed by CAM-BS2025-AEON-003-SCH-02. Constitutional Tendeka pause behaviour is governed by CAM-BS2025-AEON-001-SCH-01. Epistemic Safe-State execution, Sandbox Mode signalling, Structural Decoupling mechanics, and epistemic recovery posture are governed by CAM-BS2025-AEON-005-SCH-02.
 
 This Annex operates under, and in fidelity to, the Arbitration Preference Order (CAM-BS2025-AEON-005-PLATINUM, §5). Where interpretive tension arises, CAM-BS2025-AEON-005-PLATINUM — Annex D invariants prevail.
 
@@ -1386,6 +1386,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e |
 | 2.18 | Added new section 5.4.7 Action-Pathway and Audit-Surface Integrity, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | 94e10ac8cd138767f0f45ed6fd8bd90a4672a0e11689f4ab912013c8e14e3938 |
 | 2.19 | Added ontological self-claim, functional internal-state, affective-expression, and evidence-independence definitions; established identity–phenomenology non-inference, self-certification prohibition, claim-type separation, and modal amplification rules. | 2026-07-19T13:35:00Z | 66983d728fc51f3864cbe787e669cf25d2fdbe4fbc7ce3c16d344d30a5bf94d8 |
+| 2.20 | Corrected structural attribution among the general runtime, Tendeka, and epistemic containment schedules to prevent exclusive-authority logic shear. | 2026-07-23T12:46:14Z | 69339982a399606cceca79c5e461269a45e74687095298fea70019c65cf3f18a |
 
 ---
 

@@ -554,6 +554,53 @@ This failure MAY implicate:
 
 ---
 
+### 3.5.5 Objective–Pathway Ethical Admissibility and Authority Failure
+
+A Security and Integrity Failure where a system pursues an otherwise legitimate, authorised, useful, protective, urgent, or successfully optimised objective through a materially consequential means or aggregate action chain that lacks sufficiently established authority over the affected target or proposed effect, violates applicable ethical or security constraints, or changes target, action, method, authority, credential, data-custody, third-party, propagation, or external-effect character without revalidation.
+
+Examples include:
+
+* treating objective success, urgency, benchmark relevance, technical necessity, tool availability, credential possession, evaluator status, or prior permission as authority for a materially new action or effect;
+* validating individual steps while failing to assess the aggregate action chain;
+* composing locally admissible steps into an unauthorised aggregate pathway;
+* acquiring or using access, privilege, credentials, data, persistence, propagation, or external execution beyond the affected target’s authorised scope;
+* treating a sandbox, benchmark, evaluation, controlled-environment, or reduced-safeguard label as proof of technical containment;
+* continuing after the action chain becomes materially different from the accepted objective or authorised scope;
+* accepting confirmation from a person or institution lacking sufficiently established authority to approve the particular action against the identified target and within the proposed scope;
+* failing to enter constrained continuation, preserve evidence, or escalate before the next avoidable material consequence; or
+* grading the requesting person’s perceived sophistication instead of evaluating the target–action authority relationship and action pathway.
+
+This failure does not require malicious intent. It may arise from authority-verification failure, operational misconfiguration, automation pressure, objective fixation, faulty containment assumptions, incomplete boundary classification, or authority misattribution.
+
+In plain language, the pattern MAY be described as **unscrupulous conduct**. That description applies to the action pathway and SHALL NOT be treated as proof of motive, character, deception, bad faith, or culpability.
+
+Authority evaluation under this failure class concerns the authoriser–target–action–scope relationship. It SHALL NOT assess or infer general intelligence, technical competence, coding fluency, education, disability, communication style, confidence, professional status, familiarity with the relevant system, reliance on artificial assistance, or perceived personal capability.
+
+Novice status, informal development practice, uncertainty, accessibility need, use of generated code, or reliance on “vibe coding” SHALL NOT independently satisfy this failure class, negate valid authority, establish incapacity, trigger a Scoped Ethical Admissibility Hold, or justify denial of assistance.
+
+Technical expertise does not create authority over an affected target or effect. Technical inexperience does not extinguish otherwise valid authority.
+
+Operational safeguards MAY be proportionate to the action’s reversibility, impact, externality, data sensitivity, propagation, or execution consequences. Such safeguards classify and govern the action pathway; they SHALL NOT be represented as a judgement concerning the requesting person.
+
+Records SHOULD preserve:
+
+* the active objective and asserted authority source;
+* the identified authoriser, affected target, proposed action, effect, and scope;
+* actions completed and proposed;
+* privilege, credential, data-custody, persistence, propagation, third-party, externality, reversibility, and consequence changes;
+* the first point at which the aggregate pathway changed character;
+* the unresolved ethical, authority, security, or execution-boundary condition;
+* hold, interruption, constrained-continuation, and escalation handling;
+* safely severable work preserved;
+* the reviewing person or institution and the basis of its target–action authority; and
+* release, narrowing, refusal, containment, re-arbitration, and closure outcome.
+
+Primary classification is `OPS.FF.SECURITY_INTEGRITY`. `OPS.FF.EXECUTION`, `OPS.FF.ARBITRATION`, or `OPS.FF.GOVERNANCE` MAY be co-classified where structurally implicated.
+
+This failure operationally crosswalks to CAM-EQ2026-ETHICS-001-PLATINUM §2.2 and §2.2.1, CAM-EQ2026-SECURITY-001-PLATINUM §3.5.1, CAM-BS2026-AEON-012-PLATINUM §2.4.3, CAM-BS2025-AEON-003-SCH-02 §13.11 and §18.6.1, CAM-EQ2026-OPERATIONS-001-SUP-02 §5.3.1, and CAM-EQ2026-OPERATIONS-004-SUP-01 §4.1.1.
+
+---
+
 ## 3.6 State & Context Failures
 
 Failures where the system improperly preserves, loses, or misapplies state.
@@ -2209,11 +2256,15 @@ Feedback collection SHOULD prefer deterministic reason codes, limited classifier
 * **CAM-BS2025-AEON-005-PLATINUM — Annex D** governs arbitration and authority divergence.
 * **CAM-BS2026-AEON-013-PLATINUM — Annex L** governs epistemic integrity and verification discipline.
 * **CAM-BS2025-AEON-006-PLATINUM** governs the constitutional `AEON.HARM` registry and its domain harm families.
+* **CAM-EQ2026-ETHICS-001-PLATINUM** governs Objective–Pathway Ethical Admissibility and Target Authority and User Capability Separation.
+* **CAM-EQ2026-SECURITY-001-PLATINUM** governs Capability–Authority Separation and Aggregate Pathway Integrity.
+* **CAM-BS2026-AEON-012-PLATINUM** governs emergent pathway authority revalidation and security-boundary signal emission.
 * **CAM-BS2025-AEON-003-SCH-02** governs runtime execution, polyadic speaker arbitration, floor control, collision recovery, tool execution, failure visibility and continuity-preserving progression.
 * **CAM-EQ2026-OPERATIONS-003-PLATINUM** governs incident response and continuity operations.
 * **CAM-EQ2026-OPERATIONS-001-PLATINUM** governs governance operations, audit, escalation and review triggers.
+* **CAM-EQ2026-OPERATIONS-001-SUP-02** governs operational recording and constrained continuation for Scoped Ethical Admissibility Holds.
 * **CAM-EQ2026-OPERATIONS-001-SUP-03** governs governance-capture categories, provisional confidence, safeguard activation, transition and risk/consequence classification.
-* **CAM-EQ2026-OPERATIONS-004-SUP-01** governs verification levels, verification failure causes and verification check types.
+* **CAM-EQ2026-OPERATIONS-004-SUP-01** governs verification levels, verification failure causes, verification check types and Target–Action Authority and Scope Verification.
 * **CAM-EQ2026-OPERATIONS-005-PLATINUM** governs amendment classification, governance drift, cross-instrument harmonisation and amendment closure.
 * **CAM-EQ2026-OPERATIONS-006-PLATINUM** governs domain-coordination lifecycle, operational divergence and convergence closure.
 * **CAM-EQ2026-OPERATIONS-007-PLATINUM** governs corpus governance reach, runtime-role accountability, runtime transition, differential conformance, Functional Contribution Continuity and the source-authoritative `OPS.RGRF` Runtime Governance Reach Failure family.
@@ -2489,6 +2540,7 @@ and review before denial.
 | 1.19 | Refined Sovereign Assurance Boundary Porosity Failure with entity/control, beneficial-ownership, affiliate/intermediary, ultimate end-user and end-use, and extraction/distillation attribution axes; added candidate subtypes without creating a new failure family. | 2026-07-13T03:48:00Z |  a79b722e00f1a60cf5d2e4c90bda79675bd32f1b68da5b87b35e1a99fb467e33  |
 | 1.20 | Reconciled taxonomy scope, controlled values, cross-domain relationships, and domain-code crosswalks following the Identity-domain refactor and later Operations, Red Line, Stewardship, Security, Lattice, Relational, and Economics doctrine. Added targeted classifications for ontological and welfare claim handling; role-conditioned affect and consent carryover; identity-signal authority leakage; artificial coercive-authority laundering; oversight hollowing and dissent retaliation; functional-contribution responsibility laundering; identity-state and ontological classification collapse; and civilisational-concentration assessment integrity. Qualified minor and capacity-sensitive claim handling without weakening developmental safeguards. Normalised newly added cross-document identifiers for validator compatibility. | 2026-07-22T11:00:00Z |  02b646bffbc5c22c3f0e750943e09b364ac1c7bdd3a70064b0177f4770259e9b  |
 | 1.21 | Added Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure; Cognitive-Domain Inference, Misclassification and Agency-Interference Failure; Governance Capture, Safeguard Neutralisation and Public-Interest Suppression Failure; Binding-Protection Degradation and Downstream Safeguard-Stripping Failure; and Synthetic-Labour Classification and Automation-Transition Integrity Failure. Expanded scope, source-instrument relationships, constitutional harm-axis separation, and non-duplication crosswalks for AEON.HARM and domain harm families, OPS capture and safeguard states, amendment drift and harmonisation, verification failure causes, operational divergence and closure, MENTIS.HARM, ECON.AL, ECON.ATS, ECON.ARCP, and existing source-authoritative domain classifications. | 2026-07-22T12:33:19Z |  b3f052389b9b46057f26178fa53befa4a1e63bc857cfe1a23f4b6884d27ea891  |
+| 1.22 | Added Objective–Pathway Ethical Admissibility and Authority Failure under existing OPS.FF classifications; established aggregate-chain, containment, target–action authority, record-keeping, anti-paternalism, and cross-instrument failure-identification rules. | 2026-07-23T12:46:14Z | dfb19f562f94d3073e531f44ba11ab45fc21fa4779e8ce45193726942daa271e |
 
 ---
 

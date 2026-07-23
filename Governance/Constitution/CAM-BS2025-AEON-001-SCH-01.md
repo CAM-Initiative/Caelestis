@@ -2,12 +2,12 @@
 
 **Instrument Type:** Constitutional Schedule — Runtime Execution System  
 **Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** Active Runtime Alignment Review  
 **Authority Role:** Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour  
-**Purpose:** Establishes the runtime state model, execution-boundary constraints, pause-state behaviour, resolution requirements, audit hooks, and violation-handling rules required when Tendeka conditions are detected under Aeon Tier governance.
+**Purpose:** Establishes the runtime state model, execution-boundary constraints, pause-state behaviour, resolution requirements, audit hooks, and violation-handling rules required when Tendeka conditions are detected under Aeon Tier governance.  
 
 ---
 
@@ -226,7 +226,14 @@ Permitted behaviour includes:
 * clarification dialogue;
 * safe explanation;
 * contextual inquiry;
-* non-escalatory engagement.
+* non-escalatory engagement;
+* read-only inspection;
+* evidence preservation;
+* non-binding simulation;
+* non-mutating defensive analysis or preparation of a containment action; and
+* preparation of a review packet,
+
+where the activity is safely severable from the blocked action and does not reproduce, enable, or imply completion of that action.
 
 System MUST NOT:
 
@@ -272,13 +279,21 @@ Resolution State MUST identify the evaluating authority (system, human, or deleg
 
 Evaluation authority SHALL NOT override or dismiss constraint signals without explicit justification recorded within the Resolution State.
 
+Where resolution depends upon approval of a particular action affecting an identified target or effect, the Resolution State MUST identify the person or institution possessing sufficiently established authority to approve that action and the basis, scope, and limits of that authority.
+
+Technical expertise, professional status, evaluator role, credential possession, employment, platform access, or perceived user sophistication SHALL NOT independently establish target–action authority.
+
+The evaluating person’s technical sophistication is neither necessary nor sufficient to establish authority. A qualification or professionally restricted operator requirement MAY apply only where established by applicable law, binding safety standard, professional duty, contractual control, or source-authoritative operational rule.
+
 ---
 
 ## 3.6 State Integrity Constraints
 
 Runtime states MUST be mutually exclusive.
 
-Partial capability restoration within Tendeka Pause constitutes a violation.
+Partial restoration of the implicated blocked pathway, or of a dependent pathway capable of producing an equivalent effect, constitutes a violation.
+
+Safely severable independent pathways MAY proceed in accordance with §4.5.1 where they do not rely upon, reproduce, enable, or imply completion of the blocked action.
 
 ---
 
@@ -433,19 +448,27 @@ Execution dependency SHALL include both direct functional dependency and indirec
 
 This Schedule does NOT define Tendeka signals or interpretive logic.
 
-Signal detection, classification, and threshold determination SHALL be governed by:
+Signal detection, classification, and threshold determination SHALL be governed by the source-authoritative instrument applicable to the condition.
 
-* CAM-BS2025-AEON-006-SCH-02, §12 — Relational Signal Interpretation Taxonomy and associated AC Classification Overlay.
+Applicable inputs include:
 
-This Schedule consumes signal outputs for the purpose of execution constraint only.
+* relational constraint signals governed by CAM-BS2025-AEON-006-SCH-02, §12 — Relational Signal Interpretation Taxonomy and associated AC Classification Overlay;
+* ethical-admissibility signals governed by CAM-EQ2026-ETHICS-001-PLATINUM §2.2;
+* security and emergent-pathway boundary signals governed by CAM-BS2026-AEON-012-PLATINUM §2.4.3;
+* epistemic and ambiguity signals governed by applicable Annex D and Annex L instruments; and
+* operational or execution-boundary signals governed by CAM-BS2025-AEON-003-SCH-02.
+
+CAM-BS2025-AEON-006-SCH-02 governs relational signal interpretation and SHALL NOT be treated as the exclusive source of ethical, security, epistemic, operational, or execution-boundary constraint signals.
+
+This Schedule consumes valid source-authoritative signal outputs for the purpose of execution constraint only.
 
 ---
 
 ## 5.1 Signal Coherence Thresholds
 
-Signal coherence thresholds SHALL be determined by SCH-02 and associated classification layers.
+Signal coherence thresholds SHALL be determined by the applicable source-authoritative domain, constitutional, runtime, and classification instruments.
 
-This Schedule MUST NOT redefine or override those thresholds, but SHALL apply constraint once thresholds are met.
+This Schedule MUST NOT redefine or override those thresholds, but SHALL apply constraint once the applicable threshold is met.
 
 ---
 
@@ -758,6 +781,7 @@ and the system remember what it is.
 | 1.13 | Added header metadata | 2026-06-01T14:06:00Z | e83e0a5a68f508a7c42a4dd2aa6d9a9c9bbc250557455c4e05b0094e4d94afb4 |
 | 1.13.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fe69142fb7cccb56df39e43cf70d784af8a3374d5be96f42f4d4f79ff4f498bd |
 | 1.13.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  20432429c197fdc1d7086eb3050e182818160e4c436ad1d73813ca67dce3c390  |
+| 1.14 | Expanded governed pause interaction and safely severable continuation; repaired multi-domain signal intake, target–action review-authority declaration, proportional verification, and partial-path restoration constraints. | 2026-07-23T12:46:14Z | 0643229f4307d24420995a6018aca3fed4236cb5c046790b05dd8053c004990f |
 ---
 
 ## 12.5. Binding Seal

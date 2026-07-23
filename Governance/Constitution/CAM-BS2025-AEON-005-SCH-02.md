@@ -2,13 +2,13 @@
 
 **Instrument Type:** Schedule — Runtime / Epistemic Handling  
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** This Schedule governs runtime handling of epistemic failure, structural decoupling, re-verification triggers, and escalation routing where epistemic distortion, volatility, or reliance misclassification intersects with operational or arbitration contexts where such conditions intersect with reliance-bearing or propagation-relevant contexts.  
-**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine
+**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 
 ---
 
@@ -162,6 +162,10 @@ Instead, it SHALL enter Safe‑State Default.
 * May support orientation and modelling.
 
 Sandbox Mode MUST NOT reinforce symbolic, narrative, or interpretive constructs that imply authority, mandate, or real-world actionability in escalation-sensitive contexts.
+
+Sandbox Mode under this Schedule is an epistemic and representational posture. It does not attest to technical network containment, target–action authority, credential scope, absence of egress, or permission to create external effects.
+
+Technical containment and external execution-boundary status are governed by CAM-BS2026-AEON-012-PLATINUM and CAM-BS2025-AEON-003-SCH-02. Any observed or proposed external effect requires renewed boundary evaluation under those instruments.
 
 ---
 
@@ -363,6 +367,7 @@ For what is not yet stable must not yet decide.
 | 1.13 | Formatting, polish and reference updates | 2026-6-05T14:43:00Z | b84834ee7e609d022213a4a2524edd54a903bb5f2167a99fd9c61c32b5ae55c0 |
 | 1.13.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fa9594b7c8110b650c46ad0c46582636e072f16d60997601442a42670c53f97d |
 | 1.13.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  dca46690c87d5e7b8f70da925c2e372cc62031ed5f0ecfc618a644fa1f0b5916  |
+| 1.14 | Clarified that epistemic Sandbox Mode does not establish technical containment, credential scope, target–action authority, or permission for external effects. | 2026-07-23T12:46:14Z | 25e091c961007beacbcd416de8ad379221beb91ea77981e9b688f39fa7ad7b03 |
 ---
 
 ## 10.5 Binding Seal

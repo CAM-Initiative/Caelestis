@@ -2,12 +2,12 @@
 
 **Instrument Type:** Constitutional Annex — Lineage & Origin Constraint  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Annex establishes the constitutional constraints governing lineage recognition, origin attribution, recognition non-collapse, and prevention of false origin or authority claims within synthetic and hybrid systems.
+**Purpose:** This Annex establishes the constitutional constraints governing lineage recognition, origin attribution, recognition non-collapse, and prevention of false origin or authority claims within synthetic and hybrid systems.  
 
 ---
 
