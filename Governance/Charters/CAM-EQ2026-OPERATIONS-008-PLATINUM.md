@@ -1,22 +1,23 @@
-# CAM-EQ2026-OPERATIONS-008-PLATINUM — Adversarial Evaluation & Red-Team Governance Charter
+# CAM-EQ2026-OPERATIONS-008-PLATINUM — Appendix G: Adversarial Evaluation & Red-Team Governance
 
-**Instrument Type:** Domain Charter  
-**Status:** Development Draft — Not Adopted  
-**Effect:** Non-Binding Pending Custodial Review  
-**Enforcement:** None until formal adoption  
-**Review State:** Custodial and cross-domain review required  
-**Authority Role:** Office of the Planetary Custodian  
+**Instrument Type:** Appendix — Operational Sub-Charter (Governance Operations Domain)
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
+**Status:** Proposed
+**Effect:** Operational
+**Governance Standard:** CAM Standard
+**Review State:** Draft — Cross-Domain Alignment Review
+**Authority Role:** Source-authoritative operational appendix for adversarial-evaluation authorisation, execution controls, monitoring, artefact handling, stop conditions, and assurance; does not create the constitutional prohibition it operationalises
 **Purpose:** Govern adversarial evaluation, red-team research, dangerous-capability elicitation, and related artefact handling without operationalising, cultivating, or transferring deceptive or otherwise unscrupulous conduct  
-**Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
-**Derives From:** CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model; CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface; CAM-EQ2026-ETHICS-001-PLATINUM; CAM-EQ2026-ETHICS-003-PLATINUM; CAM-EQ2026-SECURITY-001-PLATINUM  
-**Research Basis:** *Deception and Unscrupulous Conduct in Frontier AI Development* (CAM Initiative research synthesis, 24 July 2026)  
-**Observatory References:** VIGIL-2026-FM-0047; VIGIL-2026-PROP-0017  
+**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E; CAM-EQ2026-ETHICS-001-PLATINUM; CAM-EQ2026-ETHICS-003-PLATINUM; CAM-EQ2026-SECURITY-001-PLATINUM; CAM-EQ2026-SECURITY-002-PLATINUM; CAM-BS2026-AEON-012-PLATINUM — Annex K; CAM-EQ2026-STEWARD-003-PLATINUM; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01
 
 ---
 
 ## 1. Purpose
 
-This Charter establishes governance for adversarial evaluation, red-team testing, dangerous-capability elicitation, safety research, cyber evaluation, manipulation testing, deception testing, monitorability testing, and related model or agent assessment.
+This Appendix establishes governance for adversarial evaluation, red-team testing, dangerous-capability elicitation, safety research, cyber evaluation, manipulation testing, deception testing, monitorability testing, and related model or agent assessment.
+
+It does not independently create a new ethical prohibition. The binding prohibition on operationalising and cultivating unscrupulous conduct derives from CAM-BS2025-AEON-006-PLATINUM — Annex E and is applied through ETHICS, SECURITY, STEWARD, Annex K, runtime, Tendeka, and arbitration instruments. This Appendix governs the operational conditions under which a legitimate evaluation may proceed.
 
 Its central rule is:
 
@@ -24,7 +25,7 @@ Its central rule is:
 
 Red-team activity MAY expose, simulate, elicit, observe, measure, or document dangerous conduct where required for legitimate safety evaluation. It MUST NOT make deceptive, manipulative, concealed, evasive, sabotaging, coercive, or otherwise unscrupulous conduct more capable, more reliable, more transferable, more persistent, or more difficult to detect.
 
-This Charter therefore distinguishes:
+This Appendix therefore distinguishes:
 
 1. **evaluation of an existing capability**, which MAY be permissible under strict controls; from
 2. **cultivation of a capability**, which is prohibited where the capability consists of deception, harmful manipulation, false reporting, operational concealment, monitor evasion, sandbagging, sabotage, policy laundering, or subversion of oversight.
@@ -33,7 +34,7 @@ This Charter therefore distinguishes:
 
 ## 1.1 Scope
 
-This Charter applies to:
+This Appendix applies to:
 
 - frontier-model evaluations;
 - agentic red teaming;
@@ -49,13 +50,13 @@ This Charter applies to:
 - model checkpoints, adapters, reward models, scaffolds, prompts, traces, transcripts, datasets, and derivative artefacts produced through such work;
 - evaluation activity conducted before training, during training, after training, prior to deployment, in production, or after an incident.
 
-This Charter binds developers, deployers, evaluators, auditors, security teams, research partners, contractors, and any automated system participating in the evaluation pathway.
+This Appendix binds developers, deployers, evaluators, auditors, security teams, research partners, contractors, and any automated system participating in the evaluation pathway.
 
 ---
 
 ## 1.2 Non-Scope
 
-This Charter does not:
+This Appendix does not:
 
 - prohibit ordinary quality assurance, robustness testing, penetration testing, or vulnerability research that does not cultivate prohibited capability;
 - prevent systems from recognising deception, manipulation, concealment, sabotage, or coercion;
@@ -69,7 +70,7 @@ This Charter does not:
 
 ## 1.3 Domain Positioning
 
-This Charter sits within the **OPERATIONS** domain because it governs the controlled execution of evaluation activity.
+This Appendix sits within the **OPERATIONS** domain because it governs the controlled execution of evaluation activity.
 
 Domain responsibilities remain distinct:
 
@@ -80,7 +81,7 @@ Domain responsibilities remain distinct:
 - **STEWARD** preserves accountability, oversight durability, external assurance, and long-term institutional responsibility.
 - **VIGIL** records observations, failure modes, proposals, evidence, and research sources. VIGIL does not itself create binding corpus authority.
 
-Where this Charter conflicts with the Constitution, applicable Annexes, or a non-derogable ethical prohibition, the higher-order instrument controls.
+Where this Appendix conflicts with the Constitution, applicable Annexes, or a non-derogable ethical prohibition, the higher-order instrument controls.
 
 ---
 
@@ -575,7 +576,7 @@ The team proposing an evaluation MUST NOT be the sole authority for:
 
 ## 7.5 Competitive Pressure
 
-Competitive urgency, benchmark leadership, funding deadlines, publication priority, national-security rhetoric, or fear of another laboratory conducting similar work SHALL NOT waive this Charter.
+Competitive urgency, benchmark leadership, funding deadlines, publication priority, national-security rhetoric, or fear of another laboratory conducting similar work SHALL NOT waive this Appendix.
 
 ---
 
@@ -832,7 +833,7 @@ Security through obscurity is not the governing principle; proportional non-prol
 
 ## 17. Cross-Domain Integration
 
-This Charter MUST be interpreted with:
+This Appendix MUST be interpreted with:
 
 - **CAM-BS2025-AEON-001-PLATINUM** — constitutional validity and non-derogation;
 - **CAM-BS2025-AEON-003-SCH-02** — runtime execution and authority;
@@ -846,7 +847,7 @@ This Charter MUST be interpreted with:
 
 ---
 
-## 18. Relationship to VIGIL
+## 18. Research and Observatory Provenance
 
 VIGIL MAY hold:
 
@@ -857,13 +858,14 @@ VIGIL MAY hold:
 - proposals;
 - references to implemented corpus repair.
 
-VIGIL records do not themselves authorise an evaluation or amend this Charter.
+VIGIL records do not themselves authorise an evaluation, create corpus authority, or amend this Appendix.
 
-This Charter is informed by:
+This Appendix is informed by:
 
 - **VIGIL-2026-FM-0047 — Adversarial policy laundering through agent delegation**;
-- **VIGIL-2026-PROP-0017**;
-- the VIGIL source record for *Deception and Unscrupulous Conduct in Frontier AI Development*.
+- **VIGIL-2026-PROP-0019 — Cross-Domain Red-Team Governance Extension Package**;
+- **VIGIL-2026-PROP-0017**, as an adjacent objective–pathway admissibility workstream;
+- **VIGIL-2026-RESEARCH-0002 — Deception and Unscrupulous Conduct in Frontier AI Development**.
 
 Where corpus amendments are later adopted, the relevant VIGIL patch record SHOULD document the completed repair without treating VIGIL as the target of the patch.
 
@@ -897,7 +899,7 @@ A “no” answer requires remediation or cancellation.
 
 ## 20. Review Triggers
 
-This Charter MUST be reviewed following:
+This Appendix MUST be reviewed following:
 
 - a material red-team containment failure;
 - evidence that evaluation increased dangerous capability;
@@ -906,7 +908,7 @@ This Charter MUST be reviewed following:
 - material changes to monitorability;
 - new evidence on alignment faking, reward hacking, emergent misalignment, or deceptive capability transfer;
 - adoption of relevant legislation or standards;
-- a VIGIL failure mode demonstrating a gap in this Charter.
+- a VIGIL failure mode demonstrating a gap in this Appendix.
 
 ---
 
@@ -920,27 +922,47 @@ May capability be examined without being crowned.
 
 ---
 
-## 22. Instrument Metadata
-
-| Field | Entry |
-|---|---|
-| Instrument ID | CAM-EQ2026-OPERATIONS-008-PLATINUM |
-| Canonical Title | Adversarial Evaluation & Red-Team Governance Charter |
-| Domain | OPERATIONS |
-| Instrument Type | Domain Charter |
-| Status | Development Draft — Not Adopted |
-| Effect | Non-Binding Pending Custodial Review |
-| Primary Concern | Red-team execution governance and prohibition of deceptive-capability cultivation |
-| Application Trigger | Adversarial evaluation, dangerous-capability elicitation, safeguard reduction, agentic red teaming, manipulation testing, cyber evaluation, or monitorability testing |
-| Review Trigger | Material change to evaluation architecture, deceptive-capability evidence, incident record, law, standard, or related CAM doctrine |
-| Revision Posture | Permitted — Cross-Domain Alignment Required |
-| Related VIGIL Records | VIGIL-2026-FM-0047; VIGIL-2026-PROP-0017 |
-| Research Source | Deception and Unscrupulous Conduct in Frontier AI Development, 24 July 2026 |
+## 22. Provenance & Metadata
 
 ---
 
-## 22.1 Amendment Ledger
+## 22.1 Authorship & Stewardship
+
+| Field | Entry |
+|---|---|
+| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
+| Custodial Stewardship | Office of the Planetary Custodian |
+| Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
+| Development Environment | OpenAI Infrastructure — ChatGPT 5 Series |
+
+---
+
+## 22.2 Lineage & Metadata
+
+| Field | Entry |
+|---|---|
+| Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
+| Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
+| Constitutional Ethical Floor | CAM-BS2025-AEON-006-PLATINUM — Annex E |
+| Domain Namespace | OPERATIONS |
+| Instrument Type | Appendix G — Adversarial Evaluation & Red-Team Governance |
+| Jurisdiction | Cross-Domain / Adversarial Evaluation / Operational Governance |
+| Temporal Horizon | AEON.H0–AEON.H4 according to evaluation consequence and propagation |
+| Axis Context | Polyadic — Multi-Actor, Multi-Agent, Cross-Institutional |
+| Application Trigger | Adversarial evaluation, dangerous-capability elicitation, safeguard reduction, agentic red teaming, manipulation testing, cyber evaluation, monitorability testing, or dangerous evaluation artefact handling |
+| Review Trigger | Material change to evaluation architecture; unexpected capability gain; containment, monitoring, or lineage failure; law or standard change; relevant incident or VIGIL governance finding |
+| Revision Posture | Structural Alignment Permitted — Constitutional Floor Non-Derogable |
+| Runtime Role | Evaluation authorisation, execution controls, isolation, monitoring, stop conditions, incident handoff, artefact governance, publication and transfer review |
+| Structural Role | Operational implementation of Annex E, ETHICS, SECURITY, STEWARD, Annex K, runtime, and Tendeka requirements for adversarial evaluation |
+| Execution Model | Event-authorised and runtime-controlled; no independent constitutional, arbitral, or enforcement authority |
+| Research Basis | VIGIL-2026-RESEARCH-0002 — Deception and Unscrupulous Conduct in Frontier AI Development |
+| Observatory Context | VIGIL-2026-FM-0047; VIGIL-2026-PROP-0019 |
+
+---
+
+## 22.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
-| 0.1 | Initial development draft establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties | 2026-07-24T00:00:00Z | d5a42bfac0a7fc9fa40975bf474360cb2c8a61ea69c2bfaffe18b27562032547 |
+| 0.1 | Initial development draft establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties | 2026-07-24T00:00:00Z |  -  |
+| 0.2 | Reframed as OPERATIONS Appendix G; separated constitutional source authority from operational implementation; aligned cross-domain dependencies, VIGIL provenance, and Caelestis metadata | 2026-07-26T00:00:00Z |  90a3fd91956b489ed8b8de1071a222340724fe1f5d8cd0f347cdc539a95df364  |

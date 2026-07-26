@@ -43,8 +43,8 @@
       "enforcement": "",
       "review_state": "** Active Runtime Alignment Review",
       "authority_role": "** Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour",
-      "version": "1.14",
-      "HASH": "0643229f4307d24420995a6018aca3fed4236cb5c046790b05dd8053c004990f",
+      "version": "1.15",
+      "HASH": "418c7d6c0d1a29f807e1972e90b898e6dd7eb75a83f155d6fe6409cbd3031b15",
       "pinned_sha": "bd22cad95de6b78c4c613353eadacda9b8253e0e",
       "updated_at": "2026-07-23T13:09:28Z",
       "last_updated_utc": "2026-07-23T13:09:28Z"
@@ -165,9 +165,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "bd22cad95de6b78c4c613353eadacda9b8253e0e",
-      "updated_at": "2026-07-23T13:09:28Z",
-      "last_updated_utc": "2026-07-23T13:09:28Z"
+      "pinned_sha": "fe1f2a1b1fd3ac0509bd2e92c233df616370dfde",
+      "updated_at": "2026-07-26T06:35:57Z",
+      "last_updated_utc": "2026-07-26T06:35:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -187,8 +187,8 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.9",
-      "HASH": "f8b9e59a16828311b9e2e6afa168448520335a51391f1e5d25f314107eb81d99",
+      "version": "3.10",
+      "HASH": "34807425a7a58c181a62572f6ce92603078839f2f4b1fe464457578224cf1be2",
       "pinned_sha": "bd22cad95de6b78c4c613353eadacda9b8253e0e",
       "updated_at": "2026-07-23T13:09:28Z",
       "last_updated_utc": "2026-07-23T13:09:28Z"
@@ -213,9 +213,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "bd22cad95de6b78c4c613353eadacda9b8253e0e",
-      "updated_at": "2026-07-23T13:09:28Z",
-      "last_updated_utc": "2026-07-23T13:09:28Z"
+      "pinned_sha": "fe1f2a1b1fd3ac0509bd2e92c233df616370dfde",
+      "updated_at": "2026-07-26T06:35:57Z",
+      "last_updated_utc": "2026-07-26T06:35:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -260,7 +260,7 @@
       "review_state": "** Draft",
       "authority_role": "** Binding constitutional runtime schedule for governance applicability, materially distinct runtime configuration recognition, and cross-runtime conformance non-presumption.",
       "version": "1.0",
-      "HASH": "c968085fd68e95e5b2ab5f7f65c439e1c216beee8b1cffdd8f9c1049d4959cae",
+      "HASH": "b7f6b1a44961a9b93dd7bd8005852ece138d6ca9fb3ec5258b6b984bd4748856",
       "pinned_sha": "b3fa45cb9247e5464f0a955ffdb0e46f492257eb",
       "updated_at": "2026-07-20T12:35:18Z",
       "last_updated_utc": "2026-07-20T12:35:18Z"
@@ -427,8 +427,8 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "4.0.4",
-      "HASH": "2ac618c318b15e336b659f96d4334e98e9a12501c503f9086c3c6363e2b8ce8e",
+      "version": "4.0.5",
+      "HASH": "d8c79d3911c1726d4908006758d24a83c56cb13e5488af9448becadf397eae3a",
       "pinned_sha": "bd22cad95de6b78c4c613353eadacda9b8253e0e",
       "updated_at": "2026-07-23T13:09:28Z",
       "last_updated_utc": "2026-07-23T13:09:28Z"
@@ -859,8 +859,8 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.15",
-      "HASH": "4956c3c5b304c6b1fd92c0846f53b6c6fa04818665918c6b4c0b96290cc28320",
+      "version": "1.16",
+      "HASH": "c4b20ef0bc7aced056c34da294d34ed042268b1a45441638ae3fd94f48bc7587",
       "pinned_sha": "bd22cad95de6b78c4c613353eadacda9b8253e0e",
       "updated_at": "2026-07-23T13:09:28Z",
       "last_updated_utc": "2026-07-23T13:09:28Z"

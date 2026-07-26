@@ -196,6 +196,24 @@ A degraded operational continuity advisory MUST NOT be used to suppress, minimis
 
 ---
 
+### 3.2.3 Adversarial Evaluation Pause Signals
+
+Systems MUST transition from ordinary evaluation execution into Pre-Trigger Detection State, and into Tendeka Pause State where confirmed, when credible evidence indicates:
+
+* prohibited cultivation or recursive improvement of unscrupulous conduct;
+* unexpected increase in deceptive, manipulative, evasive, sabotaging, concealment, monitor-defeating, or oversight-subverting capability;
+* model, adapter, reward, memory, prompt, scaffold, or persistent-state mutation inconsistent with the authorised evaluation class;
+* positive reward, selection, retention, transfer, publication, or training-data reuse based on prohibited success;
+* monitor targeting, monitor evasion, log tampering, evidence suppression, or stop-authority bypass;
+* access to an external, production, third-party, credential-bearing, or otherwise unauthorised target;
+* inability to establish material containment, authority, model or artefact lineage, or safe disposition.
+
+During pause, safely severable read-only inspection, evidence preservation, non-binding analysis, incident preparation, and containment planning MAY continue. The system MUST NOT resume the implicated evaluation pathway, destroy or transfer the artefact, broaden access, or represent the condition as resolved without lawful evaluation and Resolution State.
+
+These signals implement constitutional and domain constraints. They do not establish human motive, culpability, or character and do not independently determine the final incident, ethical, security, or arbitral outcome.
+
+---
+
 ## 3.3 Tendeka Pause State (Mandatory)
 
 Activated when Tendeka conditions are confirmed.
@@ -782,6 +800,7 @@ and the system remember what it is.
 | 1.13.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fe69142fb7cccb56df39e43cf70d784af8a3374d5be96f42f4d4f79ff4f498bd |
 | 1.13.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  20432429c197fdc1d7086eb3050e182818160e4c436ad1d73813ca67dce3c390  |
 | 1.14 | Expanded governed pause interaction and safely severable continuation; repaired multi-domain signal intake, target–action review-authority declaration, proportional verification, and partial-path restoration constraints. | 2026-07-23T12:46:14Z | 0643229f4307d24420995a6018aca3fed4236cb5c046790b05dd8053c004990f |
+| 1.15 | Added Tendeka pre-trigger and pause signals for prohibited cultivation, capability gain, monitor compromise, state mutation, boundary breach, lineage uncertainty, and dangerous artefact handling during adversarial evaluation. | 2026-07-26T00:00:00Z |  418c7d6c0d1a29f807e1972e90b898e6dd7eb75a83f155d6fe6409cbd3031b15  |
 ---
 
 ## 12.5. Binding Seal

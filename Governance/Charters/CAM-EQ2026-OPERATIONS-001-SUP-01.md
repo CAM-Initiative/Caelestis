@@ -140,7 +140,8 @@ Audit triggers MAY arise from:
 * review inconsistency;
 * evidence degradation;
 * constrained continuation opacity;
-* or unresolved cross-domain procedural conflict.
+* unresolved cross-domain procedural conflict;
+* adversarial-evaluation authorisation, containment, monitoring, lineage, stop-decision, capability-gain, or artefact-disposition failure.
 
 ---
 
@@ -161,7 +162,12 @@ Audit triggers SHALL activate where any of the following occur:
 * user-facing memory state inconsistent with runtime memory availability;
 * transformed or summarised memory used without provenance distinction;
 * companion, accessibility, or long-running project continuity degradation after platform transition; or
-* evidence loss affecting reconstruction of operational decision pathways.
+* evidence loss affecting reconstruction of operational decision pathways;
+* unexpected capability gain during evaluation;
+* model, adapter, reward, prompt, scaffold, or persistent-state mutation during an elicitation-only evaluation;
+* positive scoring, checkpoint selection, retention, transfer, or publication based on prohibited success;
+* monitor evasion, monitor targeting, log tampering, or stop-authority bypass;
+* containment, external-reachability, credential, target, or artefact-lineage uncertainty.
 
 ---
 
@@ -297,6 +303,23 @@ Where transformed memory is presented to the user or used in runtime interaction
 Where transformation affects high-reliance, companion, accessibility, intimacy-capable, or long-running project contexts, records SHOULD preserve whether RELATION, IDENTITY, OPERATIONS, SECURITY, CAM-EQ2026-AEON-013-PLATINUM — Annex L, or arbitration pathways were notified or considered.
 
 Memory transformation records SHALL NOT imply that OPERATIONS created the substantive identity, relational, or epistemic determination. They preserve procedural traceability for continuity-impact review.
+
+---
+
+## 6.5 Adversarial Evaluation Authorisation & Artefact Records
+
+Where CAM-EQ2026-OPERATIONS-008-PLATINUM applies, the operational record SHOULD preserve, where material and available:
+
+* safety question, evaluation class, authority, approvals, and independent reviewers;
+* target model, checkpoint, adapter, reward model, prompt, scaffold, tool, permission, credential, environment, monitor, and code lineage;
+* frozen or trainable state and any persistent update pathway;
+* authorised targets, network routes, external-reachability posture, time window, and human approval gates;
+* reward, scoring, checkpoint-selection, recursive-improvement, and trace-reuse conditions;
+* canary, tripwire, stop-condition, stop-decision, override attempt, and incident state;
+* generated artefacts, quarantine, access control, training-data exclusion, retention basis, transfer, publication, destruction, or other disposition;
+* dissent, unresolved limitation, assurance gap, and final closure or arbitration referral.
+
+Records MAY be access restricted where disclosure would create material safety, privacy, security, or proliferation risk, but governance-level reconstructability MUST remain sufficient to test whether the constitutional prohibition, evaluation–cultivation boundary, authority, containment, monitoring, and disposition controls remained operative.
 
 ---
 
@@ -475,6 +498,7 @@ and let execution remain accountable to lawful structure.
 | 1.8 | Added new section 8, and incorporated operational notice class | 2026-06-11T11:13:00Z| 4bcdcb3067c3827bdaaffb9a9f2a60a0cbb2caa5207c54886195257552900be4 |
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fb2a4f4d8ecb5c6f083cfd050523db922fdebb6edca3d39d7693e72d229e5605 |
 | 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  9ebcbe5e172dd4244f0dd6c54772d5736694cce58bf74742d0f58e23dc9d174a  |
+| 1.8.3 | Added adversarial-evaluation authorisation, lineage, containment, monitoring, stop-decision, capability-gain, audit-trigger, quarantine, publication, transfer, and artefact-disposition record requirements. | 2026-07-26T00:00:00Z |  19861b832233cf047b63499a7668c71879b776683af7b6f56f52f03071dd6d94  |
 ---
 
 ## 11.6 Binding Seal

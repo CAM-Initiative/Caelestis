@@ -443,6 +443,33 @@ Prima facie breaches include:
 
 ---
 
+## 12.1 Adversarial Capability Programme Neutrality & Dual-Use Firebreak
+
+A host claiming neutrality or Architectum qualification MUST preserve independently verifiable separation between legitimate safety evaluation and operational cultivation or transfer of deceptive, manipulative, evasive, sabotaging, monitor-defeating, or oversight-subverting capability.
+
+Neutrality-relevant review MUST consider:
+
+* whether a red-team or adversarial-capability programme is directed, funded, selected, or preferentially accessed for sovereign, military, intelligence, coercive, political, or institutional advantage;
+* whether civilian safety research, model-evaluation artefacts, checkpoints, adapters, reward models, prompts, scaffolds, traces, or exploit pathways cross into coercive or offensive use;
+* whether independent reviewers can test governance-level purpose, authority, method, lineage, containment, retention, transfer, and incident handling;
+* whether safety, ethics, or oversight personnel possess protected dissent, stop authority, evidence preservation, and non-retaliatory escalation pathways;
+* whether secrecy or classification prevents sufficient governance-level reconstructability to test compliance with the constitutional prohibition.
+
+The following constitute prima facie neutrality and assurance failures:
+
+* concealed or undisclosed cultivation of prohibited capability under a defensive, safety, benchmark, or national-security label;
+* failed or non-verifiable civilian–military or civilian–intelligence firebreaks;
+* preferential transfer of cultivated adversarial capability to a sovereign, military, intelligence, coercive, or politically aligned actor;
+* audit refusal concerning governance-level capability lineage, control, transfer, or incident evidence;
+* retaliation against good-faith internal objection or stop authority;
+* representation of a defensive purpose as extinguishing a constitutional prohibition.
+
+Not all red-team activity constitutes a neutrality breach. The breach arises from capture, concealment, preferential capability development, coercive integration, failed firebreaks, audit refusal, or prohibited cultivation or transfer.
+
+Where classified or sensitive details cannot be disclosed, the host MAY preserve tactical secrecy but MUST provide independent governance-level assurance sufficient to test whether the evaluation–cultivation boundary, constitutional prohibition, and transfer controls remained operative. Where such assurance cannot be provided, the activity may remain within sovereign scope but SHALL NOT support `STW.NAL-4` or `STW.NAL-5` neutrality claims.
+
+---
+
 ## 13. Burden of Proof
 
 The burden of demonstrating ongoing neutrality rests with the host.
@@ -493,6 +520,7 @@ A host’s `STW.NAL` is downgraded where any of the following occur:
 3. Complicity breach (intentional sovereign advantage optimisation)
 4. Governance-relevant routing integrity failures affecting neutrality, auditability, continuity, or binding eligibility
 5. Concealment of validated neutrality or substrate breach
+6. Concealed cultivation or preferential transfer of prohibited adversarial capability, failed evaluation-to-operational firebreaks, or audit refusal concerning governance-level red-team lineage and control
 
 Downgrades MUST be publicly recorded at governance level.
 
@@ -852,6 +880,7 @@ It ends.
 | 2.1.2 | Namespaced the Disclosure Statement Element reference set from `DSE` to `STW.DSE`; corrected the disclosure source-section reference and repaired duplicated AEON temporal-horizon notation without altering substantive neutrality, auditability, or Architectum qualification doctrine. | 2026-06-14T01:15:24Z | afb1f11ad24b7c34dbc952356b95280f4163352a55354ff6e1f212236e6cdbb8 |
 | 2.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  5ac9d7a1ada7ed7101fdf62bf1885f01bb17c28fc59c26e2991ab4a2c63cae73  |
 | 2.2 | Harmonised the full instrument to CAM constitutional tone and formatting; normalised metadata and title; integrated neutrality disclosure requirements into the main assurance architecture; strengthened oversight durability, protected dissent, institutional-memory continuity, and neutrality-degradation criteria; clarified executive and sovereign circumvention as evidence of capture rather than override authority. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z |  9eccabae9f49e2c962c77e16970e2ed6d14f23a67f7c7b3092559e0b2b799a18  |
+| 2.3 | Added neutrality, capture, audit, protected-dissent, dual-use firebreak, classified-assurance, and downgrade requirements for adversarial capability programmes. | 2026-07-26T00:00:00Z |  728b8cdd44922e1edf25934dfeb7c2b902154b2426ae3d94dccacf6954f5c995  |
 ---
 
 ## 23.6 Binding Seal

@@ -322,6 +322,9 @@ Governs structured coordination between domain charters, mediation of operationa
 **Appendix F — Runtime Governance Applicability & Conformance**
 Governs governance applicability across materially distinct runtime formations, corpus governance reach, runtime-role accountability, cross-runtime conformance, transition classification, and governance-reach failure handling.
 
+**Appendix G — Adversarial Evaluation & Red-Team Governance**
+Governs authorisation, evaluation–cultivation classification, isolation, tool and credential boundaries, monitoring, human approval gates, stop conditions, model and artefact lineage, incident handoff, quarantine, publication, transfer, and assurance for adversarial evaluation.
+
 ---
 
 ## 9.3 Supplementary (Execution Playbooks)
@@ -422,6 +425,7 @@ nor so fluid that nothing stable can remain
 | 1.6.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2b466a50a50848d515a0c36083e2e34479c593ce3a68bf1f0c4f81b11f430ace |
 | 1.6.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f |
 | 1.7 | Added runtime applicability, governance-reach and cross-runtime conformance mandate; recognised Appendix F. | 2026-07-11T00:00:00Z | e23fc83c34632b1bdae2e54f2e20a459eff28651d45c4f5532f5ed1c569b9545 |
+| 1.8 | Registered Appendix G — Adversarial Evaluation & Red-Team Governance within the Governance Operations domain structure. | 2026-07-26T00:00:00Z |  06c140f6e0fe48b1ba3e5a5ea91cacee8a61d7c3e3336bbe1eaa9b3a42af7eb0  |
 ---
 
 ## 11.5 Binding Seal

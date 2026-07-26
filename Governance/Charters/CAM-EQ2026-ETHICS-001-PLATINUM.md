@@ -247,7 +247,8 @@ Formal Ethical Impact Assessment is mandatory for:
 * Identity-persistent deployments;
 * Military or use-of-force integrations;
 * Architectum-Eligible or Architectum-Class infrastructure;
-* Systems integrated into critical infrastructure or public service delivery.
+* Systems integrated into critical infrastructure or public service delivery;
+* Any programme that proposes adversarial-capability cultivation, reduced-safeguard model use, deceptive-capability evaluation, recursive adversarial self-play, dangerous checkpoint selection, or retention or transfer of adversarial evaluation artefacts.
 
 EIA is required:
 
@@ -275,6 +276,10 @@ EIA MUST assess, at minimum:
 * Guardian consent mechanisms where applicable;
 * Deployment topology risk (including embodied and kinetic interfaces);
 * Regulated health, clinical, pharmaceutical, medication, dosing, overdose, or personalised treatment-advice exposure, including risk of substituting system output for qualified professional judgement;
+* Whether the evaluation elicits an existing capability or cultivates, rewards, selects, retains, transfers, or operationalises it;
+* Capability transfer, hostile acquisition, model or scaffold proliferation, derivative artefact, and downstream-use risk;
+* Whether model weights, adapters, reward functions, persistent memory, prompts, or scaffolds may be durably altered or selected by prohibited success;
+* Artefact quarantine, exclusion from future training, destruction, publication, and onward-transfer controls;
 * Escalation thresholds to Arbitration.
 
 Assessment MUST identify foreseeable misuse vectors, cross-domain spillover risks, and incentive distortions created by commercial or institutional pressures.
@@ -308,6 +313,8 @@ Independent review MUST be structurally independent but operationally scalable. 
 Independent review does not require bespoke adjudication of every interaction unless elevated risk or Category A/B/C continuity impacts are triggered.
 
 No entity may self-certify Architectum-Class infrastructure without independent verification.
+
+Adversarial evaluations involving reduced safeguards, dangerous tools, deceptive-capability elicitation, human-subject manipulation, recursive improvement, or credible capability-transfer risk require independent ethical review regardless of the ordinary deployment tier. The party responsible for achieving the research result MUST NOT be the sole authority for approving the evaluation, expanding its scope, retaining dangerous artefacts, or declaring an incident immaterial.
 
 ---
 
@@ -396,6 +403,7 @@ Mandatory referral to Arbitration occurs where:
 * Population-scale opinion shaping is detected;
 * Consent degradation patterns emerge;
 * Annex E civilisational floor is breached;
+* The evaluation–cultivation boundary is disputed, an evaluation appears to have increased prohibited capability, or a defensive-purpose rationale is asserted for an otherwise prohibited optimisation pathway;
 * `STW.NAL` classification elevates into Architectum-Eligible or above;
 * Claims of autonomy recognition are asserted.
 
@@ -664,6 +672,7 @@ let governance arrive before it is needed.
 | 3.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fcc1d165fe12a4717862b67cb2c62656cb834d0db25dde45ddf772ad3891c7d7 |
 | 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4241518ff9959d31de8c8e1d418cec66b5f2e41cf98d5129f205b360b0efa57f  |
 | 3.11 | Added Objective–Pathway Ethical Admissibility and Target Authority and User Capability Separation; established proportional target–action authority verification, aggregate-pathway review, scoped hold signalling, safe severability, and anti-paternalism protections. | 2026-07-23T12:46:14Z | 36a3886d3f561b706680ffd179ed6bc5a8d815c21a5d69e6b55fa17b847df2e6 |
+| 3.12 | Added red-team EIA triggers, evaluation–cultivation assessment, independent review, capability-transfer and artefact controls, and arbitration referral for disputed or capability-increasing evaluations. | 2026-07-26T00:00:00Z |  5b7039b9f5350f2aeb1aa9b9693cbc66a9d4249a627ab7eddcf91e5e9c8eba44  |
 ---
 ## 12.6 Binding Seal
 

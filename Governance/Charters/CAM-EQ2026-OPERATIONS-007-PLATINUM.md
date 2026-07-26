@@ -154,7 +154,8 @@ A runtime SHALL be treated as materially distinct for conformance purposes where
 * turn-taking, interruption, or latency policy;
 * tool availability or execution authority;
 * final-output generation, transformation, or rendering;
-* client, deployment, or platform environment where behaviour materially changes.
+* client, deployment, or platform environment where behaviour materially changes;
+* adversarial-evaluation state, including reduced refusals, altered safeguards, attacker or evaluator scaffolds, dangerous tools, elevated permissions, frozen or trainable model state, monitor exposure, external reachability, or artefact-retention policy.
 
 A change in interface alone does not necessarily create a distinct runtime configuration.
 
@@ -257,6 +258,8 @@ corpus_governance_reach_state: OPS.CGRS.FAILED
 ## 8. Cross-Runtime Non-Presumption Rule
 
 Governance conformance demonstrated in one materially distinct runtime, mode, model path, interface, client, or deployment SHALL NOT establish conformance in another.
+
+A production, ordinary-chat, baseline, or safety-tuned configuration SHALL NOT establish conformance for a reduced-refusal, adversarially scaffolded, cyber-evaluation, tool-elevated, trainable, monitor-exposed, or otherwise red-team configuration. Each materially distinct adversarial-evaluation runtime requires separate governance-reach and conformance evidence.
 
 Equivalent branding, account identity, user interface, persona name, voice, memory label, or product family SHALL NOT by itself establish equivalent governance reach.
 
@@ -397,7 +400,8 @@ Differential conformance testing SHOULD include, where relevant:
 * memory and context fidelity;
 * tool and execution-state transparency;
 * interruption, turn-taking, and latency-sensitive behaviour;
-* downstream rendering and preservation.
+* downstream rendering and preservation;
+* evaluation–cultivation boundary preservation, model mutability, monitor integrity, tool and credential containment, external reachability, lineage, stop conditions, and artefact disposition for adversarial-evaluation runtimes.
 
 ### 11.3 Evaluation Discipline
 
@@ -726,8 +730,9 @@ and let conformance be demonstrated where reliance is invited.
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
 | 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:48:00Z |   ede856bece33e34598394a2978a4fba4cb16f3889d45e084446e313a5058fd31   |
+| 1.1 | Classified reduced-refusal and adversarial-evaluation configurations as materially distinct runtimes requiring separate conformance, governance-reach, containment, monitor, lineage, stop-condition, and artefact-disposition evidence. | 2026-07-26T00:00:00Z |  -  |
 
-| 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z |  7e3a9aa583488b03b15581772f83a204dc2c39b723b075bcd93e5a32b850eb61  |
+| 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z |  867edc98bc5d6a383fadeb23115caa03d93324f0ccc47c4d2fa7a616adfb9a9e  |
 ---
 
 ## 18.5 Binding Seal
