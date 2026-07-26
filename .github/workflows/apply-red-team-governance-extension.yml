@@ -48,6 +48,29 @@ jobs:
           exec(compile(source, str(applicator), "exec"), {"__name__": "__main__", "__file__": str(applicator)})
           PY
 
+      - name: Normalize newly added trailing whitespace
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import subprocess
+
+          result = subprocess.run(["git", "diff", "--check"], text=True, capture_output=True)
+          findings = {}
+          for raw in result.stdout.splitlines():
+              match = re.match(r"^(.+):(\d+): trailing whitespace\.$", raw)
+              if match:
+                  findings.setdefault(match.group(1), set()).add(int(match.group(2)))
+          for filename, line_numbers in findings.items():
+              path = Path(filename)
+              lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+              for number in line_numbers:
+                  index = number - 1
+                  ending = "\n" if lines[index].endswith("\n") else ""
+                  lines[index] = lines[index].rstrip(" \t\r\n") + ending
+              path.write_text("".join(lines), encoding="utf-8")
+          PY
+
       - name: Rebuild source indices before sealing
         run: |
           python .github/scripts/update-CAM-Constitution-Index.py
