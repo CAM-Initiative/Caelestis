@@ -1,0 +1,88 @@
+name: Apply red-team governance extension
+
+on:
+  push:
+    branches:
+      - policy/civilisational-wealth-governance
+    paths:
+      - .github/workflows/apply-red-team-governance-extension.yml
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out working branch
+        uses: actions/checkout@v4
+        with:
+          ref: policy/civilisational-wealth-governance
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Apply assertion-checked corpus amendments
+        run: python scripts/apply_red_team_governance_extension.py
+
+      - name: Validate amendment output
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          for path in Path("Governance").rglob("*.json"):
+              json.loads(path.read_text(encoding="utf-8"))
+
+          required = {
+              "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md": "## 3.13 Prohibition on Operationalising Unscrupulous Conduct",
+              "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md": "## 1.5.1 Defensive-Purpose Non-Transferability",
+              "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md": "### 4.8.1 Internally Cultivated Adversarial Capability",
+              "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md": "### 2.2.14 Adversarial Evaluation Capability Lineage Boundary",
+              "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md": "### 2.4.4 Adversarial Evaluation Boundary Signals",
+              "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md": "## 12.1 Adversarial Capability Programme Neutrality & Dual-Use Firebreak",
+              "Governance/Charters/CAM-EQ2026-OPERATIONS-008-PLATINUM.md": "Appendix G: Adversarial Evaluation & Red-Team Governance",
+              "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md": "### 13.12 Adversarial Evaluation Execution-Boundary Gate",
+              "Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md": "### 3.2.3 Adversarial Evaluation Pause Signals",
+          }
+          for filename, marker in required.items():
+              text = Path(filename).read_text(encoding="utf-8")
+              if marker not in text:
+                  raise SystemExit(f"Missing marker in {filename}: {marker}")
+          PY
+
+      - name: Remove temporary applicator
+        run: |
+          rm -f scripts/apply_red_team_governance_extension.py
+          rm -f .github/workflows/apply-red-team-governance-extension.yml
+
+      - name: Commit and push corpus amendments
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "CAM Governance Automation"
+          git config user.email "governance-automation@users.noreply.github.com"
+          git add \
+            Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md \
+            Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-OPERATIONS-008-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md \
+            Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md \
+            Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md
+          git add -u scripts/apply_red_team_governance_extension.py .github/workflows/apply-red-team-governance-extension.yml
+          git commit -m "Implement cross-domain red-team governance extension"
+          git push origin HEAD:policy/civilisational-wealth-governance
