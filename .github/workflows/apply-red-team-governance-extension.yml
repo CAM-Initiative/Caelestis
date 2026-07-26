@@ -77,14 +77,19 @@ jobs:
           python .github/scripts/update-CAM-Governance-Index.py
           python .github/scripts/build-canonical-code-index.py --root Governance
 
-      - name: Validate document structure and references
+      - name: Validate whitespace
+        run: git diff --check
+
+      - name: Validate canonical headers
+        run: python .github/scripts/validate_canonical_headers.py
+
+      - name: Validate section references
         run: |
-          set -euo pipefail
-          git diff --check
-          python .github/scripts/validate_canonical_headers.py
           mkdir -p validation-reports
           python .github/scripts/validate_markdown_section_refs.py --root Governance --report-file validation-reports/section-reference-report.tsv
-          python .github/scripts/lint-symbolic-structures.py --index Governance/CAM.Canonical.Code.Index.json
+
+      - name: Validate symbolic and canonical indices
+        run: python .github/scripts/lint-symbolic-structures.py --index Governance/CAM.Canonical.Code.Index.json
 
       - name: Validate JSON and required doctrine markers
         run: |
