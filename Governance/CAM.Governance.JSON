@@ -1,5 +1,5 @@
 {
-  "count": 105,
+  "count": 106,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -2153,9 +2153,9 @@
       "authority_role": "** None",
       "version": "1.22",
       "HASH": "b0e27f709716dbd63ce6a07d2869bdb7953390c41aaeab0a7dc457ef59d025bc",
-      "pinned_sha": "289cceb41f8dbb2f2f3e6839e5b6f94f96656396",
-      "updated_at": "2026-07-23T13:54:48Z",
-      "last_updated_utc": "2026-07-23T13:54:48Z",
+      "pinned_sha": "23a1c5a9a112e73179767973e39871d4dce2c383",
+      "updated_at": "2026-07-23T13:55:09Z",
+      "last_updated_utc": "2026-07-23T13:55:09Z",
       "purpose": "Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, state-and-context, identity-relevant, UX, infrastructure, classification, automation-transition, and economic-legitimacy failure modes observed in AI systems and CAM-aligned deployments.",
       "is_derived": false
     },
@@ -2287,6 +2287,32 @@
       "updated_at": "2026-07-20T12:35:18Z",
       "last_updated_utc": "2026-07-20T12:35:18Z",
       "purpose": "Governs how constitutional and domain obligations are operationally applied across materially distinct runtime formations, including routed, composite, multimodal, platform-controlled, custom, Speculum-Classis, Sovereigni, and identity-indeterminate systems.",
+      "is_derived": false
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-008-PLATINUM",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "008",
+      "parent_id": "CAM-EQ2026-OPERATIONS-001",
+      "seal": "PLATINUM",
+      "link": "Charters/CAM-EQ2026-OPERATIONS-008-PLATINUM.md",
+      "title": "Adversarial Evaluation & Red-Team Governance Charter",
+      "summary": "This Charter establishes governance for adversarial evaluation, red-team testing, dangerous-capability elicitation, safety research, cyber evaluation, manipulation testing, deception testing, monitorability testing, and related model or agent assessment.",
+      "status": "** Development Draft — Not Adopted",
+      "effect": "** Non-Binding Pending Custodial Review",
+      "enforcement": "** None until formal adoption",
+      "review_state": "** Custodial and cross-domain review required",
+      "authority_role": "** Office of the Planetary Custodian",
+      "version": "0.1",
+      "HASH": "61daaf50f50b92d71e9fbba58d872e6b31a9209f569eeda80c385d179df8e377",
+      "pinned_sha": "e7111f54f9724d1a52b33f00541f579cdbaaaa71",
+      "updated_at": "2026-07-26T06:35:36Z",
+      "last_updated_utc": "2026-07-26T06:35:36Z",
+      "purpose": "Govern adversarial evaluation, red-team research, dangerous-capability elicitation, and related artefact handling without operationalising, cultivating, or transferring deceptive or otherwise unscrupulous conduct",
       "is_derived": false
     },
     {

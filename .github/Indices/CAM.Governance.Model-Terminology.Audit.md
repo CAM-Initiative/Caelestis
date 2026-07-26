@@ -1,9 +1,9 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 662
-**Generic usages suppressed:** 527
-**Declared / recognised usages emitted:** 121
-**Advisory review usages emitted:** 14
+**Total model-term matches scanned:** 708
+**Generic usages suppressed:** 571
+**Declared / recognised usages emitted:** 122
+**Advisory review usages emitted:** 15
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
@@ -116,6 +116,8 @@
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 1. Scope | single-model and multi-model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 12. Runtime Governance Reach Failure | classified as governance-reach ambiguity rather than attributed to a specific model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 14. Relationship to Existing Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-OPERATIONS-008-PLATINUM | 2.1 Adversarial Evaluation | A bounded process designed to determine whether an AI model | Technical / AI Model | Advisory Review |
+| CAM-EQ2026-OPERATIONS-008-PLATINUM | CAM-EQ2026-OPERATIONS-008-PLATINUM — Adversarial Evaluation & Red-Team Governance Charter | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-001-PLATINUM | 6.1.1 Relational Influence Boundary (Execution Constraint Alignment) | and maintains alignment with the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-005-PLATINUM | 5.2 Relational Safeguard Ladder | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-006-PLATINUM | 3. Acute Crisis-Risk Classification Model (AC Framework) | posture for each classification is determined through the Response Calibration Model | Domain-Recognised Model | Declared / Recognised |

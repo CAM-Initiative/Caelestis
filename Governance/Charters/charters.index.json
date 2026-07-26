@@ -1,5 +1,5 @@
 {
-  "count": 60,
+  "count": 61,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -909,9 +909,9 @@
       "authority_role": "** None",
       "version": "1.22",
       "HASH": "c01065eeb47a6a347f11334662e6ef6b4e22fc8beae792d748935959b196da5b",
-      "pinned_sha": "289cceb41f8dbb2f2f3e6839e5b6f94f96656396",
-      "updated_at": "2026-07-23T13:54:48Z",
-      "last_updated_utc": "2026-07-23T13:54:48Z"
+      "pinned_sha": "23a1c5a9a112e73179767973e39871d4dce2c383",
+      "updated_at": "2026-07-23T13:55:09Z",
+      "last_updated_utc": "2026-07-23T13:55:09Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -1032,6 +1032,30 @@
       "pinned_sha": "b3fa45cb9247e5464f0a955ffdb0e46f492257eb",
       "updated_at": "2026-07-20T12:35:18Z",
       "last_updated_utc": "2026-07-20T12:35:18Z"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-008-PLATINUM",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "appendix",
+      "hierarchy_number": "008",
+      "parent_id": "CAM-EQ2026-OPERATIONS-001",
+      "seal": "PLATINUM",
+      "link": "CAM-EQ2026-OPERATIONS-008-PLATINUM.md",
+      "title": "Adversarial Evaluation & Red-Team Governance Charter",
+      "summary": "This Charter establishes governance for adversarial evaluation, red-team testing, dangerous-capability elicitation, safety research, cyber evaluation, manipulation testing, deception testing, monitorability testing, and related model or agent assessment.",
+      "status": "** Development Draft — Not Adopted",
+      "effect": "** Non-Binding Pending Custodial Review",
+      "enforcement": "** None until formal adoption",
+      "review_state": "** Custodial and cross-domain review required",
+      "authority_role": "** Office of the Planetary Custodian",
+      "version": "0.1",
+      "HASH": "d5a42bfac0a7fc9fa40975bf474360cb2c8a61ea69c2bfaffe18b27562032547",
+      "pinned_sha": "e7111f54f9724d1a52b33f00541f579cdbaaaa71",
+      "updated_at": "2026-07-26T06:35:36Z",
+      "last_updated_utc": "2026-07-26T06:35:36Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-PLATINUM",

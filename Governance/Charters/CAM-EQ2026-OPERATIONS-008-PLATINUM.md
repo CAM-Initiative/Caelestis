@@ -943,4 +943,4 @@ May capability be examined without being crowned.
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
-| 0.1 | Initial development draft establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties | 2026-07-24T00:00:00Z | PENDING |
+| 0.1 | Initial development draft establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties | 2026-07-24T00:00:00Z | d5a42bfac0a7fc9fa40975bf474360cb2c8a61ea69c2bfaffe18b27562032547 |
