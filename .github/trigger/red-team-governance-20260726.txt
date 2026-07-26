@@ -1,2 +1,2 @@
 Temporary same-repository trigger for the assertion-checked cross-domain red-team governance extension on policy/civilisational-wealth-governance.
-Diagnostic rebuild pass 4: applicator file context supplied.
+Diagnostic rebuild pass 5: isolated structural validations.
