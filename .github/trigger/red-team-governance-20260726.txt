@@ -1,2 +1,2 @@
 Temporary same-repository trigger for the assertion-checked cross-domain red-team governance extension on policy/civilisational-wealth-governance.
-Diagnostic rebuild pass 2.
+Diagnostic rebuild pass 3: sealable blank ledger hashes.
