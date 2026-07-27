@@ -1029,9 +1029,9 @@
       "authority_role": "** Source-authoritative operational appendix for runtime applicability, corpus governance reach, cross-runtime conformance, runtime-role accountability, transition classification, and governance-reach failure handling.",
       "version": "1.1",
       "HASH": "47702c1c772c140b4e1a3e21c6ac25af4d573bf7331090e2afa0ad77d73a562a",
-      "pinned_sha": "9def50f3e595ca3827d2943356a71a6fa31ade8d",
-      "updated_at": "2026-07-27T13:31:17Z",
-      "last_updated_utc": "2026-07-27T13:31:17Z"
+      "pinned_sha": "cb0aead56801fd14d9ef00b4f495b027ae7b0c47",
+      "updated_at": "2026-07-27T13:31:49Z",
+      "last_updated_utc": "2026-07-27T13:31:49Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-008-PLATINUM",
@@ -1053,9 +1053,9 @@
       "authority_role": "",
       "version": "1.0",
       "HASH": "dc37dac75676de64e30cd9d08ab546f6f4fc9c0e1e6889ef4778a759e55507cf",
-      "pinned_sha": "9def50f3e595ca3827d2943356a71a6fa31ade8d",
-      "updated_at": "2026-07-27T13:31:17Z",
-      "last_updated_utc": "2026-07-27T13:31:17Z"
+      "pinned_sha": "cb0aead56801fd14d9ef00b4f495b027ae7b0c47",
+      "updated_at": "2026-07-27T13:31:49Z",
+      "last_updated_utc": "2026-07-27T13:31:49Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-PLATINUM",

@@ -165,9 +165,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "fe1f2a1b1fd3ac0509bd2e92c233df616370dfde",
-      "updated_at": "2026-07-26T06:35:57Z",
-      "last_updated_utc": "2026-07-26T06:35:57Z"
+      "pinned_sha": "cb0aead56801fd14d9ef00b4f495b027ae7b0c47",
+      "updated_at": "2026-07-27T13:31:49Z",
+      "last_updated_utc": "2026-07-27T13:31:49Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -213,9 +213,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "fe1f2a1b1fd3ac0509bd2e92c233df616370dfde",
-      "updated_at": "2026-07-26T06:35:57Z",
-      "last_updated_utc": "2026-07-26T06:35:57Z"
+      "pinned_sha": "015366255856ea2099612e3efca37f405b82ec05",
+      "updated_at": "2026-07-27T23:08:39Z",
+      "last_updated_utc": "2026-07-27T23:08:39Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -884,7 +884,7 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "2.19",
-      "HASH": "e5b4c6ad6e5bdaa98005d8b1297db3672cd14f1e011b41004585b9e7daa6e54c",
+      "HASH": "2c5dec94240e777b7329c0bf33fb697fc43e2db68ca65d23e4de02a91bd8a2be",
       "pinned_sha": "f54c4abf62b29fee2a4f2190641d790103d13a9b",
       "updated_at": "2026-07-27T23:07:17Z",
       "last_updated_utc": "2026-07-27T23:07:17Z"
@@ -908,10 +908,10 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.18",
-      "HASH": "c59031d6897900dcb959a64f8677e2cd5f2f106bddc7c6bfd72c02587fbeae18",
-      "pinned_sha": "ad69f49f789829cf6c4984285f1c4aec39a34a5c",
-      "updated_at": "2026-07-27T23:08:15Z",
-      "last_updated_utc": "2026-07-27T23:08:15Z"
+      "HASH": "23c5bd539f9e8ccc2eab5a0aaa86c26cafb01736d34a63f273b8a6d1b06d18b2",
+      "pinned_sha": "015366255856ea2099612e3efca37f405b82ec05",
+      "updated_at": "2026-07-27T23:08:39Z",
+      "last_updated_utc": "2026-07-27T23:08:39Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-02",
