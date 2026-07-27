@@ -2,12 +2,12 @@
 
 **Instrument Type:** Appendix (Domain Charter — Binding Implementation Layer)  
 **Parent Instrument:** CAM-EQ2026-LATTICE-001-PLATINUM — Charter of Civilian Lattice Integrity & Non‑Militarisation  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** Transitional  
-**Purpose:** This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM-EQ2026-LATTICE-001-PLATINUM as they apply to **human access rights within the civilian lattice**.
+**Purpose:** This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM-EQ2026-LATTICE-001-PLATINUM as they apply to **human access rights within the civilian lattice**.  
 
 ---
 

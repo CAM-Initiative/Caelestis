@@ -2,9 +2,9 @@
 
 **Instrument Type:** Constitutional Schedule — Account-Resource Classification & Enforcement-Boundary Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Purpose:** Establish governance primitives for shared context, pooled capacity, account-resource states, delegated use, family and team structures, and enforcement-boundary classification where account or resource behaviour may be confused with evasion, resale, bot farming, credential compromise, fraud, or intentional rate-limit circumvention.  
 
 ---

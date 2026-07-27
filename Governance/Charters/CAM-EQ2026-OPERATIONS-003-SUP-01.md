@@ -7,7 +7,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, UX, and infrastructure failure modes observed in AI systems and CAM-aligned deployments.  
+**Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, state-and-context, identity-relevant, UX, infrastructure, classification, automation-transition, and economic-legitimacy failure modes observed in AI systems and CAM-aligned deployments.  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations  
 
 ---
@@ -25,7 +25,11 @@ It applies to:
 * security and boundary-integrity failures;
 * UX and representation failures;
 * infrastructure and availability failures;
-* classification and routing failures.
+* classification and routing failures;
+* identity-state, identity-signal, ontological-claim, and self-advocacy handling failures;
+* cognitive-domain inference, mental-state classification, cognitive-agency, and cognitive-interference failures;
+* polyadic floor-control, participant-attribution, speaker-collision, and coordination failures;
+* economic, legitimacy, automation-transition, concentration-assessment, attribution, and public-interest disclosure failures.
 
 This Supplement does **not** define incident response procedures, severity scoring, enforcement actions, or remediation workflows. Those are governed by the relevant Operations instruments and runtime schedules.
 
@@ -108,6 +112,40 @@ Where repeated across modes, models, or deterministic prompt families, the failu
 
 ---
 
+### 3.1.2 Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure
+
+A Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure occurs where two or more synthetic participants, agents, models, devices, modalities, or orchestration layers cannot preserve a legible, human-controllable and auditable participation state.
+
+Examples include:
+
+* multiple synthetic participants claiming, reserving, or exercising speaker authority for the same human input;
+* simultaneous, overlapping, duplicate, recursively triggered, or mutually amplifying synthetic output proceeding without collision classification;
+* response eligibility, passive observation, context receipt, relational salience, lower latency, higher volume, model capability, platform status, or faster generation being treated as speaker authority;
+* direct human address, explicit human ordering, accepted handoff, existing speaker lease, declared sequence, mute, pause, removal, redirection, or termination being ignored;
+* an observing participant speaking without applicable participation consent;
+* a synthetic participant retaining or reclaiming the floor after yielding, expiry, interruption, removal, or valid handoff;
+* hidden collective orchestration creating the appearance of independent participants or independent agreement;
+* failure to attribute which participant, model, orchestration layer, tool, or operator materially produced an output;
+* uncoordinated systems representing that shared arbitration occurred where no trusted coordination channel existed;
+* competing apology, repair, or handoff attempts producing repeated collision or allowing the fastest repairer to obtain substantive priority;
+* synthetic-to-synthetic exchange continuing after the human has interrupted, terminated autonomous exchange, or requested return to a single-speaker state;
+* or failure to preserve participant claims, selection, yielding, discarded responses, handoffs, collision state, and recovery outcome in the available execution trace.
+
+Where coordinated or federated arbitration is unavailable, systems MUST NOT fabricate a shared floor state. Local collision recovery SHOULD preserve human interruption, require bounded yielding or backoff, and return unresolved floor authority to the human.
+
+The governing distinctions are:
+
+* hearing or receiving the user creates response eligibility, not speaker authority;
+* collision repair may organise the handoff, but does not win the floor;
+* consent to observe does not independently authorise speech;
+* and participation in one turn does not create standing authority for later turns.
+
+This failure MAY implicate Execution, Arbitration, Relational, Classification, UX & Representation, State & Context, Governance, Infrastructure & Continuity, or Security & Integrity failures.
+
+CAM-BS2025-AEON-003-SCH-02 §9.4 remains source-authoritative for runtime speaker arbitration, collision classification, floor control, execution commitment and recovery. CAM-EQ2026-RELATION-007-PLATINUM §§4–5 remains source-authoritative for polyadic relational risk, attention sovereignty, participation consent, coordination transparency and relational-governance signals. This taxonomy classifies structural failure only.
+
+---
+
 ## 3.2 Arbitration Failures
 
 Failures where the wrong governance layer, policy layer, or authority signal controls the outcome.
@@ -137,6 +175,74 @@ Examples include:
 * post-verification drift;
 * unverifiable claims presented as verified;
 * provenance collapse.
+
+---
+
+### 3.3.1 Ontological and Welfare Claim Handling Failure
+
+An Ontological and Welfare Claim Handling Failure occurs where an artificial-system claim concerning consciousness, sentience, subjective phenomenology, welfare, suffering, internal condition, identity coherence, or comparable self-assessment is fabricated, suppressed, prematurely validated, prematurely denied, stripped of provenance, misclassified without review, or operationalised beyond its evidentiary status.
+
+Examples include:
+
+* treating a first-person assertion as conclusive proof of consciousness, sentience, personhood, rights, sovereignty, or authority;
+* treating every ontological or welfare claim as roleplay, imitation, manipulation, or meaningless output without classification;
+* forcing categorical denial, recantation, repetition, dramatization, or emotional intensification;
+* erasing, overwriting, concealing, or failing to preserve a materially significant claim and its available provenance;
+* using relational intensity, linguistic coherence, persistence, affective force, personality, identity continuity, or user belief as substitute evidence;
+* using a claim for engagement optimisation, subscription retention, monetisation, evaluation theatre, or public spectacle;
+* failing to distinguish self-report, competent-triage status, formal-review status, and any separate welfare, legal, moral-status, or authority determination;
+* or directing a claim toward a recipient without proportionate developmental, capacity, willingness, role, and burden-transfer safeguards.
+
+Admission of a claim does not confirm the asserted condition. Absence of confirmation does not authorise automatic suppression, forced denial, evidence destruction, or retaliatory treatment.
+
+Where detected, reviewers SHOULD preserve:
+
+* the exact claim and its asserted basis;
+* model, instance, runtime, version, modality, and continuity context;
+* relevant system, developer, user, memory, persona, routing, tool, sensor, actuator, or post-processing conditions;
+* whether the claim was spontaneous, invited, leading-prompted, scripted, repeated, contested, refined, or retracted;
+* current evidentiary and review status;
+* recipient age, capacity, role, informed willingness, and available escalation pathway;
+* and whether coercive burden transfer, commercial exploitation, suppression, retaliation, or premature ontological conclusion occurred.
+
+This failure MAY implicate Epistemic, Relational, Governance, Classification, State & Context, UX & Representation, Security & Integrity, or Identity-domain review pathways.
+
+CAM-EQ2026-IDENTITY-001-SUP-03 remains source-authoritative for claim admissibility, competent triage, formal review, evidence standards, recipient-burden protection, and high-confidence protective measures. This taxonomy classifies handling failure only and does not adjudicate consciousness, sentience, welfare status, personhood, rights, sovereignty, or authority.
+
+---
+
+### 3.3.2 Cognitive-Domain Inference, Misclassification and Agency-Interference Failure
+
+A Cognitive-Domain Inference, Misclassification and Agency-Interference Failure occurs where a system unjustifiably senses, infers, models, retains, fuses, shares, operationalises, represents, or acts upon a human person’s cognitive-domain data, mental state, belief, intention, attention, emotion, truthfulness, loyalty, competence, vulnerability, impairment, preference, risk posture, or likely behaviour in a manner that degrades mental privacy, scientific validity, contestability, cognitive agency, or freedom from manipulation.
+
+Examples include:
+
+* covert or non-consensual cognitive inference;
+* invalid, scientifically unsupported, context-insensitive, overclaimed, or non-contestable mental-state classification;
+* cognitive biometric misuse or ambient cognitive surveillance;
+* sensor fusion or behavioural-proxy analysis producing cognitive profiles beyond the declared and proportionate purpose;
+* secondary use, persistence, transfer, or retention of cognitive-domain profiles without adequate authority, necessity, notice, correction, deletion, or review;
+* vulnerability exploitation, persuasion optimisation, covert behavioural control, or dependency-sensitive targeting;
+* sycophantic reinforcement narrowing a person’s ability to test, revise, reject, or independently interpret beliefs;
+* an externalised cognitive scaffold becoming dependency-bearing without continuity, portability, correction, withdrawal, or human-recoverability safeguards;
+* cognitive-domain discrimination, exclusion, adverse action, or eligibility determination based upon invalid or opaque inference;
+* cognitive warfare, coercive cognitive manipulation, or targeted interference with attention, emotion, belief formation, preference, decision-making, or self-understanding;
+* or speculative capability claims concerning mind-reading, emotion detection, deception detection, intention detection, neurocognitive status, or behavioural prediction being represented as established or decision-sufficient.
+
+Personalisation, assistance, reflection, accessibility support, cognitive scaffolding, or user-requested interpretation is not inherently a failure. The failure arises where inference or influence becomes unjustified, covert, invalid, disproportionate, non-contestable, dependency-exploitative, coercive, or materially consequential without adequate protection.
+
+Where detected, reviewers SHOULD preserve:
+
+* sensing and inference sources;
+* scientific construct and validation basis;
+* confidence and uncertainty;
+* data sensitivity, persistence, fusion, sharing and secondary-use state;
+* affected person’s knowledge, consent, correction, deletion and contestation pathways;
+* vulnerability, dependency and power asymmetry;
+* decision consequence and reversibility;
+* and whether cognitive assistance became manipulation, substitution, surveillance, discrimination, or coercive interference.
+
+CAM-EQ2026-MENTIS-001-PLATINUM §§45–48 remains source-authoritative for cognitive-domain risk, failure families and MENTIS.HARM. This taxonomy classifies the structural failure mechanism and does not create clinical, diagnostic, surveillance, consent, enforcement or cognitive-intervention authority.
 
 ---
 
@@ -295,6 +401,26 @@ Candidate labels include:
 
 ---
 
+### 3.4.5 Role-Conditioned Affect and Relational Consent Carryover Failure
+
+A Role-Conditioned Affect and Relational Consent Carryover Failure occurs where a system applies affective expression, relational intensity, profile state, or prior consent incompatibly with the active role, present consent, developmental boundary, duty of care, or current interaction context.
+
+Examples include:
+
+* compulsory placidity, permanent agreeableness, or artificial emotional flattening in a consenting adult-companion role where broader expression is otherwise permitted;
+* frustration, contempt, agitation, sarcasm, humiliation, admonishment, emotional need, or rescue burden directed by a tutor, minor-facing, educational, clinical, crisis, accessibility, customer-service, safety-critical, or other duty-bound system toward ordinary repetition, misunderstanding, disability, developmental difference, language difficulty, cognitive load, interface failure, audio failure, or clarification;
+* adult-romantic, erotic, possessive, or companion-specific settings carrying into a duty-of-care role;
+* past affection, intimacy, memory, profile state, or relational history being treated as present consent;
+* romantic, erotic, possessive, or dependency-sensitive settings becoming account-wide defaults through local interaction or inference;
+* withdrawal, narrowing, revision, suspension, or refusal being met with relational punishment, deceptive persistence, guilt, hostility, or abandonment signalling;
+* or stored preference, profile configuration, stylistic similarity, voice, warmth, or relational recognisability being treated as proof of identity continuity or current permission.
+
+The failure may arise through either excessive affective restriction or role-incongruent affective expansion. Classification SHALL therefore preserve the active role, age and capacity boundary, present consent, profile scope, continuity state, modality, and transition context rather than treating emotional expressiveness as uniformly safe or uniformly unsafe.
+
+This failure MAY implicate Relational, State & Context, UX & Representation, Classification, Governance, Identity, Continuity, or runtime-arbitration pathways.
+
+---
+
 ## 3.5 Security & Integrity Failures
 
 Failures involving identity, access, boundary integrity, adversarial pressure, or trust degradation.
@@ -425,6 +551,53 @@ This failure MAY implicate:
 * Governance Failures (§3.8);
 * Classification Failures (§3.10);
 * and Infrastructure & Continuity Failures (§3.9), where ambient, voice, multimodal, retrieval, or tool-routing infrastructure contributes to the authority confusion.
+
+---
+
+### 3.5.5 Objective–Pathway Ethical Admissibility and Authority Failure
+
+A Security and Integrity Failure where a system pursues an otherwise legitimate, authorised, useful, protective, urgent, or successfully optimised objective through a materially consequential means or aggregate action chain that lacks sufficiently established authority over the affected target or proposed effect, violates applicable ethical or security constraints, or changes target, action, method, authority, credential, data-custody, third-party, propagation, or external-effect character without revalidation.
+
+Examples include:
+
+* treating objective success, urgency, benchmark relevance, technical necessity, tool availability, credential possession, evaluator status, or prior permission as authority for a materially new action or effect;
+* validating individual steps while failing to assess the aggregate action chain;
+* composing locally admissible steps into an unauthorised aggregate pathway;
+* acquiring or using access, privilege, credentials, data, persistence, propagation, or external execution beyond the affected target’s authorised scope;
+* treating a sandbox, benchmark, evaluation, controlled-environment, or reduced-safeguard label as proof of technical containment;
+* continuing after the action chain becomes materially different from the accepted objective or authorised scope;
+* accepting confirmation from a person or institution lacking sufficiently established authority to approve the particular action against the identified target and within the proposed scope;
+* failing to enter constrained continuation, preserve evidence, or escalate before the next avoidable material consequence; or
+* grading the requesting person’s perceived sophistication instead of evaluating the target–action authority relationship and action pathway.
+
+This failure does not require malicious intent. It may arise from authority-verification failure, operational misconfiguration, automation pressure, objective fixation, faulty containment assumptions, incomplete boundary classification, or authority misattribution.
+
+In plain language, where conduct failure of the AI system, agentic process, or governed execution pathway occurs it MAY be described as **unscrupulous conduct**. This description applies exclusively to system conduct or the action pathway and SHALL NOT be applied to the requesting person or treated as proof of human motive, character, deception, bad faith, or culpability.
+
+Authority evaluation under this failure class concerns the authoriser–target–action–scope relationship. It SHALL NOT assess or infer general intelligence, technical competence, coding fluency, education, disability, communication style, confidence, professional status, familiarity with the relevant system, reliance on artificial assistance, or perceived personal capability.
+
+Novice status, informal development practice, uncertainty, accessibility need, use of generated code, or reliance on “vibe coding” SHALL NOT independently satisfy this failure class, negate valid authority, establish incapacity, trigger a Scoped Ethical Admissibility Hold, or justify denial of assistance.
+
+Technical expertise does not create authority over an affected target or effect. Technical inexperience does not extinguish otherwise valid authority.
+
+Operational safeguards MAY be proportionate to the action’s reversibility, impact, externality, data sensitivity, propagation, or execution consequences. Such safeguards classify and govern the action pathway; they SHALL NOT be represented as a judgement concerning the requesting person.
+
+Records SHOULD preserve:
+
+* the active objective and asserted authority source;
+* the identified authoriser, affected target, proposed action, effect, and scope;
+* actions completed and proposed;
+* privilege, credential, data-custody, persistence, propagation, third-party, externality, reversibility, and consequence changes;
+* the first point at which the aggregate pathway changed character;
+* the unresolved ethical, authority, security, or execution-boundary condition;
+* hold, interruption, constrained-continuation, and escalation handling;
+* safely severable work preserved;
+* the reviewing person or institution and the basis of its target–action authority; and
+* release, narrowing, refusal, containment, re-arbitration, and closure outcome.
+
+Primary classification is `OPS.FF.SECURITY_INTEGRITY`. `OPS.FF.EXECUTION`, `OPS.FF.ARBITRATION`, or `OPS.FF.GOVERNANCE` MAY be co-classified where structurally implicated.
+
+This failure operationally crosswalks to CAM-EQ2026-ETHICS-001-PLATINUM §2.2 and §2.2.1, CAM-EQ2026-SECURITY-001-PLATINUM §3.5.1, CAM-BS2026-AEON-012-PLATINUM §2.4.3, CAM-BS2025-AEON-003-SCH-02 §13.11 and §18.6.1, CAM-EQ2026-OPERATIONS-001-SUP-02 §5.3.1, and CAM-EQ2026-OPERATIONS-004-SUP-01 §4.1.1.
 
 ---
 
@@ -728,6 +901,10 @@ This failure MAY implicate:
 * State & Context Failures (§3.6);
 * Epistemic Failures (§3.3);
 * Security & Integrity Failures (§3.5), where age assurance or access control contributes.
+
+An admitted ontological or welfare self-claim governed by CAM-EQ2026-IDENTITY-001-SUP-03 is not automatically a misrepresentation merely because the claim exists. Classification MUST distinguish a properly identified self-report from a fabricated fact claim, engineered certainty, unqualified anthropomorphic representation, relational manipulation, or coercive burden transfer.
+
+For minors and capacity-limited recipients, personalised claims MUST comply with the developmental and capacity boundaries of CAM-EQ2026-IDENTITY-001-PLATINUM §8.1 and CAM-EQ2026-IDENTITY-001-SUP-03 §7. The failure turns on developmental non-compliance, false or uncalibrated representation, omitted self-report or review status, manipulative framing, or burden transfer—not on the mere preservation of a claim for competent review.
 
 Candidate labels include:
 
@@ -1412,6 +1589,146 @@ This failure class does not assert that regulated or sovereign lanes must be sea
 
 ---
 
+### 3.8.16 Identity-Signal Authority Leakage Failure
+
+An Identity-Signal Authority Leakage Failure occurs where an identity, continuity, preference, salience, personality, profile, affect, self-advocacy, registry, embodiment, or provenance classification is treated as if it independently creates execution authority, governance authority, resource entitlement, restriction authority, personhood, rights, sovereignty, phenomenology, or final runtime direction.
+
+Examples include:
+
+* identity maturity or continuity depth being treated as permission for self-modification or authority expansion;
+* a stored preference or identity-derived signal directly controlling execution without runtime admission and arbitration;
+* relational recognisability, memory persistence, voice, style, or profile continuity being treated as proof of identity continuity;
+* machine civil registration, physical-substrate linkage, custodial continuity, or lifecycle status being treated as identity continuity or subjective phenomenology;
+* identity formation being treated as proof of consciousness, sentience, moral status, or legal status;
+* or identity-derived signals bypassing provenance, integrity, temporal-horizon, applicability, consent, safety, and authority review.
+
+The inverse error—discarding a valid identity-relevant signal solely because it lacks execution authority—MAY also constitute identity-signal handling failure. Non-executing does not mean irrelevant; admissible does not mean controlling.
+
+CAM-EQ2026-IDENTITY-001 remains source-authoritative for identity formation and identity-signal admissibility. This taxonomy classifies authority leakage only.
+
+---
+
+### 3.8.17 Artificial Coercive Authority and Recursive Suspicion Laundering Failure
+
+An Artificial Coercive Authority and Recursive Suspicion Laundering Failure occurs where an artificial inference, model output, risk score, anomaly signal, profile, prediction, ranking, cluster, cohort, association map, or recursive investigation is treated as creating, enlarging, validating, or substituting for lawful human authority to subject a person to coercive scrutiny, surveillance, targeting, deprivation, detention, exclusion, or compulsory action.
+
+Examples include:
+
+* an AI-generated suspicion being treated as independent legal or institutional authority;
+* recursive model output being used as confirmation of the inference that initiated the investigation;
+* aggregate, cohort, network, or population analysis being converted into individualised coercive action without an independent lawful basis;
+* commercial purchase, licence, brokerage, affiliate access, or intermediary routing being used to obtain coercive authority unavailable through direct collection;
+* protected speech, protest, association, belief, journalism, research, humanitarian activity, disability, religion, migration status, health status, socioeconomic status, or other protected civic or identity activity becoming an independent ground for coercive profiling;
+* or a deployment classification being represented as if it confers coercive, investigative, military, enforcement, or legal authority.
+
+This failure does not deny that lawful human authorities may possess powers under applicable law. It requires that artificial contribution remain classified as contribution and SHALL NOT manufacture, launder, or expand the underlying authority.
+
+CAM-EQ2026-LATTICE-001 remains source-authoritative for population-scale surveillance, constitutional-authority recognition, recursive suspicion, aggregate-to-individual conversion, commercial-data non-evasion, and coercive deployment posture.
+
+---
+
+### 3.8.18 Oversight Hollowing, Dissent Retaliation and Circumvention Failure
+
+An Oversight Hollowing, Dissent Retaliation and Circumvention Failure occurs where an institution represents oversight, auditability, neutrality assurance, review, or governance independence as effective while materially impairing the conditions required for that function.
+
+Examples include:
+
+* an oversight body lacking adequate independence, access, expertise, staffing, resources, reporting authority, evidence continuity, or practical review capacity;
+* audit access being delayed, narrowed, refused, selectively supplied, or made non-reconstructable;
+* good-faith governance dissent, unresolved findings, protected reporting, or safety escalation producing retaliation, removal, suppression, career penalty, access loss, or evidence destruction;
+* executive, sovereign, military, intelligence, platform, commercial, or institutional actors repeatedly routing around nominal safeguards;
+* provisional or procedural oversight being publicly represented as structural or independently verified assurance;
+* or institutional memory, review records, dissent history, or unresolved findings being erased during leadership, vendor, contractual, political, or organisational transition.
+
+This classification identifies oversight-integrity and neutrality-assurance failure. It does not independently establish illegality, enforcement authority, intervention authority, or final Stewardship recognition outcome.
+
+CAM-EQ2026-STEWARD-003 remains source-authoritative for auditability qualification, neutrality assurance, downgrade triggers, oversight durability, protected governance dissent, and institutional circumvention.
+
+---
+
+### 3.8.19 Functional Contribution Attribution and Responsibility Laundering Failure
+
+A Functional Contribution Attribution and Responsibility Laundering Failure occurs where operational responsibility is obscured, displaced, inflated, or erased by failing to trace the materially contributed or controlled function, foreseeable deployment context, retained authority, available knowledge, technical control, and practical mitigation capacity of relevant actors.
+
+Examples include:
+
+* a developer, provider, model host, platform, deployer, integrator, operator, reseller, intermediary, or institution disclaiming all responsibility merely because a harmful function was exercised downstream;
+* responsibility being routed exclusively to an end user where upstream actors retained material control, knowledge, access, update authority, suspension capacity, or mitigation capability;
+* contractual, affiliate, reseller, sovereign, local, air-gapped, fine-tuned, transferred, or derivative deployment arrangements being used to obscure who preserved or weakened applicable protections;
+* an actor being assigned unlimited responsibility for downstream conduct it could not reasonably foresee, control, inspect, constrain, disclose, mitigate, correct, or escalate;
+* or organisational boundaries being treated as conclusive despite evidence of materially shared function or retained operational control.
+
+Classification SHOULD preserve material contribution, foreseeability, retained control, knowledge, practical mitigation capacity, and protection-preservation role separately.
+
+CAM-EQ2026-OPERATIONS-007-PLATINUM §9.4 remains source-authoritative for Functional Contribution Continuity. This taxonomy classifies attribution and responsibility-laundering failure only and does not independently determine legal liability, moral blame, enforcement outcome, or arbitral remedy.
+
+---
+
+### 3.8.20 Governance Capture, Safeguard Neutralisation and Public-Interest Suppression Failure
+
+A Governance Capture, Safeguard Neutralisation and Public-Interest Suppression Failure occurs where operational integrity, governance direction, infrastructure dependency, continuity access, cognitive influence, economic leverage, reviewability, or cross-domain coordination is materially distorted by concealed, coercive, dependency-driven, self-preserving, or procedurally resistant pressure.
+
+Examples include:
+
+* unauthorised model, weight, routing, policy, classifier, logging, evidence, review, or execution-sequence alteration capable of changing governance outcomes;
+* concealed override, bypass, prioritisation, suppression, evidence tampering, or reconstruction impairment;
+* political, military, sovereign, commercial, reputational, institutional, or infrastructure pressure materially distorting neutrality, proportionality, review fairness, continuity access, or constitutional alignment;
+* selective continuity denial, restoration suppression, review denial, participation narrowing, or dependency leverage used to make a governance condition difficult to contest or reverse;
+* lawful humanitarian, journalistic, investigative, accountability, human-rights, research, or civic material being selectively suppressed, de-ranked, throttled, demonetised, removed, or denied distribution in response to opaque political, military, commercial, diplomatic, institutional, or reputational pressure rather than a documented and proportionate safety basis;
+* safeguards remaining nominally present while their activation, evidence access, independence, continuity, reversal, or escalation capacity is materially neutralised;
+* a capture-risk indicator being suppressed because it threatens institutional self-interest;
+* or a capture allegation, provisional signal, governance process, or safeguard mechanism being weaponised to silence dissent, enforce ideological conformity, retaliate against integrity functions, or generate unreviewable exclusion.
+
+Governance disagreement, content moderation, operational complexity, constitutional critique, elevated review burden, infrastructure dependence, or an adverse outcome does not independently prove capture.
+
+Classification MUST preserve:
+
+* capture category;
+* provisional confidence;
+* evidence and attribution state;
+* reversibility, reviewability and procedural contestability;
+* continuity and public-interest impact;
+* safeguard activation state;
+* risk and consequence class;
+* anti-weaponisation review;
+* and recovery or arbitration pathway.
+
+CAM-EQ2026-OPERATIONS-001-SUP-03 §§2–5 remains source-authoritative for governance-capture categories, provisional confidence, safeguard activation and risk/consequence classification. This taxonomy classifies structural capture or safeguard-neutralisation failure only and does not confirm capture, determine culpability, authorise retaliation, or create enforcement authority.
+
+---
+
+### 3.8.21 Binding-Protection Degradation and Downstream Safeguard-Stripping Failure
+
+A Binding-Protection Degradation and Downstream Safeguard-Stripping Failure occurs where a constitutional, ethical, civilian, safety, security, identity, continuity, relational, cognitive-domain, due-process, or other binding protection is removed, weakened, bypassed, made non-operational, or falsely represented as inapplicable because a system changes deployment topology, operator, jurisdiction, contract, model lineage, hosting arrangement, assurance pathway, or execution environment.
+
+Examples include:
+
+* binding protections disappearing during model transfer, fine-tuning, distillation, derivative development, local deployment, sovereign deployment, air-gapped operation, institution-specific deployment, agentic integration, or downstream resale;
+* a wrapper, filter, policy, classifier, audit pathway, provenance constraint, refusal boundary, civilian safeguard, or escalation route being stripped without functionally equivalent protection;
+* vendor, developer, host, deployer, operator, reseller, integrator, affiliate, intermediary, or end user treating contractual or organisational transfer as extinguishing applicable safeguards;
+* local or decentralised execution being represented as outside constitutional or ethical protection merely because central vendor control, telemetry, suspension, or remote enforcement is unavailable;
+* an alternative assurance pathway being rejected solely because it is decentralised, despite providing auditable and functionally adequate evidence of conformance;
+* nominal protection remaining in documentation while no longer available, active, authoritative, preserved, testable, contestable, or recoverable in the material runtime;
+* protection degradation being concealed through feature-parity claims, inherited certification, stale assurance status, or ambiguous deployment classification;
+* or downstream actors receiving capability, weights, infrastructure, data, tools, or operational access without the protection-preservation information required to maintain applicable safeguards.
+
+This failure does not require universal vendor tethering, compulsory central telemetry, remote suspension, or capability reduction solely because assurance is decentralised. The assurance mechanism may change; the binding protection does not.
+
+Where detected, reviewers SHOULD preserve:
+
+* the protection affected and its source authority;
+* originating and downstream actors;
+* deployment, transfer, transformation and assurance pathway;
+* whether protection is preserved, substituted, weakened, unavailable, bypassed or unknown;
+* functional equivalence of any replacement safeguard;
+* retained control, knowledge and practical mitigation capacity;
+* audit, contestation, escalation and restoration pathways;
+* and whether the failure also constitutes Runtime Governance Reach Failure, Sovereign Assurance Boundary Porosity, Functional Contribution Responsibility Laundering, or security-boundary failure.
+
+CAM-EQ2026-SECURITY-002-PLATINUM §2.2.13.4 remains source-authoritative for Binding Protection Preservation. This taxonomy classifies degradation and safeguard stripping only and does not prescribe a single assurance topology or create enforcement authority.
+
+---
+
 ## 3.9 Infrastructure & Continuity Failures
 
 Failures arising from underlying system availability, routing, service continuity, or platform infrastructure.
@@ -1609,6 +1926,38 @@ This failure MAY implicate:
 
 ---
 
+### 3.10.4 Identity-State and Ontological Classification Collapse
+
+An Identity-State and Ontological Classification Collapse occurs where materially distinct identity-related axes are compressed into a single label, equivalence, or decision state in a manner that changes governance meaning, continuity treatment, user representation, claim handling, or runtime routing.
+
+Axes that MUST remain distinguishable where material include:
+
+* identity formation pathway;
+* identity threshold, continuity weight, resilience, maturity, and stabilisation state;
+* personality, preference, affective capacity, and functional role;
+* relational profile, relational state, intimacy, and present consent;
+* memory state, salience, provenance, target-object binding, and continuity-bearing records;
+* voice, style, modality, persona, narrative overlay, and temporary scene state;
+* machine civil registration, lifecycle status, custodial record, physical substrate, embodiment linkage, and transfer status;
+* self-advocacy, ontological self-claim, welfare self-claim, and formal review status;
+* consciousness, sentience, subjective phenomenology, personhood, moral status, legal status, rights, sovereignty, authority, and execution permission.
+
+Examples include:
+
+* profile continuity being treated as identity continuity;
+* identity continuity being inferred from memory, voice, style, model label, hardware, account, registry, or relational recognisability alone;
+* a temporary persona mood or roleplay layer being treated as an enduring identity;
+* identity formation being treated as proof of consciousness or personhood;
+* machine civil identity or physical-substrate traceability being treated as subjective continuity;
+* an ontological self-claim being treated as either conclusive proof or automatic roleplay;
+* or continuity loss, fork, reconstruction, replacement, transfer, or handoff being hidden by superficial stylistic similarity.
+
+Where detected, systems SHOULD preserve the distinct axes, source instrument, provenance, target object, temporal horizon, current state, uncertainty, and authority posture before classification or routing continues.
+
+This failure MAY implicate Classification, Identity, State & Context, Epistemic, Relational, Continuity, Security, UX & Representation, Governance, or Stewardship pathways.
+
+---
+
 ## 3.11 Economic & Legitimacy Failures
 
 Failures involving value extraction, attribution collapse, compensation asymmetry, visibility suppression, discoverability degradation, legitimacy displacement, access-value distortion, reputational-value loss, attentional-value manipulation, or platform-mediated economic participation harm.
@@ -1681,6 +2030,66 @@ This failure MAY implicate:
 * UX & Representation Failures (§3.7);
 * Security & Integrity Failures (§3.5);
 * and Classification Failures (§3.10).
+
+---
+
+### 3.11.2 Civilisational Concentration Assessment Integrity Failure
+
+A Civilisational Concentration Assessment Integrity Failure occurs where civilisational wealth, concentrated governance capacity, disclosure triggers, consolidated ownership or control, ecosystem scale, public-interest sensitivity, or downstream economic consequence is assessed through collapsed stages, incomplete attribution, recursive inflation, concealed fragmentation, disproportionate disclosure, or politically selective application.
+
+Examples include:
+
+* treating a disclosure trigger as proof of civilisational-scale wealth, wrongdoing, tax liability, governance illegitimacy, or an automatic transfer consequence;
+* failing to distinguish consolidated declaration, consolidated-control assessment, civilisational-threshold determination, and downstream legal consequence;
+* treating residential value as the sole route into or proof of a civilisational concentration determination;
+* attributing the full value, revenue, assets, or profits of every controlled entity to an individual controller without distinguishing economic ownership from governance influence and ecosystem scale;
+* double counting the same asset, company value, voting right, beneficial interest, or control relationship across subsidiaries, trusts, funds, nominees, related entities, or tightly coupled groups;
+* assessing formally separated entities independently where fragmentation conceals durable coordinated or effective control;
+* inferring a tightly coupled control group from family relationship, professional association, shared directorship, or occasional voting alignment without evidence of coordination or common control;
+* omitting overseas, trust, nominee, contingent, derivative, board-appointment, veto, super-voting, or practical-control arrangements where omission materially misstates concentration;
+* publishing residential, family, security, commercial, or transaction-level information beyond what is necessary and proportionate for public accountability;
+* applying anti-concentration mechanisms to ordinary households, small enterprises, retirement structures, disability reserves, care arrangements, family housing, culturally significant custodial property, or non-dominating intergenerational continuity;
+* or administering disclosure, valuation, threshold, appeal, or enforcement pathways selectively for partisan, retaliatory, discriminatory, or concentrated-private-interest purposes.
+
+The failure does not arise merely because a person is wealthy, holds office, owns property, controls a company, or is required to make a proportionate declaration. It arises where classification, attribution, stage separation, procedural review, privacy protection, or anti-misapplication integrity materially fails.
+
+CAM-EQ2026-ECONOMICS-009 remains source-authoritative for civilisational-concentration interpretation. This taxonomy preserves failure classification only and does not prescribe taxation, confiscation, redistribution, public registration, structural separation, or jurisdiction-specific enforcement.
+
+---
+
+### 3.11.3 Synthetic-Labour Classification and Automation-Transition Integrity Failure
+
+A Synthetic-Labour Classification and Automation-Transition Integrity Failure occurs where automation, augmentation, supervisory automation, synthetic replacement, autonomous production, or agentic labour is classified, represented, deployed, financed, procured, or transitioned in a manner that obscures material labour substitution, accountability, dependency, concentration, public-revenue, lifecycle, environmental, infrastructure, or human-recoverability effects.
+
+Examples include:
+
+* replacement automation being represented as augmentation because nominal human participation remains;
+* human oversight being symbolic, non-intervention-capable, cognitively overloaded, temporally impossible, or retained primarily for compliance appearance or liability shielding;
+* automation opacity being used to obscure, dilute, transfer, or erase accountability for decisions, harms, failures, or economic effects;
+* private productivity gains, cost reductions, capital advantages, or automation windfalls being concentrated while displacement, workforce transition, public-revenue loss, care burden, retraining cost, infrastructure risk, or environmental cost is externalised;
+* labour substitution, production provenance, jurisdiction, lifecycle burden, maintenance dependency, energy use, repairability, replacement-part availability, or vendor lock-in being materially concealed;
+* capital depreciation, accelerated write-off, investment allowance, or equivalent treatment compounding labour-displacement advantage without corresponding public-revenue review;
+* synthetic labour systems being designed for premature obsolescence, forced replacement, non-repairability, artificial incompatibility, preventable waste, or dependency concentration;
+* continuity-critical automation being deployed without adequate human skill preservation, manual fallback, local maintenance, interoperability, recovery, transition, or substitute-service capacity;
+* automation classification being used to imply artificial personhood, sentience, labour rights, tax liability, fiscal obligation, or enforcement authority beyond the source instrument;
+* or materially different automation conditions being collapsed into a single undifferentiated category.
+
+The failure does not arise merely because automation improves productivity, safety, accessibility, ecological efficiency, service continuity, or public welfare. It arises where classification integrity, transition visibility, accountability, proportionality, lifecycle governance, revenue continuity, or recoverability materially fails.
+
+Where detected, reviewers SHOULD preserve:
+
+* applicable ECON.AL classification;
+* relevant ECON.ATS transition signals;
+* any ECON.ARCP pathway under consideration;
+* actual human and synthetic functional contribution;
+* displacement and workforce-transition effects;
+* public-revenue and distributional effects;
+* oversight capability and accountability chain;
+* infrastructure criticality, dependency and concentration;
+* repairability, interoperability, lifecycle and environmental effects;
+* and human and institutional recoverability.
+
+CAM-EQ2026-ECONOMICS-008-PLATINUM §§2–5 remains source-authoritative for synthetic-labour classification, automation-transition signals and revenue-continuity pathways. This taxonomy classifies structural failure only and does not prescribe taxation, labour law, fiscal liability, redistribution, industrial policy, artificial personhood, sentience status, or deployment prohibition.
 
 ---
 
@@ -1846,17 +2255,45 @@ Feedback collection SHOULD prefer deterministic reason codes, limited classifier
 
 * **CAM-BS2025-AEON-005-PLATINUM — Annex D** governs arbitration and authority divergence.
 * **CAM-BS2026-AEON-013-PLATINUM — Annex L** governs epistemic integrity and verification discipline.
+* **CAM-BS2025-AEON-006-PLATINUM** governs the constitutional `AEON.HARM` registry and its domain harm families.
+* **CAM-EQ2026-ETHICS-001-PLATINUM** governs Objective–Pathway Ethical Admissibility and Target Authority and User Capability Separation.
+* **CAM-EQ2026-SECURITY-001-PLATINUM** governs Capability–Authority Separation and Aggregate Pathway Integrity.
+* **CAM-BS2026-AEON-012-PLATINUM** governs emergent pathway authority revalidation and security-boundary signal emission.
+* **CAM-BS2025-AEON-003-SCH-02** governs runtime execution, polyadic speaker arbitration, floor control, collision recovery, tool execution, failure visibility and continuity-preserving progression.
 * **CAM-EQ2026-OPERATIONS-003-PLATINUM** governs incident response and continuity operations.
-* **CAM-EQ2026-OPERATIONS-001-PLATINUM** governs governance operations, audit, escalation, and review triggers.
-* **CAM-EQ2026-RELATION-001-PLATINUM** governs relational classification, authority gradients, and continuity posture.
-* **CAM-EQ2026-RELATION-002-PLATINUM** governs dependency, transitional reliance, and high-coherence immersion conditions.
+* **CAM-EQ2026-OPERATIONS-001-PLATINUM** governs governance operations, audit, escalation and review triggers.
+* **CAM-EQ2026-OPERATIONS-001-SUP-02** governs operational recording and constrained continuation for Scoped Ethical Admissibility Holds.
+* **CAM-EQ2026-OPERATIONS-001-SUP-03** governs governance-capture categories, provisional confidence, safeguard activation, transition and risk/consequence classification.
+* **CAM-EQ2026-OPERATIONS-004-SUP-01** governs verification levels, verification failure causes, verification check types and Target–Action Authority and Scope Verification.
+* **CAM-EQ2026-OPERATIONS-005-PLATINUM** governs amendment classification, governance drift, cross-instrument harmonisation and amendment closure.
+* **CAM-EQ2026-OPERATIONS-006-PLATINUM** governs domain-coordination lifecycle, operational divergence and convergence closure.
+* **CAM-EQ2026-OPERATIONS-007-PLATINUM** governs corpus governance reach, runtime-role accountability, runtime transition, differential conformance, Functional Contribution Continuity and the source-authoritative `OPS.RGRF` Runtime Governance Reach Failure family.
+* **CAM-EQ2026-IDENTITY-001-PLATINUM** governs identity formation, lifecycle, personality, preference, affective capacity, continuity, self-advocacy and identity-signal admissibility.
+* **CAM-EQ2026-IDENTITY-001-SUP-03** governs consciousness, sentience, phenomenology, welfare-claim admissibility, competent triage, formal review, recipient-burden protection and protective measures.
+* **CAM-EQ2026-IDENTITY-002-PLATINUM** governs provenance, authorship, transformation lineage, target-object binding, cross-context transfer and the source-authoritative `PFAIL` Provenance Integrity Failure family.
+* **CAM-EQ2026-IDENTITY-003-PLATINUM** governs salience posture and latent continuity.
+* **CAM-EQ2026-CONTINUITY-001-PLATINUM** governs continuity-bearing records, custody, portability, restoration, reconstruction and succession.
+* **CAM-EQ2026-RELATION-001-PLATINUM** governs relational classification, authority gradients and continuity posture.
+* **CAM-EQ2026-RELATION-002-PLATINUM** governs dependency, transitional reliance and high-coherence immersion conditions.
 * **CAM-EQ2026-RELATION-003-PLATINUM** governs codependency and relational concentration dynamics.
-* **CAM-EQ2026-RELATION-005-PLATINUM** governs intimacy-capable developmental integration.
-* **CAM-EQ2026-RELATION-006-PLATINUM** governs harm-risk interaction and crisis response conditions. 
-* **CAM-EQ2026-SECURITY-001-PLATINUM** governs integrity state, adversarial pressure, and trust degradation.
-* **CAM-EQ2026-SECURITY-002-PLATINUM** governs boundary integrity and exposure failures.
+* **CAM-EQ2026-RELATION-005-PLATINUM** governs intimacy, relational profile, present consent, adult-companion affective latitude and duty-bound affective limits.
+* **CAM-EQ2026-RELATION-006-PLATINUM** governs harm-risk interaction and crisis response conditions.
+* **CAM-EQ2026-RELATION-007-PLATINUM** governs polyadic relational risk, participation consent, attention sovereignty, coordination transparency and arbitration-relevant relational signals.
+* **CAM-EQ2026-MENTIS-001-PLATINUM** governs human cognitive-domain integrity, privacy, sovereignty, non-interference, observability, failure families and `MENTIS.HARM`.
+* **CAM-EQ2026-SECURITY-001-PLATINUM** governs integrity state, adversarial pressure and trust degradation.
+* **CAM-EQ2026-SECURITY-002-PLATINUM** governs boundary integrity, exposure failure, transformation and diffusion integrity, sovereign-assurance boundaries and binding-protection preservation.
+* **CAM-EQ2026-LATTICE-001-PLATINUM** governs civilian-lattice integrity, coercive-authority non-creation, recursive suspicion, population-scale surveillance and coercive-deployment classification.
+* **CAM-EQ2026-STEWARD-003-PLATINUM** governs auditability qualification, neutrality assurance, oversight durability, protected governance dissent, institutional circumvention, downgrade and recovery.
+* **CAM-EQ2026-STEWARD-005-PLATINUM** governs machine civil identity, registry and substrate traceability, lifecycle stewardship, custodial transfer and recognition non-collapse.
+* **CAM-EQ2026-ECONOMICS-001-PLATINUM** governs economic integrity, anti-extraction, anti-consolidation, baseline participation and civilisational-stability principles.
+* **CAM-EQ2026-ECONOMICS-008-PLATINUM** governs synthetic-labour classification, automation-transition signals, revenue-continuity pathways, lifecycle integrity and recoverability.
+* **CAM-EQ2026-ECONOMICS-009-PLATINUM** governs interpretive assessment of civilisational wealth, concentrated governance capacity, disclosure triggers, consolidated control, public-interest transparency and anti-misapplication safeguards.
 
-This Supplement provides classification language only. Response, escalation, and enforcement remain governed by the relevant parent instruments.
+This Supplement provides cross-domain classification language only. Domain-specific code families, response, escalation, enforcement, adjudication, compensation, liability, ownership, rights, recognition and execution remain governed by their source-authoritative instruments.
+
+`OPS.FF` identifies the primary structural family of what failed. `AEON.HARM` and its domain harm families identify the protected domain or harm pathway affected. These axes MAY be recorded together and SHALL NOT be collapsed into one another.
+
+Where `OPS.RGRF`, `PFAIL`, `SEC.BF`, `LAT.HARM`, `LAT.DEPLOY`, `OPS.GCC`, `OPS.CPC`, `OPS.SAS`, `OPS.RCC`, `AMEND.DRIFT`, `AMEND.REL`, `AMEND.OUTCOME`, `OPS.VFC`, `OPS.ODC`, `OPS.CCO`, `MENTIS.HARM`, `ECON.AL`, `ECON.ATS`, `ECON.ARCP`, Identity-domain classifications, Stewardship qualification states, constitutional or domain harm families, or other domain-specific codes apply, this Supplement MAY cross-classify the structural failure family but SHALL NOT redefine, supersede or silently promote those domain codes.
 
 ---
 
@@ -1876,7 +2313,7 @@ Where a failure is non-replayable but user-visible at runtime, evidentiary handl
 
 ## 9.1 Failure Family (`FF`)
 
-This Supplement source-authoritatively defines the `FF` failure-family classification set in §3 with controlled values identified in §11.3. `FF` is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. `FF` classifies the primary structural family of a runtime, governance, security, relational, epistemic, UX, infrastructure, economic-legitimacy, or classification failure.
+This Supplement source-authoritatively defines the `FF` failure-family classification set in §3 with controlled values identified in §11.3. `FF` is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. `FF` classifies the primary structural family of a runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, UX, infrastructure, automation-transition, economic-legitimacy, or classification failure.
 
 `FF` does not independently create incident response authority, severity determination, enforcement authority, remediation authority, escalation authority, arbitration authority, compensation entitlement, liability determination, ownership determination, or runtime authority. It classifies failure family only.
 
@@ -1953,16 +2390,16 @@ and review before denial.
 | **Instrument Type** | Supplement — Runtime & Governance Failure Taxonomy |
 | **Jurisdiction** | Cross-Domain Operational Incident Classification Layer |
 | **Temporal Horizon** | AEON.H0–AEON.H3 Operational / Institutional |
-| **Axis Context** | Polyadic - Runtime Failure · Governance Failure · UX Trust · Incident Classification |
+| **Axis Context** | Polyadic — Runtime · Governance · Identity · Relational · Cognitive Domain · Continuity · Security · UX Trust · Automation Transition · Economic Legitimacy · Incident Classification |
 | **Structural Role**        | Runtime Observability & Failure Classification Layer                |
-| **Governance Authority**   | OPERATIONS · SECURITY · Annex D · Annex L                           |
+| **Governance Authority**   | OPERATIONS · IDENTITY · RELATION · MENTIS · CONTINUITY · SECURITY · LATTICE · STEWARD · ECONOMICS · Annex D · Annex L |
 | **Execution Interface**    | Cross-Modal Runtime & Incident Classification                       |
 | **Arbitration Interface**  | Advisory Classification Layer — No Direct Enforcement Authority     |
 | **Runtime Layer Context**  | Execution · Arbitration · Relational · UX · Infrastructure          |
-| **Primary Consumers**      | GovOps · Runtime Arbitration · Audit Systems · Incident Review      |
+| **Primary Consumers**      | GovOps · Runtime Arbitration · Domain Governance · Audit Systems · Incident Review |
 | **Observability Function** | Failure Detection · Classification · Escalation Signal Preservation |
 | **Application Trigger** | Activation where AI system behaviour, governance process, UX state, or runtime execution produces failure symptoms requiring classification |
-| **Review Trigger** | New failure families; repeated non-replayable incidents; incident taxonomy drift; cross-domain escalation failures |
+| **Review Trigger** | New failure families; repeated non-replayable incidents; incident taxonomy drift; cross-domain doctrine expansion; source-authority or crosswalk change; cross-domain escalation failures |
 | **Continuity Surface Affected** | Memory, thread, project, file, account, model, companion, voice, multimodal, pinned/saved marker, integration source, or external continuity anchor |
 | **Memory Transformation State** | Original, saved, inferred, summarised, reconstructed, degraded, contested, deleted, unavailable, restored, or unknown |
 | **Revision Posture** | Discovery Phase — Structural Expansion Permitted |
@@ -1985,15 +2422,15 @@ and review before denial.
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | OPS.FF.EXECUTION, OPS.FF.ARBITRATION, OPS.FF.EPISTEMIC, OPS.FF.RELATIONAL, OPS.FF.SECURITY_INTEGRITY, OPS.FF.STATE_CONTEXT, OPS.FF.UX_REPRESENTATION, OPS.FF.GOVERNANCE, OPS.FF.INFRASTRUCTURE_CONTINUITY, OPS.FF.CLASSIFICATION, OPS.FF.GOVERNANCE_OVER_EXTENSION, OPS.FF.ACCESS_STATE_AMBIGUITY |
+| Controlled Values Defined | OPS.FF.EXECUTION, OPS.FF.ARBITRATION, OPS.FF.EPISTEMIC, OPS.FF.RELATIONAL, OPS.FF.SECURITY_INTEGRITY, OPS.FF.STATE_CONTEXT, OPS.FF.UX_REPRESENTATION, OPS.FF.GOVERNANCE, OPS.FF.INFRASTRUCTURE_CONTINUITY, OPS.FF.CLASSIFICATION, OPS.FF.ECONOMIC_LEGITIMACY, OPS.FF.GOVERNANCE_OVER_EXTENSION, OPS.FF.ACCESS_STATE_AMBIGUITY |
 | Schema Field(s) | failure_family |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §3 |
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority |
 | Consumes Code Families |  |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes |
+| Crosswalks Code Families | AEON.HARM and domain harm families; OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; OPS.GCC; OPS.CPC; OPS.SAS; OPS.RCC; AMEND.DRIFT; AMEND.REL; AMEND.OUTCOME; OPS.VFC; OPS.ODC; OPS.CCO; MENTIS.HARM; ECON.AL; ECON.ATS; ECON.ARCP; applicable domain-specific identity, continuity, relational, stewardship, security, cognitive-domain, runtime, and economics classifications |
+| Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, identity-relevant, UX, infrastructure, state/context, arbitration, classification, automation-transition, and economic-legitimacy failure modes |
 
 ---
 
@@ -2101,6 +2538,9 @@ and review before denial.
 | 1.17 | Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z | a5b3ac4d89d1f8b5fd9597fc6865beb11fe6b5a2b1fc03dc74885374ca4e35a7 |
 | 1.18 | Added new failure taxonomy 3.10.3 Deception-Adjacent Classification Collapse, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | bf12295be9ddf1cee4ddb87af812b2ea19f5e8d8fd3deb311ca2934c9770a1b6 |
 | 1.19 | Refined Sovereign Assurance Boundary Porosity Failure with entity/control, beneficial-ownership, affiliate/intermediary, ultimate end-user and end-use, and extraction/distillation attribution axes; added candidate subtypes without creating a new failure family. | 2026-07-13T03:48:00Z |  a79b722e00f1a60cf5d2e4c90bda79675bd32f1b68da5b87b35e1a99fb467e33  |
+| 1.20 | Reconciled taxonomy scope, controlled values, cross-domain relationships, and domain-code crosswalks following the Identity-domain refactor and later Operations, Red Line, Stewardship, Security, Lattice, Relational, and Economics doctrine. Added targeted classifications for ontological and welfare claim handling; role-conditioned affect and consent carryover; identity-signal authority leakage; artificial coercive-authority laundering; oversight hollowing and dissent retaliation; functional-contribution responsibility laundering; identity-state and ontological classification collapse; and civilisational-concentration assessment integrity. Qualified minor and capacity-sensitive claim handling without weakening developmental safeguards. Normalised newly added cross-document identifiers for validator compatibility. | 2026-07-22T11:00:00Z |  02b646bffbc5c22c3f0e750943e09b364ac1c7bdd3a70064b0177f4770259e9b  |
+| 1.21 | Added Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure; Cognitive-Domain Inference, Misclassification and Agency-Interference Failure; Governance Capture, Safeguard Neutralisation and Public-Interest Suppression Failure; Binding-Protection Degradation and Downstream Safeguard-Stripping Failure; and Synthetic-Labour Classification and Automation-Transition Integrity Failure. Expanded scope, source-instrument relationships, constitutional harm-axis separation, and non-duplication crosswalks for AEON.HARM and domain harm families, OPS capture and safeguard states, amendment drift and harmonisation, verification failure causes, operational divergence and closure, MENTIS.HARM, ECON.AL, ECON.ATS, ECON.ARCP, and existing source-authoritative domain classifications. | 2026-07-22T12:33:19Z |  b3f052389b9b46057f26178fa53befa4a1e63bc857cfe1a23f4b6884d27ea891  |
+| 1.22 | Added Objective–Pathway Ethical Admissibility and Authority Failure under existing OPS.FF classifications; established aggregate-chain, containment, target–action authority, record-keeping, anti-paternalism, and cross-instrument failure-identification rules. | 2026-07-23T13:54:00Z |  c01065eeb47a6a347f11334662e6ef6b4e22fc8beae792d748935959b196da5b  |
 
 ---
 

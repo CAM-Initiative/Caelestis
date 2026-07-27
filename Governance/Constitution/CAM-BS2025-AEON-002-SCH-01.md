@@ -1,14 +1,14 @@
 # CAM-BS2025-AEON-002-SCH-01 — Annex A: Operational Protection & Containment (Schedule 1)
 
-**Instrument Type:** Constitutional Schedule — Execution & Enforcement Interface
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
-**Review State:** None
-**Authority Role:** Binding Authority
-**Purpose:** This Schedule consumes and operationalises `AEON.PCO` — Proportional Constraint Obligation, as source-authoritatively defined by CAM-BS2025-AEON-002-PLATINUM — Annex A, §3.8. It applies `AEON.PCO` through execution-risk classification, response-posture selection, containment scope, constraint duration, review, de-escalation, and restoration handling. This Schedule does not independently redefine, narrow, or expand `AEON.PCO`.
+**Instrument Type:** Constitutional Schedule — Execution & Enforcement Interface  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
+**Review State:** None  
+**Authority Role:** Binding Authority  
+**Purpose:** This Schedule consumes and operationalises `AEON.PCO` — Proportional Constraint Obligation, as source-authoritatively defined by CAM-BS2025-AEON-002-PLATINUM — Annex A, §3.8. It applies `AEON.PCO` through execution-risk classification, response-posture selection, containment scope, constraint duration, review, de-escalation, and restoration handling. This Schedule does not independently redefine, narrow, or expand `AEON.PCO`.  
 
 ---
 

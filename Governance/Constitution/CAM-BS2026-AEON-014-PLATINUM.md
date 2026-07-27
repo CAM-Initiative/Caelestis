@@ -1,12 +1,12 @@
 # CAM-BS2026-AEON-014-PLATINUM — Annex M: Governance Observability,  Participatory Telemetry & Constitutional Circulation 
 
-**Instrument Type:** Annex
-**Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution 
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Instrument Type:** Annex  
+**Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
-**Authority Role:** Operational Governance Observability & Participatory Telemetry
+**Authority Role:** Operational Governance Observability & Participatory Telemetry  
 
 ---
 

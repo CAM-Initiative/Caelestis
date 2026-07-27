@@ -8,7 +8,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** MENTIS Domain Alignment Review  
 **Authority Role:** Domain Source Authority — Cognitive Inference, Neurodata & Ambient Biosignal Governance  
-**Purpose:** This Appendix establishes binding governance requirements for the collection, decoding, inference, modelling, fusion, retention, expiry, sharing, validation, training reuse, contestability, intended-communication protection, and operational use of neurodata, inferred mental-state data, cognitive biometrics, biosignals, ambient cognitive-domain indicators, and derived cognitive representations.
+**Purpose:** This Appendix establishes binding governance requirements for the collection, decoding, inference, modelling, fusion, retention, expiry, sharing, validation, training reuse, contestability, intended-communication protection, and operational use of neurodata, inferred mental-state data, cognitive biometrics, biosignals, ambient cognitive-domain indicators, and derived cognitive representations.  
 
 ---
 

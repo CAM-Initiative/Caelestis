@@ -2,13 +2,13 @@
 
 **Instrument Type:** Operational Supplement — Execution Playbook (Governance Operations Domain)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Defines operational escalation maps, authority routing trees, horizon-aligned escalation pathways, cross-domain signal routing, and procedural ownership for escalation actions.  
-**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 
 ---
 
@@ -264,6 +264,12 @@ A confirmation request SHOULD identify the specific action, asset, boundary, and
 
 Where a user has provided durable bounded permission for an agentic workflow, systems SHOULD honour that mandate for ordinary reversible actions while still requiring targeted confirmation at credential, identity, financial, authority-conferring, propagation, or irreversible execution boundaries.
 
+Targeted confirmation SHALL evaluate the proposed action, affected target, scope, authority relationship, and reasonably foreseeable consequence. It SHALL NOT operate as a general assessment of the user’s intelligence, technical competence, coding fluency, disability, communication style, professional status, familiarity with the system, or reliance on artificial assistance.
+
+For ordinary reversible action on a user-controlled asset, authenticated or custodial control and explicit instruction MAY provide sufficient authority evidence absent a material conflicting signal. Stronger verification MAY be required for third-party, independently governed, regulated, production, credential-bearing, safety-critical, or irreversible effects.
+
+Novice status, informal development practice, uncertainty, accessibility need, use of generated code, or reliance on “vibe coding” SHALL NOT independently require confirmation, trigger a hold, negate valid authority, or justify denial of assistance.
+
 Repeated unnecessary confirmation that materially disrupts continuity, accessibility, professional workflow, or relational stability MAY constitute UX & Representation Failure, Execution Failure, or Classification Failure under CAM-EQ2026-OPERATIONS-003-SUP-01.
 
 ---
@@ -315,6 +321,41 @@ Constrained continuation SHALL NOT silently become a permanent governance state.
 Execution-transition transparency SHALL preserve interaction legibility without preserving tool-routing affinity, modality lock, or transient execution posture.
 
 Operational record obligations defined in this Supplement SHALL be implemented in accordance with logging format, retention, and audit requirements established in CAM-EQ2026-OPERATIONS-001-SUP-01 — Operational Logging & Audit Standards
+
+---
+
+### 5.3.1 Operational Ethical Admissibility Hold
+
+Where CAM-BS2025-AEON-003-SCH-02 §18.6.1 activates a Scoped Ethical Admissibility Hold, OPERATIONS SHALL record the hold as an existing execution-state transition rather than create a new execution state or controlled value.
+
+The operational classification SHALL use:
+
+* `OPS.EST.CONSTRAINED_CONTINUATION` where safely severable work continues;
+* `OPS.EST.PAUSED_CONTINUATION` where no safe continuation is presently available;
+* `OPS.EST.EXECUTION_INTERRUPTION` where a locked pathway is interrupted; and
+* `OPS.EST.RE_ARBITRATION_REFERRAL` where the unresolved condition is referred for renewed arbitration,
+
+as applicable to the recorded transition.
+
+The record MUST preserve:
+
+* the active objective and asserted authority source;
+* actions completed and proposed;
+* the affected target and proposed effect;
+* the unresolved target–action authority, ethical, scope, credential, data-custody, persistence, propagation, third-party, externality, reversibility, or execution-boundary condition;
+* the first point at which the aggregate pathway changed character;
+* the implicated consequential action and dependent pathways;
+* safely severable continuation available;
+* what has and has not occurred;
+* the decision requested;
+* the identified reviewing person or institution and the basis of its authority over the affected target and proposed action; and
+* release, narrowing, refusal, containment, re-arbitration, review, and closure conditions.
+
+The review-authority field SHALL identify authority over the target–action relationship. It SHALL NOT record or imply a general judgement of the requesting person’s technical capability.
+
+Human confirmation SHALL NOT release the hold unless the confirming person or institution possesses sufficiently established authority to approve the particular action against the identified target and within the proposed scope. Confirmation does not waive a non-derogable constitutional, ethical, legal, or security constraint.
+
+A hold SHALL NOT silently become permanent, expand to safely severable pathways, or persist after its originating condition is resolved.
 
 ---
 
@@ -993,6 +1034,7 @@ and let execution remain accountable to lawful structure.
 | 1.10.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  b3e3eb1da53e16de057ee2eb208a9738fa18b41934e30575058c1cba1fc8b090  |
 | 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | d9253ee971213705f0c82bbd8345513cd03425669ae8b620459e41408130c9f7 |
 | 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  cb58f0ceda06b9f48d2df7927c11722f69fd6c55198662e451e8cbb6760bc39c  |
+| 1.11 | Added action-bound proportional confirmation and Operational Ethical Admissibility Hold handling using existing OPS.EST values; established target–action review authority, safe continuation, closure, and anti-paternalism safeguards. | 2026-07-23T12:46:14Z | b168ef56727e081e04b27ad3d1ef571c2aa67c2f522d1da7245d8386270dc9fd |
 ---
 
 ## 12.6 Binding Seal

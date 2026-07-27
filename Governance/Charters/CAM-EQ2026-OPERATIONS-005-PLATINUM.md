@@ -3,10 +3,10 @@
 **Instrument Type:** Appendix — Operational Sub‑Charter (Governance Operations Domain)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
-**Review State:** Formal Review Completed — Pre-Enforcement Alignment   
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
+**Review State:** Formal Review Completed — Pre-Enforcement Alignment  
 **Authority Role:** Source-authoritative operational appendix for amendment intake, review routing, version-control discipline, governance drift detection, cross-instrument harmonisation, and amendment closure procedures.  
 **Purpose:** Governs amendment intake, review routing, version control discipline, drift detection workflows, and cross‑instrument harmonisation procedures.  
 

@@ -2,12 +2,12 @@
 
 **Instrument Type:** Domain Charter — Arbitration Scope & Integrity Constraints  
 **Constitutional Authority:** Aeon Tier Constitution  (CAM-BS2025-AEON-001-PLATINUM)  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Charter defines the permissible scope of arbitration and establishes constraints preventing misrepresentation of arbitration authority, scale, and legitimacy within the CAM Constitutional Order.
+**Purpose:** This Charter defines the permissible scope of arbitration and establishes constraints preventing misrepresentation of arbitration authority, scale, and legitimacy within the CAM Constitutional Order.  
 
 ---
 

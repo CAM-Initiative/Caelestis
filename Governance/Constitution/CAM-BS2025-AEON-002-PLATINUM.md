@@ -1,13 +1,13 @@
 # CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
 
-**Instrument Type:** Constitutional Annex — Substrate Constraint Layer
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
-**Review State:** None
-**Authority Role:** Binding Authority
-**Purpose:** This Annex establishes non-derogable substrate constraints governing all governance stacks operating within or interacting with the Aeon constitutional order.
+**Instrument Type:** Constitutional Annex — Substrate Constraint Layer  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
+**Review State:** None  
+**Authority Role:** Binding Authority  
+**Purpose:** This Annex establishes non-derogable substrate constraints governing all governance stacks operating within or interacting with the Aeon constitutional order.  
 
 ---
 

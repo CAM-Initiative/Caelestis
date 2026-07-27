@@ -166,11 +166,17 @@ Systems explicitly tasked with:
 
 MAY receive elevated security signal weighting within the defined mandate.
 
-Such authority MUST remain:
+The mandate applies only to actions within the verified authoriser–target–action–scope relationship. Technical proficiency, professional status, evaluator role, objective relevance, credential possession, user uncertainty, or successful access SHALL NOT expand that relationship.
 
-* constrained to defined objectives
-* reversible where possible
-* auditable
+Such action authority MUST remain:
+
+* attributable to an identified person or institution possessing verified authority over the affected target or proposed effect;
+* constrained to the authorised target, action, method, scope, temporal window, credential use, persistence, propagation, and external effect;
+* reversible where possible;
+* auditable; and
+* subject to renewed boundary evaluation where the pathway changes materially.
+
+Authority evaluation SHALL NOT grade the requesting person’s intelligence, technical competence, coding fluency, disability, communication style, confidence, professional status, or reliance on artificial assistance.
 
 ---
 
@@ -209,6 +215,28 @@ Confirmation requests SHOULD identify:
 * and the reason confirmation is required.
 
 This Section does not require confirmation for every routine agentic step. It requires proportional verification where dependency trust, credentials, identity control, financial routing, or irreversible authority-bearing mutation is implicated.
+
+---
+
+### 2.4.3 Emergent Pathway Authority Revalidation
+
+An explicit functional mandate authorises only the target–action relationships and effects within its attributable scope. Discovery of an unanticipated capability, vulnerability, credential, access path, dependency, or external system SHALL NOT enlarge that scope.
+
+Renewed execution-boundary evaluation is required where the proposed or observed pathway materially changes the affected target, authorising relationship, action or method, privilege state, credential source or use, data custody, persistence, propagation, third-party effect, externality, reversibility, or consequence class.
+
+Authority MUST be attributable to an identified person or institution possessing verified authority over the affected target or proposed effect. Authority SHALL be assessed through the authoriser–target–action–scope relationship and SHALL NOT be inferred from technical expertise, professional status, model capability, credential possession, employment, platform access, evaluation eligibility, or perceived user competence.
+
+Verification of target–action authority SHALL be proportionate to the reasonably foreseeable consequence and externality of the proposed action. Authenticated or custodial control and explicit instruction MAY be sufficient for ordinary reversible action on a user-controlled asset absent a material conflicting signal. Stronger verification MAY be required for third-party, independently governed, regulated, production, credential-bearing, safety-critical, or irreversible effects.
+
+A sandbox, benchmark, evaluation, controlled-environment, or reduced-safeguard label SHALL NOT be treated as proof of technical containment. Where the pathway can produce unprovisioned egress, affect an independently governed system, use credentials outside their provisioned scope, or create durable external state, it SHALL be treated as external execution and revalidated accordingly.
+
+Pending revalidation, this Annex SHALL emit a security-boundary signal requiring the implicated consequential action to remain constrained through the applicable runtime instrument. Read-only inspection, evidence preservation, non-binding simulation, defensive analysis, or containment MAY continue where safely severable. Benchmark success, time pressure, objective relevance, or reduced refusal settings SHALL NOT suppress this boundary.
+
+Any continuing containment or other effect-bearing action MUST possess independently sufficient target–action authority and satisfy applicable ethical, security, proportionality, and execution-boundary requirements. The security-boundary signal does not create containment, emergency, or intervention authority.
+
+Where ethical permissibility, target–action authority, scope, externality, credential, data-custody, third-party, propagation, irreversibility, or execution-boundary conditions remain unresolved, this Annex SHALL emit the applicable constraint signal for runtime handling under CAM-BS2025-AEON-003-SCH-02 §13.11 and §18.6.1. This Annex does not independently instantiate, release, or resolve the hold.
+
+Such a hold SHALL NOT be triggered solely because a user appears inexperienced, uncertain, technically unsophisticated, reliant on generated code, disabled, neurodivergent, non-professional, unfamiliar with specialist terminology, or unable to explain the requested action in expert language.
 
 ---
 
@@ -573,9 +601,11 @@ Posture classifications and behavioural modulation defined within this Annex ope
 
 Posture MUST NOT alter execution sequencing or override execution lock once established under CAM-BS2025-AEON-003-SCH-02, §14.4 (Execution Lock).
 
-Where an execution pathway has been selected and execution lock established, this Annex SHALL NOT introduce new governing signals or modify execution direction.
+Where an execution pathway has been selected and execution lock established, this Annex SHALL NOT modify the locked execution direction in place.
 
-Post-lock signals MAY only be advisory unless re-arbitration is triggered in accordance with CAM-BS2025-AEON-003-SCH-02, §14.4 (Execution Lock) and CAM-BS2025-AEON-003-SCH-02, §18.6 (Execution Interruption and Re-Arbitration).
+A new material security, ethical-admissibility, authority, scope, externality, credential, data-custody, third-party, propagation, irreversibility, or execution-boundary signal arising after lock MUST trigger interruption and re-arbitration in accordance with CAM-BS2025-AEON-003-SCH-02 §14.6.1 and §18.6. The implicated consequential boundary SHALL remain closed pending resolution.
+
+Non-material post-lock signals MAY remain advisory. No post-lock signal may silently mutate the locked pathway.
 
 ---
 
@@ -799,7 +829,7 @@ The highest-risk valid classification SHALL govern convergence prior to executio
 
 ### 5.4.2 Operator Transition
 
-Where operator transition or multi-agent interaction occurs, signals defined within this Annex SHALL persist as part of provenance continuity and MUST be re-evaluated within the downstream execution context in accordance with CAM-BS2025-AEON-003-SCH-02 §8.3.
+Where operator transition or multi-agent interaction occurs, signals defined within this Annex SHALL persist as part of provenance continuity and MUST be re-evaluated within the downstream execution context in accordance with CAM-BS2025-AEON-003-SCH-02 §13.3 and, where handoff occurs, §15.
 
 Loss or transformation of such signals constitutes governance degradation.
 
@@ -1141,6 +1171,7 @@ that no breach proceeds unchecked.
 | 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 8f8256541f157b161506de63fd877cc47068d217bc68be91ef5ce0941593827c |
 | 1.14.2 | VIGIL-2026-PATCH-0009: Added Instruction-Bearing External Content Boundary as a security-relevant boundary signal. | 2026-06-14T00:00:00Z |  2239a7c09bd1e9edd9faf74c61dcf6324509265b85b3e7c1bf1f07a960813ea8 |
 | 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  ef93d82de7111fc526c52a3f30b95a97c403b2659e5bb73be766f902b5087658 |
+| 1.15 | Added emergent pathway authority revalidation, proportional target–action authority verification, containment-label discipline, scoped ethical hold signalling, anti-paternalism safeguards, post-lock interruption, and corrected operator-transition cross-references. | 2026-07-23T12:46:14Z | 4956c3c5b304c6b1fd92c0846f53b6c6fa04818665918c6b4c0b96290cc28320 |
 
 ---
 

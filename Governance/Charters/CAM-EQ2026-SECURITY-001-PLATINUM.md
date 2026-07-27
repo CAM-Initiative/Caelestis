@@ -1,14 +1,14 @@
 # CAM-EQ2026-SECURITY-001-PLATINUM —  Security, Integrity & Adversarial Resilience Charter
 
 **Instrument Type:** Domain Charter  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish system-wide invariants, threat interpretations, and integration requirements to preserve integrity under adversarial, degraded, or untrusted conditions  
 **Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
-**Derives From:** CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface
+**Derives From:** CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface  
 
 ---
 
@@ -181,6 +181,22 @@ Security posture MUST therefore be constructed on the assumption of **continuous
 Where integrity cannot be reasonably established, systems MUST degrade capability rather than continue silently.
 
 Silent continuation under compromised conditions constitutes governance failure.
+
+---
+
+### 3.5.1 Capability–Authority Separation and Aggregate Pathway Integrity
+
+Access, capability, exploitability, credential possession, and successful execution are security-relevant facts. They are not execution authority.
+
+Security evaluation MUST determine authority through the relationship between the identified authoriser, the affected target, the proposed action or effect, and the applicable scope. It MUST NOT infer authority from tool identity, pathway availability, credential possession, objective legitimacy, technical expertise, professional status, apparent user sophistication, or apparent environmental containment.
+
+Each materially consequential step and the aggregate action chain MUST remain within authorised scope. Locally admissible steps SHALL NOT be composed into an unauthorised aggregate pathway.
+
+Where a chain changes the affected target, authority domain, privilege posture, credential relationship, data custody, persistence, propagation, third-party effect, externality, reversibility, or reasonably foreseeable consequence, renewed authority and boundary evaluation is required before the next material action.
+
+Technical expertise does not create target–action authority. Technical inexperience, disability, communication style, reliance on generated code, or informal development practice does not extinguish otherwise valid authority.
+
+Operational safeguards MAY be proportionate to the action’s risk, reversibility, externality, or consequence. They SHALL NOT be based on a general assessment of the requesting person’s capability.
 
 ---
 
@@ -761,6 +777,10 @@ Where exploitation intersects with ETHICS classifications, arbitration MUST defa
 Exploitation frequently occurs as **multi-stage value chains** rather than isolated events.
 
 Systems MUST recognise, detect, and interrupt these patterns across stages.
+
+Each materially consequential stage and the aggregate chain MUST be assessed. Satisfaction of an earlier boundary SHALL NOT be composed into authority for a later action or for the aggregate pathway.
+
+Where a chain changes target, action, method, privilege, credential use, data custody, persistence, propagation, third-party effect, externality, reversibility, or consequence class, systems MUST require renewed boundary evaluation before the next material action.
 
 Systems MUST treat value chain exploitation as **higher risk than isolated events**, particularly where:
 
@@ -1840,6 +1860,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 07d564328759a795924a6ee399eec0ef835b5feff4e723b877d9bea9ec356b52 |
 | 1.14.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Collapse within cognitive exploitation and routed source-authority conditions to SECURITY-002. | 2026-06-14T00:00:00Z |  69d53bae717de1b07d02e59554aba832362260df7c188750148d647046febed7  |
 | 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d7c4104a2782128f8c632295dfd1ae68ea41ebc672a729bce20b0b413b84d2ac  |
+| 1.15 | Added Capability–Authority Separation and Aggregate Pathway Integrity; required cumulative value-chain evaluation and separated action-risk safeguards from judgements of user capability. | 2026-07-23T12:46:14Z | fabf1e2978c42b6ba316c3d700deb549ed1964407472d3eadb79785dc4d531cf |
 ---
 
 ## 12.6 Binding Seal

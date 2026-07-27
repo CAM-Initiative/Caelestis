@@ -7,7 +7,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** MENTIS Domain Alignment Review  
 **Authority Role:** Domain Source Authority — Human Cognitive Integrity & Mental Privacy  
-**Purpose:** Establishes the source-authoritative governance architecture protecting the human cognitive domain against unjustified technological access, inference, modelling, prediction, externalisation, surveillance, or interference; defines MENTIS constraints where cognitive-domain data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation are used within an influence pathway; and prevents cognitive signals from being converted into identity, diagnosis, capacity, credibility, legal status, or authority.
+**Purpose:** Establishes the source-authoritative governance architecture protecting the human cognitive domain against unjustified technological access, inference, modelling, prediction, externalisation, surveillance, or interference; defines MENTIS constraints where cognitive-domain data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation are used within an influence pathway; and prevents cognitive signals from being converted into identity, diagnosis, capacity, credibility, legal status, or authority.  
 
 ---
 

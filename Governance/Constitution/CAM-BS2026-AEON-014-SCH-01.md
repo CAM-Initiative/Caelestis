@@ -2,12 +2,12 @@
 
 **Instrument Type:** Schedule  
 **Parent Instrument:** CAM-BS2026-AEON-014-PLATINUM — Annex M: Governance Observability & Participatory Telemetry Framework  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
-**Authority Role:** Governance Observability Lifecycle & Advisory Coordination
+**Authority Role:** Governance Observability Lifecycle & Advisory Coordination  
 
 ---
 

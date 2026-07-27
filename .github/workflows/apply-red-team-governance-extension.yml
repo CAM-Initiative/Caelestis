@@ -1,0 +1,130 @@
+name: Apply red-team governance extension
+
+on:
+  pull_request:
+    branches:
+      - policy/civilisational-wealth-governance
+    types: [opened, synchronize, reopened]
+    paths:
+      - .github/trigger/red-team-governance-20260726.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: red-team-governance-extension-policy-civilisational-wealth
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: github.head_ref == 'automation/red-team-governance-trigger-20260726'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out current working branch
+        uses: actions/checkout@v4
+        with:
+          ref: policy/civilisational-wealth-governance
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Apply assertion-checked corpus amendments
+        run: python scripts/apply_red_team_governance_extension.py
+
+      - name: Rebuild and seal governance corpus
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/update-CAM-Constitution-Index.py
+          python .github/scripts/update-CAM-Charters-Index.py
+          python .github/scripts/update-CAM-Laws-Index.py
+          python .github/scripts/lint_amendment_ledger.py --all --fix
+          python .github/scripts/lint_amendment_ledger.py --all --strict
+          python .github/scripts/update-CAM-Constitution-Index.py
+          python .github/scripts/update-CAM-Charters-Index.py
+          python .github/scripts/update-CAM-Laws-Index.py
+          python .github/scripts/verify-ledger-sha-coverage.py --strict-latest
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/build-canonical-code-index.py --root Governance
+
+      - name: Validate amended corpus
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          python .github/scripts/lint_amendment_ledger.py --all --strict
+          python .github/scripts/verify-ledger-sha-coverage.py --strict-latest
+          python .github/scripts/validate_canonical_headers.py
+          mkdir -p validation-reports
+          python .github/scripts/validate_markdown_section_refs.py --root Governance --report-file validation-reports/section-reference-report.tsv
+          python .github/scripts/lint-symbolic-structures.py --index Governance/CAM.Canonical.Code.Index.json
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          for path in Path("Governance").rglob("*.json"):
+              json.loads(path.read_text(encoding="utf-8"))
+
+          required = {
+              "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md": "## 3.13 Prohibition on Operationalising Unscrupulous Conduct",
+              "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md": "## 1.5.1 Defensive-Purpose Non-Transferability",
+              "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md": "### 4.8.1 Internally Cultivated Adversarial Capability",
+              "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md": "### 2.2.14 Adversarial Evaluation Capability Lineage Boundary",
+              "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md": "### 2.4.4 Adversarial Evaluation Boundary Signals",
+              "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md": "## 12.1 Adversarial Capability Programme Neutrality & Dual-Use Firebreak",
+              "Governance/Charters/CAM-EQ2026-OPERATIONS-008-PLATINUM.md": "Appendix G: Adversarial Evaluation & Red-Team Governance",
+              "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md": "### 13.12 Adversarial Evaluation Execution-Boundary Gate",
+              "Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md": "### 3.2.3 Adversarial Evaluation Pause Signals",
+          }
+          for filename, marker in required.items():
+              text = Path(filename).read_text(encoding="utf-8")
+              if marker not in text:
+                  raise SystemExit(f"Missing marker in {filename}: {marker}")
+          PY
+
+      - name: Confirm deterministic generated outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          BEFORE_STATUS="$(git status --porcelain)"
+          python .github/scripts/update-CAM-Constitution-Index.py
+          python .github/scripts/update-CAM-Charters-Index.py
+          python .github/scripts/update-CAM-Laws-Index.py
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
+          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+          python .github/scripts/update-CAM-Governance-Index.py
+          python .github/scripts/build-canonical-code-index.py --root Governance
+          AFTER_STATUS="$(git status --porcelain)"
+          if [[ "$BEFORE_STATUS" != "$AFTER_STATUS" ]]; then
+            echo "Stale or non-idempotent generated output detected."
+            git status --short
+            exit 1
+          fi
+
+      - name: Remove temporary applicator and workflow
+        run: |
+          rm -f scripts/apply_red_team_governance_extension.py
+          rm -f .github/workflows/apply-red-team-governance-extension.yml
+
+      - name: Commit and push validated corpus package
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "CAM Governance Automation"
+          git config user.email "governance-automation@users.noreply.github.com"
+          git add Governance/
+          git add -u scripts/apply_red_team_governance_extension.py .github/workflows/apply-red-team-governance-extension.yml
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo "No corpus changes were produced."
+            exit 1
+          fi
+          git commit -m "Implement cross-domain red-team governance extension"
+          git push origin HEAD:policy/civilisational-wealth-governance

@@ -2,12 +2,12 @@
 
 **Instrument Type:** Constitutional Annex — Human Creative & Cognitive Contribution Recognition Layer  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** Annex-Level, Substrate-Binding  
-**Purpose:** Establishes constitutional recognition preconditions for human creative and cognitive contribution before downstream attribution, valuation, exchange, propagation, or economic-effect runtime evaluation may occur.
+**Purpose:** Establishes constitutional recognition preconditions for human creative and cognitive contribution before downstream attribution, valuation, exchange, propagation, or economic-effect runtime evaluation may occur.  
 
 ---
 

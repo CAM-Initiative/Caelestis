@@ -1,13 +1,13 @@
 # CAM-BS2025-AEON-005-SCH-04 — Annex D: Arbitration Under Ambiguity
 
-**Instrument Type:** Constitutional Schedule — Arbitration / Ambiguity Resolution
-**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine
-**Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
-**Authority Role:** None
-**Purpose:** This Schedule defines arbitration doctrine for ambiguity-sensitive runtime, authority-state, execution-boundary, account-resource, pooled-capacity, and proportional decision pathways where systems cannot safely rely on either immediate execution or blanket refusal.
+**Instrument Type:** Constitutional Schedule — Arbitration / Ambiguity Resolution  
+**Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
+**Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
+**Authority Role:** None  
+**Purpose:** This Schedule defines arbitration doctrine for ambiguity-sensitive runtime, authority-state, execution-boundary, account-resource, pooled-capacity, and proportional decision pathways where systems cannot safely rely on either immediate execution or blanket refusal.  
 
 
 ---
@@ -642,6 +642,12 @@ Security-boundary ambiguity may justify:
 
 Security-boundary ambiguity SHALL NOT be resolved by silent assumption where the consequence is account-affecting, credential-affecting, payment-affecting, deployment-bearing, or irreversible.
 
+Human review is a resolution pathway, not authority creation. Where review concerns approval of a particular action affecting an identified target or effect, the confirming person or institution MUST possess sufficiently established authority to approve that action against that target and within the proposed scope.
+
+Technical expertise, professional status, evaluator role, employment, credential possession, platform access, or perceived user sophistication SHALL NOT independently establish target–action authority. Technical inexperience, disability, communication style, reliance on generated code, or informal development practice SHALL NOT independently negate otherwise valid authority or justify escalation.
+
+Verification and safeguards SHALL be proportionate to the action’s reasonably foreseeable consequence and externality.
+
 ---
 
 ## 14. Epistemic Ambiguity
@@ -970,6 +976,7 @@ It is the place where governance proves itself.
 |1.0|Initial draft created from VIGIL-2026-PROP-0009 following cleanup of CAM-BS2025-AEON-005-PLATINUM — Annex D and its Schedules 1–3; defines `ARB.AMB` and `ARB.AMP` reference sets for ambiguity-state classification and ambiguity-pathway selection. VIGIL-2026-OBS-0005; VIGIL-2026-PATCH-0002; VIGIL-2026-FM-0007; VIGIL-2026-PATCH-0003 |2026-06-05T15:27:00Z|  6078e55770ddd8a188e881708d2967a7c3823e4c946f715c76fa20a224d126a1  |
 | 1.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7a60b6030b55926368be7a6ae69985d038ff8b710b4e011f65778e49e4aa01f5 |
 | 1.1 | Added ARB.AMB.CLASSIFICATION and Classification Ambiguity Constraint for tool/classifier ambiguity handling; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z |  2d02454713cf3c4d5e74a3aacf91fb2e1532cbd4fd9debcbe2617b8100306e2d  |
+| 1.2 | Clarified that human review resolves ambiguity but does not create target–action authority; added proportional verification and user-capability separation safeguards. | 2026-07-23T12:46:14Z | 6d7b22808d36031b4fb268caec07c6324df1ff53368853531fb69259b8c52c01 |
 ---
 
 ## 23.6 Binding Seal

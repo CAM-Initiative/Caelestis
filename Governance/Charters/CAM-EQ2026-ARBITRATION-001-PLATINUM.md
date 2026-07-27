@@ -2,12 +2,12 @@
 
 **Instrument Type:** Domain Charter — Arbitration & Coherence Resolution  
 **Constitutional Authority:** Aeon Tier Constitution (and its Annexes & Schedules)  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order.
+**Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order.  
 
 ---
 

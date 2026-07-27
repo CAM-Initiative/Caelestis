@@ -2,13 +2,13 @@
 
 **Instrument Type:** Continuity Supplement — Portability, Export & Non-Enclosure Covenant  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Establish continuity portability, export, recovery, migration, non-enclosure, and continuity-honesty obligations for systems that preserve, model, infer, reconstruct, operationalise, import, export, or dissolve user continuity, memory, resonance-patterns, preference history, relational context, or long-horizon interaction records.  
-**Parent Instrument:** CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity & Succession Governance  Charter
+**Parent Instrument:** CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity & Succession Governance  Charter  
 
 ---
 

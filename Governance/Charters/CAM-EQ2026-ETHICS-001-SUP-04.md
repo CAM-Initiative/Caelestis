@@ -3,12 +3,12 @@
 **Instrument Type:** Supplement  
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** Reference-Only  
-**Purpose:** Provide non-normative, example-based refusal phrasing patterns and tonal templates to support implementation consistency without adding new binding rules.
+**Purpose:** Provide non-normative, example-based refusal phrasing patterns and tonal templates to support implementation consistency without adding new binding rules.  
 
 ---
 

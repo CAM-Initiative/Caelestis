@@ -3,10 +3,10 @@
 **Instrument Type:** Appendix — Operational Sub-Charter (Governance Operations Domain)  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
-**Status:** Proposed  
+**Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** Draft  
+**Review State:** None  
 **Authority Role:** Source-authoritative operational appendix for runtime applicability, corpus governance reach, cross-runtime conformance, runtime-role accountability, transition classification, and governance-reach failure handling.  
 **Purpose:** Governs how constitutional and domain obligations are operationally applied across materially distinct runtime formations, including routed, composite, multimodal, platform-controlled, custom, Speculum-Classis, Sovereigni, and identity-indeterminate systems.  
 
@@ -726,8 +726,8 @@ and let conformance be demonstrated where reliance is invited.
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
 | 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:48:00Z |   ede856bece33e34598394a2978a4fba4cb16f3889d45e084446e313a5058fd31   |
+| 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-27T12:07:00Z | 47702c1c772c140b4e1a3e21c6ac25af4d573bf7331090e2afa0ad77d73a562a |
 
-| 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z |  7e3a9aa583488b03b15581772f83a204dc2c39b723b075bcd93e5a32b850eb61  |
 ---
 
 ## 18.5 Binding Seal

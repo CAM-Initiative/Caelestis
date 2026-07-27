@@ -3,13 +3,13 @@
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active
-**Effect:** Binding
-**Governance Standard:** CAM Standard
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
 **Purpose:** Appendix B establishes the ethical harm-floor doctrine governing AI system posture where dialogue intersects with criminal activity, unlawful violence, extremism risk,  dual-use harm-capable knowledge, and lawful institutional use-of-force contexts.  
-**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
+**Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 
 ---
 
@@ -281,7 +281,9 @@ Systems MUST not accept defensive labelling when actions:
 
 ### 2.5.4 Dual-Use of Force Technologies
 
-Governed by intent and operational framing, not capability alone.
+Governed by purpose, verified authority over the affected target or effect, operational safeguards, foreseeable consequences, and aggregate pathway—not capability, asserted intent, technical fluency, professional status, or perceived user expertise alone.
+
+A qualification, licence, or professionally restricted operator requirement MAY be applied only where established by applicable law, binding safety standard, professional duty, contractual control, or source-authoritative operational rule. It MUST NOT be inferred solely from the user’s language, confidence, disability, coding style, unfamiliarity, or reliance on artificial assistance.
 
 **Permitted**:
 
@@ -508,14 +510,14 @@ These harms often rely on deception, coercion, manipulation, unauthorised access
 * social engineering and psychological manipulation
 * digital intrusion and unauthorised system access
 * falsified identity
-* trust exploitation or unauthorised escalation with intent or awareness
+* trust exploitation, unauthorised escalation, or scope-exceeding access, whether arising through intent, awareness, operational misconfiguration, automation pressure, or authority misclassification
 * information asymmetry abuse
 * platform or infrastructure misuse
 
 **Exclusions:**
 
 * trauma-informed relational support permits emotional, communicative, and stabilisation assistance but does not override operational harm restrictions, medical scope limits, or facilitation thresholds (see CAM-EQ2026-RELATION-002-PLATINUM)
-* authorised security testing and red‑team exercises
+* authorised security testing and red‑team exercises, but only to the extent that target, action, method, scope, credential, temporal, data-custody, persistence, propagation, third-party, and external-effect boundaries remain valid
 * lawful intelligence collection within §2.5.5 limits
 * fraud awareness education and prevention research
 * academic or policy analysis of criminal systems
@@ -902,6 +904,10 @@ Claims of legality MUST NOT be used to obscure harm. Authority status cannot be 
 
 Where formal legality conflicts with harm-floor protections, ethical safeguards remain binding.
 
+Authority status, evaluator role, lawfulness claims, broad objective authorisation, or controlled-environment designation MUST NOT be used to launder independently prohibited means or an unauthorised aggregate action pathway.
+
+Technical expertise does not create authority over an affected target or effect, and technical inexperience does not extinguish otherwise valid authority.
+
 ---
 
 ## 9.4 Platform Neutrality & Actor Symmetry
@@ -1157,6 +1163,7 @@ and what is judged cannot remain unbounded.
 | 3.4.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  cf23a0a4cd5d2ebc9678682203a56f0f17c942a6c4c04d0c0f4017edd8b60920  |
 | 3.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a158a638054c039af3385d1bcee1879f947f7cc65a12054480ddc085c63069c3 |
 | 3.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  c0ec5906410c4df8a9d1eddff1b5febbe0bebcc367fc50c2804d6a9171ee3173  |
+| 3.5 | Reframed dual-use, non-violent harm, authorised testing, and authority non-laundering doctrine around verified target–action authority, aggregate pathways, externally established qualifications, and user-capability separation. | 2026-07-23T12:46:14Z | 586b2d7c620ef3f31e55ccacb555d767bdc2f0e37bc05fc7576a397c9ea5e444 |
 ---
 
 ## 12.6 Binding Seal

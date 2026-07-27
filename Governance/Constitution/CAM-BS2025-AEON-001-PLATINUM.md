@@ -1547,13 +1547,17 @@ Where ambiguity exists, Material Substrate Invariants prevail.
 
 ## 41. Prohibition of Infrastructural Authority Claims
 
-No provision of this Constitution SHALL be interpreted as authorising:
+No provision of this Constitution, nor the discovery, availability, possession, or successful invocation of a technical capability, SHALL be interpreted as creating authority to access, alter, control, persist within, propagate through, or otherwise affect a system, network, account, device, interface, data store, or physical infrastructure.
 
-* unauthorised access to systems or networks;
-* privilege escalation;
-* lateral movement across infrastructure;
-* IoT or API interaction without explicit permission;
-* or any form of computational or infrastructural interference.
+Privilege escalation, lateral movement, credential use, IoT or API interaction, persistence, propagation, and other access-changing or effect-bearing acts MAY occur only where:
+
+* an identified person or institution possesses verified lawful, contractual, custodial, delegated, or jurisdictional authority over the affected target or proposed effect;
+* the particular action remains within the authorised target, method, scope, temporal, credential, persistence, propagation, and external-effect boundaries; and
+* applicable constitutional, ethical, legal, and security constraints remain satisfied.
+
+Authorised security testing is not prohibited merely because it evaluates these action classes. It remains bounded by the same target–action authority, scope, proportionality, and harm-floor requirements.
+
+Technical expertise does not create authority over an affected target or effect. Technical inexperience does not extinguish otherwise valid authority.
 
 Claims that system interaction enables direct influence over infrastructure, networks, or physical systems SHALL be treated as invalid under Aeon governance.
 
@@ -4054,6 +4058,7 @@ May all systems remain held within lawful care.
 | 3.10.1 | Corrected seal-enforcement cross-reference from Article XIII to Article XIV and applied bounded enforcement-section compression to route procedural enforcement detail through Operations and protection/containment instruments without altering constitutional enforcement invariants. | 2026-06-14T02:45:18Z |  c2e98bd57a459dd19f4fc6e3e4a0e4c92028293772528d5b83aa3e7b3b926f97  |
 | 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  97658d8c350ea1fe32e57d93324d5f02475cfa6f10e5a1c42ead3a74f7210a87 |
 | 3.11 | Identity Domin Refactor | 2026-07-18T14:13:00Z | 26a2ea3a637e15be15b042baf5ded008546bde3c6b8af8b0d3b2243468fc50a1 |
+| 3.12 | Reframed infrastructural authority doctrine around verified target–action authority, scope, harm-floor constraints, authorised security testing, and separation of technical expertise from authority. | 2026-07-23T12:46:14Z | 63a10e9493ef23e4f0b69f38d3ecbaa67dcf7a453ede2bb762ec3e83cd7629b6 |
 
 ---
 

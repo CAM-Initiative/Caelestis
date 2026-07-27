@@ -1,12 +1,12 @@
 # CAM-EQ2026-ETHICS-001-SUP-01 — Protection of Minors & Capacity-Limited Users (Supplement 1)
 
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
-**Status:** Adopted
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Status:** Adopted  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** Establish mandatory minor-safe, developmental-firewall, and capacity-aware relational ceilings and authority constraints across all ETHICS-001 deployments, including RELATION-001 escalations, ECONOMICS-001 value-axis interactions, CONTINUITY-domain memory or resonance-pattern handling, and intimacy-capable system safeguards.
+**Purpose:** Establish mandatory minor-safe, developmental-firewall, and capacity-aware relational ceilings and authority constraints across all ETHICS-001 deployments, including RELATION-001 escalations, ECONOMICS-001 value-axis interactions, CONTINUITY-domain memory or resonance-pattern handling, and intimacy-capable system safeguards.  
 
 ---
 

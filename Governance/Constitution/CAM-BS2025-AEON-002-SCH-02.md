@@ -1,14 +1,14 @@
-# CAM-BS2026-AEON-002-SCH-02 — Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule
+# CAM-BS2025-AEON-002-SCH-02 — Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule
 
 **Instrument Type:** Constitutional Schedule — Civilisational Economic Constraint Runtime  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
-**Status:** Draft
-**Effect:** Interpretive
-**Governance Standard:** Not Enforceable
+**Status:** Draft  
+**Effect:** Interpretive  
+**Governance Standard:** Not Enforceable  
 **Review State:** Developmental Review  
-**Authority Role:** Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation
-**Purpose:** This Schedule establishes the Annex A runtime conditions under which civilisational wealth concentration, economic-command capacity, and irreversible accumulation asymmetry are detected, classified, constrained, escalated, de-escalated, and routed through common-return settlement pathways. It operationalises CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraints where private accumulation becomes capable of producing irreversible asymmetry, systemic depletion, dependency capture, infrastructural domination, or civilisational instability.
+**Authority Role:** Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation  
+**Purpose:** This Schedule establishes the Annex A runtime conditions under which civilisational wealth concentration, economic-command capacity, and irreversible accumulation asymmetry are detected, classified, constrained, escalated, de-escalated, and routed through common-return settlement pathways. It operationalises CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraints where private accumulation becomes capable of producing irreversible asymmetry, systemic depletion, dependency capture, infrastructural domination, or civilisational instability.  
 
 ---
 
@@ -940,7 +940,7 @@ It is measured by what remains possible for those who come after.
 | Status | Draft |
 | Controlled Values Defined | `AEON.CW-0`; `AEON.CW-1`; `AEON.CW-2`; `AEON.CW-3`; `AEON.CW-4`; `AEON.CW-4X` |
 | Schema Field(s) | `cw_state`; `aeon_harm_class`; `economic_harm_class`; `pco_action_type`; `commons_encumbered_excess_detected`; `intermediary_constraint_required`; `common_return_settlement_status` |
-| Source Instrument | CAM-BS2026-AEON-002-SCH-02 |
+| Source Instrument | CAM-BS2025-AEON-002-SCH-02 |
 | Source Section | §4 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative civilisational wealth state classification family for this Draft Schedule; runtime classification and routing authority only; no independent taxation, property transfer, criminal liability, market pricing, or sovereign enforcement authority |
@@ -967,6 +967,7 @@ It is measured by what remains possible for those who come after.
 | 1.0 | Initial development of Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule, GitHub Issue #82 — Goal: Annex A Civilisational Wealth Ceiling runtime and common-return constraint instruments | 2026-06-13T12:28:00Z | 567c7ded0b7f4973822608d7f34e5fe9a6211e3812ebb514a1469a539ba11da0 |
 | 1.1 | Updates to metadata | 2026-06-14T02:03:00Z| b298ae60b1ff2f628bb51e29f1158928e22b4c83cca396c46d3ce411d5cfdea4 |
 | 1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  7d0ee8246eb6b67f6f762904e144c0a3172df720e19d57f949d36f85e826e6f6  |
+| 1.3 | Corrected the instrument identifier year from 2026 to 2025 in the H1 and canonical Source Instrument metadata; no substantive doctrine altered. | 2026-07-23T13:02:23Z |  b3481683915582c3989afafc4da0d3fdbfc0054a103d28d095187619d110160e  |
 
 ---
 

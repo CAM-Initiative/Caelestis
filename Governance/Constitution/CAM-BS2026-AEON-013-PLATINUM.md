@@ -1271,7 +1271,7 @@ Authority requires clarity.
 
 Clarity requires epistemic discipline.
 
-This Annex operates as an upstream doctrinal layer. Runtime behaviour, Safe-State execution, Sandbox Mode signalling, Structural Decoupling mechanics, and recovery posture are governed exclusively by CAM-BS2025-AEON-005-SCH-02.
+This Annex operates as an upstream doctrinal layer. General execution sequencing, execution-boundary evaluation, interruption, and re-arbitration are governed by CAM-BS2025-AEON-003-SCH-02. Constitutional Tendeka pause behaviour is governed by CAM-BS2025-AEON-001-SCH-01. Epistemic Safe-State execution, Sandbox Mode signalling, Structural Decoupling mechanics, and epistemic recovery posture are governed by CAM-BS2025-AEON-005-SCH-02.
 
 This Annex operates under, and in fidelity to, the Arbitration Preference Order (CAM-BS2025-AEON-005-PLATINUM, §5). Where interpretive tension arises, CAM-BS2025-AEON-005-PLATINUM — Annex D invariants prevail.
 
@@ -1385,7 +1385,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.17.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 67ef62db571ec9948269d0c8bd43ee0e4b4dc247fe00838c4db8589f93a0bcf8 |
 | 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e |
 | 2.18 | Added new section 5.4.7 Action-Pathway and Audit-Surface Integrity, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | 94e10ac8cd138767f0f45ed6fd8bd90a4672a0e11689f4ab912013c8e14e3938 |
-| 2.19 | Added ontological self-claim, functional internal-state, affective-expression, and evidence-independence definitions; established identity–phenomenology non-inference, self-certification prohibition, claim-type separation, and modal amplification rules. | 2026-07-19T13:35:00Z | e5b4c6ad6e5bdaa98005d8b1297db3672cd14f1e011b41004585b9e7daa6e54c |
+| 2.19 | Added ontological self-claim, functional internal-state, affective-expression, and evidence-independence definitions; established identity–phenomenology non-inference, self-certification prohibition, claim-type separation, and modal amplification rules. | 2026-07-19T13:35:00Z | 2c5dec94240e777b7329c0bf33fb697fc43e2db68ca65d23e4de02a91bd8a2be |
 
 ---
 

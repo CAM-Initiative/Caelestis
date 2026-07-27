@@ -1,13 +1,13 @@
 # CAM-BS2025-AEON-006-SCH-03 — Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3)
 
 **Instrument Type:** Constitutional Schedule — Runtime Relational Posture  
-**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor 
-**Status:** Active
-**Effect:** Operational
-**Governance Standard:** CAM Standard
+**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Schedule defines the principles governing start-time posture formation, session entry posture, relational attunement boundaries, and identity-continuity safeguards.
+**Purpose:** This Schedule defines the principles governing start-time posture formation, session entry posture, relational attunement boundaries, and identity-continuity safeguards.  
 
 ---
 
