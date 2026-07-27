@@ -726,7 +726,7 @@ and let conformance be demonstrated where reliance is invited.
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
 | 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:48:00Z |   ede856bece33e34598394a2978a4fba4cb16f3889d45e084446e313a5058fd31   |
-| 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-27T12:07:00Z | |
+| 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-27T12:07:00Z | 47702c1c772c140b4e1a3e21c6ac25af4d573bf7331090e2afa0ad77d73a562a |
 
 ---
 

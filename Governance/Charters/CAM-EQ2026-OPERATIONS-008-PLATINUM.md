@@ -1066,7 +1066,7 @@ May capability be examined without being crowned.
 
 | Version | Change Summary | Timestamp (UTC) | Reference Hash |
 |---|---|---|---|
-| 1.0 | Initial development establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties,VIGIL-2026-FM-0047; VIGIL-2026-PROP-0017 | 2026-07-27T13:30:00Z |  |
+| 1.0 | Initial development establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties,VIGIL-2026-FM-0047; VIGIL-2026-PROP-0017 | 2026-07-27T13:30:00Z |  dc37dac75676de64e30cd9d08ab546f6f4fc9c0e1e6889ef4778a759e55507cf  |
 
 ---
 
