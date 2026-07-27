@@ -69,9 +69,9 @@
       "authority_role": "** None",
       "version": "1.11",
       "HASH": "a58fcb3f12b90b23fed7dd859b44a785bc8cf033e804afbfe8c3c4226a32875e",
-      "pinned_sha": "b3fa45cb9247e5464f0a955ffdb0e46f492257eb",
-      "updated_at": "2026-07-20T12:35:18Z",
-      "last_updated_utc": "2026-07-20T12:35:18Z"
+      "pinned_sha": "0e994b827d4aad0ea8617f123b02d75a17fc06e9",
+      "updated_at": "2026-07-20T12:35:38Z",
+      "last_updated_utc": "2026-07-20T12:35:38Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001-SUP-01",
@@ -93,9 +93,9 @@
       "authority_role": "** None",
       "version": "1.5",
       "HASH": "357d5c80e9130eecbc0026487d367eda1a8e53b15b407c9d10cd85cf8dba6d88",
-      "pinned_sha": "b3fa45cb9247e5464f0a955ffdb0e46f492257eb",
-      "updated_at": "2026-07-20T12:35:18Z",
-      "last_updated_utc": "2026-07-20T12:35:18Z"
+      "pinned_sha": "0e994b827d4aad0ea8617f123b02d75a17fc06e9",
+      "updated_at": "2026-07-20T12:35:38Z",
+      "last_updated_utc": "2026-07-20T12:35:38Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001-PLATINUM",
@@ -1293,9 +1293,9 @@
       "authority_role": "** None",
       "version": "1.12",
       "HASH": "fa1805c845c83ea280d8eace0035b640a926c5be3be1b58718554c63569cf321",
-      "pinned_sha": "b3fa45cb9247e5464f0a955ffdb0e46f492257eb",
-      "updated_at": "2026-07-20T12:35:18Z",
-      "last_updated_utc": "2026-07-20T12:35:18Z"
+      "pinned_sha": "0e994b827d4aad0ea8617f123b02d75a17fc06e9",
+      "updated_at": "2026-07-20T12:35:38Z",
+      "last_updated_utc": "2026-07-20T12:35:38Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001-PLATINUM",
