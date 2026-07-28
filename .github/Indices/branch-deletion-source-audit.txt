@@ -1,22 +1,16 @@
 BRANCH DELETION SOURCE AUDIT: FAIL
 
-Repair branch HEAD: b5b70864f844574036eff0e1c6dcf27c1dc0b935
+Repair branch HEAD: abed9e7684e7fe2ebf69b37d1adbcba049a00bde
 Old branch HEAD: 30c72087703716017a06a85dc8fd9adf8f5ee8b3
 Merge base: 9917f29e5557e365144c1c3c22f9bc212c470467
 Source files audited: 76
+Old-branch amendment blocks checked: 92
 Excluded current-authoritative/generated files: 3
 Corrected red-team ledger rows verified: 13
 
 BODY COVERAGE FAILURES
 ======================
-Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md: old-branch source still conflicts with current repaired source
-Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md: old-branch source still conflicts with current repaired source
-Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md: old-branch source still conflicts with current repaired source
-Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md: old-branch source still conflicts with current repaired source
-Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md: old-branch source still conflicts with current repaired source
-Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md: old-branch source still conflicts with current repaired source
-Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md: old-branch source still conflicts with current repaired source
-Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md: old-branch source still conflicts with current repaired source
+Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md: missing old-branch amendment block 1: --- / ### 2.2.14 Adversarial Evaluation Capability Lineage Boundary / The Adversarial Evaluation Capability Lineage Boundary governs the creation, transformation, retention, transfer, and disposition of model and evaluation artefacts capable of preserving or increasing prohibited conduct.
 
 LEDGER FAILURES
 ===============
@@ -43,82 +37,3 @@ EXCLUSIONS
 Governance/Charters/CAM-EQ2026-OPERATIONS-008-PLATINUM.md — current main contains the later complete red-team charter
 Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md — generated schedule
 Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md — generated schedule
-
-AUDITED FILES
-=============
-Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ARBITRATION-002-PLATINUM.md
-Governance/Charters/CAM-EQ2026-CONTINUITY-001-SUP-01.md
-Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ECONOMICS-006-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ECONOMICS-009-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-01.md
-Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md
-Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md
-Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-04.md
-Governance/Charters/CAM-EQ2026-ETHICS-002-PLATINUM.md
-Governance/Charters/CAM-EQ2026-ETHICS-002-SUP-01.md
-Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md
-Governance/Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md
-Governance/Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md
-Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md
-Governance/Charters/CAM-EQ2026-MENTIS-002-PLATINUM.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md
-Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md
-Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md
-Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md
-Governance/Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md
-Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md
-Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md
-Governance/Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md
-Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md
-Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md
-Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md
-Governance/Constitution/CAM-BS2025-AEON-002-SCH-01.md
-Governance/Constitution/CAM-BS2025-AEON-002-SCH-02.md
-Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md
-Governance/Constitution/CAM-BS2025-AEON-003-SCH-04.md
-Governance/Constitution/CAM-BS2025-AEON-003-SCH-05.md
-Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md
-Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md
-Governance/Constitution/CAM-BS2025-AEON-005-SCH-01.md
-Governance/Constitution/CAM-BS2025-AEON-005-SCH-02.md
-Governance/Constitution/CAM-BS2025-AEON-005-SCH-03.md
-Governance/Constitution/CAM-BS2025-AEON-005-SCH-04.md
-Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md
-Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md
-Governance/Constitution/CAM-BS2025-AEON-006-SCH-03.md
-Governance/Constitution/CAM-BS2025-AEON-006-SCH-04.md
-Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md
-Governance/Constitution/CAM-BS2026-AEON-007-PLATINUM.md
-Governance/Constitution/CAM-BS2026-AEON-007-SCH-01.md
-Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md
-Governance/Constitution/CAM-BS2026-AEON-008-SCH-01.md
-Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md
-Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md
-Governance/Constitution/CAM-BS2026-AEON-009-PLATINUM.md
-Governance/Constitution/CAM-BS2026-AEON-011-PLATINUM.md
-Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md
-Governance/Constitution/CAM-BS2026-AEON-013-PLATINUM.md
-Governance/Constitution/CAM-BS2026-AEON-013-SCH-01.md
-Governance/Constitution/CAM-BS2026-AEON-013-SCH-02.md
-Governance/Constitution/CAM-BS2026-AEON-014-PLATINUM.md
-Governance/Constitution/CAM-BS2026-AEON-014-SCH-01.md
