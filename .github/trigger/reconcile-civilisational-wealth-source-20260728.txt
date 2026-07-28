@@ -1,2 +1,0 @@
-Reconcile every source amendment remaining on policy/civilisational-wealth-governance.
-Preserve current main-side changes and amend existing ledger entries only.
