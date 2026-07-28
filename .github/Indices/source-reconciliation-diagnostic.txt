@@ -1,0 +1,16 @@
+SOURCE RECONCILIATION FAILED
+
+STDOUT
+======
+
+STDERR
+======
+Traceback (most recent call last):
+  File "/home/runner/work/Caelestis/Caelestis/.github/scripts/reconcile_remaining_branch_source.py", line 317, in <module>
+    reconcile()
+  File "/home/runner/work/Caelestis/Caelestis/.github/scripts/reconcile_remaining_branch_source.py", line 260, in reconcile
+    merged_ledger = merge_ledger(path, current_ledger, old_ledger)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Caelestis/Caelestis/.github/scripts/reconcile_remaining_branch_source.py", line 164, in merge_ledger
+    raise RuntimeError(f"Amendment version collision in {path}: {version}")
+RuntimeError: Amendment version collision in Governance/Constitution/CAM-BS2026-AEON-013-SCH-01.md: 1.18
