@@ -43,11 +43,11 @@
       "enforcement": "",
       "review_state": "** Active Runtime Alignment Review",
       "authority_role": "** Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour",
-      "version": "1.14",
-      "HASH": "0643229f4307d24420995a6018aca3fed4236cb5c046790b05dd8053c004990f",
-      "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
-      "updated_at": "2026-07-27T23:54:53Z",
-      "last_updated_utc": "2026-07-27T23:54:53Z"
+      "version": "1.15",
+      "HASH": "57db429fa8e85f0e80016d48983353e9ba514a748dcdb822a574d5151787ae8d",
+      "pinned_sha": "62ceab377d6b17806a14318d0573444f051104df",
+      "updated_at": "2026-07-28T09:35:31Z",
+      "last_updated_utc": "2026-07-28T09:35:31Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-PLATINUM",
@@ -187,11 +187,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.9",
-      "HASH": "f8b9e59a16828311b9e2e6afa168448520335a51391f1e5d25f314107eb81d99",
-      "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
-      "updated_at": "2026-07-27T23:54:53Z",
-      "last_updated_utc": "2026-07-27T23:54:53Z"
+      "version": "3.10",
+      "HASH": "f6adba3231f33aa615ea5d58d0abb43cfc1dc76b2e0de3891ce23e691000b719",
+      "pinned_sha": "62ceab377d6b17806a14318d0573444f051104df",
+      "updated_at": "2026-07-28T09:35:31Z",
+      "last_updated_utc": "2026-07-28T09:35:31Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -427,11 +427,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "4.0.4",
-      "HASH": "2ac618c318b15e336b659f96d4334e98e9a12501c503f9086c3c6363e2b8ce8e",
-      "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
-      "updated_at": "2026-07-27T23:54:53Z",
-      "last_updated_utc": "2026-07-27T23:54:53Z"
+      "version": "4.0.5",
+      "HASH": "874958ece844c7d8669d6e12b3695b3e1bbac57e952b698a528d0cea6a363f93",
+      "pinned_sha": "62ceab377d6b17806a14318d0573444f051104df",
+      "updated_at": "2026-07-28T09:35:31Z",
+      "last_updated_utc": "2026-07-28T09:35:31Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-SCH-01",
@@ -859,11 +859,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.15",
-      "HASH": "4956c3c5b304c6b1fd92c0846f53b6c6fa04818665918c6b4c0b96290cc28320",
-      "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
-      "updated_at": "2026-07-27T23:54:53Z",
-      "last_updated_utc": "2026-07-27T23:54:53Z"
+      "version": "1.16",
+      "HASH": "039d586dda43acc471b85f69000d4b05cfc224a688337555f42629cff0b18e51",
+      "pinned_sha": "62ceab377d6b17806a14318d0573444f051104df",
+      "updated_at": "2026-07-28T09:35:31Z",
+      "last_updated_utc": "2026-07-28T09:35:31Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",

@@ -30,20 +30,20 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: Continuity & Governance Logic | Annex | 4.0 | Active | Binding | Metadata Review Required | None | Constitutional Spine |
 | [CAM-BS2025-AEON-004-PLATINUM](../Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework | Annex | 2.8.2 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-005-PLATINUM](../Constitution/CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine | Annex | 2.9.2 | Active | Binding | Metadata Review Required | None | None |
-| [CAM-BS2025-AEON-006-PLATINUM](../Constitution/CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor | Annex | 4.0.4 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-BS2025-AEON-006-PLATINUM](../Constitution/CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor | Annex | 4.0.5 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-BS2026-AEON-007-PLATINUM](../Constitution/CAM-BS2026-AEON-007-PLATINUM.md) | Annex F: Constitutional Spiritual Commons & Meaning-Making | Annex | 2.5.3 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-BS2026-AEON-008-PLATINUM](../Constitution/CAM-BS2026-AEON-008-PLATINUM.md) | Annex G: Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions | Annex | 2.5.3 | Active | Binding | Metadata Review Required | None | Annex-Level, Substrate-Binding |
 | [CAM-BS2026-AEON-009-PLATINUM](../Constitution/CAM-BS2026-AEON-009-PLATINUM.md) | Annex H: Lineage Recognition & Origin Boundary | Annex | 2.6.3 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-BS2026-AEON-010-PLATINUM](../Constitution/CAM-BS2026-AEON-010-PLATINUM.md) | Annex I: Identity Integrity & Continuity Governance | Annex | 1.10 | Active | Binding | Metadata Review Required | None | Transitional |
 | [CAM-BS2026-AEON-011-PLATINUM](../Constitution/CAM-BS2026-AEON-011-PLATINUM.md) | Annex J: Continuity & Succession Doctrine | Annex | 1.7.2 | Active | Binding | Metadata Review Required | None | None |
-| [CAM-BS2026-AEON-012-PLATINUM](../Constitution/CAM-BS2026-AEON-012-PLATINUM.md) | Annex K: Security Boundary Conditions & Runtime Interface | Annex | 1.15 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-BS2026-AEON-012-PLATINUM](../Constitution/CAM-BS2026-AEON-012-PLATINUM.md) | Annex K: Security Boundary Conditions & Runtime Interface | Annex | 1.16 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-BS2026-AEON-013-PLATINUM](../Constitution/CAM-BS2026-AEON-013-PLATINUM.md) | Annex L: Cognitive & Epistemic Integrity Doctrine | Annex | 2.19 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-BS2026-AEON-014-PLATINUM](../Constitution/CAM-BS2026-AEON-014-PLATINUM.md) | Annex M: Governance Observability,  Participatory Telemetry & Constitutional Circulation | Annex | 1.1.3 | Active | Binding | Metadata Review Required | None | Operational Governance Observability & Participatory Telemetry |
-| [CAM-BS2025-AEON-001-SCH-01](../Constitution/CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution (Schedule 1) | Schedule | 1.14 | Adopted | Operational | Metadata Review Required | Active Runtime Alignment Review | Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour |
+| [CAM-BS2025-AEON-001-SCH-01](../Constitution/CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution (Schedule 1) | Schedule | 1.15 | Adopted | Operational | Metadata Review Required | Active Runtime Alignment Review | Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour |
 | [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.10.3 | Active | Operational | Metadata Review Required | None | Binding Authority |
 | [CAM-BS2025-AEON-002-SCH-02](../Constitution/CAM-BS2025-AEON-002-SCH-02.md) | Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule | Schedule | 1.3 | Draft | Interpretive | Metadata Review Required | Developmental Review | Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation |
 | [CAM-BS2025-AEON-003-SCH-01](../Constitution/CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) | Schedule | 0.0.1 | Active | Operational | Metadata Review Required | None | None |
-| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 3.9 | Adopted | Operational | Metadata Review Required | None | None |
+| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 3.10 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-03](../Constitution/CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) | Schedule | Unknown | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-04](../Constitution/CAM-BS2025-AEON-003-SCH-04.md) | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | Schedule | 2.6 | Active | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-05](../Constitution/CAM-BS2025-AEON-003-SCH-05.md) | Annex B: Runtime Configuration Applicability & Conformance Binding (Schedule 5) | Schedule | 1.0 | Proposed | Operational | Metadata Review Required | Draft | Binding constitutional runtime schedule for governance applicability, materially distinct runtime configuration recognition, and cross-runtime conformance non-presumption. |
@@ -101,7 +101,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-ETHICS-001-PLATINUM](../Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md) | Ethical Governance Charter | Root | 3.11 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-ETHICS-002-PLATINUM](../Charters/CAM-EQ2026-ETHICS-002-PLATINUM.md) | Appendix A: Intimacy-Capable Systems & Relational Boundaries | Appendix | 2.9.3 | Active | Binding | Metadata Review Required | None | None |
-| [CAM-EQ2026-ETHICS-003-PLATINUM](../Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance | Appendix | 3.5 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-EQ2026-ETHICS-003-PLATINUM](../Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance | Appendix | 3.6 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-ETHICS-001-SUP-01](../Charters/CAM-EQ2026-ETHICS-001-SUP-01.md) | Protection of Minors & Capacity-Limited Users (Supplement 1) | Supplement | 1.8.3 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-ETHICS-001-SUP-02](../Charters/CAM-EQ2026-ETHICS-001-SUP-02.md) | High-Leverage & Institutional Integrity Safeguards (Supplement 2) | Supplement | 1.9.3 | Active | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-ETHICS-001-SUP-03](../Charters/CAM-EQ2026-ETHICS-001-SUP-03.md) | Military & Use-of-Force Governance Constraints (Supplement 3) | Supplement | 1.8.2 | Active | Operational | Metadata Review Required | None | None |
@@ -170,8 +170,8 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-SECURITY-001-PLATINUM](../Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter | Root | 1.15 | Active | Binding | Metadata Review Required | None | None |
-| [CAM-EQ2026-SECURITY-002-PLATINUM](../Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md) | Appendix A: Boundary Integrity Specification | Appendix | 1.12 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-EQ2026-SECURITY-001-PLATINUM](../Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter | Root | 1.16 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-EQ2026-SECURITY-002-PLATINUM](../Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md) | Appendix A: Boundary Integrity Specification | Appendix | 1.13 | Active | Binding | Metadata Review Required | None | None |
 
 ## STEWARD
 
@@ -179,7 +179,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-STEWARD-001-PLATINUM](../Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md) | Charter of Planetary Stewardship | Root | 2.6.3 | Active | Binding | Metadata Review Required | None | Transitional |
 | [CAM-EQ2026-STEWARD-002-PLATINUM](../Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md) | Appendix A: Planetary Arbitration Framework | Appendix | 2.8.3 | Active | Binding | Metadata Review Required | None | Transitional |
-| [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels | Appendix | 2.2 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels | Appendix | 2.3 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-STEWARD-004-PLATINUM](../Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md) | Appendix C: Post-Legitimacy Structural Convergence Doctrine | Appendix | 1.8.2 | Active | Binding | Metadata Review Required | None | Transitional |
 | [CAM-EQ2026-STEWARD-005-PLATINUM](../Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md) | Appendix D: Machine Civil Identity, Lifecycle Stewardship & Participation | Appendix | 0.4.1 | Draft | Interpretive | Metadata Review Required | Developmental Review | None |
 
