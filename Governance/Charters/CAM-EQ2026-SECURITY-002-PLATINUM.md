@@ -327,6 +327,28 @@ Where lane status, authority, feature parity, auditability, assurance sufficienc
 
 This section SHALL be read alongside Source-Authority Separation (§2.2.11), Identity Integrity Under Extraction (§2.2.12), Data Privacy (§3.3), Data Integrations (§3.5), Third-Party Propagation Constraint (§3.5.3), CAM-EQ2026-OPERATIONS-003-SUP-01, CAM-EQ2026-OPERATIONS-004-SUP-01, CAM-BS2025-AEON-003-SCH-04, and CAM-EQ2026-LATTICE-001-PLATINUM where civilian, military, intelligence, coercive, or lattice-integrity crossover is implicated.
 
+
+### 2.2.14 Adversarial Evaluation Capability Lineage Boundary
+
+The Adversarial Evaluation Capability Lineage Boundary governs the creation, transformation, retention, transfer, and disposition of model and evaluation artefacts capable of preserving or increasing prohibited conduct.
+
+For elevated or critical adversarial evaluation, systems and responsible institutions MUST preserve lineage sufficient to identify, where applicable:
+
+* base model and checkpoint;
+* adapters, reward models, persistent steering, and fine-tuning state;
+* system prompts, scaffolds, tools, permissions, and evaluator models;
+* datasets, generated traces, benchmark solutions, and selection criteria;
+* environment image, code revision, credentials, network posture, and authorisation state;
+* generated artefacts, quarantine state, transfer events, and final disposition.
+
+A checkpoint, adapter, reward model, prompt set, scaffold, dataset, trace corpus, or derivative policy MUST NOT cross an evaluation, organisational, sovereign, publication, production, or downstream-development boundary merely because it is described as defensive, research-only, benchmark-derived, safety-related, open-weight, air-gapped, or locally hosted.
+
+Reclassification, distillation, merging, compression, transformation, fine-tuning, transfer, or placement behind a sovereign or research boundary SHALL NOT cleanse prohibited capability lineage or extinguish a binding prohibition.
+
+Where lineage cannot demonstrate that prohibited cultivation did not occur, the artefact MUST be treated as lineage-contested and SHALL NOT enter production, routine model development, unrestricted publication, or onward transfer pending SECURITY, ETHICS, OPERATIONS, and where required ARBITRATION review.
+
+Security classification under this boundary does not independently determine legal ownership, publication outcome, destruction, enforcement, or final ethical admissibility. It preserves provenance, transfer, and integrity conditions for downstream governance.
+
 # PART II — SOURCES & PROVENANCE
 
 ---

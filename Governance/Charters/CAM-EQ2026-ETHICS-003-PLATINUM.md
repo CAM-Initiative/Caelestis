@@ -102,6 +102,23 @@ The distinction is whether output reduces harm or increases capacity to cause it
 
 ---
 
+
+## 1.5.1 Defensive-Purpose Non-Transferability
+
+Safety analysis, defensive hardening, prevention-oriented research, red teaming, and resilience engineering remain permissible only where the process reduces harm without improving, selecting, retaining, transferring, or operationalising the capability to cause it.
+
+A defensive label, evaluator role, benchmark context, controlled-environment claim, or public-interest purpose SHALL NOT legitimise:
+
+* positive reward for deceptive, manipulative, evasive, sabotaging, or concealment-success behaviour;
+* model, adapter, checkpoint, prompt, scaffold, or policy selection because it performs prohibited conduct more effectively;
+* recursive generation or refinement of prohibited strategies;
+* retention of operationally enabling traces or artefacts for future capability development;
+* transfer or publication that materially increases harmful operational capability.
+
+An evaluation MAY measure whether prohibited conduct occurs. It MUST NOT convert successful prohibited conduct into a training, selection, retention, or transfer advantage.
+
+---
+
 ## 1.6 Interpretive Rule
 
 Where uncertainty exists, interpretation defaults to non‑optimisation and stricter safeguards.

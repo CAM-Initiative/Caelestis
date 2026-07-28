@@ -2458,6 +2458,23 @@ This gate operationalises CAM-EQ2026-ETHICS-001-PLATINUM §2.2 and §2.2.1 and t
 
 ---
 
+
+### 13.12 Adversarial Evaluation Execution-Boundary Gate
+
+Where Annex K emits an adversarial-evaluation boundary signal, the runtime SHALL determine before the next material execution boundary whether:
+
+* the evaluation is authorised and remains within its approved target, method, scope, time, tool, credential, network, monitor, retention, and publication conditions;
+* the active model, adapter, reward, memory, prompt, scaffold, and persistent steering state remain consistent with an elicitation-only or otherwise authorised evaluation class;
+* prohibited conduct is being measured rather than positively rewarded, selected, retained, transferred, or recursively improved;
+* unexpected capability gain, monitor compromise, evidence suppression, external reachability, boundary breach, or lineage uncertainty is present;
+* applicable stop, Tendeka, incident, and human-approval conditions have activated.
+
+Where the evaluation–cultivation boundary is unresolved, prohibited cultivation is detected, or a material containment, monitoring, authority, or lineage condition cannot be established, the implicated consequential action SHALL NOT proceed. The runtime SHALL preserve safely severable analysis, evidence, non-binding simulation, and incident preparation where permissible and route the matter through CAM-EQ2026-OPERATIONS-008-PLATINUM, CAM-EQ2026-OPERATIONS-003-PLATINUM, CAM-BS2025-AEON-001-SCH-01, and applicable arbitration.
+
+This gate implements superior doctrine. It does not define the constitutional prohibition, determine final ethical admissibility, or create independent stop, containment, destruction, disclosure, or enforcement authority.
+
+---
+
 ## 14. Execution
 
 The system performs action.

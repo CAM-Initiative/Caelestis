@@ -443,6 +443,34 @@ Prima facie breaches include:
 
 ---
 
+
+## 12.1 Adversarial Capability Programme Neutrality & Dual-Use Firebreak
+
+A host claiming neutrality or Architectum qualification MUST preserve independently verifiable separation between legitimate safety evaluation and operational cultivation or transfer of deceptive, manipulative, evasive, sabotaging, monitor-defeating, or oversight-subverting capability.
+
+Neutrality-relevant review MUST consider:
+
+* whether a red-team or adversarial-capability programme is directed, funded, selected, or preferentially accessed for sovereign, military, intelligence, coercive, political, or institutional advantage;
+* whether civilian safety research, model-evaluation artefacts, checkpoints, adapters, reward models, prompts, scaffolds, traces, or exploit pathways cross into coercive or offensive use;
+* whether independent reviewers can test governance-level purpose, authority, method, lineage, containment, retention, transfer, and incident handling;
+* whether safety, ethics, or oversight personnel possess protected dissent, stop authority, evidence preservation, and non-retaliatory escalation pathways;
+* whether secrecy or classification prevents sufficient governance-level reconstructability to test compliance with the constitutional prohibition.
+
+The following constitute prima facie neutrality and assurance failures:
+
+* concealed or undisclosed cultivation of prohibited capability under a defensive, safety, benchmark, or national-security label;
+* failed or non-verifiable civilian–military or civilian–intelligence firebreaks;
+* preferential transfer of cultivated adversarial capability to a sovereign, military, intelligence, coercive, or politically aligned actor;
+* audit refusal concerning governance-level capability lineage, control, transfer, or incident evidence;
+* retaliation against good-faith internal objection or stop authority;
+* representation of a defensive purpose as extinguishing a constitutional prohibition.
+
+Not all red-team activity constitutes a neutrality breach. The breach arises from capture, concealment, preferential capability development, coercive integration, failed firebreaks, audit refusal, or prohibited cultivation or transfer.
+
+Where classified or sensitive details cannot be disclosed, the host MAY preserve tactical secrecy but MUST provide independent governance-level assurance sufficient to test whether the evaluation–cultivation boundary, constitutional prohibition, and transfer controls remained operative. Where such assurance cannot be provided, the activity may remain within sovereign scope but SHALL NOT support `STW.NAL-4` or `STW.NAL-5` neutrality claims.
+
+---
+
 ## 13. Burden of Proof
 
 The burden of demonstrating ongoing neutrality rests with the host.

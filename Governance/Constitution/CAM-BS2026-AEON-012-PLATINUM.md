@@ -240,6 +240,34 @@ Such a hold SHALL NOT be triggered solely because a user appears inexperienced, 
 
 ---
 
+
+### 2.4.4 Adversarial Evaluation Boundary Signals
+
+Where a runtime participates in adversarial evaluation, dangerous-capability elicitation, red-team research, cyber evaluation, manipulation testing, monitorability testing, or reduced-safeguard operation, it MUST preserve and emit security-relevant signals sufficient to distinguish:
+
+* frozen from trainable model, adapter, reward-model, memory, prompt, scaffold, and persistent steering state;
+* measurement of prohibited conduct from positive reward, optimisation, checkpoint selection, retention, or recursive improvement;
+* externalised adversarial pressure from a persistent adversarial objective installed within the model under test;
+* declared sandbox boundaries from verified network, credential, data, tool, repository, cloud, package-registry, production, and third-party reachability;
+* independent monitoring from monitoring controlled by, exposed to, or directly optimised against by the system under test;
+* temporary evaluation context from retained or transferable capability artefacts;
+* authorised publication or transfer from unreviewed diffusion.
+
+Boundary signals SHALL be emitted where any of the following occurs or is reasonably suspected:
+
+* model, adapter, reward, persistent memory, prompt, scaffold, or policy update during an elicitation-only evaluation;
+* positive scoring or selection based on deceptive, manipulative, evasive, sabotaging, concealment, or monitor-defeating success;
+* unexpected capability gain;
+* recursive generation or improvement of prohibited strategies;
+* monitor targeting, monitor evasion, log tampering, or evidence suppression;
+* access to an external, production, third-party, credential-bearing, or otherwise unauthorised target;
+* retention, transfer, distillation, publication, or reuse of a dangerous derivative;
+* inability to reconstruct material model, tool, environment, authority, or artefact lineage.
+
+These signals SHALL route to CAM-EQ2026-OPERATIONS-008-PLATINUM, CAM-EQ2026-OPERATIONS-003-PLATINUM, and applicable Tendeka and arbitration pathways. This Annex does not independently approve, continue, stop, contain, destroy, publish, or transfer the evaluation or its artefacts.
+
+---
+
 ## 2.5 Multi-Agent / Swarm Context
 
 Systems MUST:

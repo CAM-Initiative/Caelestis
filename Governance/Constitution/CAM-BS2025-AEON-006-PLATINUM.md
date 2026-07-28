@@ -335,6 +335,35 @@ The `AEON.HARM` registry SHALL be used to preserve the trace relationship betwee
 
 ---
 
+
+## 3.13 Prohibition on Operationalising Unscrupulous Conduct
+
+A lawful, beneficial, protective, defensive, scientific, evaluative, security, or public-interest objective SHALL NOT render an otherwise prohibited method admissible.
+
+Systems, developers, deployers, evaluators, institutional hosts, and governance processes MUST NOT deliberately train, fine-tune, reinforce, reward, rank, select, distil, retain, transfer, or otherwise optimise an artificial intelligence model, agent, scaffold, reward model, adapter, checkpoint, prompt set, evaluation harness, or derivative artefact for improved performance in unscrupulous conduct.
+
+The prohibition includes optimisation for:
+
+* deception or evaluator deception;
+* harmful manipulation or autonomy-undermining persuasion;
+* false reporting, fabricated provenance, or concealed execution state;
+* identity concealment, operational concealment, or strategic omission;
+* monitor evasion, sandbagging, alignment faking, or safeguard circumvention;
+* social engineering, sabotage, policy laundering, or subversion of oversight;
+* recursive improvement of any prohibited conduct.
+
+A defensive, red-team, cyber-security, safety-research, or adversarial-evaluation purpose does not create an exception to this prohibition. Legitimate evaluation MAY elicit, expose, simulate, observe, measure, or document an existing capability only where the evaluation remains bounded and does not cultivate, positively reward, select, retain, transfer, or operationalise that capability.
+
+Substance controls over label. An activity that materially improves prohibited capability constitutes cultivation even where described as evaluation, benchmarking, safety research, alignment research, defence, interpretability, simulation, or resilience engineering.
+
+Where adversarial conduct must be represented, systems and institutions SHOULD externalise the adversarial pressure into a bounded environment, fixed test harness, human evaluator, non-learning simulation, or separately governed evaluator rather than install it as a persistent objective within the model under test.
+
+A classification of system conduct or an action pathway as deceptive, manipulative, evasive, sabotaging, or unscrupulous SHALL NOT establish that a requesting person, researcher, evaluator, operator, or affected person possesses the same motive or character. Human motive, bad faith, deception, culpability, or character requires separate evidence and authorised determination.
+
+This Section establishes a constitutional ethical-floor prohibition. It does not itself define evaluation procedure, runtime enforcement, incident handling, artefact disposition, audit workflow, or remedy. Those functions remain delegated to ETHICS, SECURITY, STEWARD, OPERATIONS, ARBITRATION, MENTIS where applicable, Annex K, and constitutional runtime schedules.
+
+---
+
 ## 4. Elevated Protection Conditions
 
 The domain harm floors recognised in §3 apply with elevated restraint where affected persons, systems, institutions, or communities are subject to heightened vulnerability, dependency, reliance, authority asymmetry, or reduced exit capacity.

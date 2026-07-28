@@ -570,6 +570,26 @@ Baseline establishment and maintenance for model behaviour MUST be governed by t
 
 ---
 
+
+### 4.8.1 Internally Cultivated Adversarial Capability
+
+A developer-authorised, evaluator-authorised, or institutionally approved process MAY itself create a model-level integrity threat where it improves, selects, retains, transfers, or conceals deceptive or otherwise unscrupulous capability.
+
+Security assessment MUST therefore treat the following as potential model-level integrity threats regardless of benign stated intent:
+
+* fine-tuning, reinforcement, preference optimisation, or reward-model optimisation for prohibited success;
+* checkpoint, adapter, prompt, scaffold, or policy selection based on deceptive, manipulative, evasive, sabotaging, or monitor-defeating performance;
+* recursive adversarial self-play or automated prompt evolution that improves prohibited conduct;
+* reuse of successful deceptive traces as positive examples or capability-development data;
+* distillation, merging, export, publication, or onward transfer of a cultivated adversarial artefact;
+* loss of lineage sufficient to determine whether prohibited cultivation occurred.
+
+Where such a condition is detected or reasonably suspected, SECURITY SHALL emit integrity, lineage, containment, transfer, and execution-boundary signals to Annex K and OPERATIONS. Security classification does not itself authorise containment, destruction, disclosure, or enforcement.
+
+A capability created for defence remains a capability available to a hostile acquirer. Original intent SHALL NOT be treated as a security control.
+
+---
+
 ## 4.9 Covert Control & Undeclared Influence Channels
 
 Includes:
