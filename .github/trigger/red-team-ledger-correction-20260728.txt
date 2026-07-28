@@ -1,0 +1,2 @@
+Correct the existing red-team amendment entries in place.
+Do not create successor amendment versions.
