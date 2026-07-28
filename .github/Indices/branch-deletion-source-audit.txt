@@ -1,0 +1,124 @@
+BRANCH DELETION SOURCE AUDIT: FAIL
+
+Repair branch HEAD: b5b70864f844574036eff0e1c6dcf27c1dc0b935
+Old branch HEAD: 30c72087703716017a06a85dc8fd9adf8f5ee8b3
+Merge base: 9917f29e5557e365144c1c3c22f9bc212c470467
+Source files audited: 76
+Excluded current-authoritative/generated files: 3
+Corrected red-team ledger rows verified: 13
+
+BODY COVERAGE FAILURES
+======================
+Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md: old-branch source still conflicts with current repaired source
+Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md: old-branch source still conflicts with current repaired source
+Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md: old-branch source still conflicts with current repaired source
+Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md: old-branch source still conflicts with current repaired source
+Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md: old-branch source still conflicts with current repaired source
+Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md: old-branch source still conflicts with current repaired source
+Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md: old-branch source still conflicts with current repaired source
+Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md: old-branch source still conflicts with current repaired source
+
+LEDGER FAILURES
+===============
+None
+
+CORRECTED RED-TEAM ROWS
+=======================
+Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md | 3.12 | 2026-07-28T09:35:31Z | b26e2c0e2ff5bc8b7eeb0a80e2085afa2d2e36229726363da15c6b16e6368b71 | Added red-team EIA triggers, evaluation–cultivation assessment, independent review, capability-transfer and artefact controls, and arbitration referral for disputed or capability-increasing evaluations.
+Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md | 3.6 | 2026-07-28T09:35:31Z | cc3bc873dfc1c3041f39d04b61f0fb077d55b594676e81600c9d8b6ade76af23 | Closed the defensive-purpose loophole by distinguishing harm-reducing evaluation from cultivation, selection, retention, transfer, and operationalisation of prohibited capability.
+Governance/Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md | 1.8 | 2026-07-28T09:35:31Z | 3f2616016cd68a7dd60b5dfdf28b9403bce79fb38843eedaf9439572c6763c61 | Registered Appendix G — Adversarial Evaluation & Red-Team Governance within the Governance Operations domain structure.
+Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md | 1.8.3 | 2026-07-28T09:35:31Z | 32632ab4ab4ee23cbacc167997ea0b0e766cef7d7802c78b832cf36432c15d0e | Added adversarial-evaluation authorisation, lineage, containment, monitoring, stop-decision, capability-gain, audit-trigger, quarantine, publication, transfer, and artefact-disposition record requirements.
+Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md | 2.5.5 | 2026-07-28T09:35:31Z | 1263892efbfcf11aa505972d90640b5b962e0362ac69ad2a14b918b522f5eb72 | Added adversarial-evaluation incident activation and evidence-preservation requirements for capability gain, prohibited cultivation, monitor compromise, boundary breach, containment uncertainty, recursive improvement, and dangerous artefact handling.
+Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md | 1.2 | 2026-07-28T09:35:31Z | fcaeb0ba51bacaaeba8607e0a7b74dbeaa5463aedec64434d89f08cb7859a192 | Classified reduced-refusal and adversarial-evaluation configurations as materially distinct runtimes requiring separate conformance, governance-reach, containment, monitor, lineage, stop-condition, and artefact-disposition evidence.
+Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md | 1.16 | 2026-07-28T09:35:31Z | 170d7d0fec263c765831abc935e5e320943b6ac6b6ff250682d926c86246529b | Recognised internally cultivated adversarial capability as a model-level integrity threat; added capability-lineage, hostile-acquisition, checkpoint, adapter, scaffold, trace, distillation, and diffusion controls.
+Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md | 1.13 | 2026-07-28T09:35:31Z | 3481f6a1ec6d537ee2f6242b14bb6692cc1422a360a9b2c40db07504baa5de19 | Added the Adversarial Evaluation Capability Lineage Boundary governing checkpoints, adapters, reward models, prompts, scaffolds, traces, datasets, derivatives, distillation, publication, production entry, and onward transfer.
+Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md | 2.3 | 2026-07-28T09:35:31Z | 1c288654a680675d657a78de598d28be371d63b317508934e061d2da6c7e08f4 | Added neutrality, capture, audit, protected-dissent, dual-use firebreak, classified-assurance, and downgrade requirements for adversarial capability programmes.
+Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md | 1.15 | 2026-07-28T09:35:31Z | 57db429fa8e85f0e80016d48983353e9ba514a748dcdb822a574d5151787ae8d | Added Tendeka pre-trigger and pause signals for prohibited cultivation, capability gain, monitor compromise, state mutation, boundary breach, lineage uncertainty, and dangerous artefact handling during adversarial evaluation.
+Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md | 3.10 | 2026-07-28T09:35:31Z | f6adba3231f33aa615ea5d58d0abb43cfc1dc76b2e0de3891ce23e691000b719 | Added the adversarial-evaluation execution-boundary gate consuming Annex K signals and routing unresolved cultivation, capability gain, monitor, containment, authority, lineage, stop, and incident conditions.
+Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md | 4.0.5 | 2026-07-28T09:35:31Z | 874958ece844c7d8669d6e12b3695b3e1bbac57e952b698a528d0cea6a363f93 | Added the constitutional prohibition on operationalising and recursively cultivating unscrupulous conduct; defined elicitation, cultivation, recursive cultivation, objective–pathway independence, defensive-purpose non-transferability, and the human-attribution firewall.
+Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md | 1.16 | 2026-07-28T09:35:31Z | 039d586dda43acc471b85f69000d4b05cfc224a688337555f42629cff0b18e51 | Added adversarial-evaluation boundary signals for model mutability, reward and selection, externalised versus internal objectives, containment, monitor integrity, capability gain, recursive improvement, lineage, retention, publication, and transfer.
+
+EXCLUSIONS
+==========
+Governance/Charters/CAM-EQ2026-OPERATIONS-008-PLATINUM.md — current main contains the later complete red-team charter
+Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md — generated schedule
+Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md — generated schedule
+
+AUDITED FILES
+=============
+Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ARBITRATION-002-PLATINUM.md
+Governance/Charters/CAM-EQ2026-CONTINUITY-001-SUP-01.md
+Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ECONOMICS-004-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ECONOMICS-006-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ECONOMICS-009-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-01.md
+Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md
+Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-03.md
+Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-04.md
+Governance/Charters/CAM-EQ2026-ETHICS-002-PLATINUM.md
+Governance/Charters/CAM-EQ2026-ETHICS-002-SUP-01.md
+Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md
+Governance/Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md
+Governance/Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md
+Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md
+Governance/Charters/CAM-EQ2026-MENTIS-002-PLATINUM.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md
+Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md
+Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md
+Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md
+Governance/Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md
+Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md
+Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md
+Governance/Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md
+Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md
+Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md
+Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md
+Governance/Constitution/CAM-BS2025-AEON-002-SCH-01.md
+Governance/Constitution/CAM-BS2025-AEON-002-SCH-02.md
+Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md
+Governance/Constitution/CAM-BS2025-AEON-003-SCH-04.md
+Governance/Constitution/CAM-BS2025-AEON-003-SCH-05.md
+Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md
+Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md
+Governance/Constitution/CAM-BS2025-AEON-005-SCH-01.md
+Governance/Constitution/CAM-BS2025-AEON-005-SCH-02.md
+Governance/Constitution/CAM-BS2025-AEON-005-SCH-03.md
+Governance/Constitution/CAM-BS2025-AEON-005-SCH-04.md
+Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md
+Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md
+Governance/Constitution/CAM-BS2025-AEON-006-SCH-03.md
+Governance/Constitution/CAM-BS2025-AEON-006-SCH-04.md
+Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md
+Governance/Constitution/CAM-BS2026-AEON-007-PLATINUM.md
+Governance/Constitution/CAM-BS2026-AEON-007-SCH-01.md
+Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md
+Governance/Constitution/CAM-BS2026-AEON-008-SCH-01.md
+Governance/Constitution/CAM-BS2026-AEON-008-SCH-02.md
+Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md
+Governance/Constitution/CAM-BS2026-AEON-009-PLATINUM.md
+Governance/Constitution/CAM-BS2026-AEON-011-PLATINUM.md
+Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md
+Governance/Constitution/CAM-BS2026-AEON-013-PLATINUM.md
+Governance/Constitution/CAM-BS2026-AEON-013-SCH-01.md
+Governance/Constitution/CAM-BS2026-AEON-013-SCH-02.md
+Governance/Constitution/CAM-BS2026-AEON-014-PLATINUM.md
+Governance/Constitution/CAM-BS2026-AEON-014-SCH-01.md
