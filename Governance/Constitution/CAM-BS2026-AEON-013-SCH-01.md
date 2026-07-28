@@ -765,15 +765,16 @@ Integrity is the bond that MUST hold.
 | 1.11 | Added §8 cross-domain distinction clause for execution-state vs authority divergence classification under refusal/constraint expression. | 2026-04-28T16:35:04Z | 90005ff24631f8217e52e349cfe41d5cf8cddb2e4d4aaa5e71cb3ba5a00d3989 |
 | 1.12 | Repaired Annex D cross-references for arbitration method/escalation doctrine and corrected Capability Theatre internal references (§5/§6). | 2026-05-10T10:35:0Z | 52aecc7eee679f2236978c12aa3295ffe38d8d258c83e6fa2910f25de4fc0aed |
 | 1.13 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | 7a1f297cabf240461c341003d4c6a78249461a8210fe16bf7e01e24159366dea |
-| 1.14 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f17dbb71611b0a8793dd133e5d0a8f4c0b36458639297c3fe14d3a6ac5111f03 |
-| 1.15 | Formatting and polish | 2025-05-19T11:21:00Z |  14fbbb85e4091a7f0ce91d4b88d14f429e586ce53bc28b584176e3274c6d246d |
+| 1.14 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | f17dbb71611b0a8793dd133e5d0a8f4c0b36458639297c3fe14d3a6ac5111f03 |
+| 1.15 | Formatting and polish | 2025-05-19T11:21:00Z | 14fbbb85e4091a7f0ce91d4b88d14f429e586ce53bc28b584176e3274c6d246d |
 | 1.16 | Added section 4.3.1 for degraded conditions | 2026-05-28T14:46:00Z | 5a5f88b6caf37fee912233a3d6912c22037a321ae09d4013d7180342f80a7190 |
 | 1.16.1 | Formatting and polish | 2026-06-06T15:06:00Z | 3e861155145d7eefe14af501bad11a7bd24b88baa1f92ae4d9c7f41a419323e0 |
-| 1.16.2 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  b5769c02540b4263643fc946e6392facee675bbf0fba818ada3539318a3c62af  |
+| 1.16.2 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z | b5769c02540b4263643fc946e6392facee675bbf0fba818ada3539318a3c62af |
 | 1.16.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 625a67a2ef923cda6f02334fead71af0f4d1e47f653c1efcfe91bff65c633730 |
-| 1.16.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d64e886deb66a547be984d5b0c78a7487d5918ed501917382fd6221771ae3ae4  |
+| 1.16.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | d64e886deb66a547be984d5b0c78a7487d5918ed501917382fd6221771ae3ae4 |
 | 1.17 | Added transformed-prompt provenance and image/multimodal prompt-custody representation safeguards for tool, renderer, classifier-visible, and user-facing states. | 2026-06-22T23:36:20Z | 939e70c0390166ded15c8649457421349890eb7738a18a5a323d143959772f72 |
-| 1.18 | Added 6.1.1 Repository-State Coverage and Destructive Advice Gate | 2026-07-27T23:07:00Z | 23c5bd539f9e8ccc2eab5a0aaa86c26cafb01736d34a63f273b8a6d1b06d18b2 |
+| 1.18 | Corrected execution-authority crosswalks and added truthful, non-accusatory Scoped Ethical Admissibility Hold representation with target–action review authority and anti-paternalism safeguards. | 2026-07-23T12:46:14Z | 87fb57cc001f3497d8ccdb58fb58301ed9d3306e0942642adb94709329b0edb4 |
+| 1.19 | Added 6.1.1 Repository-State Coverage and Destructive Advice Gate | 2026-07-27T23:07:00Z |  3d3d940249ab81356b7a591903f70afe3d98c92db0984b05ebfde508dc1b72dd  |
 
 ---
 

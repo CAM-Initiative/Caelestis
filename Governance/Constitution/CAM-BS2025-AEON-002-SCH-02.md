@@ -965,9 +965,9 @@ It is measured by what remains possible for those who come after.
 | Version | Description | Timestamp (UTC) | SHA-256 |
 |---|---|---:|---|
 | 1.0 | Initial development of Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule, GitHub Issue #82 — Goal: Annex A Civilisational Wealth Ceiling runtime and common-return constraint instruments | 2026-06-13T12:28:00Z | 567c7ded0b7f4973822608d7f34e5fe9a6211e3812ebb514a1469a539ba11da0 |
-| 1.1 | Updates to metadata | 2026-06-14T02:03:00Z| b298ae60b1ff2f628bb51e29f1158928e22b4c83cca396c46d3ce411d5cfdea4 |
-| 1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  7d0ee8246eb6b67f6f762904e144c0a3172df720e19d57f949d36f85e826e6f6  |
-| 1.3 | Corrected the instrument identifier year from 2026 to 2025 in the H1 and canonical Source Instrument metadata; no substantive doctrine altered. | 2026-07-23T13:02:23Z |  b3481683915582c3989afafc4da0d3fdbfc0054a103d28d095187619d110160e  |
+| 1.1 | Updates to metadata | 2026-06-14T02:03:00Z | b298ae60b1ff2f628bb51e29f1158928e22b4c83cca396c46d3ce411d5cfdea4 |
+| 1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 7d0ee8246eb6b67f6f762904e144c0a3172df720e19d57f949d36f85e826e6f6 |
+| 1.3 | Corrected the instrument identifier year from 2026 to 2025 in the H1 and canonical Source Instrument metadata; no substantive doctrine altered. | 2026-07-23T13:02:23Z | f18c82f69ffe3f7b92bee755a53681d309e04eb1831d6a90a46771d786470d45 |
 
 ---
 

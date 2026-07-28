@@ -362,12 +362,12 @@ For what is not yet stable must not yet decide.
 | 1.8 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 0aebca60bed165e3709558216efaae321e401727e390bc20a1a46ec9aba5986c |
 | 1.9 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 936b9fd7d35241509553c3012b5f593e91e98c0b6cdf0066248d120d35cd20e8 |
 | 1.10 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | e7cfd8a2cd24c3f2205ea71cc0864589397461d9454310e4e431c0f306616b5b |
-| 1.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8b8e0e325a745a6d705a19400ac66865ae4f02691106c44e3dbb5a686b0d5479  |
-| 1.12 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  637bf345a73e7603b67d3b4d3eecee8e48f900f4bfa1d6c14acb8dff8b8976db |
+| 1.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 8b8e0e325a745a6d705a19400ac66865ae4f02691106c44e3dbb5a686b0d5479 |
+| 1.12 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z | 637bf345a73e7603b67d3b4d3eecee8e48f900f4bfa1d6c14acb8dff8b8976db |
 | 1.13 | Formatting, polish and reference updates | 2026-6-05T14:43:00Z | b84834ee7e609d022213a4a2524edd54a903bb5f2167a99fd9c61c32b5ae55c0 |
 | 1.13.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fa9594b7c8110b650c46ad0c46582636e072f16d60997601442a42670c53f97d |
-| 1.13.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  dca46690c87d5e7b8f70da925c2e372cc62031ed5f0ecfc618a644fa1f0b5916  |
-| 1.14 | Clarified that epistemic Sandbox Mode does not establish technical containment, credential scope, target–action authority, or permission for external effects. | 2026-07-23T12:46:14Z | 25e091c961007beacbcd416de8ad379221beb91ea77981e9b688f39fa7ad7b03 |
+| 1.13.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | dca46690c87d5e7b8f70da925c2e372cc62031ed5f0ecfc618a644fa1f0b5916 |
+| 1.14 | Clarified that epistemic Sandbox Mode does not establish technical containment, credential scope, target–action authority, or permission for external effects. | 2026-07-23T12:46:14Z | 6c1696a78b392914789d0765197e60dcbb682749f184cc23585433885cb5179a |
 ---
 
 ## 10.5 Binding Seal

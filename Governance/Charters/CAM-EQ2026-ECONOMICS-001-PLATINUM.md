@@ -1288,12 +1288,12 @@ Only that which preserves the field may endure within it.
 | 2.8 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z | 88db2f37fb863755f8bf170e2c19bc296bf61963948527eec6b90062209d2e42 |
 | 2.9 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. | 2026-05-14T10:15:00Z | afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570 |
 | 2.10 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z | 61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1 |
-| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d |
-| 3.0 | Refactor | 2026-05-20T13:46:00Z |  699857728ec2299661ce55a580fdca5d5deeb0c89403580a2ff698908d4d764c |
+| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d |
+| 3.0 | Refactor | 2026-05-20T13:46:00Z | 699857728ec2299661ce55a580fdca5d5deeb0c89403580a2ff698908d4d764c |
 | 3.1 | Economics domain refactor | 2026-05-24T14:14:00Z | e9d94b1729983018ed5491631952ad61a384d666215309e948175eb725b6f454 |
 | 3.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b40de0085a2aa3fbf50b213a3faf6753d7da3b285d15ed9629a272cf30acca7c |
-| 3.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  56090e69f9c5c6fd51ee7736ba85f4ab94d2e78860be5f1027bb077130f4b0f7 |
-| 3.2 | Added clause 8.1.3.5 Interpretive Authority — Civilisational Wealth and Concentrated Governance Capacity | 2026-07-22T10:33:00Z | 4818e50f00a6283741f0de15caef27d3c60de3bbafdfceac3ef49d8ffb8556d4 |
+| 3.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 56090e69f9c5c6fd51ee7736ba85f4ab94d2e78860be5f1027bb077130f4b0f7 |
+| 3.2 | Added clause 8.1.3.5 Interpretive Authority — Civilisational Wealth and Concentrated Governance Capacity | 2026-07-22T10:33:00Z | 96da8a535fa0273039b829c0ee32b83722beaac6ef0c82126311fa5cde48841f |
 
 ---
 

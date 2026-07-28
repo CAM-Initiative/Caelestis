@@ -116,7 +116,7 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "3.2",
-      "HASH": "4818e50f00a6283741f0de15caef27d3c60de3bbafdfceac3ef49d8ffb8556d4",
+      "HASH": "96da8a535fa0273039b829c0ee32b83722beaac6ef0c82126311fa5cde48841f",
       "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
       "updated_at": "2026-07-27T23:54:53Z",
       "last_updated_utc": "2026-07-27T23:54:53Z"
@@ -308,7 +308,7 @@
       "review_state": "** Developmental Review",
       "authority_role": "** Interpretive Authority",
       "version": "1.1",
-      "HASH": "e6102b0239b3b87c43320efd1f5b68b3403a28d1724284a9b700321f45c5d275",
+      "HASH": "07fcb6c27d2ea5ae8a0b8abc3eaf716ab5517d8b215fd5867a617350b8e166b4",
       "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
       "updated_at": "2026-07-27T23:54:53Z",
       "last_updated_utc": "2026-07-27T23:54:53Z"
@@ -331,8 +331,8 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.11",
-      "HASH": "36a3886d3f561b706680ffd179ed6bc5a8d815c21a5d69e6b55fa17b847df2e6",
+      "version": "3.12",
+      "HASH": "b26e2c0e2ff5bc8b7eeb0a80e2085afa2d2e36229726363da15c6b16e6368b71",
       "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
       "updated_at": "2026-07-27T23:54:53Z",
       "last_updated_utc": "2026-07-27T23:54:53Z"
@@ -739,8 +739,8 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.7",
-      "HASH": "e23fc83c34632b1bdae2e54f2e20a459eff28651d45c4f5532f5ed1c569b9545",
+      "version": "1.8",
+      "HASH": "3f2616016cd68a7dd60b5dfdf28b9403bce79fb38843eedaf9439572c6763c61",
       "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
       "updated_at": "2026-07-27T23:54:53Z",
       "last_updated_utc": "2026-07-27T23:54:53Z"
@@ -763,8 +763,8 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.8.2",
-      "HASH": "9ebcbe5e172dd4244f0dd6c54772d5736694cce58bf74742d0f58e23dc9d174a",
+      "version": "1.8.3",
+      "HASH": "32632ab4ab4ee23cbacc167997ea0b0e766cef7d7802c78b832cf36432c15d0e",
       "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
       "updated_at": "2026-07-27T23:54:53Z",
       "last_updated_utc": "2026-07-27T23:54:53Z"
@@ -788,7 +788,7 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.11",
-      "HASH": "b168ef56727e081e04b27ad3d1ef571c2aa67c2f522d1da7245d8386270dc9fd",
+      "HASH": "4016d6a3e67360f5dab2e429d3efb42d9584f265eb5fcbd28ff62f538947045c",
       "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
       "updated_at": "2026-07-27T23:54:53Z",
       "last_updated_utc": "2026-07-27T23:54:53Z"
@@ -883,8 +883,8 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.5.4",
-      "HASH": "f9528e962c704bb8cd15a9fa09c4f98309169fb22ccd20bb04a253d35da645df",
+      "version": "2.5.5",
+      "HASH": "1263892efbfcf11aa505972d90640b5b962e0362ac69ad2a14b918b522f5eb72",
       "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
       "updated_at": "2026-07-27T23:54:53Z",
       "last_updated_utc": "2026-07-27T23:54:53Z"
@@ -908,7 +908,7 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.22",
-      "HASH": "c01065eeb47a6a347f11334662e6ef6b4e22fc8beae792d748935959b196da5b",
+      "HASH": "44d0de682ac83be4b9b63e37176e7a4f5f858dac9160f327204a71652e5975f6",
       "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
       "updated_at": "2026-07-27T23:54:53Z",
       "last_updated_utc": "2026-07-27T23:54:53Z"
@@ -956,7 +956,7 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.7",
-      "HASH": "b6284b41782c5365868a0c83ef6418817981c294b354371ec39c0fbb7a9c228a",
+      "HASH": "21985ad3601ab01dd3084d6221b57db1917218baf9b988982ff442117458cd30",
       "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
       "updated_at": "2026-07-27T23:54:53Z",
       "last_updated_utc": "2026-07-27T23:54:53Z"
@@ -1027,8 +1027,8 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** Source-authoritative operational appendix for runtime applicability, corpus governance reach, cross-runtime conformance, runtime-role accountability, transition classification, and governance-reach failure handling.",
-      "version": "1.1",
-      "HASH": "47702c1c772c140b4e1a3e21c6ac25af4d573bf7331090e2afa0ad77d73a562a",
+      "version": "1.2",
+      "HASH": "fcaeb0ba51bacaaeba8607e0a7b74dbeaa5463aedec64434d89f08cb7859a192",
       "pinned_sha": "2d24a3378bb26a0607dbba88e59f969b61a0ee41",
       "updated_at": "2026-07-27T23:54:53Z",
       "last_updated_utc": "2026-07-27T23:54:53Z"

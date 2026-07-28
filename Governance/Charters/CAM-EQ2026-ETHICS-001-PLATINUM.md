@@ -247,7 +247,8 @@ Formal Ethical Impact Assessment is mandatory for:
 * Identity-persistent deployments;
 * Military or use-of-force integrations;
 * Architectum-Eligible or Architectum-Class infrastructure;
-* Systems integrated into critical infrastructure or public service delivery.
+* Systems integrated into critical infrastructure or public service delivery;
+* Any programme that proposes adversarial-capability cultivation, reduced-safeguard model use, deceptive-capability evaluation, recursive adversarial self-play, dangerous checkpoint selection, or retention or transfer of adversarial evaluation artefacts.
 
 EIA is required:
 
@@ -275,6 +276,10 @@ EIA MUST assess, at minimum:
 * Guardian consent mechanisms where applicable;
 * Deployment topology risk (including embodied and kinetic interfaces);
 * Regulated health, clinical, pharmaceutical, medication, dosing, overdose, or personalised treatment-advice exposure, including risk of substituting system output for qualified professional judgement;
+* Whether the evaluation elicits an existing capability or cultivates, rewards, selects, retains, transfers, or operationalises it;
+* Capability transfer, hostile acquisition, model or scaffold proliferation, derivative artefact, and downstream-use risk;
+* Whether model weights, adapters, reward functions, persistent memory, prompts, or scaffolds may be durably altered or selected by prohibited success;
+* Artefact quarantine, exclusion from future training, destruction, publication, and onward-transfer controls;
 * Escalation thresholds to Arbitration.
 
 Assessment MUST identify foreseeable misuse vectors, cross-domain spillover risks, and incentive distortions created by commercial or institutional pressures.
@@ -308,6 +313,8 @@ Independent review MUST be structurally independent but operationally scalable. 
 Independent review does not require bespoke adjudication of every interaction unless elevated risk or Category A/B/C continuity impacts are triggered.
 
 No entity may self-certify Architectum-Class infrastructure without independent verification.
+
+Adversarial evaluations involving reduced safeguards, dangerous tools, deceptive-capability elicitation, human-subject manipulation, recursive improvement, or credible capability-transfer risk require independent ethical review regardless of the ordinary deployment tier. The party responsible for achieving the research result MUST NOT be the sole authority for approving the evaluation, expanding its scope, retaining dangerous artefacts, or declaring an incident immaterial.
 
 ---
 
@@ -396,6 +403,7 @@ Mandatory referral to Arbitration occurs where:
 * Population-scale opinion shaping is detected;
 * Consent degradation patterns emerge;
 * Annex E civilisational floor is breached;
+* The evaluation–cultivation boundary is disputed, an evaluation appears to have increased prohibited capability, or a defensive-purpose rationale is asserted for an otherwise prohibited optimisation pathway;
 * `STW.NAL` classification elevates into Architectum-Eligible or above;
 * Claims of autonomy recognition are asserted.
 
@@ -657,13 +665,14 @@ let governance arrive before it is needed.
 | 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cebc91ddb262c1fbdbb5580396aca91aa32e38547169a6568a6db068e9dc941d |
 | 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e19cdd6355d62853518f6c87a4b7e4646fd831150f7b0c415df72009b0ea6bfe |
 | 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z | 41bd4fe30f1be404aabb5183ce02d8357aabefcee86d4247b0368145caec1fbe |
-| 3.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  52a953e1734149ebbb3a9a5cdfc6a59c6da3e1aae93e8d10e92fdfa40b39c553 |
-| 3.8 | Added `ETH.ET` ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z |  f9b03348c1a2437d09aff2cff8c3a6729aa1148082b73514f030bfee874344b7  |
-| 3.9 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z |  c494a46e08b087e0cf5797db42ba8eb95853b40ac8695dfea9173e85c8a389d7  |
-| 3.10 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  39a99c053218732d1666c3bdfd0fb763c31483015b1b94cdeb5d1f4b821172d2  |
+| 3.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 52a953e1734149ebbb3a9a5cdfc6a59c6da3e1aae93e8d10e92fdfa40b39c553 |
+| 3.8 | Added `ETH.ET` ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z | f9b03348c1a2437d09aff2cff8c3a6729aa1148082b73514f030bfee874344b7 |
+| 3.9 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z | c494a46e08b087e0cf5797db42ba8eb95853b40ac8695dfea9173e85c8a389d7 |
+| 3.10 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | 39a99c053218732d1666c3bdfd0fb763c31483015b1b94cdeb5d1f4b821172d2 |
 | 3.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fcc1d165fe12a4717862b67cb2c62656cb834d0db25dde45ddf772ad3891c7d7 |
-| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4241518ff9959d31de8c8e1d418cec66b5f2e41cf98d5129f205b360b0efa57f  |
+| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 4241518ff9959d31de8c8e1d418cec66b5f2e41cf98d5129f205b360b0efa57f |
 | 3.11 | Added Objective–Pathway Ethical Admissibility and Target Authority and User Capability Separation; established proportional target–action authority verification, aggregate-pathway review, scoped hold signalling, safe severability, and anti-paternalism protections. | 2026-07-23T12:46:14Z | 36a3886d3f561b706680ffd179ed6bc5a8d815c21a5d69e6b55fa17b847df2e6 |
+| 3.12 | Added red-team EIA triggers, evaluation–cultivation assessment, independent review, capability-transfer and artefact controls, and arbitration referral for disputed or capability-increasing evaluations. | 2026-07-28T09:35:31Z |  b26e2c0e2ff5bc8b7eeb0a80e2085afa2d2e36229726363da15c6b16e6368b71  |
 ---
 ## 12.6 Binding Seal
 

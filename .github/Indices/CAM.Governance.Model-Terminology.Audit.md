@@ -1,7 +1,7 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 731
-**Generic usages suppressed:** 594
+**Total model-term matches scanned:** 740
+**Generic usages suppressed:** 603
 **Declared / recognised usages emitted:** 122
 **Advisory review usages emitted:** 15
 **Needs review usages emitted:** 0
