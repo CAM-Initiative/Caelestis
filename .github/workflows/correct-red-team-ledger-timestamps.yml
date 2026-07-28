@@ -1,0 +1,164 @@
+name: Correct red-team amendment ledger timestamps
+
+on:
+  push:
+    branches:
+      - agent/red-team-governance-repair-20260728
+    paths:
+      - .github/trigger/red-team-ledger-correction-20260728.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: red-team-ledger-correction-20260728
+  cancel-in-progress: false
+
+jobs:
+  correct-ledgers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repair branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/red-team-governance-repair-20260728
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Fetch divergent source branch
+        run: git fetch origin policy/civilisational-wealth-governance:refs/remotes/origin/policy/civilisational-wealth-governance
+
+      - name: Restore and correct existing red-team ledger entries
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import re
+          import subprocess
+
+          SOURCE_REF = "origin/policy/civilisational-wealth-governance"
+          timestamp = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+          files = {
+              "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md": "Prohibition on Operationalising Unscrupulous Conduct",
+              "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md": "Defensive-Purpose Non-Transferability",
+              "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md": "Internally Cultivated Adversarial Capability",
+              "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md": "Adversarial Evaluation Capability Lineage Boundary",
+              "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md": "Adversarial Evaluation Boundary Signals",
+              "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md": "Adversarial Capability Programme Neutrality",
+              "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md": "Adversarial Evaluation Execution-Boundary Gate",
+              "Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md": "Adversarial Evaluation Pause Signals",
+          }
+
+          heading_re = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE | re.MULTILINE)
+          next_heading_re = re.compile(r"^##+\s+", re.MULTILINE)
+          version_re = re.compile(r"^\d+(?:\.\d+)+$")
+
+          def ledger_bounds(text: str):
+              match = heading_re.search(text)
+              if not match:
+                  raise RuntimeError("Amendment Ledger heading not found")
+              tail = text[match.end():]
+              nxt = next_heading_re.search(tail)
+              end = match.end() + nxt.start() if nxt else len(text)
+              return match.start(), end
+
+          def version_rows(text: str):
+              start, end = ledger_bounds(text)
+              rows = []
+              lines = text.splitlines(keepends=True)
+              cursor = 0
+              for index, line in enumerate(lines):
+                  line_start = cursor
+                  line_end = cursor + len(line)
+                  cursor = line_end
+                  if line_end <= start or line_start >= end:
+                      continue
+                  stripped = line.strip()
+                  if not stripped.startswith("|"):
+                      continue
+                  cells = [cell.strip() for cell in stripped.strip("|").split("|")]
+                  if cells and version_re.match(cells[0]):
+                      while len(cells) < 4:
+                          cells.append("")
+                      rows.append((index, cells, line))
+              return rows
+
+          for path, doctrine_marker in files.items():
+              source = subprocess.check_output(
+                  ["git", "show", f"{SOURCE_REF}:{path}"], text=True
+              )
+              target_path = Path(path)
+              target = target_path.read_text(encoding="utf-8")
+
+              if doctrine_marker not in source or doctrine_marker not in target:
+                  raise RuntimeError(f"Doctrine marker missing for {path}: {doctrine_marker}")
+
+              source_rows = version_rows(source)
+              if not source_rows:
+                  raise RuntimeError(f"No source ledger rows found for {path}")
+              _, source_cells, _ = source_rows[-1]
+              source_version, source_description, source_timestamp, _source_hash = source_cells[:4]
+              if not source_timestamp.startswith("2026-07-26T"):
+                  raise RuntimeError(
+                      f"Expected incorrect 2026-07-26 source timestamp in {path}; found {source_timestamp}"
+                  )
+
+              corrected = f"| {source_version} | {source_description} | {timestamp} |  |\n"
+              target_rows = version_rows(target)
+              lines = target.splitlines(keepends=True)
+
+              same_entry = [
+                  (idx, cells) for idx, cells, _line in target_rows
+                  if cells[0] == source_version and cells[1] == source_description
+              ]
+              if len(same_entry) > 1:
+                  raise RuntimeError(f"Duplicate matching ledger entries in {path}")
+              if same_entry:
+                  lines[same_entry[0][0]] = corrected
+              else:
+                  if not target_rows:
+                      raise RuntimeError(f"No target ledger row available for insertion in {path}")
+                  last_index = target_rows[-1][0]
+                  lines.insert(last_index + 1, corrected)
+
+              target_path.write_text("".join(lines), encoding="utf-8")
+              print(f"Corrected existing amendment entry in {path}: {source_version} @ {timestamp}")
+          PY
+
+      - name: Seal corrected existing entries
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add \
+            Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md \
+            Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md \
+            Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md \
+            Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md \
+            Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md
+          python .github/scripts/lint_amendment_ledger.py --staged --fix --stage fix
+          python .github/scripts/lint_amendment_ledger.py --staged --strict --stage post_fix
+          git diff --cached --check
+
+      - name: Commit corrected ledgers and remove temporary automation
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "CAM Governance Automation"
+          git config user.email "governance-automation@users.noreply.github.com"
+          rm -f .github/workflows/correct-red-team-ledger-timestamps.yml
+          rm -f .github/trigger/red-team-ledger-correction-20260728.txt
+          git add -u .github/workflows/correct-red-team-ledger-timestamps.yml .github/trigger/red-team-ledger-correction-20260728.txt
+          git add Governance/Constitution Governance/Charters
+          git diff --cached --check
+          git commit -m "Correct red-team amendment ledger timestamps"
+          git push origin HEAD:agent/red-team-governance-repair-20260728
