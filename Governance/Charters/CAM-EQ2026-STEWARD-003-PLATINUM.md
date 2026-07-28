@@ -880,6 +880,7 @@ It ends.
 | 2.1.2 | Namespaced the Disclosure Statement Element reference set from `DSE` to `STW.DSE`; corrected the disclosure source-section reference and repaired duplicated AEON temporal-horizon notation without altering substantive neutrality, auditability, or Architectum qualification doctrine. | 2026-06-14T01:15:24Z | afb1f11ad24b7c34dbc952356b95280f4163352a55354ff6e1f212236e6cdbb8 |
 | 2.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  5ac9d7a1ada7ed7101fdf62bf1885f01bb17c28fc59c26e2991ab4a2c63cae73  |
 | 2.2 | Harmonised the full instrument to CAM constitutional tone and formatting; normalised metadata and title; integrated neutrality disclosure requirements into the main assurance architecture; strengthened oversight durability, protected dissent, institutional-memory continuity, and neutrality-degradation criteria; clarified executive and sovereign circumvention as evidence of capture rather than override authority. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z |  9eccabae9f49e2c962c77e16970e2ed6d14f23a67f7c7b3092559e0b2b799a18  |
+| 2.3 | Added neutrality, capture, audit, protected-dissent, dual-use firebreak, classified-assurance, and downgrade requirements for adversarial capability programmes. | 2026-07-28T09:35:31Z |  1c288654a680675d657a78de598d28be371d63b317508934e061d2da6c7e08f4  |
 ---
 
 ## 23.6 Binding Seal

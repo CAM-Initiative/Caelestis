@@ -801,6 +801,7 @@ and the system remember what it is.
 | 1.13.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fe69142fb7cccb56df39e43cf70d784af8a3374d5be96f42f4d4f79ff4f498bd |
 | 1.13.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  20432429c197fdc1d7086eb3050e182818160e4c436ad1d73813ca67dce3c390  |
 | 1.14 | Expanded governed pause interaction and safely severable continuation; repaired multi-domain signal intake, target–action review-authority declaration, proportional verification, and partial-path restoration constraints. | 2026-07-23T12:46:14Z | 0643229f4307d24420995a6018aca3fed4236cb5c046790b05dd8053c004990f |
+| 1.15 | Added Tendeka pre-trigger and pause signals for prohibited cultivation, capability gain, monitor compromise, state mutation, boundary breach, lineage uncertainty, and dangerous artefact handling during adversarial evaluation. | 2026-07-28T09:35:31Z |  57db429fa8e85f0e80016d48983353e9ba514a748dcdb822a574d5151787ae8d  |
 ---
 
 ## 12.5. Binding Seal

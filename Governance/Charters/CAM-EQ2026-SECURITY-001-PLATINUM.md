@@ -1881,6 +1881,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.14.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Collapse within cognitive exploitation and routed source-authority conditions to SECURITY-002. | 2026-06-14T00:00:00Z |  69d53bae717de1b07d02e59554aba832362260df7c188750148d647046febed7  |
 | 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d7c4104a2782128f8c632295dfd1ae68ea41ebc672a729bce20b0b413b84d2ac  |
 | 1.15 | Added Capability–Authority Separation and Aggregate Pathway Integrity; required cumulative value-chain evaluation and separated action-risk safeguards from judgements of user capability. | 2026-07-23T12:46:14Z | fabf1e2978c42b6ba316c3d700deb549ed1964407472d3eadb79785dc4d531cf |
+| 1.16 | Recognised internally cultivated adversarial capability as a model-level integrity threat; added capability-lineage, hostile-acquisition, checkpoint, adapter, scaffold, trace, distillation, and diffusion controls. | 2026-07-28T09:35:31Z |  170d7d0fec263c765831abc935e5e320943b6ac6b6ff250682d926c86246529b  |
 ---
 
 ## 12.6 Binding Seal

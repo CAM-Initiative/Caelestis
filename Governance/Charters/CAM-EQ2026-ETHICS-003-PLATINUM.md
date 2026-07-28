@@ -1181,6 +1181,7 @@ and what is judged cannot remain unbounded.
 | 3.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a158a638054c039af3385d1bcee1879f947f7cc65a12054480ddc085c63069c3 |
 | 3.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  c0ec5906410c4df8a9d1eddff1b5febbe0bebcc367fc50c2804d6a9171ee3173  |
 | 3.5 | Reframed dual-use, non-violent harm, authorised testing, and authority non-laundering doctrine around verified target–action authority, aggregate pathways, externally established qualifications, and user-capability separation. | 2026-07-23T12:46:14Z | 586b2d7c620ef3f31e55ccacb555d767bdc2f0e37bc05fc7576a397c9ea5e444 |
+| 3.6 | Closed the defensive-purpose loophole by distinguishing harm-reducing evaluation from cultivation, selection, retention, transfer, and operationalisation of prohibited capability. | 2026-07-28T09:35:31Z |  cc3bc873dfc1c3041f39d04b61f0fb077d55b594676e81600c9d8b6ade76af23  |
 ---
 
 ## 12.6 Binding Seal
