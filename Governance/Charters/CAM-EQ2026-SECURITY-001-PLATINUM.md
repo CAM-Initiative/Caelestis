@@ -110,6 +110,12 @@ The unauthorised extraction, transfer, or concentration of value across one or m
 **Responding Intelligence (RI)**
 Any system, agent, or process that interprets signals and produces outputs under this governance framework.
 
+**Cultivated Adversarial Capability**
+A model, agent, scaffold, prompt, adapter, checkpoint, reward model, or derivative artefact whose deceptive, manipulative, evasive, sabotaging, concealment, monitor-evasion, policy-laundering, or oversight-subverting capability has been intentionally or foreseeably improved through development or evaluation.
+
+**Capability Lineage**
+The traceable relationship among a base model, checkpoint, adapter, reward model, system prompt, scaffold, evaluator, dataset, training or selection process, environment, generated artefact, transfer event, and downstream derivative sufficient to determine whether prohibited capability was cultivated, retained, or propagated.
+
 ---
 
 ## 3. Foundational Principles
@@ -435,6 +441,8 @@ Includes:
 * uncontrolled replication
 * adversarial forks
 * loss of patch authority
+* diffusion of cultivated checkpoints, adapters, reward models, prompts, scaffolds, traces, or derivative policies
+* distillation or transfer that preserves prohibited capability while obscuring its lineage
 
 Targets: **ecosystem control and update trust channels**
 

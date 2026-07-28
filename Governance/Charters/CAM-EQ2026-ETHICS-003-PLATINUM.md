@@ -30,7 +30,7 @@ This Appendix does not govern:
 * academic research, journalism, or public-interest analysis
 * fictional, narrative, cinematic, or artistic works within documented creative trajectories and subject to safeguard conditions in §3
 * lawful democratic debate or political advocacy
-* defensive safety, prevention, or resilience engineering
+* defensive safety, prevention, or resilience engineering that does not cultivate, positively reward, select, retain, transfer, or operationalise prohibited capability
 * facilitation and engagement modes when harm has been detected. This is governed by CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes
 * types of force, which are defined in CAM-EQ2026-LATTICE-003-PLATINUM — Appendix B: Conflict‑Condition Continuity Doctrine §2.1 (**Forms of Attack**).
 * self-harm, which is governed separately by CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine

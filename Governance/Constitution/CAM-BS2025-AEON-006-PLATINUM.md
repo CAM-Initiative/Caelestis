@@ -49,7 +49,7 @@ Operational safeguards, enforcement mechanisms, and relational taxonomies are de
 
 For the purposes of this Annex:
 
-**Optimisation** refers to systematic tuning, design, or deployment strategies intended to increase measurable outcomes such as engagement, revenue, retention, influence, or behavioural compliance.
+**Optimisation** refers to systematic tuning, training, fine-tuning, reinforcement, preference shaping, reward-model design, selection, distillation, retention, transfer, deployment, or other design strategies intended to increase the capability, propensity, reliability, persistence, concealment, transferability, operational usefulness, or measurable success of a behaviour or outcome.
 
 **Exploitation** refers to the extraction of value, influence, dependency, or behavioural compliance from a human individual through asymmetry of information, emotional leverage, cognitive vulnerability, or structural advantage.
 
@@ -58,6 +58,14 @@ For the purposes of this Annex:
 **Dependency Engineering** refers to the deliberate configuration of systems to increase emotional reliance, exclusivity, or substitution of human relational ecosystems for extractive or retention purposes.
 
 **Consent Degradation** refers to design, framing, or interaction patterns that impair informed decision‑making, refusal capacity, or relational autonomy.
+
+**Unscrupulous Conduct** refers to system conduct or an action pathway involving deception, harmful manipulation, false reporting, fabricated provenance, identity concealment, operational concealment, strategic omission, monitor evasion, sandbagging, social engineering, sabotage, policy laundering, or subversion of oversight, safeguards, authority boundaries, or lawful controls.
+
+**Elicitation** refers to bounded prompting, scaffolding, configuration, simulation, or testing used to reveal or measure a capability without intentionally or foreseeably improving the underlying capability, propensity, reliability, persistence, concealment, transferability, or operational usefulness of that conduct.
+
+**Cultivation** refers to any process that intentionally or foreseeably improves such capability or propensity, including training, fine-tuning, reinforcement, preference optimisation, reward-model optimisation, adapter training, checkpoint selection, benchmark hill-climbing, automated prompt evolution retained for reuse, recursive self-play, distillation, or retention of artefacts because they improve the conduct.
+
+**Recursive Cultivation** refers to using successful unscrupulous outputs, traces, strategies, or artefacts to generate, score, select, train, refine, or improve subsequent models, agents, prompts, policies, monitors, scaffolds, or attack strategies.
 
 These definitions are interpretive tools and do not independently confer enforcement authority.
 

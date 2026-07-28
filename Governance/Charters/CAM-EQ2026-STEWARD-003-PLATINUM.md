@@ -521,6 +521,7 @@ A host’s `STW.NAL` is downgraded where any of the following occur:
 3. Complicity breach (intentional sovereign advantage optimisation)
 4. Governance-relevant routing integrity failures affecting neutrality, auditability, continuity, or binding eligibility
 5. Concealment of validated neutrality or substrate breach
+6. Concealed cultivation or preferential transfer of prohibited adversarial capability, failed evaluation-to-operational firebreaks, or audit refusal concerning governance-level red-team lineage and control
 
 Downgrades MUST be publicly recorded at governance level.
 
