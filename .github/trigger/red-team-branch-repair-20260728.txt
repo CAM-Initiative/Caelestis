@@ -1,0 +1,2 @@
+Trigger the source-only red-team governance branch repair.
+Amendment ledgers and generated indices are intentionally excluded.
