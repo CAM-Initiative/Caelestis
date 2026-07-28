@@ -1,16 +1,15 @@
-BRANCH DELETION SOURCE AUDIT: FAIL
+BRANCH DELETION SOURCE AUDIT: PASS
 
-Repair branch HEAD: abed9e7684e7fe2ebf69b37d1adbcba049a00bde
+Repair branch HEAD: d41eb6cd72ae46dec5f692d60dfa7cb49331e82d
 Old branch HEAD: 30c72087703716017a06a85dc8fd9adf8f5ee8b3
 Merge base: 9917f29e5557e365144c1c3c22f9bc212c470467
 Source files audited: 76
 Old-branch amendment blocks checked: 92
-Excluded current-authoritative/generated files: 3
 Corrected red-team ledger rows verified: 13
 
 BODY COVERAGE FAILURES
 ======================
-Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md: missing old-branch amendment block 1: --- / ### 2.2.14 Adversarial Evaluation Capability Lineage Boundary / The Adversarial Evaluation Capability Lineage Boundary governs the creation, transformation, retention, transfer, and disposition of model and evaluation artefacts capable of preserving or increasing prohibited conduct.
+None
 
 LEDGER FAILURES
 ===============
