@@ -912,7 +912,7 @@ This is the floor that does not move.
 | 4.0.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b8d7f70dcba97c644e166c5fe4e76e91a49f1b2fa1565db92c4500883e219173 |
 | 4.0.3 | Repaired AEON.HARM source-authority architecture by retaining AEON-006 as the source-authoritative global harm registry while demoting duplicate domain `*.HARM` declarations to registry references where domain instruments provide source authority; regenerated canonical-code index without altering substantive harm doctrine. | 2026-06-14T01:50:11Z |  60ac63b8a1d5378ff0c41c97951750ca0615aa28fe62a000166a4bcb7c0bef8a  |
 | 4.0.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2ac618c318b15e336b659f96d4334e98e9a12501c503f9086c3c6363e2b8ce8e  |
-| 4.0.5 | Added the constitutional prohibition on operationalising and recursively cultivating unscrupulous conduct; defined elicitation, cultivation, recursive cultivation, objective–pathway independence, defensive-purpose non-transferability, and the human-attribution firewall. | 2026-07-28T09:35:31Z |  874958ece844c7d8669d6e12b3695b3e1bbac57e952b698a528d0cea6a363f93  |
+| 4.0.5 | Added the constitutional prohibition on operationalising and recursively cultivating unscrupulous conduct; defined elicitation, cultivation, recursive cultivation, objective–pathway independence, defensive-purpose non-transferability, and the human-attribution firewall. | 2026-07-28T09:35:31Z |  8d7f5654c599eff73b5fc95035cf105ca8cd0e8116e010e72373480af6b39929  |
 ---
 
 ## 9.6 Binding Seal
