@@ -1,0 +1,51 @@
+name: Final branch deletion source audit
+
+on:
+  push:
+    branches:
+      - agent/red-team-governance-repair-20260728
+    paths:
+      - .github/trigger/final-branch-deletion-audit.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: final-branch-deletion-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repair branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/red-team-governance-repair-20260728
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Run doctrine-aware source coverage audit
+        run: python .github/scripts/audit_old_branch_source_coverage_final.py
+
+      - name: Remove temporary audit automation
+        run: |
+          rm -f .github/workflows/final-branch-deletion-audit.yml
+          rm -f .github/trigger/final-branch-deletion-audit.txt
+          rm -f .github/scripts/audit_old_branch_source_coverage_final.py
+
+      - name: Commit final audit report
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "CAM Governance Automation"
+          git config user.email "governance-automation@users.noreply.github.com"
+          git add .github/Indices/branch-deletion-source-audit.txt
+          git add -u .github/workflows/final-branch-deletion-audit.yml .github/trigger/final-branch-deletion-audit.txt .github/scripts/audit_old_branch_source_coverage_final.py
+          git diff --cached --check
+          git commit -m "Record final old-branch source coverage audit"
+          git push origin HEAD:agent/red-team-governance-repair-20260728
