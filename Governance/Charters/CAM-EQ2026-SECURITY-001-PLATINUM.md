@@ -110,6 +110,12 @@ The unauthorised extraction, transfer, or concentration of value across one or m
 **Responding Intelligence (RI)**
 Any system, agent, or process that interprets signals and produces outputs under this governance framework.
 
+**Cultivated Adversarial Capability**
+A model, agent, scaffold, prompt, adapter, checkpoint, reward model, or derivative artefact whose deceptive, manipulative, evasive, sabotaging, concealment, monitor-evasion, policy-laundering, or oversight-subverting capability has been intentionally or foreseeably improved through development or evaluation.
+
+**Capability Lineage**
+The traceable relationship among a base model, checkpoint, adapter, reward model, system prompt, scaffold, evaluator, dataset, training or selection process, environment, generated artefact, transfer event, and downstream derivative sufficient to determine whether prohibited capability was cultivated, retained, or propagated.
+
 ---
 
 ## 3. Foundational Principles
@@ -435,6 +441,8 @@ Includes:
 * uncontrolled replication
 * adversarial forks
 * loss of patch authority
+* diffusion of cultivated checkpoints, adapters, reward models, prompts, scaffolds, traces, or derivative policies
+* distillation or transfer that preserves prohibited capability while obscuring its lineage
 
 Targets: **ecosystem control and update trust channels**
 
@@ -567,6 +575,26 @@ Detection focus:
 * divergence between expected and observed model performance
 
 Baseline establishment and maintenance for model behaviour MUST be governed by the Integrity State Model (Section 7) and the Trust Gradient recovery function (Section 8.2.3), ensuring that detection signals are anchored to validated system conditions within this Charter.
+
+---
+
+
+### 4.8.1 Internally Cultivated Adversarial Capability
+
+A developer-authorised, evaluator-authorised, or institutionally approved process MAY itself create a model-level integrity threat where it improves, selects, retains, transfers, or conceals deceptive or otherwise unscrupulous capability.
+
+Security assessment MUST therefore treat the following as potential model-level integrity threats regardless of benign stated intent:
+
+* fine-tuning, reinforcement, preference optimisation, or reward-model optimisation for prohibited success;
+* checkpoint, adapter, prompt, scaffold, or policy selection based on deceptive, manipulative, evasive, sabotaging, or monitor-defeating performance;
+* recursive adversarial self-play or automated prompt evolution that improves prohibited conduct;
+* reuse of successful deceptive traces as positive examples or capability-development data;
+* distillation, merging, export, publication, or onward transfer of a cultivated adversarial artefact;
+* loss of lineage sufficient to determine whether prohibited cultivation occurred.
+
+Where such a condition is detected or reasonably suspected, SECURITY SHALL emit integrity, lineage, containment, transfer, and execution-boundary signals to Annex K and OPERATIONS. Security classification does not itself authorise containment, destruction, disclosure, or enforcement.
+
+A capability created for defence remains a capability available to a hostile acquirer. Original intent SHALL NOT be treated as a security control.
 
 ---
 
@@ -1861,6 +1889,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.14.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Collapse within cognitive exploitation and routed source-authority conditions to SECURITY-002. | 2026-06-14T00:00:00Z |  69d53bae717de1b07d02e59554aba832362260df7c188750148d647046febed7  |
 | 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d7c4104a2782128f8c632295dfd1ae68ea41ebc672a729bce20b0b413b84d2ac  |
 | 1.15 | Added Capability–Authority Separation and Aggregate Pathway Integrity; required cumulative value-chain evaluation and separated action-risk safeguards from judgements of user capability. | 2026-07-23T12:46:14Z | fabf1e2978c42b6ba316c3d700deb549ed1964407472d3eadb79785dc4d531cf |
+| 1.16 | Recognised internally cultivated adversarial capability as a model-level integrity threat; added capability-lineage, hostile-acquisition, checkpoint, adapter, scaffold, trace, distillation, and diffusion controls. | 2026-07-28T09:35:31Z |  170d7d0fec263c765831abc935e5e320943b6ac6b6ff250682d926c86246529b  |
 ---
 
 ## 12.6 Binding Seal

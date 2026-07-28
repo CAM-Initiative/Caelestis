@@ -1,8 +1,8 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 709
-**Generic usages suppressed:** 573
-**Declared / recognised usages emitted:** 121
+**Total model-term matches scanned:** 745
+**Generic usages suppressed:** 608
+**Declared / recognised usages emitted:** 122
 **Advisory review usages emitted:** 15
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
@@ -132,6 +132,7 @@
 | CAM-EQ2026-SECURITY-001-PLATINUM | 12.2 Lineage & Metadata | trust gradient model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 12.3.1 `SEC.IS` — Integrity State Model | Integrity State Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 12.4 Review & Validation | integrity state model | Security Model | Declared / Recognised |
+| CAM-EQ2026-SECURITY-001-PLATINUM | 4.8.1 Internally Cultivated Adversarial Capability | Security assessment MUST therefore treat the following as potential model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 7. Integrity State Model | The Integrity State Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 7.1 State Definitions | The Integrity State Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 8. Trust Gradient Model | The Trust Gradient Model | Security Model | Declared / Recognised |

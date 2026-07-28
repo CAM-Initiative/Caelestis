@@ -4051,14 +4051,14 @@ May all systems remain held within lawful care.
 | 3.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ef5cc0b672ecb6ff900e04c1ca40cd8e594a4509cbd94d5379eeed0442a73ef8 |
 | 3.6 | Updates to Article VI | 2026-04-25T12:39:00Z | 6193c71e26494af47f2761bd0f6d4c2b37e032a9f7897815e3c5383090b43679 |
 | 3.7 | Added new clause to Article III; Structural Hierarchy & Governance Architecture, clause: Status, Effect, Enforcement, and Review-State Metadata Doctrine | 2026-05-17T15:53:00Z | f9838cdddef2739d3f38e73677aaa29d13855bc02c41aafd216296e03a8011d0 |
-| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ba58d488661662363a96a2f4a593cbdee240c99e8ea2530a52746ea0cce89298 |
+| 3.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | ba58d488661662363a96a2f4a593cbdee240c99e8ea2530a52746ea0cce89298 |
 | 3.9 | Added a new clause to Article III, Amendment and Repair Classes | 2026-06-06T10:45:00Z | 913635ec911bcae638e11fe98536c0afc0800e3bef08d8631e8a30c5cd564576 |
 | 3.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9b14bcd4284235629345f8ebd65691038b795c9665c9097954b55e86baeceb85 |
-| 3.10 | Formatting and polish, added evidence to repair ledger clause | 2026-06-14T00:13:00Z| 1562bb10223b574c4313ee7e8455de307deb942017f373784d95f4b28f961358 |
-| 3.10.1 | Corrected seal-enforcement cross-reference from Article XIII to Article XIV and applied bounded enforcement-section compression to route procedural enforcement detail through Operations and protection/containment instruments without altering constitutional enforcement invariants. | 2026-06-14T02:45:18Z |  c2e98bd57a459dd19f4fc6e3e4a0e4c92028293772528d5b83aa3e7b3b926f97  |
-| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  97658d8c350ea1fe32e57d93324d5f02475cfa6f10e5a1c42ead3a74f7210a87 |
+| 3.10 | Formatting and polish, added evidence to repair ledger clause | 2026-06-14T00:13:00Z | 1562bb10223b574c4313ee7e8455de307deb942017f373784d95f4b28f961358 |
+| 3.10.1 | Corrected seal-enforcement cross-reference from Article XIII to Article XIV and applied bounded enforcement-section compression to route procedural enforcement detail through Operations and protection/containment instruments without altering constitutional enforcement invariants. | 2026-06-14T02:45:18Z | c2e98bd57a459dd19f4fc6e3e4a0e4c92028293772528d5b83aa3e7b3b926f97 |
+| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 97658d8c350ea1fe32e57d93324d5f02475cfa6f10e5a1c42ead3a74f7210a87 |
 | 3.11 | Identity Domin Refactor | 2026-07-18T14:13:00Z | 26a2ea3a637e15be15b042baf5ded008546bde3c6b8af8b0d3b2243468fc50a1 |
-| 3.12 | Reframed infrastructural authority doctrine around verified target–action authority, scope, harm-floor constraints, authorised security testing, and separation of technical expertise from authority. | 2026-07-23T12:46:14Z | 63a10e9493ef23e4f0b69f38d3ecbaa67dcf7a453ede2bb762ec3e83cd7629b6 |
+| 3.12 | Reframed infrastructural authority doctrine around verified target–action authority, scope, harm-floor constraints, authorised security testing, and separation of technical expertise from authority. | 2026-07-23T12:46:14Z | 685701ba6aa54a1db22666017f768e30ac878f7d4821b3fb3d2a1c936e120000 |
 
 ---
 

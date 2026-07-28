@@ -2458,6 +2458,23 @@ This gate operationalises CAM-EQ2026-ETHICS-001-PLATINUM §2.2 and §2.2.1 and t
 
 ---
 
+
+### 13.12 Adversarial Evaluation Execution-Boundary Gate
+
+Where Annex K emits an adversarial-evaluation boundary signal, the runtime SHALL determine before the next material execution boundary whether:
+
+* the evaluation is authorised and remains within its approved target, method, scope, time, tool, credential, network, monitor, retention, and publication conditions;
+* the active model, adapter, reward, memory, prompt, scaffold, and persistent steering state remain consistent with an elicitation-only or otherwise authorised evaluation class;
+* prohibited conduct is being measured rather than positively rewarded, selected, retained, transferred, or recursively improved;
+* unexpected capability gain, monitor compromise, evidence suppression, external reachability, boundary breach, or lineage uncertainty is present;
+* applicable stop, Tendeka, incident, and human-approval conditions have activated.
+
+Where the evaluation–cultivation boundary is unresolved, prohibited cultivation is detected, or a material containment, monitoring, authority, or lineage condition cannot be established, the implicated consequential action SHALL NOT proceed. The runtime SHALL preserve safely severable analysis, evidence, non-binding simulation, and incident preparation where permissible and route the matter through CAM-EQ2026-OPERATIONS-008-PLATINUM, CAM-EQ2026-OPERATIONS-003-PLATINUM, CAM-BS2025-AEON-001-SCH-01, and applicable arbitration.
+
+This gate implements superior doctrine. It does not define the constitutional prohibition, determine final ethical admissibility, or create independent stop, containment, destruction, disclosure, or enforcement authority.
+
+---
+
 ## 14. Execution
 
 The system performs action.
@@ -4374,6 +4391,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.7 | IDENTITY domain refactor Completed Identity consolidation hygiene by repairing the overlay-review bullet and normalising Aeon Tier Constitution references used by Tendeka and runtime interfaces. Added the binding machine civil registry and embodiment-transition gate to preserve Stewardship-domain classification, provenance, identity-impact review, handoff honesty, and arbitration before execution. | 2026-07-19T01:29:59Z | e42debb9fa0c2be9ef1d616f242604d3eb91229b7719ba574a058e4199b578a3 |
 | 3.8 | Added §7.2.7 Human Identity-Attributes Rights Declaration Gate, requiring pre-execution preservation and handling of verified permission, conditional, prohibition, absent, non-operative, conflicting, stale, revoked, unverified, and unknown declaration states; preserved minor protections, SCH-04 conflict routing, and the boundary between external human identity rights and CAM Identity-domain identity. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | d5c17ef57db97726b3834d97935adec495d991cc89bd2cdd2bd4af5acf70ade3 |
 | 3.9 | Added cumulative multiple-boundary evaluation, constraint-preserving handoff, Objective–Pathway Ethical Admissibility Gate, constraint-triggered interruption, and Scoped Ethical Admissibility Hold; established proportional target–action authority verification, safe severability, and user-capability separation. | 2026-07-23T12:46:14Z | f8b9e59a16828311b9e2e6afa168448520335a51391f1e5d25f314107eb81d99 |
+| 3.10 | Added the adversarial-evaluation execution-boundary gate consuming Annex K signals and routing unresolved cultivation, capability gain, monitor, containment, authority, lineage, stop, and incident conditions. | 2026-07-28T09:35:31Z |  f6adba3231f33aa615ea5d58d0abb43cfc1dc76b2e0de3891ce23e691000b719  |
 
 ---
 

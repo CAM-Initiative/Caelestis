@@ -216,7 +216,7 @@ Where governance is claimed, let its reach be real.
 
 | Version | Description | Timestamp (UTC) | HASH |
 |---|---|---|---|
-| 1.0 | Initial issue — Schedule 5: Runtime Configuration Applicability & Conformance Binding; established constitutional runtime applicability, materially distinct runtime recognition, cross-runtime non-presumption, traceability, non-derogation, and Appendix F operationalisation. | 2026-07-13T03:48:00Z |  c968085fd68e95e5b2ab5f7f65c439e1c216beee8b1cffdd8f9c1049d4959cae  |
+| 1.0 | Initial issue — Schedule 5: Runtime Configuration Applicability & Conformance Binding; established constitutional runtime applicability, materially distinct runtime recognition, cross-runtime non-presumption, traceability, non-derogation, and Appendix F operationalisation. | 2026-07-13T03:48:00Z | 298fedc2fe20315f254cd18619d40e81a31bf9c62f5df6da3d64fb8c00849696 |
 
 ---
 

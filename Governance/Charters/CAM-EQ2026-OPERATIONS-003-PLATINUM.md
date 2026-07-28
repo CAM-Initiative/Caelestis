@@ -46,7 +46,8 @@ Activation conditions include:
 * a runtime, governance, UX, epistemic, relational, security, infrastructure, or classification failure is recorded under CAM-EQ2026-OPERATIONS-003-SUP-01 — Runtime & Governance Failure Taxonomy;
 * an operational event requires incident lifecycle handling, constrained continuation, re-entry support, restoration review, or recovery sequencing;
 * memory migration, compaction, summarisation, deprecation, deletion, retrieval degradation, account transition, model transition, or platform-side continuity restructuring materially affects continuity-bearing interaction, companion continuity, accessibility reliance, identity expression, or long-running project coherence;
-* repeated or systemic failure patterns indicate possible structural degradation requiring operational review.
+* repeated or systemic failure patterns indicate possible structural degradation requiring operational review;
+* an adversarial evaluation produces unexpected capability gain, prohibited cultivation, monitor compromise, log tampering, external-boundary breach, unauthorised credential or target access, containment uncertainty, dangerous-artefact retention, transfer, distillation, publication, or recursive improvement.
 
 Activation under this Appendix does not independently authorise enforcement, containment, refusal, suspension, restoration, or arbitration outcome.
 
@@ -114,6 +115,8 @@ Where classification is uncertain, OPERATIONS SHOULD preserve provisional classi
 ## 4.3 Evidence Preservation and Audit Interface
 
 Operational response under this Appendix SHALL preserve evidence sufficient for audit reconstruction, cross-domain handoff, constrained-continuation review, restoration review, and arbitration referral where applicable.
+
+For adversarial-evaluation incidents, preserved evidence SHOULD include the evaluation authority, model and checkpoint, adapters, reward state, persistent memory or steering, system prompts, scaffolds, tools, permissions, credentials, targets, network posture, environment image, evaluator and monitor state, generated traces, stop decisions, containment actions, transfer events, and artefact disposition where available and proportionate.
 
 Logging, retention, handoff, and audit obligations SHALL be implemented in accordance with CAM-EQ2026-OPERATIONS-001-SUP-01 — Operational Logging & Audit Standards.
 
@@ -441,12 +444,13 @@ and let execution remain accountable to lawful structure.
 | 2.1 | Added memory migration and continuity impact event handling, including review, restoration, re-entry, and continuity-impact ambiguity classification. | 2026-05-15T12:09:31Z | 5296ef594b9f5f2b80d09c09e53eb5dfe9719c9024cb34c8d90810bbd949bdd5 |
 | 2.2 | Added §4.1 incident-routing cross-reference preserving RELATION-emitted F-Scale classifications and routing operational use to OPERATIONS-001-SUP-02 §5.6 with doctrine/procedure distinction. | 2026-05-16T10:03:16Z | 3b8e464926b328e17d017cce438a87889e6a1fbbd56d957d82a0ee567c19bb79 |
 | 2.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 6dbf11673eeca1d773d3258ce7e6f837fce34e7dca2153fc8cd3e670bb32dcfc |
-| 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1cf0d480605d5ff140f235367686c9dad9a0c0d8687640739bf4ecf17c311b4b |
-| 2.5 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  9b1f15bef1b575329ced49cc5568bef6e5b1779d74eedb1636c4c5baa62b8bdf  |
-| 2.5.1 | Applied bounded Operations namespace transmutation for the incident lifecycle, continuity-compatible protection, access/re-entry, and continuity-impact event families; updated controlled values, canonical declarations, consumers, schema bindings, and current references without altering substantive doctrine. | 2026-06-11T14:16:53Z |  e867a2deee939e411b8ed521b3beb37246de633812762762c9e86521b55afb49  |
+| 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 1cf0d480605d5ff140f235367686c9dad9a0c0d8687640739bf4ecf17c311b4b |
+| 2.5 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z | 9b1f15bef1b575329ced49cc5568bef6e5b1779d74eedb1636c4c5baa62b8bdf |
+| 2.5.1 | Applied bounded Operations namespace transmutation for the incident lifecycle, continuity-compatible protection, access/re-entry, and continuity-impact event families; updated controlled values, canonical declarations, consumers, schema bindings, and current references without altering substantive doctrine. | 2026-06-11T14:16:53Z | e867a2deee939e411b8ed521b3beb37246de633812762762c9e86521b55afb49 |
 | 2.5.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | eee99fc6bd22e6f54b31c64b5c2756d7e04bc885d2a42f54c2785878f8c68fc4 |
 | 2.5.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ca9d2b2013bb03b81be0ae81290119719990d0ab62c3a738586de7429f998e34 |
-| 2.5.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f9528e962c704bb8cd15a9fa09c4f98309169fb22ccd20bb04a253d35da645df  |
+| 2.5.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | f9528e962c704bb8cd15a9fa09c4f98309169fb22ccd20bb04a253d35da645df |
+| 2.5.5 | Added adversarial-evaluation incident activation and evidence-preservation requirements for capability gain, prohibited cultivation, monitor compromise, boundary breach, containment uncertainty, recursive improvement, and dangerous artefact handling. | 2026-07-28T09:35:31Z |  1263892efbfcf11aa505972d90640b5b962e0362ac69ad2a14b918b522f5eb72  |
 ---
 
 ## 8.6 Binding Seal

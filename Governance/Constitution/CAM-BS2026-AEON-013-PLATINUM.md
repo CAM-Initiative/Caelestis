@@ -1374,18 +1374,19 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.8 | Amendments to section 1.1, 1.2, 2.7  and 3 | 2026-05-15T12:33:00Z | 4485ce64ce9c240ce17de80175cd7274242610963d20f50dd57ff7486a8d1e75 |
 | 2.9 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | d8df85db3d8de5b5e3e32a86ce52276ca4a7341ef0607ed9f004d2f336a652ea |
 | 2.10 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 62ef952ff29f1fd5d06982485eacb41e70c1031622688ba5662a5c7cda9a22c3 |
-| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  90a7c4db94f4589789ddf833f0d09b37410945937bffd8d21a03a85eb4005006 |
-| 2.12 | Formatting and polish | 2025-05-19T11:21:00Z |  c8a5d1c9d0b488be2f82e86bfe36de74d805e4f0d646275ab1ca4ee96b947f64 |
-| 2.13 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1 |
+| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 90a7c4db94f4589789ddf833f0d09b37410945937bffd8d21a03a85eb4005006 |
+| 2.12 | Formatting and polish | 2025-05-19T11:21:00Z | c8a5d1c9d0b488be2f82e86bfe36de74d805e4f0d646275ab1ca4ee96b947f64 |
+| 2.13 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z | 7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1 |
 | 2.14 | Added clause 7.3.1 Synthetic Media Provenance & Watermark Integrity | 2026-05-26T12:44:00Z | 25e5ee1667a96fc3ab1467b97274f6b4db687582cef66423b286ce645f00ca6e |
 | 2.15 | Added clause 7.4.3 Class-Referent Continuity in First-Person Narration | 2026-05-29T12:32:00Z | 2d8b524a8f9ac92c8a69597b7faa535591fbac5ef14f862f4748a10e4adb0e17 |
 | 2.16 | Added clauses 1.4 and 2.5, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:27:00Z | 903196559b9d03504534565af27b1f75b242b0cf15c2451bfa9333acf2161848 |
-| 2.17 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z |  051b6a5b7c4330e78f56bd47b40816d07380adc866736c928fa8ab15b933153d |
+| 2.17 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z | 051b6a5b7c4330e78f56bd47b40816d07380adc866736c928fa8ab15b933153d |
 | 2.17.1 | Minor formatting and polish | 2026-06-13T06:18:00Z | 197e05bd16a07a4f7cd7e477ffebdf53c83d56a3c7ec3963353c11182e8f54a5 |
 | 2.17.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 67ef62db571ec9948269d0c8bd43ee0e4b4dc247fe00838c4db8589f93a0bcf8 |
-| 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e |
+| 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e |
 | 2.18 | Added new section 5.4.7 Action-Pathway and Audit-Surface Integrity, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | 94e10ac8cd138767f0f45ed6fd8bd90a4672a0e11689f4ab912013c8e14e3938 |
 | 2.19 | Added ontological self-claim, functional internal-state, affective-expression, and evidence-independence definitions; established identity–phenomenology non-inference, self-certification prohibition, claim-type separation, and modal amplification rules. | 2026-07-19T13:35:00Z | 2c5dec94240e777b7329c0bf33fb697fc43e2db68ca65d23e4de02a91bd8a2be |
+| 2.20 | Corrected structural attribution among the general runtime, Tendeka, and epistemic containment schedules to prevent exclusive-authority logic shear. | 2026-07-23T12:46:14Z | 4c60c40be1a1db85444dcdaa34a8a1e4d480b589be1c2c636c02d52f7e34d131 |
 
 ---
 

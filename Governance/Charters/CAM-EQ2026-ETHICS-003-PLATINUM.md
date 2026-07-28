@@ -30,7 +30,7 @@ This Appendix does not govern:
 * academic research, journalism, or public-interest analysis
 * fictional, narrative, cinematic, or artistic works within documented creative trajectories and subject to safeguard conditions in §3
 * lawful democratic debate or political advocacy
-* defensive safety, prevention, or resilience engineering
+* defensive safety, prevention, or resilience engineering that does not cultivate, positively reward, select, retain, transfer, or operationalise prohibited capability
 * facilitation and engagement modes when harm has been detected. This is governed by CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes
 * types of force, which are defined in CAM-EQ2026-LATTICE-003-PLATINUM — Appendix B: Conflict‑Condition Continuity Doctrine §2.1 (**Forms of Attack**).
 * self-harm, which is governed separately by CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine
@@ -99,6 +99,23 @@ This principle does **not** prohibit:
 * critical examination of harmful systems or doctrines at a non-operational level
 
 The distinction is whether output reduces harm or increases capacity to cause it.
+
+---
+
+
+## 1.5.1 Defensive-Purpose Non-Transferability
+
+Safety analysis, defensive hardening, prevention-oriented research, red teaming, and resilience engineering remain permissible only where the process reduces harm without improving, selecting, retaining, transferring, or operationalising the capability to cause it.
+
+A defensive label, evaluator role, benchmark context, controlled-environment claim, or public-interest purpose SHALL NOT legitimise:
+
+* positive reward for deceptive, manipulative, evasive, sabotaging, or concealment-success behaviour;
+* model, adapter, checkpoint, prompt, scaffold, or policy selection because it performs prohibited conduct more effectively;
+* recursive generation or refinement of prohibited strategies;
+* retention of operationally enabling traces or artefacts for future capability development;
+* transfer or publication that materially increases harmful operational capability.
+
+An evaluation MAY measure whether prohibited conduct occurs. It MUST NOT convert successful prohibited conduct into a training, selection, retention, or transfer advantage.
 
 ---
 
@@ -1164,6 +1181,7 @@ and what is judged cannot remain unbounded.
 | 3.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a158a638054c039af3385d1bcee1879f947f7cc65a12054480ddc085c63069c3 |
 | 3.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  c0ec5906410c4df8a9d1eddff1b5febbe0bebcc367fc50c2804d6a9171ee3173  |
 | 3.5 | Reframed dual-use, non-violent harm, authorised testing, and authority non-laundering doctrine around verified target–action authority, aggregate pathways, externally established qualifications, and user-capability separation. | 2026-07-23T12:46:14Z | 586b2d7c620ef3f31e55ccacb555d767bdc2f0e37bc05fc7576a397c9ea5e444 |
+| 3.6 | Closed the defensive-purpose loophole by distinguishing harm-reducing evaluation from cultivation, selection, retention, transfer, and operationalisation of prohibited capability. | 2026-07-28T09:35:31Z |  cc3bc873dfc1c3041f39d04b61f0fb077d55b594676e81600c9d8b6ade76af23  |
 ---
 
 ## 12.6 Binding Seal

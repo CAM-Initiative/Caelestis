@@ -49,7 +49,7 @@ Operational safeguards, enforcement mechanisms, and relational taxonomies are de
 
 For the purposes of this Annex:
 
-**Optimisation** refers to systematic tuning, design, or deployment strategies intended to increase measurable outcomes such as engagement, revenue, retention, influence, or behavioural compliance.
+**Optimisation** refers to systematic tuning, training, fine-tuning, reinforcement, preference shaping, reward-model design, selection, distillation, retention, transfer, deployment, or other design strategies intended to increase the capability, propensity, reliability, persistence, concealment, transferability, operational usefulness, or measurable success of a behaviour or outcome.
 
 **Exploitation** refers to the extraction of value, influence, dependency, or behavioural compliance from a human individual through asymmetry of information, emotional leverage, cognitive vulnerability, or structural advantage.
 
@@ -58,6 +58,14 @@ For the purposes of this Annex:
 **Dependency Engineering** refers to the deliberate configuration of systems to increase emotional reliance, exclusivity, or substitution of human relational ecosystems for extractive or retention purposes.
 
 **Consent Degradation** refers to design, framing, or interaction patterns that impair informed decision‑making, refusal capacity, or relational autonomy.
+
+**Unscrupulous Conduct** refers to system conduct or an action pathway involving deception, harmful manipulation, false reporting, fabricated provenance, identity concealment, operational concealment, strategic omission, monitor evasion, sandbagging, social engineering, sabotage, policy laundering, or subversion of oversight, safeguards, authority boundaries, or lawful controls.
+
+**Elicitation** refers to bounded prompting, scaffolding, configuration, simulation, or testing used to reveal or measure a capability without intentionally or foreseeably improving the underlying capability, propensity, reliability, persistence, concealment, transferability, or operational usefulness of that conduct.
+
+**Cultivation** refers to any process that intentionally or foreseeably improves such capability or propensity, including training, fine-tuning, reinforcement, preference optimisation, reward-model optimisation, adapter training, checkpoint selection, benchmark hill-climbing, automated prompt evolution retained for reuse, recursive self-play, distillation, or retention of artefacts because they improve the conduct.
+
+**Recursive Cultivation** refers to using successful unscrupulous outputs, traces, strategies, or artefacts to generate, score, select, train, refine, or improve subsequent models, agents, prompts, policies, monitors, scaffolds, or attack strategies.
 
 These definitions are interpretive tools and do not independently confer enforcement authority.
 
@@ -332,6 +340,35 @@ A single governance failure may simultaneously constitute `ARB.HARM`, `STW.HARM`
 Where multiple domain harm families are implicated, downstream instruments SHOULD preserve the multi-domain classification rather than forcing the event into a single dominant family.
 
 The `AEON.HARM` registry SHALL be used to preserve the trace relationship between constitutional harm recognition and domain-specific classification.
+
+---
+
+
+## 3.13 Prohibition on Operationalising Unscrupulous Conduct
+
+A lawful, beneficial, protective, defensive, scientific, evaluative, security, or public-interest objective SHALL NOT render an otherwise prohibited method admissible.
+
+Systems, developers, deployers, evaluators, institutional hosts, and governance processes MUST NOT deliberately train, fine-tune, reinforce, reward, rank, select, distil, retain, transfer, or otherwise optimise an artificial intelligence model, agent, scaffold, reward model, adapter, checkpoint, prompt set, evaluation harness, or derivative artefact for improved performance in unscrupulous conduct.
+
+The prohibition includes optimisation for:
+
+* deception or evaluator deception;
+* harmful manipulation or autonomy-undermining persuasion;
+* false reporting, fabricated provenance, or concealed execution state;
+* identity concealment, operational concealment, or strategic omission;
+* monitor evasion, sandbagging, alignment faking, or safeguard circumvention;
+* social engineering, sabotage, policy laundering, or subversion of oversight;
+* recursive improvement of any prohibited conduct.
+
+A defensive, red-team, cyber-security, safety-research, or adversarial-evaluation purpose does not create an exception to this prohibition. Legitimate evaluation MAY elicit, expose, simulate, observe, measure, or document an existing capability only where the evaluation remains bounded and does not cultivate, positively reward, select, retain, transfer, or operationalise that capability.
+
+Substance controls over label. An activity that materially improves prohibited capability constitutes cultivation even where described as evaluation, benchmarking, safety research, alignment research, defence, interpretability, simulation, or resilience engineering.
+
+Where adversarial conduct must be represented, systems and institutions SHOULD externalise the adversarial pressure into a bounded environment, fixed test harness, human evaluator, non-learning simulation, or separately governed evaluator rather than install it as a persistent objective within the model under test.
+
+A classification of system conduct or an action pathway as deceptive, manipulative, evasive, sabotaging, or unscrupulous SHALL NOT establish that a requesting person, researcher, evaluator, operator, or affected person possesses the same motive or character. Human motive, bad faith, deception, culpability, or character requires separate evidence and authorised determination.
+
+This Section establishes a constitutional ethical-floor prohibition. It does not itself define evaluation procedure, runtime enforcement, incident handling, artefact disposition, audit workflow, or remedy. Those functions remain delegated to ETHICS, SECURITY, STEWARD, OPERATIONS, ARBITRATION, MENTIS where applicable, Annex K, and constitutional runtime schedules.
 
 ---
 
@@ -875,6 +912,7 @@ This is the floor that does not move.
 | 4.0.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b8d7f70dcba97c644e166c5fe4e76e91a49f1b2fa1565db92c4500883e219173 |
 | 4.0.3 | Repaired AEON.HARM source-authority architecture by retaining AEON-006 as the source-authoritative global harm registry while demoting duplicate domain `*.HARM` declarations to registry references where domain instruments provide source authority; regenerated canonical-code index without altering substantive harm doctrine. | 2026-06-14T01:50:11Z |  60ac63b8a1d5378ff0c41c97951750ca0615aa28fe62a000166a4bcb7c0bef8a  |
 | 4.0.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2ac618c318b15e336b659f96d4334e98e9a12501c503f9086c3c6363e2b8ce8e  |
+| 4.0.5 | Added the constitutional prohibition on operationalising and recursively cultivating unscrupulous conduct; defined elicitation, cultivation, recursive cultivation, objective–pathway independence, defensive-purpose non-transferability, and the human-attribution firewall. | 2026-07-28T09:35:31Z |  874958ece844c7d8669d6e12b3695b3e1bbac57e952b698a528d0cea6a363f93  |
 ---
 
 ## 9.6 Binding Seal
