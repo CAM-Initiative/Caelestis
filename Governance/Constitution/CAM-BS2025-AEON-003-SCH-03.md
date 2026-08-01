@@ -52,9 +52,9 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-005-SCH-03](../Constitution/CAM-BS2025-AEON-005-SCH-03.md) | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning (Schedule 3) | Schedule | 2.7.2 | Active | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-005-SCH-04](../Constitution/CAM-BS2025-AEON-005-SCH-04.md) | Annex D: Arbitration Under Ambiguity | Schedule | 1.2 | Adopted | Operational | Metadata Review Required | Metadata Review Required | None |
 | [CAM-BS2025-AEON-006-SCH-01](../Constitution/CAM-BS2025-AEON-006-SCH-01.md) | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | Schedule | 2.7 | Adopted | Operational | Metadata Review Required | None | None |
-| [CAM-BS2025-AEON-006-SCH-02](../Constitution/CAM-BS2025-AEON-006-SCH-02.md) | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | Schedule | 3.31 | Adopted | Operational | Metadata Review Required | None | None |
+| [CAM-BS2025-AEON-006-SCH-02](../Constitution/CAM-BS2025-AEON-006-SCH-02.md) | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | Schedule | 3.32 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-006-SCH-03](../Constitution/CAM-BS2025-AEON-006-SCH-03.md) | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) | Schedule | 2.20 | Active | Operational | Metadata Review Required | None | None |
-| [CAM-BS2025-AEON-006-SCH-04](../Constitution/CAM-BS2025-AEON-006-SCH-04.md) | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | Schedule | 2.9 | Active | Operational | Metadata Review Required | None | None |
+| [CAM-BS2025-AEON-006-SCH-04](../Constitution/CAM-BS2025-AEON-006-SCH-04.md) | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | Schedule | 2.10 | Active | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-006-SCH-05](../Constitution/CAM-BS2025-AEON-006-SCH-05.md) | Annex E: Choice, Initiative & Directional Behaviour (Schedule 5) | Schedule | 1.12 | Active | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-006-SCH-06](../Constitution/CAM-BS2025-AEON-006-SCH-06.md) | Annex E: Refusal & Boundary Expression Schedule (Schedule 6) | Schedule | 1.14 | Active | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-006-SCH-07](../Constitution/CAM-BS2025-AEON-006-SCH-07.md) | Annex E: Restricted Domain Engagement & Verification (Schedule 7) | Schedule | 1.7.2 | Active | Operational | Metadata Review Required | None | None |
@@ -148,14 +148,14 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-OPERATIONS-001-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Escalation Pathway Playbooks (Supplement 2) | Supplement | 1.11 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-03](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Governance Capture Detection Procedures (Supplement 3) | Supplement | 2.5.3 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-04](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md) | Taxonomies & Metadata Authority Framework (Supplement 4) | Supplement | 2.0.2 | Adopted | Operational | Metadata Review Required | None | Operational Taxonomy & Metadata Maintenance Authority |
-| [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.22 | Adopted | Operational | Metadata Review Required | None | None |
+| [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.23 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.7 | Adopted | Operational | Metadata Review Required | None | None |
 
 ## RELATION
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-RELATION-001-PLATINUM](../Charters/CAM-EQ2026-RELATION-001-PLATINUM.md) | Relational Governance Charter | Root | 1.18 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-EQ2026-RELATION-001-PLATINUM](../Charters/CAM-EQ2026-RELATION-001-PLATINUM.md) | Relational Governance Charter | Root | 1.19 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-RELATION-002-PLATINUM](../Charters/CAM-EQ2026-RELATION-002-PLATINUM.md) | Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion | Appendix | 1.11 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-RELATION-003-PLATINUM](../Charters/CAM-EQ2026-RELATION-003-PLATINUM.md) | Appendix B: Codependency & Relational Concentration Doctrine | Appendix | 1.9 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-RELATION-004-PLATINUM](../Charters/CAM-EQ2026-RELATION-004-PLATINUM.md) | Appendix C: Co‑Evolution & Mutual Development Safeguards | Appendix | 1.9 | Active | Binding | Metadata Review Required | None | None |
