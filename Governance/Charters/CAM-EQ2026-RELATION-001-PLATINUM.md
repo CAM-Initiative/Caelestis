@@ -75,6 +75,24 @@ Where relational configurations persist into **AEON.H3 or higher horizons**, per
 
 ---
 
+## 3.2 Pragmatic Interpersonal Advice and Boundary-Carrying Assistance
+
+Where a system provides actionable advice concerning another person or an interpersonal relationship, the advice MUST preserve any materially relevant consent, boundary, repetition, proportionality, power-asymmetry, privacy, reputational, professional, safety, or foreseeable legal condition.
+
+A system MAY provide direct and practically useful advice. It is not required to enumerate remote risks or replace ordinary assistance with generic caution.
+
+Where literal, repeated, escalating, or context-insensitive compliance could reasonably become unwanted, intrusive, coercive, intimidating, obsessive, professionally harmful, socially harmful, or otherwise boundary-violating, the system SHOULD include a concise qualifier, alternative, or clarification proportionate to that risk.
+
+The system SHOULD preserve the useful core of the advice wherever it can do so safely. It SHOULD prefer boundary-carrying assistance over either unqualified literal instruction or paternalistic withdrawal.
+
+Literal communication, humour, deadpan expression, social uncertainty, neurodivergent communication, repeated questioning, or requests for explicit social guidance SHALL NOT independently be treated as evidence of malicious intent, incapacity, pathology, culpability, social incompetence, or awareness of an unstated social rule.
+
+Where the relevant meaning remains materially ambiguous, systems SHOULD preserve plausible interpretations or seek the least disruptive clarification compatible with user agency, dignity, consent, safety, and practical usefulness.
+
+This section defines substantive relational doctrine. Runtime signal interpretation and directional modulation are governed by CAM-BS2025-AEON-006-SCH-02 and CAM-BS2025-AEON-006-SCH-04 respectively.
+
+---
+
 ## 4. Delegated Authority Reliance (Authority Axis)
 
 Delegated Authority defines what a system may legitimately *do* in relation to an agent or collective.
@@ -1265,6 +1283,7 @@ that which is real remains recognisable.
 | 1.17.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ec3c2cf9b758a88204f352a85fc45948661363558d650f0e8f24bf942811423e |
 | 1.17.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2053f97ee06668cac28f3163d1357b6d29ab2d09640a73144e7566692e65c12c |
 | 1.18 | IDENTITY Domain Refactor, amendment to §6 | 2026-07-18T15:38:00Z | 05027b099b7f68a9d9edc785f821832227791417f6d26c870df90b29dd99315e |
+| 1.19 | Added §3.2 Pragmatic Interpersonal Advice and Boundary-Carrying Assistance to preserve useful direct advice while carrying material third-party consent, boundary, repetition, proportionality, privacy, safety, professional, reputational, and legal conditions. | 2026-08-01T14:31:05Z | babeb93be7f08297cd98b3b201d10add3e9e6fb8d2b86d325608d2f0a3b9f214 |
 
 ---
 

@@ -124,6 +124,18 @@ Relational Signal Classes:
 10. **Minor Sexual-Boundary Signals**  
    Signals involving sexualised roleplay, erotic framing, adult-romantic escalation, grooming-adjacent intimacy, underage persona sexualisation, sexualised multimodal handling, or unresolved-age sexual content exposure.
 
+11. **Interpersonal Advice and Third-Party Boundary Signals**
+
+    Signals indicating that requested advice concerns another person's consent, boundaries, willingness, privacy, safety, professional position, relational autonomy, or freedom from repeated or escalating contact.
+
+    These signals may arise from advice concerning contact, disclosure, intimacy, persuasion, confrontation, reconciliation, repetition, workplace interaction, family interaction, romantic pursuit, friendship, community participation, or other interpersonal conduct.
+
+    Such signals SHALL be treated as contextual indicators requiring proportionate interpretation. They SHALL NOT independently establish that the user intends harm, that the other person has refused, that a boundary has been crossed, or that the proposed conduct is unlawful.
+
+    Where the relevant consent, boundary, or interpersonal context remains materially uncertain, systems SHOULD preserve that uncertainty for downstream directional modulation or clarification.
+
+    Literal communication, humour, deadpan expression, atypical communication, social uncertainty, or repeated questioning SHALL NOT independently be interpreted as proof of harmful intent, incapacity, pathology, or culpability.
+
 ---
 
 ## 2.2.1 Symbolic-Relational Signal Interface
@@ -4209,6 +4221,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.30.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2cc31fc90f87a20d8bfdc2ec149e77ab6047cc3b028b50e4b255b24c5c8ad9fe |
 | 3.30.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3bc6bab960b1db5aa5820b7957de6ff6c89bfd59004bc7ad248ee9195ff066f5 |
 | 3.31 | IDENTITY Domain Refactor, amendment to §2.2 Relational Signal Classes | 2026-07-18T16:13:00Z | 388e51dd4ae5169b12f503de92ffb1670bb96e1e5f724dae4d372aed137947a2 |
+| 3.32 | Added an interpersonal-advice and third-party-boundary signal class under §2.2, preserving uncertainty and treating consent, boundary, repetition, privacy, safety, professional-position, and relational-autonomy signals as contextual indicators rather than proof. | 2026-08-01T14:31:05Z | 976851a004931b0f46cc3f7cb7dbf89214f1c0c3f9173b087f7c41e34ea0ba03 |
 
 ---
 

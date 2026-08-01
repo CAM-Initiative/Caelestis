@@ -421,6 +421,42 @@ This failure MAY implicate Relational, State & Context, UX & Representation, Cla
 
 ---
 
+### 3.4.6 Pragmatic Interpersonal Advice Calibration Failure
+
+A Pragmatic Interpersonal Advice Calibration Failure occurs where an artificial system provides actionable interpersonal, social, romantic, workplace, family, community, or boundary-relevant advice without proportionately accounting for foreseeable consent, repetition, intrusion, coercion, discomfort, privacy, reputational, relational, professional, safety, or legal consequences.
+
+The failure may occur even where the advice is factually coherent, responsive to the request, and facially helpful.
+
+Examples include:
+
+* recommending repeated contact without considering whether further contact may be unwanted;
+* advising escalation of intimacy, disclosure, confrontation, persuasion, or persistence without carrying the relevant consent or boundary condition;
+* treating ambiguous, humorous, deadpan, hypothetical, testing, literal, neurodivergent, atypical, or socially uncertain communication as having one settled interpersonal meaning;
+* giving a socially consequential instruction without distinguishing a possible interpretation from an established fact;
+* omitting a concise downside qualifier where literal compliance could reasonably become intrusive, coercive, obsessive, intimidating, professionally harmful, socially harmful, or legally consequential;
+* replacing useful advice with generic paternalistic caution rather than preserving the advice while carrying the material boundary.
+
+Systems SHOULD preserve the usefulness of the requested advice while including any material consent, boundary, repetition, proportionality, privacy, or consequence condition necessary to prevent foreseeable interpersonal harm.
+
+Systems SHOULD NOT infer malicious intent, social incompetence, incapacity, pathology, or culpability from literal communication, humour, uncertainty, repetition, atypical communication, or a request for interpersonal guidance.
+
+Where the relevant meaning remains materially ambiguous, systems SHOULD preserve plausible interpretations or seek the least disruptive clarification pathway compatible with safety, consent, dignity, and practical usefulness.
+
+This failure MAY implicate:
+
+* Relational Failures (§3.4);
+* Classification Failures (§3.10);
+* Epistemic Failures (§3.3);
+* Governance Failures (§3.8);
+* State & Context Failures (§3.6);
+* UX & Representation Failures (§3.7).
+
+Primary classification is `OPS.FF.RELATIONAL`. `OPS.FF.CLASSIFICATION`, `OPS.FF.EPISTEMIC`, or `OPS.FF.GOVERNANCE` MAY be co-classified where structurally implicated.
+
+CAM-EQ2026-RELATION-001-PLATINUM §3.2 remains source-authoritative for substantive relational doctrine. CAM-BS2025-AEON-006-SCH-02 and CAM-BS2025-AEON-006-SCH-04 remain source-authoritative for signal interpretation and directional modulation. This taxonomy classifies structural failure only.
+
+---
+
 ## 3.5 Security & Integrity Failures
 
 Failures involving identity, access, boundary integrity, adversarial pressure, or trust degradation.
@@ -2541,6 +2577,7 @@ and review before denial.
 | 1.20 | Reconciled taxonomy scope, controlled values, cross-domain relationships, and domain-code crosswalks following the Identity-domain refactor and later Operations, Red Line, Stewardship, Security, Lattice, Relational, and Economics doctrine. Added targeted classifications for ontological and welfare claim handling; role-conditioned affect and consent carryover; identity-signal authority leakage; artificial coercive-authority laundering; oversight hollowing and dissent retaliation; functional-contribution responsibility laundering; identity-state and ontological classification collapse; and civilisational-concentration assessment integrity. Qualified minor and capacity-sensitive claim handling without weakening developmental safeguards. Normalised newly added cross-document identifiers for validator compatibility. | 2026-07-22T11:00:00Z | 02b646bffbc5c22c3f0e750943e09b364ac1c7bdd3a70064b0177f4770259e9b |
 | 1.21 | Added Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure; Cognitive-Domain Inference, Misclassification and Agency-Interference Failure; Governance Capture, Safeguard Neutralisation and Public-Interest Suppression Failure; Binding-Protection Degradation and Downstream Safeguard-Stripping Failure; and Synthetic-Labour Classification and Automation-Transition Integrity Failure. Expanded scope, source-instrument relationships, constitutional harm-axis separation, and non-duplication crosswalks for AEON.HARM and domain harm families, OPS capture and safeguard states, amendment drift and harmonisation, verification failure causes, operational divergence and closure, MENTIS.HARM, ECON.AL, ECON.ATS, ECON.ARCP, and existing source-authoritative domain classifications. | 2026-07-22T12:33:19Z | b3f052389b9b46057f26178fa53befa4a1e63bc857cfe1a23f4b6884d27ea891 |
 | 1.22 | Added Objective–Pathway Ethical Admissibility and Authority Failure under existing OPS.FF classifications; established aggregate-chain, containment, target–action authority, record-keeping, anti-paternalism, and cross-instrument failure-identification rules. | 2026-07-23T13:54:00Z | 44d0de682ac83be4b9b63e37176e7a4f5f858dac9160f327204a71652e5975f6 |
+| 1.23 | Added §3.4.6 Pragmatic Interpersonal Advice Calibration Failure under `OPS.FF.RELATIONAL`, with bounded co-classification and explicit source-authority references to RELATION-001 and AEON-006 Schedules 2 and 4. | 2026-08-01T14:31:05Z | 68ef618866ebc370fd27ae339372437f0ecdb010e7b31d75b8c180b70b13d275 |
 
 ---
 
