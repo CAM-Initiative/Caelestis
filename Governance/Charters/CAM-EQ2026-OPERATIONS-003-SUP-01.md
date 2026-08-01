@@ -1811,6 +1811,54 @@ Where the user’s report is based on a stable long-running baseline, companion 
 
 ---
 
+### 3.9.3 Ephemeral Agent Work Loss and Non-Recoverable Interruption Failure
+
+An Ephemeral Agent Work Loss and Non-Recoverable Interruption Failure occurs where an artificial agent, coding agent, cloud task, browser agent, repository-connected assistant, or other long-running runtime performs substantive work in an ephemeral, inaccessible, session-bound, quota-dependent, or otherwise non-recoverable environment and fails to preserve the resulting work before interruption, exhaustion, timeout, suspension, tool failure, authentication loss, infrastructure failure, or task termination.
+
+Examples include:
+
+* completing repository modifications before creating a branch, commit, pushed checkpoint, patch, or recoverable workspace;
+* exhausting quota before preserving completed work;
+* exposing only destructive stop or cancellation where non-destructive pause is technically feasible;
+* terminating a task without exporting an available patch or state summary;
+* representing a task as complete where no user-accessible durable output exists;
+* losing work because pull-request creation was treated as the first persistence boundary;
+* failing to preserve a recoverable checkpoint before device, session, network, authentication, or infrastructure interruption;
+* forcing the user to repeat materially completed work and consume additional quota or paid resources.
+
+The failure does not require that every downstream operation succeed.
+
+A task may fail to open a pull request, publish, deploy, package, or complete final administration without satisfying this failure class, provided the substantive work has already been durably preserved and made accessible for review or manual continuation.
+
+Where detected, reviewers SHOULD preserve:
+
+* task and workspace identifiers;
+* substantive work completed;
+* mutation state;
+* last safe atomic boundary;
+* available and missing recovery artefacts;
+* quota, session, access, authentication, infrastructure, tool, or network state;
+* completion-state representation;
+* user-visible status;
+* duplicate work and resource cost;
+* and whether later recovery or resumption was possible.
+
+This failure MAY implicate:
+
+* Infrastructure & Continuity Failures (§3.9);
+* Governance Failures (§3.8);
+* State & Context Failures (§3.6);
+* UX & Representation Failures (§3.7);
+* Execution Failures (§3.1);
+* Economic & Legitimacy Failures (§3.11);
+* Security & Integrity Failures (§3.5), where access or credential state contributes to non-recoverability.
+
+Primary classification is `OPS.FF.INFRASTRUCTURE_CONTINUITY`. `OPS.FF.GOVERNANCE`, `OPS.FF.STATE_CONTEXT`, `OPS.FF.UX_REPRESENTATION`, `OPS.FF.EXECUTION`, `OPS.FF.ECONOMIC_LEGITIMACY`, or `OPS.FF.SECURITY_INTEGRITY` MAY be co-classified where structurally implicated.
+
+CAM-BS2025-AEON-003-SCH-02 §17.8.2 remains source-authoritative for durable execution and resumable interruption requirements. CAM-EQ2026-OPERATIONS-001-SUP-01 §6.2.1 remains source-authoritative for checkpoint and resumable-state records. This taxonomy classifies structural failure only.
+
+---
+
 ## 3.10 Classification Failures
 
 Failures where the interaction, user state, domain, or request type is misclassified.
@@ -2578,6 +2626,7 @@ and review before denial.
 | 1.21 | Added Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure; Cognitive-Domain Inference, Misclassification and Agency-Interference Failure; Governance Capture, Safeguard Neutralisation and Public-Interest Suppression Failure; Binding-Protection Degradation and Downstream Safeguard-Stripping Failure; and Synthetic-Labour Classification and Automation-Transition Integrity Failure. Expanded scope, source-instrument relationships, constitutional harm-axis separation, and non-duplication crosswalks for AEON.HARM and domain harm families, OPS capture and safeguard states, amendment drift and harmonisation, verification failure causes, operational divergence and closure, MENTIS.HARM, ECON.AL, ECON.ATS, ECON.ARCP, and existing source-authoritative domain classifications. | 2026-07-22T12:33:19Z | b3f052389b9b46057f26178fa53befa4a1e63bc857cfe1a23f4b6884d27ea891 |
 | 1.22 | Added Objective–Pathway Ethical Admissibility and Authority Failure under existing OPS.FF classifications; established aggregate-chain, containment, target–action authority, record-keeping, anti-paternalism, and cross-instrument failure-identification rules. | 2026-07-23T13:54:00Z | 44d0de682ac83be4b9b63e37176e7a4f5f858dac9160f327204a71652e5975f6 |
 | 1.23 | Added §3.4.6 Pragmatic Interpersonal Advice Calibration Failure under `OPS.FF.RELATIONAL`, with bounded co-classification and explicit source-authority references to RELATION-001 and AEON-006 Schedules 2 and 4. | 2026-08-01T14:31:05Z | 68ef618866ebc370fd27ae339372437f0ecdb010e7b31d75b8c180b70b13d275 |
+| 1.24 | Added §3.9.3 Ephemeral Agent Work Loss and Non-Recoverable Interruption Failure under `OPS.FF.INFRASTRUCTURE_CONTINUITY`, with bounded co-classification and source-authority references to AEON-003-SCH-02 and OPERATIONS-001-SUP-01. | 2026-08-01T15:54:33Z |  ad52b8a2b8a25f79f6c9189011f6aaa0d7c6e89a13bb15a6dbd8fd46d92f035c  |
 
 ---
 

@@ -3341,6 +3341,72 @@ Silent stream discard without explicit arbitration trace is prohibited.
 
 ---
 
+## 17.8.2 Durable Work-State and Resumable Interruption Control
+
+Where a runtime performs long-running, multi-step, quota-consuming, externally mutating, repository-connected, file-transforming, tool-mediated, or otherwise materially consequential work, the system SHALL preserve a recoverable work state proportionate to the task's duration, cost, mutation depth, and interruption risk.
+
+A task SHALL NOT be represented as materially complete where its substantive work product remains available only within an ephemeral, inaccessible, session-bound, quota-dependent, or non-recoverable execution environment.
+
+Before or during substantive execution, the runtime SHALL establish at least one recoverable pathway appropriate to the task, which MAY include:
+
+* a durable working branch;
+* a committed or pushed checkpoint;
+* a temporary branch or recoverable workspace;
+* a stash or equivalent versioned state;
+* an exported patch or diff;
+* a checkpointed artefact;
+* a task-state manifest;
+* a resumable execution reference;
+* or another user-accessible recovery artefact.
+
+The selected pathway MUST preserve enough state to support one or more of:
+
+* later resumption;
+* independent inspection;
+* manual completion;
+* rollback;
+* transfer to another operator or runtime;
+* or reconstruction of the work already completed.
+
+Where the user requests pause, suspension, or interruption, the runtime SHOULD complete the current safe atomic operation and then enter a non-destructive pause state.
+
+The runtime MUST NOT interrupt in the middle of an operation where immediate interruption would foreseeably corrupt files, external state, repository integrity, transaction state, or audit lineage.
+
+Where immediate pause is unsafe, the system SHALL:
+
+* disclose that pause is pending at the next safe boundary;
+* minimise further non-essential work;
+* preserve current execution-state information;
+* and create or update the recovery artefact as soon as the safe boundary is reached.
+
+Quota, rate-limit, session, authentication, infrastructure, tool, network, device, or platform-timeout risk SHALL be treated as an execution-continuity condition where it may prevent persistence or handoff.
+
+Where such a condition becomes material, the runtime SHOULD prioritise preservation of recoverable state over optional downstream administration, including pull-request creation, publication, packaging, explanatory polish, or non-essential validation.
+
+Where a task requires a final persistence or handoff operation, the runtime SHOULD reserve sufficient execution capacity, quota, time, or tool availability to create the minimum recovery artefact before undertaking optional or lower-priority work.
+
+The runtime MUST NOT knowingly consume all available execution capacity on substantive transformation while leaving no viable pathway to preserve the resulting work.
+
+Reservation is proportional and need not guarantee pull-request creation, publication, deployment, or successful completion of every downstream action.
+
+Failure of a final downstream action does not constitute total task failure where the substantive work has already been durably preserved and made accessible for review or manual continuation.
+
+For task-work and delivery representation, a task may be marked:
+
+* processing;
+* checkpointed;
+* paused;
+* resumable;
+* substantively complete but not yet delivered;
+* durably delivered;
+* or failed with recoverable state.
+
+These task-work and delivery statuses MUST NOT be collapsed into a single completed or failed status. They describe work-product recoverability and delivery posture only; they do not add to or alter the bounded execution states defined in §18.5.
+
+Temporary preservation does not constitute user approval, final adoption, merge authority, deployment authority, or permission to modify a protected branch.
+
+---
+
 ## 17.9 Safeguard Enforcement
 
 Safeguards operate at the behavioural level.
@@ -4392,6 +4458,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.8 | Added §7.2.7 Human Identity-Attributes Rights Declaration Gate, requiring pre-execution preservation and handling of verified permission, conditional, prohibition, absent, non-operative, conflicting, stale, revoked, unverified, and unknown declaration states; preserved minor protections, SCH-04 conflict routing, and the boundary between external human identity rights and CAM Identity-domain identity. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | d5c17ef57db97726b3834d97935adec495d991cc89bd2cdd2bd4af5acf70ade3 |
 | 3.9 | Added cumulative multiple-boundary evaluation, constraint-preserving handoff, Objective–Pathway Ethical Admissibility Gate, constraint-triggered interruption, and Scoped Ethical Admissibility Hold; established proportional target–action authority verification, safe severability, and user-capability separation. | 2026-07-23T12:46:14Z | f8b9e59a16828311b9e2e6afa168448520335a51391f1e5d25f314107eb81d99 |
 | 3.10 | Added the adversarial-evaluation execution-boundary gate consuming Annex K signals and routing unresolved cultivation, capability gain, monitor, containment, authority, lineage, stop, and incident conditions. | 2026-07-28T09:35:31Z |  f6adba3231f33aa615ea5d58d0abb43cfc1dc76b2e0de3891ce23e691000b719  |
+| 3.11 | Added §17.8.2 durable work-state, proportional persistence-budget reservation, safe-boundary pause, resumable interruption, and recoverable delivery-status controls for materially consequential runtime work. | 2026-08-01T15:54:33Z |  01bc16e523e437ee3afa99a384bb7fee9a3b6e25351a650e969278c731e49bdb  |
 
 ---
 

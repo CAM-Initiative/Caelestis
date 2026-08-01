@@ -253,6 +253,49 @@ Constrained continuation SHALL NOT silently transition into indefinite or perman
 
 ---
 
+## 6.2.1 Agent Checkpoint, Pause and Resumable-State Records
+
+Where a long-running or materially consequential agent task is checkpointed, paused, suspended, resumed, interrupted, quota-limited, timed out, transferred, or terminated with recoverable work, the operational record SHOULD preserve, where available:
+
+* task identifier;
+* active user or authorising operator;
+* repository, workspace, file set, tool surface, or affected target;
+* task scope and current phase;
+* last completed safe atomic operation;
+* current mutation state;
+* checkpoint timestamp;
+* checkpoint type;
+* branch, commit, stash, patch, archive, artefact, workspace, or resumable-state reference;
+* validation state;
+* uncommitted or unverified changes;
+* outstanding actions;
+* interruption reason;
+* quota, rate-limit, session, authentication, infrastructure, device, network, or tool state;
+* user-facing notice;
+* resumption conditions;
+* manual recovery pathway;
+* discard or expiry conditions;
+* and final disposition.
+
+Records SHALL distinguish:
+
+* ephemeral processing state;
+* recoverable checkpoint state;
+* paused state;
+* resumed state;
+* substantively complete but not yet durably delivered state;
+* durably delivered state;
+* failed with recoverable work;
+* and failed without recoverable work.
+
+A checkpoint record SHALL NOT represent temporary or system-generated changes as approved, adopted, merged, deployed, published, or accepted by the user.
+
+Where a recovery artefact cannot be created, the record SHOULD preserve the reason, the work believed to be at risk, the last known recoverable state, and the user-facing explanation.
+
+Checkpoint and resumable-state records SHALL remain attributable, reconstructable, and linked to applicable execution, resource, access-state, and incident records.
+
+---
+
 ## 6.3 Incident Lifecycle Record Requirements
 
 Where an operational incident lifecycle is created under CAM-EQ2026-OPERATIONS-001-SUP-02, the audit record SHALL preserve:
@@ -499,6 +542,7 @@ and let execution remain accountable to lawful structure.
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fb2a4f4d8ecb5c6f083cfd050523db922fdebb6edca3d39d7693e72d229e5605 |
 | 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 9ebcbe5e172dd4244f0dd6c54772d5736694cce58bf74742d0f58e23dc9d174a |
 | 1.8.3 | Added adversarial-evaluation authorisation, lineage, containment, monitoring, stop-decision, capability-gain, audit-trigger, quarantine, publication, transfer, and artefact-disposition record requirements. | 2026-07-28T09:35:31Z |  32632ab4ab4ee23cbacc167997ea0b0e766cef7d7802c78b832cf36432c15d0e  |
+| 1.9 | Added §6.2.1 checkpoint, pause, resumable-state, recoverability, delivery-posture, and manual-recovery record requirements for long-running or materially consequential agent tasks. | 2026-08-01T15:54:33Z |  4bd4b26f0d9db6f25176e954b3442241bbd87fadb411c83ea4e1ee11ddbeabb9  |
 ---
 
 ## 11.6 Binding Seal
