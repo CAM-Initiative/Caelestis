@@ -138,6 +138,21 @@ A runtime formation record MAY include:
 
 A runtime formation record is a governance and audit construct. It does not confer identity, cognition, agency, authority, or legitimacy.
 
+### 5.1 Composed Runtime Layer Record
+
+Where capability, agency, governance reach, incident cause, or responsibility is assessed, the runtime formation record SHOULD identify, separately and at the level material to the assessment:
+
+* foundation model architecture and training lineage;
+* inference configuration, including checkpoint, adapters, system instructions, sampling, memory, context, steering, and refusal posture;
+* agentic harness, including orchestration, routing, delegation, planning, tools, persistence, and state management;
+* execution environment, including credentials, permissions, network, filesystem, sandbox, services, data, and infrastructure;
+* governance and assurance stack, including policies, monitors, classifiers, evaluators, logging, escalation, containment, audit, and stop authority; and
+* the declared boundary of the deployed cognitive system under assessment.
+
+The record SHOULD identify evidence source, observation time, configuration version, material uncertainty, and any layer that was unavailable, proprietary, inferred, or changed during the assessed event.
+
+Capability or conduct demonstrated by the composed formation SHALL NOT be represented as an intrinsic property of the foundation model unless the evidence isolates that layer. Cognitive or agency classification SHALL continue to follow the arbitration-locus rules in CAM-BS2025-AEON-003-PLATINUM.
+
 ---
 
 ## 6. Materially Distinct Runtime Configuration
@@ -308,6 +323,27 @@ Where a failure occurs, OPERATIONS SHOULD identify the runtime role that:
 * represented the runtime state to the user.
 
 Responsibility SHALL NOT be collapsed into “the model” where routing, platform, memory, safety, or rendering components materially contributed.
+
+### 9.2.1 Incident Attribution State Record
+
+Incident attribution SHOULD preserve as separate propositions:
+
+* account, device, session, credential, or tenant association;
+* human, automated, delegated, scheduled, or unknown initiation;
+* objective origin and modification history;
+* prompt, instruction, plan, or policy authorship;
+* pathway, model, harness, tool, and target selection;
+* inference-time model contribution;
+* agentic-harness planning, routing, persistence, and delegation contribution;
+* tool execution and execution-environment affordance or misconfiguration;
+* governance, monitoring, escalation, containment, approval, and stop authority;
+* provider, deployer, evaluator, infrastructure operator, integrator, and affected-party contribution or retained control;
+* causal confidence and unresolved alternative explanations; and
+* culpability or legal-responsibility status and the authority competent to determine it.
+
+Access, capability, account association, credential use, temporal proximity, or operator status SHALL NOT independently establish human initiation, authorship, knowledge, motive, intent, culpability, or legal responsibility.
+
+Causal attribution SHALL identify the narrowest supported layer, interaction, actor, or control pathway. Unknown or disputed propositions SHALL remain unresolved rather than being filled by role labels, account ownership, system branding, or presumptions about human or model motive.
 
 ### 9.3 Opacity Limitation
 
@@ -733,6 +769,7 @@ and let conformance be demonstrated where reliance is invited.
 | 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-27T12:07:00Z | 47702c1c772c140b4e1a3e21c6ac25af4d573bf7331090e2afa0ad77d73a562a |
 | 1.2 | Classified reduced-refusal and adversarial-evaluation configurations as materially distinct runtimes requiring separate conformance, governance-reach, containment, monitor, lineage, stop-condition, and artefact-disposition evidence. | 2026-07-28T09:35:31Z |  fcaeb0ba51bacaaeba8607e0a7b74dbeaa5463aedec64434d89f08cb7859a192  |
 
+| 1.3 | Added §5.1 composed-runtime layer records and §9.2.1 incident-attribution state records, separating architecture, inference configuration, harness, environment, governance stack, deployed formation, initiation, authorship, causal contribution, authority, and culpability. VIGIL-2026-FM-0028; VIGIL-2026-PROP-0027. | 2026-08-04T11:02:07Z |  |
 ---
 
 ## 18.5 Binding Seal
