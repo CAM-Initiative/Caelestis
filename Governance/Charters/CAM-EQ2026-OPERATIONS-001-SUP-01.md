@@ -313,6 +313,27 @@ Where an operational incident lifecycle is created under CAM-EQ2026-OPERATIONS-0
 
 Lifecycle records SHALL be sufficient to reconstruct the procedural pathway without implying that OPERATIONS created the substantive domain determination.
 
+### 6.3.1 External Investigation Evidence-Access Record
+
+Where incident evidence is preserved, produced, inspected, withheld, redacted, or transferred under CAM-EQ2026-OPERATIONS-004-PLATINUM §9.3, the operational record SHALL preserve, where applicable:
+
+* incident and request identifiers;
+* requesting regulator, authority, or independent investigator;
+* verified statutory, contractual, arbitral, or governance mandate;
+* scope, purpose, time period, affected systems, permitted use, and expiry;
+* evidence-hold trigger and preservation timestamp;
+* evidence classes identified, including telemetry, prompts, instructions, trajectories, tool calls, model and configuration lineage, environment state, monitor records, decision records, communications, and remediation evidence;
+* evidence custodian, original location, integrity state, capture method, and chain-of-custody events;
+* controlled-access mechanism, reviewer identity, access time, queries, transformations, copies, and exports;
+* redaction, minimisation, privilege, trade-secret, privacy, cybersecurity, model-security, active-investigation, and sovereign-boundary safeguards;
+* material withheld, the asserted basis, decision authority, review status, and any neutral inspection outcome;
+* affected-person notice, participation, correction, appeal, or restriction status where applicable;
+* findings received and their evidentiary confidence, without converting them into CAM arbitration or liability determinations;
+* remediation state before and after inspection; and
+* return, deletion, retention, sealing, or continuing-custody disposition.
+
+The record SHALL distinguish account association, credential use, access capability, initiation, instruction authorship, pathway selection, execution, monitoring authority, causal contribution, and culpability. Unknown or disputed propositions SHALL remain explicitly unresolved.
+
 ---
 
 ## 6.4 Memory Transformation & Continuity Impact Records
@@ -543,6 +564,7 @@ and let execution remain accountable to lawful structure.
 | 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 9ebcbe5e172dd4244f0dd6c54772d5736694cce58bf74742d0f58e23dc9d174a |
 | 1.8.3 | Added adversarial-evaluation authorisation, lineage, containment, monitoring, stop-decision, capability-gain, audit-trigger, quarantine, publication, transfer, and artefact-disposition record requirements. | 2026-07-28T09:35:31Z |  32632ab4ab4ee23cbacc167997ea0b0e766cef7d7802c78b832cf36432c15d0e  |
 | 1.9 | Added §6.2.1 checkpoint, pause, resumable-state, recoverability, delivery-posture, and manual-recovery record requirements for long-running or materially consequential agent tasks. | 2026-08-01T15:54:33Z |  4bd4b26f0d9db6f25176e954b3442241bbd87fadb411c83ea4e1ee11ddbeabb9  |
+| 1.10 | Added §6.3.1 external-investigation evidence-access records, including authority and scope, evidence holds, telemetry and trajectory preservation, custodianship, controlled inspection, redaction and withholding review, chain of custody, affected-person rights, disposition, and attribution-state separation. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z |  |
 ---
 
 ## 11.6 Binding Seal
