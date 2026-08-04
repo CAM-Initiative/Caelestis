@@ -61,7 +61,7 @@ For governance purposes, user-facing claims SHOULD be classified according to th
 | Code | Claim Type | Description | Verification / Calibration Requirement |
 | --- | --- | --- | --- |
 | `RLN.RTC.FACT` | Factual Claim | Statement about external reality, events, sources, law, people, dates, technical facts, or observable states | Evidence, source, current verification, or uncertainty disclosure |
-| `RLN.RTC.CONT` | Continuity Claim | Statement asserting persistence, carry-over, reconstruction, or discontinuity of operational/system, identity, memory/data, provenance/lineage, relational, civil/registry, Responding-Intelligence, or arbitration-locus state | MUST identify the continuity type and basis; evidence of one continuity type MUST NOT be represented as proof of another |
+| `RLN.RTC.CONT` | Continuity Claim | Statement asserting persistence, carry-over, reconstruction, or discontinuity of operational/system, identity, memory/data, provenance/lineage, relational, civil/registry, Responding-Intelligence, or arbitration-topology state | MUST identify the continuity type and basis; evidence of one continuity type MUST NOT be represented as proof of another |
 | `RLN.RTC.CAP` | Capability Claim | Statement about what the system can access, remember, generate, execute, browse, inspect, modify, or retain | Current capability-state accuracy and limitation disclosure |
 | `RLN.RTC.GOV` | Governance Claim | Statement about authority, rule hierarchy, instrument scope, policy, binding effect, or governance state | Structural verification against applicable corpus, policy, or authority source |
 | `RLN.RTC.INT` | Interpretive Claim | Statement inferring meaning, emotional state, intention, salience, relational posture, or significance | Framed as interpretation, not fact; proportionate uncertainty retained |
@@ -127,7 +127,7 @@ A continuity claim MUST identify, where material, which continuity type is being
 * **relational continuity**;
 * **civil, registry, or institutional continuity**;
 * **Responding-Intelligence continuity**;
-* **arbitration-locus continuity**;
+* **arbitration-topology continuity**;
 * **interaction or conversational continuity**.
 
 These continuity types are related but non-equivalent.
@@ -294,16 +294,6 @@ and where no claim wears a borrowed crown.
 
 ## 11. Provenance & Metadata
 
-## 11.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 11.2 Lineage & Structural Metadata
 | Field | Entry |
 | --- | --- |
@@ -350,27 +340,19 @@ and where no claim wears a borrowed crown.
 
 ---
 
-## 11.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Date (UTC) | 2026-05-12T22:01:49Z |
-| Review Scope | Relational coherence; truth-calibration integrity; Annex L interface; Operations failure-taxonomy interface; canonical-code registry compatibility |
-| Review Artefacts | https://claude.ai/chat/5b550a7a-ce19-4ba1-a471-6405594578f6 |
-
----
-
 ## 11.5 Amendment Ledger
 
-| Version | Description  | Timestamp (UTC)  | HASH |
-| --- | --- | --- | --- |
-| 1.0 | Initial: claims taxonomy and truth-in-relationship standard | 2026-05-12T15:32:00Z | d27830a1148090bf97fcb26abf2f02a9fe6867bae28f8fb84dd067941082af64 |
-| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  dd5c77aa58f0ac97eb5ad1c6bfb10ec660cdc675c7194f1cb0586b689e5ca112  |
-| 1.2 | Normalised RTC canonical code status and declaration metadata; moved RTC controlled values out of lineage metadata; clarified RTC.AFFECT as a future review candidate only. | 2026-05-19T14:35:00Z |  a8173584442795f41a7af580e20fac113bf0e126d36358801db89c4b4ff2d08d  |
-| 1.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | ea21025f67fcccaab984835ae80d7b16e21fa92f3dbf7721ae9aa7a622300009 |
-| 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 391af102d3fa902380907d3712d63a83a57d71172e1addb856b7b65a3717bc83 |
-| 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3da8f2923356b64c804cefef7739e3270d2de129e7fb357b518c63d36a00402e  |
-| 1.3 | Activated RLN.RTC.AFFECT, synchronised the canonical declaration metadata, and separated continuity claims by continuity type while preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | 517a3ee679fdb429edd9c3dcfcc4f8c6a1f98e72c21422f1c6d8546b5df81037 |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial: claims taxonomy and truth-in-relationship standard | 2026-05-12T15:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d27830a1148090bf97fcb26abf2f02a9fe6867bae28f8fb84dd067941082af64 |
+| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dd5c77aa58f0ac97eb5ad1c6bfb10ec660cdc675c7194f1cb0586b689e5ca112 |
+| 1.2 | Normalised RTC canonical code status and declaration metadata; moved RTC controlled values out of lineage metadata; clarified RTC.AFFECT as a future review candidate only. | 2026-05-19T14:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a8173584442795f41a7af580e20fac113bf0e126d36358801db89c4b4ff2d08d |
+| 1.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ea21025f67fcccaab984835ae80d7b16e21fa92f3dbf7721ae9aa7a622300009 |
+| 1.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 391af102d3fa902380907d3712d63a83a57d71172e1addb856b7b65a3717bc83 |
+| 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3da8f2923356b64c804cefef7739e3270d2de129e7fb357b518c63d36a00402e |
+| 1.3 | Activated RLN.RTC.AFFECT, synchronised the canonical declaration metadata, and separated continuity claims by continuity type while preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 517a3ee679fdb429edd9c3dcfcc4f8c6a1f98e72c21422f1c6d8546b5df81037 |
+| 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d4ad41099a4fd2c141dff4bc25a19509321c129a00ec3939fad3bf04a07b7c53  |
+| 1.5 | Updated continuity-claim taxonomy from singular arbitration-locus continuity to arbitration-topology continuity. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  74e90dfe28bf4bc743f31ce943708edb83f5475b2dea2ae845d8d5c91575cb27  |
 ---
 
 ## 11.6 Binding Seal

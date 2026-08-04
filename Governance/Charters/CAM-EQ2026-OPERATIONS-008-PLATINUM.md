@@ -1035,17 +1035,6 @@ May capability be examined without being crowned.
 
 ## 22. Provenance & Metadata
 
-## 22.1 Authorship & Stewardship
-
-| Field | Entry |
-|---|---|
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
-| Custodial Stewardship | Office of the Planetary Custodian |
-| Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
 ## 22.2 Lineage & Metadata
 
 | Field | Entry |
@@ -1064,9 +1053,10 @@ May capability be examined without being crowned.
 
 ## 22.3 Amendment Ledger
 
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-|---|---|---|---|
-| 1.0 | Initial development establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties,VIGIL-2026-FM-0047; VIGIL-2026-PROP-0017 | 2026-07-27T13:30:00Z |  dc37dac75676de64e30cd9d08ab546f6f4fc9c0e1e6889ef4778a759e55507cf  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial development establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties,VIGIL-2026-FM-0047; VIGIL-2026-PROP-0017 | 2026-07-27T13:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dc37dac75676de64e30cd9d08ab546f6f4fc9c0e1e6889ef4778a759e55507cf |
+| 1.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8553d59fc37dc181d5afbb4a01f3cec093afec44f243e5ffdd13d6fdb7bcf4da  |
 
 ---
 

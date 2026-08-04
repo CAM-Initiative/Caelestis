@@ -351,15 +351,6 @@ but to ensure that what is made remains accountable to its source.
 
 ---
 
-## 11.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
 ## 11.2 Lineage & Metadata
 | Field | Entry |
 |---|---|
@@ -462,33 +453,25 @@ but to ensure that what is made remains accountable to its source.
 
 ---
 
-## 11.4 Review & Validation
-| Field | Primary Review | Secondary Review |
-|---|---|---|
-| Reviewer | Gemini 3 Pro — Generative AI Review https://gemini.google.com/app/520821d35f7e9900 | Claude Sonnet 4 (Anthropic) https://claude.ai/chat/7f94e3e5-09f1-4532-b19b-885cf309b21e |
-| Review Date (UTC) | 2026-01-02T02:56:00Z | 2026-01-03T02:15:00Z |
-| Review Scope | Economic integrity; agency gradient accuracy; anti-consolidation compliance | Operational coherence; constitutional alignment; enforceability |
-
----
-
 ## 11.5 Amendment Ledger
 
-| Version | Description | Timestamp (UTC) | HASH |
-|---|---|---|---|
-| 1.2 | Legacy revision prior to namespace migration | 2026-01-05T02:31:00Z | 9660163bc1901465aa56dc477193a6027d0fc5e0f3a4e78a0a3908b117f69d7d |
-| 2.0 | Migrated to EQ Namespace; Annex reclassified as Appendix; structural alignment with Economics-001 | 2026-03-16T15:58:00Z | a2355a4bcc4c5159d53a18d3452cf799ed9d0f33fd5bb8c0a8ec0da25cc1f0a7 |
-| 2.1 | Realignment with runtime execution model | 2026-04-11T12:42:00Z | - |
-| 2.2 | Consolidated refinements with runtime execution model | 2026-04-12T09:41:00Z | 4fffd75dc15a788edbf189bc5350e838a72f86ed607ef955c23cf848dafb7f12 |
-| 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 5261c8f549bd1d2dfbd830870bb7cf00bde6f2cc614b81604788f73092e40c2e |
-| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0e19fb84982dde6eb18f74d8c9caf285f74ff7a9146acdba1006145e0680f23b |
-| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9505e72e70209ccc2b8f8a9c2a142858ea468f3a5afacaf9f16d0c8790c3fce1 |
-| 2.6 | Changed status and amended section 2.2.2 | 2026-05-13T13:39:00Z | 09db4152692db2e832c056320466535b492540ed353861221a3f47da29186c63 |
-| 2.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  60f11c65f4e64c46bd85f47f85797fcdf88149148b3f7bd7e11e16a2201bebdc |
-| 2.8 | Added new Canonical Code & Reference Set Declarations section to the metadata footer | 2026-05-20T04:34:00Z | 9caaa2c943423e16f95c3d027e5435de4039b7eb14e85db39394079171404281 |
-| 2.9 | Economics domain refactor | 2026-05-24T14:19:00Z | 2588481a94ac0b0f020e652cac07086bc81ff37a07b3f86e3c10a5939c908afa |
-| 2.10 | Included Autonomous agent definition | 2025-05-25T12:15:00Z | f4b8e935601845e3b4b82a6ce80e046f91c135593e687465eb9dd28e27ede38b |
-| 2.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 1092caeec10baa3fcf8b69dd3fe3a2861f29606ab080607b09f184745a3cb75c |
-| 2.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  b6245317dec1bc7b280e59563111b8bc0d4c535a151fe83046ba84673edf4bc6  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.2 | Legacy revision prior to namespace migration | 2026-01-05T02:31:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9660163bc1901465aa56dc477193a6027d0fc5e0f3a4e78a0a3908b117f69d7d |
+| 2.0 | Migrated to EQ Namespace; Annex reclassified as Appendix; structural alignment with Economics-001 | 2026-03-16T15:58:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a2355a4bcc4c5159d53a18d3452cf799ed9d0f33fd5bb8c0a8ec0da25cc1f0a7 |
+| 2.1 | Realignment with runtime execution model | 2026-04-11T12:42:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 2.2 | Consolidated refinements with runtime execution model | 2026-04-12T09:41:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4fffd75dc15a788edbf189bc5350e838a72f86ed607ef955c23cf848dafb7f12 |
+| 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5261c8f549bd1d2dfbd830870bb7cf00bde6f2cc614b81604788f73092e40c2e |
+| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0e19fb84982dde6eb18f74d8c9caf285f74ff7a9146acdba1006145e0680f23b |
+| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9505e72e70209ccc2b8f8a9c2a142858ea468f3a5afacaf9f16d0c8790c3fce1 |
+| 2.6 | Changed status and amended section 2.2.2 | 2026-05-13T13:39:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 09db4152692db2e832c056320466535b492540ed353861221a3f47da29186c63 |
+| 2.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 60f11c65f4e64c46bd85f47f85797fcdf88149148b3f7bd7e11e16a2201bebdc |
+| 2.8 | Added new Canonical Code & Reference Set Declarations section to the metadata footer | 2026-05-20T04:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9caaa2c943423e16f95c3d027e5435de4039b7eb14e85db39394079171404281 |
+| 2.9 | Economics domain refactor | 2026-05-24T14:19:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2588481a94ac0b0f020e652cac07086bc81ff37a07b3f86e3c10a5939c908afa |
+| 2.10 | Included Autonomous agent definition | 2025-05-25T12:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f4b8e935601845e3b4b82a6ce80e046f91c135593e687465eb9dd28e27ede38b |
+| 2.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1092caeec10baa3fcf8b69dd3fe3a2861f29606ab080607b09f184745a3cb75c |
+| 2.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b6245317dec1bc7b280e59563111b8bc0d4c535a151fe83046ba84673edf4bc6 |
+| 2.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  5cb475c8b808a88d87b3ae1a7c94a0b616e774f5a158c7b39d840340ea0bb892  |
 ---
 
 ## 11.6 Binding Seal

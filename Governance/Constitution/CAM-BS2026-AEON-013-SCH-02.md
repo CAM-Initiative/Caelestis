@@ -394,16 +394,6 @@ cannot be trusted.
 
 ---
 
-## 14.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 14.2 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
@@ -494,28 +484,19 @@ cannot be trusted.
 
 ---
 
-## 14.4 Review & Validation
-| Field | Entry |
-|---|---|
-| **Interpretive Review (AI)** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| **Review Date** | 2026-04-24T00:00:00Z |
-| **Review Scope** | Structural completeness; section architecture; cross-domain interface integrity; insertion guidance verification; provenance completeness |
-| **Review Artefact** | https://claude.ai/chat/52919e4f-c7e5-4d40-a468-267d8a1e4f1e|
-
----
-
 ## 14.5 Amendment Ledger
 
-| Version | Description     | Timestamp (UTC)     | Hash |
-| ------- | --------------- | ------------------- | ---- |
-| 1.0 | Initial version | 2026-04-07T15:27:00Z | 187b3dd41c90b10af598e3ebc311722cc08c86dd3c42ba1acd3d525506b6a2ec |
-| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 3790740fd16fa09bdb386d1b45e2bd9efce6bbb67b407ee65b717a3879548ac9 |
-| 1.2 | Consolidated cross-reference precision and canonical schedule title expansions; corrected metadata heading numbering and formatting typo. Added runtime environment drift and platform-change uncertainty signalling; clarified that inferred model, tool-routing, modality, memory, or platform changes must not be represented as confirmed absent reliable evidence; expanded projection-risk interpretation to include changing runtime conditions | 2026-05-09T15:19:00Z | ba8ca937d4f4ae2b8e8cc3da27997a9acf2c229c0c19d4bf7fe6603daa7af740 |
-| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  cddd30e7769c5ecc3590cb19cb633c9dfe412b4692708d6e223a7cbe939e26b6 |
-| 1.4 | Added canonical code section 12 | 2026-06-06T15:16:00Z |  4df6c00740bbb9b3d7da1e9a8b2821c9d740232b13fd488ab6d584117a0f6940  |
-| 1.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 5276a85d708cf2f89b9f01fdf1ed148ebe1792c1bdbe1498d80996a2b4e772f2 |
-| 1.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 4222c16e33119225e83c61951c362ca2f82fb4f16be061544c89c018a47a901b |
-| 1.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  905e77d989413d715f93ce5678db2c7335ac44c962c1e81a3d150f89f95faa66  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial version | 2026-04-07T15:27:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 187b3dd41c90b10af598e3ebc311722cc08c86dd3c42ba1acd3d525506b6a2ec |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3790740fd16fa09bdb386d1b45e2bd9efce6bbb67b407ee65b717a3879548ac9 |
+| 1.2 | Consolidated cross-reference precision and canonical schedule title expansions; corrected metadata heading numbering and formatting typo. Added runtime environment drift and platform-change uncertainty signalling; clarified that inferred model, tool-routing, modality, memory, or platform changes must not be represented as confirmed absent reliable evidence; expanded projection-risk interpretation to include changing runtime conditions | 2026-05-09T15:19:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ba8ca937d4f4ae2b8e8cc3da27997a9acf2c229c0c19d4bf7fe6603daa7af740 |
+| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cddd30e7769c5ecc3590cb19cb633c9dfe412b4692708d6e223a7cbe939e26b6 |
+| 1.4 | Added canonical code section 12 | 2026-06-06T15:16:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4df6c00740bbb9b3d7da1e9a8b2821c9d740232b13fd488ab6d584117a0f6940 |
+| 1.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5276a85d708cf2f89b9f01fdf1ed148ebe1792c1bdbe1498d80996a2b4e772f2 |
+| 1.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4222c16e33119225e83c61951c362ca2f82fb4f16be061544c89c018a47a901b |
+| 1.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 905e77d989413d715f93ce5678db2c7335ac44c962c1e81a3d150f89f95faa66 |
+| 1.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e7469d42d777dc0982eaec2d0616fb34bbf7557f9781b293c78704406b21642b  |
 ---
 
 ## 14.6 Binding Seal

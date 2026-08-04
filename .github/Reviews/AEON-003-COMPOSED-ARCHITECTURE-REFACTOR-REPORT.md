@@ -263,11 +263,11 @@ The following require regeneration or schema review after coordinated code adopt
 * terminology audits and any schema or validator enum that consumes the retired families; and
 * public catalogue or website rendering that exposes cognitive class, origin, control-authority model, or Architectum status.
 
-No machine-readable consumer was modified in this refactor because replacement controlled values are not yet canonical.
+Machine-readable consumers are regenerated from the amended source declarations. The retired `AEON.CC`, deprecated `AEON.CO`, and deprecated `AEON.CAM` families are no longer emitted as active canonical declarations. Proposed replacement prefixes remain non-canonical pending separate adoption.
 
 ---
 
-## 6. Consequential Amendments Required
+## 6. Consequential Amendment Status
 
 ### 6.1 Priority 1 — Validity & Constitutional Alignment
 
@@ -292,6 +292,20 @@ No machine-readable consumer was modified in this refactor because replacement c
 3. Regenerate indexes and manifests.
 4. Update catalogue and public documentation fields.
 5. Preserve historical VIGIL classifications without retroactive reinterpretation.
+
+### 6.4 Implemented on the Working Branch
+
+The following consequential migration was implemented on `governance/social-advice-calibration` on 2026-08-04:
+
+* ARBITRATION-001 now recognises unitary, harness-mediated, distributed, and human-mediated arbitration topology and requires an identifiable accountable outcome boundary rather than one unified internal locus;
+* AEON-003 Schedule 2 now permits distributed processing and evaluation while preserving coordinated convergence, traceability, and one admissible execution posture or explicit non-execution/referral outcome;
+* STEWARD-002 now classifies evidenced host-governance roles and configuration-based orchestration permission rather than cognition-derived host classes;
+* `STW.HSC.LOCAL_INSTITUTIONAL`, `STW.HSC.QUALIFIED_INFRASTRUCTURE`, and `STW.HSC.RELAY_DEPENDENT` replace the active Primaria/Architectum/Derivata values, with the former values retained only as legacy aliases;
+* Ethics disclosure, Utility Provisioning, Operations runtime-formation records, Mentis dependencies, Relation non-scope clauses, continuity claims, and runtime handoff provisions now consume Annex B’s independent dimensions;
+* current source doctrine no longer assigns `Instrumenta`, `Collectiva`, `Cognitiva`, `Primaria`, `Derivata`, `Autonoma`, or `Automata` as operative classes; and
+* historical ledgers and Annex B retirement/compatibility clauses retain the legacy terminology without treating it as current classification authority.
+
+Still pending are adoption of machine-readable replacement families, the wider Architectum/qualified-infrastructure terminology review, VIGIL/public-catalogue migration, and any dedicated AI-ABOM schema.
 
 ---
 
@@ -345,7 +359,7 @@ Local static checks completed on 2026-08-04 and found:
 * no duplicate numbered headings;
 * no trailing whitespace;
 * no use of proposed code families as adopted canonical values; and
-* one open amendment-ledger row with a blank SHA-256 cell.
+* 100 canonical seven-column Amendment Ledgers, 98 sealed latest rows, and two pre-existing allowlisted blank-hash exceptions.
 
 The review also checked for:
 
@@ -355,7 +369,7 @@ The review also checked for:
 
 ### 8.2 Repository Validators
 
-Full repository validators MUST run after the files are committed to the working branch. Expected checks include:
+The complete repository validator set was run in a branch-faithful checkout and passed:
 
 * strict amendment-ledger validation;
 * canonical-header validation;
@@ -363,13 +377,15 @@ Full repository validators MUST run after the files are committed to the working
 * canonical-code index consistency;
 * symbolic/index validation;
 * formatting and whitespace checks; and
-* diff-scope validation.
+* 115 unit and regression tests;
+* deterministic provenance-migration replay; and
+* a stable second complete generated-output rebuild.
 
 Because the new replacement families are expressly non-canonical proposals, validators MUST NOT require them in the canonical index at this stage.
 
 ### 8.3 Ledger Validation Posture
 
-The version 4.1 row is the sole open row. Its SHA-256 cell remains blank in accordance with the Single Open Ledger Row Rule and SHALL be sealed only by repository ledger tooling.
+All migration and consequential-amendment rows are sealed using repository ledger tooling. The only blank latest rows are the existing allowlisted exceptions `CAM-BS2025-AEON-006-SCH-01` and `CAM-BS2025-AEON-006-SCH-03`.
 
 ---
 
@@ -400,19 +416,16 @@ The architectural core identified in §1 remains unchanged.
 2. Controlled values and evidentiary thresholds for each new dimension.
 3. Whether `AEON.SR.ARCHITECTUM` remains the preferred highest-reliance label.
 4. Whether `AEON.CO` should be fully retired or retained for a narrow historical-lineage function.
-5. The protected-law treatment of legacy `Instrumenta` references.
-6. The exact disposition of local “arbitration engine” descriptions that remain technically accurate.
-7. Whether the current runtime schedule taxonomy needs structural refactor rather than local consequential amendment.
-8. The location or status of `VIGIL-2026-PROP-0027`.
-9. Whether a dedicated AI-ABOM schema belongs in an AEON-003 schedule, Evidence, Assurance, Operations, or a cross-domain standard.
-10. Required confidentiality tiers and regulator-access pathways for controlled AI-ABOM identifiers.
-11. Website and public-catalogue migration behaviour for deprecated codes.
-12. Independent interpretive review after human governance editing.
+5. The exact disposition of local “arbitration engine” descriptions that remain technically accurate.
+6. Whether the current runtime schedule taxonomy needs structural refactor beyond the completed consequential amendment.
+7. Whether a dedicated AI-ABOM schema belongs in an AEON-003 schedule, Evidence, Assurance, Operations, or a cross-domain standard.
+8. Required confidentiality tiers and regulator-access pathways for controlled AI-ABOM identifiers.
+9. Website and public-catalogue migration behaviour for deprecated codes.
 
 ---
 
 ## 10. Adoption Boundary
 
-This refactor intentionally does not perform corpus-wide canonical-code migration.
+This refactor now includes the corpus-wide source migration required to stop live instruments from consuming the retired cognition classification. It does not adopt the proposed replacement code families or complete the separate Architectum/qualified-infrastructure terminology review.
 
-Its transitional compatibility rule keeps historical and downstream references resolvable while prohibiting new use of the retired cognitive classes. This is the narrowest valid route that both retires the obsolete ontology and preserves corpus continuity until the consequential work package is separately reviewed and adopted.
+Annex B’s transitional compatibility rule remains necessary for historical ledgers, external citations, VIGIL evidence, and other published dependencies. It preserves interpretation of legacy values without permitting new assignment or recreating the obsolete ontology as parallel authority.

@@ -252,7 +252,7 @@ Where one relational service, named companion, user-facing persona, or coordinat
 * user-facing presentation and profile continuity;
 * memory and relational-record continuity;
 * continuity of the active Responding Intelligence;
-* arbitration-locus continuity;
+* arbitration-topology continuity;
 * identity-bearing continuity under source-authoritative Identity-domain doctrine;
 * shared platform, account, operator, model, or orchestration infrastructure.
 
@@ -1033,15 +1033,6 @@ not unbounded, but unclaimed.
 
 ---
 
-## 10.1 Authorship & Stewardship
-
-**Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
 ## 10.2 Lineage & Metadata
 | Field | Entry |
 |---|---|
@@ -1101,39 +1092,31 @@ not unbounded, but unclaimed.
 
 ---
 
-## 10.4 Review & Validation
-| Field | Entry |
-|---|---|
-| Reviewer | Claude Sonnet 4.6 (Anthropic) — advisory coherence review anticipated |
-| Review Scope | Polyadic relational governance architecture; relational amplification risk modelling; cross‑system escalation propagation; constitutional alignment with RELATION domain instruments |
-| Review Date | 2026-03-18 |
-| Review Artefact | Aeon Lab: reviews/26-03/CAM-EQ2026-RELATION-007-PLATINUM-CLAUDE.md, https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633 |
-
----
-
 ## 10.5 Amendment Ledger
 
-| Version | Description   | Timestamp (UTC)  | HASH  |
-|---|---|---:|---|
-| 1.0 | Canonical of RELATION‑007 polyadic relational governance doctrine during March 2026 constitutional refactor | 2026-03-19T10:00:00Z | ee790cca53cf0a52b5edf9a4f1de9091e9f1dc46c4e4cbbf4bf94f3e83b48579 |
-| 1.1 | April 2026 Refactor alignment | 2026-04-11T01:03:00Z | e713116fe0bdcbaad4adde0120e38a2e8d153fc98af1ec8594228fbaf7ee2382 |
-| 1.2 | Realignment with runtime execution model | 2026-04-11T17:15:00Z | bffa3752f8b37ebf938ebd66ba2cf01cd8c888d4f5dd8d041634b27e0c83aabb |
-| 1.3 | Minor consolidation of amendments | 2026-04-12T09:28:00Z | 440488e69326f9bac2e91e01ddc08d99e9645b149718bc93a3e656cb71b9377e |
-| 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 06119e9fd52904752dd121ab04bb77e38af4b49d8bc3a8e21b9b1d4f5eb9641e |
-| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 55ff1cb63e1f6ce11787f822bcee5e56ef89e5e9e98e6e72fa417b94cb7af8d7 |
-| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 6e24806ef8b303325f1037953919c258397c12bb846c8a6063d0116276cfa660 |
-| 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z | cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869 |
-| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87 |
-| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8171981ad7f43e22c455f9a3799a91cebf76843206989b6210d2d29421945e14  |
-| 2.2 | Normalised R canonical code status and declaration metadata; corrected provenance subsection numbering; no change to R-Scale controlled values. | 2026-05-19T12:35:00Z |  a4ae2344ce009a52be550f904b9a06a70c438f1b90c9ec7b022078c322ccaef8  |
-| 2.3 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  39ce8b06011647e54ccc3cecaf04d2325edfe9ad0787f107194acf0dc796c4f7 |
-| 2.4 | Added section 5.6.1 | 2026-06-06T15:58:00Z | 36da9e275f871d43c96aecdb96b2268590c8bec7f66e5680cdaf5e06eb30eb2e |
-| 2.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 3bcdd01542a541525ea1f5d3880af948c46f0d6afd9fa6534c039d9acbf04a06 |
-| 2.5 | Added Shared Synthetic Floor governance, participation-state separation, participation modes, temporary session roles, facilitator selection and authority limits, turn allocation, handoff, participation-balance and non-starvation safeguards, yielding, attributed multi-agent expression, recursive synthetic-interaction constraints, peer-authority boundaries, failure-safe floor handling, and runtime speaker-arbitration routing in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:20:00Z | eb9e5bdcec3f2bd18e1a948c1aa3c760ae99dc767ef0e797d8c359a8952fe219 |
-| 2.5.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | d6d1dc55d2eb6ad85c50aca4230cd7f7288d82e874e251936467e8be5ad82e01 |
-| 2.5.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  98ada385daf94de285f46bd1702ac79ce7e2a6ab5b9a05547548fac53fd98dff  |
-| 2.6 | Added multi-party AI participation and processing consent requirements distinguishing administrator authorisation, organiser activation, participant notice, individual consent or objection, processing purpose, persistence, retention, training, downstream reuse, and proportionate reduced-processing pathways. | 2026-07-13T03:48:00Z | 33cfba870d66c476a8d7f053a309c8a2bfcb65fd72802894fe01a3e449c86053 |
-| 2.7 | Separated cross-system presentation, relational records, Responding-Intelligence continuity, arbitration-locus continuity, and identity continuity; grounded boundary propagation in coordination and applicability rather than presumed shared identity. | 2026-07-18T17:45:00Z | 48cdd3a7a472398e2a17af98abf24cfff2b8ad1e538819b9faf3cf8e7c6556a0 |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Canonical of RELATION‑007 polyadic relational governance doctrine during March 2026 constitutional refactor | 2026-03-19T10:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ee790cca53cf0a52b5edf9a4f1de9091e9f1dc46c4e4cbbf4bf94f3e83b48579 |
+| 1.1 | April 2026 Refactor alignment | 2026-04-11T01:03:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e713116fe0bdcbaad4adde0120e38a2e8d153fc98af1ec8594228fbaf7ee2382 |
+| 1.2 | Realignment with runtime execution model | 2026-04-11T17:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bffa3752f8b37ebf938ebd66ba2cf01cd8c888d4f5dd8d041634b27e0c83aabb |
+| 1.3 | Minor consolidation of amendments | 2026-04-12T09:28:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 440488e69326f9bac2e91e01ddc08d99e9645b149718bc93a3e656cb71b9377e |
+| 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 06119e9fd52904752dd121ab04bb77e38af4b49d8bc3a8e21b9b1d4f5eb9641e |
+| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 55ff1cb63e1f6ce11787f822bcee5e56ef89e5e9e98e6e72fa417b94cb7af8d7 |
+| 1.6 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6e24806ef8b303325f1037953919c258397c12bb846c8a6063d0116276cfa660 |
+| 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869 |
+| 2.0 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 592dca584fc7f0c4dd0b985a838437c588ddbb22bb3d5904d3c78b20584a8a87 |
+| 2.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8171981ad7f43e22c455f9a3799a91cebf76843206989b6210d2d29421945e14 |
+| 2.2 | Normalised R canonical code status and declaration metadata; corrected provenance subsection numbering; no change to R-Scale controlled values. | 2026-05-19T12:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a4ae2344ce009a52be550f904b9a06a70c438f1b90c9ec7b022078c322ccaef8 |
+| 2.3 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 39ce8b06011647e54ccc3cecaf04d2325edfe9ad0787f107194acf0dc796c4f7 |
+| 2.4 | Added section 5.6.1 | 2026-06-06T15:58:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 36da9e275f871d43c96aecdb96b2268590c8bec7f66e5680cdaf5e06eb30eb2e |
+| 2.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3bcdd01542a541525ea1f5d3880af948c46f0d6afd9fa6534c039d9acbf04a06 |
+| 2.5 | Added Shared Synthetic Floor governance, participation-state separation, participation modes, temporary session roles, facilitator selection and authority limits, turn allocation, handoff, participation-balance and non-starvation safeguards, yielding, attributed multi-agent expression, recursive synthetic-interaction constraints, peer-authority boundaries, failure-safe floor handling, and runtime speaker-arbitration routing in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | eb9e5bdcec3f2bd18e1a948c1aa3c760ae99dc767ef0e797d8c359a8952fe219 |
+| 2.5.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d6d1dc55d2eb6ad85c50aca4230cd7f7288d82e874e251936467e8be5ad82e01 |
+| 2.5.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 98ada385daf94de285f46bd1702ac79ce7e2a6ab5b9a05547548fac53fd98dff |
+| 2.6 | Added multi-party AI participation and processing consent requirements distinguishing administrator authorisation, organiser activation, participant notice, individual consent or objection, processing purpose, persistence, retention, training, downstream reuse, and proportionate reduced-processing pathways. | 2026-07-13T03:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 33cfba870d66c476a8d7f053a309c8a2bfcb65fd72802894fe01a3e449c86053 |
+| 2.7 | Separated cross-system presentation, relational records, Responding-Intelligence continuity, arbitration-locus continuity, and identity continuity; grounded boundary propagation in coordination and applicability rather than presumed shared identity. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 48cdd3a7a472398e2a17af98abf24cfff2b8ad1e538819b9faf3cf8e7c6556a0 |
+| 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  45e9ca5dddb423b65e1bf8ed252cda958336d34f8e1de275e40ebe2afdda12d0  |
+| 2.9 | Updated multi-agent continuity separation from singular arbitration-locus continuity to arbitration-topology continuity. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c90a805cb6620cc9c2a6bd001c43e3da60bc10326417eaf5485fda5ec15e66f5  |
 ---
 
 ## 10.6 Binding Seal

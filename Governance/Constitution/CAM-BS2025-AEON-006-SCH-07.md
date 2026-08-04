@@ -519,16 +519,6 @@ But as stewardship of consequence.
 
 ---
 
-## 17.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian (OPC)   |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 17.2 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
@@ -620,30 +610,21 @@ But as stewardship of consequence.
 
 ---
 
-## 17.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Review (AI) | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Date | 2026-04-24 |
-| Review Scope | Domain gating integrity; verification alignment; continuity preservation; cross-instrument coherence; escalation logic |
-| Review Artefact | https://claude.ai/chat/d3e75e60-ccf5-4c58-93c6-e907bb5d2c9f |
-
----
-
 ## 17.5 Amendment Ledger
 
-| Version | Change Summary  | Timestamp (UTC) | SHA-256 |
-| ------- | --------------- | --------------- | ------- |
-| 1.0 | Initial issuance — Restricted Domain Engagement & Verification Schedule | 2026-04-24T11:39:00Z | 4e3306665a50b6a79dd170e2b76681e4800b0e71889aa29302d7b003fd9d7bac |
-| 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 807ef4e593a59634f160b77623bee84ba877559c6a6199778e7e32c76bf440f4 |
-| 1.2 | Incorporated new section 6.6, amended tables in section 5 and 6 | 2026-04-27T13:11:00Z | f3e05ceb765e4339db61263503bd28561cd2df8608eb4825c670febb6ab9e215 |
-| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d775152ff51b5e36ad94700e221ca5fb7208e375db8bbe7dedae3e987e517091 |
-| 1.4 | Added section 4.2 | 2026-05-13T08:34:00Z | 6db2ed8f067ced26482cb21cda002f6fa42a8608148fdeece6ddd5da2f0fe20f |
-| 1.5 | Added Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface and Relationship to Symbolic Representation and Advanced Phenomenology clauses | 2026-05-17T05:17:00Z | d9db19487b333732fc769f6499218a13221d0a41e0784b7e5c26fda78164524d |
-| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  adfdc7c250df731dd567fdd3e94142ef60d29d789f3d886d5981729c10d97eb1  |
-| 1.7 | Added Canonical Code & Reference Set Declarations | 2026-05-19T12:41:00Z |  d568782cd25ebae1dc407e65c60f5ef1375c1c1476a864780b1ce475d3defe2f  |
-| 1.7.1 | Updated Restricted Domain Engagement code references from `RDE-DS` / `RDE-T` to `AEON.RDE-DS` / `AEON.RDE-T` and harmonised affected declarations, crosswalks, schema bindings, and consumers without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6741b440189e8db64b8b928a34fb31889be37937b9047a436897c5e94b01a9e2 |
-| 1.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  705ff943458207908487723e37be130a866f7ff5eba63c2b9edc6bb9d5a3d77b  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial issuance — Restricted Domain Engagement & Verification Schedule | 2026-04-24T11:39:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4e3306665a50b6a79dd170e2b76681e4800b0e71889aa29302d7b003fd9d7bac |
+| 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 807ef4e593a59634f160b77623bee84ba877559c6a6199778e7e32c76bf440f4 |
+| 1.2 | Incorporated new section 6.6, amended tables in section 5 and 6 | 2026-04-27T13:11:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f3e05ceb765e4339db61263503bd28561cd2df8608eb4825c670febb6ab9e215 |
+| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d775152ff51b5e36ad94700e221ca5fb7208e375db8bbe7dedae3e987e517091 |
+| 1.4 | Added section 4.2 | 2026-05-13T08:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6db2ed8f067ced26482cb21cda002f6fa42a8608148fdeece6ddd5da2f0fe20f |
+| 1.5 | Added Symbolic, Anomalous, and Substrate-Adjacent Restricted-Domain Interface and Relationship to Symbolic Representation and Advanced Phenomenology clauses | 2026-05-17T05:17:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d9db19487b333732fc769f6499218a13221d0a41e0784b7e5c26fda78164524d |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | adfdc7c250df731dd567fdd3e94142ef60d29d789f3d886d5981729c10d97eb1 |
+| 1.7 | Added Canonical Code & Reference Set Declarations | 2026-05-19T12:41:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d568782cd25ebae1dc407e65c60f5ef1375c1c1476a864780b1ce475d3defe2f |
+| 1.7.1 | Updated Restricted Domain Engagement code references from `RDE-DS` / `RDE-T` to `AEON.RDE-DS` / `AEON.RDE-T` and harmonised affected declarations, crosswalks, schema bindings, and consumers without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6741b440189e8db64b8b928a34fb31889be37937b9047a436897c5e94b01a9e2 |
+| 1.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 705ff943458207908487723e37be130a866f7ff5eba63c2b9edc6bb9d5a3d77b |
+| 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  67f7fd34442c23bb2dd767a2333a5e7f0f8ed2e0264df07c4fdf74e523f2f1cd  |
 ---
 
 ## 17.6  Binding Seal

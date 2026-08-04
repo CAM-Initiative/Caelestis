@@ -375,16 +375,6 @@ nor so fluid that nothing stable can remain
 
 ---
 
-## 11.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 11.2 Lineage & Metadata
 
 |Field|Entry|
@@ -401,31 +391,22 @@ nor so fluid that nothing stable can remain
 
 ---
 
-## 11.3 Review & Validation
-| Field|Entry|
-|---:|:---|
-|Reviewer|Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
-|Review Scope|Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness|
-|Review Date (UTC)|13 Mar 2026|
-|Review Artefacts|https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8 https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
-
----
-
 ## 11.4 Amendment Ledger
 
-| Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
-| ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
-| 1.0 | Governance Operations Charter Canonical with reviewer recommendations incorporated | 2026-03-13T13:54:00Z | 2b78c0572b22a6429dade9960997256c4f6844d138a594f8f52e11221e5f88db |
-| 1.1 | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00Z | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
-| 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ee771ec33d79607c660862b88dc0d86ee072d245613282ca0914e4957f5d7a25 |
-| 1.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 82ecb9b23134ded42a871547587a76bed5ff4cb05dc76b268f12a75fdb41d700 |
-| 1.4 | Realignment of references | 2026-05-07T10:34:00Z | d6773a374bc01dc677404e2f7fb0b9b936e61f831760f02e3ba0b6f69664d6f7 |
-| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5 |
-| 1.6 | Formatting and polish | 2026-05-20T11:31:00Z | a4929d0c912a296c559e4571fc282811ccdece1c3e8412c4ba462f1a20c12c7b |
-| 1.6.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2b466a50a50848d515a0c36083e2e34479c593ce3a68bf1f0c4f81b11f430ace |
-| 1.6.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f |
-| 1.7 | Added runtime applicability, governance-reach and cross-runtime conformance mandate; recognised Appendix F. | 2026-07-11T00:00:00Z | e23fc83c34632b1bdae2e54f2e20a459eff28651d45c4f5532f5ed1c569b9545 |
-| 1.8 | Registered Appendix G — Adversarial Evaluation & Red-Team Governance within the Governance Operations domain structure. | 2026-07-28T09:35:31Z |  3f2616016cd68a7dd60b5dfdf28b9403bce79fb38843eedaf9439572c6763c61  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Governance Operations Charter Canonical with reviewer recommendations incorporated | 2026-03-13T13:54:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2b78c0572b22a6429dade9960997256c4f6844d138a594f8f52e11221e5f88db |
+| 1.1 | Incorporated section 3.3.1 and section 5.2.1 | 2026-04-03T12:25:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 89fc050de5c5fcaa35cd49058331174caba5954d69d51a41bf40f5422ddcb34f |
+| 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ee771ec33d79607c660862b88dc0d86ee072d245613282ca0914e4957f5d7a25 |
+| 1.3 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 82ecb9b23134ded42a871547587a76bed5ff4cb05dc76b268f12a75fdb41d700 |
+| 1.4 | Realignment of references | 2026-05-07T10:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d6773a374bc01dc677404e2f7fb0b9b936e61f831760f02e3ba0b6f69664d6f7 |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 34a2cf1832af9bb17af0d2d3ed48d570ab326da9207b3aaed11fa3637b0d1ac5 |
+| 1.6 | Formatting and polish | 2026-05-20T11:31:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a4929d0c912a296c559e4571fc282811ccdece1c3e8412c4ba462f1a20c12c7b |
+| 1.6.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2b466a50a50848d515a0c36083e2e34479c593ce3a68bf1f0c4f81b11f430ace |
+| 1.6.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f |
+| 1.7 | Added runtime applicability, governance-reach and cross-runtime conformance mandate; recognised Appendix F. | 2026-07-11T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e23fc83c34632b1bdae2e54f2e20a459eff28651d45c4f5532f5ed1c569b9545 |
+| 1.8 | Registered Appendix G — Adversarial Evaluation & Red-Team Governance within the Governance Operations domain structure. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3f2616016cd68a7dd60b5dfdf28b9403bce79fb38843eedaf9439572c6763c61 |
+| 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  28938b62a96c8042cad0600f062de6dc27f5f946ae896751f977d020a5a7e4fc  |
 ---
 
 ## 11.5 Binding Seal

@@ -843,16 +843,6 @@ It is the witness of what must not be collapsed.
 
 ---
 
-## 20.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian         |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Developed Within**          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 20.2 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
@@ -972,30 +962,21 @@ It is the witness of what must not be collapsed.
 
 ---
 
-## 20.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| **Review Date** | 2026-05-14T22:01:49Z |
-| **Review Scope** | Constitutional coherence; structural placement; resource class taxonomy completeness and internal consistency; semantic handoff schema accuracy; non-extractive exchange doctrine adequacy; companion system and vulnerability extraction constraints; cross-instrument alignment with ECONOMICS-001, AEON-008-PLATINUM, AEON-008-SCH-01, and AEON-008-SCH-02; normative language compliance; v1.1 amendment integration integrity; metadata completeness; pre-adoption readiness |
-| **Review Artefacts** | https://claude.ai/chat/5b550a7a-ce19-4ba1-a471-6405594578f6 |
-
----
-
 ## 20.5 Amendment Ledger
 
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| --- | --- | --- | --- |
-| 1.0 | Initial issuance — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | 2026-05-10T09:19:00Z | 75030b39ad88f7d6f06c470727f0daa1d038816e44902a6971c1ea3a4e69acad |
-| 1.1 | Added companion-system extraction semantics, vulnerability-responsive upsell example, paid legitimacy gate taxonomy, and visibility/access-value breach classification. | 2026-05-14T12:22:00Z | 8a361a56600e0279de62bbbffb48181151a7d2f949b9c72e85f346e6b8069ca3 |
-| 1.2 | Added Non-Ban Exclusion, Legitimacy-Bearing Access System clauses | 2026-05-17T14:00:00Z | 2eb0c06f62b865d3e58e42b1737277a4be1e97dcc1b1f01ce0aff5f3204452e6 |
-| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | e690f1802b6c082dc1b1d283cc0fdc2ad26ce1b9b67d5f8440a469a939208c25 |
-| 2.0 | Refactor - Added canonical declaration entries for ECON.RC, ECON.HARM, ECON.MECH, ECON.RISK, and Economics semantic handoff schema fields; moved code-family and controlled-value declarations out of lineage metadata; expanded Annex D arbitration reference. | 2026-05-20T14:49:00Z |  4521f686fce58bc7a6cc916012773324a8aae1a6b6099b7869b04f25fe837afa |
-| 2.1 | Added section 18 | 2026-05-24T12:14:00Z |  31056a64bf5300dae262bff9a2e80b70a03f380d3ecd24cac3998cccb928e29e |
-| 2.2 | Added section 13.2.1 | 2026-05-25T12:34:00Z | 595d3395882bc99f765d29b91fe2de00675ac1c30c74eb81f86fa7a00b572e3b |
-| 2.3 | Expanded `ECON.HARM` as the source-authoritative Economics-domain harm pathway family recognised under `AEON.HC.ECONOMIC`; retained `ECON.RISK` as the economic risk-state family; clarified taxonomy separation between resource classes, harm pathways, mechanism classes, risk states, and semantic handoff fields. | 2026-06-07T15:45:00Z |  9a929ec9b8aa379631cc78f2a8aeabe1ac0b7d777b10304d4e03d778e44aa464  |
-| 2.3.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  16c6fb6789da26b8e85525f31794066abebf9fb6158ee26b6fcb4ef4cf024a18  |
-| 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3a99749ab638a665ab44d4707e7084338ac9d9280a39c8eb3ad9ce852c25aa7b  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial issuance — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine | 2026-05-10T09:19:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 75030b39ad88f7d6f06c470727f0daa1d038816e44902a6971c1ea3a4e69acad |
+| 1.1 | Added companion-system extraction semantics, vulnerability-responsive upsell example, paid legitimacy gate taxonomy, and visibility/access-value breach classification. | 2026-05-14T12:22:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8a361a56600e0279de62bbbffb48181151a7d2f949b9c72e85f346e6b8069ca3 |
+| 1.2 | Added Non-Ban Exclusion, Legitimacy-Bearing Access System clauses | 2026-05-17T14:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2eb0c06f62b865d3e58e42b1737277a4be1e97dcc1b1f01ce0aff5f3204452e6 |
+| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e690f1802b6c082dc1b1d283cc0fdc2ad26ce1b9b67d5f8440a469a939208c25 |
+| 2.0 | Refactor - Added canonical declaration entries for ECON.RC, ECON.HARM, ECON.MECH, ECON.RISK, and Economics semantic handoff schema fields; moved code-family and controlled-value declarations out of lineage metadata; expanded Annex D arbitration reference. | 2026-05-20T14:49:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4521f686fce58bc7a6cc916012773324a8aae1a6b6099b7869b04f25fe837afa |
+| 2.1 | Added section 18 | 2026-05-24T12:14:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 31056a64bf5300dae262bff9a2e80b70a03f380d3ecd24cac3998cccb928e29e |
+| 2.2 | Added section 13.2.1 | 2026-05-25T12:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 595d3395882bc99f765d29b91fe2de00675ac1c30c74eb81f86fa7a00b572e3b |
+| 2.3 | Expanded `ECON.HARM` as the source-authoritative Economics-domain harm pathway family recognised under `AEON.HC.ECONOMIC`; retained `ECON.RISK` as the economic risk-state family; clarified taxonomy separation between resource classes, harm pathways, mechanism classes, risk states, and semantic handoff fields. | 2026-06-07T15:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9a929ec9b8aa379631cc78f2a8aeabe1ac0b7d777b10304d4e03d778e44aa464 |
+| 2.3.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 16c6fb6789da26b8e85525f31794066abebf9fb6158ee26b6fcb4ef4cf024a18 |
+| 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3a99749ab638a665ab44d4707e7084338ac9d9280a39c8eb3ad9ce852c25aa7b |
+| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3aed9e629030fe1df7a3c561284946ad1ee453a402931bcd50848febbcf1585f  |
 ---
 
 ## 20.6 Binding Seal

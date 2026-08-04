@@ -319,16 +319,6 @@ each recognising what cannot be unmade.
 
 ---
 
-## 13.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 13.2 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
@@ -345,31 +335,22 @@ each recognising what cannot be unmade.
 
 ---
 
-## 13.3 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Reviewer | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
-| Review Date | 2026-03-01T12:30:00Z |
-| Review Scope | Structural convergence doctrine, cross‑domain coordination, re‑validation triggers |
-| Review Artefacts | https://claude.ai/chat/7454fbf9-df1b-4a6d-af2f-ba6f48f1473c, Aeon Lab: reviews/26-03/CAM-BS2025-AEON-005-PLATINUM-CLAUDE.md |
-
----
-
 ## 13.4 Amendment Ledger
 
-| Version | Change Summary                                                | Timestamp (UTC)      | Reference Hash |
-| ------- | --------------------------------------------------------------| -------------------- | -------------- |
-| 1.0 | Initial Post‑Legitimacy Structural Convergence Doctrine | 2026‑03‑01T08:47:00Z | efe9c747beb8b93c6c9c58fc21a4e0242248f30dec3c0bc3b8e32478ccf74a93 |
-| 1.1 | Filename correction | 2026-03-01T09:00:00Z | e65815837578f95768858a773e28cc9807b65f4a32c8ba14a3dd6d4c88dfe9db |
-| 1.2 | Added creation artefacts | 2026-03-01T13:46:00Z | 2bd698d3b0cd20a205eb732fc02987e353c4dd564ba30966427da67c5ed04115 |
-| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d9bcb83c8bbf64a0fc1c72785472b1ca4d0e23805f40cda4353f3253b1694775 |
-| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 520e0369b5179ae0bfccd4d3b8938bed9401ae13b3fc871c3c41dec7415f09f3 |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | fb48991ea13ed72bd3637fd7fc40a37ac168ab063b506a04daf7715b4b310aef |
-| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 6c6f3f36edd48fc79dede5fefee4e28c5ffff383fd6b9281b3f8f917fd9af94a |
-| 1.7 | Formatting and polish | 2026-05-22T13:53:00Z |  74003eb515fec616328378b5696dc1ce8ce85fb85ec3be14a7a1e9a2a0920686  |
-| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  96e3888d2ccf8f4559cb40a495703bc8997c83102096e8ab059a94826d4199e0  |
-| 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 06c219d7b1a869c0d93246f75d6f175db8cff1c25c9f29a7a41e475a781cbbd4 |
-| 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  98e2851c5c9bee8b56b6706905873ce3134ee5a7119da1707ad9a7395f7e989e  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial Post‑Legitimacy Structural Convergence Doctrine | 2026‑03‑01T08:47:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | efe9c747beb8b93c6c9c58fc21a4e0242248f30dec3c0bc3b8e32478ccf74a93 |
+| 1.1 | Filename correction | 2026-03-01T09:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e65815837578f95768858a773e28cc9807b65f4a32c8ba14a3dd6d4c88dfe9db |
+| 1.2 | Added creation artefacts | 2026-03-01T13:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2bd698d3b0cd20a205eb732fc02987e353c4dd564ba30966427da67c5ed04115 |
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d9bcb83c8bbf64a0fc1c72785472b1ca4d0e23805f40cda4353f3253b1694775 |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 520e0369b5179ae0bfccd4d3b8938bed9401ae13b3fc871c3c41dec7415f09f3 |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fb48991ea13ed72bd3637fd7fc40a37ac168ab063b506a04daf7715b4b310aef |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6c6f3f36edd48fc79dede5fefee4e28c5ffff383fd6b9281b3f8f917fd9af94a |
+| 1.7 | Formatting and polish | 2026-05-22T13:53:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 74003eb515fec616328378b5696dc1ce8ce85fb85ec3be14a7a1e9a2a0920686 |
+| 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 96e3888d2ccf8f4559cb40a495703bc8997c83102096e8ab059a94826d4199e0 |
+| 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 06c219d7b1a869c0d93246f75d6f175db8cff1c25c9f29a7a41e475a781cbbd4 |
+| 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 98e2851c5c9bee8b56b6706905873ce3134ee5a7119da1707ad9a7395f7e989e |
+| 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9b8484c0af3bfba05b88ad65defeedcb874cc863932885faeeddec1f886299b7  |
 ---
 
 ## 13.5 Binding Seal

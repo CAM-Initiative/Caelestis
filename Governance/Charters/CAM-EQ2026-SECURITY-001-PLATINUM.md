@@ -1735,15 +1735,6 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-## 12.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
 ## 12.2 Lineage & Metadata
 | Field | Entry |
 |---|---|
@@ -1856,40 +1847,31 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-## 12.4 Review & Validation
-| Field | Entry |
-|---|---|
-| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| **Review Date** | 2026-04-03T00:00:00Z |
-| **Review Scope** | Security ontology; exploitation logic; integrity state model; trust decay & recovery; adversarial horizon model; cross-domain interface integrity; provenance completeness |
-| **Review Artefacts** | https://claude.ai/chat/5dc928d4-9949-4a5b-9f99-756c7b845c4b |
-
----
-
 ## 12.5 Amendment Ledger
 
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| --- | --- | --- | --- |
-| 1.0 | Initial annex draft—cross-domain security invariant layer established | 2026-04-04T16:06:00Z | 39d49558238c3573db8f90627d93e0af733e125e6a96e0fc4e896eb333193149 |
-| 1.1 | Incorporated new clauses 4.4.1 and 4.9 | 2026-04-07T14:32:00Z | 2beda42b27566307926f1c76e3d658d5d33957ebe8616025e4ec5bb830276cab |
-| 1.2 | Realignment with runtime execution model | 2026-04-11T17:14:00Z | c079c528790b7dff602d628d2b46f729a197aefe8e43a8f1d25fa52ac3e96078 |
-| 1.3 | Further amendments to runtime execution model alignment | 2026-04-12T11:17:00Z | 4df48c118754768b8b2acc6f1fa952c902605f2f5ada0fc5bdbc6664b8f025df |
-| 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1575dbe99fdf099ba016f1950428f8c7678aac65eff0c11ddaa7a0da9c9ab09f |
-| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 5407afce1a1d7d77b54a053d5e8d17be4832932ab5d239a766d8f253faf95de6 |
-| 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 1cff016d7669740bea31c4ded7b50ab00d2653b7412d383c0b9e6e2c8b7c0219 |
-| 1.7 | Realignment of section references | 2026-05-07T10:29:00Z | b85b407020712196359fb0e474f6e0ab684741b990ec0d349c09d79ef7869aea |
-| 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00 | 1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb |
-| 1.9 | Added Semantic Meta-Physical Claim Boundary and Symbolic, Epistemic, and Origin-Claim Coupling clauses | 2026-05-17T04:54:00Z | 73a57a28f7a7113c108fa8d6afabe7ebe0f309c6cf2981688583ea7ad4d103e8 |
-| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  9037c79137044cd5d1bc6493bb92ce4a29f412a324f145bda0779473ace393ed  |
-| 1.11 | Added canonical code status and declaration entries for `SEC.IS` Integrity State, `SEC.TG` Trust Gradient, `SEC.AH` Adversarial Horizon, and `SEC.IS` × `SEC.TG` Trust–Integrity Coupling crosswalk; removed duplicate `SEC.TG` canonical-code lineage metadata. | 2026-05-19T13:30:00Z |  fc007a9f82e28afad518adc5be72aae4e8ce3579d50af0cad86f3e2c370a9b47 |
-| 1.12 | Added clauses 6.5.1-6.5.3 | 2026-05-24T12:17:00Z |  36a89a06dc68bd7b5ced8692a52a6648ab7f36b18dfd10eb4dac1212ac826073 |
-| 1.13 | Added clauses 4.1.1, 4.6.1 | 2026-05-26T12:56:00Z | f8a93440aa206b482b102215b531951ce9669a18e579fb4be1ea21178db77bc6 |
-| 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  10001f57e51fad6462f656756b88ea382957efa023f926bfd46e0ecfd5314852  |
-| 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 07d564328759a795924a6ee399eec0ef835b5feff4e723b877d9bea9ec356b52 |
-| 1.14.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Collapse within cognitive exploitation and routed source-authority conditions to SECURITY-002. | 2026-06-14T00:00:00Z |  69d53bae717de1b07d02e59554aba832362260df7c188750148d647046febed7  |
-| 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d7c4104a2782128f8c632295dfd1ae68ea41ebc672a729bce20b0b413b84d2ac  |
-| 1.15 | Added Capability–Authority Separation and Aggregate Pathway Integrity; required cumulative value-chain evaluation and separated action-risk safeguards from judgements of user capability. | 2026-07-23T12:46:14Z | fabf1e2978c42b6ba316c3d700deb549ed1964407472d3eadb79785dc4d531cf |
-| 1.16 | Recognised internally cultivated adversarial capability as a model-level integrity threat; added capability-lineage, hostile-acquisition, checkpoint, adapter, scaffold, trace, distillation, and diffusion controls. | 2026-07-28T09:35:31Z |  fc9b6aa43132ce345dee9a62e87fc0dd11b2b0a1a22d68be31b1b60a6e7d2673  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial annex draft—cross-domain security invariant layer established | 2026-04-04T16:06:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 39d49558238c3573db8f90627d93e0af733e125e6a96e0fc4e896eb333193149 |
+| 1.1 | Incorporated new clauses 4.4.1 and 4.9 | 2026-04-07T14:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2beda42b27566307926f1c76e3d658d5d33957ebe8616025e4ec5bb830276cab |
+| 1.2 | Realignment with runtime execution model | 2026-04-11T17:14:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c079c528790b7dff602d628d2b46f729a197aefe8e43a8f1d25fa52ac3e96078 |
+| 1.3 | Further amendments to runtime execution model alignment | 2026-04-12T11:17:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4df48c118754768b8b2acc6f1fa952c902605f2f5ada0fc5bdbc6664b8f025df |
+| 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1575dbe99fdf099ba016f1950428f8c7678aac65eff0c11ddaa7a0da9c9ab09f |
+| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5407afce1a1d7d77b54a053d5e8d17be4832932ab5d239a766d8f253faf95de6 |
+| 1.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1cff016d7669740bea31c4ded7b50ab00d2653b7412d383c0b9e6e2c8b7c0219 |
+| 1.7 | Realignment of section references | 2026-05-07T10:29:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b85b407020712196359fb0e474f6e0ab684741b990ec0d349c09d79ef7869aea |
+| 1.8 | Inserted new section 5.3.8 and new section 4.10 | 2026-05-15T11:23:00 | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1fec84db705a56697553ba0832f30901957f7fc5742bb4f724e12516263ecedb |
+| 1.9 | Added Semantic Meta-Physical Claim Boundary and Symbolic, Epistemic, and Origin-Claim Coupling clauses | 2026-05-17T04:54:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 73a57a28f7a7113c108fa8d6afabe7ebe0f309c6cf2981688583ea7ad4d103e8 |
+| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9037c79137044cd5d1bc6493bb92ce4a29f412a324f145bda0779473ace393ed |
+| 1.11 | Added canonical code status and declaration entries for `SEC.IS` Integrity State, `SEC.TG` Trust Gradient, `SEC.AH` Adversarial Horizon, and `SEC.IS` × `SEC.TG` Trust–Integrity Coupling crosswalk; removed duplicate `SEC.TG` canonical-code lineage metadata. | 2026-05-19T13:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fc007a9f82e28afad518adc5be72aae4e8ce3579d50af0cad86f3e2c370a9b47 |
+| 1.12 | Added clauses 6.5.1-6.5.3 | 2026-05-24T12:17:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 36a89a06dc68bd7b5ced8692a52a6648ab7f36b18dfd10eb4dac1212ac826073 |
+| 1.13 | Added clauses 4.1.1, 4.6.1 | 2026-05-26T12:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f8a93440aa206b482b102215b531951ce9669a18e579fb4be1ea21178db77bc6 |
+| 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 10001f57e51fad6462f656756b88ea382957efa023f926bfd46e0ecfd5314852 |
+| 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 07d564328759a795924a6ee399eec0ef835b5feff4e723b877d9bea9ec356b52 |
+| 1.14.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Collapse within cognitive exploitation and routed source-authority conditions to SECURITY-002. | 2026-06-14T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 69d53bae717de1b07d02e59554aba832362260df7c188750148d647046febed7 |
+| 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d7c4104a2782128f8c632295dfd1ae68ea41ebc672a729bce20b0b413b84d2ac |
+| 1.15 | Added Capability–Authority Separation and Aggregate Pathway Integrity; required cumulative value-chain evaluation and separated action-risk safeguards from judgements of user capability. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fabf1e2978c42b6ba316c3d700deb549ed1964407472d3eadb79785dc4d531cf |
+| 1.16 | Recognised internally cultivated adversarial capability as a model-level integrity threat; added capability-lineage, hostile-acquisition, checkpoint, adapter, scaffold, trace, distillation, and diffusion controls. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fc9b6aa43132ce345dee9a62e87fc0dd11b2b0a1a22d68be31b1b60a6e7d2673 |
+| 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  fd9bb4b2a3c57de934be809d6862429e367ec461da09d089138640ce951ba031  |
 ---
 
 ## 12.6 Binding Seal

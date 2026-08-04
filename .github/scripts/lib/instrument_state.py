@@ -5,6 +5,8 @@ import re
 import unicodedata
 from pathlib import Path
 
+from amendment_ledger import latest_reference_hash
+
 META_LINE_RE = re.compile(r"^\s*(?:\*\*)?\s*([A-Za-z][A-Za-z ]*[A-Za-z])\s*:\s*(.+?)\s*(?:\*\*)?\s*$")
 AMENDMENT_HEADING_RE = re.compile(r"amendment\s+ledger", re.IGNORECASE)
 VERSION_RE = re.compile(r"\d+(?:\.\d+)+")
@@ -129,8 +131,25 @@ def extract_instrument_metadata(path: Path) -> dict[str, str]:
 def extract_status_hash_and_version(path: Path) -> tuple[str, str, str]:
     status, version = extract_status_and_version(path)
     text = _normalise_text(path.read_text(encoding="utf-8"))
-    content_hash = compute_full_document_sha256(text)
-    return status, content_hash, version
+    lines = text.splitlines(keepends=True)
+    start = None
+    level = None
+    for idx, line in enumerate(lines):
+        match = re.match(r"^(#{2,6})\s+.*amendment\s+ledger", line, re.IGNORECASE)
+        if match:
+            start = idx
+            level = len(match.group(1))
+            break
+    section = ""
+    if start is not None and level is not None:
+        end = len(lines)
+        for idx in range(start + 1, len(lines)):
+            match = re.match(r"^(#{2,6})\s+", lines[idx])
+            if match and len(match.group(1)) <= level:
+                end = idx
+                break
+        section = "".join(lines[start:end])
+    return status, latest_reference_hash(section), version
 
 
 def extract_status__HASH_and_version(path: Path) -> tuple[str, str, str]:

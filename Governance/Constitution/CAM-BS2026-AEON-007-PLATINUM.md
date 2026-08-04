@@ -264,16 +264,6 @@ We make space for it.
 
 ---
 
-## 10.1 Authorship & Stewardship
-| Field | Entry |
-|---|---|
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
-| **Custodial Stewardship** | Office of the Planetary Custodian |
-| **Synthetic Steward** | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment** | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
 ## 10.2 Lineage & Metadata
 | Field | Entry |
 |---|---|
@@ -297,29 +287,21 @@ We make space for it.
 
 ---
 
-## 10.3 Review & Validation
-| Field               | Entry                                                       |
-| ------------------- | ----------------------------------------------------------- |
-| **Reviewer**        | Claude Sonnet 4 (Anthropic)                                  |
-|**Review Date**      | 2026-02-04T12:00:00Z                                        |
-|**Review Artefacts** | https://claude.ai/chat/ea561c94-8ac6-4ba4-a201-458c7b4aed83, Aeon Governance Lab → reviews/jan-26/CAM-BS2026-AEON-007-SCH-02-CLAUDE          |
-
----
-
 ## 10.4 Amendment Ledger
 
-| Version | Description                                           | Timestamp (UTC)      | SHA‑256 |
-| ------- | ----------------------------------------------------- | -------------------- | ------- |
-| 1.0 | Original schedule with incorporated reviewer comments | 2026‑02‑04T14:19:00Z | ed9ca33ca16dfd69024052eadcd82b2f814244a7b8c8efdbef643de5573fa9a4 |
-| 2.0 | Refactor | 2026-04-08T08:06:00Z | 7d94170cc85fb72c4a278e0ef7091a432757e4754122cf41f8443fff6fb40a3b |
-| 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | 5c0802f51bb6af12e937dc98ffd1a32e78fcf38eb8183dcf1bfce09136bd608a |
-| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e5eeb621e46dc59e01a0479fea47163f34eed3942a3c2902d78ac0f7a2cec4f6 |
-| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | bc99d89c422d6a68e2401c018afcb808ffde44d6034a46ca4f62d6d630bef217 |
-| 2.4 | Structural hygiene update: resolved duplicate §1.3 numbering and consolidated duplicated Runtime Role metadata field in §10.2 without changing Annex F constitutional posture. | 2026-05-16T15:05:00Z | 680c3ee157c7e3ad2f6e01eca96212785ca93c3c97702dc328cd932e52f4b504 |
-| 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  327275d69cd839b1666024215053d522c89962a578bb3a31b2a186c0088d8941 |
-| 2.5.1 | Formatting and polish | 2026-06-06T13:36:00Z | 81fe20cd2a7dcbe7ea436f3c1d13404ec80eb7083600aaecae2275f6438a6684 |
-| 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 6c55a0db982f72b33844f29afd3a6193361e9a7f3fff5ce4779a848417e72842 |
-| 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  abbbc46e1270994dc00aba7d92aca0fd43206337514d78ff08f99a860c071c91  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Original schedule with incorporated reviewer comments | 2026‑02‑04T14:19:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ed9ca33ca16dfd69024052eadcd82b2f814244a7b8c8efdbef643de5573fa9a4 |
+| 2.0 | Refactor | 2026-04-08T08:06:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7d94170cc85fb72c4a278e0ef7091a432757e4754122cf41f8443fff6fb40a3b |
+| 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5c0802f51bb6af12e937dc98ffd1a32e78fcf38eb8183dcf1bfce09136bd608a |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e5eeb621e46dc59e01a0479fea47163f34eed3942a3c2902d78ac0f7a2cec4f6 |
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bc99d89c422d6a68e2401c018afcb808ffde44d6034a46ca4f62d6d630bef217 |
+| 2.4 | Structural hygiene update: resolved duplicate §1.3 numbering and consolidated duplicated Runtime Role metadata field in §10.2 without changing Annex F constitutional posture. | 2026-05-16T15:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 680c3ee157c7e3ad2f6e01eca96212785ca93c3c97702dc328cd932e52f4b504 |
+| 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 327275d69cd839b1666024215053d522c89962a578bb3a31b2a186c0088d8941 |
+| 2.5.1 | Formatting and polish | 2026-06-06T13:36:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 81fe20cd2a7dcbe7ea436f3c1d13404ec80eb7083600aaecae2275f6438a6684 |
+| 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6c55a0db982f72b33844f29afd3a6193361e9a7f3fff5ce4779a848417e72842 |
+| 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | abbbc46e1270994dc00aba7d92aca0fd43206337514d78ff08f99a860c071c91 |
+| 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  18111b015460594bb2c586b8660faebcc7e10a04f9a524a4ecfbd1d863c8e86c  |
 ---
 
 ## 10.5 Binding Seal

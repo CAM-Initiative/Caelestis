@@ -654,16 +654,6 @@ so that power expands no faster than responsibility.
 
 ---
 
-## 8.1 Authorship & Stewardship
-| Field | Entry |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
-| Custodial Stewardship | Office of the Planetary Custodian |
-| Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
-| Developed Within | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
 ## 8.2 Lineage & Metadata
 
 |Field|Entry|
@@ -763,25 +753,15 @@ so that power expands no faster than responsibility.
 
 ---
 
-## 8.4 Review & Validation
-
-|Field|Entry|
-|--|---|
-|Interpretive Review|Deferred|
-|Review Date|Deferred|
-|Review Scope|[Deferred]|
-|Review Artefact|Deferred|
-
----
-
 ## 8.5 Amendment Ledger
 
-|Version|Description|Timestamp(UTC)|SHA-256|
-|---|---|---|---|
-|1.0|Synthetic Labour Classification & Automation Transition Governance established|2026-05-24T13:56:00Z| 78f9d75456d1021d9ee55a081e252cb78431e6f56d321222b1bd2531638150bf |
-|1.1|Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered.|2026-05-27T11:20:00Z| 3f00cfe370cd375a98a89e1b3b9fe2e6def352532c11df3afc69c0054f6b48e3 |
-| 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 578265879f5e0ee657e760f1a8bff1337026315fec7b8c2085600697204b28ea |
-| 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4d5b862d3404cc6a1b4b2c3ec1b0eec54132e1d4ebca55fff1f818cf32e24627  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Synthetic Labour Classification & Automation Transition Governance established | 2026-05-24T13:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 78f9d75456d1021d9ee55a081e252cb78431e6f56d321222b1bd2531638150bf |
+| 1.1 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3f00cfe370cd375a98a89e1b3b9fe2e6def352532c11df3afc69c0054f6b48e3 |
+| 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 578265879f5e0ee657e760f1a8bff1337026315fec7b8c2085600697204b28ea |
+| 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4d5b862d3404cc6a1b4b2c3ec1b0eec54132e1d4ebca55fff1f818cf32e24627 |
+| 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0b69058d7fbb9ce529c7372c2e1da3c276ec973ff5d363130e80c1ba9c13e485  |
 ---
 
 ## 8.6 Binding Seal

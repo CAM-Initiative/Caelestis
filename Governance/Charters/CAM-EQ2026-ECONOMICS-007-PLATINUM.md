@@ -1101,16 +1101,6 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-## 13.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian (OPC)   |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 13.2 Lineage & Constitutional Position
 | Field                      | Entry                                                               |
 | -------------------------- | ------------------------------------------------------------------- |
@@ -1273,33 +1263,24 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-## 13.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Date | 2026-04-19T00:00:00Z |
-| Review Scope | Material content — substance, coherence, cross-instrument consistency, implementability, and identified risks. Formatting and review metadata excluded. |
-| Review Artefacts | https://claude.ai/chat/fc7db3c1-4fd2-4544-b103-13bd44928488, AEON-LAB/Reviews/26-04/CAM-EQ2026-ECONOMICS-CLAUDE.md |
-
----
-
 ## 13.5 Amendment Ledger
 
-| Version | Description                                             | Timestamp (UTC)      | HASH |
-| ------- | ------------------------------------------------------- | -------------------- | ---- |
-| 1.0 | Initial issuance — Reciprocity & Value Return Framework | 2026-04-21T14:12:00Z | d1b98dda84a980edfc352aacc3ead94d4787d4da763d3a8ce68ebb85ed90855f |
-| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 37e16ab0f745647ee0fac2424ef326688e4166eb83885bd21f2684e2e45092c8 |
-| 1.2 | Inserted new section 5.5.7 | 2026-05-13T13:47:00Z | 6ccf3c451b4b2068fba43e7d2fd89b798c53686e9dfce01b5b8c0fb807ee421f |
-| 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | b6d8eb2904e06e51662cbed4827313874c579154e03ecef02472b1d3c98fc563 |
-| 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  337c1ebe150b8f237442e727e35b798744c4e86591162a5895a8eb013ff23462 |
-| 1.6 | Formatting and polish | 2026-05-20T04:34:00Z |  a57d0bd6716154d4723c9ecd88c14609a518cee415861303d7d898ac183a644d  |
-| 1.7 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z |  d8e7058bada204ac8d4c1ae95a42d005b42c2a75d60093e696b8d5b428d6551f |
-| 2.0 | Economics domain refactor | 2026-05-24T14:03:00Z | a98f357771ebe14ae7f5fd966b26bcb885d4989793b272825fc17aac55105cb5 |
-| 2.1 | Amended clause 5.11, formatting and polish, and normalised Appendix C title reference to canonical “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | e0391ff1e1196acaa9013d78b11a5a7716088a9a9e5c753884a4531f6f29cf28 |
-| 2.2 | Canonical-code registry hierarchy clarification: ECON.REI.DW and ECON.REI.SW declared as subfamilies of ECON.REI with explicit Family Kind and Parent Family metadata for index generation. | 2026-05-27T00:00:00Z |  ef5d41b2b671ed9eacad47db5e740cfaad8cbd8a03b305fe851970c19ca73f0e |
-| 2.3 | Added clause 5.10. (G) High Corpus-Reliance Disclosure Condition | 2026-05-28T14:01:00Z | e3d9eb402a46f29e6b9467d8e6a219d20d5ddc24efe0704f47562b0aad27acd0 |
-| 2.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 4b9ae0ad9cedbcc07e916f4e77e9b7a900a5b9468cdee52908e599d094002500 |
-| 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  7635016f2c282ca2706ab5022aeeb955f83d4e9ba11705120f76ec2dfaaaf978  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial issuance — Reciprocity & Value Return Framework | 2026-04-21T14:12:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d1b98dda84a980edfc352aacc3ead94d4787d4da763d3a8ce68ebb85ed90855f |
+| 1.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 37e16ab0f745647ee0fac2424ef326688e4166eb83885bd21f2684e2e45092c8 |
+| 1.2 | Inserted new section 5.5.7 | 2026-05-13T13:47:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6ccf3c451b4b2068fba43e7d2fd89b798c53686e9dfce01b5b8c0fb807ee421f |
+| 1.3 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b6d8eb2904e06e51662cbed4827313874c579154e03ecef02472b1d3c98fc563 |
+| 1.4 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 337c1ebe150b8f237442e727e35b798744c4e86591162a5895a8eb013ff23462 |
+| 1.6 | Formatting and polish | 2026-05-20T04:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a57d0bd6716154d4723c9ecd88c14609a518cee415861303d7d898ac183a644d |
+| 1.7 | Refactored economics code families to namespaced ECON.* identifiers for canonical-code collision avoidance. | 2026-05-23T14:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d8e7058bada204ac8d4c1ae95a42d005b42c2a75d60093e696b8d5b428d6551f |
+| 2.0 | Economics domain refactor | 2026-05-24T14:03:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a98f357771ebe14ae7f5fd966b26bcb885d4989793b272825fc17aac55105cb5 |
+| 2.1 | Amended clause 5.11, formatting and polish, and normalised Appendix C title reference to canonical “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e0391ff1e1196acaa9013d78b11a5a7716088a9a9e5c753884a4531f6f29cf28 |
+| 2.2 | Canonical-code registry hierarchy clarification: ECON.REI.DW and ECON.REI.SW declared as subfamilies of ECON.REI with explicit Family Kind and Parent Family metadata for index generation. | 2026-05-27T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ef5d41b2b671ed9eacad47db5e740cfaad8cbd8a03b305fe851970c19ca73f0e |
+| 2.3 | Added clause 5.10. (G) High Corpus-Reliance Disclosure Condition | 2026-05-28T14:01:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e3d9eb402a46f29e6b9467d8e6a219d20d5ddc24efe0704f47562b0aad27acd0 |
+| 2.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4b9ae0ad9cedbcc07e916f4e77e9b7a900a5b9468cdee52908e599d094002500 |
+| 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7635016f2c282ca2706ab5022aeeb955f83d4e9ba11705120f76ec2dfaaaf978 |
+| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ee843a755222f0d2c3efcedaae04968b7b20f5252730eee221345d65be1fcc4e  |
 ---
 
 ## 13.6 Binding Seal

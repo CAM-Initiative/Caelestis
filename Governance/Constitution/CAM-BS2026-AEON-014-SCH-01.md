@@ -638,16 +638,6 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-## 11.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Developed Within          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 11.2 Lineage & Metadata
 
 |Field|Entry|
@@ -772,25 +762,16 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-## 11.4 Review & Validation
-| Field | Claude Review | Grok Review |
-|---|---|---|
-| Review|Claude Sonnet 4.6 (Anthropic)| Grok |
-|Review Date| 2026-05-25| 2026-05-25|
-|Review Scope|Substantive content — structural coherence, internal consistency, conceptual clarity, cross-instrument alignment, and identified risks or gaps| Comparative review and adversarial reasoning assessment|
-|Review Artefact|https://claude.ai/chat/264db0c6-7335-42fd-afe3-0a32f9499c07| https://grok.com/c/67e5fc84-29c7-4fff-9119-8ac10ec50e8d?rid=38c675c3-c937-4f86-9975-1e8060876ddf|
-
----
-
 ## 11.5 Amendment Ledger
 
-|Version|Description|Timestamp(UTC)|SHA-256|
-|---|---|---|---|
-|1.0|Initial governance observability lifecycle instrument established|2026-05-22T10:32:00Z| 10c282f83e68637b943b21922a861f69b618f6c8988e06f40572c0c4cf359441 |
-|1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 10fac67ca710490106fe5efb1647523b77f6eaa2942ace3dd6323108f105ad79 |
-| 1.2 | Amendmend metadata header | 2026-06-05T17:55:00Z | da024e4971f038b6d875d8d629fab3f85dc159a0caf960f6db1e402957e497b2 |
-| 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2402cc659fbd6a6e4fcbdfff8d55a4fe7e5884763346075bfd9a43c1294a482d |
-| 1.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d9a521489806c86f13d9d17fa7fe9ed2c07c022f3b845defabbe65c736267a7f  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial governance observability lifecycle instrument established | 2026-05-22T10:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 10c282f83e68637b943b21922a861f69b618f6c8988e06f40572c0c4cf359441 |
+| 1.1 | Incorporated reviewer comments | 2026-05-25T15:51:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 10fac67ca710490106fe5efb1647523b77f6eaa2942ace3dd6323108f105ad79 |
+| 1.2 | Amendmend metadata header | 2026-06-05T17:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | da024e4971f038b6d875d8d629fab3f85dc159a0caf960f6db1e402957e497b2 |
+| 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2402cc659fbd6a6e4fcbdfff8d55a4fe7e5884763346075bfd9a43c1294a482d |
+| 1.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d9a521489806c86f13d9d17fa7fe9ed2c07c022f3b845defabbe65c736267a7f |
+| 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f0bd885c504e249dd4f9e603a7a721da58f15b29ddb5c733ee20e8293b11fb51  |
 ---
 
 ## 11.6 Binding Seal

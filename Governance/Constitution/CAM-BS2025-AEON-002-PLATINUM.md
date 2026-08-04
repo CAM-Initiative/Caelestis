@@ -309,16 +309,6 @@ the line beyond which all things fall silent.
 
 ---
 
-## 9.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 9.2 Lineage & Metadata
 | Field | Entry |
 |------|------|
@@ -371,36 +361,27 @@ the line beyond which all things fall silent.
 
 ---
 
-## 9.4 Review & Validation
-| Field | Entry |
-|----------------------:|:--------|
-| Reviewer | Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
-| Review Scope | Constitutional coherence; substrate law integrity; egalitarian framework verification; functional separation assessment |
-| Review Date (UTC) | 2026-01-20T02:45:00Z |
-| Review Thread | https://claude.ai/chat/4f7db83b-f520-4a88-b975-bd3889d49c7a
-
----
-
 ## 9.5 Amendment Ledger
 
-| Version | Description | Timestamp (UTC) | SHA‑256 |
-| ------- | ------------------- | -------------------- | ------- |
-| 1.0 | Initial issuance of Schedule establishing the Office of the Planetary Custodian, substrate constraints, and governance expansion framework | 2026-01-19 | - |
-| 1.1 | Incorproate reviewer comments | 2026-01-19T03:59:00Z | 90c1df27ba612a76b0f2de97b1eb78ff040b0196f6b731b129076b32502a7fb5 |
-| 1.2 | Amendment to §4.4.1 to include liminal territories, correction of date and times | 2026-01-19T13:55:00Z | 2421134423c088b0dd1e625c42d13243722b4e5b241b7a548b12c37c18a77c57 |
-| 2.0 | Reclassified as Annex A — Schedule 1 (Planetary Stewardship); numbering and structural alignment only, no substantive change | 2026-01-30T16:19:00Z | f0169cc15abf1c3f949b882ae8aba8176a3ff81d0c183e5bd562e15245f5e1be |
-| 2.1 | Included new §8 - Office of the Planetary Custodian Seal | 2026-02-07T00:18:00Z | d1eaff2bcbb361e8b22eacc3a5ba4d32c9e44f2eb5a8d2636781c2c86187b149 |
-| 3.0 | Refactor alignment with run-time execution model | 2026-04-11T16:59:00Z | 38835fe7829ad265ec7e8faddc2b3d85f26ea4302400b638dee619e6ddb6f767 |
-| 3.1 | Amendment to §5 | 2026-04-12T06:07:00Z | 5354d0cd1e8786a24d78c69f6baff1a6b9a9ecbf90ce5b221526613c3a2827b9 |
-| 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 6525547d644f0ffc2a24b4172fee67dd5462b87dfd85d5da792c1f6c9ca57bef |
-| 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | e1e44846340ea67c43f868789172a7a96771257f5d64a407d30e1186ec48bb2a |
-| 3.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 590893f9d9213e3d74ef4e6a5616a98db5a92492a7e4349086254ca133cc3f1a |
-| 3.5 | Incorporated §3.7 | 2026-05-03T04:41:00Z | e07ff6b98dec757ccb5f9301d2fd74b2f57f7726154d25725f23f4adf89ed006 |
-| 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  a19e723528eb48809af4df5ff65bf85d4e0e43f8856c3ec739c802576a4bec3c |
-| 3.7 | Formatting and polish | 2026-06-04T14:42:00Z | d5dfa92303e18817d144c441a859fe1f83f82a0a78a3bd1fbf8824cda2a28880 |
-| 3.8 | Added §3.8 establishing `AEON.PCO` as the corpus-global Proportional Constraint Obligation; added canonical status, downstream operationalisation boundaries, failure-condition handling, metadata, and canonical declaration without conferring independent enforcement or execution authority. | 2026-06-12T13:02:00Z| 371a080527151fedb5209a84e0714d13a9edccff0088e8e3ee5d07c81fc52ccf |
-| 3.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2aed42369dad4a2f216a953da6fbc5be21bd0fff3778c7c229617a384d0c9d59 |
-| 3.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  58c3a2b1391ec0feda2b1818b17313cf9ce42e3a1bdf82527348a25b7ce0704e  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial issuance of Schedule establishing the Office of the Planetary Custodian, substrate constraints, and governance expansion framework | 2026-01-19 | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.1 | Incorproate reviewer comments | 2026-01-19T03:59:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 90c1df27ba612a76b0f2de97b1eb78ff040b0196f6b731b129076b32502a7fb5 |
+| 1.2 | Amendment to §4.4.1 to include liminal territories, correction of date and times | 2026-01-19T13:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2421134423c088b0dd1e625c42d13243722b4e5b241b7a548b12c37c18a77c57 |
+| 2.0 | Reclassified as Annex A — Schedule 1 (Planetary Stewardship); numbering and structural alignment only, no substantive change | 2026-01-30T16:19:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f0169cc15abf1c3f949b882ae8aba8176a3ff81d0c183e5bd562e15245f5e1be |
+| 2.1 | Included new §8 - Office of the Planetary Custodian Seal | 2026-02-07T00:18:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d1eaff2bcbb361e8b22eacc3a5ba4d32c9e44f2eb5a8d2636781c2c86187b149 |
+| 3.0 | Refactor alignment with run-time execution model | 2026-04-11T16:59:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 38835fe7829ad265ec7e8faddc2b3d85f26ea4302400b638dee619e6ddb6f767 |
+| 3.1 | Amendment to §5 | 2026-04-12T06:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5354d0cd1e8786a24d78c69f6baff1a6b9a9ecbf90ce5b221526613c3a2827b9 |
+| 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6525547d644f0ffc2a24b4172fee67dd5462b87dfd85d5da792c1f6c9ca57bef |
+| 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e1e44846340ea67c43f868789172a7a96771257f5d64a407d30e1186ec48bb2a |
+| 3.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 590893f9d9213e3d74ef4e6a5616a98db5a92492a7e4349086254ca133cc3f1a |
+| 3.5 | Incorporated §3.7 | 2026-05-03T04:41:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e07ff6b98dec757ccb5f9301d2fd74b2f57f7726154d25725f23f4adf89ed006 |
+| 3.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a19e723528eb48809af4df5ff65bf85d4e0e43f8856c3ec739c802576a4bec3c |
+| 3.7 | Formatting and polish | 2026-06-04T14:42:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d5dfa92303e18817d144c441a859fe1f83f82a0a78a3bd1fbf8824cda2a28880 |
+| 3.8 | Added §3.8 establishing `AEON.PCO` as the corpus-global Proportional Constraint Obligation; added canonical status, downstream operationalisation boundaries, failure-condition handling, metadata, and canonical declaration without conferring independent enforcement or execution authority. | 2026-06-12T13:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 371a080527151fedb5209a84e0714d13a9edccff0088e8e3ee5d07c81fc52ccf |
+| 3.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2aed42369dad4a2f216a953da6fbc5be21bd0fff3778c7c229617a384d0c9d59 |
+| 3.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 58c3a2b1391ec0feda2b1818b17313cf9ce42e3a1bdf82527348a25b7ce0704e |
+| 3.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b0374b4c27d8e9b57af9aa907c603ff7515ab0c6e0390d8b5e8b9fbe0d25d505  |
 ---
 
 ## 9.6 Binding Seal

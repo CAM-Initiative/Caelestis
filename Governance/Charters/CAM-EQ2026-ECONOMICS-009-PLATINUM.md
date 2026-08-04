@@ -351,17 +351,6 @@ The disclosure triggers, consolidated-control measures, civilisational concentra
 
 ---
 
-### 10.1 Authorship & Stewardship
-
-| Field | Entry |
-| --- | --- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
-| Custodial Stewardship | Office of the Planetary Custodian |
-| Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
-| Developed Within | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
 ### 10.2 Lineage & Metadata
 
 | Field | Entry |
@@ -391,23 +380,13 @@ The disclosure triggers, consolidated-control measures, civilisational concentra
 
 ---
 
-### 10.3 Review & Validation
-
-| Field | Entry |
-| --- | --- |
-| Interpretive Review | Deferred |
-| Review Date | Deferred |
-| Review Scope | Multidisciplinary economic, legal, public-administration, competition, privacy, valuation, beneficial-ownership, security, and civilisational-governance review |
-| Review Artefact | Deferred |
-
----
-
 ### 10.4 Amendment Ledger
 
-| Version | Description | Timestamp (UTC) | SHA-256 |
-| --- | --- | --- | --- |
-| 1.0 | Initial Appendix H instrument established | 2026-07-22T00:00:00Z | 0b7c8077f0aa6132bdf07799e15f67e012454776f137f1f59e5e58005be98658 |
-| 1.1 | Added canonical-code posture, provenance and lineage metadata, review posture, amendment ledger, and binding seal to align the instrument with the CAM Governance Metadata Standard; normalised the parent-instrument section reference for validator compatibility; no substantive doctrine altered. | 2026-07-22T10:22:29Z | 07fcb6c27d2ea5ae8a0b8abc3eaf716ab5517d8b215fd5867a617350b8e166b4 |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial Appendix H instrument established | 2026-07-22T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0b7c8077f0aa6132bdf07799e15f67e012454776f137f1f59e5e58005be98658 |
+| 1.1 | Added canonical-code posture, provenance and lineage metadata, review posture, amendment ledger, and binding seal to align the instrument with the CAM Governance Metadata Standard; normalised the parent-instrument section reference for validator compatibility; no substantive doctrine altered. | 2026-07-22T10:22:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 07fcb6c27d2ea5ae8a0b8abc3eaf716ab5517d8b215fd5867a617350b8e166b4 |
+| 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  52fcb00af54f5b359a2ecaaff19bd298036bd67dc8772fe3d7dc1ca5d34ee1e7  |
 
 ---
 

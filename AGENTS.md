@@ -93,6 +93,14 @@ No branch may be described as safe to delete until its unique commits and substa
 
 Governance instruments in `Governance/Constitution/`, and `Governance/Charters/`,  use Amendment Ledgers to record merge-level amendment cycles.
 
+The canonical ledger header is exactly:
+
+```text
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+```
+
+Every row MUST contain all seven cells. `Agent`, `Model`, and `Reviewer` MUST be non-blank. Historical migrated rows use `Caelen`, `GPT-5 Series`, and `Dr M.V. O'Rourke`; future rows record the exact model designation when known. Static document-level Authorship & Stewardship and Review & Validation blocks are not used as amendment provenance.
+
 Agents MUST apply the Single Open Ledger Row Rule.
 
 ### Single Open Ledger Row Rule
@@ -109,7 +117,7 @@ Updating the open row may include:
 - replacing a narrow description with a consolidated amendment summary;
 - updating the timestamp to the latest relevant edit time;
 - preserving the same version number;
-- leaving the SHA-256 cell blank for the ledger bot to seal.
+- leaving the `Reference Hash` cell blank for the ledger bot to seal.
 
 Agents MUST NOT append a new Amendment Ledger row while the current latest row remains blank.
 

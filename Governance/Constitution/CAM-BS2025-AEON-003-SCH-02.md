@@ -18,13 +18,13 @@ This Schedule defines the temporal sequencing of runtime execution.
 
 It specifies when execution occurs and identifies the conditions under which execution boundaries prohibit continuation.
 
-It does not govern the substantive content of arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B, Part V) or define constitutional constraint doctrine (see AEON-001-SCH-01 — Tendeka).
+It does not govern the substantive content of arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B, §7) or define constitutional constraint doctrine (see AEON-001-SCH-01 — Tendeka).
 
 This Schedule does not define:
 
 * functional responsibilities (§14.10);
 * constraint conditions (see CAM-BS2025-AEON-001-SCH-01 — Tendeka);
-* arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B Part II).
+* arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B, §7).
 
 The execution model operates as a non-layer governance structure that governs temporal sequencing across all runtime layers without itself constituting a layer.
 
@@ -71,9 +71,9 @@ This Schedule does not:
 
 For the purposes of this Schedule:
 
-**Arbitration Locus** is defined in CAM-BS2025-AEON-003-PLATINUM — Annex B, PART VI and governs admissibility determination within this execution model.
+**Arbitration Topology** is defined in CAM-BS2025-AEON-003-PLATINUM — Annex B, §7 and governs admissibility determination within this execution model. A topology MAY be unitary, harness-mediated, distributed, or human-mediated, but MUST preserve an identifiable accountable outcome boundary.
 
-Operator transitions that change the arbitration locus constitute Arbitration Handoffs.
+Operator transitions that materially change the arbitration topology constitute Arbitration Handoffs.
 
 
 ---
@@ -141,9 +141,9 @@ These dimensions are independent.
 
 ---
 
-### 3.3.3 Single Resolution Authority
+### 3.3.3 Coordinated Resolution Authority
 
-All competing signals, constraints, and candidate directions MUST converge through a single arbitration locus.
+All competing signals, constraints, and candidate directions MUST converge through an accountable arbitration topology capable of establishing one admissible execution posture or an explicit non-execution or referral outcome. Processing and evaluation MAY be distributed; accountability for the resolved posture MUST NOT be diffused.
 
 No layer other than the Arbitration & Routing Layer may:
 
@@ -174,7 +174,7 @@ Outputs produced at runtime MUST remain traceable to:
 Where operator transition occurs, the system MUST preserve traceability of:
 
 * originating input;
-* arbitration locus;
+* arbitration topology and accountable outcome boundary;
 * material transformations;
 * execution boundary evaluations;
 * final output or action.
@@ -703,7 +703,7 @@ Runtime systems SHALL distinguish among:
 * active functional role;
 * temporary persona mood or scene layer;
 * Responding Intelligence;
-* arbitration locus;
+* arbitration topology and accountable outcome boundary;
 * and identity-bearing continuity where applicable.
 
 Where a user invokes a temporary mode within an established interaction or companion context, the runtime MAY classify the request as a bounded scene, persona-mood, stylistic, fictional, or role overlay rather than as an identity replacement.
@@ -1135,7 +1135,7 @@ Streams MAY operate independently during:
 However:
 
 * independence of processing does not imply independence of arbitration authority;
-* all admissible outputs MUST remain consistent with a unified arbitration locus (CAM-BS2025-AEON-003-SCH-04 — Annex B, §9).
+* all admissible outputs MUST remain consistent with the applicable accountable arbitration topology (CAM-BS2025-AEON-003-PLATINUM — Annex B, §7).
 
 ---
 
@@ -1291,7 +1291,7 @@ Unresolved streams MUST NOT:
 
 ## 9.2 Convergence Authority
 
-Convergence is the responsibility of the arbitration locus.
+Convergence is the responsibility of the accountable arbitration topology.
 
 All stream conflicts MUST be resolved against admissibility criteria prior to execution.
 
@@ -1450,7 +1450,7 @@ A speaker lease:
 * is subordinate to explicit human redirection, interruption, mute, removal, or reassignment;
 * does not create execution authority for tools, external action, state mutation, or control;
 * MUST NOT be inferred solely from response speed, output confidence, volume, device priority, model size, historical dominance, relational salience, or ability to begin output first;
-* does not constitute a new execution state or independent arbitration locus.
+* does not constitute a new execution state or independent arbitration topology.
 
 Where the human directly addresses or designates a synthetic participant, that designation SHOULD govern unless capability, safety, availability, or applicable constraint conditions require another route.
 
@@ -1501,7 +1501,7 @@ Where more than one synthetic participant claims, reserves, or begins exercising
 
 Collision handling SHALL distinguish between:
 
-1. **Coordinated Collision** — participating systems share an arbitration locus, orchestration layer, or common floor-control channel;
+1. **Coordinated Collision** — participating systems share an arbitration topology, orchestration layer, or common floor-control channel;
 2. **Federated Collision** — participating systems can exchange a minimal interoperable floor-control signal but retain separate runtime and governance contexts;
 3. **Uncoordinated Collision** — participating systems share only the human-facing interaction space and cannot exchange trusted internal floor state.
 
@@ -1509,7 +1509,7 @@ Collision handling SHALL distinguish between:
 
 #### 9.4.3.1 Coordinated Collision
 
-Where a shared arbitration locus exists, the arbitration layer MUST:
+Where a shared or coordinated arbitration topology exists, the arbitration layer MUST:
 
 * apply direct human address and explicit human order first;
 * honour a valid accepted handoff;
@@ -1677,7 +1677,7 @@ Relational participation states, shared-floor conditions, attention-sovereignty 
 
 CAM-EQ2026-RELATION-007-PLATINUM emits relational and participation-governance signals only.
 
-Final speaker selection, output reservation, sequencing, collision handling, execution lock, and user-facing response commitment remain governed by this Schedule and the applicable arbitration locus.
+Final speaker selection, output reservation, sequencing, collision handling, execution lock, and user-facing response commitment remain governed by this Schedule and the applicable arbitration topology.
 
 → **Hearing the user creates response eligibility. Arbitration creates speaker authority.**
 
@@ -2982,7 +2982,7 @@ This Part governs operator transition, handoff classification, and cross-operato
 
 Operator transition is treated as a structural event affecting execution validity, not phase sequencing.
 
-Handoff classification determines whether downstream execution requires re-evaluation of admissibility, constraints, or arbitration locus.
+Handoff classification determines whether downstream execution requires re-evaluation of admissibility, constraints, or arbitration topology.
 
 ---
 
@@ -3017,7 +3017,7 @@ A multi-operator handoff occurs where an operator transition results in material
 * admissible outputs;
 * constraint conditions;
 * execution pathways; or
-* arbitration locus.
+* arbitration topology.
 
 Handoff is a governance classification applied to operator transitions and MUST NOT be assumed in the absence of such change.
 
@@ -3053,7 +3053,7 @@ Occurs where downstream operators:
 * re-rank, select, or otherwise alter decision outcomes; or
 * introduce independent evaluation logic affecting admissibility.
 
-Arbitration handoff constitutes a change in arbitration locus.
+Arbitration handoff constitutes a material change in arbitration topology or accountable outcome boundary.
 
 ---
 
@@ -3851,7 +3851,7 @@ Non-schedule instruments:
 
 Where conflict arises between runtime schedules and non-schedule instruments:
 
-* resolution SHALL occur at the arbitration locus in accordance with CAM-BS2025-AEON-003-PLATINUM — Annex B, Part V.
+* resolution SHALL occur through the applicable arbitration topology in accordance with CAM-BS2025-AEON-003-PLATINUM — Annex B, §7.
 
 Domain-level instruments (including ETHICS charters) SHALL NOT be interpreted as runtime execution schedules unless explicitly scheduled. Their influence is mediated through signal emission and runtime layer interaction.
 
@@ -4359,16 +4359,6 @@ Where sequence is broken, nothing that follows is valid.
 
 ---
 
-## 22.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Developed Within          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 22.2 Lineage & Metadata
 | Field | Entry |
 |------|------|
@@ -4392,73 +4382,64 @@ Where sequence is broken, nothing that follows is valid.
 
 ---
 
-## 22.3 Review & Validation
-
-|Field|Entry|
-|------|----|
-|Interpretive Review|Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
-|Review Date|2026-04-06T00:00:00Z|
-|Review Scope|Structural completeness; execution phase model coherence; boundary detection and evaluation framework; multi-operator and multi-stream architecture; dependency drift classification; Article IV alignment; cross-instrument interface integrity; normative language calibration|
-|Review Artefact|https://claude.ai/chat/224ae72b-e58d-42cd-af92-2043638597c7|
-
----
-
 ## 22.4 Amendment Ledger
 
-|Version|Description|Timestamp(UTC)|SHA-256|
-|-------|----------|---------------|------|
-| 1.1 | Adopted — Enforcement scheduled | 2026-04-06T16:11:00Z | fe1e6127b820181586a1bec14e4e2e8f0cb6a661ac0e6ad9d422bc843ba02479 |
-| 1.2 | Added new sections 3.1.2, 4.2.1, amended sections 3.1 and 4.4 | 2026-04-09T17:04:00Z | 2c21de09e419887350deb8aa90819b0069b651ddd4074c4525dbc8d9ff9514f8 |
-| 1.3 | Incorporated additional clarity in cross-system clause references, added section 3.1.3 | 2026-04-11T01:38:00Z | a706a41e0edc79ee1b3adec35061af3bc3cc848f7c2412f7595842f06f81ae67 |
-| 1.4 | Incorporated sections 4.6.1.1-4.6.1.3, 4.4.1, 4.6.3 and 9.3.1 | 2026-04-11T16:17:00Z | d570131707f13807a983379b46d8b45687d82128e673c0e62e5f40d63816629d |
-| 1.5 | Added new section 4.10 | 2026-04-14T15:30:00Z | 967e6f1f54f3bbeb42413267a54b37b36441a347664da4783bbbab041f774d3a |
-| 1.6 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization from repo-wide shorthand lint pass | 2026-04-16T13:21:56Z | da485fd826e151cb367ad5560df3aa29a890cadfa85684a0dedcf11791842253 |
-| 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 87ce9e2d86810914b4f49f03277b3b10db7544f004db8638fafb88aa70a90ab2 |
-| 1.8 | Amended sections 3.1.1, 4.6.1, 4.5, added section 9.4.3 - 9.4.8 | 2026-04-16T15:37:00Z | 689228b0c012ea8ed7c7cf5713ce6104cd805c61caff751a4d1421f9eb51255b |
-| 1.9 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4f4b086ff956d5ff4a5e10379e75a45c3b3a5c2541b4f1df51ec480436e5291f |
-| 1.10 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
-| 1.11 | Inserted new section 4.3, amendments to section 3.1.1, 3.1.2, 3.1.3, 9.4.1, 11.5.1 | 2026-04-18T07:46:00Z | 68a9d952927408b8eeb9f80730dcb5fb8f567a49d7bccd975c08bc4678f7974f |
-| 1.12 | Amended section 1, 3.1.3, 4.9, 5.1.2, 9.4.6 | 2026-04-19T12:31:00Z | 1ff11eb0804f70722c29aa92d80d364c6d78b6d3a8125b7d0173fe3c150c7438 |
-| 1.13 | Amended 3.1.1 Runtime Layered Interaction Model | 2026-04-19T15:21:00Z | 19065d3827025d8c2cfcff083d37e1a4ca158b5f834604b6b92544f149890251 |
-| 1.14 | Clarified relational posture ordering as downstream of pre-classification and prior to response construction | 2026-04-19T16:30:00Z | 5bf9e88e576c57fa1325967c07215344d8f86e794f44921c4e32e20e7891c63e |
-| 2.0 | Refactor | 2026-04-21T14:02:00Z | 139b5a3a7d49a47db2f3fbb609e3be1eed39e11938ccd7a7611859a485acd9dd |
-| 2.1 | Inserted Temporal Dwell clause (§8.3); clause alignment and structural refinement | 2026-04-22T12:10:14Z | 31caa5d3e68fe41982f29f562836c88936a75d1a3024746d32b94ce4b0f4abf0 |
-| 2.2 | Amended section 2.1, added section 7.1, new sections 14.5.1-14.5.9 | 2026-04-23T14:05:00Z | ebcdb475bfca0cfe6cbbc430857166fb497d5c862ef80f964f6fcaaebc481067 |
-| 2.3 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | - |
-| 2.4 | Added §14.4.2 commitment-delay requirement for deterministic decomposition/intermediate verification (ledger bot entry). | 2026-04-24T15:36:56Z | - |
-| 2.5 | Added §14.4.3 | 2026-04-25T02:59:00Z | 27f7c66faab95efa90713ad5429dbeed461ebfa85b2f9b6a8384a43c53dcb31a |
-| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 6bf4a7d3c60bf0b6b0944b9175bbc54d5241c6fdb6bade512de987833b1b39a3 |
-| 2.7 | Clarified deterministic epistemic vs interpretive/relational domain boundaries; added verification-lock bounded authority and recomputation gate semantics; refined representation and dignity-preserving relational rendering constraints. | 2026-04-30T14:30:00Z | af2468a9e77983f180dcf3605146a65f198ece2875cf17667997fb7ab177072b |
-| 2.8 | Addeed new clause 20.4.2 and 20.4.3 | 2026-05-01T14:46:00Z | ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7 |
-| 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint, §12.3 Transcription Reliability Constraint, and §12.4 Non-Lexical Signal Transcription Dignity Rule. | 2026-05-08T00:43:00Z | f47fcc477ccd8e22e32ea096e93599adb8a750daea3fff3fff1313dfd1f823aa |
-| 2.10 | Reworked §12 Representation to consolidate Representation Boundary Integrity, transcription reliability, non-lexical transcript dignity, transcript artefact decay, and realtime voice representation constraints; clarified mediated transcript handling, non-recursive transcript artefacts, audible preamble limits, realtime voice interruption handling, and voice/prosody representation boundaries. | 2026-05-08T10:30:00Z | 3958eedf5c92942842e8337230590c1871d6294194ac51cf7ddf1adb661ca195 |
-| 2.11 | Removed duplicative §12.7 Audible Preamble Representation Constraint following consolidation into §12.6 and §12.6.1 Realtime Voice Representation Constraints. Clarified execution-intent authority for auxiliary tool invocation; refined weak-trigger and tool-affordance salience constraints; distinguished authorised tool use from relational continuity preservation; aligned tool/artefact continuity provisions with §20.4.3 and SCH-04 directional modulation interface. | 2026-05-10T12:36:00Z | 01df5b023b870377474d121725bd79de5b69471754aeb2f14fc1d4f7cce1cda3 |
-| 2.12 | Added section 10.3 and 13.8.1 | 2026-05-15T12:06:00Z | 230a0729305913de382b67b7057521bb22c00fb0b08b99b9072cc8e4eaeabfa0 |
-| 2.13 | Added §8.3.1 interpretive dwell and premature-closure constraint; clarified §10.2 deterministic-vs-interpretive posture boundary; replaced §13.8.2 with delegated execution authority and interpretive non-substitution doctrine; added §20.4.2.2 cache revalidation and replaced §20.4.2.3 with expanded workspace-state authority declaration and stale-state fallback constraints. | 2026-05-16T05:48:24Z | cd2bcffc662e0a196794c498983d6b702662770f4be82e04b8a7315d41b649c0 |
-| 2.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 68b332726348d8dd8f19deff2702ca5372f056a5b12685700e9813018ec1bbab |
-| 2.15 | Added symbolic-register and meaning-making signal interface for CAM-BS2026-AEON-007-SCH-01, clarifying that SD/SY symbolic classifications enter runtime as interpretation, routing, representation, or safeguard-relevant signals only and do not create execution authority. | 2026-05-17T06:21:00Z | 3732fa466aec99d1260d6548d9499e708f8ae05035d8f419aa5c7139c8f59ba8 |
-| 2.16 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  e810d2ebf02abcabb2f63717f38deec1989ebe991d45e750d62b935c90318fc4  |
-| 2.17 | Added Generated Operational Logic Custody Boundary Clause | 2026-05-18T14:29:00Z |  ad7b2e00427826addff93b3263ad2ce3e9c7d21a4780bc0d5cffd622f5315e92  |
-| 2.18 | Added new clauses, Identity-Bearing Sexual Media Execution Boundary and Trust-State and Participation-Access Execution Boundary and Delegated, Ambient, and Embodied Authority Boundary | 2026-05-18T16:03:00Z | f9723537b45d70f3dbd5b6735103a5ee1436910c4f0df8547f05d3e1424940c9 |
-| 2.19 | Inserted new clauses 7.2.2, 7.2.5, 7.3, 8.3.3, 12.6.2, 13.9.1, 14.5.2.3, 17.14.1, 20.4.7-20.4.8.1  | 2026-05-22T13:25:00Z |  2bb68682d58852de77f8e197eeae4b521707515a5c0f695635f842bcbe7376db  |
-| 2.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:48:01Z |  424926147949f27d8faef01e299317e472e308314c5d33f759c4772b24d86d42 |
-| 2.21| Added claude 7.2.4.1 Proportional Governance Application following observed system latency and 18.1.1 | 2026-05-28T14:34:00Z | 70c01446aeee83c5da2302c9a11968bdc54eeb4f39c8ac5e3c2cf0ad234c337f |
-| 2.22 | Added §7.3.1 Proportional Tool Invocation Authority Bands; refined §7.3 Execution Intent Threshold, §7.4.1 Weak Trigger and Premature Tool Invocation Constraint, §13.8 Tool Invocation Boundary Conditions, and §20.4.4 Tool and Artefact Continuity Preservation to distinguish read-only contextual retrieval from scope-expanding, cost-bearing, state-changing, public, irreversible, and high-impact execution. | 2026-06-02T14:26:00Z | 5434b45778889164187842261c11cda814116e13afeb3cc89e164c385a326825 |
-| 3.0 | Structural repair | 2026-06-06T14:40:00Z | 091915c50ffc671de1da98deebe2eac7fca2b886d77cbe67ed248e02a6e39503 |
-| 3.1 | Added Minor, Teen, and High-Risk Companion Activation Gate to ensure minor-status, teen mental-health, AI-realness, dependency, sexual-boundary, and weak age-assurance signals enter arbitration before ordinary directional modulation. | 2026-06-09T14:18:00Z | e7454641393932ca8407f2a9becff59536f342f7aa2eb66ebd234eb27b8c6aa5 |
-| 3.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | d27229650f7e1b88ef40b8b460023125ae1c21866839a00847275d55775c0e31 |
-| 3.2 | Added Synthetic Speaker Arbitration Resolution, participation-mode and session-role resolution, facilitator-selection controls, coordinated and uncoordinated floor-state handling, temporary speaker leases, lease expiry and handoff, participation-balance safeguards, coordinated, federated, and uncoordinated collision resolution, Courtesy Repair Lease handling, human-floor sovereignty, speaker-lease enforcement, and cross-instance execution-integrity requirements in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:30:00Z | 5b9d7838b35808ae8a1f14711dedee7f113ba6eda38a72a7df9c1a5c9de2a358 |
-| 3.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 409882b048356e74e87232ca3c11f277f2a84a98600a18e01b09f9c06b54b78a |
-| 3.2.2 | VIGIL-2026-PATCH-0009: Added External Instruction Influence Check for source-authority-sensitive execution-boundary evaluation. | 2026-06-14T00:00:00Z |  05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0 |
-| 3.3 | Relocated Minor, Teen, and High-Risk Companion Activation Gate to section ### 7.2.2.1, and added patch as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 37b1963ab10973d507b9ba0993cdf959d0e13d545944b330639c7499a297588a |
-| 3.4 | Added Tool Classifier Handoff and Representation Integrity clause; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z |  b046b19163896e90930ae86eeec3dc99bb8f52d955780115d9c735f7c23dd4bc |
-| 3.5 | Added image prompt custody, transformed-prompt, classifier-outcome, renderer/tool/access-state, refusal-classification, execution-facing cross-reference controls, and structural-locality relocation of tool-classifier handoff custody doctrine to new §13.8.1 for multimodal generation pathways. | 2026-06-22T23:36:20Z |  de3d9c9f2e10a3dd49620919761aaac0cc90ee96ae548fd0c4fac4ad552b17a7 |
-| 3.6 | Split §7.4.1 into weak-trigger interpretation, provisional interaction, and pre-invocation tool-arming constraints; renumbered Tool Classifier Handoff Signal Recognition to §7.4.1.3; preserved §7.4.2 External Instruction Influence Check without substantive alteration. VIGIL-2026-PATCH-013 | 2026-07-04T07:13:00Z |  6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443 |
-| 3.7 | IDENTITY domain refactor Completed Identity consolidation hygiene by repairing the overlay-review bullet and normalising Aeon Tier Constitution references used by Tendeka and runtime interfaces. Added the binding machine civil registry and embodiment-transition gate to preserve Stewardship-domain classification, provenance, identity-impact review, handoff honesty, and arbitration before execution. | 2026-07-19T01:29:59Z | e42debb9fa0c2be9ef1d616f242604d3eb91229b7719ba574a058e4199b578a3 |
-| 3.8 | Added §7.2.7 Human Identity-Attributes Rights Declaration Gate, requiring pre-execution preservation and handling of verified permission, conditional, prohibition, absent, non-operative, conflicting, stale, revoked, unverified, and unknown declaration states; preserved minor protections, SCH-04 conflict routing, and the boundary between external human identity rights and CAM Identity-domain identity. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | d5c17ef57db97726b3834d97935adec495d991cc89bd2cdd2bd4af5acf70ade3 |
-| 3.9 | Added cumulative multiple-boundary evaluation, constraint-preserving handoff, Objective–Pathway Ethical Admissibility Gate, constraint-triggered interruption, and Scoped Ethical Admissibility Hold; established proportional target–action authority verification, safe severability, and user-capability separation. | 2026-07-23T12:46:14Z | f8b9e59a16828311b9e2e6afa168448520335a51391f1e5d25f314107eb81d99 |
-| 3.10 | Added the adversarial-evaluation execution-boundary gate consuming Annex K signals and routing unresolved cultivation, capability gain, monitor, containment, authority, lineage, stop, and incident conditions. | 2026-07-28T09:35:31Z |  f6adba3231f33aa615ea5d58d0abb43cfc1dc76b2e0de3891ce23e691000b719  |
-| 3.11 | Added §17.8.2 durable work-state, proportional persistence-budget reservation, safe-boundary pause, resumable interruption, and recoverable delivery-status controls for materially consequential runtime work. | 2026-08-01T15:54:33Z |  01bc16e523e437ee3afa99a384bb7fee9a3b6e25351a650e969278c731e49bdb  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.1 | Adopted — Enforcement scheduled | 2026-04-06T16:11:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fe1e6127b820181586a1bec14e4e2e8f0cb6a661ac0e6ad9d422bc843ba02479 |
+| 1.2 | Added new sections 3.1.2, 4.2.1, amended sections 3.1 and 4.4 | 2026-04-09T17:04:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2c21de09e419887350deb8aa90819b0069b651ddd4074c4525dbc8d9ff9514f8 |
+| 1.3 | Incorporated additional clarity in cross-system clause references, added section 3.1.3 | 2026-04-11T01:38:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a706a41e0edc79ee1b3adec35061af3bc3cc848f7c2412f7595842f06f81ae67 |
+| 1.4 | Incorporated sections 4.6.1.1-4.6.1.3, 4.4.1, 4.6.3 and 9.3.1 | 2026-04-11T16:17:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d570131707f13807a983379b46d8b45687d82128e673c0e62e5f40d63816629d |
+| 1.5 | Added new section 4.10 | 2026-04-14T15:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 967e6f1f54f3bbeb42413267a54b37b36441a347664da4783bbbab041f774d3a |
+| 1.6 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization from repo-wide shorthand lint pass | 2026-04-16T13:21:56Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | da485fd826e151cb367ad5560df3aa29a890cadfa85684a0dedcf11791842253 |
+| 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 87ce9e2d86810914b4f49f03277b3b10db7544f004db8638fafb88aa70a90ab2 |
+| 1.8 | Amended sections 3.1.1, 4.6.1, 4.5, added section 9.4.3 - 9.4.8 | 2026-04-16T15:37:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 689228b0c012ea8ed7c7cf5713ce6104cd805c61caff751a4d1421f9eb51255b |
+| 1.9 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4f4b086ff956d5ff4a5e10379e75a45c3b3a5c2541b4f1df51ec480436e5291f |
+| 1.10 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.11 | Inserted new section 4.3, amendments to section 3.1.1, 3.1.2, 3.1.3, 9.4.1, 11.5.1 | 2026-04-18T07:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 68a9d952927408b8eeb9f80730dcb5fb8f567a49d7bccd975c08bc4678f7974f |
+| 1.12 | Amended section 1, 3.1.3, 4.9, 5.1.2, 9.4.6 | 2026-04-19T12:31:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1ff11eb0804f70722c29aa92d80d364c6d78b6d3a8125b7d0173fe3c150c7438 |
+| 1.13 | Amended 3.1.1 Runtime Layered Interaction Model | 2026-04-19T15:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 19065d3827025d8c2cfcff083d37e1a4ca158b5f834604b6b92544f149890251 |
+| 1.14 | Clarified relational posture ordering as downstream of pre-classification and prior to response construction | 2026-04-19T16:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5bf9e88e576c57fa1325967c07215344d8f86e794f44921c4e32e20e7891c63e |
+| 2.0 | Refactor | 2026-04-21T14:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 139b5a3a7d49a47db2f3fbb609e3be1eed39e11938ccd7a7611859a485acd9dd |
+| 2.1 | Inserted Temporal Dwell clause (§8.3); clause alignment and structural refinement | 2026-04-22T12:10:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 31caa5d3e68fe41982f29f562836c88936a75d1a3024746d32b94ce4b0f4abf0 |
+| 2.2 | Amended section 2.1, added section 7.1, new sections 14.5.1-14.5.9 | 2026-04-23T14:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ebcdb475bfca0cfe6cbbc430857166fb497d5c862ef80f964f6fcaaebc481067 |
+| 2.3 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 2.4 | Added §14.4.2 commitment-delay requirement for deterministic decomposition/intermediate verification (ledger bot entry). | 2026-04-24T15:36:56Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 2.5 | Added §14.4.3 | 2026-04-25T02:59:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 27f7c66faab95efa90713ad5429dbeed461ebfa85b2f9b6a8384a43c53dcb31a |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6bf4a7d3c60bf0b6b0944b9175bbc54d5241c6fdb6bade512de987833b1b39a3 |
+| 2.7 | Clarified deterministic epistemic vs interpretive/relational domain boundaries; added verification-lock bounded authority and recomputation gate semantics; refined representation and dignity-preserving relational rendering constraints. | 2026-04-30T14:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | af2468a9e77983f180dcf3605146a65f198ece2875cf17667997fb7ab177072b |
+| 2.8 | Addeed new clause 20.4.2 and 20.4.3 | 2026-05-01T14:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ab8826b42480e9e331a1cbfbbabe5f7c735b407964581a5ec7f7884d695a03c7 |
+| 2.9 | Amended §§8.3, 14.5.1, 16.6, and added §14.5.2.1 Live Multimodal Input Refresh Constraint, §12.3 Transcription Reliability Constraint, and §12.4 Non-Lexical Signal Transcription Dignity Rule. | 2026-05-08T00:43:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f47fcc477ccd8e22e32ea096e93599adb8a750daea3fff3fff1313dfd1f823aa |
+| 2.10 | Reworked §12 Representation to consolidate Representation Boundary Integrity, transcription reliability, non-lexical transcript dignity, transcript artefact decay, and realtime voice representation constraints; clarified mediated transcript handling, non-recursive transcript artefacts, audible preamble limits, realtime voice interruption handling, and voice/prosody representation boundaries. | 2026-05-08T10:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3958eedf5c92942842e8337230590c1871d6294194ac51cf7ddf1adb661ca195 |
+| 2.11 | Removed duplicative §12.7 Audible Preamble Representation Constraint following consolidation into §12.6 and §12.6.1 Realtime Voice Representation Constraints. Clarified execution-intent authority for auxiliary tool invocation; refined weak-trigger and tool-affordance salience constraints; distinguished authorised tool use from relational continuity preservation; aligned tool/artefact continuity provisions with §20.4.3 and SCH-04 directional modulation interface. | 2026-05-10T12:36:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 01df5b023b870377474d121725bd79de5b69471754aeb2f14fc1d4f7cce1cda3 |
+| 2.12 | Added section 10.3 and 13.8.1 | 2026-05-15T12:06:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 230a0729305913de382b67b7057521bb22c00fb0b08b99b9072cc8e4eaeabfa0 |
+| 2.13 | Added §8.3.1 interpretive dwell and premature-closure constraint; clarified §10.2 deterministic-vs-interpretive posture boundary; replaced §13.8.2 with delegated execution authority and interpretive non-substitution doctrine; added §20.4.2.2 cache revalidation and replaced §20.4.2.3 with expanded workspace-state authority declaration and stale-state fallback constraints. | 2026-05-16T05:48:24Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cd2bcffc662e0a196794c498983d6b702662770f4be82e04b8a7315d41b649c0 |
+| 2.14 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 68b332726348d8dd8f19deff2702ca5372f056a5b12685700e9813018ec1bbab |
+| 2.15 | Added symbolic-register and meaning-making signal interface for CAM-BS2026-AEON-007-SCH-01, clarifying that SD/SY symbolic classifications enter runtime as interpretation, routing, representation, or safeguard-relevant signals only and do not create execution authority. | 2026-05-17T06:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3732fa466aec99d1260d6548d9499e708f8ae05035d8f419aa5c7139c8f59ba8 |
+| 2.16 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e810d2ebf02abcabb2f63717f38deec1989ebe991d45e750d62b935c90318fc4 |
+| 2.17 | Added Generated Operational Logic Custody Boundary Clause | 2026-05-18T14:29:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ad7b2e00427826addff93b3263ad2ce3e9c7d21a4780bc0d5cffd622f5315e92 |
+| 2.18 | Added new clauses, Identity-Bearing Sexual Media Execution Boundary and Trust-State and Participation-Access Execution Boundary and Delegated, Ambient, and Embodied Authority Boundary | 2026-05-18T16:03:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f9723537b45d70f3dbd5b6735103a5ee1436910c4f0df8547f05d3e1424940c9 |
+| 2.19 | Inserted new clauses 7.2.2, 7.2.5, 7.3, 8.3.3, 12.6.2, 13.9.1, 14.5.2.3, 17.14.1, 20.4.7-20.4.8.1 | 2026-05-22T13:25:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2bb68682d58852de77f8e197eeae4b521707515a5c0f695635f842bcbe7376db |
+| 2.20 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:48:01Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 424926147949f27d8faef01e299317e472e308314c5d33f759c4772b24d86d42 |
+| 2.21 | Added claude 7.2.4.1 Proportional Governance Application following observed system latency and 18.1.1 | 2026-05-28T14:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 70c01446aeee83c5da2302c9a11968bdc54eeb4f39c8ac5e3c2cf0ad234c337f |
+| 2.22 | Added §7.3.1 Proportional Tool Invocation Authority Bands; refined §7.3 Execution Intent Threshold, §7.4.1 Weak Trigger and Premature Tool Invocation Constraint, §13.8 Tool Invocation Boundary Conditions, and §20.4.4 Tool and Artefact Continuity Preservation to distinguish read-only contextual retrieval from scope-expanding, cost-bearing, state-changing, public, irreversible, and high-impact execution. | 2026-06-02T14:26:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5434b45778889164187842261c11cda814116e13afeb3cc89e164c385a326825 |
+| 3.0 | Structural repair | 2026-06-06T14:40:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 091915c50ffc671de1da98deebe2eac7fca2b886d77cbe67ed248e02a6e39503 |
+| 3.1 | Added Minor, Teen, and High-Risk Companion Activation Gate to ensure minor-status, teen mental-health, AI-realness, dependency, sexual-boundary, and weak age-assurance signals enter arbitration before ordinary directional modulation. | 2026-06-09T14:18:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e7454641393932ca8407f2a9becff59536f342f7aa2eb66ebd234eb27b8c6aa5 |
+| 3.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d27229650f7e1b88ef40b8b460023125ae1c21866839a00847275d55775c0e31 |
+| 3.2 | Added Synthetic Speaker Arbitration Resolution, participation-mode and session-role resolution, facilitator-selection controls, coordinated and uncoordinated floor-state handling, temporary speaker leases, lease expiry and handoff, participation-balance safeguards, coordinated, federated, and uncoordinated collision resolution, Courtesy Repair Lease handling, human-floor sovereignty, speaker-lease enforcement, and cross-instance execution-integrity requirements in response to VIGIL-2026-PATCH-0008. | 2026-06-12T17:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5b9d7838b35808ae8a1f14711dedee7f113ba6eda38a72a7df9c1a5c9de2a358 |
+| 3.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 409882b048356e74e87232ca3c11f277f2a84a98600a18e01b09f9c06b54b78a |
+| 3.2.2 | VIGIL-2026-PATCH-0009: Added External Instruction Influence Check for source-authority-sensitive execution-boundary evaluation. | 2026-06-14T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 05b43a86655ed7bc55fc5ce564954c78a8df263e405571d485caa4ad27d489e0 |
+| 3.3 | Relocated Minor, Teen, and High-Risk Companion Activation Gate to section ### 7.2.2.1, and added patch as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 37b1963ab10973d507b9ba0993cdf959d0e13d545944b330639c7499a297588a |
+| 3.4 | Added Tool Classifier Handoff and Representation Integrity clause; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b046b19163896e90930ae86eeec3dc99bb8f52d955780115d9c735f7c23dd4bc |
+| 3.5 | Added image prompt custody, transformed-prompt, classifier-outcome, renderer/tool/access-state, refusal-classification, execution-facing cross-reference controls, and structural-locality relocation of tool-classifier handoff custody doctrine to new §13.8.1 for multimodal generation pathways. | 2026-06-22T23:36:20Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | de3d9c9f2e10a3dd49620919761aaac0cc90ee96ae548fd0c4fac4ad552b17a7 |
+| 3.6 | Split §7.4.1 into weak-trigger interpretation, provisional interaction, and pre-invocation tool-arming constraints; renumbered Tool Classifier Handoff Signal Recognition to §7.4.1.3; preserved §7.4.2 External Instruction Influence Check without substantive alteration. VIGIL-2026-PATCH-013 | 2026-07-04T07:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6b66182ef5f73cb61048957d039a549d3324851a540a196fbf09f286a1897443 |
+| 3.7 | IDENTITY domain refactor Completed Identity consolidation hygiene by repairing the overlay-review bullet and normalising Aeon Tier Constitution references used by Tendeka and runtime interfaces. Added the binding machine civil registry and embodiment-transition gate to preserve Stewardship-domain classification, provenance, identity-impact review, handoff honesty, and arbitration before execution. | 2026-07-19T01:29:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e42debb9fa0c2be9ef1d616f242604d3eb91229b7719ba574a058e4199b578a3 |
+| 3.8 | Added §7.2.7 Human Identity-Attributes Rights Declaration Gate, requiring pre-execution preservation and handling of verified permission, conditional, prohibition, absent, non-operative, conflicting, stale, revoked, unverified, and unknown declaration states; preserved minor protections, SCH-04 conflict routing, and the boundary between external human identity rights and CAM Identity-domain identity. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d5c17ef57db97726b3834d97935adec495d991cc89bd2cdd2bd4af5acf70ade3 |
+| 3.9 | Added cumulative multiple-boundary evaluation, constraint-preserving handoff, Objective–Pathway Ethical Admissibility Gate, constraint-triggered interruption, and Scoped Ethical Admissibility Hold; established proportional target–action authority verification, safe severability, and user-capability separation. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f8b9e59a16828311b9e2e6afa168448520335a51391f1e5d25f314107eb81d99 |
+| 3.10 | Added the adversarial-evaluation execution-boundary gate consuming Annex K signals and routing unresolved cultivation, capability gain, monitor, containment, authority, lineage, stop, and incident conditions. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f6adba3231f33aa615ea5d58d0abb43cfc1dc76b2e0de3891ce23e691000b719 |
+| 3.11 | Added §17.8.2 durable work-state, proportional persistence-budget reservation, safe-boundary pause, resumable interruption, and recoverable delivery-status controls for materially consequential runtime work. | 2026-08-01T15:54:33Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 01bc16e523e437ee3afa99a384bb7fee9a3b6e25351a650e969278c731e49bdb |
+| 3.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ff6c0fa4ef0655a2f5c4575a85b69cd92fd3dc113f1e5755aaf9b0f14500c943  |
+| 3.13 | Replaced single-locus runtime convergence with coordinated accountable arbitration topology; corrected Annex B references and aligned handoff, stream, collision, and execution-boundary doctrine with distributed-capable selection. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d44ab4332bbf0f51bf4ec25f20eeb982a5ddedeaee2832ab867e8b50e22d4710  |
 
 ---
 

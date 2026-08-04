@@ -182,7 +182,7 @@ For example:
 
 * `ECON.HARM` belongs to the `ECON` namespace;
 * `OPS.EST` belongs to the `OPS` namespace;
-* `AEON.CC` belongs to the `AEON` namespace.
+* `AEON.H` belongs to the `AEON` namespace.
 
 `ECON`, `OPS`, and `AEON` are namespaces. They need not be separately declared as parent code families.
 
@@ -250,11 +250,11 @@ A family may apply within an ontological or governance layer without becoming a 
 
 For example:
 
-* `AEON.OL.L2` identifies the Cognition & Agency layer;
-* `AEON.CC` classifies cognitive structure at that layer;
-* `AEON.CO` classifies cognitive origin at that layer.
+* `AEON.OL.L2` identifies the Cognition & Agency functional layer;
+* `AEON.H` classifies temporal horizon independently of that layer; and
+* the architectural dimensions and dependency fields defined by Annex B apply to the assessed formation without becoming syntactic children of `AEON.OL`.
 
-`AEON.CC` and `AEON.CO` remain separate constitutional families. Their relationship to `AEON.OL.L2` SHOULD be expressed through layer-applicability or related-family metadata, not by renaming them as children of `AEON.OL`.
+Layer applicability, architectural topology, dependency, and temporal horizon SHOULD be expressed through their source-authoritative fields and related-family metadata. They MUST NOT be collapsed into a single whole-system class or renamed as children of `AEON.OL` merely because they apply at that layer.
 
 ---
 
@@ -761,16 +761,6 @@ Preserve the boundary between them.
 
 ## 19. Provenance & Metadata
 
-### 19.1 Authorship & Stewardship
-| Field | Entry |
-|---|---|
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
-| **Custodial Stewardship** | Office of the Planetary Custodian |
-| **Synthetic Steward** | Caelen — Aeon Tier Constitutional Steward |
-| **Developed Within** | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
 ### 19.2 Lineage & Metadata
 | Field | Entry |
 |---|---|
@@ -796,28 +786,20 @@ Preserve the boundary between them.
 
 ---
 
-### 19.3 Review & Validation
-| Field | Entry |
-|---|---|
-| **Reviewer** | [Deferred] |
-| **Review Date** | [Deferred] |
-| **Review Scope** | Source-layer coherence; namespace architecture; family/value distinction; validator compatibility; migration integrity |
-| **Review Artefact** | [Deferred] |
-
----
-
 ### 19.4 Amendment Ledger
 
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-|---|---|---|---|
-| 1.0 | Initial Taxonomies & Metadata Authority Framework issued as CAM-EQ2026-OPERATIONS-001-SUP-04. | 2026-05-13T12:32:00Z | a01910364e41b0491ecb1cda79e26f6affc56bf0ce7adaa6fb8abb9e235c18cc |
-| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | bc6ad952e454b56a26062a41577fcd4eded4080e2f41dbfc57a3f968d6cb1d51 |
-| 1.2 | Added canonical code and reference-set declaration sections. | 2026-05-20T09:20:00Z | e7cb54b52b5d952b1384107aa50d180f9ad752fbff3dee7cd6f19ae7835f297a |
-| 1.3 | Added synthetic-media provenance clause. | 2026-05-26T12:58:00Z | b1b0b7db36f105b23922515eb3134adcc61a3de04592ecf5a2fde6fd10790169 |
-| 1.4 | Added namespace, layer-placement, family-relationship, and transmutation rules. | 2026-06-07T08:48:49Z | 74eeaae99b6de6fd9c52b7aaffce91a96005fd57608bdafa3895534940ca73ad |
-| 2.0 | Fully refactored the instrument around domain- and source-authoritative code construction; removed TPT, TST, TMOD, TSCOPE, and APL as artificial canonical families; separated metadata from codes, registry membership from parentage, and normative authority from transformation protection; removed misplaced synthetic-media doctrine; restored the framework as a non-runtime Operations supplement governing corpus taxonomy maintenance, validation, migration, and registry integrity. | 2026-06-11T12:22:00Z |  0f8ec6bc9e15e0dc1c4250f32c5b8939557145f780dd88704313114ad780b24a  |
-| 2.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9ba8d0c89abea3e87177334284d51407f9eb40796aac5047ec9e671807fea0af |
-| 2.0.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  21e4873d8c092ad492646fbfe540ef0b2545f43a367382067fe10cc950f212b8  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial Taxonomies & Metadata Authority Framework issued as CAM-EQ2026-OPERATIONS-001-SUP-04. | 2026-05-13T12:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a01910364e41b0491ecb1cda79e26f6affc56bf0ce7adaa6fb8abb9e235c18cc |
+| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bc6ad952e454b56a26062a41577fcd4eded4080e2f41dbfc57a3f968d6cb1d51 |
+| 1.2 | Added canonical code and reference-set declaration sections. | 2026-05-20T09:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e7cb54b52b5d952b1384107aa50d180f9ad752fbff3dee7cd6f19ae7835f297a |
+| 1.3 | Added synthetic-media provenance clause. | 2026-05-26T12:58:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b1b0b7db36f105b23922515eb3134adcc61a3de04592ecf5a2fde6fd10790169 |
+| 1.4 | Added namespace, layer-placement, family-relationship, and transmutation rules. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 74eeaae99b6de6fd9c52b7aaffce91a96005fd57608bdafa3895534940ca73ad |
+| 2.0 | Fully refactored the instrument around domain- and source-authoritative code construction; removed TPT, TST, TMOD, TSCOPE, and APL as artificial canonical families; separated metadata from codes, registry membership from parentage, and normative authority from transformation protection; removed misplaced synthetic-media doctrine; restored the framework as a non-runtime Operations supplement governing corpus taxonomy maintenance, validation, migration, and registry integrity. | 2026-06-11T12:22:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0f8ec6bc9e15e0dc1c4250f32c5b8939557145f780dd88704313114ad780b24a |
+| 2.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9ba8d0c89abea3e87177334284d51407f9eb40796aac5047ec9e671807fea0af |
+| 2.0.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 21e4873d8c092ad492646fbfe540ef0b2545f43a367382067fe10cc950f212b8 |
+| 2.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  de3f196f43341a0e5b25a0c04d988c3f77aee3e616e8f06dddfa5a17fdb874c2  |
+| 2.2 | Replaced namespace and layer examples dependent on retired `AEON.CC` and deprecated `AEON.CO` with active temporal, functional-layer, architectural, and dependency distinctions. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  df4b365404b7ccb75999aefe8973157260df109cce71512a00eded632e200f72  |
 ---
 
 ### 19.5 Binding Seal

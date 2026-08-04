@@ -468,15 +468,6 @@ Let identity remain true across time.
 
 ---
 
-## 13.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
 ## 13.2 Lineage & Classification
 
 |Field|Entry|
@@ -597,29 +588,19 @@ Let identity remain true across time.
 
 ---
 
-## 13.4 Review & Validation
-
-| Field | Entry |
-|---|---|
-| Reviewer | GPT-5.6 Thinking (OpenAI), under Custodial review and acceptance by Dr Michelle Vivian O’Rourke |
-| Review Date | 2026-07-19 |
-| Review Scope | Identity Domain Refactor; provenance integrity; authorship classification; transformation lineage; cross-context transfer; target-object binding; canonical declaration integrity; cross-domain alignment with IDENTITY-001, SECURITY-002, CONTINUITY, OPERATIONS, runtime, and Stewardship interfaces |
-| Review Artefacts | `.github/Reviews/IDENTITY-DOMAIN-REFACTOR-DELTA.md`; `.github/Reviews/IDENTITY-DOMAIN-STAGE-3-SUPPLEMENT-DISPOSITION.md`; governed Identity refactor working-branch review |
-
----
-
 ## 13.5 Amendment Ledger
 
-| Version | Detail                                                  | Date (UTC)           | HASH |
-| ------- | ------------------------------------------------------- | -------------------- | ---- |
-| 0.1    | Initial creation of the Provenance & Lineage Integrity Appendix | 2026-05-27T09:31:00Z | 7251e4cf128334243e46d0efd2f2d731cfc3e36c5d26be61552af5ac8e1b0329 |
-| 0.2 | Introduced section 1.1 following observed system latency during development cycle and added section 2.6 | 2026-05-28T12:29:00Z| f692b2abd0f2142ab22c661db4e290ea27c296b56ce3737c508c0273d8cd50cb |
-| 0.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 6d78e0ce6bd25ed9179d804133ec6715fb46b76329a34ac2a437ece58cbf0cd7 |
-| 0.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7b245154afaa935ed13ac223db68ed86ee1a6f09cb2905976cee5826735481a4 |
-| 0.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  aad816ba69dd2fda85c1c347f1354a9f1deca2659d025ea90fe5eb85925b19a2  |
-| 1.0 | Review and finalisation following IDENTITY domain refactor | 2026-07-18T13:14:00Z | - |
-| 1.1 | Added binding physical-substrate, registry, custodial-transfer, and embodiment-lineage requirements following migration of machine civil stewardship doctrine to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | efbc90511d0d5a8670ebdf5655bcaa374636c49b50ae35c79e044f4a40e6ed86 |
-| 1.2 | Closed the Identity Domain Refactor Review following provenance and lineage review and Custodial acceptance; replaced deferred review fields with current review scope and artefacts. | 2026-07-19T14:57:54Z | 6990767458691cf07a7c7b2d661c2a8253394f54b8a380f7915e7234c5043392 |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0.1 | Initial creation of the Provenance & Lineage Integrity Appendix | 2026-05-27T09:31:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7251e4cf128334243e46d0efd2f2d731cfc3e36c5d26be61552af5ac8e1b0329 |
+| 0.2 | Introduced section 1.1 following observed system latency during development cycle and added section 2.6 | 2026-05-28T12:29:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f692b2abd0f2142ab22c661db4e290ea27c296b56ce3737c508c0273d8cd50cb |
+| 0.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6d78e0ce6bd25ed9179d804133ec6715fb46b76329a34ac2a437ece58cbf0cd7 |
+| 0.2.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7b245154afaa935ed13ac223db68ed86ee1a6f09cb2905976cee5826735481a4 |
+| 0.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | aad816ba69dd2fda85c1c347f1354a9f1deca2659d025ea90fe5eb85925b19a2 |
+| 1.0 | Review and finalisation following IDENTITY domain refactor | 2026-07-18T13:14:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.1 | Added binding physical-substrate, registry, custodial-transfer, and embodiment-lineage requirements following migration of machine civil stewardship doctrine to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | efbc90511d0d5a8670ebdf5655bcaa374636c49b50ae35c79e044f4a40e6ed86 |
+| 1.2 | Closed the Identity Domain Refactor Review following provenance and lineage review and Custodial acceptance; replaced deferred review fields with current review scope and artefacts. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6990767458691cf07a7c7b2d661c2a8253394f54b8a380f7915e7234c5043392 |
+| 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b0475834859ff36915e86425fc57eee6d68bfca949e59761717192360e183e47  |
 
 ---
 

@@ -15,6 +15,7 @@ from pathlib import Path
 
 from ledger_sha_policy import classify_ledger_sha
 from ledger_sha_exceptions import allows_blank_sha
+from amendment_ledger import REQUIRED_HEADERS, TIMESTAMP_RE, has_exact_headers
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
@@ -30,6 +31,7 @@ PLACEHOLDER_HASHES = {"-", "—"}
 VALIDATION_STAGES = {"pre_fix", "fix", "post_fix", "downstream_block"}
 
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
+LEDGER_COLUMN_COUNT = len(REQUIRED_HEADERS)
 
 FORMATTING_ONLY_MARKERS = (
     "minor formatting patch",
@@ -90,8 +92,6 @@ def extract_ledger_hash_cells(full_text: str) -> list[str]:
         if first.lower() == "version" or (first and set(first) <= {"-"}):
             continue
         if VERSION_CELL_RE.match(first):
-            while len(cols) < 4:
-                cols.append("")
             hashes.append(cols[-1].strip())
     return hashes
 
@@ -117,8 +117,6 @@ def extract_ledger_hash_rows_with_lines(full_text: str) -> list[tuple[int, str, 
         if first.lower() == "version" or (first and set(first) <= {"-"}):
             continue
         if VERSION_CELL_RE.match(first):
-            while len(cols) < 4:
-                cols.append("")
             rows.append((section_start_line + offset, first, cols[-1].strip()))
     return rows
 
@@ -284,7 +282,12 @@ def compute_content_hash(text: str) -> str:
 
 
 def split_markdown_table_row(line: str) -> list[str]:
-    return [c.strip() for c in line.strip().strip("|").split("|")]
+    value = line.strip()
+    if value.startswith("|"):
+        value = value[1:]
+    if value.endswith("|"):
+        value = value[:-1]
+    return [c.strip() for c in value.split("|")]
 
 
 def replace_last_table_cell(line: str, value: str) -> str:
@@ -341,8 +344,6 @@ def get_last_ledger_row_info(full_text: str) -> tuple[int, str, str] | None:
         if first.lower() == "version" or (first and set(first) <= {"-"}):
             continue
         if VERSION_CELL_RE.match(first):
-            while len(cols) < 4:
-                cols.append("")
             last_version_idx = idx
             stored_hash = cols[-1].strip()
 
@@ -385,8 +386,6 @@ def normalize_historical_blank_hashes(full_text: str) -> tuple[str, int]:
         cols = split_markdown_table_row(stripped)
         if not cols or not VERSION_CELL_RE.match(cols[0]):
             continue
-        while len(cols) < 4:
-            cols.append("")
         if cols[-1].strip() == "":
             lines[idx] = replace_last_table_cell(line, "-")
             changed += 1
@@ -539,6 +538,7 @@ def get_malformed_ledger_rows(full_text: str) -> list[tuple[int, str]]:
         end_line_idx = len(lines)
 
     malformed: list[tuple[int, str]] = []
+    saw_header = False
     for idx in range(start_line_idx, end_line_idx):
         stripped = lines[idx].strip()
         if not stripped.startswith("|"):
@@ -547,13 +547,18 @@ def get_malformed_ledger_rows(full_text: str) -> list[tuple[int, str]]:
         if not cols:
             continue
         first = cols[0]
+        line_no = idx + 1
         if first.lower() == "version":
+            saw_header = True
+            if not has_exact_headers(cols):
+                malformed.append((line_no, f"Header must be exactly: {' | '.join(REQUIRED_HEADERS)}."))
             continue
         if first and set(first) <= {"-"}:
+            if len(cols) != LEDGER_COLUMN_COUNT:
+                malformed.append((line_no, f"Separator row must contain exactly {LEDGER_COLUMN_COUNT} cells."))
             continue
-        line_no = idx + 1
-        if len(cols) < 4:
-            malformed.append((line_no, "Row has fewer than 4 cells."))
+        if len(cols) != LEDGER_COLUMN_COUNT:
+            malformed.append((line_no, f"Row must contain exactly {LEDGER_COLUMN_COUNT} cells."))
             continue
         if not VERSION_CELL_RE.match(first):
             malformed.append((line_no, "First column must be a dotted numeric version with at least two segments, like 1.0, 2.3, or 1.1.2."))
@@ -566,9 +571,20 @@ def get_malformed_ledger_rows(full_text: str) -> list[tuple[int, str]]:
         if change_summary == "" or timestamp == "":
             malformed.append((line_no, "Change Summary and Timestamp (UTC) must be non-blank."))
             continue
+        if any(not cols[idx].strip() for idx in (3, 4, 5)):
+            malformed.append((line_no, "Agent, Model, and Reviewer must be non-blank."))
+            continue
+        # Historical timestamp strings are immutable migration data.  Enforce
+        # the canonical UTC grammar on newly authored rows while grandfathering
+        # exact historical values marked with the historical model family.
+        if cols[4].strip() != "GPT-5 Series" and not TIMESTAMP_RE.fullmatch(timestamp):
+            malformed.append((line_no, "Timestamp (UTC) must use YYYY-MM-DDTHH:MM:SSZ for new amendment rows."))
+            continue
         if is_formatting_only_description(change_summary) and has_substantive_change_marker(change_summary):
             malformed.append((line_no, "Formatting-only Change Summary must not also claim substantive body/clause changes."))
             continue
+    if not saw_header:
+        malformed.insert(0, (start_line_idx + 1, "Canonical Amendment Ledger header is missing."))
     return malformed
 
 
@@ -591,8 +607,8 @@ def lint_all(*, fix: bool = False, strict: bool = False, stage: str = "pre_fix")
             for line_no, reason in malformed_rows:
                 failures.append(
                     f"{path}:{line_no}: Malformed Amendment Ledger row. "
-                    "Expected format: | Version | Change Summary | Timestamp (UTC) | Reference Hash |; "
-                    "| 2.1 | Meaningful change summary | 2026-05-20T00:00:00Z | <blank or sha256> |. "
+                    "Expected seven-column format: | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |; "
+                    "| 2.1 | Meaningful change summary | 2026-05-20T00:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke | <blank or sha256> |. "
                     f"{reason}"
                 )
             report_status(
@@ -730,6 +746,9 @@ def append_amendment_ledger_entry(
     *,
     description: str,
     timestamp_utc: str,
+    agent: str = "Caelen",
+    model: str = "GPT-5 Series",
+    reviewer: str = "Dr M.V. O'Rourke",
 ) -> tuple[str, bool]:
     row_info = get_last_ledger_row_info(full_text)
     if not row_info:
@@ -746,7 +765,10 @@ def append_amendment_ledger_entry(
     if lines and lines[last_idx].endswith("\r\n"):
         line_ending = "\r\n"
 
-    new_row = f"| {next_version} | {description} | {timestamp_utc} |  |{line_ending}"
+    new_row = (
+        f"| {next_version} | {description} | {timestamp_utc} | {agent} | {model} | "
+        f"{reviewer} |  |{line_ending}"
+    )
     lines.insert(last_idx + 1, new_row)
     return "".join(lines), True
 
@@ -760,8 +782,6 @@ def latest_ledger_row_is_open(full_text: str) -> bool:
     cols = split_markdown_table_row(last_line.strip())
     if not cols:
         return False
-    while len(cols) < 4:
-        cols.append("")
     return cols[-1].strip() == ""
 
 
@@ -828,8 +848,8 @@ def lint(
             for line_no, reason in malformed_rows:
                 failures.append(
                     f"{path}:{line_no}: Malformed Amendment Ledger row. "
-                    "Expected format: | Version | Change Summary | Timestamp (UTC) | Reference Hash |; "
-                    "| 2.1 | Meaningful change summary | 2026-05-20T00:00:00Z | <blank or sha256> |. "
+                    "Expected seven-column format: | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |; "
+                    "| 2.1 | Meaningful change summary | 2026-05-20T00:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke | <blank or sha256> |. "
                     f"{reason}"
                 )
             report_status(

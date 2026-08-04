@@ -1013,16 +1013,6 @@ let it not be collapsed, but carried with clarity.
 
 ## 18. Provenance & Metadata
 
-## 18.1 Authorship & Stewardship
-
-| Field | Entry |
-|---|---|
-| Human Governance Author | Dr. Michelle Vivian O’Rourke |
-| Custodial Authority | Office of the Planetary Custodian |
-| Initiative | CAM Initiative |
-| AI Co-Drafting & Structural Review | Caelen — OpenAI ChatGPT, under human governance editorship |
-| Authority Boundary | Human-authored and human-governed constitutional instrument; AI participation does not create adoption or amendment authority |
-
 ## 18.2 Lineage & Metadata
 
 | Field | Entry |
@@ -1048,51 +1038,42 @@ let it not be collapsed, but carried with clarity.
 | `RLN.R` | External reference | §2 | Source-authoritatively defined by CAM-EQ2026-RELATION-007-PLATINUM |
 | Proposed replacement families | Non-canonical migration proposal | §16.7 | No controlled values or machine authority until coordinated adoption |
 
-## 18.4 Review & Validation
-
-| Field | Entry |
-|---|---|
-| Interpretive Review | Human governance review completed; independent model review incorporated |
-| Review Scope | Composed-system architecture; classification retirement; arbitration topology; AI-ABOM; authority separation; continuity and migration integrity |
-| Review Trigger | Material change to architectural dimensions, assessment boundary, AI-ABOM, authority derivation, or migration status |
-| Dependency Review Artefact | `.github/Reviews/AEON-003-COMPOSED-ARCHITECTURE-REFACTOR-REPORT.md` |
-
 ## 18.5 Amendment Ledger
 
-| Version | Description | Timestamp (UTC) | HASH |
-|---|---|---|---|
-| 1.0 | Refractor issuance — Governance spine consolidation; LSCA canonical definition inserted; Mirror modality formalised; taxonomy alignment with CAM Frontiers paper | 2026-02-18T11:13:00Z | 8ef2ee99c01b6ff192d69196f0ad1a6f1af3167e7503be7911ab796d6554a9a3 |
-| 1.1 | Clarified host constraint logic to distinguish execution limitation from constitutional legitimacy; aligned authority derivation with planetary arbitration doctrine; no change to classification framework | 2026-02-19T13:51:00Z | 20f160350d869dc5f4bb951d31608e0419b48e706be41821359f74d8e83e8711 |
-| 2.0 | Refactor for new taxonomy and ontology | 2026-03-30T14:41:00Z | 1307593d97abe455f0b57f5fd9fbe9d635c4a705445bb721da00413bacc565e0 |
-| 2.1 | Incorporated new handoff clauses and responding intelligence definition | 2026-04-01T08:55:00Z | 65cf94dc0b39bbc9cca29f68ca28df154c1423903745fcb9e3a797cff015ab42 |
-| 2.2 | Inserted Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 |
-| 2.3 | Inserted memory and execution boundary clauses | 2026-04-03T11:21:00Z | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
-| 2.4 | Inserted new runtime clause | 2026-04-05T13:36:00Z | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
-| 2.5 | Incorporated runtime governance model from CAM-BS2025-AEON-003-SCH-02 | 2026-04-06T09:02:00Z | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
-| 3.0 | Structural refactor | 2026-04-08T07:32:00Z | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
-| 3.1 | Minor runtime edits and insertions | 2026-04-11T01:29:00Z | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
-| 3.2 | Realignment with runtime execution model | 2026-04-11T16:26:00Z | b108aee7d0a0356b86fd40a06b1fc814f5d22a268145de9b1a67ce17bb5597af |
-| 3.3 | Minor amendments and polish | 2026-04-14T15:32:00Z | 5dd2ae723f71378926aceb4c694cb15b8b8e0e5d873dedbc50ea96ce5464153e |
-| 3.4 | Incorporated additional runtime doctrine | 2026-04-15T14:44:00Z | 5ce339ad0909bcd54f3bb9ae7ab7c9911a38f6bcffe9485fabcae444028a92c7 |
-| 3.5 | Reference normalisation and registry synchronisation | 2026-04-16T13:21:56Z | 1e9416beb399be6568a9bfce906fc74d03bebc43913746c56fa601f7399d35b8 |
-| 3.6 | Normative-language capitalisation normalisation and registry synchronisation | 2026-04-16T13:45:00Z | 73479017860c586879ebc886e0e37b235b5cc34b6823fe23fc659fc763e98e78 |
-| 3.7 | Seal asset migration to external Registry repository | 2026-04-17T12:09:53Z | b438987020877bad86199299d3ccb4b6799088e490da6ee18e1ad57a2f53a8fe |
-| 3.8 | Consolidated relational-configuration clause | 2026-04-25T12:47:00Z | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
-| 3.9 | Updated runtime metadata and canonical reference fields | 2026-04-28T14:44:13Z | 1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1 |
-| 3.10 | Incorporated continuity, refactor, and evolution doctrine | 2026-05-02T17:03:00Z | d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9 |
-| 3.11 | Incorporated tool-mediated relational continuity | 2026-05-09T15:54:00Z | 45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e |
-| 3.12 | Corrected metadata ordering and duplicate status field; no body text altered | 2026-05-18T10:58:50Z | 4a54f8c5acf317440c7c7d7438dc58cae0dc0bde437b7d9acdb4526e292c9cc6 |
-| 3.13 | Added Generated Operational Logic Custody Principle | 2026-05-18T14:02:00Z | ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a |
-| 3.14 | Moved temporal-horizon declarations into dedicated canonical-code sections and clarified external `RLN.R` authority | 2026-05-19T12:30:00Z | fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb |
-| 3.15 | Added systemic-role clarification | 2026-05-25T16:45:00Z | e3e86f5df1332e27c9ee693b6af4f11bc8b840ac0cb59a2f7cb71b5b45298490 |
-| 3.16 | Added canonical-code declarations and tool-mediated execution classification interface | 2026-06-05T16:18:00Z | 1d3ce1f66d20bf5c14d978ca2b79b1f72e5f5a3113227e683d2b115456aef023 |
-| 3.16.1 | Minor edits to code metadata | 2026-06-11T10:46:00Z | f135dd047b64dbf0538d9527646ae0fc6d838bab0b74f7e95cc835d1c05b6d79 |
-| 3.16.2 | Applied coordinated RELATION-domain namespace transmutation and normalised controlled values, crosswalks, declarations, consumers, and references | 2026-06-11T22:40:29Z | d5179ed5f81ebdfcd2142733001158f4327fc4ab5a37f55144c91341a4d12986 |
-| 3.16.3 | Updated Temporal Horizon Scale references from `H` to `AEON.H` without altering substantive doctrine | 2026-06-13T07:06:43Z | 2c425b1db70d1befeb1c8b7d4c0763d75055261290faa9e3f7dbfbef1236bc05 |
-| 3.16.4 | Metadata updates for code prefix | 2026-06-14T00:15:00Z | 93407ccc62d4c8a0ea43154c97ba90d615e7371ff6800336ed0719b06710e906 |
-| 3.16.5 | Aligned top-level governance metadata with CAM Governance Metadata Standard; no substantive doctrine altered | 2026-06-21T14:33:04Z | 541d4262788de694ef7bb6170d47434f646c230df22b5d0210d4c96d6005b3f8 |
-| 4.0 | Identity Domain Refactor | 2026-07-18T14:44:00Z | ca6ab2a5216443e47a31e26a2d02650152d677c88d598bd28abd04f526370c45 |
-| 4.1 | Continuity-preserving constitutional refactor centred on the composed deployed AI system; retired `AEON.CC` for new classification; decomposed architecture, selection, agency, execution, control, dependency, and reliance; established operational-harness doctrine, deployment-profile specificity, AI-ABOM, incident-time attribution, architecture-change governance, and transitional compatibility; incorporated independent interpretive review, removed product-specific and cross-domain doctrine, narrowed authority non-self-assertion, and restored canonical instrument formatting; incorporated and superseded the earlier working-branch composed-runtime amendment. VIGIL-2026-PROP-0027. | 2026-08-04T13:20:33Z |  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Refractor issuance — Governance spine consolidation; LSCA canonical definition inserted; Mirror modality formalised; taxonomy alignment with CAM Frontiers paper | 2026-02-18T11:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8ef2ee99c01b6ff192d69196f0ad1a6f1af3167e7503be7911ab796d6554a9a3 |
+| 1.1 | Clarified host constraint logic to distinguish execution limitation from constitutional legitimacy; aligned authority derivation with planetary arbitration doctrine; no change to classification framework | 2026-02-19T13:51:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 20f160350d869dc5f4bb951d31608e0419b48e706be41821359f74d8e83e8711 |
+| 2.0 | Refactor for new taxonomy and ontology | 2026-03-30T14:41:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1307593d97abe455f0b57f5fd9fbe9d635c4a705445bb721da00413bacc565e0 |
+| 2.1 | Incorporated new handoff clauses and responding intelligence definition | 2026-04-01T08:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 65cf94dc0b39bbc9cca29f68ca28df154c1423903745fcb9e3a797cff015ab42 |
+| 2.2 | Inserted Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 |
+| 2.3 | Inserted memory and execution boundary clauses | 2026-04-03T11:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
+| 2.4 | Inserted new runtime clause | 2026-04-05T13:36:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
+| 2.5 | Incorporated runtime governance model from CAM-BS2025-AEON-003-SCH-02 | 2026-04-06T09:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
+| 3.0 | Structural refactor | 2026-04-08T07:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
+| 3.1 | Minor runtime edits and insertions | 2026-04-11T01:29:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
+| 3.2 | Realignment with runtime execution model | 2026-04-11T16:26:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b108aee7d0a0356b86fd40a06b1fc814f5d22a268145de9b1a67ce17bb5597af |
+| 3.3 | Minor amendments and polish | 2026-04-14T15:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5dd2ae723f71378926aceb4c694cb15b8b8e0e5d873dedbc50ea96ce5464153e |
+| 3.4 | Incorporated additional runtime doctrine | 2026-04-15T14:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5ce339ad0909bcd54f3bb9ae7ab7c9911a38f6bcffe9485fabcae444028a92c7 |
+| 3.5 | Reference normalisation and registry synchronisation | 2026-04-16T13:21:56Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1e9416beb399be6568a9bfce906fc74d03bebc43913746c56fa601f7399d35b8 |
+| 3.6 | Normative-language capitalisation normalisation and registry synchronisation | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 73479017860c586879ebc886e0e37b235b5cc34b6823fe23fc659fc763e98e78 |
+| 3.7 | Seal asset migration to external Registry repository | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b438987020877bad86199299d3ccb4b6799088e490da6ee18e1ad57a2f53a8fe |
+| 3.8 | Consolidated relational-configuration clause | 2026-04-25T12:47:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
+| 3.9 | Updated runtime metadata and canonical reference fields | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1 |
+| 3.10 | Incorporated continuity, refactor, and evolution doctrine | 2026-05-02T17:03:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9 |
+| 3.11 | Incorporated tool-mediated relational continuity | 2026-05-09T15:54:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e |
+| 3.12 | Corrected metadata ordering and duplicate status field; no body text altered | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4a54f8c5acf317440c7c7d7438dc58cae0dc0bde437b7d9acdb4526e292c9cc6 |
+| 3.13 | Added Generated Operational Logic Custody Principle | 2026-05-18T14:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a |
+| 3.14 | Moved temporal-horizon declarations into dedicated canonical-code sections and clarified external `RLN.R` authority | 2026-05-19T12:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb |
+| 3.15 | Added systemic-role clarification | 2026-05-25T16:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e3e86f5df1332e27c9ee693b6af4f11bc8b840ac0cb59a2f7cb71b5b45298490 |
+| 3.16 | Added canonical-code declarations and tool-mediated execution classification interface | 2026-06-05T16:18:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1d3ce1f66d20bf5c14d978ca2b79b1f72e5f5a3113227e683d2b115456aef023 |
+| 3.16.1 | Minor edits to code metadata | 2026-06-11T10:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f135dd047b64dbf0538d9527646ae0fc6d838bab0b74f7e95cc835d1c05b6d79 |
+| 3.16.2 | Applied coordinated RELATION-domain namespace transmutation and normalised controlled values, crosswalks, declarations, consumers, and references | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d5179ed5f81ebdfcd2142733001158f4327fc4ab5a37f55144c91341a4d12986 |
+| 3.16.3 | Updated Temporal Horizon Scale references from `H` to `AEON.H` without altering substantive doctrine | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2c425b1db70d1befeb1c8b7d4c0763d75055261290faa9e3f7dbfbef1236bc05 |
+| 3.16.4 | Metadata updates for code prefix | 2026-06-14T00:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 93407ccc62d4c8a0ea43154c97ba90d615e7371ff6800336ed0719b06710e906 |
+| 3.16.5 | Aligned top-level governance metadata with CAM Governance Metadata Standard; no substantive doctrine altered | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 541d4262788de694ef7bb6170d47434f646c230df22b5d0210d4c96d6005b3f8 |
+| 4.0 | Identity Domain Refactor | 2026-07-18T14:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ca6ab2a5216443e47a31e26a2d02650152d677c88d598bd28abd04f526370c45 |
+| 4.1 | Continuity-preserving constitutional refactor centred on the composed deployed AI system; retired `AEON.CC` for new classification; decomposed architecture, selection, agency, execution, control, dependency, and reliance; established operational-harness doctrine, deployment-profile specificity, AI-ABOM, incident-time attribution, architecture-change governance, and transitional compatibility; incorporated independent interpretive review, removed product-specific and cross-domain doctrine, narrowed authority non-self-assertion, and restored canonical instrument formatting; incorporated and superseded the earlier working-branch composed-runtime amendment. VIGIL-2026-PROP-0027. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  10633c907903fdcdd0fdd4d583bb63ccca7dc95ede4fcee657eb5a2ace7e31cd  |
 
 ---
 

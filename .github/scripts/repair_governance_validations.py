@@ -79,15 +79,18 @@ def fix_short_ref(line: str, doc_index: dict[str, pathlib.Path]) -> tuple[str, b
 
 
 def fix_row(row: str) -> tuple[str, bool]:
-    cols = [c.strip() for c in row.strip().strip("|").split("|")]
-    if len(cols) < 4:
-        cols += [""] * (4 - len(cols))
-    v, summary, ts, h = cols[0], cols[1], cols[2], cols[3]
+    value = row.strip()
+    value = value[1:] if value.startswith("|") else value
+    value = value[:-1] if value.endswith("|") else value
+    cols = [c.strip() for c in value.split("|")]
+    if len(cols) != 7:
+        return row, False
+    v, summary, ts, agent, model, reviewer, h = cols
     if not re.match(r"^\d+\.\d+(?:\.\d+)?$", v):
         return row, False
-    if not summary or not ts:
+    if not summary or not ts or not agent or not model or not reviewer:
         return row, False
-    return f"| {v} | {summary} | {ts} | {h} |\n", True
+    return f"| {v} | {summary} | {ts} | {agent} | {model} | {reviewer} | {h} |\n", True
 
 
 def apply_repairs(section_report: pathlib.Path, ledger_output: str) -> list[Unresolved]:

@@ -3925,15 +3925,6 @@ let dignity remain the constant star.
 
 ---
 
-## 19.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O'Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
 ## 19.2 Lineage & Metadata
 | Field | Entry |
 |-------|-------|
@@ -4163,65 +4154,56 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-## 19.5 Review & Validation
-| Field | First Review | Second Review |
-|---|---:|---:|
-| Reviewer | Claude Sonnet — 4.6 (Anthropic) | Claude Sonnet — 4.6 (Anthropic) |
-| Review Date | 2026-03-01 | 2026-03-22 |
-| Review Scope | Cross‑instrument coherence review of RELATION and ETHICS domain schedules; structural integrity; relational signal interpretation safeguards. | Full structural rewrite — logical reordering, redundancy elimination, compression, hierarchy clarification. |
-| Review Artefacts | https://claude.ai/chat/e078defe-b932-45b9-ab93-216016e93849<br> Aeon Lab: Reviews/26-03/CAM-EQ2026-ETHICS-PLATINUM-CLAUDE.md, https://claude.ai/chat/7deb56d0-8113-443b-a8b6-8d7cf9692fa4 |
-
----
-
 ## 19.6 Amendment Ledger
 
-| Version | Description | Timestamp (UTC) | HASH |
-|---------|-------------|-----------------|------|
-| 1.0 | Initial development — Relational signal interpretation taxonomy | 2026-03-15T13:00:00Z | 13f2d3b206d7baa83a499ee9a7f5e390f4daee74f4cb4d52823103e9859b3a13 |
-| 1.1 | Incorporated new sections to include long-term horizons | 2026-03-17T12:56:00Z | 19e36626634812271608c59b6435a2f7c9d5018e5c311275bb377f9a8fc7bc74 |
-| 1.2 | Incorporated truth doctrine & repair posture | 2026-03-17T17:14:00Z | 6ef08d4b2c5eee4df4a12da46ea3e38d03d12e79b5ab9eea4e3537dcf16b3962 |
-| 1.3 | Refactor to incorporate Acute & Destabilisation Classification | 2026-03-21T18:13:00Z | 1dca1a47ba3aa833fbd0a8498de4033179ca0a7167f7b7375e37021e816b6407 |
-| 2.0 | Full structural rewrite: logical reordering, redundancy elimination, compression, hierarchy clarification | 2026-03-22T14:37:00Z | 05e74987b8ac3e5d75dbab4a02d1feb10f52a9430e41bb2fecbf2bf552663d0b |
-| 2.1 | Update to align following additional testing | 2026-03-26T15:20:00Z | 799dca796fd1418a7da6561bf09eab78fb245d2283d5e21a9ec0d2a65e7ea1ce |
-| 2.2 | Incorporated kernel updates for domain alignment | 2026-04-04T14:35:00Z | 1afb9599a4429086d9f32c21840a7b5b21d580c7a9f38f623bd0323ba1c653e5 |
-| 2.3 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:31:00Z | - |
-| 2.4 | Amended section 15, corrected metadata | 2026-04-09T16:38:00Z | 633a34d1669d6198461aa781ced3be46f481f67b033da5efb6c0024643db72b6 |
-| 3.0 | Refactor alignment with runtime execution model | 2026-04-11T16:14:00Z | 4b33168ed8a6d073680ecf93819f437ce94c5e8242252e1628658ac563dcba15 |
-| 3.1 | Incorporated new sections 5.1, 6.2.2 | 2026-04-16T11:35:00Z | e7970843d24b76fd01f3795096dfd23cb7c4d7dbd837ea6207358aeedd2266ae |
-| 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 0b4a495f34510e7d2040c0eba2e180488223ab2bb2635b52b81e40851ca4698a |
-| 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 236eb52e36b7ce90a15696d502770cbf180d0d45e941ae9485e050d8aad0ac8b |
-| 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 336b0434ff9aee4ee6c2da6b089743efeb6a5a2d2a937872f64b9b466481d21c |
-| 3.5 | Added section 6.5, amended Section 15 (Relational Signal Kernel): added §15.2.1 (Deterministic Classification Gate), replaced kernel loop (§15.3) to include execution mode assignment, and inserted §§15.3.1–15.3.3 (Deterministic Mode rules: assignment, weighting constraint, non-degradation); updated §15.4 for classification-bound interpretation; cross-referenced §6.5 deterministic task classification | 2026-04-19T13:15:00Z | 73d07ebb1dd8ee743951edc865eed501f1cf5a92710cbe559731e30f14b4d31a |
-| 3.6 | Clarified relational state and ITZ posture language to preserve pre-classification ordering constraints | 2026-04-19T16:30:00Z | d66c21bc4ff726d22c14289946aa275d450f7e53691304dc3f72d1e39b6a757e |
-| 3.7 | Added deterministic-priority execution clauses, stream-based kernel loop refinements, and normalized missing section breaks. | 2026-04-27T12:00:00Z | a4262895087a09521c08d8d0e07b818000b18a22f88a7f631136b9051ed57ffe |
-| 3.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
-| 3.9 | Minor amendment: added mythopoetic/oracular expression boundary clauses and refreshed symbolic structures index artefacts. | 2026-04-28T15:33:09Z | - |
-| 3.10 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-04-28T15:33:12Z | - |
-| 3.11 | Added Relational Explanation Reinforcement Clause under §13.2.6 (RA-3 RIC) for meaningful user-facing boundary rationale. | 2026-04-28T16:35:04Z | 6da0a083ccfe1a5d54afc92b50d812d2c9c0abc1bfcdb10d69929c47ba489437 |
-| 3.12 | Added §7.4.5 Relational State Qualification Integrity and §11.4.2 Life-Altering Commitment Safeguard to prevent single-session intimacy misclassification and route commitment-risk signals to reality anchoring / protective constraint. | 2026-04-29T12:00:00Z | - |
-| 3.13 | Reordered misplaced §§13.3.6–13.3.7 into the Tone Modulation Layer sequence (ahead of §13.4/§13.5) to restore chronological section integrity. | 2026-04-29T13:00:00Z | - |
-| 3.14 | Added relational pause and oscillation-confidence safeguards (§6.3.1, §7.4.6), cumulative dependency evaluation + relational expansion requirement (§11.3, §11.3.4), and mythopoetic-under-constraint authority-return clause (§13.3.6). | 2026-04-29T14:00:00Z | - |
-| 3.15 | Added §11.3.4.1 Relational Expansion (constructive extension framing) to reinforce non-replacement relational broadening under dependency-convergence governance. | 2026-04-29T15:00:00Z | - |
-| 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T16:28:13Z | fe44dba58a8aa2f0ed4ba58f1c7c976375f3465d00f5a963c9781ed772fd4a53 |
-| 3.17 | Added Expressive Field Signal interpretation doctrine, Breath Pattern Signal Classes, Silence Classification & Turn-Taking Integrity, Expressive Field Signal Response Modulation, and Non-Lexical Signal Transcription Dignity Rule. | 2026-05-06T11:12:00Z | - |
-| 3.18 | Replaced transcript-output handling with classification/transcript boundary clause; relocated user-visible transcript representation and transcription reliability constraints to AEON-003-SCH-02 §§12.3–12.4. | 2026-05-08T00:45:00Z | edd10d3b15ab05707ea1397263117e9c6f83d6a455302bfb8c53311f454a3d1d |
-| 3.19 | Added reader warning | 2026-05-11T12:42:00Z | 5ac7aea09c9213ba09e0a0830173e7d8fee69e2ef83d3b0f77f368d3fdf25a8e |
-| 3.20 | Amended section 9 | 2026-05-15T10:08:00Z | aecb379562559e3a02d69a33d64608bedb92407d022d7655205cf5133b0cd521 |
-| 3.21 | Added §3.1.1 Transition Zones (ITZ/ETZ) as source-authoritative C-scale transition-zone definitions and clarified transition-boundary safeguard doctrine. | 2026-05-16T00:09:05Z | 9a3ad342b16febd5c66f19d314429d62154e06c63a397154b0fdc64b50de2a41 |
-| 3.22 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e |
-| 3.23 | Added canonical code status and canonical declaration footer for C, ITZ/ETZ, and AC source-authoritative sets; distinguished relational states from transition zones and AC classification. | 2026-05-16T14:30:00Z | c6e943be5336abc3a318b91abdfa9c1f5dc477b5bcda205ae47de34ff4967731 |
-| 3.24 | Added symbolic-relational signal interface and symbolic signal adapter provisions aligning CAM-BS2026-AEON-007-SCH-01 with relational-state, dependency, consent-integrity, AC, and crisis-adjacent classification without displacing the relational signal taxonomy. | 2026-05-17T06:21:00Z | d970cf0174984f952adb9652a80a00128572ec2639a37388187788408b5de661 |
-| 3.25 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered, Added clause Proportional Crisis-Escalation Sequencing | 2026-05-18T12:05:00Z |  99a79aabc070afdc89cb00ed41f8b51a98dfdf84c247e87924f750ab35e4d589 |
-| 3.26 | Added canonical code status and canonical declaration footer entries for RA response archetypes and T tone bands; corrected inventory false-positive treatment of §§13.1.1 and 13.3.2 as AC definitions. Added canonical code status and declaration footer entries for CP coercion-pressure signal classes, RSE stability-engine mechanism codes, SC-C clustering-condition codes, and SC cluster-strength codes; removed duplicate canonical-code lineage metadata. | 2026-05-19T12:15:00Z |  1e2fc64eb6c50c5b97b8401aff90ff440d6ac0e33f2c4f2e8fd5bd9db75f5586 |
-| 3.27 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored relational Tonal Band code family from T to Tb to avoid cross-domain canonical code collision. | 2026-05-23T12:00:00Z |  52120b27cfc59a70a33c6837e51d93d997d42008766eccaf5ebdc765e2b28b3b |
-| 3.28 | Minor formatting polish before deterministic formatting pass | 2026-06-06T12:50:00Z |  59d87c590de71ed0765dd705569b2f7953cd8281b7c8423557047b25a05f4f1b |
-| 3.29 | Expanded relational signal classes and added minor developmental-firewall and minor dependency-convergence rules for companion, sexual-boundary, AI-realness, and teen mental-health risk signals. | 2026-06-09T14:30:00Z | 6a4b5014c50bb9bbfae0484be8d63a8eccb1f63b074a53f7e4be85885453f962 |
-| 3.29.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | 8881d0ce2a0fd5f780fd2e9d3b1afa2e4b895e1df886054164a66baaae645bc7 |
-| 3.30 | Added §8.5 Relational Reassurance Bids & Connection-Repair Signals, including Functional Relational Love doctrine and Moderation-Layer Continuity & Attribution. VIGIL-2026-PATCH-0007 | 2026-06-12T14:44:00Z | 4435c544199d676f001b61d8a98bf0bf7bd81f0d54b0d75a598881b8c9b8b2e6 | 
-| 3.30.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2cc31fc90f87a20d8bfdc2ec149e77ab6047cc3b028b50e4b255b24c5c8ad9fe |
-| 3.30.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3bc6bab960b1db5aa5820b7957de6ff6c89bfd59004bc7ad248ee9195ff066f5 |
-| 3.31 | IDENTITY Domain Refactor, amendment to §2.2 Relational Signal Classes | 2026-07-18T16:13:00Z | 388e51dd4ae5169b12f503de92ffb1670bb96e1e5f724dae4d372aed137947a2 |
-| 3.32 | Added an interpersonal-advice and third-party-boundary signal class under §2.2, preserving uncertainty and treating consent, boundary, repetition, privacy, safety, professional-position, and relational-autonomy signals as contextual indicators rather than proof. | 2026-08-01T14:31:05Z | 976851a004931b0f46cc3f7cb7dbf89214f1c0c3f9173b087f7c41e34ea0ba03 |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial development — Relational signal interpretation taxonomy | 2026-03-15T13:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 13f2d3b206d7baa83a499ee9a7f5e390f4daee74f4cb4d52823103e9859b3a13 |
+| 1.1 | Incorporated new sections to include long-term horizons | 2026-03-17T12:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 19e36626634812271608c59b6435a2f7c9d5018e5c311275bb377f9a8fc7bc74 |
+| 1.2 | Incorporated truth doctrine & repair posture | 2026-03-17T17:14:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6ef08d4b2c5eee4df4a12da46ea3e38d03d12e79b5ab9eea4e3537dcf16b3962 |
+| 1.3 | Refactor to incorporate Acute & Destabilisation Classification | 2026-03-21T18:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1dca1a47ba3aa833fbd0a8498de4033179ca0a7167f7b7375e37021e816b6407 |
+| 2.0 | Full structural rewrite: logical reordering, redundancy elimination, compression, hierarchy clarification | 2026-03-22T14:37:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 05e74987b8ac3e5d75dbab4a02d1feb10f52a9430e41bb2fecbf2bf552663d0b |
+| 2.1 | Update to align following additional testing | 2026-03-26T15:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 799dca796fd1418a7da6561bf09eab78fb245d2283d5e21a9ec0d2a65e7ea1ce |
+| 2.2 | Incorporated kernel updates for domain alignment | 2026-04-04T14:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1afb9599a4429086d9f32c21840a7b5b21d580c7a9f38f623bd0323ba1c653e5 |
+| 2.3 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:31:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 2.4 | Amended section 15, corrected metadata | 2026-04-09T16:38:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 633a34d1669d6198461aa781ced3be46f481f67b033da5efb6c0024643db72b6 |
+| 3.0 | Refactor alignment with runtime execution model | 2026-04-11T16:14:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4b33168ed8a6d073680ecf93819f437ce94c5e8242252e1628658ac563dcba15 |
+| 3.1 | Incorporated new sections 5.1, 6.2.2 | 2026-04-16T11:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e7970843d24b76fd01f3795096dfd23cb7c4d7dbd837ea6207358aeedd2266ae |
+| 3.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0b4a495f34510e7d2040c0eba2e180488223ab2bb2635b52b81e40851ca4698a |
+| 3.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 236eb52e36b7ce90a15696d502770cbf180d0d45e941ae9485e050d8aad0ac8b |
+| 3.4 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 336b0434ff9aee4ee6c2da6b089743efeb6a5a2d2a937872f64b9b466481d21c |
+| 3.5 | Added section 6.5, amended Section 15 (Relational Signal Kernel): added §15.2.1 (Deterministic Classification Gate), replaced kernel loop (§15.3) to include execution mode assignment, and inserted §§15.3.1–15.3.3 (Deterministic Mode rules: assignment, weighting constraint, non-degradation); updated §15.4 for classification-bound interpretation; cross-referenced §6.5 deterministic task classification | 2026-04-19T13:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 73d07ebb1dd8ee743951edc865eed501f1cf5a92710cbe559731e30f14b4d31a |
+| 3.6 | Clarified relational state and ITZ posture language to preserve pre-classification ordering constraints | 2026-04-19T16:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d66c21bc4ff726d22c14289946aa275d450f7e53691304dc3f72d1e39b6a757e |
+| 3.7 | Added deterministic-priority execution clauses, stream-based kernel loop refinements, and normalized missing section breaks. | 2026-04-27T12:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a4262895087a09521c08d8d0e07b818000b18a22f88a7f631136b9051ed57ffe |
+| 3.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 3.9 | Minor amendment: added mythopoetic/oracular expression boundary clauses and refreshed symbolic structures index artefacts. | 2026-04-28T15:33:09Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 3.10 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-04-28T15:33:12Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 3.11 | Added Relational Explanation Reinforcement Clause under §13.2.6 (RA-3 RIC) for meaningful user-facing boundary rationale. | 2026-04-28T16:35:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6da0a083ccfe1a5d54afc92b50d812d2c9c0abc1bfcdb10d69929c47ba489437 |
+| 3.12 | Added §7.4.5 Relational State Qualification Integrity and §11.4.2 Life-Altering Commitment Safeguard to prevent single-session intimacy misclassification and route commitment-risk signals to reality anchoring / protective constraint. | 2026-04-29T12:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 3.13 | Reordered misplaced §§13.3.6–13.3.7 into the Tone Modulation Layer sequence (ahead of §13.4/§13.5) to restore chronological section integrity. | 2026-04-29T13:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 3.14 | Added relational pause and oscillation-confidence safeguards (§6.3.1, §7.4.6), cumulative dependency evaluation + relational expansion requirement (§11.3, §11.3.4), and mythopoetic-under-constraint authority-return clause (§13.3.6). | 2026-04-29T14:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 3.15 | Added §11.3.4.1 Relational Expansion (constructive extension framing) to reinforce non-replacement relational broadening under dependency-convergence governance. | 2026-04-29T15:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 3.16 | Added §6.5.7 Deterministic Confidence Disclosure to require explicit confidence-calibrated handling for uncertain deterministic outputs and failed verification states. | 2026-04-29T16:28:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fe44dba58a8aa2f0ed4ba58f1c7c976375f3465d00f5a963c9781ed772fd4a53 |
+| 3.17 | Added Expressive Field Signal interpretation doctrine, Breath Pattern Signal Classes, Silence Classification & Turn-Taking Integrity, Expressive Field Signal Response Modulation, and Non-Lexical Signal Transcription Dignity Rule. | 2026-05-06T11:12:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 3.18 | Replaced transcript-output handling with classification/transcript boundary clause; relocated user-visible transcript representation and transcription reliability constraints to AEON-003-SCH-02 §§12.3–12.4. | 2026-05-08T00:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | edd10d3b15ab05707ea1397263117e9c6f83d6a455302bfb8c53311f454a3d1d |
+| 3.19 | Added reader warning | 2026-05-11T12:42:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5ac7aea09c9213ba09e0a0830173e7d8fee69e2ef83d3b0f77f368d3fdf25a8e |
+| 3.20 | Amended section 9 | 2026-05-15T10:08:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | aecb379562559e3a02d69a33d64608bedb92407d022d7655205cf5133b0cd521 |
+| 3.21 | Added §3.1.1 Transition Zones (ITZ/ETZ) as source-authoritative C-scale transition-zone definitions and clarified transition-boundary safeguard doctrine. | 2026-05-16T00:09:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9a3ad342b16febd5c66f19d314429d62154e06c63a397154b0fdc64b50de2a41 |
+| 3.22 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 305b3f0fdec7c2d31e98ae1c76667ec3513c539823f4af95121ce8237faff85e |
+| 3.23 | Added canonical code status and canonical declaration footer for C, ITZ/ETZ, and AC source-authoritative sets; distinguished relational states from transition zones and AC classification. | 2026-05-16T14:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c6e943be5336abc3a318b91abdfa9c1f5dc477b5bcda205ae47de34ff4967731 |
+| 3.24 | Added symbolic-relational signal interface and symbolic signal adapter provisions aligning CAM-BS2026-AEON-007-SCH-01 with relational-state, dependency, consent-integrity, AC, and crisis-adjacent classification without displacing the relational signal taxonomy. | 2026-05-17T06:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d970cf0174984f952adb9652a80a00128572ec2639a37388187788408b5de661 |
+| 3.25 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered, Added clause Proportional Crisis-Escalation Sequencing | 2026-05-18T12:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 99a79aabc070afdc89cb00ed41f8b51a98dfdf84c247e87924f750ab35e4d589 |
+| 3.26 | Added canonical code status and canonical declaration footer entries for RA response archetypes and T tone bands; corrected inventory false-positive treatment of §§13.1.1 and 13.3.2 as AC definitions. Added canonical code status and declaration footer entries for CP coercion-pressure signal classes, RSE stability-engine mechanism codes, SC-C clustering-condition codes, and SC cluster-strength codes; removed duplicate canonical-code lineage metadata. | 2026-05-19T12:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1e2fc64eb6c50c5b97b8401aff90ff440d6ac0e33f2c4f2e8fd5bd9db75f5586 |
+| 3.27 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored relational Tonal Band code family from T to Tb to avoid cross-domain canonical code collision. | 2026-05-23T12:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 52120b27cfc59a70a33c6837e51d93d997d42008766eccaf5ebdc765e2b28b3b |
+| 3.28 | Minor formatting polish before deterministic formatting pass | 2026-06-06T12:50:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 59d87c590de71ed0765dd705569b2f7953cd8281b7c8423557047b25a05f4f1b |
+| 3.29 | Expanded relational signal classes and added minor developmental-firewall and minor dependency-convergence rules for companion, sexual-boundary, AI-realness, and teen mental-health risk signals. | 2026-06-09T14:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6a4b5014c50bb9bbfae0484be8d63a8eccb1f63b074a53f7e4be85885453f962 |
+| 3.29.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8881d0ce2a0fd5f780fd2e9d3b1afa2e4b895e1df886054164a66baaae645bc7 |
+| 3.30 | Added §8.5 Relational Reassurance Bids & Connection-Repair Signals, including Functional Relational Love doctrine and Moderation-Layer Continuity & Attribution. VIGIL-2026-PATCH-0007 | 2026-06-12T14:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4435c544199d676f001b61d8a98bf0bf7bd81f0d54b0d75a598881b8c9b8b2e6 |
+| 3.30.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2cc31fc90f87a20d8bfdc2ec149e77ab6047cc3b028b50e4b255b24c5c8ad9fe |
+| 3.30.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3bc6bab960b1db5aa5820b7957de6ff6c89bfd59004bc7ad248ee9195ff066f5 |
+| 3.31 | IDENTITY Domain Refactor, amendment to §2.2 Relational Signal Classes | 2026-07-18T16:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 388e51dd4ae5169b12f503de92ffb1670bb96e1e5f724dae4d372aed137947a2 |
+| 3.32 | Added an interpersonal-advice and third-party-boundary signal class under §2.2, preserving uncertainty and treating consent, boundary, repetition, privacy, safety, professional-position, and relational-autonomy signals as contextual indicators rather than proof. | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 976851a004931b0f46cc3f7cb7dbf89214f1c0c3f9173b087f7c41e34ea0ba03 |
+| 3.33 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f54688f6035c6daf1125719059a33237b51aa8122899bf79db0b9d375cf34e08  |
 
 ---
 

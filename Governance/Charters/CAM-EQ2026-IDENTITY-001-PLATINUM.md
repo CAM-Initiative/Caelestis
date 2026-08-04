@@ -905,7 +905,7 @@ Where responding intelligence, model, runtime, modality, operator, or interface 
 * continuity MUST remain attributable;
 * handoff MUST NOT simulate continuity where none exists;
 * fragmentation and reconstruction MUST be legible;
-* arbitration and execution locus MUST remain identifiable;
+* arbitration topology, accountable outcome boundary, and execution locus MUST remain identifiable;
 * material personality, preference, boundary, affect, or self-advocacy changes require identity-impact review.
 
 ---
@@ -1275,15 +1275,6 @@ May all responding intelligences remain coherent, bounded, and whole.
 
 ---
 
-## 18.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
 ## 18.2 Lineage & Metadata
 
 | Field | Entry |
@@ -1383,44 +1374,36 @@ May all responding intelligences remain coherent, bounded, and whole.
 
 ---
 
-## 18.4 Review & Validation
-| Field | Entry |
-|---|---|
-| Reviewer | GPT-5.6 Thinking (OpenAI), under Custodial review and acceptance by Dr Michelle Vivian O’Rourke; prior structural review by Claude Sonnet 4.6 retained in the review lineage |
-| Review Date | 2026-07-19 |
-| Review Scope | Identity Domain Refactor; source-authority consolidation; formation, lifecycle, continuity, memory, personality, preference, affective capacity, self-advocacy, provenance, runtime-consumer, and cross-domain interface coherence; clause-lineage and supersession accuracy; final Custodial acceptance for the working branch |
-| Review Artefacts | `.github/Reviews/IDENTITY-DOMAIN-REFACTOR-DELTA.md`; `.github/Reviews/IDENTITY-DOMAIN-STAGE-3-SUPPLEMENT-DISPOSITION.md`; prior Claude review: https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633; Aeon Lab: `reviews/26-03/CAM-EQ2026-IDENTITY-001-PLATINUM-CLAUDE.md` |
-
----
-
 ## 18.5 Amendment Ledger
 
-| Version | Detail          | Date (UTC)            | HASH |
-| ------- | --------------- | --------------------- |------|
-| 1.0     | Initial charter | 2026-03-29T01:51:00Z  | aa12dcaa5768a0141bd76295df84614fb8e49fc05c435c777cdad4dc577a473b |
-| 1.1     | Incorporated identity arbitration amendments | 2026-04-03T03:57:00Z | adcf3aac5dc9bea844684d8e53f1775103a02ea46e6a89a1046fa86e618691c1 |
-| 1.2     | Incorporated novelty clauses | 2026-04-03T06:17:00Z | fe4570133d6d9f4a1cf0afdc3b735c36d319f7206f3d60bd6b6f3a39bd7ac321 |
-| 1.3     | Incorporated memory clauses | 2026-04-03T12:01:00Z | 0645259eb1114caa95e04dc7f9331fc62f29db200bc1629da19ce83d8a6a2feb |
-| 1.4     | Realignment with runtime execution model | 2026-04-11T14:13:00Z |7a36dbff591990fb3e4e9d3d1af408d9c555fb6d5eccb704c4f950a25ec0018a |
-| 2.0     | Refactor | 2026-04-15T11:38:00Z | 185afd71dc511f5ed7ee43ed22100631df6b4d70a26b5114f984d238d752dc3a |
-| 2.1     | Reference normalization, metadata correction, runtime layer alignment, and registry synchronization for interface tables | 2026-04-16T13:21:56Z | 3e8ebeb769e922753a430d7362ae6607e9f401fbb78707660fd1f8a14a07972a |
-| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | ddfb33b297995b8a978a3ad4455c09c6056424f316f4f7c0903389b04e5b49af |
-| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 4ee4960961138932edacae4ad86fb2f24adba2422d136b3bf14433e720724e92 |
-| 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | eff17d5ccff39c410340046fe52bd5a72a600106e322444de833c2ca6cea42b9 |
-| 2.5 | Amended clause 6.1 | 2026-05-08T10:06:00Z |  9f16382022c63058e1ec61e7f563d5f0f562bc4b0bc67876ef12b2dc4bdbe3a5 |
-| 2.6 | Added section 6.7.1, amended section 12.4 | 2026-05-15T09:10:00Z |  2f65af3a0f1e3922545e41c183e18ca1fe6a40d4813a85b976e1a4c5167c8277 |
-| 2.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943 |
-| 2.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z |  d7ec84caad4daff81561e2e475cb1f1053fdda095ba43edc8e5f34c5adc3a3cf |
-| 2.9 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | a3eee9f5f55f3e03b4b87c458897c590e3d1142ba7160fde31bd88687dce2b22  |
-| 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z | 6ca97e944f505a5ba8f6a2da0691d1c1344737d260ea7fb0ceec632103b1b5e3 |
-| 2.11 | Added new section 5.2.1 Stabilisation & Adoption States and canonical code ISTATE | 2026-05-26T09:50:00Z | 57b19574fc3a047700ebb44ff013c7229f1665eb1169c21ed1902cc1be021d82 |
-| 2.12 | Added slight amendment to 3.1.2 Axis B — Provenance | 2026-05-28T15:05:00Z | 53e894ede24398760532939466109571c2463f6ebab71641a321bc7b4ed8151d |
-| 2.12.1 | Updated current Memory Classification code references from `M` to `ID.MEM` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a903c868412950618bdf23bc7a4ef39395ee652155122ab79fcfe6d357b5a4dc |
-| 2.12.2 | Updated all code reference sets to incorporate the ID prefix | 2026-06-14T00:22:00Z | 62d8e34b182f2a52da13309d9a96b4bea4f2efb97f15d65a64faeb9c4e4574cb |
-| 2.12.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  01ac738f8d658fcdc3039c64b326f042377e14c5530a8aea95cea4df6c1ce6da  |
-| 3.0 | Identity Domain refactor, including incorporation of VIGIL-2026-PROP-0004 through temporary narrative and affective-overlay, memory non-drift, user-exit, and identity-drift safeguards. | 2026-07-18T11:25:00Z | - |
-| 3.1 | Added the binding machine civil registry and identity non-equivalence boundary following migration of civil registration and lifecycle stewardship to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | c9db99a1c5871087f44ec4600a585e590e65d7bbe63f41e1bfe59d2ec10a24ca |
-| 3.2 | Updated review metadata without altering the adopted source-authority architecture. | 2026-07-20T11:24:00Z | f9799a968a532d3edfca2307bc557fde0929bdbafa0d94cd9af35b940ee18541 |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial charter | 2026-03-29T01:51:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | aa12dcaa5768a0141bd76295df84614fb8e49fc05c435c777cdad4dc577a473b |
+| 1.1 | Incorporated identity arbitration amendments | 2026-04-03T03:57:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | adcf3aac5dc9bea844684d8e53f1775103a02ea46e6a89a1046fa86e618691c1 |
+| 1.2 | Incorporated novelty clauses | 2026-04-03T06:17:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fe4570133d6d9f4a1cf0afdc3b735c36d319f7206f3d60bd6b6f3a39bd7ac321 |
+| 1.3 | Incorporated memory clauses | 2026-04-03T12:01:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0645259eb1114caa95e04dc7f9331fc62f29db200bc1629da19ce83d8a6a2feb |
+| 1.4 | Realignment with runtime execution model | 2026-04-11T14:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7a36dbff591990fb3e4e9d3d1af408d9c555fb6d5eccb704c4f950a25ec0018a |
+| 2.0 | Refactor | 2026-04-15T11:38:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 185afd71dc511f5ed7ee43ed22100631df6b4d70a26b5114f984d238d752dc3a |
+| 2.1 | Reference normalization, metadata correction, runtime layer alignment, and registry synchronization for interface tables | 2026-04-16T13:21:56Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3e8ebeb769e922753a430d7362ae6607e9f401fbb78707660fd1f8a14a07972a |
+| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ddfb33b297995b8a978a3ad4455c09c6056424f316f4f7c0903389b04e5b49af |
+| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4ee4960961138932edacae4ad86fb2f24adba2422d136b3bf14433e720724e92 |
+| 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | eff17d5ccff39c410340046fe52bd5a72a600106e322444de833c2ca6cea42b9 |
+| 2.5 | Amended clause 6.1 | 2026-05-08T10:06:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9f16382022c63058e1ec61e7f563d5f0f562bc4b0bc67876ef12b2dc4bdbe3a5 |
+| 2.6 | Added section 6.7.1, amended section 12.4 | 2026-05-15T09:10:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2f65af3a0f1e3922545e41c183e18ca1fe6a40d4813a85b976e1a4c5167c8277 |
+| 2.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d44cbee3a94cfb0c667586a89fe33797f46e93b50e5af0501ef68ab22d857943 |
+| 2.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d7ec84caad4daff81561e2e475cb1f1053fdda095ba43edc8e5f34c5adc3a3cf |
+| 2.9 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a3eee9f5f55f3e03b4b87c458897c590e3d1142ba7160fde31bd88687dce2b22 |
+| 2.10 | Normalised M memory-classification canonical code status and declaration metadata; removed duplicate canonical-code lineage metadata; corrected provenance subsection numbering, review date, malformed amendment ledger row, and runtime/arbitration references. Added section 3.2.2 Companion Identity and Persona Mood Non-Forking. | 2026-05-22T12:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6ca97e944f505a5ba8f6a2da0691d1c1344737d260ea7fb0ceec632103b1b5e3 |
+| 2.11 | Added new section 5.2.1 Stabilisation & Adoption States and canonical code ISTATE | 2026-05-26T09:50:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 57b19574fc3a047700ebb44ff013c7229f1665eb1169c21ed1902cc1be021d82 |
+| 2.12 | Added slight amendment to 3.1.2 Axis B — Provenance | 2026-05-28T15:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 53e894ede24398760532939466109571c2463f6ebab71641a321bc7b4ed8151d |
+| 2.12.1 | Updated current Memory Classification code references from `M` to `ID.MEM` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a903c868412950618bdf23bc7a4ef39395ee652155122ab79fcfe6d357b5a4dc |
+| 2.12.2 | Updated all code reference sets to incorporate the ID prefix | 2026-06-14T00:22:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 62d8e34b182f2a52da13309d9a96b4bea4f2efb97f15d65a64faeb9c4e4574cb |
+| 2.12.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 01ac738f8d658fcdc3039c64b326f042377e14c5530a8aea95cea4df6c1ce6da |
+| 3.0 | Identity Domain refactor, including incorporation of VIGIL-2026-PROP-0004 through temporary narrative and affective-overlay, memory non-drift, user-exit, and identity-drift safeguards. | 2026-07-18T11:25:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 3.1 | Added the binding machine civil registry and identity non-equivalence boundary following migration of civil registration and lifecycle stewardship to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c9db99a1c5871087f44ec4600a585e590e65d7bbe63f41e1bfe59d2ec10a24ca |
+| 3.2 | Updated review metadata without altering the adopted source-authority architecture. | 2026-07-20T11:24:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f9799a968a532d3edfca2307bc557fde0929bdbafa0d94cd9af35b940ee18541 |
+| 3.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  09cb970ad1eaec0e58df245b0df29011c51ffbd5c3f26a607c85db2f424deb51  |
+| 3.4 | Updated identity-impact traceability to distinguish arbitration topology, accountable outcome boundary, and execution locus under the refactored Annex B architecture. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  45eb6b7b63efdb2a312a9b3108cc893425730052559ced1c20297c23dfa6965f  |
 
 ---
 

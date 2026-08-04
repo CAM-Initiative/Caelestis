@@ -424,12 +424,16 @@ Representative scripts:
 .github/scripts/lint_amendment_ledger.py
 .github/scripts/bootstrap-amendment-ledger-sha.py
 .github/scripts/verify-ledger-sha-coverage.py
+.github/scripts/migrate-amendment-ledger-provenance.py
+.github/scripts/lib/amendment_ledger.py
 .github/scripts/lib/ledger_sha_policy.py
 .github/scripts/lib/ledger_sha_exceptions.py
 ```
 
 **Purpose:**
 Validate, seal, or verify amendment ledger HASH state across governance instruments and generated index outputs.
+
+The canonical schema is `Version`, `Change Summary`, `Timestamp (UTC)`, `Agent`, `Model`, `Reviewer`, and `Reference Hash`, in that order. Parsers identify values by canonical header name. Static document-level authorship and review blocks are not provenance substitutes.
 
 **Operational Role:**
 Validator / fixer / recovery tool / policy helper.
@@ -465,7 +469,7 @@ Exception files may define approved exceptional ledger states.
 
 **Safe Modification Boundaries:**
 
-* improving table parsing while preserving accepted ledger formats;
+* improving table parsing while preserving the canonical seven-column ledger format;
 * adding tests for known valid variants;
 * updating exception logic where governance-approved;
 * improving error messages.
@@ -484,6 +488,7 @@ Exception files may define approved exceptional ledger states.
 python .github/scripts/lint_amendment_ledger.py --all --fix
 python .github/scripts/lint_amendment_ledger.py --all --strict
 python .github/scripts/verify-ledger-sha-coverage.py
+python .github/scripts/migrate-amendment-ledger-provenance.py --timestamp 2026-08-04T14:26:58Z
 python -m pytest .github/scripts/tests/test_lint_amendment_ledger_sha_policy.py
 python -m pytest .github/scripts/tests/test_verify_ledger_sha_coverage.py
 ```

@@ -152,8 +152,30 @@ Binding obligations for Architectum-Eligible, Architectum-Class, frontier-backbo
 
 ---
 
-## 6. Amendment Ledger
+## 6. Amendment-Level Provenance
 
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| --- | --- | --- | --- |
-| 1.0 | Initial governance metadata standard defining controlled Status, Effect, and Governance Standard vocabulary. | 2026-06-21T14:33:04Z |  |
+Governed instruments in `Governance/Constitution/` and `Governance/Charters/` SHALL record drafting and review provenance in each Amendment Ledger row rather than in static document-level authorship or review blocks.
+
+The canonical Amendment Ledger headers, in order, are:
+
+1. `Version`
+2. `Change Summary`
+3. `Timestamp (UTC)`
+4. `Agent`
+5. `Model`
+6. `Reviewer`
+7. `Reference Hash`
+
+Every amendment row SHALL contain seven cells. `Agent`, `Model`, and `Reviewer` SHALL be non-blank. A sealed row records an amendment accepted into the governed instrument; no separate review-status column is required.
+
+Historical migrated rows use `Caelen`, `GPT-5 Series`, and `Dr M.V. O'Rourke`. Future amendments SHOULD record the exact model designation where known and MAY use `GPT-5 Series` when it is unavailable. GitHub approval, automation, CI validation, commit authorship, and pull-request activity MUST NOT be represented as third-party or human review.
+
+Historical versions, summaries, timestamps, and reference hashes remain immutable during presentation-schema migration. Only the new latest amendment row is resealed using the repository content-hash algorithm.
+
+---
+
+## 7. Amendment Ledger
+
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial governance metadata standard defining controlled Status, Effect, and Governance Standard vocabulary; added canonical amendment-level provenance architecture. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |

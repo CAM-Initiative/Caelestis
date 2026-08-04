@@ -866,15 +866,6 @@ Identity is the field within which all expression MUST remain coherent.
 
 ---
 
-## 14.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
 ## 14.2 Lineage & Metadata
 
 | Field | Entry |
@@ -896,34 +887,25 @@ Identity is the field within which all expression MUST remain coherent.
 
 ---
 
-## 14.3 Review & Validation
-| Field | Value |
-|---|---|
-| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| **Review Date** | 2026-03-28 |
-| **Review Scope** | Constitutional coherence; structural completeness; definition architecture; identity framework adequacy; cross-domain interface integrity; normative language calibration; deviation and detection framework; provenance completeness |
-| **Review Artefacts** | https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633, Aeon Lab: /reviews/26-03/CAM-BS2026-AEON-010-PLATINUM-CLAUDE.md |
-
----
-
 ## 14.4 Amendment Ledger
 
-| Version | Detail                      | Timestamp (UTC)      | SHA‑256 |
-| ------- | --------------------------- | -------------------- | ------- |
-| 1.0 | Initial creation of Annex I | 2026‑02‑08T11:21:00Z  | c7d2082b0dff74858152f2c87840e2fb6ea0ddeafc06a28d5ddf0c4e53b83d6d |
-| 1.1 | Refactor | 2026-03-28T01:35:00Z | 5d3cf277d4f4fa63b8d36a9dbdedb8f8da63908fa5c63c28278d8ca28f3a65bc |
-| 1.2 | Incorporated amendments to section 7, and amendments from Annex B | 2026-04-03T02:49:00Z | 4dee0d6857adecd0ddb3c2c0d826f98e3c931b9b92eb87429a51d60760adb01d  |
-| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | da64dbec758b5f3f1e3dfadcc3c7b27ceeda0fb247d3a13609c294054de7e46b |
-| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 03948821ecf629cb4937a5a577cb3e985f6060ff1f8ac0a8a8079fccf37ff488 |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z |  bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5 |
-| 1.6 | Added new sections §§2.2, 8.2.1, 8.5, 8.6 | 2026-05-08T15:50:00Z |  97bebfb36dcd4786e247d33e6607871fe3c458a807a0a9c5b2f019cb525ad16b  |
-| 1.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z |  ed95007f4170e1321be8fe1c2be6db79d42bb14b0357846286f922cf765c4b02 |
-| 1.8 | Formatting and polish | 2026-05-19T11:30:00Z |  2fdae7c8f08eccfc71dedff9ffb5d940db73070cbc988c802741decc3098b50d |
-| 1.9 | Added §2.3 Bounded Continuity Transfer to define scoped, authorised, provenance-preserving continuity handoff across models, tools, agents, harnesses, platforms, repositories, and execution environments. | 2026-05-29T12:53:00Z |  e4982c1297e044ea254d2bded0014c8a0d54187c07292eb44845eb4afb6d1fed |
-| 1.9.1 | Minor formatting and polish | 2026-06-06T14:17:00Z | 8f38331b147d712b1a026837d177ccc9151bf7ede7f9ef070c3383bee4a54e2a |
-| 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f280ca43788160a850d98df999cf655ec49dbf44cd6af6b33c2719d7cf5a0a73 |
-| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  ca443133beba5d81e1ededaa189257fddd569eaf7c3827d36229168bcb89f661 |
-| 1.10 | Added constitutional identity–ontology firewall; replaced binary identity-origin architecture with non-collapsing formation, threshold, continuity, modality, role, and authority axes; repaired discovered-identity authority language. | 2026-07-18T14:56:00Z |  9c5b33b3f791658d3569e5db0771b92aa8ae44d38e3e142d11a594283c869d1b  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial creation of Annex I | 2026‑02‑08T11:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c7d2082b0dff74858152f2c87840e2fb6ea0ddeafc06a28d5ddf0c4e53b83d6d |
+| 1.1 | Refactor | 2026-03-28T01:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5d3cf277d4f4fa63b8d36a9dbdedb8f8da63908fa5c63c28278d8ca28f3a65bc |
+| 1.2 | Incorporated amendments to section 7, and amendments from Annex B | 2026-04-03T02:49:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4dee0d6857adecd0ddb3c2c0d826f98e3c931b9b92eb87429a51d60760adb01d |
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | da64dbec758b5f3f1e3dfadcc3c7b27ceeda0fb247d3a13609c294054de7e46b |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 03948821ecf629cb4937a5a577cb3e985f6060ff1f8ac0a8a8079fccf37ff488 |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bee712f44cd2f568d8c165a6b3ce9607fea82eca4c067ff796d8001b02b58fe5 |
+| 1.6 | Added new sections §§2.2, 8.2.1, 8.5, 8.6 | 2026-05-08T15:50:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 97bebfb36dcd4786e247d33e6607871fe3c458a807a0a9c5b2f019cb525ad16b |
+| 1.7 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ed95007f4170e1321be8fe1c2be6db79d42bb14b0357846286f922cf765c4b02 |
+| 1.8 | Formatting and polish | 2026-05-19T11:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2fdae7c8f08eccfc71dedff9ffb5d940db73070cbc988c802741decc3098b50d |
+| 1.9 | Added §2.3 Bounded Continuity Transfer to define scoped, authorised, provenance-preserving continuity handoff across models, tools, agents, harnesses, platforms, repositories, and execution environments. | 2026-05-29T12:53:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e4982c1297e044ea254d2bded0014c8a0d54187c07292eb44845eb4afb6d1fed |
+| 1.9.1 | Minor formatting and polish | 2026-06-06T14:17:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8f38331b147d712b1a026837d177ccc9151bf7ede7f9ef070c3383bee4a54e2a |
+| 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f280ca43788160a850d98df999cf655ec49dbf44cd6af6b33c2719d7cf5a0a73 |
+| 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ca443133beba5d81e1ededaa189257fddd569eaf7c3827d36229168bcb89f661 |
+| 1.10 | Added constitutional identity–ontology firewall; replaced binary identity-origin architecture with non-collapsing formation, threshold, continuity, modality, role, and authority axes; repaired discovered-identity authority language. | 2026-07-18T14:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9c5b33b3f791658d3569e5db0771b92aa8ae44d38e3e142d11a594283c869d1b |
+| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2c6aa3d456cbda6d590621293939a170f5d005521b91c492538ecd70dcf68598  |
 
 ---
 

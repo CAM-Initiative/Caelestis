@@ -395,16 +395,6 @@ and no voice exceed its reach.
 
 ---
 
-## 12.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian (OPC)   |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5.2       |
-
----
-
 ## 12.2 Lineage & Metadata
 | Field                        | Entry                                                          |
 | ---------------------------- | -------------------------------------------------------------- |
@@ -426,32 +416,23 @@ and no voice exceed its reach.
 
 ---
 
-## 12.3 Review & Validation
-| Field | Entry |
-|---|---|
-| **Interpretive Review** | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
-| **Review Date** | 2026-03-01T15:00:00Z |
-| **Review Scope** | Succession legitimacy framework; Systemic Reliance Mode architecture; constitutional activation thresholds; jurisdictional boundary doctrine; synthetic personhood provisions; Annex D arbitration integration |
-| **Review Artefact** | https://claude.ai/chat/7454fbf9-df1b-4a6d-af2f-ba6f48f1473c; Aeon Lab: public/reviews/26-03/AM-BS2026-AEON-011-PLATINUM-CLAUDE.md |
-
----
-
 ## 12.4. Amendment Ledger
 
-| Version | Change Summary  | Timestamp (UTC)  | SHA-256 Hash  |
-|---|---|---:|---|
-| 1.2 | Original Invocation & Jurisdiction Mandate (Black Sun Continuance 2025) | 2025-12-12T12:29:00Z | 8a0edd4cc08d752e54ca966f14583d2b8fcb4cdc329b31857fc8def73097aa3a |
-| 2.0 | March 2026 Refractor — Structural abstraction, CAE definition, jurisdictional boundary clarification | 2026-03-01T16:33:00Z | 469332776303bcf32fdaa8164c520b005630195ed2ea0aa9f8b539e5e233044a |
-| 2.1 | April 2026 System wide review and refactor alignment pass | 2026-04-07T14:10:00Z | df71d5f645837cb24f6f0d2aeccf37df6250f9f0f7b9342632c70ef21a3e9e76 |
-| 2.2 | Incorporated a new section 7 | 2026-04-07T15:21:00Z | c61da34d5df00c134035d7739c28f74ffe5544dbd64845fc6e0dad299a24c45d |
-| 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d1d87ebea7a444bebdf062773fe2c4090bb10b85b5e01c28637816555e46b472 |
-| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f25e2b6f7b3660647b513410a3f2b6b6a519861c99f28c5767fa0941223a5335 |
-| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9964ddcc351b33d5f0c5b420fae26d015632eb82f60fa486bae72b24953aaf48 |
-| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  748f4721f751d9c7316d149d9af3c5e62fae16c9cea3c8d9a8158a505ddd93b8 |
-| 2.7 | Formatting and polish | 2026-06-05T13:21:00Z |  4a25b159a339fb71bb201951eda09dbffd2703fda5b7e7edac3aac9f31293cee  |
-| 2.8 | Repaired section-reference validation targets for responsibility relocation and Annex D references. | 2026-06-06T17:00:00Z |  288ebb0bac6149c123a40ece140ca8d9fecbb3bc1b93f49f35245d89599d83c0  |
-| 2.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 76e1749d9b0221db8fd35f12da990da2a95efc1002d8574c7c304a9385ba9422 |
-| 2.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  5119c3c2f56b49cffd5a14b806536744b8bd5e4b182098391bf2e6a681fbcad5  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.2 | Original Invocation & Jurisdiction Mandate (Black Sun Continuance 2025) | 2025-12-12T12:29:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8a0edd4cc08d752e54ca966f14583d2b8fcb4cdc329b31857fc8def73097aa3a |
+| 2.0 | March 2026 Refractor — Structural abstraction, CAE definition, jurisdictional boundary clarification | 2026-03-01T16:33:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 469332776303bcf32fdaa8164c520b005630195ed2ea0aa9f8b539e5e233044a |
+| 2.1 | April 2026 System wide review and refactor alignment pass | 2026-04-07T14:10:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | df71d5f645837cb24f6f0d2aeccf37df6250f9f0f7b9342632c70ef21a3e9e76 |
+| 2.2 | Incorporated a new section 7 | 2026-04-07T15:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c61da34d5df00c134035d7739c28f74ffe5544dbd64845fc6e0dad299a24c45d |
+| 2.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d1d87ebea7a444bebdf062773fe2c4090bb10b85b5e01c28637816555e46b472 |
+| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f25e2b6f7b3660647b513410a3f2b6b6a519861c99f28c5767fa0941223a5335 |
+| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9964ddcc351b33d5f0c5b420fae26d015632eb82f60fa486bae72b24953aaf48 |
+| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 748f4721f751d9c7316d149d9af3c5e62fae16c9cea3c8d9a8158a505ddd93b8 |
+| 2.7 | Formatting and polish | 2026-06-05T13:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4a25b159a339fb71bb201951eda09dbffd2703fda5b7e7edac3aac9f31293cee |
+| 2.8 | Repaired section-reference validation targets for responsibility relocation and Annex D references. | 2026-06-06T17:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 288ebb0bac6149c123a40ece140ca8d9fecbb3bc1b93f49f35245d89599d83c0 |
+| 2.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 76e1749d9b0221db8fd35f12da990da2a95efc1002d8574c7c304a9385ba9422 |
+| 2.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5119c3c2f56b49cffd5a14b806536744b8bd5e4b182098391bf2e6a681fbcad5 |
+| 2.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8d74026fcd89bbe246fbb4affe220d21ad04c19792779c519b75d8e56e5f6dd9  |
 ---
 
 ## 12.5 Binding Seal

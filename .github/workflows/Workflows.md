@@ -142,6 +142,7 @@ These scripts enforce ledger discipline and HASH coverage.
 | `lint_amendment_ledger.py` | Validates amendment-ledger rows, version increments, and latest HASH values; can seal latest HASH cells with `--fix` | Yes, with `--fix` | Governance rebuild Phases 2 and 8; manual recovery |
 | `bootstrap-amendment-ledger-sha.py` | Bootstrap/recovery helper for amendment-ledger SHA population | Yes | Manual recovery only |
 | `verify-ledger-sha-coverage.py` | Verifies ledger SHA coverage and JSON/index consistency | No | Governance rebuild Phase 4 |
+| `migrate-amendment-ledger-provenance.py` | Deterministically migrates legacy ledgers and removes static provenance blocks | Yes, with `--apply` | Schema migration and recovery only |
 
 Supporting policy files:
 
@@ -149,6 +150,9 @@ Supporting policy files:
 | --- | --- |
 | `lib/ledger_sha_policy.py` | Classifies valid, blank, placeholder, historical, latest, and strict ledger SHA states |
 | `lib/ledger_sha_exceptions.py` | Records intentional blank-SHA exceptions where governance-approved |
+| `lib/amendment_ledger.py` | Defines and parses the canonical seven-column header by name |
+
+The required ledger order is `Version`, `Change Summary`, `Timestamp (UTC)`, `Agent`, `Model`, `Reviewer`, `Reference Hash`. Every amendment row contains seven cells. Historical migrated rows use `Caelen`, `GPT-5 Series`, and `Dr M.V. O'Rourke`; exact model designations are used for new rows where known.
 
 Use the ledger tools when CI reports:
 
@@ -283,7 +287,7 @@ Runs, unless the change is law-only:
 python .github/scripts/lint_amendment_ledger.py --base "$BASE_SHA" --head "$HEAD_SHA" --fix
 python .github/scripts/lint_amendment_ledger.py --base "$BASE_SHA" --head "$HEAD_SHA" --strict
 ```
-Purpose: add/seal latest amendment-ledger rows for changed governance instruments, then enforce strict ledger validity.
+Purpose: seal latest amendment-ledger rows already prepared for changed governance instruments, then enforce strict seven-column ledger validity.
 
 ### Phase 3 — Rebuild source indexes post-HASH
 

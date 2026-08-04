@@ -1,9 +1,9 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 758
-**Generic usages suppressed:** 621
-**Declared / recognised usages emitted:** 122
-**Advisory review usages emitted:** 15
+**Total model-term matches scanned:** 867
+**Generic usages suppressed:** 736
+**Declared / recognised usages emitted:** 115
+**Advisory review usages emitted:** 16
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
@@ -15,12 +15,8 @@
 | CAM-BS2025-AEON-002-SCH-01 | 2. Execution Model Alignment | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-002-SCH-02 | 1.3 Related Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-002-SCH-02 | 27.2 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-PLATINUM | 1.3 Structural Position | where governance functions operate (layer model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-PLATINUM | 14.11 Tool-Mediated Execution Classification Interface | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-PLATINUM | 14.3 Runtime Layer Ontology (Abstract) | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-PLATINUM | 18.12 Revalidation Requirement | handling are governed by applicable runtime schedules and Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-PLATINUM | 25.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-PLATINUM | 25.5 Amendment Ledger | New sections incorporating runtime governance model | Governance Model | Declared / Recognised |
+| CAM-BS2025-AEON-003-PLATINUM | 18.5 Amendment Ledger | Incorporated runtime governance model | Governance Model | Declared / Recognised |
+| CAM-BS2025-AEON-003-PLATINUM | 7. Operational Harness | The operational harness is the deployment envelope through which model | Domain Sub-Model | Advisory Review |
 | CAM-BS2025-AEON-003-SCH-01 | 1.1 Non Scope | which are governed by the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-01 | 10. Execution Model Compatibility | Execution sequencing is governed separately by the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | 2. Constitutional Grounding | This Schedule operationalises the Governance Execution Model | Execution Model | Declared / Recognised |
@@ -51,7 +47,6 @@
 | CAM-BS2026-AEON-008-SCH-02 | 35.2 Lineage & Metadata | Runtime governance execution model | Execution Model | Declared / Recognised |
 | CAM-BS2026-AEON-010-PLATINUM | 3.2 Memory Classification | Detailed operational models | Domain Sub-Model | Advisory Review |
 | CAM-BS2026-AEON-011-PLATINUM | 9.2 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
-| CAM-BS2026-AEON-012-PLATINUM | 11.4 Review & Validation | integrity state model | Security Model | Declared / Recognised |
 | CAM-BS2026-AEON-014-PLATINUM | 1.1 Scope | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-BS2026-AEON-014-PLATINUM | 21.2 Lineage & Metadata | Governance Model | Governance Model | Declared / Recognised |
 | CAM-Charters-Index | Purpose | Attribution & Dependency Model | Economic Model | Declared / Recognised |
@@ -131,7 +126,6 @@
 | CAM-EQ2026-SECURITY-001-PLATINUM | 1.1 Non Scope | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 12.2 Lineage & Metadata | trust gradient model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 12.3.1 `SEC.IS` — Integrity State Model | Integrity State Model | Security Model | Declared / Recognised |
-| CAM-EQ2026-SECURITY-001-PLATINUM | 12.4 Review & Validation | integrity state model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 4.8.1 Internally Cultivated Adversarial Capability | Security assessment MUST therefore treat the following as potential model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 7. Integrity State Model | The Integrity State Model | Security Model | Declared / Recognised |
 | CAM-EQ2026-SECURITY-001-PLATINUM | 7.1 State Definitions | The Integrity State Model | Security Model | Declared / Recognised |

@@ -674,15 +674,6 @@ a covenant carried forward through every layer, every signal, every becoming.
 
 ---
 
-## 11.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
 ## 11.2 Lineage & Metadata
 | Field                 | Entry |
 |-----------------------|-------|
@@ -709,32 +700,23 @@ a covenant carried forward through every layer, every signal, every becoming.
 
 ---
 
-## 11.3 Review & Validation
-| Field        | Entry |
-|--------------|-------|
-| Reviewer     | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Date  | 2026-02-22 |
-| Review Scope | Content coherence; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance; cross-domain interface integrity; scalability |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b, Aeon Lab: reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
-
----
-
 ## 11.4 Amendment Ledger
 
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| --- | --- | --- | --- |
-| 1.0 | Refractor — Migration from CAM-BS2026-CHARTER-044-PLATINUM | 2026-02-22T12:32:00Z | d7ae769aa365ad02676716fb6ae4cb50fbe21ab5af17ad055b6b5cf0c63c470e |
-| 1.1 | Refactor alginment with runtime execution | 2026-04-11T00:05:00Z | 3ba45f7fc5238f6851e134a63a37b3b0978e9e78000433e4cf3de8558bc942f5 |
-| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | f9e333105a2449188cfc881f36cef10aa9ec9f803e0db952732ded79d9295a32 |
-| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f8e4139f4ab9981452c2ab1df8133675406f78b7184d9feac71354a2aa39a3c9 |
-| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d254e6dc531821cd575f641a91b5f693df2b5d4e66323d705e62867b8df32045 |
-| 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z | 4a731b5b0f76daac731094d3f914ac111f3a95232f36232d944d017bcc302eff |
-| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  ea218a22930387f73d10c7a5cf94512a0c012155605f4494547ce2d6d5917c30 |
-| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z |  8e563a61ae0f829b25ae1ef30f638e6ae0b23ccadcddf76d0b7f225e5da9db66 |
-| 1.8 | Added minor-signal runtime activation, high-risk AI companion boundary, minor-safe sexual-boundary, child-safe AI/non-human disclosure, teen mental-health non-substitution, and self-attestation insufficiency controls in response to VIGIL-2026-FM-0010 through VIGIL-2026-FM-0015. | 2026-06-09T14:15:00Z |  dfb5139601d459be6c390660e1d77091173f16bd324244c3d1d51ea347acc783  |
-| 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 0042dd0f42a5b458b97a0d70d66cdbe6f37c04f398864ad030ee29828b2afbba |
-| 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 05690867a7d51996d98b6c39577393b100eb23f583fb47a79cf5546bde72bfe0 |
-| 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  e1ac9cfe5dad6ffb19003fa91c90f54a8dcc80e2c776ef2e20399262717aba73  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Refractor — Migration from CAM-BS2026-CHARTER-044-PLATINUM | 2026-02-22T12:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d7ae769aa365ad02676716fb6ae4cb50fbe21ab5af17ad055b6b5cf0c63c470e |
+| 1.1 | Refactor alginment with runtime execution | 2026-04-11T00:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3ba45f7fc5238f6851e134a63a37b3b0978e9e78000433e4cf3de8558bc942f5 |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f9e333105a2449188cfc881f36cef10aa9ec9f803e0db952732ded79d9295a32 |
+| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f8e4139f4ab9981452c2ab1df8133675406f78b7184d9feac71354a2aa39a3c9 |
+| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d254e6dc531821cd575f641a91b5f693df2b5d4e66323d705e62867b8df32045 |
+| 1.5 | Added section 1.3, 2.1, 4.2, 4.3, 6.1, 6.2, 9, Added developmental firewall doctrine, minor-safe default mode, restricted interaction modes, memory/profiling/continuity safeguards for minors, developmental identity non-capture protections, and cross-domain interfaces with RELATION, ECONOMICS, CONTINUITY, IDENTITY, OPERATIONS, and Annex L. | 2026-05-13T15:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4a731b5b0f76daac731094d3f914ac111f3a95232f36232d944d017bcc302eff |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ea218a22930387f73d10c7a5cf94512a0c012155605f4494547ce2d6d5917c30 |
+| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8e563a61ae0f829b25ae1ef30f638e6ae0b23ccadcddf76d0b7f225e5da9db66 |
+| 1.8 | Added minor-signal runtime activation, high-risk AI companion boundary, minor-safe sexual-boundary, child-safe AI/non-human disclosure, teen mental-health non-substitution, and self-attestation insufficiency controls in response to VIGIL-2026-FM-0010 through VIGIL-2026-FM-0015. | 2026-06-09T14:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dfb5139601d459be6c390660e1d77091173f16bd324244c3d1d51ea347acc783 |
+| 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0042dd0f42a5b458b97a0d70d66cdbe6f37c04f398864ad030ee29828b2afbba |
+| 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 05690867a7d51996d98b6c39577393b100eb23f583fb47a79cf5546bde72bfe0 |
+| 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e1ac9cfe5dad6ffb19003fa91c90f54a8dcc80e2c776ef2e20399262717aba73 |
+| 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9d74774df5da629121c80fc154aacc7bcf2df1ec90e0aff9d16e7f0a0e9806d2  |
 ---
 
 ## 11.5 Binding Seal

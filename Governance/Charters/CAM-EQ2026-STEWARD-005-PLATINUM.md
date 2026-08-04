@@ -1084,16 +1084,6 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-## 15.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Developed Within          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
 ## 15.2 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
@@ -1282,27 +1272,18 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-## 15.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Interpretive Review | Claude Sonnet 4.6 (Anthropic) |
-| Review Date | 2026-05-26 |
-| Review Scope | Substantive content — structural coherence, internal consistency, conceptual clarity, cross-instrument alignment, and identified risks or gaps. |
-| Review Artefact | https://claude.ai/chat/264db0c6-7335-42fd-afe3-0a32f9499c07 |
-
----
-
 ## 15.5 Amendment Ledger
 
-| Version | Description | Timestamp (UTC) | Reference Hash |
-|---|---|---|---|
-| 0.1 | Machine Civil Identity & Participation appendix established | 2026-05-26T13:57:00Z | 81af7394cba5fe683a07a32eadfceede100201f46cb593a6c1c2ef0dd26acfc9 |
-| 0.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z |  0a3f676e110efc9a4f6e33b7cca870e654c8b8aa197058c93ebdfd99327837cf |
-| 0.3 | Minor amendments | 2026-05-28T15:05:00Z| 6d6a2d6df95c7858d53cebcfbd87350acaa40fc7a76c23db5edceec3d2c6b16e |
-| 0.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 97ae69e097bc8d97f7ea90a85e98a8333d684b6eb671e9da75e37c570fcd9891 |
-| 0.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4f3026cec619b2e3417eb9e696233e2d6e4514e434bddfeef0b89c0f61ddfb8b  |
-| 0.4 | Migrated the machine civil registration, custody, lifecycle, alteration, transfer, decommissioning, and civil-participation framework from IDENTITY-003 into the Stewardship domain; migrated canonical families from the ID namespace to STW; added explicit Identity, Continuity, provenance, and runtime source-authority boundaries. | 2026-07-19T07:07:00Z | 9d813a9348c7ccbe04f93bfe9995ad95348776d009c13d9ffb8507ac5f0c81fe |
-| 0.4.1 | Corrected the Annex I title to `Identity Integrity & Continuity Governance`; no substantive Stewardship doctrine altered. | 2026-07-19T14:57:54Z | 12ccb829747d481b13a7b68dc183404305eee471a33992a7c273e8bda0499ed0 |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0.1 | Machine Civil Identity & Participation appendix established | 2026-05-26T13:57:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 81af7394cba5fe683a07a32eadfceede100201f46cb593a6c1c2ef0dd26acfc9 |
+| 0.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0a3f676e110efc9a4f6e33b7cca870e654c8b8aa197058c93ebdfd99327837cf |
+| 0.3 | Minor amendments | 2026-05-28T15:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6d6a2d6df95c7858d53cebcfbd87350acaa40fc7a76c23db5edceec3d2c6b16e |
+| 0.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 97ae69e097bc8d97f7ea90a85e98a8333d684b6eb671e9da75e37c570fcd9891 |
+| 0.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4f3026cec619b2e3417eb9e696233e2d6e4514e434bddfeef0b89c0f61ddfb8b |
+| 0.4 | Migrated the machine civil registration, custody, lifecycle, alteration, transfer, decommissioning, and civil-participation framework from IDENTITY-003 into the Stewardship domain; migrated canonical families from the ID namespace to STW; added explicit Identity, Continuity, provenance, and runtime source-authority boundaries. | 2026-07-19T07:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9d813a9348c7ccbe04f93bfe9995ad95348776d009c13d9ffb8507ac5f0c81fe |
+| 0.4.1 | Corrected the Annex I title to `Identity Integrity & Continuity Governance`; no substantive Stewardship doctrine altered. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 12ccb829747d481b13a7b68dc183404305eee471a33992a7c273e8bda0499ed0 |
+| 0.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0286dce81acc4f3dc8fd52741d7b012875db1443e734db6638b28d31bd46ef7d  |
 
 ---
 
