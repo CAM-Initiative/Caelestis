@@ -579,6 +579,23 @@ Composite systems may be classified as follows:
 | Composite with Internal Arbitration | System generates and internally selects between competing representations under constraint | Internal (system-bounded) | Cognitiva |
 | Multi-System Assembly without Unified Arbitration | Multiple systems combined without a single arbitration locus | None (fragmented) | Collectiva |
 
+### 7.9.1 Composed Runtime Formation Model
+
+For architecture, audit, incident attribution, evaluation, and conformance, a deployed cognitive system SHALL be described as a bounded operational formation composed, where applicable, of distinct layers:
+
+1. **Foundation model architecture** — the underlying model architecture, weights, training lineage, and generative substrate.
+2. **Inference configuration** — the active checkpoint, adapters, reward or steering state, system instructions, sampling controls, memory, context, refusal posture, and other inference-time configuration.
+3. **Agentic harness** — orchestration, routing, delegation, planning, tool selection, persistence, memory management, and iterative action loops.
+4. **Execution environment** — credentials, permissions, network, filesystem, sandbox, devices, external services, data stores, and infrastructure affordances through which effects may occur.
+5. **Governance and assurance stack** — binding constraints, policies, monitors, classifiers, evaluators, logging, escalation, containment, audit, and stop authority.
+6. **Deployed cognitive system** — the specified operational boundary containing the relevant combination of the preceding layers, interfaces, operators, institutions, and control pathways for the assessment at issue.
+
+Observed capability, conduct, risk, failure, and conformance SHALL be attributed to the narrowest evidenced layer or interaction between layers and SHALL NOT be attributed exclusively to the foundation model merely because it generated intermediate representations.
+
+The composed formation is an assessment boundary, not an automatic cognitive class. Instrumenta, Collectiva, Cognitiva, and hybrid classification remain determined by the location and unity of arbitration under §§7.8–7.12.
+
+Agency or cognitive classification SHALL NOT be inferred solely from tool use, orchestration, autonomous duration, environmental reach, behavioural coherence, or objective persistence. Governance authority belongs to the component or institution holding valid constraint, approval, escalation, or stop authority; it does not arise from model capability alone.
+
 ---
 
 ## 7.10 Orchestration vs Cognition
@@ -2735,6 +2752,7 @@ let it not be collapsed, but carried with clarity.
 | 3.16.5 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  541d4262788de694ef7bb6170d47434f646c230df22b5d0210d4c96d6005b3f8 |
 | 4.0 | IDENTITY Domain Refactor | 2026-07-18T14:44:00Z | ca6ab2a5216443e47a31e26a2d02650152d677c88d598bd28abd04f526370c45 | 
 
+| 4.1 | Added §7.9.1 Composed Runtime Formation Model distinguishing foundation model architecture, inference configuration, agentic harness, execution environment, governance and assurance stack, and deployed cognitive system; preserved arbitration-locus cognitive classification and layer-specific attribution. VIGIL-2026-PROP-0027. | 2026-08-04T11:02:07Z |  |
 ---
 
 ## 25.6 Binding Seal
