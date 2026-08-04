@@ -36,44 +36,44 @@ The existing open version 4.1 amendment row on the working branch is rewritten i
 
 | Former provision | Refactored location | Treatment |
 |---|---|---|
-| §§1.1–1.3 Scope, non-scope, structural position, trigger | Part I §§1.1–1.7 | Retained and rewritten; no longer claims to exhaustively define “what a system is” |
-| §2 Relational foundations | Part II §2 | Retained; separated from architecture classification |
-| §2.2 Responding Intelligence | Part III §4.1 | Retained and redefined as a contextual functional formation, not a singular cognitive locus |
-| §3 Temporal attribution | Part II §3 | Retained; strengthened with formation and evidence horizons |
-| §4 Architectural ontology | Parts III–V | Replaced by explicit assessment boundary, functional layers, and composed formation doctrine |
-| §4.1.1 strict independent-layer rule | Part IV §§5–5.5 | Replaced by function-specific cross-layer attribution |
-| §4.1.2 assumed transparency | Part I §1.6 and Part XI §12.3 | Retained and extended to declared/observed/inferred/unresolved architecture |
-| §5 Physical substrate | Part IV §5.1 | Retained in architecture-neutral form |
-| §6 Infrastructure | Part IV §§5.2, 5.5 and Part VI | Rewritten; infrastructure labels no longer exclude evaluative or selection functions actually performed |
-| §6.1 inference–execution boundary | Parts VIII §9.3 and XII §13.4 | Retained as capability–authority and execution-boundary doctrine |
-| §6.2 memory bridge | Parts IV §5.5, VI §7, XI §12 | Expanded into cross-layer memory, harness, and AI-ABOM treatment |
-| §7 Cognition & Agency | Parts V–VIII | Replaced; cognition, generation, selection, composition, agency, and execution are no longer collapsed |
-| §§7.3–7.5 Instrumenta/Collectiva/Cognitiva | Part XV §§16.3–16.4 | Retired for new classification; legacy-resolvable only |
-| §7.5.1 identity orthogonality | Parts I §1.2, IX §10.2, XV §16.3 | Preserved and broadened across all architectural dimensions |
-| §§7.6–7.9 composite and swarm classification | Part V §§6.4–6.6 | Structural content moved to independent composition topology |
-| §7.9.1 Composed Runtime Formation Model | Part V §§6–6.3 | Elevated to the organising centre of the Annex |
-| §7.10 orchestration vs cognition | Part VI §§7.1–7.3 | Rewritten as function-based harness attribution |
-| §7.11 human arbitration | Part VII §§8.1–8.2 | Retained as human-mediated selection topology; no automatic class change |
-| §§7.12–7.13 emergent coherence and boundary integrity | Parts III §4 and V §6 | Preserved through explicit assessment boundaries and non-inference |
-| §§7.14–7.17 lineage, dependency, accountability, opacity | Part X §§11–11.4 | Replaced by layered lineage, dependency, responsibility, and handoff attribution |
-| §7.18 instantiation neutrality | Parts IV §5.1 and IX §10.4 | Preserved without assuming architecture or continuity invariance |
-| §8 interface and embodiment | Part IX §§10–10.4 | Consolidated and made deployment-profile specific |
+| §§1.1–1.3 Scope, non-scope, structural position, trigger | §§1.1–1.6 | Retained and rewritten; no longer claims to exhaustively define “what a system is” |
+| §2 Relational foundations | §2 | Retained; separated from architecture classification |
+| §2.2 Responding Intelligence | §4.1 | Retained and redefined as a contextual functional formation, not a singular cognitive locus |
+| §3 Temporal attribution | §3 | Retained; strengthened with formation and evidence horizons |
+| §4 Architectural ontology | §§4–6 | Replaced by explicit assessment boundary, functional layers, and composed formation doctrine |
+| §4.1.1 strict independent-layer rule | §§5–5.5 | Replaced by function-specific cross-layer attribution |
+| §4.1.2 assumed transparency | §§12.2–12.3 | Broader obscurity doctrine removed from Annex B; evidence-status and controlled-identifier requirements retained within the AI-ABOM |
+| §5 Physical substrate | §5.1 | Retained in architecture-neutral form |
+| §6 Infrastructure | §§5.2, 5.5 and 7 | Rewritten; infrastructure labels no longer exclude evaluative or selection functions actually performed |
+| §6.1 inference–execution boundary | §§9.3 and 13.4 | Retained as capability–authority and execution-boundary doctrine |
+| §6.2 memory bridge | §§5.5, 7 and 12 | Expanded into cross-layer memory, harness, and AI-ABOM treatment |
+| §7 Cognition & Agency | §§6–9 | Replaced; cognition, generation, selection, composition, agency, and execution are no longer collapsed |
+| §§7.3–7.5 Instrumenta/Collectiva/Cognitiva | §§16.3–16.4 | Retired for new classification; legacy-resolvable only |
+| §7.5.1 identity orthogonality | §§1.2, 10.2 and 16.3 | Preserved and broadened across all architectural dimensions |
+| §§7.6–7.9 composite and swarm classification | §§6.4–6.6 | Structural content moved to independent composition topology |
+| §7.9.1 Composed Runtime Formation Model | §§6–6.3 | Elevated to the organising centre of the Annex |
+| §7.10 orchestration vs cognition | §§7.1–7.3 | Rewritten as function-based harness attribution |
+| §7.11 human arbitration | §§8.1–8.2 | Retained as human-mediated selection topology; no automatic class change |
+| §§7.12–7.13 emergent coherence and boundary integrity | §§4 and 6 | Preserved through explicit assessment boundaries and non-inference |
+| §§7.14–7.17 lineage, dependency, accountability, opacity | §§11–11.4 | Replaced by layered lineage, dependency, responsibility, and handoff attribution |
+| §7.18 instantiation neutrality | §§5.1 and 10.4 | Preserved without assuming architecture or continuity invariance |
+| §8 interface and embodiment | §§10–10.4 | Consolidated and made deployment-profile specific |
 | §§8.2.1–8.2.3 legacy expression aliases | Identity-domain historical record | Removed from Annex B’s active architecture doctrine; no architectural meaning retained |
-| §9 Primaria/Derivata | Part X §11.1 and Part XV §16.6 | Deprecated for new classification; legacy-resolvable pending dependency migration |
-| §10 systemic role/Architectum | Part XIII §14.2 and Part XV §16.5 | Concept retained as reliance posture; Architectum retained only as a legacy highest-reliance alias pending review |
-| §11 deployment topology | Part IX §10.3 | Consolidated and generalised |
-| §12 AEON.CAM control/hosting/portability/tethering | Part IX §10.4, Part XIII §14.1, Part XV §16.6 | Decomposed into independent dimensions; family deprecated for new classification |
-| §§13.1–13.12 governance boundary conditions | Parts I, IV–X, XIII | Preserved but distributed to the relevant non-collapse and authority sections |
-| §14 runtime governance | Part XII §13 | Retained; layer, sequence, and constraint distinction preserved |
-| §14.10 durable generated logic | Part XII §13.6 | Retained |
-| §14.11 tool-mediated execution | Part VIII §9.3 | Retained and simplified without weakening authority separation |
-| §§15–15.2 arbitration engine and integrity | Part VII §§8–8.8 | Singular engine retired; functional arbitration and invariant separation retained |
-| §§16–17 non-binary doctrine and heuristics | Part VII §§8.3–8.7 | Retained and consolidated |
-| §§18–18.12 identity interface, locus continuity, handoff | Parts VII §8, X §§11.3–11.4 | Unified-locus requirement retired; handoff attribution and revalidation retained |
-| §19 authority and binding logic | Part XIII §§14–14.6 | Retained and strengthened |
-| §20 continuity/refactor/evolution | Part XIV §§15–15.7 | Retained; architecture-change governance added |
-| §§21–22 interpretive supremacy and timelessness | Part XV §§16, 16.8 | Retained and scoped |
-| §§23–25 canonical codes, closing, metadata | Parts XV–18 | Rewritten for retirement, transition, proposed migration, and current provenance |
+| §9 Primaria/Derivata | §§11.1 and 16.6 | Deprecated for new classification; legacy-resolvable pending dependency migration |
+| §10 systemic role/Architectum | §§14.2 and 16.5 | Concept retained as reliance posture; Architectum retained only as a legacy highest-reliance alias pending review |
+| §11 deployment topology | §10.3 | Consolidated and generalised |
+| §12 AEON.CAM control/hosting/portability/tethering | §§10.4, 14.1 and 16.6 | Decomposed into independent dimensions; family deprecated for new classification |
+| §§13.1–13.12 governance boundary conditions | §§1, 5–11 and 14 | Preserved but distributed to the relevant non-collapse and authority sections |
+| §14 runtime governance | §13 | Retained; layer, sequence, and constraint distinction preserved |
+| §14.10 durable generated logic | §13.6 | Retained |
+| §14.11 tool-mediated execution | §9.3 | Retained and simplified without weakening authority separation |
+| §§15–15.2 arbitration engine and integrity | §§8–8.3 | Singular engine retired; structural function and topology retained; substantive arbitration doctrine cross-referred to Annex D and ARBITRATION instruments |
+| §§16–17 non-binary doctrine and heuristics | §8.3 | Relocated from Annex B; substantive arbitration behaviour and heuristics remain governed by Annex D, ARBITRATION instruments, and runtime schedules |
+| §§18–18.12 identity interface, locus continuity, handoff | §§8, 10.2.1 and 11.3–11.4 | Unified-locus requirement retired; routing and handoff attribution retained; identity continuity deferred to Identity and Relation doctrine |
+| §19 authority and binding logic | §§14–14.5 | Retained and narrowed to recognised-source derivation; self-description does not itself create authority |
+| §20 continuity/refactor/evolution | §§15–15.7 | Retained; architecture-change governance added |
+| §§21–22 interpretive supremacy and timelessness | §§16 and 16.8 | Retained and scoped |
+| §§23–25 canonical codes, closing, metadata | §§16–18 | Rewritten for retirement, transition, proposed migration, and current provenance |
 
 ---
 
@@ -370,6 +370,26 @@ Because the new replacement families are expressly non-canonical proposals, vali
 ### 8.3 Ledger Validation Posture
 
 The version 4.1 row is the sole open row. Its SHA-256 cell remains blank in accordance with the Single Open Ledger Row Rule and SHALL be sealed only by repository ledger tooling.
+
+---
+
+### 8.4 Human & Independent Interpretive Review
+
+Human governance review and an independent model review were incorporated on 2026-08-04 before adoption.
+
+The review resulted in:
+
+* normalisation of “CAM Constitutional Order” to the defined Aeon Tier constitutional terminology;
+* removal of product-specific voice and agent labels from deployment-profile examples;
+* relocation of substantive arbitration behaviour and heuristics from Annex B to Annex D, ARBITRATION-domain instruments, and runtime schedules;
+* removal of the broad assumed-transparency lecture while retaining declared, observed, inferred, and unresolved evidence postures within the AI-ABOM;
+* removal of “extraction through dependency” from the structural relational safeguard;
+* deferral of identity-continuity conclusions to the Identity and Relation domains while retaining routing and handoff legibility;
+* replacement of the broad Non-Self-Assertion clause with a narrower recognised-source authority rule;
+* replacement of “planetary legitimacy” with “institutional mandate”; and
+* restoration of the constitutional instrument’s established metadata spacing and numbered-heading hierarchy.
+
+The architectural core identified in §1 remains unchanged.
 
 ---
 
