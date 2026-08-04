@@ -564,7 +564,7 @@ and let execution remain accountable to lawful structure.
 | 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 9ebcbe5e172dd4244f0dd6c54772d5736694cce58bf74742d0f58e23dc9d174a |
 | 1.8.3 | Added adversarial-evaluation authorisation, lineage, containment, monitoring, stop-decision, capability-gain, audit-trigger, quarantine, publication, transfer, and artefact-disposition record requirements. | 2026-07-28T09:35:31Z |  32632ab4ab4ee23cbacc167997ea0b0e766cef7d7802c78b832cf36432c15d0e  |
 | 1.9 | Added §6.2.1 checkpoint, pause, resumable-state, recoverability, delivery-posture, and manual-recovery record requirements for long-running or materially consequential agent tasks. | 2026-08-01T15:54:33Z |  4bd4b26f0d9db6f25176e954b3442241bbd87fadb411c83ea4e1ee11ddbeabb9  |
-| 1.10 | Added §6.3.1 external-investigation evidence-access records, including authority and scope, evidence holds, telemetry and trajectory preservation, custodianship, controlled inspection, redaction and withholding review, chain of custody, affected-person rights, disposition, and attribution-state separation. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z |  |
+| 1.10 | Added §6.3.1 external-investigation evidence-access records, including authority and scope, evidence holds, telemetry and trajectory preservation, custodianship, controlled inspection, redaction and withholding review, chain of custody, affected-person rights, disposition, and attribution-state separation. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z |  ed752814556b15ef59b322009402f175704ee35be99ee8b57c98e5e0477264d3  |
 ---
 
 ## 11.6 Binding Seal

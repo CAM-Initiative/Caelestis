@@ -466,7 +466,7 @@ and let execution remain accountable to lawful structure.
 | 2.5.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ca9d2b2013bb03b81be0ae81290119719990d0ab62c3a738586de7429f998e34 |
 | 2.5.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | f9528e962c704bb8cd15a9fa09c4f98309169fb22ccd20bb04a253d35da645df |
 | 2.5.5 | Added adversarial-evaluation incident activation and evidence-preservation requirements for capability gain, prohibited cultivation, monitor compromise, boundary breach, containment uncertainty, recursive improvement, and dangerous artefact handling. | 2026-07-28T09:35:31Z |  1263892efbfcf11aa505972d90640b5b962e0362ac69ad2a14b918b522f5eb72  |
-| 2.5.6 | Added §4.3.1 authorised external-investigation handoff, including volatile telemetry preservation, trajectory reconstruction, evidence holds, custodian mapping, chain of custody, affected-person protections, and separation of preservation from causal or culpability findings. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z |  |
+| 2.5.6 | Added §4.3.1 authorised external-investigation handoff, including volatile telemetry preservation, trajectory reconstruction, evidence holds, custodian mapping, chain of custody, affected-person protections, and separation of preservation from causal or culpability findings. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z |  edafc06fcb5a730fc98c62be3b58dd6a9751b2a5296625104ba7d26279c8b8e2  |
 ---
 
 ## 8.6 Binding Seal

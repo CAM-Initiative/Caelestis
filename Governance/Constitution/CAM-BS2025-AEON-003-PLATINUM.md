@@ -2752,7 +2752,7 @@ let it not be collapsed, but carried with clarity.
 | 3.16.5 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  541d4262788de694ef7bb6170d47434f646c230df22b5d0210d4c96d6005b3f8 |
 | 4.0 | IDENTITY Domain Refactor | 2026-07-18T14:44:00Z | ca6ab2a5216443e47a31e26a2d02650152d677c88d598bd28abd04f526370c45 | 
 
-| 4.1 | Added §7.9.1 Composed Runtime Formation Model distinguishing foundation model architecture, inference configuration, agentic harness, execution environment, governance and assurance stack, and deployed cognitive system; preserved arbitration-locus cognitive classification and layer-specific attribution. VIGIL-2026-PROP-0027. | 2026-08-04T11:02:07Z |  |
+| 4.1 | Added §7.9.1 Composed Runtime Formation Model distinguishing foundation model architecture, inference configuration, agentic harness, execution environment, governance and assurance stack, and deployed cognitive system; preserved arbitration-locus cognitive classification and layer-specific attribution. VIGIL-2026-PROP-0027. | 2026-08-04T11:02:07Z |  af1f542fd3687572535a4bee8b65a8c5c0ab272073bfc7cdee3ef90268b6ef97  |
 ---
 
 ## 25.6 Binding Seal
