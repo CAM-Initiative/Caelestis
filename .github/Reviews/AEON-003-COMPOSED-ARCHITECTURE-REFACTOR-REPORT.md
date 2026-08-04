@@ -299,11 +299,11 @@ No machine-readable consumer was modified in this refactor because replacement c
 
 ### 7.1 Working-Branch Ledger Link
 
-The unpublished Annex B version 4.1 row cites `VIGIL-2026-PROP-0027` as the basis for §7.9.1.
+`VIGIL-2026-PROP-0027` — *Composed Runtime Architecture and Incident Attribution* — was verified on the active VIGIL branch `agent/fm-0031-social-advice-repair` in draft PR #51.
 
-Repository search of canonical VIGIL `main` did not locate `VIGIL-2026-PROP-0027`. The record may exist only on a working branch, may have been renumbered, or may be absent. This refactor therefore does not assert a verified proposal chain for PROP-0027.
+The proposal is active and branch-only. It is linked to `VIGIL-2026-PATCH-0035`, and its own resolution posture requires canonical Caelestis adoption followed by VIGIL reconciliation before proposal closure.
 
-The rewritten version 4.1 ledger row does not carry the unverified proposal citation.
+The record is not yet present on canonical VIGIL `main`; that is a merge-state distinction, not a missing-record condition. The rewritten Annex B version 4.1 ledger row therefore retains the verified `VIGIL-2026-PROP-0027` citation without representing it as canonical-main evidence.
 
 ### 7.2 Existing VIGIL Coverage
 
@@ -321,18 +321,18 @@ These records MUST be reviewed after Annex adoption to determine whether cited s
 
 ### 7.3 Recommended VIGIL Action
 
-Create a new VIGIL proposal for the coordinated downstream migration rather than treating this Annex refactor as a complete corpus-wide patch.
+Do not create a duplicate proposal. `VIGIL-2026-PROP-0027` is the verified proposal pathway for composed runtime architecture and incident attribution.
 
-The proposal should cover:
+Before VIGIL PR #51 is merged, PROP-0027 and PATCH-0035 SHOULD be reconciled to the adopted Annex B text and canonical Caelestis commit. That reconciliation should account for:
 
-* retirement of `AEON.CC`;
-* distributed selection and arbitration topology;
-* separation of architecture, agency, execution, and authority;
+* retirement of `AEON.CC` for new classification;
+* structural selection and arbitration topology without preserving arbitration-locus cognitive classification;
+* separation of architecture, agency, execution, authority, identity, and responsibility;
 * AI-ABOM and incident-time formation evidence;
-* code/schema migration; and
-* preservation of historical record meaning.
+* the reviewed implementation-neutral deployment vocabulary; and
+* preservation of historical branch evidence without representing superseded text as the final repair.
 
-A PATCH record should be created only after the consequential Caelestis amendments and canonical-code migration are adopted and their commit is stable.
+A later migration PATCH should be created only after consequential Caelestis amendments and canonical-code migration are adopted and their commit is stable.
 
 ---
 
@@ -387,7 +387,8 @@ The review resulted in:
 * deferral of identity-continuity conclusions to the Identity and Relation domains while retaining routing and handoff legibility;
 * replacement of the broad Non-Self-Assertion clause with a narrower recognised-source authority rule;
 * replacement of “planetary legitimacy” with “institutional mandate”; and
-* restoration of the constitutional instrument’s established metadata spacing and numbered-heading hierarchy.
+* restoration of the constitutional instrument’s established metadata spacing and numbered-heading hierarchy; and
+* restoration of the branch-verified `VIGIL-2026-PROP-0027` ledger linkage with its canonical-merge status stated accurately.
 
 The architectural core identified in §1 remains unchanged.
 
