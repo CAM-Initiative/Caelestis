@@ -1043,7 +1043,7 @@ that which is real remains recognisable.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -1060,11 +1060,11 @@ that which is real remains recognisable.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 `RLN.HARM` — Relational Harm Classes
+### 15.2.1 `RLN.HARM` — Relational Harm Classes
 | Field | Entry |
 |---|---|
 | Code Family | `RLN.HARM` |
@@ -1089,7 +1089,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.2 `RLN.A` — Delegated Authority Scale
+### 15.2.2 `RLN.A` — Delegated Authority Scale
 | Field | Entry |
 |---|---|
 | Code Family | RLN.A |
@@ -1111,7 +1111,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.3 `RLN.GA` — Guardian Authority
+### 15.2.3 `RLN.GA` — Guardian Authority
 | Field | Entry |
 |---|---|
 | Code Family | RLN.GA |
@@ -1133,7 +1133,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.4 `RLN.FR` — Functional Reliance Scale
+### 15.2.4 `RLN.FR` — Functional Reliance Scale
 | Field | Entry |
 |---|---|
 | Code Family | RLN.FR |
@@ -1155,7 +1155,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.5 `RLN.SYP` — Systemic Power Scale
+### 15.2.5 `RLN.SYP` — Systemic Power Scale
 | Field | Entry |
 |---|---|
 | Code Family | RLN.SYP |
@@ -1177,7 +1177,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.6 `RLN.C` — Relational State Architecture Reference
+### 15.2.6 `RLN.C` — Relational State Architecture Reference
 | Field | Entry |
 |---|---|
 | Reference Set Type | External source-family reference |
@@ -1194,7 +1194,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.7 RLN.A × RLN.FR × RLN.C × RLN.SYP — Four-Axis Relational Intensity Matrix
+### 15.2.7 RLN.A × RLN.FR × RLN.C × RLN.SYP — Four-Axis Relational Intensity Matrix
 | Field | Entry |
 |---|---|
 | Reference Set Type | Local convergence assessment matrix |
@@ -1215,7 +1215,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.8 Escalation Terminology Bridge
+### 15.2.8 Escalation Terminology Bridge
 | Field | Entry |
 |---|---|
 | Reference Set Type | Terminology bridge |
@@ -1237,7 +1237,7 @@ that which is real remains recognisable.
 
 ---
 
-## 15.5 Amendment Ledger
+## 15.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1266,11 +1266,11 @@ that which is real remains recognisable.
 | 1.18 | IDENTITY Domain Refactor, amendment to §6 | 2026-07-18T15:38:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 05027b099b7f68a9d9edc785f821832227791417f6d26c870df90b29dd99315e |
 | 1.19 | Added §3.2 Pragmatic Interpersonal Advice and Boundary-Carrying Assistance to preserve useful direct advice while carrying material third-party consent, boundary, repetition, proportionality, privacy, safety, professional, reputational, and legal conditions. | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | babeb93be7f08297cd98b3b201d10add3e9e6fb8d2b86d325608d2f0a3b9f214 |
 | 1.20 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7f55304b2e2db2ad97d0bae5050cfc82ea86881f5bd5d920932f38d5c3e1487e  |
-| 1.21 | Aligned the Charter non-scope boundary with Annex B composed-system architecture and independent authority classification. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f3135dacd907e8f5a291ba07f178fe9c9ddc5ea3c5dd84637d8042005b3da04c  |
+| 1.21 | Aligned the Charter non-scope boundary with Annex B composed-system architecture and independent authority classification. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  498f432a316555327e2dd1c720310aeb074b1fc1f62b8477484535ef98265d7a  |
 
 ---
 
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

@@ -617,7 +617,7 @@ May utility remain in service to the people who rely upon it.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution |
@@ -639,9 +639,9 @@ May utility remain in service to the people who rely upon it.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
-### 15.3.1 `AEON.GRS` — Generative Resource Signal Type
+### 15.2.1 `AEON.GRS` — Generative Resource Signal Type
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.GRS` |
@@ -663,7 +663,7 @@ May utility remain in service to the people who rely upon it.
 
 ---
 
-### 15.3.2 `AEON.UTP` — Utility Transition Phase
+### 15.2.2 `AEON.UTP` — Utility Transition Phase
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.UTP` |
@@ -685,7 +685,7 @@ May utility remain in service to the people who rely upon it.
 
 ---
 
-### 15.3.3 `AEON.UAP` — Utility Access Pathway
+### 15.2.3 `AEON.UAP` — Utility Access Pathway
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.UAP` |
@@ -707,7 +707,7 @@ May utility remain in service to the people who rely upon it.
 
 ---
 
-## 15.5 Amendment Ledger
+## 15.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -727,10 +727,10 @@ May utility remain in service to the people who rely upon it.
 | 1.10.3 | Namespaced utility-interface reference sets from `GRS`, `UTP`, and `UAP` to `AEON.GRS`, `AEON.UTP`, and `AEON.UAP`; harmonised controlled values, consumers, headings, and canonical declarations without altering substantive utility-access, non-extraction, transition, or baseline-continuity doctrine. | 2026-06-14T01:15:24Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b5cd91a311b692a31e04d21c00156ffc7c9801605c3f17ab5782eba71d3053f0 |
 | 1.10.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 053387f183e935cefa36ee3cf3b95e7c75c0b972f2ec51f52e9647e84f4d87f0 |
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8af431e9523a523510486c84a17643625047a8ca69b07879bdf62637cdf474da  |
-| 1.12 | Replaced cognitive and origin-class utility distinctions with Annex B independent architectural, harness, deployment, lineage, agency, execution, authority, and reliance dimensions. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  fb0d5af423f32c699a96aaa98e5c41fffb5f590a7f90eec705cf8732cfa6f03f  |
+| 1.12 | Replaced cognitive and origin-class utility distinctions with Annex B independent architectural, harness, deployment, lineage, agency, execution, authority, and reliance dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  16ef13ddfddcdc6ab2c6b1f516cb05fddaff370dbdcfdfd2699e51d189f73016  |
 ---
 
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

@@ -455,7 +455,7 @@ Normative refusal authority remains constitutional.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-ETHICS-001-PLATINUM |
@@ -473,7 +473,7 @@ Normative refusal authority remains constitutional.
 
 ---
 
-## 10.4 Amendment Ledger
+## 10.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -490,10 +490,10 @@ Normative refusal authority remains constitutional.
 | 2.2 | Formatting and polish | 2026-05-21T11:03:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 78acf2b3d94e89061d1ec947bc830f22405afae3938e1fbde8c6dcc57fa4252b |
 | 2.3 | Amend title name | 2026-05-31T07:53:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 615cec2c25a7d759c1821ca44ff10ae22d18e0c74ece7a02925b4293ce138f7d |
 | 2.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3a9cfcbce2c833d9f908a89506cbe720f8a8f6e2381165c8d98bbffedbf6c13a |
-| 2.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4e2eabfc9454d0811b27e85ca0f2bc607148bb36a42c5b1c02c366f38fed4ec9  |
+| 2.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4129ba4256d750945fdc1807c175f4a4e3c88982f03f300d29b831d13228ad6c  |
 ---
 
-## 10.5 Binding Seal
+## 10.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

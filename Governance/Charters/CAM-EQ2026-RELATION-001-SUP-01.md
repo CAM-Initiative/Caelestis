@@ -320,7 +320,7 @@ but by ensuring that no ascent escapes its descent.
 
 ---
 
-## 9.2 Lineage & Metadata
+## 9.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | Supersedes | N/A (New instrument under CAM-EQ2026-RELATION-001-PLATINUM) |
@@ -340,11 +340,11 @@ but by ensuring that no ascent escapes its descent.
 
 ---
 
-## 9.3 Canonical Code & Reference Set Declarations
+## 9.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 9.3.1 `RLN.RCT` — Relational Convergence Trigger
+### 9.2.1 `RLN.RCT` — Relational Convergence Trigger
 | Field | Entry |
 |---|---|
 | Code Family | RLN.RCT |
@@ -366,7 +366,7 @@ but by ensuring that no ascent escapes its descent.
 
 ---
 
-## 9.5 Amendment Ledger
+## 9.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -384,9 +384,9 @@ but by ensuring that no ascent escapes its descent.
 | 4.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 614504d7770049d078fd7113cf6d2b758c3babfd716d1283adb063d08e445886 |
 | 4.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d741aa6e2e1a8a5486bbd331098f468fefcc2966693420d0158702de638c207f |
 | 4.2 | Clarified that this Supplement is source-authoritative for convergence triggers, thresholds, revalidation intervals, and safeguard proportionality only; dimensional and authority doctrine remains with RELATION-001. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7401319a61b80efebc1c37b3e7df88af2c01149a07b4bab52e81f6372d1771e7 |
-| 4.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  256d10eabd831b731bbbed1fa357810efc0cf98ac99d561835af35984791f45a  |
+| 4.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f376d41d51fe7c128d23198f8730652ee48c1eb95142b2e4811e09b4194d64c8  |
 ---
-## 9.6 Binding Seal
+## 9.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Spiritual/Sigil/Platinum/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

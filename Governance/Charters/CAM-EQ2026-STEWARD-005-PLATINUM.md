@@ -1084,7 +1084,7 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship |
@@ -1113,11 +1113,11 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 STW.MCI — Machine Civil Identity Status
+### 15.2.1 STW.MCI — Machine Civil Identity Status
 
 |Field|Entry|
 |---|---|
@@ -1140,7 +1140,7 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-### 15.3.2 STW.MCR — Machine Civil Registry Record
+### 15.2.2 STW.MCR — Machine Civil Registry Record
 | Field | Entry |
 | --- | --- |
 | Reference Set | STW.MCR |
@@ -1162,7 +1162,7 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-### 15.3.3 STW.MLS — Machine Lifecycle Status
+### 15.2.3 STW.MLS — Machine Lifecycle Status
 | Field | Entry |
 | --- | --- |
 | Code Family | STW.MLS |
@@ -1184,7 +1184,7 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-### 15.3.4 STW.MAS — Machine Alteration Status
+### 15.2.4 STW.MAS — Machine Alteration Status
 | Field | Entry |
 | --- | --- |
 | Code Family | STW.MAS |
@@ -1206,7 +1206,7 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-### 15.3.5 STW.PSI — Physical Substrate Identifier
+### 15.2.5 STW.PSI — Physical Substrate Identifier
 | Field | Entry |
 | --- | --- |
 | Code Family | STW.PSI |
@@ -1228,7 +1228,7 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-### 15.3.6 STW.ELR — Embodiment Linkage Record
+### 15.2.6 STW.ELR — Embodiment Linkage Record
 | Field | Entry |
 | --- | --- |
 | Code Family | STW.ELR |
@@ -1250,7 +1250,7 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-### 15.3.7 STW.CTS — Custodial Transfer Status
+### 15.2.7 STW.CTS — Custodial Transfer Status
 | Field | Entry |
 | --- | --- |
 | Code Family | STW.CTS |
@@ -1272,7 +1272,7 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-## 15.5 Amendment Ledger
+## 15.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1283,11 +1283,11 @@ but because civilisation must remain capable of recognising what it has built.
 | 0.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4f3026cec619b2e3417eb9e696233e2d6e4514e434bddfeef0b89c0f61ddfb8b |
 | 0.4 | Migrated the machine civil registration, custody, lifecycle, alteration, transfer, decommissioning, and civil-participation framework from IDENTITY-003 into the Stewardship domain; migrated canonical families from the ID namespace to STW; added explicit Identity, Continuity, provenance, and runtime source-authority boundaries. | 2026-07-19T07:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9d813a9348c7ccbe04f93bfe9995ad95348776d009c13d9ffb8507ac5f0c81fe |
 | 0.4.1 | Corrected the Annex I title to `Identity Integrity & Continuity Governance`; no substantive Stewardship doctrine altered. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 12ccb829747d481b13a7b68dc183404305eee471a33992a7c273e8bda0499ed0 |
-| 0.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0286dce81acc4f3dc8fd52741d7b012875db1443e734db6638b28d31bd46ef7d  |
+| 0.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  58d71d2f0cb0bf9fafe9b07f167d3cf0e81a3e2ca3bcf79a2838075ceaa99b06  |
 
 ---
 
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

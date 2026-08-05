@@ -1735,7 +1735,7 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Parent Instrument** | CAM-BS2026-AEON-012-PLATINUM — Security and Enforcement |
@@ -1756,11 +1756,11 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 12.3.1 `SEC.IS` — Integrity State Model
+### 12.2.1 `SEC.IS` — Integrity State Model
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.IS` |
@@ -1782,7 +1782,7 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-### 12.3.2 `SEC.TG` — Trust Gradient
+### 12.2.2 `SEC.TG` — Trust Gradient
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.TG` |
@@ -1804,7 +1804,7 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-### 12.3.3 `SEC.AH` — Adversarial Horizon
+### 12.2.3 `SEC.AH` — Adversarial Horizon
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.AH` |
@@ -1826,7 +1826,7 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-### 12.3.4 `SEC.IS` × `SEC.TG` — Trust–Integrity Coupling
+### 12.2.4 `SEC.IS` × `SEC.TG` — Trust–Integrity Coupling
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -1847,7 +1847,7 @@ that no truth is taken without test, and no signal accepted without weight.
 
 ---
 
-## 12.5 Amendment Ledger
+## 12.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1871,10 +1871,10 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d7c4104a2782128f8c632295dfd1ae68ea41ebc672a729bce20b0b413b84d2ac |
 | 1.15 | Added Capability–Authority Separation and Aggregate Pathway Integrity; required cumulative value-chain evaluation and separated action-risk safeguards from judgements of user capability. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fabf1e2978c42b6ba316c3d700deb549ed1964407472d3eadb79785dc4d531cf |
 | 1.16 | Recognised internally cultivated adversarial capability as a model-level integrity threat; added capability-lineage, hostile-acquisition, checkpoint, adapter, scaffold, trace, distillation, and diffusion controls. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fc9b6aa43132ce345dee9a62e87fc0dd11b2b0a1a22d68be31b1b60a6e7d2673 |
-| 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  fd9bb4b2a3c57de934be809d6862429e367ec461da09d089138640ce951ba031  |
+| 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3caf89299dd79270f663451e6128467cb5e64d307b409cfa02cc9112300cbcf8  |
 ---
 
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

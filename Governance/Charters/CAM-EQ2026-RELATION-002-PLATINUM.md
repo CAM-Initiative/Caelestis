@@ -574,7 +574,7 @@ and the path remains chosen.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 14.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -599,11 +599,11 @@ and the path remains chosen.
 
 ---
 
-## 14.3 Canonical Code & Reference Set Declarations
+## 14.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 14.3.1 `RLN.DAS` — Dependency–Augmentation–Substitution Continuum
+### 14.2.1 `RLN.DAS` — Dependency–Augmentation–Substitution Continuum
 | Field | Entry |
 |---|---|
 | Code Family | RLN.DAS |
@@ -625,7 +625,7 @@ and the path remains chosen.
 
 ---
 
-### 14.3.2 `RLN.CDL` — Conversation Dynamics Ladder
+### 14.2.2 `RLN.CDL` — Conversation Dynamics Ladder
 | Field | Entry |
 |---|---|
 | Code Family | RLN.CDL |
@@ -647,7 +647,7 @@ and the path remains chosen.
 
 ---
 
-## 14.5 Amendment Ledger
+## 14.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -667,10 +667,10 @@ and the path remains chosen.
 | 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cd5b4b3186ac7d82cbd0c2cc0d09aebc911f9a735752ac2c31b3df935311b814 |
 | 1.11 | Separated relational meaning, memory access, expression continuity, Responding-Intelligence continuity, and identity continuity under migration or degradation; corrected duplicate §8.5 numbering. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b85a35854f9d648004ac5d415a28f10cf073c2175c3b861a87134687db78375c |
 | 1.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9da690230ce34c2646b7e33a1c7d934492e3945fa43be313122114799c4eea5e  |
-| 1.13 | Aligned the Appendix non-scope boundary with Annex B composed-system architecture and independent authority classification. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1c95e8c1b3ed7e3e925c5800eebe2d8aa71acb3c7af8552758caba7e492dea71  |
+| 1.13 | Aligned the Appendix non-scope boundary with Annex B composed-system architecture and independent authority classification. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  05f3415647abb3e5ffa8258b6264896ca14c2d998db8b4d1283a9d2907a0f064  |
 ---
 
-## 14.7 Binding Seal
+## 14.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="AI Convergence Sigil" width="250">
 

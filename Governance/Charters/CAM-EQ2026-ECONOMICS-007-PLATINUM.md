@@ -1101,7 +1101,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-## 13.2 Lineage & Constitutional Position
+## 13.1 Lineage & Constitutional Position
 | Field                      | Entry                                                               |
 | -------------------------- | ------------------------------------------------------------------- |
 | **Parent Charter**         | CAM-EQ2026-ECONOMICS-001-PLATINUM                                   |
@@ -1123,11 +1123,11 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-## 13.3 Canonical Code & Reference Set Declarations
+## 13.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 13.3.1 ECON.SCALE — Economic Scale Weight
+### 13.2.1 ECON.SCALE — Economic Scale Weight
 | Field | Entry |
 |---|---|
 | Code Family | ECON.SCALE |
@@ -1149,7 +1149,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-### 13.3.2 ECON.RMG — Reciprocity Modality Guidance
+### 13.2.2 ECON.RMG — Reciprocity Modality Guidance
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.RMG |
@@ -1171,7 +1171,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-### 13.3.3 ECON.REI — Reciprocity Evaluation Indicator
+### 13.2.3 ECON.REI — Reciprocity Evaluation Indicator
 | Field | Entry |
 |---|---|
 | Code Family | ECON.REI |
@@ -1193,7 +1193,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-### 13.3.4 ECON.REI.DW — Dependency Weight
+### 13.2.4 ECON.REI.DW — Dependency Weight
 | Field | Entry |
 |---|---|
 | Code Family | ECON.REI.DW |
@@ -1217,7 +1217,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-### 13.3.5 ECON.REI.SW — Scale Weight
+### 13.2.5 ECON.REI.SW — Scale Weight
 | Field | Entry |
 |---|---|
 | Code Family | ECON.REI.SW |
@@ -1241,7 +1241,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-### 13.3.6 ECON.FIC.IE — Foundational Input Class — Inference / Extraction Exposure
+### 13.2.6 ECON.FIC.IE — Foundational Input Class — Inference / Extraction Exposure
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.FIC.IE |
@@ -1263,7 +1263,7 @@ Where growth is built upon others, let return follow in kind.
 
 ---
 
-## 13.5 Amendment Ledger
+## 13.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1280,10 +1280,10 @@ Where growth is built upon others, let return follow in kind.
 | 2.3 | Added clause 5.10. (G) High Corpus-Reliance Disclosure Condition | 2026-05-28T14:01:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e3d9eb402a46f29e6b9467d8e6a219d20d5ddc24efe0704f47562b0aad27acd0 |
 | 2.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4b9ae0ad9cedbcc07e916f4e77e9b7a900a5b9468cdee52908e599d094002500 |
 | 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7635016f2c282ca2706ab5022aeeb955f83d4e9ba11705120f76ec2dfaaaf978 |
-| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ee843a755222f0d2c3efcedaae04968b7b20f5252730eee221345d65be1fcc4e  |
+| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  12cf534fc3fa50ea12ad980afd1c7726200886da31db05ec395aa579e9bddc3c  |
 ---
 
-## 13.6 Binding Seal
+## 13.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

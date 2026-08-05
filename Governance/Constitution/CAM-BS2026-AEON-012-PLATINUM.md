@@ -1073,7 +1073,7 @@ that no breach proceeds unchecked.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | Parent Instrument | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -1108,11 +1108,11 @@ that no breach proceeds unchecked.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 `SEC.TBC` — Tool Boundary Class
+### 11.2.1 `SEC.TBC` — Tool Boundary Class
 | Field | Entry |
 | --- | --- |
 | Code Family | `SEC.TBC` |
@@ -1135,7 +1135,7 @@ that no breach proceeds unchecked.
 
 ---
 
-## 11.3.2 `SECURITY.PM` — Security Posture Mode
+## 11.2.2 `SECURITY.PM` — Security Posture Mode
 | Field | Entry |
 |---|---|
 | Code Family | `SECURITY.PM` |
@@ -1158,7 +1158,7 @@ that no breach proceeds unchecked.
 
 ---
 
-## 11.5 Amendment Ledger
+## 11.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1182,11 +1182,11 @@ that no breach proceeds unchecked.
 | 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ef93d82de7111fc526c52a3f30b95a97c403b2659e5bb73be766f902b5087658 |
 | 1.15 | Added emergent pathway authority revalidation, proportional target–action authority verification, containment-label discipline, scoped ethical hold signalling, anti-paternalism safeguards, post-lock interruption, and corrected operator-transition cross-references. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4956c3c5b304c6b1fd92c0846f53b6c6fa04818665918c6b4c0b96290cc28320 |
 | 1.16 | Added adversarial-evaluation boundary signals for model mutability, reward and selection, externalised versus internal objectives, containment, monitor integrity, capability gain, recursive improvement, lineage, retention, publication, and transfer. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 039d586dda43acc471b85f69000d4b05cfc224a688337555f42629cff0b18e51 |
-| 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  915c064a292efeee98142fc888e0644410e4b1d27e9e31954e9f1ebecf269c4f  |
+| 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  79e11c94f10f31d22c394e3eb717c23b66b7e150b1fd76ef3e2a4086204da3ec  |
 
 ---
 
-## 11.6 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

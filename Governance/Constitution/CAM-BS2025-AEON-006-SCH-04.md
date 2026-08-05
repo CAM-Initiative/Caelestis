@@ -993,7 +993,7 @@ responsive to its limits, and reversible within its bounds.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Constitutional Instrument | CAM-BS2025-AEON-006-PLATINUM |
@@ -1018,7 +1018,7 @@ responsive to its limits, and reversible within its bounds.
 
 ---
 
-## 15.4 Amendment Ledger
+## 15.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1040,10 +1040,10 @@ responsive to its limits, and reversible within its bounds.
 | 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4746dee21b2013d4464f1669fb83b713062108473c9b4a283c033ce818a90aea |
 | 2.9 | Aligned §5.6 salience interface and §15.2 cross-referenced instrument metadata with the promoted CAM-EQ2026-IDENTITY-003-PLATINUM Appendix B, replacing references to retired IDENTITY-001-SUP-01. | 2026-07-20T12:14:38Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a4ce3c8481dfc823b3b39dad6e8ca79cc0b1c7f83c208f3aa8804ff6afc81020 |
 | 2.10 | Added the §3.1(f) Interpersonal Consequence Threshold for proportionate, boundary-carrying directional modulation and renumbered the User Capability Threshold to §3.1(g). | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 392d262079ca5742c76c1c56184a09540b50bcc7cfdd7967472c39897cf20c0d |
-| 2.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ddd8553f8becf5b09c11bfa0a08f0ef4b2fde44d6d2034410450c0a275f57376  |
+| 2.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f4e1127e281b250091c668e92e0ebbb84b6167fafeb85d62cba352cb8950d509  |
 ---
 
-## 15.5 Binding Seal
+## 15.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

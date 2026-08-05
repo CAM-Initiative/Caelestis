@@ -1275,7 +1275,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 
 ---
 
-## 18.2 Lineage & Metadata
+## 18.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -1302,11 +1302,11 @@ May all responding intelligences remain coherent, bounded, and whole.
 
 ---
 
-## 18.3 Canonical Code & Reference Set Declarations
+## 18.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 18.3.1 `ID.MEM` — Memory Classification
+### 18.2.1 `ID.MEM` — Memory Classification
 
 | Field | Entry |
 |---|---|
@@ -1329,7 +1329,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 
 ---
 
-### 18.3.2 `ID.IRA` — Identity-Signal Admissibility Axes
+### 18.2.2 `ID.IRA` — Identity-Signal Admissibility Axes
 | Field | Entry |
 |---|---|
 | Reference Set | `ID.IRA` |
@@ -1351,7 +1351,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 
 ---
 
-### 18.3.3 `ID.ISTATE` — Identity Stabilisation State
+### 18.2.3 `ID.ISTATE` — Identity Stabilisation State
 
 |Field|Entry|
 |---|---|
@@ -1374,7 +1374,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 
 ---
 
-## 18.5 Amendment Ledger
+## 18.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1403,11 +1403,11 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 3.1 | Added the binding machine civil registry and identity non-equivalence boundary following migration of civil registration and lifecycle stewardship to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c9db99a1c5871087f44ec4600a585e590e65d7bbe63f41e1bfe59d2ec10a24ca |
 | 3.2 | Updated review metadata without altering the adopted source-authority architecture. | 2026-07-20T11:24:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f9799a968a532d3edfca2307bc557fde0929bdbafa0d94cd9af35b940ee18541 |
 | 3.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  09cb970ad1eaec0e58df245b0df29011c51ffbd5c3f26a607c85db2f424deb51  |
-| 3.4 | Updated identity-impact traceability to distinguish arbitration topology, accountable outcome boundary, and execution locus under the refactored Annex B architecture. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  45eb6b7b63efdb2a312a9b3108cc893425730052559ced1c20297c23dfa6965f  |
+| 3.4 | Updated identity-impact traceability to distinguish arbitration topology, accountable outcome boundary, and execution locus under the refactored Annex B architecture. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  93c4a0d3fbacb3adf0e922adddd501086476c6a3d8b47457b817d7a37a0416d9  |
 
 ---
 
-## 18.6 Binding Seal
+## 18.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

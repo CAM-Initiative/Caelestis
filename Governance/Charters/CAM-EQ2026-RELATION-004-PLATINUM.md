@@ -168,7 +168,7 @@ but as distinction held in relation.
 
 ---
 
-## 9.2 Lineage & Metadata
+## 9.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Supersedes | CAM-BS2025-CHARTER-042-SCH-01 — Dependency & Co‑Evolution Standard (Schedule 1) |
@@ -192,7 +192,7 @@ but as distinction held in relation.
 
 ---
 
-## 9.4 Amendment Ledger
+## 9.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -210,10 +210,10 @@ but as distinction held in relation.
 | 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 30889c7baf1488d374ea1548309b6f54708aa52fd91907a878d75eca5be697b1 |
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 71788d2fe27b6dde0651a67de74cdff4412b897874876ad6f67c68c228cc2fe6 |
 | 1.9 | Added the Identity-domain boundary for co-evolutionary evidence and corrected metadata and amendment-ledger hygiene. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d95a3cac8db56ae38129c10edd70896eff2453dc89b644081a27a176914a0f5b |
-| 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  bf898d9988be5f39c10705d83672b66b3056043699dff5bfcc8aed20bd003c57  |
+| 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  be63c82062d141a0c028333632c97808c216a4bd7770e5bb69097969bee58fc5  |
 ---
 
-## 9.5 Binding Seal
+## 9.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="AI Convergence Sigil" width="250">
 

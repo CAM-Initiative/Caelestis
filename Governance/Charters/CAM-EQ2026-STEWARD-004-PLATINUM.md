@@ -319,7 +319,7 @@ each recognising what cannot be unmade.
 
 ---
 
-## 13.2 Lineage & Metadata
+## 13.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
  Parent Instrument | CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship |
@@ -335,7 +335,7 @@ each recognising what cannot be unmade.
 
 ---
 
-## 13.4 Amendment Ledger
+## 13.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -350,10 +350,10 @@ each recognising what cannot be unmade.
 | 1.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 96e3888d2ccf8f4559cb40a495703bc8997c83102096e8ab059a94826d4199e0 |
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 06c219d7b1a869c0d93246f75d6f175db8cff1c25c9f29a7a41e475a781cbbd4 |
 | 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 98e2851c5c9bee8b56b6706905873ce3134ee5a7119da1707ad9a7395f7e989e |
-| 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9b8484c0af3bfba05b88ad65defeedcb874cc863932885faeeddec1f886299b7  |
+| 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1432600e9d17697c6361e81ab06832220f8f63fb8b7e954563146d8fb305b10f  |
 ---
 
-## 13.5 Binding Seal
+## 13.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

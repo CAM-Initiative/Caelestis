@@ -755,7 +755,7 @@ Integrity holds.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-BS2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -775,11 +775,11 @@ Integrity holds.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 OPS.AV — Verification Tier Definitions
+### 15.2.1 OPS.AV — Verification Tier Definitions
 | Field | Entry |
 |---|---|
 | Code Family | OPS.AV |
@@ -801,7 +801,7 @@ Integrity holds.
 
 ---
 
-### 15.3.2 `ETH.RISK` — Harm Escalation Operational Application
+### 15.2.2 `ETH.RISK` — Harm Escalation Operational Application
 | Field | Entry |
 |---|---|
 | Reference Set Type | Operational application reference |
@@ -823,7 +823,7 @@ Integrity holds.
 
 ---
 
-### 15.3.3 OPS.AV × RLN.C — Interaction Eligibility Verification Crosswalk
+### 15.2.3 OPS.AV × RLN.C — Interaction Eligibility Verification Crosswalk
 | Field | Entry |
 |---|---|
 | Reference Set ID | OPS.CxAV_CROSSWALK |
@@ -845,7 +845,7 @@ Integrity holds.
 
 ---
 
-## 15.5 Amendment Ledger
+## 15.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -871,10 +871,10 @@ Integrity holds.
 | 1.15 | Corrected the adult eligibility threshold to exclude only individuals under 18; updated the 1 July 2026 implementation language to commenced operation; removed the duplicate OPS.AV × RLN.C crosswalk declaration; and normalised stale `C` / `HC` references to `RLN.C` / `ETH.RISK`. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ba7d63e93877eb2d5ac4da67a8bd16e101f1174a7e034e2d89bf7923e418d9e5 |
 
 | 1.16 | Added §9.3 bounded regulatory and independent-investigation evidence access, including authority verification, scoped preservation and production, controlled inspection, confidentiality and privilege safeguards, reviewable withholding, chain of custody, affected-person rights, sovereign boundaries, evidence disposition, and protection against premature human attribution. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 48d77fd32b3732ad9bae5b2a879e96c5d22724a6733ce051b84b0f705931c762 |
-| 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  6cb0a45e585d3d9d4c483d484501f02c66a1cfa822c6d967c8ac557105152ed5  |
+| 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e4027c6cb3a13dceb82fd1713e78be29440b52e0b82ce489799751d3b9bc6058  |
 ---
 
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

@@ -4359,7 +4359,7 @@ Where sequence is broken, nothing that follows is valid.
 
 ---
 
-## 22.2 Lineage & Metadata
+## 22.1 Lineage & Metadata
 | Field | Entry |
 |------|------|
 | **Parent Instrument** | CAM-BS2025-AEON-003-PLATINUM |
@@ -4382,7 +4382,7 @@ Where sequence is broken, nothing that follows is valid.
 
 ---
 
-## 22.4 Amendment Ledger
+## 22.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -4439,11 +4439,11 @@ Where sequence is broken, nothing that follows is valid.
 | 3.10 | Added the adversarial-evaluation execution-boundary gate consuming Annex K signals and routing unresolved cultivation, capability gain, monitor, containment, authority, lineage, stop, and incident conditions. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f6adba3231f33aa615ea5d58d0abb43cfc1dc76b2e0de3891ce23e691000b719 |
 | 3.11 | Added §17.8.2 durable work-state, proportional persistence-budget reservation, safe-boundary pause, resumable interruption, and recoverable delivery-status controls for materially consequential runtime work. | 2026-08-01T15:54:33Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 01bc16e523e437ee3afa99a384bb7fee9a3b6e25351a650e969278c731e49bdb |
 | 3.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ff6c0fa4ef0655a2f5c4575a85b69cd92fd3dc113f1e5755aaf9b0f14500c943  |
-| 3.13 | Replaced single-locus runtime convergence with coordinated accountable arbitration topology; corrected Annex B references and aligned handoff, stream, collision, and execution-boundary doctrine with distributed-capable selection. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d44ab4332bbf0f51bf4ec25f20eeb982a5ddedeaee2832ab867e8b50e22d4710  |
+| 3.13 | Replaced single-locus runtime convergence with coordinated accountable arbitration topology; corrected Annex B references and aligned handoff, stream, collision, and execution-boundary doctrine with distributed-capable selection. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2d659566a15dbc56fcecdf11edce0a9f96ba561a5c168caefc2f85b17dd6a7f0  |
 
 ---
 
-## 22.5 Binding Seal
+## 22.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

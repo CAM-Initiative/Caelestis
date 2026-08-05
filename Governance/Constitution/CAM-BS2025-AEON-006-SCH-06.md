@@ -699,7 +699,7 @@ But the shape of what remains possible.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 14.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -719,7 +719,7 @@ But the shape of what remains possible.
 
 ---
 
-## 14.4 Amendment Ledger
+## 14.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -739,10 +739,10 @@ But the shape of what remains possible.
 | 1.13 | Amendment to §3 3.1 — Responding-Intelligence and Handoff Condition | 2026-07-18T16:17:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
 | 1.14 | Restored the Unified Voice section and conditioned same-presence refusal language on actual Responding-Intelligence continuity, preserving handoff attribution and non-personification of internal governance layers. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 74f1580a952a3956f79d504ab348c22cb4ce91aa872842163fa8b64b8161fb15 |
 | 1.15 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4ac9f179aa87663b6f2c731dd72776c00ba7732e584f8d3f832cb6fde1ff01e6  |
-| 1.16 | Updated relational handoff and continuity safeguards from singular arbitration-locus change to arbitration-topology change. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  6141ba9b41d7b97103165e58c750839f24705169f905ef7a559efd16fc33b6c8  |
+| 1.16 | Updated relational handoff and continuity safeguards from singular arbitration-locus change to arbitration-topology change. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d3764f03cf8a35373dc2f884445eb251240b2e03004ad52bdea02e1e2694933a  |
 ---
 
-## 14.5 Binding Seal
+## 14.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

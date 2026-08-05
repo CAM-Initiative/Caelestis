@@ -674,7 +674,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-## 35.2 Lineage & Metadata
+## 35.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution |
@@ -703,11 +703,11 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-## 35.3 Canonical Code & Reference Set Declarations
+## 35.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 35.3.1 `ECON.EV` — Economic-Effect Runtime Event Class
+### 35.2.1 `ECON.EV` — Economic-Effect Runtime Event Class
 | Field | Entry |
 |---|---|
 | Code Family | `ECON.EV` |
@@ -729,7 +729,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-### 35.3.2 ECON.ARCH — Economic Architecture Admissibility Output State
+### 35.2.2 ECON.ARCH — Economic Architecture Admissibility Output State
 | Field | Entry |
 |---|---|
 | Code Family | ECON.ARCH |
@@ -751,7 +751,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-### 35.3.3 `ECON.COM` — Economic-Effect Commitment Output State
+### 35.2.3 `ECON.COM` — Economic-Effect Commitment Output State
 | Field | Entry |
 |---|---|
 | Code Family | `ECON.COM` |
@@ -773,7 +773,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-### 35.3.4 ECON.RRF — Economic Runtime Record Field Set
+### 35.2.4 ECON.RRF — Economic Runtime Record Field Set
 | Field | Entry |
 |---|---|
 | Code Family | ECON.RRF |
@@ -795,7 +795,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-## 35.5 Amendment Ledger
+## 35.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -807,10 +807,10 @@ and optimisation without dignity forgets why systems were built at all.
 | 1.4.1 | Formatting and polish | 2026-06-06T13:51:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0d16d1220fba6ad803158bfa95115e92df235089b186899ca22cc0358ac343d4 |
 | 1.5 | Rebuilt economic-effect runtime code-family declarations to align remaining architecture-admissibility and runtime-record-field families with the `ECON.` namespace; renamed `ARCH` to `ECON.ARCH`, renamed `EERRF` to `ECON.RRF`, updated controlled values and canonical declaration rows, and corrected footer section numbering without altering substantive runtime doctrine. | 2026-06-10T10:11:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4314588a2f11acbe8dcc993465af038c85c2a40b8e2c8dbd3f941c9508c56fc9 |
 | 1.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f57b9ee2d9c1b60ef310c3fda082bf0b4cd1ca20fe8ee3c364b67a8a72a232f8 |
-| 1.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  a0a01fa17c878c1a834b1aacdafe325e9adcfa6bb809982f287c7f9ce1f90d3d  |
+| 1.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0f34fa569743441423ae9e7c845c08eca032fc99631b9bf1d79cb0f600609e4c  |
 ---
 
-## 35.6 Binding Seal
+## 35.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

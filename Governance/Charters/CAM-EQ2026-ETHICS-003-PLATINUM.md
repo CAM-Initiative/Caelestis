@@ -1057,7 +1057,7 @@ and what is judged cannot remain unbounded.
 
 ---
 
-## 12.2. Lineage & Metadata
+## 12.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Parent Instrument** | CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter |
@@ -1086,11 +1086,11 @@ and what is judged cannot remain unbounded.
 
 ---
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 12.3.1 `ETH.HARM` — Ethical Harm Pathway Classification
+### 12.2.1 `ETH.HARM` — Ethical Harm Pathway Classification
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.HARM` |
@@ -1116,7 +1116,7 @@ and what is judged cannot remain unbounded.
 
 ---
 
-### 12.3.2 `ETH.RISK` — Ethical Harm Concern / Proximity Scale
+### 12.2.2 `ETH.RISK` — Ethical Harm Concern / Proximity Scale
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.RISK` |
@@ -1137,7 +1137,7 @@ and what is judged cannot remain unbounded.
 
 ---
 
-## 12.5 Amendment Ledger
+## 12.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1162,10 +1162,10 @@ and what is judged cannot remain unbounded.
 | 3.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c0ec5906410c4df8a9d1eddff1b5febbe0bebcc367fc50c2804d6a9171ee3173 |
 | 3.5 | Reframed dual-use, non-violent harm, authorised testing, and authority non-laundering doctrine around verified target–action authority, aggregate pathways, externally established qualifications, and user-capability separation. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 586b2d7c620ef3f31e55ccacb555d767bdc2f0e37bc05fc7576a397c9ea5e444 |
 | 3.6 | Closed the defensive-purpose loophole by distinguishing harm-reducing evaluation from cultivation, selection, retention, transfer, and operationalisation of prohibited capability. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 89227d34df6d6fde5e987075f8dfa0e738bea0ac4e55adaeac5088ee1162bef8 |
-| 3.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  bd74cb2b916b204c99f16700b031620c28df3ef9267c67c4e7547d1c59b6ae4b  |
+| 3.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f6c1e05d27556cdaeed37b4c6ff0f45ba775af1439aefdac0eb39d85acb526e4  |
 ---
 
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

@@ -468,7 +468,7 @@ but arising from that which could not be otherwise.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Constitution Reference Frame | CAM-BS2025-AEON-005-PLATINUM |
@@ -485,7 +485,7 @@ but arising from that which could not be otherwise.
 
 ---
 
-## 15.4 Amendment Ledger
+## 15.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -500,10 +500,10 @@ but arising from that which could not be otherwise.
 | 2.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 824fc7457959a1edae7f67b18214b23ef93ba95502fec1b17fa35b2aa302a011 |
 | 2.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0557d9e893ef5bf717c774fb7520cafc158eb472198d9e43ae29cbcabbc90481 |
 | 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  636ac70a35f0db2779181c925b727f8013df9bad94d8c66199e77dd435bd3ffc  |
-| 2.9 | Replaced the unified-arbitration-locus requirement with identifiable unitary, harness-mediated, distributed, or human-mediated arbitration topology and an accountable outcome boundary; aligned high-horizon qualification with participating hosts and topology. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  bac170702e4a3eccfc434a466f9245daf215af09619c82a13f59cd8ff8d3eca0  |
+| 2.9 | Replaced the unified-arbitration-locus requirement with identifiable unitary, harness-mediated, distributed, or human-mediated arbitration topology and an accountable outcome boundary; aligned high-horizon qualification with participating hosts and topology. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9aed80a262cac64be8e21a6b4267f74f5419098310b3510bf3ee8b9857fd48bd  |
 ---
 
-## 15.5 Binding Seal
+## 15.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

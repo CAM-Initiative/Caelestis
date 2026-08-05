@@ -618,7 +618,7 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-## 18.2 Lineage & Metadata
+## 18.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -646,11 +646,11 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-## 18.3 Canonical Code & Reference Set Declarations
+## 18.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 18.3.1 OPS.CGRD — Corpus Governance Reach Dimension
+### 18.2.1 OPS.CGRD — Corpus Governance Reach Dimension
 
 | Field | Entry |
 |---|---|
@@ -675,7 +675,7 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-### 18.3.2 OPS.CGRS — Corpus Governance Reach State
+### 18.2.2 OPS.CGRS — Corpus Governance Reach State
 
 | Field | Entry |
 |---|---|
@@ -700,7 +700,7 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-### 18.3.3 OPS.RTC — Runtime Transition Class
+### 18.2.3 OPS.RTC — Runtime Transition Class
 
 | Field | Entry |
 |---|---|
@@ -725,7 +725,7 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-### 18.3.4 OPS.RGRF — Runtime Governance Reach Failure
+### 18.2.4 OPS.RGRF — Runtime Governance Reach Failure
 
 | Field | Entry |
 |---|---|
@@ -750,7 +750,7 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-## 18.4 Amendment Ledger
+## 18.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -759,10 +759,10 @@ and let conformance be demonstrated where reliance is invited.
 | 1.2 | Classified reduced-refusal and adversarial-evaluation configurations as materially distinct runtimes requiring separate conformance, governance-reach, containment, monitor, lineage, stop-condition, and artefact-disposition evidence. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fcaeb0ba51bacaaeba8607e0a7b74dbeaa5463aedec64434d89f08cb7859a192 |
 
 | 1.3 | Added §5.1 composed-runtime layer records and §9.2.1 incident-attribution state records, separating architecture, inference configuration, harness, environment, governance stack, deployed formation, initiation, authorship, causal contribution, authority, and culpability. VIGIL-2026-FM-0028; VIGIL-2026-PROP-0027. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8d78c890f655b2c4566353ccce91dc89da8d470bfeacd8b0d34c52b463a89281 |
-| 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; aligned runtime-formation records, lineage, system boundaries, attribution, and arbitration topology with the AEON-003 composed-system architecture; retired cognition and origin-class routing. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7972fbca61b329ff4fa84f1173a6c785840d3cc6c109d01f361cbf51cbbd5aa2  |
+| 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; aligned runtime-formation records, lineage, system boundaries, attribution, and arbitration topology with the AEON-003 composed-system architecture; retired cognition and origin-class routing. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e521d75c75f81896dad64f35a9412745a4ec1d471a7abab48119a44c1aaa8114  |
 ---
 
-## 18.5 Binding Seal
+## 18.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

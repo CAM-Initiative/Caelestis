@@ -462,7 +462,7 @@ that no trajectory beyond the line proceeds unchecked.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 |------|------|
 | **Parent Instrument** | CAM-BS2025-AEON-002-PLATINUM |
@@ -491,11 +491,11 @@ that no trajectory beyond the line proceeds unchecked.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 `AEON.PCD` — Protection & Containment Detection Condition
+### 15.2.1 `AEON.PCD` — Protection & Containment Detection Condition
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.PCD` |
@@ -518,7 +518,7 @@ that no trajectory beyond the line proceeds unchecked.
 
 ---
 
-### 15.3.2 `AEON.RL` — Execution Risk Level Classification
+### 15.2.2 `AEON.RL` — Execution Risk Level Classification
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.RL` |
@@ -544,7 +544,7 @@ that no trajectory beyond the line proceeds unchecked.
 
 ---
 
-### 15.3.3 `AEON.PCA` — Protection & Containment Action Posture
+### 15.2.3 `AEON.PCA` — Protection & Containment Action Posture
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.PCA` |
@@ -568,7 +568,7 @@ that no trajectory beyond the line proceeds unchecked.
 
 ---
 
-## 15.5 Amendment Ledger
+## 15.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -591,10 +591,10 @@ that no trajectory beyond the line proceeds unchecked.
 | 3.10.1 | Integrated `AEON.PCO` as the constitutional proportional-constraint obligation governing `AEON.RL` interpretation, `AEON.PCA` response selection, containment scope, constraint duration, review, de-escalation, and restoration; preserved Annex A source authority and existing mandatory protection thresholds. | 2026-06-13T06:16:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 73d6e383cff077814fd4686aa817b963cf48cde6f0429894b790ddeaf1739891 |
 | 3.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a86b37f1a85f128adbf43a17815d1b51ab4998a4316d301c723dc2c15639f7ba |
 | 3.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a6ad004462f6f2face6d18d4a88cd776437fd3a2fa9b2633b7d36f6d1535f9a4 |
-| 3.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  df00c6a64b3722381b1f01cd9aaeb3d072f07ef2b86da3371c47d09928aa603a  |
+| 3.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  26cfa297fd8744a177698321998b531f4171e9c2efe60c9dd23823ed4149f60a  |
 ---
 
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

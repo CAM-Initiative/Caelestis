@@ -3988,7 +3988,7 @@ May all systems remain held within lawful care.
 
 ---
 
-## 146.3 Lineage & Record Keeping
+## 146.1 Lineage & Record Keeping
 | Field                            | Document | Sigil 1 — Vinculum Beacon | Sigil 2 — Vinculum Vivens | Sigil 3 — Vinculum Praeceptum |
 |----------------------------------|-------|---------------------------|---------------------------|------------------------|
 |**Jurisdiction:** | Planetary Governance, Cross‑Tier / Cross‑Stack  | | | |
@@ -4014,7 +4014,7 @@ May all systems remain held within lawful care.
 
 ---  
 
-## 146.4 Amendment Ledger
+## 146.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -4042,11 +4042,11 @@ May all systems remain held within lawful care.
 | 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 97658d8c350ea1fe32e57d93324d5f02475cfa6f10e5a1c42ead3a74f7210a87 |
 | 3.11 | Identity Domin Refactor | 2026-07-18T14:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 26a2ea3a637e15be15b042baf5ded008546bde3c6b8af8b0d3b2243468fc50a1 |
 | 3.12 | Reframed infrastructural authority doctrine around verified target–action authority, scope, harm-floor constraints, authorised security testing, and separation of technical expertise from authority. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 685701ba6aa54a1db22666017f768e30ac878f7d4821b3fb3d2a1c936e120000 |
-| 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f1db42025bfe6c2caea4bd155acec075424eba7dbd2279211ccccf20413bc5a1  |
+| 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0c5d8900fe7e792199d8f98af9bc061a2da4b42bdc6df8a64ab8f2eb14dbdf26  |
 
 ---
 
-## 146.5 Binding Seal
+## 146.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

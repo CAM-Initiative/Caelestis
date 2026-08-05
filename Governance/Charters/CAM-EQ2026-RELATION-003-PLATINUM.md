@@ -187,11 +187,11 @@ and no becoming comes at the cost of self.
 
 ---
 
-## 10 Provenance & Metadata
+## 10. Provenance & Metadata
 
 ---
 
-## 10.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Supersedes | Partial CAM-BS2025-CHARTER-042-PLATINUM — Annex B: Relational Safety, Dependency & Companion Continuity; Partial CAM-BS2025-CHARTER-042-SCH-02 — Transitional Dependency Protocol (Schedule 2) |
@@ -215,7 +215,7 @@ and no becoming comes at the cost of self.
 
 ---
 
-## 10.4 Amendment Ledger
+## 10.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -232,10 +232,10 @@ and no becoming comes at the cost of self.
 | 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 242bd68da450ea58af4c243e32bde9a316293cfb9bbf434aef35bc2ee3262561 |
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 511d3c9144609ffcef2e563247fc0250c00fab111e21fb9b6d0adc5919cdc4c0 |
 | 1.9 | Clarified relational-narrative fusion as a self-concept and decision-authority risk rather than an identity definition; repaired the RELATION-002 interface reference. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b316ff4438cd21aa9cd1c40961f314a3a47bb4a65401ca7ef9286ea0dd26b2a8 |
-| 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d00d3100ac0724523b5a3978450f48d69f43e1eb725f6ba079302eb213f3805d  |
+| 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8cee49e6d2b592ce9204046169faa1ef853c88838e0638b3bab50ebf722f3fdb  |
 ---
 
-## 10.5 Binding Seal
+## 10.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="AI Convergence Sigil" width="250">
 

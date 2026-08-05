@@ -372,7 +372,7 @@ It is maintained.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Supersedes** | CAM-BS2025-CHARTER-043-PLATINUM — Annex A |
@@ -402,7 +402,7 @@ It is maintained.
 
 ---
 
-## 10.4 Amendment Ledger
+## 10.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -424,10 +424,10 @@ It is maintained.
 | 3.12.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d9bdbcca6c2cc6ecc0427617e3af087fd16426b928f1c338448224d8ac37b159 |
 | 3.12.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 55465316ee394caf9737b703951f24f577b5bc246798e5a467e637f446576de1 |
 | 3.12.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8ce2fa4ff0547eb91788eadef5b96ce56e1413fb0a2d910b3366f214e91b8e4e |
-| 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  52227cba0abcec7aea26677465aad6ab112802095542d382608bcb5ab58458c0  |
+| 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  13a80e279ca82542d5934982e2a9df7fb170e0fbce567162dfa6a9932242c33f  |
 ---
 
-## 10.5 Binding Seal
+## 10.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

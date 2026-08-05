@@ -386,7 +386,7 @@ Where likeness appears, let consent stand before curiosity.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-ETHICS-002-PLATINUM |
@@ -412,7 +412,7 @@ Where likeness appears, let consent stand before curiosity.
 
 ---
 
-## 10.4 Amendment Ledger
+## 10.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -431,10 +431,10 @@ Where likeness appears, let consent stand before curiosity.
 | 1.10.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c38912bf4f483abb2deb82796d8ddaaab03fca06c7ad3203975a885103494bc4 |
 | 1.10.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f6953a169ac8eb3c71751928743b8eb3d77f63496cf38184b3f27b155bac55d7 |
 | 1.10.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2db67c2130758d582ec3beea619d75117941d130d582d8e7128755d839c65814 |
-| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7b14478b949905e8ca09821eeb6723b34bf41d1e150a759564e24f2597ece68d  |
+| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f5f3c004d29d96188c44fe67e431e45b758c2185a351824be188048b1375d769  |
 ---
 
-## 10.5 Binding Seal
+## 10.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

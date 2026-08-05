@@ -394,7 +394,7 @@ cannot be trusted.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 14.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Annex | CAM-BS2026-AEON-013-PLATINUM — Annex L |
@@ -414,11 +414,11 @@ cannot be trusted.
 
 ---
 
-## 14.3 Canonical Code & Reference Set Declarations
+## 14.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 14.3.1 AEON.PSC — Projection Signal Class
+### 14.2.1 AEON.PSC — Projection Signal Class
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.PSC` |
@@ -440,7 +440,7 @@ cannot be trusted.
 
 ---
 
-### 14.3.2 AEON.SIL — Signal Intensity Level
+### 14.2.2 AEON.SIL — Signal Intensity Level
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.SIL` |
@@ -462,7 +462,7 @@ cannot be trusted.
 
 ---
 
-### 14.3.3 `AEON.LSC` — Latent State Classification
+### 14.2.3 `AEON.LSC` — Latent State Classification
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.LSC` |
@@ -484,7 +484,7 @@ cannot be trusted.
 
 ---
 
-## 14.5 Amendment Ledger
+## 14.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -496,10 +496,10 @@ cannot be trusted.
 | 1.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5276a85d708cf2f89b9f01fdf1ed148ebe1792c1bdbe1498d80996a2b4e772f2 |
 | 1.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4222c16e33119225e83c61951c362ca2f82fb4f16be061544c89c018a47a901b |
 | 1.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 905e77d989413d715f93ce5678db2c7335ac44c962c1e81a3d150f89f95faa66 |
-| 1.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e7469d42d777dc0982eaec2d0616fb34bbf7557f9781b293c78704406b21642b  |
+| 1.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9ba301771d125548df95f2d5b3f1aa4244b8e386d8300714597cb754c505b6f1  |
 ---
 
-## 14.6 Binding Seal
+## 14.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

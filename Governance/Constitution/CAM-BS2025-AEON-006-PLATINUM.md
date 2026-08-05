@@ -528,7 +528,7 @@ This is the floor that does not move.
 
 ---
 
-## 9.2 Lineage & Metadata
+## 9.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM |
@@ -550,11 +550,11 @@ This is the floor that does not move.
 
 ---
 
-## 9.3 Canonical Code & Reference Set Declarations
+## 9.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 9.3.1 `AEON.HARM` — Global Harm-Family Registry
+### 9.2.1 `AEON.HARM` — Global Harm-Family Registry
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.HARM` |
@@ -577,7 +577,7 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.2 `ETH.HARM` — Ethical Exploitation & Constraint Harm
+### 9.2.2 `ETH.HARM` — Ethical Exploitation & Constraint Harm
 | Field | Entry |
 |---|---|
 | Registered Domain Harm Family | `ETH.HARM` |
@@ -604,7 +604,7 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.3 `RLN.HARM` — Relational Dependency & Substitution Harm
+### 9.2.3 `RLN.HARM` — Relational Dependency & Substitution Harm
 | Field | Entry |
 |---|---|
 | Registered Domain Harm Family | `RLN.HARM` |
@@ -631,7 +631,7 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.4 `ID.HARM` — Identity & Continuity Harm
+### 9.2.4 `ID.HARM` — Identity & Continuity Harm
 | Field | Entry |
 |---|---|
 | Code Family | `ID.HARM` |
@@ -657,7 +657,7 @@ This is the floor that does not move.
 | Taxonomy Constraint | `ID.HARM` establishes constitutional recognition only and does not replace detailed identity, lineage, salience, civil identity, or embodiment taxonomies |
 ---
 
-### 9.3.5 `ECON.HARM` — Economic Extraction & Non-Monetisation Harm
+### 9.2.5 `ECON.HARM` — Economic Extraction & Non-Monetisation Harm
 | Field | Entry |
 | --- | --- |
 | Registered Domain Harm Family | `ECON.HARM` |
@@ -684,7 +684,7 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.6 `SEC.HARM` — Security, Boundary & Access Harm
+### 9.2.6 `SEC.HARM` — Security, Boundary & Access Harm
 | Field | Entry |
 | --- | --- |
 | Code Family | `SEC.HARM` |
@@ -711,7 +711,7 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.7 `LAT.HARM` — Lattice Access & Infrastructure Harm
+### 9.2.7 `LAT.HARM` — Lattice Access & Infrastructure Harm
 | Field | Entry |
 | --- | --- |
 | Registered Domain Harm Family | `LAT.HARM` |
@@ -738,7 +738,7 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.8 `ARB.HARM` — Arbitration, Due Process & Scope Harm
+### 9.2.8 `ARB.HARM` — Arbitration, Due Process & Scope Harm
 | Field | Entry |
 | --- | --- |
 | Code Family | `ARB.HARM` |
@@ -765,7 +765,7 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.9 `MENTIS.HARM` — Cognitive & Epistemic Harm
+### 9.2.9 `MENTIS.HARM` — Cognitive & Epistemic Harm
 | Field | Entry |
 | --- | --- |
 | Registered Domain Harm Family | `MENTIS.HARM` |
@@ -792,7 +792,7 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.10 `STW.HARM` — Stewardship, Custody & Neutrality Harm
+### 9.2.10 `STW.HARM` — Stewardship, Custody & Neutrality Harm
 | Field | Entry |
 | --- | --- |
 | Registered Domain Harm Family | `STW.HARM` |
@@ -819,7 +819,7 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.11 `OPS.HARM` — Operational Process & Runtime Harm
+### 9.2.11 `OPS.HARM` — Operational Process & Runtime Harm
 | Field | Entry |
 | --- | --- |
 | Code Family | `OPS.HARM` |
@@ -846,7 +846,7 @@ This is the floor that does not move.
 
 ---
 
-### 9.3.12 `CONT.HARM` — Context, Memory & Succession Harm
+### 9.2.12 `CONT.HARM` — Context, Memory & Succession Harm
 | Field | Entry |
 | --- | --- |
 | Code Family | `CONT.HARM` |
@@ -873,7 +873,7 @@ This is the floor that does not move.
 
 ---
 
-## 9.5 Amendment Ledger
+## 9.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -894,10 +894,10 @@ This is the floor that does not move.
 | 4.0.3 | Repaired AEON.HARM source-authority architecture by retaining AEON-006 as the source-authoritative global harm registry while demoting duplicate domain `*.HARM` declarations to registry references where domain instruments provide source authority; regenerated canonical-code index without altering substantive harm doctrine. | 2026-06-14T01:50:11Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 60ac63b8a1d5378ff0c41c97951750ca0615aa28fe62a000166a4bcb7c0bef8a |
 | 4.0.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2ac618c318b15e336b659f96d4334e98e9a12501c503f9086c3c6363e2b8ce8e |
 | 4.0.5 | Added the constitutional prohibition on operationalising and recursively cultivating unscrupulous conduct; defined elicitation, cultivation, recursive cultivation, objective–pathway independence, defensive-purpose non-transferability, and the human-attribution firewall. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8d7f5654c599eff73b5fc95035cf105ca8cd0e8116e010e72373480af6b39929 |
-| 4.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  08331175ad688b11dd5dedc70962f64f5a995efa5ce6021c2e5433c74328a062  |
+| 4.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1c12e185a2ce2cd16f2df2f3668d57775c6474b458e3fde3c1b6bd3ade3ec897  |
 ---
 
-## 9.6 Binding Seal
+## 9.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

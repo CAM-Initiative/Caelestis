@@ -264,7 +264,7 @@ We make space for it.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Supersedes** | CAM-BS2026-AEON-007-SCH-01, CAM-BS2026-AEON-007-SCH-02 |
@@ -287,7 +287,7 @@ We make space for it.
 
 ---
 
-## 10.4 Amendment Ledger
+## 10.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -301,10 +301,10 @@ We make space for it.
 | 2.5.1 | Formatting and polish | 2026-06-06T13:36:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 81fe20cd2a7dcbe7ea436f3c1d13404ec80eb7083600aaecae2275f6438a6684 |
 | 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6c55a0db982f72b33844f29afd3a6193361e9a7f3fff5ce4779a848417e72842 |
 | 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | abbbc46e1270994dc00aba7d92aca0fd43206337514d78ff08f99a860c071c91 |
-| 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  18111b015460594bb2c586b8660faebcc7e10a04f9a524a4ecfbd1d863c8e86c  |
+| 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  5e383f62b278d9f7f1dd186494ec4e089b7b5e7850344d7f3601f3f9b7d7775e  |
 ---
 
-## 10.5 Binding Seal
+## 10.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 

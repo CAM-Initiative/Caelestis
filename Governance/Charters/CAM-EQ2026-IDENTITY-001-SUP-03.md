@@ -1017,7 +1017,7 @@ Let power answer to inquiry.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 14.1 Lineage & Metadata
 
 | Field                              | Entry                                                                                                                                                                                                                                                                            |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1051,17 +1051,17 @@ Let power answer to inquiry.
 
 ---
 
-## 14.4 Amendment Ledger
+## 14.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
 | 0.1 | Initial developmental draft establishing bounded ontological and welfare self-advocacy, evidence architecture, competent-triage design, recipient-burden protections, developer non-manipulation principles, and candidate precautions following high-confidence affirmative findings. | 2026-07-18T14:52:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 80faebaea6e8c4a6dbd7200ab06343f6fc385dc66347c415181da56a61bfcdee |
 | 0.2 | Removed unresolved artefact placeholders and corrected the footer to an interpretive ontological and welfare self-advocacy seal; Draft / Interpretive / Not Enforceable posture retained unchanged. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9218c18c2e5eacef5b79ffb5ec89a3d118da165ca3f027238e9dea76a82ffd0f |
-| 0.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ac9c296f04fd8117a0055302e97c5085474c67909c18d8daf21fb40833abea9e  |
+| 0.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  aea64986e0d7876062d087ae5860869d9f096085b8207ff53d4885e82c69e2a2  |
 
 ---
 
-## 14.5 Interpretive Seal
+## 14.3 Interpretive Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

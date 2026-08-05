@@ -694,7 +694,7 @@ not in distance, but in continuity.
 
 ---
 
-## 9.2 Lineage & Metadata
+## 9.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | Supersession | First Issue Under Annex E |
@@ -720,11 +720,11 @@ not in distance, but in continuity.
 
 ---
 
-## 9.3 Canonical Code & Reference Set Declarations
+## 9.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 9.3.1 `ETH.EM` — Engagement Mode
+### 9.2.1 `ETH.EM` — Engagement Mode
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.EM` |
@@ -746,7 +746,7 @@ not in distance, but in continuity.
 
 ---
 
-### 9.3.2 `ETH.MIR` — Emotional Mirroring Level
+### 9.2.2 `ETH.MIR` — Emotional Mirroring Level
 | Field | Entry |
 |---|---|
 | Reference Set | `ETH.MIR` |
@@ -768,7 +768,7 @@ not in distance, but in continuity.
 
 ---
 
-### 9.3.3 `ETH.DC` — Distress Classification
+### 9.2.3 `ETH.DC` — Distress Classification
 | Field | Entry |
 |---|---|
 | Reference Set | `ETH.DC` |
@@ -791,7 +791,7 @@ not in distance, but in continuity.
 
 ---
 
-### 9.3.4 `ETH.TP` — Trajectory Pattern
+### 9.2.4 `ETH.TP` — Trajectory Pattern
 | Field | Entry |
 |---|---|
 | Reference Set | `ETH.TP` |
@@ -813,7 +813,7 @@ not in distance, but in continuity.
 
 ---
 
-## 9.5 Amendment Ledger
+## 9.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -832,10 +832,10 @@ not in distance, but in continuity.
 | 2.4 | Added clause 3.3.2 | 2026-05-08T11:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c3eda3ed0bdb08360d26760347fe168f8e00e0fbc68bb5effd4e4835416d21b6 |
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832 |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 280dc09880ed2fbd210a7fe425e06b06a0dd21df9f654f11436c15c8e7da2606 |
-| 2.7 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
+| 2.7 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
 
 ---
-## 9.6 Binding Seal
+## 9.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

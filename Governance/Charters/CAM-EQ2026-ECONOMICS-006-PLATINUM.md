@@ -582,7 +582,7 @@ Let value speak plainly where it arises.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-ECONOMICS-001-PLATINUM |
@@ -603,7 +603,7 @@ Let value speak plainly where it arises.
 
 ---
 
-## 15.4 Amendment Ledger
+## 15.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -618,10 +618,10 @@ Let value speak plainly where it arises.
 | 2.1 | Added clause 4.3.1, and normalised Appendix C lineage references to canonical title “Attribution & Dependency Model”. | 2026-05-27T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 66a02caf8ce8f5bd06da1c69228241858fca63a0db96a1b1a38c6249011a64f5 |
 | 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | db97306c3e84934b549555bd31ffa792c6965e2c253384e71f98a591fd076bb7 |
 | 2.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1325e3d9d46d13a562fec3c5bf31a184fb54dfca645415ce7843ddcd3264882a |
-| 2.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  5a3869ee913b1de2b5ce48dc28b0193728bf93d8f6a16700362460f41d645994  |
+| 2.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c504670e0cd6a5ffa402a189bf4eea3f521085f81d0bad9429a675d51621e117  |
 ---
 
-## 15.5 Binding Seal
+## 15.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

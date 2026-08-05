@@ -683,7 +683,7 @@ It ends.
 
 ---
 
-## 23.2 Lineage & Metadata
+## 23.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Supersedes** | N/A - Canonical |
@@ -705,12 +705,12 @@ It ends.
 | **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a583699-2684-83ec-9712-57f9f821f607 |
 ---
 
-## 23.3 Canonical Code & Reference Set Declarations
+## 23.2 Canonical Code & Reference Set Declarations
 
 
 ---
 
-### 23.3.1 `STW.AQ` — Auditability Qualification Level
+### 23.2.1 `STW.AQ` — Auditability Qualification Level
 | Field | Entry |
 |---|---|
 | Code Family | `STW.AQ` |
@@ -732,7 +732,7 @@ It ends.
 
 ---
 
-### 23.3.2 `STW.NAL` — Neutrality Assurance Level
+### 23.2.2 `STW.NAL` — Neutrality Assurance Level
 | Field | Entry |
 |---|---|
 | Code Family | `STW.NAL` |
@@ -754,7 +754,7 @@ It ends.
 
 ---
 
-### 23.3.3 `STW.AQG` — Architectum Qualification Gates
+### 23.2.3 `STW.AQG` — Architectum Qualification Gates
 | Field | Entry |
 |---|---|
 | Code Family | `STW.AQG` |
@@ -776,7 +776,7 @@ It ends.
 
 ---
 
-### 23.3.4 `STW.NBD` — Neutrality Breach / Downgrade Type
+### 23.2.4 `STW.NBD` — Neutrality Breach / Downgrade Type
 | Field | Entry |
 |---|---|
 | Code Family | `STW.NBD` |
@@ -798,7 +798,7 @@ It ends.
 
 ---
 
-### 23.3.5 `STW.NSE` — Neutrality Status Effect
+### 23.2.5 `STW.NSE` — Neutrality Status Effect
 | Field | Entry |
 |---|---|
 | Code Family | `STW.NSE` |
@@ -820,7 +820,7 @@ It ends.
 
 ---
 
-### 23.3.6 `STW.DSE` — Disclosure Statement Element
+### 23.2.6 `STW.DSE` — Disclosure Statement Element
 | Field | Entry |
 |---|---|
 | Reference Set | `STW.DSE` |
@@ -842,7 +842,7 @@ It ends.
 
 ---
 
-## 23.5 Amendment Ledger
+## 23.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -864,10 +864,10 @@ It ends.
 | 2.2 | Harmonised the full instrument to CAM constitutional tone and formatting; normalised metadata and title; integrated neutrality disclosure requirements into the main assurance architecture; strengthened oversight durability, protected dissent, institutional-memory continuity, and neutrality-degradation criteria; clarified executive and sovereign circumvention as evidence of capture rather than override authority. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9eccabae9f49e2c962c77e16970e2ed6d14f23a67f7c7b3092559e0b2b799a18 |
 | 2.3 | Added neutrality, capture, audit, protected-dissent, dual-use firebreak, classified-assurance, and downgrade requirements for adversarial capability programmes. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c64f3482e3c93e9dac0e3ae1f5dce9205230c543c006d88d9aa1d5b4bfdcea2c |
 | 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0413e08aeab222017fc018a7d084b9dba7cf258c1c10ed67ca8186e3790ec151  |
-| 2.5 | Replaced the legacy Primaria infrastructure-band label with a non-cognitive local/non-infrastructure designation. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  778ce6d5ca560fe661a9351bbb9ab3dd312916fefb261d0ca589ca28c83f4035  |
+| 2.5 | Replaced the legacy cognition-derived infrastructure-band label with a non-cognitive local/non-infrastructure designation. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3e404d2453e0d29acb8da16cb00f0bec5d4f42ea4fe41ed7c065300bee8194e7  |
 ---
 
-## 23.6 Binding Seal
+## 23.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

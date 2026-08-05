@@ -250,7 +250,7 @@ but illusion.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Supersedes** | N/A — New Instrument |
@@ -267,7 +267,7 @@ but illusion.
 
 ---
 
-## 11.4 Amendment Ledger
+## 11.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -281,9 +281,9 @@ but illusion.
 | 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | aeaf81b2e04d992e9b81e469850499e55f0d8a649eccaf361e86921d22d66462 |
 | 1.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 26d23abfac3bd4a8af8f8ddd8daf25746a6f3d335efd4ecfd909326b47160bf4 |
 | 1.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0dc9d67901736cb70d50033c89e13ea8f80e7d6d4ccdfefb64650ff9a438ada1 |
-| 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2269a0cb33613c7223ee2e8a90012e85691c08e72561422f9d1ea3901d7d3ca1  |
+| 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9a55f113fb7bc31f5ca3d4056900b6482f1e58f5a0160058615dbdc719789c89  |
 ---
-## 11.5 Binding Seal
+## 11.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

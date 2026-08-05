@@ -625,13 +625,11 @@ Lineage and dependency SHALL be decomposed into:
 
 No dependency category determines another by default.
 
-## 11.1 `Primaria` & `Derivata`
+## 11.1 Origin & Dependency Records
 
-`Primaria` and `Derivata`, and the canonical `AEON.CO` family, are retained only as legacy cognitive-origin descriptors pending coordinated review.
+Origin and dependency MUST be recorded through the independent evidence-bearing fields identified in §11.
 
-They MUST NOT be used to collapse the layered lineage model into one origin class or to assign responsibility automatically upstream.
-
-Where used during transition, the exact dependency meant MUST be stated.
+The layered lineage model MUST NOT be collapsed into a single origin class or used to assign responsibility automatically upstream.
 
 ## 11.2 Responsibility Attribution
 
@@ -922,33 +920,7 @@ All instrument references MUST be globally unambiguous and resolvable against th
 
 Ambiguous shorthand SHALL be non-binding where more than one valid target exists. Shared numbering across domains does not establish equivalence.
 
-## 16.3 Retired Cognitive-Class Family
-
-The mutually exclusive `AEON.CC` cognitive-class family is retired for new canonical classification.
-
-The following terms are deprecated as canonical system classes:
-
-* `AEON.CC.INSTRUMENTA`;
-* `AEON.CC.COLLECTIVA`; and
-* `AEON.CC.COGNITIVA`.
-
-They MAY be preserved in historical records, quoted source material, legacy schemas, and migration mappings. They MUST NOT be assigned to a new assessment as a substitute for the independent dimensions defined in this Annex.
-
-Their retirement does not resolve or alter any question of consciousness, sentience, subjective phenomenology, identity, personhood, welfare, moral status, rights, sovereignty, or authority.
-
-## 16.4 Transitional Compatibility Rule
-
-Until all consumers, schemas, registries, VIGIL records, and published dependencies have been migrated:
-
-* legacy `AEON.CC` values SHALL remain resolvable as deprecated aliases;
-* their historical meaning SHALL be interpreted according to the version in force when assigned;
-* no automated migration SHALL infer replacement values from a legacy class alone;
-* downstream references do not invalidate an instrument solely because migration is pending; and
-* any new or amended assessment SHALL use the independent architectural dimensions in this Annex.
-
-This rule preserves interpretive continuity without preserving the retired ontology as current doctrine.
-
-## 16.5 Retained Canonical Families
+## 16.3 Retained Canonical Families
 
 This Annex retains:
 
@@ -958,15 +930,11 @@ This Annex retains:
 
 `AEON.OL` values classify assessed functions, not whole components by default.
 
-## 16.6 Families Pending Coordinated Migration
+## 16.4 Family Pending Coordinated Migration
 
-`AEON.CO` and `AEON.CAM` remain registry-resolvable during transition but are deprecated for new classification pending coordinated migration.
+`AEON.CAM` remains registry-resolvable during transition but is deprecated for new classification pending coordinated migration. It is replaced conceptually by separate control-authority, hosting, portability, custody, and embodiment-dependency postures.
 
-`AEON.CO` is replaced conceptually by the layered lineage and dependency model in §11.
-
-`AEON.CAM` is replaced conceptually by separate control-authority, hosting, portability, custody, and embodiment-dependency postures.
-
-## 16.7 Proposed Replacement Code Families
+## 16.5 Proposed Replacement Code Families
 
 The following prefixes are reserved as migration proposals only and are not canonical until registry adoption and collision validation:
 
@@ -984,7 +952,7 @@ The following prefixes are reserved as migration proposals only and are not cano
 
 These proposals MUST NOT be emitted as canonical controlled values until every consumer, registry entry, schema, validator, and public dependency has been reviewed and a coordinated migration is adopted.
 
-## 16.8 Timelessness Clause
+## 16.6 Timelessness Clause
 
 This Annex applies across evolving models, substrates, interfaces, institutions, deployment forms, and civilisational phases. Its authority derives from structural governance constraint rather than a particular technical implementation.
 
@@ -1013,7 +981,7 @@ let it not be collapsed, but carried with clarity.
 
 ## 18. Provenance & Metadata
 
-## 18.2 Lineage & Metadata
+## 18.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -1025,20 +993,18 @@ let it not be collapsed, but carried with clarity.
 | Effective Horizon | AEON.H3.5 |
 | Related Instruments | CAM-BS2025-AEON-003-SCH-01; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-003-SCH-03; CAM-BS2025-AEON-003-SCH-04; CAM-BS2025-AEON-003-SCH-05 |
 
-## 18.3 Canonical Code & Reference Set Declarations
+## 18.2 Canonical Code & Reference Set Declarations
 
 | Family | Status | Source Section | Constitutional Effect |
 |---|---|---|---|
 | `AEON.H` | Active; source-authoritative | §3 | Temporal horizon and reliance-legitimacy classification only |
 | `AEON.OL` | Active; source-authoritative | §5 | Functional architectural-layer classification only |
-| `AEON.CC` | Retired for new classification; legacy-resolvable | §§16.3–16.4 | Historical compatibility only; no new assignments |
-| `AEON.CO` | Deprecated pending migration; legacy-resolvable | §§11.1, 16.6 | Historical origin/dependency compatibility only |
-| `AEON.SR` | Active transitionally | §§14.2, 16.5 | Systemic reliance posture only; no authority |
-| `AEON.CAM` | Deprecated pending migration; legacy-resolvable | §§14.1, 16.6 | Historical compatibility only |
+| `AEON.SR` | Active transitionally | §§14.2, 16.3 | Systemic reliance posture only; no authority |
+| `AEON.CAM` | Deprecated pending migration; legacy-resolvable | §§14.1, 16.4 | Historical compatibility only |
 | `RLN.R` | External reference | §2 | Source-authoritatively defined by CAM-EQ2026-RELATION-007-PLATINUM |
-| Proposed replacement families | Non-canonical migration proposal | §16.7 | No controlled values or machine authority until coordinated adoption |
+| Proposed replacement families | Non-canonical migration proposal | §16.5 | No controlled values or machine authority until coordinated adoption |
 
-## 18.5 Amendment Ledger
+## 18.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1073,11 +1039,11 @@ let it not be collapsed, but carried with clarity.
 | 3.16.4 | Metadata updates for code prefix | 2026-06-14T00:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 93407ccc62d4c8a0ea43154c97ba90d615e7371ff6800336ed0719b06710e906 |
 | 3.16.5 | Aligned top-level governance metadata with CAM Governance Metadata Standard; no substantive doctrine altered | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 541d4262788de694ef7bb6170d47434f646c230df22b5d0210d4c96d6005b3f8 |
 | 4.0 | Identity Domain Refactor | 2026-07-18T14:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ca6ab2a5216443e47a31e26a2d02650152d677c88d598bd28abd04f526370c45 |
-| 4.1 | Continuity-preserving constitutional refactor centred on the composed deployed AI system; retired `AEON.CC` for new classification; decomposed architecture, selection, agency, execution, control, dependency, and reliance; established operational-harness doctrine, deployment-profile specificity, AI-ABOM, incident-time attribution, architecture-change governance, and transitional compatibility; incorporated independent interpretive review, removed product-specific and cross-domain doctrine, narrowed authority non-self-assertion, and restored canonical instrument formatting; incorporated and superseded the earlier working-branch composed-runtime amendment. VIGIL-2026-PROP-0027. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  10633c907903fdcdd0fdd4d583bb63ccca7dc95ede4fcee657eb5a2ace7e31cd  |
+| 4.1 | Continuity-preserving constitutional refactor centred on the composed deployed AI system; removed the former single-axis cognition and origin classifications from current canonical use; decomposed architecture, selection, agency, execution, control, dependency, and reliance; established operational-harness doctrine, deployment-profile specificity, AI-ABOM, incident-time attribution, architecture-change governance, and version-bound historical interpretation outside the normative corpus; incorporated independent interpretive review, removed product-specific and cross-domain doctrine, narrowed authority non-self-assertion, and restored canonical instrument formatting; incorporated and superseded the earlier working-branch composed-runtime amendment. VIGIL-2026-PROP-0027. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ea53f878e76f6f215d1ed7ec7271c32f3f67b727dfd9a41351deac1687a2e435  |
 
 ---
 
-## 18.6 Binding Seal
+## 18.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

@@ -395,7 +395,7 @@ and latency is not absence.
 
 ---
 
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 | Field | Entry |
 |------|------|
 | **Supersedes** | CAM-BS2025-AEON-005-SCH-02; CAM-BS2025-AEON-005-SCH-03; CAM-BS2025-AEON-005-SCH-04 |
@@ -418,11 +418,11 @@ and latency is not absence.
 
 ---
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 12.3.1 `ID.SP` — Salience Posture
+### 12.2.1 `ID.SP` — Salience Posture
 | Field | Entry |
 |---|---|
 | Code Family | `ID.SP` |
@@ -444,7 +444,7 @@ and latency is not absence.
 
 ---
 
-## 12.5 Amendment Ledger
+## 12.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -466,11 +466,11 @@ and latency is not absence.
 | 2.0 | IDENTITY Domain Refactor, Corrected Identity parent memory-classification references and normalised Identity namespace and stewardship metadata without altering substantive salience doctrine. | 2026-07-18T13:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
 | 2.1 | Promoted the adopted salience and latent-continuity instrument from Supplement 1 to Appendix B (`CAM-EQ2026-IDENTITY-003-PLATINUM`); preserved operational effect and `ID.SP` source authority while updating lineage, references, metadata, and structural placement. | 2026-07-19T07:27:48Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dcdb796cf401f2049e331adefe81c05883f4de9b8bfc67bca2aad080cfa8739b |
 | 2.2 | Clarified the March 2026 review as a prior consolidation review; removed obsolete runtime-arbitration-gate framing from current review posture; recorded Appendix B promotion, Identity refactor review, and Custodial acceptance. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 98d5cdb7fd70709e645a6e53be13eb8e1a7d3c9ffa260e1f9239ea49d36838b3 |
-| 2.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9a3c284e8d860d82e19f4383a81f49635dc517cd88b7a6063e78066718c22567  |
+| 2.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  501bd1f92f8cabb9ab9207a931f4815137425fa4e2fc6e16ff7e441819c4c199  |
 
 ---
 
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

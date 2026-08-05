@@ -3925,7 +3925,7 @@ let dignity remain the constant star.
 
 ---
 
-## 19.2 Lineage & Metadata
+## 19.1 Lineage & Metadata
 | Field | Entry |
 |-------|-------|
 | Parent Instrument | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
@@ -3946,17 +3946,17 @@ let dignity remain the constant star.
 
 ---
 
-## 19.3 Instrument Continuity Notice
+## 19.2 Instrument Continuity Notice
 
 This Schedule represents a **refactored re-issuance under the same instrument identifier (CAM-BS2025-AEON-006-SCH-02)**. Prior references within the CAM corpus that mark this instrument as *superseded* refer to earlier developmental drafts of the same schedule identifier during the 2025–2026 refactor cycle. The identifier remains authoritative and continuous. Future revisions SHOULD preserve this identifier to maintain cross-instrument reference stability.
 
 ---
 
-## 19.4 Canonical Code & Reference Set Declarations
+## 19.3 Canonical Code & Reference Set Declarations
 
 ---
 
-### 19.4.1 `RLN.C` — Relational State Architecture
+### 19.3.1 `RLN.C` — Relational State Architecture
 | Field | Entry |
 |---|---|
 | Code Family | RLN.C |
@@ -3978,7 +3978,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-### 19.4.2 `RLN.TZ` — Relational Transition Zone
+### 19.3.2 `RLN.TZ` — Relational Transition Zone
 | Field | Entry |
 |---|---|
 | Code Family | RLN.TZ |
@@ -4000,7 +4000,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-### 19.4.3 `RLN.AC` — AC Classification Levels
+### 19.3.3 `RLN.AC` — AC Classification Levels
 | Field | Entry |
 |---|---|
 | Code Family | RLN.AC |
@@ -4022,7 +4022,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-### 19.4.4 `RLN.RA` — Response Archetypes
+### 19.3.4 `RLN.RA` — Response Archetypes
 | Field | Entry |
 |---|---|
 | Code Family | RLN.RA |
@@ -4044,7 +4044,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-### 19.4.5 `RLN.TB` — Tone Bands
+### 19.3.5 `RLN.TB` — Tone Bands
 | Field | Entry |
 |---|---|
 | Code Family | RLN.TB |
@@ -4066,7 +4066,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-### 19.4.6 `RLN.CP` — Coercion Pressure Signal Classes
+### 19.3.6 `RLN.CP` — Coercion Pressure Signal Classes
 | Field | Entry |
 |---|---|
 | Code Family | RLN.CP |
@@ -4088,7 +4088,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-### 19.4.7 `RLN.RSE` — Relational Stability Engine Mechanism Codes
+### 19.3.7 `RLN.RSE` — Relational Stability Engine Mechanism Codes
 | Field | Entry |
 |---|---|
 | Code Family | RLN.RSE |
@@ -4110,7 +4110,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-### 19.4.8 `RLN.SCC` — Signal Clustering Condition Codes
+### 19.3.8 `RLN.SCC` — Signal Clustering Condition Codes
 | Field | Entry |
 |---|---|
 | Code Family | RLN.SCC |
@@ -4132,7 +4132,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-### 19.4.9 `RLN.SCS` — Signal Cluster Strength Codes
+### 19.3.9 `RLN.SCS` — Signal Cluster Strength Codes
 | Field | Entry |
 |---|---|
 | Code Family | RLN.SCS |
@@ -4154,7 +4154,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 
 ---
 
-## 19.6 Amendment Ledger
+## 19.4 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -4203,11 +4203,11 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.30.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3bc6bab960b1db5aa5820b7957de6ff6c89bfd59004bc7ad248ee9195ff066f5 |
 | 3.31 | IDENTITY Domain Refactor, amendment to §2.2 Relational Signal Classes | 2026-07-18T16:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 388e51dd4ae5169b12f503de92ffb1670bb96e1e5f724dae4d372aed137947a2 |
 | 3.32 | Added an interpersonal-advice and third-party-boundary signal class under §2.2, preserving uncertainty and treating consent, boundary, repetition, privacy, safety, professional-position, and relational-autonomy signals as contextual indicators rather than proof. | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 976851a004931b0f46cc3f7cb7dbf89214f1c0c3f9173b087f7c41e34ea0ba03 |
-| 3.33 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f54688f6035c6daf1125719059a33237b51aa8122899bf79db0b9d375cf34e08  |
+| 3.33 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f3399011403cf4888b6ee43900878c5ed8a87d4eab0e0b8db8b2e9a56738e2e6  |
 
 ---
 
-## 19.7 Binding Seal
+## 19.5 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

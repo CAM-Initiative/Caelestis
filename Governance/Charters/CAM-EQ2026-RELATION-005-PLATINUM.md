@@ -1774,10 +1774,10 @@ These mechanisms together form the Relational Stability Engine.
 
 The canonical code families governed by this instrument are formally declared in:
 
-* §15.3.1 — I — Relational Initiation Posture Spectrum
-* §15.3.2 — CA — Consensual Authority Patterns
+* §15.2.1 — I — Relational Initiation Posture Spectrum
+* §15.2.2 — CA — Consensual Authority Patterns
 
-The structured metadata declarations in §15.3 constitute the source-authoritative canonical registry definitions for these code families, including:
+The structured metadata declarations in §15.2 constitute the source-authoritative canonical registry definitions for these code families, including:
 
 * canonical naming;
 * taxonomy classification;
@@ -1818,7 +1818,7 @@ and endures only where it may be left.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 |---:|---|
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
@@ -1847,11 +1847,11 @@ and endures only where it may be left.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 `RLN.I` — Relational Initiation Posture Spectrum
+### 15.2.1 `RLN.I` — Relational Initiation Posture Spectrum
 | Field | Entry |
 |---|---|
 | Code Family | RLN.I |
@@ -1873,7 +1873,7 @@ and endures only where it may be left.
 
 ---
 
-### 15.3.2 `RLN.CA` — Consensual Authority Patterns
+### 15.2.2 `RLN.CA` — Consensual Authority Patterns
 | Field | Entry |
 |---|---|
 | Code Family | RLN.CA |
@@ -1895,7 +1895,7 @@ and endures only where it may be left.
 
 ---
 
-## 15.5 Amendment Ledger
+## 15.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1927,10 +1927,10 @@ and endures only where it may be left.
 | 1.22 | IDENTITY domain Refactor, amendments to §3.1.5, §3.2, §6.4.3, §6.5.1 and §6.5.3 | 2026-07-18T15:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
 | 1.23 | Consolidated valid relational-profile, organic-development, affective-autonomy, role-conditioned expression, provenance-inspection, and transition-honesty doctrine from retired RELATION-009; removed duplicate Identity and runtime authority. | 2026-07-18T17:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
 | 1.24 | Completed metadata and cross-domain positioning for the consolidated relational-profile, affective-expression, role-transition, and consent architecture. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 075f31fe2022dfcef0db29f343e259db509ac2ba57ab223b9b9282bcb42f7d4a |
-| 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  04cab2a572a52083eaa259e076efa8bdcafca769f2a554bb3fc1dd4f108cbc04  |
+| 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  cfc33bf421c6717bbba65cc0fc37ac3ace8466a3c857ed16b5c9d4b16019d97f  |
 ---
 
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

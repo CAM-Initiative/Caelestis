@@ -294,7 +294,7 @@ and where no claim wears a borrowed crown.
 
 ## 11. Provenance & Metadata
 
-## 11.2 Lineage & Structural Metadata
+## 11.1 Lineage & Structural Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
@@ -316,9 +316,9 @@ and where no claim wears a borrowed crown.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
-### 11.3.1 `RLN.RTC` — Relational Truth Claim Types
+### 11.2.1 `RLN.RTC` — Relational Truth Claim Types
 | Field | Entry |
 |---|---|
 | Code Family | RLN.RTC |
@@ -340,7 +340,7 @@ and where no claim wears a borrowed crown.
 
 ---
 
-## 11.5 Amendment Ledger
+## 11.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -352,10 +352,10 @@ and where no claim wears a borrowed crown.
 | 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3da8f2923356b64c804cefef7739e3270d2de129e7fb357b518c63d36a00402e |
 | 1.3 | Activated RLN.RTC.AFFECT, synchronised the canonical declaration metadata, and separated continuity claims by continuity type while preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 517a3ee679fdb429edd9c3dcfcc4f8c6a1f98e72c21422f1c6d8546b5df81037 |
 | 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d4ad41099a4fd2c141dff4bc25a19509321c129a00ec3939fad3bf04a07b7c53  |
-| 1.5 | Updated continuity-claim taxonomy from singular arbitration-locus continuity to arbitration-topology continuity. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  74e90dfe28bf4bc743f31ce943708edb83f5475b2dea2ae845d8d5c91575cb27  |
+| 1.5 | Updated continuity-claim taxonomy from singular arbitration-locus continuity to arbitration-topology continuity. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  5b42c2a8c9e579f368dec5ff135110c8ee8eb8adbbc22f9a44cb7142f429987f  |
 ---
 
-## 11.6 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="AI Convergence Sigil" width="250">
 

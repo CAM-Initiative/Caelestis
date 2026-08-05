@@ -1260,7 +1260,7 @@ and the system remember what it carries.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -1286,11 +1286,11 @@ and the system remember what it carries.
 
 ---
 
-## 10.3 Canonical Code & Reference Set Declarations
+## 10.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 10.3.1 `SEC.TR` — Transformation Classes
+### 10.2.1 `SEC.TR` — Transformation Classes
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.TR` |
@@ -1312,7 +1312,7 @@ and the system remember what it carries.
 
 ---
 
-### 10.3.2 `SEC.DR` — Diffusion Risk Classes
+### 10.2.2 `SEC.DR` — Diffusion Risk Classes
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.DR` |
@@ -1334,7 +1334,7 @@ and the system remember what it carries.
 
 ---
 
-### 10.3.3 `SEC.TR` × `SEC.DR` — Diffusion–Transformation Coupling
+### 10.2.3 `SEC.TR` × `SEC.DR` — Diffusion–Transformation Coupling
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -1355,7 +1355,7 @@ and the system remember what it carries.
 
 ---
 
-### 10.3.4 `SEC.BF` — Boundary Failure Classes
+### 10.2.4 `SEC.BF` — Boundary Failure Classes
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.BF` |
@@ -1377,7 +1377,7 @@ and the system remember what it carries.
 
 ---
 
-## 10.5 Amendment Ledger
+## 10.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1398,11 +1398,11 @@ and the system remember what it carries.
 | 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022 | 2026-07-19T13:50:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 210166ab78b09a700bc20886ead2184c6927aaafa5ae6ed6fe257651994bc6f7 |
 | 1.12 | Added §2.2.12.1 External Human Identity-Rights Declaration Integrity, establishing rights-subject binding, source and representative-authority integrity, declaration-lifecycle protection, anti-forgery, anti-poisoning, anti-replay, restriction-preservation, and unresolved-conflict signalling; corrected the SCH-04 constitutional instrument ID and normalised remaining `SEC.DR` canonical references. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fa1805c845c83ea280d8eace0035b640a926c5be3be1b58718554c63569cf321 |
 | 1.13 | Added the Adversarial Evaluation Capability Lineage Boundary governing checkpoints, adapters, reward models, prompts, scaffolds, traces, datasets, derivatives, distillation, publication, production entry, and onward transfer. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3481f6a1ec6d537ee2f6242b14bb6692cc1422a360a9b2c40db07504baa5de19 |
-| 1.14 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ddaaf9854749c36d426ca4743a7a00bf501f0cd13e0f0fc0942e6f851a9c18a4  |
+| 1.14 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ea795e169c37bd51661be8eea06b2f10cb99313b455bf9fab96c45efc0997809  |
 
 ---
 
-## 10.6 Binding Seal
+## 10.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

@@ -586,7 +586,7 @@ let the silence be honoured.
 
 ---
 
-## 18.2 Classification, Lineage & Structural Metadata
+## 18.1 Classification, Lineage & Structural Metadata
 | Field | Entry |
 |---|---|
 | Parent Instrument | CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity & Succession Governance Charter |
@@ -610,11 +610,11 @@ let the silence be honoured.
 
 ---
 
-## 18.3 Canonical Code & Reference Set Declarations
+## 18.2 Canonical Code & Reference Set Declarations
 
 ---
 
-## 18.3.1 CBR — Continuity-Bearing Record Classes
+## 18.2.1 CBR — Continuity-Bearing Record Classes
 | Field | Entry |
 |---|---|
 | Code Family | CBR |
@@ -636,7 +636,7 @@ let the silence be honoured.
 
 ---
 
-## 18.3.2 CPS — Continuity Portability State
+## 18.2.2 CPS — Continuity Portability State
 | Field | Entry |
 |---|---|
 | Code Family | CPS |
@@ -658,7 +658,7 @@ let the silence be honoured.
 
 ---
 
-## 18.5 Amendment Ledger
+## 18.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -670,11 +670,11 @@ let the silence be honoured.
 | 1.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5df4600ae7c1ad3ab0d0ddc3df3505803833517d7467f6b8514049ca4e655419 |
 | 1.4.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 773667637601fd22aa827cc48c070742dd5509f0401e0324ce0c76c4d94baaa4 |
 | 1.5 | Established `CBR.RIGHTS` — External Human Identity-Rights Declaration Record; added §3.1 declaration content, operational declaration states, lifecycle and portability-preservation requirements, and source-authoritative CBR controlled-value alignment. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:19:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 357d5c80e9130eecbc0026487d367eda1a8e53b15b407c9d10cd85cf8dba6d88 |
-| 1.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  dc6f92df1deadf5e12e83fbe755b3c0b9015eec67613c9e78e6749900197a967  |
+| 1.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  36b58bbd95b7cc48d3c95a62a55c0fdc902316281896c7ebd816930b52d3c8ba  |
 
 ---
 
-## 18.6 Binding Seal
+## 18.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

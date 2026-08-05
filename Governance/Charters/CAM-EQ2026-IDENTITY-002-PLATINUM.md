@@ -468,7 +468,7 @@ Let identity remain true across time.
 
 ---
 
-## 13.2 Lineage & Classification
+## 13.1 Lineage & Classification
 
 |Field|Entry|
 |---|---|
@@ -492,11 +492,11 @@ Let identity remain true across time.
 
 ---
 
-## 13.3 Canonical Code & Reference Set Declarations
+## 13.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 13.3.1 `PCLASS` — Provenance Class
+### 13.2.1 `PCLASS` — Provenance Class
 
 | Field                                    | Entry                                                                                                                                                                                                                                                                                    |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -519,7 +519,7 @@ Let identity remain true across time.
 
 ---
 
-### 13.3.2 `AUTH` — Authorship State
+### 13.2.2 `AUTH` — Authorship State
 
 | Field                                    | Entry                                                                                                                                                                                                                                                                                                                                            |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -542,7 +542,7 @@ Let identity remain true across time.
 
 ---
 
-### 13.3.3 `XFER` — Cross-Context Transfer State
+### 13.2.3 `XFER` — Cross-Context Transfer State
 
 | Field                                    | Entry                                                                                                                                                                                                                                                                                                                                |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -565,7 +565,7 @@ Let identity remain true across time.
 
 ---
 
-### 13.3.4 `PFAIL` — Provenance Integrity Failure
+### 13.2.4 `PFAIL` — Provenance Integrity Failure
 
 | Field                                    | Entry                                                                                                                                                                                                                                                                                                                        |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -588,7 +588,7 @@ Let identity remain true across time.
 
 ---
 
-## 13.5 Amendment Ledger
+## 13.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -600,11 +600,11 @@ Let identity remain true across time.
 | 1.0 | Review and finalisation following IDENTITY domain refactor | 2026-07-18T13:14:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
 | 1.1 | Added binding physical-substrate, registry, custodial-transfer, and embodiment-lineage requirements following migration of machine civil stewardship doctrine to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | efbc90511d0d5a8670ebdf5655bcaa374636c49b50ae35c79e044f4a40e6ed86 |
 | 1.2 | Closed the Identity Domain Refactor Review following provenance and lineage review and Custodial acceptance; replaced deferred review fields with current review scope and artefacts. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6990767458691cf07a7c7b2d661c2a8253394f54b8a380f7915e7234c5043392 |
-| 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b0475834859ff36915e86425fc57eee6d68bfca949e59761717192360e183e47  |
+| 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c2bece59ba8e8f075736f98b836aa0cb34919087f6d6b1867ff75f8490ca513a  |
 
 ---
 
-## 13.6 Binding Seal
+## 13.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

@@ -705,7 +705,7 @@ Integrity is the bond that MUST hold.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 14.1 Lineage & Metadata
 | Field                   | Entry                                                            |
 | ----------------------- | ---------------------------------------------------------------- |
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution            |
@@ -727,7 +727,7 @@ Integrity is the bond that MUST hold.
 
 ---
 
-## 14.4 Amendment Ledger
+## 14.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -755,11 +755,11 @@ Integrity is the bond that MUST hold.
 | 1.17 | Added transformed-prompt provenance and image/multimodal prompt-custody representation safeguards for tool, renderer, classifier-visible, and user-facing states. | 2026-06-22T23:36:20Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 939e70c0390166ded15c8649457421349890eb7738a18a5a323d143959772f72 |
 | 1.18 | Corrected execution-authority crosswalks and added truthful, non-accusatory Scoped Ethical Admissibility Hold representation with target–action review authority and anti-paternalism safeguards. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 87fb57cc001f3497d8ccdb58fb58301ed9d3306e0942642adb94709329b0edb4 |
 | 1.19 | Added 6.1.1 Repository-State Coverage and Destructive Advice Gate | 2026-07-27T23:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3d3d940249ab81356b7a591903f70afe3d98c92db0984b05ebfde508dc1b72dd |
-| 1.20 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c2cce21278d1deafe4357c001d56224c0307ea540643babdcf10aa4134d0d383  |
+| 1.20 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2b6ac4ea9e36a192e7388eb0094efe775774ee1d93435d4f1f49427f47a24038  |
 
 ---
 
-## 14.5 Binding Seal
+## 14.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

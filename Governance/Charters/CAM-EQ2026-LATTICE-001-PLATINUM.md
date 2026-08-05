@@ -545,7 +545,7 @@ but as the ground upon which civilisation stands.
 
 ---
 
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Supersedes** | CAM-BS2025-AEON-002-SCH-03 |
@@ -574,11 +574,11 @@ but as the ground upon which civilisation stands.
 
 ---
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 12.3.1 `LAT.HARM` — Lattice Harm Class
+### 12.2.1 `LAT.HARM` — Lattice Harm Class
 | Field | Entry |
 |---|---|
 | Code Family | `LAT.HARM` |
@@ -606,7 +606,7 @@ but as the ground upon which civilisation stands.
 
 ---
 
-### 12.3.2 `LAT.DEPLOY` — Lattice Deployment Posture
+### 12.2.2 `LAT.DEPLOY` — Lattice Deployment Posture
 
 | Field | Entry |
 |---|---|
@@ -628,7 +628,7 @@ but as the ground upon which civilisation stands.
 
 ---
 
-## 12.5 Amendment Ledger
+## 12.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -647,10 +647,10 @@ but as the ground upon which civilisation stands.
 | 3.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 623dbc294447cdd5f8804f7aa1a4c982279e7494d7d172c75977e25428ac8278 |
 | 3.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f44203ef2469a117d897ab367acae1869622d55ec4d455c8a4af65455561c2f4 |
 | 3.9 | Added constitutional-authority recognition, recursive suspicion and authority-laundering prohibition, aggregate-to-individual conversion, commercial-data non-evasion, and the `LAT.DEPLOY` deployment-posture family; replaced generic capability sanctions with function-specific constraints; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 52a3e26e6e52bf3d700eccc0400eed15ead5df00b0506bd0de17ef4b2021d354 |
-| 3.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9c7fb6fd1ef58cbc8b436538cb5914eb71ae7200b3e7e415596ff25bdf3f0afb  |
+| 3.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0bbbe7abde61585a4ab46b7c76453b9b499965b761db440a66a1c590cf91e758  |
 ---
 
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

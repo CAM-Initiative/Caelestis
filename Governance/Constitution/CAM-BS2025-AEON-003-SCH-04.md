@@ -416,7 +416,7 @@ nothing follows.
 
 ---
 
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Parent Annex** | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic |
@@ -437,11 +437,11 @@ nothing follows.
 
 ---
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 12.3.1 `ARB.ARS` — Arbitration Resolution Stage
+### 12.2.1 `ARB.ARS` — Arbitration Resolution Stage
 | Field | Entry |
 |---|---|
 | Reference Set | `ARB.ARS` |
@@ -463,7 +463,7 @@ nothing follows.
 
 ---
 
-### 12.3.2 `ARB.ALT` — Arbitration Layer Type
+### 12.2.2 `ARB.ALT` — Arbitration Layer Type
 | Field | Entry |
 |---|---|
 | Code Family | `ARB.ALT` |
@@ -486,7 +486,7 @@ nothing follows.
 
 ---
 
-## 12.5 Amendment Ledger
+## 12.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -505,10 +505,10 @@ nothing follows.
 | 2.4.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 009aa77b4d0efbb9f295bce390ce637d37461b73321d02bf1603cd1ce11aa314 |
 | 2.5 | Inserted clause 2.4 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 57e0f242b611c4f9b4e5c0ea88f690bc5bb0ee498d96547af5004a547890e7e6 |
 | 2.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2956f64d34d74d4d8ef4451a576e4c30a382304e6f15afcc928011922b4e5c8b |
-| 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  fb1ef10c5f109edcce05528d46eb883ab43725899a13a8345640b0ff1ca97e2e  |
+| 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ffeb1295c32943214ae8dc312643c092d00a30071a6051c1be68014c837594a6  |
 ---
 
-## 11.5 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

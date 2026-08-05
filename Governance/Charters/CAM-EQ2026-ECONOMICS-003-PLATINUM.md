@@ -843,7 +843,7 @@ It is the witness of what must not be collapsed.
 
 ---
 
-## 20.2 Lineage & Metadata
+## 20.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture |
@@ -866,11 +866,11 @@ It is the witness of what must not be collapsed.
 
 ---
 
-## 20.3 Canonical Code & Reference Set Declarations
+## 20.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 20.3.1 ECON.RC — Economic Resource Class
+### 20.2.1 ECON.RC — Economic Resource Class
 | Field | Entry |
 |---|---|
 | Code Family | ECON.RC |
@@ -892,7 +892,7 @@ It is the witness of what must not be collapsed.
 
 ---
 
-### 20.3.2 ECON.HARM — Economic Harm Class
+### 20.2.2 ECON.HARM — Economic Harm Class
 | Field | Entry |
 |---|---|
 | Code Family | ECON.HARM |
@@ -918,7 +918,7 @@ It is the witness of what must not be collapsed.
 
 ---
 
-### 20.3.3 ECON.MECH — Economic Mechanism Class
+### 20.2.3 ECON.MECH — Economic Mechanism Class
 | Field | Entry |
 |---|---|
 | Code Family | ECON.MECH |
@@ -940,7 +940,7 @@ It is the witness of what must not be collapsed.
 
 ---
 
-### 20.3.4 ECON.RISK — Economic Risk Class
+### 20.2.4 ECON.RISK — Economic Risk Class
 | Field | Entry |
 |---|---|
 | Code Family | ECON.RISK |
@@ -962,7 +962,7 @@ It is the witness of what must not be collapsed.
 
 ---
 
-## 20.5 Amendment Ledger
+## 20.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -976,10 +976,10 @@ It is the witness of what must not be collapsed.
 | 2.3 | Expanded `ECON.HARM` as the source-authoritative Economics-domain harm pathway family recognised under `AEON.HC.ECONOMIC`; retained `ECON.RISK` as the economic risk-state family; clarified taxonomy separation between resource classes, harm pathways, mechanism classes, risk states, and semantic handoff fields. | 2026-06-07T15:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9a929ec9b8aa379631cc78f2a8aeabe1ac0b7d777b10304d4e03d778e44aa464 |
 | 2.3.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 16c6fb6789da26b8e85525f31794066abebf9fb6158ee26b6fcb4ef4cf024a18 |
 | 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3a99749ab638a665ab44d4707e7084338ac9d9280a39c8eb3ad9ce852c25aa7b |
-| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3aed9e629030fe1df7a3c561284946ad1ee453a402931bcd50848febbcf1585f  |
+| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  74960dd427811b29ed75b80b3a9d8923449ce214738ba393a3a3efd628c26c02  |
 ---
 
-## 20.6 Binding Seal
+## 20.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

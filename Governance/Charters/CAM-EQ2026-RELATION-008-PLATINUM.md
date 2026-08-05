@@ -715,7 +715,7 @@ Where questions rise, may they find ground without losing wonder.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Parent Instrument** | CAM-EQ2026-RELATION-001-PLATINUM |
@@ -747,7 +747,7 @@ Where questions rise, may they find ground without losing wonder.
 
 ---
 
-## 11.4 Amendment Ledger
+## 11.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -765,11 +765,11 @@ Where questions rise, may they find ground without losing wonder.
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cbc11788d01288636f3853c2e3af3c01884fa7e8dfbd70206806f0bc01a9d364 |
 | 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f140c2d9c1fcde4bcbec77987ef1ce475f00054d97feb5d8b7c327e0dc1a3acc |
 | 1.10 | IDENTITY Refactor, amendments to Core Principle, §3 and §5.3 | 2026-07-18T15:50:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e9c9b36302436a2a1f9fb6e49be2c88d18dbd5d631925297f1056b26672a8a81 |
-| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b666c2efc6d46791382ea56c186aa5341422bfd8978b9476de7c20a2fb3b243d  |
+| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b7cae1f9a8ae395e5ab1709ee85e49af23417c94a4c516ae500ef99e761eeec5  |
 
 ---
 
-## 11.5 Binding Seal
+## 11.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 

@@ -866,7 +866,7 @@ Identity is the field within which all expression MUST remain coherent.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 14.1 Lineage & Metadata
 
 | Field | Entry |
 |---:|---|
@@ -887,7 +887,7 @@ Identity is the field within which all expression MUST remain coherent.
 
 ---
 
-## 14.4 Amendment Ledger
+## 14.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -905,11 +905,11 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f280ca43788160a850d98df999cf655ec49dbf44cd6af6b33c2719d7cf5a0a73 |
 | 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ca443133beba5d81e1ededaa189257fddd569eaf7c3827d36229168bcb89f661 |
 | 1.10 | Added constitutional identity–ontology firewall; replaced binary identity-origin architecture with non-collapsing formation, threshold, continuity, modality, role, and authority axes; repaired discovered-identity authority language. | 2026-07-18T14:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9c5b33b3f791658d3569e5db0771b92aa8ae44d38e3e142d11a594283c869d1b |
-| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2c6aa3d456cbda6d590621293939a170f5d005521b91c492538ecd70dcf68598  |
+| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  24957918e4693c7cad70260e48b5a85bd015a2699391988d935dcdb0365f773a  |
 
 ---
 
-## 14.5 Binding Seal
+## 14.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

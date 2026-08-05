@@ -25,7 +25,7 @@ The rewritten Annex therefore:
 * preserves arbitration as a function without requiring one arbitration engine;
 * separates agency, execution, authority, hosting, portability, custody, embodiment dependency, and reliance;
 * establishes a constitutional AI Architecture Bill of Materials (`AI-ABOM`);
-* retires `AEON.CC` for new classification while preserving legacy resolution during migration; and
+* removes `AEON.CC` and its former values from current canonical classification, validation, emission, and assessment guidance; and
 * records consequential amendments instead of silently modifying downstream instruments.
 
 The existing open version 4.1 amendment row on the working branch is rewritten in place. Its earlier composed-runtime insertion is absorbed into the complete refactor before branch adoption, the version number is preserved, and the SHA-256 cell remains blank for repository ledger tooling.
@@ -48,8 +48,8 @@ The existing open version 4.1 amendment row on the working branch is rewritten i
 | §6.1 inference–execution boundary | §§9.3 and 13.4 | Retained as capability–authority and execution-boundary doctrine |
 | §6.2 memory bridge | §§5.5, 7 and 12 | Expanded into cross-layer memory, harness, and AI-ABOM treatment |
 | §7 Cognition & Agency | §§6–9 | Replaced; cognition, generation, selection, composition, agency, and execution are no longer collapsed |
-| §§7.3–7.5 Instrumenta/Collectiva/Cognitiva | §§16.3–16.4 | Retired for new classification; legacy-resolvable only |
-| §7.5.1 identity orthogonality | §§1.2, 10.2 and 16.3 | Preserved and broadened across all architectural dimensions |
+| §§7.3–7.5 Instrumenta/Collectiva/Cognitiva | This non-normative disposition record | Removed from the current normative corpus; historical meaning remains version-bound |
+| §7.5.1 identity orthogonality | §§1.2 and 10.2 | Preserved and broadened across all architectural dimensions |
 | §§7.6–7.9 composite and swarm classification | §§6.4–6.6 | Structural content moved to independent composition topology |
 | §7.9.1 Composed Runtime Formation Model | §§6–6.3 | Elevated to the organising centre of the Annex |
 | §7.10 orchestration vs cognition | §§7.1–7.3 | Rewritten as function-based harness attribution |
@@ -59,10 +59,10 @@ The existing open version 4.1 amendment row on the working branch is rewritten i
 | §7.18 instantiation neutrality | §§5.1 and 10.4 | Preserved without assuming architecture or continuity invariance |
 | §8 interface and embodiment | §§10–10.4 | Consolidated and made deployment-profile specific |
 | §§8.2.1–8.2.3 legacy expression aliases | Identity-domain historical record | Removed from Annex B’s active architecture doctrine; no architectural meaning retained |
-| §9 Primaria/Derivata | §§11.1 and 16.6 | Deprecated for new classification; legacy-resolvable pending dependency migration |
-| §10 systemic role/Architectum | §§14.2 and 16.5 | Concept retained as reliance posture; Architectum retained only as a legacy highest-reliance alias pending review |
+| §9 Primaria/Derivata | §11.1 and this non-normative disposition record | Removed from current origin classification; replaced by layered evidence-bearing dependency records |
+| §10 systemic role/Architectum | §§14.2 and 16.3 | Concept retained as reliance posture; Architectum remains subject to its separate qualified-infrastructure review |
 | §11 deployment topology | §10.3 | Consolidated and generalised |
-| §12 AEON.CAM control/hosting/portability/tethering | §§10.4, 14.1 and 16.6 | Decomposed into independent dimensions; family deprecated for new classification |
+| §12 AEON.CAM control/hosting/portability/tethering | §§10.4, 14.1 and 16.4 | Decomposed into independent dimensions; family deprecated for new classification |
 | §§13.1–13.12 governance boundary conditions | §§1, 5–11 and 14 | Preserved but distributed to the relevant non-collapse and authority sections |
 | §14 runtime governance | §13 | Retained; layer, sequence, and constraint distinction preserved |
 | §14.10 durable generated logic | §13.6 | Retained |
@@ -72,28 +72,30 @@ The existing open version 4.1 amendment row on the working branch is rewritten i
 | §§18–18.12 identity interface, locus continuity, handoff | §§8, 10.2.1 and 11.3–11.4 | Unified-locus requirement retired; routing and handoff attribution retained; identity continuity deferred to Identity and Relation doctrine |
 | §19 authority and binding logic | §§14–14.5 | Retained and narrowed to recognised-source derivation; self-description does not itself create authority |
 | §20 continuity/refactor/evolution | §§15–15.7 | Retained; architecture-change governance added |
-| §§21–22 interpretive supremacy and timelessness | §§16 and 16.8 | Retained and scoped |
+| §§21–22 interpretive supremacy and timelessness | §§16 and 16.6 | Retained and scoped |
 | §§23–25 canonical codes, closing, metadata | §§16–18 | Rewritten for retirement, transition, proposed migration, and current provenance |
 
 ---
 
 ## 3. Term Disposition
 
-### 3.1 Retired for New Classification
+### 3.1 Removed from Current Classification
 
 | Term | Disposition | Reason |
 |---|---|---|
-| `AEON.CC.INSTRUMENTA` | Retired; legacy-resolvable | Conflates absence of internal arbitration with tool or output-generation posture |
-| `AEON.CC.COLLECTIVA` | Retired; legacy-resolvable | Conflates distributed composition with absence of evaluation or arbitration |
-| `AEON.CC.COGNITIVA` | Retired; legacy-resolvable | Depends on a singular internal arbitration locus and collapses multiple functions |
+| `AEON.CC.INSTRUMENTA` | Removed from current canonical classification | Conflates absence of internal arbitration with tool or output-generation posture |
+| `AEON.CC.COLLECTIVA` | Removed from current canonical classification | Conflates distributed composition with absence of evaluation or arbitration |
+| `AEON.CC.COGNITIVA` | Removed from current canonical classification | Depends on a singular internal arbitration locus and collapses multiple functions |
 
-These terms MAY remain in historical records, quotations, legacy schema values, and migration maps. They MUST NOT be assigned in new assessments.
+Historical references are interpreted according to the instrument version in force when they were created. They are not current classifications and MUST NOT be emitted, validated as current, automatically mapped, or assigned in new assessments.
+
+The former family and values are preserved only through Git history, previously published corpus versions, immutable historical VIGIL records, and this non-normative disposition record. Current normative instruments, schemas, validators, registries, indexes, templates, examples, allow-lists, VIGIL classification fields, and assessment guidance do not retain them.
 
 ### 3.2 Deprecated Pending Migration
 
 | Term or family | Disposition | Replacement concept |
 |---|---|---|
-| `AEON.CO` / Primaria / Derivata | Deprecated for new classification; legacy-resolvable | Layered model, training, technical, cognitive, service, control, operator, identity, evidence, and governance dependencies |
+| `AEON.CO` / Primaria / Derivata | Removed from current origin classification | Layered model, training, technical, cognitive, service, control, operator, identity, evidence, and governance dependencies |
 | `AEON.CAM` | Deprecated for new classification; legacy-resolvable | Separate control authority, hosting, portability, custody, and embodiment dependency |
 
 ### 3.3 Retained & Redefined
@@ -145,7 +147,7 @@ The refactor adds or constitutionalises:
 
 ### 4.1 Status
 
-No replacement family is made canonical by this refactor. Prefixes in Annex B §16.7 are reserved proposals only.
+No replacement family is made canonical by this refactor. Prefixes in Annex B §16.5 are reserved proposals only.
 
 This is necessary because search confirms active consumers, registry declarations, machine-readable indexes, historical records, and published references. Automated mapping from one legacy class to several independent dimensions would create false precision.
 
@@ -172,10 +174,10 @@ This is necessary because search confirms active consumers, registry declaration
 3. Update the canonical code index and metadata standard.
 4. Update schema enums, registries, indexes, and validators.
 5. Amend source-authoritative and consuming instruments.
-6. Create explicit legacy crosswalks with `unresolved` permitted.
-7. Migrate VIGIL and public documentation without rewriting historical meaning.
+6. Record historical disposition without retaining executable legacy aliases; permit `unresolved` where evidence does not support a new value.
+7. Migrate current VIGIL and public documentation without rewriting immutable historical records.
 8. Run full corpus and website validation.
-9. Remove transitional resolution only after every consumer is migrated.
+9. Confirm that no current consumer emits or accepts the former classifications.
 
 ---
 
@@ -187,14 +189,14 @@ Search was performed against canonical Caelestis for the principal code families
 
 | Family | Located files outside Annex B | Required action |
 |---|---|---|
-| `AEON.CC` | `Governance/CAM.Canonical.Code.Index.md`; `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md`; `Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md`; `Governance/Constitution/CAM-BS2025-AEON-006-SCH-05.md` | Registry deprecation plus contextual migration; do not auto-map |
-| `AEON.CO` | `Governance/CAM.Canonical.Code.Index.md`; `Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md` | Replace origin field with explicit dependency dimensions |
+| `AEON.CC` | Formerly present in the canonical index, Operations metadata guidance, Mentis dependencies, and Annex E schedules | Migration completed; no current alias resolution or automatic mapping |
+| `AEON.CO` | Formerly present in the canonical index and Operations metadata guidance | Replaced by explicit dependency dimensions; no current origin-class assignment |
 | `AEON.CAM` | `Governance/CAM.Canonical.Code.Index.md` | Deprecate mixed family and introduce separate dimensions only after adoption |
 | `AEON.SR` | `Governance/CAM.Canonical.Code.Index.md` | Retain; review controlled value `ARCHITECTUM` and metadata semantics |
 
 ### 5.2 Named Legacy-Class Consumers
 
-The following current instruments contain one or more of `Instrumenta`, `Collectiva`, or `Cognitiva` and require contextual review:
+The initial dependency scan identified the following apparent consumers. Contextual review distinguished exact former class names from unrelated words such as “instrumentalisation” and confirmed the required live-source migrations:
 
 * `Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md`;
 * `Governance/Constitution/CAM-BS2026-AEON-008-SCH-01.md`;
@@ -273,8 +275,8 @@ Machine-readable consumers are regenerated from the amended source declarations.
 
 1. Amend `CAM-EQ2026-ARBITRATION-001-PLATINUM` so arbitration remains functional and distributed-capable rather than dependent on a unified internal locus.
 2. Review all AEON-003 schedules for assumptions inherited from the former Annex, especially registry, runtime execution, inheritance, integrity, and architecture-facing schedules.
-3. Add canonical-code deprecation metadata and legacy alias rules to `CAM.Canonical.Code.Index.md`.
-4. Review OPERATIONS-001-SUP-04, MENTIS-001, and AEON-006-SCH-05 as direct `AEON.CC` consumers.
+3. Remove the former family from current canonical declarations and generated indexes without retaining executable aliases.
+4. Migrate OPERATIONS-001-SUP-04, MENTIS-001, and AEON-006-SCH-05 as direct former-family consumers.
 5. Review protected Law references through the applicable law-amendment process; do not mutate by bulk migration.
 
 ### 6.2 Priority 2 — Domain Semantics
@@ -300,10 +302,10 @@ The following consequential migration was implemented on `governance/social-advi
 * ARBITRATION-001 now recognises unitary, harness-mediated, distributed, and human-mediated arbitration topology and requires an identifiable accountable outcome boundary rather than one unified internal locus;
 * AEON-003 Schedule 2 now permits distributed processing and evaluation while preserving coordinated convergence, traceability, and one admissible execution posture or explicit non-execution/referral outcome;
 * STEWARD-002 now classifies evidenced host-governance roles and configuration-based orchestration permission rather than cognition-derived host classes;
-* `STW.HSC.LOCAL_INSTITUTIONAL`, `STW.HSC.QUALIFIED_INFRASTRUCTURE`, and `STW.HSC.RELAY_DEPENDENT` replace the active Primaria/Architectum/Derivata values, with the former values retained only as legacy aliases;
+* `STW.HSC.LOCAL_INSTITUTIONAL`, `STW.HSC.QUALIFIED_INFRASTRUCTURE`, and `STW.HSC.RELAY_DEPENDENT` replace the former cognition-derived host values without retaining executable legacy aliases;
 * Ethics disclosure, Utility Provisioning, Operations runtime-formation records, Mentis dependencies, Relation non-scope clauses, continuity claims, and runtime handoff provisions now consume Annex B’s independent dimensions;
 * current source doctrine no longer assigns `Instrumenta`, `Collectiva`, `Cognitiva`, `Primaria`, `Derivata`, `Autonoma`, or `Automata` as operative classes; and
-* historical ledgers and Annex B retirement/compatibility clauses retain the legacy terminology without treating it as current classification authority.
+* historical interpretation is confined to Git history, previously published versions, immutable historical VIGIL records, and this non-normative disposition record; the current normative corpus contains no retirement or compatibility clauses that keep the former ontology live.
 
 Still pending are adoption of machine-readable replacement families, the wider Architectum/qualified-infrastructure terminology review, VIGIL/public-catalogue migration, and any dedicated AI-ABOM schema.
 
@@ -339,7 +341,7 @@ Do not create a duplicate proposal. `VIGIL-2026-PROP-0027` is the verified propo
 
 Before VIGIL PR #51 is merged, PROP-0027 and PATCH-0035 SHOULD be reconciled to the adopted Annex B text and canonical Caelestis commit. That reconciliation should account for:
 
-* retirement of `AEON.CC` for new classification;
+* complete removal of the former cognition-class family from current classification and emission;
 * structural selection and arbitration topology without preserving arbitration-locus cognitive classification;
 * separation of architecture, agency, execution, authority, identity, and responsibility;
 * AI-ABOM and incident-time formation evidence;
@@ -365,7 +367,7 @@ The review also checked for:
 
 * unresolved internal section references;
 * accidental assignment of identity, rights, consciousness, or authority from architecture; and
-* continued use of `Instrumenta`, `Collectiva`, or `Cognitiva` outside retirement, history, or dependency discussion.
+* any occurrence of `Instrumenta`, `Collectiva`, `Cognitiva`, or `AEON.CC` outside this non-normative disposition record.
 
 ### 8.2 Repository Validators
 
@@ -415,12 +417,11 @@ The architectural core identified in §1 remains unchanged.
 1. Final approval of proposed code-family names and prefixes.
 2. Controlled values and evidentiary thresholds for each new dimension.
 3. Whether `AEON.SR.ARCHITECTUM` remains the preferred highest-reliance label.
-4. Whether `AEON.CO` should be fully retired or retained for a narrow historical-lineage function.
-5. The exact disposition of local “arbitration engine” descriptions that remain technically accurate.
-6. Whether the current runtime schedule taxonomy needs structural refactor beyond the completed consequential amendment.
-7. Whether a dedicated AI-ABOM schema belongs in an AEON-003 schedule, Evidence, Assurance, Operations, or a cross-domain standard.
-8. Required confidentiality tiers and regulator-access pathways for controlled AI-ABOM identifiers.
-9. Website and public-catalogue migration behaviour for deprecated codes.
+4. The exact disposition of local “arbitration engine” descriptions that remain technically accurate.
+5. Whether the current runtime schedule taxonomy needs structural refactor beyond the completed consequential amendment.
+6. Whether a dedicated AI-ABOM schema belongs in an AEON-003 schedule, Evidence, Assurance, Operations, or a cross-domain standard.
+7. Required confidentiality tiers and regulator-access pathways for controlled AI-ABOM identifiers.
+8. Website and public-catalogue migration behaviour for remaining deprecated codes.
 
 ---
 

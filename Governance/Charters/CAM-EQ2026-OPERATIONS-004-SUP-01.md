@@ -344,7 +344,7 @@ is not to pass.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Supersedes | N/A |
@@ -363,11 +363,11 @@ is not to pass.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 OPS.VL — Verification Level
+### 11.2.1 OPS.VL — Verification Level
 | Field | Entry |
 |---|---|
 | Code Family | OPS.VL |
@@ -389,7 +389,7 @@ is not to pass.
 
 ---
 
-### 11.3.2 OPS.AV × OPS.VL — Age Verification / Verification Level Mapping
+### 11.2.2 OPS.AV × OPS.VL — Age Verification / Verification Level Mapping
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -410,7 +410,7 @@ is not to pass.
 
 ---
 
-### 11.3.3 OPS.VFC — Verification Failure Cause
+### 11.2.3 OPS.VFC — Verification Failure Cause
 | Field | Entry |
 |---|---|
 | Code Family | OPS.VFC |
@@ -432,7 +432,7 @@ is not to pass.
 
 ---
 
-### 11.3.4 OPS.VCT — Verification Check Type
+### 11.2.4 OPS.VCT — Verification Check Type
 | Field | Entry |
 |---|---|
 | Code Family | OPS.VCT |
@@ -454,7 +454,7 @@ is not to pass.
 
 ---
 
-## 11.5 Amendment Ledger
+## 11.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -470,10 +470,10 @@ is not to pass.
 | 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f676d1838e06554ab310229197af253ecbeae61238cd49904132cef7ee37f308 |
 | 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0d72774d5a0cc4d9c597a162a5c99377da3baf12f69dc83cf7d265640d9df956 |
 | 1.7 | Added Target–Action Authority and Scope Verification; clarified OPS.VL3/OPS.VL4 limits, proportional authority evidence, externally established qualification requirements, and user-capability separation. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 21985ad3601ab01dd3084d6221b57db1917218baf9b988982ff442117458cd30 |
-| 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2178591fc7948a04c9d3d422c64763e97c891caf7d74b8bcd953ca33d46d0cc0  |
+| 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  10202b0a2ce6e56831310a8c03a7e9061b50c2d067e3cb6ea3ff37d3e0d910f5  |
 ---
 
-## 11.56 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

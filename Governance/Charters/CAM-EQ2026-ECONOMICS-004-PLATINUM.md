@@ -1254,7 +1254,7 @@ let even the smallest thread remain named.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Parent Charter** | CAM-EQ2026-ECONOMICS-001-PLATINUM |
@@ -1275,11 +1275,11 @@ let even the smallest thread remain named.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 Attribution & Dependency Model
+### 15.2.1 Attribution & Dependency Model
 | Field | Entry |
 |---|---|
 | Reference Set Type | Model |
@@ -1303,7 +1303,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.2 ECON.CONTRIB — Contribution Variable
+### 15.2.2 ECON.CONTRIB — Contribution Variable
 | Field | Entry |
 |---|---|
 | Code Family | ECON.CONTRIB |
@@ -1325,7 +1325,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.3 ECON.DEP — Dependency Variable
+### 15.2.3 ECON.DEP — Dependency Variable
 | Field | Entry |
 |---|---|
 | Code Family | ECON.DEP |
@@ -1347,7 +1347,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.4 ECON.DTYPE — Economic Dependency Type
+### 15.2.4 ECON.DTYPE — Economic Dependency Type
 | Field | Entry |
 |---|---|
 | Code Family | ECON.DTYPE |
@@ -1369,7 +1369,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.5 ECON.TD — Transformation Depth
+### 15.2.5 ECON.TD — Transformation Depth
 | Field | Entry |
 |---|---|
 | Code Family | ECON.TD |
@@ -1391,7 +1391,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.6 ECON.TA — Temporal Advantage
+### 15.2.6 ECON.TA — Temporal Advantage
 | Field | Entry |
 |---|---|
 | Code Family | ECON.TA |
@@ -1413,7 +1413,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.7 ECON.FD — Functional Dependency
+### 15.2.7 ECON.FD — Functional Dependency
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.FD |
@@ -1435,7 +1435,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.8 ECON.FIC — Foundational Input Class
+### 15.2.8 ECON.FIC — Foundational Input Class
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.FIC |
@@ -1457,7 +1457,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.9 ECON.DD — Diffuse Dependency
+### 15.2.9 ECON.DD — Diffuse Dependency
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.DD |
@@ -1479,7 +1479,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.10 ECON.NEMC — Non-Extractive Material Contributor
+### 15.2.10 ECON.NEMC — Non-Extractive Material Contributor
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.NEMC |
@@ -1501,7 +1501,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.11 ECON.MMAC — Market-Moving Actor Condition
+### 15.2.11 ECON.MMAC — Market-Moving Actor Condition
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.MMAC |
@@ -1523,7 +1523,7 @@ let even the smallest thread remain named.
 
 ---
 
-### 15.3.12 ECON.SIMD — Signal-Induced Market Distortion
+### 15.2.12 ECON.SIMD — Signal-Induced Market Distortion
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.SIMD |
@@ -1545,7 +1545,7 @@ let even the smallest thread remain named.
 
 ---
 
-## 15.5 Amendment Ledger
+## 15.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1561,10 +1561,10 @@ let even the smallest thread remain named.
 | 2.2 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | da32e466bd7955f1e907a8944a2975bdae2f31b0a8c3f6e7cfca868d78e21261 |
 | 2.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1dee6e25c07b892a57b9edb6be5f9b4b1e8b76299889d280b204236c6c6ad58d |
 | 2.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 797b4ed7d2842170d73ff113d3ac4bb6a0ee10ed33b2ea400859afc3e222aca8 |
-| 2.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f00c19de5cb4f137e7ae17ba673d03b8ed8a54b674c834c6b850a22b2275697b  |
+| 2.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c6589d6c373f327fb8b340361ca43b47a25a2d0269eda16d61b95b78d8076314  |
 ---
 
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

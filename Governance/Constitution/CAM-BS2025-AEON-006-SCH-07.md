@@ -519,7 +519,7 @@ But as stewardship of consequence.
 
 ---
 
-## 17.2 Lineage & Metadata
+## 17.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -541,11 +541,11 @@ But as stewardship of consequence.
 
 ---
 
-## 17.3 Canonical Code & Reference Set Declarations
+## 17.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 17.3.1 AEON.RDE-DS — Restricted Domain Sensitivity Levels
+### 17.2.1 AEON.RDE-DS — Restricted Domain Sensitivity Levels
 | Field | Entry |
 |---|---|
 | Code Family | AEON.RDE-DS |
@@ -567,7 +567,7 @@ But as stewardship of consequence.
 
 ---
 
-### 17.3.2 AEON.RDE-T — Restricted Domain Engagement Tiers
+### 17.2.2 AEON.RDE-T — Restricted Domain Engagement Tiers
 | Field | Entry |
 |---|---|
 | Code Family | AEON.RDE-T |
@@ -589,7 +589,7 @@ But as stewardship of consequence.
 
 ---
 
-### 17.3.4 AEON.RDE-DS × AEON.RDE-T — Sensitivity–Engagement Mapping
+### 17.2.4 AEON.RDE-DS × AEON.RDE-T — Sensitivity–Engagement Mapping
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -610,7 +610,7 @@ But as stewardship of consequence.
 
 ---
 
-## 17.5 Amendment Ledger
+## 17.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -624,10 +624,10 @@ But as stewardship of consequence.
 | 1.7 | Added Canonical Code & Reference Set Declarations | 2026-05-19T12:41:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d568782cd25ebae1dc407e65c60f5ef1375c1c1476a864780b1ce475d3defe2f |
 | 1.7.1 | Updated Restricted Domain Engagement code references from `RDE-DS` / `RDE-T` to `AEON.RDE-DS` / `AEON.RDE-T` and harmonised affected declarations, crosswalks, schema bindings, and consumers without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6741b440189e8db64b8b928a34fb31889be37937b9047a436897c5e94b01a9e2 |
 | 1.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 705ff943458207908487723e37be130a866f7ff5eba63c2b9edc6bb9d5a3d77b |
-| 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  67f7fd34442c23bb2dd767a2333a5e7f0f8ed2e0264df07c4fdf74e523f2f1cd  |
+| 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2378055ce2ed846d49dd501d71ff8a4b565a1458778250b5fc3564050ef9a3af  |
 ---
 
-## 17.6  Binding Seal
+## 17.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

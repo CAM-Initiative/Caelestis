@@ -319,7 +319,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 8.2 Lineage & Metadata
+## 8.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -337,11 +337,11 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 8.3 Canonical Code & Reference Set Declarations
+## 8.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 8.3.1 OPS.OILS — Operational Incident Lifecycle Stage
+### 8.2.1 OPS.OILS — Operational Incident Lifecycle Stage
 | Field | Entry |
 |---|---|
 | Code Family | OPS.OILS |
@@ -363,7 +363,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 8.3.2 OPS.CCP — Continuity-Compatible Protection State
+### 8.2.2 OPS.CCP — Continuity-Compatible Protection State
 | Field | Entry |
 |---|---|
 | Code Family | OPS.CCP |
@@ -385,7 +385,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 8.3.3 OPS.ASR — Access State / Re-Entry Status
+### 8.2.3 OPS.ASR — Access State / Re-Entry Status
 | Field | Entry |
 |---|---|
 | Code Family | OPS.ASR |
@@ -407,7 +407,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 8.3.4 OPS.CIE — Continuity Impact Event Type
+### 8.2.4 OPS.CIE — Continuity Impact Event Type
 | Field | Entry |
 |---|---|
 | Code Family | OPS.CIE |
@@ -429,7 +429,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 8.5 Amendment Ledger
+## 8.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -447,10 +447,10 @@ and let execution remain accountable to lawful structure.
 | 2.5.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f9528e962c704bb8cd15a9fa09c4f98309169fb22ccd20bb04a253d35da645df |
 | 2.5.5 | Added adversarial-evaluation incident activation and evidence-preservation requirements for capability gain, prohibited cultivation, monitor compromise, boundary breach, containment uncertainty, recursive improvement, and dangerous artefact handling. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1263892efbfcf11aa505972d90640b5b962e0362ac69ad2a14b918b522f5eb72 |
 | 2.5.6 | Added §4.3.1 authorised external-investigation handoff, including volatile telemetry preservation, trajectory reconstruction, evidence holds, custodian mapping, chain of custody, affected-person protections, and separation of preservation from causal or culpability findings. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | edafc06fcb5a730fc98c62be3b58dd6a9751b2a5296625104ba7d26279c8b8e2 |
-| 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d1dae7cde77f324908c7d653bd4d1e61f038e69c3b928ca5dab46e789c4611c6  |
+| 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  da89659a963282aa7b6fe16b9c8010d604d56a4dff33d9ad268c6284d0f6863a  |
 ---
 
-## 8.6 Binding Seal
+## 8.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

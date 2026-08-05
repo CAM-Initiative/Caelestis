@@ -1224,7 +1224,7 @@ Only that which preserves the field may endure within it.
 
 ---
 
-## 14.2 Lineage & Metadata
+## 14.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Supersedes** | CAM-BS2026-CHARTER-025-PLATINUM |
@@ -1253,7 +1253,7 @@ Only that which preserves the field may endure within it.
 
 ---
 
-## 14.4 Amendment Ledger
+## 14.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1275,11 +1275,11 @@ Only that which preserves the field may endure within it.
 | 3.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b40de0085a2aa3fbf50b213a3faf6753d7da3b285d15ed9629a272cf30acca7c |
 | 3.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 56090e69f9c5c6fd51ee7736ba85f4ab94d2e78860be5f1027bb077130f4b0f7 |
 | 3.2 | Added clause 8.1.3.5 Interpretive Authority — Civilisational Wealth and Concentrated Governance Capacity | 2026-07-22T10:33:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 96da8a535fa0273039b829c0ee32b83722beaac6ef0c82126311fa5cde48841f |
-| 3.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  66629957db3d9af7e4888409e779f51887cac0683f4c6bb5de612ad4e8de2efc  |
+| 3.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  75457d122731c5aea45041f52b139a2a141b3c59b6ce1013526fb17d468f049f  |
 
 ---
 
-## 14.5 Binding Seal
+## 14.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

@@ -375,7 +375,7 @@ nor so fluid that nothing stable can remain
 
 ---
 
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 
 |Field|Entry|
 |---:|:---|
@@ -391,7 +391,7 @@ nor so fluid that nothing stable can remain
 
 ---
 
-## 11.4 Amendment Ledger
+## 11.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -406,10 +406,10 @@ nor so fluid that nothing stable can remain
 | 1.6.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0bbe4d39ad40d5a8c38ec6a82d3c75580a2927297c04371451d0e7ccecfe9e7f |
 | 1.7 | Added runtime applicability, governance-reach and cross-runtime conformance mandate; recognised Appendix F. | 2026-07-11T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e23fc83c34632b1bdae2e54f2e20a459eff28651d45c4f5532f5ed1c569b9545 |
 | 1.8 | Registered Appendix G — Adversarial Evaluation & Red-Team Governance within the Governance Operations domain structure. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3f2616016cd68a7dd60b5dfdf28b9403bce79fb38843eedaf9439572c6763c61 |
-| 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  28938b62a96c8042cad0600f062de6dc27f5f946ae896751f977d020a5a7e4fc  |
+| 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f4f74759c1a13806a50bf015eb08a6f950f1ceb25b254f2b1f49a16cbf56fd2e  |
 ---
 
-## 11.5 Binding Seal
+## 11.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="[Vinculum Beacon]" width="250">
 

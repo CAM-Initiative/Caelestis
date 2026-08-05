@@ -293,7 +293,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 6.2 Lineage & Metadata
+## 6.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -320,11 +320,11 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 6.3 Canonical Code & Reference Set Declarations
+## 6.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 6.3.1 OPS.DCL — Domain Coordination Lifecycle Stage
+### 6.2.1 OPS.DCL — Domain Coordination Lifecycle Stage
 | Field | Entry |
 |---|---|
 | Code Family | OPS.DCL |
@@ -346,7 +346,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 6.3.2 OPS.ODC — Operational Divergence Classification
+### 6.2.2 OPS.ODC — Operational Divergence Classification
 | Field | Entry |
 |---|---|
 | Code Family | OPS.ODC |
@@ -368,7 +368,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 6.3.3 OPS.CCO — Convergence Closure Outcome
+### 6.2.3 OPS.CCO — Convergence Closure Outcome
 | Field | Entry |
 |---|---|
 | Code Family | OPS.CCO |
@@ -392,7 +392,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 6.5 Amendment Ledger
+## 6.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -406,10 +406,10 @@ and let execution remain accountable to lawful structure.
 | 2.3.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2e75912d2d1067aa79ccc29f872bee44bf867a571af7d9bc5703cb7a339a6166 |
 | 2.3.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9a60468d963fc6a434de12ee20c2331baa4df15946481f728ecfc057ddd51a7e |
 | 2.3.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d41b2b29eb8ff79b9b8bd738e13f632c533e9838593aa897065926d73be9b1a6 |
-| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ed73f6dcee33f108baf369a1b5c360410034bcb0a92f2b7ec9dee0f03ffd8af8  |
+| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  57155ab08f16e92631cb81580432773203a041761b3481bf9f69862b3bca6569  |
 ---
 
-## 6.6 Binding Seal
+## 6.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

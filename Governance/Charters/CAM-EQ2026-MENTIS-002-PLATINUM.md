@@ -915,7 +915,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-## 55.2 Lineage & Metadata
+## 55.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -957,11 +957,11 @@ And what is most observable is not always what is most true.
 
 ---
 
-### 55.3 Canonical Code & Reference Set Declarations
+### 55.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 55.3.1 `MENTIS.MSI` — Mental-State Inference
+### 55.2.1 `MENTIS.MSI` — Mental-State Inference
 
 | Field | Entry |
 |---|---|
@@ -985,7 +985,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-### 55.3.2 `MENTIS.CBIO` — Cognitive Biometric
+### 55.2.2 `MENTIS.CBIO` — Cognitive Biometric
 
 | Field | Entry |
 |---|---|
@@ -1009,7 +1009,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-### 55.3.3 `MENTIS.ACI` — Ambient Cognitive Inference
+### 55.2.3 `MENTIS.ACI` — Ambient Cognitive Inference
 
 | Field | Entry |
 |---|---|
@@ -1033,7 +1033,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-### 55.3.4 `MENTIS.CFP` — Cognitive Fusion Pathway
+### 55.2.4 `MENTIS.CFP` — Cognitive Fusion Pathway
 
 | Field | Entry |
 |---|---|
@@ -1057,7 +1057,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-### 55.3.5 `MENTIS.CDPR` — Cognitive Data Processing Record
+### 55.2.5 `MENTIS.CDPR` — Cognitive Data Processing Record
 
 | Field | Entry |
 |---|---|
@@ -1081,7 +1081,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-## 55.5 Amendment Ledger
+## 55.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1090,11 +1090,11 @@ And what is most observable is not always what is most true.
 | 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b8034276b3b6ab69fe682df0dbd07e3743d10234513e51111ae4bfd31cf8330a |
 | 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 070fe90324236390da3637475465a824c22727bc7bd72decb181600f0109d99b |
 | 1.2 | Adopted the binding inference and data-governance appendix; added decoder-output classification, inferential expiry, state–trait–identity–diagnosis gates, intended-communication safeguards, revised companion controls, target-object separation, closed-loop review, and current neurotechnology alignment. | 2026-07-19T12:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | add5fa932234a5754ae855e65c59e5612da02661d3c98e7a5636c0a4058bbf67 |
-| 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  434ed4f20a7776b7a55ba21e187ddea8500a4fbd6da9b84d4fdfb07242fc8a63  |
+| 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4c356af240c74b3f63d6ff5b32ebbde673fed4af239a175627a3b812cca6a659  |
 
 ---
 
-## 55.6 Binding Seal
+## 55.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="[Vinculum Beacon]" width="250">
 

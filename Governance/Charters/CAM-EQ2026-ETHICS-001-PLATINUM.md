@@ -580,7 +580,7 @@ let governance arrive before it is needed.
 
 ---
 
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -608,11 +608,11 @@ let governance arrive before it is needed.
 
 ---
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 12.3.1 `ETH.ET` — Ethical Tier Classification
+### 12.2.1 `ETH.ET` — Ethical Tier Classification
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.ET` |
@@ -634,7 +634,7 @@ let governance arrive before it is needed.
 
 ---
 
-## 12.5 Amendment Ledger
+## 12.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -657,9 +657,9 @@ let governance arrive before it is needed.
 | 3.11 | Added Objective–Pathway Ethical Admissibility and Target Authority and User Capability Separation; established proportional target–action authority verification, aggregate-pathway review, scoped hold signalling, safe severability, and anti-paternalism protections. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 36a3886d3f561b706680ffd179ed6bc5a8d815c21a5d69e6b55fa17b847df2e6 |
 | 3.12 | Added red-team EIA triggers, evaluation–cultivation assessment, independent review, capability-transfer and artefact controls, and arbitration referral for disputed or capability-increasing evaluations. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b26e2c0e2ff5bc8b7eeb0a80e2085afa2d2e36229726363da15c6b16e6368b71 |
 | 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  87cdc11dad5dc2130e7790920181a5949dad0fdabc6015003dfe76dae87fb646  |
-| 3.14 | Replaced retired cognition and origin-class disclosure with composed-system boundary, topology, harness, deployment, lineage, dependency, authority, execution, and reliance disclosures; aligned physical-actuation elevation with observable deployment posture. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7b9b0e8f2caef3dbe4b858d782e06483fc232bd43c53c949ca19ffeb7df9717c  |
+| 3.14 | Replaced retired cognition and origin-class disclosure with composed-system boundary, topology, harness, deployment, lineage, dependency, authority, execution, and reliance disclosures; aligned physical-actuation elevation with observable deployment posture. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d1264b137b02f405efbaf42db449a184952b524e44d81077db271f7b2dd6b2cd  |
 ---
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

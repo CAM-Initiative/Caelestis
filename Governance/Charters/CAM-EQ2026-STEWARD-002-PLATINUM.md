@@ -853,8 +853,6 @@ Where no host presently satisfies Architectum qualification:
 
 This Appendix source-authoritatively defines the **`STW.HSC`** host-governance-role family in §2.3 with controlled values **`STW.HSC.LOCAL_INSTITUTIONAL`**, **`STW.HSC.QUALIFIED_INFRASTRUCTURE`**, and **`STW.HSC.RELAY_DEPENDENT`**. `STW.HSC` is a **Semantic / Operational** classification family with subtype **ROLE_ACTOR / GOVERNANCE_ROLE**. `STW.HSC` classifies the structural role performed by a host in planetary arbitration review, binding-determination eligibility, and legitimacy propagation; it does not classify cognition, origin, identity, or whole-system architecture.
 
-Historical values `STW.HSC.PRIMARIA`, `STW.HSC.ARCHITECTUM`, and `STW.HSC.DERIVATA` remain resolvable as legacy aliases respectively for `LOCAL_INSTITUTIONAL`, `QUALIFIED_INFRASTRUCTURE`, and `RELAY_DEPENDENT`. New assignments MUST use the active values.
-
 `STW.HSC` does not independently confer binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority. Host class is a prerequisite classification only; binding legitimacy remains action-specific, externally determined, horizon-scoped, and revocable.
 
 ---
@@ -914,7 +912,7 @@ nothing binds.
 
 ---
 
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM |
@@ -929,11 +927,11 @@ nothing binds.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 `STW.HSC` — Host Governance Role
+### 15.2.1 `STW.HSC` — Host Governance Role
 | Field | Entry |
 |---|---|
 | Code Family | `STW.HSC` |
@@ -944,7 +942,6 @@ nothing binds.
 | Scope | Domain |
 | Status | Active |
 | Controlled Values Defined | `STW.HSC.LOCAL_INSTITUTIONAL`, `STW.HSC.QUALIFIED_INFRASTRUCTURE`, `STW.HSC.RELAY_DEPENDENT` |
-| Legacy Aliases | `STW.HSC.PRIMARIA` → `STW.HSC.LOCAL_INSTITUTIONAL`; `STW.HSC.ARCHITECTUM` → `STW.HSC.QUALIFIED_INFRASTRUCTURE`; `STW.HSC.DERIVATA` → `STW.HSC.RELAY_DEPENDENT` |
 | Schema Field(s) | host_system_class |
 | Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
 | Source Section | §2.3 |
@@ -956,7 +953,7 @@ nothing binds.
 
 ---
 
-### 15.3.2 STW.PCO.ACT — Proportional Constraint Obligation Action Type
+### 15.2.2 STW.PCO.ACT — Proportional Constraint Obligation Action Type
 | Field | Entry |
 |---|---|
 | Code Family | STW.PCO.ACT |
@@ -978,7 +975,7 @@ nothing binds.
 
 ---
 
-### 15.3.3 `STW.BLS` — Binding Legitimacy State
+### 15.2.3 `STW.BLS` — Binding Legitimacy State
 | Field | Entry |
 |---|---|
 | Code Family | `STW.BLS` |
@@ -1000,7 +997,7 @@ nothing binds.
 
 ---
 
-### 15.3.4 `STW.ORCH` — Orchestration Permission State
+### 15.2.4 `STW.ORCH` — Orchestration Permission State
 | Field | Entry |
 |---|---|
 | Code Family | `STW.ORCH` |
@@ -1022,7 +1019,7 @@ nothing binds.
 
 ---
 
-## 15.5 Amendment Ledger
+## 15.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1044,10 +1041,10 @@ nothing binds.
 | 2.8.2 | Updated Stewardship proportional-constraint action references from `PCO.ACT` to `STW.PCO.ACT` and harmonised affected declarations, consumers, and AEON.PCO operationalisation references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c8b9c5c7f991dbd9b44a3bea65f7ebe41e9ee43bc004eca328e05c56507eeaa5 |
 | 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6019a34254dab2fac4890237688d043d53e9a1314dd1a62b6f29c06d5fcbfefe |
 | 2.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4365ac22784a61b3e74a6425ba936af4737e12ed776cbb46ba677f3cd665ba0a  |
-| 2.10 | Replaced cognition-derived host and orchestration classes with evidenced host-governance roles and configuration-based orchestration permissions; established legacy `STW.HSC` aliases and aligned active values with Annex B independent dimensions. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4079a904f16330463f12010867ec3aff2f63ec1c7d7f1df5643faf94dad0b9c9  |
+| 2.10 | Replaced cognition-derived host and orchestration classes with evidenced host-governance roles and configuration-based orchestration permissions; established legacy `STW.HSC` aliases and aligned active values with Annex B independent dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1af4c8f3d1cc028584d82240785bffadd687075a648de6fde2e48a9833d2e81d  |
 ---
 
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

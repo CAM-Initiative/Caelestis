@@ -638,7 +638,7 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -669,11 +669,11 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 `AEON.GSP` — Governance Signal Persistence State
+### 11.2.1 `AEON.GSP` — Governance Signal Persistence State
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GSP` |
@@ -695,7 +695,7 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-### 11.3.2 AEON.GLS — Governance Lifecycle State
+### 11.2.2 AEON.GLS — Governance Lifecycle State
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GLS` |
@@ -718,7 +718,7 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-### 11.3.3 AEON.GOL — Governance Observability Localisation Class
+### 11.2.3 AEON.GOL — Governance Observability Localisation Class
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GOL` |
@@ -740,7 +740,7 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-### 11.3.4 AEON.GAS — Governance Advisory State
+### 11.2.4 AEON.GAS — Governance Advisory State
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GAS` |
@@ -762,7 +762,7 @@ It is the discipline of noticing before repair is too late.
 
 ---
 
-## 11.5 Amendment Ledger
+## 11.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -771,10 +771,10 @@ It is the discipline of noticing before repair is too late.
 | 1.2 | Amendmend metadata header | 2026-06-05T17:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | da024e4971f038b6d875d8d629fab3f85dc159a0caf960f6db1e402957e497b2 |
 | 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2402cc659fbd6a6e4fcbdfff8d55a4fe7e5884763346075bfd9a43c1294a482d |
 | 1.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d9a521489806c86f13d9d17fa7fe9ed2c07c022f3b845defabbe65c736267a7f |
-| 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f0bd885c504e249dd4f9e603a7a721da58f15b29ddb5c733ee20e8293b11fb51  |
+| 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ea55f68776757fcc537cf1fcb4a6d948a129aa3eb8197a525113b1a5aa279674  |
 ---
 
-## 11.6 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

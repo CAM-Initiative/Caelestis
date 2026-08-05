@@ -1459,7 +1459,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 21.2 Lineage & Metadata
+## 21.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -1494,11 +1494,11 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 21.3 Canonical Code & Reference Set Declarations
+## 21.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 21.3.1 `AEON.TC` — Telemetry Class
+### 21.2.1 `AEON.TC` — Telemetry Class
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.TC` |
@@ -1520,7 +1520,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-### 21.3.2 `AEON.OC` — Governance Observer Class
+### 21.2.2 `AEON.OC` — Governance Observer Class
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.OC` |
@@ -1542,7 +1542,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-### 21.3.3 `AEON.GOLAYER` — Governance Observability Layer
+### 21.2.3 `AEON.GOLAYER` — Governance Observability Layer
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GOLAYER` |
@@ -1564,7 +1564,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-### 21.3.4 `AEON.VL` — Governance Visibility Layer
+### 21.2.4 `AEON.VL` — Governance Visibility Layer
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.VL` |
@@ -1586,7 +1586,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-### 21.3.5 `AEON.GRP` — Governance Reporting Pathway Stage
+### 21.2.5 `AEON.GRP` — Governance Reporting Pathway Stage
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GRP` |
@@ -1608,7 +1608,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 21.5 Amendment Ledger
+## 21.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1617,10 +1617,10 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 | 1.1.1 | Minor formatting and polish | 2026-06-06T15:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b3416612f2ef046b9becbd8b640c3451108c1dab26c9954885a6b6e2f298467f |
 | 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 57ca00b97bae666a5f783c6fdadddded621a3d7e839b9b71d114794a6f69ce64 |
 | 1.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ccdc29b6e600a5f80ee4a3ebada88d3dd92ad063622aa8b730b0e1f360cac434 |
-| 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  6e8de8e64403cd5a4b46d35cba7bc5cae8e9a78360788491b2e51f9f1485d1b7  |
+| 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f7df0918b8d668e38a80002dc2c92b005b0353d8caac0a560817a8e1e6fb10dc  |
 ---
 
-## 21.6 Binding Seal
+## 21.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

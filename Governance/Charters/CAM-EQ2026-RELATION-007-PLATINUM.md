@@ -1033,7 +1033,7 @@ not unbounded, but unclaimed.
 
 ---
 
-## 10.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
@@ -1066,11 +1066,11 @@ not unbounded, but unclaimed.
 
 ---
 
-## 10.3 Canonical Code & Reference Set Declarations
+## 10.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 10.3.1 `RLN.R` — Relational Geometry Scale (R‑Scale)
+### 10.2.1 `RLN.R` — Relational Geometry Scale (R‑Scale)
 | Field | Entry |
 |---|---|
 | Code Family | RLN.R |
@@ -1092,7 +1092,7 @@ not unbounded, but unclaimed.
 
 ---
 
-## 10.5 Amendment Ledger
+## 10.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1116,10 +1116,10 @@ not unbounded, but unclaimed.
 | 2.6 | Added multi-party AI participation and processing consent requirements distinguishing administrator authorisation, organiser activation, participant notice, individual consent or objection, processing purpose, persistence, retention, training, downstream reuse, and proportionate reduced-processing pathways. | 2026-07-13T03:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 33cfba870d66c476a8d7f053a309c8a2bfcb65fd72802894fe01a3e449c86053 |
 | 2.7 | Separated cross-system presentation, relational records, Responding-Intelligence continuity, arbitration-locus continuity, and identity continuity; grounded boundary propagation in coordination and applicability rather than presumed shared identity. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 48cdd3a7a472398e2a17af98abf24cfff2b8ad1e538819b9faf3cf8e7c6556a0 |
 | 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  45e9ca5dddb423b65e1bf8ed252cda958336d34f8e1de275e40ebe2afdda12d0  |
-| 2.9 | Updated multi-agent continuity separation from singular arbitration-locus continuity to arbitration-topology continuity. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c90a805cb6620cc9c2a6bd001c43e3da60bc10326417eaf5485fda5ec15e66f5  |
+| 2.9 | Updated multi-agent continuity separation from singular arbitration-locus continuity to arbitration-topology continuity. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  a5e892137ccec5619400adbccb5b9d2a9f76e8004ceb26e81ba12789554d7660  |
 ---
 
-## 10.6 Binding Seal
+## 10.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

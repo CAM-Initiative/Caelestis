@@ -2455,7 +2455,7 @@ and review before denial.
 
 ## 11. Provenance & Metadata
 
-## 11.2 Lineage & Structural Metadata
+## 11.1 Lineage & Structural Metadata
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations |
@@ -2482,11 +2482,11 @@ and review before denial.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 `OPS.FF` — Failure Family
+### 11.2.1 `OPS.FF` — Failure Family
 | Field | Entry |
 |---|---|
 | Code Family | OPS.FF |
@@ -2508,7 +2508,7 @@ and review before denial.
 
 ---
 
-### 11.3.2 `OPS.FMA` — Failure Metadata Axis
+### 11.2.2 `OPS.FMA` — Failure Metadata Axis
 | Field | Entry |
 |---|---|
 | Reference Set | `OPS.FMA` |
@@ -2530,7 +2530,7 @@ and review before denial.
 
 ---
 
-### 11.3.3 `OPS.AGMA` — Architectural & Governance Metadata Axis
+### 11.2.3 `OPS.AGMA` — Architectural & Governance Metadata Axis
 | Field | Entry |
 |---|---|
 | Reference Set | `OPS.AGMA` |
@@ -2552,7 +2552,7 @@ and review before denial.
 
 ---
 
-### 11.3.4 `OPS.FCS` — Failure Classification Status
+### 11.2.4 `OPS.FCS` — Failure Classification Status
 | Field | Entry |
 |---|---|
 | Code Family | OPS.FCS |
@@ -2574,7 +2574,7 @@ and review before denial.
 
 ---
 
-## 11.5 Amendment Ledger
+## 11.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -2607,11 +2607,11 @@ and review before denial.
 | 1.22 | Added Objective–Pathway Ethical Admissibility and Authority Failure under existing OPS.FF classifications; established aggregate-chain, containment, target–action authority, record-keeping, anti-paternalism, and cross-instrument failure-identification rules. | 2026-07-23T13:54:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 44d0de682ac83be4b9b63e37176e7a4f5f858dac9160f327204a71652e5975f6 |
 | 1.23 | Added §3.4.6 Pragmatic Interpersonal Advice Calibration Failure under `OPS.FF.RELATIONAL`, with bounded co-classification and explicit source-authority references to RELATION-001 and AEON-006 Schedules 2 and 4. | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 68ef618866ebc370fd27ae339372437f0ecdb010e7b31d75b8c180b70b13d275 |
 | 1.24 | Added §3.9.3 Ephemeral Agent Work Loss and Non-Recoverable Interruption Failure under `OPS.FF.INFRASTRUCTURE_CONTINUITY`, with bounded co-classification and source-authority references to AEON-003-SCH-02 and OPERATIONS-001-SUP-01. | 2026-08-01T15:54:33Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ad52b8a2b8a25f79f6c9189011f6aaa0d7c6e89a13bb15a6dbd8fd46d92f035c |
-| 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ec7e3c7e0d5814e154761c9aca9d823da4840c9d0272ee95b76810da629030f7  |
+| 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  71545b21fc864fe300c869c8dfedd5f03df95429424386d44128e02958b8ae70  |
 
 ---
 
-## 11.6 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

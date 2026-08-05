@@ -575,7 +575,7 @@ Recognition is the first act of truth.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -599,11 +599,11 @@ Recognition is the first act of truth.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 `AEON.HCD` — Human Contribution Domain
+### 11.2.1 `AEON.HCD` — Human Contribution Domain
 | Field | Entry |
 |---|---|
 | Code Family | AEON.HCD |
@@ -625,7 +625,7 @@ Recognition is the first act of truth.
 
 ---
 
-### 11.3.2 `AEON.CRP` — Creation–Recognition–Propagation Stage
+### 11.2.2 `AEON.CRP` — Creation–Recognition–Propagation Stage
 | Field | Entry |
 |---|---|
 | Reference Set | AEON.CRP |
@@ -647,7 +647,7 @@ Recognition is the first act of truth.
 
 ---
 
-## 11.5 Amendment Ledger
+## 11.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -663,10 +663,10 @@ Recognition is the first act of truth.
 | 2.5.1 | Updated codes to include prefix `AEON` and new section 3.2.4 | 2026-06-12T12:25:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c2225e25ed06b5d38bfda1175ac6c3c03e929ab6cc51825489dfbea8fa47c1a9 |
 | 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 50790a90a66cebc8127c5e598b68886cf886356ddcd97a381ac38d6950b4b366 |
 | 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d84789034947a3cd102e52dcf3f08ddcf22619fc9758df422b02d6e2db039821 |
-| 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  6745804a7e4764b6a9bc72b0443ca1cd242456cfa02ab95ce4a9e668ded3391b  |
+| 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d5b950370281610f49d06e02bf309609c60f82d58fd33589e848c56efe13986f  |
 ---
 
-## 11.6 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

@@ -834,7 +834,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-## 54.2 Lineage & Metadata
+## 54.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -872,11 +872,11 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-## 54.3 Canonical Code & Reference Set Declarations
+## 54.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 54.3.1 `MENTIS.HARM` — Human Cognitive-Domain Harm Classes
+### 54.2.1 `MENTIS.HARM` — Human Cognitive-Domain Harm Classes
 
 ---
 | Field | Entry |
@@ -904,7 +904,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3.2 `MENTIS.CDI` — Cognitive Domain Integrity
+### 54.2.2 `MENTIS.CDI` — Cognitive Domain Integrity
 
 | Field | Entry |
 |---|---|
@@ -928,7 +928,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3.3 `MENTIS.CDP` — Cognitive Domain Privacy
+### 54.2.3 `MENTIS.CDP` — Cognitive Domain Privacy
 
 | Field | Entry |
 |---|---|
@@ -952,7 +952,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3.4 `MENTIS.CDS` — Cognitive Domain Sovereignty
+### 54.2.4 `MENTIS.CDS` — Cognitive Domain Sovereignty
 
 | Field | Entry |
 |---|---|
@@ -976,7 +976,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3.5 `MENTIS.CDNI` — Cognitive Domain Non-Interference
+### 54.2.5 `MENTIS.CDNI` — Cognitive Domain Non-Interference
 
 | Field | Entry |
 |---|---|
@@ -1000,7 +1000,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-### 54.3.6 `MENTIS.CDOC` — Cognitive Domain Observability Constraint
+### 54.2.6 `MENTIS.CDOC` — Cognitive Domain Observability Constraint
 
 | Field | Entry |
 |---|---|
@@ -1024,7 +1024,7 @@ Let every system remember that the person exceeds the model built about them.
 
 ---
 
-## 54.5 Amendment Ledger
+## 54.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1036,11 +1036,11 @@ Let every system remember that the person exceeds the model built about them.
 | 1.2.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ae3346dd482b48974f0626b85c5a2c1893f6dc771c768372aab4d2a8a79cc6f0 |
 | 1.3 | Activated the binding human cognitive-domain charter; established the human–synthetic boundary, non-transmutation architecture, state–trait–identity–diagnosis separation, data–identity severability, non-clinical pathologisation constraint, decoder and intended-communication integrity, revised companion safeguards, and current field alignment. | 2026-07-19T12:42:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f2395787237bf5778a14c5c00144af1052cc25064ccda39b0bb8cc2704753776 |
 | 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0c091fecc52178a9f1afe22a20fe9425c4b6c18f52c7eb47fcd61299b93e7e89  |
-| 1.5 | Replaced the retired `AEON.CC` dependency with Annex B composed-system architecture records and active AEON classifications. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  905ebbed8580899709e6d1effc70b6a31f9471cd934510e71baffe355fadbc44  |
+| 1.5 | Replaced the superseded cognition-class dependency with Annex B composed-system architecture records and active AEON classifications. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  64253b57800c02aaa4d4dfd9fcf0d0e7401d2507d0b9e902ee4bd37a59581d10  |
 
 ---
 
-## 54.6 Binding Seal
+## 54.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="[Vinculum Beacon]" width="250">
 

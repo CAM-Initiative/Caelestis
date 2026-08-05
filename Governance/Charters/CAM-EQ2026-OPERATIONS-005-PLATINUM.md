@@ -380,7 +380,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 6.2 Lineage & Metadata
+## 6.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -407,9 +407,9 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 6.3 Canonical Code & Reference Set Declarations
+## 6.2 Canonical Code & Reference Set Declarations
 
-### 6.3.1 AMEND.SOURCE — Amendment Source Type
+### 6.2.1 AMEND.SOURCE — Amendment Source Type
 | Field | Entry |
 |---|---|
 | Code Family | AMEND.SOURCE |
@@ -431,7 +431,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 6.3.2 AMEND.CLASS — Amendment Classification
+### 6.2.2 AMEND.CLASS — Amendment Classification
 | Field | Entry |
 |---|---|
 | Code Family | AMEND.CLASS |
@@ -453,7 +453,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 6.3.3 AMEND.DRIFT — Governance Drift Type
+### 6.2.3 AMEND.DRIFT — Governance Drift Type
 | Field | Entry |
 |---|---|
 | Code Family | AMEND.DRIFT |
@@ -475,7 +475,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 6.3.4 AMEND.REL — Harmonisation Relationship Type
+### 6.2.4 AMEND.REL — Harmonisation Relationship Type
 | Field | Entry |
 |---|---|
 | Code Family | AMEND.REL |
@@ -497,7 +497,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-### 6.3.5 AMEND.OUTCOME — Amendment Closure Outcome
+### 6.2.5 AMEND.OUTCOME — Amendment Closure Outcome
 | Field | Entry |
 |---|---|
 | Code Family | AMEND.OUTCOME |
@@ -519,7 +519,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 6.5 Amendment Ledger
+## 6.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -532,10 +532,10 @@ and let execution remain accountable to lawful structure.
 | 2.3 | Completed pre-enforcement review metadata alignment and normalised amendment ledger hash formatting. | 2026-06-01T14:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 05591d918621b319d1a8c30e2d0bac883cac6404d7b9b93ed89c8b2d59059806 |
 | 2.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4e1c398edf3426215829223b3622f9c40caa06f55b9818339c623ac4bc5baf14 |
 | 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 438b92ff451bfe345bff489cc569a0e8dc176ce7d61375de279a8fe046c804eb |
-| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  85933ac07a13ba0e731fb44f85845382fa0d766b787e1d9377502f5d00e47aa8  |
+| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ab49aedbdf7cb7cb223678eeb86118ba58229127db8563888da523164ee535cf  |
 ---
 
-## 6.6 Binding Seal
+## 6.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

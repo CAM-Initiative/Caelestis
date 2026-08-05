@@ -914,7 +914,7 @@ So the human origin remains in view.
 
 ---
 
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 | Field | Entry |
 |---:|---|
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution — https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md |
@@ -936,11 +936,11 @@ So the human origin remains in view.
 
 ---
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 12.3.1 `ID.DC` — Deployment Class
+### 12.2.1 `ID.DC` — Deployment Class
 | Field | Entry |
 |---|---|
 | Code Family | ID.DC |
@@ -962,7 +962,7 @@ So the human origin remains in view.
 
 ---
 
-### 12.3.2 `ID.SREF` — Self-Referential State Ladder
+### 12.2.2 `ID.SREF` — Self-Referential State Ladder
 | Field | Entry |
 |---|---|
 | Code Family | ID.SREF |
@@ -984,7 +984,7 @@ So the human origin remains in view.
 
 ---
 
-## 12.5 Amendment Ledger
+## 12.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1013,10 +1013,10 @@ So the human origin remains in view.
 | 1.17 | Added ontological self-claim containment, self-certification prohibition, uncertainty-preservation rule, and heightened voice/embodiment calibration. | 2026-07-18T14:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
 | 1.18 | Clarified ID.DC as a legacy infrastructure and capability namespace pending dedicated migration; prohibited interpretation as an Identity-domain or identity-status classification family. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | edb94405010a96d38fc2aa50aaed6217c4700e6dce11cc7f72748664cc003f09 |
 | 1.19 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b788ed28c78e630dec882eddf42546f701976dbb21f3eaf2b89886e1fef2a8e3  |
-| 1.20 | Replaced the retired cognitive-class non-equivalence reference with composed-system architectural dimensions. | 2026-08-04T15:12:23Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3c1b22e1370f22e605fe6fcc44b1155dc12bd6b813125edd9907ba3d20b2b3e7  |
+| 1.20 | Replaced the retired cognitive-class non-equivalence reference with composed-system architectural dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  6ca9ad9f6f663e0145cf10e3072b1c71a86643054ef9804f1e32d3840e5c6c8e  |
 ---
 
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

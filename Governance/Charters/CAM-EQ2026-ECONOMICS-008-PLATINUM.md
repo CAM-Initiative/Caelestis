@@ -584,7 +584,7 @@ Automation legitimacy SHALL increasingly depend not only upon productivity gains
 
 ### 7.1 ECON.AL — Automation Labour Classification
 
-The automation-labour classification family defined by this Appendix is `ECON.AL`. The controlled values defined in §8.3.2.
+The automation-labour classification family defined by this Appendix is `ECON.AL`. The controlled values are defined in §8.2.2.
 
 `ECON.AL` is a **Semantic / Operational** classification family with subtype **LABOUR_SUBSTITUTION_LEVEL / AUTOMATION_CLASSIFICATION**. ECON.AL classifies synthetic labour, automation, augmentation, replacement, and autonomous production systems according to their displacement, dependency, continuity, authority, and concentration effects.
 
@@ -596,7 +596,7 @@ For taxonomy integrity, local references to `ECON.AL-1` through `ECON.AL-5` SHAL
 
 ### 7.2 ECON.ATS — Automation Transition Signal
 
-This Appendix defines the `ECON.ATS` automation-transition-signal reference set in §§2–§4 with controlled values defined in §8.3.2.
+This Appendix defines the `ECON.ATS` automation-transition-signal reference set in §§2–§4 with controlled values defined in §8.2.2.
 
 `ECON.ATS` is an **Operational / Structural** reference set with subtype **SIGNAL / SCHEMA**. ECON.ATS classifies transition-relevant signals emitted where automation or synthetic labour materially affects labour participation, public revenue, workforce continuity, infrastructure stability, concentration risk, or classification integrity.
 
@@ -606,7 +606,7 @@ This Appendix defines the `ECON.ATS` automation-transition-signal reference set 
 
 ### 7.3 ECON.ARCP — Automation Revenue Continuity Pathway
 
-This Appendix defines the `ECON.ARCP` automation-revenue-continuity-pathway reference set in §3 with controlled values defined in §8.3.3.
+This Appendix defines the `ECON.ARCP` automation-revenue-continuity-pathway reference set in §3 with controlled values defined in §8.2.3.
 
 `ECON.ARCP` is an **Operational / Economic** reference set with subtype **TRANSITION_PATHWAY / PUBLIC_REVENUE_CONTINUITY_MECHANISM**. ECON.ARCP records non-prescriptive pathway types that jurisdictions or institutions may consider where synthetic labour materially replaces human labour capacity.
 
@@ -654,7 +654,7 @@ so that power expands no faster than responsibility.
 
 ---
 
-## 8.2 Lineage & Metadata
+## 8.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -683,9 +683,9 @@ so that power expands no faster than responsibility.
 
 ---
 
-## 8.3 Canonical Code & Reference Set Declarations
+## 8.2 Canonical Code & Reference Set Declarations
 
-### 8.3.1 ECON.AL — Automation Labour Classification
+### 8.2.1 ECON.AL — Automation Labour Classification
 
 |Field|Entry|
 |---|---|
@@ -709,7 +709,7 @@ so that power expands no faster than responsibility.
 
 ---
 
-### 8.3.2 ECON.ATS — Automation Transition Signal
+### 8.2.2 ECON.ATS — Automation Transition Signal
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.ATS |
@@ -731,7 +731,7 @@ so that power expands no faster than responsibility.
 
 ---
 
-### 8.3.3 ECON.ARCP — Automation Revenue Continuity Pathway
+### 8.2.3 ECON.ARCP — Automation Revenue Continuity Pathway
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.ARCP |
@@ -753,7 +753,7 @@ so that power expands no faster than responsibility.
 
 ---
 
-## 8.5 Amendment Ledger
+## 8.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -761,10 +761,10 @@ so that power expands no faster than responsibility.
 | 1.1 | Repaired canonical code declaration table metadata for parser compatibility; no substantive doctrine altered. | 2026-05-27T11:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3f00cfe370cd375a98a89e1b3b9fe2e6def352532c11df3afc69c0054f6b48e3 |
 | 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 578265879f5e0ee657e760f1a8bff1337026315fec7b8c2085600697204b28ea |
 | 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4d5b862d3404cc6a1b4b2c3ec1b0eec54132e1d4ebca55fff1f818cf32e24627 |
-| 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0b69058d7fbb9ce529c7372c2e1da3c276ec973ff5d363130e80c1ba9c13e485  |
+| 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2d165882ca877bede4964ab31f684fdba502f1dd21639e0622561897cc55372e  |
 ---
 
-## 8.6 Binding Seal
+## 8.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

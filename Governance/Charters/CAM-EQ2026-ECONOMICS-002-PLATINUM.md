@@ -351,7 +351,7 @@ but to ensure that what is made remains accountable to its source.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | Parent Instrument | CAM-EQ2026-ECONOMICS-001-PLATINUM |
@@ -383,11 +383,11 @@ but to ensure that what is made remains accountable to its source.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 ECON.AG — Agency Gradient Classification
+### 11.2.1 ECON.AG — Agency Gradient Classification
 | Field | Entry |
 |---|---|
 | Code Family | ECON.AG |
@@ -409,7 +409,7 @@ but to ensure that what is made remains accountable to its source.
 
 ---
 
-### 11.3.2 ECON.EVT — Economic Value Type
+### 11.2.2 ECON.EVT — Economic Value Type
 | Field | Entry |
 |---|---|
 | Code Family | ECON.EVT |
@@ -431,7 +431,7 @@ but to ensure that what is made remains accountable to its source.
 
 ---
 
-### 11.3.3 ECON.SPS — Synthetic Participation Signal Type
+### 11.2.3 ECON.SPS — Synthetic Participation Signal Type
 | Field | Entry |
 |---|---|
 | Reference Set | ECON.SPS |
@@ -453,7 +453,7 @@ but to ensure that what is made remains accountable to its source.
 
 ---
 
-## 11.5 Amendment Ledger
+## 11.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -471,10 +471,10 @@ but to ensure that what is made remains accountable to its source.
 | 2.10 | Included Autonomous agent definition | 2025-05-25T12:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f4b8e935601845e3b4b82a6ce80e046f91c135593e687465eb9dd28e27ede38b |
 | 2.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1092caeec10baa3fcf8b69dd3fe3a2861f29606ab080607b09f184745a3cb75c |
 | 2.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b6245317dec1bc7b280e59563111b8bc0d4c535a151fe83046ba84673edf4bc6 |
-| 2.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  5cb475c8b808a88d87b3ae1a7c94a0b616e774f5a158c7b39d840340ea0bb892  |
+| 2.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7cf3b43875b5a4a2ee4e6b1142a4c6a6e99b0139fb97fa0d5d5d81ffaf944c32  |
 ---
 
-## 11.6 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

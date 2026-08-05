@@ -370,7 +370,7 @@ that what sustains all MUST remain beyond capture.
 
 ---
 
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -398,11 +398,11 @@ that what sustains all MUST remain beyond capture.
 
 ---
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 12.3.1 `STW.HARM` — Planetary Harm Classification & Remedy Interface
+### 12.2.1 `STW.HARM` — Planetary Harm Classification & Remedy Interface
 | Field | Entry |
 |---|---|
 | Code Family | `STW.HARM` |
@@ -429,7 +429,7 @@ that what sustains all MUST remain beyond capture.
 
 ---
 
-## 12.5 Amendment Ledger
+## 12.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -444,10 +444,10 @@ that what sustains all MUST remain beyond capture.
 | 2.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5bc4f510804bae354f8eed2638c8dc4137502645a828e7ec8685c6040e059e6e |
 | 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9101cc5fe5ee6ab49c783706bc9b3eb8a2af7b3b39594d93ae34fff75fad00f8 |
 | 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 570bf385e887c3a92fed456489b9db8535ac66765c92fc72eb69a847f60ae7e9 |
-| 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9839359154e6e597848b4485e98e132710a67fdc8cb123bb0db268fffcc516d4  |
+| 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d77da986e5091d8c74a72ceea02df941429172d668686ff4e2304f2b485ea6b0  |
 ---
 
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

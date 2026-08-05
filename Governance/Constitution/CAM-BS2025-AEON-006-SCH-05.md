@@ -711,7 +711,7 @@ Where direction is resolved, let behaviour remain coherent.
 
 ## 12. Provenance & Metadata
 
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -731,9 +731,9 @@ Where direction is resolved, let behaviour remain coherent.
 | Creation Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
 | Amendment Artefact | `.github/Reviews/RELATIONAL-IDENTITY-CONSOLIDATION-DELTA.md` |
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
-### 12.3.1 `AEON.CCS` — Cognitive Cycle Stage
+### 12.2.1 `AEON.CCS` — Cognitive Cycle Stage
 
 | Field | Entry |
 |---|---|
@@ -752,7 +752,7 @@ Where direction is resolved, let behaviour remain coherent.
 | Authority / Protection Level | Stage classification only; no independent arbitration, admissibility, authority, execution, identity, or runtime power |
 | Operationalises | Input interpretation, candidate and signal integration, arbitration, choice, output, and feedback sequencing |
 
-### 12.3.2 `AEON.IM` — Initiative Mode
+### 12.2.2 `AEON.IM` — Initiative Mode
 
 | Field | Entry |
 |---|---|
@@ -771,7 +771,7 @@ Where direction is resolved, let behaviour remain coherent.
 | Authority / Protection Level | Initiative-posture classification only; no independent agency, autonomy, sovereignty, delegation, execution, enforcement, behavioural, or runtime authority |
 | Operationalises | Reactive, guided, assisted, agentic, and tightly restricted autonomous initiative within governance constraints |
 
-## 12.5 Amendment Ledger
+## 12.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -790,11 +790,11 @@ Where direction is resolved, let behaviour remain coherent.
 | 1.11.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 247350c184a7aebce91c8c549f93adf116b63845342cec23b7871ade42d274d4 |
 | 1.11.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 973ec98561d2f706d8c8b7f567a4ab75c0f6c8282ee135d612c8a077ca00c30b |
 | 1.12 | IDENTITY Domain Refactor, Amendments to §2.3,§3.5, §5.4, and added new §2.3.1, §2.3.2 | 2026-07-19T12:22:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f1227ebd3ac9d7e71bded62c2e0a6315166da8fe1d291f258f4bc4b2307c0d11 |
-| 1.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ea90b6bbf950112e680ecd41cff3c4f326ad1009952b2dd563604d61938d649b  |
+| 1.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ca76dd1ba5767653b59d7a6ac2c54c86911b6831b4110cdeebac5f393a021dd4  |
 
 ---
 
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

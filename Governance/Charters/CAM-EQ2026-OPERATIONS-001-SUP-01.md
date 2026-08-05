@@ -476,7 +476,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 11.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -501,11 +501,11 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 10.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 OPS.ONC — Operational Notice Class
+### 10.2.1 OPS.ONC — Operational Notice Class
 | Field | Entry |
 |---|---|
 | Code Family | OPS.ONC |
@@ -527,7 +527,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 11.5 Amendment Ledger
+## 10.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -545,10 +545,10 @@ and let execution remain accountable to lawful structure.
 | 1.8.3 | Added adversarial-evaluation authorisation, lineage, containment, monitoring, stop-decision, capability-gain, audit-trigger, quarantine, publication, transfer, and artefact-disposition record requirements. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 32632ab4ab4ee23cbacc167997ea0b0e766cef7d7802c78b832cf36432c15d0e |
 | 1.9 | Added §6.2.1 checkpoint, pause, resumable-state, recoverability, delivery-posture, and manual-recovery record requirements for long-running or materially consequential agent tasks. | 2026-08-01T15:54:33Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4bd4b26f0d9db6f25176e954b3442241bbd87fadb411c83ea4e1ee11ddbeabb9 |
 | 1.10 | Added §6.3.1 external-investigation evidence-access records, including authority and scope, evidence holds, telemetry and trajectory preservation, custodianship, controlled inspection, redaction and withholding review, chain of custody, affected-person rights, disposition, and attribution-state separation. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ed752814556b15ef59b322009402f175704ee35be99ee8b57c98e5e0477264d3 |
-| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b53647650127c3ea4883e5257eeaed28ef1e30b03acd4d399a54cad756069fd3  |
+| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b175e4c809b0fb63639beb1d89649855898281d93ef8a0fcea6efc40237e5239  |
 ---
 
-## 11.6 Binding Seal
+## 10.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

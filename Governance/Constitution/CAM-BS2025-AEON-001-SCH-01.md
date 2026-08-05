@@ -731,7 +731,7 @@ and the system remember what it is.
 
 ---
 
-## 12.2. Lineage & Metadata
+## 12.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | Parent Instrument | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -761,7 +761,7 @@ and the system remember what it is.
 
 ---
 
-## 12.4. Amendment Ledger
+## 12.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -783,10 +783,10 @@ and the system remember what it is.
 | 1.13.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 20432429c197fdc1d7086eb3050e182818160e4c436ad1d73813ca67dce3c390 |
 | 1.14 | Expanded governed pause interaction and safely severable continuation; repaired multi-domain signal intake, target–action review-authority declaration, proportional verification, and partial-path restoration constraints. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0643229f4307d24420995a6018aca3fed4236cb5c046790b05dd8053c004990f |
 | 1.15 | Added Tendeka pre-trigger and pause signals for prohibited cultivation, capability gain, monitor compromise, state mutation, boundary breach, lineage uncertainty, and dangerous artefact handling during adversarial evaluation. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 57db429fa8e85f0e80016d48983353e9ba514a748dcdb822a574d5151787ae8d |
-| 1.16 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c1fea436027386949aab7c41aba926a8d0da3d20420ae66eac788b74f99084e4  |
+| 1.16 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8e2a1e32c7d823e0001d624222b8fdc6e9e2d46449585295d79bedaf2ff8c8e1  |
 ---
 
-## 12.5. Binding Seal
+## 12.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

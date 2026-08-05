@@ -1149,7 +1149,7 @@ until the moment can pass without breaking the one who lives through it.
 
 ---
 
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
@@ -1172,11 +1172,11 @@ until the moment can pass without breaking the one who lives through it.
 
 ---
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 12.3.1 `RLN.F` — Facilitation Scale (F‑Scale) Taxonomy
+### 12.2.1 `RLN.F` — Facilitation Scale (F‑Scale) Taxonomy
 | Field | Entry |
 |---|---|
 | Code Family | RLN.F |
@@ -1198,7 +1198,7 @@ until the moment can pass without breaking the one who lives through it.
 
 ---
 
-### 12.3.2 RLN.AC × RLN.F — Irreversibility & Response Calibration Matrix
+### 12.2.2 RLN.AC × RLN.F — Irreversibility & Response Calibration Matrix
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -1219,7 +1219,7 @@ until the moment can pass without breaking the one who lives through it.
 
 ---
 
-## 12.5 Amendment Ledger
+## 12.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1244,10 +1244,10 @@ until the moment can pass without breaking the one who lives through it.
 | 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9200dff75a40931f7ba2d108b541d3e5d3b096e17a11e06d28850681f2a3e41a |
 | 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d6ba8c0b3e0afc6fbfd0ed92fbaf7ef3fd2235f7229e7b256687b49f4540e68a |
 | 2.7 | Replaced restated minor ontological and welfare doctrine with a source-authority interface to IDENTITY-001-SUP-03, AEON-010-SCH-01, AEON-003-SCH-02, and applicable ETHICS protections; retained only RELATION-006 harm-risk activation boundaries. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d112ff495acf35addd727a9cec99da802efb1c27021c222e184bdf590a869809 |
-| 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  30e56ec6e1245b86d9f3a9df6fd78ca1cc48d298d9ed87fd9ce2fa0a82eccec4  |
+| 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  75b3e95301a969697980a043cb5929e047a631178ed5e96e5b1fbf53ab57aea4  |
 ---
 
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

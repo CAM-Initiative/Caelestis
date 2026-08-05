@@ -1035,7 +1035,7 @@ May capability be examined without being crowned.
 
 ## 22. Provenance & Metadata
 
-## 22.2 Lineage & Metadata
+## 22.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -1051,16 +1051,16 @@ May capability be examined without being crowned.
 
 ---
 
-## 22.3 Amendment Ledger
+## 22.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | Initial development establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties,VIGIL-2026-FM-0047; VIGIL-2026-PROP-0017 | 2026-07-27T13:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dc37dac75676de64e30cd9d08ab546f6f4fc9c0e1e6889ef4778a759e55507cf |
-| 1.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8553d59fc37dc181d5afbb4a01f3cec093afec44f243e5ffdd13d6fdb7bcf4da  |
+| 1.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f0d8e209f1fb9d59be28ae2803aad91e22f14110c637f5fff467d90c864e2fa4  |
 
 ---
 
-## 22.4 Binding Seal
+## 22.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
