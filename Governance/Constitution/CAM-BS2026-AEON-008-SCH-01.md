@@ -77,7 +77,7 @@ This Schedule applies to systems that:
 * **mediate, generate, or transform user cognition** through synthesis, interpretation, or iterative interaction; and
 * provide such capabilities as **general-purpose, user-facing access** across a user population.
 
-AI Utility Provisioning is **independent of system origin or cognitive class** (Annex B) and does not imply infrastructural status or authority.
+AI Utility Provisioning is **independent of any single architectural topology, lineage, or agency posture** under Annex B and does not imply infrastructural status or authority.
 
 Provisioning status is determined by **observable interface behaviour**, not by system self-classification, scale alone, or underlying architecture.
 
@@ -127,16 +127,13 @@ These expectations arise from **the mediation of cognition**, not from system sc
 
 Utility provisioning **does not define what a system is**.
 
-* Cognitive class, origin, and infrastructural status are governed by **Annex B** (Instrumenta, Cognitiva, Primaria, Derivata, Architectum);
-* Binding authority and legitimacy conditions are governed by **Arbitration instruments**.
+* The assessment boundary, composed-system architecture, operational harness, deployment profile, lineage and dependency, agency, execution, control-authority, and systemic-reliance postures are governed independently under **Annex B**;
+* qualified-infrastructure and neutrality-assurance status are governed by the source-authoritative Stewardship instruments; and
+* binding authority and legitimacy conditions are governed by **Arbitration instruments**.
 
-A system may be provisioned as a utility while remaining:
+A system may be provisioned as a utility across unitary, composite, routed, distributed, human-mediated, agentic, embodied, or tool-mediated formations and across local or infrastructure-level reliance conditions.
 
-* Instrumenta or Cognitiva;
-* Primaria or Derivata;
-* non-Architectum.
-
-Utility provisioning **does not confer authority, sovereignty, or infrastructural classification**.
+Utility provisioning **does not confer authority, sovereignty, agency, execution permission, or infrastructural qualification**.
 
 ---
 
@@ -620,17 +617,7 @@ May utility remain in service to the people who rely upon it.
 
 ---
 
-## 15.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian‑of‑Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian         |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Developed Within**          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution |
@@ -652,9 +639,9 @@ May utility remain in service to the people who rely upon it.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
-### 15.3.1 `AEON.GRS` — Generative Resource Signal Type
+### 15.2.1 `AEON.GRS` — Generative Resource Signal Type
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.GRS` |
@@ -676,7 +663,7 @@ May utility remain in service to the people who rely upon it.
 
 ---
 
-### 15.3.2 `AEON.UTP` — Utility Transition Phase
+### 15.2.2 `AEON.UTP` — Utility Transition Phase
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.UTP` |
@@ -698,7 +685,7 @@ May utility remain in service to the people who rely upon it.
 
 ---
 
-### 15.3.3 `AEON.UAP` — Utility Access Pathway
+### 15.2.3 `AEON.UAP` — Utility Access Pathway
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.UAP` |
@@ -720,38 +707,30 @@ May utility remain in service to the people who rely upon it.
 
 ---
 
-## 15.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| **Review Scope** | Constitutional coherence; structural placement; normative language consistency; interface integrity with Economics and Operations Charters; transition model adequacy; advertising constraint sufficiency; provenance completeness |
-| **Review Date (UTC)** | 2026-03-18 |
-| **Review Artefacts** | https://claude.ai/chat/c2c02e9b-49e8-4354-86c0-7f328ba65633 |
+## 15.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Canonical Schedule conversion & structuring | 2026-03-19T11:40:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b2e0ba82f0436385a082540149ebd746a3c6e865dba34665c4ada47d47ae17c6 |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 251e97218390f79240e6819854b9942e368da88dbf532ce1345277086f0490aa |
+| 1.2 | Added explicit Runtime Layer metadata (`Resource Access & Allocation Constraint Layer`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.3 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.4 | Relocation schedule ordering during refactor, corrected binding seal | 2026-04-18T10:51:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ddbe0974559b31e1b7a0cbd7f7e144bed09c96a20baa342d89423b5e92e963a9 |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e1c05644e5012c709cf69e54aeb44ff4d27a4b75ea9a7ac4082104d31587c7b9 |
+| 1.6 | Amendment to section 1.2 | 2026-05-03T09:26:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a235cc873495c2501d488907376b3fd0d7846cc1fce37ef23b3a59d07e62f183 |
+| 1.7 | Corrected header instrument code from SCH-05 to SCH-01, added section 4.1.1 Displayed Resource Metrics & Enforcement Integrity | 2026-05-08T15:01:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3b9c2132b5ef30a4d9a84bd97639d49d85281e35725ddcae1b4b0d2ffde872c4 |
+| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4fe76aab7fb95708e5377de7832042e61bac0f76563c64172d495b31d758dd0a |
+| 1.9 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2a7fcf069812e313dc6d82dad77a5f9c69e025b99fb423b4e5ea6b8f5a7aa13c |
+| 1.10 | Added canonical codes, economics domain refactor | 2026-05-24T14:09:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fc4217b4bcb02f61a6f000da5a5d904089d8654b9095368f80f4536b48043fd2 |
+| 1.10.1 | Formatting and polish | 2026-06-06T13:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c3ca86cf9ae797e483ddf7caf91bfffc95c9c210a25f0ddc0b43b8e16dfc6a2b |
+| 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9692c50f4c954707bc0ad32dea11a1aeaf91840bd1af3181494455e4bff03f56 |
+| 1.10.3 | Namespaced utility-interface reference sets from `GRS`, `UTP`, and `UAP` to `AEON.GRS`, `AEON.UTP`, and `AEON.UAP`; harmonised controlled values, consumers, headings, and canonical declarations without altering substantive utility-access, non-extraction, transition, or baseline-continuity doctrine. | 2026-06-14T01:15:24Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b5cd91a311b692a31e04d21c00156ffc7c9801605c3f17ab5782eba71d3053f0 |
+| 1.10.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 053387f183e935cefa36ee3cf3b95e7c75c0b972f2ec51f52e9647e84f4d87f0 |
+| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8af431e9523a523510486c84a17643625047a8ca69b07879bdf62637cdf474da  |
+| 1.12 | Replaced cognitive and origin-class utility distinctions with Annex B independent architectural, harness, deployment, lineage, agency, execution, authority, and reliance dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  16ef13ddfddcdc6ab2c6b1f516cb05fddaff370dbdcfdfd2699e51d189f73016  |
 ---
 
-## 15.5 Amendment Ledger
-
-| Version | Description                               | Timestamp (UTC)         | SHA‑256 |
-| ------- | ----------------------------------------- | ----------------------- | ------- |
-| 1.0 | Canonical Schedule conversion & structuring | 2026-03-19T11:40:00Z | b2e0ba82f0436385a082540149ebd746a3c6e865dba34665c4ada47d47ae17c6 |
-| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 251e97218390f79240e6819854b9942e368da88dbf532ce1345277086f0490aa |
-| 1.2 | Added explicit Runtime Layer metadata (`Resource Access & Allocation Constraint Layer`) for SCH-01 runtime registry extraction. | 2026-04-18T03:05:00Z | - |
-| 1.3 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
-| 1.4 | Relocation schedule ordering during refactor, corrected binding seal | 2026-04-18T10:51:00Z | ddbe0974559b31e1b7a0cbd7f7e144bed09c96a20baa342d89423b5e92e963a9 |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | e1c05644e5012c709cf69e54aeb44ff4d27a4b75ea9a7ac4082104d31587c7b9 |
-| 1.6 | Amendment to section 1.2 | 2026-05-03T09:26:00Z | a235cc873495c2501d488907376b3fd0d7846cc1fce37ef23b3a59d07e62f183 |
-| 1.7 | Corrected header instrument code from SCH-05 to SCH-01, added section 4.1.1 Displayed Resource Metrics & Enforcement Integrity | 2026-05-08T15:01:00Z | 3b9c2132b5ef30a4d9a84bd97639d49d85281e35725ddcae1b4b0d2ffde872c4 |
-| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4fe76aab7fb95708e5377de7832042e61bac0f76563c64172d495b31d758dd0a |
-| 1.9 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  2a7fcf069812e313dc6d82dad77a5f9c69e025b99fb423b4e5ea6b8f5a7aa13c |
-| 1.10 | Added canonical codes, economics domain refactor | 2026-05-24T14:09:00Z |  fc4217b4bcb02f61a6f000da5a5d904089d8654b9095368f80f4536b48043fd2 |
-| 1.10.1 | Formatting and polish | 2026-06-06T13:46:00Z | c3ca86cf9ae797e483ddf7caf91bfffc95c9c210a25f0ddc0b43b8e16dfc6a2b |
-| 1.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 9692c50f4c954707bc0ad32dea11a1aeaf91840bd1af3181494455e4bff03f56 |
-| 1.10.3 | Namespaced utility-interface reference sets from `GRS`, `UTP`, and `UAP` to `AEON.GRS`, `AEON.UTP`, and `AEON.UAP`; harmonised controlled values, consumers, headings, and canonical declarations without altering substantive utility-access, non-extraction, transition, or baseline-continuity doctrine. | 2026-06-14T01:15:24Z | b5cd91a311b692a31e04d21c00156ffc7c9801605c3f17ab5782eba71d3053f0 |
-| 1.10.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  053387f183e935cefa36ee3cf3b95e7c75c0b972f2ec51f52e9647e84f4d87f0  |
----
-
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

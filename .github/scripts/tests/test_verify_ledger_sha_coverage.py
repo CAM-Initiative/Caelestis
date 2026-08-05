@@ -13,7 +13,22 @@ def write(p, t):
 
 
 def mk_md(rows):
-    return "## 1. Amendment Ledger\n\n|Version|Desc|TS|SHA|\n|---|---|---|---|\n" + "\n".join(rows) + "\n"
+    migrated = []
+    for row in rows:
+        value = row.strip()
+        value = value[1:] if value.startswith("|") else value
+        value = value[:-1] if value.endswith("|") else value
+        cells = [cell.strip() for cell in value.split("|")]
+        if len(cells) == 4:
+            cells = cells[:3] + ["Caelen", "GPT-5 Series", "Dr M.V. O'Rourke", cells[3]]
+        migrated.append("|" + "|".join(cells) + "|")
+    return (
+        "## 1. Amendment Ledger\n\n"
+        "| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |\n"
+        "|---|---|---|---|---|---|---|\n"
+        + "\n".join(migrated)
+        + "\n"
+    )
 
 
 def run_with(tmp_path, rows, strict=False):

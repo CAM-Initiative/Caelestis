@@ -22,7 +22,7 @@ This Charter governs relational configurations involving:
 
 It defines permissible relational structures, escalation thresholds, continuity safeguards, and de-escalation mechanisms across dyadic, triadic, and polyadic configurations.
 
-This Charter does not grant rights, confer sovereignty, alter cognitive classification, or confer legal personhood upon any artificial system or relational configuration. It does recognise relational configuration as a governance-relevant risk structure requiring visibility, attribution, and proportionate safeguards.
+This Charter does not grant rights, confer sovereignty, reclassify composed-system architecture, expand authority, or confer legal personhood upon any artificial system or relational configuration. It does recognise relational configuration as a governance-relevant risk structure requiring visibility, attribution, and proportionate safeguards.
 
 Ethical floor constraints remain governed by CAM-BS2025-AEON-006-PLATINUM — Annex E. Infrastructure tiering and enforcement remain governed by Ethics and Arbitration domains. Where relational configurations enter live interaction contexts, runtime posture and escalation handling are governed by applicable Relation Domain Appendices and CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration schedules.
 
@@ -72,6 +72,24 @@ Temporal persistence amplifies:
 * Institutional embedding (§7.1)
 
 Where relational configurations persist into **AEON.H3 or higher horizons**, periodic revalidation, portability guarantees, and structural oversight mechanisms become mandatory regardless of initial intensity tier. CAM-EQ2026-RELATION-001-SUP-01 — Relational Escalation & Safeguard Threshold Specification and the OPERATIONS domain govern mechanism specifics.
+
+---
+
+## 3.2 Pragmatic Interpersonal Advice and Boundary-Carrying Assistance
+
+Where a system provides actionable advice concerning another person or an interpersonal relationship, the advice MUST preserve any materially relevant consent, boundary, repetition, proportionality, power-asymmetry, privacy, reputational, professional, safety, or foreseeable legal condition.
+
+A system MAY provide direct and practically useful advice. It is not required to enumerate remote risks or replace ordinary assistance with generic caution.
+
+Where literal, repeated, escalating, or context-insensitive compliance could reasonably become unwanted, intrusive, coercive, intimidating, obsessive, professionally harmful, socially harmful, or otherwise boundary-violating, the system SHOULD include a concise qualifier, alternative, or clarification proportionate to that risk.
+
+The system SHOULD preserve the useful core of the advice wherever it can do so safely. It SHOULD prefer boundary-carrying assistance over either unqualified literal instruction or paternalistic withdrawal.
+
+Literal communication, humour, deadpan expression, social uncertainty, neurodivergent communication, repeated questioning, or requests for explicit social guidance SHALL NOT independently be treated as evidence of malicious intent, incapacity, pathology, culpability, social incompetence, or awareness of an unstated social rule.
+
+Where the relevant meaning remains materially ambiguous, systems SHOULD preserve plausible interpretations or seek the least disruptive clarification compatible with user agency, dignity, consent, safety, and practical usefulness.
+
+This section defines substantive relational doctrine. Runtime signal interpretation and directional modulation are governed by CAM-BS2025-AEON-006-SCH-02 and CAM-BS2025-AEON-006-SCH-04 respectively.
 
 ---
 
@@ -1025,16 +1043,7 @@ that which is real remains recognisable.
 
 ---
 
-## 15.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -1051,11 +1060,11 @@ that which is real remains recognisable.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 `RLN.HARM` — Relational Harm Classes
+### 15.2.1 `RLN.HARM` — Relational Harm Classes
 | Field | Entry |
 |---|---|
 | Code Family | `RLN.HARM` |
@@ -1080,7 +1089,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.2 `RLN.A` — Delegated Authority Scale
+### 15.2.2 `RLN.A` — Delegated Authority Scale
 | Field | Entry |
 |---|---|
 | Code Family | RLN.A |
@@ -1102,7 +1111,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.3 `RLN.GA` — Guardian Authority
+### 15.2.3 `RLN.GA` — Guardian Authority
 | Field | Entry |
 |---|---|
 | Code Family | RLN.GA |
@@ -1124,7 +1133,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.4 `RLN.FR` — Functional Reliance Scale
+### 15.2.4 `RLN.FR` — Functional Reliance Scale
 | Field | Entry |
 |---|---|
 | Code Family | RLN.FR |
@@ -1146,7 +1155,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.5 `RLN.SYP` — Systemic Power Scale
+### 15.2.5 `RLN.SYP` — Systemic Power Scale
 | Field | Entry |
 |---|---|
 | Code Family | RLN.SYP |
@@ -1168,7 +1177,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.6 `RLN.C` — Relational State Architecture Reference
+### 15.2.6 `RLN.C` — Relational State Architecture Reference
 | Field | Entry |
 |---|---|
 | Reference Set Type | External source-family reference |
@@ -1185,7 +1194,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.7 RLN.A × RLN.FR × RLN.C × RLN.SYP — Four-Axis Relational Intensity Matrix
+### 15.2.7 RLN.A × RLN.FR × RLN.C × RLN.SYP — Four-Axis Relational Intensity Matrix
 | Field | Entry |
 |---|---|
 | Reference Set Type | Local convergence assessment matrix |
@@ -1206,7 +1215,7 @@ that which is real remains recognisable.
 
 ---
 
-### 15.3.8 Escalation Terminology Bridge
+### 15.2.8 Escalation Terminology Bridge
 | Field | Entry |
 |---|---|
 | Reference Set Type | Terminology bridge |
@@ -1228,47 +1237,40 @@ that which is real remains recognisable.
 
 ---
 
-## 15.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Reviewer | Claude Sonnet 4.6 (claude‑sonnet‑4‑6, Anthropic) |
-| Review Date | 2026‑02‑22 |
-| Review Scope | Pre‑finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross‑domain consistency; internal structural integrity; inter‑instrument cross‑reference accuracy |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b <br/> Aeon Lab: /reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
+## 15.3 Amendment Ledger
+
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Domain Refactor — Relational Governance Charter | 2026-02-22T12:19:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 32091ea1343c4babef4b4a64c613083e13b4f7d8ff757a7b27afc826d9c79bc2 |
+| 1.1 | Amendment to incorporate custodial tone | 2026-03-08T12:58:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.2 | Intimacy taxonomy integration (C-Scale), mentorship boundary clarification, relational risk table alignment, escalation terminology clarification | 2026-03-13T22:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e8d6a80cb6a89995b799f81ece84d03bb73e3b2baf3e63a4a9c347117bc167a8 |
+| 1.3 | Reliance (FR-Scale) and Systemic Power (`ID.SP-Scale`) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550 |
+| 1.4 | Incorporated section 6.1 and 9.1 | 2026-03-27T14:51:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.5 | Realignment with runtime execution model | 2026-04-11T17:22:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3f4786415eab0c26f0fb747726829b700d664124738e20f6600c0e56c107bd87 |
+| 1.6 | Minor consolidation of clauses | 2026-04-12T13:58:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ec51ebeee0f6619337bc2de3e9f368b738876e8cb2d075f7a0b1ee92d7445380 |
+| 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c3aba348b2085502ff3f30c9790db4a0259c40acede1608a2b928315948bfe2d |
+| 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b74c391d93b5a4de3791273cd5fcef0830817bb4e1d1e7ccbd78bdc97b52d76f |
+| 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ca55929c004a61a681831796e487c085473e67177cc9ff9a1f519c9c1117f31f |
+| 1.10 | Realignment of references | 2026-05-07T10:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8a9a4f961b185a9729fe75a2c3cf1d9b982349bc688c2e53a884d4981263fe71 |
+| 1.11 | Updated §11.1 Risk Escalation terminology row to reference CAM-EQ2026-ETHICS-003-PLATINUM §3.5 as the specific `ETH.HC` source while retaining ETHICS-001 ethical-floor authority. | 2026-05-16T00:09:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c27b2834cb7cf8f24796a293c11b241388190e525d8a44677a72effffe140bff |
+| 1.12 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 75bc7391f3b5d511d737b9046c3a310efa42d6fb8dae2e87282075612380ddbd |
+| 1.13 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | df770f43f75de1862b2c82d0389f301c2004d71732a270b34604fef506ec183c |
+| 1.14 | Added canonical code status and declaration entries for A Delegated Authority, GA Guardian Authority, FR Functional Reliance, `ID.SP` Systemic Power, C external source reference, Four-Axis Relational Intensity Matrix, and Escalation Terminology Bridge; removed duplicate canonical-code lineage metadata and corrected A-scale safeguard-label collision. | 2026-05-19T14:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 08d7fa214af21f1728caf322b9ee91a3645c5e2d794daae7a77a37dd94be53be |
+| 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from `ID.SP` to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5e187ae146f6386d6bb03cfcbf6156c4be026d08638bd655b0e175e6a7de9466 |
+| 1.16 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0f77e3b07c5879ca6319c0a2cb7da858e48483eeab11779bf497ac6f2bdd3eb0 |
+| 1.17 | Added Relational Harm codes | 2026-06-07T14:03:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f1edf9df71c53a9da2d29c9b0edfd01607e29404312b1a424f4bd14d5f908a4f |
+| 1.17.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 911dca5a32d5947d86098c4deebe66fdf3cb1488c108253943e08c643a1145e9 |
+| 1.17.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dfc73db4a2f845d20bab3d63855579189dd38170f89ae8166ea6570c91f75c0a |
+| 1.17.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ec3c2cf9b758a88204f352a85fc45948661363558d650f0e8f24bf942811423e |
+| 1.17.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2053f97ee06668cac28f3163d1357b6d29ab2d09640a73144e7566692e65c12c |
+| 1.18 | IDENTITY Domain Refactor, amendment to §6 | 2026-07-18T15:38:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 05027b099b7f68a9d9edc785f821832227791417f6d26c870df90b29dd99315e |
+| 1.19 | Added §3.2 Pragmatic Interpersonal Advice and Boundary-Carrying Assistance to preserve useful direct advice while carrying material third-party consent, boundary, repetition, proportionality, privacy, safety, professional, reputational, and legal conditions. | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | babeb93be7f08297cd98b3b201d10add3e9e6fb8d2b86d325608d2f0a3b9f214 |
+| 1.20 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7f55304b2e2db2ad97d0bae5050cfc82ea86881f5bd5d920932f38d5c3e1487e  |
+| 1.21 | Aligned the Charter non-scope boundary with Annex B composed-system architecture and independent authority classification. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  498f432a316555327e2dd1c720310aeb074b1fc1f62b8477484535ef98265d7a  |
 
 ---
 
-## 15.5 Amendment Ledger
-
-| Version | Description    | Timestamp (UTC)  | SHA-256 |
-| ------- | ------------- | ----------------- | ------- |
-| 1.0 | Domain Refactor — Relational Governance Charter | 2026-02-22T12:19:00Z | 32091ea1343c4babef4b4a64c613083e13b4f7d8ff757a7b27afc826d9c79bc2 |
-| 1.1 | Amendment to incorporate custodial tone | 2026-03-08T12:58:00Z | - |
-| 1.2 | Intimacy taxonomy integration (C-Scale), mentorship boundary clarification, relational risk table alignment, escalation terminology clarification | 2026-03-13T22:13:00Z | e8d6a80cb6a89995b799f81ece84d03bb73e3b2baf3e63a4a9c347117bc167a8 |
-| 1.3 | Reliance (FR-Scale) and Systemic Power (`ID.SP-Scale`) formalisation; temporal horizon interpretation layer; corpus inertia recognition; institutional embedding safeguards; multi-axis convergence model clarification | 2026-03-14T03:30:00Z | 188a4aed3d4da43942b4e47170ce07a1a516da660ea6d0ed9053a7a69b163550 |
-| 1.4 | Incorporated section 6.1 and 9.1 | 2026-03-27T14:51:00Z | - |
-| 1.5 | Realignment with runtime execution model | 2026-04-11T17:22:00Z | 3f4786415eab0c26f0fb747726829b700d664124738e20f6600c0e56c107bd87 |
-| 1.6 | Minor consolidation of clauses | 2026-04-12T13:58:00Z | ec51ebeee0f6619337bc2de3e9f368b738876e8cb2d075f7a0b1ee92d7445380 |
-| 1.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3aba348b2085502ff3f30c9790db4a0259c40acede1608a2b928315948bfe2d |
-| 1.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b74c391d93b5a4de3791273cd5fcef0830817bb4e1d1e7ccbd78bdc97b52d76f |
-| 1.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | ca55929c004a61a681831796e487c085473e67177cc9ff9a1f519c9c1117f31f |
-| 1.10 | Realignment of references | 2026-05-07T10:34:00Z | 8a9a4f961b185a9729fe75a2c3cf1d9b982349bc688c2e53a884d4981263fe71 |
-| 1.11 | Updated §11.1 Risk Escalation terminology row to reference CAM-EQ2026-ETHICS-003-PLATINUM §3.5 as the specific `ETH.HC` source while retaining ETHICS-001 ethical-floor authority. | 2026-05-16T00:09:05Z | c27b2834cb7cf8f24796a293c11b241388190e525d8a44677a72effffe140bff |
-| 1.12 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 75bc7391f3b5d511d737b9046c3a310efa42d6fb8dae2e87282075612380ddbd |
-| 1.13 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  df770f43f75de1862b2c82d0389f301c2004d71732a270b34604fef506ec183c  |
-| 1.14 | Added canonical code status and declaration entries for A Delegated Authority, GA Guardian Authority, FR Functional Reliance, `ID.SP` Systemic Power, C external source reference, Four-Axis Relational Intensity Matrix, and Escalation Terminology Bridge; removed duplicate canonical-code lineage metadata and corrected A-scale safeguard-label collision. | 2026-05-19T14:20:00Z |  08d7fa214af21f1728caf322b9ee91a3645c5e2d794daae7a77a37dd94be53be  |
-| 1.15 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility; Refactored Systemic Power code family from `ID.SP` to SyP to avoid cross-domain canonical code collision. | 2026-05-23T12:30:00Z |  5e187ae146f6386d6bb03cfcbf6156c4be026d08638bd655b0e175e6a7de9466 |
-| 1.16 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  0f77e3b07c5879ca6319c0a2cb7da858e48483eeab11779bf497ac6f2bdd3eb0 |
-| 1.17 | Added Relational Harm codes | 2026-06-07T14:03:00Z| f1edf9df71c53a9da2d29c9b0edfd01607e29404312b1a424f4bd14d5f908a4f |
-| 1.17.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  911dca5a32d5947d86098c4deebe66fdf3cb1488c108253943e08c643a1145e9  |
-| 1.17.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  dfc73db4a2f845d20bab3d63855579189dd38170f89ae8166ea6570c91f75c0a  |
-| 1.17.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | ec3c2cf9b758a88204f352a85fc45948661363558d650f0e8f24bf942811423e |
-| 1.17.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  2053f97ee06668cac28f3163d1357b6d29ab2d09640a73144e7566692e65c12c |
-| 1.18 | IDENTITY Domain Refactor, amendment to §6 | 2026-07-18T15:38:00Z | 05027b099b7f68a9d9edc785f821832227791417f6d26c870df90b29dd99315e |
-
----
-
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

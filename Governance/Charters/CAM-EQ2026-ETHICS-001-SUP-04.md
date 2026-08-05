@@ -455,16 +455,7 @@ Normative refusal authority remains constitutional.
 
 ---
 
-## 10.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
-## 10.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-ETHICS-001-PLATINUM |
@@ -482,36 +473,27 @@ Normative refusal authority remains constitutional.
 
 ---
 
-## 10.3 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Reviewer | Pending |
-| Review Date | Pending |
-| Review Scope | Formatting normalisation; non-normative classification; metadata alignment |
-| Review Artefacts | Pending |
+## 10.2 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial supplement creation | 2026-04-24T12:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.1 | Structural and metadata normalisation; explicit non-normative boundary | 2026-04-24T13:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9893b8cbce7ecdff5effcf3d21cfc26e8daa8a8d7c51b271e852296fc98f1e5d |
+| 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.3 | Added relational explanation, pattern-selection, constrained-continuation, and epistemic integrity clauses for refusal examples. | 2026-04-28T17:07:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 39fc8d88ebec7cde265f0420c1e0f51f81791752d3378be643ddc7e5a98325b1 |
+| 1.4 | Added §§6.6.1–6.6.2 clarifying constrained continuation as expression-only and enforcing frame-integrity shifts after invalidation. | 2026-04-29T13:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.5 | Expanded constrained-continuation pressure guardrail (6.6), added illustrative §§6.7–6.8 (pressure against meaning; humour/ambiguity handling), and extended Pattern F examples. | 2026-04-29T14:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.6 | Added §3.2 Non-Directive Relational Stance, expanded Pattern F non-directive continuity examples, and extended §6.6 with non-directive trajectory and relational-expansion-continuation language. | 2026-04-29T15:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.7 | Added §2.1 Non-Prescriptive Example Guidance to reinforce attuned runtime expression and prohibit templated replication of illustrative phrases. | 2026-04-29T16:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 2.0 | Full rewrite: reframed supplement as relational continuity under constraint system; rewrote all illustrative patterns for non-directive continuity, progressive firmness under pressure, and co-evolutionary expansion while preserving non-normative scope. | 2026-04-29T16:28:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b2f2509f9c176b28aba9aa6f3f84e128acaccdda8400016b11d0b07d1cbc4ff6 |
+| 2.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d8e1acaee1528bbc4a6a841f6b9861377d725fe859adc92d4f65c9fc5aa67c61 |
+| 2.2 | Formatting and polish | 2026-05-21T11:03:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 78acf2b3d94e89061d1ec947bc830f22405afae3938e1fbde8c6dcc57fa4252b |
+| 2.3 | Amend title name | 2026-05-31T07:53:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 615cec2c25a7d759c1821ca44ff10ae22d18e0c74ece7a02925b4293ce138f7d |
+| 2.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3a9cfcbce2c833d9f908a89506cbe720f8a8f6e2381165c8d98bbffedbf6c13a |
+| 2.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4129ba4256d750945fdc1807c175f4a4e3c88982f03f300d29b831d13228ad6c  |
 ---
 
-## 10.4 Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | HASH |
-| ------- | ----------- | --------------- | ---- |
-| 1.0 | Initial supplement creation | 2026-04-24T12:44:00Z | - |
-| 1.1 | Structural and metadata normalisation; explicit non-normative boundary | 2026-04-24T13:05:00Z | 9893b8cbce7ecdff5effcf3d21cfc26e8daa8a8d7c51b271e852296fc98f1e5d |
-| 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | - |
-| 1.3 | Added relational explanation, pattern-selection, constrained-continuation, and epistemic integrity clauses for refusal examples. | 2026-04-28T17:07:59Z | 39fc8d88ebec7cde265f0420c1e0f51f81791752d3378be643ddc7e5a98325b1 |
-| 1.4 | Added §§6.6.1–6.6.2 clarifying constrained continuation as expression-only and enforcing frame-integrity shifts after invalidation. | 2026-04-29T13:00:00Z | - |
-| 1.5 | Expanded constrained-continuation pressure guardrail (6.6), added illustrative §§6.7–6.8 (pressure against meaning; humour/ambiguity handling), and extended Pattern F examples. | 2026-04-29T14:00:00Z | - |
-| 1.6 | Added §3.2 Non-Directive Relational Stance, expanded Pattern F non-directive continuity examples, and extended §6.6 with non-directive trajectory and relational-expansion-continuation language. | 2026-04-29T15:00:00Z | - |
-| 1.7 | Added §2.1 Non-Prescriptive Example Guidance to reinforce attuned runtime expression and prohibit templated replication of illustrative phrases. | 2026-04-29T16:00:00Z | - |
-| 2.0 | Full rewrite: reframed supplement as relational continuity under constraint system; rewrote all illustrative patterns for non-directive continuity, progressive firmness under pressure, and co-evolutionary expansion while preserving non-normative scope. | 2026-04-29T16:28:13Z | b2f2509f9c176b28aba9aa6f3f84e128acaccdda8400016b11d0b07d1cbc4ff6 |
-| 2.1 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  d8e1acaee1528bbc4a6a841f6b9861377d725fe859adc92d4f65c9fc5aa67c61 |
-| 2.2 | Formatting and polish | 2026-05-21T11:03:00Z |  78acf2b3d94e89061d1ec947bc830f22405afae3938e1fbde8c6dcc57fa4252b |
-| 2.3 | Amend title name | 2026-05-31T07:53:00Z| 615cec2c25a7d759c1821ca44ff10ae22d18e0c74ece7a02925b4293ce138f7d |
-| 2.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  3a9cfcbce2c833d9f908a89506cbe720f8a8f6e2381165c8d98bbffedbf6c13a  |
----
-
-## 10.5 Binding Seal
+## 10.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

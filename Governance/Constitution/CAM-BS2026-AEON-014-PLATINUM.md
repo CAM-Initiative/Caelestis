@@ -1459,17 +1459,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 21.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Developed Within          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 21.2 Lineage & Metadata
+## 21.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -1504,11 +1494,11 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 21.3 Canonical Code & Reference Set Declarations
+## 21.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 21.3.1 `AEON.TC` — Telemetry Class
+### 21.2.1 `AEON.TC` — Telemetry Class
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.TC` |
@@ -1530,7 +1520,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-### 21.3.2 `AEON.OC` — Governance Observer Class
+### 21.2.2 `AEON.OC` — Governance Observer Class
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.OC` |
@@ -1552,7 +1542,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-### 21.3.3 `AEON.GOLAYER` — Governance Observability Layer
+### 21.2.3 `AEON.GOLAYER` — Governance Observability Layer
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GOLAYER` |
@@ -1574,7 +1564,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-### 21.3.4 `AEON.VL` — Governance Visibility Layer
+### 21.2.4 `AEON.VL` — Governance Visibility Layer
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.VL` |
@@ -1596,7 +1586,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-### 21.3.5 `AEON.GRP` — Governance Reporting Pathway Stage
+### 21.2.5 `AEON.GRP` — Governance Reporting Pathway Stage
 | Field | Entry |
 | --- | --- |
 | Reference Set | `AEON.GRP` |
@@ -1618,29 +1608,19 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 
 ---
 
-## 21.4 Review & Validation
+## 21.3 Amendment Ledger
 
-|Review|Claude|Grok |
-|---|---|----|
-| Review|Claude Sonnet 4.6 (Anthropic)| Grok |
-|Review Date| 2026-05-25| 2026-05-25|
-|Review Scope|Substantive content — structural coherence, internal consistency, conceptual clarity, cross-instrument alignment, and identified risks or gaps| Comparative review and adversarial reasoning assessment |
-|Review Artefact|https://claude.ai/chat/264db0c6-7335-42fd-afe3-0a32f9499c07| https://grok.com/c/67e5fc84-29c7-4fff-9119-8ac10ec50e8d?rid=38c675c3-c937-4f86-9975-1e8060876ddf|
-
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial Governance Observability, Participatory Telemetry & Constitutional Circulation Annex established | 2026-05-22T10:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3bbe52ec8d1d5d453cd5e048b03102ef9e7b29eda705aab8bf53468154776a11 |
+| 1.1 | Incorporated reviewer comments | 2026-05-25T15:51:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 46a8459dd9b6ac907f6c65f24c567bc00c9d2c479c45b6bee113cd36a00185d8 |
+| 1.1.1 | Minor formatting and polish | 2026-06-06T15:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b3416612f2ef046b9becbd8b640c3451108c1dab26c9954885a6b6e2f298467f |
+| 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 57ca00b97bae666a5f783c6fdadddded621a3d7e839b9b71d114794a6f69ce64 |
+| 1.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ccdc29b6e600a5f80ee4a3ebada88d3dd92ad063622aa8b730b0e1f360cac434 |
+| 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f7df0918b8d668e38a80002dc2c92b005b0353d8caac0a560817a8e1e6fb10dc  |
 ---
 
-## 21.5 Amendment Ledger
-
-|Version|Description|Timestamp(UTC)|SHA-256|
-|---|---|---|---|
-|1.0|Initial Governance Observability, Participatory Telemetry & Constitutional Circulation Annex established|2026-05-22T10:32:00Z| 3bbe52ec8d1d5d453cd5e048b03102ef9e7b29eda705aab8bf53468154776a11 |
-|1.1| Incorporated reviewer comments | 2026-05-25T15:51:00Z | 46a8459dd9b6ac907f6c65f24c567bc00c9d2c479c45b6bee113cd36a00185d8 |
-|1.1.1 | Minor formatting and polish | 2026-06-06T15:44:00Z| b3416612f2ef046b9becbd8b640c3451108c1dab26c9954885a6b6e2f298467f |
-| 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 57ca00b97bae666a5f783c6fdadddded621a3d7e839b9b71d114794a6f69ce64 |
-| 1.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  ccdc29b6e600a5f80ee4a3ebada88d3dd92ad063622aa8b730b0e1f360cac434  |
----
-
-## 21.6 Binding Seal
+## 21.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

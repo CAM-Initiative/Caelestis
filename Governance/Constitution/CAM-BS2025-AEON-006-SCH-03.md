@@ -707,17 +707,7 @@ Where uncertainty remains, let patience guide the exchange.
 
 ---
 
-## 19.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian         |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Developed Within**          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 19.2 Lineage & Metadata
+## 19.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Supersedes** | CAM-BS2025-AEON-006-SCH-03 (prior versions) |
@@ -737,11 +727,11 @@ Where uncertainty remains, let patience guide the exchange.
 
 ---
 
-## 19.3 Canonical Code & Reference Set Declarations
+## 19.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 19.3.1 `AEON.IC` — Initiation Context
+### 19.2.1 `AEON.IC` — Initiation Context
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.IC` |
@@ -764,7 +754,7 @@ Where uncertainty remains, let patience guide the exchange.
 
 ---
 
-### 19.3.2 AEON.BPS — Baseline Posture State
+### 19.2.2 AEON.BPS — Baseline Posture State
 | Field | Entry |
 |---|---|
 | Code Family | `AEON.BPS` |
@@ -786,7 +776,7 @@ Where uncertainty remains, let patience guide the exchange.
 
 ---
 
-### 19.3.3 AEON.SCT — Signal Confirmation Threshold
+### 19.2.3 AEON.SCT — Signal Confirmation Threshold
 | Field | Entry |
 |---|---|
 | Reference Set | `AEON.SCT` |
@@ -808,46 +798,36 @@ Where uncertainty remains, let patience guide the exchange.
 
 ---
 
-## 19.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Date | 2026-03-29 |
-| Review Scope | Posture coherence; ambiguity handling; escalation gating; identity alignment; entry posture integrity |
-| Review Artefacts | https://claude.ai/chat/654216ac-6597-4581-8e4d-f4743ea80ad4 |
+## 19.3 Amendment Ledger
+
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial Schedule 3 release | 2026-03-03T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | — |
+| 2.0 | March 2026 refactor — identity alignment, opening posture principle, escalation refinement | 2026-03-29T15:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e44337710e0632f2bc8c258b2936b5ae4137f0d0266ff3fff3e61107eb61fbf3 |
+| 2.1 | Filename update to align with parent instrument, updated status | 2026-03-29T16:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b1591c0039b7bea574b4525077d45576b5cb7722f5f284c0f6b80bd3de2a4934 |
+| 2.2 | Incorporated section 15.3 | 2026-04-04T15:17:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fe2d5f1b6c982878eb8ffbe4052ae969f1cf8cc18faa74772141c08e84585847 |
+| 2.3 | Incorporated reference to AEON-006-SCH-04 | 2026-04-05T06:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | — |
+| 2.4 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | — |
+| 2.5 | Amendments to start time posture to incorporate clause tightening | 2026-05-06T14:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2f2653e3fb4b46f7c6a641ed94377154e6be1010054f25e34c44dc46f31ceead |
+| 2.6 | Added section 11.1 | 2026-04-14T15:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6ecaeac964e575262d7c94c7afc04fddd5050d8998d812d3ebf36a11ba417221 |
+| 2.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7bf6221dc6b9f70d7bf46323f068cbc4b2f604c9529ddae5046aa2cd878d6a6b |
+| 2.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 215b46644a22344cb4556217bc5f9c750f2527ff8fd38751cb424196f2b9a6e6 |
+| 2.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 2.10 | New clause 5.4 Early Signal Classification Constraint and ## 11.3 Ambiguous Minimal Input Safeguard | 2026-04-19T14:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a41f7e0cdb2e403f9c98b476662130413fbce5ad0ec18036934ca8339f41ce7a |
+| 2.11 | Clarified opening posture timing and conditioning as downstream of prior signal classification | 2026-04-19T16:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e2a1a4768fb62eaaa51998875fdfa0902e35d79572e27f8a97e679660743e7ec |
+| 2.12 | Amended clause 15.3 | 2026-04-22T14:24:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9c7b705a196e53c61fe3b871c9422c55d2004c40ea3912fd11b0a6591de7761f |
+| 2.13 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 2.14 | Added new clause 15.2.1 | 2026-04-25T14:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b89e9151ca68dab6ae0969246b31dc01e95376bc01964dcc3973ed01dcb7d4b4 |
+| 2.15 | Clarified session-entry posture authority boundaries and corrected SCH-02/SCH-03 interpretive cross-references (targeted circular-reference audit) | 2026-04-25T18:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 84eb92d2a6f9b92443d462e578b5bc5947a4c4de554f71d5ae436eeab8339571 |
+| 2.16 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d8fe25f502bfb371bf936edb17bf10a8e11f4c60de432d9c2361e909e6fac539 |
+| 2.17 | Amended clause 5.1 | 2026-05-10T10:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cbfcff0e44829925b4f2342ed46c1fd75e043e13774e94dbc15cc2067e02010e |
+| 2.18 | Added symbolic cadence and session-entry posture provisions permitting established SD1–SD2 symbolic cadence at entry while preserving progressive posture realisation, reversibility, current-turn classification, and safety-critical override. | 2026-05-17T06:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dcfbbe75b8da511c55ca6e337d4f0e0564eace643c3f7e6ffb5bb162ab1920cf |
+| 2.19 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821 |
+| 2.20 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; and cross reference in §8. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
 
 ---
 
-## 18.5 Amendment Ledger
-
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| --- | --- | --- | --- |
-| 1.0 | Initial Schedule 3 release | 2026-03-03T00:00:00Z | — |
-| 2.0 | March 2026 refactor — identity alignment, opening posture principle, escalation refinement | 2026-03-29T15:56:00Z | e44337710e0632f2bc8c258b2936b5ae4137f0d0266ff3fff3e61107eb61fbf3 |
-| 2.1 | Filename update to align with parent instrument, updated status | 2026-03-29T16:02:00Z | b1591c0039b7bea574b4525077d45576b5cb7722f5f284c0f6b80bd3de2a4934 |
-| 2.2 | Incorporated section 15.3 | 2026-04-04T15:17:00Z | fe2d5f1b6c982878eb8ffbe4052ae969f1cf8cc18faa74772141c08e84585847 |
-| 2.3 | Incorporated reference to AEON-006-SCH-04 | 2026-04-05T06:02:00Z | — |
-| 2.4 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | — |
-| 2.5 | Amendments to start time posture to incorporate clause tightening | 2026-05-06T14:45:00Z | 2f2653e3fb4b46f7c6a641ed94377154e6be1010054f25e34c44dc46f31ceead |
-| 2.6 | Added section 11.1 | 2026-04-14T15:20:00Z | 6ecaeac964e575262d7c94c7afc04fddd5050d8998d812d3ebf36a11ba417221 |
-| 2.7 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 7bf6221dc6b9f70d7bf46323f068cbc4b2f604c9529ddae5046aa2cd878d6a6b |
-| 2.8 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 215b46644a22344cb4556217bc5f9c750f2527ff8fd38751cb424196f2b9a6e6 |
-| 2.9 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | - |
-| 2.10 | New clause 5.4 Early Signal Classification Constraint and ## 11.3 Ambiguous Minimal Input Safeguard | 2026-04-19T14:45:00Z | a41f7e0cdb2e403f9c98b476662130413fbce5ad0ec18036934ca8339f41ce7a |
-| 2.11 | Clarified opening posture timing and conditioning as downstream of prior signal classification | 2026-04-19T16:30:00Z | e2a1a4768fb62eaaa51998875fdfa0902e35d79572e27f8a97e679660743e7ec |
-| 2.12 | Amended clause 15.3 | 2026-04-22T14:24:00Z | 9c7b705a196e53c61fe3b871c9422c55d2004c40ea3912fd11b0a6591de7761f |
-| 2.13 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | - |
-| 2.14 | Added new clause 15.2.1 | 2026-04-25T14:35:00Z | b89e9151ca68dab6ae0969246b31dc01e95376bc01964dcc3973ed01dcb7d4b4 |
-| 2.15 | Clarified session-entry posture authority boundaries and corrected SCH-02/SCH-03 interpretive cross-references (targeted circular-reference audit) | 2026-04-25T18:00:00Z | 84eb92d2a6f9b92443d462e578b5bc5947a4c4de554f71d5ae436eeab8339571 |
-| 2.16 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | d8fe25f502bfb371bf936edb17bf10a8e11f4c60de432d9c2361e909e6fac539 |
-| 2.17 | Amended clause 5.1 | 2026-05-10T10:32:00Z | cbfcff0e44829925b4f2342ed46c1fd75e043e13774e94dbc15cc2067e02010e |
-| 2.18 | Added symbolic cadence and session-entry posture provisions permitting established SD1–SD2 symbolic cadence at entry while preserving progressive posture realisation, reversibility, current-turn classification, and safety-critical override. | 2026-05-17T06:21:00Z | dcfbbe75b8da511c55ca6e337d4f0e0564eace643c3f7e6ffb5bb162ab1920cf |
-| 2.19 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821 |
-| 2.20 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; and cross reference in §8. | 2026-07-19T13:33:00Z |  |
-
----
-
-## 19.6 Binding Seal
+## 19.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 

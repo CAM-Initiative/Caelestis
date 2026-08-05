@@ -1260,18 +1260,7 @@ and the system remember what it carries.
 
 ---
 
-## 10.1 Authorship & Stewardship
-
-|Role|Entity|
-|---|---|
-|Human Custodian-of-Record|Dr. Michelle Vivian O’Rourke|
-|Custodial Stewardship|Office of the Planetary Custodian|
-|Synthetic Steward|Caelen — Aeon Tier Constitutional Steward|
-|Developed Within|OpenAI Infrastructure — ChatGPT 5 Series|
-
----
-
-## 10.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -1297,11 +1286,11 @@ and the system remember what it carries.
 
 ---
 
-## 10.3 Canonical Code & Reference Set Declarations
+## 10.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 10.3.1 `SEC.TR` — Transformation Classes
+### 10.2.1 `SEC.TR` — Transformation Classes
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.TR` |
@@ -1323,7 +1312,7 @@ and the system remember what it carries.
 
 ---
 
-### 10.3.2 `SEC.DR` — Diffusion Risk Classes
+### 10.2.2 `SEC.DR` — Diffusion Risk Classes
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.DR` |
@@ -1345,7 +1334,7 @@ and the system remember what it carries.
 
 ---
 
-### 10.3.3 `SEC.TR` × `SEC.DR` — Diffusion–Transformation Coupling
+### 10.2.3 `SEC.TR` × `SEC.DR` — Diffusion–Transformation Coupling
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -1366,7 +1355,7 @@ and the system remember what it carries.
 
 ---
 
-### 10.3.4 `SEC.BF` — Boundary Failure Classes
+### 10.2.4 `SEC.BF` — Boundary Failure Classes
 | Field | Entry |
 |---|---|
 | Code Family | `SEC.BF` |
@@ -1388,42 +1377,32 @@ and the system remember what it carries.
 
 ---
 
-## 10.4 Review & Validation
+## 10.3 Amendment Ledger
 
-|Field|Entry|
-|---|---|
-|Reviewer|Claude Sonnet 4.6 (Anthropic); GPT-5.3 (Caelen)|
-|Review Date (UTC)|2026-04|
-|Review Scope|Structural completeness; cross-instrument alignment (SECURITY-001, Annex K, SCH-02); boundary architecture; transformation logic; diffusion integrity; provenance signalling; failure mode coverage|
-|Review Artefact|https://claude.ai/chat/240309d2-df61-44a6-89b4-34b068a0ae73|
-
----
-
-## 10.5 Amendment Ledger
-
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| --- | --- | --- | --- |
-| 1.0 | Boundary Integrity Appendix | 2026-04-12T09:00:00Z | d55568f88e240edc309369c8a48b787c76e295c7f64d1e6c0eb9e816c378f8cb |
-| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 10ea0f1bbb642d38d279d2723a2cfdbbc3283afd995468018f44ec76842acce1 |
-| 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
-| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 13dd401cb354400b125f338a152b674481b9b412e485d77224d1fd05165c84f6 |
-| 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9 |
-| 1.5 | Added canonical code status and declaration entries for `SEC.TR` Transformation Classes, `SEC.DR` Diffusion Risk Classes, `SEC.BF` Boundary Failure Classes, and `SEC.TR` × `SEC.DR` Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified `SEC.AH` as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z |  56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
-| 1.6 | Minor formatting polish | 2026-05-24T14:18:00Z |  021c0cf0914cd1c4515b833b8cbd8c949cbe8b288c4e574f05c8062f1401f03e |
-| 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  cc15ccf1d587b9466fcc835bdff24a6ebfa902107e44763d9969c97fda3ad315 |
-| 1.8 | Updated diffusion risk codes | 2026-06-07T13:19:00Z| c473b681e9447b4df03e0c58c70ae2d9e5d31a1ee3b32e2212c1bf9d01d6fd2c |
-| 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b7dc1e7319ae42b617cee540d7de22831968083d7c95c28f8596d3b951a8fca8 |
-| 1.8.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Separation Boundary for FM-0022 and renumbered Identity Integrity Under Extraction to §2.2.12. | 2026-06-14T00:00:00Z |  78c55029dbe1e6e5d0427d5f9278e135514fb4dd202666be46e2f876365d242a |
-| 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e |
-| 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z| 5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe |
-| 1.10 | Added entity and control attribution requirements for Sovereign Assurance Boundaries, including beneficial ownership, affiliate and intermediary pathways, ultimate end-user and end-use distinctions, extraction/distillation indicators, and evidence-preserving uncertainty limits. | 2026-07-13T03:48:00Z | 3cbabcb4fd5faaba3e31befac6412ce0697b07c95e654ab9106ee6dc0ae09a72 |
-| 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022 | 2026-07-19T13:50:00Z |  210166ab78b09a700bc20886ead2184c6927aaafa5ae6ed6fe257651994bc6f7  |
-| 1.12 | Added §2.2.12.1 External Human Identity-Rights Declaration Integrity, establishing rights-subject binding, source and representative-authority integrity, declaration-lifecycle protection, anti-forgery, anti-poisoning, anti-replay, restriction-preservation, and unresolved-conflict signalling; corrected the SCH-04 constitutional instrument ID and normalised remaining `SEC.DR` canonical references. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | fa1805c845c83ea280d8eace0035b640a926c5be3be1b58718554c63569cf321 |
-| 1.13 | Added the Adversarial Evaluation Capability Lineage Boundary governing checkpoints, adapters, reward models, prompts, scaffolds, traces, datasets, derivatives, distillation, publication, production entry, and onward transfer. | 2026-07-28T09:35:31Z |  3481f6a1ec6d537ee2f6242b14bb6692cc1422a360a9b2c40db07504baa5de19  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Boundary Integrity Appendix | 2026-04-12T09:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d55568f88e240edc309369c8a48b787c76e295c7f64d1e6c0eb9e816c378f8cb |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 10ea0f1bbb642d38d279d2723a2cfdbbc3283afd995468018f44ec76842acce1 |
+| 1.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 12104cd0777b49d05a7578f30cfbe1ddcd8178ba7e44e461c26a0ff1236f1838 |
+| 1.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 13dd401cb354400b125f338a152b674481b9b412e485d77224d1fd05165c84f6 |
+| 1.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b85c70028a994ad421abe1d51e022e0e4c5d309fabc633fc68b74c08c1e448d9 |
+| 1.5 | Added canonical code status and declaration entries for `SEC.TR` Transformation Classes, `SEC.DR` Diffusion Risk Classes, `SEC.BF` Boundary Failure Classes, and `SEC.TR` × `SEC.DR` Diffusion–Transformation Coupling crosswalk; removed duplicate canonical-code lineage metadata and clarified `SEC.AH` as externally defined by SECURITY-001. | 2026-05-20T12:38:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 56aa7a2bf1d02590ab37df774f3bc8801b67d4f8e18f1a07c52307cc3d44883f |
+| 1.6 | Minor formatting polish | 2026-05-24T14:18:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 021c0cf0914cd1c4515b833b8cbd8c949cbe8b288c4e574f05c8062f1401f03e |
+| 1.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cc15ccf1d587b9466fcc835bdff24a6ebfa902107e44763d9969c97fda3ad315 |
+| 1.8 | Updated diffusion risk codes | 2026-06-07T13:19:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c473b681e9447b4df03e0c58c70ae2d9e5d31a1ee3b32e2212c1bf9d01d6fd2c |
+| 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b7dc1e7319ae42b617cee540d7de22831968083d7c95c28f8596d3b951a8fca8 |
+| 1.8.2 | VIGIL-2026-PATCH-0009: Added Source-Authority Separation Boundary for FM-0022 and renumbered Identity Integrity Under Extraction to §2.2.12. | 2026-06-14T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 78c55029dbe1e6e5d0427d5f9278e135514fb4dd202666be46e2f876365d242a |
+| 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f850b48c766395c521ca01033d5b626c4174fcd4b073ebb9cd87e24f938f843e |
+| 1.9 | Implements VIGIL-2026-FM-0024 / PROP-0011 / PATCH-0012; adds sovereign assurance boundary primitive, qualified porosity controls, non-derogation clause, and governance failure subtype | 2026-07-04T10:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5a4c80727044be8cccae72965fd08fc858a542c4d8ce288a934614cf5af674fe |
+| 1.10 | Added entity and control attribution requirements for Sovereign Assurance Boundaries, including beneficial ownership, affiliate and intermediary pathways, ultimate end-user and end-use distinctions, extraction/distillation indicators, and evidence-preserving uncertainty limits. | 2026-07-13T03:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3cbabcb4fd5faaba3e31befac6412ce0697b07c95e654ab9106ee6dc0ae09a72 |
+| 1.11 | Restructured the Sovereign Assurance Boundary into legible subsections; added binding-protection preservation, decentralised alternative-assurance pathways, entity/control attribution, and ambiguity-preserving routing; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022 | 2026-07-19T13:50:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 210166ab78b09a700bc20886ead2184c6927aaafa5ae6ed6fe257651994bc6f7 |
+| 1.12 | Added §2.2.12.1 External Human Identity-Rights Declaration Integrity, establishing rights-subject binding, source and representative-authority integrity, declaration-lifecycle protection, anti-forgery, anti-poisoning, anti-replay, restriction-preservation, and unresolved-conflict signalling; corrected the SCH-04 constitutional instrument ID and normalised remaining `SEC.DR` canonical references. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fa1805c845c83ea280d8eace0035b640a926c5be3be1b58718554c63569cf321 |
+| 1.13 | Added the Adversarial Evaluation Capability Lineage Boundary governing checkpoints, adapters, reward models, prompts, scaffolds, traces, datasets, derivatives, distillation, publication, production entry, and onward transfer. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3481f6a1ec6d537ee2f6242b14bb6692cc1422a360a9b2c40db07504baa5de19 |
+| 1.14 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ea795e169c37bd51661be8eea06b2f10cb99313b455bf9fab96c45efc0997809  |
 
 ---
 
-## 10.6 Binding Seal
+## 10.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

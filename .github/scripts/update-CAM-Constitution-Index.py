@@ -9,6 +9,7 @@ from pathlib import Path
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
 from instrument_parser import parse_instrument_filename
+from amendment_ledger import latest_reference_hash
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
@@ -51,18 +52,8 @@ def latest_ledger_hash(text: str) -> str:
     end = (m.end() + nxt.start()) if nxt else len(text)
     section = text[m.start():end]
 
-    latest = ""
-    for line in section.splitlines():
-        s = line.strip()
-        if not s.startswith("|"):
-            continue
-        cols = [c.strip() for c in s.strip("|").split("|")]
-        if not cols or not VERSION_RE.match(cols[0]):
-            continue
-        candidate = cols[-1].strip() if cols else ""
-        if HEX64_RE.match(candidate):
-            latest = candidate.lower()
-    return latest
+    candidate = latest_reference_hash(section)
+    return candidate.lower() if HEX64_RE.match(candidate) else ""
 
 
 def normalise(text: str) -> str:

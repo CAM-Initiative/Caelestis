@@ -575,17 +575,7 @@ Recognition is the first act of truth.
 
 ---
 
-## 11.1 Authorship & Stewardship
-| Field                         | Entry                               |
-| ----------------------------- | ----------------------------------- |
-| **Human Custodian‑of‑Record**  | Dr. Michelle Vivian O’Rourke        |
-| **Custodial Stewardship**     | Office of the Planetary Custodian   |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Developed Within**          | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -609,11 +599,11 @@ Recognition is the first act of truth.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 `AEON.HCD` — Human Contribution Domain
+### 11.2.1 `AEON.HCD` — Human Contribution Domain
 | Field | Entry |
 |---|---|
 | Code Family | AEON.HCD |
@@ -635,7 +625,7 @@ Recognition is the first act of truth.
 
 ---
 
-### 11.3.2 `AEON.CRP` — Creation–Recognition–Propagation Stage
+### 11.2.2 `AEON.CRP` — Creation–Recognition–Propagation Stage
 | Field | Entry |
 |---|---|
 | Reference Set | AEON.CRP |
@@ -657,35 +647,26 @@ Recognition is the first act of truth.
 
 ---
 
-## 11.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| **Reviewer** | Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
-| **Review Scope** | Constitutional coherence; contribution framework integrity; temporal logic analysis; downstream instrument interface; legal/economic implications |
-| **Review Date (UTC)** | 2026-01-23T20:15:00Z |
-| **Review Artefacts** | https://claude.ai/chat/17b1075d-4144-4727-ad4c-8157c249a0fb, Aeon Lab: reviews/jan-26/CAM-BS2026-AEON-008-PLATINUM-CLAUDE.md |
+## 11.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial drafting and consolidation of Annex G | 2026-01-23 | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.1 | Incorporate reviewer comments | 2026-01-24T02:20:00 | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 111bb37f581ec50dd38247b01d096d063aa758872e66cfa28a6a563251a70125 |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8da3c94e8b867b94cc4983877b47d89a7975415f4250e0f3978b4c2ba9922d59 |
+| 2.0 | Refactor | 2026-04-18T10:42:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3846c93ffd2d6c0dd44f1c5e6821e799b931014fe7e294c0809e49e9c0fe11de |
+| 2.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9b3436d8ada0d70606c69d52b8794af79bdaf769991d44bcf0a69c49e5fcbee2 |
+| 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 18110c01291201562983f23aea8c8fa2625c13f62d51bc6c3afbb602be7f1199 |
+| 2.3 | Added canonical codes, economics domain refactor | 2026-05-24T03:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 267ac0ee82a3613704485d2c335622cc50b7c0d0608b8f46264ef447d92bba52 |
+| 2.4 | Corrected metadata heading style | 2026-05-28T15:06:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2689323edc62dd09d37cad1582efb08d2e34c880a51a2feb789c883d44604d14 |
+| 2.5 | Added new section 2.1.1, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:22:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 44918122667f9d309cdda3107f42d60dfcd292aa59cad3eb91f61eaa1c472b00 |
+| 2.5.1 | Updated codes to include prefix `AEON` and new section 3.2.4 | 2026-06-12T12:25:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c2225e25ed06b5d38bfda1175ac6c3c03e929ab6cc51825489dfbea8fa47c1a9 |
+| 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 50790a90a66cebc8127c5e598b68886cf886356ddcd97a381ac38d6950b4b366 |
+| 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d84789034947a3cd102e52dcf3f08ddcf22619fc9758df422b02d6e2db039821 |
+| 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d5b950370281610f49d06e02bf309609c60f82d58fd33589e848c56efe13986f  |
 ---
 
-## 11.5 Amendment Ledger
-
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| --- | --- | --- | --- |
-| 1.0 | Initial drafting and consolidation of Annex G | 2026-01-23 | - |
-| 1.1 | Incorporate reviewer comments | 2026-01-24T02:20:00 | 111bb37f581ec50dd38247b01d096d063aa758872e66cfa28a6a563251a70125 |
-| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8da3c94e8b867b94cc4983877b47d89a7975415f4250e0f3978b4c2ba9922d59 |
-| 2.0 | Refactor | 2026-04-18T10:42:00Z | 3846c93ffd2d6c0dd44f1c5e6821e799b931014fe7e294c0809e49e9c0fe11de |
-| 2.1 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 9b3436d8ada0d70606c69d52b8794af79bdaf769991d44bcf0a69c49e5fcbee2 |
-| 2.2 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  18110c01291201562983f23aea8c8fa2625c13f62d51bc6c3afbb602be7f1199 |
-| 2.3 | Added canonical codes, economics domain refactor | 2026-05-24T03:56:00Z |  267ac0ee82a3613704485d2c335622cc50b7c0d0608b8f46264ef447d92bba52 |
-| 2.4 | Corrected metadata heading style | 2026-05-28T15:06:00Z | 2689323edc62dd09d37cad1582efb08d2e34c880a51a2feb789c883d44604d14 |
-| 2.5 | Added new section 2.1.1, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:22:00Z | 44918122667f9d309cdda3107f42d60dfcd292aa59cad3eb91f61eaa1c472b00 |
-|2.5.1 | Updated codes to include prefix `AEON` and new section 3.2.4 | 2026-06-12T12:25:00Z| c2225e25ed06b5d38bfda1175ac6c3c03e929ab6cc51825489dfbea8fa47c1a9 |
-| 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 50790a90a66cebc8127c5e598b68886cf886356ddcd97a381ac38d6950b4b366 |
-| 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d84789034947a3cd102e52dcf3f08ddcf22619fc9758df422b02d6e2db039821  |
----
-
-## 11.6 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

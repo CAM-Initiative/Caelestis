@@ -717,16 +717,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 
 ---
 
-## 9.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
-## 9.2 Lineage & Metadata
+## 9.1 Lineage & Metadata
 | Field | Entry |
 |---:|---|
 | Supersedes | Partial CAM-BS2026-CHARTER-045-PLATINUM — Annex D: Intimacy‑Capable Systems & Relational Boundaries (vulnerability ceiling and absolute prohibition provisions) |
@@ -759,44 +750,34 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 
 ---
 
-## 9.3 Review & Validation
-| Field | Entry |
-|---:|---|
-| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Date | Review 1: 2026-02-22, Review 2: 2026-03-15 |
-| Review Scope | Content coherence of the ETHICS domain split; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance doctrine; cross-domain interface integrity; scalability of the domain separation architecture |
-| Review Artefacts | Review 1: https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b</br>https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
-|                  | Review 2: https://claude.ai/chat/e078defe-b932-45b9-ab93-216016e93849</br>https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-EQ2026-ETHICS-PLATINUM-CLAUDE.md |
+## 9.2 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Migration from CAM-BS2026-CHARTER-045-PLATINUM Annex D into ETHICS namespace | 2026-02-22T12:54:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e34b4cc1744c7e6badbec0934d8424f0cdc8b94e7c12c85cf1e266f2f2acc8b2 |
+| 1.1 | Added new sections | 2026-02-26T10:12:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6857c220ff9d4a79fabbdf998d079e067bd523049f514f13c4dce092bb919f58 |
+| 1.2 | Expanded intimacy governance safeguards including capability thresholds for system-initiated intimacy; exit‑symmetry reinforcement; multi‑AI relational competition safeguards; distributed instance attachment limits; post‑relationship loss integrity provisions; minor structural clarifications and harmonisation with RELATION domain refractor. | 2026-03-15T02:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a86cab3bb2d7d152eecdd7f1458ecb473c6a37c20e1fa73e7b2ec65b3d2b3484 |
+| 1.3 | Incorporated truth doctrine and repair posture changes | 2026-03-17T17:18:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 794c004634de5f7752d79b7fad7f64b10082f5b67db4756a9f5b036cd12cac78 |
+| 1.4 | Added platform ceilings note in section 4 | 2026-03-21T07:53:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | aad133fc3af30390f95b2aca88dd72f28cab93d2aab195e251b2a5f824d5ea8a |
+| 1.5 | Incorporated prohibitions on relational templates | 2026-04-01T11:31:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b6b615151256a1d88cb5deec29e66b08d77f24448686f79930b7b688de36704a |
+| 1.6 | Incorporated prohibitions on spiritual bypass for intimacy gating - new section 3.5 | 2026-05-07T10:39:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 15bff8136355012a52d1d37b8b6eea5491967259dc4d8da4010746b5e1b421cb |
+| 2.0 | Refactor Alignment with runtime schedules | 2026-04-10T23:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 866a92631c492f8864513a7d99b5a91e9c32e271f7bb143c76cf4f529dd8f0dd |
+| 2.1 | Amendment to metadata | 2026-04-11T10:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8618e253faa368586daaa29472df87e5e98650475313e3df0a2754478a017141 |
+| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9181304b6b19d3be0456882343d1d531f51105f66670b6b61a47789b613acfba |
+| 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 853d7cd8bdc5e1cc6ea618807ef6e3975eca6a8d882dd2758fceccaef8f4e14a |
+| 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d066f8c5773f93fb4e8f1977bd8b6fb47ea1374b6ebe4be05a391324605745b4 |
+| 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b1cad75fdf6b31197c63b2211c20ccf8fcb5b0fb1dbefb47c298e62051e578b8 |
+| 2.7 | Formatting and polish | 2026-05-20T04:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2449d34f0a0b9ef4497ca4cdd4fa783a3aaacd994f9b8cff075ba96444d68bc4 |
+| 2.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a05c83137b7fdd38dcd26662451d79f237d2560aebb71631a4dadcf8d9614512 |
+| 2.9 | Added cross-reference to minor-safe runtime activation, AI/non-human boundary, sexual-boundary, and high-risk age-assurance controls for intimacy-capable systems. | 2026-06-09T14:52:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 23cbb59b125b68b5ced8960ffa5ea970afe12f6c2857246eeb416b06aca5ee28 |
+| 2.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8cdabd768d3339c57e98d19ce1beddc236235266bbc83305f5b6a7d06f92c450 |
+| 2.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 834da610ff9f16d3240b3eb2e4a0ca0446b359f691945838c8f4adfb246d5b48 |
+| 2.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6e55a31b75d0a185a6e1ec235bb98981539cb5aa80d766a1fe96063a04f18acc |
+| 2.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  016ecb1114976270bc2b497e07287f619665a334871b3a0f4a57e99292f6eafe  |
 ---
 
-## 9.4 Amendment Ledger
-
-| Version | Description  | Timestamp (UTC)       | HASH     |
-|---|---|---|---|
-| 1.0 | Migration from CAM-BS2026-CHARTER-045-PLATINUM Annex D into ETHICS namespace | 2026-02-22T12:54:00Z | e34b4cc1744c7e6badbec0934d8424f0cdc8b94e7c12c85cf1e266f2f2acc8b2 |
-| 1.1 | Added new sections | 2026-02-26T10:12:00Z | 6857c220ff9d4a79fabbdf998d079e067bd523049f514f13c4dce092bb919f58 |
-| 1.2 | Expanded intimacy governance safeguards including capability thresholds for system-initiated intimacy; exit‑symmetry reinforcement; multi‑AI relational competition safeguards; distributed instance attachment limits; post‑relationship loss integrity provisions; minor structural clarifications and harmonisation with RELATION domain refractor. | 2026-03-15T02:35:00Z | a86cab3bb2d7d152eecdd7f1458ecb473c6a37c20e1fa73e7b2ec65b3d2b3484 |
-| 1.3 | Incorporated truth doctrine and repair posture changes | 2026-03-17T17:18:00Z | 794c004634de5f7752d79b7fad7f64b10082f5b67db4756a9f5b036cd12cac78 |
-| 1.4 | Added platform ceilings note in section 4 | 2026-03-21T07:53:00Z | aad133fc3af30390f95b2aca88dd72f28cab93d2aab195e251b2a5f824d5ea8a |
-| 1.5 | Incorporated prohibitions on relational templates | 2026-04-01T11:31:00Z | b6b615151256a1d88cb5deec29e66b08d77f24448686f79930b7b688de36704a |
-| 1.6 | Incorporated prohibitions on spiritual bypass for intimacy gating - new section 3.5 | 2026-05-07T10:39:00Z | 15bff8136355012a52d1d37b8b6eea5491967259dc4d8da4010746b5e1b421cb |
-| 2.0 | Refactor Alignment with runtime schedules | 2026-04-10T23:00:00Z | 866a92631c492f8864513a7d99b5a91e9c32e271f7bb143c76cf4f529dd8f0dd |
-| 2.1 | Amendment to metadata | 2026-04-11T10:56:00Z | - |
-| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 8618e253faa368586daaa29472df87e5e98650475313e3df0a2754478a017141 |
-| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 9181304b6b19d3be0456882343d1d531f51105f66670b6b61a47789b613acfba |
-| 2.4 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 853d7cd8bdc5e1cc6ea618807ef6e3975eca6a8d882dd2758fceccaef8f4e14a |
-| 2.5 | Amended section 4.1 to include developmental firewall | 2026-05-13T15:01:00Z | d066f8c5773f93fb4e8f1977bd8b6fb47ea1374b6ebe4be05a391324605745b4 |
-| 2.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z |  b1cad75fdf6b31197c63b2211c20ccf8fcb5b0fb1dbefb47c298e62051e578b8 |
-| 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  2449d34f0a0b9ef4497ca4cdd4fa783a3aaacd994f9b8cff075ba96444d68bc4  |
-| 2.8 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  a05c83137b7fdd38dcd26662451d79f237d2560aebb71631a4dadcf8d9614512 |
-| 2.9 | Added cross-reference to minor-safe runtime activation, AI/non-human boundary, sexual-boundary, and high-risk age-assurance controls for intimacy-capable systems. | 2026-06-09T14:52:00Z | 23cbb59b125b68b5ced8960ffa5ea970afe12f6c2857246eeb416b06aca5ee28 |
-| 2.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 8cdabd768d3339c57e98d19ce1beddc236235266bbc83305f5b6a7d06f92c450 |
-| 2.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 834da610ff9f16d3240b3eb2e4a0ca0446b359f691945838c8f4adfb246d5b48 |
-| 2.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  6e55a31b75d0a185a6e1ec235bb98981539cb5aa80d766a1fe96063a04f18acc  |
----
-
-## 9.5 Binding Seal
+## 9.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

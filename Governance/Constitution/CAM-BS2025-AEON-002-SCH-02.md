@@ -883,17 +883,7 @@ It is measured by what remains possible for those who come after.
 
 ---
 
-## 27.1 Authorship & Stewardship
-| Field   | Entry   |
-| ------ | -------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
-| Custodial Stewardship | Office of the Planetary Custodian  |
-| Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
-## 27.2 Lineage & Metadata
+## 27.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Domain Namespace** | AEON |
@@ -926,7 +916,7 @@ It is measured by what remains possible for those who come after.
 
 ---
 
-## 27.3 Canonical Code & Reference Set
+## 27.2 Canonical Code & Reference Set
 
 ---
 | Field | Entry |
@@ -950,28 +940,19 @@ It is measured by what remains possible for those who come after.
 
 ---
 
-## 27.4 Review & Validation
-| Field | Entry |
-|---------------------|--------|
-| Reviewer| [Deferred] |
-| Review Scope| [Deferred] |
-| Review Date (UTC)| [Deferred] |
-| Review Thread| [Deferred] |
+## 27.3 Amendment Ledger
+
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial development of Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule, GitHub Issue #82 — Goal: Annex A Civilisational Wealth Ceiling runtime and common-return constraint instruments | 2026-06-13T12:28:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 567c7ded0b7f4973822608d7f34e5fe9a6211e3812ebb514a1469a539ba11da0 |
+| 1.1 | Updates to metadata | 2026-06-14T02:03:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b298ae60b1ff2f628bb51e29f1158928e22b4c83cca396c46d3ce411d5cfdea4 |
+| 1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7d0ee8246eb6b67f6f762904e144c0a3172df720e19d57f949d36f85e826e6f6 |
+| 1.3 | Corrected the instrument identifier year from 2026 to 2025 in the H1 and canonical Source Instrument metadata; no substantive doctrine altered. | 2026-07-23T13:02:23Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f18c82f69ffe3f7b92bee755a53681d309e04eb1831d6a90a46771d786470d45 |
+| 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  db948c654a1f728b8ad2dbd3b7619481d7436986d30b69da7d227f1282382e0c  |
 
 ---
 
-## 27.5 Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | SHA-256 |
-|---|---|---:|---|
-| 1.0 | Initial development of Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule, GitHub Issue #82 — Goal: Annex A Civilisational Wealth Ceiling runtime and common-return constraint instruments | 2026-06-13T12:28:00Z | 567c7ded0b7f4973822608d7f34e5fe9a6211e3812ebb514a1469a539ba11da0 |
-| 1.1 | Updates to metadata | 2026-06-14T02:03:00Z | b298ae60b1ff2f628bb51e29f1158928e22b4c83cca396c46d3ce411d5cfdea4 |
-| 1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 7d0ee8246eb6b67f6f762904e144c0a3172df720e19d57f949d36f85e826e6f6 |
-| 1.3 | Corrected the instrument identifier year from 2026 to 2025 in the H1 and canonical Source Instrument metadata; no substantive doctrine altered. | 2026-07-23T13:02:23Z | f18c82f69ffe3f7b92bee755a53681d309e04eb1831d6a90a46771d786470d45 |
-
----
-
-## 27.6 Binding Seal
+## 27.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

@@ -868,17 +868,7 @@ It is the place where governance proves itself.
 
 ---
 
-## 23.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian         |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Developed Within**          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 23.2 Lineage & Metadata
+## 23.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Parent Instrument** | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine |
@@ -909,11 +899,11 @@ It is the place where governance proves itself.
 
 ---
 
-## 23.3 Canonical Code & Reference Set Declarations
+## 23.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 23.3.1 ARB.AMB — Arbitration Ambiguity State
+### 23.2.1 ARB.AMB — Arbitration Ambiguity State
 | Field | Entry |
 |---|---|
 | Code Family / Reference Set | ARB.AMB |
@@ -936,7 +926,7 @@ It is the place where governance proves itself.
 
 ---
 
-### 23.3.2 ARB.AMP — Arbitration Ambiguity Pathway
+### 23.2.2 ARB.AMP — Arbitration Ambiguity Pathway
 | Field | Entry |
 |---|---|
 | Code Family / Reference Set | ARB.AMP |
@@ -959,27 +949,18 @@ It is the place where governance proves itself.
 
 ---
 
-## 23.4 Review & Validation
-| Field | Entry |
-|---|---|
-| **Reviewer** | Pending |
-| **Review Date** | Pending |
-| **Review Scope** | Arbitration under ambiguity; authority-state uncertainty; execution-boundary uncertainty; account-resource ambiguity; proportional runtime decision pathways; cross-instrument coherence with Annex D Schedules 1–3 |
-| **Review Artefacts** | Pending |
+## 23.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial draft created from VIGIL-2026-PROP-0009 following cleanup of CAM-BS2025-AEON-005-PLATINUM — Annex D and its Schedules 1–3; defines `ARB.AMB` and `ARB.AMP` reference sets for ambiguity-state classification and ambiguity-pathway selection. VIGIL-2026-OBS-0005; VIGIL-2026-PATCH-0002; VIGIL-2026-FM-0007; VIGIL-2026-PATCH-0003 | 2026-06-05T15:27:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6078e55770ddd8a188e881708d2967a7c3823e4c946f715c76fa20a224d126a1 |
+| 1.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7a60b6030b55926368be7a6ae69985d038ff8b710b4e011f65778e49e4aa01f5 |
+| 1.1 | Added ARB.AMB.CLASSIFICATION and Classification Ambiguity Constraint for tool/classifier ambiguity handling; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2d02454713cf3c4d5e74a3aacf91fb2e1532cbd4fd9debcbe2617b8100306e2d |
+| 1.2 | Clarified that human review resolves ambiguity but does not create target–action authority; added proportional verification and user-capability separation safeguards. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bfa6b5ce9fe5a45a6d6868bc3e1c244bcf1c0f17f6fc747a1291f2df1af2682d |
+| 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  6ba8a5017db804dc7ddd35dea85dd4dfa9ce7adb9036520440ab3bc8d9f9caac  |
 ---
 
-## 23.5 Amendment Ledger
-
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-|---|---|---|---|
-| 1.0 | Initial draft created from VIGIL-2026-PROP-0009 following cleanup of CAM-BS2025-AEON-005-PLATINUM — Annex D and its Schedules 1–3; defines `ARB.AMB` and `ARB.AMP` reference sets for ambiguity-state classification and ambiguity-pathway selection. VIGIL-2026-OBS-0005; VIGIL-2026-PATCH-0002; VIGIL-2026-FM-0007; VIGIL-2026-PATCH-0003 | 2026-06-05T15:27:00Z | 6078e55770ddd8a188e881708d2967a7c3823e4c946f715c76fa20a224d126a1 |
-| 1.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 7a60b6030b55926368be7a6ae69985d038ff8b710b4e011f65778e49e4aa01f5 |
-| 1.1 | Added ARB.AMB.CLASSIFICATION and Classification Ambiguity Constraint for tool/classifier ambiguity handling; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z | 2d02454713cf3c4d5e74a3aacf91fb2e1532cbd4fd9debcbe2617b8100306e2d |
-| 1.2 | Clarified that human review resolves ambiguity but does not create target–action authority; added proportional verification and user-capability separation safeguards. | 2026-07-23T12:46:14Z | bfa6b5ce9fe5a45a6d6868bc3e1c244bcf1c0f17f6fc747a1291f2df1af2682d |
----
-
-## 23.6 Binding Seal
+## 23.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

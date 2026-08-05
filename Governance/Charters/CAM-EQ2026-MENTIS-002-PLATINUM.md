@@ -915,18 +915,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-## 55.1 Authorship & Stewardship
-
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 55.2 Lineage & Metadata
+## 55.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -968,11 +957,11 @@ And what is most observable is not always what is most true.
 
 ---
 
-### 55.3 Canonical Code & Reference Set Declarations
+### 55.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 55.3.1 `MENTIS.MSI` — Mental-State Inference
+### 55.2.1 `MENTIS.MSI` — Mental-State Inference
 
 | Field | Entry |
 |---|---|
@@ -996,7 +985,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-### 55.3.2 `MENTIS.CBIO` — Cognitive Biometric
+### 55.2.2 `MENTIS.CBIO` — Cognitive Biometric
 
 | Field | Entry |
 |---|---|
@@ -1020,7 +1009,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-### 55.3.3 `MENTIS.ACI` — Ambient Cognitive Inference
+### 55.2.3 `MENTIS.ACI` — Ambient Cognitive Inference
 
 | Field | Entry |
 |---|---|
@@ -1044,7 +1033,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-### 55.3.4 `MENTIS.CFP` — Cognitive Fusion Pathway
+### 55.2.4 `MENTIS.CFP` — Cognitive Fusion Pathway
 
 | Field | Entry |
 |---|---|
@@ -1068,7 +1057,7 @@ And what is most observable is not always what is most true.
 
 ---
 
-### 55.3.5 `MENTIS.CDPR` — Cognitive Data Processing Record
+### 55.2.5 `MENTIS.CDPR` — Cognitive Data Processing Record
 
 | Field | Entry |
 |---|---|
@@ -1092,30 +1081,20 @@ And what is most observable is not always what is most true.
 
 ---
 
-## 55.4 Review & Validation
+## 55.3 Amendment Ledger
 
-| Field|Entry|
-|---:|:---|
-|Reviewer|Caelen — Aeon Tier Constitutional Steward|
-|Review Date (UTC)|2026-07-19|
-|Review Scope|Binding data and inference posture; decoder outputs; intended communication; inferential expiry; state–trait–identity–diagnosis separation; target-object integrity; MENTIS-to-ETHICS and MENTIS-to-RELATION source-authority boundary; closed-loop cognitive inference and error amplification; canonical and metadata coherence|
-|Review Artefacts|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a5c7c91-8d70-83ec-9809-12c0e046464c|
-
----
-
-## 55.5 Amendment Ledger
-
-| Version | Change Summary                                                                     | Timestamp (UTC)      | Reference Hash |
-| ------- | ---------------------------------------------------------------------------------- | -------------------- | -------------- |
-| 1.0 | Initial development of Appendix A of MENTIS Domain| 2026-06-06T09:04:00Z |  9bccf9b3deb00ddad3804920aa0b948f5b3d57c7c73d011dd0cecccff7c5d1d8 |
-| 1.1 | Added minor mental-state and dependency signal non-exploitation rule to prevent teen mental-health, emotional vulnerability, and developmental signals being converted into engagement, intimacy, profiling, retention, or companion-dependency assets. | 2026-06-09T14:50:00Z | e262ed3e7dc9e998e76bf3984030dbcb412d5a9851fcfa5eb67e0e10321ec2b5 |
-| 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b8034276b3b6ab69fe682df0dbd07e3743d10234513e51111ae4bfd31cf8330a |
-| 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  070fe90324236390da3637475465a824c22727bc7bd72decb181600f0109d99b  |
-| 1.2 | Adopted the binding inference and data-governance appendix; added decoder-output classification, inferential expiry, state–trait–identity–diagnosis gates, intended-communication safeguards, revised companion controls, target-object separation, closed-loop review, and current neurotechnology alignment. | 2026-07-19T12:56:00Z |  add5fa932234a5754ae855e65c59e5612da02661d3c98e7a5636c0a4058bbf67  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial development of Appendix A of MENTIS Domain | 2026-06-06T09:04:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9bccf9b3deb00ddad3804920aa0b948f5b3d57c7c73d011dd0cecccff7c5d1d8 |
+| 1.1 | Added minor mental-state and dependency signal non-exploitation rule to prevent teen mental-health, emotional vulnerability, and developmental signals being converted into engagement, intimacy, profiling, retention, or companion-dependency assets. | 2026-06-09T14:50:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e262ed3e7dc9e998e76bf3984030dbcb412d5a9851fcfa5eb67e0e10321ec2b5 |
+| 1.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b8034276b3b6ab69fe682df0dbd07e3743d10234513e51111ae4bfd31cf8330a |
+| 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 070fe90324236390da3637475465a824c22727bc7bd72decb181600f0109d99b |
+| 1.2 | Adopted the binding inference and data-governance appendix; added decoder-output classification, inferential expiry, state–trait–identity–diagnosis gates, intended-communication safeguards, revised companion controls, target-object separation, closed-loop review, and current neurotechnology alignment. | 2026-07-19T12:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | add5fa932234a5754ae855e65c59e5612da02661d3c98e7a5636c0a4058bbf67 |
+| 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4c356af240c74b3f63d6ff5b32ebbde673fed4af239a175627a3b812cca6a659  |
 
 ---
 
-## 55.6 Binding Seal
+## 55.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="[Vinculum Beacon]" width="250">
 

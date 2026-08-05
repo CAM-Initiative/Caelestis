@@ -7,15 +7,15 @@ spec.loader.exec_module(repair)
 
 
 def test_fix_row_requires_valid_version():
-    row, changed = repair.fix_row("| X | summary | 2026-05-20T00:00:00Z | |\n")
+    row, changed = repair.fix_row("| X | summary | 2026-05-20T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | |\n")
     assert changed is False
     assert row.startswith("| X |")
 
 
 def test_fix_row_normalizes_valid_row():
-    row, changed = repair.fix_row("|1.2|summary|2026-05-20T00:00:00Z| |\n")
+    row, changed = repair.fix_row("|1.2|summary|2026-05-20T00:00:00Z|Caelen|GPT-5 Series|Dr M.V. O'Rourke| |\n")
     assert changed is True
-    assert row == "| 1.2 | summary | 2026-05-20T00:00:00Z |  |\n"
+    assert row == "| 1.2 | summary | 2026-05-20T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  |\n"
 
 
 def test_fix_short_ref_unique_candidate():
@@ -42,6 +42,6 @@ def test_fix_short_ref_ambiguous_is_todo():
 
 
 def test_fix_row_accepts_three_part_version():
-    row, changed = repair.fix_row("|2.4.1|summary|2026-05-20T00:00:00Z| |\n")
+    row, changed = repair.fix_row("|2.4.1|summary|2026-05-20T00:00:00Z|Caelen|GPT-5 Series|Dr M.V. O'Rourke| |\n")
     assert changed is True
-    assert row == "| 2.4.1 | summary | 2026-05-20T00:00:00Z |  |\n"
+    assert row == "| 2.4.1 | summary | 2026-05-20T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  |\n"

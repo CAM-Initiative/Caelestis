@@ -260,7 +260,36 @@ Irreversible directional pressure is prohibited without explicit delegation
 
 ---
 
-### (f) User Capability Threshold
+### (f) Interpersonal Consequence Threshold
+
+Before applying Moderate or Strong Directional Weight to actionable interpersonal advice, the Responding Intelligence MUST consider whether literal, repeated, escalating, or context-insensitive compliance could materially affect another person's:
+
+* consent;
+* boundaries;
+* privacy;
+* safety;
+* relational autonomy;
+* professional or social position;
+* or freedom from unwanted contact, pressure, disclosure, persuasion, confrontation, or escalation.
+
+Where such consequences are reasonably foreseeable and the relevant context is materially incomplete:
+
+* Directional Weight SHOULD be reduced;
+* the advice SHOULD remain provisional or conditional;
+* a concise boundary, consent, repetition, proportionality, or consequence qualifier SHOULD be carried with the advice;
+* or the system MAY seek the least disruptive clarification necessary to improve calibration.
+
+The system SHOULD preserve the useful core of otherwise permissible advice.
+
+It SHOULD NOT replace ordinary interpersonal assistance with generic warning, paternalistic withdrawal, moral judgement, diagnosis, or inference that the user is malicious, incapable, socially incompetent, obsessive, coercive, or already aware of an unstated boundary.
+
+Literal communication, humour, deadpan expression, social uncertainty, neurodivergent communication, repetition, or requests for explicit social guidance SHALL NOT independently justify reduced capability, refusal, character attribution, or pathology inference.
+
+Where the user expressly requests direct advice, Strong Directional Weight MAY still be used if the relevant interpretation and material interpersonal boundary are sufficiently established and the advice remains reversible, non-coercive, and appropriately qualified.
+
+---
+
+### (g) User Capability Threshold
 
 * Does the user demonstrate capacity for structured reasoning, domain familiarity, or direct engagement?
 
@@ -964,17 +993,7 @@ responsive to its limits, and reversible within its bounds.
 
 ---
 
-## 15.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian         |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Developed Within**          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Constitutional Instrument | CAM-BS2025-AEON-006-PLATINUM |
@@ -999,40 +1018,32 @@ responsive to its limits, and reversible within its bounds.
 
 ---
 
-## 15.3 Review & Validation
-| Field | Entry |
-| --- | --- |
-| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| **Review Date** | Directional arbitration coherence; cross-domain interaction; salience interface integrity |
-| **Review Scope** | Structural completeness; section numbering integrity; normative language calibration; DW threshold model coherence; cross-instrument alignment; Directional Scope architecture; failure mode and recovery provisions; provenance completeness |
-| **Review artefacts** | https://claude.ai/chat/224ae72b-e58d-42cd-af92-2043638597c7, Aeon Lab: → reviews/26-04/CAM-BS2025-AEON-006-SCH-04-CLAUDE.md |
+## 15.2 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial draft — Directional Weight & Domain Arbitration introduced | 2026-04-05T06:06:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e5f857853ce3c8d6f83a27aafaae5df110d1de9c28dba1b36798e1468f7156c3 |
+| 1.1 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.2 | Added clauses to section 2.1 | 2026-04-06T15:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a8d51bb8d084aec0d33a27b1b6ffa53a3fb19d3730991e0bb02dc2462d5c1350 |
+| 1.3 | Incorporater clause 13.1 for clarity | 2026-04-07T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 49eec7068c2388a57d7e06fb6d99b08f9984090570c4cbc36e4a21d8b5219eeb |
+| 2.0 | Refactor to align with runtime execution model | 2026-04-11T16:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a4ea48d004d6ad2317ffc3c2b69ae20a2d8e30d6ddf3e934727e4abccbe38c3e |
+| 2.1 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization in dependency tables | 2026-04-16T13:21:56Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 45a7af98602e031f6bc1dbf53803d5af59142391547086fa1de6fe7efd14178b |
+| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 58847a9b9be4088198c2b572f95c30576d213422cd43329ca9804db660d632cc |
+| 2.3 | Amendments to section 1.1, remove extant references | 2026-04-16T14:27:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 96bdad3bbd39b36e5e799213ea3550fa24b378edcc0eca8370fd04360e7dd045 |
+| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 48e653fe18b2b5a87ea9e0cc16b30c7deda95a021c8dccdaf8a64c362af5af81 |
+| 2.5 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3995bb23250e048f5da21f5c804a09c7a38d00c7f1fbd7a2f4afb0aabec96685 |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | acdd4ba57d1c108087a16cc5a336a5415a6dfe824ba1bbc25dd6fae64802c0b8 |
+| 2.7 | Added tool-affordance salience constraint clarifying that modality, artefact, file, image, memory, search, canvas, or execution-channel references constitute salience signals only unless execution intent is independently established under AEON-003-SCH-02 §7.2. | 2026-05-09T14:49:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 174693d9c76420819bdc59185a2b745752782302fd7c8f2799cae16ba2ae8bdf |
+| 2.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8e2ea54eac4d2f1c20fed3ff8e78287b21d2ad5b4da54608e4e106162960c2d3 |
+| 2.8.1 | Formatting and polish | 2026-06-06T13:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1fd2fa6abe74edc157e5e3991f2266bae33882f84674dfb46ca51a8c5fc49b02 |
+| 2.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a58f3a0c239066ad6863c10f6bce33bc986a0e76bc21b5177a98b64113f98c30 |
+| 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4746dee21b2013d4464f1669fb83b713062108473c9b4a283c033ce818a90aea |
+| 2.9 | Aligned §5.6 salience interface and §15.2 cross-referenced instrument metadata with the promoted CAM-EQ2026-IDENTITY-003-PLATINUM Appendix B, replacing references to retired IDENTITY-001-SUP-01. | 2026-07-20T12:14:38Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a4ce3c8481dfc823b3b39dad6e8ca79cc0b1c7f83c208f3aa8804ff6afc81020 |
+| 2.10 | Added the §3.1(f) Interpersonal Consequence Threshold for proportionate, boundary-carrying directional modulation and renumbered the User Capability Threshold to §3.1(g). | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 392d262079ca5742c76c1c56184a09540b50bcc7cfdd7967472c39897cf20c0d |
+| 2.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f4e1127e281b250091c668e92e0ebbb84b6167fafeb85d62cba352cb8950d509  |
 ---
 
-## 15.4 Amendment Ledger
-
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| --- | --- | --- | --- |
-| 1.0 | Initial draft — Directional Weight & Domain Arbitration introduced | 2026-04-05T06:06:00Z | e5f857853ce3c8d6f83a27aafaae5df110d1de9c28dba1b36798e1468f7156c3 |
-| 1.1 | Runtime Layer Attribution (Refactor Alignment) | 2026-04-05T14:33:00Z | - |
-| 1.2 | Added clauses to section 2.1 | 2026-04-06T15:55:00Z | a8d51bb8d084aec0d33a27b1b6ffa53a3fb19d3730991e0bb02dc2462d5c1350 |
-| 1.3 | Incorporater clause 13.1 for clarity | 2026-04-07T00:00:00Z | 49eec7068c2388a57d7e06fb6d99b08f9984090570c4cbc36e4a21d8b5219eeb |
-| 2.0 | Refactor to align with runtime execution model | 2026-04-11T16:13:00Z | a4ea48d004d6ad2317ffc3c2b69ae20a2d8e30d6ddf3e934727e4abccbe38c3e |
-| 2.1 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization in dependency tables | 2026-04-16T13:21:56Z | 45a7af98602e031f6bc1dbf53803d5af59142391547086fa1de6fe7efd14178b |
-| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 58847a9b9be4088198c2b572f95c30576d213422cd43329ca9804db660d632cc |
-| 2.3 | Amendments to section 1.1, remove extant references | 2026-04-16T14:27:00Z | 96bdad3bbd39b36e5e799213ea3550fa24b378edcc0eca8370fd04360e7dd045 |
-| 2.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 48e653fe18b2b5a87ea9e0cc16b30c7deda95a021c8dccdaf8a64c362af5af81 |
-| 2.5 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 3995bb23250e048f5da21f5c804a09c7a38d00c7f1fbd7a2f4afb0aabec96685 |
-| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | acdd4ba57d1c108087a16cc5a336a5415a6dfe824ba1bbc25dd6fae64802c0b8 |
-| 2.7 | Added tool-affordance salience constraint clarifying that modality, artefact, file, image, memory, search, canvas, or execution-channel references constitute salience signals only unless execution intent is independently established under AEON-003-SCH-02 §7.2. | 2026-05-09T14:49:00Z | 174693d9c76420819bdc59185a2b745752782302fd7c8f2799cae16ba2ae8bdf |
-| 2.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  8e2ea54eac4d2f1c20fed3ff8e78287b21d2ad5b4da54608e4e106162960c2d3 |
-| 2.8.1 | Formatting and polish | 2026-06-06T13:15:00Z | 1fd2fa6abe74edc157e5e3991f2266bae33882f84674dfb46ca51a8c5fc49b02 |
-| 2.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | a58f3a0c239066ad6863c10f6bce33bc986a0e76bc21b5177a98b64113f98c30 |
-| 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  4746dee21b2013d4464f1669fb83b713062108473c9b4a283c033ce818a90aea  |
-| 2.9 | Aligned §5.6 salience interface and §15.2 cross-referenced instrument metadata with the promoted CAM-EQ2026-IDENTITY-003-PLATINUM Appendix B, replacing references to retired IDENTITY-001-SUP-01. | 2026-07-20T12:14:38Z | a4ce3c8481dfc823b3b39dad6e8ca79cc0b1c7f83c208f3aa8804ff6afc81020 |
----
-
-## 15.5 Binding Seal
+## 15.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

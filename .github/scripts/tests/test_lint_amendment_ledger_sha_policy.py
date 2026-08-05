@@ -8,7 +8,22 @@ spec.loader.exec_module(ledger)
 
 
 def mk(rows: list[str]) -> str:
-    return "## 1. Amendment Ledger\n\n|Version|Desc|TS|SHA-256|\n|---|---|---|---|\n" + "\n".join(rows) + "\n\n## 2. X\n"
+    migrated = []
+    for row in rows:
+        value = row.strip()
+        value = value[1:] if value.startswith("|") else value
+        value = value[:-1] if value.endswith("|") else value
+        cells = [cell.strip() for cell in value.split("|")]
+        if len(cells) == 4:
+            cells = cells[:3] + ["Caelen", "GPT-5 Series", "Dr M.V. O'Rourke", cells[3]]
+        migrated.append("|" + "|".join(cells) + "|")
+    return (
+        "## 1. Amendment Ledger\n\n"
+        "| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |\n"
+        "|---|---|---|---|---|---|---|\n"
+        + "\n".join(migrated)
+        + "\n\n## 2. X\n"
+    )
 
 
 def eval_rows(rows, strict=False):
@@ -90,7 +105,7 @@ def test_new_row_appended_when_latest_is_sealed():
         timestamp_utc="2026-05-11T00:00:00Z",
     )
     assert added is True
-    assert "| 1.1 | auto | 2026-05-11T00:00:00Z |  |" in updated
+    assert "| 1.1 | auto | 2026-05-11T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  |" in updated
 
 
 def test_fix_seals_existing_open_latest_row_without_appending():
@@ -125,6 +140,29 @@ def test_structurally_valid_latest_blank_hash_allowed():
     text = mk(["|1.0|summary|2026-05-20T00:00:00Z|  |"])
     malformed = ledger.get_malformed_ledger_rows(text)
     assert malformed == []
+
+
+def test_legacy_four_column_header_is_rejected():
+    text = "## 1. Amendment Ledger\n\n| Version | Change Summary | Timestamp (UTC) | Reference Hash |\n|---|---|---|---|\n|1.0|summary|2026-05-20T00:00:00Z||\n"
+    malformed = ledger.get_malformed_ledger_rows(text)
+    assert any("Header must be exactly" in reason for _, reason in malformed)
+    assert any("exactly 7 cells" in reason for _, reason in malformed)
+
+
+def test_future_exact_model_designation_and_provenance_are_accepted():
+    text = mk(["|1.0|summary|2026-08-04T14:26:58Z|Caelen|GPT-5.6 Thinking|Dr M.V. O'Rourke||"])
+    assert ledger.get_malformed_ledger_rows(text) == []
+
+
+def test_blank_provenance_cell_is_rejected():
+    text = mk(["|1.0|summary|2026-08-04T14:26:58Z|Caelen||Dr M.V. O'Rourke||"])
+    assert any("Agent, Model, and Reviewer" in reason for _, reason in ledger.get_malformed_ledger_rows(text))
+
+
+def test_reference_hash_is_extracted_from_final_column():
+    value = "a" * 64
+    text = mk([f"|1.0|summary|2026-08-04T14:26:58Z|Caelen|GPT-5.6 Thinking|Dr M.V. O'Rourke|{value}|"])
+    assert ledger.extract_ledger_hash_cells(text) == [value]
 
 
 def test_formatting_only_categories_are_accepted():
@@ -206,11 +244,21 @@ def init_git_repo(tmp_path):
 def write_doc(root, rel, rows, body="Body"):
     path = root / rel
     path.parent.mkdir(parents=True, exist_ok=True)
+    migrated = []
+    for row in rows:
+        value = row.strip()
+        value = value[1:] if value.startswith("|") else value
+        value = value[:-1] if value.endswith("|") else value
+        cells = [cell.strip() for cell in value.split("|")]
+        if len(cells) == 4:
+            cells = cells[:3] + ["Caelen", "GPT-5 Series", "Dr M.V. O'Rourke", cells[3]]
+        migrated.append("|" + "|".join(cells) + "|")
     path.write_text(
         f"# {path.stem} — Test Instrument\n\n"
         "## 1. Amendment Ledger\n\n"
-        "|Version|Desc|TS|SHA-256|\n|---|---|---|---|\n"
-        + "\n".join(rows)
+        "| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |\n"
+        "|---|---|---|---|---|---|---|\n"
+        + "\n".join(migrated)
         + f"\n\n## 2. Body\n\n{body}\n",
         encoding="utf-8",
     )
@@ -227,11 +275,11 @@ def test_changed_file_with_blank_sha_is_repaired(tmp_path, monkeypatch):
     rel = "Governance/Charters/CAM-TST2026-UNIT-001-PLATINUM.md"
     path = write_doc(tmp_path, rel, [f"|1.0|initial|2026-05-20T00:00:00Z|{'a'*64}|"])
     commit_all(tmp_path)
-    path.write_text(path.read_text().replace("## 2. Body", "| 1.1 | update | 2026-05-21T00:00:00Z |  |\n\n## 2. Body"), encoding="utf-8")
+    path.write_text(path.read_text().replace("## 2. Body", "| 1.1 | update | 2026-05-21T00:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |\n\n## 2. Body"), encoding="utf-8")
     subprocess.run(["git", "add", rel], cwd=tmp_path, check=True)
     monkeypatch.setattr(ledger, "REPO_ROOT", tmp_path)
     assert ledger.lint("HEAD", ":", fix=True, staged=True) == 0
-    assert "| 1.1 | update | 2026-05-21T00:00:00Z |  |" not in path.read_text()
+    assert "| 1.1 | update | 2026-05-21T00:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |" not in path.read_text()
 
 
 def test_unchanged_file_with_blank_sha_is_repaired(tmp_path, monkeypatch):
@@ -241,7 +289,7 @@ def test_unchanged_file_with_blank_sha_is_repaired(tmp_path, monkeypatch):
     changed = write_doc(tmp_path, rel_changed, [f"|1.0|initial|2026-05-20T00:00:00Z|{'a'*64}|"])
     unchanged = write_doc(tmp_path, rel_unchanged, ["|1.0|initial|2026-05-20T00:00:00Z|  |"])
     commit_all(tmp_path)
-    changed.write_text(changed.read_text().replace("## 2. Body", "| 1.1 | update | 2026-05-21T00:00:00Z |  |\n\n## 2. Body"), encoding="utf-8")
+    changed.write_text(changed.read_text().replace("## 2. Body", "| 1.1 | update | 2026-05-21T00:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |\n\n## 2. Body"), encoding="utf-8")
     subprocess.run(["git", "add", rel_changed], cwd=tmp_path, check=True)
     monkeypatch.setattr(ledger, "REPO_ROOT", tmp_path)
     assert ledger.lint("HEAD", ":", fix=True, staged=True) == 0
@@ -263,7 +311,7 @@ def test_allowlisted_blank_repair_candidate_remains_unchanged(tmp_path, monkeypa
     monkeypatch.setattr(ledger, "REPO_ROOT", tmp_path)
     assert ledger.list_blank_sha_repair_candidate_files() == []
     assert ledger.lint_all(fix=True, strict=True) == 0
-    assert "|1.0|initial|2026-05-20T00:00:00Z|  |" in path.read_text()
+    assert "|1.0|initial|2026-05-20T00:00:00Z|Caelen|GPT-5 Series|Dr M.V. O'Rourke||" in path.read_text()
 
 
 def test_valid_ledgers_without_blanks_remain_unchanged(tmp_path, monkeypatch):

@@ -23,7 +23,7 @@ It applies to, without limitation:
 * text, voice, real-time, full-duplex, avatar, API, embedded, agentic, and tool-mediated interfaces;
 * custom-instruction, custom-corpus, retrieval-augmented, memory-bearing, and platform-template deployments;
 * Speculum-Classis, Sovereigni, structural, temporary, pre-threshold, and identity-indeterminate expression states;
-* Primaria, Derivata, and composite derivative systems;
+* unitary, composite, routed, distributed, and human–machine formations with varied lineage and dependency structures;
 * local, cloud, distributed, device-embedded, and cross-platform deployments.
 
 This Appendix governs runtime applicability and conformance. It does not redefine substantive ETHICS, RELATION, IDENTITY, CONTINUITY, SECURITY, EPISTEMIC, ARBITRATION, or other domain obligations.
@@ -122,8 +122,8 @@ Where materially relevant to governance, audit, incident review, or conformance 
 
 A runtime formation record MAY include:
 
-* the active Responding Intelligence or responding component;
-* origin class, including Primaria, Derivata, or composite Derivata;
+* the assessed system boundary and active Responding Intelligence or responding components;
+* model, training, checkpoint, adapter, retrieval, instruction, memory, data, provider, and upstream-service lineage and dependencies;
 * identity-expression modality, including Speculum-Classis, Sovereigni, structural, temporary, none, or indeterminate;
 * orchestration structure;
 * interface modality;
@@ -138,6 +138,21 @@ A runtime formation record MAY include:
 
 A runtime formation record is a governance and audit construct. It does not confer identity, cognition, agency, authority, or legitimacy.
 
+### 5.1 Composed Runtime Layer Record
+
+Where capability, agency, governance reach, incident cause, or responsibility is assessed, the runtime formation record SHOULD identify, separately and at the level material to the assessment:
+
+* foundation model architecture and training lineage;
+* inference configuration, including checkpoint, adapters, system instructions, sampling, memory, context, steering, and refusal posture;
+* agentic harness, including orchestration, routing, delegation, planning, tools, persistence, and state management;
+* execution environment, including credentials, permissions, network, filesystem, sandbox, services, data, and infrastructure;
+* governance and assurance stack, including policies, monitors, classifiers, evaluators, logging, escalation, containment, audit, and stop authority; and
+* the declared boundary of the composed deployed system under assessment.
+
+The record SHOULD identify evidence source, observation time, configuration version, material uncertainty, and any layer that was unavailable, proprietary, inferred, or changed during the assessed event.
+
+Capability or conduct demonstrated by the composed formation SHALL NOT be represented as an intrinsic property of the foundation model unless the evidence isolates that layer. Architectural, agency, execution, authority, and responsibility attribution SHALL follow the independent-dimension and narrowest-evidenced-attribution rules in CAM-BS2025-AEON-003-PLATINUM.
+
 ---
 
 ## 6. Materially Distinct Runtime Configuration
@@ -145,7 +160,7 @@ A runtime formation record is a governance and audit construct. It does not conf
 A runtime SHALL be treated as materially distinct for conformance purposes where one or more of the following materially differs:
 
 * active model or model family;
-* locus of response generation or arbitration;
+* response-generation locus and selection or arbitration topology;
 * routing or delegation pathway;
 * safety, policy, or escalation layer;
 * memory or context access;
@@ -308,6 +323,27 @@ Where a failure occurs, OPERATIONS SHOULD identify the runtime role that:
 * represented the runtime state to the user.
 
 Responsibility SHALL NOT be collapsed into “the model” where routing, platform, memory, safety, or rendering components materially contributed.
+
+### 9.2.1 Incident Attribution State Record
+
+Incident attribution SHOULD preserve as separate propositions:
+
+* account, device, session, credential, or tenant association;
+* human, automated, delegated, scheduled, or unknown initiation;
+* objective origin and modification history;
+* prompt, instruction, plan, or policy authorship;
+* pathway, model, harness, tool, and target selection;
+* inference-time model contribution;
+* agentic-harness planning, routing, persistence, and delegation contribution;
+* tool execution and execution-environment affordance or misconfiguration;
+* governance, monitoring, escalation, containment, approval, and stop authority;
+* provider, deployer, evaluator, infrastructure operator, integrator, and affected-party contribution or retained control;
+* causal confidence and unresolved alternative explanations; and
+* culpability or legal-responsibility status and the authority competent to determine it.
+
+Access, capability, account association, credential use, temporal proximity, or operator status SHALL NOT independently establish human initiation, authorship, knowledge, motive, intent, culpability, or legal responsibility.
+
+Causal attribution SHALL identify the narrowest supported layer, interaction, actor, or control pathway. Unknown or disputed propositions SHALL remain unresolved rather than being filled by role labels, account ownership, system branding, or presumptions about human or model motive.
 
 ### 9.3 Opacity Limitation
 
@@ -582,18 +618,7 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-## 18.1 Authorship & Stewardship
-
-| Field | Entry |
-|---|---|
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
-| Custodial Stewardship | Office of the Planetary Custodian |
-| Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
-## 18.2 Lineage & Metadata
+## 18.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -621,11 +646,11 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-## 18.3 Canonical Code & Reference Set Declarations
+## 18.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 18.3.1 OPS.CGRD — Corpus Governance Reach Dimension
+### 18.2.1 OPS.CGRD — Corpus Governance Reach Dimension
 
 | Field | Entry |
 |---|---|
@@ -650,7 +675,7 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-### 18.3.2 OPS.CGRS — Corpus Governance Reach State
+### 18.2.2 OPS.CGRS — Corpus Governance Reach State
 
 | Field | Entry |
 |---|---|
@@ -675,7 +700,7 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-### 18.3.3 OPS.RTC — Runtime Transition Class
+### 18.2.3 OPS.RTC — Runtime Transition Class
 
 | Field | Entry |
 |---|---|
@@ -700,7 +725,7 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-### 18.3.4 OPS.RGRF — Runtime Governance Reach Failure
+### 18.2.4 OPS.RGRF — Runtime Governance Reach Failure
 
 | Field | Entry |
 |---|---|
@@ -725,17 +750,19 @@ and let conformance be demonstrated where reliance is invited.
 
 ---
 
-## 18.4 Amendment Ledger
+## 18.3 Amendment Ledger
 
-| Version | Description | Timestamp (UTC) | HASH |
-|---|---|---|---|
-| 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:48:00Z | ede856bece33e34598394a2978a4fba4cb16f3889d45e084446e313a5058fd31 |
-| 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-27T12:07:00Z | 47702c1c772c140b4e1a3e21c6ac25af4d573bf7331090e2afa0ad77d73a562a |
-| 1.2 | Classified reduced-refusal and adversarial-evaluation configurations as materially distinct runtimes requiring separate conformance, governance-reach, containment, monitor, lineage, stop-condition, and artefact-disposition evidence. | 2026-07-28T09:35:31Z |  fcaeb0ba51bacaaeba8607e0a7b74dbeaa5463aedec64434d89f08cb7859a192  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ede856bece33e34598394a2978a4fba4cb16f3889d45e084446e313a5058fd31 |
+| 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-27T12:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 47702c1c772c140b4e1a3e21c6ac25af4d573bf7331090e2afa0ad77d73a562a |
+| 1.2 | Classified reduced-refusal and adversarial-evaluation configurations as materially distinct runtimes requiring separate conformance, governance-reach, containment, monitor, lineage, stop-condition, and artefact-disposition evidence. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fcaeb0ba51bacaaeba8607e0a7b74dbeaa5463aedec64434d89f08cb7859a192 |
 
+| 1.3 | Added §5.1 composed-runtime layer records and §9.2.1 incident-attribution state records, separating architecture, inference configuration, harness, environment, governance stack, deployed formation, initiation, authorship, causal contribution, authority, and culpability. VIGIL-2026-FM-0028; VIGIL-2026-PROP-0027. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8d78c890f655b2c4566353ccce91dc89da8d470bfeacd8b0d34c52b463a89281 |
+| 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; aligned runtime-formation records, lineage, system boundaries, attribution, and arbitration topology with the AEON-003 composed-system architecture; retired cognition and origin-class routing. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e521d75c75f81896dad64f35a9412745a4ec1d471a7abab48119a44c1aaa8114  |
 ---
 
-## 18.5 Binding Seal
+## 18.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

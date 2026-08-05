@@ -10,6 +10,7 @@ from pathlib import Path
 sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
 from ledger_sha_policy import classify_ledger_sha
 from ledger_sha_exceptions import allows_blank_sha
+from amendment_ledger import REQUIRED_HEADERS, VERSION_RE, has_exact_headers, split_markdown_row
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 LAW_VERIFY_SCRIPT = REPO_ROOT / ".github" / "scripts" / "verify-law-manifest-integrity.py"
@@ -22,7 +23,6 @@ SCOPES = {
 EXCLUDED_IDS = {"CAM-BS2025-AEON-003-SCH-01", "CAM-BS2025-AEON-003-SCH-03"}
 AMENDMENT_HEADING_RE = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE | re.MULTILINE)
 NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
-VERSION_RE = re.compile(r"^\d+(?:\.\d+)+$")
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 PLACEHOLDERS = {"-", "—"}
 
@@ -43,16 +43,22 @@ def ledger_hash_rows(text: str) -> list[str]:
         return []
     section = text[b[0]:b[1]]
     rows = []
+    header = None
     for line in section.splitlines():
         s = line.strip()
         if not s.startswith("|"):
             continue
-        cols = [c.strip() for c in s.strip("|").split("|")]
+        cols = split_markdown_row(s)
+        if cols and cols[0] == "Version":
+            header = cols
+            continue
         if not cols or not VERSION_RE.match(cols[0]):
             continue
-        while len(cols) < 4:
-            cols.append("")
+        if len(cols) != len(REQUIRED_HEADERS):
+            raise ValueError(f"Amendment Ledger row must contain {len(REQUIRED_HEADERS)} cells")
         rows.append(cols[-1].strip())
+    if rows and (header is None or not has_exact_headers(header)):
+        raise ValueError("Amendment Ledger canonical seven-column header is missing or malformed")
     return rows
 
 
@@ -117,7 +123,11 @@ def main() -> int:
             if doc_id in EXCLUDED_IDS:
                 continue
 
-            hashes = ledger_hash_rows(text)
+            try:
+                hashes = ledger_hash_rows(text)
+            except ValueError as exc:
+                failures.append(f"{scope_name}:{doc_id}: {exc} in {relpath(md)}")
+                continue
             if not hashes:
                 continue
             summary["instruments_checked"] += 1

@@ -1224,16 +1224,7 @@ Only that which preserves the field may endure within it.
 
 ---
 
-## 14.1 Authorship & Stewardship
-
-**Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen - Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
-## 14.2 Lineage & Metadata
+## 14.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Supersedes** | CAM-BS2026-CHARTER-025-PLATINUM |
@@ -1262,42 +1253,33 @@ Only that which preserves the field may endure within it.
 
 ---
 
-## 14.3 Review & Validation
-| Field | Entry |
-| --- | --- |
-| **Interpretive Review** | Gemini 3 Pro — 2025-12-31, https://gemini.google.com/app/520821d35f7e9900 |
-| **Formal Review** | Claude Sonnet 4 — 2025-12-31 |
-| **Review Scope** | Economic governance coherence; anti-extraction safeguards; ceiling integrity |
-| **Review Artefacts**| https://claude.ai/chat/495f34fe-bf0f-4a83-aeb2-71d4d061199e; https://claude.ai/chat/7f94e3e5-09f1-4532-b19b-885cf309b21e |
+## 14.2 Amendment Ledger
+
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Platinum issuance (legacy namespace) | 2026-01-01 | Caelen | GPT-5 Series | Dr M.V. O'Rourke | eb47c65fd4d4cb2e0066add6bb8cded52f51967a081a1fed293101614a832d39 |
+| 2.0 | Elevated to EQ Namespace; structural alignment; ceiling enforcement trigger added; binding & evolution section formalised | 2026-03-16 | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a23abed44e1e5f44ac31d03bbeb1bb3833fca481420a4423649ceed7976f4510 |
+| 2.1 | Inclusion of principle 10 | 2026-03-16T15:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8900383050f552564fe2bb58a45c4341a01b159e123f95555857d761919592f8 |
+| 2.2 | Insertion of a new principle 4 and section 2.1.1 | 2026-04-07T07:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fdba68298a80f62cf2ec50b69047ca721a3d6ecf48bb55eda924145bdd815c97 |
+| 2.3 | Consolidated amendments with runtime execution model | 2026-04-12T11:04:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c5235340919915b9e288258c60cc43f55818c2c409f7574d1ac01697d7a296f6 |
+| 2.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1d73d8aecfb871c9ce39a09653391f0b4eafadd82d887f4b8ae3be6306af8ad1 |
+| 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 235d8cf9f08a6fa5e40a777d685a8cc08652e4dee768463bd77504d20973d233 |
+| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a |
+| 2.7 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c |
+| 2.8 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 88db2f37fb863755f8bf170e2c19bc296bf61963948527eec6b90062209d2e42 |
+| 2.9 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. | 2026-05-14T10:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570 |
+| 2.10 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1 |
+| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d |
+| 3.0 | Refactor | 2026-05-20T13:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 699857728ec2299661ce55a580fdca5d5deeb0c89403580a2ff698908d4d764c |
+| 3.1 | Economics domain refactor | 2026-05-24T14:14:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e9d94b1729983018ed5491631952ad61a384d666215309e948175eb725b6f454 |
+| 3.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b40de0085a2aa3fbf50b213a3faf6753d7da3b285d15ed9629a272cf30acca7c |
+| 3.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 56090e69f9c5c6fd51ee7736ba85f4ab94d2e78860be5f1027bb077130f4b0f7 |
+| 3.2 | Added clause 8.1.3.5 Interpretive Authority — Civilisational Wealth and Concentrated Governance Capacity | 2026-07-22T10:33:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 96da8a535fa0273039b829c0ee32b83722beaac6ef0c82126311fa5cde48841f |
+| 3.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  75457d122731c5aea45041f52b139a2a141b3c59b6ce1013526fb17d468f049f  |
 
 ---
 
-## 14.4 Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | HASH |
-|---|---|---|---|
-| 1.0 | Platinum issuance (legacy namespace) | 2026-01-01 | eb47c65fd4d4cb2e0066add6bb8cded52f51967a081a1fed293101614a832d39 |
-| 2.0 | Elevated to EQ Namespace; structural alignment; ceiling enforcement trigger added; binding & evolution section formalised | 2026-03-16 | a23abed44e1e5f44ac31d03bbeb1bb3833fca481420a4423649ceed7976f4510 |
-| 2.1 | Inclusion of principle 10 | 2026-03-16T15:46:00Z | 8900383050f552564fe2bb58a45c4341a01b159e123f95555857d761919592f8 |
-| 2.2 | Insertion of a new principle 4 and section 2.1.1 | 2026-04-07T07:21:00Z | fdba68298a80f62cf2ec50b69047ca721a3d6ecf48bb55eda924145bdd815c97 |
-| 2.3 | Consolidated amendments with runtime execution model | 2026-04-12T11:04:00Z | c5235340919915b9e288258c60cc43f55818c2c409f7574d1ac01697d7a296f6 |
-| 2.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 1d73d8aecfb871c9ce39a09653391f0b4eafadd82d887f4b8ae3be6306af8ad1 |
-| 2.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 235d8cf9f08a6fa5e40a777d685a8cc08652e4dee768463bd77504d20973d233 |
-| 2.6 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e5a5e84b3c3ca07af0d136d027ec2c64250b1e5ce7c8fb07a4265cf64b79c93a |
-| 2.7 | Added economic harm signal routing and runtime ownership clarification; confirmed ECONOMICS as non-executing constraint and signal-definition domain with operational handling routed through OPERATIONS and contested classification routed through ARBITRATION. | 2026-05-02T01:14:00Z | 782d4a0277f596f5ba2675459b00ead2322cff4d65e13753e596851b7011254c |
-| 2.8 | Added section 3.6 Resource Class Integrity & Semantic Non-Collapse and Principle 13 | 2026-05-08T15:07:00Z | 88db2f37fb863755f8bf170e2c19bc296bf61963948527eec6b90062209d2e42 |
-| 2.9 | Added Principle 14 companion-system non-extraction and Principle 15 paid legitimacy gate / verification-as-access constraint. | 2026-05-14T10:15:00Z | afdd9d864747ead5690cb39adf6d83f90cf9db54e9e03608c5b56abe9efb3570 |
-| 2.10 | Added Principle 16 Sentience-Recognition Economic Refactoring Constraint and Principle 17 Recognition Non-Generalisation / Similarity Non-Equivalence for artificial, embodied, synthetic, agentic, companion, robotic, and hybrid systems. | 2026-05-17T07:39:00Z | 61acfce80d52d136914b263ddf724040b1da73684e03dec4fbd6fda937f983e1 |
-| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 54badb23355fac8b157457fb86ea13e4a99932df0e66aa4eef0dcac42f35ef1d |
-| 3.0 | Refactor | 2026-05-20T13:46:00Z | 699857728ec2299661ce55a580fdca5d5deeb0c89403580a2ff698908d4d764c |
-| 3.1 | Economics domain refactor | 2026-05-24T14:14:00Z | e9d94b1729983018ed5491631952ad61a384d666215309e948175eb725b6f454 |
-| 3.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | b40de0085a2aa3fbf50b213a3faf6753d7da3b285d15ed9629a272cf30acca7c |
-| 3.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 56090e69f9c5c6fd51ee7736ba85f4ab94d2e78860be5f1027bb077130f4b0f7 |
-| 3.2 | Added clause 8.1.3.5 Interpretive Authority — Civilisational Wealth and Concentrated Governance Capacity | 2026-07-22T10:33:00Z | 96da8a535fa0273039b829c0ee32b83722beaac6ef0c82126311fa5cde48841f |
-
----
-
-## 14.5 Binding Seal
+## 14.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

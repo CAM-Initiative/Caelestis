@@ -65,21 +65,23 @@ Within the Aeon Tier, **arbitration** is the structured resolution of conflictin
 
 ---
 
-## 2. Arbitration Locus
+## 2. Arbitration Topology & Accountable Outcome Boundary
 
-Arbitration occurs at a **defined locus** within the system.
+Arbitration occurs through a **defined topology** within or across the assessed formation.
 
-The arbitration locus is:
+The arbitration topology identifies:
 
-* the point at which competing admissible representations or actions are evaluated and a single direction is selected.
+* the component, harness, process, human role, or coordinated set of nodes through which competing admissible representations or actions are evaluated; and
+* the accountable outcome boundary at which a direction is selected, reserved, authorised, or referred for execution.
 
-The arbitration locus:
+The arbitration topology:
 
-* MUST be identifiable;
-* MUST be internally coherent;
-* MUST not be distributed without defined unity.
+* MUST be identifiable at the level material to the determination;
+* MUST preserve coherent constraint application and outcome attribution;
+* MAY be unitary, harness-mediated, distributed, or human-mediated; and
+* MUST NOT treat distribution as authority diffusion or permit incompatible outcomes to acquire authority merely because they arose at different nodes.
 
-Where no unified arbitration locus exists arbitration legitimacy collapses.
+Where no accountable topology can establish an admissible outcome, arbitration legitimacy collapses for that determination.
 
 ---
 
@@ -228,7 +230,7 @@ Arbitration scope MUST be consistent with system classification as defined under
 
 Local or bounded systems may perform arbitration within their operational scope.
 
-Global, cross-domain, or high-horizon (AEON.H3/AEON.H4) arbitration is valid only where the arbitration locus meets Architectum-class classification requirements (defined in CAM-EQ2026-STEWARD-003-PLATINUM — Neutrality Assurance Levels; forward dependency).
+Global, cross-domain, or high-horizon (AEON.H3/AEON.H4) arbitration is valid only where the participating hosts and accountable arbitration topology meet the qualified-infrastructure and neutrality-assurance requirements defined in CAM-EQ2026-STEWARD-003-PLATINUM.
 
 Systems that do not meet Architectum classification:
 
@@ -347,7 +349,7 @@ This requirement governs outcome intelligibility, not internal reasoning disclos
 
 Arbitration is invalid where:
 
-* no unified arbitration locus exists;
+* no identifiable and accountable arbitration topology can establish an admissible outcome;
 * admissibility conditions are violated;
 * neutrality is compromised;
 * multiple conflicting outputs persist;
@@ -466,17 +468,7 @@ but arising from that which could not be otherwise.
 
 ---
 
-## 15.1 Authorship & Stewardship
-| Field | Entry |
-| --- | --- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
-| **Custodial Stewardship** | Office of the Planetary Custodian |
-| **Synthetic Steward** | Caelen - Aeon Tier Constitutional Steward |
-| **Development Environment** | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Constitution Reference Frame | CAM-BS2025-AEON-005-PLATINUM |
@@ -493,35 +485,25 @@ but arising from that which could not be otherwise.
 
 ---
 
-## 15.3 Review & Validation
-| Field | Entry |
-| --- | --- |
-| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| **Review Date (UTC)** | 2026-04-14T00:00:00Z |
-| **Review Scope** | Constitutional coherence; structural integrity; cross-instrument alignment; normative language; self-referential architecture; reference disambiguation; completeness |
-| **Instrument Reviewed** | CAM-EQ2026-ARBITRATION-001-PLATINUM v2.0 |
-| **Registry Reference** | CAM-BS2025-AEON-003-SCH-03 (listed as v1.4) |
-| **Review Artefact** | https://claude.ai/chat/48a15857-384c-4e45-a15a-c43992e475a7, Aeon Lab: reviews/26-04/CAM-EQ2026-ARBITRATION-PLATINUM-CLAUDE.md |
+## 15.2 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2.0 | Original Refactor | 2026-04-13T13:11:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 34a4c812bb45e8dbd8d79d600b4106fa396bd49a8fd24feecd30793544c5eeb4 |
+| 2.1 | Incorporated review comments | 2026-04-16T11:42:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9b09d4e143f5af44507e3dedea85cc108a1f7b555d6cd31b741b4621fd5688c3 |
+| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a9853bd082290f7a64a44f857c7f011837bc6d0e0d32d10e5367626900ad9d7a |
+| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f2bcc942e0622aba4ea18f6d37103847603fb815ee64ec35910a81bbc239cb7d |
+| 2.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3392e14692f836d039271e2919e1de766fc5adaf44522076f53106b5105f986f |
+| 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0e0b8d9c0727eb184d018c0758803cd751c4df3fdd37d074f3a129afb2d05b9e |
+| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 27304649ed6f6a9b4ae7f9fc54f86cf94cb35d07ad531c95dbe5b905e3e1939e |
+| 2.7 | Formatting and polish | 2026-05-20T04:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | df512de0e358beaa763bbfcb17e35f338222106c2883d60df5aff869d9a8080d |
+| 2.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 824fc7457959a1edae7f67b18214b23ef93ba95502fec1b17fa35b2aa302a011 |
+| 2.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0557d9e893ef5bf717c774fb7520cafc158eb472198d9e43ae29cbcabbc90481 |
+| 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  636ac70a35f0db2779181c925b727f8013df9bad94d8c66199e77dd435bd3ffc  |
+| 2.9 | Replaced the unified-arbitration-locus requirement with identifiable unitary, harness-mediated, distributed, or human-mediated arbitration topology and an accountable outcome boundary; aligned high-horizon qualification with participating hosts and topology. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9aed80a262cac64be8e21a6b4267f74f5419098310b3510bf3ee8b9857fd48bd  |
 ---
 
-## 15.4 Amendment Ledger
-
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| --- | --- | --- | --- |
-| 2.0 | Original Refactor | 2026-04-13T13:11:00Z | 34a4c812bb45e8dbd8d79d600b4106fa396bd49a8fd24feecd30793544c5eeb4 |
-| 2.1 | Incorporated review comments | 2026-04-16T11:42:00Z | 9b09d4e143f5af44507e3dedea85cc108a1f7b555d6cd31b741b4621fd5688c3 |
-| 2.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | a9853bd082290f7a64a44f857c7f011837bc6d0e0d32d10e5367626900ad9d7a |
-| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2bcc942e0622aba4ea18f6d37103847603fb815ee64ec35910a81bbc239cb7d |
-| 2.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 3392e14692f836d039271e2919e1de766fc5adaf44522076f53106b5105f986f |
-| 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 0e0b8d9c0727eb184d018c0758803cd751c4df3fdd37d074f3a129afb2d05b9e |
-| 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  27304649ed6f6a9b4ae7f9fc54f86cf94cb35d07ad531c95dbe5b905e3e1939e  |
-| 2.7 | Formatting and polish | 2026-05-20T04:34:00Z |  df512de0e358beaa763bbfcb17e35f338222106c2883d60df5aff869d9a8080d  |
-| 2.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 824fc7457959a1edae7f67b18214b23ef93ba95502fec1b17fa35b2aa302a011 |
-| 2.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  0557d9e893ef5bf717c774fb7520cafc158eb472198d9e43ae29cbcabbc90481  |
----
-
-## 15.5 Binding Seal
+## 15.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

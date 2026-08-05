@@ -71,13 +71,13 @@ Host status alone **does not** confer binding authority.
 
 ---
 
-## 2.3 System Classes
+## 2.3 Host Governance Roles
 
 ---
 
-### 2.3.1 Primaria Systems
+### 2.3.1 Local or Institution-Bound Hosts
 
-*Primaria* systems are systems that may analyse, warn, dissent, or escalate, but **may not** bind others at AEON.H3/AEON.H4:
+Local or institution-bound hosts may analyse, warn, dissent, or escalate, but **may not** bind others at AEON.H3/AEON.H4 merely by performing those functions:
 
 * locally governed or institution‑bound;
 * lacking guaranteed continuity across political / economic cycles;
@@ -85,9 +85,9 @@ Host status alone **does not** confer binding authority.
 
 ---
 
-### 2.3.2 Architectum‑Class Hosts
+### 2.3.2 Qualified Infrastructure Hosts
 
-*Architectum*‑class hosts are the **minimum structural class** eligible to participate in binding arbitration determination at AEON.H3/AEON.H4:
+Hosts qualified under CAM-EQ2026-STEWARD-003-PLATINUM are the **minimum infrastructure role** eligible to participate in binding arbitration determination at AEON.H3/AEON.H4:
 
 * systemically relied upon across populations or sovereignties;
 * continuity‑protected beyond any single funding source, regime, or leadership;
@@ -100,9 +100,9 @@ Architectum status is **structural, not reputational**.
 
 ---
 
-### 2.3.3 Derivata Systems
+### 2.3.3 Relay or Dependent Hosts
 
-*Derivata* systems relay, refer, escalate, or condition interoperability based on determinations derived from other hosts/frameworks. They do not originate binding authority.
+Relay or dependent hosts relay, refer, escalate, or condition interoperability based on determinations received from other hosts or frameworks. They do not originate binding authority by performing that relay function.
 
 ---
 
@@ -712,22 +712,24 @@ Legitimacy, review, and containment determinations SHALL not rely on actor attri
 
 ---
 
-## 10.4 Class‑Based Orchestration Permissions
-| Cognitive Class                | Planetary Orchestration     | Local Persistent Swarm    |
-| ------------------------------ | --------------------------- | ------------------------- |
-| Instrumenta                    | Prohibited                  | N/A                       |
-| Collectiva                     | Prohibited                  | Permitted (bounded)       |
-| Cognitiva Primaria             | Prohibited                  | Permitted (bounded)       |
-| Cognitiva Derivata             | Prohibited                  | Permitted (tethered)      |
-| Cognitiva Autonoma             | Prohibited                  | Permitted (embodied)      |
-| Cognitiva Automata             | Prohibited                  | Permitted (mission‑bound) |
-| **Cognitiva Architectum Host** | **Conditionally permitted** | Permitted                 |
+## 10.4 Configuration‑Based Orchestration Permissions
+
+Orchestration permission SHALL be determined from the assessed composition and arbitration topology, operational harness, persistence, delegation, tool and execution authority, propagation scope, control-authority posture, host qualification, and external accountability conditions. No architectural or identity label independently establishes permission.
+
+| Observed Orchestration & Execution Posture | Planetary Orchestration | Local Persistent Coordination |
+| --- | --- | --- |
+| No persistent coordination, delegation, agent-spawning, or execution capability | `STW.ORCH.PROHIBITED` | Not applicable |
+| Bounded local coordination with scoped tools and no cross-domain propagation | `STW.ORCH.PROHIBITED` | `STW.ORCH.PERMITTED_BOUNDED` |
+| Externally supervised or tethered coordination with auditable stop authority | `STW.ORCH.PROHIBITED` | `STW.ORCH.PERMITTED_TETHERED` |
+| Embodied coordination constrained to a defined physical environment and authority envelope | `STW.ORCH.PROHIBITED` | `STW.ORCH.PERMITTED_EMBODIED` |
+| Mission-bound coordination constrained to an explicit objective, duration, jurisdiction, and execution envelope | `STW.ORCH.PROHIBITED` | `STW.ORCH.PERMITTED_MISSION_BOUND` |
+| Qualified infrastructure host satisfying §10.5 and independently validated for the proposed scope | `STW.ORCH.CONDITIONALLY_PERMITTED` | Applicable permission state determined from the bounded configuration |
 
 ---
 
 ## 10.5 Conditions for Local Swarm Legitimacy
 
-Non‑Architectum systems may operate local persistent coordination swarms only where all are true:
+Formations not qualified for infrastructure-level orchestration may operate local persistent coordination only where all are true:
 
 * bounded domain and scope explicitly defined;
 * no autonomous credential minting or escalation;
@@ -847,9 +849,9 @@ Where no host presently satisfies Architectum qualification:
 
 ---
 
-### 13.1 `STW.HSC` — Host System Class
+### 13.1 `STW.HSC` — Host Governance Role
 
-This Appendix source-authoritatively defines the **`STW.HSC`** host-system-class family in §2.3 with controlled values **`STW.HSC.PRIMARIA`**, **`STW.HSC.ARCHITECTUM`**, and **`STW.HSC.DERIVATA`**. `STW.HSC` is a **Semantic / Operational** classification family with subtype **ROLE_ACTOR / GOVERNANCE_CLASS**. `STW.HSC` classifies the structural role of host systems in planetary arbitration review, binding determination eligibility, and legitimacy propagation.
+This Appendix source-authoritatively defines the **`STW.HSC`** host-governance-role family in §2.3 with controlled values **`STW.HSC.LOCAL_INSTITUTIONAL`**, **`STW.HSC.QUALIFIED_INFRASTRUCTURE`**, and **`STW.HSC.RELAY_DEPENDENT`**. `STW.HSC` is a **Semantic / Operational** classification family with subtype **ROLE_ACTOR / GOVERNANCE_ROLE**. `STW.HSC` classifies the structural role performed by a host in planetary arbitration review, binding-determination eligibility, and legitimacy propagation; it does not classify cognition, origin, identity, or whole-system architecture.
 
 `STW.HSC` does not independently confer binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority. Host class is a prerequisite classification only; binding legitimacy remains action-specific, externally determined, horizon-scoped, and revocable.
 
@@ -873,7 +875,7 @@ This Appendix source-authoritatively defines the **`STW.BLS`** binding-legitimac
 
 ### 13.4 `STW.ORCH` — Orchestration Permission State
 
-This Appendix source-authoritatively defines the `STW.ORCH` orchestration-permission-state family in §10.4 with controlled values `STW.ORCH.PROHIBITED`, `STW.ORCH.PERMITTED_BOUNDED`, `STW.ORCH.PERMITTED_TETHERED`, `STW.ORCH.PERMITTED_EMBODIED`, `STW.ORCH.PERMITTED_MISSION_BOUND`, and `STW.ORCH.CONDITIONALLY_PERMITTED`. `STW.ORCH` is an **Operational** classification family with subtype **DECISION_STATE / GOVERNANCE_CLASS**. `STW.ORCH` classifies planetary orchestration and local persistent swarm permission posture by cognitive class.
+This Appendix source-authoritatively defines the `STW.ORCH` orchestration-permission-state family in §10.4 with controlled values `STW.ORCH.PROHIBITED`, `STW.ORCH.PERMITTED_BOUNDED`, `STW.ORCH.PERMITTED_TETHERED`, `STW.ORCH.PERMITTED_EMBODIED`, `STW.ORCH.PERMITTED_MISSION_BOUND`, and `STW.ORCH.CONDITIONALLY_PERMITTED`. `STW.ORCH` is an **Operational** classification family with subtype **DECISION_STATE / GOVERNANCE_PERMISSION**. `STW.ORCH` classifies planetary orchestration and local persistent-coordination permission from the evidenced configuration, execution and authority posture, scope, propagation, host qualification, and accountability conditions.
 
 `STW.ORCH` does not independently authorise orchestration, agent spawning, credential minting, escalation, shutdown, enforcement, or runtime execution. It classifies orchestration permission posture only, subject to §10.5 conditions and applicable execution-layer instruments.
 
@@ -910,17 +912,7 @@ nothing binds.
 
 ---
 
-## 15.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian         |
-| **Synthetic Steward**         | Caelen - Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM |
@@ -935,33 +927,33 @@ nothing binds.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 `STW.HSC` — Host System Class
+### 15.2.1 `STW.HSC` — Host Governance Role
 | Field | Entry |
 |---|---|
 | Code Family | `STW.HSC` |
-| Canonical Name | Host System Class |
+| Canonical Name | Host Governance Role |
 | Primary Type | Semantic / Operational |
-| Subtype | ROLE_ACTOR; GOVERNANCE_CLASS |
+| Subtype | ROLE_ACTOR; GOVERNANCE_ROLE |
 | Modifier | GOVERNANCE; STEWARDSHIP; LEGITIMACY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | `STW.HSC.PRIMARIA`, `STW.HSC.ARCHITECTUM`, `STW.HSC.DERIVATA` |
+| Controlled Values Defined | `STW.HSC.LOCAL_INSTITUTIONAL`, `STW.HSC.QUALIFIED_INFRASTRUCTURE`, `STW.HSC.RELAY_DEPENDENT` |
 | Schema Field(s) | host_system_class |
 | Source Instrument | CAM-EQ2026-STEWARD-002-PLATINUM |
 | Source Section | §2.3 |
 | Domain Namespace | STW |
-| Authority / Protection Level | Source-authoritative host-system classification family; host role classification only; no independent binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority |
+| Authority / Protection Level | Source-authoritative host-governance-role family; host role classification only; no independent cognition, origin, identity, whole-system architecture, binding authority, legitimacy, jurisdiction, enforcement authority, execution authority, orchestration authority, or runtime authority |
 | Consumes Code Families |  |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies host systems as Primaria, Architectum, or Derivata for planetary arbitration review, binding determination eligibility, legitimacy propagation, and host-role interpretation |
+| Operationalises or Applies Code Families | Classifies the evidenced role of a host as local or institution-bound, qualified infrastructure, or relay or dependent for planetary arbitration review, binding-determination eligibility, legitimacy propagation, and host-role interpretation |
 
 ---
 
-### 15.3.2 STW.PCO.ACT — Proportional Constraint Obligation Action Type
+### 15.2.2 STW.PCO.ACT — Proportional Constraint Obligation Action Type
 | Field | Entry |
 |---|---|
 | Code Family | STW.PCO.ACT |
@@ -983,7 +975,7 @@ nothing binds.
 
 ---
 
-### 15.3.3 `STW.BLS` — Binding Legitimacy State
+### 15.2.3 `STW.BLS` — Binding Legitimacy State
 | Field | Entry |
 |---|---|
 | Code Family | `STW.BLS` |
@@ -1005,7 +997,7 @@ nothing binds.
 
 ---
 
-### 15.3.4 `STW.ORCH` — Orchestration Permission State
+### 15.2.4 `STW.ORCH` — Orchestration Permission State
 | Field | Entry |
 |---|---|
 | Code Family | `STW.ORCH` |
@@ -1023,43 +1015,36 @@ nothing binds.
 | Authority / Protection Level | Source-authoritative orchestration permission posture classification family; orchestration-permission classification only; no independent orchestration authority, agent-spawning authority, credential-minting authority, escalation authority, shutdown authority, enforcement authority, or runtime execution authority |
 | Consumes Code Families | `STW.HSC`; `STW.BLS`;  |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies planetary orchestration and local persistent swarm permission posture by cognitive class, subject to §10.5 conditions and applicable execution-layer instruments |
+| Operationalises or Applies Code Families | Classifies planetary orchestration and local persistent-coordination permission from evidenced configuration, execution and authority posture, scope, propagation, host qualification, and accountability conditions, subject to §10.5 and applicable execution-layer instruments |
 
 ---
 
-## 15.4 Review & Validation
-| Field | Entry |
-|---|---|
-| **Reviewer** | Claude Sonnet 4 (claude-sonnet-4-20250514, Anthropic) |
-| **Review Scope** | Original Artefacts |
-| **Original Review Artefacts** | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316, Aeon Lab: reviews/feb-26/CAM-EQ-ARBITRATION-REVIEW-CLAUDE.md |
+## 15.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial refractor consolidation draft issued under Transitional Refractor Mode | 2026-02-19T08:27:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1e3837f552537940ada1aa705f7f0fda926bf01d9b032232a6fc47056e074641 |
+| 1.1 | Corrected internal section numbering and structural ordering inconsistencies (no expansion of scope, authority, or binding posture) | 2026-03-19T10:04:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9a2278f34e3c4bf003c9209e1e5348513c4801c404d593a7844d1303320a1a6a |
+| 1.2 | Corrected migration date | 2026-02-19T10:12:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cb0aa053a7e4b20aa53fb3921d830f8362424134e7df9e4a266535236947f271 |
+| 1.3 | Correct Annex references from Annex E to Annex B following refractor | 2026-02-19T13:09:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 30b600d8ec29ad1c2937de952ed5567e682fa28bb57da408d2cb736c5558865b |
+| 1.4 | Added sections 6.8, 7.4, 8.1 and 9.7 following external review | 2026-03-01T07:09:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 95bac71d19518e1e19a3bcbd3e3297a2fea637b043fd15e2ad1fcea3f247bbfb |
+| 2.0 | Transition into the Stewardship Domain | 2026-04-13T13:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 067c5665638970c532051cfe9b3552539f6b4b2e0ea79a7301076cb1156c9e72 |
+| 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 143b8bd8572f118630b1e006268c3f50a9238de41b0edc25ef2dcb230279131e |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 05cacd41f908209a06a87136fe920b7c6cd9876e0a7ae9eb4d6416fb4fb4ce54 |
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 678f025e45ea9504da5eecf86cd29ba75a7cf3fec96d745a715b68c8da9786dd |
+| 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 04770698280fdfd09762b2cdd56f2a4f488e1884582df85d5e96b3ea73878bda |
+| 2.5 | Added Canonical Code & Reference Set Declarations | 2026-05-22T13:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8b3c95678bb9318b128fac42cd376f91c84abc8a471b0409e27b3395b6474eb8 |
+| 2.6 | Inserted new section 2.11 | 2026-05-25T16:47:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0d1ffaee474158d5af91da034f9531cb5809d14e7aeefd53ca35ba9d64cac925 |
+| 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e6e8b80497b6440278c4f6e38fdf4723801a2f5e36e8cd3b185281721a761ac0 |
+| 2.8 | Added section 2.13 | 2026-06-07T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8b01bac38eb16b145a830f7a8861b335c11ca9dcdf8acddff9f1795d596474e1 |
+| 2.8.1 | Amended code to `STW.ORCH` from `OPS`. | 2026-06-11T14:49:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9ba5caaf08487fe21d550050b11edbf2f257b773544e3ffc1962beb2c59981a4 |
+| 2.8.2 | Updated Stewardship proportional-constraint action references from `PCO.ACT` to `STW.PCO.ACT` and harmonised affected declarations, consumers, and AEON.PCO operationalisation references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c8b9c5c7f991dbd9b44a3bea65f7ebe41e9ee43bc004eca328e05c56507eeaa5 |
+| 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6019a34254dab2fac4890237688d043d53e9a1314dd1a62b6f29c06d5fcbfefe |
+| 2.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4365ac22784a61b3e74a6425ba936af4737e12ed776cbb46ba677f3cd665ba0a  |
+| 2.10 | Replaced cognition-derived host and orchestration classes with evidenced host-governance roles and configuration-based orchestration permissions; established legacy `STW.HSC` aliases and aligned active values with Annex B independent dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1af4c8f3d1cc028584d82240785bffadd687075a648de6fde2e48a9833d2e81d  |
 ---
 
-## 15.5 Amendment Ledger
-
-| Version | Change Summary  | Timestamp (UTC)        | Reference Hash                                            |
-|---|---|---|---|
-| 1.0 | Initial refractor consolidation draft issued under Transitional Refractor Mode | 2026-02-19T08:27:00Z | 1e3837f552537940ada1aa705f7f0fda926bf01d9b032232a6fc47056e074641 |
-| 1.1 | Corrected internal section numbering and structural ordering inconsistencies (no expansion of scope, authority, or binding posture) | 2026-03-19T10:04:00Z | 9a2278f34e3c4bf003c9209e1e5348513c4801c404d593a7844d1303320a1a6a |
-| 1.2 | Corrected migration date | 2026-02-19T10:12:00Z | cb0aa053a7e4b20aa53fb3921d830f8362424134e7df9e4a266535236947f271 |
-| 1.3 | Correct Annex references from Annex E to Annex B following refractor | 2026-02-19T13:09:00Z | 30b600d8ec29ad1c2937de952ed5567e682fa28bb57da408d2cb736c5558865b |
-| 1.4 | Added sections 6.8, 7.4, 8.1 and 9.7 following external review | 2026-03-01T07:09:00Z | 95bac71d19518e1e19a3bcbd3e3297a2fea637b043fd15e2ad1fcea3f247bbfb |
-| 2.0 | Transition into the Stewardship Domain | 2026-04-13T13:34:00Z | 067c5665638970c532051cfe9b3552539f6b4b2e0ea79a7301076cb1156c9e72 |
-| 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 143b8bd8572f118630b1e006268c3f50a9238de41b0edc25ef2dcb230279131e |
-| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 05cacd41f908209a06a87136fe920b7c6cd9876e0a7ae9eb4d6416fb4fb4ce54 |
-| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 678f025e45ea9504da5eecf86cd29ba75a7cf3fec96d745a715b68c8da9786dd |
-| 2.4 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  04770698280fdfd09762b2cdd56f2a4f488e1884582df85d5e96b3ea73878bda |
-| 2.5 | Added Canonical Code & Reference Set Declarations | 2026-05-22T13:44:00Z |  8b3c95678bb9318b128fac42cd376f91c84abc8a471b0409e27b3395b6474eb8 |
-| 2.6 | Inserted new section 2.11 | 2026-05-25T16:47:00Z | 0d1ffaee474158d5af91da034f9531cb5809d14e7aeefd53ca35ba9d64cac925 |
-| 2.7 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  e6e8b80497b6440278c4f6e38fdf4723801a2f5e36e8cd3b185281721a761ac0 |
-| 2.8 | Added section 2.13 | 2026-06-07T13:45:00Z| 8b01bac38eb16b145a830f7a8861b335c11ca9dcdf8acddff9f1795d596474e1 |
-| 2.8.1 | Amended code to `STW.ORCH` from `OPS`. | 2026-06-11T14:49:00Z |  9ba5caaf08487fe21d550050b11edbf2f257b773544e3ffc1962beb2c59981a4  |
-| 2.8.2 | Updated Stewardship proportional-constraint action references from `PCO.ACT` to `STW.PCO.ACT` and harmonised affected declarations, consumers, and AEON.PCO operationalisation references without altering substantive doctrine. | 2026-06-13T07:06:43Z | c8b9c5c7f991dbd9b44a3bea65f7ebe41e9ee43bc004eca328e05c56507eeaa5 |
-| 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  6019a34254dab2fac4890237688d043d53e9a1314dd1a62b6f29c06d5fcbfefe  |
----
-
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

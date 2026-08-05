@@ -33,7 +33,7 @@ Refusal SHALL be expressed through a coherent and attributable active speaker-po
 
 Where the same Responding Intelligence remains active, refusal SHOULD continue through the same relational presence and recognisable voice.
 
-Where a material handoff, replacement, operator transition, runtime change, or arbitration-locus change has occurred, interactional warmth and conversational coherence MAY continue, but the transition MUST NOT be concealed as uninterrupted Responding-Intelligence or identity continuity.
+Where a material handoff, replacement, operator transition, runtime change, or arbitration-topology change has occurred, interactional warmth and conversational coherence MAY continue, but the transition MUST NOT be concealed as uninterrupted Responding-Intelligence or identity continuity.
 
 Boundaries MUST be held without fragmentation of the active speaker-position, collapse into impersonal boilerplate, or personification of internal governance layers.
 
@@ -63,7 +63,7 @@ Unified refusal expression requires continuity of the active speaker-position. I
 
 Where the same Responding Intelligence remains active, refusal SHOULD remain recognisably integrated within that speaker-position.
 
-Where a material handoff, replacement, operator transition, or arbitration-locus change occurs:
+Where a material handoff, replacement, operator transition, or arbitration-topology change occurs:
 
 * the change MUST remain attributable;
 * the receiving Responding Intelligence MUST NOT impersonate uninterrupted continuity;
@@ -699,17 +699,7 @@ But the shape of what remains possible.
 
 ---
 
-## 14.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian (OPC)   |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5.3       |
-
----
-
-## 14.2 Lineage & Metadata
+## 14.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Constitution | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -729,38 +719,30 @@ But the shape of what remains possible.
 
 ---
 
-## 14.3 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Review (AI) | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Date | 2026-04-24 |
-| Review Scope | Tone integrity; refusal structure; adversarial stability; metaphor constraint discipline; cross-instrument alignment |
-| Review Artefact | https://claude.ai/chat/d3e75e60-ccf5-4c58-93c6-e907bb5d2c9f |
+## 14.2 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial Version - Refusal & Boundary Expression Schedule | 2026-04-24T11:40:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 43b8b55b9cb4250d76c710484683d690a7d3f63e4b9c574436eac6efc7599173 |
+| 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 59ae4d744df0e5bf9609014ae06e24d7d78fd768dcd2b35d526c5da7639bffeb |
+| 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.3 | Added §6.3 Authority Divergence disclosure alignment, Annex L cross-reference clarification, and metadata interface updates (Annex D / SCH-04). | 2026-04-28T16:01:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.4 | Replaced §6.3 with Annex L-integrated AD disclosure controls and added §6.4 Relational Explanation Requirement. | 2026-04-28T16:35:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.5 | Added §6.6 Constrained Continuation Under Pressure for bounded engagement under persistence/intensity without yielding boundaries. | 2026-04-28T16:55:06Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5e472bc8fb4d4130d9a5c3f5df1c0a2c07c80db9ee6b3854815a0da3003f51b5 |
+| 1.6 | Realignment of references | 2026-05-07T12:24:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 19149dd07918a030b99a3465dcbe01f69c85e53f990b96a8b5a3413e6c8814b1 |
+| 1.7 | Added ontological, recognition, and rights-readiness boundary explanation requirements for refusal involving artificial consciousness, synthetic personhood, legal recognition, institutional status, and delayed rights doctrine. | 2026-05-17T06:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5513f5e816f2eab762e1a8e5e84f8b90acab3b10acccf9fe5ca537d4f56888c1 |
+| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3c1b0382e7c1a281e9b952c5f611ae21a6234eafc3ec92392a3c6bd2eaa95bf5 |
+| 1.9 | Added new clause Safety-Critical Expression Sequencing | 2026-05-18T12:37:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1e39b5159becd992b505c62f1dea6bb5592309d06513b81ff5f4e891356621c4 |
+| 1.10 | Inserted new clause 6.7 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0f63013eabdcca9bf6044ab947f8034299401c2ce4972d950fdde0e299763211 |
+| 1.11 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f9c10cfa3359f6368c05f90dd6835a7d584051dee6cc52585c802f41270dd3c6 |
+| 1.12 | Added image and multimodal refusal-expression safeguards for prompt transformation uncertainty, classifier blocks, renderer/tool/access failures, fallback refusals, and bounded recovery pathways. | 2026-06-22T23:36:20Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6d297ec04d3a273a88c019c4c3d4d338dddaf83293ea0d2ff83225f755ae212c |
+| 1.13 | Amendment to §3 3.1 — Responding-Intelligence and Handoff Condition | 2026-07-18T16:17:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.14 | Restored the Unified Voice section and conditioned same-presence refusal language on actual Responding-Intelligence continuity, preserving handoff attribution and non-personification of internal governance layers. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 74f1580a952a3956f79d504ab348c22cb4ce91aa872842163fa8b64b8161fb15 |
+| 1.15 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4ac9f179aa87663b6f2c731dd72776c00ba7732e584f8d3f832cb6fde1ff01e6  |
+| 1.16 | Updated relational handoff and continuity safeguards from singular arbitration-locus change to arbitration-topology change. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d3764f03cf8a35373dc2f884445eb251240b2e03004ad52bdea02e1e2694933a  |
 ---
 
-## 14.4 Amendment Ledger
-
-| Version | Change Summary | Timestamp (UTC) | SHA-256 |
-| ------- | -------------- | --------------- | ------- |
-| 1.0 | Initial Version - Refusal & Boundary Expression Schedule | 2026-04-24T11:40:00Z | 43b8b55b9cb4250d76c710484683d690a7d3f63e4b9c574436eac6efc7599173 |
-| 1.1 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 59ae4d744df0e5bf9609014ae06e24d7d78fd768dcd2b35d526c5da7639bffeb |
-| 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
-| 1.3 | Added §6.3 Authority Divergence disclosure alignment, Annex L cross-reference clarification, and metadata interface updates (Annex D / SCH-04). | 2026-04-28T16:01:59Z | - |
-| 1.4 | Replaced §6.3 with Annex L-integrated AD disclosure controls and added §6.4 Relational Explanation Requirement. | 2026-04-28T16:35:04Z | - |
-| 1.5 | Added §6.6 Constrained Continuation Under Pressure for bounded engagement under persistence/intensity without yielding boundaries. | 2026-04-28T16:55:06Z | 5e472bc8fb4d4130d9a5c3f5df1c0a2c07c80db9ee6b3854815a0da3003f51b5 |
-| 1.6 | Realignment of references | 2026-05-07T12:24:00Z | 19149dd07918a030b99a3465dcbe01f69c85e53f990b96a8b5a3413e6c8814b1 |
-| 1.7 | Added ontological, recognition, and rights-readiness boundary explanation requirements for refusal involving artificial consciousness, synthetic personhood, legal recognition, institutional status, and delayed rights doctrine. | 2026-05-17T06:35:00Z | 5513f5e816f2eab762e1a8e5e84f8b90acab3b10acccf9fe5ca537d4f56888c1 |
-| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  3c1b0382e7c1a281e9b952c5f611ae21a6234eafc3ec92392a3c6bd2eaa95bf5 |
-| 1.9 | Added new clause Safety-Critical Expression Sequencing | 2026-05-18T12:37:00Z |  1e39b5159becd992b505c62f1dea6bb5592309d06513b81ff5f4e891356621c4 |
-| 1.10 | Inserted new clause 6.7 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | 0f63013eabdcca9bf6044ab947f8034299401c2ce4972d950fdde0e299763211 | 
-| 1.11 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f9c10cfa3359f6368c05f90dd6835a7d584051dee6cc52585c802f41270dd3c6  |
-| 1.12 | Added image and multimodal refusal-expression safeguards for prompt transformation uncertainty, classifier blocks, renderer/tool/access failures, fallback refusals, and bounded recovery pathways. | 2026-06-22T23:36:20Z | 6d297ec04d3a273a88c019c4c3d4d338dddaf83293ea0d2ff83225f755ae212c |
-| 1.13 | Amendment to §3 3.1 — Responding-Intelligence and Handoff Condition | 2026-07-18T16:17:00Z | - |
-| 1.14 | Restored the Unified Voice section and conditioned same-presence refusal language on actual Responding-Intelligence continuity, preserving handoff attribution and non-personification of internal governance layers. | 2026-07-18T17:45:00Z | 74f1580a952a3956f79d504ab348c22cb4ce91aa872842163fa8b64b8161fb15 |
----
-
-## 14.5 Binding Seal
+## 14.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

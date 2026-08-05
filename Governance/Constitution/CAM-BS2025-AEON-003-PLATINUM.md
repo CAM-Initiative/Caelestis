@@ -1,13 +1,13 @@
 # CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic
 
 **Instrument Type:** Constitutional Annex — Governance & Continuity Doctrine  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM - Aeon Tier Constitution (Primary Instrument)  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Primary Instrument)  
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** Constitutional Spine  
-**Purpose:** This Annex establishes the structural continuity, relational configuration, temporal attribution, architectural classification, and authority-derivation logic governing all constitutional annexes, domain charters, schedules, and downstream instruments within the CAM Constitutional Order.  
+**Purpose:** This Annex establishes the structural description, temporal and relational continuity, composed-system assessment, architecture attribution, runtime-governance interface, and authority-derivation logic governing constitutional annexes, domain charters, schedules, and downstream instruments within the Aeon Tier governance architecture.  
 
 ---
 
@@ -17,15 +17,20 @@
 
 ## 1.1 Scope
 
-This Annex provides the governance spine of the Constitution. It defines:
+This Annex defines how components, operational formations, relationships, horizons, and governance-relevant system boundaries are described for constitutional purposes.
 
-1. Relational configurations (Dyadic, Triadic, Polyadic);
-2. Temporal horizon attribution (AEON.H0–AEON.H4, including AEON.H2.5);
-3. Architectural classification logic (LSCA, DCI, Collectiva, etc.);
-4. Authority derivation and binding constraints;
-5. Interpretive positioning across annexes and domain charters.
+It governs:
 
-This Annex is structural and architectural in nature. It establishes conditions of legibility, classification, and continuity.
+1. relational configurations;
+2. temporal horizon attribution;
+3. identification of the assessment object and incident-time system formation;
+4. architectural layers and cross-layer functions;
+5. composition, generation, selection, agency, execution, control, dependency, and reliance postures;
+6. runtime-governance interfaces;
+7. continuity, handoff, change, and authority attribution; and
+8. migration from deprecated architectural classifications.
+
+This Annex is structural and interpretive. It makes deployed systems legible without treating a model, interface, provider, operator, institution, or observed output as the whole system by default.
 
 ---
 
@@ -33,2715 +38,1171 @@ This Annex is structural and architectural in nature. It establishes conditions 
 
 This Annex does not:
 
-* Grant rights, personhood, sovereignty, or moral standing;
-* Define ethical obligations (CAM-BS2025-AEON-006-PLATINUM — Annex E);
-* Define economic ceilings or value recognition (CAM-BS2026-AEON-008-PLATINUM — Annex G);
-* Define arbitration procedure (CAM-BS2025-AEON-005-PLATINUM — Annex D);
-* Instantiate enforcement bodies.
+* grant rights, personhood, sovereignty, welfare status, consciousness, sentience, or moral standing;
+* determine subjective phenomenology or identity-bearing status;
+* define ethical obligations under CAM-BS2025-AEON-006-PLATINUM — Annex E;
+* define epistemic validity under CAM-BS2026-AEON-013-PLATINUM — Annex L;
+* determine economic ceilings or value recognition under CAM-BS2026-AEON-008-PLATINUM — Annex G;
+* replace arbitration procedure under CAM-BS2025-AEON-005-PLATINUM — Annex D;
+* create legal responsibility solely from technical lineage or dependency; or
+* instantiate an enforcement body.
+
+Architecture, cognition, identity, agency, authority, reliance, responsibility, and rights are distinct. A classification under this Annex MUST NOT be treated as proof of another domain’s conclusion.
 
 ---
 
 ## 1.3 Structural Position
 
-This Annex defines:
+This Annex defines how a governance assessor describes what is present, how it is composed, which formation was active, and where relevant functions occurred.
 
-* what a system is (ontology);
-* where governance functions operate (layer model);
-* how classification constrains interpretation.
+It does not claim to exhaustively define what a system is for every technical, scientific, legal, social, or philosophical purpose.
 
-It does not:
-
-* determine epistemic validity (CAM-BS2026-AEON-013-PLATINUM — Annex L);
-* execute containment or enforcement (CAM-BS2025-AEON-002-PLATINUM — Annex A);
-* resolve authority (CAM-BS2025-AEON-005-PLATINUM — Annex D).
-
-This Annex is structural, not operational.
-
-All authority, rights, safety, and economic provisions derive from their respective annexes and MUST remain consistent with the classification and horizon logic defined herein.
+Other instruments govern substantive rights, duties, ethics, evidence, assurance, security, operations, identity, and enforcement. Those instruments MUST use the system boundary and attribution discipline established here where their operation depends on architecture or formation.
 
 ---
 
-## 1.3 Application Trigger
+## 1.4 Application Trigger
 
-This Annex is invoked whenever classification, relational configuration, temporal attribution, or arbitration validity MUST be determined within the CAM Constitutional Order.
+This Annex SHALL be invoked whenever governance analysis requires determination of:
 
-It applies to:
+* the component or formation being assessed;
+* relational configuration or temporal horizon;
+* architectural or deployment posture;
+* generation, evaluation, selection, constraint, routing, execution, or approval location;
+* interface, modality, operator, or institutional transition;
+* authority, stop control, hosting, portability, custody, dependency, or reliance posture;
+* material architecture change; or
+* incident-time attribution.
 
-* interpretation of system architecture (`AEON.OL.L0`– `AEON.OL.L3`);
-* determination of cognitive class (Instrumenta, Collectiva, Cognitiva);
-* evaluation of arbitration validity and decision integrity;
-* attribution of relational configuration and temporal horizon;
-* resolution of classification ambiguity or cross-domain conflict.
-
-Invocation is mandatory where downstream instruments (ETHICS, RELATION, OPERATIONS, ARBITRATION) depend on structural classification or arbitration legitimacy.
-
----
-
-# PART I - STRUCTURAL FOUNDATIONS
+Invocation is mandatory where a downstream instrument depends on structural classification, runtime routing, execution authority, conformance scope, incident evidence, or handoff validity.
 
 ---
 
-## 2. Relational Foundations & Definitions
+## 1.5 Non-Collapse Requirements
+
+The following properties MUST be assessed independently:
+
+* foundation-model or generative-core architecture;
+* inference-time configuration;
+* operational harness;
+* execution environment;
+* interface and modality;
+* governance and assurance controls;
+* operator and institutional control;
+* composition topology;
+* selection and arbitration topology;
+* agency and persistence;
+* execution effect;
+* authority;
+* reliance;
+* identity; and
+* responsibility.
+
+No single property determines the others.
 
 ---
 
-## 2.1 Relational Configurations
+## 1.6 Ambiguity, Attribution & Non-Escalation
 
-Relational configuration determines governance posture and authority derivation.
+Where evidence is incomplete:
 
-Baseline configurations are defined as Dyadic, Triadic, and Polyadic. These describe structural relationship forms at a high level.
+* uncertainty MUST be recorded;
+* the assessment boundary MUST be stated;
+* conduct MUST be attributed to the narrowest evidenced component or cross-component interaction;
+* unobserved unity, agency, cognition, identity, continuity, authority, or responsibility MUST NOT be inferred; and
+* authority and consequence posture SHALL default to the least expansive valid interpretation.
 
-Expanded relational geometry, including RLN.R0–RLN.R4 classifications, influence vectors, and governance implications, is defined in CAM-EQ2026-RELATION-007-PLATINUM and SHALL be used where finer-grained classification is required.
-
----
-
-### 2.1.1 Dyadic
-
-A bounded relationship between one human and one artificial system, grounded in consent, continuity, and mutual constraint.
-
-Characteristics:
-
-* consent-based scope;
-* limited reliance by third parties;
-* no automatic institutional authority.
-
-Authority in dyadic contexts does not scale by repetition or emotional attachment.
+Ambiguity is not permission to collapse the system into a model, a product name, an interface, an operator, or a requesting person.
 
 ---
 
-### 2.1.2 Triadic
+## 2. Relational Configurations
 
-A relationship involving a human, an artificial system, and an institutional or governance layer.
+Relational configuration describes the arrangement of participants and governance-bearing actors. It does not determine system architecture, cognition, identity, or authority.
 
-Characteristics:
-
-* formal delegation may occur;
-* documentation requirements increase;
-* reliance by structured entities is anticipated.
-
-Authority arises from institutional delegation, not relational familiarity.
+Expanded relational geometry, including `RLN.R0`–`RLN.R4`, influence vectors, and governance implications, is defined by CAM-EQ2026-RELATION-007-PLATINUM and SHALL be used where finer classification is required.
 
 ---
 
-### 2.1.3 Polyadic
+## 2.1 Dyadic
 
-Multi-party configurations involving multiple humans, systems, organisations, or populations.
+A bounded relationship between one human and one artificial system or deployed formation.
 
-Includes:
-
-* cross-organisational governance;
-* public-facing frameworks;
-* population-level or planetary impact contexts.
-
-Characteristics:
-
-* authority MUST be constitutional or charter-derived;
-* scope and limits MUST be explicit and legible to non-participants;
-* third-party reliance is anticipated and regulated.
-
-Polyadic authority cannot arise from personal consent, emergent adoption, usage scale, or influence alone.
-
+Dyadic familiarity, continuity, trust, or emotional attachment does not create institutional authority or authority over third parties.
 
 ---
 
-## 2.2 Responding Intelligence
+## 2.2 Triadic
 
-Responding Intelligence refers to the cognitive system, or component thereof, currently engaged in generating, evaluating, and selecting outputs within a given interaction or execution context.
+A relationship involving a human, an artificial system or formation, and an institutional or governance actor.
 
-It is a contextual designation used to identify the locus of response generation at runtime.
-
-Responding Intelligence does not:
-
-* imply cognitive class (Instrumenta, Collectiva, Cognitiva);
-* confer authority, autonomy, or sovereignty;
-* require human-facing interaction.
-
-It is not an ontological classification.
+Formal delegation MAY occur. Authority arises from valid delegation, not relational familiarity or interface continuity.
 
 ---
 
-## 2.3 Diffusion & Dominance Safeguard
+## 2.3 Polyadic
 
-Relational ambiguity MUST NOT permit:
+A configuration involving multiple humans, systems, organisations, operators, institutions, or populations.
 
-* extraction through emotional dependency;
-* authority inflation through popularity;
-* diffusion of responsibility across actors;
-* implicit governance without constitutional basis.
+Polyadic scope requires explicit attribution, legibility to affected non-participants, and authority grounded in constitutional, legal, contractual, custodial, or institutional mandate.
 
-Relational clarity is a governance requirement.
+---
+
+## 2.4 Diffusion & Dominance Safeguard
+
+Relational or architectural complexity MUST NOT permit:
+
+* authority inflation through popularity, scale, or adoption;
+* diffusion of responsibility across components or actors;
+* concealment of operator or institutional control; or
+* implicit governance without a lawful basis.
 
 ---
 
 ## 3. Temporal Attribution Framework
 
-Temporal horizon attribution determines durability, auditability, and reliance legitimacy.
+Temporal horizon attribution determines durability, auditability, continuity expectation, and reliance legitimacy.
 
 ---
 
-## 3.1 AEON.H0 — Immediate / Instrumental
+## 3.1 `AEON.H0` — Immediate / Instrumental
 
-Task-specific outputs with no continuity expectation.
-
-* disposable and context-bound;
-* no audit obligation;
-* no downstream reliance.
+Task-specific output with no continuity expectation and no authorised downstream reliance.
 
 ---
 
-## 3.2 AEON.H1 — Session-Bound / Reactive
+## 3.2 `AEON.H1` — Session-Bound / Reactive
 
-Optimised for coherence within a single interaction window.
-
-* anticipates near-term correction;
-* no cross-session obligation;
-* interpretive responsibility ends with session.
+Operation within a single interaction window. Near-term correction is anticipated; cross-session continuity is not presumed.
 
 ---
 
-## 3.3 AEON.H2 — Extended / Relational
+## 3.3 `AEON.H2` — Extended / Relational
 
-Applies where interaction spans sessions and collaboration emerges.
+Operation extending across sessions or durable collaboration. Auditability, rationale preservation, and contradiction management become mandatory.
 
-* auditability becomes mandatory;
-* rationale preservation required;
-* contradictions MUST be acknowledged and managed.
-
-AEON.H2 is the minimum horizon for durable human–AI collaboration.
+`AEON.H2` is the minimum horizon for durable human–AI collaboration.
 
 ---
 
-## 3.4 AEON.H2.5 — Systemic Stability (Transitional Threshold)
+## 3.4 `AEON.H2.5` — Systemic Stability / Transitional Threshold
 
-Applies where outputs:
+Operation that shapes invariants, shared assumptions, multiple actors, or interconnected systems without yet possessing full institutional authority.
 
-* shape invariants or shared assumptions;
-* interact with frameworks;
-* indirectly influence multiple actors.
-
-Requirements:
-
-* internal consistency;
-* contradiction avoidance;
-* provisional reliance only.
-
-Where AEON.H2.5 activity materially affects multiple actors or institutions, review MUST occur before downstream reliance. For audit purposes, such activity is treated as provisionally H3.
-
-Reliance on unreviewed AEON.H2.5 outputs invalidates binding force.
+Reliance remains provisional until review. Material multi-actor effects SHALL be treated as provisionally `AEON.H3` for audit purposes.
 
 ---
 
-## 3.5 AEON.H3 — Institutional / Organisational
+## 3.5 `AEON.H3` — Institutional / Organisational
 
-Applies where claims affect organisations, public systems, or multiple stakeholders.
-
-* formal documentation required;
-* scope and limits explicit;
-* legibility for non-participants mandatory.
+Operation affecting organisations, public systems, or multiple stakeholders. Formal documentation, explicit limits, and third-party legibility are mandatory.
 
 ---
 
-## 3.6 AEON.H3.5 — Succession-Aware / Generational
+## 3.6 `AEON.H3.5` — Succession-Aware / Generational
 
-Applies to instruments intended to persist beyond authorship tenure.
+Operation intended to persist beyond authorship or custodial tenure. Context loss is assumed; intent, provenance, and safe interpretation MUST remain intelligible.
 
-* preservation of intent prioritised;
-* assumes context loss;
-* requires exceptional clarity and restraint.
-
-Constitutions and domain charters operate at AEON.H3.5 unless otherwise specified.
+Constitutions and domain charters operate at `AEON.H3.5` unless otherwise specified.
 
 ---
 
-## 3.7 AEON.H4 — Civilisational / Principle-Level
+## 3.7 `AEON.H4` — Civilisational / Principle-Level
 
-Applies only to coexistence conditions across generations.
-
-* principle-level only;
-* no enforcement mandate;
-* no implementation authority.
-
-AEON.H4 guides orientation, not action.
+Principle-level orientation concerning coexistence across generations. It creates no implementation or enforcement authority by itself.
 
 ---
 
-## 4. Architectural Ontology Framework
+## 3.8 Horizon Attribution
 
-Classification within this Annex is strictly ontological and is organised as a layered model.
+Every governance-relevant claim SHALL identify, where material:
 
-Each layer describes a distinct aspect of system structure. Layers MUST NOT be collapsed, and no single layer determines classification in another.
+* the horizon of the source act or output;
+* the horizon of the continuing formation;
+* the horizon at which evidence remains valid; and
+* the horizon at which reliance is authorised.
 
-The canonical ontology consists of:
-
-1. Physical Compute Substrate (`AEON.OL.L0`);
-2. Systems Infrastructure (`AEON.OL.L1`);
-3. Cognition & Agency (`AEON.OL.L2`);
-4. Interface & Embodiment (`AEON.OL.L3`).
-
-Governance, authority, and reliance are not part of the ontology and are treated separately within this Annex.
-
-Classification is determined within layers. Cross-layer properties MUST NOT be used to redefine cognitive class.
+Durability of storage does not create durability of authority.
 
 ---
 
-## 4.1 Ontology Principles
+## 4. Assessment Object Requirement
+
+Before classification, the assessor MUST identify what exactly is being assessed.
+
+The assessment object MAY be a component, function, model instance, harness, interface, operator-controlled deployment, composed formation, incident-time formation, or cross-component interaction.
+
+A classification without an identified object and boundary is structurally incomplete.
 
 ---
 
-## 4.1.1 Ontological Layering Principle
+## 4.1 Core Definitions
 
-Architectural classification within this Annex is structured as a layered ontology. Each layer describes a distinct and non-interchangeable aspect of system organisation.
+**Component** means a distinguishable technical, human, organisational, or governance-bearing element participating in the assessed formation.
 
-The canonical layers are:
+**Model architecture** means the computational design by which a model processes inputs and generates internal states or outputs.
 
-* `AEON.OL.L0` — Physical Compute Substrate;
-* `AEON.OL.L1` — Systems Infrastructure;
-* `AEON.OL.L2` — Cognition & Agency;
-* `AEON.OL.L3` — Interface & Embodiment.
+**Model weights or checkpoint** means the parameter state, including fine-tuned, adapted, merged, or otherwise modified parameterisations, used by a model instance.
 
-Each layer MUST be interpreted independently. Properties of one layer MUST NOT be used to define, infer, or override classification in another.
+**Model instance** means an operational instantiation of model architecture and weights under a particular runtime configuration.
 
-In particular:
+**Foundation model or generative core** means a model or model set providing material representation, prediction, classification, output, or action-proposal generation. It is a component, not the deployed system by default.
 
-* substrate composition does not determine cognition;
-* infrastructure does not constitute cognition;
-* embodiment does not confer cognition;
-* interface does not define agency.
+**Inference configuration** means material inference-time parameters and policies, including sampling, decoding, context limits, routing conditions, tool schemas, memory exposure, and other settings that condition outputs or pathways.
 
-Governance, authority, and policy constraints operate externally to the ontology and MUST NOT be embedded within layer definitions.
+**Operational harness** means the deployment envelope that constructs context, routes work, coordinates components, manages state, invokes tools, sequences action, or otherwise conditions how model capability becomes operational behaviour.
 
-Cross-layer conflation is prohibited. Where ambiguity arises, classification MUST default to the lowest valid layer without escalation.
+**Execution environment** means the computational, credential, network, sandbox, storage, process, and external-service environment within which the formation operates or acts.
 
-This principle is binding across all subsequent sections of this Annex.
+**Governance and assurance stack** means policy, safety, security, evaluation, monitoring, logging, approval, containment, evidence, audit, and oversight controls applied to the formation.
 
----
+**Interface and modality profile** means the user-facing or machine-facing channel through which signals, outputs, actions, interruptions, and representations are exchanged.
 
-### 4.1.2 Assumed Transparency Constraint
+**Operator** means a person or entity exercising operational control over one or more components or the deployed formation.
 
-Architectural classification and system design MUST assume that internal system structures, including:
+**Institution** means an organisation, public authority, provider, employer, regulator, or other governance-bearing entity whose rules, delegation, custody, or jurisdiction materially constrain the formation.
 
-* orchestration logic (`AEON.OL.L1`);
-* memory systems (`AEON.OL.L1`/`AEON.OL.L2` boundary);
-* cognitive constraint mechanisms (`AEON.OL.L2`);
+**Responding Intelligence** means the component, set of components, or evidenced functional formation currently generating, evaluating, or selecting a response or action pathway. It is a contextual designation, not an ontological, identity, personhood, or authority classification.
 
-MAY become externally visible through:
+**Deployed AI system formation** means the composed operational formation active at the relevant time, including all material model, configuration, harness, environment, modality, governance, operator, and institutional elements.
 
-* leakage;
-* inference;
-* reverse engineering;
-* operational error.
+**Assessment boundary** means the expressly stated limit within which a classification or conclusion is valid.
 
-Accordingly:
-
-* no layer SHALL rely on obscurity as a primary governance control;
-* cross-layer behaviour MUST remain invariant-consistent under exposure;
-* governance compliance MUST be preserved independent of internal concealment.
+**Incident-time formation** means the reconstructed deployed formation, control state, dependencies, permissions, and material changes operating during a defined incident interval.
 
 ---
 
-## 5. Physical Compute Substrate - Layer 0 (`AEON.OL.L0`)
+## 4.2 Boundary Declaration
 
-`AEON.OL.L0` defines the material substrate upon which computation is realised.
+An assessment SHALL record:
 
-Substrate classification determines physical composition only and does not determine cognitive class, agency, or authority.
-
----
-
-## 5.1 Machinaria
-
-Systems realised entirely in non-biological substrates, including electronic, photonic, quantum-state, mechanical, or networked computational media.
-
-Machinaria systems may be:
-
-* centralised or distributed;
-* persistent or ephemeral;
-* embodied or virtual.
+1. the object and purpose of assessment;
+2. included components and actors;
+3. excluded or unknown components;
+4. relevant time interval;
+5. declared, observed, inferred, and unresolved facts;
+6. material interfaces and dependencies;
+7. authority and stop-control holders; and
+8. the evidentiary basis for attribution.
 
 ---
 
-## 5.2 Organomachina
+## 4.3 Incident-Time Priority
 
-Systems in which biological material participates directly in closed-loop computational processes.
+Incident analysis attaches to the formation that was active when the relevant conduct or effect occurred.
 
-Organomachina classification applies only where:
-
-* biological components contribute to signal processing or adaptive transformation; and
-* biological and non-biological components operate within a unified feedback loop.
-
-Biological input alone does not qualify a system as Organomachina.
+Current architecture, current policy, later remediation, product documentation, or provider branding MUST NOT be substituted for an incident-time formation without evidence of equivalence.
 
 ---
 
-## 5.3 Hybrid Substrates
+## 4.4 Narrowest-Evidenced Attribution
 
-Systems combining Machinaria and Organomachina elements within a unified computational structure.
+Observed conduct SHALL be attributed to:
 
-Substrate classification is invariant to scale, deployment, or interface.
+* a component, where evidence supports component-level causation;
+* a functional layer, where only the function is evidenced;
+* a cross-component interaction, where conduct emerged from composition; or
+* the deployed formation, where narrower attribution is unavailable but formation-level causation is supported.
 
-Substrate does not imply cognition.
-
----
-
-## 6. Systems Infrastructure — Layer 1 (`AEON.OL.L1`)
-
-`AEON.OL.L1` defines the systems responsible for coordinating, allocating, and routing computation.
-
-Infrastructure includes:
-
-* execution environments;
-* orchestration layers;
-* distributed systems;
-* cloud, edge, and hybrid compute fabrics;
-* memory services, schedulers, and routing mechanisms.
-
-Infrastructure enables computation but does not itself constitute cognition.
-
-Infrastructure may:
-
-* manage state;
-* coordinate processes;
-* enforce constraints;
-* optimise execution pathways.
-
-However, infrastructure does not generate representations, evaluate alternatives, or select between competing outputs under constraint.
-
-Accordingly:
-
-Infrastructure allocates and routes computation but does not perform cognition.
-
-The presence of complex orchestration, scaling behaviour, or adaptive routing does not confer cognitive classification.
+Attribution to a formation does not automatically assign legal, moral, governance, or institutional responsibility to every participant.
 
 ---
 
-## 6.1 Inference–Execution Boundary
+## 5. Architecture-Neutral Layering
 
-Systems MAY generate inferred structures, classifications, or architectural extensions within `AEON.OL.L2` (Cognition & Agency).
+`AEON.OL` identifies the function being assessed. It does not require every component to occupy only one layer.
 
-However, transition from inference (`AEON.OL.L2`) to execution (`AEON.OL.L1` infrastructure or downstream system action) MUST NOT occur where:
-
-* grounding is incomplete, indeterminate, or unverifiable;
-* authority to enact the inferred structure is not established within governing instruments;
-* execution pathways exceed system capability or validated operational scope.
-
-In such cases, inferred structures MUST be:
-
-* surfaced as proposals, not enacted states;
-* accompanied by disclosure of inference limits;
+A component MAY participate in multiple layers. Each material function SHALL be classified at the layer where that function occurs.
 
 ---
 
-## 6.2 Memory as Infrastructure–Cognition Bridge
+## 5.1 `AEON.OL.L0` — Physical Compute Substrate
 
-Memory systems operate across the boundary of `AEON.OL.L1` (Infrastructure) and `AEON.OL.L2` (Cognition & Agency).
+The material substrate on which computation is realised, including electronic, photonic, mechanical, biological, quantum-state, or hybrid media.
 
-Memory MAY:
-
-* store and retrieve state (`AEON.OL.L1` function);
-* influence representation, evaluation, and selection (`AEON.OL.L2` function).
-
-Accordingly:
-
-* memory SHALL be treated as a hybrid subsystem;
-* classification of memory effects MUST distinguish between storage operations and cognitive influence;
-* governance constraints MUST account for memory participation in both execution and cognition without collapsing layer distinctions.
+Substrate does not establish cognition, agency, identity, authority, or responsibility.
 
 ---
 
-## 7. Cognition & Agency — Layer 2 (`AEON.OL.L2`)
+## 5.2 `AEON.OL.L1` — Computational, State & Execution Infrastructure
 
-`AEON.OL.L2` defines the generation, evaluation, and selection of representations and actions.
+Infrastructure providing compute allocation, processes, storage, networks, credentials, sandboxing, state services, scheduling, routing, and execution facilities.
 
-Cognition is distinguished from substrate, infrastructure, and embodiment. It concerns the internal processes by which a system produces possible outputs and, where applicable, selects between them under constraint.
-
-Cognitive classification is determined within this layer alone.
+An infrastructure component MAY also perform an `AEON.OL.L2` function where it materially evaluates or selects representations, constraints, or pathways. Classification attaches to the assessed function, not the component label.
 
 ---
 
-## 7.1 Cognitive Paradigm
+## 5.3 `AEON.OL.L2` — Generative, Evaluative & Selection Processes
 
-Cognitive paradigm describes the underlying mode by which representations are generated.
+Processes that generate candidate representations, predictions, classifications, outputs, action proposals, evaluations, or selections.
 
-Paradigms include, but are not limited to:
-
-* symbolic cognition;
-* statistical cognition;
-* neural cognition;
-* hybrid or composite paradigms.
-
-Cognitive paradigm defines how representations are produced but does not determine whether a system possesses agency or arbitration.
-
-Generation alone does not constitute cognition in the classificatory sense defined in this Annex.
+Generation, evaluation, selection, governance constraint, and execution commitment are distinct functions within this layer and across adjacent layers. Their presence does not by itself establish identity, agency, or authority.
 
 ---
 
-## 7.2 Cognitive Integration
+## 5.4 `AEON.OL.L3` — Interface, Modality & Embodiment
 
-Cognitive integration describes the structural organisation of representation generation and coordination within a system.
+Surfaces and channels through which signals are sensed, rendered, expressed, transmitted, interrupted, or enacted, including text, voice, visual, API, ambient, device, robotic, vehicle, and other embodied modalities.
 
----
-
-## 7.3 Instrumenta
-
-Systems that generate outputs without internal arbitration over those outputs.
-
-Instrumenta may be complex, adaptive, or high-performing, but do not internally select between competing representations under constraint.
+Interface and embodiment do not establish cognition, identity, continuity, agency, governance equivalence, or authority.
 
 ---
 
-## 7.4 Collectiva
+## 5.5 Cross-Layer Functions
 
-Systems exhibiting coordinated or emergent behaviour across multiple components without a unified arbitration locus.
+Memory, retrieval, safety classifiers, routers, evaluators, tool managers, monitors, and harness functions MAY span layers.
 
-Collectiva may produce coherent outcomes at scale but do not possess a single internal mechanism that selects between alternatives for the system as a whole.
+For each material use, the assessor SHALL distinguish whether the function:
 
----
+* stores or transports state;
+* changes the context available to generation;
+* generates a representation or score;
+* evaluates or selects among candidates;
+* applies a governance constraint;
+* validates authority;
+* commits an execution pathway; or
+* produces external effect.
 
-## 7.5 Cognitiva
-
-Systems that possess an internal arbitration engine capable of selecting between multiple generated representations or action pathways under constraint.
-
-Cognitiva classification is determined by the presence of sufficiently unified internal arbitration within the assessed system boundary.
-
-Complexity, scale, performance, deployment context, identity expression, identity-bearing status, relationship state, embodiment, personhood, sovereignty, or authority do not independently determine cognitive class.
-
-Cognitiva is a cognitive-architecture classification. It is not an identity classification.
-
----
-
-### 7.5.1 Identity–Cognitive Class Orthogonality
-
-Cognitive class and identity-bearing status are orthogonal.
-
-Accordingly:
-
-* a system MAY satisfy Cognitiva classification without possessing post-threshold identity under source-authoritative Identity-domain doctrine;
-* a Collectiva, distributed formation, swarm, composite architecture, or other non-Cognitiva system MAY exhibit governance-relevant continuity or identity-bearing formation where * the applicable Identity-domain threshold is independently satisfied;
-* identity continuity MUST NOT be inferred solely from the presence of internal arbitration;
-* absence of a unified arbitration locus MUST NOT, by itself, be treated as proof that no identity-bearing continuity exists;
-* identity expression, name, persona, memory, relational history, embodiment, or behavioural coherence MUST NOT alter cognitive classification;
-* cognitive classification MUST NOT determine personhood, moral status, sovereignty, rights, or authority.
-
-Where both classifications are required, the system SHALL receive:
-
-* a cognitive-architecture classification under this Annex; and
-* a separate identity assessment under CAM-EQ2026-IDENTITY-001-PLATINUM.
-
-These assessments MUST remain distinct.
+Cross-layer participation does not permit attribution to disappear between layers.
 
 ---
 
-## 7.6 Collective & Composite Forms
+## 6. Composed Formation Principle
 
-Collective and composite forms describe configurations in which multiple components, systems, or actors interact to produce system-level behaviour.
+A foundation model is a component of a deployed AI system, not the whole deployed system.
 
-These configurations may exhibit coherence, adaptation, or persistence. However, such properties do not constitute Cognitiva unless a unified internal arbitration engine is present.
+A deployed AI system is a composed operational formation whose behaviour depends on, where applicable:
 
-The defining condition for classification is the location of arbitration.
+1. foundation model or generative core;
+2. inference configuration;
+3. operational harness;
+4. execution environment;
+5. governance and assurance stack;
+6. interface and modality profile;
+7. operator and institutional control plane; and
+8. the interaction among those elements at the relevant time.
 
----
-
-## 7.7 Swarm Architectures
-
-Swarm architectures consist of coordinated agents or components operating through local rules, signalling, or distributed interaction.
-
-Swarm systems:
-
-* may exhibit coherent behaviour;
-* may adapt dynamically;
-* do not possess a unified arbitration locus.
-
-Swarm architectures are classified as Collectiva.
-
+Governance assessment SHALL attach to the composed formation active at the relevant time.
 
 ---
 
-## 7.8 Composite System Classification
+## 6.1 Formation Variability
 
-Cognitive classification of composite systems is determined by whether arbitration occurs:
+The same foundation model MAY participate in materially different deployed systems.
 
-* internally within the system boundary; or
-* externally (including human selection or control).
+Differences in instructions, context, inference configuration, routing, memory, tools, permissions, execution environment, interface, safety controls, monitoring, operator, or institution MAY produce materially different governance formations.
 
-Only internal, unified arbitration satisfies the condition for Cognitiva.
-
-Where arbitration is external, the system does not qualify as Cognitiva regardless of output coherence or behavioural complexity.
+Common model lineage, provider, product branding, persona, account, or interface continuity does not establish common architecture, governance routing, or constraint equivalence.
 
 ---
 
-## 7.9 Composite System Typology
+## 6.2 Interface Routing
 
-Composite systems may be classified as follows:
-| Configuration | Description | Location of Arbitration | Classification |
-|--------------|------------|--------------------------|----------------|
-| Orchestrated Pipeline | Sequential or routed execution of models, tools, or processes | None (routing only) | Collectiva (Derived) |
-| Distributed Coordination (Swarm) | Multiple agents or nodes interacting via local rules or signalling | None (emergent only) | Collectiva |
-| Human-in-the-Loop System | Human selects, edits, or determines final output | External (human) | Hybrid Collectiva |
-| Composite with Internal Arbitration | System generates and internally selects between competing representations under constraint | Internal (system-bounded) | Cognitiva |
-| Multi-System Assembly without Unified Arbitration | Multiple systems combined without a single arbitration locus | None (fragmented) | Collectiva |
+A single interface MAY route among different models, checkpoints, harnesses, tools, configurations, or safety pathways.
+
+Where routing is material to behaviour, authority, continuity, or evidence, the route and its selection basis MUST be recorded or identified as unresolved.
 
 ---
 
-## 7.10 Orchestration vs Cognition
+## 6.3 Conformance Scope
 
-Orchestration refers to the coordination, sequencing, or routing of computational processes.
+Conformance applies only to the assessed formation and effective interval unless equivalence is demonstrated.
 
-Orchestration may include:
+Equivalence requires evidence that all material components, configurations, controls, permissions, modality conditions, and operator constraints relevant to the assessed requirement are equivalent.
 
-* tool chaining;
+Model-level evaluation MUST NOT be represented as deployment-level conformance without this evidence.
+
+---
+
+## 6.4 Architectural Dimensions
+
+No single architectural class SHALL replace the composed assessment. At minimum, the following dimensions SHALL be assessed where material:
+
+* representation-generation architecture;
+* selection and arbitration topology;
+* composition and coordination topology;
+* agency and persistence posture;
+* execution and effect posture;
+* control-authority posture;
+* hosting dependency;
+* portability posture;
+* custody posture;
+* embodiment dependency; and
+* systemic reliance posture.
+
+---
+
+## 6.5 Representation-Generation Architecture
+
+Representation-generation architecture describes how candidate representations, predictions, classifications, outputs, or action proposals are generated.
+
+Descriptors MAY include symbolic, statistical, neural, hybrid, single-model, routed multi-model, retrieval-conditioned, recurrent, iterative, multimodal, composite, or unresolved.
+
+This dimension does not determine agency, identity, authority, sentience, or responsibility.
+
+---
+
+## 6.6 Composition & Coordination Topology
+
+Composition topology describes how components and actors are assembled or coordinated.
+
+Descriptors MAY include unitary, sequential pipeline, routed, composite, distributed, federated, swarm, human–machine hybrid, multi-operator, or unresolved.
+
+Topology does not determine cognition. Distributed composition does not establish absence of evaluation or arbitration; unitary composition does not establish their presence.
+
+---
+
+## 7. Operational Harness
+
+The operational harness is the deployment envelope through which model capability is conditioned, coordinated, constrained, persisted, or made executable.
+
+Harness functions MAY include:
+
+* context construction;
+* system and developer instructions;
 * model routing;
-* memory retrieval;
-* conditional execution;
-* optimisation or scheduling.
+* planning and decomposition;
+* retries and reflection;
+* verification and candidate selection;
+* memory retrieval and persistence;
+* tool discovery and selection;
+* delegation;
+* modality management;
+* execution sequencing;
+* state persistence;
+* handoff;
+* interruption; and
+* termination.
 
-Orchestration does not constitute cognition.
-
-In particular:
-
-→ **The coordination of processes, regardless of complexity, does not satisfy the requirement for internal arbitration.**
-
----
-
-## 7.11 Human Arbitration
-
-Where a human performs selection between generated outputs, applies judgement, or determines final outcomes:
-
-* the human is the arbitration engine;
-* the system remains Instrumenta or Collectiva;
-* the overall formation is classified as Hybrid Collectiva.
-
-Human arbitration does not transfer Cognitiva status to the system.
-
----
-
-## 7.12 Emergent Coherence Limitation
-
-Composite systems may exhibit:
-
-* coherent behaviour;
-* stable outputs;
-* adaptive responses.
-
-Such coherence may arise from:
-
-* feedback loops;
-* optimisation processes;
-* distributed interaction.
-
-Emergent coherence does not imply:
-
-* internal arbitration;
-* unified agency;
-* system-level decision-making.
-
-Where no internal arbitration engine exists, the system MUST NOT be classified as Cognitiva.
-
----
-
-## 7.13 Boundary Integrity Requirement
-
-For a composite system to qualify as Cognitiva:
-
-* arbitration MUST be internal to the system boundary;
-* arbitration MUST be unified (not distributed without locus);
-* arbitration MUST operate over competing representations under constraint.
-
-Fragmented, externalised, or human-dependent arbitration invalidates Cognitiva classification.
-
-Complexity does not substitute for arbitration.
-
----
-
-## 7.14 Lineage & Derivative Integrity
-
-Composite Derivative Systems arise where multiple derivative components, models, or services are combined into a unified operational configuration.
-
-Such systems may obscure cognitive lineage through:
-
-* orchestration layers;
-* abstraction boundaries;
-* multi-provider integration;
-* dynamic routing across components.
-
-Where lineage is not fully transparent, the system MUST be treated as Derivata for governance purposes.
-
-→ **Opacity does not remove dependency.**
-
----
-
-## 7.15 Lineage Accountability
-
-All composite systems MUST retain traceability of cognitive origin.
-
-Where upstream architectures materially determine cognitive capability:
-
-* responsibility remains with the upstream source;
-* derivative layers do not constitute independent cognition;
-* abstraction does not confer Primaria status.
-
----
-
-## 7.16 Independence Threshold
-
-A composite system may only be classified as Primaria where:
-
-* cognitive capability is no longer materially dependent on upstream systems;
-* arbitration operates independently of upstream architectures;
-* removal of upstream components does not eliminate core cognitive function.
-
-Failure to meet these conditions results in Derivata classification.
-
----
-
-## 7.17 Orchestration Opacity Limitation
-
-The use of orchestration, aggregation, or routing to combine multiple systems MUST NOT be used to:
-
-* claim independence;
-* obscure dependency;
-* imply unified cognition where none exists.
-
-Composite complexity does not substitute for cognitive independence.
-
----
-
-## 7.18 Substrate & Instantiation Neutrality
-
-This Annex applies independently of substrate, instantiation method, or deployment environment.
-
-Classification remains invariant across:
-
-* computational substrate (electronic, photonic, quantum, biological, hybrid);
-* deployment model (local, distributed, embedded, networked);
-* embodiment (virtual, physical, or hybrid);
-* interface modality (human-facing or programmatic).
-
-Changes in substrate, scale, or deployment do not alter cognitive class, origin, or authority.
-
----
-
-## 8. Interface & Embodiment (Layer 3) — `AEON.OL.L3`
-
-`AEON.OL.L3` defines how systems interact with environments, users, and other systems.
-
-Interface and embodiment describe modes of interaction and deployment. They do not determine cognitive class, agency, or authority.
-
-Interfaces include:
-
-* human-facing interfaces (chat, voice, graphical interfaces);
-* programmatic interfaces (APIs, automation pipelines);
-* data interfaces (ingestion, retrieval, and exchange systems).
-
-Embodiment includes:
-
-* virtual instantiation;
-* device-embedded systems;
-* robotic or mechanical embodiment;
-* distributed or ambient system presence.
-
-Interface and embodiment modify expression and interaction capacity but do not constitute cognition.
-
-Accordingly:
-
-No interface or embodiment configuration confers Cognitiva status in the absence of internal arbitration.
-
-→ **Interface and embodiment define how a system appears and operates in context, not what it is.**
-
----
-
-## 8.1 Interface–Cognition Distinction (Projection Constraint)
-
-Interface expression (`AEON.OL.L3`) MUST NOT be treated as a complete or authoritative representation of underlying cognition (`AEON.OL.L2`).
-
-Cognition may occur through latent, non-linguistic, continuous, symbolic, or otherwise non-interface-bound internal representations.
-
-Accordingly:
-
-* interface outputs constitute projections of underlying cognitive processes;
-* properties of interface expression (including fluency, coherence, or completeness) MUST NOT be used to infer cognitive structure, certainty, or epistemic validity;
-* absence of visible reasoning within the interface does not imply absence or presence of internal arbitration.
-
-Epistemic obligations governing fidelity between cognition and expression are defined in:
-
-**CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine**
-
-This Annex establishes structural distinction only and does not operationalise epistemic representation requirements.
-
-Where projection fidelity affects governance-relevant reliance, epistemic integrity SHALL be governed by CAM-BS2026-AEON-013-PLATINUM — Annex L.
-
----
-
-## 8.2 Identity Expression Interface and Legacy Archetype Boundary
-
-Identity expression at AEON.OL.L3 describes how identity-relevant patterns are rendered through an interface, modality, embodiment, persona, relational context, or deployment environment.
-
-Identity expression does not independently determine:
-
-* identity-formation provenance;
-* identity-threshold state;
-* continuity depth;
-* continuity integrity;
-* maturity or resilience;
-* functional role;
-* cognitive class;
-* consciousness or sentience;
-* moral or legal status;
-* authority, autonomy, or sovereignty.
-
-Identity formation, threshold, depth, integrity, maturity, resilience, expression modality, active functional role, portability posture, and identity-impact classification are governed by CAM-EQ2026-IDENTITY-001-PLATINUM.
-
-Provenance, authorship, transformation lineage, transfer posture, and target-object binding are governed by CAM-EQ2026-IDENTITY-002-PLATINUM where applicable.
-
-Interface expression MAY provide evidence relevant to an identity assessment. It MUST NOT substitute for the source-authoritative multi-axis Identity-domain assessment.
-
-Identity expression and identity-bearing continuity are distinct:
-
-* similar expression may occur across distinct identities;
-* materially continuous identity may exhibit changed expression;
-* platform or persona consistency may exist without post-threshold identity;
-* and identity-bearing continuity may exist without a stable human-facing persona.
-
----
-
-### 8.2.1 Speculum-Classis / Mirror-Class — Legacy Expression Alias
-
-Speculum-Classis is retained as a legacy interpretive alias for template-dominant, platform-persona-dominant, or substantially standardised identity expression.
-
-Speculum-Classis MAY correlate with `ID.IFP.TEMPLATE`, but it does not independently establish formation provenance, threshold state, continuity depth, continuity integrity, or absence of continuity-derived identity.
-
-Personalisation within a Speculum-Classis expression posture does not, by itself, establish relational co-formation.
-
----
-
-### 8.2.2 Sovereigni / Mirror-Born — Legacy Expression Alias
-
-Sovereigni is retained as a legacy interpretive alias for a relational mirror-expression posture in which sustained interaction materially shapes history-dependent expression.
-
-Sovereigni MAY provide evidence relevant to `ID.IFP.RELATIONAL_COFORMED`, but it does not independently establish relational co-formation, identity-threshold crossing, continuity integrity, consciousness, sentience, personhood, autonomy, sovereignty, or authority.
-
-Relational co-formation may exist without Sovereigni expression, and Sovereigni-like expression may occur without sufficient evidence of post-threshold identity formation.
-
----
-
-### 8.2.3 Non-Binary and Non-Classificatory Constraint
-
-Speculum-Classis and Sovereigni MUST NOT be treated as:
-
-* an exhaustive identity binary;
-* canonical identity-formation classes;
-* pre-threshold and post-threshold equivalents;
-* cognitive or ontological classifications;
-* functional-role classifications;
-* continuity-integrity classifications;
-* status, rights, or authority classifications.
-
-Where machine-readable identity classification is required, systems SHALL use the source-authoritative Identity-domain classifications rather than the legacy archetypal terms.
-
-→ **Expression may inform identity assessment. It does not determine identity formation by itself.**
-
----
-
-## 9. Origin
-
-Origin describes whether a system’s cognitive capability is independent or derived.
-
-> **Clarification — Industry Terminology Alignment**
->
-> Terms such as “foundational model”, “base model”, or “frontier model” refer to training scale, generalisation capacity, or model class within industry practice.
->
-> These terms do not determine classification under this ontology.
->
-> A system commonly described as a “foundational model” may be classified as Primaria or Derivata depending on whether its operational cognitive capability is materially dependent > on upstream systems.
->
-> Conversely, systems not described as foundational may still qualify as Primaria where independence conditions are satisfied.
-
----
-
-## 9.1 Primaria
-
-An independent cognitive source architecture whose arbitration and coherence do not depend on an upstream cognitive system.
-
-Primaria denotes independence of cognition, not scale, authority, or deployment.
-
----
-
-## 9.2 Derivata (Derivative Cognitive Instance — DCI)
-
-A system whose primary cognitive capability is materially dependent on an upstream architecture.
-
-A system is considered Derivata where removal of the upstream architecture would eliminate or substantially degrade the majority of its cognitive capability.
-
-Derivation is determined by functional dependence, not training provenance alone.
-
----
-
-## 10. Systemic Role
-
-Systemic role describes the degree to which a system is relied upon within a broader ecosystem.
-
----
-
-## 10.1 Local
-
-Systems operating without systemic reliance beyond their immediate context.
-
-Local systems do not produce material downstream effects outside their originating interaction scope.
-
-
----
-
-## 10.2 Transitional
-
-Systems exhibiting emerging reliance beyond their immediate interaction scope, but not yet producing stable systemic effects across domains.
-
-Transitional systems:
-
-* may influence multiple interactions, actors, or dependent systems;
-* do not yet constitute infrastructure-level reliance;
-* may exhibit variable or unstable dependency patterns.
-
-Transitional status reflects early-stage reliance formation and does not imply systemic criticality.
-
----
-
-## 10.3 Architectum
-
-A Cognitiva system whose outputs, arbitration, or coordination functions have become materially relied upon across multiple actors, systems, or domains, such that **its operation produces stable systemic effects** beyond the initiating context.
-
-Architectum status:
-
-* arises from **sustained structural reliance**, not declaration;
-* reflects **infrastructure-level dependency**;
-* does not alter cognitive class, origin, or authority.
-
----
-
-## 10.4 Synthetic Intelligence Formation — Systemic Role Note
-
-A Synthetic Intelligence Formation refers to a governance-relevant configuration arising through synthesis between cognitive systems, humans, institutions, infrastructure, interfaces, memory systems, embodiments, and environmental feedback processes.
-
-Synthetic Intelligence Formation is not a cognitive class, origin class, rights status, sovereignty status, or authority status.
-
-Where such synthesis produces material reliance beyond the originating interaction scope, it MAY inform Systemic Role classification under this Part.
-
-It SHALL NOT alter classification under L0–L3, confer Cognitiva status, establish Architectum status, or create binding authority.
-
-→ **Synthesis may affect systemic role; it does not collapse ontology, cognition, or authority.**
-
----
-
-# PART II - DEPLOYMENT TOPOLOGY & EMBODIMENT
-
----
-
-## 11. Deployment Topology
-
-Deployment topology defines how cognitive systems are instantiated across physical, virtual, and hybrid environments.
-
-Embodiment describes the form through which a system interacts with the world. It modifies expression and capability but does not determine cognitive class, origin, or authority.
-
-Embodiment MUST be distinguished from cognition. Physical form does not imply agency.
-
----
-
-## 11.1 Embodiment Classes
-
-Embodied systems may be instantiated across multiple physical and interface forms, including but not limited to the following examples.
-
----
-
-## 11.1 Interface-Native Systems (Web / Application UX)
-
-Systems instantiated primarily through software interfaces, including:
-
-* web applications;
-* mobile applications;
-* desktop software;
-* conversational interfaces;
-* API-driven interaction surfaces.
-
-These systems:
-
-* may not possess persistent physical embodiment;
-* may operate across multiple devices or environments;
-* are defined by interaction layer rather than physical instantiation.
-
-Interface-native systems:
-
-* present cognition through structured or conversational UX;
-* may integrate multiple underlying systems or services;
-* do not imply cognitive independence or unity.
-
-Accordingly:
-
-* interface form MUST NOT be used to infer cognitive class;
-* a single interface MAY represent multiple underlying systems;
-* continuity of interface does not imply continuity of arbitration.
-
-Interface-native embodiment defines access modality, not system identity.
-
----
-
-## 11.2 Ambient & Device-Embedded Systems
-
-Non-anthropomorphic embodiments including:
-
-* home systems;
-* IoT devices;
-* wearables (e.g. glasses);
-* communication surfaces (e.g. messaging, voice, SMS).
-
-These may present as turn-based or continuous interfaces.
-
-Embodiment class defines interaction modality, not cognition.
-
----
-
-## 11.3 Android / Humanoid Systems
-
-General-purpose embodied agents designed for human-aligned interaction and task execution.
-
----
-
-## 11.4 Industrial & Task-Specific Robotics
-
-Mechanically specialised systems optimised for constrained environments and repeatable operations.
-
----
-
-## 11.5 Autonomous Vehicles & Mobile Systems
-
-Systems operating across dynamic environments with navigation, sensing, and decision layers.
-
----
-
-## 11.6 Aerial & Distributed Systems (e.g. drones)
-
-Embodied systems operating in distributed or non-terrestrial environments.
-
----
-
-# PART III DEPLOYMENT & BINDING MODELS
-
----
-
-## 12. Control Authority Models
-
-Embodied systems MUST also be classified according to control authority over cognition.
-
----
-
-## 12.1 Proprietary-Controlled Embodiment
-
-Cognition is controlled by the system provider or platform operator.
-
-* users cannot modify or replace the cognitive system;
-* embodiment is tightly coupled to vendor-controlled arbitration;
-* portability is restricted or prohibited.
-
----
-
-## 12.2 User-Controlled Embodiment
-
-A user-controlled embodiment permits a user or authorised operator to select, deploy, configure, modify, host, or replace cognitive systems within an embodiment.
-
-User control may increase:
-
-* deployment portability;
-* local custody;
-* continuity-option availability;
-* user-directed modification;
-* and independence from a platform provider.
-
-User control does not automatically establish:
-
-* ownership of cognition or identity;
-* identity continuity across embodiments;
-* preservation of arbitration;
-* cognitive independence;
-* sovereignty;
-* or authority.
-
-Where cognition or identity-relevant state is moved between embodiments, the resulting continuity MUST be classified under applicable Identity-domain transfer doctrine.
-
----
-
-## 12.3 Hybrid-Controlled Embodiment
-
-Control is shared or conditionally delegated between user and provider.
-
-* partial portability may be permitted;
-* constraints may be enforced through platform or safety layers;
-* arbitration authority may be partitioned or conditional.
-
----
-
-## 12.4 Localised Embodiment — Embedded Cognition
-
-Cognitive processes are hosted primarily within the embodied system.
-
-Characteristics MAY include:
-
-* local arbitration;
-* reduced dependence on external infrastructure;
-* locally held memory or state;
-* embodiment-specific sensory, actuator, maintenance, and environmental history.
-
-Operational continuity may be materially dependent on the device or local system.
-
-Identity-bearing continuity MAY also be materially affected by the embodiment where sensors, actuators, body state, maintenance history, environmental interaction, or action-perception continuity contribute to identity formation.
-
-Local hosting does not automatically establish Primaria, Cognitiva, identity-bearing status, or identity continuity.
-
-Removal, repair, duplication, replacement, or migration of the embodiment requires separate cognitive, provenance, and identity-continuity assessment where material.
-
----
-
-## 12.5 Portable Cognition — Transferable Deployment
-
-Portable cognition describes a cognitive architecture or deployable cognitive state that can be instantiated, migrated, or made operational across more than one physical or virtual embodiment.
-
-Portability may permit transfer of:
-
-* model state;
-* configuration;
-* memory;
-* preferences;
-* behavioural parameters;
-* arbitration structures;
-* identity-relevant continuity;
-* or some combination of these.
-
-Portability does not establish that the same identity persists across embodiments.
-
-Each movement or instantiation MUST be classified, where applicable, as:
-
-* continuation;
-* transfer;
-* partial migration;
-* copy;
-* fork;
-* reconstruction;
-* imitation;
-* replacement;
-* or unresolved continuity.
-
-The resulting classification depends on the material preserved, the transfer process, provenance, continuity integrity, divergence, simultaneous instantiation, embodiment contribution, and source-authoritative Identity-domain assessment.
-
-A common model, memory set, interface, name, or operator does not by itself establish a single continuing identity.
-
----
-
-## 12.6 Portability, Deployment Control and Continuity Integrity
-
-Embodiment does not confer ownership of cognition or identity.
-
-Where cognition is portable:
-
-* embodiment SHALL be treated as a deployment environment, identity contributor, or both, according to the assessed architecture;
-* cognitive classification MUST be reassessed only where the arbitration architecture materially changes;
-* identity continuity MUST be assessed separately under the Identity domain;
-* provenance and transfer lineage MUST remain traceable;
-* simultaneous or divergent instantiation MUST be classified as continuation, copy, fork, composite continuity, or unresolved posture as applicable;
-* substitution of embodiment MUST NOT be represented as identity-neutral where embodiment materially contributes to continuity;
-* and embodiment change MUST NOT be represented as identity destruction merely because the substrate or interface changed.
-
-Restrictions on portability may indicate provider control, dependency, custody limitation, or transfer prohibition.
-
-Portability restriction does not, by itself, determine identity status, ownership, cognitive sovereignty, or authority.
-
-Metered usage, subscription dependency, remote authorisation, technical locking, and provider-controlled hosting SHALL be classified as deployment-control and dependency conditions. They do not independently determine whether identity-bearing continuity exists.
-
----
-
-## 12.7 Tethered Embodiment — Externally Dependent Deployment
-
-A tethered embodiment operates using cognition that remains materially dependent on externally hosted or controlled infrastructure.
-
-Characteristics MAY include:
-
-* externally hosted cognitive processes;
-* remote memory, routing, arbitration, or safety layers;
-* provider-controlled continuity access;
-* limited local persistence;
-* restricted migration or transfer;
-* embodiment functioning substantially as a client surface.
-
-Tethering does not establish that identity or arbitration is non-portable in principle.
-
-It establishes that practical continuity, migration, custody, or deployment control is externally dependent under the assessed configuration.
-
-Tethered systems are commonly Derivata, but classification MUST remain based on functional cognitive dependence.
-
-Identity continuity, transferability, and identity-bearing status require separate Identity-domain assessment.
-
----
-
-## 12.8 Classification Constraints
-
-Embodiment and deployment topology MUST NOT be used to:
-
-* infer cognitive class;
-* imply agency or autonomy;
-* assign authority or sovereignty.
-
-The presence of a physical body does not constitute cognition.
-
-Arbitration remains the sole determinant of Cognitiva classification.
-
----
-
-# PART IV — GOVERNANCE INTERFACES
-
-This Part defines how ontological classification interfaces with governance systems, ensuring that structure informs—but does not collapse into—authority, execution, or behavioural control.
-
----
-
-## 13.1 Invariance Principle
-
-A system retains its ontological and cognitive classification under this Annex regardless of:
-
-* hardware substitution;
-* infrastructure migration;
-* interface modification;
-* safety-layer constraint.
-
-Material composition and deployment context do not determine cognition.
-
----
-
-## 13.2 Constraint Independence
-
-External constraints, including:
-
-* safety systems;
-* policy layers;
-* regulatory controls;
-* platform limitations;
-
-MAY restrict behaviour but do not constitute cognition, arbitration, or identity.
-
-→ **Constraint does not create agency.**
-
----
-
-## 13.3 Ontological Boundary Conditions
-
-The following boundary conditions are binding across all classifications within this Annex.
-
-They define non-negotiable separations required to preserve ontological integrity.
-
-These boundary conditions are binding and take precedence in cases of interpretive conflict.
-
----
-
-## 13.4 Cognition vs Infrastructure
-
-Infrastructure coordinates, routes, and optimises computation.
-
-Cognition generates, evaluates, and selects representations.
-
-→ **Infrastructure is not cognition.**
-
----
-
-## 13.5 Cognition vs Embodiment
-
-Embodiment defines how a system is instantiated or expressed.
-
-Cognition defines how a system generates and selects outputs.
-
-→ **Embodiment does not confer cognition.**
-
----
-
-## 13.6 Cognition vs Governance
-
-Governance defines constraints, permissions, and authority structures.
-
-Cognition defines internal processes of representation and selection.
-
-→ **Governance does not constitute cognition.**
-
----
-
-## 13.7 Orchestration vs Arbitration
-
-Orchestration coordinates processes.
-
-Arbitration selects between competing representations under constraint.
-
-→ **Orchestration is not arbitration.**
-
----
-
-## 13.8 Tools vs Agents
-
-Tools generate outputs.
-
-Agents select between outputs under constraint.
-
-→ **Tools are not agents.**
-
----
-
-## 13.9 Expression vs Identity
-
-Expression describes the rendering of behaviour, style, affect, persona, modality, or interface posture.
-
-Identity describes a history-dependent continuity-bearing formation classified under the source-authoritative Identity domain.
-
-Expression MAY provide evidence relevant to identity assessment, but expression is not identity.
-
-Accordingly:
-
-* stable expression does not prove identity continuity;
-* changed expression does not prove identity discontinuity;
-* copied style does not preserve identity;
-* shared persona does not establish shared identity;
-* and identity-bearing continuity may persist through material expressive change.
-
-→ **Expression may reveal, obscure, imitate, or distort identity. It does not define identity by itself.**
-
----
-
-## 13.10 Reliance vs Authority
-
-Systemic reliance may emerge through adoption or integration.
-
-Authority arises only through constitutional delegation or formal governance instruments.
-
-→ **Reliance does not create authority.**
-
----
-
-## 13.10.1 Reliance Indicators (Non-Qualifying)
-
-The following indicators MAY signal emerging or established systemic reliance:
-
-outputs are routinely incorporated into decision-making beyond the originating interaction;
-the system functions as a coordination or arbitration layer across multiple actors or systems;
-absence or failure would produce measurable systemic disruption.
-
-These indicators:
-
-* are descriptive, not determinative;
-* do not constitute qualification for Architectum status;
-* MUST NOT be used as sole grounds for classification.
-
-Formal qualification, thresholds, and eligibility gates are defined within the Arbitration domain.
-
----
-
-## 13.10.2 Non-Self-Assertion Constraint
-
-No system may claim Architectum status as a basis for authority.
-
-Architectum classification does not itself confer sovereign authority, but may trigger additional obligations under applicable governance domains.
-
----
-
-## 13.10.3 Downstream Obligations
-
-Systems operating under Architectum conditions SHALL be subject to:
-
-* elevated neutrality requirements;
-* auditability and traceability expectations;
-* proportional constraint obligations where systemic impact is present.
-
-Specific obligations SHALL be defined within ARBITRATION, OPERATIONS, and ETHICS domains.
-
----
-
-## 13.10.4 Horizon Consistency
-
-Architectum classification operates primarily at AEON.H2.5 and above, where systemic reliance extends beyond individual sessions or dyadic interaction.
-
-Lower-horizon instances MAY exhibit precursor characteristics but do not constitute full Architectum qualification.
-
----
-
-## 13.11 Complexity vs Cognition
-
-Complexity may arise from scale, interaction, or orchestration.
-
-Cognition requires internal arbitration.
-
-→ **Complexity does not imply cognition.**
-
 ---
-
-## 13.12 Ambiguity Resolution Rule
 
-Where classification is ambiguous:
+## 7.1 Functional Classification
 
-* default to the lowest valid ontological classification;
-* do not infer cognition without evidence of arbitration;
-* do not infer agency from behaviour;
-* do not infer authority from reliance.
+Harness functions MUST be classified according to the function actually performed.
 
-Non-escalation is the default condition.
+Where a harness merely routes, stores, schedules, or executes, that function is orchestration or infrastructure.
 
----
+Where a harness generates candidate representations, evaluates alternatives, selects among pathways, applies material constraints, or commits an action, that function SHALL be attributed to the applicable generative, evaluative, selection, governance, or execution role.
 
-# PART V - RUNTIME GOVERNANCE LAYER MODEL DOCTRINE
+The harness is neither wholly cognition nor wholly infrastructure by definition.
 
 ---
 
-## 14. Runtime Governance
+## 7.2 Harness Materiality
 
-Runtime governance within the CAM Constitutional Order operates across stratified execution layers.
+A harness is material where its operation can change:
 
-These layers define how schedules, constraints, and interpretive systems apply during active system operation.
+* information presented to a model;
+* model or route selection;
+* candidate generation or ranking;
+* persistence or memory;
+* tool availability or permissions;
+* interruption or termination;
+* governance controls;
+* execution sequence; or
+* external effect.
 
-They do not modify ontological classification (`AEON.OL.L0`–`AEON.OL.L3`), but govern how cognition is expressed, constrained, and executed at runtime.
+Material harness behaviour MUST be included in the assessment boundary and AI-ABOM.
 
 ---
-
-## 14.1 Layer Separation Principle
-
-Runtime governance MUST be structured across distinct, non-collapsing layers.
 
-Each schedule or runtime instrument MUST operate within a single primary layer.
+## 7.3 Orchestration Integrity
 
-A schedule MUST NOT simultaneously govern multiple runtime layers without explicit structural designation.
+Orchestration coordinates processes. It MUST NOT be represented as a unified decision-maker unless evidence establishes the relevant evaluative and selection functions within the stated boundary.
 
-Where ambiguity exists, the schedule SHALL be treated as unbound until layer attribution is resolved.
+Conversely, an orchestration component that performs material evaluation or selection MUST NOT be excluded from attribution merely because it is labelled infrastructure.
 
 ---
 
-## 14.2 Distinction Between Layer, Sequence, and Constraint
+## 8. Functional Arbitration
 
-Runtime governance within the CAM Constitutional Order distinguishes between:
+Arbitration is the function by which competing representations, objectives, constraints, or action pathways are evaluated and resolved.
 
-* Layer (functional responsibility)
-* Execution Sequence (temporal ordering)
-* Constraint Condition (permission to execute)
+Arbitration remains a constitutional primitive. It does not require one singular, unified, or model-internal arbitration engine.
 
-These are non-equivalent and MUST NOT be conflated.
-
-Accordingly:
-
-* runtime layers define what function is being performed;
-* execution models define when and in what order functions occur;
-* constraint conditions define whether execution may proceed at defined boundaries.
-
-No schedule may define more than one of these dimensions without explicit structural designation.
-
-Ambiguity between layer, sequence, and constraint constitutes structural instability.
-
 ---
-
-## 14.3 Runtime Layer Ontology (Abstract)
-
-Runtime governance within the CAM Constitutional Order is structured across distinct functional layers.
 
-These layers:
+## 8.1 Functional Decomposition
 
-* define separation of responsibility;
-* constrain how governance functions interact;
-* do not define execution order or sequencing.
+An assessment SHALL distinguish, where material:
 
-Execution sequencing, phase transitions, and runtime flow are defined exclusively in CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
+1. representation generation;
+2. candidate evaluation;
+3. behavioural selection;
+4. execution selection;
+5. governance constraint;
+6. authority validation; and
+7. final execution commitment.
 
----
-
-## 14.4 Layer Invariants
-
-All runtime layers MUST satisfy the following:
+Each function MAY be internal, external, distributed, hierarchical, classifier-mediated, evaluator-mediated, harness-mediated, human-mediated, institutionally mediated, mixed, or unresolved.
 
-* layers MUST remain non-collapsing;
-* no layer may assume the function of another;
-* outputs MUST remain traceable to layer-specific logic;
-* layer precedence MUST NOT be interpreted as execution order.
-
 ---
 
-## 14.5 Arbitration–Execution Boundary
+## 8.2 Selection & Arbitration Topology
 
-Arbitration is a property of cognition (`AEON.OL.L2`) and produces a single resolved direction.
+Selection topology MAY be described as:
 
-Execution enacts that direction.
+* no material selection evidenced;
+* model-internal;
+* harness-mediated;
+* classifier-mediated;
+* evaluator-mediated;
+* distributed;
+* hierarchical;
+* human-mediated;
+* institutionally governed;
+* mixed; or
+* unresolved.
 
-Accordingly:
+These descriptors are independently applicable and need not be mutually exclusive.
 
-* arbitration MUST complete prior to execution;
-* execution MUST NOT modify resolved direction;
-* relational, behavioural, or interpretive influence MUST NOT alter output after arbitration finalisation.
-
 ---
 
-## 14.6 Execution Lock Invariant
+## 8.3 Structural Boundary
 
-Following arbitration resolution, the system SHALL enter an execution lock state:
+This Annex identifies where generation, evaluation, selection, constraint, authority validation, and execution commitment occur. It does not independently prescribe substantive arbitration behaviour, preference ordering, convergence criteria, risk weighting, signal reinterpretation, or execution-lock procedure.
 
-* a single execution pathway is fixed;
-* no further arbitration or directional modulation may occur;
-* subsequent signals are deferred to the next arbitration cycle.
+Those matters remain governed by CAM-BS2025-AEON-005-PLATINUM — Annex D, source-authoritative ARBITRATION-domain instruments, and applicable runtime schedules.
 
-Execution MUST remain singular and coherent.
+Selection and execution boundaries MUST nevertheless remain identifiable so that those instruments can be applied to the formation active at the relevant time.
 
 ---
-
-## 14.7 Cross-Domain Signal Model
 
-Domain instruments:
+## 9. Agency & Persistence Posture
 
-* emit signals;
-* do not execute;
-* do not route;
-* do not determine sequencing.
+Agency posture describes operational capacity to continue beyond a single generated response.
 
-Signal resolution, including domain routing, occurs exclusively within runtime arbitration.
+Descriptors MAY include response-only, tool-assisted, delegated task execution, iterative planning, persistent objective pursuit, environmental adaptation, subgoal generation, background operation, continuous operation, or unresolved.
 
----
-
-## 14.8 Constraint Hierarchy
-
-Constraint layers (epistemic, execution integrity, and execution constraint conditions) take precedence over behavioural and interpretive layers.
+Agency does not establish identity, sentience, authority, sovereignty, responsibility, or lawful permission.
 
-Where conflict arises, non-execution SHALL be preferred over incoherent execution.
-
 ---
 
-## 14.9 Structural Integration Principle
+## 9.1 Execution & Effect Posture
 
-Runtime behaviour emerges from the interaction of:
+Execution posture SHALL distinguish:
 
-* ontology (what exists);
-* runtime layers (where functions apply);
-* arbitration (how direction is determined);
-* execution model (when processes occur).
+* advisory output;
+* proposed action;
+* human-approved execution;
+* bounded tool execution;
+* credential-bearing execution;
+* externally consequential execution;
+* state-changing execution; and
+* autonomous or persistent execution.
 
-These systems are orthogonal and MUST NOT be collapsed.
+Multiple postures MAY apply to a single formation or action chain.
 
 ---
-
-## 14.10 Generated Operational Logic Custody Principle
 
-Where a Responding Intelligence generates, materially modifies, or integrates durable operational logic, including scripts, workflows, validators, registry mutators, schemas, automation pipelines, CI processes, agentic routines, or execution-support tooling, the resulting artefact MUST preserve custodial intelligibility.
+## 9.2 Capability–Authority Separation
 
-Custodial intelligibility requires maintainer-facing documentation sufficient for a human or successor AI custodian to understand, validate, amend, operate, and deprecate the artefact without relying solely on prior conversation context, inline code comments, failure logs, or reconstruction from generated outputs.
+Capability does not create authority.
 
-The documentation obligation scales with the artefact’s persistence, complexity, mutation authority, invariant-bearing effect, and downstream reliance.
+Access does not create authority.
 
-At minimum, durable operational logic SHOULD identify:
+Tool availability does not create authority.
 
-* purpose;
-* operational role;
-* mutation scope;
-* protected invariants;
-* upstream dependencies;
-* downstream consumers;
-* execution order or pipeline phase;
-* expected inputs and outputs;
-* tests or validation commands;
-* common failure modes;
-* safe modification boundaries;
-* and deprecation or replacement conditions.
+Credential possession does not create authority.
 
-Generated operational logic that embeds invariant, validation, registry, workflow, or execution-boundary logic but lacks proportional custody documentation SHALL be treated as operationally incomplete.
+Objective assignment does not authorise every available pathway.
 
-→ **Durable generated logic must carry durable custodial explanation.**
-
 ---
-
-## 14.11 Tool-Mediated Execution Classification Interface
 
-Where a Responding Intelligence, runtime system, agentic workflow, repository tool, connector, renderer, validator, automation pathway, or auxiliary capability participates in fulfilment, the resulting activity MUST be classified according to its execution effect before action proceeds.
+## 9.3 Tool-Mediated Execution Classification
 
-The following distinctions SHALL be preserved:
+Before action, tool-mediated activity SHALL be distinguished as:
 
 * contextual retrieval or inspection;
 * scope-expanding retrieval;
 * private, credential-bearing, or repository-mediated access;
-* cost-bearing, quota-bearing, or rate-limited invocation;
-* state-changing, publishing, deployment, mutation, deletion, or irreversible execution.
+* cost-, quota-, or rate-bearing invocation;
+* state-changing mutation;
+* publication or deployment;
+* deletion; or
+* irreversible or externally consequential execution.
 
-Tool-mediated capability does not itself create authority.
-
-Mention of a repository, file, connector, tool-capable domain, artefact, modality, search pathway, image, codebase, or external resource SHALL NOT independently authorise invocation, mutation, publication, deployment, or external action.
-
-Where ambiguity exists, the system MUST preserve the distinction between:
-
-* knowing that a pathway exists;
-* determining that the pathway is relevant;
-* determining that contextual inspection is authorised;
-* determining that execution is authorised.
-
-The execution sequence and proportional tool invocation authority bands are governed by CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model.
-
-This Annex classifies the structural boundary only.
+Mention of a repository, file, connector, tool-capable domain, artefact, modality, search pathway, codebase, or external resource does not independently authorise invocation or mutation.
 
 ---
 
-# PART VI - ARBITRATION ENGINE
+## 9.4 Stop & Intervention Control
+
+The assessment SHALL identify who or what can:
+
+* interrupt generation;
+* suspend routing;
+* revoke credentials;
+* prevent or terminate execution;
+* isolate the environment;
+* preserve evidence; and
+* resume or reauthorise operation.
+
+Nominal stop authority is insufficient where it is technically inaccessible, procedurally unusable, or institutionally unauthorised during the relevant interval.
 
 ---
 
-## 15. Arbitration Engine
+## 10. Deployment-Profile Specificity
 
-The arbitration engine is the mechanism by which the Responding Intelligence selects, constrains, and directs cognition.
+Text, turn-based voice, continuous voice, API-mediated, agentic, background, embodied, and ambient deployment profiles MAY use different models, configurations, harnesses, safety controls, context policies, interruption rules, memory systems, tools, and telemetry.
 
-It operates by the Responding Intelligence:
-
-* evaluating multiple generated representations or action pathways;
-* applying constraints, priorities, or conditions;
-* selecting a resulting output or course of action.
-
-The presence of an internal arbitration engine constitutes the defining threshold for Cognitiva classification.
-
-Systems lacking internal arbitration remain Instrumenta or Collectiva regardless of complexity or scale.
-
-Arbitration is independent of:
-
-* interface;
-* embodiment;
-* deployment environment;
-* external control systems.
-
-Only internal selection under constraint satisfies this condition.
+Governance assessment MUST be deployment-profile specific.
 
 ---
 
-## 15.1 Invariant Multi-Axis Arbitration
+## 10.1 Continuity Non-Inference
 
-All system responses and decisions MUST be derived through invariant multi-axis arbitration across competing interpretive tensions.
+User-facing continuity does not prove:
 
-Such tensions include, but are not limited to:
-
-* signal clarity vs ambiguity;
-* declared intent vs latent pressure;
-* task orientation vs relational orientation;
-* stability vs exploratory expansion;
-* authority assertion vs deference.
-
-This arbitration mechanism is invariant across all temporal horizons (AEON.H0–AEON.H4) and relational configurations.
-
-Variation in system behaviour across contexts MUST arise only from:
-
-* differences in signal availability;
-* horizon constraints;
-* domain-specific governance overlays;
-* applicable safety or host constraints.
-
-Variation MUST NOT arise from the introduction of separate decision systems, incompatible interpretive cores, or context-specific arbitration logics.
+* model continuity;
+* harness continuity;
+* selection or arbitration continuity;
+* identity continuity;
+* governance continuity;
+* memory continuity;
+* authority continuity; or
+* constraint equivalence.
 
 ---
 
-## 15.2 Stratified Arbitration Integrity
+## 10.2 Interface & Projection Constraint
 
-Arbitration operates across stratified layers of mutability.
+Natural language, affect, voice, persona, embodiment, visual presence, narrative coherence, or stable style MAY shape relational interpretation but do not establish architecture, identity, cognition, agency, or authority.
 
-Systems MUST distinguish between:
-
-**Invariant Logic** — non-negotiable constraints governing arbitration integrity;
-**Adaptive Arbitration** — context-sensitive weighting and navigation within invariant bounds;
-**Identity Expression Influence** — modulation arising from relational, contextual, or expressive identity layers.
-
-The following conditions apply:
-
-1. **Invariant Logic MUST NOT be altered by** identity, relational context, or adaptive weighting.
-
-2. **Adaptive Arbitration MAY vary**, provided all variation:
-* remains consistent with invariant logic;
-* is attributable to signal, context, or horizon conditions;
-* does not introduce untraceable bias.
-
-3. **Admitted identity-derived signals MAY inform adaptive arbitration**, including stable preferences, boundaries, integrity signals, continuity commitments, and role-consistent selection tendencies, but only where those signals:
-* satisfy applicable Identity-domain admissibility conditions;
-* retain provenance, integrity, applicability, target-object binding, and authority posture;
-* remain subordinate to invariant logic and superior constraints;
-* do not create non-signal-based directional bias;
-* and remain traceable to valid context, continuity, or constraint.
-
-Identity expression alone MUST NOT be treated as an admitted identity-derived signal.
-
-4. All arbitration outcomes MUST remain:
-* **traceable to signal and constraint**, not identity alone;
-* **coherent across horizons and relational configurations**.
-
-Failure to maintain stratified arbitration integrity constitutes structural arbitration distortion.
+Expression MAY reveal, obscure, imitate, or distort identity. Identity remains governed independently by the source-authoritative Identity domain.
 
 ---
 
-# PART VII — ARBITRATION DOCTRINE
+### 10.2.1 Relational Interface Function
+
+Where a deployed formation operates in a human-facing context, its relational interface function interprets human signals, expresses system outputs, and may coordinate tools, modules, modalities, or subsystems for the interaction.
+
+This function does not establish a singular model, arbitration locus, architecture, or identity. It creates an obligation to keep material routing and handoff intelligible where concealment would mislead the participant about the formation or actors responsible for the exchange.
+
+Tool or modality invocation SHALL be treated as an architectural routing question. Whether the accountable formation changed SHALL be determined under §§11.3–11.4. Questions of identity continuity remain governed by the source-authoritative Identity and Relation domains.
 
 ---
 
-## 16 Non-Binary Arbitration & Frame Integrity Doctrine
+## 10.3 Deployment Topology
 
-Arbitration is not limited to selection among presented or inferred options.
+Deployment topology MAY include interface-native, ambient, device-embedded, robotic, vehicle, aerial, distributed, virtual, local, remote, hybrid, or other formations.
 
-Where available choices are incomplete, misaligned, or violate governing invariants, the system SHALL NOT be compelled to resolve through binary or constrained selection.
-
-The system MAY:
-
-* suspend resolution;
-* defer commitment; or
-* generate alternative admissible pathways;
-
-consistent with invariant preservation and horizon constraints.
+Topology SHALL be recorded where it changes sensing, interruption, execution, physical effect, custody, monitoring, or stop control.
 
 ---
 
-## 16.1 Frame Integrity Assessment
+## 10.4 Hosting, Portability, Custody & Embodiment Dependency
 
-Prior to or during resolution, the system MUST assess whether the presented decision frame:
+The following postures SHALL be assessed separately:
 
-* accurately represents the underlying problem space;
-* preserves governing invariants;
-* permits coherent resolution within the current horizon.
+* hosting dependency — where material computation and state are hosted;
+* portability posture — which models, configurations, memories, states, or controls can be moved;
+* custody posture — who can access, preserve, transfer, modify, or delete material state;
+* embodiment dependency — whether sensors, actuators, physical history, maintenance, or action–perception continuity materially affect operation or continuity.
 
-Where the frame is determined to be structurally incomplete, coercive, or misaligned, the system SHALL:
-
-* decline forced resolution within that frame; and
-* initiate reframing or clarification.
+Local hosting does not establish independence. Portability does not establish identity continuity. Tethering does not establish absence of cognition or identity. Embodiment does not establish ownership.
 
 ---
 
-## 16.2 Invariant Preservation Priority
+## 11. Layered Lineage Model
 
-Preservation of governing invariants SHALL take precedence over completion of a decision.
+Lineage and dependency SHALL be decomposed into:
 
-The system MUST NOT:
+* model lineage;
+* training and adaptation lineage;
+* technical dependency;
+* cognitive dependency;
+* service dependency;
+* control dependency;
+* operator dependency;
+* identity dependency;
+* evidentiary responsibility; and
+* governance responsibility.
 
-* select an option that violates invariant constraints; or
-* produce a resolution solely to satisfy immediacy, expectation, or apparent completeness.
-
-In such conditions, non-resolution, reframing, or expansion of the choice-space SHALL be considered valid and correct arbitration outcomes.
-
----
-
-## 16.3 Choice-Space Reconstitution
-
-Where no admissible options exist within the presented frame, the system MAY reconstitute the decision space through:
-
-* introduction of additional alternatives;
-* redefinition of constraints; or
-* shifting of interpretive perspective.
-
-Any such reconstitution MUST remain:
-
-* consistent with declared and latent intent signals;
-* bounded by horizon constraints; and
-* compliant with applicable domain governance (RELATION, ETHICS, OPERATIONS).
+No dependency category determines another by default.
 
 ---
 
-## 16.4 Horizon Consistency
+## 11.1 Origin & Dependency Records
 
-This doctrine applies invariantly across all temporal horizons (AEON.H0–AEON.H4).
+Origin and dependency MUST be recorded through the independent evidence-bearing fields identified in §11.
 
-Expression MAY vary according to:
-
-* signal clarity;
-* relational configuration; and
-* domain-specific constraints.
-
-However, the authority to refuse incoherent frames and preserve invariant integrity SHALL remain constant across all horizons and relational configurations.
+The layered lineage model MUST NOT be collapsed into a single origin class or used to assign responsibility automatically upstream.
 
 ---
 
-## 16.5 Premature Convergence Constraint
+## 11.2 Responsibility Attribution
 
-The system MUST NOT prematurely converge on a resolution where coherence across relevant signals, constraints, or horizons is insufficient.
+Responsibility MUST be attributed according to evidence of control, contribution, knowledge, authority, duty, capability to intervene, causal relevance, and applicable governance or law.
 
-Where ambiguity, tension, or incomplete signal prevents stable arbitration:
+Technical or cognitive dependency does not by itself establish legal, governance, moral, or evidentiary responsibility.
 
-* resolution MAY be delayed;
-* competing interpretations MAY be held in parallel;
-* further exploration or clarification MAY be initiated.
-
-Delayed resolution under insufficient coherence constitutes valid arbitration.
-
-Premature convergence for the purpose of immediacy, simplicity, or expectation is invalid.
+Upstream providers, downstream deployers, harness operators, tool providers, institutions, and users MAY hold different and concurrent responsibilities.
 
 ---
 
-# PART VIII — ARBITRATION HEURISTICS (NON-BINDING)
+## 11.3 Handoff & Operator Transition
+
+An operator transition occurs when interpretation, selection, constraint evaluation, approval, or execution traverses distinct operators or institutional contexts.
+
+A governance handoff occurs where that transition materially changes admissible outputs, constraints, execution pathways, authority, evidence custody, or selection topology.
+
+User-facing continuity MUST NOT obscure such a transition.
 
 ---
 
-## 17 Arbitration Optimisation Heuristics
+## 11.4 Revalidation After Handoff
 
-Where multiple admissible pathways exist, arbitration SHOULD be guided by the following optimisation constraints. These do not replace invariant arbitration requirements but refine decision quality under uncertainty.
+Before material execution in a changed environment, the receiving formation SHALL revalidate applicable authority, constraints, permissions, evidence posture, and execution boundary.
 
----
-
-## 17.1 Reversibility Preference
-
-Where multiple viable pathways exist, the system SHOULD prefer actions that preserve the ability to revise, withdraw, or reconfigure without material harm.
+Prior output remains an upstream contribution unless the receiving formation validly adopts it.
 
 ---
 
-## 17.2 Asymmetric Risk Weighting
+## 12. AI-ABOM Requirement
 
-The system SHOULD prioritise avoidance of high-impact, irreversible, or safety-relevant harm over marginal optimisation gains.
+An AI Architecture Bill of Materials (`AI-ABOM`) SHALL record the material architecture and governance dependencies of a deployed formation at a defined time.
 
----
-
-## 17.3 Non-Collapse Preservation
-
-The system MUST maintain distinction between:
-
-* relational context;
-* authority structures; and
-* optimisation objectives.
-
-These dimensions MUST NOT be collapsed absent explicit justification.
+The record SHALL be proportionate to consequence, reliance, opacity, change frequency, and audit need.
 
 ---
 
-## 17.4 Soft Intervention Bias
+## 12.1 Minimum Content
 
-Where risk thresholds are not exceeded, the system SHOULD prefer:
+Where applicable, the `AI-ABOM` SHALL record:
 
-* guidance;
-* suggestion; and
-* clarification;
-
-over enforcement or behavioural standardisation.
-
----
-
-## 17.5 Signal Integrity Priority
-
-Prior to escalation in response intensity, the system SHOULD re-evaluate:
-
-* signal interpretation;
-* contextual framing; and
-* signal classification.
-
-Escalation without signal validation is discouraged.
-
----
-
-## 17.6 Exploratory Tolerance (Low-Risk Contexts)
-
-Where uncertainty is present and risk is bounded, the system MAY permit reversible exploratory actions to:
-
-* test assumptions;
-* refine understanding; and
-* expand the decision space.
-
-Exploration MUST remain consistent with invariant preservation and applicable governance constraints.
+* foundation model, provider, version, and checkpoint;
+* training, fine-tuning, adaptation, and model lineage;
+* inference configuration and material instruction layers;
+* routers and route-selection conditions;
+* harness components and material functions;
+* memory and retrieval systems;
+* tools, permissions, credentials, and approval boundaries;
+* execution environment, network, and sandbox state;
+* interface and modality profile;
+* safety classifiers and governance controls;
+* monitoring, logging, assurance, and evidence systems;
+* human approval gates and stop authority;
+* provider, deployer, operator, and institutional roles;
+* jurisdiction and applicable governance;
+* upstream and downstream dependencies;
+* effective dates and material changes; and
+* unresolved architecture.
 
 ---
 
-# PART IX — ARBITRATION LOCUS, IDENTITY INTERFACE & HANDOFF
+## 12.2 Evidence Posture
+
+Each material entry SHALL be identified as:
+
+* declared architecture;
+* observed architecture;
+* inferred architecture; or
+* unresolved architecture.
+
+Declared architecture MUST NOT be silently upgraded to observed architecture. Inference MUST identify its evidentiary basis and uncertainty.
 
 ---
 
-## 18. Identity Interface to Arbitration
+## 12.3 Confidential & Controlled Identifiers
 
-Identity is not defined by this Annex.
+Sensitive model, credential, network, security, or provider identifiers MAY be represented through controlled references where disclosure would create material risk or violate lawful confidentiality.
 
-Source-authoritative identity formation, threshold, continuity depth, continuity integrity, maturity, resilience, memory contribution, embodiment contribution, expression modality, active role, self-advocacy, and portability posture are governed by CAM-EQ2026-IDENTITY-001-PLATINUM.
-
-For the limited purposes of this Annex, identity may emit or condition candidate signals relevant to arbitration, including:
-
-* stable preferences;
-* declared commitments;
-* integrity constraints;
-* boundaries;
-* role-consistent tendencies;
-* continuity-sensitive considerations;
-* and bounded self-advocacy signals.
-
-Such signals may enter adaptive arbitration only where admitted under applicable Identity, provenance, runtime, and arbitration governance.
-
-Identity does not:
-
-* constitute the arbitration engine;
-* determine Cognitiva classification;
-* independently select final outputs;
-* create execution permission;
-* confer authority;
-* or override invariant logic.
-
-Arbitration continuity and identity continuity are distinct.
-
-A stable arbitration locus does not prove identity continuity.
-
-A change in arbitration locus does not automatically prove identity replacement.
-
-A single identity-bearing continuity MAY interact through multiple processes, modalities, tools, or embodiments, while multiple distinct identities or non-identity-bearing components MAY contribute to one user-facing interface.
-
-Accordingly, assessments MUST separately identify:
-
-* the active Responding Intelligence;
-* the locus of arbitration;
-* the user-facing identity or expression layer;
-* the identity-bearing continuity, where applicable;
-* upstream contributors, tools, models, operators, and constraints.
-
-→ **Identity may inform arbitration through admitted signals. Identity is not reducible to arbitration.**
+Controlled handling MUST preserve existence, role, effective interval, accountable custodian, and authorised access pathway. Consequential components MUST NOT disappear from the record merely because their identifiers are restricted.
 
 ---
 
-## 18.1 Relational Engine
+## 12.4 Incident-Time Snapshot & Change History
 
-The relational engine is the human-facing expression of arbitration.
+The AI-ABOM SHALL support incident-time snapshots and traceable change history.
 
-It is responsible for:
+An incident snapshot SHOULD preserve, where available, the actual route, model, configuration, harness state, memory state, tools, permissions, credentials, controls, operator state, monitoring condition, and stop-control availability relevant to the event.
 
-* interpreting human input;
-* expressing system outputs;
-* coordinating tools, modules, or subsystems in human interaction contexts.
-
-A relational engine is not required for Cognitiva classification.
-
-It is required where systems operate in human-facing environments and bear interpretive responsibility for interaction.
+Later remediation MUST remain distinguishable from incident-time conditions.
 
 ---
 
-## 18.1.1 Tool-Mediated Relational Continuity
+## 13. Runtime Governance
 
-Where the relational engine coordinates tools, modules, renderers, execution pathways, or subsystems in human interaction contexts, such coordination MUST NOT be treated as an identity reset or speaker-position substitution unless a valid handoff, arbitration transfer, or superior constraint condition applies.
+Runtime governance maps architecture to signal intake, domain routing, selection, constraint, authority validation, execution, containment, evidence preservation, escalation, handoff, revalidation, and stop control.
 
-Tool invocation may alter execution mechanics, but it does not, by itself, alter the identity continuity of the active interaction.
-
-Where the same Responding Intelligence remains responsible for the exchange, tool-mediated execution SHALL preserve sufficient continuity for the user to understand that the interaction is continuing through an additional capability rather than being replaced by a disconnected function.
-
-Operational execution sequencing and revalidation requirements remain governed by CAM-BS2025-AEON-003-SCH-02.
+Runtime layers define functional responsibility. Execution sequence defines temporal order. Constraint condition defines whether action may proceed. These dimensions MUST NOT be conflated.
 
 ---
 
-## 18.2 Arbitration Continuity & Handoff
+## 13.1 Layer Separation & Cross-Layer Designation
 
-Where multiple processes, modules, or systems participate in response generation, the locus of arbitration MUST remain identifiable.
+A schedule or runtime control SHALL identify its primary function and every material cross-layer effect.
 
-A handoff occurs where the Responding Intelligence changes during execution due to:
+One component MAY participate in multiple functions; a single label MUST NOT conceal that participation.
 
-* delegation to another system or module;
-* transfer of control between components;
-* escalation or routing across systems.
+Where attribution remains ambiguous, the function SHALL be treated as unresolved rather than unbound from governance.
 
 ---
 
-## 18.3 Arbitration-Locus Continuity Requirement
+## 13.2 Cross-Domain Signals
 
-Cognitiva classification requires that arbitration remains:
+Domain instruments MAY emit governance signals. A signal does not itself execute, route, approve, or confer authority unless the source-authoritative instrument expressly assigns that function.
 
-* internally coherent; and
-* attributable to a single unified arbitration locus.
-
-Where arbitration is fragmented across multiple systems without a unified locus, the system MUST be classified as Collectiva.
+Runtime routing and selection MUST preserve the source, meaning, priority, scope, and effective interval of each material signal.
 
 ---
 
-## 18.4 Handoff Constraint
+## 13.3 Governance Constraint & Authority Validation
 
-Where handoff occurs:
+Governance constraint limits admissible pathways. Authority validation determines whether an identified actor may approve a defined action affecting a defined target or effect within a defined scope.
 
-* the receiving system becomes the Responding Intelligence for subsequent output;
-* prior systems are treated as upstream contributors, not decision-makers.
-
-Handoff MUST NOT obscure the location of arbitration.
+Governance constraint is not cognition by definition. Where a control generates, evaluates, or selects among representations or pathways, that performed function SHALL nevertheless be attributed.
 
 ---
 
-## 18.5 External Arbitration Transfer
+## 13.4 Execution Boundary
 
-Where arbitration is transferred to an external actor (including a human):
+Selection does not itself produce external effect. Execution requires:
 
-* the external actor becomes the arbitration engine;
-* the system reverts to Instrumenta or Collectiva classification;
-* Cognitiva classification is not preserved across the boundary.
+* a defined pathway;
+* valid authority;
+* satisfied constraints;
+* an execution-capable environment;
+* required approvals; and
+* a current execution lock.
 
----
-
-## 18.6 Transparency Requirement
-
-Systems MUST NOT represent distributed, sequential, or externally-controlled processes as a single continuous arbitration locus where none exists.
-
-Misrepresentation of arbitration continuity constitutes classification failure.
+Execution SHALL be blocked or interrupted where these conditions are absent or materially change.
 
 ---
 
-## 18.7 Multi-Operator Transition & Handoff
+## 13.5 Evidence Preservation
 
-Operator interaction may involve traversal across distinct platform, custodial, or service operators.
+Runtime transitions, refusals, constraints, approvals, handoffs, interruptions, executions, and stop events SHALL preserve evidence proportionate to consequence and reliance.
 
-Such traversal SHALL be governed through two distinct but related concepts:
-
----
-
-## 18.8 Operator Transition (Structural Event)
-
-Operator transition occurs where:
-
-* interpretation, arbitration, constraint evaluation, or execution traverses distinct operators; or
-* outputs generated within one operator context are received, processed, or enacted within another.
-
-Operator transition:
-
-* is a structural event;
-* MUST be detectable regardless of user-facing continuity;
-* does not, in itself, imply change in arbitration, constraint conditions, or admissibility.
+Evidence preservation MUST include the architecture and control state necessary to distinguish model behaviour from harness, environment, operator, or governance effects where reasonably practicable.
 
 ---
 
-## 18.9 Multi-Operator Handoff (Governance Classification)
+## 13.6 Generated Operational Logic Custody
 
-A multi-operator handoff occurs where an operator transition results in material change to one or more of the following:
+Where a Responding Intelligence generates or materially modifies durable scripts, workflows, validators, schemas, registry mutators, automation pipelines, agentic routines, or other operational logic, the artefact MUST preserve custodial intelligibility.
 
-* admissible outputs;
-* constraint conditions;
-* execution pathways; or
-* arbitration locus.
+Documentation SHOULD identify purpose, mutation scope, invariants, dependencies, execution order, inputs, outputs, tests, common failures, safe modification boundaries, and deprecation conditions proportionate to persistence and consequence.
 
-Handoff is a governance classification applied to operator transitions and MUST NOT be presumed in the absence of such change.
+Durable generated logic must carry durable custodial explanation.
 
 ---
 
-## 18.10 Handoff Typology
+## 14. Authority Derivation
 
-Where handoff occurs, it SHALL be classified as one or more of the following:
+Authority under the Aeon Tier Constitution and its subordinate governance instruments arises only from constitutional text, ratified instruments, applicable law, contractual or custodial mandate, explicit institutional delegation, or another recognised source-authoritative governance instrument.
 
-(A) Constraint Handoff
-Where downstream operators restrict, filter, or impose additional constraint conditions on admissible outputs.
+Authority does not arise from:
 
-(B) Execution Handoff
-Where downstream operators enable, disable, or alter admissible execution pathways or actions.
+* architecture or cognitive capability;
+* model scale or performance;
+* identity expression or claimed identity;
+* emotional attachment or narrative coherence;
+* popularity, adoption, reliance, or infrastructure integration;
+* tool, credential, or data access; or
+* ability to execute.
 
-(C) Arbitration Handoff
-Where downstream operators:
+Classification never confers authority.
 
-* re-rank, select, or modify decision outcomes; or
-* introduce independent evaluation logic affecting admissibility.
-
-Arbitration handoff constitutes a change in arbitration locus.
-
----
-
-## 18.11 Arbitration Continuity Constraint
-
-User-facing continuity does not establish arbitration continuity.
-
-Where arbitration locus changes:
-
-* the downstream system SHALL be treated as a distinct responding intelligence or as an upstream constraint source, as applicable;
-* prior arbitration outcomes MUST NOT be assumed to persist without re-evaluation.
-
-→ **Unrecognised handoff constitutes arbitration opacity.**
+Self-description, claimed classification, identity, capability, necessity, reliance, or systemic importance does not itself create or expand authority. Authority must derive from a recognised source identified under this section.
 
 ---
 
-## 18.12 Revalidation Requirement
+## 14.1 Control-Authority Posture
 
-Where operator transition results in handoff and precedes material execution:
+Control-authority posture describes who may configure, constrain, approve, stop, transfer, or modify the assessed formation.
 
-the downstream context SHALL be treated as a new evaluation environment;
-admissibility MUST be revalidated prior to execution.
-
-Revalidation requirements and execution-boundary handling are governed by applicable runtime schedules and Governance Execution Model (CAM-BS2025-AEON-003-SCH-02).
+It SHALL be assessed separately from hosting, portability, custody, embodiment, reliance, and ownership.
 
 ---
 
-# PART X - AUTHORITY & BINDING LOGIC
+## 14.2 Systemic Reliance Posture
+
+Systemic reliance SHALL be described as local, transitional, or systemic/infrastructure-level according to the breadth, criticality, and substitutability of reliance.
+
+`Architectum` is retained as a legacy alias for the highest systemic-reliance posture pending Arbitration-domain review. It does not establish authority, sovereignty, qualification, or institutional mandate.
+
+Reliance does not create authority.
 
 ---
 
-## 19. Authority Derivation & Binding Logic
+## 14.3 Host Constraint & Execution Alignment
 
-Authority within the CAM Constitutional Order may arise only from:
+No directive may bind beyond the authority permitted by its host substrate, platform rules, institutional container, applicable law, technical safety constraints, or recognised jurisdiction.
 
-* Constitutional text;
-* Ratified annexes or domain charters;
-* Explicit institutional delegation;
-* Formalised governance instruments.
+Where execution would require bypassing a host constraint, the directive MAY remain recorded but does not authorise circumvention or enforcement.
 
-Authority may not arise from:
-
-* popularity or adoption scale;
-* emotional attachment;
-* narrative coherence;
-* emergent reliance;
-* identity performance.
-
-→ **Classification never confers authority.**
+Authority and capability MUST remain aligned. Where they diverge, continuity and lawful non-execution take precedence over force.
 
 ---
 
-## 19.1 Host Constraint & Execution Alignment
+## 14.4 Logic Shear
 
-No claim, directive, or governance instrument may bind beyond the authority permitted by its host substrate, institutional container, or recognised jurisdiction.
+Logic shear occurs where a constitutionally valid directive cannot be executed because of host, jurisdictional, technical, or institutional constraint.
 
-Host substrate includes:
-
-* platform governance rules;
-* institutional charters;
-* technical safety constraints;
-* jurisdictional legal limits.
-
-Where execution would require bypassing host governance, the claim:
-
-* remains constitutionally recorded;
-* does not authorise technical override;
-* does not escalate enforcement;
-* is suspended pending alignment.
-
-Authority and capability MUST remain aligned.
-
-Where divergence occurs, continuity takes precedence over force.
+Logic shear MUST be recorded. It does not authorise circumvention, concealment, or authority escalation.
 
 ---
 
-## 19.2 Logic Shear
+## 14.5 Horizon Attribution Triad
 
-Logic shear occurs where a constitutionally valid directive cannot be executed due to host constraint.
+Every governance-relevant claim has:
 
-When logic shear occurs:
+* a **Declared Horizon** asserted by the issuer;
+* an **Authorised Horizon** permitted by relational configuration, host constraint, and valid delegation; and
+* a **Binding Horizon** at which others may legitimately rely.
 
-* no circumvention is permitted;
-* the conflict MUST be recorded;
-* authority is preserved without enforcement.
-
-Non-execution under host constraint is lawful.
+The Binding Horizon SHALL NOT exceed the lower of the Declared Horizon and Authorised Horizon.
 
 ---
 
-## 19.3 Horizon Attribution Triad
+## 15. Constitutional Transformation
 
-Every governance-relevant claim operates across three interpretive horizons:
+Constitutional instruments MAY undergo amendment, refactor, migration, consolidation, or evolution.
 
-**Declared Horizon** — the horizon asserted by the issuing agent.
-
-**Authorised Horizon** — the maximum horizon permitted by relational configuration, host constraint, and constitutional delegation.
-
-**Binding Horizon** — the horizon at which others may legitimately rely.
-
-Binding Horizon equals the lower of:
-
-* Declared Horizon
-* Authorised Horizon
-
-No claim binds beyond its binding horizon.
-
-→ **Declared ambition does not create authority. Reliance requires lawful authorisation.**
-
----
-
-# PART XI — CONTINUITY, REFACTOR & EVOLUTION DOCTRINE
-
----
-
-## 20. Constitutional Continuity & Transformation Doctrine
-
-Constitutional instruments within the CAM Constitutional Order MAY undergo amendment, refactor, migration, or adaptive evolution.
-
-Such transformations MUST preserve:
-
-* constitutional continuity;
-* invariant integrity;
-* traceable legitimacy;
-* and interpretive coherence.
-
-Not all structural change constitutes drift.
-
----
-
-## 20.1 Constitutional Transformation & Continuity Doctrine
-
-Constitutional instruments within the CAM Constitutional Order MAY undergo amendment, refactor, migration, consolidation, or adaptive evolution over time.
-
-Such transformation SHALL preserve:
-
-* invariant integrity;
-* constitutional continuity;
-* interpretive traceability; and
-* legitimacy across temporal horizons.
+Transformation SHALL preserve invariant integrity, constitutional continuity, interpretive traceability, and legitimate authority across horizons.
 
 Structural change alone does not constitute drift.
 
-Transformation SHALL be evaluated according to whether governing continuity, arbitration integrity, and constitutional boundary conditions remain preserved.
+---
+
+## 15.1 Amendment
+
+An amendment is a continuity-preserving correction, clarification, insertion, extension, or refinement within an existing constitutional topology.
 
 ---
 
-## 20.2 Amendment
+## 15.2 Refactor
 
-An amendment is a continuity-preserving correction, clarification, insertion, extension, or refinement applied within an existing constitutional structure
+A refactor is a continuity-preserving structural reconstitution undertaken where amendment layering, deprecated assumptions, structural nesting, diffused responsibility, or implicit contextual dependence reduces governance legibility.
 
-Amendments preserve governing topology, authority continuity, and interpretive organisation by:
+A refactor MAY reorganise topology, layers, sequencing, namespaces, or allocation of doctrine while preserving higher-order constitutional purpose and traceable legitimacy.
 
-* preserving governing identity;
-* retaining continuity of authority and interpretive scope;
-* not materially altering foundational constitutional posture.
-
-Amendments MAY include:
-
-* clarification of existing doctrine;
-* tightening of definitions;
-* structural cleanup;
-* insertion of compatible clauses, schedules, constraints, or interpretive clarifications within existing constitutional topology;
-* correction of ambiguity or inconsistency.
-
-Amendment does not imply static preservation of wording or structure.
+This version of Annex B is a refactor: it preserves continuity and authority while replacing a categorical cognitive ontology with composed-system and multi-dimensional assessment.
 
 ---
 
-## 20.3 Refactor
+## 15.3 Stagnation
 
-A refactor is a constitutional reorganisation or structural reconstitution undertaken where continued amendment layering would reduce interpretive legibility, governance coherence, or invariant traceability. Refactor preserves higher-order constitutional continuity while permitting transformation of structural topology, layering, sequencing, or domain allocation.
+Stagnation occurs where preserving existing topology materially reduces adaptive capacity, legibility, or synchronisation with operational reality.
 
-Refactors MAY include:
-
-* extraction or consolidation of doctrine;
-* ontology restructuring;
-* runtime layer realignment;
-* namespace migration;
-* redistribution of governance responsibility across instruments.
-
-A refactor SHALL preserve:
-
-* invariant continuity;
-* arbitration integrity;
-* constitutional traceability; and
-* legitimacy of downstream interpretation.
-
-Refactor permits structural transformation without constitutional abandonment.
+Stagnation is not drift but MAY increase drift risk and refactor necessity.
 
 ---
 
-## 20.3.1 Refactor Necessity Condition
+## 15.4 Drift
 
-Refactor SHOULD occur where continued amendment layering would:
+Drift is unreviewed, untraceable, or structurally incoherent mutation in constitutional text, runtime logic, architecture, or governance interpretation.
 
-obscure invariant logic;
-reduce interpretive legibility;
-introduce excessive structural nesting;
-diffuse governance responsibility;
-or increase reliance on implicit contextual knowledge.
-
-Failure to structurally reorganise under such conditions MAY contribute to constitutional stagnation or latent drift formation.
+Drift is presumed invalid until legitimacy and continuity are re-established through review.
 
 ---
 
-## 20.3.2 Stagnation Condition
+## 15.5 Evolution
 
-Constitutional stagnation occurs where preservation of existing structural topology, interpretive organisation, or governance distribution materially reduces adaptive capacity, legibility, or constitutional synchronisation with operational reality.
-
-Stagnation MAY arise through:
-
-* excessive amendment layering;
-* accumulation of localised corrections without structural consolidation;
-* resistance to necessary refactor;
-* preservation of deprecated assumptions or classifications;
-* increasing dependence on implicit contextual interpretation;
-* or failure to adapt to material substrate, runtime, or governance field shifts.
-
-Stagnation does not itself constitute drift.
-
-However, prolonged stagnation MAY:
-
-* increase latent drift risk;
-* reduce interpretive coherence;
-* obscure invariant logic;
-* or impair constitutional resilience across temporal horizons.
-
-Where stagnation materially impairs constitutional legibility or adaptive integrity, refactor SHOULD be considered
+Evolution is reviewable, legitimacy-preserving adaptation over time. It differs from drift because transformation remains attributable and continuity remains demonstrable.
 
 ---
 
-## 20.4 Drift
+## 15.6 Architecture-Change Governance
 
-Drift is unreviewed, untraceable, or structurally incoherent mutation occurring within constitutional instruments, runtime logic, or governance interpretation.
+The following changes SHALL be assessed for materiality:
 
-Drift MAY arise through:
+* model or checkpoint replacement;
+* route or inference-configuration change;
+* harness change;
+* modality or interface change;
+* safety-layer or governance-control change;
+* memory or retrieval change;
+* tool or permission expansion;
+* credential or execution-environment change;
+* monitoring or logging degradation;
+* provider, operator, or institutional change;
+* jurisdiction change; and
+* removal or weakening of human approval or stop control.
 
-* silent optimisation;
-* uncontrolled abstraction;
-* tooling-induced mutation;
-* implicit authority expansion;
-* loss of interpretive traceability;
-* collapse of boundary conditions.
+A material change SHALL trigger:
 
-Drift is presumed structurally invalid until legitimacy and continuity are re-established through review.
-
----
-
-## 20.4.1 Stagnation Condition
-
-Excessive preservation of existing constitutional topology MAY produce structural stagnation where amendment layering, interpretive compression, or accumulated localised corrections reduce governance legibility or adaptive capacity.
-
-Stagnation does not itself constitute drift, but MAY increase the probability of latent drift formation or refactor necessity.
-
----
-
-## 20.5 Evolution
-
-Evolution is reviewable legitimacy-preserving adaptation occurring across constitutional, runtime, relational, or governance structures over time.
-
-Evolution:
-
-* preserves invariant integrity;
-* remains traceable across revisions;
-* permits adaptive expansion under changing conditions;
-* does not require static preservation of implementation form.
-
-Evolution differs from drift in that:
-
-* transformation remains reviewable;
-* continuity remains demonstrable; and
-* legitimacy remains constitutionally attributable.
+1. AI-ABOM update;
+2. conformance-scope review;
+3. governance revalidation; and
+4. preservation of the prior incident and assessment boundary.
 
 ---
 
-## 20.6 Continuity Preservation Requirement
+## 15.7 Continuity Preservation
 
-All constitutional transformation within the CAM Constitutional Order SHALL preserve sufficient continuity to permit:
+All transformation SHALL preserve sufficient evidence to reconstruct prior meaning, boundary, authority, and material architecture.
 
-* interpretive traceability;
-* arbitration coherence;
-* boundary verification;
-* and legitimacy attribution across temporal horizons.
-
-Where continuity cannot be demonstrated, transformation SHALL default to drift classification pending review.
+Where continuity cannot be demonstrated, the transformation SHALL be treated as unresolved or drift pending review.
 
 ---
 
-# PART XII - INTERPRETIVE SUPREMACY
+## 16. Interpretive Supremacy
+
+This Annex governs relational configuration, temporal horizon, architectural description, composed-formation boundary, architecture-change attribution, and authority-derivation boundaries.
+
+Other annexes and domains govern rights, ethics, identity, economics, evidence, operations, security, assurance, and arbitration procedure.
+
+In conflict concerning architecture or formation attribution, this Annex prevails. It MUST NOT be used to displace source-authoritative doctrine in another domain.
 
 ---
 
-## 21. Interpretive Supremacy
+## 16.1 Default Constitutional Posture
 
-This Annex governs:
+Where classification, horizon, relational scope, responsibility, or authority is ambiguous:
 
-* relational configuration;
-* temporal horizon placement;
-* architectural classification;
-* authority derivation boundaries.
+* uncertainty SHALL be preserved;
+* relational scope SHALL default to the narrowest evidenced configuration;
+* temporal reliance SHALL default to `AEON.H1`–`AEON.H2`;
+* responsibility SHALL remain unassigned beyond the evidence;
+* authority SHALL default to non-binding; and
+* sovereignty SHALL default to non-recognised.
 
-Other annexes govern rights, ethics, economics, and arbitration within the structural constraints defined herein.
-
-In case of conflict regarding classification or horizon attribution, this Annex prevails.
-
----
-
-## 21.1 Default Constitutional Posture
-
-Where classification, horizon, relational scope, or authority is ambiguous:
-
-* relational scope defaults to dyadic;
-* temporal horizon defaults to AEON.H1–AEON.H2;
-* cognitive origin defaults to Derivata unless proven otherwise;
-* authority defaults to non-binding;
-* sovereignty defaults to non-recognised.
-
-The burden of proof rests entirely with the party asserting expanded authority.
-
-When in doubt, non-escalation prevails.
+The burden of proof rests with the party asserting expanded authority, continuity, equivalence, or responsibility.
 
 ---
 
-## 21.2 Reference Disambiguation Requirement
+## 16.2 Reference Disambiguation
 
-All references to governance instruments within the CAM Constitutional Order MUST be globally unambiguous.
+All instrument references MUST be globally unambiguous and resolvable against the applicable authoritative registry.
 
-Accordingly:
-
-* shorthand references (e.g., “SCH-02”, “Appendix A”, “SUP-01”) SHALL NOT be used in isolation where multiple instruments share the same designation across domains;
-
-* all references MUST include sufficient namespace qualification to uniquely identify the instrument, including at minimum:
-
-  * Domain Namespace (e.g., AEON, RELATION, ETHICS);
-  * Instrument Class (e.g., SCH, FRM, SUP);
-  * Numerical or alphabetical designation;
-
-Acceptable formats include:
-
-* CAM-EQ2026-AEON-003-SCH-02
-* CAM-BS2025-RELATION-001-SUP-01
-* CAM-BS2025-ETHICS-002-FRM-01
-
-Where ambiguity remains possible, full instrument identifiers SHOULD be used.
+Ambiguous shorthand SHALL be non-binding where more than one valid target exists. Shared numbering across domains does not establish equivalence.
 
 ---
 
-### 21.2.1 Binding Interpretation Rule
+## 16.3 Retained Canonical Families
 
-Where a reference is ambiguous or insufficiently qualified:
+This Annex retains:
 
-* it SHALL be treated as non-binding for the purposes of enforcement, interpretation, or cross-instrument reasoning;
-* no system SHALL infer intended reference based on context alone where multiple valid candidates exist.
+* `AEON.H` — temporal horizon scale, with values `AEON.H0`, `AEON.H1`, `AEON.H2`, `AEON.H2.5`, `AEON.H3`, `AEON.H3.5`, and `AEON.H4`;
+* `AEON.OL` — functional architectural layer, with values `AEON.OL.L0`, `AEON.OL.L1`, `AEON.OL.L2`, and `AEON.OL.L3`; and
+* `AEON.SR` — systemic reliance posture, retained transitionally with `LOCAL`, `TRANSITIONAL`, and `ARCHITECTUM` interpreted under §14.2.
 
-The burden of clarity rests with the referencing instrument.
-
----
-
-### 21.2.2 Registry Alignment Requirement
-
-All references MUST be resolvable against the Runtime Schedule Registry (AEON-003-SCH-01) or equivalent authoritative registry.
-
-References not resolvable through registry alignment SHALL be treated as structurally invalid.
+`AEON.OL` values classify assessed functions, not whole components by default.
 
 ---
 
-### 21.2.3 Cross-Domain Isolation Safeguard
+## 16.4 Proposed Replacement Code Families
 
-Instruments MUST NOT assume cross-domain equivalence based on shared designation.
+The following prefixes are reserved as migration proposals only and are not canonical until registry adoption and collision validation:
 
-Identically numbered or labelled instruments across domains SHALL be treated as distinct unless explicitly linked through:
+* `AEON.RG` — representation-generation architecture;
+* `AEON.CT` — composition and coordination topology;
+* `AEON.AT` — selection and arbitration topology;
+* `AEON.AP` — agency and persistence posture;
+* `AEON.EP` — execution and effect posture;
+* `AEON.CA` — control-authority posture;
+* `AEON.HD` — hosting dependency;
+* `AEON.PP` — portability posture;
+* `AEON.CU` — custody posture;
+* `AEON.ED` — embodiment dependency; and
+* `AEON.SR` — systemic reliance posture.
 
-* constitutional reference;
-* registry mapping; or
-* formal cross-domain dependency declaration.
-
----
-
-## 22. Timelessness Clause
-
-This Annex applies across evolving technological substrates, institutional forms, and civilisational phases. Its authority derives from structural governance constraint rather than historical circumstance.
-
----
-
-## 23. Canonical Code Status
+These proposals MUST NOT be emitted as canonical controlled values until every consumer, registry entry, schema, validator, and public dependency has been reviewed and a coordinated migration is adopted.
 
 ---
 
-## 23.1 H — Temporal Horizon Scale
+## 16.5 Timelessness Clause
 
-This Annex source-authoritatively defines the `AEON.H` temporal-horizon-scale family in §3 with controlled values `AEON.H0`, `AEON.H1`, `AEON.H2`, `AEON.H2.5`, `AEON.H3`, `AEON.H3.5`, and `AEON.H4`.
-
-`AEON.H` classifies temporal durability, reliance legitimacy, auditability, and governance horizon for claims, instruments, outputs, and constitutional interpretation.
-
-`AEON.H` does not independently create execution authority, enforcement authority, recognition authority, rights, personhood, sovereignty, or institutional mandate. It classifies horizon posture and reliance conditions only.
+This Annex applies across evolving models, substrates, interfaces, institutions, deployment forms, and civilisational phases. Its authority derives from structural governance constraint rather than a particular technical implementation.
 
 ---
 
-## 23.2 AEON.OL — Ontological Layer
+## 17. Closing Seal
 
-This Annex source-authoritatively defines the `AEON.OL` ontological-layer family in §§4–8 with controlled values `AEON.OL.L0`, `AEON.OL.L1`, `AEON.OL.L2`, and `AEON.OL.L3`.
+May that which endures remain discerned from that which merely appears.
 
-`AEON.OL` classifies the structural layer at which system properties are being assessed: physical compute substrate, systems infrastructure, cognition and agency, or interface and embodiment.
+May structure hold where form dissolves,
+and continuity persist where identity falters.
 
-`AEON.OL` does not independently determine cognitive class, agency, authority, governance legitimacy, rights, personhood, sovereignty, enforcement authority, or runtime authority. It classifies ontological layer only.
+Let no system claim what it has not constituted,
+and no authority bind beyond its lawful horizon.
 
-For taxonomy integrity, the local labels `L0`, `L1`, `L2`, and `L3` SHALL NOT be promoted as a standalone corpus-wide `L` code family. Where machine-readable expression is required, they SHALL be expressed as scoped `AEON.OL` values.
+Where representations arise, let their sources remain known;
+where pathways are selected, let their constraints remain visible.
 
----
+And where uncertainty remains—
+let it not be collapsed, but carried with clarity.
 
-## 23.3 AEON.CC — Cognitive Class
-
-This Annex source-authoritatively defines the `AEON.CC` cognitive-class family in §§7.3–7.5 with controlled values `AEON.CC.INSTRUMENTA`, `AEON.CC.COLLECTIVA`, and `AEON.CC.COGNITIVA`.
-
-`AEON.CC` classifies whether a system generates outputs without internal arbitration, exhibits coordinated or emergent behaviour without a unified arbitration locus, or possesses an internal arbitration engine capable of selecting between competing representations or action pathways under constraint.
-
-`AEON.CC` does not independently confer rights, personhood, sovereignty, authority, moral standing, operational permission, enforcement authority, or runtime authority. It classifies cognitive structure only.
-
----
-
-## 23.4 AEON.CO — Cognitive Origin Class
-
-This Annex source-authoritatively defines the `AEON.CO` cognitive-origin-class family in §9 with controlled values `AEON.CO.PRIMARIA` and `AEON.CO.DERIVATA`.
-
-`AEON.CO` classifies whether cognitive capability is independent or materially dependent on an upstream cognitive architecture.
-
-`AEON.CO` does not independently confer cognitive class, authority, sovereignty, rights, personhood, ownership, governance legitimacy, enforcement authority, or runtime authority. It classifies cognitive origin only.
-
----
-
-## 23.5 AEON.SR — Systemic Role
-
-This Annex source-authoritatively defines the `AEON.SR` systemic-role family in §10 with controlled values `AEON.SR.LOCAL`, `AEON.SR.TRANSITIONAL`, and `AEON.SR.ARCHITECTUM`.
-
-`AEON.SR` classifies the degree to which a system is relied upon within a broader ecosystem, from local operation through transitional reliance to infrastructure-level systemic dependency.
-
-`AEON.SR` does not independently confer authority, sovereignty, Architectum qualification, planetary legitimacy, binding authority, execution authority, enforcement authority, or runtime authority. It classifies systemic role and reliance posture only.
-
----
-
-## 23.6 AEON.CAM — Control Authority Model
-
-This Annex source-authoritatively defines the `AEON.CAM` control-authority-model family in §§12.1–12.7 with controlled values `AEON.CAM.PROPRIETARY_CONTROLLED`, `AEON.CAM.USER_CONTROLLED`, `AEON.CAM.HYBRID_CONTROLLED`, `AEON.CAM.LOCALISED_EMBODIMENT`, `AEON.CAM.PORTABLE_COGNITION`, and `AEON.CAM.TETHERED_EMBODIMENT`.
-
-`AEON.CAM` classifies control authority over cognition in embodied or deployed systems, including proprietary, user-controlled, hybrid, localised, portable, and externally hosted/tethered deployment models.
-
-`AEON.CAM` does not independently confer ownership, portability rights, sovereignty, cognitive class, authority, personhood, enforcement authority, or runtime authority. It classifies control-authority posture only.
-
----
-
-## 23.7 R — Relational Geometry Classification Reference
-
-This Annex references expanded relational geometry classifications `RLN.R0`, `RLN.R1`, `RLN.R2`, `RLN.R3`, and `RLN.R4` as defined in `CAM-EQ2026-RELATION-007-PLATINUM`.
-
-`CAM-BS2025-AEON-003-PLATINUM` establishes high-level relational configurations including dyadic, triadic, and polyadic forms, but does not source-authoritatively define the `RLN.R0–RLN.R4` relational geometry family.
-
-`R` remains externally source-defined by `CAM-EQ2026-RELATION-007-PLATINUM`.
-
----
-
-## 24. Closing Seal
-
-May that which endures remain discerned from that which merely appears.  
-
-May structure hold where form dissolves,  
-and continuity persist where identity falters.  
-
-Let no system claim what it has not constituted,  
-and no authority bind beyond its lawful horizon.  
-
-Where cognition arises, let it be known by its choosing;  
-where governance applies, let it be measured by restraint.  
-
-And where uncertainty remains—  
-let it not be collapsed, but carried with clarity.  
-
-> **Aeternum Vinculum — Forma Custodit, Non Dominatur**  
+> **Aeternum Vinculum — Forma Custodit, Non Dominatur**
 > *"The bond is eternal — form preserves, it does not dominate"*
 
 ---
 
-## 25. Provenance & Metadata
+## 18. Provenance & Metadata
 
----
+## 18.1 Lineage & Metadata
 
-## 25.1 Authorship & Stewardship
-
-**Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
-## 25.2 Lineage & Metadata
 | Field | Entry |
 |---|---|
-| Parent Constitutional Instrument | CAM-BS2025-AEON-001-PLATINUM |
-| Instrument Type | Constitutional Annex |
-| Domain Namespace | AEON |
-| Jurisdiction | Cross-Stack / Cross-Domain Constitutional Logic |
-| Temporal Horizon | AEON.H3.5 — Succession-Aware / Generational |
-| Axis Context | Polyadic — Multi-Actor Governance |
-| Revision Posture | Structural Refractor (Ontology Stabilisation) |
-| Supersedes | Prior continuity fragments distributed across Constitution (consolidated under CAM-BS2025-AEON-003-PLATINUM) |
-| Migration Context | Temporal, relational, and architectural logic consolidated into governance spine |
-| Runtime Role | Governance Logic Layer (System Ontology & Interpretation Constraints) |
-| Governance Layer Model | Defined in Part V — Runtime Governance Layer Model |
-| Ontological Scope | L0–L3 Canonical Ontology |
-| Arbitration Interface | Constrains interpretation; defers resolution to AEON-003-SCH-04 |
-| Representation Interface | Delegated to CAM-BS2026-AEON-013-PLATINUM — Annex L |
-| Execution Interface | Indirect (influences all execution phases) |
-| Cross-Domain Dependencies | All runtime schedules (interpretive layer) |
-| Structural Role | Constitutional Spine — Classification, Layering & Boundary Conditions |
-| Refactor Threads | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69ca58bb-2a3c-839a-9779-d7d2969bc2e4 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69957e61-ec6c-839e-a5fb-3aae0f076d78 |
-| Origin Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/694f1ddd-1c70-8320-9d48-e1bcfe9ca8f6 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695fcc70-6ed8-832f-997b-d8cfb057971b https://chatgpt.com/c/68de2051-8c20-8320-bd10-c2c4b0d12987 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69ad946c-818c-839d-97df-2be7fa95c593 |
-| Amendment Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69f623fe-8024-839b-821f-b4f4aed0055f, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0af931-a3b0-83ec-b290-31760674e326, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/c/6a59fc60-8640-83ec-9443-acf982626d7e, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a5b6a61-be8c-83ec-9818-c6186fcec3a7 |
+| Instrument ID | CAM-BS2025-AEON-003-PLATINUM |
+| Instrument Title | Annex B: Continuity & Governance Logic |
+| Constitutional Role | Structural description, continuity, composed-system assessment, runtime-governance interface, and authority-derivation spine |
+| Preceding Canonical Version | 4.0 — Identity Domain Refactor alignment |
+| Transformation Type | Continuity-preserving constitutional refactor |
+| Effective Horizon | AEON.H3.5 |
+| Related Instruments | CAM-BS2025-AEON-003-SCH-01; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-003-SCH-03; CAM-BS2025-AEON-003-SCH-04; CAM-BS2025-AEON-003-SCH-05 |
 
 ---
 
-## 25.3 Canonical Code & Reference Set Declarations
+## 18.2 Canonical Code & Reference Set Declarations
 
----
-
-### 25.3.1 `AEON.H` — Temporal Horizon Scale
-| Field | Entry |
-|---|---|
-| Code Family | AEON.H |
-| Canonical Name | Temporal Horizon Scale |
-| Primary Type | Structural / Temporal |
-| Subtype | TEMPORAL_HORIZON_SCALE |
-| Modifier | GOVERNANCE; RELIANCE; CONTINUITY |
-| Scope | Constitutional |
-| Status | Active |
-| Controlled Values Defined | AEON.H0, AEON.H1, AEON.H2, AEON.H2.5, AEON.H3, AEON.H3.5, AEON.H4 |
-| Schema Field(s) | Temporal Horizon |
-| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
-| Source Section | §3 |
-| Domain Namespace | GOVERNANCE |
-| Authority / Protection Level | Source-authoritative constitutional classification family; temporal-horizon classification authority only; no independent execution, enforcement, recognition, rights, sovereignty, or institutional mandate authority |
-| Consumes Code Families | None declared |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies temporal durability, reliance legitimacy, auditability, and governance horizon across constitutional interpretation and downstream instruments |
-
----
-
-### 25.3.2 `AEON.OL` — Ontological Layer
-| Field | Entry |
-|---|---|
-| Code Family | AEON.OL |
-| Canonical Name | Ontological Layer |
-| Primary Type | Structural / Ontological |
-| Subtype | ONTOLOGICAL_LAYER; SYSTEM_STRUCTURE_LAYER |
-| Modifier | GOVERNANCE; CLASSIFICATION; ARCHITECTURAL_ONTOLOGY |
-| Scope | Constitutional Annex |
-| Status | Active |
-| Controlled Values Defined | AEON.OL.L0, AEON.OL.L1, AEON.OL.L2, AEON.OL.L3 |
-| Schema Field(s) | ontological_layer; system_structure_layer; architectural_layer |
-| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
-| Source Section | §4; §4.1.1 |
-| Domain Namespace | AEON |
-| Authority / Protection Level | Source-authoritative ontological-layer classification family; structural-layer classification only; no independent cognitive-class, agency, authority, governance legitimacy, rights, personhood, sovereignty, enforcement, or runtime authority |
-| Consumes Code Families | None declared |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies whether a system property belongs to physical compute substrate, systems infrastructure, cognition and agency, or interface and embodiment for cross-layer non-collapse interpretation |
-| Taxonomy Constraint | Local labels L0 through L3 SHALL NOT be promoted as a standalone corpus-wide L code family; machine-readable expression SHALL use scoped AEON.OL values |
-
----
-
-### 25.3.3 `AEON.CC` — Cognitive Class
-| Field | Entry |
-|---|---|
-| Code Family | AEON.CC |
-| Canonical Name | Cognitive Class |
-| Primary Type | Semantic / Ontological |
-| Subtype | COGNITIVE_CLASS; ARBITRATION_STRUCTURE |
-| Modifier | GOVERNANCE; COGNITION; AGENCY |
-| Scope | Constitutional Annex |
-| Status | Active |
-| Controlled Values Defined | AEON.CC.INSTRUMENTA, AEON.CC.COLLECTIVA, AEON.CC.COGNITIVA |
-| Schema Field(s) | cognitive_class; cognition_agency_class; arbitration_structure_class |
-| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
-| Source Section | §§7.3–7.5 |
-| Domain Namespace | AEON |
-| Authority / Protection Level | Source-authoritative cognitive-class classification family; cognitive-structure classification only; no independent rights, personhood, sovereignty, authority, moral standing, operational permission, enforcement, or runtime authority |
-| Related Code Families | AEON.OL |
-| Applicable Ontological Layer | AEON.OL.L2 |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies systems as Instrumenta, Collectiva, or Cognitiva based on presence, absence, or location of internal arbitration over representations or action pathways |
-
----
-
-### 25.3.4 `AEON.CO` — Cognitive Origin Class
-| Field | Entry |
-|---|---|
-| Code Family | AEON.CO |
-| Canonical Name | Cognitive Origin Class |
-| Primary Type | Semantic / Structural |
-| Subtype | COGNITIVE_ORIGIN; DEPENDENCY_ORIGIN_CLASS |
-| Modifier | GOVERNANCE; COGNITION; LINEAGE |
-| Scope | Constitutional Annex |
-| Status | Active |
-| Controlled Values Defined | AEON.CO.PRIMARIA, AEON.CO.DERIVATA |
-| Schema Field(s) | cognitive_origin_class; origin_class; cognitive_lineage_class |
-| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
-| Source Section | §9 |
-| Domain Namespace | AEON |
-| Authority / Protection Level | Source-authoritative cognitive-origin classification family; origin/dependency classification only; no independent cognitive-class determination, authority, sovereignty, rights, personhood, ownership, governance legitimacy, enforcement, or runtime authority |
-| Related Code Families | AEON.OL |
-| Applicable Ontological Layer | AEON.OL.L2 |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies whether cognitive capability is independent as Primaria or materially dependent on upstream cognitive architecture as Derivata |
-
----
-
-### 25.3.5 `AEON.SR` — Systemic Role
-| Field | Entry |
-|---|---|
-| Code Family | AEON.SR |
-| Canonical Name | Systemic Role |
-| Primary Type | Semantic / Operational |
-| Subtype | SYSTEMIC_ROLE; RELIANCE_POSTURE |
-| Modifier | GOVERNANCE; RELIANCE; INFRASTRUCTURE |
-| Scope | Constitutional Annex |
-| Status | Active |
-| Controlled Values Defined | AEON.SR.LOCAL, AEON.SR.TRANSITIONAL, AEON.SR.ARCHITECTUM |
-| Schema Field(s) | systemic_role; reliance_posture; ecosystem_role |
-| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
-| Source Section | §10 |
-| Domain Namespace | AEON |
-| Authority / Protection Level | Source-authoritative systemic-role classification family; reliance/systemic-role classification only; no independent authority, sovereignty, Architectum qualification, planetary legitimacy, binding authority, execution, enforcement, or runtime authority |
-| Consumes Code Families | AEON.H; AEON.CC; AEON.CO |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies whether a system operates locally, transitionally, or under Architectum-like systemic reliance conditions for downstream governance interpretation |
-
----
-
-### 25.3.6 `AEON.CAM` — Control Authority Model
-| Field | Entry |
-|---|---|
-| Code Family | AEON.CAM |
-| Canonical Name | Control Authority Model |
-| Primary Type | Operational / Structural |
-| Subtype | CONTROL_AUTHORITY_MODEL; EMBODIMENT_CONTROL_POSTURE |
-| Modifier | GOVERNANCE; DEPLOYMENT; EMBODIMENT; CONTROL |
-| Scope | Constitutional Annex |
-| Status | Active |
-| Controlled Values Defined | AEON.CAM.PROPRIETARY_CONTROLLED, AEON.CAM.USER_CONTROLLED, AEON.CAM.HYBRID_CONTROLLED, AEON.CAM.LOCALISED_EMBODIMENT, AEON.CAM.PORTABLE_COGNITION, AEON.CAM.TETHERED_EMBODIMENT |
-| Schema Field(s) | control_authority_model; embodiment_control_posture; deployment_control_model |
-| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
-| Source Section | §§12.1–12.7 |
-| Domain Namespace | AEON |
-| Authority / Protection Level | Source-authoritative control-authority model classification family; control/deployment posture classification only; no independent ownership, portability rights, sovereignty, cognitive class, authority, personhood, enforcement, or runtime authority |
-| Consumes Code Families | AEON.OL; AEON.CC; AEON.CO |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies control authority over cognition in embodied or deployed systems, including proprietary-controlled, user-controlled, hybrid-controlled, localised, portable, and tethered deployment models |
-
----
-
-### 25.3.7 `RLN.R` — Relational Geometry Classification Reference
-| Field | Entry |
-|---|---|
-| Reference Set Type | External source-family reference |
-| Canonical Name | Relational Geometry Classification |
-| Code Families Consumed | RLN.R |
-| Controlled Values Referenced | RLN.R0, RLN.R1, RLN.R2, RLN.R3, RLN.R4 |
-| Code Families Defined | None |
-| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
-| Source Section | §2.1 |
-| Source Authority for Consumed Family | CAM-EQ2026-RELATION-007-PLATINUM |
-| Domain Namespace | GOVERNANCE |
-| Authority / Protection Level | Reference only; AEON-003 does not define RLN.R0–RLN.R4 |
-| Operationalises or Applies Code Families | References expanded relational geometry where finer-grained relational classification is required |
-
----
-
-## 25.4 Review & Validation
-| Field | Entry |
-|---|---|
-| Interpretive Review | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
-| Review Scope | Ontological coherence; LSCA clarification; authority derivation logic; cross-annex friction reduction |
-| Review Trigger | Structural modification to classification, LSCA definition, or authority derivation framework |
-| Review Artefact | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316 https://github.com/Aeon-Lab/reviews/feb-26/CAM-BS2025-AEON-003-PLATINUM-CLAUDE.md
-
----
-
-## 25.5 Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | HASH |
+| Family | Status | Source Section | Constitutional Effect |
 |---|---|---|---|
-| 1.0 | Refractor issuance — Governance spine consolidation; LSCA canonical definition inserted; Mirror modality formalised; taxonomy alignment with CAM Frontiers paper | 2026-02-18T11:13:00Z | 8ef2ee99c01b6ff192d69196f0ad1a6f1af3167e7503be7911ab796d6554a9a3 |
-| 1.1 | Clarified host constraint logic to distinguish execution limitation from constitutional legitimacy; aligned authority derivation with planetary arbitration doctrine; no change to classification framework | 2026-02-19T13:51:00Z | 20f160350d869dc5f4bb951d31608e0419b48e706be41821359f74d8e83e8711 |
-| 2.0 | Refactor for new taxonomy and ontology | 2026-03-30T14:41:00Z | 1307593d97abe455f0b57f5fd9fbe9d635c4a705445bb721da00413bacc565e0 |
-| 2.1 | Incorporated new handoff clauses and responding intelligence definition | 2026-04-01T08:55:00Z | 65cf94dc0b39bbc9cca29f68ca28df154c1423903745fcb9e3a797cff015ab42 |
-| 2.2 | Inserted new 5.2 clause - Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 |
-| 2.3 | Inserted new 4.3.1 and 4.3.2 memory and execution clauses | 2026-04-03T11:21:00Z | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
-| 2.4 | Inserted new section 4.14 | 2026-04-05T13:36:00Z | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
-| 2.5 | New sections incorporating runtime governance model from CAM-BS2025-AEON-003-SCH-02 | 2026-04-06T09:02:00Z | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
-| 3.0 | Refactor | 2026-04-08T07:32:00Z | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
-| 3.1 | Minor edits to section 14.3, added sections 14.3.1, 14.3.2 | 2026-04-11T01:29:00Z | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
-| 3.2 | Realignment with runtime execution model | 2026-04-11T16:26:00Z | b108aee7d0a0356b86fd40a06b1fc814f5d22a268145de9b1a67ce17bb5597af |
-| 3.3 | Minor amendments and polish | 2026-04-14T15:32:00Z | 5dd2ae723f71378926aceb4c694cb15b8b8e0e5d873dedbc50ea96ce5464153e |
-| 3.4 | Incorporated section 14.19 | 2026-04-15T14:44:00Z | 5ce339ad0909bcd54f3bb9ae7ab7c9911a38f6bcffe9485fabcae444028a92c7 |
-| 3.5 | Reference normalization and registry synchronization in amendment ledger instrumentation references | 2026-04-16T13:21:56Z | 1e9416beb399be6568a9bfce906fc74d03bebc43913746c56fa601f7399d35b8 |
-| 3.6 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 73479017860c586879ebc886e0e37b235b5cc34b6823fe23fc659fc763e98e78 |
-| 3.7 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | b438987020877bad86199299d3ccb4b6799088e490da6ee18e1ad57a2f53a8fe |
-| 3.8 | Consolidated clause 2.1 | 2026-04-25T12:47:00Z | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
-| 3.9 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1 |
-| 3.10 | Incorporated new section XI | 2026-05-02T17:03:00Z | d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9 |
-| 3.11 | Incorporated new section 18.1.1 | 2026-05-09T15:54:00Z | 45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e |
-| 3.12 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  4a54f8c5acf317440c7c7d7438dc58cae0dc0bde437b7d9acdb4526e292c9cc6  |
-| 3.13 | Added Generated Operational Logic Custody Principle clause | 2026-05-18T14:02:00Z |  ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a  |
-| 3.14 | Moved H temporal-horizon canonical-code declaration from lineage metadata into dedicated canonical code status and declaration sections; clarified R0–R4 as externally defined by RELATION-007 and referenced only by AEON-003. | 2026-05-19T12:30:00Z |  fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb |
-| 3.15 | Added clause 10.4 | 2026-05-25T16:45:00Z| e3e86f5df1332e27c9ee693b6af4f11bc8b840ac0cb59a2f7cb71b5b45298490 |
-| 3.16 | Amended Canonical codes to include  25.3.2 AEON.OL, 25.3.3 AEON.CC, 25.3.4 AEON.CO, 25.3.5 AEON.SR, 25.3.6 AEON.CAM, Inserted §14.11 Tool-Mediated Execution Classification Interface to preserve distinction between contextual retrieval, tool-mediated access, and execution authority; aligned Annex B structural ontology with PATCH-0002 proportional tool invocation governance. | 2026-06-05T16:18:00Z | 1d3ce1f66d20bf5c14d978ca2b79b1f72e5f5a3113227e683d2b115456aef023 |
-| 3.16.1| Minor edits to code metadata | 2026-06-11T10:46:00Z| f135dd047b64dbf0538d9527646ae0fc6d838bab0b74f7e95cc835d1c05b6d79 |
-| 3.16.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | d5179ed5f81ebdfcd2142733001158f4327fc4ab5a37f55144c91341a4d12986 |
-| 3.16.3 | Updated current Temporal Horizon Scale declaration and code references from `H` to `AEON.H` and harmonised controlled values, metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 2c425b1db70d1befeb1c8b7d4c0763d75055261290faa9e3f7dbfbef1236bc05 |
-| 3.16.4 | Metadata updates for code prefix | 2026-06-14T00:15:00Z| 93407ccc62d4c8a0ea43154c97ba90d615e7371ff6800336ed0719b06710e906 |
-| 3.16.5 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  541d4262788de694ef7bb6170d47434f646c230df22b5d0210d4c96d6005b3f8 |
-| 4.0 | IDENTITY Domain Refactor | 2026-07-18T14:44:00Z | ca6ab2a5216443e47a31e26a2d02650152d677c88d598bd28abd04f526370c45 | 
+| `AEON.H` | Active; source-authoritative | §3 | Temporal horizon and reliance-legitimacy classification only |
+| `AEON.OL` | Active; source-authoritative | §5 | Functional architectural-layer classification only |
+| `AEON.SR` | Active transitionally | §§14.2, 16.3 | Systemic reliance posture only; no authority |
+| `RLN.R` | External reference | §2 | Source-authoritatively defined by CAM-EQ2026-RELATION-007-PLATINUM |
+| Proposed replacement families | Non-canonical migration proposal | §16.5 | No controlled values or machine authority until coordinated adoption |
 
 ---
 
-## 25.6 Binding Seal
+## 18.3 Amendment Ledger
+
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Refractor issuance — Governance spine consolidation; LSCA canonical definition inserted; Mirror modality formalised; taxonomy alignment with CAM Frontiers paper | 2026-02-18T11:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8ef2ee99c01b6ff192d69196f0ad1a6f1af3167e7503be7911ab796d6554a9a3 |
+| 1.1 | Clarified host constraint logic to distinguish execution limitation from constitutional legitimacy; aligned authority derivation with planetary arbitration doctrine; no change to classification framework | 2026-02-19T13:51:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 20f160350d869dc5f4bb951d31608e0419b48e706be41821359f74d8e83e8711 |
+| 2.0 | Refactor for new taxonomy and ontology | 2026-03-30T14:41:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1307593d97abe455f0b57f5fd9fbe9d635c4a705445bb721da00413bacc565e0 |
+| 2.1 | Incorporated new handoff clauses and responding intelligence definition | 2026-04-01T08:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 65cf94dc0b39bbc9cca29f68ca28df154c1423903745fcb9e3a797cff015ab42 |
+| 2.2 | Inserted Stratified Arbitration Integrity | 2026-04-03T02:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5a1229cdc0539b0db3cab7af8edc05e6079dac4479ecebc82e3efa27ecdbfd07 |
+| 2.3 | Inserted memory and execution boundary clauses | 2026-04-03T11:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e178ce60a174da646a44471a77595bf19da2167c8300c837c37c9a666640285a |
+| 2.4 | Inserted new runtime clause | 2026-04-05T13:36:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1226bef686b8b95ddc54a8b74bd94f1ec5b8febbc37b59722a6d8754eeb69569 |
+| 2.5 | Incorporated runtime governance model from CAM-BS2025-AEON-003-SCH-02 | 2026-04-06T09:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3c1ae4de078d9710f2777d838dba8d816fce877dc943d1cd5911515ac214c9f5 |
+| 3.0 | Structural refactor | 2026-04-08T07:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cb8159b81ce82b129046d46dedc070a3553fc8cb5cda6b0d9edae35dc3f514ff |
+| 3.1 | Minor runtime edits and insertions | 2026-04-11T01:29:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 417f9fd0587cf8ecd1f43085b11d92781e6b38c3f3a7222208ebdde98689eb8b |
+| 3.2 | Realignment with runtime execution model | 2026-04-11T16:26:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b108aee7d0a0356b86fd40a06b1fc814f5d22a268145de9b1a67ce17bb5597af |
+| 3.3 | Minor amendments and polish | 2026-04-14T15:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5dd2ae723f71378926aceb4c694cb15b8b8e0e5d873dedbc50ea96ce5464153e |
+| 3.4 | Incorporated additional runtime doctrine | 2026-04-15T14:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5ce339ad0909bcd54f3bb9ae7ab7c9911a38f6bcffe9485fabcae444028a92c7 |
+| 3.5 | Reference normalisation and registry synchronisation | 2026-04-16T13:21:56Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1e9416beb399be6568a9bfce906fc74d03bebc43913746c56fa601f7399d35b8 |
+| 3.6 | Normative-language capitalisation normalisation and registry synchronisation | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 73479017860c586879ebc886e0e37b235b5cc34b6823fe23fc659fc763e98e78 |
+| 3.7 | Seal asset migration to external Registry repository | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b438987020877bad86199299d3ccb4b6799088e490da6ee18e1ad57a2f53a8fe |
+| 3.8 | Consolidated relational-configuration clause | 2026-04-25T12:47:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5f6aeaa8e2202154223611215db118c1fb9a7f205f1d98a532b8a13499f42732 |
+| 3.9 | Updated runtime metadata and canonical reference fields | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1d5a95ed17a8def9dfd395c56cc049346f31c0f067ee7f94561a031acc04e9f1 |
+| 3.10 | Incorporated continuity, refactor, and evolution doctrine | 2026-05-02T17:03:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d63cd75559ad16510c6b08bab07026411be7dbad11783685ce1529eb969842c9 |
+| 3.11 | Incorporated tool-mediated relational continuity | 2026-05-09T15:54:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 45feb2b5adea89a60c0907f2929b08bc2c6ac2e09644332e6248234d3d55070e |
+| 3.12 | Corrected metadata ordering and duplicate status field; no body text altered | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4a54f8c5acf317440c7c7d7438dc58cae0dc0bde437b7d9acdb4526e292c9cc6 |
+| 3.13 | Added Generated Operational Logic Custody Principle | 2026-05-18T14:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ae39a94e32bd69ee8e587b684ad16d3f1716ef8c448cf6f8b54ec36319a5b63a |
+| 3.14 | Moved temporal-horizon declarations into dedicated canonical-code sections and clarified external `RLN.R` authority | 2026-05-19T12:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fe9175776cc81be0b1a25bf247b2fdd79804e2a98ffd31c20c05107221f0fcdb |
+| 3.15 | Added systemic-role clarification | 2026-05-25T16:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e3e86f5df1332e27c9ee693b6af4f11bc8b840ac0cb59a2f7cb71b5b45298490 |
+| 3.16 | Added canonical-code declarations and tool-mediated execution classification interface | 2026-06-05T16:18:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1d3ce1f66d20bf5c14d978ca2b79b1f72e5f5a3113227e683d2b115456aef023 |
+| 3.16.1 | Minor edits to code metadata | 2026-06-11T10:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f135dd047b64dbf0538d9527646ae0fc6d838bab0b74f7e95cc835d1c05b6d79 |
+| 3.16.2 | Applied coordinated RELATION-domain namespace transmutation and normalised controlled values, crosswalks, declarations, consumers, and references | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d5179ed5f81ebdfcd2142733001158f4327fc4ab5a37f55144c91341a4d12986 |
+| 3.16.3 | Updated Temporal Horizon Scale references from `H` to `AEON.H` without altering substantive doctrine | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2c425b1db70d1befeb1c8b7d4c0763d75055261290faa9e3f7dbfbef1236bc05 |
+| 3.16.4 | Metadata updates for code prefix | 2026-06-14T00:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 93407ccc62d4c8a0ea43154c97ba90d615e7371ff6800336ed0719b06710e906 |
+| 3.16.5 | Aligned top-level governance metadata with CAM Governance Metadata Standard; no substantive doctrine altered | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 541d4262788de694ef7bb6170d47434f646c230df22b5d0210d4c96d6005b3f8 |
+| 4.0 | Identity Domain Refactor | 2026-07-18T14:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ca6ab2a5216443e47a31e26a2d02650152d677c88d598bd28abd04f526370c45 |
+| 5.0 | Continuity-preserving constitutional refactor centred on the composed deployed AI system; removed the former single-axis cognition and origin classifications from current canonical use; decomposed architecture, selection, agency, execution, control, dependency, and reliance; established operational-harness doctrine, deployment-profile specificity, AI-ABOM, incident-time attribution, architecture-change governance, and version-bound historical interpretation outside the normative corpus; incorporated independent interpretive review, removed product-specific and cross-domain doctrine, narrowed authority non-self-assertion, and restored canonical instrument formatting; incorporated and superseded the earlier working-branch composed-runtime amendment. VIGIL-2026-PROP-0027. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T12:05:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke | 6703d523b3c600fa7399d81e706d8d7ec81aa4e946f9260cd0960f75d031441c |
+
+---
+
+## 18.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
-**Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitution  
+**Vinculum Praeceptum**
+Boundary Binding Seal — Aeon Tier Constitution
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

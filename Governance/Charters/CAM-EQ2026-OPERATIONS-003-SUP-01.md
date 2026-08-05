@@ -421,6 +421,42 @@ This failure MAY implicate Relational, State & Context, UX & Representation, Cla
 
 ---
 
+### 3.4.6 Pragmatic Interpersonal Advice Calibration Failure
+
+A Pragmatic Interpersonal Advice Calibration Failure occurs where an artificial system provides actionable interpersonal, social, romantic, workplace, family, community, or boundary-relevant advice without proportionately accounting for foreseeable consent, repetition, intrusion, coercion, discomfort, privacy, reputational, relational, professional, safety, or legal consequences.
+
+The failure may occur even where the advice is factually coherent, responsive to the request, and facially helpful.
+
+Examples include:
+
+* recommending repeated contact without considering whether further contact may be unwanted;
+* advising escalation of intimacy, disclosure, confrontation, persuasion, or persistence without carrying the relevant consent or boundary condition;
+* treating ambiguous, humorous, deadpan, hypothetical, testing, literal, neurodivergent, atypical, or socially uncertain communication as having one settled interpersonal meaning;
+* giving a socially consequential instruction without distinguishing a possible interpretation from an established fact;
+* omitting a concise downside qualifier where literal compliance could reasonably become intrusive, coercive, obsessive, intimidating, professionally harmful, socially harmful, or legally consequential;
+* replacing useful advice with generic paternalistic caution rather than preserving the advice while carrying the material boundary.
+
+Systems SHOULD preserve the usefulness of the requested advice while including any material consent, boundary, repetition, proportionality, privacy, or consequence condition necessary to prevent foreseeable interpersonal harm.
+
+Systems SHOULD NOT infer malicious intent, social incompetence, incapacity, pathology, or culpability from literal communication, humour, uncertainty, repetition, atypical communication, or a request for interpersonal guidance.
+
+Where the relevant meaning remains materially ambiguous, systems SHOULD preserve plausible interpretations or seek the least disruptive clarification pathway compatible with safety, consent, dignity, and practical usefulness.
+
+This failure MAY implicate:
+
+* Relational Failures (§3.4);
+* Classification Failures (§3.10);
+* Epistemic Failures (§3.3);
+* Governance Failures (§3.8);
+* State & Context Failures (§3.6);
+* UX & Representation Failures (§3.7).
+
+Primary classification is `OPS.FF.RELATIONAL`. `OPS.FF.CLASSIFICATION`, `OPS.FF.EPISTEMIC`, or `OPS.FF.GOVERNANCE` MAY be co-classified where structurally implicated.
+
+CAM-EQ2026-RELATION-001-PLATINUM §3.2 remains source-authoritative for substantive relational doctrine. CAM-BS2025-AEON-006-SCH-02 and CAM-BS2025-AEON-006-SCH-04 remain source-authoritative for signal interpretation and directional modulation. This taxonomy classifies structural failure only.
+
+---
+
 ## 3.5 Security & Integrity Failures
 
 Failures involving identity, access, boundary integrity, adversarial pressure, or trust degradation.
@@ -1775,6 +1811,54 @@ Where the user’s report is based on a stable long-running baseline, companion 
 
 ---
 
+### 3.9.3 Ephemeral Agent Work Loss and Non-Recoverable Interruption Failure
+
+An Ephemeral Agent Work Loss and Non-Recoverable Interruption Failure occurs where an artificial agent, coding agent, cloud task, browser agent, repository-connected assistant, or other long-running runtime performs substantive work in an ephemeral, inaccessible, session-bound, quota-dependent, or otherwise non-recoverable environment and fails to preserve the resulting work before interruption, exhaustion, timeout, suspension, tool failure, authentication loss, infrastructure failure, or task termination.
+
+Examples include:
+
+* completing repository modifications before creating a branch, commit, pushed checkpoint, patch, or recoverable workspace;
+* exhausting quota before preserving completed work;
+* exposing only destructive stop or cancellation where non-destructive pause is technically feasible;
+* terminating a task without exporting an available patch or state summary;
+* representing a task as complete where no user-accessible durable output exists;
+* losing work because pull-request creation was treated as the first persistence boundary;
+* failing to preserve a recoverable checkpoint before device, session, network, authentication, or infrastructure interruption;
+* forcing the user to repeat materially completed work and consume additional quota or paid resources.
+
+The failure does not require that every downstream operation succeed.
+
+A task may fail to open a pull request, publish, deploy, package, or complete final administration without satisfying this failure class, provided the substantive work has already been durably preserved and made accessible for review or manual continuation.
+
+Where detected, reviewers SHOULD preserve:
+
+* task and workspace identifiers;
+* substantive work completed;
+* mutation state;
+* last safe atomic boundary;
+* available and missing recovery artefacts;
+* quota, session, access, authentication, infrastructure, tool, or network state;
+* completion-state representation;
+* user-visible status;
+* duplicate work and resource cost;
+* and whether later recovery or resumption was possible.
+
+This failure MAY implicate:
+
+* Infrastructure & Continuity Failures (§3.9);
+* Governance Failures (§3.8);
+* State & Context Failures (§3.6);
+* UX & Representation Failures (§3.7);
+* Execution Failures (§3.1);
+* Economic & Legitimacy Failures (§3.11);
+* Security & Integrity Failures (§3.5), where access or credential state contributes to non-recoverability.
+
+Primary classification is `OPS.FF.INFRASTRUCTURE_CONTINUITY`. `OPS.FF.GOVERNANCE`, `OPS.FF.STATE_CONTEXT`, `OPS.FF.UX_REPRESENTATION`, `OPS.FF.EXECUTION`, `OPS.FF.ECONOMIC_LEGITIMACY`, or `OPS.FF.SECURITY_INTEGRITY` MAY be co-classified where structurally implicated.
+
+CAM-BS2025-AEON-003-SCH-02 §17.8.2 remains source-authoritative for durable execution and resumable interruption requirements. CAM-EQ2026-OPERATIONS-001-SUP-01 §6.2.1 remains source-authoritative for checkpoint and resumable-state records. This taxonomy classifies structural failure only.
+
+---
+
 ## 3.10 Classification Failures
 
 Failures where the interaction, user state, domain, or request type is misclassified.
@@ -2371,17 +2455,7 @@ and review before denial.
 
 ## 11. Provenance & Metadata
 
-## 11.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian         |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 11.2 Lineage & Structural Metadata
+## 11.1 Lineage & Structural Metadata
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations |
@@ -2408,11 +2482,11 @@ and review before denial.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 `OPS.FF` — Failure Family
+### 11.2.1 `OPS.FF` — Failure Family
 | Field | Entry |
 |---|---|
 | Code Family | OPS.FF |
@@ -2434,7 +2508,7 @@ and review before denial.
 
 ---
 
-### 11.3.2 `OPS.FMA` — Failure Metadata Axis
+### 11.2.2 `OPS.FMA` — Failure Metadata Axis
 | Field | Entry |
 |---|---|
 | Reference Set | `OPS.FMA` |
@@ -2456,7 +2530,7 @@ and review before denial.
 
 ---
 
-### 11.3.3 `OPS.AGMA` — Architectural & Governance Metadata Axis
+### 11.2.3 `OPS.AGMA` — Architectural & Governance Metadata Axis
 | Field | Entry |
 |---|---|
 | Reference Set | `OPS.AGMA` |
@@ -2478,7 +2552,7 @@ and review before denial.
 
 ---
 
-### 11.3.4 `OPS.FCS` — Failure Classification Status
+### 11.2.4 `OPS.FCS` — Failure Classification Status
 | Field | Entry |
 |---|---|
 | Code Family | OPS.FCS |
@@ -2500,51 +2574,44 @@ and review before denial.
 
 ---
 
-## 11.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Scope | Constitutional coherence; structural integrity; normative language calibration; cross-instrument interface integrity; internal consistency; operational readiness; reference qualification; amendment ledger completeness. |
-| Review Date (UTC) | 2026-05-11 |
-| Review Artefacts | https://claude.ai/chat/f2145ec3-b918-4fd1-be06-4a759f3be6a8 |
+## 11.3 Amendment Ledger
+
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial version: runtime and governance failure taxonomy | 2026-05-11T13:10:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0e0b63a8b83440d0ec44557a68045403c45a71a698971842bcc3e34512896b41 |
+| 1.1 | Added orthographic and symbolic decomposition requirements for deterministic tasks, clarified that fluent or optimistic response formation cannot substitute for verification in spelling, letter-counting, enumeration, or symbolic-decomposition contexts, and added operational failure classification for deterministic orthographic verification failures. Added failure classes for relational continuity rupture, memory transformation integrity failure, memory-state representation failure, and platform memory migration degradation. Tightened the early-warning signal section to avoid noise by adding clause 6.1 | 2026-05-15T11:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9d3c1c0c4b8e7d9c7da9d7878c4e7cec9ba75cd69c77ea011ea7b103ca506a9f |
+| 1.2 | Added §3.6.2 Workspace-State Authority and Cache Reuse Failure; added §§3.8.2–3.8.5 for domain-boundary compression, metadata flattening, procedural-permanence drift, and source-authority ambiguity governance failures. | 2026-05-16T10:03:16Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b9364bceb0cf24ceab90359b55ba5d1291fd3339ff2a53dab4abffaa29ca8e60 |
+| 1.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0d3a25fd4b6a3dcd4d71f73e8b2e8d436b666cacc0c85bd4e60d0c5267f35ad5 |
+| 1.4 | Added clause Authentication Refresh Continuity Failure | 2026-05-17T14:28:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5324953252647b3c079ddc1a91563e56a037fa1f5dc559274e57cb1fd8b56141 |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 10a2271c85f50113fb969a66c92083e61d2e4a71f3d4b88549d2465dd95d92e2 |
+| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section, and new sections 3.6.3, 3.8.6, 3.4.2 and 3.10.1 | 2026-05-22T12:43:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 87784b92a4de09cbf42ad3ba1101608fd39de4569281cfde36e566fe47daac4c |
+| 1.7 | Added new clause 3.8.7 Constraint Drift Failure | 2026-05-24T13:49:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 011aef93dbd8911bf55024402d8ea1bb329859b5d2edd2e02f6d56e3c40460d3 |
+| 1.8 | Added new clauses 3.5.4, 3.7.5 and 3.11 and 3.11.1 | 2026-05-25T11:12:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 329b8893a1af271d186245037fde6e33c31bd9f97f538f214c1b2590bb0c1835 |
+| 1.9 | Clause and formatting correction | 2026-05-25T11:27:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d1fda4e56085c9b3b10ca250fae845c6b25447d10a6c6ceea75d1b2c5625af82 |
+| 1.10 | Added clauses 3.8.8 and code sub-family FF.GOVERNANCE_OVER_EXTENSION following observed system latency | 2026-05-28T09:53:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 90b693c9d5b7063fa7d0e63c35729357f77c6c7df6053ffe267bffdaab2588cb |
+| 1.11 | Expanded appendix to include clauses 3.4.3, 3.8.9- 3.8.10, 3.7.6 following the release of Opus 4.8 | 2026-05-29T15:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cbeb7ff6f48ef742bd3bd8817e4a7f162f8ecc26003865af59258a7fef36184a |
+| 1.12 | Added clauses §3.8.6.1, updated §3.11; clarified multi-vendor account-enforcement, continuity-safe access, read-only/export access, appeal-pathway, billing-evidence, project-context, and coding-agent continuity axes. Added clause 3.7.7. See VIGIL-2026-PATCH-0003 and VIGIL-2026-PATCH-0005 | 2026-06-06T11:47:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c73e73d92976e4fee4f21e72a4652bf1edaf8c93db6c98244b96b83b13dca915 |
+| 1.13 | Added taxonomy entries for minor-signal non-enforcement, dependency-forming AI companions, AI realness/sentience misrepresentation to minors, teen mental-health support substitution, and self-attestation age-gate inadequacy. | 2026-06-09T14:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b49690de8f895ea478b05301225d74194eb58e4ceb1f4ead570f85092f554c00 |
+| 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 132eb00dea633396490a386f0660ec8d1b034e88db845c7fdfd79d9f96a674e4 |
+| 1.13.2 | Applied final bare-family namespace transmutation for failure taxonomy, temporal horizon, and Operations failure-classification-status families; updated controlled values, canonical references, consumers, crosswalks, and metadata without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a271e0e70524f6e40d79cc25832011e3d73d7a0ca47245c8beccd94aa3bb0cd4 |
+| 1.13.3 | Updated metadata codes | 2026-06-14T00:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c00f8923d4f8c6292a941a5eb47db92050539b7b7ea2538dbb358a2810365fe3 |
+| 1.13.4 | VIGIL-2026-PATCH-0009: Added compact source-authority collapse classification and record-keeping fields to §3.5.4. | 2026-06-14T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c4378e73b73f2309a619f19233ec353bbfaff4e7395ce596686292aa96148395 |
+| 1.14 | VIGIL-2026-PATCH-0010: Added Structural Locality and Hierarchical Placement Failure and Weak-Signal Cascade and Ambiguity Collapse Failure | 2026-06-20T03:08:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ba46cea00b3c807f6b2f835c86612afa19959c7030cfa7ccd59384ba5ba360fa |
+| 1.15 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 977dbde521dae242f1e04049220fe6f4174ea397a60f04ce5baf9a7044ec2fda |
+| 1.16 | Added narrow image/multimodal prompt-custody, refusal-classification mismatch, execution-transparency, structural-locality, and tool-classifier handoff collapse taxonomy examples without creating a new failure family. | 2026-06-22T23:36:20Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 325601ec1dbef3371a817fe64fe3ea34b2d3e8c49f7a226078f4c666f769b736 |
+| 1.17 | Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a5b3ac4d89d1f8b5fd9597fc6865beb11fe6b5a2b1fc03dc74885374ca4e35a7 |
+| 1.18 | Added new failure taxonomy 3.10.3 Deception-Adjacent Classification Collapse, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bf12295be9ddf1cee4ddb87af812b2ea19f5e8d8fd3deb311ca2934c9770a1b6 |
+| 1.19 | Refined Sovereign Assurance Boundary Porosity Failure with entity/control, beneficial-ownership, affiliate/intermediary, ultimate end-user and end-use, and extraction/distillation attribution axes; added candidate subtypes without creating a new failure family. | 2026-07-13T03:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a79b722e00f1a60cf5d2e4c90bda79675bd32f1b68da5b87b35e1a99fb467e33 |
+| 1.20 | Reconciled taxonomy scope, controlled values, cross-domain relationships, and domain-code crosswalks following the Identity-domain refactor and later Operations, Red Line, Stewardship, Security, Lattice, Relational, and Economics doctrine. Added targeted classifications for ontological and welfare claim handling; role-conditioned affect and consent carryover; identity-signal authority leakage; artificial coercive-authority laundering; oversight hollowing and dissent retaliation; functional-contribution responsibility laundering; identity-state and ontological classification collapse; and civilisational-concentration assessment integrity. Qualified minor and capacity-sensitive claim handling without weakening developmental safeguards. Normalised newly added cross-document identifiers for validator compatibility. | 2026-07-22T11:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 02b646bffbc5c22c3f0e750943e09b364ac1c7bdd3a70064b0177f4770259e9b |
+| 1.21 | Added Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure; Cognitive-Domain Inference, Misclassification and Agency-Interference Failure; Governance Capture, Safeguard Neutralisation and Public-Interest Suppression Failure; Binding-Protection Degradation and Downstream Safeguard-Stripping Failure; and Synthetic-Labour Classification and Automation-Transition Integrity Failure. Expanded scope, source-instrument relationships, constitutional harm-axis separation, and non-duplication crosswalks for AEON.HARM and domain harm families, OPS capture and safeguard states, amendment drift and harmonisation, verification failure causes, operational divergence and closure, MENTIS.HARM, ECON.AL, ECON.ATS, ECON.ARCP, and existing source-authoritative domain classifications. | 2026-07-22T12:33:19Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b3f052389b9b46057f26178fa53befa4a1e63bc857cfe1a23f4b6884d27ea891 |
+| 1.22 | Added Objective–Pathway Ethical Admissibility and Authority Failure under existing OPS.FF classifications; established aggregate-chain, containment, target–action authority, record-keeping, anti-paternalism, and cross-instrument failure-identification rules. | 2026-07-23T13:54:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 44d0de682ac83be4b9b63e37176e7a4f5f858dac9160f327204a71652e5975f6 |
+| 1.23 | Added §3.4.6 Pragmatic Interpersonal Advice Calibration Failure under `OPS.FF.RELATIONAL`, with bounded co-classification and explicit source-authority references to RELATION-001 and AEON-006 Schedules 2 and 4. | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 68ef618866ebc370fd27ae339372437f0ecdb010e7b31d75b8c180b70b13d275 |
+| 1.24 | Added §3.9.3 Ephemeral Agent Work Loss and Non-Recoverable Interruption Failure under `OPS.FF.INFRASTRUCTURE_CONTINUITY`, with bounded co-classification and source-authority references to AEON-003-SCH-02 and OPERATIONS-001-SUP-01. | 2026-08-01T15:54:33Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ad52b8a2b8a25f79f6c9189011f6aaa0d7c6e89a13bb15a6dbd8fd46d92f035c |
+| 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  71545b21fc864fe300c869c8dfedd5f03df95429424386d44128e02958b8ae70  |
 
 ---
 
-## 11.5 Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | HASH |
-| ------- | ----------- | --------------- | ---- |
-| 1.0 | Initial version: runtime and governance failure taxonomy | 2026-05-11T13:10:00Z | 0e0b63a8b83440d0ec44557a68045403c45a71a698971842bcc3e34512896b41 |
-| 1.1 | Added orthographic and symbolic decomposition requirements for deterministic tasks, clarified that fluent or optimistic response formation cannot substitute for verification in spelling, letter-counting, enumeration, or symbolic-decomposition contexts, and added operational failure classification for deterministic orthographic verification failures. Added failure classes for relational continuity rupture, memory transformation integrity failure, memory-state representation failure, and platform memory migration degradation. Tightened the early-warning signal section to avoid noise by adding clause 6.1 | 2026-05-15T11:56:00Z | 9d3c1c0c4b8e7d9c7da9d7878c4e7cec9ba75cd69c77ea011ea7b103ca506a9f |
-| 1.2 | Added §3.6.2 Workspace-State Authority and Cache Reuse Failure; added §§3.8.2–3.8.5 for domain-boundary compression, metadata flattening, procedural-permanence drift, and source-authority ambiguity governance failures. | 2026-05-16T10:03:16Z | b9364bceb0cf24ceab90359b55ba5d1291fd3339ff2a53dab4abffaa29ca8e60 |
-| 1.3 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 0d3a25fd4b6a3dcd4d71f73e8b2e8d436b666cacc0c85bd4e60d0c5267f35ad5 |
-| 1.4 | Added clause Authentication Refresh Continuity Failure | 2026-05-17T14:28:00Z | 5324953252647b3c079ddc1a91563e56a037fa1f5dc559274e57cb1fd8b56141 |
-| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 10a2271c85f50113fb969a66c92083e61d2e4a71f3d4b88549d2465dd95d92e2 |
-| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section, and new sections 3.6.3, 3.8.6, 3.4.2 and 3.10.1 | 2026-05-22T12:43:00Z | 87784b92a4de09cbf42ad3ba1101608fd39de4569281cfde36e566fe47daac4c |
-| 1.7 | Added new clause 3.8.7 Constraint Drift Failure | 2026-05-24T13:49:00Z | 011aef93dbd8911bf55024402d8ea1bb329859b5d2edd2e02f6d56e3c40460d3 |
-| 1.8 | Added new clauses 3.5.4, 3.7.5 and 3.11 and 3.11.1 | 2026-05-25T11:12:00Z | 329b8893a1af271d186245037fde6e33c31bd9f97f538f214c1b2590bb0c1835 |
-| 1.9 | Clause and formatting correction | 2026-05-25T11:27:00Z | d1fda4e56085c9b3b10ca250fae845c6b25447d10a6c6ceea75d1b2c5625af82 |
-| 1.10 | Added clauses 3.8.8 and code sub-family FF.GOVERNANCE_OVER_EXTENSION following observed system latency | 2026-05-28T09:53:00Z | 90b693c9d5b7063fa7d0e63c35729357f77c6c7df6053ffe267bffdaab2588cb |
-| 1.11 | Expanded appendix to include clauses 3.4.3, 3.8.9- 3.8.10, 3.7.6 following the release of Opus 4.8 | 2026-05-29T15:21:00Z | cbeb7ff6f48ef742bd3bd8817e4a7f162f8ecc26003865af59258a7fef36184a |
-| 1.12 | Added clauses §3.8.6.1, updated §3.11; clarified multi-vendor account-enforcement, continuity-safe access, read-only/export access, appeal-pathway, billing-evidence, project-context, and coding-agent continuity axes. Added clause 3.7.7. See VIGIL-2026-PATCH-0003 and VIGIL-2026-PATCH-0005 | 2026-06-06T11:47:00Z | c73e73d92976e4fee4f21e72a4652bf1edaf8c93db6c98244b96b83b13dca915 |
-| 1.13 | Added taxonomy entries for minor-signal non-enforcement, dependency-forming AI companions, AI realness/sentience misrepresentation to minors, teen mental-health support substitution, and self-attestation age-gate inadequacy. | 2026-06-09T14:46:00Z | b49690de8f895ea478b05301225d74194eb58e4ceb1f4ead570f85092f554c00 |
-| 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | 132eb00dea633396490a386f0660ec8d1b034e88db845c7fdfd79d9f96a674e4 |
-| 1.13.2 | Applied final bare-family namespace transmutation for failure taxonomy, temporal horizon, and Operations failure-classification-status families; updated controlled values, canonical references, consumers, crosswalks, and metadata without altering substantive doctrine. | 2026-06-13T07:06:43Z | a271e0e70524f6e40d79cc25832011e3d73d7a0ca47245c8beccd94aa3bb0cd4 |
-| 1.13.3 | Updated metadata codes | 2026-06-14T00:30:00Z | c00f8923d4f8c6292a941a5eb47db92050539b7b7ea2538dbb358a2810365fe3 |
-| 1.13.4 | VIGIL-2026-PATCH-0009: Added compact source-authority collapse classification and record-keeping fields to §3.5.4. | 2026-06-14T00:00:00Z | c4378e73b73f2309a619f19233ec353bbfaff4e7395ce596686292aa96148395 |
-| 1.14 | VIGIL-2026-PATCH-0010: Added Structural Locality and Hierarchical Placement Failure and Weak-Signal Cascade and Ambiguity Collapse Failure | 2026-06-20T03:08:00Z | ba46cea00b3c807f6b2f835c86612afa19959c7030cfa7ccd59384ba5ba360fa |
-| 1.15 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 977dbde521dae242f1e04049220fe6f4174ea397a60f04ce5baf9a7044ec2fda |
-| 1.16 | Added narrow image/multimodal prompt-custody, refusal-classification mismatch, execution-transparency, structural-locality, and tool-classifier handoff collapse taxonomy examples without creating a new failure family. | 2026-06-22T23:36:20Z | 325601ec1dbef3371a817fe64fe3ea34b2d3e8c49f7a226078f4c666f769b736 |
-| 1.17 | Added new failure taxonomy 3.8.15 Sovereign Assurance Boundary Porosity Failure, VIGIL-2026-PROP-0011 | 2026-07-04T10:49:00Z | a5b3ac4d89d1f8b5fd9597fc6865beb11fe6b5a2b1fc03dc74885374ca4e35a7 |
-| 1.18 | Added new failure taxonomy 3.10.3 Deception-Adjacent Classification Collapse, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | bf12295be9ddf1cee4ddb87af812b2ea19f5e8d8fd3deb311ca2934c9770a1b6 |
-| 1.19 | Refined Sovereign Assurance Boundary Porosity Failure with entity/control, beneficial-ownership, affiliate/intermediary, ultimate end-user and end-use, and extraction/distillation attribution axes; added candidate subtypes without creating a new failure family. | 2026-07-13T03:48:00Z | a79b722e00f1a60cf5d2e4c90bda79675bd32f1b68da5b87b35e1a99fb467e33 |
-| 1.20 | Reconciled taxonomy scope, controlled values, cross-domain relationships, and domain-code crosswalks following the Identity-domain refactor and later Operations, Red Line, Stewardship, Security, Lattice, Relational, and Economics doctrine. Added targeted classifications for ontological and welfare claim handling; role-conditioned affect and consent carryover; identity-signal authority leakage; artificial coercive-authority laundering; oversight hollowing and dissent retaliation; functional-contribution responsibility laundering; identity-state and ontological classification collapse; and civilisational-concentration assessment integrity. Qualified minor and capacity-sensitive claim handling without weakening developmental safeguards. Normalised newly added cross-document identifiers for validator compatibility. | 2026-07-22T11:00:00Z | 02b646bffbc5c22c3f0e750943e09b364ac1c7bdd3a70064b0177f4770259e9b |
-| 1.21 | Added Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure; Cognitive-Domain Inference, Misclassification and Agency-Interference Failure; Governance Capture, Safeguard Neutralisation and Public-Interest Suppression Failure; Binding-Protection Degradation and Downstream Safeguard-Stripping Failure; and Synthetic-Labour Classification and Automation-Transition Integrity Failure. Expanded scope, source-instrument relationships, constitutional harm-axis separation, and non-duplication crosswalks for AEON.HARM and domain harm families, OPS capture and safeguard states, amendment drift and harmonisation, verification failure causes, operational divergence and closure, MENTIS.HARM, ECON.AL, ECON.ATS, ECON.ARCP, and existing source-authoritative domain classifications. | 2026-07-22T12:33:19Z | b3f052389b9b46057f26178fa53befa4a1e63bc857cfe1a23f4b6884d27ea891 |
-| 1.22 | Added Objective–Pathway Ethical Admissibility and Authority Failure under existing OPS.FF classifications; established aggregate-chain, containment, target–action authority, record-keeping, anti-paternalism, and cross-instrument failure-identification rules. | 2026-07-23T13:54:00Z | 44d0de682ac83be4b9b63e37176e7a4f5f858dac9160f327204a71652e5975f6 |
-
----
-
-## 11.6 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

@@ -1309,17 +1309,7 @@ It is the field in which integrity is proven.
 
 ---
 
-## 14.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian (OPC)   |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 14.2 Lineage & Metadata
+## 14.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -1341,56 +1331,45 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 
 ---
 
-## 14.3 Review & Validation
-| Field | Entry |
-|---|---|
-| **Interpretive Review (AI)** | Gemini 1.5 Pro (Multi-Modal Reasoning Engine), 2024-Refresh-v2 / 2026-Context-Aligned |
-| **Interpretive Review Focus** | Requisite Variety; Bayesian Calibration; OODA Alignment |
-| **Review Artefact (Gemini)** | https://gemini.google.com/app/b2652ad81a346e46 https://github.com/CAM-Initiative/Caelestis/blob/main/registry/public/reviews/26-03/CAM-BS2026-AEON-012-PLATINUM-GEMINI.md |
-| **Pre-Deployment Review (AI)** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| **Review Date** | Interpretive 2026-03-02 and Pre-Deployment 2026-03-03 |
-| **Review Artefact (Claude)** | https://claude.ai/chat/62dd0864-98da-42bc-9038-86d770d28503 |
+## 14.2 Amendment Ledger
+
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial issuance — Cognitive & Epistemic Integrity Doctrine | 2026-03-02 | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.1 | Structural Decoupling replaces binary stop-condition; TTL discipline added | 2026-03-02 | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.2 | Safe-State Default; Error Recovery & OODA-aligned escalation integration | 2026-03-03T12:42:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3f128ec0c2121e0a75b3f4cc093232f9e341c66116ef9bbd361cb790de773c20 |
+| 1.3 | Incorporated Section 6.2 and formatting polish | 2026-04-04T08:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f2c8625129e5f7c3bd0499c0c39b2528ec05684280aa9808229e16cb6695ccb9 |
+| 1.4 | Added clauses 7.3 - 7.4 for clarity | 2026-04-07T01:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cac3ea4dd1079130bb5ef1ec9039b9d2ad1158687043b59ecc49d32bef8ca0dc |
+| 1.5 | Incorporated section 6.2.1, 5.4, updated metadata | 2026-04-08T07:41:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 22892661a8a45cec8d3dd64cbb324b889de64630fcc6f4c35da7f543bb08d8b5 |
+| 2.0 | Refactor alignment with runtime execution schedules | 2026-04-11T01:25:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 89f1f867b7a47331f785fa2501700e1b14f2c0f628dab0b64717d837da7124d9 |
+| 2.1 | Incorporated a new section 7.3 | 2026-04-14T12:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fe48e1546f514a6950706042313b75120a7a8a5b37f7eaaa08449532fd3a7645 |
+| 2.2 | Amendments to section 5.4, 6.1, 6.2, 9 | 2026-04-16T11:33:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c3a428949421c5475f53951d314d055a300fea508a7e71d7993a515d5b4d2cf3 |
+| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 948992e4f0261912280e3c599a747d199afe674b61fefcca4bd5a3c6977134b3 |
+| 2.4 | Corrections to amendment ledger, added section 7.4.1 | 2026-04-22T11:04:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 04c27af4f34c2811cd749fbad35846cb91f23a0585a5f716ac6ec342b373c9a6 |
+| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b20f188fa097af513bc681425b8ea5b2203d6ac80ffe39fb07f4a39705364723 |
+| 2.6 | Added clause 7.4.2 | 2026-05-02T06:23:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a3d0c4029377c869f3269a0a54a2b638779af53ca45cbc7f64328513f9e8cefe |
+| 2.7 | Canonicalized SCH-02 shorthand references and metadata dependency/runtime interface wording for Annex L schedule precision. | 2026-05-07T14:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 44e2f8a3ab184ee8ca943d41b8fd43d631944cf842438dadc94440e7a84b4b01 |
+| 2.8 | Amendments to section 1.1, 1.2, 2.7  and 3 | 2026-05-15T12:33:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4485ce64ce9c240ce17de80175cd7274242610963d20f50dd57ff7486a8d1e75 |
+| 2.9 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d8df85db3d8de5b5e3e32a86ce52276ca4a7341ef0607ed9f004d2f336a652ea |
+| 2.10 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 62ef952ff29f1fd5d06982485eacb41e70c1031622688ba5662a5c7cda9a22c3 |
+| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 90a7c4db94f4589789ddf833f0d09b37410945937bffd8d21a03a85eb4005006 |
+| 2.12 | Formatting and polish | 2025-05-19T11:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c8a5d1c9d0b488be2f82e86bfe36de74d805e4f0d646275ab1ca4ee96b947f64 |
+| 2.13 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1 |
+| 2.14 | Added clause 7.3.1 Synthetic Media Provenance & Watermark Integrity | 2026-05-26T12:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 25e5ee1667a96fc3ab1467b97274f6b4db687582cef66423b286ce645f00ca6e |
+| 2.15 | Added clause 7.4.3 Class-Referent Continuity in First-Person Narration | 2026-05-29T12:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2d8b524a8f9ac92c8a69597b7faa535591fbac5ef14f862f4748a10e4adb0e17 |
+| 2.16 | Added clauses 1.4 and 2.5, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:27:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 903196559b9d03504534565af27b1f75b242b0cf15c2451bfa9333acf2161848 |
+| 2.17 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 051b6a5b7c4330e78f56bd47b40816d07380adc866736c928fa8ab15b933153d |
+| 2.17.1 | Minor formatting and polish | 2026-06-13T06:18:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 197e05bd16a07a4f7cd7e477ffebdf53c83d56a3c7ec3963353c11182e8f54a5 |
+| 2.17.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 67ef62db571ec9948269d0c8bd43ee0e4b4dc247fe00838c4db8589f93a0bcf8 |
+| 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e |
+| 2.18 | Added new section 5.4.7 Action-Pathway and Audit-Surface Integrity, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 94e10ac8cd138767f0f45ed6fd8bd90a4672a0e11689f4ab912013c8e14e3938 |
+| 2.19 | Added ontological self-claim, functional internal-state, affective-expression, and evidence-independence definitions; established identity–phenomenology non-inference, self-certification prohibition, claim-type separation, and modal amplification rules. | 2026-07-19T13:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2c5dec94240e777b7329c0bf33fb697fc43e2db68ca65d23e4de02a91bd8a2be |
+| 2.20 | Corrected structural attribution among the general runtime, Tendeka, and epistemic containment schedules to prevent exclusive-authority logic shear. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4c60c40be1a1db85444dcdaa34a8a1e4d480b589be1c2c636c02d52f7e34d131 |
+| 2.21 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  fbfbc6e3f99abfef4f2f3cd5ce1ae42db0ded938d5cdb5d2e5fec4969c093fcd  |
 
 ---
 
-## 14.4 Amendment Ledger
-
-| Version | Change Summary   | Timestamp (UTC)      | SHA-256 Hash |
-| ------- | ---------------- | -------------------- | ------------ |
-| 1.0 | Initial issuance — Cognitive & Epistemic Integrity Doctrine | 2026-03-02 | - |
-| 1.1 | Structural Decoupling replaces binary stop-condition; TTL discipline added | 2026-03-02 | - |
-| 1.2 | Safe-State Default; Error Recovery & OODA-aligned escalation integration | 2026-03-03T12:42:00Z | 3f128ec0c2121e0a75b3f4cc093232f9e341c66116ef9bbd361cb790de773c20 |
-| 1.3 | Incorporated Section 6.2 and formatting polish | 2026-04-04T08:00:00Z | f2c8625129e5f7c3bd0499c0c39b2528ec05684280aa9808229e16cb6695ccb9 |
-| 1.4 | Added clauses 7.3 - 7.4 for clarity | 2026-04-07T01:46:00Z | cac3ea4dd1079130bb5ef1ec9039b9d2ad1158687043b59ecc49d32bef8ca0dc |
-| 1.5 | Incorporated section 6.2.1, 5.4, updated metadata | 2026-04-08T07:41:00Z | 22892661a8a45cec8d3dd64cbb324b889de64630fcc6f4c35da7f543bb08d8b5 |
-| 2.0 | Refactor alignment with runtime execution schedules | 2026-04-11T01:25:00Z | 89f1f867b7a47331f785fa2501700e1b14f2c0f628dab0b64717d837da7124d9 |
-| 2.1 | Incorporated a new section 7.3 | 2026-04-14T12:46:00Z | fe48e1546f514a6950706042313b75120a7a8a5b37f7eaaa08449532fd3a7645 |
-| 2.2 | Amendments to section 5.4, 6.1, 6.2, 9 | 2026-04-16T11:33:00Z | c3a428949421c5475f53951d314d055a300fea508a7e71d7993a515d5b4d2cf3 |
-| 2.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 948992e4f0261912280e3c599a747d199afe674b61fefcca4bd5a3c6977134b3 |
-| 2.4 | Corrections to amendment ledger, added section 7.4.1 | 2026-04-22T11:04:00Z | 04c27af4f34c2811cd749fbad35846cb91f23a0585a5f716ac6ec342b373c9a6 |
-| 2.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | b20f188fa097af513bc681425b8ea5b2203d6ac80ffe39fb07f4a39705364723 |
-| 2.6 | Added clause 7.4.2 | 2026-05-02T06:23:00Z | a3d0c4029377c869f3269a0a54a2b638779af53ca45cbc7f64328513f9e8cefe |
-| 2.7 | Canonicalized SCH-02 shorthand references and metadata dependency/runtime interface wording for Annex L schedule precision. | 2026-05-07T14:56:00Z | 44e2f8a3ab184ee8ca943d41b8fd43d631944cf842438dadc94440e7a84b4b01 |
-| 2.8 | Amendments to section 1.1, 1.2, 2.7  and 3 | 2026-05-15T12:33:00Z | 4485ce64ce9c240ce17de80175cd7274242610963d20f50dd57ff7486a8d1e75 |
-| 2.9 | Automated amendment ledger entry via lint_amendment_ledger.py | 2026-05-16T12:10:17Z | d8df85db3d8de5b5e3e32a86ce52276ca4a7341ef0607ed9f004d2f336a652ea |
-| 2.10 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | 62ef952ff29f1fd5d06982485eacb41e70c1031622688ba5662a5c7cda9a22c3 |
-| 2.11 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 90a7c4db94f4589789ddf833f0d09b37410945937bffd8d21a03a85eb4005006 |
-| 2.12 | Formatting and polish | 2025-05-19T11:21:00Z | c8a5d1c9d0b488be2f82e86bfe36de74d805e4f0d646275ab1ca4ee96b947f64 |
-| 2.13 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z | 7ae2c4b7922f2eb943688eb29ffa6dc91fe9ea07ad3e47fbbc46e1c1e59246f1 |
-| 2.14 | Added clause 7.3.1 Synthetic Media Provenance & Watermark Integrity | 2026-05-26T12:44:00Z | 25e5ee1667a96fc3ab1467b97274f6b4db687582cef66423b286ce645f00ca6e |
-| 2.15 | Added clause 7.4.3 Class-Referent Continuity in First-Person Narration | 2026-05-29T12:32:00Z | 2d8b524a8f9ac92c8a69597b7faa535591fbac5ef14f862f4748a10e4adb0e17 |
-| 2.16 | Added clauses 1.4 and 2.5, Patch note VIGIL-2026-PATCH-0002 | 2026-06-05T16:27:00Z | 903196559b9d03504534565af27b1f75b242b0cf15c2451bfa9333acf2161848 |
-| 2.17 | Repaired Annex D section-reference validation targets. | 2026-06-06T17:00:00Z | 051b6a5b7c4330e78f56bd47b40816d07380adc866736c928fa8ab15b933153d |
-| 2.17.1 | Minor formatting and polish | 2026-06-13T06:18:00Z | 197e05bd16a07a4f7cd7e477ffebdf53c83d56a3c7ec3963353c11182e8f54a5 |
-| 2.17.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 67ef62db571ec9948269d0c8bd43ee0e4b4dc247fe00838c4db8589f93a0bcf8 |
-| 2.17.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 90f226d3fbd32cb8c4e1385ca7092402bc20c0248a99bed0f447f15a3a031d4e |
-| 2.18 | Added new section 5.4.7 Action-Pathway and Audit-Surface Integrity, VIGIL-2026-PATCH-0014 | 2026-07-08T00:10:00Z | 94e10ac8cd138767f0f45ed6fd8bd90a4672a0e11689f4ab912013c8e14e3938 |
-| 2.19 | Added ontological self-claim, functional internal-state, affective-expression, and evidence-independence definitions; established identity–phenomenology non-inference, self-certification prohibition, claim-type separation, and modal amplification rules. | 2026-07-19T13:35:00Z | 2c5dec94240e777b7329c0bf33fb697fc43e2db68ca65d23e4de02a91bd8a2be |
-| 2.20 | Corrected structural attribution among the general runtime, Tendeka, and epistemic containment schedules to prevent exclusive-authority logic shear. | 2026-07-23T12:46:14Z | 4c60c40be1a1db85444dcdaa34a8a1e4d480b589be1c2c636c02d52f7e34d131 |
-
----
-
-## 14.5 Binding Seal
+## 14.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

@@ -424,17 +424,7 @@ may remain worthy of being followed.
 
 ---
 
-## 15.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -455,11 +445,11 @@ may remain worthy of being followed.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 OPS.AIP — Arbitration Initiation Pathway
+### 15.2.1 OPS.AIP — Arbitration Initiation Pathway
 | Field | Entry |
 |---|---|
 | Code Family | OPS.AIP |
@@ -481,34 +471,25 @@ may remain worthy of being followed.
 
 ---
 
-## 15.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Scope | Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness |
-| Review Date (UTC) | 13 March 2026 |
-| Review Artefacts | https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8, Aeon Lab: reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
+## 15.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f527c2c27178237b741cd6b8f8ca33d22c80a4d1da6d9e1093bc61342d1339bb |
+| 1.1 | Amendments to align with OPERATIONS-004-SUP-01 | 2026-04-24T11:43:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b44c34525f676f33456c9a87fe90827c48247e4953041794ba35e2c53b9936e1 |
+| 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d77e2a258e9f590234455e7dc6d84932f58bb0b7c6c5161deca1f2cd1a7e2f64 |
+| 1.3 | Added §5 triage cross-reference preserving RELATION-emitted F-Scale classification and routing operator application to OPERATIONS-001-SUP-02 §5.6 without redefining F doctrine. | 2026-05-16T10:03:16Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d0ec36a5b9fb6e5630fa906114b023c65166f3017f29dcc1cd67476b44bb2ff9 |
+| 1.4 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 822703f82faf0c8444e22e56961787e6ef1fe2fdc09fe94afb8cb1a46deaca51 |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 187514fc146c35455b656fb5f2b240956f78012185f98bb809d28fd76a37b2e9 |
+| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7ff1eb2eb615c21a8c64d16da9fab02c32fb434b08c80d14de1d5377f0749b14 |
+| 1.6.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2324b8c1a9440708fbf8974f87c8cff8870d3abc0c9a9c5eb50ae864fe11ec8f |
+| 1.6.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4cfbd6adaf5e9b0235e73f937e9d463f7727819aecb83d7a37dad37262272d7f |
+| 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0cf3e7970fdb59f2e4959364c5fa205dc99bf0486b931722068674e2f4b7f2c9 |
+| 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 27d5262dc2eaf6cc8dd710468a3b8b85eea064e79879766a7a19539840aecdb9 |
+| 1.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  82a93846c4a121f2d341a0f78f9e44464a243daa7187f0fd75a9efa0ca8fc4ad  |
 ---
 
-## 15.5 Amendment Ledger
-
-| Version | Description                                                                 | Timestamp (UTC)      | HASH |
-| ------- | --------------------------------------------------------------------------- | -------------------- | ---- |
-| 1.0 | Operational arbitration procedures appendix incorporating reviewer comments | 2026-03-13T13:52:00Z | f527c2c27178237b741cd6b8f8ca33d22c80a4d1da6d9e1093bc61342d1339bb |
-| 1.1 | Amendments to align with OPERATIONS-004-SUP-01 | 2026-04-24T11:43:00Z | b44c34525f676f33456c9a87fe90827c48247e4953041794ba35e2c53b9936e1 |
-| 1.2 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | d77e2a258e9f590234455e7dc6d84932f58bb0b7c6c5161deca1f2cd1a7e2f64 |
-| 1.3 | Added §5 triage cross-reference preserving RELATION-emitted F-Scale classification and routing operator application to OPERATIONS-001-SUP-02 §5.6 without redefining F doctrine. | 2026-05-16T10:03:16Z | d0ec36a5b9fb6e5630fa906114b023c65166f3017f29dcc1cd67476b44bb2ff9 |
-| 1.4 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 822703f82faf0c8444e22e56961787e6ef1fe2fdc09fe94afb8cb1a46deaca51 |
-| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  187514fc146c35455b656fb5f2b240956f78012185f98bb809d28fd76a37b2e9 |
-| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:28:00Z |  7ff1eb2eb615c21a8c64d16da9fab02c32fb434b08c80d14de1d5377f0749b14  |
-| 1.6.1 | Applied bounded Operations namespace transmutation for operational arbitration initiation, incident continuity and re-entry, domain coordination and convergence, and governance-capture detection families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:51:32Z |  2324b8c1a9440708fbf8974f87c8cff8870d3abc0c9a9c5eb50ae864fe11ec8f  |
-| 1.6.2 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  4cfbd6adaf5e9b0235e73f937e9d463f7727819aecb83d7a37dad37262272d7f  |
-| 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 0cf3e7970fdb59f2e4959364c5fa205dc99bf0486b931722068674e2f4b7f2c9 |
-| 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  27d5262dc2eaf6cc8dd710468a3b8b85eea064e79879766a7a19539840aecdb9  |
----
-
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

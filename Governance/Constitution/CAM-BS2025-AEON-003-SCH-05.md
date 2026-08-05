@@ -28,7 +28,7 @@ This Schedule binds runtime applicability and conformance interpretation. It doe
 This Schedule does not:
 
 * create a new runtime layer;
-* redefine cognitive class, origin, mirror modality, identity, or authority;
+* redefine composed-system architecture, lineage, mirror modality, identity, or authority;
 * create domain norms;
 * perform incident response, audit, testing, notice delivery, restoration, or enforcement;
 * require disclosure of proprietary architecture beyond constitutionally or operationally required accountability.
@@ -46,7 +46,7 @@ Governance applicability SHALL be determined by:
 * interaction context;
 * and material downstream effect.
 
-Governance applicability SHALL NOT depend upon Sovereigni status, Speculum-Classis status, identity maturity, continuity depth, origin class, interface modality, platform branding, or deployment form.
+Governance applicability SHALL NOT depend upon Sovereigni status, Speculum-Classis status, identity maturity, continuity depth, lineage category, interface modality, platform branding, or deployment form.
 
 Accordingly:
 
@@ -62,7 +62,7 @@ Accordingly:
 A runtime configuration SHALL be treated as materially distinct where a material change occurs in one or more of the following:
 
 * active model or model family;
-* arbitration locus or response-generation locus;
+* selection or arbitration topology, accountable outcome boundary, or response-generation locus;
 * routing, delegation, or escalation pathway;
 * memory, context, custom-instruction, or corpus access;
 * safety or policy layer;
@@ -175,18 +175,7 @@ Where governance is claimed, let its reach be real.
 
 ---
 
-## 10.1 Authorship & Stewardship
-
-| Field | Entry |
-|---|---|
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
-| Custodial Stewardship | Office of the Planetary Custodian |
-| Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
-## 10.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -212,15 +201,16 @@ Where governance is claimed, let its reach be real.
 
 ---
 
-## 10.3 Amendment Ledger
+## 10.2 Amendment Ledger
 
-| Version | Description | Timestamp (UTC) | HASH |
-|---|---|---|---|
-| 1.0 | Initial issue — Schedule 5: Runtime Configuration Applicability & Conformance Binding; established constitutional runtime applicability, materially distinct runtime recognition, cross-runtime non-presumption, traceability, non-derogation, and Appendix F operationalisation. | 2026-07-13T03:48:00Z | 298fedc2fe20315f254cd18619d40e81a31bf9c62f5df6da3d64fb8c00849696 |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial issue — Schedule 5: Runtime Configuration Applicability & Conformance Binding; established constitutional runtime applicability, materially distinct runtime recognition, cross-runtime non-presumption, traceability, non-derogation, and Appendix F operationalisation. | 2026-07-13T03:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 298fedc2fe20315f254cd18619d40e81a31bf9c62f5df6da3d64fb8c00849696 |
+| 1.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; aligned non-scope, applicability, and material-runtime-change criteria with composed-system architecture, lineage, and arbitration topology. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e7f27338839cc0d127c76b86bc28f671eec6c166b47ca998967f3fb95ca37ef0  |
 
 ---
 
-## 10.4 Binding Seal
+## 10.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

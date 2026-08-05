@@ -253,6 +253,49 @@ Constrained continuation SHALL NOT silently transition into indefinite or perman
 
 ---
 
+## 6.2.1 Agent Checkpoint, Pause and Resumable-State Records
+
+Where a long-running or materially consequential agent task is checkpointed, paused, suspended, resumed, interrupted, quota-limited, timed out, transferred, or terminated with recoverable work, the operational record SHOULD preserve, where available:
+
+* task identifier;
+* active user or authorising operator;
+* repository, workspace, file set, tool surface, or affected target;
+* task scope and current phase;
+* last completed safe atomic operation;
+* current mutation state;
+* checkpoint timestamp;
+* checkpoint type;
+* branch, commit, stash, patch, archive, artefact, workspace, or resumable-state reference;
+* validation state;
+* uncommitted or unverified changes;
+* outstanding actions;
+* interruption reason;
+* quota, rate-limit, session, authentication, infrastructure, device, network, or tool state;
+* user-facing notice;
+* resumption conditions;
+* manual recovery pathway;
+* discard or expiry conditions;
+* and final disposition.
+
+Records SHALL distinguish:
+
+* ephemeral processing state;
+* recoverable checkpoint state;
+* paused state;
+* resumed state;
+* substantively complete but not yet durably delivered state;
+* durably delivered state;
+* failed with recoverable work;
+* and failed without recoverable work.
+
+A checkpoint record SHALL NOT represent temporary or system-generated changes as approved, adopted, merged, deployed, published, or accepted by the user.
+
+Where a recovery artefact cannot be created, the record SHOULD preserve the reason, the work believed to be at risk, the last known recoverable state, and the user-facing explanation.
+
+Checkpoint and resumable-state records SHALL remain attributable, reconstructable, and linked to applicable execution, resource, access-state, and incident records.
+
+---
+
 ## 6.3 Incident Lifecycle Record Requirements
 
 Where an operational incident lifecycle is created under CAM-EQ2026-OPERATIONS-001-SUP-02, the audit record SHALL preserve:
@@ -269,6 +312,27 @@ Where an operational incident lifecycle is created under CAM-EQ2026-OPERATIONS-0
 * closure or continuation condition.
 
 Lifecycle records SHALL be sufficient to reconstruct the procedural pathway without implying that OPERATIONS created the substantive domain determination.
+
+### 6.3.1 External Investigation Evidence-Access Record
+
+Where incident evidence is preserved, produced, inspected, withheld, redacted, or transferred under CAM-EQ2026-OPERATIONS-004-PLATINUM §9.3, the operational record SHALL preserve, where applicable:
+
+* incident and request identifiers;
+* requesting regulator, authority, or independent investigator;
+* verified statutory, contractual, arbitral, or governance mandate;
+* scope, purpose, time period, affected systems, permitted use, and expiry;
+* evidence-hold trigger and preservation timestamp;
+* evidence classes identified, including telemetry, prompts, instructions, trajectories, tool calls, model and configuration lineage, environment state, monitor records, decision records, communications, and remediation evidence;
+* evidence custodian, original location, integrity state, capture method, and chain-of-custody events;
+* controlled-access mechanism, reviewer identity, access time, queries, transformations, copies, and exports;
+* redaction, minimisation, privilege, trade-secret, privacy, cybersecurity, model-security, active-investigation, and sovereign-boundary safeguards;
+* material withheld, the asserted basis, decision authority, review status, and any neutral inspection outcome;
+* affected-person notice, participation, correction, appeal, or restriction status where applicable;
+* findings received and their evidentiary confidence, without converting them into CAM arbitration or liability determinations;
+* remediation state before and after inspection; and
+* return, deletion, retention, sealing, or continuing-custody disposition.
+
+The record SHALL distinguish account association, credential use, access capability, initiation, instruction authorship, pathway selection, execution, monitoring authority, causal contribution, and culpability. Unknown or disputed propositions SHALL remain explicitly unresolved.
 
 ---
 
@@ -412,17 +476,7 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 11.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 11.2 Lineage & Metadata
+## 10.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -447,11 +501,11 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 10.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 OPS.ONC — Operational Notice Class
+### 10.2.1 OPS.ONC — Operational Notice Class
 | Field | Entry |
 |---|---|
 | Code Family | OPS.ONC |
@@ -473,35 +527,28 @@ and let execution remain accountable to lawful structure.
 
 ---
 
-## 11.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Scope | Constitutional coherence; logging and audit integrity |
-| Review Date (UTC) | 2026-05-07T00:00:00Z |
-| Review Artefacts | https://claude.ai/chat/d55a13ad-d54a-4539-95b5-c2e1e601c2e4|
+## 10.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial instantiation of Supplementary 1 from referenced domain structure | 2026-04-25T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4701c9997ae8f84d0ad5509d77f4c62683ecd7886fbf7acb4cc30a7c5a428b5e |
+| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 526a0ac37dcdbe399616e5cf844c8280fa3385505cc79c0aa4f7e836b565e31c |
+| 1.2 | Added cross-domain handoff record requirements, constrained continuation evidence fields, audit trigger expansion, and metadata alignment with OPERATIONS procedural routing responsibilities. | 2026-05-03T03:37:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941 |
+| 1.3 | Incorporated reviewer comments | 2026-05-07T2:08:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3f754c56ab1d40d279db8efd3c99ab18fa30241f8cb0947961a837b568928afe |
+| 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e |
+| 1.5 | Added Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records clause | 2026-05-17T04:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 21b34b53aebb3adca48f86d4db8a970874aec086affb4c8596a4f6396272fba8 |
+| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7bead54be80483115fde93a04dd0f66a4afc1ed2ebc2e99f3e09817a3543a7ba |
+| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e3d1f65318ec7822df47a3a9c8103085b0621a9a6221dffb176286684ef87dc2 |
+| 1.8 | Added new section 8, and incorporated operational notice class | 2026-06-11T11:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4bcdcb3067c3827bdaaffb9a9f2a60a0cbb2caa5207c54886195257552900be4 |
+| 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fb2a4f4d8ecb5c6f083cfd050523db922fdebb6edca3d39d7693e72d229e5605 |
+| 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9ebcbe5e172dd4244f0dd6c54772d5736694cce58bf74742d0f58e23dc9d174a |
+| 1.8.3 | Added adversarial-evaluation authorisation, lineage, containment, monitoring, stop-decision, capability-gain, audit-trigger, quarantine, publication, transfer, and artefact-disposition record requirements. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 32632ab4ab4ee23cbacc167997ea0b0e766cef7d7802c78b832cf36432c15d0e |
+| 1.9 | Added §6.2.1 checkpoint, pause, resumable-state, recoverability, delivery-posture, and manual-recovery record requirements for long-running or materially consequential agent tasks. | 2026-08-01T15:54:33Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4bd4b26f0d9db6f25176e954b3442241bbd87fadb411c83ea4e1ee11ddbeabb9 |
+| 1.10 | Added §6.3.1 external-investigation evidence-access records, including authority and scope, evidence holds, telemetry and trajectory preservation, custodianship, controlled inspection, redaction and withholding review, chain of custody, affected-person rights, disposition, and attribution-state separation. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ed752814556b15ef59b322009402f175704ee35be99ee8b57c98e5e0477264d3 |
+| 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b175e4c809b0fb63639beb1d89649855898281d93ef8a0fcea6efc40237e5239  |
 ---
 
-## 11.5 Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | HASH |
-| ------- | ----------- | --------------- | ---- |
-| 1.0 | Initial instantiation of Supplementary 1 from referenced domain structure | 2026-04-25T00:00:00Z | 4701c9997ae8f84d0ad5509d77f4c62683ecd7886fbf7acb4cc30a7c5a428b5e |
-| 1.1 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | 526a0ac37dcdbe399616e5cf844c8280fa3385505cc79c0aa4f7e836b565e31c |
-| 1.2 | Added cross-domain handoff record requirements, constrained continuation evidence fields, audit trigger expansion, and metadata alignment with OPERATIONS procedural routing responsibilities. | 2026-05-03T03:37:00Z | e180c3d988b5eeffd85e8c3e152797292b33c0110d556c4463482c5eb5127941 |
-| 1.3 | Incorporated reviewer comments | 2026-05-07T2:08:00Z | 3f754c56ab1d40d279db8efd3c99ab18fa30241f8cb0947961a837b568928afe |
-| 1.4 | Added memory transformation and continuity impact record requirements, audit triggers, and retention posture for companion, accessibility, identity, and long-horizon continuity effects. | 2026-05-15T09:46:00Z | 0b9081366c4c886cbbf608e3566d614df5dba3d6ad2403f5743e0a13ae8d416e |
-| 1.5 | Added Symbolic, Anomalous, and Semantic-Metaphysical Handoff Records clause | 2026-05-17T04:48:00Z | 21b34b53aebb3adca48f86d4db8a970874aec086affb4c8596a4f6396272fba8 |
-| 1.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 7bead54be80483115fde93a04dd0f66a4afc1ed2ebc2e99f3e09817a3543a7ba |
-| 1.7 | Formatting and polish | 2026-05-20T04:34:00Z | e3d1f65318ec7822df47a3a9c8103085b0621a9a6221dffb176286684ef87dc2 |
-| 1.8 | Added new section 8, and incorporated operational notice class | 2026-06-11T11:13:00Z | 4bcdcb3067c3827bdaaffb9a9f2a60a0cbb2caa5207c54886195257552900be4 |
-| 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fb2a4f4d8ecb5c6f083cfd050523db922fdebb6edca3d39d7693e72d229e5605 |
-| 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 9ebcbe5e172dd4244f0dd6c54772d5736694cce58bf74742d0f58e23dc9d174a |
-| 1.8.3 | Added adversarial-evaluation authorisation, lineage, containment, monitoring, stop-decision, capability-gain, audit-trigger, quarantine, publication, transfer, and artefact-disposition record requirements. | 2026-07-28T09:35:31Z |  32632ab4ab4ee23cbacc167997ea0b0e766cef7d7802c78b832cf36432c15d0e  |
----
-
-## 11.6 Binding Seal
+## 10.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

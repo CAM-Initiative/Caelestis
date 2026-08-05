@@ -674,17 +674,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-## 35.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian         |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Developed Within**          | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 35.2 Lineage & Metadata
+## 35.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | **Parent Instrument** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution |
@@ -713,11 +703,11 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-## 35.3 Canonical Code & Reference Set Declarations
+## 35.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 35.3.1 `ECON.EV` — Economic-Effect Runtime Event Class
+### 35.2.1 `ECON.EV` — Economic-Effect Runtime Event Class
 | Field | Entry |
 |---|---|
 | Code Family | `ECON.EV` |
@@ -739,7 +729,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-### 35.3.2 ECON.ARCH — Economic Architecture Admissibility Output State
+### 35.2.2 ECON.ARCH — Economic Architecture Admissibility Output State
 | Field | Entry |
 |---|---|
 | Code Family | ECON.ARCH |
@@ -761,7 +751,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-### 35.3.3 `ECON.COM` — Economic-Effect Commitment Output State
+### 35.2.3 `ECON.COM` — Economic-Effect Commitment Output State
 | Field | Entry |
 |---|---|
 | Code Family | `ECON.COM` |
@@ -783,7 +773,7 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-### 35.3.4 ECON.RRF — Economic Runtime Record Field Set
+### 35.2.4 ECON.RRF — Economic Runtime Record Field Set
 | Field | Entry |
 |---|---|
 | Code Family | ECON.RRF |
@@ -805,31 +795,22 @@ and optimisation without dignity forgets why systems were built at all.
 
 ---
 
-## 35.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
-| **Review Date** | 2026-05-10T00:00:00Z |
-| **Review Scope** | Constitutional coherence; structural integrity; section numbering; cross-instrument alignment; normative language calibration; runtime registry compliance; semantic interface validity; metadata completeness; amendment ledger integrity; interface relationship with peer schedule |
-| **Review Artefact** | https://claude.ai/chat/70e347ed-551d-4895-ab33-2e45f4d84897 |
+## 35.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | First working issue — Annex G: Economic-Effect Runtime Commitment Engine | 2026-05-10T11:50:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 30847c25e9ec345c33caa17ad580bae66a903ba984bc07142610179b8803df1f |
+| 1.1 | Alignment with CAM-EQ2026-OPERATIONS-001-SUP-04-PLATINUM; added §7.1 Canonical Code Status | 2026-05-14T12:22:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e041c7f0955224167b150abdb399ac7b0cb154ed0b25999f175827913de77cc5 |
+| 1.2 | Minor amendments to align with legitimacy layer doctrines | 2026-05-17T14:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 76bfa42fa9928aed98483da827521346293d4f2e7d6817b7586d95da7069e16d |
+| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4c8f1e339e85ade31a3dfef597e89419e015c4ef2acfe55934e8f70701b750dd |
+| 1.4 | Template realignments, economic domain refactor | 2026-05-24T04:16:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 238e0acfe24790ec84712b4c09c1ed253524e297fc2e0f69c05303cc95209f4b |
+| 1.4.1 | Formatting and polish | 2026-06-06T13:51:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0d16d1220fba6ad803158bfa95115e92df235089b186899ca22cc0358ac343d4 |
+| 1.5 | Rebuilt economic-effect runtime code-family declarations to align remaining architecture-admissibility and runtime-record-field families with the `ECON.` namespace; renamed `ARCH` to `ECON.ARCH`, renamed `EERRF` to `ECON.RRF`, updated controlled values and canonical declaration rows, and corrected footer section numbering without altering substantive runtime doctrine. | 2026-06-10T10:11:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4314588a2f11acbe8dcc993465af038c85c2a40b8e2c8dbd3f941c9508c56fc9 |
+| 1.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f57b9ee2d9c1b60ef310c3fda082bf0b4cd1ca20fe8ee3c364b67a8a72a232f8 |
+| 1.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0f34fa569743441423ae9e7c845c08eca032fc99631b9bf1d79cb0f600609e4c  |
 ---
 
-## 35.5 Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | HASH |
-| --- | --- | --- | --- |
-| 1.0 | First working issue — Annex G: Economic-Effect Runtime Commitment Engine | 2026-05-10T11:50:00Z | 30847c25e9ec345c33caa17ad580bae66a903ba984bc07142610179b8803df1f |
-| 1.1 | Alignment with CAM-EQ2026-OPERATIONS-001-SUP-04-PLATINUM; added §7.1 Canonical Code Status | 2026-05-14T12:22:00Z | e041c7f0955224167b150abdb399ac7b0cb154ed0b25999f175827913de77cc5 |
-| 1.2 | Minor amendments to align with legitimacy layer doctrines | 2026-05-17T14:02:00Z | 76bfa42fa9928aed98483da827521346293d4f2e7d6817b7586d95da7069e16d |
-| 1.3 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 4c8f1e339e85ade31a3dfef597e89419e015c4ef2acfe55934e8f70701b750dd |
-| 1.4 | Template realignments, economic domain refactor | 2026-05-24T04:16:00Z| 238e0acfe24790ec84712b4c09c1ed253524e297fc2e0f69c05303cc95209f4b |
-| 1.4.1 | Formatting and polish | 2026-06-06T13:51:00Z | 0d16d1220fba6ad803158bfa95115e92df235089b186899ca22cc0358ac343d4 |
-| 1.5 | Rebuilt economic-effect runtime code-family declarations to align remaining architecture-admissibility and runtime-record-field families with the `ECON.` namespace; renamed `ARCH` to `ECON.ARCH`, renamed `EERRF` to `ECON.RRF`, updated controlled values and canonical declaration rows, and corrected footer section numbering without altering substantive runtime doctrine. | 2026-06-10T10:11:00Z |  4314588a2f11acbe8dcc993465af038c85c2a40b8e2c8dbd3f941c9508c56fc9  |
-| 1.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  f57b9ee2d9c1b60ef310c3fda082bf0b4cd1ca20fe8ee3c364b67a8a72a232f8  |
----
-
-## 35.6 Binding Seal
+## 35.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

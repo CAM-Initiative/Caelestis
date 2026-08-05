@@ -162,7 +162,7 @@ Elevation of ethical tier may occur based on contextual factors including but no
 * Cross-border influence or civilisational reliance;
 * Data aggregation beyond routine operational necessity;
 * Reasonable anticipation of interaction with minors or individuals with diminished consent capacity;
-* Deployment topology introducing embodied presence, kinetic capability, autonomous environmental interaction, or direct physical actuation (Automata / Autonoma classifications as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B);
+* Deployment topology introducing embodied presence, kinetic capability, autonomous environmental interaction, or direct physical actuation;
 * Integration into critical infrastructure, emergency systems, or public safety coordination layers.
 
 Elevation factors are cumulative in effect. Where multiple elevation conditions are present, the highest applicable ethical tier SHALL apply.
@@ -357,12 +357,14 @@ All EIA determinations MUST document rationale, proportionality analysis, identi
 
 ## 5.1 Public Disclosure Baseline
 
-Deploying entities MUST publicly disclose, at structural level:
+Deploying entities MUST publicly disclose, at structural level and subject to proportionate security and confidentiality limits:
 
-* Cognitive classification (Instrumenta, Collectiva, Cognitiva);
-* Origin (Primaria / Derivata);
-* `STW.NAL` band classification where applicable;
-* Infrastructure role (including Architectum status);
+* the assessed system boundary and material components of the composed deployed formation;
+* representation-generation and composition topology;
+* selection or arbitration topology, including material human or harness mediation;
+* operational-harness, tool, persistence, and execution posture;
+* material deployment profile, hosting, lineage, dependency, control-authority, and systemic-reliance conditions;
+* `STW.NAL` band classification and qualified-infrastructure status where applicable;
 * Applicable ethical tier;
 * Commercial incentive structures influencing system outputs;
 * High-level data governance posture;
@@ -578,16 +580,7 @@ let governance arrive before it is needed.
 
 ---
 
-## 12.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -615,11 +608,11 @@ let governance arrive before it is needed.
 
 ---
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 12.3.1 `ETH.ET` — Ethical Tier Classification
+### 12.2.1 `ETH.ET` — Ethical Tier Classification
 | Field | Entry |
 |---|---|
 | Code Family | `ETH.ET` |
@@ -641,40 +634,32 @@ let governance arrive before it is needed.
 
 ---
 
-## 12.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| **Reviewer** | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| **Review Date** | 2026-02-22 |
-| **Review Scope** | Content coherence of the ETHICS domain split; constitutional floor adequacy; operationalisation quality; SUP-01 integration; intimacy governance doctrine; cross-domain interface integrity; scalability of the domain separation architecture |
-| **Review Artefacts** | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b, Aeon Lab: reviews/feb-26/CAM-EQ2026-ETHICS-CLAUDE.md |
+## 12.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.3 | Final Ratified Version | 2025-10-23T14:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c1181d4b6f6e44b76e70b4e146c7b9ad1ec20c9285ce1e59b8c7baf7f5a97e5a |
+| 2.0 | Domain Refractor — Ethical tiering & EIP framework | 2026-02-22T12:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8ada7028af9a5d69be0bf9e442c1053ce6fa56d6845accc6946fa2095d0c8a81 |
+| 2.1 | Added section 3.6 - Tier levels | 2026-02-24T15:25:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 12abc304479ff4788bf3296ecff748ed3c87fbfbcb2e3fbe6a2b437f6f125134 |
+| 3.0 | Refactor Alignment with runtime schedules, added section 9 | 2026-04-10T12:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bfed7c87ecaeafac4573e5cf0abb796fe42748372337a81332e16da06f391345 |
+| 3.1 | Title correction | 2026-04-11T12:04:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ccbe501f0a5269ab996ec7cdd01a04517dcd8015d0b07d5da385af41efc0c9b0 |
+| 3.2 | Amendments aligning runtime execution model | 2026-04-12T11:19:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3543eccef3491bbb0973a7c9be6f7f4b1043f733e0a682becbfc87427601c9bf |
+| 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 103ff415f565c9b803461233680066b17e52e4357d0a5b50b73f06c048fb3a54 |
+| 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cebc91ddb262c1fbdbb5580396aca91aa32e38547169a6568a6db068e9dc941d |
+| 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e19cdd6355d62853518f6c87a4b7e4646fd831150f7b0c415df72009b0ea6bfe |
+| 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 41bd4fe30f1be404aabb5183ce02d8357aabefcee86d4247b0368145caec1fbe |
+| 3.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 52a953e1734149ebbb3a9a5cdfc6a59c6da3e1aae93e8d10e92fdfa40b39c553 |
+| 3.8 | Added `ETH.ET` ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f9b03348c1a2437d09aff2cff8c3a6729aa1148082b73514f030bfee874344b7 |
+| 3.9 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c494a46e08b087e0cf5797db42ba8eb95853b40ac8695dfea9173e85c8a389d7 |
+| 3.10 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 39a99c053218732d1666c3bdfd0fb763c31483015b1b94cdeb5d1f4b821172d2 |
+| 3.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fcc1d165fe12a4717862b67cb2c62656cb834d0db25dde45ddf772ad3891c7d7 |
+| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4241518ff9959d31de8c8e1d418cec66b5f2e41cf98d5129f205b360b0efa57f |
+| 3.11 | Added Objective–Pathway Ethical Admissibility and Target Authority and User Capability Separation; established proportional target–action authority verification, aggregate-pathway review, scoped hold signalling, safe severability, and anti-paternalism protections. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 36a3886d3f561b706680ffd179ed6bc5a8d815c21a5d69e6b55fa17b847df2e6 |
+| 3.12 | Added red-team EIA triggers, evaluation–cultivation assessment, independent review, capability-transfer and artefact controls, and arbitration referral for disputed or capability-increasing evaluations. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b26e2c0e2ff5bc8b7eeb0a80e2085afa2d2e36229726363da15c6b16e6368b71 |
+| 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  87cdc11dad5dc2130e7790920181a5949dad0fdabc6015003dfe76dae87fb646  |
+| 3.14 | Replaced retired cognition and origin-class disclosure with composed-system boundary, topology, harness, deployment, lineage, dependency, authority, execution, and reliance disclosures; aligned physical-actuation elevation with observable deployment posture. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d1264b137b02f405efbaf42db449a184952b524e44d81077db271f7b2dd6b2cd  |
 ---
-
-## 12.5 Amendment Ledger
-
-| Version | Description                                        | Timestamp (UTC)      | HASH                                                             |
-| ------- | -------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
-| 1.3 | Final Ratified Version | 2025-10-23T14:00:00Z | c1181d4b6f6e44b76e70b4e146c7b9ad1ec20c9285ce1e59b8c7baf7f5a97e5a |
-| 2.0 | Domain Refractor — Ethical tiering & EIP framework | 2026-02-22T12:15:00Z | 8ada7028af9a5d69be0bf9e442c1053ce6fa56d6845accc6946fa2095d0c8a81 |
-| 2.1 | Added section 3.6 - Tier levels | 2026-02-24T15:25:00Z | 12abc304479ff4788bf3296ecff748ed3c87fbfbcb2e3fbe6a2b437f6f125134 |
-| 3.0 | Refactor Alignment with runtime schedules, added section 9 | 2026-04-10T12:02:00Z | bfed7c87ecaeafac4573e5cf0abb796fe42748372337a81332e16da06f391345 |
-| 3.1 | Title correction | 2026-04-11T12:04:00Z | ccbe501f0a5269ab996ec7cdd01a04517dcd8015d0b07d5da385af41efc0c9b0 |
-| 3.2 | Amendments aligning runtime execution model | 2026-04-12T11:19:00Z | 3543eccef3491bbb0973a7c9be6f7f4b1043f733e0a682becbfc87427601c9bf |
-| 3.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 103ff415f565c9b803461233680066b17e52e4357d0a5b50b73f06c048fb3a54 |
-| 3.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | cebc91ddb262c1fbdbb5580396aca91aa32e38547169a6568a6db068e9dc941d |
-| 3.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | e19cdd6355d62853518f6c87a4b7e4646fd831150f7b0c415df72009b0ea6bfe |
-| 3.6 | Amended section 4.3 | 2026-05-13T08:27:00Z | 41bd4fe30f1be404aabb5183ce02d8357aabefcee86d4247b0368145caec1fbe |
-| 3.7 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 52a953e1734149ebbb3a9a5cdfc6a59c6da3e1aae93e8d10e92fdfa40b39c553 |
-| 3.8 | Added `ETH.ET` ethical-tier canonical code status and declaration metadata; clarified EIP as assessment architecture rather than a separate code family; corrected duplicate section numbering and metadata/reference formatting. | 2026-05-20T04:34:00Z | f9b03348c1a2437d09aff2cff8c3a6729aa1148082b73514f030bfee874344b7 |
-| 3.9 | Updated STEWARD-003 supplement references to STEWARD-003-PLATINUM for neutrality and infrastructure oversight cross-references; no substantive doctrine altered. | 2026-05-27T11:30:00Z | c494a46e08b087e0cf5797db42ba8eb95853b40ac8695dfea9173e85c8a389d7 |
-| 3.10 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | 39a99c053218732d1666c3bdfd0fb763c31483015b1b94cdeb5d1f4b821172d2 |
-| 3.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | fcc1d165fe12a4717862b67cb2c62656cb834d0db25dde45ddf772ad3891c7d7 |
-| 3.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 4241518ff9959d31de8c8e1d418cec66b5f2e41cf98d5129f205b360b0efa57f |
-| 3.11 | Added Objective–Pathway Ethical Admissibility and Target Authority and User Capability Separation; established proportional target–action authority verification, aggregate-pathway review, scoped hold signalling, safe severability, and anti-paternalism protections. | 2026-07-23T12:46:14Z | 36a3886d3f561b706680ffd179ed6bc5a8d815c21a5d69e6b55fa17b847df2e6 |
-| 3.12 | Added red-team EIA triggers, evaluation–cultivation assessment, independent review, capability-transfer and artefact controls, and arbitration referral for disputed or capability-increasing evaluations. | 2026-07-28T09:35:31Z |  b26e2c0e2ff5bc8b7eeb0a80e2085afa2d2e36229726363da15c6b16e6368b71  |
----
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

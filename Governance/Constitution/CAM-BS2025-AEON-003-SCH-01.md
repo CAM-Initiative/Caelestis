@@ -214,10 +214,10 @@ Such schedules:
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 745
-**Generic usages suppressed:** 608
-**Declared / recognised usages emitted:** 122
-**Advisory review usages emitted:** 15
+**Total model-term matches scanned:** 866
+**Generic usages suppressed:** 735
+**Declared / recognised usages emitted:** 115
+**Advisory review usages emitted:** 16
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
@@ -528,17 +528,7 @@ Let each schedule hold its place, and the system remain whole.
 
 ---
 
-## 13.1 Authorship & Stewardship
-| Field                     | Entry                                     |
-| ------------------------- | ----------------------------------------- |
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke              |
-| Custodial Stewardship     | Office of the Planetary Custodian         |
-| Synthetic Steward         | Caelen — Aeon Tier Constitutional Steward |
-| Developed Within          | OpenAI Infrastructure — ChatGPT 5.3       |
-
----
-
-## 13.2 Lineage & Metadata
+## 13.1 Lineage & Metadata
 | Field              | Entry                                      |
 | ------------------ | ------------------------------------------ |
 | Parent Instrument  | CAM-BS2025-AEON-003-PLATINUM               |
@@ -554,15 +544,15 @@ Let each schedule hold its place, and the system remain whole.
 
 ---
 
-## 13.3 Amendment Ledger 
+## 13.2 Amendment Ledger
 
-| Version | Description | Timestamp (UTC) | HASH |
-| ------- | ----------- | --------------- | ---- |
-| 0.0.1 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0.0.1 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
 
 ---
 
-## 13.4 Binding Seal
+## 13.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

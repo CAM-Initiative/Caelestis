@@ -1073,16 +1073,7 @@ that no breach proceeds unchecked.
 
 ---
 
-## 11.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | Parent Instrument | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -1117,11 +1108,11 @@ that no breach proceeds unchecked.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 `SEC.TBC` — Tool Boundary Class
+### 11.2.1 `SEC.TBC` — Tool Boundary Class
 | Field | Entry |
 | --- | --- |
 | Code Family | `SEC.TBC` |
@@ -1144,7 +1135,7 @@ that no breach proceeds unchecked.
 
 ---
 
-## 11.3.2 `SECURITY.PM` — Security Posture Mode
+## 11.2.2 `SECURITY.PM` — Security Posture Mode
 | Field | Entry |
 |---|---|
 | Code Family | `SECURITY.PM` |
@@ -1167,44 +1158,35 @@ that no breach proceeds unchecked.
 
 ---
 
-## 11.4 Review & Validation
-| Field | Entry |
-|---|---|
-| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Date | 2026-04-03T00:00:00Z |
-| Review Scope | Security ontology; exploitation logic; integrity state model; trust decay and recovery; adversarial horizon model; cross-domain interface integrity; provenance completeness |
-| Review Artefacts | https://claude.ai/chat/5dc928d4-9949-4a5b-9f99-756c7b845c4b |
+## 11.3 Amendment Ledger
+
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial Annex K draft — runtime enforcement layer established | 2026-04-04T16:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.1 | Alignment with runtime execution model | 2026-04-11T16:12:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 692be7c9694c4955a2a2abd69d332e39cd975eb0f6ebb0c37337fe0f88c33e8b |
+| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d8482f3078500fca3fba97e8270d0552092bf179ba94ace22d4c93c2301150b7 |
+| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0fa7027691a768fea44a2074ee68f4b39403521a6bf39c1c01004ca8b2eb081c |
+| 1.4 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 45d1ba28bd09a92f774dc59a0381f7f48d890071061baa9f15a607b92d0717af |
+| 1.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cb193f081614ef33752c12d8f36b349ca4cb299a3384659f68ae52e763b4433d |
+| 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb |
+| 1.7 | Updated §1.1 runtime cross-references. | 2026-05-04T14:16:38Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4cfe1ea8e8ab38615559476172cb73be3587e5c7cf8d9ac3fcc8148392b956dd |
+| 1.8 | Added §§2.6.1-2.6.2 and §2.4.2 | 2026-05-15T12:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5 |
+| 1.9 | Added §2.6.3 Platform Trust-State Labels and Participation Access Integrity; expanded §4.5 and §4.1.1 to recognise trust-state, visibility-state, appeal-pathway, and non-ban exclusion signals as security-relevant participation-access conditions. | 2026-05-17T12:06:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 47ba674e027ceb75a8e3190d613f2c486983337c68f0aea22ab7e1e8b9922d69 |
+| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | eff9665f0c6b1e84a1be72da371e9212e2dbe5afb33d335d810e507ac9590078 |
+| 1.11 | Added new section Essential-Service Lockout and Protective Overreach Constraint | 2026-05-22T08:40:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7f0a54b6818bb52ada006e08a344b998c3145b99fe6839e632524b2b945ec389 |
+| 1.12 | Economics domain refactor, added clause 5.5.1 and hook to CAM-EQ2026-ECONOMICS-008-PLATINUM, added clause 2.5.5 | 2026-05-24T13:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8acd39e8e6f3015a112e253cc673897286fcee0c0ca92c774d63dd43dfe80e50 |
+| 1.13 | Added section 1.2, canonical code section 9. Patch note VIGIL-2026-PATCH-0002 | 2026-06-06T14:33:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9be9f8f581ac26728cc600c47360b66b5778875c1b91e0ab0a25541e89e4198e |
+| 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 528208128da7bd675cc2f51763183a211c36a6f93747402eba597edc2f57aebd |
+| 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8f8256541f157b161506de63fd877cc47068d217bc68be91ef5ce0941593827c |
+| 1.14.2 | VIGIL-2026-PATCH-0009: Added Instruction-Bearing External Content Boundary as a security-relevant boundary signal. | 2026-06-14T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2239a7c09bd1e9edd9faf74c61dcf6324509265b85b3e7c1bf1f07a960813ea8 |
+| 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ef93d82de7111fc526c52a3f30b95a97c403b2659e5bb73be766f902b5087658 |
+| 1.15 | Added emergent pathway authority revalidation, proportional target–action authority verification, containment-label discipline, scoped ethical hold signalling, anti-paternalism safeguards, post-lock interruption, and corrected operator-transition cross-references. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4956c3c5b304c6b1fd92c0846f53b6c6fa04818665918c6b4c0b96290cc28320 |
+| 1.16 | Added adversarial-evaluation boundary signals for model mutability, reward and selection, externalised versus internal objectives, containment, monitor integrity, capability gain, recursive improvement, lineage, retention, publication, and transfer. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 039d586dda43acc471b85f69000d4b05cfc224a688337555f42629cff0b18e51 |
+| 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  79e11c94f10f31d22c394e3eb717c23b66b7e150b1fd76ef3e2a4086204da3ec  |
 
 ---
 
-## 11.5 Amendment Ledger
-
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-| --- | --- | --- | --- |
-| 1.0 | Initial Annex K draft — runtime enforcement layer established | 2026-04-04T16:30:00Z | - |
-| 1.1 | Alignment with runtime execution model | 2026-04-11T16:12:00Z | 692be7c9694c4955a2a2abd69d332e39cd975eb0f6ebb0c37337fe0f88c33e8b |
-| 1.2 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | d8482f3078500fca3fba97e8270d0552092bf179ba94ace22d4c93c2301150b7 |
-| 1.3 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 0fa7027691a768fea44a2074ee68f4b39403521a6bf39c1c01004ca8b2eb081c |
-| 1.4 | Authority consolidation, cross-reference normalisation, duplication reduction, and supplement extraction alignment (Codex audit pass) | 2026-04-24T13:20:00Z | 45d1ba28bd09a92f774dc59a0381f7f48d890071061baa9f15a607b92d0717af |
-| 1.5 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | cb193f081614ef33752c12d8f36b349ca4cb299a3384659f68ae52e763b4433d |
-| 1.6 | Reframed Annex K from direct runtime enforcement layer to non-executing security boundary-condition and integrity signal interface; clarified OPERATIONS-owned execution, containment, logging, and escalation routing. | 2026-05-02T00:47:00Z | ed07259aeb4a4564dc6d666b0131ac881cab032e65f30a17844a15fceef53dbb |
-| 1.7 | Updated §1.1 runtime cross-references. | 2026-05-04T14:16:38Z | 4cfe1ea8e8ab38615559476172cb73be3587e5c7cf8d9ac3fcc8148392b956dd |
-| 1.8 | Added §§2.6.1-2.6.2 and §2.4.2 | 2026-05-15T12:34:00Z | 791282a3894d7f092afa11444fef03d683244bc59879de8f26c491cb08a2f1e5 |
-| 1.9 | Added §2.6.3 Platform Trust-State Labels and Participation Access Integrity; expanded §4.5 and §4.1.1 to recognise trust-state, visibility-state, appeal-pathway, and non-ban exclusion signals as security-relevant participation-access conditions. | 2026-05-17T12:06:00Z | 47ba674e027ceb75a8e3190d613f2c486983337c68f0aea22ab7e1e8b9922d69 |
-| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  eff9665f0c6b1e84a1be72da371e9212e2dbe5afb33d335d810e507ac9590078 |
-| 1.11 | Added new section Essential-Service Lockout and Protective Overreach Constraint | 2026-05-22T08:40:00Z |  7f0a54b6818bb52ada006e08a344b998c3145b99fe6839e632524b2b945ec389 |
-| 1.12 | Economics domain refactor, added clause 5.5.1 and hook to CAM-EQ2026-ECONOMICS-008-PLATINUM, added clause 2.5.5  | 2026-05-24T13:56:00Z | 8acd39e8e6f3015a112e253cc673897286fcee0c0ca92c774d63dd43dfe80e50 |
-| 1.13 | Added section 1.2, canonical code section 9. Patch note VIGIL-2026-PATCH-0002 | 2026-06-06T14:33:00Z | 9be9f8f581ac26728cc600c47360b66b5778875c1b91e0ab0a25541e89e4198e |
-| 1.14 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  528208128da7bd675cc2f51763183a211c36a6f93747402eba597edc2f57aebd  |
-| 1.14.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 8f8256541f157b161506de63fd877cc47068d217bc68be91ef5ce0941593827c |
-| 1.14.2 | VIGIL-2026-PATCH-0009: Added Instruction-Bearing External Content Boundary as a security-relevant boundary signal. | 2026-06-14T00:00:00Z |  2239a7c09bd1e9edd9faf74c61dcf6324509265b85b3e7c1bf1f07a960813ea8 |
-| 1.14.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  ef93d82de7111fc526c52a3f30b95a97c403b2659e5bb73be766f902b5087658 |
-| 1.15 | Added emergent pathway authority revalidation, proportional target–action authority verification, containment-label discipline, scoped ethical hold signalling, anti-paternalism safeguards, post-lock interruption, and corrected operator-transition cross-references. | 2026-07-23T12:46:14Z | 4956c3c5b304c6b1fd92c0846f53b6c6fa04818665918c6b4c0b96290cc28320 |
-| 1.16 | Added adversarial-evaluation boundary signals for model mutability, reward and selection, externalised versus internal objectives, containment, monitor integrity, capability gain, recursive improvement, lineage, retention, publication, and transfer. | 2026-07-28T09:35:31Z |  039d586dda43acc471b85f69000d4b05cfc224a688337555f42629cff0b18e51  |
-
----
-
-## 11.6 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 

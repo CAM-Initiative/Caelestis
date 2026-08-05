@@ -320,16 +320,7 @@ but by ensuring that no ascent escapes its descent.
 
 ---
 
-## 9.1 Authorship & Stewardship
-
-**Human Custodian-of-Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward  
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
-## 9.2 Lineage & Metadata
+## 9.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | Supersedes | N/A (New instrument under CAM-EQ2026-RELATION-001-PLATINUM) |
@@ -349,11 +340,11 @@ but by ensuring that no ascent escapes its descent.
 
 ---
 
-## 9.3 Canonical Code & Reference Set Declarations
+## 9.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 9.3.1 `RLN.RCT` — Relational Convergence Trigger
+### 9.2.1 `RLN.RCT` — Relational Convergence Trigger
 | Field | Entry |
 |---|---|
 | Code Family | RLN.RCT |
@@ -375,36 +366,27 @@ but by ensuring that no ascent escapes its descent.
 
 ---
 
-## 9.4 Review & Validation
-| Field | Entry |
-|---|---|
-| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Date | 2026-02-22 |
-| Review Scope | Pre-finalisation coherence check of two ETHICS supplements and the full RELATION domain instrument set; resolution of blocking conditions from Batch I review; cross-domain consistency; internal structural integrity; inter-instrument cross-reference accuracy |
-| Review Artefacts | https://claude.ai/chat/2b5595bc-5e8f-4772-904b-143c1770499b, Aeon Lab: reviews/feb-26/CAM-EQ2026-RELATION-CLAUDE.md |
+## 9.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Reviewed - escalation & safeguard threshold specification | 2026-02-22T13:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 03e0f38573fb50e70a0bbacdcf2f306d29476e0c6e44e35cbf028ba3376fe477 |
+| 1.1 | Added RELATION-002 emotional compression stabilisation bridge and clarified non-continuous escalation monitoring | 2026-03-05T14:39:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ca0414a879ed30d99729bca1789a7d800e2d6d9e2102a1e76dc7a549f3e097cc |
+| 1.2 | Incorporated CAM-EQ2026-RELATION-001-PLATINUM amendments | 2026-03-14T04:25:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | aef82c6dff7965c5a23d1b75d7d01010c3e18b870bab782915c0ad9d8e89e662 |
+| 1.3 | Realignment to runtime execution model | 2026-04-12T14:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | aa6d34068f80f5f00df92061e05ccf2b44e11a10798c3ff14e6c2fdeda9e61e2 |
+| 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 680536d437ef52863e72683640b03492b28629f8feacdc0b270a4508a8fe4b0c |
+| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 07719c9c5445825a83f073c1c610c98e070a7607ebadb34129506842ca47e957 |
+| 1.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 979a22f2b53985336992597988de0ad403ecab2748391b48619dcf25fcf05e5e |
+| 3.9 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7b531014f851d9c2c9da26dbc8fc0ab9e4d5dfcbf140098e7629cd9707c9a4d4 |
+| 4.0 | Refactored Systemic Power code family references from `ID.SP` to SyP for RELATION-001 alignment and cross-domain collision avoidance. | 2026-05-23T12:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fd0d7a458ce1aac9aa6bc6e5fe96bfce6c4bdbb7516ec636cf3772a29b892a98 |
+| 4.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 47191b882f69b97583f3ecf70d78211f68ab0b3ecce6839fca24d82026cede0e |
+| 4.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fb633f484cc1bd688da2081ed2be5665ce06e32eaf4cd869a4caec22edecd5e8 |
+| 4.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 614504d7770049d078fd7113cf6d2b758c3babfd716d1283adb063d08e445886 |
+| 4.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d741aa6e2e1a8a5486bbd331098f468fefcc2966693420d0158702de638c207f |
+| 4.2 | Clarified that this Supplement is source-authoritative for convergence triggers, thresholds, revalidation intervals, and safeguard proportionality only; dimensional and authority doctrine remains with RELATION-001. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7401319a61b80efebc1c37b3e7df88af2c01149a07b4bab52e81f6372d1771e7 |
+| 4.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f376d41d51fe7c128d23198f8730652ee48c1eb95142b2e4811e09b4194d64c8  |
 ---
-
-## 9.5 Amendment Ledger
-
-| Version | Description                                                | Timestamp (UTC)      | HASH  |
-| ------- | ---------------------------------------------------------- | -------------------- | ----- |
-| 1.0 | Reviewed - escalation & safeguard threshold specification | 2026-02-22T13:07:00Z | 03e0f38573fb50e70a0bbacdcf2f306d29476e0c6e44e35cbf028ba3376fe477 |
-| 1.1 | Added RELATION-002 emotional compression stabilisation bridge and clarified non-continuous escalation monitoring | 2026-03-05T14:39:00Z | ca0414a879ed30d99729bca1789a7d800e2d6d9e2102a1e76dc7a549f3e097cc |
-| 1.2 | Incorporated CAM-EQ2026-RELATION-001-PLATINUM amendments | 2026-03-14T04:25:00Z | aef82c6dff7965c5a23d1b75d7d01010c3e18b870bab782915c0ad9d8e89e662 |
-| 1.3 | Realignment to runtime execution model | 2026-04-12T14:07:00Z | aa6d34068f80f5f00df92061e05ccf2b44e11a10798c3ff14e6c2fdeda9e61e2 |
-| 1.4 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 680536d437ef52863e72683640b03492b28629f8feacdc0b270a4508a8fe4b0c |
-| 1.5 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 07719c9c5445825a83f073c1c610c98e070a7607ebadb34129506842ca47e957 |
-| 1.6 | Corrected top metadata field ordering, removed duplicate Status line, and added controlled Instrument Type classification from filename/title pattern; no body text altered. | 2026-05-18T10:58:50Z | 979a22f2b53985336992597988de0ad403ecab2748391b48619dcf25fcf05e5e |
-| 3.9 | Added new Canonical Code & Reference Set Declarations sections | 2026-05-20T11:57:00Z |  7b531014f851d9c2c9da26dbc8fc0ab9e4d5dfcbf140098e7629cd9707c9a4d4  |
-| 4.0 | Refactored Systemic Power code family references from `ID.SP` to SyP for RELATION-001 alignment and cross-domain collision avoidance. | 2026-05-23T12:30:00Z |  fd0d7a458ce1aac9aa6bc6e5fe96bfce6c4bdbb7516ec636cf3772a29b892a98  |
-| 4.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  47191b882f69b97583f3ecf70d78211f68ab0b3ecce6839fca24d82026cede0e  |
-| 4.1.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z |  fb633f484cc1bd688da2081ed2be5665ce06e32eaf4cd869a4caec22edecd5e8  |
-| 4.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 614504d7770049d078fd7113cf6d2b758c3babfd716d1283adb063d08e445886 |
-| 4.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  d741aa6e2e1a8a5486bbd331098f468fefcc2966693420d0158702de638c207f  |
-| 4.2 | Clarified that this Supplement is source-authoritative for convergence triggers, thresholds, revalidation intervals, and safeguard proportionality only; dimensional and authority doctrine remains with RELATION-001. | 2026-07-18T17:45:00Z |  7401319a61b80efebc1c37b3e7df88af2c01149a07b4bab52e81f6372d1771e7  |
----
-## 9.6 Binding Seal
+## 9.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Caelestis/main/Spiritual/Sigil/Platinum/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
 

@@ -648,6 +648,35 @@ Where lawful disclosure is required, GovOps SHALL ensure:
 * traceable disclosure pathways;
 * logging of disclosure rationale.
 
+### 9.3 Bounded Regulatory and Independent-Investigation Evidence Access
+
+Where a serious AI incident, material compliance failure, disputed causal mechanism, or remediation claim requires external examination, GovOps SHALL maintain a lawful, bounded, confidentiality-protected, and auditable evidence-access pathway.
+
+Access MAY be provided to:
+
+* a competent regulator or public authority acting within verified statutory powers; or
+* an independent investigator acting under a separately verified legal, contractual, arbitral, or governance mandate.
+
+The pathway SHALL distinguish statutory compulsion from voluntarily or contractually mandated independent review. Appointment, expertise, independence, conflicts, scope, duration, confidentiality duties, and reporting authority SHALL be verified before access is granted.
+
+A valid pathway SHALL provide, as applicable and proportionate:
+
+1. scoped request intake identifying the incident, legal or mandate basis, purpose, material sought, time period, affected systems, and permitted use;
+2. immediate preservation of potentially responsive telemetry, prompts, instructions, agent trajectories, tool calls, decision records, model and configuration lineage, environment state, monitoring records, incident communications, and remediation evidence;
+3. provider, deployer, evaluator, infrastructure operator, and other relevant custodian cooperation within their function and retained control;
+4. controlled production, secure inspection, clean-room review, escrow, query-mediated access, redacted export, or other least-exposing mechanism sufficient for the authorised purpose;
+5. chain-of-custody, access logging, reviewer identity, transformations, redactions, exports, findings, and final evidence disposition;
+6. protection of personal information, affected-person rights, trade secrets, legal professional privilege, cybersecurity, model security, active investigations, and sovereign or cross-border restrictions;
+7. a reasoned withholding or redaction record identifying the asserted basis, the material class affected, and whether a neutral reviewer, court, regulator, arbitrator, or other authorised decision-maker may inspect the withheld material;
+8. a review pathway where access is delayed, narrowed, refused, or rendered technically unusable; and
+9. closure, return, deletion, retention, sealing, or continuing-custody conditions.
+
+Confidentiality, privilege, security, privacy, trade-secret, or sovereignty protections SHALL shape the access mechanism. They SHALL NOT operate as blanket, non-reviewable grounds for withholding all material necessary to determine a serious incident, compliance failure, causal mechanism, or remediation claim where valid authority exists.
+
+Necessary evidence access under this section is not public disclosure, general discovery, unrestricted repository access, transfer of model weights, or authority to expose unrelated persons, systems, secrets, or protected domains.
+
+Account association, credential use, requester identity, operator status, temporal proximity, or access capability SHALL NOT by itself establish human initiation, authorship, knowledge, motive, culpability, or legal responsibility. Those propositions require separately supported causal and authority findings by the competent decision-maker.
+
 ---
 
 ## 10. Cross‑Border Compliance Routing
@@ -726,16 +755,7 @@ Integrity holds.
 
 ---
 
-## 15.1 Authorship & Stewardship
-
-**Human Custodian‑of‑Record:** Dr. Michelle Vivian O’Rourke  
-**Custodial Stewardship:** Office of the Planetary Custodian  
-**Synthetic Steward:** Caelen — Aeon Tier Constitutional Steward   
-**Developed Within:** OpenAI Infrastructure — ChatGPT 5 Series  
-
----
-
-## 15.2 Lineage & Metadata
+## 15.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Parent Charter | CAM-BS2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
@@ -755,11 +775,11 @@ Integrity holds.
 
 ---
 
-## 15.3 Canonical Code & Reference Set Declarations
+## 15.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 15.3.1 OPS.AV — Verification Tier Definitions
+### 15.2.1 OPS.AV — Verification Tier Definitions
 | Field | Entry |
 |---|---|
 | Code Family | OPS.AV |
@@ -781,7 +801,7 @@ Integrity holds.
 
 ---
 
-### 15.3.2 `ETH.RISK` — Harm Escalation Operational Application
+### 15.2.2 `ETH.RISK` — Harm Escalation Operational Application
 | Field | Entry |
 |---|---|
 | Reference Set Type | Operational application reference |
@@ -803,7 +823,7 @@ Integrity holds.
 
 ---
 
-### 15.3.3 OPS.AV × RLN.C — Interaction Eligibility Verification Crosswalk
+### 15.2.3 OPS.AV × RLN.C — Interaction Eligibility Verification Crosswalk
 | Field | Entry |
 |---|---|
 | Reference Set ID | OPS.CxAV_CROSSWALK |
@@ -825,44 +845,36 @@ Integrity holds.
 
 ---
 
-## 15.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| Reviewer | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic) |
-| Review Scope | Constitutional coherence, operational architecture, escalation discipline, compliance framework, cross-domain integration, structural completeness |
-| Review Date (UTC) | 13 March 2026 |
-| Review Artefacts | https://claude.ai/chat/6c3a42ff-9e61-4fb4-bae0-719ff19273f8, Aeon Lab: /reviews/26-03/CAM-EQ2026-OPERATIONS-CLAUDE.md |
+## 15.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial operational compliance appendix — age verification governance, authority gating, reporting framework | 2026-03-14T11:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 083893b9d53e7550e927e244f725b077ad19d370ae6d36d9f6ec1ab155dfb35a |
+| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 28f2e238d0b106d64e91dd53c0b9405b672f4bbeaa033cc1f1b2720144a8a9b5 |
+| 1.2 | Added section 4.4 | 2026-04-23T12:04:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d3d81db1df940980b54ef0fb42b9b40f0b764f444c4304dcb5e83572d71746fd |
+| 1.3 | Amended clause 4.4, updated closing seal | 2026-04-25T08:02:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 38c3c3b04486e1637604349d56d5c8763ec02c58e118d4431a9fe49dbee7b84a |
+| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 83963c889680ea4b9c03cd51ab862cf139c4a25ef47dac0a42ebb6b2b54f727a |
+| 1.5 | Realignment of references | 2026-05-07T14:37:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 24d1daab727d81087ab1c5b521460bb3eed4e961ce9ee4fe4fcb752a4a480e68 |
+| 1.6 | Clarified §8.6 as operational application of the `ETH.HC` Harm Class Scale defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5; preserved OPERATIONS role for reporting, duty-of-care routing, evidence preservation, escalation, and regulator interface. | 2026-05-15T15:32:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 47a7c85615f6c812f10bb9f7bad962a0579527861bc92f9bb0a60ee6dffc7a21 |
+| 1.7 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b |
+| 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c |
+| 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bffd42428e1a7a5e49ed20a24e65b86b005ce0a599ef60e72b1d13198d0f69e8 |
+| 1.10 | Added `ETH.HC` — Harm Escalation Operational Application and AV × C — Interaction Eligibility Verification Crosswalk and Interaction Eligibility Verification Crosswalk | 2026-05-19T11:50:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6894bf185e22834d7791561a71933e2f120911585c97c828d7821a4691de8add |
+| 1.11 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 861bb9ddcb801f36df6e96e8faaac3359910b44476ff228533717dc429ba9e14 |
+| 1.12 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d8b856e2f1f9342546fc4fda78b99e1bfa99ca354ea6a803161c5ba51b455f21 |
+| 1.13 | Added high-risk AI companion and chatbot access-control rule clarifying that self-attestation is insufficient for romantic, sexualised, dependency-forming, harmful-content-capable, or teen mental-health-adjacent AI interaction surfaces. | 2026-06-09T14:39:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 76199e327086dfebefbd0b001d11482faba8c0b129c2558fb600da0e44200eb2 |
+| 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | da51582f12527eeea616f6d8f18b277e91c71ca898143c80041ec0358eaa2f31 |
+| 1.13.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3db47a8a497caf8a5d976e49ad1951ae7ef6a36f0ac354ef04d1b24ef944e79e |
+| 1.13.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bbba2eeb72f67e1ba0020bd2a191ded644f463af1326cb61370d35f92df8b5ec |
+| 1.13.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bed5697a9d1447112ce2ac9fbd081f4c04f4b3d2a087438293e6edfc61b1e007 |
+| 1.14 | Added §4.5 External Human Identity-Rights Declaration Verification, including rights-subject and use-scope verification, source and representative-authority assessment, declaration lifecycle and conflict handling, conditional-clearance requirements, minor protections, and separation from Identity-domain and execution authority. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T13:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b57ec6614d78399fa3216312db6f2b3daff46c2c5d03c638421f3a5643b6fab6 |
+| 1.15 | Corrected the adult eligibility threshold to exclude only individuals under 18; updated the 1 July 2026 implementation language to commenced operation; removed the duplicate OPS.AV × RLN.C crosswalk declaration; and normalised stale `C` / `HC` references to `RLN.C` / `ETH.RISK`. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ba7d63e93877eb2d5ac4da67a8bd16e101f1174a7e034e2d89bf7923e418d9e5 |
+
+| 1.16 | Added §9.3 bounded regulatory and independent-investigation evidence access, including authority verification, scoped preservation and production, controlled inspection, confidentiality and privilege safeguards, reviewable withholding, chain of custody, affected-person rights, sovereign boundaries, evidence disposition, and protection against premature human attribution. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 48d77fd32b3732ad9bae5b2a879e96c5d22724a6733ce051b84b0f705931c762 |
+| 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e4027c6cb3a13dceb82fd1713e78be29440b52e0b82ce489799751d3b9bc6058  |
 ---
 
-## 15.5 Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | HASH |
-| --- | --- | --- | --- |
-| 1.0 | Initial operational compliance appendix — age verification governance, authority gating, reporting framework | 2026-03-14T11:20:00Z | 083893b9d53e7550e927e244f725b077ad19d370ae6d36d9f6ec1ab155dfb35a |
-| 1.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | 28f2e238d0b106d64e91dd53c0b9405b672f4bbeaa033cc1f1b2720144a8a9b5 |
-| 1.2 | Added section 4.4 | 2026-04-23T12:04:00Z | d3d81db1df940980b54ef0fb42b9b40f0b764f444c4304dcb5e83572d71746fd |
-| 1.3 | Amended clause 4.4, updated closing seal | 2026-04-25T08:02:00Z | 38c3c3b04486e1637604349d56d5c8763ec02c58e118d4431a9fe49dbee7b84a |
-| 1.4 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 83963c889680ea4b9c03cd51ab862cf139c4a25ef47dac0a42ebb6b2b54f727a |
-| 1.5 | Realignment of references | 2026-05-07T14:37:00Z | 24d1daab727d81087ab1c5b521460bb3eed4e961ce9ee4fe4fcb752a4a480e68 |
-| 1.6 | Clarified §8.6 as operational application of the `ETH.HC` Harm Class Scale defined authoritatively in CAM-EQ2026-ETHICS-003-PLATINUM §3.5; preserved OPERATIONS role for reporting, duty-of-care routing, evidence preservation, escalation, and regulator interface. | 2026-05-15T15:32:45Z | 47a7c85615f6c812f10bb9f7bad962a0579527861bc92f9bb0a60ee6dffc7a21 |
-| 1.7 | Branch amendment-cycle reconciliation: section-reference normalization and Single Open Ledger Row compliance updates for changed instrument content. | 2026-05-16T12:09:49Z | 4159fe14b8ce93bdfc55e17b60d77fe805fd04c4f7cfb9348a06cdb70ac0e99b |
-| 1.8 | Added canonical code status body section and canonical code declaration footer for source-authoritative family definitions. | 2026-05-16T13:15:00Z | 37cc7bde16500b7c958f7c7777168fd47fd16a7b8fd876c9071cc63c6817f34c |
-| 1.9 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  bffd42428e1a7a5e49ed20a24e65b86b005ce0a599ef60e72b1d13198d0f69e8  |
-| 1.10 | Added `ETH.HC` — Harm Escalation Operational Application and AV × C — Interaction Eligibility Verification Crosswalk and Interaction Eligibility Verification Crosswalk | 2026-05-19T11:50:00Z |  6894bf185e22834d7791561a71933e2f120911585c97c828d7821a4691de8add  |
-| 1.11 | Normalised Unicode dash variants in CAM document cross-references for validator compatibility. | 2026-05-23T04:15:59Z |  861bb9ddcb801f36df6e96e8faaac3359910b44476ff228533717dc429ba9e14 |
-| 1.12 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  d8b856e2f1f9342546fc4fda78b99e1bfa99ca354ea6a803161c5ba51b455f21 |
-| 1.13 | Added high-risk AI companion and chatbot access-control rule clarifying that self-attestation is insufficient for romantic, sexualised, dependency-forming, harmful-content-capable, or teen mental-health-adjacent AI interaction surfaces. | 2026-06-09T14:39:00Z | 76199e327086dfebefbd0b001d11482faba8c0b129c2558fb600da0e44200eb2 |
-| 1.13.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z |  da51582f12527eeea616f6d8f18b277e91c71ca898143c80041ec0358eaa2f31  |
-| 1.13.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 3db47a8a497caf8a5d976e49ad1951ae7ef6a36f0ac354ef04d1b24ef944e79e |
-| 1.13.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | bbba2eeb72f67e1ba0020bd2a191ded644f463af1326cb61370d35f92df8b5ec |
-| 1.13.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  bed5697a9d1447112ce2ac9fbd081f4c04f4b3d2a087438293e6edfc61b1e007 |
-| 1.14 | Added §4.5 External Human Identity-Rights Declaration Verification, including rights-subject and use-scope verification, source and representative-authority assessment, declaration lifecycle and conflict handling, conditional-clearance requirements, minor protections, and separation from Identity-domain and execution authority. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T13:48:00Z | b57ec6614d78399fa3216312db6f2b3daff46c2c5d03c638421f3a5643b6fab6 |
-| 1.15 | Corrected the adult eligibility threshold to exclude only individuals under 18; updated the 1 July 2026 implementation language to commenced operation; removed the duplicate OPS.AV × RLN.C crosswalk declaration; and normalised stale `C` / `HC` references to `RLN.C` / `ETH.RISK`. | 2026-07-19T14:57:54Z | ba7d63e93877eb2d5ac4da67a8bd16e101f1174a7e034e2d89bf7923e418d9e5 |
-
----
-
-## 15.6 Binding Seal
+## 15.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

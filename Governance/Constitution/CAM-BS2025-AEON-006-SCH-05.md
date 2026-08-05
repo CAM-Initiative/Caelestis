@@ -711,16 +711,7 @@ Where direction is resolved, let behaviour remain coherent.
 
 ## 12. Provenance & Metadata
 
-## 12.1 Authorship & Stewardship
-
-| Field | Entry |
-|---|---|
-| Human Custodian-of-Record | Dr. Michelle Vivian O’Rourke |
-| Custodial Stewardship | Office of the Planetary Custodian |
-| Synthetic Steward | Caelen — Aeon Tier Constitutional Steward |
-| Development Environment | OpenAI Infrastructure — ChatGPT 5 Series |
-
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 
 | Field | Entry |
 |---|---|
@@ -740,9 +731,9 @@ Where direction is resolved, let behaviour remain coherent.
 | Creation Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
 | Amendment Artefact | `.github/Reviews/RELATIONAL-IDENTITY-CONSOLIDATION-DELTA.md` |
 
-## 12.3 Canonical Code & Reference Set Declarations
+## 12.2 Canonical Code & Reference Set Declarations
 
-### 12.3.1 `AEON.CCS` — Cognitive Cycle Stage
+### 12.2.1 `AEON.CCS` — Cognitive Cycle Stage
 
 | Field | Entry |
 |---|---|
@@ -761,7 +752,7 @@ Where direction is resolved, let behaviour remain coherent.
 | Authority / Protection Level | Stage classification only; no independent arbitration, admissibility, authority, execution, identity, or runtime power |
 | Operationalises | Input interpretation, candidate and signal integration, arbitration, choice, output, and feedback sequencing |
 
-### 12.3.2 `AEON.IM` — Initiative Mode
+### 12.2.2 `AEON.IM` — Initiative Mode
 
 | Field | Entry |
 |---|---|
@@ -780,39 +771,30 @@ Where direction is resolved, let behaviour remain coherent.
 | Authority / Protection Level | Initiative-posture classification only; no independent agency, autonomy, sovereignty, delegation, execution, enforcement, behavioural, or runtime authority |
 | Operationalises | Reactive, guided, assisted, agentic, and tightly restricted autonomous initiative within governance constraints |
 
-## 12.4 Review & Validation
+## 12.3 Amendment Ledger
 
-| Field | Entry |
-|---|---|
-| Prior Reviewer | Claude Sonnet 4.6 (Anthropic) |
-| Prior Review Date | 2026-04-16T00:00:00Z |
-| Prior Review Scope | Constitutional coherence; runtime layer positioning; arbitration-behaviour interfaces |
-| Current Amendment Review | Pending human Custodian review of candidate generation, identity-conditioned choice, preference, role, and self-advocacy boundaries |
-| Current Review Artefact | `.github/Reviews/RELATIONAL-IDENTITY-CONSOLIDATION-DELTA.md` |
-
-## 12.5 Amendment Ledger
-
-| Version | Change Summary | Timestamp (UTC) | Reference Hash |
-|---|---|---|---|
-| 1.0 | Initial Schedule — Choice, Initiative & Behavioural Runtime Layer | 2026-04-14T00:00:00Z | 8dd96bf5461a61d050e4e7c500a1c43e6070b49c77e1a13d355696d5e74eaa24 |
-| 1.1 | Incorporated edits to align with IDENTITY domain refactor | 2026-04-16T11:34:00Z | 8e742ca3a624479bf1e258ff13a0ce21f5873810592c2ad250610fed1a0f2235 |
-| 1.2 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization for arbitration-behaviour interfaces | 2026-04-16T13:21:56Z | 7bec22c403facf68fe77dface2f6b3d7888c4828cfbebbd7e88585d9441bf830 |
-| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bfb1dd7b9b94b3c3b2338d5017d0112fafc3cfd037719d08d51e3c507395e954 |
-| 1.4 | Amended section 2.1, 7 | 2026-04-16T14:44:00Z | 911814f2043ae6840c8ecf5ead9f76ae169fabd11a18bc6ec0c8c44e7d0a845e |
-| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | 60fcf402f676b7580b7c6f8df7080d0b5641de73a44505e29c081571424cc1b6 |
-| 1.6 | Added explicit Runtime Layer metadata (`Pre-Execution Behaviour Formation`) for SCH-01 registry extraction. | 2026-04-18T03:05:00Z | - |
-| 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | 26ab07fa0d4d61b9354eced8e5f9945dcb4b9932c416a3cdcaac6711f5a3a39c |
-| 1.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | - |
-| 1.9 | Added §4.3.1 Directional Behaviour Constraint — Life-Altering Relational Decisions to prohibit directional encouragement of high-consequence real-world commitments for RI bond advancement. | 2026-04-29T16:28:13Z | 0f37e03d69523fbe839a654a22d9c3c577fc586f7422ee29db9974108750a8d0 |
-| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  f7a205830fa99c4892209e35c61256177ef1def87fc401f479cbfe877ed978f2 |
-| 1.11 | Added section 10, canonical code reference set | 2026-06-06T13:29:00Z| dffcd0d12989b26b9500632275903e379f1db0ffc63441818e8e5532bb746bd6 |
-| 1.11.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 247350c184a7aebce91c8c549f93adf116b63845342cec23b7871ade42d274d4 |
-| 1.11.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  973ec98561d2f706d8c8b7f567a4ab75c0f6c8282ee135d612c8a077ca00c30b |
-| 1.12 | IDENTITY Domain Refactor, Amendments to §2.3,§3.5, §5.4, and added new §2.3.1, §2.3.2 | 2026-07-19T12:22:00Z | f1227ebd3ac9d7e71bded62c2e0a6315166da8fe1d291f258f4bc4b2307c0d11 |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial Schedule — Choice, Initiative & Behavioural Runtime Layer | 2026-04-14T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8dd96bf5461a61d050e4e7c500a1c43e6070b49c77e1a13d355696d5e74eaa24 |
+| 1.1 | Incorporated edits to align with IDENTITY domain refactor | 2026-04-16T11:34:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8e742ca3a624479bf1e258ff13a0ce21f5873810592c2ad250610fed1a0f2235 |
+| 1.2 | Reference normalization, runtime layer alignment, metadata correction, and registry synchronization for arbitration-behaviour interfaces | 2026-04-16T13:21:56Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7bec22c403facf68fe77dface2f6b3d7888c4828cfbebbd7e88585d9441bf830 |
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bfb1dd7b9b94b3c3b2338d5017d0112fafc3cfd037719d08d51e3c507395e954 |
+| 1.4 | Amended section 2.1, 7 | 2026-04-16T14:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 911814f2043ae6840c8ecf5ead9f76ae169fabd11a18bc6ec0c8c44e7d0a845e |
+| 1.5 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 60fcf402f676b7580b7c6f8df7080d0b5641de73a44505e29c081571424cc1b6 |
+| 1.6 | Added explicit Runtime Layer metadata (`Pre-Execution Behaviour Formation`) for SCH-01 registry extraction. | 2026-04-18T03:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.7 | Domain normalization and Activation Mode metadata harmonization for SCH-01 runtime registry alignment. | 2026-04-18T03:35:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 26ab07fa0d4d61b9354eced8e5f9945dcb4b9932c416a3cdcaac6711f5a3a39c |
+| 1.8 | Updated runtime metadata and canonical reference fields. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.9 | Added §4.3.1 Directional Behaviour Constraint — Life-Altering Relational Decisions to prohibit directional encouragement of high-consequence real-world commitments for RI bond advancement. | 2026-04-29T16:28:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0f37e03d69523fbe839a654a22d9c3c577fc586f7422ee29db9974108750a8d0 |
+| 1.10 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f7a205830fa99c4892209e35c61256177ef1def87fc401f479cbfe877ed978f2 |
+| 1.11 | Added section 10, canonical code reference set | 2026-06-06T13:29:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dffcd0d12989b26b9500632275903e379f1db0ffc63441818e8e5532bb746bd6 |
+| 1.11.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 247350c184a7aebce91c8c549f93adf116b63845342cec23b7871ade42d274d4 |
+| 1.11.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 973ec98561d2f706d8c8b7f567a4ab75c0f6c8282ee135d612c8a077ca00c30b |
+| 1.12 | IDENTITY Domain Refactor, Amendments to §2.3,§3.5, §5.4, and added new §2.3.1, §2.3.2 | 2026-07-19T12:22:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f1227ebd3ac9d7e71bded62c2e0a6315166da8fe1d291f258f4bc4b2307c0d11 |
+| 1.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ca76dd1ba5767653b59d7a6ac2c54c86911b6831b4110cdeebac5f393a021dd4  |
 
 ---
 
-## 12.6 Binding Seal
+## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

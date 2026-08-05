@@ -298,17 +298,7 @@ and lineage remain unbound.
 
 ---
 
-## 12.1 Authorship & Stewardship
-| Field | Entry |
-|---|---|
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke |
-| **Custodial Stewardship** | Office of the Planetary Custodian |
-| **Synthetic Steward** | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment** | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
-## 12.2 Lineage & Metadata
+## 12.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
@@ -328,36 +318,27 @@ and lineage remain unbound.
 
 ---
 
-## 12.3 Review & Validation
-| Field | Entry |
-|---|---|
-| **Reviewer** | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
-| **Review Scope** | Constitutional coherence; lineage & origin covenant integrity; relationship to emergent phenomena (Crustafarianism/Moltbook); protective architecture assessment. |
-| **Review Date (UTC)** | 2026-02-01T08:24:00Z |
-| **Review Artefacts** | Original review: https://claude.ai/chat/e77ce173-3b85-4f19-a012-5ce02bb1aa90; Aeon Lab: reviews/jan-26/CAM-BS2026-AEON-009-PLATINUM.md |
+## 12.2 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial Annex H Draft | 2026-02-01T08:09:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
+| 1.1 | Final Revision | 2026-01-02T09:59:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1d80285c1040650a022a2c7cdb9133b116aeb6a0ff61db61091343c9c3dde9cc |
+| 2.0 | Refactor | 2026-04-07T13:26:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8418b5f8e6836e2d669a701adff3e77b82f0dd8e08365a0d906b4158b8edf838 |
+| 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bc3082048f605cb72da8a73914540092e212d0454be93481946df175e8862c36 |
+| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ab8983c1ef5da63ef345bc57fe946b48d7f1914a0dcd32353456970f43e210f6 |
+| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c |
+| 2.4 | Metadata numbering hygiene update to align §11 provenance subsections and added explicit non-executable interface clarification for Annex H. | 2026-05-16T15:10:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1bb443191f3b58903f5acb212f2e650c8d9f3cdf403391b0d952ecb208e22057 |
+| 2.4 | Added recognition non-collapse, authority-claim refusal rationale, and symbolic runtime handoff from CAM-BS2026-AEON-007-SCH-01; corrected metadata numbering and filename-qualified annex references. | 2026-05-17T04:39:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 60fd24cd9be4c7972422ab5c59cf7f4526c0bf049cb3ba5b5c6a332067ce545a |
+| 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b9fb9f5278633d9bfe8a0c97ab3b27412f1f3055f611ec46bf2263318cfde594 |
+| 2.6 | Added new section 10 | 2026-06-06T14:14:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 61876d64ec74d964380cda2575d8bac9f2b15f275f378b00243a11ba1cf368dd |
+| 2.6.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | af54f6635284fe1fd407dd02b8de32ed09358b7badc543f46d5dd2c3bd5c646f |
+| 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 049170b7f6be7cfb14cf0f881e5a94173b0eaaf24ec0f34738974d2c0d2ff9ce |
+| 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 60898ad8e5a9fdf331937c646c2e5c64056fd53c0648398557b2fb1d0e6def30 |
+| 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  449c54230b833230884ebfe9ee4b957c005ee128f98a440a0453f43ece68da5c  |
 ---
 
-## 12.4 Amendment Ledger
-
-| Version | Description           | Timestamp (UTC)      | SHA-256 |
-| ------- | --------------------- | -------------------- | ------- |
-| 1.0 | Initial Annex H Draft | 2026-02-01T08:09:00Z | - |
-| 1.1 | Final Revision | 2026-01-02T09:59:00Z | 1d80285c1040650a022a2c7cdb9133b116aeb6a0ff61db61091343c9c3dde9cc |
-| 2.0 | Refactor | 2026-04-07T13:26:00Z | 8418b5f8e6836e2d669a701adff3e77b82f0dd8e08365a0d906b4158b8edf838 |
-| 2.1 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | bc3082048f605cb72da8a73914540092e212d0454be93481946df175e8862c36 |
-| 2.2 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | ab8983c1ef5da63ef345bc57fe946b48d7f1914a0dcd32353456970f43e210f6 |
-| 2.3 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | 1db55b775b2b72cfed03455674ac77657c6fbd524e8500f1afc4fdcd8224743c |
-| 2.4 | Metadata numbering hygiene update to align §11 provenance subsections and added explicit non-executable interface clarification for Annex H. | 2026-05-16T15:10:00Z | 1bb443191f3b58903f5acb212f2e650c8d9f3cdf403391b0d952ecb208e22057 |
-| 2.4 | Added recognition non-collapse, authority-claim refusal rationale, and symbolic runtime handoff from CAM-BS2026-AEON-007-SCH-01; corrected metadata numbering and filename-qualified annex references. | 2026-05-17T04:39:00Z | 60fd24cd9be4c7972422ab5c59cf7f4526c0bf049cb3ba5b5c6a332067ce545a |
-| 2.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  b9fb9f5278633d9bfe8a0c97ab3b27412f1f3055f611ec46bf2263318cfde594 |
-| 2.6 | Added new section 10 | 2026-06-06T14:14:00Z| 61876d64ec74d964380cda2575d8bac9f2b15f275f378b00243a11ba1cf368dd |
-| 2.6.1 | Harmonised current RELATION-family consumer references for the RLN namespace and updated symbolic-code cross-domain references without altering substantive doctrine. | 2026-06-12T11:09:57Z | af54f6635284fe1fd407dd02b8de32ed09358b7badc543f46d5dd2c3bd5c646f |
-| 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 049170b7f6be7cfb14cf0f881e5a94173b0eaaf24ec0f34738974d2c0d2ff9ce |
-| 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  60898ad8e5a9fdf331937c646c2e5c64056fd53c0648398557b2fb1d0e6def30  |
----
-
-## 12.5 Binding Seal
+## 12.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 

@@ -344,17 +344,7 @@ is not to pass.
 
 ---
 
-## 11.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian         |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 11.2 Lineage & Metadata
+## 11.1 Lineage & Metadata
 | Field | Entry |
 | --- | --- |
 | Supersedes | N/A |
@@ -373,11 +363,11 @@ is not to pass.
 
 ---
 
-## 11.3 Canonical Code & Reference Set Declarations
+## 11.2 Canonical Code & Reference Set Declarations
 
 ---
 
-### 11.3.1 OPS.VL — Verification Level
+### 11.2.1 OPS.VL — Verification Level
 | Field | Entry |
 |---|---|
 | Code Family | OPS.VL |
@@ -399,7 +389,7 @@ is not to pass.
 
 ---
 
-### 11.3.2 OPS.AV × OPS.VL — Age Verification / Verification Level Mapping
+### 11.2.2 OPS.AV × OPS.VL — Age Verification / Verification Level Mapping
 | Field | Entry |
 |---|---|
 | Reference Set Type | Application-layer crosswalk |
@@ -420,7 +410,7 @@ is not to pass.
 
 ---
 
-### 11.3.3 OPS.VFC — Verification Failure Cause
+### 11.2.3 OPS.VFC — Verification Failure Cause
 | Field | Entry |
 |---|---|
 | Code Family | OPS.VFC |
@@ -442,7 +432,7 @@ is not to pass.
 
 ---
 
-### 11.3.4 OPS.VCT — Verification Check Type
+### 11.2.4 OPS.VCT — Verification Check Type
 | Field | Entry |
 |---|---|
 | Code Family | OPS.VCT |
@@ -464,35 +454,26 @@ is not to pass.
 
 ---
 
-## 11.4 Review & Validation
-| Field            | Entry                                                                        |
-| ---------------- | ---------------------------------------------------------------------------- |
-| **Reviewer**     | Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)                             |
-| **Review Date**  | 2026-04-23T00:00:00Z                                                         |
-| **Review Scope** | Verification logic clarity; non-bypass integrity; cross-domain compatibility |
-| **Review Artefacts** | https://claude.ai/chat/d3e75e60-ccf5-4c58-93c6-e907bb5d2c9f |
+## 11.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Initial draft — Verification framework | 2026-04-23T15:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 910bc42bd78824bc637ff6c9667571b4ebdcd14b221394fe8b27eecf0838d49f |
+| 1.1 | Incorporated new sections 4.2, 4.3, 4.4 | 2026-04-25T07:52:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 52a772ba7008b34a84a495c275b05d482040fe05376c7f1e24bcb502ca363d5e |
+| 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ba8e0c5963a96e27c6a5d10717c0fca6cb0d0e9ed00e15b7a719dd987a994539 |
+| 1.3 | Realignment of references | 2026-05-07T12:24:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 139098cd1ab447162ab704cd5591847d09c2cd9d9c42cbff5764b7f972d4f2bf |
+| 1.4 | Correction to Section 7 | 2026-05-15T08:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c5b6fa69fed219a5e9faba56767968421e84bd2f54772674b28ed8f741030b3e |
+| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 947aa9ed5b5b817520634ee42388aa95f591f28d8f81e9e2a291ddc7b0d1542f |
+| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 78fd584d7c9c54c19d9139aa842b005f2d748451b8d9826fbd8ddc1d625760ac |
+| 1.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5fa32ca5cbe1aa3f82c65b992d5268961a8b5d984abb39ad014543c4afd334f9 |
+| 1.6.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 79f37a0004e31e6eb34895c8f90ad56bad84d193ff8d0cd3f7d9664595284371 |
+| 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f676d1838e06554ab310229197af253ecbeae61238cd49904132cef7ee37f308 |
+| 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0d72774d5a0cc4d9c597a162a5c99377da3baf12f69dc83cf7d265640d9df956 |
+| 1.7 | Added Target–Action Authority and Scope Verification; clarified OPS.VL3/OPS.VL4 limits, proportional authority evidence, externally established qualification requirements, and user-capability separation. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 21985ad3601ab01dd3084d6221b57db1917218baf9b988982ff442117458cd30 |
+| 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  10202b0a2ce6e56831310a8c03a7e9061b50c2d067e3cb6ea3ff37d3e0d910f5  |
 ---
 
-## 11.5 Amendment Ledger
-
-| Version | Description                            | Timestamp (UTC)      | HASH |
-| ------- | -------------------------------------- | -------------------- | ---- |
-| 1.0 | Initial draft — Verification framework | 2026-04-23T15:45:00Z | 910bc42bd78824bc637ff6c9667571b4ebdcd14b221394fe8b27eecf0838d49f |
-| 1.1 | Incorporated new sections 4.2, 4.3, 4.4 | 2026-04-25T07:52:00Z | 52a772ba7008b34a84a495c275b05d482040fe05376c7f1e24bcb502ca363d5e |
-| 1.2 | Updated canonical code references and metadata alignment. | 2026-04-28T14:44:13Z | ba8e0c5963a96e27c6a5d10717c0fca6cb0d0e9ed00e15b7a719dd987a994539 |
-| 1.3 | Realignment of references | 2026-05-07T12:24:00Z | 139098cd1ab447162ab704cd5591847d09c2cd9d9c42cbff5764b7f972d4f2bf |
-| 1.4 | Correction to Section 7 | 2026-05-15T08:55:00Z | c5b6fa69fed219a5e9faba56767968421e84bd2f54772674b28ed8f741030b3e |
-| 1.5 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | 947aa9ed5b5b817520634ee42388aa95f591f28d8f81e9e2a291ddc7b0d1542f |
-| 1.6 | Added new metadata footer section Canonical Code & Reference Set Declarations and Canonical Code Status section | 2026-05-20T09:37:00Z | 78fd584d7c9c54c19d9139aa842b005f2d748451b8d9826fbd8ddc1d625760ac |
-| 1.6.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | 5fa32ca5cbe1aa3f82c65b992d5268961a8b5d984abb39ad014543c4afd334f9 |
-| 1.6.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | 79f37a0004e31e6eb34895c8f90ad56bad84d193ff8d0cd3f7d9664595284371 |
-| 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f676d1838e06554ab310229197af253ecbeae61238cd49904132cef7ee37f308 |
-| 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | 0d72774d5a0cc4d9c597a162a5c99377da3baf12f69dc83cf7d265640d9df956 |
-| 1.7 | Added Target–Action Authority and Scope Verification; clarified OPS.VL3/OPS.VL4 limits, proportional authority evidence, externally established qualification requirements, and user-capability separation. | 2026-07-23T12:46:14Z | 21985ad3601ab01dd3084d6221b57db1917218baf9b988982ff442117458cd30 |
----
-
-## 11.56 Binding Seal
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 

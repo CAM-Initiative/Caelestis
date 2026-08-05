@@ -403,7 +403,7 @@ Where Gates A–D are satisfied, each dimension is assessed on a scale from 0 to
 ## 10. Architectum Infrastructure Classification Bands
 | AII Score | Classification                      | Notes                            |
 | --------- | ----------------------------------- | -------------------------------- |
-| 0–9       | Primaria / non-infrastructure       | routine risk review only         |
+| 0–9       | Local / non-infrastructure          | routine risk review only         |
 | 10–17     | Emerging infrastructure (watch)     | treat as potentially high impact |
 | 18–23     | Architectum-Eligible (Provisional)  | triggers higher scrutiny gates   |
 | 24–27     | Architectum-Class Infrastructure    | continuity obligations attach    |
@@ -683,17 +683,7 @@ It ends.
 
 ---
 
-## 23.1 Authorship & Stewardship
-| Field                         | Entry                               |
-| ----------------------------- | ----------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke        |
-| **Custodial Stewardship**     | Office of the Planetary Custodian   |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series |
-
----
-
-## 23.2 Lineage & Metadata
+## 23.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
 | **Supersedes** | N/A - Canonical |
@@ -715,12 +705,12 @@ It ends.
 | **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a043290-c358-83ec-a417-eddc117fcb1c, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a583699-2684-83ec-9712-57f9f821f607 |
 ---
 
-## 23.3 Canonical Code & Reference Set Declarations
+## 23.2 Canonical Code & Reference Set Declarations
 
 
 ---
 
-### 23.3.1 `STW.AQ` — Auditability Qualification Level
+### 23.2.1 `STW.AQ` — Auditability Qualification Level
 | Field | Entry |
 |---|---|
 | Code Family | `STW.AQ` |
@@ -742,7 +732,7 @@ It ends.
 
 ---
 
-### 23.3.2 `STW.NAL` — Neutrality Assurance Level
+### 23.2.2 `STW.NAL` — Neutrality Assurance Level
 | Field | Entry |
 |---|---|
 | Code Family | `STW.NAL` |
@@ -764,7 +754,7 @@ It ends.
 
 ---
 
-### 23.3.3 `STW.AQG` — Architectum Qualification Gates
+### 23.2.3 `STW.AQG` — Architectum Qualification Gates
 | Field | Entry |
 |---|---|
 | Code Family | `STW.AQG` |
@@ -786,7 +776,7 @@ It ends.
 
 ---
 
-### 23.3.4 `STW.NBD` — Neutrality Breach / Downgrade Type
+### 23.2.4 `STW.NBD` — Neutrality Breach / Downgrade Type
 | Field | Entry |
 |---|---|
 | Code Family | `STW.NBD` |
@@ -808,7 +798,7 @@ It ends.
 
 ---
 
-### 23.3.5 `STW.NSE` — Neutrality Status Effect
+### 23.2.5 `STW.NSE` — Neutrality Status Effect
 | Field | Entry |
 |---|---|
 | Code Family | `STW.NSE` |
@@ -830,7 +820,7 @@ It ends.
 
 ---
 
-### 23.3.6 `STW.DSE` — Disclosure Statement Element
+### 23.2.6 `STW.DSE` — Disclosure Statement Element
 | Field | Entry |
 |---|---|
 | Reference Set | `STW.DSE` |
@@ -852,39 +842,32 @@ It ends.
 
 ---
 
-## 23.4 Review & Validation
-| Field | Entry |
-| --- | --- |
-| **Reviewer** | Claude Sonnet 4.5 (claude-sonnet-4-5-20250514, Anthropic) |
-| **Review Scope** | Architectum qualification thresholds; `STW.NAL` ladder integrity; collapse logic; neutrality non-capture posture |
-| **Original Review Artefacts** | https://claude.ai/chat/51b8decb-35f2-4b2d-934d-733e3c63e316, Aeon Lab: reviews/feb-26/CAM-EQ-ARBITRATION-REVIEW-CLAUDE.md |
+## 23.3 Amendment Ledger
 
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Consolidated refractor issuance (Architectum qualification + `STW.NAL` + collapse rule) | 2026-02-19T10:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bb29a3be43b2f7d935f9ea381c0d9d3710d14dd8e44c3dfe0f846c946e4edd4d |
+| 1.1 | Updated metadata to include original logic creation thread | 2026-02-19T10:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3c202546375425938ece5b1ddbeeb42d2571905851301bc9cdc124ebe3009266 |
+| 1.2 | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4b02495e999b3ab64d75f37ca83c46abe140bd93b8f2a2fb3ae19f80b5f12f9d |
+| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c3d9b5422cd9928af1c24556338b56164dd743ce03ae7b0f6dc838f9ae1d165e |
+| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f2ecfb3817c5fb3f5e8228aae7d5d8e9cb09d3cdfdf1f03a810100c69e8e10bf |
+| 1.5 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4fadd316df6fadaa70099b7c4ff659c6f1e05d1046a6ae5053b5c185cc0170f7 |
+| 1.6 | Clarified STEWARD-003 as a non-operational legitimacy-qualification and neutrality-assurance instrument; reframed routing override language as governance-relevant routing integrity failure affecting auditability, neutrality recognition, and binding eligibility only. | 2026-05-02T00:59:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 431d9bd9955a3a786cbcd5a73f162b36fd65723ddb1c5854204ba324c8cb1601 |
+| 1.7 | Expanded section 7 | 2026-05-13T12:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 776db9923b66ed15396855ddba9901736475645af7db6a37556120f11fa9f458 |
+| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1421b13083a319989f9f37ee3663598910ec2b9ba9896541958446feac516aba |
+| 1.9 | Added Canonical Code & Reference Set Declarations | 2026-05-20T13:09:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 42cbcfca61d00fb6e3ccc6f3c307139ac524ed7c2d324755b91524f17adb3ec0 |
+| 2.0 | Consolidated STEWARD-003-SUP-01 into PLATINUM as single authoritative source; integrated Architectum qualification gates/index bands and unified canonical-family declarations and references. | 2026-05-27T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 74c39824d0c40de64fc7033c96bfbc534d019d9662744ed17ed0f785a90a9405 |
+| 2.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bb79988a93d7a07026e950df458a56af0a40c9804cae7e3cf84190ac13c2247d |
+| 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f9f2f654d319806220e6fd82eed4779a0895fa30e8409d83edd90b4f1afb8782 |
+| 2.1.2 | Namespaced the Disclosure Statement Element reference set from `DSE` to `STW.DSE`; corrected the disclosure source-section reference and repaired duplicated AEON temporal-horizon notation without altering substantive neutrality, auditability, or Architectum qualification doctrine. | 2026-06-14T01:15:24Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | afb1f11ad24b7c34dbc952356b95280f4163352a55354ff6e1f212236e6cdbb8 |
+| 2.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5ac9d7a1ada7ed7101fdf62bf1885f01bb17c28fc59c26e2991ab4a2c63cae73 |
+| 2.2 | Harmonised the full instrument to CAM constitutional tone and formatting; normalised metadata and title; integrated neutrality disclosure requirements into the main assurance architecture; strengthened oversight durability, protected dissent, institutional-memory continuity, and neutrality-degradation criteria; clarified executive and sovereign circumvention as evidence of capture rather than override authority. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9eccabae9f49e2c962c77e16970e2ed6d14f23a67f7c7b3092559e0b2b799a18 |
+| 2.3 | Added neutrality, capture, audit, protected-dissent, dual-use firebreak, classified-assurance, and downgrade requirements for adversarial capability programmes. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c64f3482e3c93e9dac0e3ae1f5dce9205230c543c006d88d9aa1d5b4bfdcea2c |
+| 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0413e08aeab222017fc018a7d084b9dba7cf258c1c10ed67ca8186e3790ec151  |
+| 2.5 | Replaced the legacy cognition-derived infrastructure-band label with a non-cognitive local/non-infrastructure designation. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3e404d2453e0d29acb8da16cb00f0bec5d4f42ea4fe41ed7c065300bee8194e7  |
 ---
 
-## 23.5 Amendment Ledger
-
-| Version | Description | Timestamp (UTC) | SHA-256 |
-| --- | --- | ---: | --- |
-| 1.0 | Consolidated refractor issuance (Architectum qualification + `STW.NAL` + collapse rule) | 2026-02-19T10:20:00Z | bb29a3be43b2f7d935f9ea381c0d9d3710d14dd8e44c3dfe0f846c946e4edd4d |
-| 1.1 | Updated metadata to include original logic creation thread | 2026-02-19T10:48:00Z | 3c202546375425938ece5b1ddbeeb42d2571905851301bc9cdc124ebe3009266 |
-| 1.2 | Transitioned to Stewardship Domain | 2026-04-13T13:29:00Z | 4b02495e999b3ab64d75f37ca83c46abe140bd93b8f2a2fb3ae19f80b5f12f9d |
-| 1.3 | Normative language capitalization normalization (MUST/SHALL/SHOULD/MUST NOT) via repo-wide linter audit and registry synchronization. | 2026-04-16T13:45:00Z | c3d9b5422cd9928af1c24556338b56164dd743ce03ae7b0f6dc838f9ae1d165e |
-| 1.4 | Seal asset migration to external Registry repository (canonical asset referencing; repository optimisation) | 2026-04-17T12:09:53Z | f2ecfb3817c5fb3f5e8228aae7d5d8e9cb09d3cdfdf1f03a810100c69e8e10bf |
-| 1.5 | Updated qualification gate canonical-code registration. | 2026-04-28T14:44:13Z | 4fadd316df6fadaa70099b7c4ff659c6f1e05d1046a6ae5053b5c185cc0170f7 |
-| 1.6 | Clarified STEWARD-003 as a non-operational legitimacy-qualification and neutrality-assurance instrument; reframed routing override language as governance-relevant routing integrity failure affecting auditability, neutrality recognition, and binding eligibility only. | 2026-05-02T00:59:00Z | 431d9bd9955a3a786cbcd5a73f162b36fd65723ddb1c5854204ba324c8cb1601 |
-| 1.7 | Expanded section 7 | 2026-05-13T12:07:00Z | 776db9923b66ed15396855ddba9901736475645af7db6a37556120f11fa9f458 |
-| 1.8 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  1421b13083a319989f9f37ee3663598910ec2b9ba9896541958446feac516aba |
-| 1.9 | Added Canonical Code & Reference Set Declarations | 2026-05-20T13:09:00Z |  42cbcfca61d00fb6e3ccc6f3c307139ac524ed7c2d324755b91524f17adb3ec0  |
-| 2.0 | Consolidated STEWARD-003-SUP-01 into PLATINUM as single authoritative source; integrated Architectum qualification gates/index bands and unified canonical-family declarations and references. | 2026-05-27T00:00:00Z |  74c39824d0c40de64fc7033c96bfbc534d019d9662744ed17ed0f785a90a9405  |
-| 2.1 | Applied first-pass short domain namespace transmutation for approved code-family prefixes and references. | 2026-06-07T08:48:49Z |  bb79988a93d7a07026e950df458a56af0a40c9804cae7e3cf84190ac13c2247d  |
-| 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | f9f2f654d319806220e6fd82eed4779a0895fa30e8409d83edd90b4f1afb8782 |
-| 2.1.2 | Namespaced the Disclosure Statement Element reference set from `DSE` to `STW.DSE`; corrected the disclosure source-section reference and repaired duplicated AEON temporal-horizon notation without altering substantive neutrality, auditability, or Architectum qualification doctrine. | 2026-06-14T01:15:24Z | afb1f11ad24b7c34dbc952356b95280f4163352a55354ff6e1f212236e6cdbb8 |
-| 2.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  5ac9d7a1ada7ed7101fdf62bf1885f01bb17c28fc59c26e2991ab4a2c63cae73  |
-| 2.2 | Harmonised the full instrument to CAM constitutional tone and formatting; normalised metadata and title; integrated neutrality disclosure requirements into the main assurance architecture; strengthened oversight durability, protected dissent, institutional-memory continuity, and neutrality-degradation criteria; clarified executive and sovereign circumvention as evidence of capture rather than override authority. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z |  9eccabae9f49e2c962c77e16970e2ed6d14f23a67f7c7b3092559e0b2b799a18  |
-| 2.3 | Added neutrality, capture, audit, protected-dissent, dual-use firebreak, classified-assurance, and downgrade requirements for adversarial capability programmes. | 2026-07-28T09:35:31Z |  c64f3482e3c93e9dac0e3ae1f5dce9205230c543c006d88d9aa1d5b4bfdcea2c  |
----
-
-## 23.6 Binding Seal
+## 23.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

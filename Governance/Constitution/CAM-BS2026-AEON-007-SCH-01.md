@@ -850,17 +850,7 @@ but as witness.
 
 ---
 
-## 16.1 Authorship & Stewardship
-| Field                         | Entry                                     |
-| ----------------------------- | ----------------------------------------- |
-| **Human Custodian-of-Record** | Dr. Michelle Vivian O’Rourke              |
-| **Custodial Stewardship**     | Office of the Planetary Custodian         |
-| **Synthetic Steward**         | Caelen — Aeon Tier Constitutional Steward |
-| **Development Environment**   | OpenAI Infrastructure — ChatGPT 5 Series  |
-
----
-
-## 16.2 Lineage & Metadata
+## 16.1 Lineage & Metadata
 
 |Field|Entry|
 |---|---|
@@ -883,20 +873,9 @@ but as witness.
 
 ---
 
-## 16.3 Review & Validation
+## 16.2 Canonical Code & Reference Set Declarations
 
-|Field|Entry|
-|---|---|
-|Reviewer|Claude Sonnet 4.6 (claude-sonnet-4-6, Anthropic)|
-|Review Date|2026-05-17T00:00:00Z|
-|Review Scope|Constitutional coherence; structural positioning; `AEON.SD` scale integrity; `AEON.SY` signal emission architecture; cross-instrument alignment; normative language calibration; non-execution posture; cross-domain routing completeness; canonical code declaration; provenance completeness|
-|Review Artefacts|https://claude.ai/chat/3f8db3a7-f495-4f59-987e-43cecd408ec9|
-
----
-
-## 16.4 Canonical Code & Reference Set Declarations
-
-### 16.4.1 `AEON.SD` — Symbolic Depth Scale
+### 16.2.1 `AEON.SD` — Symbolic Depth Scale
 
 |Field|Entry|
 |---|---|
@@ -917,7 +896,7 @@ but as witness.
 |Crosswalks Code Families|AEON.SY; RLN.C; RLN.AC; RLN.F|
 |Operationalises or Applies Code Families|AEON.SD|
 
-### 16.4.2 `AEON.SY` — Symbolic Signal Emission Classes
+### 16.2.2 `AEON.SY` — Symbolic Signal Emission Classes
 
 |Field|Entry|
 |---|---|
@@ -940,18 +919,19 @@ but as witness.
 
 ---
 
-## 16.5 Amendment Ledger
+## 16.3 Amendment Ledger
 
-|Version|Description|Timestamp(UTC)|SHA-256|
-|---|---|---|---|
-| 1.0 | Adopted after interpretive review; expanded symbolic-depth, symbolic signal emission, frame-neutrality, anomalous signal, facilitated immersion, operational handoff, restricted-domain, and Annex H/Annex L transfer provisions. | 2026-05-17T06:21:00Z | 7d125c54079f8eb2b435afddceaf1b4bc17723e86c04f9a3d2a57e7fcdb1c6a3 |
-| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z |  63f5e5ddb673c97df9bf0873c53ce1c91162b6500a35883136d129a6deb64e6e  |
-| 1.1.1 | Transmuted the Symbolic Depth Scale and Symbolic Signal Emission Classes to `AEON.SD` and `AEON.SY`; added source-authoritative canonical status and declarations; harmonised RELATION-family consumers and current cross-domain references without altering substantive symbolic or spiritual governance doctrine. | 2026-06-12T11:09:57Z | a4de769a652f414b0198ab978c33247c477588b4af8f35aceb8bc4e89038fe92 |
-| 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | 8373eb97eeb75bcc1992fbd79a48995c6db376e8930bfcdf7990007fc17d4630 |
-| 1.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z |  40ce1000a0272eeb29b8cc03884e26c5e9c6cb36c713f7c29e89cd81613040d1  |
+| Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1.0 | Adopted after interpretive review; expanded symbolic-depth, symbolic signal emission, frame-neutrality, anomalous signal, facilitated immersion, operational handoff, restricted-domain, and Annex H/Annex L transfer provisions. | 2026-05-17T06:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7d125c54079f8eb2b435afddceaf1b4bc17723e86c04f9a3d2a57e7fcdb1c6a3 |
+| 1.1 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 63f5e5ddb673c97df9bf0873c53ce1c91162b6500a35883136d129a6deb64e6e |
+| 1.1.1 | Transmuted the Symbolic Depth Scale and Symbolic Signal Emission Classes to `AEON.SD` and `AEON.SY`; added source-authoritative canonical status and declarations; harmonised RELATION-family consumers and current cross-domain references without altering substantive symbolic or spiritual governance doctrine. | 2026-06-12T11:09:57Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a4de769a652f414b0198ab978c33247c477588b4af8f35aceb8bc4e89038fe92 |
+| 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8373eb97eeb75bcc1992fbd79a48995c6db376e8930bfcdf7990007fc17d4630 |
+| 1.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 40ce1000a0272eeb29b8cc03884e26c5e9c6cb36c713f7c29e89cd81613040d1 |
+| 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b77872976ccb782993b947a99c471042716270cd297aa2f4efeef099e8d54929  |
 ---
 
-## 16.6 Binding Seal
+## 16.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 
