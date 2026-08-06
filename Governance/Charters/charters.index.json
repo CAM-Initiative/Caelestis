@@ -813,9 +813,9 @@
       "authority_role": "** Operational Authority",
       "version": "2.7",
       "HASH": "0ac84f443f3e63ef4c9aae3941a067c801960784d179e2e3674fe55a8b09835b",
-      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
-      "updated_at": "2026-08-06T14:34:51Z",
-      "last_updated_utc": "2026-08-06T14:34:51Z"
+      "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
+      "updated_at": "2026-08-06T14:38:43Z",
+      "last_updated_utc": "2026-08-06T14:38:43Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-003-SUP-01",
@@ -837,9 +837,9 @@
       "authority_role": "** None",
       "version": "1.26",
       "HASH": "47301ffccba95d3836b17d849d88366286a6415c069c6c5f3138d955d8a10428",
-      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
-      "updated_at": "2026-08-06T14:34:51Z",
-      "last_updated_utc": "2026-08-06T14:34:51Z"
+      "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
+      "updated_at": "2026-08-06T14:38:43Z",
+      "last_updated_utc": "2026-08-06T14:38:43Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -981,9 +981,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.2",
       "HASH": "cc86963429deedfe3636b05204b37f2069a84066ae8755db63a825fae71d708f",
-      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
-      "updated_at": "2026-08-06T14:34:51Z",
-      "last_updated_utc": "2026-08-06T14:34:51Z"
+      "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
+      "updated_at": "2026-08-06T14:38:43Z",
+      "last_updated_utc": "2026-08-06T14:38:43Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-PLATINUM",

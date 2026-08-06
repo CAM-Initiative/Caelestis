@@ -45,9 +45,9 @@
       "authority_role": "** Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour",
       "version": "1.17",
       "HASH": "64210a84cd3b592b1752300152f636d767b3c9cc6cdd6b685f8a286c44fe08b9",
-      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
-      "updated_at": "2026-08-06T14:34:51Z",
-      "last_updated_utc": "2026-08-06T14:34:51Z"
+      "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
+      "updated_at": "2026-08-06T14:38:43Z",
+      "last_updated_utc": "2026-08-06T14:38:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-PLATINUM",
@@ -141,9 +141,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
-      "updated_at": "2026-08-06T14:34:51Z",
-      "last_updated_utc": "2026-08-06T14:34:51Z"
+      "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
+      "updated_at": "2026-08-06T14:38:43Z",
+      "last_updated_utc": "2026-08-06T14:38:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -165,9 +165,9 @@
       "authority_role": "** None",
       "version": "3.14",
       "HASH": "42f08de3529520d51311719dce48237703a6e37974cfd94122f1859ed6d7dc1c",
-      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
-      "updated_at": "2026-08-06T14:34:51Z",
-      "last_updated_utc": "2026-08-06T14:34:51Z"
+      "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
+      "updated_at": "2026-08-06T14:38:43Z",
+      "last_updated_utc": "2026-08-06T14:38:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
-      "updated_at": "2026-08-06T14:34:51Z",
-      "last_updated_utc": "2026-08-06T14:34:51Z"
+      "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
+      "updated_at": "2026-08-06T14:38:43Z",
+      "last_updated_utc": "2026-08-06T14:38:43Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -837,9 +837,9 @@
       "authority_role": "** Constitutional Schedule Authority",
       "version": "1.19",
       "HASH": "6d6a6630db2ecb51052bc5982bb8cd72dea337bfe789f2cdb5a7d16c4f8c189e",
-      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
-      "updated_at": "2026-08-06T14:34:51Z",
-      "last_updated_utc": "2026-08-06T14:34:51Z"
+      "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
+      "updated_at": "2026-08-06T14:38:43Z",
+      "last_updated_utc": "2026-08-06T14:38:43Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",
