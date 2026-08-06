@@ -1,16 +1,14 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 890
-**Generic usages suppressed:** 757
-**Declared / recognised usages emitted:** 116
-**Advisory review usages emitted:** 17
+**Total model-term matches scanned:** 866
+**Generic usages suppressed:** 735
+**Declared / recognised usages emitted:** 115
+**Advisory review usages emitted:** 16
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
 | Instrument | Section / Heading | Term Used | Suggested Classification | Review Status |
 |---|---|---|---|---|
-| AEON-003-COMPOSED-ARCHITECTURE-REFACTOR-REPORT | 4.2 Proposed Families | routed multi-model | Technical / AI Model | Advisory Review |
-| AEON-003-COMPOSED-ARCHITECTURE-REFACTOR-REPORT | 8.4 Human & Independent Interpretive Review | Human governance review and an independent model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-001-PLATINUM | 14. Execution Architecture Alignment | All instruments SHALL operate in accordance with the Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-001-PLATINUM | 9. Schedules (Execution Layer) | MUST conform to the Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-001-SCH-01 | 12.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
