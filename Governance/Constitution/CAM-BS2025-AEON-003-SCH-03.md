@@ -138,7 +138,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-OPERATIONS-001-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md) | Governance Operations Charter | Root | 1.9 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-002-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md) | Appendix A: Operational Arbitration Procedures | Appendix | 1.7 | Adopted | Operational | Metadata Review Required | None | None |
-| [CAM-EQ2026-OPERATIONS-003-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md) | Appendix B: Incident Response & Continuity Operations | Appendix | 2.6 | Adopted | Operational | Metadata Review Required | None | None |
+| [CAM-EQ2026-OPERATIONS-003-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md) | Appendix B: Incident Response & Continuity Operations | Appendix | 2.7 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-004-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface | Appendix | 1.17 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-005-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md) | Appendix D: Change Governance & Amendment Operations | Appendix | 2.4 | Adopted | Operational | Metadata Review Required | Formal Review Completed — Pre-Enforcement Alignment | Source-authoritative operational appendix for amendment intake, review routing, version-control discipline, governance drift detection, cross-instrument harmonisation, and amendment closure procedures. |
 | [CAM-EQ2026-OPERATIONS-006-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md) | Appendix E: Domain Coordination & Convergence Operations | Appendix | 2.4 | Adopted | Operational | Metadata Review Required | Formal Review Completed — Pre-Enforcement Alignment | Source-authoritative operational appendix for cross-domain coordination, operational divergence classification, convergence workflow custody, arbitration-routing support, and convergence closure procedures. |
@@ -149,7 +149,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-OPERATIONS-001-SUP-03](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Governance Capture Detection Procedures (Supplement 3) | Supplement | 2.6 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-04](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md) | Taxonomies & Metadata Authority Framework (Supplement 4) | Supplement | 2.2 | Adopted | Operational | Metadata Review Required | None | Operational Taxonomy & Metadata Maintenance Authority |
 | [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.25 | Adopted | Operational | Metadata Review Required | None | None |
-| [CAM-EQ2026-OPERATIONS-003-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-02.md) | Defensive Cyber Incident Assistance Framework | Supplement | Unknown | Proposed | Non-operative pending adoption | Metadata Review Required | Draft | Human Governance Authority |
+| [CAM-EQ2026-OPERATIONS-003-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-02.md) | Defensive Cyber Incident Assistance Framework | Supplement | 1.0 | Proposed | Non-operative pending adoption | Metadata Review Required | Draft | None |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.8 | Adopted | Operational | Metadata Review Required | None | None |
 
 ## RELATION
@@ -171,8 +171,8 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-SECURITY-001-PLATINUM](../Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter | Root | 1.17 | Active | Binding | Metadata Review Required | None | None |
-| [CAM-EQ2026-SECURITY-002-PLATINUM](../Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md) | Appendix A: Boundary Integrity Specification | Appendix | 1.14 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-EQ2026-SECURITY-001-PLATINUM](../Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter | Root | 1.18 | Active | Binding | Metadata Review Required | None | None |
+| [CAM-EQ2026-SECURITY-002-PLATINUM](../Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md) | Appendix A: Boundary Integrity Specification | Appendix | 1.15 | Active | Binding | Metadata Review Required | None | None |
 
 ## STEWARD
 
