@@ -1,0 +1,175 @@
+{
+  "review": "Caelestis corpus obsolescence, contradiction and standards sanity audit",
+  "pass": 2,
+  "status": "initial substantive findings recorded",
+  "normative_effect": "none",
+  "branch": "agent/corpus-industry-standards-normalisation",
+  "sequencing_vocabulary": ["sequence-1", "sequence-2", "sequence-3"],
+  "findings": [
+    {
+      "id": "P2-001",
+      "title": "Draft and non-enforceable instruments are published through an index described as active",
+      "class": "critical-credibility",
+      "sequence": "sequence-1",
+      "confidence": "high",
+      "affected_paths": [
+        "Governance/Charters/CAM-Charters-Index.md",
+        "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-03.md",
+        "Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-ECONOMICS-009-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+        "Governance/Constitution/CAM-BS2025-AEON-002-SCH-02.md"
+      ],
+      "repair": "Expose lifecycle metadata in generated indexes; segregate or exclude Draft and Proposed instruments; add validator coverage."
+    },
+    {
+      "id": "P2-002",
+      "title": "PLATINUM filenames contradict Draft and Not Enforceable lifecycle metadata",
+      "class": "critical-credibility",
+      "sequence": "sequence-1",
+      "confidence": "high",
+      "affected_paths": [
+        "Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-ECONOMICS-009-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md"
+      ],
+      "repair": "Reserve PLATINUM for Adopted or Active instruments, or formally decouple the label while making lifecycle status unavoidable."
+    },
+    {
+      "id": "P2-003",
+      "title": "Retired dyadic, triadic and polyadic terminology remains current doctrine",
+      "class": "obsolete-or-nonstandard",
+      "sequence": "sequence-1",
+      "confidence": "high",
+      "affected_paths": [
+        "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md"
+      ],
+      "repair": "Replace with explicit participant, organisational mediation, coordination, distribution and jurisdiction descriptors; preserve historical interpretation outside current normative vocabulary."
+    },
+    {
+      "id": "P2-004",
+      "title": "Annex K exceeds its declared source-authority boundary",
+      "class": "material-contradiction",
+      "sequence": "sequence-1",
+      "confidence": "high",
+      "affected_paths": [
+        "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md"
+      ],
+      "repair": "Move substantive legitimacy, credential, target and containment doctrine to SECURITY; move procedure to OPERATIONS; keep Annex K to runtime-facing interfaces and signals."
+    },
+    {
+      "id": "P2-005",
+      "title": "Runtime formation and configuration evidence is optional where conformance requires it",
+      "class": "material-omission",
+      "sequence": "sequence-1",
+      "confidence": "high",
+      "affected_paths": [
+        "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"
+      ],
+      "repair": "Define mandatory minimum runtime-formation records for conformance, material changes, incidents, agentic actions, evaluations and pathway transitions."
+    },
+    {
+      "id": "P2-006",
+      "title": "No interoperable AI-BOM implementation exists",
+      "class": "material-omission",
+      "sequence": "sequence-1",
+      "confidence": "high",
+      "affected_paths": [
+        "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"
+      ],
+      "repair": "Map a minimum Caelestis profile to SPDX 3.x and/or CycloneDX; add identifiers, relationships, versioning, provenance, deployment snapshots, governance bindings, fixtures and validators."
+    },
+    {
+      "id": "P2-007",
+      "title": "Agentic governance lacks a consolidated accountable-actor lifecycle model",
+      "class": "material-omission",
+      "sequence": "sequence-2",
+      "confidence": "medium-high",
+      "affected_paths": [
+        "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"
+      ],
+      "repair": "Create a source-authoritative agentic deployment and accountability profile composing existing domains without duplicating them."
+    },
+    {
+      "id": "P2-008",
+      "title": "Authority Role is uncontrolled prose",
+      "class": "material-contradiction",
+      "sequence": "sequence-1",
+      "confidence": "high",
+      "affected_paths": [
+        "Governance/Standards/CAM-GOVERNANCE-METADATA-STANDARD.md",
+        "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md",
+        "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md"
+      ],
+      "repair": "Define a controlled Authority Role vocabulary, default ordinary instruments to None, and represent source authority through structured lineage fields."
+    },
+    {
+      "id": "P2-009",
+      "title": "Speculative consciousness and welfare research is embedded in the canonical governance tree",
+      "class": "scope-contamination",
+      "sequence": "sequence-1",
+      "confidence": "high",
+      "affected_paths": [
+        "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-03.md",
+        "Governance/Charters/CAM-Charters-Index.md"
+      ],
+      "repair": "Move to a clearly non-normative proposals or research area, or exclude entirely from operative indexes and registries until adopted."
+    },
+    {
+      "id": "P2-010",
+      "title": "Speculative macroeconomic policy appendices contaminate the AI governance corpus",
+      "class": "scope-contamination",
+      "sequence": "sequence-2",
+      "confidence": "high",
+      "affected_paths": [
+        "Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-ECONOMICS-009-PLATINUM.md"
+      ],
+      "repair": "Remove speculative policy drafts from the current normative tree and retain only AI-specific economic governance with a defensible corpus relationship."
+    },
+    {
+      "id": "P2-011",
+      "title": "Internal CAM Standard labels are not evidence of external conformity",
+      "class": "unsupported-claim-risk",
+      "sequence": "sequence-2",
+      "confidence": "high",
+      "affected_paths": [
+        "Governance/Standards/CAM-GOVERNANCE-METADATA-STANDARD.md",
+        "README.md"
+      ],
+      "repair": "State that CAM tiers are internal; prohibit unsupported ISO, NIST, EU or certification claims; define implementation evidence requirements for future CAM conformance claims."
+    },
+    {
+      "id": "P2-012",
+      "title": "The corpus is over-instrumented and source authority is difficult to determine",
+      "class": "material-contradiction",
+      "sequence": "sequence-2",
+      "confidence": "medium-high",
+      "affected_paths": [
+        "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+        "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md",
+        "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md"
+      ],
+      "repair": "Produce a concept-to-source-authority map and replace duplicate normative definitions with exact cross-references."
+    }
+  ],
+  "external_sanity_sources": [
+    "NIST AI RMF 1.0",
+    "NIST Generative AI Profile",
+    "Singapore IMDA Model AI Governance Framework for Agentic AI v1.5",
+    "Regulation (EU) 2024/1689",
+    "SPDX 3.x AI profile family",
+    "CycloneDX AI/ML-BOM capability family"
+  ],
+  "limitations": [
+    "No clause-level ISO conformity claim was made because full licensed ISO text was not available for direct review.",
+    "This register records initial material findings and will expand during source-authority and instrument-by-instrument review."
+  ]
+}
