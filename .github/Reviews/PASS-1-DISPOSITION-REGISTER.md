@@ -26,7 +26,8 @@
 
 ## Summary
 
-- Completed working files deleted in this review cycle: **10**
-- Earlier completed review and trigger files already deleted in the branch: **7**
+- Completed working artefacts deleted overall: **10**
+  - deleted during the initial cleanup: **7**
+  - deleted during the final Pass 1 sweep: **3**
 - Operational or review candidates explicitly retained: **10 groups/items**
 - Normative instruments amended: **0**
