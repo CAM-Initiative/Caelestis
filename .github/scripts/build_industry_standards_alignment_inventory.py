@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Build deterministic textual inventories for the Caelestis corpus review.
+"""Build deterministic textual inventories for the Caelestis corpus audit.
 
 This generator records where relevant concepts appear in current Governance
-Markdown. It does not determine obsolescence, contradiction, applicability,
-compliance, conformance, severity, priority, or repair order.
+Markdown. It does not determine obsolescence, contradiction, alignment,
+applicability, compliance, conformance, severity, priority, or repair order.
 """
 
 from __future__ import annotations
@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 GOVERNANCE = ROOT / "Governance"
-OUTPUT = GOVERNANCE / "Reviews" / "generated"
+OUTPUT = ROOT / ".github" / "Reviews" / "generated"
 
 CONCEPTS = {
     "management_system_governance": r"management system|governance objective|accountability|responsibility|competence|continual improvement",
@@ -46,12 +46,10 @@ TERMINOLOGY = {
 
 
 def governance_files() -> list[Path]:
-    review_root = GOVERNANCE / "Reviews"
     return sorted(
         path
         for path in GOVERNANCE.rglob("*.md")
-        if review_root not in path.parents
-        and "Index" not in path.name
+        if "Index" not in path.name
         and path.name != "CAM.Governance.Index.md"
     )
 
@@ -94,13 +92,13 @@ def render_outputs() -> dict[Path, str]:
 
     provenance = {
         "generator": ".github/scripts/build_industry_standards_alignment_inventory.py",
-        "scope": "Current Governance Markdown instruments excluding generated indexes and review artefacts",
+        "scope": "Current Governance Markdown instruments excluding generated indexes",
         "source_file_count": len(source_files),
         "source_tree_sha256": digest.hexdigest(),
         "limits": [
-            "Textual presence is not evidence of obsolescence, contradiction, alignment, implementation, conformity, compliance, or runtime behaviour.",
+            "Textual presence is not evidence of obsolescence, contradiction, alignment, adoption, implementation, conformity, compliance, or runtime behaviour.",
             "Ambiguous-system-term results are discovery aids and must not be treated as terminology defects without human review.",
-            "The inventory does not concern scientific entity taxonomy or the CAM digital-species research paper.",
+            "The inventory does not concern the CAM digital-species research paper.",
         ],
     }
 
@@ -137,7 +135,7 @@ def main() -> int:
             path.write_text(content, encoding="utf-8")
 
     if stale:
-        print("Caelestis corpus-review inventories are stale:")
+        print("Corpus-audit inventories are stale:")
         print("\n".join(stale))
         return 1
     return 0
