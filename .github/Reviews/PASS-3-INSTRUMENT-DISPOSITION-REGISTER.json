@@ -1,0 +1,49 @@
+{
+  "review": "Pass 3 — Instrument Disposition Register",
+  "date": "2026-08-06",
+  "branch": "agent/corpus-industry-standards-normalisation",
+  "normative_effect": "none",
+  "draft_dispositions": [
+    {
+      "source": "Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md",
+      "destination": "Governance/Drafts/Charters/CAM-EQ2026-ECONOMICS-008.md",
+      "disposition": "move-to-drafts",
+      "remove_platinum_filename": true
+    },
+    {
+      "source": "Governance/Charters/CAM-EQ2026-ECONOMICS-009-PLATINUM.md",
+      "destination": "Governance/Drafts/Charters/CAM-EQ2026-ECONOMICS-009.md",
+      "disposition": "move-to-drafts",
+      "remove_platinum_filename": true
+    },
+    {
+      "source": "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+      "destination": "Governance/Drafts/Charters/CAM-EQ2026-STEWARD-005.md",
+      "disposition": "move-to-drafts",
+      "remove_platinum_filename": true
+    },
+    {
+      "source": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-03.md",
+      "destination": "Governance/Drafts/Charters/CAM-EQ2026-IDENTITY-001-SUP-03.md",
+      "disposition": "move-to-drafts",
+      "remove_platinum_filename": false
+    },
+    {
+      "source": "Governance/Constitution/CAM-BS2025-AEON-002-SCH-02.md",
+      "destination": "Governance/Drafts/Constitution/CAM-BS2025-AEON-002-SCH-02.md",
+      "disposition": "move-to-drafts",
+      "remove_platinum_filename": false
+    }
+  ],
+  "foundational_repairs": [
+    {"surface": "CAM-GOVERNANCE-METADATA-STANDARD", "disposition": "major-amendment"},
+    {"surface": "CAM-BS2025-AEON-003-PLATINUM", "disposition": "bounded-amendment"},
+    {"surface": "CAM-EQ2026-OPERATIONS-007-PLATINUM", "disposition": "major-amendment"},
+    {"surface": "CAM-EQ2026-SECURITY-001-PLATINUM", "disposition": "major-amendment"},
+    {"surface": "CAM-BS2026-AEON-012-PLATINUM", "disposition": "major-amendment"},
+    {"surface": "CAM-EQ2026-RELATION-007-PLATINUM", "disposition": "replace-taxonomy-retain-safeguards"},
+    {"surface": "CAM-EQ2026-IDENTITY-001-PLATINUM", "disposition": "bounded-amendment"},
+    {"surface": "CAM-BS2026-AEON-010-PLATINUM", "disposition": "bounded-amendment"},
+    {"surface": "index-and-registry-generators", "disposition": "replace-inclusion-rule"}
+  ]
+}
