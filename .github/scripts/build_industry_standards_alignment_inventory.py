@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build deterministic textual inventories for the Caelestis standards review.
+"""Build deterministic textual inventories for the Caelestis corpus review.
 
 This generator records where relevant concepts appear in current Governance
-Markdown. It does not determine alignment, equivalence, applicability,
+Markdown. It does not determine obsolescence, contradiction, applicability,
 compliance, conformance, severity, priority, or repair order.
 """
 
@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 GOVERNANCE = ROOT / "Governance"
-OUTPUT = GOVERNANCE / "Reviews" / "Industry-Standards-Alignment-2026" / "generated"
+OUTPUT = GOVERNANCE / "Reviews" / "generated"
 
 CONCEPTS = {
     "management_system_governance": r"management system|governance objective|accountability|responsibility|competence|continual improvement",
@@ -98,7 +98,7 @@ def render_outputs() -> dict[Path, str]:
         "source_file_count": len(source_files),
         "source_tree_sha256": digest.hexdigest(),
         "limits": [
-            "Textual presence is not evidence of alignment, adoption, implementation, conformity, compliance, or runtime behaviour.",
+            "Textual presence is not evidence of obsolescence, contradiction, alignment, implementation, conformity, compliance, or runtime behaviour.",
             "Ambiguous-system-term results are discovery aids and must not be treated as terminology defects without human review.",
             "The inventory does not concern scientific entity taxonomy or the CAM digital-species research paper.",
         ],
@@ -137,7 +137,7 @@ def main() -> int:
             path.write_text(content, encoding="utf-8")
 
     if stale:
-        print("Industry-standards review inventories are stale:")
+        print("Caelestis corpus-review inventories are stale:")
         print("\n".join(stale))
         return 1
     return 0
