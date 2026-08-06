@@ -1,162 +1,250 @@
-# CAM-GOVERNANCE-METADATA-STANDARD — Governance Metadata Standard
+# CAM-GOVERNANCE-METADATA-STANDARD — Governance Metadata and Source-Authority Standard
 
-**Instrument Type:** Governance Metadata Standard
-**Status:** Active
-**Effect:** Interpretive
-**Governance Standard:** Registry Standard
-**Review State:** Active Metadata Harmonisation
-**Authority Role:** Source-authoritative controlled vocabulary for governance metadata fields; no independent doctrinal, runtime, or enforcement authority.
-**Purpose:** Defines the minimal controlled metadata vocabulary for lifecycle state, authority type, and governance expectation.
+**Instrument Type:** Governance Metadata Standard  
+**Status:** Active  
+**Effect:** Operational  
+**Governance Standard:** Registry Standard  
+**Review State:** Current  
+**Authority Role:** Metadata Authority  
+**Purpose:** Defines the controlled metadata and source-authority contract for governed Caelestis instruments.
 
 ---
 
 ## 1. Scope
 
-This standard controls top-level metadata vocabulary for Governance instruments.
+This standard controls the top-level metadata used to determine an instrument's lifecycle position, normative effect, governance tier, review posture, authority function and operative source-authority state.
 
-The metadata system answers only three questions:
+Metadata describes authority. It does not create authority that the instrument does not otherwise possess through the constitutional hierarchy, its parent instrument and its declared scope.
 
-* `Status` — what lifecycle state is the instrument in?
-* `Effect` — what type of authority does the instrument exercise?
-* `Governance Standard` — what level of governance expectation does the instrument create?
+An instrument MUST NOT:
 
-The metadata layer does not encode instrument scope, governance surface, activation conditions, qualification criteria, runtime triggers, risk surfaces, or stakeholder categories. Those concepts remain governed by the source-authoritative instruments that define them.
-
-`Governance Standard` replaces the previous combined use of `Enforcement` and `Applicability Class` introduced during the metadata harmonisation pass. This replacement is a metadata-schema simplification only; it does not alter substantive doctrine, declared scope, activation rules, runtime triggers, qualification pathways, or binding obligations established elsewhere in the corpus.
-
-Architectum qualification remains governed by CAM-EQ2026-STEWARD-003-PLATINUM, including `STW.AQ`, `STW.NAL`, and `STW.AQG`. This metadata field does not determine qualification status and does not classify any real-world entity, company, laboratory, model, cloud provider, institution, or deployment as Architectum-Class.
+- declare authority exceeding its parent or constitutional source;
+- use metadata to convert a draft, proposal or archival record into operative doctrine;
+- use a governance tier as evidence of external certification, regulatory compliance or independent assurance;
+- combine lifecycle, effect, review and authority concepts in one free-text field; or
+- redefine controlled metadata values locally.
 
 ---
 
-## 2. Status
+## 2. Required controlled fields
+
+Every governed instrument in the operative Constitution, Charter, Law and Standards namespaces MUST declare:
+
+1. `Status`
+2. `Effect`
+3. `Governance Standard`
+4. `Review State`
+5. `Authority Role`
+6. `Source Authority`
+
+Draft instruments MUST declare the same six fields, but are always non-operative and are excluded from operative registries.
+
+---
+
+## 3. Status — lifecycle state
 
 Allowed values:
 
-* `Draft`
-* `Proposed`
-* `Adopted`
-* `Active`
-* `Deprecated`
-* `Superseded`
-* `Retired`
+- `Draft`
+- `Proposed`
+- `Adopted`
+- `Active`
+- `Deprecated`
+- `Superseded`
+- `Retired`
 
 Interpretation:
 
-* `Draft` — working text; not source-authoritative.
-* `Proposed` — reviewable candidate; not binding.
-* `Adopted` — accepted into corpus as source-authoritative text, but may require activation context before operational enforcement.
-* `Active` — currently operative source-authoritative instrument.
-* `Deprecated` — retained for history but discouraged for current use.
-* `Superseded` — replaced by later source-authoritative instrument.
-* `Retired` — no longer operative except for archival/historical interpretation.
+- `Draft` — developmental working text; not source-authoritative and not operative.
+- `Proposed` — reviewable candidate; not adopted and not operative.
+- `Adopted` — accepted into the corpus and source-authoritative within declared scope, but not necessarily activated for continuous operation.
+- `Active` — currently operative source-authoritative instrument.
+- `Deprecated` — still resolvable but prohibited for new classifications, designs or assertions unless expressly authorised for migration.
+- `Superseded` — replaced by an identified later instrument; retained only for historical interpretation.
+- `Retired` — no longer operative and not a current source of doctrine.
+
+`Status` MUST NOT encode urgency, enforcement intensity, review activity, commencement wording or conformance level.
 
 ---
 
-## 3. Effect
+## 4. Effect — normative function
 
 Allowed values:
 
-* `Interpretive`
-* `Operational`
-* `Binding`
-* `Transitional`
-* `Archival`
+- `Interpretive`
+- `Operational`
+- `Binding`
+- `Transitional`
+- `Archival`
 
 Interpretation:
 
-* `Interpretive` — guides interpretation, classification, review, repair, ambiguity handling, or audit; does not independently impose execution/enforcement.
-* `Operational` — governs runtime, validation, routing, registry, procedural handling, or execution sequencing where activated by applicable instruments.
-* `Binding` — imposes mandatory obligations within declared scope.
-* `Transitional` — bridges prior and new doctrine during harmonisation or migration.
-* `Archival` — retained as record only.
+- `Interpretive` — controls meaning, classification, ambiguity resolution, audit or review; does not independently authorise execution.
+- `Operational` — controls procedures, validation, routing, registries, runtime sequencing or implementation mechanics within authority granted elsewhere.
+- `Binding` — imposes mandatory obligations within declared scope.
+- `Transitional` — temporarily controls migration between identified prior and successor states.
+- `Archival` — retained solely as evidence or historical record.
+
+`Effect` MUST NOT encode lifecycle state, governance tier, source-authority position or review posture.
 
 ---
 
-## 4. Governance Standard
+## 5. Governance Standard — internal governance tier
 
 Allowed values:
 
-* `Not Enforceable`
-* `Registry Standard`
-* `CAM Standard`
-* `CAM Enhanced Standard`
-* `Architectum Standard`
-* `Archival`
+- `Not Enforceable`
+- `Registry Standard`
+- `CAM Standard`
+- `CAM Enhanced Standard`
+- `Architectum Standard`
+- `Archival`
+
+These are internal Caelestis governance tiers. They are not certifications, legal conclusions, regulatory approvals, conformity assessments or representations of compliance with ISO, IEC, IEEE, NIST, EU, national or sectoral requirements.
+
+- `Not Enforceable` — creates no mandatory obligation.
+- `Registry Standard` — governs metadata, schemas, controlled vocabularies, registries, validation and related governance infrastructure.
+- `CAM Standard` — baseline internal governance expectation within declared scope.
+- `CAM Enhanced Standard` — heightened internal governance expectation for elevated capability, dependency, scale, impact or reliance.
+- `Architectum Standard` — internal tier for systems qualifying under the source-authoritative Architectum pathway.
+- `Archival` — historical or traceability-only material.
+
+A governance tier MUST NOT determine whether a real-world system qualifies for that tier. Qualification remains controlled by its source-authoritative instrument and required evidence.
+
+---
+
+## 6. Review State — current review posture
+
+Allowed values:
+
+- `Current`
+- `Review Required`
+- `Under Review`
+- `Verification Required`
+- `Migration Review`
+- `No Further Review Scheduled`
+- `Historical Record`
 
 Interpretation:
 
-### 4.1 Not Enforceable
+- `Current` — no unresolved review action is recorded.
+- `Review Required` — a defined review is required but has not commenced.
+- `Under Review` — a bounded review is active.
+- `Verification Required` — implementation or evidence verification remains outstanding.
+- `Migration Review` — retained temporarily while a controlled migration is completed.
+- `No Further Review Scheduled` — operative review activity is closed without implying immutability.
+- `Historical Record` — review posture applies only to archived, superseded or retired material.
 
-Creates no mandatory obligations.
-
-Used for drafts, exploratory instruments, conceptual research, candidate doctrine, and non-operative materials.
-
-### 4.2 Registry Standard
-
-Applies to metadata, registries, schemas, canonical code systems, classification frameworks, stewardship registries, catalogues, and related governance infrastructure.
-
-### 4.3 CAM Standard
-
-Represents the baseline governance expectation for systems operating within the instrument's declared scope.
-
-Examples include:
-
-* relational protections;
-* child-safe safeguards;
-* consent protections;
-* likeness protections;
-* refusal narration integrity;
-* proportional runtime governance.
-
-### 4.4 CAM Enhanced Standard
-
-Represents enhanced governance expectations for systems whose capability, scale, dependency footprint, user reliance, societal impact, or governance significance exceeds ordinary deployment expectations but does not yet require Architectum qualification.
-
-Examples may include:
-
-* large-scale companion systems;
-* substantial memory-enabled systems;
-* high-impact recommender systems;
-* major synthetic media platforms;
-* large multi-agent environments;
-* high-capability deployments below Architectum qualification thresholds.
-
-### 4.5 Architectum Standard
-
-Represents governance obligations intended for systems meeting the Architectum or Architectum-Eligible qualification pathway.
-
-Architectum qualification remains governed by:
-
-* `STW.AQ`
-* `STW.NAL`
-* `STW.AQG`
-* CAM-EQ2026-STEWARD-003-PLATINUM
-
-This metadata field does not determine qualification status. It only indicates that the instrument belongs to the Architectum governance tier.
-
-### 4.6 Archival
-
-Historical or traceability-only material.
+`Review State` MUST NOT be used as a substitute for Status or Effect.
 
 ---
 
-## 5. Transitional Interpretation
+## 7. Authority Role — function within the hierarchy
 
-Instruments previously marked `Pre-Enforcement Recognition`, `Immediate Effect`, `Active on Commit`, `Commences 1 July 2026`, or `Pending Adoption` SHALL be interpreted according to the controlled `Status`, `Effect`, and `Governance Standard` model introduced by this harmonisation pass.
+Allowed values:
 
-Where an instrument is source-authoritative and already consumed by an Active or Binding instrument, it may possess interpretive, operational, or binding authority through that source-authoritative relationship even if the metadata field does not independently create enforcement power.
+- `Constitutional Authority`
+- `Constitutional Schedule Authority`
+- `Domain Authority`
+- `Supplementary Authority`
+- `Operational Authority`
+- `Metadata Authority`
+- `Registry Authority`
+- `Interpretive Authority`
+- `Assurance Authority`
+- `No Independent Authority`
 
-Binding obligations for Architectum-Eligible, Architectum-Class, frontier-backbone, enhanced, platform-level, or baseline CAM systems SHALL remain binding within their declared scope unless expressly deprecated, superseded, or retired.
+Interpretation:
 
-`Governance Standard` identifies the level of governance expectation expressed by the instrument. It does not reduce source authority, does not determine qualification status, does not encode activation conditions, and does not convert binding obligations into advisory guidance where the declared risk surface is present.
+- `Constitutional Authority` — establishes constitutional principles and conflict rules.
+- `Constitutional Schedule Authority` — operationalises a defined constitutional parent without exceeding it.
+- `Domain Authority` — owns doctrine for a declared governance domain.
+- `Supplementary Authority` — supplements an identified parent and cannot exceed or contradict it.
+- `Operational Authority` — owns procedures, execution sequencing or runtime controls authorised by a parent.
+- `Metadata Authority` — owns controlled metadata vocabulary and combination rules.
+- `Registry Authority` — owns registry structures, identifiers or canonical projections.
+- `Interpretive Authority` — owns bounded interpretation or classification without independent execution power.
+- `Assurance Authority` — owns an internal evidence, verification or conformance method; does not imply independent certification.
+- `No Independent Authority` — provides guidance, evidence or context only.
+
+Free-text authority descriptions are prohibited in the controlled field. Scope qualifications belong in prose and source-authority declarations.
 
 ---
 
-## 6. Amendment-Level Provenance
+## 8. Source Authority — operative authority state
 
-Governed instruments in `Governance/Constitution/` and `Governance/Charters/` SHALL record drafting and review provenance in each Amendment Ledger row rather than in static document-level authorship or review blocks.
+Allowed values:
 
-The canonical Amendment Ledger headers, in order, are:
+- `Source-Authoritative`
+- `Derived Authority`
+- `Applied Authority`
+- `Informative Only`
+- `Non-Operative Draft`
+- `Historical Only`
+
+Interpretation:
+
+- `Source-Authoritative` — canonical owner of the doctrine, definition, controlled vocabulary or procedure within declared scope.
+- `Derived Authority` — derives authority from an identified parent and may elaborate only within that delegation.
+- `Applied Authority` — applies source-authoritative doctrine to a bounded operational or domain context without redefining it.
+- `Informative Only` — provides explanation, examples or context and creates no authority.
+- `Non-Operative Draft` — developmental text excluded from operative authority and registries.
+- `Historical Only` — retained solely to interpret prior versions or decisions.
+
+Each `Derived Authority` or `Applied Authority` instrument MUST identify its source instrument or parent. Circular derivation is prohibited.
+
+---
+
+## 9. Valid combination rules
+
+The following invariants are mandatory:
+
+1. `Draft` or `Proposed` requires `Not Enforceable`, `Non-Operative Draft`, and `No Independent Authority` unless a proposal is explicitly classified as informative only.
+2. `Active` or `Adopted` MUST NOT use `Non-Operative Draft` or `Historical Only`.
+3. `Deprecated`, `Superseded` or `Retired` MUST NOT be `Active` in any generated registry.
+4. `Superseded` or `Retired` requires `Archival` effect or a documented transitional exception.
+5. `Archival` effect requires `Archival` governance standard and `Historical Only` source authority.
+6. `Binding` effect requires `Adopted` or `Active` status and a source-authority state other than `Informative Only`.
+7. `Registry Standard` requires `Metadata Authority`, `Registry Authority`, `Operational Authority` or `Assurance Authority`.
+8. `No Independent Authority` MUST NOT be paired with `Source-Authoritative`.
+9. `Source-Authoritative` MUST identify a bounded concept, domain, vocabulary or procedure owned by the instrument; it does not confer hierarchy-wide supremacy.
+10. A child, appendix, supplement or schedule MUST NOT claim authority exceeding its parent.
+11. A domain instrument MUST NOT declare constitutional supremacy or unilaterally override another domain.
+12. Review wording such as `Active Metadata Harmonisation`, `Developmental Review`, `Pending Review`, dates or prose sentences is invalid in `Review State`.
+
+Exceptions require an explicit transition record, expiry condition and amendment-ledger entry.
+
+---
+
+## 10. Source-authority conflict rules
+
+Where multiple instruments address the same concept:
+
+1. the designated source-authoritative instrument owns the definition or rule;
+2. derived and applied instruments MUST cross-reference rather than redefine;
+3. later text does not silently supersede earlier source authority;
+4. conflicts MUST be resolved through an explicit amendment, deprecation or supersession decision;
+5. circular source-authority declarations are invalid; and
+6. an instrument's statement that it is binding, constitutional, source-authoritative or supreme is ineffective unless supported by the corpus hierarchy and metadata contract.
+
+---
+
+## 11. Adoption, activation, deprecation and retirement
+
+- Adoption requires an amendment-ledger entry and valid controlled metadata.
+- Activation requires the activation conditions defined by the applicable source instrument; metadata alone does not activate runtime duties.
+- Deprecation requires a migration destination or a statement that no replacement exists.
+- Supersession requires identification of the successor instrument.
+- Retirement removes the instrument from current operative registries while preserving historical resolution.
+- Draft promotion requires movement from `Governance/Drafts/**` into the appropriate operative namespace and replacement of draft metadata through reviewed amendment.
+
+---
+
+## 12. Amendment-level provenance
+
+Governed instruments SHALL record drafting and review provenance in each Amendment Ledger row rather than static document-level authorship or review blocks.
+
+The canonical headers are:
 
 1. `Version`
 2. `Change Summary`
@@ -166,16 +254,26 @@ The canonical Amendment Ledger headers, in order, are:
 6. `Reviewer`
 7. `Reference Hash`
 
-Every amendment row SHALL contain seven cells. `Agent`, `Model`, and `Reviewer` SHALL be non-blank. A sealed row records an amendment accepted into the governed instrument; no separate review-status column is required.
-
-Historical migrated rows use `Caelen`, `GPT-5 Series`, and `Dr M.V. O'Rourke`. Future amendments SHOULD record the exact model designation where known and MAY use `GPT-5 Series` when it is unavailable. GitHub approval, automation, CI validation, commit authorship, and pull-request activity MUST NOT be represented as third-party or human review.
-
-Historical versions, summaries, timestamps, and reference hashes remain immutable during presentation-schema migration. Only the new latest amendment row is resealed using the repository content-hash algorithm.
+Every amendment row SHALL contain seven cells. `Agent`, `Model`, and `Reviewer` SHALL be non-blank. GitHub approval, automation, CI validation, commit authorship and pull-request activity MUST NOT be represented as independent human or third-party review.
 
 ---
 
-## 7. Amendment Ledger
+## 13. Migration rule
+
+Existing uncontrolled values remain evidence of historical corpus state and MUST be inventoried before correction. Migration MUST:
+
+- preserve substantive doctrine unless a separate finding authorises amendment;
+- map only semantically equivalent values automatically;
+- route ambiguous values for human review;
+- record the old value, new value and reason;
+- update generators, parsers, validators and public projections together; and
+- avoid treating metadata normalisation as proof that the underlying authority claim is valid.
+
+---
+
+## 14. Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1.0 | Initial governance metadata standard defining controlled Status, Effect, and Governance Standard vocabulary; added canonical amendment-level provenance architecture. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
+| 1.0 | Initial governance metadata standard defining controlled Status, Effect and Governance Standard vocabulary; added canonical amendment-level provenance architecture. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
+| 2.0 | Replaced the three-field metadata model with a six-field metadata and source-authority contract; controlled Review State and Authority Role; added Source Authority, combination invariants, conflict rules and migration requirements. | 2026-08-06T13:30:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
