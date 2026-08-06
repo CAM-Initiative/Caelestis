@@ -7,6 +7,7 @@ on:
       - "Governance/Constitution/**"
       - "Governance/Charters/**"
       - "Governance/Laws/**"
+      - "Governance/Drafts/**"
       - ".github/scripts/**"
       - ".github/Indices/**"
   pull_request:
@@ -14,6 +15,7 @@ on:
       - "Governance/Constitution/**"
       - "Governance/Charters/**"
       - "Governance/Laws/**"
+      - "Governance/Drafts/**"
       - ".github/scripts/**"
       - ".github/Indices/**"
   workflow_dispatch:
@@ -63,6 +65,9 @@ jobs:
           fi
           echo "BASE_SHA=${BASE_SHA}" >> "$GITHUB_ENV"
           echo "HEAD_SHA=${HEAD_SHA}" >> "$GITHUB_ENV"
+
+      - name: Phase 0 — Close Pass 3 draft boundary
+        run: python .github/scripts/close_pass_3_draft_boundary.py
 
       - name: Phase 1 — Rebuild Constitution index/json
         run: python .github/scripts/update-CAM-Constitution-Index.py
@@ -147,6 +152,7 @@ jobs:
         run: |
           set -euo pipefail
           BEFORE_STATUS="$(git status --porcelain)"
+          python .github/scripts/close_pass_3_draft_boundary.py
           python .github/scripts/update-CAM-Constitution-Index.py
           python .github/scripts/update-CAM-Charters-Index.py
           python .github/scripts/update-CAM-Laws-Index.py
