@@ -1,0 +1,134 @@
+{
+  "review": "Caelestis corpus obsolescence, contradiction and standards sanity audit",
+  "pass": 2,
+  "tranche": "source-authority and lifecycle",
+  "normative_effect": "none",
+  "findings": [
+    {
+      "id": "F-013",
+      "title": "Circular security source authority",
+      "classification": ["internal-contradiction", "source-authority-defect"],
+      "materiality": "critical",
+      "confidence": "high",
+      "affected": ["CAM-EQ2026-SECURITY-001-PLATINUM", "CAM-BS2026-AEON-012-PLATINUM"],
+      "recommended_disposition": "Break reciprocal derivation and establish one upstream source authority."
+    },
+    {
+      "id": "F-014",
+      "title": "SECURITY-001 claims domain-wide supremacy beyond its constitutional rank",
+      "classification": ["authority-overreach"],
+      "materiality": "high",
+      "confidence": "high",
+      "affected": ["CAM-EQ2026-SECURITY-001-PLATINUM"],
+      "recommended_disposition": "Replace self-declared supremacy with a constitutional conflict and arbitration rule."
+    },
+    {
+      "id": "F-015",
+      "title": "Active identity doctrine depends on a Draft, Not Enforceable supplement",
+      "classification": ["lifecycle-contradiction", "draft-dependency"],
+      "materiality": "high",
+      "confidence": "high",
+      "affected": ["CAM-EQ2026-IDENTITY-001-PLATINUM", "CAM-EQ2026-IDENTITY-001-SUP-03"],
+      "recommended_disposition": "Remove the active dependency or adopt a defensible replacement framework."
+    },
+    {
+      "id": "F-016",
+      "title": "Identity doctrine asserts an internally created construct as an established system property",
+      "classification": ["unsupported-claim", "proprietary-taxonomy-overreach"],
+      "materiality": "high",
+      "confidence": "high",
+      "affected": ["CAM-BS2026-AEON-010-PLATINUM", "CAM-EQ2026-IDENTITY-001-PLATINUM"],
+      "recommended_disposition": "Reframe as measurable operational identity representation and continuity profiles."
+    },
+    {
+      "id": "F-017",
+      "title": "Metadata categories are internally misused",
+      "classification": ["metadata-contradiction"],
+      "materiality": "moderate-high",
+      "confidence": "high",
+      "affected": ["CAM-GOVERNANCE-METADATA-STANDARD", "CAM-BS2026-AEON-010-PLATINUM"],
+      "recommended_disposition": "Control or remove Authority Role and validate all metadata fields."
+    },
+    {
+      "id": "F-018",
+      "title": "Deprecated CAM Constitutional Order language remains active",
+      "classification": ["terminology-residue", "architecture-ambiguity"],
+      "materiality": "moderate",
+      "confidence": "high",
+      "affected": ["CAM-EQ2026-ARBITRATION-001-PLATINUM", "CAM-EQ2026-IDENTITY-001-PLATINUM"],
+      "recommended_disposition": "Replace with the exact current governed constitutional architecture term."
+    },
+    {
+      "id": "F-019",
+      "title": "Responding Intelligence has divergent active definitions",
+      "classification": ["internal-semantic-contradiction"],
+      "materiality": "high",
+      "confidence": "high",
+      "affected": ["CAM-BS2025-AEON-003-PLATINUM", "CAM-EQ2026-SECURITY-001-PLATINUM"],
+      "recommended_disposition": "Retain one canonical Annex B definition and prohibit domain redefinition."
+    },
+    {
+      "id": "F-020",
+      "title": "Relational geometry mixes incompatible dimensions",
+      "classification": ["taxonomy-contradiction", "obsolete-terminology"],
+      "materiality": "high",
+      "confidence": "high",
+      "affected": ["CAM-BS2025-AEON-003-PLATINUM", "CAM-EQ2026-RELATION-007-PLATINUM"],
+      "recommended_disposition": "Replace dyadic/triadic/polyadic and RLN.R0-R4 with independent descriptive fields."
+    },
+    {
+      "id": "F-021",
+      "title": "The corpus lacks a controlled external actor model",
+      "classification": ["glaring-omission"],
+      "materiality": "critical",
+      "confidence": "high",
+      "affected": ["corpus-wide"],
+      "recommended_disposition": "Define distinct lifecycle actors and responsibility boundaries."
+    },
+    {
+      "id": "F-022",
+      "title": "Agentic governance has controls but no lifecycle ownership model",
+      "classification": ["structural-omission"],
+      "materiality": "critical",
+      "confidence": "high",
+      "affected": ["Annex B", "Annex K", "OPERATIONS-007", "OPERATIONS-008", "RELATION-007", "SECURITY"],
+      "recommended_disposition": "Compose a bounded agentic lifecycle profile from existing controls."
+    },
+    {
+      "id": "F-023",
+      "title": "Runtime evidence obligations are weaker than conformance claims",
+      "classification": ["implementation-gap", "unsupported-assurance"],
+      "materiality": "critical",
+      "confidence": "high",
+      "affected": ["CAM-EQ2026-OPERATIONS-007-PLATINUM"],
+      "recommended_disposition": "Require a minimum runtime/deployment record for conformance, consequential action and incident review."
+    },
+    {
+      "id": "F-024",
+      "title": "CAM Standard tiers lack an assurance contract",
+      "classification": ["unsupported-claim", "missing-evidence-profile"],
+      "materiality": "high",
+      "confidence": "high",
+      "affected": ["CAM-GOVERNANCE-METADATA-STANDARD", "CAM-EQ2026-OPERATIONS-007-PLATINUM"],
+      "recommended_disposition": "Define claim, evidence, scope, review, expiry and residual-risk requirements."
+    },
+    {
+      "id": "F-025",
+      "title": "High-impact-only logging is too narrow",
+      "classification": ["external-practice-mismatch", "implementation-gap"],
+      "materiality": "high",
+      "confidence": "medium-high",
+      "affected": ["CAM-EQ2026-OPERATIONS-001-PLATINUM", "CAM-EQ2026-OPERATIONS-001-SUP-01"],
+      "recommended_disposition": "Use risk- and function-based lifecycle logging with integrity and retention controls."
+    },
+    {
+      "id": "F-026",
+      "title": "Draft policy and research instruments share the canonical operative namespace",
+      "classification": ["repository-architecture-defect"],
+      "materiality": "high",
+      "confidence": "high",
+      "affected": ["Governance/Charters", "CAM-Charters-Index"],
+      "recommended_disposition": "Physically or mechanically separate non-operative material from canonical operative doctrine."
+    }
+  ]
+}
