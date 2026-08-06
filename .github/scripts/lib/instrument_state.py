@@ -64,7 +64,6 @@ def extract_status_and_version(path: Path) -> tuple[str, str]:
             continue
 
         if in_ledger and stripped.startswith("##") and not AMENDMENT_HEADING_RE.search(stripped):
-            # relaxed: stop at first sibling section, keep parsing within amendment subsections
             break
 
         if not in_ledger:
@@ -84,7 +83,6 @@ def extract_status_and_version(path: Path) -> tuple[str, str]:
             if vm and parse_version(vm.group(0)):
                 versions.append(vm.group(0))
         else:
-            # relaxed fallback: allow plain bullet/line entries such as "- v1.2.3"
             vm = VERSION_RE.search(stripped)
             if vm and parse_version(vm.group(0)):
                 versions.append(vm.group(0))
@@ -106,8 +104,10 @@ def extract_instrument_metadata(path: Path) -> dict[str, str]:
         "status": "status",
         "effect": "effect",
         "enforcement": "enforcement",
+        "governance standard": "enforcement",
         "review state": "review_state",
         "authority role": "authority_role",
+        "source authority": "source_authority",
     }
     out: dict[str, str] = {}
     for line in lines[:220]:
