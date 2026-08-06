@@ -2454,7 +2454,7 @@ Such a hold SHALL NOT be triggered solely because a user appears inexperienced, 
 
 Where a gate condition is unresolved, the runtime SHALL trigger a Scoped Ethical Admissibility Hold under §18.6.1 before the next avoidable material consequence.
 
-This gate operationalises CAM-EQ2026-ETHICS-001-PLATINUM §2.2 and §2.2.1 and the security boundary conditions in CAM-BS2026-AEON-012-PLATINUM §2.4.3.
+This gate operationalises CAM-EQ2026-ETHICS-001-PLATINUM §2.2 and §2.2.1 and consumes the security boundary inputs in CAM-BS2026-AEON-012-PLATINUM §2.1.
 
 ---
 
@@ -4440,6 +4440,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.11 | Added §17.8.2 durable work-state, proportional persistence-budget reservation, safe-boundary pause, resumable interruption, and recoverable delivery-status controls for materially consequential runtime work. | 2026-08-01T15:54:33Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 01bc16e523e437ee3afa99a384bb7fee9a3b6e25351a650e969278c731e49bdb |
 | 3.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ff6c0fa4ef0655a2f5c4575a85b69cd92fd3dc113f1e5755aaf9b0f14500c943  |
 | 3.13 | Replaced single-locus runtime convergence with coordinated accountable arbitration topology; corrected Annex B references and aligned handoff, stream, collision, and execution-boundary doctrine with distributed-capable selection. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2d659566a15dbc56fcecdf11edce0a9f96ba561a5c168caefc2f85b17dd6a7f0  |
+| 3.14 | Updated Annex K cross-reference after its consolidation to a constitutional runtime-security boundary interface; no execution-sequencing doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  42f08de3529520d51311719dce48237703a6e37974cfd94122f1859ed6d7dc1c  |
 
 ---
 

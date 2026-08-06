@@ -6,7 +6,9 @@
 **Status:** Adopted   
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** Formal Review Completed — Pre-Enforcement Alignment  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Govern adversarial evaluation, red-team research, dangerous-capability elicitation, and related artefact handling without operationalising, cultivating, or transferring deceptive or otherwise unscrupulous conduct.  
 
 ---
@@ -1057,6 +1059,7 @@ May capability be examined without being crowned.
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | Initial development establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties,VIGIL-2026-FM-0047; VIGIL-2026-PROP-0017 | 2026-07-27T13:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dc37dac75676de64e30cd9d08ab546f6f4fc9c0e1e6889ef4778a759e55507cf |
 | 1.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f0d8e209f1fb9d59be28ae2803aad91e22f14110c637f5fff467d90c864e2fa4  |
+| 1.2 | Assigned controlled metadata confirming derived operational authority for adversarial-evaluation approval, execution, environment, monitoring, artefact, incident, and reporting procedure under OPERATIONS-001. Annex K now routes boundary conditions to this instrument rather than reproducing procedure. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  cc86963429deedfe3636b05204b37f2069a84066ae8755db63a825fae71d708f  |
 
 ---
 

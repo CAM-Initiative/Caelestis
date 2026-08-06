@@ -5,8 +5,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Governs coordinated operational response to systemic failures, cross-domain incidents, continuity corridor protection, fail-safe activation, and recovery governance.  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 
@@ -448,6 +449,7 @@ and let execution remain accountable to lawful structure.
 | 2.5.5 | Added adversarial-evaluation incident activation and evidence-preservation requirements for capability gain, prohibited cultivation, monitor compromise, boundary breach, containment uncertainty, recursive improvement, and dangerous artefact handling. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1263892efbfcf11aa505972d90640b5b962e0362ac69ad2a14b918b522f5eb72 |
 | 2.5.6 | Added §4.3.1 authorised external-investigation handoff, including volatile telemetry preservation, trajectory reconstruction, evidence holds, custodian mapping, chain of custody, affected-person protections, and separation of preservation from causal or culpability findings. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | edafc06fcb5a730fc98c62be3b58dd6a9751b2a5296625104ba7d26279c8b8e2 |
 | 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  da89659a963282aa7b6fe16b9c8010d604d56a4dff33d9ad268c6284d0f6863a  |
+| 2.7 | Assigned controlled metadata confirming derived operational authority for incident lifecycle, evidence custody, routing, containment procedure, recovery, and closure under OPERATIONS-001. Annex K now routes to this procedure rather than reproducing it. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0ac84f443f3e63ef4c9aae3941a067c801960784d179e2e3674fe55a8b09835b  |
 ---
 
 ## 8.4 Binding Seal

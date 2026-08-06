@@ -809,13 +809,13 @@
       "status": "** Adopted",
       "effect": "** Operational",
       "enforcement": "** CAM Standard",
-      "review_state": "** None",
-      "authority_role": "** None",
-      "version": "2.6",
-      "HASH": "da89659a963282aa7b6fe16b9c8010d604d56a4dff33d9ad268c6284d0f6863a",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "review_state": "** Current",
+      "authority_role": "** Operational Authority",
+      "version": "2.7",
+      "HASH": "0ac84f443f3e63ef4c9aae3941a067c801960784d179e2e3674fe55a8b09835b",
+      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
+      "updated_at": "2026-08-06T14:34:51Z",
+      "last_updated_utc": "2026-08-06T14:34:51Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-003-SUP-01",
@@ -835,11 +835,11 @@
       "enforcement": "** CAM Standard",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.25",
-      "HASH": "1d0f6df7d34035c30dfdd938e1b9cdf11be486d798f0fcb1b0e6fef311339409",
-      "pinned_sha": "6f67ec9e7846fe90180e9aad20a411d9ccb7257c",
-      "updated_at": "2026-08-06T14:22:45Z",
-      "last_updated_utc": "2026-08-06T14:22:45Z"
+      "version": "1.26",
+      "HASH": "47301ffccba95d3836b17d849d88366286a6415c069c6c5f3138d955d8a10428",
+      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
+      "updated_at": "2026-08-06T14:34:51Z",
+      "last_updated_utc": "2026-08-06T14:34:51Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -977,13 +977,13 @@
       "status": "** Adopted",
       "effect": "** Operational",
       "enforcement": "** CAM Standard",
-      "review_state": "** Formal Review Completed — Pre-Enforcement Alignment",
-      "authority_role": "",
-      "version": "1.1",
-      "HASH": "f0d8e209f1fb9d59be28ae2803aad91e22f14110c637f5fff467d90c864e2fa4",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "review_state": "** Current",
+      "authority_role": "** Operational Authority",
+      "version": "1.2",
+      "HASH": "cc86963429deedfe3636b05204b37f2069a84066ae8755db63a825fae71d708f",
+      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
+      "updated_at": "2026-08-06T14:34:51Z",
+      "last_updated_utc": "2026-08-06T14:34:51Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-PLATINUM",

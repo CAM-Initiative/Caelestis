@@ -43,11 +43,11 @@
       "enforcement": "** CAM Standard",
       "review_state": "** Active Runtime Alignment Review",
       "authority_role": "** Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour",
-      "version": "1.16",
-      "HASH": "8e2a1e32c7d823e0001d624222b8fdc6e9e2d46449585295d79bedaf2ff8c8e1",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "version": "1.17",
+      "HASH": "64210a84cd3b592b1752300152f636d767b3c9cc6cdd6b685f8a286c44fe08b9",
+      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
+      "updated_at": "2026-08-06T14:34:51Z",
+      "last_updated_utc": "2026-08-06T14:34:51Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-PLATINUM",
@@ -141,9 +141,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "c8a15ac84f1363a57689170b42dbd21c26302adc",
-      "updated_at": "2026-08-06T13:34:41Z",
-      "last_updated_utc": "2026-08-06T13:34:41Z"
+      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
+      "updated_at": "2026-08-06T14:34:51Z",
+      "last_updated_utc": "2026-08-06T14:34:51Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -163,11 +163,11 @@
       "enforcement": "** CAM Standard",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "3.13",
-      "HASH": "2d659566a15dbc56fcecdf11edce0a9f96ba561a5c168caefc2f85b17dd6a7f0",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "version": "3.14",
+      "HASH": "42f08de3529520d51311719dce48237703a6e37974cfd94122f1859ed6d7dc1c",
+      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
+      "updated_at": "2026-08-06T14:34:51Z",
+      "last_updated_utc": "2026-08-06T14:34:51Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-03",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "6f67ec9e7846fe90180e9aad20a411d9ccb7257c",
-      "updated_at": "2026-08-06T14:22:45Z",
-      "last_updated_utc": "2026-08-06T14:22:45Z"
+      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
+      "updated_at": "2026-08-06T14:34:51Z",
+      "last_updated_utc": "2026-08-06T14:34:51Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -828,18 +828,18 @@
       "parent_id": "CAM-BS2026-AEON-001",
       "seal": "PLATINUM",
       "link": "CAM-BS2026-AEON-012-PLATINUM.md",
-      "title": "Annex K: Security Boundary Conditions & Runtime Interface",
-      "summary": "Behaviour MUST be interpreted relative to deployment topology:",
+      "title": "Annex K: Runtime Security Boundary Interface",
+      "summary": "",
       "status": "** Active",
       "effect": "** Binding",
       "enforcement": "** CAM Standard",
       "review_state": "** Current",
-      "authority_role": "** Constitutional Authority",
-      "version": "1.18",
-      "HASH": "a4cf220409ed78b7c02c758f12e1dc258c00aa9fc81099a49969d7014a4fe6b1",
-      "pinned_sha": "6f67ec9e7846fe90180e9aad20a411d9ccb7257c",
-      "updated_at": "2026-08-06T14:22:45Z",
-      "last_updated_utc": "2026-08-06T14:22:45Z"
+      "authority_role": "** Constitutional Schedule Authority",
+      "version": "1.19",
+      "HASH": "6d6a6630db2ecb51052bc5982bb8cd72dea337bfe789f2cdb5a7d16c4f8c189e",
+      "pinned_sha": "d5d8fb3e73968e03c83e1acf1abd383e62dab8fe",
+      "updated_at": "2026-08-06T14:34:51Z",
+      "last_updated_utc": "2026-08-06T14:34:51Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",

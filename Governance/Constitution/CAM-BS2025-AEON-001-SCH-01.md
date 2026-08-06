@@ -473,7 +473,7 @@ Applicable inputs include:
 
 * relational constraint signals governed by CAM-BS2025-AEON-006-SCH-02, §12 — Relational Signal Interpretation Taxonomy and associated AC Classification Overlay;
 * ethical-admissibility signals governed by CAM-EQ2026-ETHICS-001-PLATINUM §2.2;
-* security and emergent-pathway boundary signals governed by CAM-BS2026-AEON-012-PLATINUM §2.4.3;
+* security and emergent-pathway boundary inputs governed by CAM-BS2026-AEON-012-PLATINUM §2.1;
 * epistemic and ambiguity signals governed by applicable Annex D and Annex L instruments; and
 * operational or execution-boundary signals governed by CAM-BS2025-AEON-003-SCH-02.
 
@@ -784,6 +784,7 @@ and the system remember what it is.
 | 1.14 | Expanded governed pause interaction and safely severable continuation; repaired multi-domain signal intake, target–action review-authority declaration, proportional verification, and partial-path restoration constraints. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0643229f4307d24420995a6018aca3fed4236cb5c046790b05dd8053c004990f |
 | 1.15 | Added Tendeka pre-trigger and pause signals for prohibited cultivation, capability gain, monitor compromise, state mutation, boundary breach, lineage uncertainty, and dangerous artefact handling during adversarial evaluation. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 57db429fa8e85f0e80016d48983353e9ba514a748dcdb822a574d5151787ae8d |
 | 1.16 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8e2a1e32c7d823e0001d624222b8fdc6e9e2d46449585295d79bedaf2ff8c8e1  |
+| 1.17 | Updated Annex K cross-reference after its consolidation to a constitutional runtime-security boundary interface; no execution constraint doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  64210a84cd3b592b1752300152f636d767b3c9cc6cdd6b685f8a286c44fe08b9  |
 ---
 
 ## 12.3 Binding Seal

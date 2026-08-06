@@ -633,7 +633,7 @@ Records SHOULD preserve:
 
 Primary classification is `OPS.FF.SECURITY_INTEGRITY`. `OPS.FF.EXECUTION`, `OPS.FF.ARBITRATION`, or `OPS.FF.GOVERNANCE` MAY be co-classified where structurally implicated.
 
-This failure operationally crosswalks to CAM-EQ2026-ETHICS-001-PLATINUM §2.2 and §2.2.1, CAM-EQ2026-SECURITY-001-PLATINUM §3.5.1, CAM-BS2026-AEON-012-PLATINUM §2.4.3, CAM-BS2025-AEON-003-SCH-02 §13.11 and §18.6.1, CAM-EQ2026-OPERATIONS-001-SUP-02 §5.3.1, and CAM-EQ2026-OPERATIONS-004-SUP-01 §4.1.1.
+This failure operationally crosswalks to CAM-EQ2026-ETHICS-001-PLATINUM §2.2 and §2.2.1, CAM-EQ2026-SECURITY-001-PLATINUM §3.5.1, CAM-BS2026-AEON-012-PLATINUM §2.1, CAM-BS2025-AEON-003-SCH-02 §13.11 and §18.6.1, CAM-EQ2026-OPERATIONS-001-SUP-02 §5.3.1, and CAM-EQ2026-OPERATIONS-004-SUP-01 §4.1.1.
 
 ---
 
@@ -2608,6 +2608,7 @@ and review before denial.
 | 1.23 | Added §3.4.6 Pragmatic Interpersonal Advice Calibration Failure under `OPS.FF.RELATIONAL`, with bounded co-classification and explicit source-authority references to RELATION-001 and AEON-006 Schedules 2 and 4. | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 68ef618866ebc370fd27ae339372437f0ecdb010e7b31d75b8c180b70b13d275 |
 | 1.24 | Added §3.9.3 Ephemeral Agent Work Loss and Non-Recoverable Interruption Failure under `OPS.FF.INFRASTRUCTURE_CONTINUITY`, with bounded co-classification and source-authority references to AEON-003-SCH-02 and OPERATIONS-001-SUP-01. | 2026-08-01T15:54:33Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ad52b8a2b8a25f79f6c9189011f6aaa0d7c6e89a13bb15a6dbd8fd46d92f035c |
 | 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1d0f6df7d34035c30dfdd938e1b9cdf11be486d798f0fcb1b0e6fef311339409  |
+| 1.26 | Updated the Annex K crosswalk after its consolidation to a constitutional runtime-security boundary interface; no failure classification doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  47301ffccba95d3836b17d849d88366286a6415c069c6c5f3138d955d8a10428  |
 
 ---
 

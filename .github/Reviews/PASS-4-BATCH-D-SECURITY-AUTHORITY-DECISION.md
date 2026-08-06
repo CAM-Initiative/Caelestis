@@ -23,9 +23,9 @@ Effective delegated authority is the intersection of the originating mandate, th
 | Failure mechanism | A security-domain charter and a constitutional interface each claimed to derive from the other, enabling circular authority and obscuring which layer owned procedure. |
 | Governance layer | Domain doctrine and constitutional runtime interface, with consequential operational and arbitral routing. |
 | Instruments inspected | AEON-001, Annex K, SECURITY-001, OPERATIONS-001, OPERATIONS-003, OPERATIONS-008, and ARBITRATION-001. |
-| Existing adjacent controls | SECURITY-001 §3.5.1; Annex K §§1.1–1.3 and 2.4.3–2.4.4; OPERATIONS-003 incident lifecycle; OPERATIONS-008 adversarial-evaluation procedure; ARBITRATION-001 legitimacy and scope validation. |
+| Existing adjacent controls at the time of Batch D | SECURITY-001 §3.5.1; the then-current Annex K §§1.1–1.3 and 2.4.3–2.4.4; OPERATIONS-003 incident lifecycle; OPERATIONS-008 adversarial-evaluation procedure; ARBITRATION-001 legitimacy and scope validation. Annex K was subsequently consolidated in Batch C. |
 | Repair made | SECURITY-001 now states its constitutional parent and Annex K interface without deriving from Annex K. Annex K expressly limits its source authority to the constitutional interface. Metadata and provenance footers were normalised. |
-| Remaining consolidation | Annex K still contains operationally detailed material, principally in §§2.2–2.5 and §§3.1–3.7. The next consolidation batch must relocate or reduce it by reference to OPERATIONS-008, OPERATIONS-003, and applicable operational supplements, without copying procedure into SECURITY-001. |
+| Consolidation status | Completed in Batch C. Annex K now retains only the derived constitutional runtime-security interface; procedure routes to OPERATIONS-003 and OPERATIONS-008 without copying it into SECURITY-001. |
 
 ## Non-derogable routing rules retained
 
