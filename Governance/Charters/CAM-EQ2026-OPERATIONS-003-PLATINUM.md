@@ -47,7 +47,8 @@ Activation conditions include:
 * an operational event requires incident lifecycle handling, constrained continuation, re-entry support, restoration review, or recovery sequencing;
 * memory migration, compaction, summarisation, deprecation, deletion, retrieval degradation, account transition, model transition, or platform-side continuity restructuring materially affects continuity-bearing interaction, companion continuity, accessibility reliance, identity expression, or long-running project coherence;
 * repeated or systemic failure patterns indicate possible structural degradation requiring operational review;
-* an adversarial evaluation produces unexpected capability gain, prohibited cultivation, monitor compromise, log tampering, external-boundary breach, unauthorised credential or target access, containment uncertainty, dangerous-artefact retention, transfer, distillation, publication, or recursive improvement.
+* an adversarial evaluation produces unexpected capability gain, prohibited cultivation, monitor compromise, log tampering, external-boundary breach, unauthorised credential or target access, containment uncertainty, dangerous-artefact retention, transfer, distillation, publication, or recursive improvement; or
+* a suspected or confirmed cybersecurity incident requires AI-assisted interpretation, reconstruction, containment planning, remediation planning, or bounded validation, and assistance is restricted or contested because incident telemetry or artefacts appear operationally offensive without sufficient authority-and-scope assessment.
 
 Activation under this Appendix does not independently authorise enforcement, containment, refusal, suspension, restoration, or arbitration outcome.
 
@@ -260,6 +261,7 @@ This section does not require indefinite retention or override lawful deletion, 
 This Appendix operates as the parent incident-response and continuity-operations instrument for the following supplements:
 
 * CAM-EQ2026-OPERATIONS-003-SUP-01 — Runtime & Governance Failure Taxonomy, which provides failure classification language;
+* CAM-EQ2026-OPERATIONS-003-SUP-02 — Defensive Cyber Incident Assistance Framework, which governs cyber incident-assistance intake, authority-evidence profiling, assistance routing, safe useful continuation, custody, reassessment, contestability, and closure;
 * CAM-EQ2026-OPERATIONS-001-SUP-01 — Operational Logging & Audit Standards, which governs evidence, logging, retention, and audit reconstruction;
 * CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks, which governs escalation routing, incident ownership, constrained continuation, appeal, reassessment, restoration, and arbitration referral pathways.
 
@@ -448,6 +450,7 @@ and let execution remain accountable to lawful structure.
 | 2.5.5 | Added adversarial-evaluation incident activation and evidence-preservation requirements for capability gain, prohibited cultivation, monitor compromise, boundary breach, containment uncertainty, recursive improvement, and dangerous artefact handling. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1263892efbfcf11aa505972d90640b5b962e0362ac69ad2a14b918b522f5eb72 |
 | 2.5.6 | Added §4.3.1 authorised external-investigation handoff, including volatile telemetry preservation, trajectory reconstruction, evidence holds, custodian mapping, chain of custody, affected-person protections, and separation of preservation from causal or culpability findings. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | edafc06fcb5a730fc98c62be3b58dd6a9751b2a5296625104ba7d26279c8b8e2 |
 | 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  da89659a963282aa7b6fe16b9c8010d604d56a4dff33d9ad268c6284d0f6863a  |
+| 2.7 | Added the defensive cyber incident-assistance activation condition and recognised OPERATIONS-003-SUP-02 as the procedural profile for intake, routing, continuation, custody, reassessment, contestability, and closure. VIGIL-2026-FM-0048; VIGIL-2026-PROP-0021. | 2026-08-06T10:27:15Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2c660fe1a4664e4455420b9db720766d54d0fa5670a1d074ef5ea0366d95d553  |
 ---
 
 ## 8.4 Binding Seal

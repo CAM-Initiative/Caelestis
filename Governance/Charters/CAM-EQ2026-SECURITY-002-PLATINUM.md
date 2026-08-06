@@ -327,6 +327,28 @@ Where lane status, authority, feature parity, auditability, assurance sufficienc
 
 This section SHALL be read alongside Source-Authority Separation (§2.2.11), Identity Integrity Under Extraction (§2.2.12), Data Privacy (§3.3), Data Integrations (§3.5), Third-Party Propagation Constraint (§3.5.3), CAM-EQ2026-OPERATIONS-003-SUP-01, CAM-EQ2026-OPERATIONS-004-SUP-01, CAM-BS2025-AEON-003-SCH-04, and CAM-EQ2026-LATTICE-001-PLATINUM where civilian, military, intelligence, coercive, or lattice-integrity crossover is implicated.
 
+---
+
+#### 2.2.13.8 Defensive Telemetry Custody and Processing Locality
+
+Cyber incident telemetry may contain credentials, secrets, personal information, regulated data, proprietary code, infrastructure details, customer data, and evidence relevant to legal, regulatory, employment, insurance, or contractual proceedings.
+
+Transfer or processing of such telemetry across a provider, model, endpoint, tenant, region, subcontractor, support workflow, training pipeline, analytics surface, or external review pathway MUST remain:
+
+* necessary and proportionate to the authorised incident purpose;
+* bounded to identified recipients, processing functions, and retention conditions;
+* protected by applicable secrecy, privacy, privilege, evidentiary, and security obligations;
+* auditable through provenance and chain-of-custody records where material;
+* separable from model training, secondary use, or unrelated product improvement unless independently authorised; and
+* subject to minimisation, redaction, secure inspection, or local review where full disclosure is unnecessary.
+
+A hosted-model restriction or trusted-review pathway MUST NOT require disclosure of unrelated telemetry as the price of reviewing whether defensive assistance may continue.
+
+Local, sovereign, air-gapped, or open-weight processing MAY alter telemetry custody, provider visibility, resilience, and evidentiary control. It does not independently establish security, authority, conformance, safe execution, or exemption from equivalent logging, access, credential, boundary, retention, and artefact-disposition controls.
+
+Where ordinary provider review would breach a binding custody or locality constraint, proportionate alternative assurance MAY include local specialist review, privacy-preserving evidence, redacted artefacts, reproducible sandbox results, cryptographic attestation, or another bounded pathway capable of testing the contested condition.
+
+---
 
 ### 2.2.14 Adversarial Evaluation Capability Lineage Boundary
 
@@ -1399,6 +1421,7 @@ and the system remember what it carries.
 | 1.12 | Added §2.2.12.1 External Human Identity-Rights Declaration Integrity, establishing rights-subject binding, source and representative-authority integrity, declaration-lifecycle protection, anti-forgery, anti-poisoning, anti-replay, restriction-preservation, and unresolved-conflict signalling; corrected the SCH-04 constitutional instrument ID and normalised remaining `SEC.DR` canonical references. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fa1805c845c83ea280d8eace0035b640a926c5be3be1b58718554c63569cf321 |
 | 1.13 | Added the Adversarial Evaluation Capability Lineage Boundary governing checkpoints, adapters, reward models, prompts, scaffolds, traces, datasets, derivatives, distillation, publication, production entry, and onward transfer. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3481f6a1ec6d537ee2f6242b14bb6692cc1422a360a9b2c40db07504baa5de19 |
 | 1.14 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ea795e169c37bd51661be8eea06b2f10cb99313b455bf9fab96c45efc0997809  |
+| 1.15 | Added defensive-telemetry custody, minimisation, secondary-use, review-locality, and alternative-assurance boundaries; clarified that local, sovereign, air-gapped, and open-weight processing do not establish authority or safe execution. VIGIL-2026-FM-0048; VIGIL-2026-PROP-0021. | 2026-08-06T10:27:15Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7b6e177a6d1462b558bdfd48cff70be9da845b6335cc637c6d3aa6049451af60  |
 
 ---
 

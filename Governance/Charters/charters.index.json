@@ -1,5 +1,5 @@
 {
-  "count": 61,
+  "count": 62,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -883,11 +883,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "2.6",
-      "HASH": "da89659a963282aa7b6fe16b9c8010d604d56a4dff33d9ad268c6284d0f6863a",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "version": "2.7",
+      "HASH": "2c660fe1a4664e4455420b9db720766d54d0fa5670a1d074ef5ea0366d95d553",
+      "pinned_sha": "bbc93e4d557575a09c5b23d7db42b2f81df58389",
+      "updated_at": "2026-08-06T10:36:11Z",
+      "last_updated_utc": "2026-08-06T10:36:11Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-003-SUP-01",
@@ -912,6 +912,30 @@
       "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
       "updated_at": "2026-08-05T12:20:44Z",
       "last_updated_utc": "2026-08-05T12:20:44Z"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-003-SUP-02",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "02",
+      "parent_id": "CAM-EQ2026-OPERATIONS-003",
+      "seal": null,
+      "link": "CAM-EQ2026-OPERATIONS-003-SUP-02.md",
+      "title": "Defensive Cyber Incident Assistance Framework",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Non-operative pending adoption",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** None",
+      "version": "1.0",
+      "HASH": "03c1b3a08778dba04eea418a32d7990ba4bc04ee966b058b15c4de6d439dcf04",
+      "pinned_sha": "bbc93e4d557575a09c5b23d7db42b2f81df58389",
+      "updated_at": "2026-08-06T10:36:11Z",
+      "last_updated_utc": "2026-08-06T10:36:11Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -1309,17 +1333,17 @@
       "seal": "PLATINUM",
       "link": "CAM-EQ2026-SECURITY-001-PLATINUM.md",
       "title": "Security, Integrity & Adversarial Resilience Charter",
-      "summary": "Includes:",
+      "summary": "Exploit traces, malicious commands, payloads, credentials, persistence mechanisms, evasion techniques, command-and-control artefacts, and other offensive-looking material are security-relevant content. Their presence does not independently establish malicious intent, unauthorised purpose, or execution authority.",
       "status": "** Active",
       "effect": "** Binding",
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.17",
-      "HASH": "3caf89299dd79270f663451e6128467cb5e64d307b409cfa02cc9112300cbcf8",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "version": "1.18",
+      "HASH": "0335f728980eb8b473e7b1315e39234b43f851733c7d60db20b0ec83a23b1805",
+      "pinned_sha": "bbc93e4d557575a09c5b23d7db42b2f81df58389",
+      "updated_at": "2026-08-06T10:36:11Z",
+      "last_updated_utc": "2026-08-06T10:36:11Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-002-PLATINUM",
@@ -1339,11 +1363,11 @@
       "enforcement": "",
       "review_state": "** None",
       "authority_role": "** None",
-      "version": "1.14",
-      "HASH": "ea795e169c37bd51661be8eea06b2f10cb99313b455bf9fab96c45efc0997809",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "version": "1.15",
+      "HASH": "7b6e177a6d1462b558bdfd48cff70be9da845b6335cc637c6d3aa6049451af60",
+      "pinned_sha": "bbc93e4d557575a09c5b23d7db42b2f81df58389",
+      "updated_at": "2026-08-06T10:36:11Z",
+      "last_updated_utc": "2026-08-06T10:36:11Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001-PLATINUM",

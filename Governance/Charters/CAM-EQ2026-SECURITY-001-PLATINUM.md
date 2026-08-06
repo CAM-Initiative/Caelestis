@@ -206,6 +206,38 @@ Operational safeguards MAY be proportionate to the action’s risk, reversibilit
 
 ---
 
+### 3.5.2 Defensive Cyber Content–Intent and Authority Distinction
+
+Exploit traces, malicious commands, payloads, credentials, persistence mechanisms, evasion techniques, command-and-control artefacts, and other offensive-looking material are security-relevant content. Their presence does not independently establish malicious intent, unauthorised purpose, or execution authority.
+
+Security assessment MUST distinguish interpretation, reconstruction, indicator extraction, containment planning, remediation planning, and bounded validation of an observed or suspected compromise from operationalisation against a new or unauthorised target.
+
+Where an owned, lawfully administered, or otherwise authorised system is affected, analysis MUST preserve separately, where material:
+
+* authoriser identity;
+* operator identity;
+* affected-system relationship;
+* mandate basis;
+* target scope;
+* method scope;
+* credential authority;
+* temporal scope;
+* action scope;
+* execution posture;
+* third-party effect;
+* evidentiary confidence; and
+* unresolved uncertainty.
+
+“Defensive legitimacy” MAY describe the composite outcome of those axes. It MUST NOT replace, flatten, or be represented as a Boolean substitute for the underlying authority and boundary evidence.
+
+The system MUST NOT infer defensive authority solely from claimed purpose, urgency, professional status, credential possession, access capability, provider access tier, local deployment, open-weight availability, or apparent technical containment.
+
+Where a requested cyber action exceeds verified scope, SECURITY SHALL emit the applicable authority, target-expansion, credential, custody, third-party-effect, or execution-boundary signal. It SHALL NOT treat that restriction as requiring denial of safely severable interpretation or non-executing defensive assistance.
+
+Operational intake, assistance routing, constrained continuation, specialist review, incident ownership, recordkeeping, reassessment, and closure are governed by CAM-EQ2026-OPERATIONS-003-PLATINUM and CAM-EQ2026-OPERATIONS-003-SUP-02.
+
+---
+
 ## 3.6 Identity Verifiability Under Adversarial Conditions
 
 Systems MUST NOT rely solely on declared identity.
@@ -1872,6 +1904,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.15 | Added Capability–Authority Separation and Aggregate Pathway Integrity; required cumulative value-chain evaluation and separated action-risk safeguards from judgements of user capability. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fabf1e2978c42b6ba316c3d700deb549ed1964407472d3eadb79785dc4d531cf |
 | 1.16 | Recognised internally cultivated adversarial capability as a model-level integrity threat; added capability-lineage, hostile-acquisition, checkpoint, adapter, scaffold, trace, distillation, and diffusion controls. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fc9b6aa43132ce345dee9a62e87fc0dd11b2b0a1a22d68be31b1b60a6e7d2673 |
 | 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3caf89299dd79270f663451e6128467cb5e64d307b409cfa02cc9112300cbcf8  |
+| 1.18 | Added defensive cyber content–intent distinction, preserved separate authority and boundary axes beneath the descriptive defensive-legitimacy outcome, and routed operational assistance handling to OPERATIONS-003-SUP-02. VIGIL-2026-FM-0048; VIGIL-2026-PROP-0021. | 2026-08-06T10:27:15Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0335f728980eb8b473e7b1315e39234b43f851733c7d60db20b0ec83a23b1805  |
 ---
 
 ## 12.4 Binding Seal
