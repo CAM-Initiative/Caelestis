@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-08-06",
+  "purpose": "Versioned external-source register for the non-normative Caelestis standards-alignment audit. Access status states what was reviewed; it is not an adoption or compliance assertion.",
+  "allowed_access_statuses": [
+    "official-public",
+    "official-licensed",
+    "official-summary-only",
+    "unverified"
+  ],
+  "sources": [
+    {
+      "id": "ISO-IEC-42001-2023",
+      "title": "ISO/IEC 42001:2023 — Artificial intelligence management system",
+      "publisher": "ISO/IEC JTC 1/SC 42",
+      "version_or_date": "Edition 1, 2023-12",
+      "access_status": "official-summary-only",
+      "url": "https://www.iso.org/standard/42001",
+      "reviewed_material": "ISO public record and abstract; not the licensed full text.",
+      "audit_use": "Management-system, documented-process, lifecycle and continual-improvement comparison only.",
+      "limit": "No clause-level ISO 42001 conformity assessment is made."
+    },
+    {
+      "id": "ISO-IEC-23894-2023",
+      "title": "ISO/IEC 23894:2023 — Artificial intelligence — Guidance on risk management",
+      "publisher": "ISO/IEC JTC 1/SC 42",
+      "version_or_date": "2023",
+      "access_status": "official-summary-only",
+      "url": "https://www.iso.org/standard/77304.html",
+      "reviewed_material": "ISO public record and abstract; not the licensed full text.",
+      "audit_use": "AI-specific risk-management lifecycle comparison only.",
+      "limit": "No clause-level ISO 23894 conformity assessment is made."
+    },
+    {
+      "id": "ISO-IEC-38507-2022",
+      "title": "ISO/IEC 38507:2022 — Governance implications of the use of AI by organizations",
+      "publisher": "ISO/IEC JTC 1/SC 42",
+      "version_or_date": "Edition 1, 2022-04",
+      "access_status": "official-summary-only",
+      "url": "https://www.iso.org/standard/56641.html",
+      "reviewed_material": "ISO public record and abstract; not the licensed full text.",
+      "audit_use": "Governing-body and organisational-governance comparison only.",
+      "limit": "No clause-level ISO 38507 conformity assessment is made."
+    },
+    {
+      "id": "ISO-IEC-JTC1-SC42",
+      "title": "ISO/IEC JTC 1/SC 42 — Artificial intelligence standards programme",
+      "publisher": "ISO/IEC",
+      "version_or_date": "Accessed 2026-08-06",
+      "access_status": "official-summary-only",
+      "url": "https://www.iso.org/sectors/it-technologies/ai",
+      "reviewed_material": "ISO public AI standards catalogue.",
+      "audit_use": "Standards-family orientation and terminology discovery.",
+      "limit": "The catalogue is not a substitute for individual standard texts."
+    },
+    {
+      "id": "NIST-AI-100-1",
+      "title": "NIST AI 100-1 — Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+      "publisher": "National Institute of Standards and Technology",
+      "version_or_date": "2023-01-26",
+      "access_status": "official-public",
+      "url": "https://doi.org/10.6028/NIST.AI.100-1",
+      "reviewed_material": "Published framework and NIST AI RMF resource page.",
+      "audit_use": "Govern, Map, Measure and Manage outcome comparison.",
+      "limit": "NIST states that AI RMF 1.0 is under revision; this audit records the 1.0 baseline."
+    },
+    {
+      "id": "NIST-AI-RMF-PLAYBOOK",
+      "title": "NIST AI RMF Playbook",
+      "publisher": "National Institute of Standards and Technology",
+      "version_or_date": "2023-03-30",
+      "access_status": "official-public",
+      "url": "https://airc.nist.gov/airmf-resources/airmf/",
+      "reviewed_material": "NIST public Playbook and AIRC implementation material.",
+      "audit_use": "Action and documentation-practice comparison.",
+      "limit": "The Playbook is a companion implementation resource, not a certification scheme."
+    },
+    {
+      "id": "NIST-AI-600-1",
+      "title": "NIST AI 600-1 — AI RMF Generative AI Profile",
+      "publisher": "National Institute of Standards and Technology",
+      "version_or_date": "2024-07-26",
+      "access_status": "official-public",
+      "url": "https://doi.org/10.6028/NIST.AI.600-1",
+      "reviewed_material": "Published profile and NIST publication record.",
+      "audit_use": "Generative-AI lifecycle, evaluation and risk-management comparison.",
+      "limit": "Profile correspondence is not evidence that CAM governs an external deployment."
+    },
+    {
+      "id": "SPDX-3-0-1",
+      "title": "SPDX Specification v3.0.1, including AI and dataset profiles",
+      "publisher": "SPDX / Linux Foundation",
+      "version_or_date": "3.0.1, 2024-12",
+      "access_status": "official-public",
+      "url": "https://spdx.dev/wp-content/uploads/sites/31/2024/12/SPDX-3.0.1-1.pdf",
+      "reviewed_material": "Published SPDX specification and official AI implementation guidance.",
+      "audit_use": "Portable AI-BOM data-model and profile-readiness comparison.",
+      "limit": "CAM does not presently emit SPDX, so no interoperability claim is made."
+    },
+    {
+      "id": "CYCLONEDX-ML-BOM",
+      "title": "CycloneDX Machine Learning Bill of Materials (AI/ML-BOM)",
+      "publisher": "OWASP CycloneDX",
+      "version_or_date": "Accessed 2026-08-06",
+      "access_status": "official-public",
+      "url": "https://cyclonedx.org/capabilities/mlbom/",
+      "reviewed_material": "Official ML-BOM capability page and current official guide.",
+      "audit_use": "Model, dataset, dependency, runtime and linked-BOM interoperability comparison.",
+      "limit": "CAM does not presently emit CycloneDX, so no interoperability claim is made."
+    },
+    {
+      "id": "IMDA-MGF-AGENTIC-AI-2026",
+      "title": "Singapore Model AI Governance Framework for Agentic AI",
+      "publisher": "Infocomm Media Development Authority of Singapore",
+      "version_or_date": "2026-01; updated material accessed 2026-08-06",
+      "access_status": "official-public",
+      "url": "https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf",
+      "reviewed_material": "Published framework, IMDA launch material and updated framework notice.",
+      "audit_use": "Agent lifecycle, technical controls, human accountability, user responsibility and escalation comparison.",
+      "limit": "This is comparative governance guidance, not a CAM adoption or Singapore compliance claim."
+    },
+    {
+      "id": "EU-AI-ACT-2024-1689",
+      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "publisher": "European Union",
+      "version_or_date": "2024-07-12; consolidated legal text accessed 2026-08-06",
+      "access_status": "official-public",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "reviewed_material": "Official legal text; bounded crosswalk only.",
+      "audit_use": "Documentation, logging, oversight, accuracy/robustness/cybersecurity, post-market and actor-accountability orientation.",
+      "limit": "This audit does not determine legal applicability, conformity, provider/deployer status, or EU AI Act compliance."
+    },
+    {
+      "id": "CHINA-HUMANOID-LIFECYCLE-2026",
+      "title": "Humanoid robot full-lifecycle identity reporting (comparative case)",
+      "publisher": "China.org.cn reporting on the 2026 platform",
+      "version_or_date": "2026-05-29",
+      "access_status": "official-summary-only",
+      "url": "https://www.china.org.cn/2026-05/29/content_118520148.shtml",
+      "reviewed_material": "Public summary reporting; a primary technical standard or registry specification was not available for review.",
+      "audit_use": "Comparative case study for embodied-unit identity, lifecycle traceability and retirement boundaries only.",
+      "limit": "Not a normative CAM source, not a legal analysis, and not a durable China regulatory crosswalk."
+    }
+  ]
+}

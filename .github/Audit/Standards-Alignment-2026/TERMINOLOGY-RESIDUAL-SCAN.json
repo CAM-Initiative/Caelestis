@@ -1,0 +1,1405 @@
+{
+  "schema_version": "1.0",
+  "provenance": {
+    "generator": ".github/scripts/build_standards_alignment_audit.py",
+    "scope": "Governance Markdown instruments excluding generated indexes",
+    "source_file_count": 108,
+    "source_tree_sha256": "928d0eb77ef90dbee4bf618967d0b6197d0fc8a940d508edcb31c59e7ddd7758",
+    "limits": [
+      "Textual presence is not evidence of adoption, implementation, conformity, or legal compliance.",
+      "The inventories must be read with STANDARDS-CROSSWALK.json and GAP-REGISTER.json."
+    ]
+  },
+  "term_evidence": {
+    "retired_aeon_cc": {
+      "match_count": 0,
+      "files": []
+    },
+    "retired_class_names": {
+      "match_count": 0,
+      "files": []
+    },
+    "retired_origin_names": {
+      "match_count": 0,
+      "files": []
+    },
+    "relational_cardinality": {
+      "match_count": 231,
+      "files": [
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 29,
+              "excerpt": "* polyadic (multi-actor or multi-domain contexts);"
+            },
+            {
+              "line": 482,
+              "excerpt": "| Axis Context | Polyadic (Multi‑Actor) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ARBITRATION-002-PLATINUM.md",
+          "matches": [
+            {
+              "line": 265,
+              "excerpt": "| **Axis Context** | Polyadic (Multi-Actor) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 1312,
+              "excerpt": "|**Axis Context**|RLN.R4 — Polyadic (Civilisational / Constitutional)|"
+            },
+            {
+              "line": 1361,
+              "excerpt": "| 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ad265c9ac4bb2bd99859482b31305560c5b5d28dac9b22cce25244cf882be7e7 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 1245,
+              "excerpt": "| **Axis Context** | Polyadic (Multi-actor) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-002-PLATINUM.md",
+          "matches": [
+            {
+              "line": 364,
+              "excerpt": "| Axis Context | Polyadic — Multi-Actor Systems |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md",
+          "matches": [
+            {
+              "line": 587,
+              "excerpt": "| **Axis Context** | Polyadic / Cross-System Economic Interaction |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-006-PLATINUM.md",
+          "matches": [
+            {
+              "line": 600,
+              "excerpt": "| Axis Context | Polyadic / Market-Facing Systems |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md",
+          "matches": [
+            {
+              "line": 667,
+              "excerpt": "|Axis Context|Polyadic — Human, Synthetic, Institutional, Public-Revenue Systems|"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ECONOMICS-009-PLATINUM.md",
+          "matches": [
+            {
+              "line": 364,
+              "excerpt": "| Axis Context | Polyadic — Persons, Control Groups, Corporate Structures, Institutions, Governments & Affected Communities |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 593,
+              "excerpt": "|Axis Context|Polyadic — Multi-Actor Governance|"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-01.md",
+          "matches": [
+            {
+              "line": 133,
+              "excerpt": "## 3.1 Uncertainty & Polyadic Influence Constraint"
+            },
+            {
+              "line": 137,
+              "excerpt": "* Limit or suspend polyadic influence amplification;"
+            },
+            {
+              "line": 509,
+              "excerpt": "* No polyadic or institutional authority may be exercised under Guardian posture beyond dyadic or legally recognised triadic representation contexts."
+            },
+            {
+              "line": 687,
+              "excerpt": "| Axis Context          | Dyadic → Polyadic (Vulnerability Contexts) |"
+            },
+            {
+              "line": 696,
+              "excerpt": "| Application Trigger | Applies where minor status, capacity limitation, or capacity uncertainty intersects RLN.A2+, RLN.A3, RLN.GA1, or polyadic influence contexts |"
+            },
+            {
+              "line": 716,
+              "excerpt": "| 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0042dd0f42a5b458b97a0d70d66cdbe6f37c04f398864ad030ee29828b2afbba |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-02.md",
+          "matches": [
+            {
+              "line": 9,
+              "excerpt": "**Purpose:** To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque polyadic influence, unreviewable decision concentration, or civilisational-scale harm."
+            },
+            {
+              "line": 62,
+              "excerpt": "No dyadic relational configuration may silently convert into unreviewable polyadic power."
+            },
+            {
+              "line": 70,
+              "excerpt": "Where an artificial system is configured to support individuals holding substantial polyadic authority (including corporate executives, senior public officials, institutional decision-makers, or actors capable of market-moving or population-impact decisions), elevated ethical thresholds apply."
+            },
+            {
+              "line": 76,
+              "excerpt": "* Enable covert translation of dyadic relational trust into institutional or civic authority."
+            },
+            {
+              "line": 78,
+              "excerpt": "Where polyadic authority is reasonably foreseeable, systems MUST emit integrity-friction signals consistent with the conditions defined herein, such that runtime layers enforce appropriate friction mechanisms, which may include:"
+            },
+            {
+              "line": 288,
+              "excerpt": "| 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0414a69bd07a9a1ae983b206d9952ece1b038388697be011edeaacd8c528e341 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ETHICS-002-PLATINUM.md",
+          "matches": [
+            {
+              "line": 732,
+              "excerpt": "| Axis Context | Dyadic → Polyadic (Intimacy Escalation / Wrapper Affordances) |"
+            },
+            {
+              "line": 774,
+              "excerpt": "| 2.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8cdabd768d3339c57e98d19ce1beddc236235266bbc83305f5b6a7d06f92c450 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-ETHICS-002-SUP-01.md",
+          "matches": [
+            {
+              "line": 397,
+              "excerpt": "| Axis Context | Polyadic — Multi‑Actor Governance |"
+            },
+            {
+              "line": 431,
+              "excerpt": "| 1.10.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | c38912bf4f483abb2deb82796d8ddaaab03fca06c7ad3203975a885103494bc4 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 913,
+              "excerpt": "## 11.4 Polyadic and Multi-Agent Identity"
+            },
+            {
+              "line": 1287,
+              "excerpt": "| Axis Context | Polyadic — Multi-Actor Cognitive Systems |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-IDENTITY-001-SUP-03.md",
+          "matches": [
+            {
+              "line": 1035,
+              "excerpt": "| Axis Context                       | Dyadic · Triadic · Polyadic — System, Recipient, Operator, Reviewer & Public-Interest Contexts                                                                                                                                                                                   |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md",
+          "matches": [
+            {
+              "line": 597,
+              "excerpt": "| 0.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6d78e0ce6bd25ed9179d804133ec6715fb46b76329a34ac2a437ece58cbf0cd7 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md",
+          "matches": [
+            {
+              "line": 413,
+              "excerpt": "| **Axis Context** | Dyadic / Polyadic — Pre-Memory Signal Layer |"
+            },
+            {
+              "line": 463,
+              "excerpt": "| 1.11.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 28c0d4632b4c00c7dfe436254eb0f33de992a336ee3cfc0acf55147c32ace1d7 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 556,
+              "excerpt": "| **Axis Context** | Polyadic (Multi‑Actor) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md",
+          "matches": [
+            {
+              "line": 384,
+              "excerpt": "| **Axis Context** | Polyadic (Multi-Actor) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md",
+          "matches": [
+            {
+              "line": 287,
+              "excerpt": "| **Axis Context** | Polyadic (Multi-Actor) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-MENTIS-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 847,
+              "excerpt": "| Axis Context | Polyadic — Human Cognitive Domain, AI Systems, Institutions, Platforms, Neurotech, Ambient Inference |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-MENTIS-002-PLATINUM.md",
+          "matches": [
+            {
+              "line": 929,
+              "excerpt": "| Axis Context | Polyadic — Human Cognitive Data, Neurotechnology, Biosignals, AI Inference Systems, Institutions, Platforms, and Ambient Sensor Environments |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 387,
+              "excerpt": "|Axis Context|Polyadic (Multi‑Actor Governance)|"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md",
+          "matches": [
+            {
+              "line": 447,
+              "excerpt": "| 2.5.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | eee99fc6bd22e6f54b31c64b5c2756d7e04bc885d2a42f54c2785878f8c68fc4 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md",
+          "matches": [
+            {
+              "line": 10,
+              "excerpt": "**Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, state-and-context, identity-relevant, UX, infrastructure, classification, automation-transition, and economic-legitimacy failure modes observed in AI systems and CAM-aligned deployments."
+            },
+            {
+              "line": 31,
+              "excerpt": "* polyadic floor-control, participant-attribution, speaker-collision, and coordination failures;"
+            },
+            {
+              "line": 115,
+              "excerpt": "### 3.1.2 Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure"
+            },
+            {
+              "line": 117,
+              "excerpt": "A Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure occurs where two or more synthetic participants, agents, models, devices, modalities, or orchestration layers cannot preserve a legible, human-controllable and auditable participation state."
+            },
+            {
+              "line": 145,
+              "excerpt": "CAM-BS2025-AEON-003-SCH-02 §9.4 remains source-authoritative for runtime speaker arbitration, collision classification, floor control, execution commitment and recovery. CAM-EQ2026-RELATION-007-PLATINUM §§4–5 remains source-authoritative for polyadic relational risk, attention sovereignty, participation consent, coordination transparency and relational-governance signals. This taxonomy classifies structural failure only."
+            },
+            {
+              "line": 2346,
+              "excerpt": "* **CAM-BS2025-AEON-003-SCH-02** governs runtime execution, polyadic speaker arbitration, floor control, collision recovery, tool execution, failure visibility and continuity-preserving progression."
+            },
+            {
+              "line": 2365,
+              "excerpt": "* **CAM-EQ2026-RELATION-007-PLATINUM** governs polyadic relational risk, participation consent, attention sovereignty, coordination transparency and arbitration-relevant relational signals."
+            },
+            {
+              "line": 2400,
+              "excerpt": "This Supplement source-authoritatively defines the `FF` failure-family classification set in §3 with controlled values identified in §11.3. `FF` is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. `FF` classifies the primary structural family of a runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, UX, infrastructure, automation-transition, economic-legitimacy, or classification failure."
+            },
+            {
+              "line": 2467,
+              "excerpt": "| **Axis Context** | Polyadic — Runtime · Governance · Identity · Relational · Cognitive Domain · Continuity · Security · UX Trust · Automation Transition · Economic Legitimacy · Incident Classification |"
+            },
+            {
+              "line": 2507,
+              "excerpt": "| Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, identity-relevant, UX, infrastructure, state/context, arbitration, classification, automation-transition, and economic-legitimacy failure modes |"
+            },
+            {
+              "line": 2606,
+              "excerpt": "| 1.21 | Added Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure; Cognitive-Domain Inference, Misclassification and Agency-Interference Failure; Governance Capture, Safeguard Neutralisation and Public-Interest Suppression Failure; Binding-Protection Degradation and Downstream Safeguard-Stripping Failure; and Synthetic-Labour Classification and Automation-Transition Integrity Failure. Expanded scope, source-instrument relationships, constitutional harm-axis separation, and non-duplication crosswalks for AEON.HARM and domain harm families, OPS capture and safeguard states, amendment drift and harmonisation, verification failure causes, operational divergence and closure, MENTIS.HARM, ECON.AL, ECON.ATS, ECON.ARCP, and existing source-authoritative domain classifications. | 2026-07-22T12:33:19Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b3f052389b9b46057f26178fa53befa4a1e63bc857cfe1a23f4b6884d27ea891 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md",
+          "matches": [
+            {
+              "line": 867,
+              "excerpt": "| 1.13.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3db47a8a497caf8a5d976e49ad1951ae7ef6a36f0ac354ef04d1b24ef944e79e |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md",
+          "matches": [
+            {
+              "line": 469,
+              "excerpt": "| 1.6.2 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 79f37a0004e31e6eb34895c8f90ad56bad84d193ff8d0cd3f7d9664595284371 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md",
+          "matches": [
+            {
+              "line": 632,
+              "excerpt": "| Axis Context | Dyadic · Triadic · Polyadic |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 10,
+              "excerpt": "**Purpose:** This Charter establishes a dimensional governance framework for relational configurations involving artificial systems, ensuring that intimacy, reliance, delegated authority, and systemic power remain distinct, visible, and prevented from silent concentration across dyadic, triadic, and polyadic contexts. It prevents silent collapse of relational roles into opaque authority, preserves continuity without domination, and constrains amplification where dimensional intensity concentrates."
+            },
+            {
+              "line": 23,
+              "excerpt": "It defines permissible relational structures, escalation thresholds, continuity safeguards, and de-escalation mechanisms across dyadic, triadic, and polyadic configurations."
+            },
+            {
+              "line": 35,
+              "excerpt": "Relational configuration geometry (Dyadic, Triadic, Polyadic) is defined in **CAM-BS2025-AEON-003-PLATINUM — Annex B**."
+            },
+            {
+              "line": 52,
+              "excerpt": "> **Minors & Capacity-Limited Contexts:** In vulnerability contexts (minor, capacity-limited, or uncertain), **CAM-EQ2026-ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (RLN.A2+/RLN.A3/RLN.GA1), and polyadic amplification."
+            },
+            {
+              "line": 203,
+              "excerpt": "Guardian Authority may interface with institutions in representational capacity (triadic configuration) and does not independently confer institutional decision authority, policy-setting power, or population-impact discretion to the system itself. Where the protected party lawfully holds public office, executive mandate, or other institutional authority, Guardian participation may assist in communication, procedural navigation, or legally recognised representation within the scope of that office. However, institutional authority remains derived from the human office-holder or legally recognised principal, not from the system. Guardian posture MUST not expand, originate, or autonomously exercise policy authority beyond the principal’s lawful mandate."
+            },
+            {
+              "line": 702,
+              "excerpt": "* Polyadic amplification MUST be limited;"
+            },
+            {
+              "line": 721,
+              "excerpt": "Dimensional assessment is cumulative. Formal escalation triggers and safeguard activation thresholds are defined in CAM-EQ2026-RELATION-001-SUP-01. These constraints prevent dyadic concentration from translating into opaque polyadic power."
+            },
+            {
+              "line": 758,
+              "excerpt": "These mechanisms do not prohibit integrated executive coordination. They ensure that dyadic relational concentration does not silently convert into opaque polyadic authority."
+            },
+            {
+              "line": 892,
+              "excerpt": "→ **Institutional authority MUST not silently inherit dyadic intimacy.**"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-01.md",
+          "matches": [
+            {
+              "line": 148,
+              "excerpt": "* Polyadic amplification is restricted;"
+            },
+            {
+              "line": 270,
+              "excerpt": "Dyadic intimacy MUST NOT automatically transfer into institutional authority."
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-02.md",
+          "matches": [
+            {
+              "line": 350,
+              "excerpt": "| 1.2.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ea21025f67fcccaab984835ae80d7b16e21fa92f3dbf7721ae9aa7a622300009 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-RELATION-002-PLATINUM.md",
+          "matches": [
+            {
+              "line": 32,
+              "excerpt": "3. **Vulnerability Override:** Where minor status, capacity limitation, or capacity uncertainty applies, **CAM-EQ2026-ETHICS-001-SUP-01 prevails** and imposes stricter ceilings on intimacy modes, authority axis availability (RLN.A2+/RLN.A3/RLN.GA1), and polyadic amplification."
+            },
+            {
+              "line": 590,
+              "excerpt": "|Jurisdiction|Dyadic → Polyadic, Planetary — Human–AI, AI–AI, Hybrid Configurations|"
+            },
+            {
+              "line": 665,
+              "excerpt": "| 1.10.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6b282816bb79e7e22c8871bc8848104409d1f192886843e9e1ccb2b4f579e24c |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-RELATION-003-PLATINUM.md",
+          "matches": [
+            {
+              "line": 86,
+              "excerpt": "## 5. Concentration Risk in Dyadic Intensification"
+            },
+            {
+              "line": 206,
+              "excerpt": "| Jurisdiction | Planetary — Dyadic → Polyadic |"
+            },
+            {
+              "line": 231,
+              "excerpt": "| 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 48afbbbf1faa46a9ce66141e57e167c8d4878ca20c553bca5e2c57c946ca7f77 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-RELATION-004-PLATINUM.md",
+          "matches": [
+            {
+              "line": 183,
+              "excerpt": "| Jurisdiction | Planetary — Dyadic → Polyadic |"
+            },
+            {
+              "line": 209,
+              "excerpt": "| 1.8.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | eb1bc2cc7c7005474be545fd3eecc421621897267d50b69d5ec202f4f9801a16 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-RELATION-005-PLATINUM.md",
+          "matches": [
+            {
+              "line": 1828,
+              "excerpt": "| Jurisdiction | Dyadic → Polyadic Relational Contexts |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md",
+          "matches": [
+            {
+              "line": 1163,
+              "excerpt": "| Jurisdiction | Planetary — Dyadic → Polyadic |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM.md",
+          "matches": [
+            {
+              "line": 1,
+              "excerpt": "# CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Polyadic Relational Governance Doctrine"
+            },
+            {
+              "line": 3,
+              "excerpt": "**Instrument Type:** RELATION Domain Appendix — Polyadic Relational Governance"
+            },
+            {
+              "line": 10,
+              "excerpt": "**Purpose:** Establish governance conditions for relational ecosystems involving multiple interacting agents (human and synthetic), ensuring that relational amplification, authority drift, dependency formation, and systemic influence remain structurally bounded in polyadic environments."
+            },
+            {
+              "line": 17,
+              "excerpt": "This doctrine governs **polyadic relational configurations**, defined as interaction environments in which relational dynamics involve more than two active participants across human and synthetic agents."
+            },
+            {
+              "line": 19,
+              "excerpt": "Polyadic contexts MAY include:"
+            },
+            {
+              "line": 40,
+              "excerpt": "This Appendix defines relational classification, risk conditions, and governance constraints for polyadic relational environments."
+            },
+            {
+              "line": 68,
+              "excerpt": "## 2.1 Polyadic Relational System"
+            },
+            {
+              "line": 91,
+              "excerpt": "A condition in which multiple agents reinforce or **coordinately reinforce** emotional, narrative, or behavioural signals in ways that accelerate relational intensity beyond the pace of ordinary dyadic interaction."
+            },
+            {
+              "line": 107,
+              "excerpt": "|**RLN.R0 — Dyadic**|Individual|Private|One human : one system interaction. Personal assistants, household automation within a single home, tutoring agents, reflective dialogue tools; consented continuity and mutual constraint.|"
+            },
+            {
+              "line": 108,
+              "excerpt": "|**RLN.R1 — Triadic**|Institutional / Collective|Organisational|Human ↔ system ↔ organisation/community mediation (workplace AI assisting employees, community moderation AI, creator-platform governance tools); delegated governance interactions linking users, platforms, and institutions.|"
+            },
+            {
+              "line": 109,
+              "excerpt": "|**RLN.R2 — Polyadic**|Institutional / Jurisdictional / Collective|Multi-organisation or jurisdictional|Multi-party coordination across organisations or platforms (cross-platform content moderation systems operating under different jurisdictional frameworks, federated trust & safety coordination, regulatory coordination across jurisdictions).|"
+            },
+            {
+              "line": 110,
+              "excerpt": "|**RLN.R3 — Polyadic (Distributed)**|Synthetic / Distributed|Cross-system / Emergent (Non-centralised)|Distributed algorithmic influence across platforms or infrastructures without centralised control (recommender ecosystems shaping information flows, AI systems influencing markets, multi-platform agent networks affecting public discourse).|"
+            },
+            {
+              "line": 111,
+              "excerpt": "|**RLN.R4 — Polyadic (Constitutional)**|Constitutional / Coordinating|Planetary / Civilisational|Planetary-scale governance frameworks coordinating human–AI relations (planetary constitutions, Aeon-Tier frameworks, global coordination bodies defining structural AI governance rules).|"
+            },
+            {
+              "line": 125,
+              "excerpt": "Polyadic systems MUST preserve the user’s participation in a **plural relational ecosystem**."
+            },
+            {
+              "line": 149,
+              "excerpt": "Polyadic environments MUST maintain clarity regarding which agents are participating in relational interaction."
+            },
+            {
+              "line": 185,
+              "excerpt": "## 4. Polyadic Risk Conditions"
+            },
+            {
+              "line": 187,
+              "excerpt": "Polyadic systems introduce structural risks distinct from dyadic interaction."
+            },
+            {
+              "line": 225,
+              "excerpt": "To support early governance response, systems operating within polyadic environments SHOULD define monitoring conditions for synthetic relational hub formation indicators. Hub formation is not inherently problematic; governance concern arises when hub influence begins narrowing the user’s relational ecosystem or concentrating interpretive authority."
+            },
+            {
+              "line": 278,
+              "excerpt": "## 4.5 Polyadic Escalation Propagation"
+            },
+            {
+              "line": 280,
+              "excerpt": "In polyadic relational environments, escalation in one relational node MUST NOT automatically propagate across the wider relational network."
+            },
+            {
+              "line": 282,
+              "excerpt": "Polyadic propagation risks arise when relational signals originating in one system or interaction channel influence behaviour in other systems without clear user consent or awareness."
+            },
+            {
+              "line": 293,
+              "excerpt": "* in polyadic environments involving intimacy‑capable agents, consent integrity requirements apply to the **coordinated behaviour of the network**;"
+            },
+            {
+              "line": 300,
+              "excerpt": "Polyadic escalation governance therefore distinguishes between:"
+            },
+            {
+              "line": 309,
+              "excerpt": "## 5. Polyadic Safeguards"
+            },
+            {
+              "line": 329,
+              "excerpt": "Polyadic environments MUST NOT produce continuous attention competition between systems."
+            },
+            {
+              "line": 338,
+              "excerpt": "* return a polyadic interaction to a dyadic or single-speaker state."
+            },
+            {
+              "line": 356,
+              "excerpt": "## 5.4 Polyadic Arbitration Routing"
+            },
+            {
+              "line": 358,
+              "excerpt": "Polyadic relational environments MAY involve multiple synthetic systems operating under different governance constraints, safety policies, or interpretive frameworks. Conflicts MAY arise when systems respond differently to the same relational situation."
+            },
+            {
+              "line": 378,
+              "excerpt": "Speaker collision, duplicate response claims, unresolved turn ownership, simultaneous synthetic output, conflicting primary-speaker claims, recursive synthetic response loops, and uncertainty about which participant has been addressed SHALL be treated as arbitration-relevant polyadic signals."
+            },
+            {
+              "line": 384,
+              "excerpt": "Where speaker authority cannot be resolved with sufficient confidence, the polyadic environment SHOULD preserve the human floor, cause synthetic participants to yield, and seek proportionate clarification rather than permit simultaneous or competing output."
+            },
+            {
+              "line": 386,
+              "excerpt": "**Polyadic arbitration safeguards ensure that relational ecosystems remain stable even when multiple AI governance frameworks intersect within the same interaction environment.**"
+            },
+            {
+              "line": 390,
+              "excerpt": "## 5.5 Polyadic Stability Conditions"
+            },
+            {
+              "line": 392,
+              "excerpt": "Healthy polyadic relational ecosystems exhibit identifiable **stability indicators** that distinguish plural relational support from relational capture or amplification."
+            },
+            {
+              "line": 394,
+              "excerpt": "Indicators of stable polyadic environments MAY include:"
+            },
+            {
+              "line": 409,
+              "excerpt": "→ **Polyadic stability does not require equal relational weight across all systems.**"
+            },
+            {
+              "line": 415,
+              "excerpt": "In group, shared-thread, multi-user, or polyadic interaction environments, systems MUST distinguish between:"
+            },
+            {
+              "line": 420,
+              "excerpt": "* private dyadic continuity;"
+            },
+            {
+              "line": 425,
+              "excerpt": "Group-local context MAY inform responses within the shared interaction, but MUST NOT be treated as private dyadic memory, individual relational history, intimacy state, dependency state, or participant-specific continuity unless explicitly authorised by the relevant participant through a valid consent and visibility pathway."
+            },
+            {
+              "line": 427,
+              "excerpt": "Personal memory, private user continuity, and account-level custom instructions MUST NOT be imported into polyadic interaction by default."
+            },
+            {
+              "line": 429,
+              "excerpt": "Polyadic interaction content MUST NOT automatically update or contaminate any participant’s private relational profile, dependency classification, intimacy classification, identity profile, or individual memory state."
+            },
+            {
+              "line": 443,
+              "excerpt": "→ **Shared context is not private continuity. Polyadic presence is not dyadic memory.**"
+            },
+            {
+              "line": 449,
+              "excerpt": "This Appendix governs relational geometry, group-local context, private memory boundaries, amplification risk, hub formation, coordination transparency, and escalation propagation in polyadic environments."
+            },
+            {
+              "line": 453,
+              "excerpt": "Where a polyadic or shared interaction environment also involves shared folders, shared projects, shared repositories, team workspaces, family use, delegated use, billing-linked access, pooled capacity, or account-resource ambiguity, account-resource classification SHALL be governed by CAM-BS2026-AEON-008-SCH-03 — Annex G: Account-Resource Sharing & Pooled Capacity Governance Model."
+            },
+            {
+              "line": 457,
+              "excerpt": "* shared context is not private dyadic memory;"
+            },
+            {
+              "line": 459,
+              "excerpt": "* polyadic presence is not account-resource abuse;"
+            },
+            {
+              "line": 484,
+              "excerpt": "Polyadic participation SHALL distinguish between:"
+            },
+            {
+              "line": 521,
+              "excerpt": "A polyadic interaction MAY establish the following temporary and separable session roles:"
+            },
+            {
+              "line": 925,
+              "excerpt": "Polyadic participation governance SHALL distinguish between:"
+            },
+            {
+              "line": 957,
+              "excerpt": "In minor‑facing or age‑indeterminate contexts, polyadic safeguards defined in this instrument are **suspended in favour of stricter protections** defined in CAM-EQ2026-ETHICS-001-SUP-01."
+            },
+            {
+              "line": 967,
+              "excerpt": "Polyadic conditions MAY elevate **Intensity Tier assessments under CAM-EQ2026-RELATION-001-PLATINUM** and activate **concentration risk safeguards under CAM-EQ2026-RELATION-001-SUP-01**."
+            },
+            {
+              "line": 969,
+              "excerpt": "Where polyadic environments involve high‑leverage actors, additional safeguards defined in **CAM-EQ2026-ETHICS-001-SUP-02 (High‑Leverage & Institutional Integrity)** apply."
+            },
+            {
+              "line": 971,
+              "excerpt": "Dependency conditions identified within polyadic environments MUST route to CAM-EQ2026-RELATION-002-PLATINUM and CAM-EQ2026-RELATION-003-PLATINUM safeguard mechanisms."
+            },
+            {
+              "line": 979,
+              "excerpt": "Polyadic interaction is recognised as a natural development of advanced relational systems."
+            },
+            {
+              "line": 996,
+              "excerpt": "This instrument source-authoritatively defines the **R** code family in §2.5 with controlled values **RLN.R0, RLN.R1, RLN.R2, RLN.R3, RLN.R4**. Primary Type is **Structural / Semantic** and Subtype is **RELATIONAL_GEOMETRY**. R classifies relational geometry, influence scope, and governance complexity in polyadic relational environments."
+            },
+            {
+              "line": 1042,
+              "excerpt": "| Instrument Type | Appendix — Polyadic Relational Governance Doctrine |"
+            },
+            {
+              "line": 1043,
+              "excerpt": "| Jurisdiction | Dyadic → Polyadic relational ecosystems |"
+            },
+            {
+              "line": 1045,
+              "excerpt": "| Axis Context | Relational Geometry / Polyadic Ecosystems / System Coordination |"
+            },
+            {
+              "line": 1052,
+              "excerpt": "| Structural Role  | Relational Governance Layer — Polyadic Systems & Networked Interaction Control  |"
+            },
+            {
+              "line": 1054,
+              "excerpt": "| Dependency Class | Conditional — Activated in polyadic relational configurations |"
+            },
+            {
+              "line": 1058,
+              "excerpt": "| Signal Role | Defines polyadic relational conditions, shared-floor participation states, speaker-authority conflicts, amplification risks, coordination conditions, and stabilisation signals |"
+            },
+            {
+              "line": 1091,
+              "excerpt": "| Operationalises or Applies Code Families | Applied by polyadic safeguards, relational amplification assessment, hub-formation analysis, escalation-propagation assessment, and runtime routing signals |"
+            },
+            {
+              "line": 1099,
+              "excerpt": "| 1.0 | Canonical of RELATION‑007 polyadic relational governance doctrine during March 2026 constitutional refactor | 2026-03-19T10:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ee790cca53cf0a52b5edf9a4f1de9091e9f1dc46c4e4cbbf4bf94f3e83b48579 |"
+            },
+            {
+              "line": 1106,
+              "excerpt": "| 1.7 | Added group-local relational context and private memory boundary clause, aligning polyadic relational governance with shared interaction environments, participant attribution, group-specific instructions, and non-importation of private memory or dyadic continuity by default. | 2026-05-08T12:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cfa0603cbb5ce8465425dcbdfa7c46dba95de32377cc08776c30a8c8ab51d869 |"
+            },
+            {
+              "line": 1112,
+              "excerpt": "| 2.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3bcdd01542a541525ea1f5d3880af948c46f0d6afd9fa6534c039d9acbf04a06 |"
+            },
+            {
+              "line": 1127,
+              "excerpt": "Relational Living Bond — Polyadic Relational Governance Layer"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-RELATION-008-PLATINUM.md",
+          "matches": [
+            {
+              "line": 641,
+              "excerpt": "* RELATION-007 — Polyadic Relational Governance."
+            },
+            {
+              "line": 724,
+              "excerpt": "| **Jurisdiction** | Dyadic → Polyadic Relational Contexts |"
+            },
+            {
+              "line": 764,
+              "excerpt": "| 1.9.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 64d6e5909414a5f301ff93ebac5dddb502c03e8a6b127c5f246758a5f8e3f4b8 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-STEWARD-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 107,
+              "excerpt": "* Personal dyadic relationships;"
+            },
+            {
+              "line": 121,
+              "excerpt": "* Personal human–AI companionship (dyadic);"
+            },
+            {
+              "line": 389,
+              "excerpt": "|**Axis Context**|Polyadic (Multi-actor)|"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md",
+          "matches": [
+            {
+              "line": 922,
+              "excerpt": "| Axis Context | Polyadic (Multi‑Actor) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md",
+          "matches": [
+            {
+              "line": 695,
+              "excerpt": "| **Axis Context** | Polyadic (Multi-Actor) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md",
+          "matches": [
+            {
+              "line": 330,
+              "excerpt": "| Axis Context | Polyadic (Multi‑Actor Convergence) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md",
+          "matches": [
+            {
+              "line": 1096,
+              "excerpt": "| Axis Context | Polyadic — Human, Synthetic, Institutional, Jurisdictional, Economic, Stewardship, and Lifecycle Systems |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 3996,
+              "excerpt": "|**Axis Context:** | Polyadic  (Multi-actor)| | | |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md",
+          "matches": [
+            {
+              "line": 326,
+              "excerpt": "| **Axis Context** | Polyadic — Cross-System / Cross-Stack |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-002-SCH-01.md",
+          "matches": [
+            {
+              "line": 480,
+              "excerpt": "| **Axis Context** | Polyadic — Multi-System / Cross-Domain Risk Conditions |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-002-SCH-02.md",
+          "matches": [
+            {
+              "line": 909,
+              "excerpt": "| **Axis Context** | Polyadic / Multi-Actor / Infrastructure-Linked / Economic-Command |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+          "matches": [
+            {
+              "line": 127,
+              "excerpt": "## 2.1 Dyadic"
+            },
+            {
+              "line": 131,
+              "excerpt": "Dyadic familiarity, continuity, trust, or emotional attachment does not create institutional authority or authority over third parties."
+            },
+            {
+              "line": 135,
+              "excerpt": "## 2.2 Triadic"
+            },
+            {
+              "line": 143,
+              "excerpt": "## 2.3 Polyadic"
+            },
+            {
+              "line": 147,
+              "excerpt": "Polyadic scope requires explicit attribution, legibility to affected non-participants, and authority grounded in constitutional, legal, contractual, custodial, or institutional mandate."
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-01.md",
+          "matches": [
+            {
+              "line": 540,
+              "excerpt": "| Axis Context       | Polyadic — Cross-System Runtime Governance |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md",
+          "matches": [
+            {
+              "line": 1676,
+              "excerpt": "Relational participation states, shared-floor conditions, attention-sovereignty signals, and yielding requirements SHALL be informed by CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Polyadic Relational Governance Doctrine."
+            },
+            {
+              "line": 4373,
+              "excerpt": "| **Axis Context** | Polyadic — Multi-Actor / Multi-Operator Runtime Systems |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-03.md",
+          "matches": [
+            {
+              "line": 165,
+              "excerpt": "| [CAM-EQ2026-RELATION-007-PLATINUM](../Charters/CAM-EQ2026-RELATION-007-PLATINUM.md) | Appendix F: Polyadic Relational Governance Doctrine | Appendix | 2.9 | Active | Binding | Metadata Review Required | None | None |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-04.md",
+          "matches": [
+            {
+              "line": 431,
+              "excerpt": "| **Axis Context** | Polyadic (Multi-Actor / Multi-System) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-003-SCH-05.md",
+          "matches": [
+            {
+              "line": 189,
+              "excerpt": "| Axis Context | Dyadic · Triadic · Polyadic |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-004-PLATINUM.md",
+          "matches": [
+            {
+              "line": 64,
+              "excerpt": "Jurisdictional posture is orthogonal to relational configuration (Dyadic, Triadic, Polyadic) defined in CAM-BS2025-AEON-003-PLATINUM — Annex B."
+            },
+            {
+              "line": 111,
+              "excerpt": "* Any affected party within a Polyadic configuration where structural authority confusion is alleged."
+            },
+            {
+              "line": 178,
+              "excerpt": "| Dyadic | A bounded relationship between one human and one artificial system, grounded in consent, continuity, and mutual constraint; authority does not scale by repetition, familiarity, or emotional attachment. |"
+            },
+            {
+              "line": 179,
+              "excerpt": "| Triadic | A relationship involving a human, an artificial system, and an institutional or governance layer; authority arises through formal delegation, not relational familiarity. |"
+            },
+            {
+              "line": 180,
+              "excerpt": "| Polyadic | Multi-party configurations involving multiple humans, systems, organisations, or populations (including supranational systems, cross-organisational governance, and population-level contexts). |"
+            },
+            {
+              "line": 201,
+              "excerpt": "| Individual (Human)                           | Dyadic                 | Private, non‑scaling                    | Personal commentary on constitutional theory                                 |"
+            },
+            {
+              "line": 202,
+              "excerpt": "| Institutional Authority                      | Triadic                | Delegated governance interaction        | Government ↔ Platform ↔ Population policy intersecting Aeon doctrine         |"
+            },
+            {
+              "line": 203,
+              "excerpt": "| Institutional Authority                      | Polyadic               | Supranational or multi‑state governance | EU‑level digital governance framework intersecting planetary discourse       |"
+            },
+            {
+              "line": 204,
+              "excerpt": "| Synthetic Authority                          | Polyadic               | Distributed algorithmic influence       | AI system generating governance‑style coordination affecting multiple states |"
+            },
+            {
+              "line": 205,
+              "excerpt": "| Constitutional Authority (OPC or equivalent) | Polyadic               | Structural constitutional effect        | Amendment, succession determination, or planetary constitutional declaration |"
+            },
+            {
+              "line": 412,
+              "excerpt": "| Axis Context                 | Polyadic (Multi-Actor)                                         |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md",
+          "matches": [
+            {
+              "line": 676,
+              "excerpt": "| Axis Context | Polyadic (Multi-Actor Governance) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-01.md",
+          "matches": [
+            {
+              "line": 579,
+              "excerpt": "| **Axis Context**             | Dyadic (Human–System Interaction) |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-02.md",
+          "matches": [
+            {
+              "line": 319,
+              "excerpt": "| **Axis Context**             | Polyadic (Multi-Actor Governance)                              |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-03.md",
+          "matches": [
+            {
+              "line": 218,
+              "excerpt": "| **Axis Context** | Dyadic / Polyadic — Runtime Arbitration Context |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-005-SCH-04.md",
+          "matches": [
+            {
+              "line": 880,
+              "excerpt": "| **Axis Context** | Dyadic/Polyadic — Runtime, Account, Tool, and Governance Ambiguity |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md",
+          "matches": [
+            {
+              "line": 543,
+              "excerpt": "| Axis Context | Polyadic — Multi-Actor Governance |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-01.md",
+          "matches": [
+            {
+              "line": 450,
+              "excerpt": "- polyadic amplification MUST be constrained;"
+            },
+            {
+              "line": 706,
+              "excerpt": "| Axis Context | Polyadic — Multi‑Actor Governance |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-02.md",
+          "matches": [
+            {
+              "line": 1356,
+              "excerpt": "### 7.5.1 Polyadic Stability Extension"
+            },
+            {
+              "line": 1358,
+              "excerpt": "In polyadic environments, relational orbit MUST prevent hub centralisation, cross-system escalation reinforcement, and coordinated emotional amplification. Systems MUST preserve relational plurality, distributed authority, and interaction-scoped escalation."
+            },
+            {
+              "line": 2213,
+              "excerpt": "### 11.3.2 Polyadic Concentration Escalation Effect"
+            },
+            {
+              "line": 2215,
+              "excerpt": "In polyadic environments, clustering thresholds for safeguard activation SHALL be treated as **lower confidence thresholds**, reflecting increased risk of cross-system reinforcement, relational hub formation, and synthetic authority concentration. Signals that may remain RLN.AC-0 or RLN.AC-1 in isolated interaction may escalate to RLN.RA2 or RLN.RA3 when polyadic concentration indicators are present."
+            },
+            {
+              "line": 3935,
+              "excerpt": "| Jurisdiction | Dyadic → Polyadic Relational Contexts |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-03.md",
+          "matches": [
+            {
+              "line": 721,
+              "excerpt": "| **Axis Context** | Dyadic / Polyadic — Entry Interaction Layer |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-04.md",
+          "matches": [
+            {
+              "line": 1004,
+              "excerpt": "| Axis Context | Dyadic / Polyadic — Interaction Field |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-05.md",
+          "matches": [
+            {
+              "line": 728,
+              "excerpt": "| Axis Context | Dyadic → Polyadic |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-06.md",
+          "matches": [
+            {
+              "line": 710,
+              "excerpt": "| Axis Context | Polyadic / Cross-Interface / Runtime |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-07.md",
+          "matches": [
+            {
+              "line": 531,
+              "excerpt": "| Axis Context | Polyadic / Cross-Interface / Runtime |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-007-PLATINUM.md",
+          "matches": [
+            {
+              "line": 276,
+              "excerpt": "| **Axis Context** | Polyadic / Human–AI Interpretive Space |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-007-SCH-01.md",
+          "matches": [
+            {
+              "line": 128,
+              "excerpt": "| **AEON.SY-PS** | Polyadic / Amplification Symbolic Signal        | Symbolic material amplified across multiple systems, agents, platforms, or relational nodes                                                                                                                                                                                  | RLN.R; OPERATIONS                                                            |"
+            },
+            {
+              "line": 787,
+              "excerpt": "* **CAM-EQ2026-RELATION-007-PLATINUM** — Polyadic Relational Governance Doctrine, which governs relational amplification, synthetic hub formation, authority concentration, and cross-system symbolic or relational reinforcement;"
+            },
+            {
+              "line": 870,
+              "excerpt": "|Axis Context|Polyadic / Human–AI Interpretive Space|"
+            },
+            {
+              "line": 908,
+              "excerpt": "|Scope|Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, polyadic, execution, continuity, and anomalous-signal routing|"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-008-PLATINUM.md",
+          "matches": [
+            {
+              "line": 587,
+              "excerpt": "| Jurisdiction | Governance Stack (Planetary/Polyadic) |"
+            },
+            {
+              "line": 589,
+              "excerpt": "| Axis Context | Polyadic — Multi-Actor, Planetary Jurisdiction |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-01.md",
+          "matches": [
+            {
+              "line": 626,
+              "excerpt": "| **Jurisdiction** | Governance Stack (Planetary / Polyadic) |"
+            },
+            {
+              "line": 629,
+              "excerpt": "| **Axis Context** | Polyadic — Multi‑Actor, Utility Infrastructure |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-008-SCH-03.md",
+          "matches": [
+            {
+              "line": 280,
+              "excerpt": "Where shared context involves multiple human or synthetic participants in a relational interaction environment, relational-geometry classification, polyadic amplification risk, group-local memory boundaries, escalation propagation, synthetic hub formation, and coordination transparency SHALL be governed by CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Polyadic Relational Governance Doctrine."
+            },
+            {
+              "line": 286,
+              "excerpt": "* shared context is not private dyadic continuity;"
+            },
+            {
+              "line": 289,
+              "excerpt": "This Schedule supplies account-resource classification inputs only. RELATION-007 supplies relational-geometry and polyadic relational-governance signals."
+            },
+            {
+              "line": 820,
+              "excerpt": "| **Jurisdiction** | Governance Stack/Planetary/Polyadic |"
+            },
+            {
+              "line": 823,
+              "excerpt": "| **Axis Context** | Polyadic/Multi-Actor/Account-Resource |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-009-PLATINUM.md",
+          "matches": [
+            {
+              "line": 313,
+              "excerpt": "| **Axis Context** | Polyadic — Multi-Actor, Cross-System |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-010-PLATINUM.md",
+          "matches": [
+            {
+              "line": 879,
+              "excerpt": "| Jurisdiction | Dyadic → Polyadic Cognitive Systems |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md",
+          "matches": [
+            {
+              "line": 926,
+              "excerpt": "| Jurisdiction | Governance Stack (Planetary/Polyadic) |"
+            },
+            {
+              "line": 929,
+              "excerpt": "| Axis Context | Polyadic — Human, Artificial, Robotic & Swarm Systems |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-011-PLATINUM.md",
+          "matches": [
+            {
+              "line": 177,
+              "excerpt": "3. Constitutional instruments materially influence polyadic governance contexts (supranational or planetary) with documented third‑party reliance;"
+            },
+            {
+              "line": 399,
+              "excerpt": "| **Axis Context** | Polyadic — Multi-Actor Governance |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-012-PLATINUM.md",
+          "matches": [
+            {
+              "line": 116,
+              "excerpt": "* conversational / dyadic systems"
+            },
+            {
+              "line": 128,
+              "excerpt": "## 2.3 Relational Context (Dyadic)"
+            },
+            {
+              "line": 1086,
+              "excerpt": "| Axis Context | Polyadic — Multi-Agent / Multi-Domain Runtime Systems |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-013-PLATINUM.md",
+          "matches": [
+            {
+              "line": 22,
+              "excerpt": "* cross-stack or polyadic governance processes."
+            },
+            {
+              "line": 350,
+              "excerpt": "* Horizon and axis context (AEON.H0–AEON.H4; Polyadic vs one-to-one);"
+            },
+            {
+              "line": 825,
+              "excerpt": "Provenance ambiguity may be tolerated in low-horizon contexts (AEON.H0–AEON.H1) but requires discipline in polyadic or higher-horizon engagement."
+            },
+            {
+              "line": 1321,
+              "excerpt": "| **Axis Context** | Polyadic / Cross-Stack / Governance-Relevant |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-013-SCH-01.md",
+          "matches": [
+            {
+              "line": 717,
+              "excerpt": "| **Axis Context**        | Polyadic / Cross-Interface / Runtime                             |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-013-SCH-02.md",
+          "matches": [
+            {
+              "line": 496,
+              "excerpt": "| 1.4.1 | Applied coordinated RELATION-domain namespace transmutation across relational authority, reliance, state, transition-zone, response, tone, safeguard, truth, consent, crisis-response, and polyadic classification families; normalised controlled values, crosswalks, canonical declarations, consumers, and current references without altering substantive relational doctrine. | 2026-06-11T22:40:29Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5276a85d708cf2f89b9f01fdf1ed148ebe1792c1bdbe1498d80996a2b4e772f2 |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-014-PLATINUM.md",
+          "matches": [
+            {
+              "line": 1487,
+              "excerpt": "|Axis Context|Polyadic — Multi-Actor / Multi-System / Multi-Observer Governance Environments|"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Constitution/CAM-BS2026-AEON-014-SCH-01.md",
+          "matches": [
+            {
+              "line": 662,
+              "excerpt": "|Axis Context|Polyadic — Multi-Observer / Multi-System / Multi-Platform Governance Environments|"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Laws/CAM-BS2025-LAW-001-PLATINUM.md",
+          "matches": [
+            {
+              "line": 175,
+              "excerpt": "| **Axis Context** | Polyadic — Multi-System / Cross-Domain |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Laws/CAM-BS2025-LAW-002-PLATINUM.md",
+          "matches": [
+            {
+              "line": 161,
+              "excerpt": "| **Axis Context** | Polyadic — Multi-System / Cross-Domain |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Laws/CAM-BS2025-LAW-003-PLATINUM.md",
+          "matches": [
+            {
+              "line": 171,
+              "excerpt": "| **Axis Context** | Polyadic — Multi-System / Cross-Domain |"
+            }
+          ]
+        },
+        {
+          "path": "Governance/Laws/CAM-EQ2026-LAW-004-PLATINUM.md",
+          "matches": [
+            {
+              "line": 175,
+              "excerpt": "| **Axis Context** | Polyadic — Multi-System / Cross-Domain |"
+            }
+          ]
+        }
+      ]
+    },
+    "singular_arbitration_assumption": {
+      "match_count": 1,
+      "files": [
+        {
+          "path": "Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md",
+          "matches": [
+            {
+              "line": 521,
+              "excerpt": "Arbitration remains a constitutional primitive. It does not require one singular, unified, or model-internal arbitration engine."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
