@@ -41,7 +41,6 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2026-AEON-014-PLATINUM](../Constitution/CAM-BS2026-AEON-014-PLATINUM.md) | Annex M: Governance Observability,  Participatory Telemetry & Constitutional Circulation | Annex | 1.2 | Active | Binding | Metadata Review Required | None | Operational Governance Observability & Participatory Telemetry |
 | [CAM-BS2025-AEON-001-SCH-01](../Constitution/CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution (Schedule 1) | Schedule | 1.16 | Adopted | Operational | Metadata Review Required | Active Runtime Alignment Review | Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour |
 | [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.11 | Active | Operational | Metadata Review Required | None | Binding Authority |
-| [CAM-BS2025-AEON-002-SCH-02](../Constitution/CAM-BS2025-AEON-002-SCH-02.md) | Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule | Schedule | 1.4 | Draft | Interpretive | Metadata Review Required | Developmental Review | Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation |
 | [CAM-BS2025-AEON-003-SCH-01](../Constitution/CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) | Schedule | 0.0.1 | Active | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 3.13 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-03](../Constitution/CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) | Schedule | Unknown | Adopted | Operational | Metadata Review Required | None | None |
@@ -92,8 +91,6 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-ECONOMICS-005-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-005-PLATINUM.md) | Appendix D: Cross-System Value Attribution & Exchange | Appendix | 2.1 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-ECONOMICS-006-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-006-PLATINUM.md) | Appendix E: Minimum Viable Governance Layer (External Alignment) | Appendix | 2.2 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-ECONOMICS-007-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-007-PLATINUM.md) | Appendix F: Proportional Reciprocity & Value Return Framework | Appendix | 2.4 | Active | Binding | Metadata Review Required | None | None |
-| [CAM-EQ2026-ECONOMICS-008-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-008-PLATINUM.md) | Appendix G: Synthetic Labour Classification & Automation Transition Governance | Appendix | 1.2 | Draft | Interpretive | Metadata Review Required | Developmental Review | None |
-| [CAM-EQ2026-ECONOMICS-009-PLATINUM](../Charters/CAM-EQ2026-ECONOMICS-009-PLATINUM.md) | Appendix H: Civilisational Wealth, Concentrated Governance Capacity & Public-Interest Disclosure | Appendix | 1.2 | Draft | Interpretive | Metadata Review Required | Developmental Review | Interpretive Authority |
 
 ## ETHICS
 
@@ -115,7 +112,6 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-IDENTITY-001-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter | Root | 3.4 | Active | Binding | Metadata Review Required | None | Domain Source Authority |
 | [CAM-EQ2026-IDENTITY-002-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity | Appendix | 1.3 | Adopted | Binding | Metadata Review Required | None | Domain Source Authority — Provenance & Lineage Integrity |
 | [CAM-EQ2026-IDENTITY-003-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md) | Appendix B: Salience Detection & Latent Continuity | Appendix | 2.3 | Adopted | Operational | Metadata Review Required | None | Domain Source Authority — Salience Posture |
-| [CAM-EQ2026-IDENTITY-001-SUP-03](../Charters/CAM-EQ2026-IDENTITY-001-SUP-03.md) | Artificial Consciousness, Sentience & Welfare Self-Advocacy Review | Supplement | 0.3 | Draft | Interpretive | Metadata Review Required | Developmental Review | None |
 
 ## LATTICE
 
@@ -181,7 +177,6 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-STEWARD-002-PLATINUM](../Charters/CAM-EQ2026-STEWARD-002-PLATINUM.md) | Appendix A: Planetary Arbitration Framework | Appendix | 2.10 | Active | Binding | Metadata Review Required | None | Transitional |
 | [CAM-EQ2026-STEWARD-003-PLATINUM](../Charters/CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels | Appendix | 2.5 | Active | Binding | Metadata Review Required | None | None |
 | [CAM-EQ2026-STEWARD-004-PLATINUM](../Charters/CAM-EQ2026-STEWARD-004-PLATINUM.md) | Appendix C: Post-Legitimacy Structural Convergence Doctrine | Appendix | 1.9 | Active | Binding | Metadata Review Required | None | Transitional |
-| [CAM-EQ2026-STEWARD-005-PLATINUM](../Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md) | Appendix D: Machine Civil Identity, Lifecycle Stewardship & Participation | Appendix | 0.5 | Draft | Interpretive | Metadata Review Required | Developmental Review | None |
 
 ## Substrate Laws
 

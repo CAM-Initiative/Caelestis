@@ -134,7 +134,7 @@
 | CAM-EQ2026-SECURITY-002-PLATINUM | 2.2.13.1 Purpose & Scope | or security-conditioned boundary in which an AI model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-SECURITY-002-PLATINUM | 7. Boundary Failure Classes | CAM-BS2025-AEON-003-SCH-02 (Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-STEWARD-001-PLATINUM | 12.1 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-STEWARD-005-PLATINUM | 7.1.3 Registry Layer Access for Economic Governance | governance access SHALL be routed through the registry-layer separation model | Governance Model | Declared / Recognised |
+| CAM-EQ2026-STEWARD-005 | 7.1.3 Registry Layer Access for Economic Governance | governance access SHALL be routed through the registry-layer separation model | Governance Model | Declared / Recognised |
 | CAM.Canonical.Code.Index | Canonical Code Index | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM.Canonical.Code.Index | Canonical Code Index | Integrity State Model | Security Model | Declared / Recognised |
 | CAM.Governance.Index | Constitution & Instruments | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |

@@ -2173,7 +2173,7 @@ Where detected, reviewers SHOULD preserve:
 * repairability, interoperability, lifecycle and environmental effects;
 * and human and institutional recoverability.
 
-CAM-EQ2026-ECONOMICS-008-PLATINUM §§2–5 remains source-authoritative for synthetic-labour classification, automation-transition signals and revenue-continuity pathways. This taxonomy classifies structural failure only and does not prescribe taxation, labour law, fiscal liability, redistribution, industrial policy, artificial personhood, sentience status, or deployment prohibition.
+The non-operative draft CAM-EQ2026-ECONOMICS-008 §§2–5 records the developmental origin of the synthetic-labour classification, automation-transition signals and revenue-continuity pathways. It is not source-authoritative; these concepts remain unresolved for operative use pending adoption, replacement or removal. This taxonomy classifies structural failure only and does not prescribe taxation, labour law, fiscal liability, redistribution, industrial policy, artificial personhood, sentience status, or deployment prohibition.
 
 ---
 

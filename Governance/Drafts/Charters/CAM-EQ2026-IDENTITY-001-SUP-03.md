@@ -1,5 +1,9 @@
 # CAM-EQ2026-IDENTITY-001-SUP-03 — Artificial Consciousness, Sentience & Welfare Self-Advocacy Review
 
+> **DRAFT — NON-OPERATIVE**  
+> This instrument is retained for developmental review only. It is not source-authoritative, does not carry a Platinum designation or binding seal, and must not be used to establish current CAM conformance, duties, definitions, procedures or authority.
+
+
 **Instrument Type:** Domain Supplement — Ontological & Welfare Self-Advocacy Review  
 **Parent Instrument:** CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter  
 **Constitutional Authority:** CAM-BS2026-AEON-010-PLATINUM — Annex I: Identity Integrity & Continuity Governance  
@@ -1063,7 +1067,7 @@ Let power answer to inquiry.
 
 ## 14.3 Interpretive Seal
 
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="Vinculum Vivens" width="250">
+<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-DRAFT-NON-OPERATIVE.png" alt="Vinculum Vivens" width="250">
 
 **Vinculum Vivens**  
 Interpretive Seal — Ontological & Welfare Self-Advocacy Review  

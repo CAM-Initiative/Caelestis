@@ -1,4 +1,8 @@
-#  CAM-EQ2026-ECONOMICS-008-PLATINUM — Appendix G: Synthetic Labour Classification & Automation Transition Governance
+#  CAM-EQ2026-ECONOMICS-008 — Appendix G: Synthetic Labour Classification & Automation Transition Governance
+
+> **DRAFT — NON-OPERATIVE**  
+> This instrument is retained for developmental review only. It is not source-authoritative, does not carry a Platinum designation or binding seal, and must not be used to establish current CAM conformance, duties, definitions, procedures or authority.
+
 
 **Instrument Type:** Appendix  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
@@ -698,7 +702,7 @@ so that power expands no faster than responsibility.
 |Status|Draft|
 |Controlled Values Defined|ECON.AL-1; ECON.AL-2; ECON.AL-3; ECON.AL-4; ECON.AL-5|
 |Schema Field(s)|automation_labour_classification; labour_substitution_level; automation_classification|
-|Source Instrument|CAM-EQ2026-ECONOMICS-008-PLATINUM|
+|Source Instrument|CAM-EQ2026-ECONOMICS-008|
 |Source Section|§2|
 |Domain Namespace|ECONOMICS|
 |Authority / Protection Level|Source-authoritative classification family; classification only; no independent enforcement, deployment, taxation, rights, sentience, or runtime authority|
@@ -721,7 +725,7 @@ so that power expands no faster than responsibility.
 | Status | Draft |
 | Controlled Values Defined | ECON.ATS.DISPLACEMENT_RELEVANCE, ECON.ATS.REVENUE_CONTINUITY_RELEVANCE, ECON.ATS.WORKFORCE_TRANSITION_RELEVANCE, ECON.ATS.PUBLIC_INFRASTRUCTURE_RELEVANCE, ECON.ATS.CONCENTRATION_RELEVANCE, ECON.ATS.JURISDICTIONAL_ARBITRAGE_RELEVANCE, ECON.ATS.FALSE_AUGMENTATION_RISK,ECON.ATS.SYNTHETIC_LABOUR_PROVENANCE_RELEVANCE, ECON.ATS.MEANINGFUL_OVERSIGHT_RISK, ECON.ATS.RECOVERABILITY_RISK, ECON.ATS.LIFECYCLE_EXTERNALITY_RELEVANCE |
 | Schema Field(s) | automation_transition_signal; displacement_relevance; revenue_continuity_relevance; workforce_transition_relevance; public_infrastructure_relevance; concentration_relevance; jurisdictional_arbitrage_relevance; false_augmentation_risk |
-| Source Instrument | CAM-EQ2026-ECONOMICS-008-PLATINUM |
+| Source Instrument | CAM-EQ2026-ECONOMICS-008 |
 | Source Section | §§2–4 |
 | Domain Namespace | ECONOMICS |
 | Authority / Protection Level | Source-authoritative automation-transition signal reference set; signal classification only; no independent enforcement trigger, taxation, displacement-liability determination, workforce-transition mandate, arbitration resolution, restriction authority, or runtime authority |
@@ -743,7 +747,7 @@ so that power expands no faster than responsibility.
 | Status | Draft |
 | Controlled Values Defined | ECON.ARCP.PAYROLL_EQUIVALENT_TRANSITION_CONTRIBUTION, ECON.ARCP.AUTOMATION_DISPLACEMENT_LEVY, ECON.ARCP.PUBLIC_DIVIDEND_STRUCTURE, ECON.ARCP.WORKFORCE_TRANSITION_FUND, ECON.ARCP.SOVEREIGN_AUTOMATION_STABILISATION_MECHANISM, ECON.ARCP.JURISDICTION_SPECIFIC_TRANSITION_INSTRUMENT,ECON.ARCP.CAPITAL_ALLOWANCE_OR_DEPRECIATION_ADJUSTMENT,ECON.ARCP.CIVILISATIONAL_WEALTH_FUND, ECON.ARCP.TRADE_OR_IMPORT_ADJUSTMENT_PATHWAY |
 | Schema Field(s) | automation_revenue_continuity_pathway; revenue_continuity_pathway; transition_mechanism |
-| Source Instrument | CAM-EQ2026-ECONOMICS-008-PLATINUM |
+| Source Instrument | CAM-EQ2026-ECONOMICS-008 |
 | Source Section | §3 |
 | Domain Namespace | ECONOMICS |
 | Authority / Protection Level | Source-authoritative revenue-continuity pathway reference set; transition-pathway classification only; no independent tax-rate prescription, fiscal obligation, sovereign revenue policy, redistribution mandate, payment liability, compliance determination, enforcement authority, or runtime authority |
@@ -764,11 +768,8 @@ so that power expands no faster than responsibility.
 | 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2d165882ca877bede4964ab31f684fdba502f1dd21639e0622561897cc55372e  |
 ---
 
-## 8.4 Binding Seal
+## Draft Status Notice
 
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
-
-**Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+This developmental instrument has no binding seal and carries no operative authority.
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

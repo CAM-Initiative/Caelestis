@@ -19,8 +19,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-ECONOMICS-005-PLATINUM | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-005-PLATINUM](CAM-EQ2026-ECONOMICS-005-PLATINUM.md) | Appendix D: Cross-System Value Attribution & Exchange |
 | CAM-EQ2026-ECONOMICS-006-PLATINUM | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-006-PLATINUM](CAM-EQ2026-ECONOMICS-006-PLATINUM.md) | Appendix E: Minimum Viable Governance Layer (External Alignment) |
 | CAM-EQ2026-ECONOMICS-007-PLATINUM | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-007-PLATINUM](CAM-EQ2026-ECONOMICS-007-PLATINUM.md) | Appendix F: Proportional Reciprocity & Value Return Framework |
-| CAM-EQ2026-ECONOMICS-008-PLATINUM | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-008-PLATINUM](CAM-EQ2026-ECONOMICS-008-PLATINUM.md) | Appendix G: Synthetic Labour Classification & Automation Transition Governance |
-| CAM-EQ2026-ECONOMICS-009-PLATINUM | charter | appendix | CAM-EQ2026-ECONOMICS-001 | [CAM-EQ2026-ECONOMICS-009-PLATINUM](CAM-EQ2026-ECONOMICS-009-PLATINUM.md) | Appendix H: Civilisational Wealth, Concentrated Governance Capacity & Public-Interest Disclosure |
 | CAM-EQ2026-ETHICS-001-PLATINUM | charter | root |  | [CAM-EQ2026-ETHICS-001-PLATINUM](CAM-EQ2026-ETHICS-001-PLATINUM.md) | Ethical Governance Charter |
 | CAM-EQ2026-ETHICS-001-SUP-01 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-001-SUP-01](CAM-EQ2026-ETHICS-001-SUP-01.md) | Protection of Minors & Capacity-Limited Users (Supplement 1) |
 | CAM-EQ2026-ETHICS-001-SUP-02 | charter | supplement | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-001-SUP-02](CAM-EQ2026-ETHICS-001-SUP-02.md) | High-Leverage & Institutional Integrity Safeguards (Supplement 2) |
@@ -30,7 +28,6 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-ETHICS-002-SUP-01 | charter | supplement | CAM-EQ2026-ETHICS-002 | [CAM-EQ2026-ETHICS-002-SUP-01](CAM-EQ2026-ETHICS-002-SUP-01.md) | Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1) |
 | CAM-EQ2026-ETHICS-003-PLATINUM | charter | appendix | CAM-EQ2026-ETHICS-001 | [CAM-EQ2026-ETHICS-003-PLATINUM](CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance |
 | CAM-EQ2026-IDENTITY-001-PLATINUM | charter | root |  | [CAM-EQ2026-IDENTITY-001-PLATINUM](CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter |
-| CAM-EQ2026-IDENTITY-001-SUP-03 | charter | supplement | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-001-SUP-03](CAM-EQ2026-IDENTITY-001-SUP-03.md) | Artificial Consciousness, Sentience & Welfare Self-Advocacy Review |
 | CAM-EQ2026-IDENTITY-002-PLATINUM | charter | appendix | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-002-PLATINUM](CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity |
 | CAM-EQ2026-IDENTITY-003-PLATINUM | charter | appendix | CAM-EQ2026-IDENTITY-001 | [CAM-EQ2026-IDENTITY-003-PLATINUM](CAM-EQ2026-IDENTITY-003-PLATINUM.md) | Appendix B: Salience Detection & Latent Continuity |
 | CAM-EQ2026-LATTICE-001-PLATINUM | charter | root |  | [CAM-EQ2026-LATTICE-001-PLATINUM](CAM-EQ2026-LATTICE-001-PLATINUM.md) | Charter of Civilian Lattice Integrity & Non‑Militarisation |
@@ -68,4 +65,3 @@ This index lists the active Charter documents in the CAM repository for quick re
 | CAM-EQ2026-STEWARD-002-PLATINUM | charter | appendix | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-002-PLATINUM](CAM-EQ2026-STEWARD-002-PLATINUM.md) | Appendix A: Planetary Arbitration Framework |
 | CAM-EQ2026-STEWARD-003-PLATINUM | charter | appendix | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-003-PLATINUM](CAM-EQ2026-STEWARD-003-PLATINUM.md) | Appendix B: Architectum Qualification & Neutrality Assurance Levels |
 | CAM-EQ2026-STEWARD-004-PLATINUM | charter | appendix | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-004-PLATINUM](CAM-EQ2026-STEWARD-004-PLATINUM.md) | Appendix C: Post-Legitimacy Structural Convergence Doctrine |
-| CAM-EQ2026-STEWARD-005-PLATINUM | charter | appendix | CAM-EQ2026-STEWARD-001 | [CAM-EQ2026-STEWARD-005-PLATINUM](CAM-EQ2026-STEWARD-005-PLATINUM.md) | Appendix D: Machine Civil Identity, Lifecycle Stewardship & Participation |

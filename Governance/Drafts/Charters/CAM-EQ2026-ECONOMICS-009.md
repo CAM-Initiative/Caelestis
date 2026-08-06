@@ -1,4 +1,8 @@
-# CAM-EQ2026-ECONOMICS-009-PLATINUM — Appendix H: Civilisational Wealth, Concentrated Governance Capacity & Public-Interest Disclosure
+# CAM-EQ2026-ECONOMICS-009 — Appendix H: Civilisational Wealth, Concentrated Governance Capacity & Public-Interest Disclosure
+
+> **DRAFT — NON-OPERATIVE**  
+> This instrument is retained for developmental review only. It is not source-authoritative, does not carry a Platinum designation or binding seal, and must not be used to establish current CAM conformance, duties, definitions, procedures or authority.
+
 
 **Instrument Type:** Domain Appendix — Interpretive Economic Governance Authority  
 **Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture  
@@ -390,11 +394,8 @@ The disclosure triggers, consolidated-control measures, civilisational concentra
 
 ---
 
-### 10.3 Binding Seal
+## Draft Status Notice
 
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
-
-**Vinculum Praeceptum**  
-Boundary Binding Seal — Civilisational Wealth Interpretive Governance Layer
+This developmental instrument has no binding seal and carries no operative authority.
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

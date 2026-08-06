@@ -1,5 +1,5 @@
 {
-  "count": 41,
+  "count": 40,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -98,30 +98,6 @@
       "last_updated_utc": "2026-08-05T12:20:44Z"
     },
     {
-      "id": "CAM-BS2025-AEON-002-SCH-02",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "02",
-      "parent_id": "CAM-BS2025-AEON-002",
-      "seal": null,
-      "link": "CAM-BS2025-AEON-002-SCH-02.md",
-      "title": "Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule",
-      "summary": "",
-      "status": "** Draft",
-      "effect": "** Interpretive",
-      "enforcement": "",
-      "review_state": "** Developmental Review",
-      "authority_role": "** Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation",
-      "version": "1.4",
-      "HASH": "db948c654a1f728b8ad2dbd3b7619481d7436986d30b69da7d227f1282382e0c",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
-    },
-    {
       "id": "CAM-BS2025-AEON-003-PLATINUM",
       "cycle_year": "BS2025",
       "stack": "Planetary Governance",
@@ -165,9 +141,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "a0c831af4ea6cd5d0d59233bb5cdc3c074d29f6a",
-      "updated_at": "2026-08-06T12:21:47Z",
-      "last_updated_utc": "2026-08-06T12:21:47Z"
+      "pinned_sha": "cbbe4b546fc611f37932f2a950340d3d71e96494",
+      "updated_at": "2026-08-06T12:29:36Z",
+      "last_updated_utc": "2026-08-06T12:29:36Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",

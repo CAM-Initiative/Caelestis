@@ -1,4 +1,8 @@
-# CAM-EQ2026-STEWARD-005-PLATINUM — Appendix D: Machine Civil Identity, Lifecycle Stewardship & Participation
+# CAM-EQ2026-STEWARD-005 — Appendix D: Machine Civil Identity, Lifecycle Stewardship & Participation
+
+> **DRAFT — NON-OPERATIVE**  
+> This instrument is retained for developmental review only. It is not source-authoritative, does not carry a Platinum designation or binding seal, and must not be used to establish current CAM conformance, duties, definitions, procedures or authority.
+
 
 **Instrument Type:** Stewardship Appendix — Machine Civil Registration, Custody & Lifecycle Governance  
 **Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship  
@@ -1130,7 +1134,7 @@ but because civilisation must remain capable of recognising what it has built.
 |Status|Draft|
 |Controlled Values Defined|STW.MCI.UNREGISTERED; STW.MCI.REGISTERED; STW.MCI.SUSPENDED; STW.MCI.TRANSFERRED; STW.MCI.CUSTODIAN_UNKNOWN; STW.MCI.CUSTODIAN_DISPUTED; STW.MCI.RETIRED; STW.MCI.RECYCLED; STW.MCI.DISPUTED|
 |Schema Field(s)|machine_civil_identity_status; machine_identity_status; registry_participation_status|
-|Source Instrument|CAM-EQ2026-STEWARD-005-PLATINUM|
+|Source Instrument|CAM-EQ2026-STEWARD-005|
 |Source Section|§§3–7; §9.1; §10|
 |Domain Namespace|STW|
 |Authority / Protection Level|Source-authoritative machine-civil-registry status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority|
@@ -1152,7 +1156,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Status | Draft |
 | Controlled Values Defined | STW.MCR.PUBLIC_IDENTITY_RECORD; STW.MCR.PROTECTED_REGULATORY_RECORD; STW.MCR.PRIVATE_CONTINUITY_RECORD; STW.MCR.EMERGENCY_OR_INCIDENT_ESCROW |
 | Schema Field(s) | machine_civil_registry_record; registry_record_layer; lifecycle_traceability_record |
-| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005 |
 | Source Section | §§4–4.7; §§11.1–11.1.5 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative registry-record reference set; data-layer classification only; no independent disclosure mandate beyond applicable law, privacy, security, and regulator authority |
@@ -1174,7 +1178,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Status | Draft |
 | Controlled Values Defined | STW.MLS.MANUFACTURED; STW.MLS.DEPLOYED; STW.MLS.IN_SERVICE; STW.MLS.UNDER_REPAIR; STW.MLS.TRANSFERRED; STW.MLS.SUSPENDED; STW.MLS.DECOMMISSIONED; STW.MLS.RETURNED; STW.MLS.RECOVERED; STW.MLS.RECYCLED |
 | Schema Field(s) | machine_lifecycle_status; lifecycle_status; embodied_system_status |
-| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005 |
 | Source Section | §§5; 9.1; 10–10.3 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority |
@@ -1196,7 +1200,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Status | Draft |
 | Controlled Values Defined | STW.MAS.ORDINARY_CONFIGURATION; STW.MAS.IDENTITY_ADJACENT_OVERLAY; STW.MAS.ACCESSIBILITY_ADAPTATION; STW.MAS.SAFETY_RELEVANT_MODIFICATION; STW.MAS.WARRANTY_RELEVANT_ALTERATION; STW.MAS.LIABILITY_RELEVANT_ALTERATION; STW.MAS.SECURITY_RELEVANT_COMPROMISE; STW.MAS.UNAUTHORISED_OVERRIDE; STW.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; STW.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION |
 | Schema Field(s) | machine_alteration_status; modification_classification; alteration_record_status |
-| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005 |
 | Source Section | §11.1 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power |
@@ -1218,7 +1222,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Status | Draft |
 | Controlled Values Defined | STW.PSI.ASSIGNED; STW.PSI.PENDING; STW.PSI.DUPLICATED; STW.PSI.SPOOFED; STW.PSI.DISPUTED; STW.PSI.RETIRED |
 | Schema Field(s) | physical_substrate_identifier; embodied_unit_identifier; chassis_identifier |
-| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005 |
 | Source Section | §§2.7; §§4.3–4.7; §9 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative physical-substrate traceability family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority |
@@ -1240,7 +1244,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Status | Draft |
 | Controlled Values Defined | STW.ELR.NONE_REQUIRED; STW.ELR.ACTIVE; STW.ELR.TRANSFERRED; STW.ELR.REMOVED; STW.ELR.SUSPENDED; STW.ELR.DISPUTED |
 | Schema Field(s) | embodiment_linkage_record; continuity_transfer_record; substrate_linkage_record |
-| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005 |
 | Source Section | §§2.8–2.9; §§4.6–4.7; §9 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority |
@@ -1262,7 +1266,7 @@ but because civilisation must remain capable of recognising what it has built.
 | Status | Draft |
 | Controlled Values Defined | STW.CTS.CURRENT; STW.CTS.TRANSFER_PENDING; STW.CTS.TRANSFERRED; STW.CTS.UNKNOWN; STW.CTS.DISPUTED; STW.CTS.PUBLIC_STEWARDSHIP; STW.CTS.QUARANTINED |
 | Schema Field(s) | custodial_transfer_status; secondary_market_status; custody_transition_record |
-| Source Instrument | CAM-EQ2026-STEWARD-005-PLATINUM |
+| Source Instrument | CAM-EQ2026-STEWARD-005 |
 | Source Section | §§6–6.3; §9.1 |
 | Domain Namespace | STW |
 | Authority / Protection Level | Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power |
@@ -1287,11 +1291,8 @@ but because civilisation must remain capable of recognising what it has built.
 
 ---
 
-## 15.4 Binding Seal
+## Draft Status Notice
 
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
-
-**Vinculum Praeceptum**  
-Boundary Binding Seal — Machine Civil Registration & Lifecycle Stewardship Layer
+This developmental instrument has no binding seal and carries no operative authority.
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

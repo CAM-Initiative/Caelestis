@@ -1,5 +1,9 @@
 # CAM-BS2025-AEON-002-SCH-02 — Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule
 
+> **DRAFT — NON-OPERATIVE**  
+> This instrument is retained for developmental review only. It is not source-authoritative, does not carry a Platinum designation or binding seal, and must not be used to establish current CAM conformance, duties, definitions, procedures or authority.
+
+
 **Instrument Type:** Constitutional Schedule — Civilisational Economic Constraint Runtime  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Annex:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
@@ -952,11 +956,8 @@ It is measured by what remains possible for those who come after.
 
 ---
 
-## 27.4 Binding Seal
+## Draft Status Notice
 
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
-
-**Vinculum Beacon**
-Boundary Binding Seal — Aeon Tier Constitutional Layer
+This developmental instrument has no binding seal and carries no operative authority.
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
