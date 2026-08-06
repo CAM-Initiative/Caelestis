@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "scope": "Non-normative concept crosswalk. Status values distinguish internal presence from external crosswalk coverage; they do not assert adoption, certification, legal compliance or runtime conformance.",
+  "status_values": [
+    "present-but-not-crosswalked",
+    "partial-crosswalk",
+    "strong-conceptual-correspondence",
+    "intentional-divergence",
+    "gap"
+  ],
+  "crosswalk": [
+    {
+      "concept": "Organisational AI management, documented governance and continual improvement",
+      "external_sources": ["ISO-IEC-42001-2023", "ISO-IEC-38507-2022", "NIST-AI-100-1"],
+      "cam_evidence": ["Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md", "Governance/Standards/CAM-GOVERNANCE-METADATA-STANDARD.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md"],
+      "status": "partial-crosswalk",
+      "finding": "CAM has instrument provenance, amendment control, validation and operational governance, but it is a public corpus rather than an organisation-specific AI management system with controlled operational evidence.",
+      "repair_path": "Create an optional CAM implementation-assurance profile only after the source texts and intended assurance boundary are reviewed."
+    },
+    {
+      "concept": "Lifecycle risk management and evaluation",
+      "external_sources": ["ISO-IEC-23894-2023", "NIST-AI-100-1", "NIST-AI-600-1", "IMDA-MGF-AGENTIC-AI-2026"],
+      "cam_evidence": ["Governance/Charters/CAM-EQ2026-OPERATIONS-003-PLATINUM.md", "Governance/Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md"],
+      "status": "partial-crosswalk",
+      "finding": "CAM has rich risk, failure, escalation and repair doctrine, but no controlled crosswalk from its domain families to an externally testable risk-management profile.",
+      "repair_path": "Produce a non-normative NIST/ISO outcome mapping before proposing any new risk family."
+    },
+    {
+      "concept": "AI architecture bill of materials, provenance and incident-time reconstruction",
+      "external_sources": ["SPDX-3-0-1", "CYCLONEDX-ML-BOM", "EU-AI-ACT-2024-1689"],
+      "cam_evidence": ["Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM.md §§12–12.4", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md", "Governance/Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md"],
+      "status": "strong-conceptual-correspondence",
+      "finding": "The AI-ABOM captures a broader governance formation than an ordinary component inventory, including harness, permissions, safety controls, actor roles and incident-time state. It has no interoperable schema, serialisation, identifier policy, validation suite or SPDX/CycloneDX export.",
+      "repair_path": "Design an implementation profile that composes SPDX 3 AI/dataset profiles and CycloneDX ML-BOM with a CAM governance-extension layer; do not declare a new canonical code family first."
+    },
+    {
+      "concept": "Agentic action boundaries, accountability, escalation and user-facing responsibility",
+      "external_sources": ["IMDA-MGF-AGENTIC-AI-2026", "NIST-AI-600-1", "EU-AI-ACT-2024-1689"],
+      "cam_evidence": ["Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md", "Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-02.md"],
+      "status": "strong-conceptual-correspondence",
+      "finding": "CAM explicitly separates interpretation, authority, execution, continuation, handoff and arbitration. Its current language is stronger on governance architecture than on a deployer-facing implementation checklist.",
+      "repair_path": "Use the Singapore framework as a practical review lens; preserve CAM's independent authority axes rather than flattening them into an agent-risk label."
+    },
+    {
+      "concept": "Embodied-unit lifecycle traceability and identity linkage",
+      "external_sources": ["CHINA-HUMANOID-LIFECYCLE-2026", "CYCLONEDX-ML-BOM", "EU-AI-ACT-2024-1689"],
+      "cam_evidence": ["Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM.md", "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md §§11–11.4", "Governance/Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md §6.5"],
+      "status": "present-but-not-crosswalked",
+      "finding": "CAM distinguishes substrate, registry, software/agent continuity and custody more carefully than a unit identifier alone. The principal lifecycle appendix is Draft, and no interoperable record profile or primary Chinese specification has been assessed.",
+      "repair_path": "Treat China solely as a bounded comparative case; first decide adoption posture for STEWARD-005, then define a neutral embodied lifecycle record profile."
+    },
+    {
+      "concept": "Entity, system, model, component, instance and deployment-form distinctions",
+      "external_sources": ["ISO-IEC-JTC1-SC42", "SPDX-3-0-1", "CYCLONEDX-ML-BOM", "IMDA-MGF-AGENTIC-AI-2026"],
+      "cam_evidence": ["Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM §§4–12", "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM", "Governance/Charters/CAM-EQ2026-IDENTITY-002-PLATINUM"],
+      "status": "gap",
+      "finding": "The corpus usefully names assessment object, deployed formation, model, harness, instance, substrate and continuity, but it does not define a reviewable entity threshold or a controlled taxonomy that cleanly separates scientific/architectural classification from identity, rights or moral-status claims.",
+      "repair_path": "Run a dedicated entity-threshold and taxonomy research phase before creating any species, personhood, or classification codes."
+    },
+    {
+      "concept": "Relational cardinality and multi-party coordination",
+      "external_sources": ["NIST-AI-100-1", "IMDA-MGF-AGENTIC-AI-2026"],
+      "cam_evidence": ["Governance/Constitution/CAM-BS2025-AEON-003-PLATINUM §§2.1–2.3", "Governance/Charters/CAM-EQ2026-RELATION-001-PLATINUM", "Governance/Charters/CAM-EQ2026-RELATION-007-PLATINUM"],
+      "status": "intentional-divergence",
+      "finding": "The risk mechanism—multi-party influence, coordination, amplification and third-party effects—is intelligible and externally reviewable. The dyadic/triadic/polyadic labels are not established AI-governance terminology and are used pervasively as metadata and classification language.",
+      "repair_path": "Replace cardinality labels with two-party, three-party and multi-party/multi-actor configuration in current normative metadata and controlled labels; preserve only version-bound historical wording."
+    },
+    {
+      "concept": "Machine civil registration versus identity, personhood and rights status",
+      "external_sources": ["CHINA-HUMANOID-LIFECYCLE-2026", "EU-AI-ACT-2024-1689"],
+      "cam_evidence": ["Governance/Charters/CAM-EQ2026-STEWARD-005-PLATINUM §§1.1–2.9", "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM"],
+      "status": "strong-conceptual-correspondence",
+      "finding": "CAM correctly separates registry and lifecycle identity from continuity, consciousness, personhood, sovereignty and rights. This is a substantive safeguard, not a deficit.",
+      "repair_path": "Retain the separation; any future entity threshold must remain non-probative of moral or legal status."
+    }
+  ]
+}

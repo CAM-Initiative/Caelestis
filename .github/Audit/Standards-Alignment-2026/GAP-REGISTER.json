@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "scope": "Audit findings only. Priority is repair sequencing, not a VIGIL triage field, severity determination, legal assessment or implementation finding.",
+  "findings": [
+    {
+      "id": "CSA-001",
+      "title": "AI-ABOM is not yet interoperable or mechanically validated",
+      "area": "AI-BOM",
+      "priority": "P0",
+      "finding": "Annex B requires a broad AI-ABOM and incident-time snapshot, but CAM has no versioned exchange schema, profile selection, identifier rules, export, conformance tests, or mapping to SPDX 3 / CycloneDX ML-BOM.",
+      "why_it_matters": "A strong descriptive requirement cannot be externally inspected, exchanged or reliably reconstructed without a controlled implementation profile.",
+      "source_authority_candidates": ["CAM-BS2025-AEON-003-PLATINUM", "CAM-EQ2026-OPERATIONS-007-PLATINUM"],
+      "recommended_next_step": "Research and prototype an AI-ABOM implementation profile; defer new canonical-code creation until the data model and authority placement are tested.",
+      "vigil_disposition": "Do not auto-create a VIGIL record. A later proposal may cite this audit if a discrete corpus repair is authorised."
+    },
+    {
+      "id": "CSA-002",
+      "title": "No externally reviewable entity threshold",
+      "area": "Taxonomy and identity",
+      "priority": "P0",
+      "finding": "The corpus distinguishes formation, model, instance, harness, substrate, continuity and identity, but it does not state the evidentiary threshold at which an assembled AI is classified as an entity for architectural or scientific purposes.",
+      "why_it_matters": "Without a threshold, component, system, identity and moral-status claims can be accidentally conflated or made non-falsifiable.",
+      "source_authority_candidates": ["CAM-BS2025-AEON-003-PLATINUM", "CAM-EQ2026-IDENTITY-001-PLATINUM"],
+      "recommended_next_step": "Commission the dedicated entity-threshold research pass; require operational boundary, integration, persistence, causal coherence, differentiation, independent state, developmental history, action capability, environmental coupling and reproducible organisation to be assessed separately.",
+      "vigil_disposition": "Research question, not an incident record."
+    },
+    {
+      "id": "CSA-003",
+      "title": "Relational cardinality labels are not externally crosswalkable",
+      "area": "Terminology",
+      "priority": "P1",
+      "finding": "Dyadic, triadic and polyadic occur in current normative prose, metadata and named doctrine. Their underlying mechanisms are useful, but the labels are not controlled terminology in the reviewed AI-governance sources.",
+      "why_it_matters": "They make cross-domain review and external scrutiny harder, especially when used as a classification or metadata value rather than explanatory prose.",
+      "source_authority_candidates": ["CAM-BS2025-AEON-003-PLATINUM", "CAM-EQ2026-RELATION-001-PLATINUM", "CAM-EQ2026-RELATION-007-PLATINUM"],
+      "recommended_next_step": "Prepare a focused terminology migration: two-party, three-party, and multi-party/multi-actor configuration; preserve causal mechanisms and prohibit automatic semantic changes.",
+      "vigil_disposition": "No new failure mode is warranted by vocabulary alone."
+    },
+    {
+      "id": "CSA-004",
+      "title": "Embodied lifecycle identity is conceptually mature but not adopted",
+      "area": "Embodiment and lifecycle",
+      "priority": "P1",
+      "finding": "STEWARD-005 offers a careful distinction between physical-unit registration, lifecycle records and continuity-bearing layers, but it remains Draft and has no interoperable record profile.",
+      "why_it_matters": "The corpus must not claim operational lifecycle-governance coverage that its own metadata does not yet grant.",
+      "source_authority_candidates": ["CAM-EQ2026-STEWARD-005-PLATINUM", "CAM-EQ2026-IDENTITY-001-PLATINUM", "CAM-EQ2026-IDENTITY-002-PLATINUM"],
+      "recommended_next_step": "Perform an adoption and locality review of STEWARD-005, informed by but not derived from the China comparative case; then determine whether an embodied lifecycle record profile is needed.",
+      "vigil_disposition": "No VIGIL record until a concrete failure or repair proposal is identified."
+    },
+    {
+      "id": "CSA-005",
+      "title": "Standards evidence is partly licensed or summary-only",
+      "area": "Audit evidence",
+      "priority": "P1",
+      "finding": "The ISO standards were inspected through official public records and abstracts, not licensed full text. The China case is limited to a public summary; a primary technical specification was not available.",
+      "why_it_matters": "Representing those sources as fully assessed would undermine the audit's own evidence discipline.",
+      "source_authority_candidates": ["SOURCE-REGISTER.json"],
+      "recommended_next_step": "Obtain authorised access before any clause-level ISO mapping; retain China as a bounded case study only.",
+      "vigil_disposition": "Evidence limitation, not a failure mode."
+    },
+    {
+      "id": "CSA-006",
+      "title": "External alignment is not yet separated from deployment assurance in a reusable profile",
+      "area": "Assurance boundary",
+      "priority": "P2",
+      "finding": "The corpus correctly states that repository validation does not prove deployed-runtime behaviour. The distinction is not yet exposed as a concise implementation-assurance profile for external reviewers.",
+      "why_it_matters": "Readers can otherwise misread a corpus crosswalk as a claim that any provider, model, deployer or deployment conforms.",
+      "source_authority_candidates": ["README.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"],
+      "recommended_next_step": "After the AI-ABOM profile is designed, prepare a non-normative assurance-boundary note distinguishing corpus alignment, implementation evidence and independent assessment.",
+      "vigil_disposition": "No VIGIL record required."
+    }
+  ]
+}
