@@ -1,5 +1,5 @@
 {
-  "count": 106,
+  "count": 107,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -2157,6 +2157,32 @@
       "updated_at": "2026-08-05T12:20:44Z",
       "last_updated_utc": "2026-08-05T12:20:44Z",
       "purpose": "Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, state-and-context, identity-relevant, UX, infrastructure, classification, automation-transition, and economic-legitimacy failure modes observed in AI systems and CAM-aligned deployments.",
+      "is_derived": false
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-003-SUP-02",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "02",
+      "parent_id": "CAM-EQ2026-OPERATIONS-003",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-OPERATIONS-003-SUP-02.md",
+      "title": "Defensive Cyber Incident Assistance Framework",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Non-operative pending adoption",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Human Governance Authority",
+      "version": "Unknown",
+      "HASH": "",
+      "pinned_sha": "96ca656f156580c9fbcc0ae0abee23e77f2dbf14",
+      "updated_at": "2026-08-06T10:06:30Z",
+      "last_updated_utc": "2026-08-06T10:06:30Z",
+      "purpose": "Preserve safe and useful AI assistance for authorised cybersecurity investigation and incident response while preventing unauthorised target expansion, exploit operationalisation, credential misuse, persistence, propagation, or harmful execution",
       "is_derived": false
     },
     {

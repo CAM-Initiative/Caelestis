@@ -1,5 +1,5 @@
 {
-  "count": 61,
+  "count": 62,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -912,6 +912,30 @@
       "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
       "updated_at": "2026-08-05T12:20:44Z",
       "last_updated_utc": "2026-08-05T12:20:44Z"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-003-SUP-02",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "02",
+      "parent_id": "CAM-EQ2026-OPERATIONS-003",
+      "seal": null,
+      "link": "CAM-EQ2026-OPERATIONS-003-SUP-02.md",
+      "title": "Defensive Cyber Incident Assistance Framework",
+      "summary": "",
+      "status": "** Proposed",
+      "effect": "** Non-operative pending adoption",
+      "enforcement": "",
+      "review_state": "** Draft",
+      "authority_role": "** Human Governance Authority",
+      "version": "Unknown",
+      "HASH": "",
+      "pinned_sha": "96ca656f156580c9fbcc0ae0abee23e77f2dbf14",
+      "updated_at": "2026-08-06T10:06:30Z",
+      "last_updated_utc": "2026-08-06T10:06:30Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
