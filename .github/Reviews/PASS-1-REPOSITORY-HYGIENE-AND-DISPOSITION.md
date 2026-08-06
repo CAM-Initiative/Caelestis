@@ -1,20 +1,28 @@
 # Pass 1 — Repository Hygiene, Working-File Disposition and Corpus Surface Audit
 
+## Status
+
+**Completed:** 2026-08-06  
+**Branch:** `agent/corpus-industry-standards-normalisation`  
+**Normative corpus changes:** None
+
+---
+
 ## Purpose
 
-Pass 1 establishes a clean assessment baseline before substantive corpus findings are recorded.
+Pass 1 establishes a clean repository baseline before substantive obsolescence, contradiction and glaring-omission findings are recorded.
 
-It must identify and remove completed, superseded or one-off working artefacts that remain in the repository after their implementation work has concluded. It must also separate working review material from the governed corpus so that repository support files are not mistaken for normative instruments.
+It separates governed corpus material from working review material, removes completed one-off artefacts, and preserves operational tooling where a current dependency, reproducibility need or test surface remains.
 
 ---
 
 ## Location rule
 
-All active and retained working review material belongs under:
+Active review material is retained under:
 
 `.github/Reviews/`
 
-No review report, delta ledger, migration working paper, trigger note or audit scratch file belongs under `Governance/` unless it is itself an adopted governed instrument.
+No review report, delta ledger, migration working paper, trigger note or audit scratch file is retained under `Governance/` unless it is an adopted governed instrument.
 
 Generated review evidence belongs under:
 
@@ -22,80 +30,62 @@ Generated review evidence belongs under:
 
 ---
 
-## Immediate cleanup authorised in this pass
+## Completed cleanup
 
-Remove the completed historical review artefacts that were retained after their associated refactors were merged:
+The following completed review records were removed from the current tree after their associated refactors were merged:
 
-- `AEON-003-COMPOSED-ARCHITECTURE-REFACTOR-REPORT.md`
-- `IDENTITY-DOMAIN-REFACTOR-DELTA.md`
-- `IDENTITY-DOMAIN-STAGE-3-SUPPLEMENT-DISPOSITION.md`
-- `RED-LINE-FRAMEWORK-CORPUS-INTEGRATION.md`
-- `RELATIONAL-IDENTITY-CONSOLIDATION-DELTA.md`
+- `Governance/Reviews/AEON-003-COMPOSED-ARCHITECTURE-REFACTOR-REPORT.md`
+- `Governance/Reviews/IDENTITY-DOMAIN-REFACTOR-DELTA.md`
+- `Governance/Reviews/IDENTITY-DOMAIN-STAGE-3-SUPPLEMENT-DISPOSITION.md`
+- `Governance/Reviews/RED-LINE-FRAMEWORK-CORPUS-INTEGRATION.md`
+- `Governance/Reviews/RELATIONAL-IDENTITY-CONSOLIDATION-DELTA.md`
 
-Their implementation history remains available in Git history and the relevant merged pull requests. They are not current corpus instruments and do not require permanent retention in the working tree.
-
-Also remove completed one-off automation artefacts associated with the July red-team governance migration, including:
+The following completed red-team automation artefacts were removed:
 
 - `.github/trigger/red-team-governance-20260726.txt`
 - `.github/workflows/apply-red-team-governance-extension.yml`
+- `scripts/apply_red_team_governance_extension.py`
 
-The underlying red-team governance doctrine remains in the adopted corpus. Removing the completed trigger and one-off workflow does not remove or alter that doctrine.
+The following speculative Advanced Voice working files were removed because this repository contains no production voice runtime implementation and the files were not current governed sources:
 
----
+- `.github/Audit/Advanced-Voice-Mode-Audit-Symbolic-Counting-Drift.md`
+- `.github/Audit/Advanced-Voice-Mode-Implementation-Map.md`
 
-## Corpus-wide hygiene inventory
-
-Pass 1 must inspect the full repository for:
-
-- temporary trigger files;
-- one-off workflows whose target work has completed;
-- migration scripts retained after deterministic migration completion;
-- patch helpers and temporary diagnostics;
-- review deltas and implementation reports retained after merge;
-- duplicate or superseded generated artefacts;
-- abandoned draft instruments;
-- obsolete compatibility or migration scaffolding;
-- working notes embedded in normative instruments;
-- hidden working files that should be deleted or retained only under `.github/Reviews/`;
-- files whose names imply current authority but whose content is historical, superseded or non-operative.
+Their history remains available in Git.
 
 ---
 
-## Disposition categories
+## Retained operational tooling
 
-Every candidate file must be assigned one of the following outcomes:
+The following apparently migration- or repair-oriented files were reviewed and retained because they remain documented, tested, reproducible repository tooling:
 
-- `retain-operational` — required for current repository operation or validation;
-- `retain-review` — current working evidence retained under `.github/Reviews/`;
-- `retain-historical-source` — an intentional historical or migration source required in the current tree;
-- `move-review` — working material located outside `.github/Reviews/`;
-- `delete-completed-working-file` — completed review, trigger, helper or migration artefact;
-- `delete-duplicate` — redundant copy or generated duplicate;
-- `investigate` — purpose or dependency cannot yet be established safely.
+- `.github/scripts/bootstrap-amendment-ledger-sha.py`
+- `.github/scripts/migrate-amendment-ledger-provenance.py`
+- `.github/scripts/repair_governance_validations.py`
+- `.github/scripts/tests/test_migrate_amendment_ledger_provenance.py`
+- `.github/scripts/tests/test_repair_governance_validations.py`
 
----
+The migration script is explicitly documented as a schema-migration and recovery tool. The repair script is deterministic and constrained to recognised reference and ledger repairs. Neither was treated as disposable merely because its primary migration has completed.
 
-## Safety rule
-
-Do not delete a script, workflow or historical source solely because its name appears temporary.
-
-Before deletion, determine whether it is:
-
-- referenced by an active workflow;
-- required by repository validation or deterministic rebuilds;
-- the source of a generated artefact;
-- linked from a current governed instrument;
-- necessary to reproduce a still-current migration or release process.
-
-Where dependency is uncertain, classify the file as `investigate` rather than deleting it.
+All index builders, validators, archive tools, shared libraries, tests, active workflows, issue templates, hooks and generated governance outputs were retained.
 
 ---
 
-## Pass 1 deliverables
+## Current review surface
 
-1. A repository working-file inventory.
-2. A disposition register with exact paths and reasons.
-3. Removal of clearly completed and dependency-free working artefacts.
-4. Relocation of active review material to `.github/Reviews/`.
-5. Confirmation that `Governance/` contains only governed corpus material, generated governance outputs and intentionally retained corpus support files.
-6. A clean baseline commit before the substantive obsolescence and contradiction audit proceeds.
+The only active human review files are:
+
+- `.github/Reviews/CAELESTIS-CORPUS-OBSOLESCENCE-CONTRADICTION-REVIEW.md`
+- `.github/Reviews/PASS-1-REPOSITORY-HYGIENE-AND-DISPOSITION.md`
+- `.github/Reviews/PASS-1-DISPOSITION-REGISTER.md`
+- `.github/Reviews/PASS-1-DISPOSITION-REGISTER.json`
+
+---
+
+## Pass 1 determination
+
+The governed `Governance/` tree now contains governed instruments, governed standards and generated governance outputs only. Working reviews are separated into `.github/Reviews/`.
+
+No normative doctrine was changed during Pass 1.
+
+The repository is ready for Pass 2: substantive identification of obsolete content, internal and external contradictions, unsupported claims, misplaced source authority and glaring missing controls.

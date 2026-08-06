@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "pass": "repository-hygiene-and-disposition",
+  "completed_date": "2026-08-06",
+  "branch": "agent/corpus-industry-standards-normalisation",
+  "normative_changes": false,
+  "dispositions": [
+    {"path": ".github/Reviews/CAELESTIS-CORPUS-OBSOLESCENCE-CONTRADICTION-REVIEW.md", "disposition": "retain-review", "reason": "Active corpus-wide review scope."},
+    {"path": ".github/Reviews/PASS-1-REPOSITORY-HYGIENE-AND-DISPOSITION.md", "disposition": "retain-review", "reason": "Pass 1 record."},
+    {"path": "Governance/Reviews/AEON-003-COMPOSED-ARCHITECTURE-REFACTOR-REPORT.md", "disposition": "delete-completed-working-file", "reason": "Historical implementation report for merged PR 104."},
+    {"path": "Governance/Reviews/IDENTITY-DOMAIN-REFACTOR-DELTA.md", "disposition": "delete-completed-working-file", "reason": "Historical working delta for merged PR 99."},
+    {"path": "Governance/Reviews/IDENTITY-DOMAIN-STAGE-3-SUPPLEMENT-DISPOSITION.md", "disposition": "delete-completed-working-file", "reason": "Completed identity refactor disposition."},
+    {"path": "Governance/Reviews/RED-LINE-FRAMEWORK-CORPUS-INTEGRATION.md", "disposition": "delete-completed-working-file", "reason": "Completed integration record."},
+    {"path": "Governance/Reviews/RELATIONAL-IDENTITY-CONSOLIDATION-DELTA.md", "disposition": "delete-completed-working-file", "reason": "Completed consolidation delta."},
+    {"path": ".github/trigger/red-team-governance-20260726.txt", "disposition": "delete-completed-working-file", "reason": "One-off completed trigger."},
+    {"path": ".github/workflows/apply-red-team-governance-extension.yml", "disposition": "delete-completed-working-file", "reason": "One-off completed workflow."},
+    {"path": "scripts/apply_red_team_governance_extension.py", "disposition": "delete-completed-working-file", "reason": "Encoded one-off patch payload whose only caller was the removed workflow."},
+    {"path": ".github/Audit/Advanced-Voice-Mode-Audit-Symbolic-Counting-Drift.md", "disposition": "delete-completed-working-file", "reason": "Speculative external-runtime audit, not a governed source."},
+    {"path": ".github/Audit/Advanced-Voice-Mode-Implementation-Map.md", "disposition": "delete-completed-working-file", "reason": "Hypothetical implementation map for code not present in the repository."},
+    {"path": ".github/scripts/bootstrap-amendment-ledger-sha.py", "disposition": "retain-operational", "reason": "Documented manual recovery tool."},
+    {"path": ".github/scripts/migrate-amendment-ledger-provenance.py", "disposition": "retain-operational", "reason": "Documented and tested deterministic migration/recovery tool."},
+    {"path": ".github/scripts/repair_governance_validations.py", "disposition": "retain-operational", "reason": "Constrained deterministic repair tool with tests."},
+    {"path": ".github/scripts/tests/test_migrate_amendment_ledger_provenance.py", "disposition": "retain-operational", "reason": "Regression coverage."},
+    {"path": ".github/scripts/tests/test_repair_governance_validations.py", "disposition": "retain-operational", "reason": "Regression coverage."},
+    {"path": ".github/Indices/CAM.Governance.Model-Terminology.Audit.md", "disposition": "retain-operational", "reason": "Current generated audit output."},
+    {"path": ".github/workflows/governance-rebuild.yml", "disposition": "retain-operational", "reason": "Active deterministic rebuild workflow."},
+    {"path": ".github/workflows/refresh-ledger-hashes.yml", "disposition": "retain-operational", "reason": "Active controlled ledger workflow."}
+  ]
+}
