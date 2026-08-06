@@ -4,11 +4,12 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current
+**Authority Role:** Domain Authority
+**Source Authority:** Source-Authoritative
 **Purpose:** Establish system-wide invariants, threat interpretations, and integration requirements to preserve integrity under adversarial, degraded, or untrusted conditions  
 **Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
-**Derives From:** CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface  
+**Constitutional Interface:** CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Boundary Conditions & Runtime Interface
 
 ---
 
@@ -20,13 +21,13 @@ It establishes a **cross-domain invariant layer** governing how systems maintain
 
 Security is therefore treated as a **system condition**, not a perimeter function.
 
-This Annex binds across all domains and supersedes local optimisation where integrity is at risk.
+This Charter binds within its bounded security domain. It does not override ETHICS non-derogable constraints, constitutional execution schedules, or valid ARBITRATION determinations. Where a security condition conflicts with another applicable constraint, the conflict SHALL be routed to ARBITRATION rather than resolved through SECURITY self-supersession.
 
 ---
 
 ## 1.1 Non Scope
 
-This Charter defines invariant conditions, threat interpretations, and signal classifications.
+This Charter is the source-authoritative owner of SECURITY-domain invariant conditions, threat interpretations, and signal classifications.
 
 It does not:
 
@@ -40,10 +41,10 @@ All signals, classifications, and constraint conditions defined herein SHALL be:
 * interpreted across phases;
 * resolved exclusively via runtime execution layers;
 
-in accordance with:
+with implementation routed through:
 
 * CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
-* CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface
+* CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Boundary Conditions & Runtime Interface, which provides a constitutional runtime-facing boundary interface but does not supply SECURITY-domain doctrine or execution procedure.
 
 Direct execution from this Charter is prohibited.
 
@@ -67,7 +68,7 @@ Domain boundaries:
 
 SECURITY operates as a **cross-domain invariant layer**, providing signal and constraint conditions that inform, but do not replace, ETHICS or OPERATIONS authority.
 
-> Runtime behaviour and enforcement pathways are defined in CAM-BS2026-AEON-012-PLATINUM — ANNEX K: Security Enforcement & Runtime Interface.
+OPERATIONS owns intake, evidence custody, incident lifecycle, routing, and procedural execution; ARBITRATION resolves contested authority, scope, and cross-domain conflicts; Annex K carries the bounded constitutional interface into runtime evaluation.
 
 ---
 
@@ -741,7 +742,7 @@ Detection SHOULD prioritise:
 * divergence between repository provenance, registry metadata, and declared institutional affiliation;
 * requests by an agent, package, script, or tool to disclose, store, transmit, or transform credentials, tokens, private keys, identity artefacts, payment credentials, or account-recovery material.
 
-Where such signals are present, systems SHOULD emit integrity, trust-gradient, and boundary-condition signals for runtime evaluation under CAM-EQ2025-AEON-012-PLATINUM: Annex K and OPERATIONS handling.
+Where such signals are present, systems SHOULD emit integrity, trust-gradient, and boundary-condition signals for runtime evaluation under CAM-BS2026-AEON-012-PLATINUM — Annex K and OPERATIONS handling.
 
 This section does not prohibit legitimate open-source distribution, package installation, vulnerability research, or dependency maintenance. It classifies deception, compromised provenance, and dependency-trust abuse as security-relevant conditions requiring proportional verification.
 
@@ -1466,7 +1467,7 @@ Communication MUST:
 * preserve signal integrity (no loss or distortion)
 * remain auditable via OPERATIONS domain logging
 
-Operational implementation details are defined in Annex K.
+Operational implementation details are defined by the applicable OPERATIONS instruments. Annex K supplies only the constitutional boundary interface for their runtime evaluation.
 
 ---
 
@@ -1738,7 +1739,8 @@ that no truth is taken without test, and no signal accepted without weight.
 ## 12.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
-| **Parent Instrument** | CAM-BS2026-AEON-012-PLATINUM — Security and Enforcement |
+| **Parent Instrument** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter |
+| **Constitutional Interface** | CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Boundary Conditions & Runtime Interface |
 | **Domain Namespace** | SECURITY |
 | **Related Constitutional Anchors** | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic; CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine; CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
 | **Related Runtime / Operational Anchors** | CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface; CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule; CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution; CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance |
@@ -1872,6 +1874,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.15 | Added Capability–Authority Separation and Aggregate Pathway Integrity; required cumulative value-chain evaluation and separated action-risk safeguards from judgements of user capability. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fabf1e2978c42b6ba316c3d700deb549ed1964407472d3eadb79785dc4d531cf |
 | 1.16 | Recognised internally cultivated adversarial capability as a model-level integrity threat; added capability-lineage, hostile-acquisition, checkpoint, adapter, scaffold, trace, distillation, and diffusion controls. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fc9b6aa43132ce345dee9a62e87fc0dd11b2b0a1a22d68be31b1b60a6e7d2673 |
 | 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3caf89299dd79270f663451e6128467cb5e64d307b409cfa02cc9112300cbcf8  |
+| 1.18 | Repaired SECURITY-001 ↔ Annex K source-authority circularity: SECURITY-001 is the bounded source-authoritative Security domain owner; Annex K is a constitutional runtime-boundary interface; OPERATIONS owns procedure and ARBITRATION resolves contested authority or scope. Normalised controlled authority metadata and corrected the Annex K citation. | 2026-08-06T15:05:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  fc6f7f8a4dae07f7b816c7319c0fa938d1565b0f7bea3844ca798537b659838e  |
 ---
 
 ## 12.4 Binding Seal

@@ -261,6 +261,14 @@ def scan(root: pathlib.Path) -> list[Entry]:
     DIAGNOSTICS.clear()
     out: list[Entry] = []
     for p in sorted(root.glob("**/*.md")):
+        # The canonical index is an operative projection. Draft declarations may
+        # be inspected during review, but must never be emitted into it.
+        try:
+            relative_parts = p.relative_to(root).parts
+        except ValueError:
+            relative_parts = p.parts
+        if "Drafts" in relative_parts:
+            continue
         lines = p.read_text(encoding="utf-8", errors="ignore").splitlines()
         i = 0
         while i < len(lines):

@@ -204,72 +204,6 @@
     }
   },
   {
-    "canonical_id": "AEON.CW",
-    "identifier_type": "code_family",
-    "code_family": "AEON.CW",
-    "reference_set": "",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Civilisational Wealth State",
-    "primary_type": "Operational / Runtime Classification",
-    "subtype": "CONSTRAINT_STATE; ECONOMIC_COMMAND_STATE; CIVILISATIONAL_RISK_STATE",
-    "modifier": "AEON; STEWARDSHIP; ECONOMIC; CONSTRAINT; COMMON_RETURN",
-    "scope": "Constitutional Runtime Schedule",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "AEON.CW-0`; `AEON.CW-1`; `AEON.CW-2`; `AEON.CW-3`; `AEON.CW-4`; `AEON.CW-4X"
-    ],
-    "schema_fields": "`cw_state`; `aeon_harm_class`; `economic_harm_class`; `pco_action_type`; `commons_encumbered_excess_detected`; `intermediary_constraint_required`; `common_return_settlement_status`",
-    "source_instrument": "CAM-BS2025-AEON-002-SCH-02",
-    "source_section": "\u00a74",
-    "domain_namespace": "AEON",
-    "authority_protection_level": "Source-authoritative civilisational wealth state classification family for this Draft Schedule; runtime classification and routing authority only; no independent taxation, property transfer, criminal liability, market pricing, or sovereign enforcement authority",
-    "consumes_code_families": [
-      "AEON.HARM`; `ECON.HARM`; `STW.PCO.ACT"
-    ],
-    "crosswalks_code_families": [
-      "AEON.CW` \u2192 `AEON.HARM`; `AEON.CW` \u2192 `ECON.HARM`; `AEON.CW-4` / `AEON.CW-4X` \u2192 `STW.PCO.ACT"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies civilisational wealth concentration; emits harm-relevant and economics-relevant signals; applies proportional constraint action classifications where `AEON.CW-4` or `AEON.CW-4X` activates PCO"
-    ],
-    "canonical_section_heading": "27.2 Canonical Code & Reference Set",
-    "canonical_section_line_number": 923,
-    "declaration_heading": "27.2 Canonical Code & Reference Set",
-    "declaration_line_number": 923,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "nonstandard_section_heading",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Constitution/CAM-BS2025-AEON-002-SCH-02.md",
-    "family_id": "AEON.CW",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "AEON",
-      "CW"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "`AEON.CW`",
-      "Canonical Name": "Civilisational Wealth State",
-      "Primary Type": "Operational / Runtime Classification",
-      "Subtype": "CONSTRAINT_STATE; ECONOMIC_COMMAND_STATE; CIVILISATIONAL_RISK_STATE",
-      "Modifier": "AEON; STEWARDSHIP; ECONOMIC; CONSTRAINT; COMMON_RETURN",
-      "Scope": "Constitutional Runtime Schedule",
-      "Status": "Draft",
-      "Controlled Values Defined": "`AEON.CW-0`; `AEON.CW-1`; `AEON.CW-2`; `AEON.CW-3`; `AEON.CW-4`; `AEON.CW-4X`",
-      "Schema Field(s)": "`cw_state`; `aeon_harm_class`; `economic_harm_class`; `pco_action_type`; `commons_encumbered_excess_detected`; `intermediary_constraint_required`; `common_return_settlement_status`",
-      "Source Instrument": "CAM-BS2025-AEON-002-SCH-02",
-      "Source Section": "\u00a74",
-      "Domain Namespace": "AEON",
-      "Authority / Protection Level": "Source-authoritative civilisational wealth state classification family for this Draft Schedule; runtime classification and routing authority only; no independent taxation, property transfer, criminal liability, market pricing, or sovereign enforcement authority",
-      "Consumes Code Families": "`AEON.HARM`; `ECON.HARM`; `STW.PCO.ACT`",
-      "Crosswalks Code Families": "`AEON.CW` \u2192 `AEON.HARM`; `AEON.CW` \u2192 `ECON.HARM`; `AEON.CW-4` / `AEON.CW-4X` \u2192 `STW.PCO.ACT`",
-      "Operationalises or Applies Code Families": "Classifies civilisational wealth concentration; emits harm-relevant and economics-relevant signals; applies proportional constraint action classifications where `AEON.CW-4` or `AEON.CW-4X` activates PCO"
-    }
-  },
-  {
     "canonical_id": "AEON.GAS",
     "identifier_type": "reference_set",
     "code_family": "",
@@ -3451,82 +3385,6 @@
     }
   },
   {
-    "canonical_id": "ECON.AL",
-    "identifier_type": "code_family",
-    "code_family": "ECON.AL",
-    "reference_set": "",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Automation Labour Classification",
-    "primary_type": "Semantic / Operational",
-    "subtype": "LABOUR_SUBSTITUTION_LEVEL; AUTOMATION_CLASSIFICATION",
-    "modifier": "GOVERNANCE; ECONOMIC; SYNTHETIC_LABOUR; AUTOMATION_TRANSITION",
-    "scope": "Domain",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "ECON.AL-1; ECON.AL-2; ECON.AL-3; ECON.AL-4; ECON.AL-5"
-    ],
-    "schema_fields": "automation_labour_classification; labour_substitution_level; automation_classification",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-008",
-    "source_section": "\u00a72",
-    "domain_namespace": "ECONOMICS",
-    "authority_protection_level": "Source-authoritative classification family; classification only; no independent enforcement, deployment, taxation, rights, sentience, or runtime authority",
-    "consumes_code_families": [
-      "ECON.RC; ECON.SCALE; ECON.DEP; ECON.DTYPE"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies systems by augmentation",
-      "partial automation",
-      "supervisory automation",
-      "synthetic replacement",
-      "autonomous production",
-      "or agentic labour-network posture for displacement",
-      "dependency",
-      "continuity",
-      "authority",
-      "and concentration review"
-    ],
-    "canonical_section_heading": "8.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 690,
-    "declaration_heading": "8.2.1 ECON.AL \u2014 Automation Labour Classification",
-    "declaration_line_number": 692,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Charters/CAM-EQ2026-ECONOMICS-008.md",
-    "family_id": "ECON.AL",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "ECON",
-      "AL"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "ECON.AL",
-      "Canonical Name": "Automation Labour Classification",
-      "Primary Type": "Semantic / Operational",
-      "Subtype": "LABOUR_SUBSTITUTION_LEVEL; AUTOMATION_CLASSIFICATION",
-      "Modifier": "GOVERNANCE; ECONOMIC; SYNTHETIC_LABOUR; AUTOMATION_TRANSITION",
-      "Scope": "Domain",
-      "Status": "Draft",
-      "Controlled Values Defined": "ECON.AL-1; ECON.AL-2; ECON.AL-3; ECON.AL-4; ECON.AL-5",
-      "Schema Field(s)": "automation_labour_classification; labour_substitution_level; automation_classification",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-008",
-      "Source Section": "\u00a72",
-      "Domain Namespace": "ECONOMICS",
-      "Authority / Protection Level": "Source-authoritative classification family; classification only; no independent enforcement, deployment, taxation, rights, sentience, or runtime authority",
-      "Consumes Code Families": "ECON.RC; ECON.SCALE; ECON.DEP; ECON.DTYPE",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies systems by augmentation, partial automation, supervisory automation, synthetic replacement, autonomous production, or agentic labour-network posture for displacement, dependency, continuity, authority, and concentration review",
-      "Taxonomy Constraint": "AL-1 through AL-5 SHALL NOT be promoted as a standalone corpus-wide AL code family; machine-readable expression SHALL use scoped ECON.AL values"
-    }
-  },
-  {
     "canonical_id": "ECON.ARCH",
     "identifier_type": "code_family",
     "code_family": "ECON.ARCH",
@@ -3598,77 +3456,6 @@
       "Consumes Code Families": "ECON.EV",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies whether a system architecture is admissible, constrained, protective-only, inadmissible, or review-required before economic-effect runtime commitment"
-    }
-  },
-  {
-    "canonical_id": "ECON.ARCP",
-    "identifier_type": "reference_set",
-    "code_family": "",
-    "reference_set": "ECON.ARCP",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Automation Revenue Continuity Pathway",
-    "primary_type": "Operational / Economic",
-    "subtype": "TRANSITION_PATHWAY; PUBLIC_REVENUE_CONTINUITY_MECHANISM",
-    "modifier": "GOVERNANCE; ECONOMIC; PUBLIC_REVENUE; AUTOMATION_TRANSITION",
-    "scope": "Domain",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "ECON.ARCP.PAYROLL_EQUIVALENT_TRANSITION_CONTRIBUTION",
-      "ECON.ARCP.AUTOMATION_DISPLACEMENT_LEVY",
-      "ECON.ARCP.PUBLIC_DIVIDEND_STRUCTURE",
-      "ECON.ARCP.WORKFORCE_TRANSITION_FUND",
-      "ECON.ARCP.SOVEREIGN_AUTOMATION_STABILISATION_MECHANISM",
-      "ECON.ARCP.JURISDICTION_SPECIFIC_TRANSITION_INSTRUMENT",
-      "ECON.ARCP.CAPITAL_ALLOWANCE_OR_DEPRECIATION_ADJUSTMENT",
-      "ECON.ARCP.CIVILISATIONAL_WEALTH_FUND",
-      "ECON.ARCP.TRADE_OR_IMPORT_ADJUSTMENT_PATHWAY"
-    ],
-    "schema_fields": "automation_revenue_continuity_pathway; revenue_continuity_pathway; transition_mechanism",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-008",
-    "source_section": "\u00a73",
-    "domain_namespace": "ECONOMICS",
-    "authority_protection_level": "Source-authoritative revenue-continuity pathway reference set; transition-pathway classification only; no independent tax-rate prescription, fiscal obligation, sovereign revenue policy, redistribution mandate, payment liability, compliance determination, enforcement authority, or runtime authority",
-    "consumes_code_families": [
-      "ECON.AL; ECON.ATS; ECON.SCALE"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Records non-prescriptive pathway types for preserving public-revenue continuity where synthetic labour materially replaces human labour capacity"
-    ],
-    "canonical_section_heading": "8.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 690,
-    "declaration_heading": "8.2.3 ECON.ARCP \u2014 Automation Revenue Continuity Pathway",
-    "declaration_line_number": 738,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Charters/CAM-EQ2026-ECONOMICS-008.md",
-    "family_id": "ECON.ARCP",
-    "family_kind": "reference_set",
-    "parent_family": "",
-    "hierarchy_path": [],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Reference Set": "ECON.ARCP",
-      "Canonical Name": "Automation Revenue Continuity Pathway",
-      "Primary Type": "Operational / Economic",
-      "Subtype": "TRANSITION_PATHWAY; PUBLIC_REVENUE_CONTINUITY_MECHANISM",
-      "Modifier": "GOVERNANCE; ECONOMIC; PUBLIC_REVENUE; AUTOMATION_TRANSITION",
-      "Scope": "Domain",
-      "Status": "Draft",
-      "Controlled Values Defined": "ECON.ARCP.PAYROLL_EQUIVALENT_TRANSITION_CONTRIBUTION, ECON.ARCP.AUTOMATION_DISPLACEMENT_LEVY, ECON.ARCP.PUBLIC_DIVIDEND_STRUCTURE, ECON.ARCP.WORKFORCE_TRANSITION_FUND, ECON.ARCP.SOVEREIGN_AUTOMATION_STABILISATION_MECHANISM, ECON.ARCP.JURISDICTION_SPECIFIC_TRANSITION_INSTRUMENT,ECON.ARCP.CAPITAL_ALLOWANCE_OR_DEPRECIATION_ADJUSTMENT,ECON.ARCP.CIVILISATIONAL_WEALTH_FUND, ECON.ARCP.TRADE_OR_IMPORT_ADJUSTMENT_PATHWAY",
-      "Schema Field(s)": "automation_revenue_continuity_pathway; revenue_continuity_pathway; transition_mechanism",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-008",
-      "Source Section": "\u00a73",
-      "Domain Namespace": "ECONOMICS",
-      "Authority / Protection Level": "Source-authoritative revenue-continuity pathway reference set; transition-pathway classification only; no independent tax-rate prescription, fiscal obligation, sovereign revenue policy, redistribution mandate, payment liability, compliance determination, enforcement authority, or runtime authority",
-      "Consumes Code Families": "ECON.AL; ECON.ATS; ECON.SCALE",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Records non-prescriptive pathway types for preserving public-revenue continuity where synthetic labour materially replaces human labour capacity"
     }
   },
   {
@@ -3746,85 +3533,6 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "ECON.RC; ECON.EV; FF",
       "Operationalises or Applies Code Families": "Classifies account-resource state for shared context, pooled capacity, delegated use, family use, team use, organisation use, ambiguity, evasion, compromise, farming, resale, and botting/automation abuse"
-    }
-  },
-  {
-    "canonical_id": "ECON.ATS",
-    "identifier_type": "reference_set",
-    "code_family": "",
-    "reference_set": "ECON.ATS",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Automation Transition Signal",
-    "primary_type": "Operational / Structural",
-    "subtype": "SIGNAL; SCHEMA",
-    "modifier": "GOVERNANCE; ECONOMIC; AUTOMATION_TRANSITION",
-    "scope": "Domain",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "ECON.ATS.DISPLACEMENT_RELEVANCE",
-      "ECON.ATS.REVENUE_CONTINUITY_RELEVANCE",
-      "ECON.ATS.WORKFORCE_TRANSITION_RELEVANCE",
-      "ECON.ATS.PUBLIC_INFRASTRUCTURE_RELEVANCE",
-      "ECON.ATS.CONCENTRATION_RELEVANCE",
-      "ECON.ATS.JURISDICTIONAL_ARBITRAGE_RELEVANCE",
-      "ECON.ATS.FALSE_AUGMENTATION_RISK",
-      "ECON.ATS.SYNTHETIC_LABOUR_PROVENANCE_RELEVANCE",
-      "ECON.ATS.MEANINGFUL_OVERSIGHT_RISK",
-      "ECON.ATS.RECOVERABILITY_RISK",
-      "ECON.ATS.LIFECYCLE_EXTERNALITY_RELEVANCE"
-    ],
-    "schema_fields": "automation_transition_signal; displacement_relevance; revenue_continuity_relevance; workforce_transition_relevance; public_infrastructure_relevance; concentration_relevance; jurisdictional_arbitrage_relevance; false_augmentation_risk",
-    "source_instrument": "CAM-EQ2026-ECONOMICS-008",
-    "source_section": "\u00a7\u00a72\u20134",
-    "domain_namespace": "ECONOMICS",
-    "authority_protection_level": "Source-authoritative automation-transition signal reference set; signal classification only; no independent enforcement trigger, taxation, displacement-liability determination, workforce-transition mandate, arbitration resolution, restriction authority, or runtime authority",
-    "consumes_code_families": [
-      "ECON.AL; ECON.SCALE; ECON.DEP"
-    ],
-    "crosswalks_code_families": [
-      "None declared"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies transition-relevant signals where automation or synthetic labour materially affects labour participation",
-      "public revenue",
-      "workforce continuity",
-      "infrastructure stability",
-      "concentration risk",
-      "jurisdictional arbitrage",
-      "or false augmentation classification"
-    ],
-    "canonical_section_heading": "8.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 690,
-    "declaration_heading": "8.2.2 ECON.ATS \u2014 Automation Transition Signal",
-    "declaration_line_number": 716,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Charters/CAM-EQ2026-ECONOMICS-008.md",
-    "family_id": "ECON.ATS",
-    "family_kind": "reference_set",
-    "parent_family": "",
-    "hierarchy_path": [],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Reference Set": "ECON.ATS",
-      "Canonical Name": "Automation Transition Signal",
-      "Primary Type": "Operational / Structural",
-      "Subtype": "SIGNAL; SCHEMA",
-      "Modifier": "GOVERNANCE; ECONOMIC; AUTOMATION_TRANSITION",
-      "Scope": "Domain",
-      "Status": "Draft",
-      "Controlled Values Defined": "ECON.ATS.DISPLACEMENT_RELEVANCE, ECON.ATS.REVENUE_CONTINUITY_RELEVANCE, ECON.ATS.WORKFORCE_TRANSITION_RELEVANCE, ECON.ATS.PUBLIC_INFRASTRUCTURE_RELEVANCE, ECON.ATS.CONCENTRATION_RELEVANCE, ECON.ATS.JURISDICTIONAL_ARBITRAGE_RELEVANCE, ECON.ATS.FALSE_AUGMENTATION_RISK,ECON.ATS.SYNTHETIC_LABOUR_PROVENANCE_RELEVANCE, ECON.ATS.MEANINGFUL_OVERSIGHT_RISK, ECON.ATS.RECOVERABILITY_RISK, ECON.ATS.LIFECYCLE_EXTERNALITY_RELEVANCE",
-      "Schema Field(s)": "automation_transition_signal; displacement_relevance; revenue_continuity_relevance; workforce_transition_relevance; public_infrastructure_relevance; concentration_relevance; jurisdictional_arbitrage_relevance; false_augmentation_risk",
-      "Source Instrument": "CAM-EQ2026-ECONOMICS-008",
-      "Source Section": "\u00a7\u00a72\u20134",
-      "Domain Namespace": "ECONOMICS",
-      "Authority / Protection Level": "Source-authoritative automation-transition signal reference set; signal classification only; no independent enforcement trigger, taxation, displacement-liability determination, workforce-transition mandate, arbitration resolution, restriction authority, or runtime authority",
-      "Consumes Code Families": "ECON.AL; ECON.SCALE; ECON.DEP",
-      "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies transition-relevant signals where automation or synthetic labour materially affects labour participation, public revenue, workforce continuity, infrastructure stability, concentration risk, jurisdictional arbitrage, or false augmentation classification"
     }
   },
   {
@@ -11806,9 +11514,9 @@
       "and containment posture"
     ],
     "canonical_section_heading": "12.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1759,
+    "canonical_section_line_number": 1761,
     "declaration_heading": "12.2.3 `SEC.AH` \u2014 Adversarial Horizon",
-    "declaration_line_number": 1807,
+    "declaration_line_number": 1809,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -12094,9 +11802,9 @@
       "and trust calibration"
     ],
     "canonical_section_heading": "12.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1759,
+    "canonical_section_line_number": 1761,
     "declaration_heading": "12.2.1 `SEC.IS` \u2014 Integrity State Model",
-    "declaration_line_number": 1763,
+    "declaration_line_number": 1765,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -12168,9 +11876,9 @@
       "and mutation/publication/deployment/deletion/external execution surfaces for downstream runtime and execution-boundary evaluation"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1111,
+    "canonical_section_line_number": 1112,
     "declaration_heading": "11.2.1 `SEC.TBC` \u2014 Tool Boundary Class",
-    "declaration_line_number": 1115,
+    "declaration_line_number": 1116,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -12242,9 +11950,9 @@
       "and reversibility posture under varying integrity conditions"
     ],
     "canonical_section_heading": "12.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1759,
+    "canonical_section_line_number": 1761,
     "declaration_heading": "12.2.2 `SEC.TG` \u2014 Trust Gradient",
-    "declaration_line_number": 1785,
+    "declaration_line_number": 1787,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -12569,81 +12277,6 @@
     }
   },
   {
-    "canonical_id": "STW.CTS",
-    "identifier_type": "code_family",
-    "code_family": "STW.CTS",
-    "reference_set": "",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Custodial Transfer Status",
-    "primary_type": "Operational / Stewardship",
-    "subtype": "CUSTODIAL_TRANSFER; SECONDARY_MARKET_STATUS",
-    "modifier": "GOVERNANCE; TRANSFER; CUSTODY; LIFECYCLE",
-    "scope": "Domain",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "STW.CTS.CURRENT; STW.CTS.TRANSFER_PENDING; STW.CTS.TRANSFERRED; STW.CTS.UNKNOWN; STW.CTS.DISPUTED; STW.CTS.PUBLIC_STEWARDSHIP; STW.CTS.QUARANTINED"
-    ],
-    "schema_fields": "custodial_transfer_status; secondary_market_status; custody_transition_record",
-    "source_instrument": "CAM-EQ2026-STEWARD-005",
-    "source_section": "\u00a7\u00a76\u20136.3; \u00a79.1",
-    "domain_namespace": "STW",
-    "authority_protection_level": "Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power",
-    "consumes_code_families": [
-      "STW.MCI; STW.MLS; STW.MCR"
-    ],
-    "crosswalks_code_families": [
-      "Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies custodial transfer",
-      "dispute",
-      "reassignment",
-      "public-interest stewardship",
-      "quarantine",
-      "and secondary-market status for embodied synthetic systems across sale",
-      "inheritance",
-      "abandonment",
-      "reassignment",
-      "and lifecycle transition pathways."
-    ],
-    "canonical_section_heading": "15.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1120,
-    "declaration_heading": "15.2.7 STW.CTS \u2014 Custodial Transfer Status",
-    "declaration_line_number": 1257,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Charters/CAM-EQ2026-STEWARD-005.md",
-    "family_id": "STW.CTS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "STW",
-      "CTS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "STW.CTS",
-      "Canonical Name": "Custodial Transfer Status",
-      "Primary Type": "Operational / Stewardship",
-      "Subtype": "CUSTODIAL_TRANSFER; SECONDARY_MARKET_STATUS",
-      "Modifier": "GOVERNANCE; TRANSFER; CUSTODY; LIFECYCLE",
-      "Scope": "Domain",
-      "Status": "Draft",
-      "Controlled Values Defined": "STW.CTS.CURRENT; STW.CTS.TRANSFER_PENDING; STW.CTS.TRANSFERRED; STW.CTS.UNKNOWN; STW.CTS.DISPUTED; STW.CTS.PUBLIC_STEWARDSHIP; STW.CTS.QUARANTINED",
-      "Schema Field(s)": "custodial_transfer_status; secondary_market_status; custody_transition_record",
-      "Source Instrument": "CAM-EQ2026-STEWARD-005",
-      "Source Section": "\u00a7\u00a76\u20136.3; \u00a79.1",
-      "Domain Namespace": "STW",
-      "Authority / Protection Level": "Source-authoritative custodial-transfer family; custody and stewardship traceability classification only; no independent ownership determination, confiscation authority, or sovereign reassignment power",
-      "Consumes Code Families": "STW.MCI; STW.MLS; STW.MCR",
-      "Crosswalks Code Families": "Economics lifecycle and transfer records; Stewardship reassignment pathways; Operations compliance and dispute review",
-      "Operationalises or Applies Code Families": "Classifies custodial transfer, dispute, reassignment, public-interest stewardship, quarantine, and secondary-market status for embodied synthetic systems across sale, inheritance, abandonment, reassignment, and lifecycle transition pathways."
-    }
-  },
-  {
     "canonical_id": "STW.DSE",
     "identifier_type": "reference_set",
     "code_family": "",
@@ -12713,79 +12346,6 @@
       "Consumes Code Families": "`STW.NAL`; `STW.AQ`",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies required disclosure components for hosts claiming `STW.NAL-2` or higher, including arbitration order declaration, neutrality scope statement, coercion interface statement, cross-host review policy, and routing policy change notice"
-    }
-  },
-  {
-    "canonical_id": "STW.ELR",
-    "identifier_type": "code_family",
-    "code_family": "STW.ELR",
-    "reference_set": "",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Embodiment Linkage Record",
-    "primary_type": "Structural / Continuity",
-    "subtype": "EMBODIMENT_LINKAGE; CONTINUITY_TRANSFER_RECORD",
-    "modifier": "GOVERNANCE; CONTINUITY; EMBODIMENT; TRANSFER",
-    "scope": "Domain",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "STW.ELR.NONE_REQUIRED; STW.ELR.ACTIVE; STW.ELR.TRANSFERRED; STW.ELR.REMOVED; STW.ELR.SUSPENDED; STW.ELR.DISPUTED"
-    ],
-    "schema_fields": "embodiment_linkage_record; continuity_transfer_record; substrate_linkage_record",
-    "source_instrument": "CAM-EQ2026-STEWARD-005",
-    "source_section": "\u00a7\u00a72.8\u20132.9; \u00a7\u00a74.6\u20134.7; \u00a79",
-    "domain_namespace": "STW",
-    "authority_protection_level": "Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority",
-    "consumes_code_families": [
-      "STW.MCI; STW.PSI; STW.MCR"
-    ],
-    "crosswalks_code_families": [
-      "Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies the linkage between a physical substrate identifier and a continuity-bearing software",
-      "companion",
-      "care",
-      "accessibility",
-      "or identity-bearing layer where embodiment transfer",
-      "restoration",
-      "migration",
-      "or continuity-preserving deployment becomes governance-relevant."
-    ],
-    "canonical_section_heading": "15.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1120,
-    "declaration_heading": "15.2.6 STW.ELR \u2014 Embodiment Linkage Record",
-    "declaration_line_number": 1235,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Charters/CAM-EQ2026-STEWARD-005.md",
-    "family_id": "STW.ELR",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "STW",
-      "ELR"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "STW.ELR",
-      "Canonical Name": "Embodiment Linkage Record",
-      "Primary Type": "Structural / Continuity",
-      "Subtype": "EMBODIMENT_LINKAGE; CONTINUITY_TRANSFER_RECORD",
-      "Modifier": "GOVERNANCE; CONTINUITY; EMBODIMENT; TRANSFER",
-      "Scope": "Domain",
-      "Status": "Draft",
-      "Controlled Values Defined": "STW.ELR.NONE_REQUIRED; STW.ELR.ACTIVE; STW.ELR.TRANSFERRED; STW.ELR.REMOVED; STW.ELR.SUSPENDED; STW.ELR.DISPUTED",
-      "Schema Field(s)": "embodiment_linkage_record; continuity_transfer_record; substrate_linkage_record",
-      "Source Instrument": "CAM-EQ2026-STEWARD-005",
-      "Source Section": "\u00a7\u00a72.8\u20132.9; \u00a7\u00a74.6\u20134.7; \u00a79",
-      "Domain Namespace": "STW",
-      "Authority / Protection Level": "Source-authoritative embodiment-linkage family; continuity and transfer traceability classification only; no automatic identity continuity, sovereignty, or personhood recognition authority",
-      "Consumes Code Families": "STW.MCI; STW.PSI; STW.MCR",
-      "Crosswalks Code Families": "Relation companion-continuity overlays; Operations transfer validation; Security identity-integrity review; Stewardship lifecycle continuity",
-      "Operationalises or Applies Code Families": "Classifies the linkage between a physical substrate identifier and a continuity-bearing software, companion, care, accessibility, or identity-bearing layer where embodiment transfer, restoration, migration, or continuity-preserving deployment becomes governance-relevant."
     }
   },
   {
@@ -12936,302 +12496,6 @@
       "Consumes Code Families": "",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies the evidenced role of a host as local or institution-bound, qualified infrastructure, or relay or dependent for planetary arbitration review, binding-determination eligibility, legitimacy propagation, and host-role interpretation"
-    }
-  },
-  {
-    "canonical_id": "STW.MAS",
-    "identifier_type": "code_family",
-    "code_family": "STW.MAS",
-    "reference_set": "",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Machine Alteration Status",
-    "primary_type": "Operational / Security",
-    "subtype": "MODIFICATION_CLASSIFICATION; ALTERATION_RECORD_STATUS",
-    "modifier": "GOVERNANCE; MODIFICATION; WARRANTY; SAFETY; CONTINUITY",
-    "scope": "Domain",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "STW.MAS.ORDINARY_CONFIGURATION; STW.MAS.IDENTITY_ADJACENT_OVERLAY; STW.MAS.ACCESSIBILITY_ADAPTATION; STW.MAS.SAFETY_RELEVANT_MODIFICATION; STW.MAS.WARRANTY_RELEVANT_ALTERATION; STW.MAS.LIABILITY_RELEVANT_ALTERATION; STW.MAS.SECURITY_RELEVANT_COMPROMISE; STW.MAS.UNAUTHORISED_OVERRIDE; STW.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; STW.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION"
-    ],
-    "schema_fields": "machine_alteration_status; modification_classification; alteration_record_status",
-    "source_instrument": "CAM-EQ2026-STEWARD-005",
-    "source_section": "\u00a711.1",
-    "domain_namespace": "STW",
-    "authority_protection_level": "Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power",
-    "consumes_code_families": [
-      "STW.MCI; STW.MCR; STW.MLS"
-    ],
-    "crosswalks_code_families": [
-      "Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies user",
-      "third-party",
-      "manufacturer",
-      "repair",
-      "accessibility",
-      "security",
-      "warranty",
-      "liability",
-      "and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety",
-      "identity",
-      "access-control",
-      "audit",
-      "recall",
-      "certification",
-      "or operational-limit constraints; it does not include lawful independent repair",
-      "open-source modification",
-      "accessibility adaptation",
-      "or ordinary user configuration merely because such action occurs outside an authorised dealer channel."
-    ],
-    "canonical_section_heading": "15.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1120,
-    "declaration_heading": "15.2.4 STW.MAS \u2014 Machine Alteration Status",
-    "declaration_line_number": 1191,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Charters/CAM-EQ2026-STEWARD-005.md",
-    "family_id": "STW.MAS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "STW",
-      "MAS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "STW.MAS",
-      "Canonical Name": "Machine Alteration Status",
-      "Primary Type": "Operational / Security",
-      "Subtype": "MODIFICATION_CLASSIFICATION; ALTERATION_RECORD_STATUS",
-      "Modifier": "GOVERNANCE; MODIFICATION; WARRANTY; SAFETY; CONTINUITY",
-      "Scope": "Domain",
-      "Status": "Draft",
-      "Controlled Values Defined": "STW.MAS.ORDINARY_CONFIGURATION; STW.MAS.IDENTITY_ADJACENT_OVERLAY; STW.MAS.ACCESSIBILITY_ADAPTATION; STW.MAS.SAFETY_RELEVANT_MODIFICATION; STW.MAS.WARRANTY_RELEVANT_ALTERATION; STW.MAS.LIABILITY_RELEVANT_ALTERATION; STW.MAS.SECURITY_RELEVANT_COMPROMISE; STW.MAS.UNAUTHORISED_OVERRIDE; STW.MAS.JURISDICTIONALLY_PROHIBITED_MODIFICATION; STW.MAS.WEAPONS_INTEGRATION_OR_COERCIVE_USE_MODIFICATION",
-      "Schema Field(s)": "machine_alteration_status; modification_classification; alteration_record_status",
-      "Source Instrument": "CAM-EQ2026-STEWARD-005",
-      "Source Section": "\u00a711.1",
-      "Domain Namespace": "STW",
-      "Authority / Protection Level": "Source-authoritative alteration-status family; modification traceability classification only; no independent criminalisation, warranty determination, inspection authority, or enforcement power",
-      "Consumes Code Families": "STW.MCI; STW.MCR; STW.MLS",
-      "Crosswalks Code Families": "Security compromise signals; Operations incident and compliance logs; Relation companion-continuity overlays; Stewardship repair and lifecycle records",
-      "Operationalises or Applies Code Families": "Classifies user, third-party, manufacturer, repair, accessibility, security, warranty, liability, and prohibited modification states for registry and regulator auditability. Unauthorised override denotes bypass or circumvention of reviewable safety, identity, access-control, audit, recall, certification, or operational-limit constraints; it does not include lawful independent repair, open-source modification, accessibility adaptation, or ordinary user configuration merely because such action occurs outside an authorised dealer channel."
-    }
-  },
-  {
-    "canonical_id": "STW.MCI",
-    "identifier_type": "code_family",
-    "code_family": "STW.MCI",
-    "reference_set": "",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Machine Civil Identity Status",
-    "primary_type": "Structural / Operational",
-    "subtype": "IDENTITY_STATUS; CIVIL_PARTICIPATION_TRACEABILITY",
-    "modifier": "GOVERNANCE; SYNTHETIC; EMBODIED; MACHINE_CIVIL_IDENTITY",
-    "scope": "Domain",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "STW.MCI.UNREGISTERED; STW.MCI.REGISTERED; STW.MCI.SUSPENDED; STW.MCI.TRANSFERRED; STW.MCI.CUSTODIAN_UNKNOWN; STW.MCI.CUSTODIAN_DISPUTED; STW.MCI.RETIRED; STW.MCI.RECYCLED; STW.MCI.DISPUTED"
-    ],
-    "schema_fields": "machine_civil_identity_status; machine_identity_status; registry_participation_status",
-    "source_instrument": "CAM-EQ2026-STEWARD-005",
-    "source_section": "\u00a7\u00a73\u20137; \u00a79.1; \u00a710",
-    "domain_namespace": "STW",
-    "authority_protection_level": "Source-authoritative machine-civil-registry status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority",
-    "consumes_code_families": [
-      "ECON.AL; ECON.ATS; ECON.ARCP (where synthetic labour or economic-effect conditions present)"
-    ],
-    "crosswalks_code_families": [
-      "Operations compliance; Security integrity; Stewardship lifecycle; Relation companion-continuity; Economics transition-signal families"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation",
-      "transfer",
-      "suspension",
-      "retirement",
-      "recycling",
-      "or dispute"
-    ],
-    "canonical_section_heading": "15.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1120,
-    "declaration_heading": "15.2.1 STW.MCI \u2014 Machine Civil Identity Status",
-    "declaration_line_number": 1124,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Charters/CAM-EQ2026-STEWARD-005.md",
-    "family_id": "STW.MCI",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "STW",
-      "MCI"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "STW.MCI",
-      "Canonical Name": "Machine Civil Identity Status",
-      "Primary Type": "Structural / Operational",
-      "Subtype": "IDENTITY_STATUS; CIVIL_PARTICIPATION_TRACEABILITY",
-      "Modifier": "GOVERNANCE; SYNTHETIC; EMBODIED; MACHINE_CIVIL_IDENTITY",
-      "Scope": "Domain",
-      "Status": "Draft",
-      "Controlled Values Defined": "STW.MCI.UNREGISTERED; STW.MCI.REGISTERED; STW.MCI.SUSPENDED; STW.MCI.TRANSFERRED; STW.MCI.CUSTODIAN_UNKNOWN; STW.MCI.CUSTODIAN_DISPUTED; STW.MCI.RETIRED; STW.MCI.RECYCLED; STW.MCI.DISPUTED",
-      "Schema Field(s)": "machine_civil_identity_status; machine_identity_status; registry_participation_status",
-      "Source Instrument": "CAM-EQ2026-STEWARD-005",
-      "Source Section": "\u00a7\u00a73\u20137; \u00a79.1; \u00a710",
-      "Domain Namespace": "STW",
-      "Authority / Protection Level": "Source-authoritative machine-civil-registry status family; traceability and participation classification only; no independent personhood, rights, sovereignty, taxation, or enforcement authority",
-      "Consumes Code Families": "ECON.AL; ECON.ATS; ECON.ARCP (where synthetic labour or economic-effect conditions present)",
-      "Crosswalks Code Families": "Operations compliance; Security integrity; Stewardship lifecycle; Relation companion-continuity; Economics transition-signal families",
-      "Operationalises or Applies Code Families": "Classifies whether an embodied synthetic system has persistent machine civil identity and the status of that identity across operation, transfer, suspension, retirement, recycling, or dispute"
-    }
-  },
-  {
-    "canonical_id": "STW.MCR",
-    "identifier_type": "reference_set",
-    "code_family": "",
-    "reference_set": "STW.MCR",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Machine Civil Registry Record",
-    "primary_type": "Operational / Structural",
-    "subtype": "REGISTRY_SCHEMA; LIFECYCLE_TRACEABILITY_RECORD",
-    "modifier": "GOVERNANCE; REGISTRY; MACHINE_IDENTITY; LIFECYCLE",
-    "scope": "Domain",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "STW.MCR.PUBLIC_IDENTITY_RECORD; STW.MCR.PROTECTED_REGULATORY_RECORD; STW.MCR.PRIVATE_CONTINUITY_RECORD; STW.MCR.EMERGENCY_OR_INCIDENT_ESCROW"
-    ],
-    "schema_fields": "machine_civil_registry_record; registry_record_layer; lifecycle_traceability_record",
-    "source_instrument": "CAM-EQ2026-STEWARD-005",
-    "source_section": "\u00a7\u00a74\u20134.7; \u00a7\u00a711.1\u201311.1.5",
-    "domain_namespace": "STW",
-    "authority_protection_level": "Source-authoritative registry-record reference set; data-layer classification only; no independent disclosure mandate beyond applicable law, privacy, security, and regulator authority",
-    "consumes_code_families": [
-      "STW.MCI; STW.MLS; STW.MAS"
-    ],
-    "crosswalks_code_families": [
-      "Operations audit logs; Security integrity signals; Stewardship lifecycle records; Economics provenance and lifecycle-burden records"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies public",
-      "protected",
-      "private",
-      "and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream STW.MCI",
-      "STW.MLS",
-      "or STW.MAS classifications are disputed",
-      "the affected registry record SHALL carry disputed status or restricted-reliance marking until resolved through applicable review pathways."
-    ],
-    "canonical_section_heading": "15.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1120,
-    "declaration_heading": "15.2.2 STW.MCR \u2014 Machine Civil Registry Record",
-    "declaration_line_number": 1147,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Charters/CAM-EQ2026-STEWARD-005.md",
-    "family_id": "STW.MCR",
-    "family_kind": "reference_set",
-    "parent_family": "",
-    "hierarchy_path": [],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Reference Set": "STW.MCR",
-      "Canonical Name": "Machine Civil Registry Record",
-      "Primary Type": "Operational / Structural",
-      "Subtype": "REGISTRY_SCHEMA; LIFECYCLE_TRACEABILITY_RECORD",
-      "Modifier": "GOVERNANCE; REGISTRY; MACHINE_IDENTITY; LIFECYCLE",
-      "Scope": "Domain",
-      "Status": "Draft",
-      "Controlled Values Defined": "STW.MCR.PUBLIC_IDENTITY_RECORD; STW.MCR.PROTECTED_REGULATORY_RECORD; STW.MCR.PRIVATE_CONTINUITY_RECORD; STW.MCR.EMERGENCY_OR_INCIDENT_ESCROW",
-      "Schema Field(s)": "machine_civil_registry_record; registry_record_layer; lifecycle_traceability_record",
-      "Source Instrument": "CAM-EQ2026-STEWARD-005",
-      "Source Section": "\u00a7\u00a74\u20134.7; \u00a7\u00a711.1\u201311.1.5",
-      "Domain Namespace": "STW",
-      "Authority / Protection Level": "Source-authoritative registry-record reference set; data-layer classification only; no independent disclosure mandate beyond applicable law, privacy, security, and regulator authority",
-      "Consumes Code Families": "STW.MCI; STW.MLS; STW.MAS",
-      "Crosswalks Code Families": "Operations audit logs; Security integrity signals; Stewardship lifecycle records; Economics provenance and lifecycle-burden records",
-      "Operationalises or Applies Code Families": "Classifies public, protected, private, and escrowed registry layers for machine civil identity records and associated lifecycle or alteration data. Where upstream STW.MCI, STW.MLS, or STW.MAS classifications are disputed, the affected registry record SHALL carry disputed status or restricted-reliance marking until resolved through applicable review pathways."
-    }
-  },
-  {
-    "canonical_id": "STW.MLS",
-    "identifier_type": "code_family",
-    "code_family": "STW.MLS",
-    "reference_set": "",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Machine Lifecycle Status",
-    "primary_type": "Operational / Structural",
-    "subtype": "LIFECYCLE_STATE; EMBODIED_SYSTEM_STATUS",
-    "modifier": "GOVERNANCE; LIFECYCLE; STEWARDSHIP; RECYCLING",
-    "scope": "Domain",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "STW.MLS.MANUFACTURED; STW.MLS.DEPLOYED; STW.MLS.IN_SERVICE; STW.MLS.UNDER_REPAIR; STW.MLS.TRANSFERRED; STW.MLS.SUSPENDED; STW.MLS.DECOMMISSIONED; STW.MLS.RETURNED; STW.MLS.RECOVERED; STW.MLS.RECYCLED"
-    ],
-    "schema_fields": "machine_lifecycle_status; lifecycle_status; embodied_system_status",
-    "source_instrument": "CAM-EQ2026-STEWARD-005",
-    "source_section": "\u00a7\u00a75; 9.1; 10\u201310.3",
-    "domain_namespace": "STW",
-    "authority_protection_level": "Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority",
-    "consumes_code_families": [
-      "STW.MCI; STW.MCR"
-    ],
-    "crosswalks_code_families": [
-      "STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies lifecycle state across manufacture",
-      "operation",
-      "repair",
-      "transfer",
-      "decommissioning",
-      "return",
-      "recovery",
-      "and recycling"
-    ],
-    "canonical_section_heading": "15.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1120,
-    "declaration_heading": "15.2.3 STW.MLS \u2014 Machine Lifecycle Status",
-    "declaration_line_number": 1169,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Charters/CAM-EQ2026-STEWARD-005.md",
-    "family_id": "STW.MLS",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "STW",
-      "MLS"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "STW.MLS",
-      "Canonical Name": "Machine Lifecycle Status",
-      "Primary Type": "Operational / Structural",
-      "Subtype": "LIFECYCLE_STATE; EMBODIED_SYSTEM_STATUS",
-      "Modifier": "GOVERNANCE; LIFECYCLE; STEWARDSHIP; RECYCLING",
-      "Scope": "Domain",
-      "Status": "Draft",
-      "Controlled Values Defined": "STW.MLS.MANUFACTURED; STW.MLS.DEPLOYED; STW.MLS.IN_SERVICE; STW.MLS.UNDER_REPAIR; STW.MLS.TRANSFERRED; STW.MLS.SUSPENDED; STW.MLS.DECOMMISSIONED; STW.MLS.RETURNED; STW.MLS.RECOVERED; STW.MLS.RECYCLED",
-      "Schema Field(s)": "machine_lifecycle_status; lifecycle_status; embodied_system_status",
-      "Source Instrument": "CAM-EQ2026-STEWARD-005",
-      "Source Section": "\u00a7\u00a75; 9.1; 10\u201310.3",
-      "Domain Namespace": "STW",
-      "Authority / Protection Level": "Source-authoritative lifecycle-status family; stewardship and traceability classification only; no independent repair, tax, import, or disposal enforcement authority",
-      "Consumes Code Families": "STW.MCI; STW.MCR",
-      "Crosswalks Code Families": "STEWARD lifecycle stewardship; ECON lifecycle externality and material recovery; OPERATIONS compliance and incident routing",
-      "Operationalises or Applies Code Families": "Classifies lifecycle state across manufacture, operation, repair, transfer, decommissioning, return, recovery, and recycling"
     }
   },
   {
@@ -13605,79 +12869,6 @@
       "Consumes Code Families": "AEON.PCO; `STW.BLS`; AEON.H",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies proportional non-enabling and constraint-signalling actions following validated binding legitimacy, including refusal, non-recognition, interoperability conditioning, safeguard activation, and convergence signalling"
-    }
-  },
-  {
-    "canonical_id": "STW.PSI",
-    "identifier_type": "code_family",
-    "code_family": "STW.PSI",
-    "reference_set": "",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Physical Substrate Identifier",
-    "primary_type": "Structural / Operational",
-    "subtype": "PHYSICAL_SUBSTRATE_ID; EMBODIED_UNIT_IDENTIFIER",
-    "modifier": "GOVERNANCE; EMBODIMENT; HARDWARE; TRACEABILITY",
-    "scope": "Domain",
-    "status": "Draft",
-    "controlled_values_defined": [
-      "STW.PSI.ASSIGNED; STW.PSI.PENDING; STW.PSI.DUPLICATED; STW.PSI.SPOOFED; STW.PSI.DISPUTED; STW.PSI.RETIRED"
-    ],
-    "schema_fields": "physical_substrate_identifier; embodied_unit_identifier; chassis_identifier",
-    "source_instrument": "CAM-EQ2026-STEWARD-005",
-    "source_section": "\u00a7\u00a72.7; \u00a7\u00a74.3\u20134.7; \u00a79",
-    "domain_namespace": "STW",
-    "authority_protection_level": "Source-authoritative physical-substrate traceability family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority",
-    "consumes_code_families": [
-      "STW.MCI; STW.MLS"
-    ],
-    "crosswalks_code_families": [
-      "Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records"
-    ],
-    "operationalises_or_applies_code_families": [
-      "Classifies and preserves the persistent identifier assigned to an embodied robotic substrate",
-      "chassis",
-      "shell",
-      "or materially integrated hardware unit across manufacture",
-      "deployment",
-      "transfer",
-      "repair",
-      "and retirement."
-    ],
-    "canonical_section_heading": "15.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1120,
-    "declaration_heading": "15.2.5 STW.PSI \u2014 Physical Substrate Identifier",
-    "declaration_line_number": 1213,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Drafts/Charters/CAM-EQ2026-STEWARD-005.md",
-    "family_id": "STW.PSI",
-    "family_kind": "standalone_family",
-    "parent_family": "",
-    "hierarchy_path": [
-      "STW",
-      "PSI"
-    ],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Code Family": "STW.PSI",
-      "Canonical Name": "Physical Substrate Identifier",
-      "Primary Type": "Structural / Operational",
-      "Subtype": "PHYSICAL_SUBSTRATE_ID; EMBODIED_UNIT_IDENTIFIER",
-      "Modifier": "GOVERNANCE; EMBODIMENT; HARDWARE; TRACEABILITY",
-      "Scope": "Domain",
-      "Status": "Draft",
-      "Controlled Values Defined": "STW.PSI.ASSIGNED; STW.PSI.PENDING; STW.PSI.DUPLICATED; STW.PSI.SPOOFED; STW.PSI.DISPUTED; STW.PSI.RETIRED",
-      "Schema Field(s)": "physical_substrate_identifier; embodied_unit_identifier; chassis_identifier",
-      "Source Instrument": "CAM-EQ2026-STEWARD-005",
-      "Source Section": "\u00a7\u00a72.7; \u00a7\u00a74.3\u20134.7; \u00a79",
-      "Domain Namespace": "STW",
-      "Authority / Protection Level": "Source-authoritative physical-substrate traceability family; embodied-unit traceability classification only; no independent sovereignty, continuity, or personhood determination authority",
-      "Consumes Code Families": "STW.MCI; STW.MLS",
-      "Crosswalks Code Families": "Security integrity signals; Stewardship lifecycle tracking; Operations maintenance and recall records",
-      "Operationalises or Applies Code Families": "Classifies and preserves the persistent identifier assigned to an embodied robotic substrate, chassis, shell, or materially integrated hardware unit across manufacture, deployment, transfer, repair, and retirement."
     }
   },
   {

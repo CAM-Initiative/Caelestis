@@ -836,7 +836,7 @@
       "review_state": "** None",
       "authority_role": "** None",
       "version": "1.25",
-      "HASH": "71545b21fc864fe300c869c8dfedd5f03df95429424386d44128e02958b8ae70",
+      "HASH": "1d0f6df7d34035c30dfdd938e1b9cdf11be486d798f0fcb1b0e6fef311339409",
       "pinned_sha": "699b0cac063468e2434b690065addf43be10f7b9",
       "updated_at": "2026-08-06T13:28:33Z",
       "last_updated_utc": "2026-08-06T13:28:33Z"
@@ -1241,10 +1241,10 @@
       "status": "** Active",
       "effect": "** Binding",
       "enforcement": "** CAM Standard",
-      "review_state": "** None",
-      "authority_role": "** None",
-      "version": "1.17",
-      "HASH": "3caf89299dd79270f663451e6128467cb5e64d307b409cfa02cc9112300cbcf8",
+      "review_state": "** Current",
+      "authority_role": "** Domain Authority",
+      "version": "1.18",
+      "HASH": "fc6f7f8a4dae07f7b816c7319c0fa938d1565b0f7bea3844ca798537b659838e",
       "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
       "updated_at": "2026-08-05T12:20:44Z",
       "last_updated_utc": "2026-08-05T12:20:44Z"

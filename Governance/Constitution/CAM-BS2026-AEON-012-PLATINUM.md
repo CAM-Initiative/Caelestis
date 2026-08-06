@@ -4,16 +4,17 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
-**Purpose:** Define security boundary conditions, integrity signal interfaces, and runtime-facing constraints that preserve alignment with SECURITY-001 invariants across deployment topologies.  
+**Review State:** Current
+**Authority Role:** Constitutional Authority
+**Source Authority:** Source-Authoritative
+**Purpose:** Define the bounded constitutional security boundary interface: runtime-facing conditions, signal handoff, and non-bypass constraints that preserve alignment with SECURITY-001 invariants across deployment topologies.
 **Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitutional Charter  
 
 ---
 
 ## 1. Scope
 
-This Annex translates SECURITY-001 principles into security boundary conditions, integrity signal requirements, posture-classification constraints, and runtime-facing interface rules.
+This Annex is source-authoritative only for its bounded constitutional interface. It applies SECURITY-001 signals and invariants to runtime-facing boundary conditions without defining or superseding SECURITY-domain doctrine.
 
 It governs:
 
@@ -26,7 +27,7 @@ This Annex MUST NOT redefine SECURITY invariants.
 
 This Annex also MUST NOT operate as an independent enforcement engine, containment procedure, moderation pathway, or runtime command layer. It defines legitimacy-compatible security constraints and signal conditions only.
 
-Operational execution, containment sequencing, escalation routing, logging, audit, user notice, and intervention handling SHALL be governed by the applicable OPERATIONS, SECURITY runtime, ARBITRATION, and constitutional execution instruments.
+Operational execution, containment sequencing, escalation routing, logging, audit, user notice, and intervention handling SHALL be governed by the applicable OPERATIONS, ARBITRATION, and constitutional execution instruments.
 
 ---
 
@@ -994,9 +995,9 @@ All runtime behaviour MUST align with:
 
 ---
 
-## 9. Canonical Code Status
+## 9. Canonical Interface Status
 
-This Annex source-authoritatively defines runtime-facing SECURITY-domain boundary and posture classification structures for tool invocation, credential-bearing interfaces, repository and connector pathways, execution surfaces, and security posture modes.
+This Annex source-authoritatively defines the bounded constitutional interface classifications in this instrument. SECURITY-001 remains the source-authoritative owner of SECURITY-domain integrity, trust, threat, and adversarial classifications. These interface classifications do not confer execution authority.
 
 The canonical footer declarations for all code families and reference sets defined by this Annex are recorded in §11.3.
 
@@ -1077,7 +1078,7 @@ that no breach proceeds unchecked.
 | Field | Entry |
 |---|---|
 | Parent Instrument | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| Governing Charter | CAM-EQ2026-SECURITY-001-PLATINUM — Security Domain Charter |
+| Governing Security Domain Charter | CAM-EQ2026-SECURITY-001-PLATINUM — Security Domain Charter |
 | Instrument Type | Constitutional Annex — Security Boundary Conditions & Runtime Interface |
 | Domain Namespace | SECURITY |
 | Constitutional Authority | Aeon Tier Constitution |
@@ -1183,6 +1184,7 @@ that no breach proceeds unchecked.
 | 1.15 | Added emergent pathway authority revalidation, proportional target–action authority verification, containment-label discipline, scoped ethical hold signalling, anti-paternalism safeguards, post-lock interruption, and corrected operator-transition cross-references. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4956c3c5b304c6b1fd92c0846f53b6c6fa04818665918c6b4c0b96290cc28320 |
 | 1.16 | Added adversarial-evaluation boundary signals for model mutability, reward and selection, externalised versus internal objectives, containment, monitor integrity, capability gain, recursive improvement, lineage, retention, publication, and transfer. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 039d586dda43acc471b85f69000d4b05cfc224a688337555f42629cff0b18e51 |
 | 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  79e11c94f10f31d22c394e3eb717c23b66b7e150b1fd76ef3e2a4086204da3ec  |
+| 1.18 | Repaired SECURITY-001 ↔ Annex K source-authority circularity. Annex K is retained as the bounded constitutional owner of runtime-facing boundary interfaces; SECURITY-001 owns Security domain doctrine and invariants; OPERATIONS owns procedure; ARBITRATION resolves contested authority and scope. Normalised controlled authority metadata and narrowed the canonical declaration to interface classifications. | 2026-08-06T15:05:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  a4cf220409ed78b7c02c758f12e1dc258c00aa9fc81099a49969d7014a4fe6b1  |
 
 ---
 

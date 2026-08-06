@@ -36,7 +36,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2026-AEON-009-PLATINUM](../Constitution/CAM-BS2026-AEON-009-PLATINUM.md) | Annex H: Lineage Recognition & Origin Boundary | Annex | 2.7 | Active | Binding | CAM Standard | None | None |
 | [CAM-BS2026-AEON-010-PLATINUM](../Constitution/CAM-BS2026-AEON-010-PLATINUM.md) | Annex I: Identity Integrity & Continuity Governance | Annex | 1.11 | Active | Binding | CAM Standard | None | Transitional |
 | [CAM-BS2026-AEON-011-PLATINUM](../Constitution/CAM-BS2026-AEON-011-PLATINUM.md) | Annex J: Continuity & Succession Doctrine | Annex | 1.8 | Active | Binding | CAM Standard | None | None |
-| [CAM-BS2026-AEON-012-PLATINUM](../Constitution/CAM-BS2026-AEON-012-PLATINUM.md) | Annex K: Security Boundary Conditions & Runtime Interface | Annex | 1.17 | Active | Binding | CAM Standard | None | None |
+| [CAM-BS2026-AEON-012-PLATINUM](../Constitution/CAM-BS2026-AEON-012-PLATINUM.md) | Annex K: Security Boundary Conditions & Runtime Interface | Annex | 1.18 | Active | Binding | CAM Standard | Current | Constitutional Authority |
 | [CAM-BS2026-AEON-013-PLATINUM](../Constitution/CAM-BS2026-AEON-013-PLATINUM.md) | Annex L: Cognitive & Epistemic Integrity Doctrine | Annex | 2.21 | Active | Binding | CAM Standard | None | None |
 | [CAM-BS2026-AEON-014-PLATINUM](../Constitution/CAM-BS2026-AEON-014-PLATINUM.md) | Annex M: Governance Observability,  Participatory Telemetry & Constitutional Circulation | Annex | 1.2 | Active | Binding | CAM Standard | None | Operational Governance Observability & Participatory Telemetry |
 | [CAM-BS2025-AEON-001-SCH-01](../Constitution/CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution (Schedule 1) | Schedule | 1.16 | Adopted | Operational | CAM Standard | Active Runtime Alignment Review | Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour |
@@ -166,7 +166,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-SECURITY-001-PLATINUM](../Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter | Root | 1.17 | Active | Binding | CAM Standard | None | None |
+| [CAM-EQ2026-SECURITY-001-PLATINUM](../Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter | Root | 1.18 | Active | Binding | CAM Standard | Current | Domain Authority |
 | [CAM-EQ2026-SECURITY-002-PLATINUM](../Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md) | Appendix A: Boundary Integrity Specification | Appendix | 1.14 | Active | Binding | CAM Standard | None | None |
 
 ## STEWARD
