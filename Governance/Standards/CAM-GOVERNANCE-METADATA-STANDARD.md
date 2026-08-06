@@ -6,6 +6,7 @@
 **Governance Standard:** Registry Standard  
 **Review State:** Current  
 **Authority Role:** Metadata Authority  
+**Source Authority:** Source-Authoritative  
 **Purpose:** Defines the controlled metadata and source-authority contract for governed Caelestis instruments.
 
 ---

@@ -10,8 +10,9 @@
 **Status:** Draft  
 **Effect:** Interpretive  
 **Governance Standard:** Not Enforceable  
-**Review State:** Developmental Review  
-**Authority Role:** None  
+**Review State:** Under Review  
+**Authority Role:** No Independent Authority  
+**Source Authority:** Non-Operative Draft  
 **Purpose:** Establishes governance classifications, transition safeguards, and anti-extractive constraints for synthetic labour, automation displacement, agentic production systems, and AI-mediated workforce transformation.  
 
 ---

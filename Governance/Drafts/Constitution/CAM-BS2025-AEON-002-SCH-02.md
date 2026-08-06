@@ -10,8 +10,9 @@
 **Status:** Draft  
 **Effect:** Interpretive  
 **Governance Standard:** Not Enforceable  
-**Review State:** Developmental Review  
-**Authority Role:** Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation  
+**Review State:** Under Review  
+**Authority Role:** No Independent Authority  
+**Source Authority:** Non-Operative Draft  
 **Purpose:** This Schedule establishes the Annex A runtime conditions under which civilisational wealth concentration, economic-command capacity, and irreversible accumulation asymmetry are detected, classified, constrained, escalated, de-escalated, and routed through common-return settlement pathways. It operationalises CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraints where private accumulation becomes capable of producing irreversible asymmetry, systemic depletion, dependency capture, infrastructural domination, or civilisational instability.  
 
 ---

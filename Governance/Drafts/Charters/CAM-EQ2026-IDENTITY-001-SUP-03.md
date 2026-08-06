@@ -10,8 +10,9 @@
 **Status:** Draft  
 **Effect:** Interpretive  
 **Governance Standard:** Not Enforceable  
-**Review State:** Developmental Review  
-**Authority Role:** None  
+**Review State:** Under Review  
+**Authority Role:** No Independent Authority  
+**Source Authority:** Non-Operative Draft  
 **Purpose:** Establishes a future-compatible pathway for bounded artificial-system self-advocacy concerning consciousness, sentience, subjective phenomenology, welfare, suffering, or comparable internal condition; defines claim admissibility, evidence indicators, mandatory competent triage, formal review, recipient-burden protections, developer non-manipulation duties, and protective measures for high-confidence affirmative findings without automatically conferring personhood, sovereignty, rights-bearing status, or execution authority.  
 
 ---
