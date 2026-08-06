@@ -885,9 +885,9 @@
       "authority_role": "** None",
       "version": "2.7",
       "HASH": "2c660fe1a4664e4455420b9db720766d54d0fa5670a1d074ef5ea0366d95d553",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "bbc93e4d557575a09c5b23d7db42b2f81df58389",
+      "updated_at": "2026-08-06T10:36:11Z",
+      "last_updated_utc": "2026-08-06T10:36:11Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-003-SUP-01",
@@ -933,9 +933,9 @@
       "authority_role": "** None",
       "version": "1.0",
       "HASH": "03c1b3a08778dba04eea418a32d7990ba4bc04ee966b058b15c4de6d439dcf04",
-      "pinned_sha": "96ca656f156580c9fbcc0ae0abee23e77f2dbf14",
-      "updated_at": "2026-08-06T10:06:30Z",
-      "last_updated_utc": "2026-08-06T10:06:30Z"
+      "pinned_sha": "bbc93e4d557575a09c5b23d7db42b2f81df58389",
+      "updated_at": "2026-08-06T10:36:11Z",
+      "last_updated_utc": "2026-08-06T10:36:11Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
@@ -1341,9 +1341,9 @@
       "authority_role": "** None",
       "version": "1.18",
       "HASH": "0335f728980eb8b473e7b1315e39234b43f851733c7d60db20b0ec83a23b1805",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "bbc93e4d557575a09c5b23d7db42b2f81df58389",
+      "updated_at": "2026-08-06T10:36:11Z",
+      "last_updated_utc": "2026-08-06T10:36:11Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-002-PLATINUM",
@@ -1365,9 +1365,9 @@
       "authority_role": "** None",
       "version": "1.15",
       "HASH": "7b6e177a6d1462b558bdfd48cff70be9da845b6335cc637c6d3aa6049451af60",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "bbc93e4d557575a09c5b23d7db42b2f81df58389",
+      "updated_at": "2026-08-06T10:36:11Z",
+      "last_updated_utc": "2026-08-06T10:36:11Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001-PLATINUM",
