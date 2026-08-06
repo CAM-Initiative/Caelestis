@@ -1,0 +1,51 @@
+name: Metadata and Source-Authority Audit
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "Governance/Constitution/**"
+      - "Governance/Charters/**"
+      - "Governance/Laws/**"
+      - "Governance/Standards/**"
+      - "Governance/Drafts/**"
+      - ".github/scripts/audit_metadata_authority_contract.py"
+      - ".github/workflows/metadata-authority-audit.yml"
+  pull_request:
+    paths:
+      - "Governance/Constitution/**"
+      - "Governance/Charters/**"
+      - "Governance/Laws/**"
+      - "Governance/Standards/**"
+      - "Governance/Drafts/**"
+      - ".github/scripts/audit_metadata_authority_contract.py"
+      - ".github/workflows/metadata-authority-audit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Build Pass 4 inventory
+        run: |
+          mkdir -p validation-reports
+          python .github/scripts/audit_metadata_authority_contract.py \
+            --json-out validation-reports/pass-4-metadata-authority-inventory.json \
+            --md-out validation-reports/pass-4-metadata-authority-inventory.md
+
+      - name: Upload Pass 4 inventory
+        uses: actions/upload-artifact@v4
+        with:
+          name: pass-4-metadata-authority-inventory
+          path: validation-reports/pass-4-metadata-authority-inventory.*
