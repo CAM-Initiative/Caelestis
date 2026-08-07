@@ -956,10 +956,10 @@
       "review_state": "** Under Review",
       "authority_role": "** Operational Authority",
       "version": "1.5",
-      "HASH": "",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "HASH": "f9b514ccb376f82fce28c1bccf03d5534fc7acc0922f8627ea2d7d119ae467b4",
+      "pinned_sha": "480eb12722d0a53bb5c06e470562f6b0583dd4f6",
+      "updated_at": "2026-08-07T13:24:01Z",
+      "last_updated_utc": "2026-08-07T13:24:01Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-008-PLATINUM",

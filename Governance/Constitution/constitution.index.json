@@ -1,5 +1,5 @@
 {
-  "count": 40,
+  "count": 39,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -116,10 +116,10 @@
       "review_state": "** Under Review",
       "authority_role": "** Constitutional Authority",
       "version": "5.1",
-      "HASH": "",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "HASH": "f88b203aac8ee0c04db05d6408e182fc3c7e99a8b436df4095230fc6915f3d7d",
+      "pinned_sha": "480eb12722d0a53bb5c06e470562f6b0583dd4f6",
+      "updated_at": "2026-08-07T13:24:01Z",
+      "last_updated_utc": "2026-08-07T13:24:01Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -141,9 +141,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
-      "updated_at": "2026-08-06T14:38:43Z",
-      "last_updated_utc": "2026-08-06T14:38:43Z"
+      "pinned_sha": "480eb12722d0a53bb5c06e470562f6b0583dd4f6",
+      "updated_at": "2026-08-07T13:24:01Z",
+      "last_updated_utc": "2026-08-07T13:24:01Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
-      "updated_at": "2026-08-06T14:38:43Z",
-      "last_updated_utc": "2026-08-06T14:38:43Z"
+      "pinned_sha": "480eb12722d0a53bb5c06e470562f6b0583dd4f6",
+      "updated_at": "2026-08-07T13:24:01Z",
+      "last_updated_utc": "2026-08-07T13:24:01Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",
@@ -213,30 +213,6 @@
       "authority_role": "** None",
       "version": "2.7",
       "HASH": "ffeb1295c32943214ae8dc312643c092d00a30071a6051c1be68014c837594a6",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
-    },
-    {
-      "id": "CAM-BS2025-AEON-003-SCH-05",
-      "cycle_year": "BS2025",
-      "stack": "Planetary Governance",
-      "domain": "Aeon Tier Constitution",
-      "instrument_class": "constitution",
-      "hierarchy_type": "schedule",
-      "hierarchy_number": "05",
-      "parent_id": "CAM-BS2025-AEON-003",
-      "seal": null,
-      "link": "CAM-BS2025-AEON-003-SCH-05.md",
-      "title": "Annex B: Runtime Applicability & Conformance Proposal (Schedule 5)",
-      "summary": "",
-      "status": "** Proposed",
-      "effect": "** Interpretive",
-      "enforcement": "** Not Enforceable",
-      "review_state": "** Under Review",
-      "authority_role": "** No Independent Authority",
-      "version": "1.2",
-      "HASH": "",
       "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
       "updated_at": "2026-08-05T12:20:44Z",
       "last_updated_utc": "2026-08-05T12:20:44Z"
