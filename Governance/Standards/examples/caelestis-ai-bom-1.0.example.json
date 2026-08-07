@@ -1,0 +1,59 @@
+{
+  "profile": "Caelestis-AI-BOM-1.0",
+  "bom": {
+    "serial": "urn:uuid:2f59ef76-34f6-4d0f-9fbd-f437bc2d8f69",
+    "version": 1,
+    "issuedAt": "2026-08-07T18:00:00Z",
+    "sourceArtifact": "https://example.invalid/aibom/assistant-demo/1"
+  },
+  "subject": {
+    "aiSystemId": "urn:caelestis:ai-system:example-assistant",
+    "name": "Example assistant deployment",
+    "configurationBaselineId": "urn:caelestis:configuration-baseline:example-assistant:2026-08-07",
+    "deploymentId": "urn:caelestis:deployment:example-assistant:production",
+    "environment": "production"
+  },
+  "elements": [
+    {
+      "id": "model:example-llm:2026-08",
+      "type": "ai_model",
+      "name": "Example LLM",
+      "version": "2026-08",
+      "supplier": "Example Model Provider",
+      "provenance": "provider model card ref: example-model-card-2026-08",
+      "intendedUse": "bounded assistant response generation",
+      "limitations": "No assertion of execution participation; see linked runtime evidence.",
+      "evidence": {"state": "verified", "basis": "release manifest 2026-08", "verifiedAt": "2026-08-07T17:45:00Z", "verifier": "deployment assurance function"}
+    },
+    {
+      "id": "service:retrieval:example-kb",
+      "type": "tool_or_connector",
+      "name": "Example knowledge retrieval service",
+      "version": "4.2.0",
+      "evidence": {"state": "observed", "basis": "deployment inventory scan run-804", "observedAt": "2026-08-07T17:40:00Z"}
+    },
+    {
+      "id": "control:tool-gate:v3",
+      "type": "control",
+      "name": "External-tool approval gate",
+      "version": "3",
+      "evidence": {"state": "declared", "basis": "approved configuration baseline"}
+    },
+    {
+      "id": "credential:payment-provider",
+      "type": "configuration",
+      "name": "Payment-provider credential reference",
+      "controlledReference": {"reference": "vault://production/payments/credential-ref-01", "role": "payment-provider authentication", "effectiveInterval": "2026-08-07T00:00:00Z/2026-09-07T00:00:00Z", "custodian": "platform security owner", "accessPath": "approved incident-access process"},
+      "evidence": {"state": "unknown_undisclosed", "knowledgeLimit": "Credential value is intentionally excluded from the AI-BOM."}
+    }
+  ],
+  "relationships": [
+    {"id": "rel:system-contains-model", "from": "urn:caelestis:ai-system:example-assistant", "to": "model:example-llm:2026-08", "type": "contains", "evidence": {"state": "verified", "basis": "deployment manifest", "verifiedAt": "2026-08-07T17:45:00Z", "verifier": "deployment assurance function"}},
+    {"id": "rel:model-retrieves", "from": "model:example-llm:2026-08", "to": "service:retrieval:example-kb", "type": "retrieves_from", "evidence": {"state": "observed", "basis": "deployment inventory scan run-804", "observedAt": "2026-08-07T17:40:00Z"}},
+    {"id": "rel:gate-controls-retrieval", "from": "control:tool-gate:v3", "to": "service:retrieval:example-kb", "type": "controls", "evidence": {"state": "declared", "basis": "approved configuration baseline"}}
+  ],
+  "evidenceLinks": [
+    {"type": "runtime_configuration_snapshot", "reference": "urn:caelestis:runtime-snapshot:example-assistant:2026-08-07T17:50:00Z", "evidence": {"state": "declared", "basis": "snapshot retention schedule"}},
+    {"type": "execution_provenance_record", "reference": "urn:caelestis:execution-provenance:example-assistant:external-action-123", "evidence": {"state": "unknown_undisclosed", "knowledgeLimit": "No execution is asserted by this composition record."}}
+  ]
+}

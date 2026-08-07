@@ -129,7 +129,7 @@ Where required by the applicable risk, reliance, change, incident or conformance
 
 ### 5.2 Caelestis AI-BOM Profile
 
-The **Caelestis AI-BOM Profile** implements the Annex B composition and dependency requirement using SPDX and CycloneDX native semantics wherever adequate. Caelestis-namespaced fields MAY be used only where native semantics cannot express the required relationship or evidence state.
+The **Caelestis AI-BOM Profile** implements the Annex B composition and dependency requirement using SPDX and CycloneDX native semantics wherever adequate. Its canonical schema, serialization rules, mappings, examples and repository validator are source-authoritatively defined by `CAM-AI-BOM-PROFILE` in `Governance/Standards/`. Caelestis-namespaced fields MAY be used only where native semantics cannot express the required relationship or evidence state.
 
 The profile SHALL distinguish system elements, relationships and evidence state. Where relevant, it records AI models and versions; software; datasets and knowledge resources; memory systems; tools and connectors; configuration artefacts; infrastructure; relevant hardware; suppliers; licences; provenance; intended use; limitations; agentic elements; deployment information; and assurance links.
 
@@ -758,6 +758,7 @@ and let conformance be demonstrated where reliance is invited.
 | 1.3 | Added §5.1 composed-runtime layer records and §9.2.1 incident-attribution state records, separating architecture, inference configuration, harness, environment, governance stack, deployed formation, initiation, authorship, causal contribution, authority, and culpability. VIGIL-2026-FM-0028; VIGIL-2026-PROP-0027. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8d78c890f655b2c4566353ccce91dc89da8d470bfeacd8b0d34c52b463a89281 |
 | 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; aligned runtime-formation records, lineage, system boundaries, attribution, and arbitration topology with the AEON-003 composed-system architecture; retired cognition and origin-class routing. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e521d75c75f81896dad64f35a9412745a4ec1d471a7abab48119a44c1aaa8114  |
 | 1.5 | Implemented the derived operational AI-system evidence profile: system configuration baseline, AI-system deployment, Caelestis AI-BOM Profile, runtime configuration snapshot and execution provenance record. Replaced retired runtime-formation, responding-intelligence, agentic-harness and governance-stack terminology in current Appendix F doctrine and normalised affected transition values. | 2026-08-07T14:15:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  f9b514ccb376f82fce28c1bccf03d5534fc7acc0922f8627ea2d7d119ae467b4  |
+| 1.6 | Bound the Caelestis AI-BOM requirement to the source-authoritative machine-readable profile standard, including canonical schema, SPDX/CycloneDX mappings, examples and validation rules; preserved the boundary that composition records do not prove execution participation. | 2026-08-07T18:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  fa799116be906ea9874e9b605dfb0dddd21f939ef7e09fb7d9ac8569ef004106  |
 ---
 
 ## 18.4 Binding Seal

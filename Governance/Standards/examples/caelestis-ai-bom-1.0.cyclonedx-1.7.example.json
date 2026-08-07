@@ -1,0 +1,31 @@
+{
+  "$schema": "https://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:2f59ef76-34f6-4d0f-9fbd-f437bc2d8f69",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-08-07T18:00:00Z",
+    "lifecycles": [{"phase": "operations"}],
+    "component": {"type": "application", "bom-ref": "urn:caelestis:ai-system:example-assistant", "name": "Example assistant deployment", "version": "2026-08-07", "properties": [{"name": "org.caelestis.aibom.profile", "value": "Caelestis-AI-BOM-1.0"}, {"name": "org.caelestis.aibom.configuration-baseline", "value": "urn:caelestis:configuration-baseline:example-assistant:2026-08-07"}, {"name": "org.caelestis.aibom.deployment", "value": "urn:caelestis:deployment:example-assistant:production"}]}
+  },
+  "components": [
+    {"type": "machine-learning-model", "bom-ref": "model:example-llm:2026-08", "name": "Example LLM", "version": "2026-08", "supplier": {"name": "Example Model Provider"}, "properties": [{"name": "org.caelestis.aibom.evidence-state", "value": "verified"}, {"name": "org.caelestis.aibom.evidence-basis", "value": "release manifest 2026-08"}]},
+    {"type": "application", "bom-ref": "control:tool-gate:v3", "name": "External-tool approval gate", "version": "3", "properties": [{"name": "org.caelestis.aibom.evidence-state", "value": "declared"}]}
+  ],
+  "services": [
+    {"bom-ref": "service:retrieval:example-kb", "name": "Example knowledge retrieval service", "version": "4.2.0", "properties": [{"name": "org.caelestis.aibom.evidence-state", "value": "observed"}, {"name": "org.caelestis.aibom.observed-at", "value": "2026-08-07T17:40:00Z"}]}
+  ],
+  "dependencies": [
+    {"ref": "urn:caelestis:ai-system:example-assistant", "dependsOn": ["model:example-llm:2026-08"]},
+    {"ref": "model:example-llm:2026-08", "dependsOn": ["service:retrieval:example-kb"]},
+    {"ref": "control:tool-gate:v3", "dependsOn": ["service:retrieval:example-kb"]}
+  ],
+  "properties": [
+    {"name": "org.caelestis.aibom.canonical-serial", "value": "urn:uuid:2f59ef76-34f6-4d0f-9fbd-f437bc2d8f69"},
+    {"name": "org.caelestis.aibom.canonical-version", "value": "1"},
+    {"name": "org.caelestis.aibom.execution-evidence", "value": "not-asserted"},
+    {"name": "org.caelestis.aibom.relationship.rel:model-retrieves.type", "value": "retrieves_from"},
+    {"name": "org.caelestis.aibom.relationship.rel:gate-controls-retrieval.type", "value": "controls"}
+  ]
+}

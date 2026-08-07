@@ -1,14 +1,15 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 861
-**Generic usages suppressed:** 715
+**Total model-term matches scanned:** 869
+**Generic usages suppressed:** 722
 **Declared / recognised usages emitted:** 119
-**Advisory review usages emitted:** 27
+**Advisory review usages emitted:** 28
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
 | Instrument | Section / Heading | Term Used | Suggested Classification | Review Status |
 |---|---|---|---|---|
+| CAM-AI-BOM-PROFILE | 4.2 SPDX | AI model | Technical / AI Model | Advisory Review |
 | CAM-BS2025-AEON-001-PLATINUM | 14. Execution Architecture Alignment | All instruments SHALL operate in accordance with the Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-001-PLATINUM | 14. Execution Architecture Alignment | preventing a governance-processing model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-001-PLATINUM | 146.2 Amendment Ledger | recast Article IV as a governance-processing model | Governance Model | Declared / Recognised |

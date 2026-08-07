@@ -1,0 +1,25 @@
+{
+  "profile": "Caelestis-AI-BOM-1.0",
+  "version": "1.0",
+  "sources": {
+    "cyclonedx": {"version": "1.7", "namespace": "org.caelestis.aibom."},
+    "spdx": {"version": "3.0.1", "extensionNamespace": "https://caelestis.cam/ns/aibom/1.0/"}
+  },
+  "fields": [
+    {"canonical": "bom.serial", "cyclonedx": "serialNumber", "spdx": "Core/SpdxDocument.spdxId", "extensionRequired": false},
+    {"canonical": "bom.version", "cyclonedx": "version", "spdx": "Core/SpdxDocument.creationInfo + versionInfo where supported", "extensionRequired": false},
+    {"canonical": "subject.aiSystemId", "cyclonedx": "metadata.component.bom-ref", "spdx": "AI/AIPackage.spdxId", "extensionRequired": false},
+    {"canonical": "subject.configurationBaselineId", "cyclonedx": "property org.caelestis.aibom.configuration-baseline", "spdx": "Extension/configurationBaselineId", "extensionRequired": true},
+    {"canonical": "subject.deploymentId", "cyclonedx": "property org.caelestis.aibom.deployment", "spdx": "Extension/deploymentId", "extensionRequired": true},
+    {"canonical": "elements[type=ai_model]", "cyclonedx": "components[type=machine-learning-model] + modelCard", "spdx": "AI/AIPackage", "extensionRequired": false},
+    {"canonical": "elements[type=dataset_or_knowledge]", "cyclonedx": "components[type=data]", "spdx": "Dataset/DatasetPackage", "extensionRequired": false},
+    {"canonical": "elements[type=software]", "cyclonedx": "components[type=application|library|framework|file]", "spdx": "Software/Package", "extensionRequired": false},
+    {"canonical": "relationships[type=depends_on]", "cyclonedx": "dependencies.dependsOn", "spdx": "Core/Relationship dependency type", "extensionRequired": false},
+    {"canonical": "relationships[type=contains]", "cyclonedx": "metadata.component/components or components nesting", "spdx": "Core/Relationship contains", "extensionRequired": false},
+    {"canonical": "relationships[type in invokes,routes_to,retrieves_from,controls,monitors,deployed_on]", "cyclonedx": "dependencies + relationship-type property", "spdx": "Core/Relationship plus Extension/relationshipType", "extensionRequired": true},
+    {"canonical": "evidence.state", "cyclonedx": "property org.caelestis.aibom.evidence-state", "spdx": "Extension/evidenceState", "extensionRequired": true},
+    {"canonical": "controlledReference", "cyclonedx": "property org.caelestis.aibom.controlled-reference", "spdx": "Extension/controlledReference", "extensionRequired": true},
+    {"canonical": "evidenceLinks", "cyclonedx": "externalReferences[type=documentation|bom] + property", "spdx": "Core/ExternalRef or Extension/evidenceLink", "extensionRequired": false}
+  ],
+  "prohibitions": ["secret values", "credential values", "private keys", "claim of execution participation from AI-BOM composition alone"]
+}

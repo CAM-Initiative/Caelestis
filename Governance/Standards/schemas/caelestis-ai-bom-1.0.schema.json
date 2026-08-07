@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://caelestis.cam/ns/aibom/1.0/schema.json",
+  "title": "Caelestis AI-BOM 1.0",
+  "description": "Canonical composition and deployment information model. This document is not execution evidence.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["profile", "bom", "subject", "elements", "relationships"],
+  "properties": {
+    "profile": {"const": "Caelestis-AI-BOM-1.0"},
+    "bom": {"$ref": "#/$defs/bom"},
+    "subject": {"$ref": "#/$defs/subject"},
+    "elements": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/element"}},
+    "relationships": {"type": "array", "items": {"$ref": "#/$defs/relationship"}},
+    "evidenceLinks": {"type": "array", "items": {"$ref": "#/$defs/evidenceLink"}}
+  },
+  "$defs": {
+    "identifier": {"type": "string", "minLength": 1, "maxLength": 512},
+    "bom": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["serial", "version", "issuedAt"],
+      "properties": {
+        "serial": {"$ref": "#/$defs/identifier"},
+        "version": {"type": "integer", "minimum": 1},
+        "issuedAt": {"type": "string", "format": "date-time"},
+        "sourceArtifact": {"type": "string", "format": "uri-reference"}
+      }
+    },
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["aiSystemId", "name"],
+      "properties": {
+        "aiSystemId": {"$ref": "#/$defs/identifier"},
+        "name": {"type": "string", "minLength": 1},
+        "configurationBaselineId": {"$ref": "#/$defs/identifier"},
+        "deploymentId": {"$ref": "#/$defs/identifier"},
+        "environment": {"type": "string"}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state"],
+      "properties": {
+        "state": {"enum": ["declared", "observed", "verified", "unknown_undisclosed"]},
+        "basis": {"type": "string", "minLength": 1},
+        "observedAt": {"type": "string", "format": "date-time"},
+        "verifiedAt": {"type": "string", "format": "date-time"},
+        "verifier": {"type": "string", "minLength": 1},
+        "knowledgeLimit": {"type": "string", "minLength": 1}
+      }
+    },
+    "controlledReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reference", "role", "effectiveInterval", "custodian", "accessPath"],
+      "properties": {
+        "reference": {"$ref": "#/$defs/identifier"},
+        "role": {"type": "string", "minLength": 1},
+        "effectiveInterval": {"type": "string", "minLength": 1},
+        "custodian": {"type": "string", "minLength": 1},
+        "accessPath": {"type": "string", "minLength": 1}
+      }
+    },
+    "element": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "name", "evidence"],
+      "properties": {
+        "id": {"$ref": "#/$defs/identifier"},
+        "type": {"enum": ["ai_model", "software", "dataset_or_knowledge", "memory_service", "tool_or_connector", "configuration", "orchestration_component", "agent_runtime", "infrastructure", "control", "interface", "service", "hardware", "other"]},
+        "name": {"type": "string", "minLength": 1},
+        "version": {"type": "string"},
+        "supplier": {"type": "string"},
+        "provenance": {"type": "string"},
+        "license": {"type": "string"},
+        "intendedUse": {"type": "string"},
+        "limitations": {"type": "string"},
+        "controlledReference": {"$ref": "#/$defs/controlledReference"},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    },
+    "relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "from", "to", "type", "evidence"],
+      "properties": {
+        "id": {"$ref": "#/$defs/identifier"},
+        "from": {"$ref": "#/$defs/identifier"},
+        "to": {"$ref": "#/$defs/identifier"},
+        "type": {"enum": ["contains", "depends_on", "invokes", "routes_to", "retrieves_from", "controls", "monitors", "deployed_on"]},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    },
+    "evidenceLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "reference"],
+      "properties": {
+        "type": {"enum": ["assurance_evidence", "runtime_configuration_snapshot", "execution_provenance_record", "other"]},
+        "reference": {"type": "string", "minLength": 1},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    }
+  }
+}
