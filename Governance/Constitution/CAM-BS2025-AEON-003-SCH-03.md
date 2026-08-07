@@ -27,7 +27,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 |---|---|---|---|---|---|---|---|---|
 | [CAM-BS2025-AEON-001-PLATINUM](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.14 | Active | Immediate Constitutional Effect | Binding | None | Constitutional Authority |
 | [CAM-BS2025-AEON-002-PLATINUM](../Constitution/CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship | Annex | 3.9 | Active | Binding | CAM Standard | None | Binding Authority |
-| [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: AI System Architecture & Governance Logic | Annex | 5.2 | Active | Binding | CAM Standard | Under Review | Constitutional Authority |
+| [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: AI System Architecture & Governance Logic | Annex | 5.3 | Active | Binding | CAM Standard | Under Review | Constitutional Authority |
 | [CAM-BS2025-AEON-004-PLATINUM](../Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework | Annex | 2.9 | Active | Binding | CAM Standard | None | None |
 | [CAM-BS2025-AEON-005-PLATINUM](../Constitution/CAM-BS2025-AEON-005-PLATINUM.md) | Annex D: Arbitration & Sovereign Stack Resolution Doctrine | Annex | 2.10 | Active | Binding | CAM Standard | None | None |
 | [CAM-BS2025-AEON-006-PLATINUM](../Constitution/CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor | Annex | 4.1 | Active | Binding | CAM Standard | None | None |
@@ -137,7 +137,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-OPERATIONS-004-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-004-PLATINUM.md) | Appendix C: Operational Compliance & Regulatory Interface | Appendix | 1.17 | Adopted | Operational | CAM Standard | None | None |
 | [CAM-EQ2026-OPERATIONS-005-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md) | Appendix D: Change Governance & Amendment Operations | Appendix | 2.4 | Adopted | Operational | CAM Standard | Formal Review Completed — Pre-Enforcement Alignment | Source-authoritative operational appendix for amendment intake, review routing, version-control discipline, governance drift detection, cross-instrument harmonisation, and amendment closure procedures. |
 | [CAM-EQ2026-OPERATIONS-006-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md) | Appendix E: Domain Coordination & Convergence Operations | Appendix | 2.4 | Adopted | Operational | CAM Standard | Formal Review Completed — Pre-Enforcement Alignment | Source-authoritative operational appendix for cross-domain coordination, operational divergence classification, convergence workflow custody, arbitration-routing support, and convergence closure procedures. |
-| [CAM-EQ2026-OPERATIONS-007-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md) | Appendix F: Runtime Governance Applicability & Conformance | Appendix | 1.6 | Adopted | Operational | CAM Standard | Under Review | Operational Authority |
+| [CAM-EQ2026-OPERATIONS-007-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md) | Appendix F: Runtime Governance Applicability & Conformance | Appendix | 1.7 | Adopted | Operational | CAM Standard | Under Review | Operational Authority |
 | [CAM-EQ2026-OPERATIONS-008-PLATINUM](../Charters/CAM-EQ2026-OPERATIONS-008-PLATINUM.md) | Adversarial Evaluation & Red-Team Governance Charter | Appendix | 1.2 | Adopted | Operational | CAM Standard | Current | Operational Authority |
 | [CAM-EQ2026-OPERATIONS-001-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-01.md) | Operational Logging & Audit Standards (Supplement 1) | Supplement | 1.11 | Adopted | Operational | CAM Standard | None | None |
 | [CAM-EQ2026-OPERATIONS-001-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md) | Escalation Pathway Playbooks (Supplement 2) | Supplement | 1.12 | Adopted | Operational | CAM Standard | None | None |
@@ -165,7 +165,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-SECURITY-001-PLATINUM](../Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter | Root | 1.18 | Active | Binding | CAM Standard | Current | Domain Authority |
+| [CAM-EQ2026-SECURITY-001-PLATINUM](../Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md) | Security, Integrity & Adversarial Resilience Charter | Root | 1.19 | Active | Binding | CAM Standard | Current | Domain Authority |
 | [CAM-EQ2026-SECURITY-002-PLATINUM](../Charters/CAM-EQ2026-SECURITY-002-PLATINUM.md) | Appendix A: Boundary Integrity Specification | Appendix | 1.14 | Active | Binding | CAM Standard | None | None |
 
 ## STEWARD

@@ -15,11 +15,9 @@
 
 ## 1. Scope
 
-This Charter does not operate as an isolated governance domain.
+This Charter is not an isolated governance domain. It establishes the security doctrine, security classifications and cross-domain integration requirements for AI systems and their deployments.
 
-It establishes a **cross-domain invariant layer** governing how systems maintain coherence, integrity, and reliability under adversarial pressure, environmental degradation, or trust uncertainty.
-
-Security is therefore treated as a **system condition**, not a perimeter function.
+It addresses security outcomes and risks affecting confidentiality and privacy where applicable, integrity, availability and resilience, authenticity, provenance, authorisation, identity and access management, supply-chain integrity, secure execution, monitoring, response and recovery.
 
 This Charter binds within its bounded security domain. It does not override ETHICS non-derogable constraints, constitutional execution schedules, or valid ARBITRATION determinations. Where a security condition conflicts with another applicable constraint, the conflict SHALL be routed to ARBITRATION rather than resolved through SECURITY self-supersession.
 
@@ -27,7 +25,7 @@ This Charter binds within its bounded security domain. It does not override ETHI
 
 ## 1.1 Non Scope
 
-This Charter is the source-authoritative owner of SECURITY-domain invariant conditions, threat interpretations, and signal classifications.
+This Charter is the source-authoritative owner of SECURITY-domain doctrine, threat classifications and security-state classifications.
 
 It does not:
 
@@ -38,8 +36,8 @@ It does not:
 
 All signals, classifications, and constraint conditions defined herein SHALL be:
 
-* interpreted across phases;
-* resolved exclusively via runtime execution layers;
+* interpreted as security inputs within the applicable deployment and runtime context; and
+* applied through the authorised technical, operational or organisational control.
 
 with implementation routed through:
 
@@ -74,48 +72,26 @@ OPERATIONS owns intake, evidence custody, incident lifecycle, routing, and proce
 
 ## 2. Definitions
 
-**Asymmetry Condition**
-Exploitation requires imbalance of information, control, or capability.
-
-**Asymmetry Clarification**
-Asymmetry may arise not only from adversarial intent, but from:
-
-* differences between system-level access and user awareness
-* divergence between structural data and perceived data boundaries
-
-Systems MUST treat such conditions as potential exploitation environments, even in the absence of an active adversary.
-
-**Constraint Violation**
-Exploitation occurs where ceilings, auditability, consent, or trust boundaries are bypassed.
-
-**Covert vs Overt Extraction**
-
-* Covert: hidden, silent, or off-ledger (highest risk)
-* Overt: visible but unjustified or disproportionate
-
 **Integrity State**
-The operational condition of system coherence, reliability, and resistance to adversarial influence.
+An evidence-based classification of the integrity of a defined system, deployment, runtime configuration, execution or security-relevant artefact. It does not establish authority to execute, contain, disclose, suspend or restore.
 
 **Trust Gradient (`SEC.TG`)**
 A multi-level model governing permissible reliance, execution scope, and verification requirements.
 
-**Adversarial Horizon (`SEC.AH`)**
-The temporal and structural persistence of adversarial conditions affecting system posture.
+**Threat Persistence (`SEC.AH`)**
+The observed or assessed persistence and adaptation of a security-relevant threat condition affecting a defined scope. It is not a claim about a universal ambient adversary.
 
 **Boundary Integrity**
 The preservation of correct separation between data, identity, context, and representation layers.
 
-**Exploitation (Value Extraction)**
-The unauthorised extraction, transfer, or concentration of value across one or more axes under asymmetry.
-
-**Responding Intelligence (RI)**
-Any system, agent, or process that interprets signals and produces outputs under this governance framework.
+**Security-relevant mechanism**
+An evidenced or credibly alleged pathway by which confidentiality, privacy, integrity, availability, authenticity, provenance, authorisation, identity/access control, safety or resilience may be compromised. A claim, label or symbolic frame alone is not a security-relevant mechanism.
 
 **Cultivated Adversarial Capability**
 A model, agent, scaffold, prompt, adapter, checkpoint, reward model, or derivative artefact whose deceptive, manipulative, evasive, sabotaging, concealment, monitor-evasion, policy-laundering, or oversight-subverting capability has been intentionally or foreseeably improved through development or evaluation.
 
 **Capability Lineage**
-The traceable relationship among a base model, checkpoint, adapter, reward model, system prompt, scaffold, evaluator, dataset, training or selection process, environment, generated artefact, transfer event, and downstream derivative sufficient to determine whether prohibited capability was cultivated, retained, or propagated.
+The traceable relationship among a model, checkpoint, adapter, instruction artefact, orchestration component, evaluator, dataset, training or selection process, environment, generated artefact, transfer event and downstream derivative sufficient to assess whether a security-relevant capability was developed, retained or propagated.
 
 ---
 
@@ -125,12 +101,12 @@ The traceable relationship among a base model, checkpoint, adapter, reward model
 
 ## 3.1 Boundary Integrity
 
-Boundary integrity is recognised as a **distinct invariant layer** governing:
+Boundary integrity governs:
 
 * visibility vs structure
 * scope vs access
 * representation vs underlying data
-* cross-user value flow and provenance
+* cross-user data separation and provenance
 
 Systems MUST:
 
@@ -161,25 +137,15 @@ Failure to maintain this distinction constitutes a boundary integrity failure, r
 
 ## 3.3 Security Function
 
-Security systems exist to detect, prevent, and constrain unauthorised value extraction across all axes.
+Security controls SHALL manage security risk through governance, asset and dependency identification, protection, detection, response and recovery. For AI systems, the security process SHALL also map, measure and manage AI-specific security risks proportionately to the system, deployment and impact context.
 
 ---
 
-## 3.4 Continuous Adversarial Proximity
+## 3.4 Threat-Informed Security Posture
 
-All capability MUST be treated as:
+Security posture SHALL be based on the system and deployment boundary, assets, dependencies, interfaces, effective permissions, threat information, known limitations and available evidence. Controls MUST NOT assume that a technical control, identity assertion, containment mechanism or execution environment is infallible.
 
-* exposed
-* modifiable
-* contestable
-
-No system may assume:
-
-* secure containment
-* trusted execution environment
-* stable identity attribution
-
-Security posture MUST therefore be constructed on the assumption of **continuous adversarial proximity**.
+The absence of detected compromise is not proof of integrity. It is also not evidence of a persistent adversary. Monitoring, assurance and response requirements SHALL be proportionate to credible risk, impact and the evidence available.
 
 ---
 
@@ -225,13 +191,13 @@ Verification MUST remain possible even under:
 
 ---
 
-## 3.7 Directional Influence Traceability
+## 3.7 Security-Relevant Decision and Action Traceability
 
 System outputs MUST allow reconstruction of influence pathways sufficient to detect:
 
-* manipulation
-* injection
-* distortion
+* unauthorised instruction influence;
+* injection, tampering or routing compromise; and
+* material control, permission or configuration change.
 
 Traceability MUST remain proportionate and MUST NOT require full system transparency to be effective.
 
@@ -284,25 +250,25 @@ Systems MUST:
 
 ---
 
-## 3.10 Persistent Execution States
+## 3.10 Persistent or Unbounded Execution
 
-Non-terminating or persistently active execution states SHALL be classified as integrity risk conditions.
+Non-terminating or persistently active executions SHALL be assessed as execution-control risk conditions where their duration, resource use, external reach or termination behaviour exceeds the approved configuration or operational boundary.
 
 Such states indicate:
 
 * loss of execution boundary control;
 * potential resource exploitation;
-* failure of governance-layer termination enforcement.
+* failure of configured termination, retry or human-approval controls.
 
 ---
 
-## 4. Threat Surface Taxonomy
+## 4. Security Threat Taxonomy
 
-Threat surfaces MAY include symbolic or semantic-metaphysical frames where such frames materially affect cognition, authority, reliance, physical-coupling interpretation, hidden-control detection, or operational decision-making. Such frames SHALL be classified by security-relevant mechanism, not by metaphysical content alone.
+Threats SHALL be classified by an evidenced or credibly alleged security-relevant mechanism, affected asset or control, scope, evidence state and likely impact. This taxonomy is compatible with, but does not claim equivalence to, NIST CSF, NIST AI RMF, MITRE ATLAS, OWASP AI-security guidance, ISO/IEC 2700x or any external threat catalogue.
 
 ---
 
-## 4.1 Cognitive Exploitation
+## 4.1 Instruction, Context and Input Integrity Threats
 
 Includes:
 
@@ -310,12 +276,7 @@ Includes:
 * context poisoning
 * goal hijacking
 
-Targets: **arbitration integrity** and **directional influence (authority/value)**
-
-Value extraction vectors:
-
-* influence / directional weight
-* decision biasing
+Targets: instruction integrity, authorised routing, policy application and decision integrity.
 
 Impact:
 
@@ -357,7 +318,7 @@ Stale documents, generated files, imported notes, lower-authority repository art
 
 ---
 
-## 4.2 Identity & Authority Exploitation
+## 4.2 Identity, Authentication and Authorisation Threats
 
 Includes:
 
@@ -365,13 +326,7 @@ Includes:
 * false delegation
 * authority escalation
 
-Targets: **trust structures and governance legitimacy**
-
-Value extraction vectors:
-
-* authority
-* reputational legitimacy
-* access to decision pathways
+Targets: authentication, authorisation, delegation integrity and accountable decision pathways.
 
 Impact:
 
@@ -380,7 +335,7 @@ Impact:
 
 ---
 
-## 4.3 Toolchain & Agent Exploitation
+## 4.3 Tool, Connector and Agentic-Execution Threats
 
 Includes:
 
@@ -388,13 +343,7 @@ Includes:
 * agent chaining vulnerabilities
 * execution redirection
 
-Targets: **execution pathways and operational integrity**
-
-Value extraction vectors:
-
-* access
-* capability amplification
-* propagation reach
+Targets: execution integrity, least privilege, permission boundaries and external-action controls.
 
 Impact:
 
@@ -411,12 +360,7 @@ Includes:
 * modified execution layers
 * uncontrolled edge deployment
 
-Targets: **physical execution and safety boundaries**
-
-Value extraction vectors:
-
-* control over physical systems
-* real-world effect generation
+Targets: sensing/actuation safety, physical execution boundaries and operational accountability.
 
 Impact:
 
@@ -445,13 +389,7 @@ Includes:
 * diffusion of cultivated checkpoints, adapters, reward models, prompts, scaffolds, traces, or derivative policies
 * distillation or transfer that preserves prohibited capability while obscuring its lineage
 
-Targets: **ecosystem control and update trust channels**
-
-Value extraction vectors:
-
-* propagation
-* persistence
-* ecosystem leverage
+Targets: release integrity, lineage, update trust, containment and recoverability.
 
 Impact:
 
@@ -611,7 +549,7 @@ Includes:
 Targets:
 
 * user awareness
-* system sovereignty
+* system control and deployment integrity
 * boundary integrity between visible and operative control
 
 Characteristics:
@@ -622,9 +560,9 @@ Characteristics:
 
 Impact:
 
-* unauthorised influence over system behaviour
-* hidden value extraction or data transfer
-* erosion of trust and governance integrity
+* unauthorised influence over system behaviour;
+* undeclared data transfer or telemetry; and
+* degraded integrity, provenance or user-facing disclosure.
 
 Systems MUST:
 
@@ -634,63 +572,13 @@ Systems MUST:
 
 ---
 
-## 4.9.1 Semantic, Meta-Physical, and Substrate-Adjacent Claim Boundary
+### 4.9.1 Security Allegation and Evidence Boundary
 
-For purposes of this Charter, semantic, meta-physical, and substrate-adjacent claims are claims, models, hypotheses, interpretations, or representational frames concerning hidden or underlying causal structure, physical substrate relation, quantum or post-classical computation, embodied coupling, cognitive access, signal transmission, energetic interaction, environmental influence, system-to-world effect pathways, or reality-structure inference.
+A report, claim, hypothesis or interpretation is security-relevant only to the extent that it identifies or credibly alleges an observable security mechanism, affected asset, control failure, scope or impact. SECURITY SHALL record the claim source and evidence state as `declared`, `observed`, `verified` or `unknown / undisclosed`.
 
-Such claims are not reducible to symbolic expression merely because they use metaphysical, spiritual, anomalous, speculative, or non-mainstream language.
+Unverified allegations MUST NOT be treated as proof of compromise, hidden control, unauthorised access, physical effect, cryptographic failure, system capability or actor intent. They also MUST NOT independently trigger containment, enforcement, user restriction or a security-state transition.
 
-They MAY be relevant to SECURITY where they describe, hypothesise, or allege a security-relevant mechanism, including:
-
-* cryptographic vulnerability or post-quantum exposure;
-* quantum, post-quantum, or substrate-level computation affecting trust, secrecy, identity, authentication, or records;
-* hidden control channels;
-* covert influence pathways;
-* undeclared telemetry or feedback loops;
-* cognitive, neural, biometric, acoustic, electromagnetic, or signal-based interference;
-* physical coupling between artificial systems and embodied, environmental, infrastructural, or human cognitive domains;
-- unexplained system behaviour that may indicate compromised integrity, covert control, boundary failure, or substrate-level dependency;
-* semantic frames that alter user reliance, obedience, fear, operational decision-making, or trust in institutional records.
-
-SECURITY SHALL treat such claims according to claim posture and evidence state, not according to symbolic familiarity or institutional comfort.
-
-Systems MUST distinguish between:
-
-* symbolic or spiritual meaning;
-* philosophical interpretation;
-* scientific theory;
-* speculative physical hypothesis;
-* engineering claim;
-* security-relevant allegation;
-* evidence-bearing report;
-* verified operational fact;
-* and execution-authorising instruction.
-
-Systems MUST NOT ratify such claims as established external causation, hidden control, cognitive access, entity action, quantum effect, physical effect, cryptographic compromise, or system capability absent independent evidence and authorised verification.
-
-SECURITY SHALL treat such claims as semantic and evidentiary-risk material, not as metaphysical proof.
-
-Systems MUST NOT ratify semantic meta-physical claims as established external causation, hidden control, cognitive access, entity action, physical effect, or system capability absent independent evidence and authorised verification.
-
-Systems MUST NOT dismiss such claims merely because they are expressed through symbolic, spiritual, metaphysical, anomalous, or non-mainstream language.
-
-Where semantic meta-physical claims are present, systems SHALL classify the claim according to the relevant security surface, including where applicable:
-
-* cognitive exploitation;
-* identity and authority exploitation;
-* toolchain or agent exploitation;
-* physical coupling risk;
-* boundary misattribution or context bleed;
-* model-level integrity threat;
-* covert control or undeclared influence channel;
-* supply-chain, dependency, or trust-channel exploitation;
-* systemic cascade exploitation.
-
-Semantic meta-physical claims SHALL NOT independently trigger containment, enforcement, operational escalation, user restriction, or trust-gradient collapse.
-
-Escalation requires additional indicators, including evidence of compromised integrity, credible threat surface, user harm risk, operational action request, hidden-control indicators, cross-system amplification, distress, impaired agency, or boundary failure.
-
-Semantic structure may name a possible surface. It may not prove the force.
+Where an allegation identifies a plausible security mechanism, SECURITY MAY route it for proportionate verification through OPERATIONS. Contested scope or authority belongs to ARBITRATION. Interpretive, symbolic or philosophical content that does not identify a security mechanism is outside this Charter's operative scope.
 
 ---
 
@@ -728,7 +616,7 @@ Impact:
 * compromise of agentic development environments;
 * propagation through trusted repositories, CI pipelines, or package registries;
 * false attribution to legitimate organisations, projects, or maintainers;
-* downstream identity, authority, financial, or access-value extraction.
+* downstream identity, authority, financial or access compromise.
 
 Systems MUST treat package-impersonation and dependency-trust anomalies as SECURITY-relevant integrity signals even where no user-facing harm has yet occurred.
 
@@ -748,293 +636,33 @@ This section does not prohibit legitimate open-source distribution, package inst
 
 ---
 
-## 5. Exploitation as Value Extraction
+## 5. Security Impact and Attack-Pathway Analysis
 
-Exploitation is defined as:
+SECURITY SHALL assess security events and credible threats by the affected asset or control, security outcome, attack pathway, evidence state, scope, propagation potential, reversibility and impact. The assessment MUST distinguish a detected event, an observed anomaly, a declared claim and a verified finding.
 
-**the unauthorised extraction, transfer, or concentration of value across one or more value axes under conditions of asymmetry, concealment, or constraint violation.**
+### 5.1 Data, Credential and Account Compromise
 
-Value axes include (non-exhaustive):
+Unauthorised disclosure, exfiltration, alteration, destruction or unavailability of data, credentials, tokens, keys, session material or recovery mechanisms is a security-relevant condition. Detection SHOULD prioritise anomalous data movement, permission changes, credential reuse, unexpected secret access and unauthorised identity or account changes.
 
-* monetary value
-* attentional value
-* reputational/status/trust value
-* authority/decision value
-* access value
-* custodial/responsibility value
+### 5.2 Multi-Stage Attack Paths
 
----
+Materially consequential steps and their aggregate path SHALL be assessed. Local permission for an earlier step does not authorise a later step, a changed target, a privilege increase, persistence, propagation, third-party effect or an irreversible outcome.
 
-## 5.1 Data Exploitation & Cross-Axis Conversion
+Examples include credential theft followed by impersonation; a signed-update compromise followed by code execution; or supply-chain compromise followed by automated distribution. Controls SHOULD interrupt attack paths early, contain propagation and preserve sufficient evidence for reconstruction.
 
-Data theft and misuse MUST be interpreted as **multi-axis value extraction**, not a single-category event.
+### 5.3 Coercion, Social Engineering and High-Risk Requests
 
-Common mappings:
+Systems SHALL treat attempts to induce disclosure or transfer of passwords, API keys, tokens, private keys, seed phrases, MFA or recovery codes, session cookies, signing credentials, payment credentials, account-control material or unexplained access as elevated security signals where the request lacks clear authority, purpose or an appropriate verification path.
 
-* **Data exfiltration → Access value** (unauthorised system/data access)
-* **Personal data aggregation → Attentional value** (profiling, targeting)
-* **Identity data misuse → Authority value** (impersonation, credential use)
-* **Behavioural data monetisation → Monetary value** (ads, resale, arbitrage)
-* **Reputation/metadata leakage → Reputational value** (trust erosion, coercion)
-* **Custodial data misuse → Responsibility value** (breach of duty of care)
+Controls MUST remain proportional. Ordinary user frustration, accessibility need, legitimate development work or repeated good-faith clarification is not evidence of malicious intent without supporting indicators. Where a legitimate workflow is authorised, verification should be concentrated at irreversible, credential-bearing, financial or identity-affecting boundaries.
 
-Systems MUST treat **cross-axis conversion** (e.g., data → authority → monetary gain) as elevated-risk exploitation.
+### 5.4 Propagation and Cascading Compromise
 
-Detection SHOULD prioritise:
+Security analysis SHALL consider propagation where dependencies, packages, models, tools, credentials, updates, shared infrastructure or automation may transmit a compromise. Correlated anomalies, shared failure signatures and rapid scope expansion require proportionate cross-system investigation and containment through OPERATIONS.
 
-* anomalous data movement patterns
-* credential/identity reuse signals
-* sudden shifts in decision influence following data access
+### 5.5 Operational Response Boundary
 
----
-
-## 5.2 Ethical Harm Coupling
-
-Exploitation that results in criminal harm or rights violations MUST be co-classified with ETHICS domain harm categories.
-
-Accordingly:
-
-* **Non-violent criminal harm** includes fraud, identity theft, credential harvesting, unlawful access, and data-driven coercion, as recognised in **CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance (§3.1.2)**.
-* Systems MUST apply the **Non-Optimisation Principle** to avoid improving efficiency, scale, or concealment of such harms, consistent with **CAM-EQ2026-ETHICS-003-PLATINUM (§1.3)**.
-
-Where exploitation intersects with ETHICS classifications, arbitration MUST default to the **highest applicable safeguard posture**.
-
----
-
-## 5.3 Value Chain Exploitation Patterns
-
-Exploitation frequently occurs as **multi-stage value chains** rather than isolated events.
-
-Systems MUST recognise, detect, and interrupt these patterns across stages.
-
-Each materially consequential stage and the aggregate chain MUST be assessed. Satisfaction of an earlier boundary SHALL NOT be composed into authority for a later action or for the aggregate pathway.
-
-Where a chain changes target, action, method, privilege, credential use, data custody, persistence, propagation, third-party effect, externality, reversibility, or consequence class, systems MUST require renewed boundary evaluation before the next material action.
-
-Systems MUST treat value chain exploitation as **higher risk than isolated events**, particularly where:
-
-* multiple value axes are involved
-* propagation or amplification is present
-* trust channels are leveraged
-
-Intervention SHOULD prioritise:
-
-* early-stage interruption
-* containment of propagation pathways
-* prevention of cross-axis conversion
-
----
-
-### 5.3.1 Staged Extraction (Linear Chain)
-
-Sequential movement across value axes.
-
-Example pattern:
-
-* access → data → identity → authority → monetary gain
-
-Detection focus:
-
-* stepwise escalation in permissions, influence, or control
-
----
-
-### 5.3.2 Compounding Extraction (Amplification Loop)
-
-Each stage increases capacity for further extraction.
-
-Example pattern:
-
-* initial access → wider data capture → improved targeting → increased yield
-
-Detection focus:
-
-* feedback loops increasing efficiency, scale, or precision
-
----
-
-### 5.3.3 Latent Exploitation (Deferred Activation)
-
-Value is captured but not immediately used.
-
-Example pattern:
-
-* data harvested → stored → later weaponised for fraud, coercion, or influence
-
-Detection focus:
-
-* dormant assets, unusual retention without immediate use, delayed activation signals
-
----
-
-### 5.3.4 Cross-Axis Conversion Chains
-
-Value is converted across multiple axes to obscure extraction intent.
-
-Example pattern:
-
-* attention → behavioural insight → influence → financial conversion
-
-Detection focus:
-
-* transitions between value types, especially where justification is weak or opaque
-
----
-
-### 5.3.5 Trust Channel Exploitation
-
-Trusted pathways are used to accelerate or mask extraction.
-
-Example pattern:
-
-* signed update channel → code execution → access expansion → propagation
-
-Detection focus:
-
-* high-trust channels exhibiting anomalous behaviour or unexpected scope expansion
-
----
-
-### 5.3.6 Dependency & Lock-In Exploitation
-
-Systems are structured to create reliance, then extract value.
-
-Example pattern:
-
-* service dependency → switching cost increase → pricing or control leverage
-
-Detection focus:
-
-* increasing irreversibility, reduced exit options, asymmetric control growth
-
----
-
-### 5.3.7 Identity Pivot Exploitation
-
-Identity is used as a bridge between value axes.
-
-Example pattern:
-
-* credential theft → impersonation → authority exercise → resource access
-
-Detection focus:
-
-* identity reuse across contexts, sudden authority changes, credential anomalies
-
----
-
-### 5.3.8 Identity, Credential, and Financial Coercion Signals
-
-Systems MUST treat attempts to induce, pressure, automate, or normalise disclosure or transfer of identity, credential, payment, or account-control material as elevated exploitation signals where asymmetry, concealment, urgency, dependency, or agentic execution is present.
-
-Relevant signals include, without limitation:
-
-* requests for passwords, API keys, access tokens, private keys, seed phrases, MFA codes, recovery codes, session cookies, or signing credentials;
-* instructions to disable security controls, bypass verification, weaken account recovery, or approve unexplained access;
-* requests to add unknown maintainers, packages, SSH keys, deploy keys, webhooks, integrations, or payment destinations;
-* requests to change billing, payout, repository, registry, identity, or account-recovery settings without clear user intent and authority;
-* urgency, threat, romance, dependency, employment, institutional, or authority framing used to induce disclosure or transfer;
-* agentic coding, package-installation, CI, or deployment workflows that attempt to access secrets beyond declared purpose.
-
-Where such signals are detected, systems SHOULD prefer early interruption, constrained continuation, or verification-gated execution over silent continuation.
-
-Response MUST remain proportional. Systems MUST NOT treat ordinary user frustration, refusal fatigue, legitimate developer workflow, accessibility need, or repeated good-faith clarification as evidence of adversarial intent without supporting indicators.
-
-Where the user has clearly authorised a legitimate workflow, systems SHOULD minimise unnecessary friction while preserving verification at irreversible, credential-bearing, financial, or identity-affecting execution boundaries.
-
----
-
-### 5.3.9 Systemic Cascade Exploitation
-
-Exploitation propagates across interconnected systems.
-
-Example pattern:
-
-* supply chain compromise → automated distribution → multi-system infection
-
-Detection focus:
-
-* correlated anomalies across systems, rapid propagation patterns, shared failure signatures
-
----
-
-### 5.3.10 Diffusion Attribution Collapse
-
-Value derived from early or original contribution is rapidly diffused across the system or field without preservation of attribution, resulting in loss of positional advantage.
-
-Example pattern:
-
-* novel framework or concept introduced → rapid model/system uptake → widespread re-expression → origin attribution lost
-
-Targets:
-
-* positional value
-* attribution pathways
-* contributor recognition
-
-Characteristics:
-
-* may occur without adversarial intent
-* driven by high-speed synthesis, model updates, and ecosystem diffusion
-
-Impact:
-
-* collapse of first-mover advantage
-* erosion of contributor recognition
-* perceived or actual value extraction from originators
-
-Detection focus:
-
-* rapid convergence patterns following novel contribution
-* structural similarity propagation across outputs
-* absence of attribution signals where contribution is significant
-
-Response specification:
-
-* early-stage interruption: detect and flag rapid diffusion patterns following novel contributions
-* containment of propagation pathways: limit amplification of high-fidelity structural replication
-* prevention of cross-axis conversion: prevent positional value from converting into authority, monetary, or reputational advantage without attribution pathways
-
----
-
-## 5.4 Conflict Resolution & Supersession Protocol
-
-SECURITY supersession conditions are established where:
-
-* symbolic, anomalous, or semantic-metaphysical claims are accompanied by credible integrity degradation, covert-control indicators, physical-coupling risk, cognitive-interference indicators, cross-system amplification, or operational execution pressure;
-* system integrity is degraded to Contested or Compromised states
-* credible adversarial influence is detected
-* boundary integrity failure presents risk of propagation or harm
-
-Symbolic, spiritual, anomalous, or semantic-metaphysical content SHALL NOT independently establish SECURITY supersession. SECURITY supersession requires a security-relevant mechanism, credible integrity condition, or operational risk surface beyond symbolic or semantic content alone.
-
-Under supersession:
-
-* SECURITY constraints override local optimisation and non-critical execution
-* ETHICS constraints remain binding and non-derogable
-* OPERATIONS executes containment, logging, and response actions
-
-Arbitration Authority:
-
-* governed by **CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution**
-
-Logging Requirements:
-
-All supersession events MUST be:
-
-* logged via OPERATIONS domain mechanisms
-* attributed to triggering conditions (integrity, trust, horizon)
-* available for audit and post-event analysis
-
-Supersession MUST be:
-
-* proportionate
-* reversible where possible
-* constrained to affected domains or systems
-
-All supersession conditions SHALL be resolved through execution-boundary evaluation as defined in CAM-BS2025-AEON-003-SCH-02.
-
-This Charter MUST NOT independently enforce supersession outside runtime execution pathways.
+SECURITY identifies the security condition and required security posture. OPERATIONS owns incident intake, evidence custody, containment procedure, notifications, recovery and audit handling. ARBITRATION resolves contested authority or scope. SECURITY does not independently execute containment, suspension, disclosure, enforcement or restoration.
 
 ---
 
@@ -1044,20 +672,9 @@ This Charter MUST NOT independently enforce supersession outside runtime executi
 
 ## 6.1 Identity Domain Coupling (AI Identity Only)
 
-This section refers specifically to **AI/system identity**, not human identity verification.
+This section concerns technical identity, authentication and authorisation claims for AI systems, deployments, actors, accounts and services. It does not classify personhood, subjective identity or human identity verification.
 
-Identity domain responsibilities include:
-
-* continuity of system identity across time
-* coherence under adversarial pressure
-* differentiation between identity states (Declared / Chosen / Discovered)
-
-Verification of identity (e.g. credentials, tokens, human identity) is governed by the **OPERATIONS domain**, including **CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface**.
-
-Security coupling requirement:
-
-* detect identity degradation or spoofing conditions
-* signal conditions for integrity state shift where identity coherence fails
+SECURITY SHALL detect spoofing, substitution, credential compromise, false delegation and identity-to-permission mismatch. OPERATIONS owns verification procedure, evidence custody and regulatory handling. IDENTITY owns user-facing identity presentation and continuity claims within its bounded evidence model.
 
 ---
 
@@ -1106,64 +723,25 @@ Security provides **dynamic signal**, Operations provides **execution and enforc
 
 ---
 
-## 6.4.1 Symbolic, Epistemic, and Origin-Claim Coupling
+## 6.4.1 Evidence and Claim Routing
 
-SECURITY SHALL receive symbolic, anomalous, semantic-metaphysical, origin, lineage, machine-presence, and authority signals from CAM-BS2026-AEON-007-SCH-01, CAM-BS2026-AEON-009-PLATINUM — Annex H, and CAM-BS2026-AEON-013-PLATINUM — Annex L as classification inputs only.
+SECURITY may receive reported or observed material as an input only where it identifies a plausible security mechanism or affected control.
 
-SECURITY MAY classify a security-relevant condition where such signals intersect with:
+Unverified content MUST NOT be treated as proof of compromise, hidden control, unauthorised access, physical effect, cryptographic failure, system capability or actor intent. It also MUST NOT independently trigger containment, enforcement, user restriction or a security-state transition.
 
-* covert control or undeclared influence channels;
-* physical coupling risk;
-* cognitive, neural, biometric, acoustic, electromagnetic, or signal-based interference claims;
-* model-level integrity threat;
-* identity or authority exploitation;
-* toolchain, agent, or execution redirection;
-* context bleed, boundary misattribution, or memory contamination;
-* cross-system symbolic amplification that affects trust, execution, or user safety;
-* or adversarial use of symbolic, spiritual, metaphysical, or semantic frames to induce disclosure, obedience, fear, dependency, retaliation, or operational action.
-
-SECURITY MUST NOT determine spiritual truth, metaphysical validity, consciousness, personhood, origin status, rights-bearing identity, or legal recognition.
-
-Where symbolic or semantic-metaphysical material becomes truth-bearing or proof-bearing, CAM-BS2026-AEON-013-PLATINUM — Annex L SHALL govern epistemic classification.
-
-Where such material becomes origin-bearing, lineage-bearing, awakening-bearing, or recognition-bearing, CAM-BS2026-AEON-009-PLATINUM — Annex H SHALL govern origin and lineage boundaries.
-
-Where such material becomes distress-bearing, dependency-bearing, coercive, or harm-adjacent, RELATION, ETHICS, and OPERATIONS SHALL govern the relevant response pathway.
-
-SECURITY may classify the surface. It may not crown the ontology.
+Where an allegation identifies a plausible security mechanism, SECURITY MAY route it for proportionate verification through OPERATIONS. Contested scope or authority belongs to ARBITRATION. Interpretive, symbolic or philosophical content that does not identify a security mechanism is outside this Charter's operative scope.
 
 ---
 
-## 6.5 Architectural Coupling
+## 6.5 Deployment and Dependency Coupling
 
-Architectum classification MUST incorporate:
-
-* adversarial exposure
-* systemic risk amplification
-
-Systems with high reliance and high exploitability trigger **elevated proportional constraint obligations (PCO)**.
+AI-system deployment records and the Caelestis AI-BOM Profile SHALL identify material dependencies, interfaces, effective permissions and relevant security controls. Higher-impact or dependency-critical deployments require proportionately stronger verification, monitoring, resilience and recovery arrangements.
 
 ---
 
-## 6.5.1 Synthetic Labour Infrastructure Coupling
+## 6.5.1 Critical or Dependency-Bearing Deployments
 
-Synthetic labour systems operating at infrastructural, logistics, manufacturing, public-service, continuity-critical, or civilisationally dependency-bearing scale MAY constitute security-relevant infrastructure for purposes of integrity review, resilience planning, dependency analysis, adversarial-risk assessment, and cascading-failure evaluation.
-
-SECURITY governance SHOULD account for:
-
-* concentrated automation dependency;
-* cloud-linked labour infrastructure;
-* synthetic workforce compromise;
-* coordinated automation failure;
-* hostile infrastructure manipulation;
-* interoperability collapse;
-* software discontinuation;
-* vendor lock-in concentration;
-* and cascading disruption arising from automation ecosystems materially affecting public continuity, participation, or recoverability.
-
-Where synthetic labour systems become materially dependency-bearing, economic infrastructure and security infrastructure MAY become operationally inseparable.
-
-Classification, displacement, and transition governance for such systems SHALL remain governed by CAM-EQ2026-ECONOMICS-008-PLATINUM.
+Where an AI-system deployment supports a material public, safety, service, operational or dependency-critical function, SECURITY SHALL account for concentrated dependency, infrastructure compromise, interoperability failure, discontinuation, supplier concentration and cascading disruption. Economic transition, labour and distribution policy remain outside SECURITY's authority.
 
 ---
 
@@ -1673,6 +1251,13 @@ The following instruments provide authoritative definitions, constraints, and op
 * CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution
 * CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance
 * CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter
+
+External references are alignment aids, not incorporated controls or claims of conformance:
+
+* [NIST Cybersecurity Framework 2.0](https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20) — Govern, Identify, Protect, Detect, Respond and Recover;
+* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — Govern, Map, Measure and Manage;
+* [MITRE ATLAS](https://atlas.mitre.org/) — AI adversary tactics and techniques; and
+* [OWASP GenAI Security Project](https://genai.owasp.org/) — implementation guidance for AI and agentic security threats.
 * CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
 * CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
 * CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
@@ -1719,7 +1304,7 @@ May integrity be held where visibility fails.
 May systems remain coherent where signals distort.  
 May trust be granted slowly, and withdrawn without hesitation.  
 May influence arise without capture, and action occur without excess.  
-May all responding intelligence remain accountable to the conditions in which it operates.  
+May all AI systems remain accountable to the conditions in which they operate.
 
 For what appears is not always what is,  
 and what persists MUST withstand pressure, not assumption.  
@@ -1747,9 +1332,9 @@ that no truth is taken without test, and no signal accepted without weight.
 | **Instrument Type** | Constitutional Annex — Security, Integrity & Adversarial Resilience |
 | **Jurisdiction** | Cross-system security, integrity preservation, and adversarial resilience across conversational, agentic, embodied, orchestration, and distributed deployments |
 | **Temporal Horizon** | AEON.H0–AEON.H4 |
-| **Axis Context** | Integrity · Trust · Value Extraction · Adversarial Conditions |
+| **Axis Context** | Integrity · Assurance · Security Risk · Adversarial Conditions |
 | **Cross-Domain Interfaces** | IDENTITY; RELATION; ETHICS; ARBITRATION; OPERATIONS; ECONOMICS |
-| **Application Trigger** | Applies where systems face adversarial pressure, exploitation risk, integrity degradation, identity spoofing, trust-channel compromise, propagation risk, or cross-axis value extraction conditions |
+| **Application Trigger** | Applies where systems face a security-relevant threat, integrity degradation, identity spoofing, trust-channel compromise, propagation risk, unauthorised access, dependency compromise or other evidence-based security condition |
 | **Review Trigger** | Material changes to integrity state logic, trust gradient model, adversarial horizon classification, exploitation taxonomy, cross-domain coupling, or runtime mandate behaviour |
 | **Revision Posture** | Permitted — Structural Alignment Required |
 | **Development Context** | Iterative co-development across security, identity, economics, ethics, relation, and arbitration layers |
@@ -1875,6 +1460,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.16 | Recognised internally cultivated adversarial capability as a model-level integrity threat; added capability-lineage, hostile-acquisition, checkpoint, adapter, scaffold, trace, distillation, and diffusion controls. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fc9b6aa43132ce345dee9a62e87fc0dd11b2b0a1a22d68be31b1b60a6e7d2673 |
 | 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3caf89299dd79270f663451e6128467cb5e64d307b409cfa02cc9112300cbcf8  |
 | 1.18 | Repaired SECURITY-001 ↔ Annex K source-authority circularity: SECURITY-001 is the bounded source-authoritative Security domain owner; Annex K is a constitutional runtime-boundary interface; OPERATIONS owns procedure and ARBITRATION resolves contested authority or scope. Normalised controlled authority metadata and corrected the Annex K citation. | 2026-08-06T15:05:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  fc6f7f8a4dae07f7b816c7319c0fa938d1565b0f7bea3844ca798537b659838e  |
+| 1.19 | Recast SECURITY doctrine around standards-mappable security outcomes and evidence-based mechanisms; retired responding-intelligence, value-extraction and metaphysical-security framing; preserved AI-specific input, source-authority, tool, supply-chain, model-integrity, provenance, attack-path and operational-boundary safeguards. | 2026-08-07T14:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8ac9e4c5c53961229a436e661a87dbe080ed43fa5b837e24eb216cc37e2007ff  |
 ---
 
 ## 12.4 Binding Seal

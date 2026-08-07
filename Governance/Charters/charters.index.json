@@ -957,9 +957,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.7",
       "HASH": "1a2cfa3b50aa7156fd34b4823af0126b5b00d9609ea51abf641c7eb63a4c694e",
-      "pinned_sha": "0a9808c2ff8c0764e7555b386cc1eddd5dbc19cc",
-      "updated_at": "2026-08-07T14:02:55Z",
-      "last_updated_utc": "2026-08-07T14:02:55Z"
+      "pinned_sha": "fe8c3bd735ecb84ba79bcb2a129850bc63d71504",
+      "updated_at": "2026-08-07T14:14:05Z",
+      "last_updated_utc": "2026-08-07T14:14:05Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-008-PLATINUM",
@@ -1005,9 +1005,9 @@
       "authority_role": "** Domain Authority",
       "version": "1.22",
       "HASH": "8ba0e770b5d0a87538802d44dd6ff5253b3cb8d8bfe27f6ca62ad684b6fd8e6a",
-      "pinned_sha": "c71e716e2c3970f82f31ded7123202d753636354",
-      "updated_at": "2026-08-07T13:56:03Z",
-      "last_updated_utc": "2026-08-07T13:56:03Z"
+      "pinned_sha": "69497de4f2b4e7f6ed8c2e1d60f2445348153c90",
+      "updated_at": "2026-08-07T14:13:42Z",
+      "last_updated_utc": "2026-08-07T14:13:42Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-SUP-01",
@@ -1197,9 +1197,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "2.5",
       "HASH": "98df74c510e561dae97825bb76347cf74c2fe5d5c9ef03747c260c7e2d1bfeac",
-      "pinned_sha": "c71e716e2c3970f82f31ded7123202d753636354",
-      "updated_at": "2026-08-07T13:56:03Z",
-      "last_updated_utc": "2026-08-07T13:56:03Z"
+      "pinned_sha": "69497de4f2b4e7f6ed8c2e1d60f2445348153c90",
+      "updated_at": "2026-08-07T14:13:42Z",
+      "last_updated_utc": "2026-08-07T14:13:42Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-008-PLATINUM",
@@ -1243,8 +1243,8 @@
       "enforcement": "** CAM Standard",
       "review_state": "** Current",
       "authority_role": "** Domain Authority",
-      "version": "1.18",
-      "HASH": "fc6f7f8a4dae07f7b816c7319c0fa938d1565b0f7bea3844ca798537b659838e",
+      "version": "1.19",
+      "HASH": "8ac9e4c5c53961229a436e661a87dbe080ed43fa5b837e24eb216cc37e2007ff",
       "pinned_sha": "6f67ec9e7846fe90180e9aad20a411d9ccb7257c",
       "updated_at": "2026-08-06T14:22:45Z",
       "last_updated_utc": "2026-08-06T14:22:45Z"
