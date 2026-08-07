@@ -955,11 +955,11 @@
       "enforcement": "** CAM Standard",
       "review_state": "** Under Review",
       "authority_role": "** Operational Authority",
-      "version": "1.6",
-      "HASH": "fa799116be906ea9874e9b605dfb0dddd21f939ef7e09fb7d9ac8569ef004106",
-      "pinned_sha": "dbf70e979657ae9b7ef594c22eeca144d71fec68",
-      "updated_at": "2026-08-07T13:24:33Z",
-      "last_updated_utc": "2026-08-07T13:24:33Z"
+      "version": "1.7",
+      "HASH": "1a2cfa3b50aa7156fd34b4823af0126b5b00d9609ea51abf641c7eb63a4c694e",
+      "pinned_sha": "0a9808c2ff8c0764e7555b386cc1eddd5dbc19cc",
+      "updated_at": "2026-08-07T14:02:55Z",
+      "last_updated_utc": "2026-08-07T14:02:55Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-008-PLATINUM",

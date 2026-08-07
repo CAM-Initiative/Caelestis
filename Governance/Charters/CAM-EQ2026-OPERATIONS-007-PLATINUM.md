@@ -290,23 +290,19 @@ Where a platform presents multiple materially distinct runtimes, each runtime SH
 
 ---
 
-## 9. Runtime Role Accountability
+## 9. Lifecycle Actor and Runtime Accountability
 
 ### 9.1 Role Classes
 
-Runtime accountability MAY be distributed across:
+Lifecycle actor roles SHALL use the controlled vocabulary and assignment rules in `CAM-LIFECYCLE-ACTOR-AGENTIC-PROFILE`. Runtime accountability MAY be distributed across supply, development, provision, deployment, operation, governance, external-oversight and affected-role assignments.
 
-* platform or host operator;
-* orchestration and routing controller;
-* AI model, AI agent, AI-system deployment or other accountable system element, as evidenced;
-* memory or context provider;
-* corpus retrieval layer;
-* safety, policy, or escalation mechanism;
-* tool or execution subsystem;
-* interface, speech, avatar, or output renderer;
-* deploying institution;
-* authorised human operator;
-* model, dataset, classifier, retrieval, fine-tuning, integration, hosting, resale, contracting, procurement, or assurance contributor where materially relevant.
+An incident or conformance record SHALL separately identify material technical contributors as evidenced: AI model, AI agent, AI-system deployment, orchestration/routing component, memory/context service, safety/policy mechanism, tool/execution subsystem, interface/output renderer and infrastructure. A technical contribution is not, by itself, a lifecycle actor assignment or a finding of responsibility.
+
+### 9.1.1 Agentic Lifecycle Controls
+
+Agentic deployments SHALL apply the `commission` → `configure` → `permission` → `deploy` → `delegate` → `monitor` → `modify` → `suspend` → `revoke` → `investigate` → `retire` control events in `CAM-LIFECYCLE-ACTOR-AGENTIC-PROFILE` where relevant. The events are not a linear maturity scale: delegation, monitoring, modification, suspension and investigation may recur or branch.
+
+For external tool use, persistent memory, material delegation, consequential action, asserted conformance or investigation, OPERATIONS SHALL preserve the actor assignment, effective-permission and lifecycle-event evidence required by that profile.
 
 ### 9.2 Responsibility Non-Collapse
 
@@ -759,6 +755,7 @@ and let conformance be demonstrated where reliance is invited.
 | 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; aligned runtime-formation records, lineage, system boundaries, attribution, and arbitration topology with the AEON-003 composed-system architecture; retired cognition and origin-class routing. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e521d75c75f81896dad64f35a9412745a4ec1d471a7abab48119a44c1aaa8114  |
 | 1.5 | Implemented the derived operational AI-system evidence profile: system configuration baseline, AI-system deployment, Caelestis AI-BOM Profile, runtime configuration snapshot and execution provenance record. Replaced retired runtime-formation, responding-intelligence, agentic-harness and governance-stack terminology in current Appendix F doctrine and normalised affected transition values. | 2026-08-07T14:15:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  f9b514ccb376f82fce28c1bccf03d5534fc7acc0922f8627ea2d7d119ae467b4  |
 | 1.6 | Bound the Caelestis AI-BOM requirement to the source-authoritative machine-readable profile standard, including canonical schema, SPDX/CycloneDX mappings, examples and validation rules; preserved the boundary that composition records do not prove execution participation. | 2026-08-07T18:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  fa799116be906ea9874e9b605dfb0dddd21f939ef7e09fb7d9ac8569ef004106  |
+| 1.7 | Consolidated lifecycle actor assignments and the agentic lifecycle under the source-authoritative Lifecycle Actor and Agentic Governance Profile; distinguished lifecycle actors from technical contributors and required bounded actor, permission and lifecycle-event evidence for material agentic operation. | 2026-08-07T19:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1a2cfa3b50aa7156fd34b4823af0126b5b00d9609ea51abf641c7eb63a4c694e  |
 ---
 
 ## 18.4 Binding Seal
