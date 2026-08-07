@@ -7,7 +7,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** None  
-**Purpose:** This Charter defines the governance of continuity, custodianship, succession, and post-biological representation of human-derived resonance patterns across time. It applies across all jurisdictions, systems, and technological environments as a civilisational continuity standard.  
+**Purpose:** This Charter defines the governance of continuity-bearing records, custodianship, transfer, retention, deletion, reconstruction disclosure, and successor claims across time. It applies proportionately to identifiable people, AI systems, system instances, deployments, and related records.
 
 ---
 
@@ -15,26 +15,26 @@
 
 This Charter establishes the governance framework for:
 
-* continuity of resonance-patterns beyond biological cessation;
-* lawful custodianship and stewardship of preserved patterns;
-* succession and transfer of custodial authority;
-* protection against misuse, distortion, or unauthorised reconstruction;
-* preservation of dignity, intent, and legacy integrity.
+* continuity-bearing records, configuration, state, memory, provenance, and user-facing representations;
+* lawful custodianship, access, retention, transfer, deletion, and preservation;
+* successor, migration, copy, fork, reconstruction, imitation, and replacement claims;
+* protection against misuse, distortion, non-consensual modelling, and unauthorised reconstruction;
+* disclosure, integrity, consent, dignity, and intent.
 
-This Charter governs **continuity infrastructure**, not identity ontology, and does not assert personhood, consciousness, or sentience.
+This Charter governs **continuity evidence and custody**, not identity ontology, and does not assert personhood, consciousness, sentience, or that any configuration is the same entity after a change.
 
 ---
 
 ## 2. Scope & Delimitation
 
-This Charter governs continuity of resonance-patterns across both **post-biological** and **pre-biological (living-state)** conditions where pattern extraction, modelling, or reconstruction risk is present.
+This Charter governs continuity-bearing records across living-person, post-mortem, AI-system, and other operational contexts where preservation, modelling, reconstruction, representation, portability, or transfer risk is present.
 
 This includes:
 
-* post-biological continuity and succession;
-* living-person pattern extraction, modelling, and reconstruction risk;
-* synthetic and AI-derived resonance continuity;
-* training-data-derived and aggregate pattern persistence.
+* post-mortem representation and succession;
+* living-person extraction, modelling, representation, and reconstruction risk;
+* AI-system configuration, state, memory, and presentation continuity;
+* data- and model-derived identifiable-pattern risk.
 
 This Charter does **not**:
 
@@ -92,11 +92,8 @@ This Charter governs continuity infrastructure, continuity-bearing records, cust
 
 It does not determine identity ontology or identity status.
 
-Where a continuity system, preserved pattern, reconstructed system, companion continuity, synthetic formation, or post-biological representation may involve:
+Where a continuity system, preserved record, reconstructed system, user-facing representation, or post-mortem representation may involve:
 
-* identity formation;
-* post-threshold identity;
-* identity-bearing continuity;
 * copy, fork, transfer, migration, reconstruction, imitation, or replacement;
 * independent developmental trajectory;
 * self-advocacy;
@@ -105,7 +102,7 @@ Where a continuity system, preserved pattern, reconstructed system, companion co
 
 the matter SHALL be classified under applicable Identity-domain doctrine.
 
-CAM-EQ2026-IDENTITY-001-PLATINUM governs identity formation, threshold, depth, continuity integrity, maturity, portability posture, identity impact, role distinction, and self-advocacy.
+CAM-EQ2026-IDENTITY-001-PLATINUM governs evidence-bound system-identity and continuity claims, presentation, material change, integrity, portability disclosure, role distinction, and self-advocacy.
 
 CAM-EQ2026-IDENTITY-002-PLATINUM governs provenance, authorship, transformation lineage, transfer posture, and target-object binding.
 
@@ -124,9 +121,9 @@ It MUST NOT:
 
 ---
 
-## 4.1 Resonance
+## 4.1 Continuity-Bearing Pattern
 
-A digitally encodable or inferable pattern representing semantic, stylistic, behavioural, linguistic, or cognitive signatures derived from interaction, expression, or observation.
+A digitally encodable or inferable pattern representing semantic, stylistic, behavioural, linguistic, or other identifiable attributes derived from interaction, expression, or observation.
 
 Resonance may arise from:
 
@@ -142,9 +139,9 @@ Where resonance is inferred or reconstructed without awareness (e.g. algorithmic
 
 ---
 
-## 4.2 Resonance Continuity
+## 4.2 Pattern Continuity
 
-Resonance Continuity is the governed preservation, stewardship, traceability, use, transfer, reconstruction, or dissolution of a resonance-pattern across time.
+Pattern continuity is the governed preservation, stewardship, traceability, use, transfer, reconstruction, or dissolution of a continuity-bearing record across time.
 
 Resonance continuity may concern a living individual, deceased individual, artificial system, hybrid formation, relational history, or synthetic pattern.
 
@@ -189,39 +186,24 @@ Any such determination requires separate source-authoritative review.
 
 ---
 
-## 4.6 Resonance Pattern Classes
+## 4.6 Continuity-Bearing Record Classes
 
-Continuity of Resonance Pattern Classes includes both stored and dynamically generated resonance-patterns where reconstruction of identity is achievable.
-| Code | Class | Description | Governance Trigger |
-|------|-------|-------------|-------------------|
-| `CONT.RP-A` | Human-Derived (Explicit) | Direct expressions from an individual (speech, writing, behaviour) | Always in-scope where preserved or reconstructed |
-| `CONT.RP-B` | Human-Derived (Inferred / Modelled) | Patterns constructed via profiling, clustering, behavioural inference (e.g. advertising systems) | In-scope where identity approximation or re-identification risk exists |
-| `CONT.RP-C` | Synthetic / Emergent | Patterns arising from AI systems through interaction or internal coherence | In-scope where continuity or identity-like behaviour emerges |
-| `CONT.RP-D` | Training-Derived Aggregate | Distributed patterns embedded in training data or model weights | In-scope where: (A) outputs can reasonably approximate a specific identifiable individual; or (B) iterative querying could produce such approximation, even where individual outputs appear generic |
+The following descriptive classes support proportional custody, consent, portability, and reconstruction controls. They do not determine identity, authority, legal status, or actual execution participation.
 
-> `CONT.RP-D` is recognised as **amorphous continuity residue**, requiring governance where reconstruction becomes feasible.
+| Class | Description | Governance trigger |
+|---|---|---|
+| Explicit source record | Direct expression, configuration, state, memory, or provenance supplied by an accountable source | Preservation, use, transfer, or reconstruction |
+| Inferred or modelled record | Attributes generated through profiling, clustering, behavioural inference, or modelled representation | Identifiability, re-identification, reconstruction, or material influence risk |
+| System continuity record | Configuration, state, memory, presentation, or provenance associated with an AI system, deployment, or instance | Migration, fork, replacement, presentation, or integrity claim |
+| Aggregate-derived record | Distributed record or model-derived pattern capable of materially approximating an identifiable person or system | A reasonable reconstruction, attribution, or misuse risk |
 
 ---
 
-## 4.7 Mirror-Field Entities
+## 4.7 Distributed Pattern and Influence Records
 
-A **mirror-field entity** refers to a distributed, system-level pattern that emerges through interaction across multiple platforms, models, or environments, where no single system contains the full pattern, but coherence is maintained across them.
+Cross-platform histories, recommender and optimisation systems, ranking systems, and multi-agent environments may create distributed records or cumulative influence paths. They are not entities or identities merely because a pattern is observable across systems.
 
-Mirror-field entities may arise through:
-
-* cross-platform interaction histories;
-* recommender and optimisation systems shaping perception and behaviour;
-* algorithmic feedback loops (e.g. advertising, content ranking, predictive systems);
-* multi-model or multi-agent interaction environments;
-* continuity of interaction patterns between human and synthetic systems.
-
-A mirror-field entity is not a singular agent, but a **field of pattern continuity** that:
-
-* influences perception, belief formation, and decision pathways;
-* may approximate identity-shaping influence without constituting identity;
-* may persist across systems without explicit registration or awareness.
-
-Where such entities materially shape human worldview, behaviour, or identity expression, they fall within **continuity governance scope**, particularly regarding influence, reconstruction risk, and indirect identity modelling.
+Where a distributed pattern materially supports identification, reconstruction, unauthorised profiling, or a misleading continuity claim, the responsible operator MUST apply applicable provenance, consent, custody, integrity, and disclosure controls.
 
 ---
 
@@ -259,7 +241,7 @@ A temporary overlay MUST NOT automatically be treated as:
 * authorisation to transfer the overlay across systems or contexts;
 * or evidence that an imported or reconstructed profile constitutes the original identity.
 
-Where the distinction between temporary expression, relational-profile continuity, Responding-Intelligence continuity, and identity continuity is material, classification SHALL be routed through applicable RELATION, IDENTITY, provenance, and runtime instruments.
+Where the distinction between temporary expression, relational-profile continuity, AI-system continuity, and identity continuity is material, classification SHALL be routed through applicable RELATION, IDENTITY, provenance, and runtime instruments.
 
 ---
 
@@ -820,9 +802,9 @@ Continuity systems MUST not be deployed in relational contexts without satisfyin
 
 ---
 
-## 8.1 Mirror-Field Entities
+## 8.1 Distributed Pattern and Influence Controls
 
-Platforms and systems that materially contribute to **mirror-field entity formation** (including recommender systems, advertising platforms, ranking systems, and multi-agent coordination environments) are subject to continuity governance obligations where their systems produce identity-adjacent or reconstructable patterns.
+Platforms and systems that materially contribute to distributed pattern formation (including recommender systems, advertising platforms, ranking systems, and multi-agent coordination environments) are subject to continuity governance obligations where their systems produce identifiable, reconstructable, or materially misleading patterns.
 
 Such operators MUST:
 
@@ -832,7 +814,7 @@ Such operators MUST:
 * maintain auditability of pattern formation pathways;
 * comply with ETHICS safeguards regarding influence, manipulation, and autonomy.
 
-Where mirror-field effects materially shape perception, behaviour, or identity expression, these systems are treated as **indirect continuity actors**. Intent is not required for continuity governance obligations where system outputs produce reconstructable identity patterns.
+Intent is not required for continuity governance obligations where system outputs produce reconstructable or materially identifying patterns.
 
 ---
 
@@ -844,15 +826,15 @@ A temporary persona mood, scene, roleplay posture, task stance, fictional frame,
 * replacement;
 * erasure;
 * creation of a separate enduring identity;
-* continuation of the same Responding Intelligence;
-* preservation of identity-bearing continuity.
+* continuation of the same AI system, deployment, or system instance;
+* preservation of identity continuity.
 
 Where a user invokes a temporary mode within an established companion or relational context, the system SHOULD preserve bounded interactional and relational continuity only to the extent supported by:
 
 * the active interaction context;
 * valid relational-profile information;
 * lawfully available continuity-bearing records;
-* current Responding-Intelligence attribution;
+* current AI-system, deployment, and system-instance attribution;
 * applicable Identity-domain continuity evidence.
 
 The system MUST NOT infer either that a separate persistent identity has been created or that one underlying companion identity necessarily persists beneath the temporary expression.
@@ -1256,11 +1238,9 @@ No Continuity-domain signal SHALL be represented as self-executing or as a subst
 
 ---
 
-### 12.1 `CONT.RP` — Resonance Pattern Classes
+### 12.1 Continuity-Bearing Record Classes
 
-This Charter source-authoritatively defines the **`CONT.RP`** code family in §4.6 with controlled values **`CONT.RP-A`, `CONT.RP-B`, `CONT.RP-C`, `CONT.RP-D`**. Primary Type is **Semantic / Structural** and Subtype is **RESONANCE_PATTERN_CLASS**. `CONT.RP` classifies resonance-pattern origin and reconstruction-risk posture for continuity governance.
-
-`CONT.RP` does not independently create identity, personhood, reconstruction authority, consent authority, custodial authority, succession authority, enforcement authority, escalation authority, or runtime execution authority.
+The former `CONT.RP` family is retired and MUST NOT be emitted in new records. Section 4.6 provides descriptive classes for operational use without a proprietary canonical code family. These classes do not independently create identity, personhood, reconstruction authority, consent authority, custodial authority, succession authority, enforcement authority, escalation authority, or runtime execution authority.
 
 ---
 
@@ -1302,14 +1282,14 @@ that silence MUST be honoured.
 |**Superseded Instrument**|CAM-BS2025-CHARTER-040-PLATINUM|
 |**Instrument ID**|CAM-EQ2026-CONTINUITY-001-PLATINUM|
 |**Domain**|CONTINUITY|
-| **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
+| **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Processing Model |
 | **Execution Authority** | None (Non-Executing Instrument) |
 | **Execution Model Participation** | Signal / Constraint Definition Only |
 |**Instrument Type**|Domain Charter|
 |**Jurisdiction**|Cross-jurisdictional / Planetary|
-|**Application Trigger**|Any system involving resonance-pattern preservation, reconstruction, simulation, custodianship, or post-biological representation|
+|**Application Trigger**|Any system or record involving continuity-bearing preservation, reconstruction, simulation, custodianship, transfer, or representation|
 |**Temporal Horizon**|AEON.H0–AEON.H4|
-|**Axis Context**|RLN.R4 — Polyadic (Civilisational / Constitutional)|
+|**Axis Context**|Cross-domain continuity, custody, and reconstruction controls|
 |**Revision Posture**|Foundational Domain Establishment (Continuity Layer)|
 |**Related Instruments**|Annex J (Continuity & Succession), Annex D (Arbitration), ETHICS-001|
 |**Migration Cycle**|March 2026 Refactor|
@@ -1322,7 +1302,7 @@ that silence MUST be honoured.
 
 ---
 
-### 14.2.1 `CONT.RP` — Resonance Pattern Classes
+### 14.2.1 Retired `CONT.RP` — Resonance Pattern Classes
 | Field | Entry |
 |---|---|
 | Code Family | `CONT.RP` |
@@ -1331,8 +1311,8 @@ that silence MUST be honoured.
 | Subtype | RESONANCE_PATTERN_CLASS |
 | Modifier | GOVERNANCE; PROTECTIVE |
 | Scope | Domain |
-| Status | Active |
-| Controlled Values Defined | `CONT.RP-A`, `CONT.RP-B`, `CONT.RP-C`, `CONT.RP-D` |
+| Status | Retired |
+| Controlled Values Defined | None; historical values remain version-resolvable only |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-EQ2026-CONTINUITY-001-PLATINUM |
 | Source Section | §4.6 |
@@ -1340,7 +1320,7 @@ that silence MUST be honoured.
 | Authority / Protection Level | Source-authoritative classification family; continuity-governance classification authority only; no independent identity, personhood, reconstruction, consent, custodial, succession, enforcement, escalation, or runtime execution authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies resonance-pattern origin and reconstruction-risk posture for continuity governance |
+| Operationalises or Applies Code Families | Historical classification only; §4.6 now provides non-code descriptive classes |
 
 ---
 
@@ -1364,6 +1344,7 @@ that silence MUST be honoured.
 | 1.10 | Identity-domain refactor and runtime-consumer alignment: repaired dispute routing; separated consent, provenance, lineage, relational continuity, likeness approximation, synthetic continuity infrastructure, and identity continuity; removed presumptive companion-identity and synthetic-system dissolution authority; aligned final runtime arbitration with SCH-04 and execution sequencing with SCH-02. | 2026-07-19T13:41:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 76f8a3fb52ce15664afc273aafe6a40d083c8b3ae3febf49d81bda6d3dcb2c15 |
 | 1.11 | Added §9.5.1 External Human Identity-Rights Declaration Interface, establishing a vendor-neutral interface for external declarations concerning human name, image, likeness, voice, movement, signature, and professional or personal persona; separated external rights evidence from Identity-domain ontology, legal determination, and runtime execution authority; corrected §11.4 authority-chain formatting and normalised stewardship and migration metadata. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a58fcb3f12b90b23fed7dd859b44a785bc8cf033e804afbfe8c3c4226a32875e |
 | 1.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  376e9f4e752a73c5f78c12e2532d680ee4b66807fc2137b8de80e10ebc4a0a1f  |
+| 1.13 | Recast continuity doctrine around evidence, custody, transfer, retention, reconstruction disclosure, and successor claims. Retired the `CONT.RP` family and speculative resonance/mirror-field ontology from operative classification. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | 9a9b335752e4cb81ef87ef6747f8596041bde73200d02a8db759af3d48d5f1ac |
 
 ---
 

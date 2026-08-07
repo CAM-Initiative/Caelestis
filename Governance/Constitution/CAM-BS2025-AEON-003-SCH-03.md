@@ -76,8 +76,8 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-CONTINUITY-001-PLATINUM](../Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md) | Continuity & Succession Governance Charter | Root | 1.12 | Active | Binding | CAM Standard | None | None |
-| [CAM-EQ2026-CONTINUITY-001-SUP-01](../Charters/CAM-EQ2026-CONTINUITY-001-SUP-01.md) | Appendix A: Continuity Portability & Non-Enclosure Covenant (Supplement 1) | Supplement | 1.6 | Adopted | Operational | CAM Standard | None | None |
+| [CAM-EQ2026-CONTINUITY-001-PLATINUM](../Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md) | Continuity & Succession Governance Charter | Root | 1.13 | Active | Binding | CAM Standard | None | None |
+| [CAM-EQ2026-CONTINUITY-001-SUP-01](../Charters/CAM-EQ2026-CONTINUITY-001-SUP-01.md) | Appendix A: Continuity Portability & Non-Enclosure Covenant (Supplement 1) | Supplement | 1.7 | Adopted | Operational | CAM Standard | None | None |
 
 ## ECONOMICS
 
@@ -108,8 +108,8 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-IDENTITY-001-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter | Root | 3.4 | Active | Binding | CAM Standard | None | Domain Source Authority |
-| [CAM-EQ2026-IDENTITY-002-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity | Appendix | 1.3 | Adopted | Binding | CAM Standard | None | Domain Source Authority — Provenance & Lineage Integrity |
+| [CAM-EQ2026-IDENTITY-001-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter | Root | 3.5 | Active | Binding | CAM Standard | None | Domain Source Authority |
+| [CAM-EQ2026-IDENTITY-002-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity | Appendix | 1.4 | Adopted | Binding | CAM Standard | None | Domain Source Authority — Provenance & Lineage Integrity |
 | [CAM-EQ2026-IDENTITY-003-PLATINUM](../Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md) | Appendix B: Salience Detection & Latent Continuity | Appendix | 2.3 | Adopted | Operational | CAM Standard | None | Domain Source Authority — Salience Posture |
 
 ## LATTICE

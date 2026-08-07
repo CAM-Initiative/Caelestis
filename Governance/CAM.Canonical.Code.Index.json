@@ -3107,12 +3107,9 @@
     "subtype": "RESONANCE_PATTERN_CLASS",
     "modifier": "GOVERNANCE; PROTECTIVE",
     "scope": "Domain",
-    "status": "Active",
+    "status": "Retired",
     "controlled_values_defined": [
-      "CONT.RP-A",
-      "CONT.RP-B",
-      "CONT.RP-C",
-      "CONT.RP-D"
+      "None; historical values remain version-resolvable only"
     ],
     "schema_fields": "Not declared",
     "source_instrument": "CAM-EQ2026-CONTINUITY-001-PLATINUM",
@@ -3126,12 +3123,12 @@
       "None declared"
     ],
     "operationalises_or_applies_code_families": [
-      "Classifies resonance-pattern origin and reconstruction-risk posture for continuity governance"
+      "Historical classification only; \u00a74.6 now provides non-code descriptive classes"
     ],
     "canonical_section_heading": "14.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1321,
-    "declaration_heading": "14.2.1 `CONT.RP` \u2014 Resonance Pattern Classes",
-    "declaration_line_number": 1325,
+    "canonical_section_line_number": 1301,
+    "declaration_heading": "14.2.1 Retired `CONT.RP` \u2014 Resonance Pattern Classes",
+    "declaration_line_number": 1305,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -3152,8 +3149,8 @@
       "Subtype": "RESONANCE_PATTERN_CLASS",
       "Modifier": "GOVERNANCE; PROTECTIVE",
       "Scope": "Domain",
-      "Status": "Active",
-      "Controlled Values Defined": "`CONT.RP-A`, `CONT.RP-B`, `CONT.RP-C`, `CONT.RP-D`",
+      "Status": "Retired",
+      "Controlled Values Defined": "None; historical values remain version-resolvable only",
       "Schema Field(s)": "Not declared",
       "Source Instrument": "CAM-EQ2026-CONTINUITY-001-PLATINUM",
       "Source Section": "\u00a74.6",
@@ -3161,7 +3158,7 @@
       "Authority / Protection Level": "Source-authoritative classification family; continuity-governance classification authority only; no independent identity, personhood, reconstruction, consent, custodial, succession, enforcement, escalation, or runtime execution authority",
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
-      "Operationalises or Applies Code Families": "Classifies resonance-pattern origin and reconstruction-risk posture for continuity governance"
+      "Operationalises or Applies Code Families": "Historical classification only; \u00a74.6 now provides non-code descriptive classes"
     }
   },
   {
@@ -6657,9 +6654,9 @@
       "and applicability"
     ],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1305,
+    "canonical_section_line_number": 1095,
     "declaration_heading": "18.2.2 `ID.IRA` \u2014 Identity-Signal Admissibility Axes",
-    "declaration_line_number": 1332,
+    "declaration_line_number": 1122,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -6728,9 +6725,9 @@
       "and continuity propagation"
     ],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1305,
+    "canonical_section_line_number": 1095,
     "declaration_heading": "18.2.3 `ID.ISTATE` \u2014 Identity Stabilisation State",
-    "declaration_line_number": 1354,
+    "declaration_line_number": 1144,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -6794,9 +6791,9 @@
       "Classifies memory retention and behavioural posture after resolution; supports continuity interpretation and memory handling without determining authority"
     ],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 1305,
+    "canonical_section_line_number": 1095,
     "declaration_heading": "18.2.1 `ID.MEM` \u2014 Memory Classification",
-    "declaration_line_number": 1309,
+    "declaration_line_number": 1099,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],

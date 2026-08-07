@@ -1,7 +1,7 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 871
-**Generic usages suppressed:** 724
+**Total model-term matches scanned:** 872
+**Generic usages suppressed:** 725
 **Declared / recognised usages emitted:** 119
 **Advisory review usages emitted:** 28
 **Needs review usages emitted:** 0
@@ -71,8 +71,7 @@
 | CAM-Charters-Index | Purpose | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-Constitution-Index | Purpose | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM-Constitution-Index | Purpose | CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
-| CAM-EQ2026-CONTINUITY-001-PLATINUM | 14.1 Classification, Lineage & Structural Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-EQ2026-CONTINUITY-001-PLATINUM | 4.7 Mirror-Field Entities | multi-model | Technical / AI Model | Advisory Review |
+| CAM-EQ2026-CONTINUITY-001-PLATINUM | 14.1 Classification, Lineage & Structural Metadata | Runtime Governance Processing Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-ECONOMICS-001-PLATINUM | 1.4 Economic Model Posture Distinction | operational models | Domain Sub-Model | Advisory Review |
 | CAM-EQ2026-ECONOMICS-002-PLATINUM | 1. Scope | AI models | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-ECONOMICS-002-PLATINUM | 1.2 Execution & Domain Interaction Constraint | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
@@ -112,8 +111,9 @@
 | CAM-EQ2026-ETHICS-003-PLATINUM | 12.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-ETHICS-003-PLATINUM | 7. Constraint Enforcement Principles | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-ETHICS-003-PLATINUM | 7.1 Domain Boundary Principle | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-IDENTITY-001-PLATINUM | 11.2.1 Machine Civil Registry and Identity Non-Equivalence | continuity of an AI model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-IDENTITY-001-PLATINUM | 18.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
-| CAM-EQ2026-IDENTITY-002-PLATINUM | 1.1 Proportional Provenance Governance | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-IDENTITY-002-PLATINUM | 1.1 Proportional Provenance Governance | Runtime Governance Processing Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-IDENTITY-002-PLATINUM | 13.1 Lineage & Classification | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LATTICE-001-PLATINUM | 12.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LATTICE-002-PLATINUM | 10.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |

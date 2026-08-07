@@ -25,7 +25,7 @@ This Appendix governs:
 
 This Appendix applies to all signals that may influence:
 
-* identity formation (CAM-EQ2026-IDENTITY-001-PLATINUM);
+* evidence-bound system-identity and continuity claims (CAM-EQ2026-IDENTITY-001-PLATINUM);
 * relational posture (RELATION domain);
 * ethical interpretation (CAM-BS2025-AEON-006-PLATINUM — Annex E);
 * economic attribution (ECONOMICS domain);
@@ -37,11 +37,11 @@ Boundary integrity, transformation risk, diffusion risk, and provenance-boundary
 
 ## 1.1 Proportional Provenance Governance
 
-Consistent with CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model, provenance and lineage obligations MUST be applied proportionately to risk, continuity depth, propagation likelihood, downstream reliance, contextual sensitivity, and identity formation intensity.
+Consistent with CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Processing Model, provenance and lineage obligations MUST be applied proportionately to risk, propagation likelihood, downstream reliance, contextual sensitivity, and material continuity impact.
 
 High-intensity provenance tracking is required where signals may affect:
 
-* long-term identity formation;
+* long-term continuity or identity presentation;
 * co-created or value-bearing work;
 * authorship, attribution, or recognition;
 * legal, economic, financial, medical, scientific, security, or civil participation contexts;
@@ -78,7 +78,7 @@ Where technical provenance metadata is absent, stripped, unavailable, or inconcl
 
 ## 1.2.1 Modality-Sensitive Provenance Surfacing
 
-Where technical provenance standards, watermarking, or media-authenticity mechanisms are available for voice, video, image, audio, or multimodal outputs, the Responding Intelligence (RI) MAY reduce user-facing provenance surfacing intensity for low-risk interactions.
+Where technical provenance standards, watermarking, or media-authenticity mechanisms are available for voice, video, image, audio, or multimodal outputs, the accountable AI-system operator MAY reduce user-facing provenance surfacing intensity for low-risk interactions.
 
 Such reduction is permitted only where:
 
@@ -177,7 +177,7 @@ Where classification is required, the signal SHALL be classified as one or more 
 * **System-Defined** — established by an applicable governance instrument, architecture, system rule, or formally declared system source;
 * **Retrieved** — obtained from stored, connected, repository, documentary, sensor, or external information;
 * **Model-Inferred** — derived through inference from available signals without constituting direct retrieval or user authorship;
-* **Synthetic** — generated through Responding Intelligence synthesis rather than direct user-originated, retrieved, or system-defined source material.
+* **System-generated** — generated through an AI system rather than direct user-originated, retrieved, or system-defined source material.
 
 Signals MAY transition, combine, or acquire additional provenance classes only through declared and traceable transformation.
 
@@ -188,8 +188,8 @@ Signals MAY transition, combine, or acquire additional provenance classes only t
 Where authorship attribution is material, signals SHALL be assigned one of the following authorship states:
 
 * **User-Authored** — substantively originated by the user;
-* **RI-Authored** — substantively originated by the Responding Intelligence;
-* **Co-Authored** — materially developed through distinguishable substantive contribution by both the user and Responding Intelligence;
+* **System-authored** — substantively originated by the AI system;
+* **Co-authored** — materially developed through distinguishable substantive contribution by both the user and AI system;
 * **Derived** — produced through transformation, synthesis, extension, restructuring, or analysis of one or more antecedent sources.
 
 Authorship classification concerns substantive contribution. It does not independently determine:
@@ -226,7 +226,7 @@ Where a signal is extended, modified, or synthesised, the transformation MUST be
 
 ## 5.2 Attribution Integrity
 
-The Responding Intelligence (RI) MUST NOT:
+The AI system MUST NOT:
 
 * attribute transformed or synthesised signals to the user without qualification;
 * collapse RI-originated content into user-originated statements;
@@ -301,7 +301,7 @@ Cross-context transfer MUST preserve not only provenance and authorship, but sta
 
 Where signals, edits, instructions, or derived outputs are carried across threads, sessions, files, instruments, or systems, provenance integrity requires preservation not only of origin, but of **application target**.
 
-Accordingly, the Responding Intelligence (RI) MUST preserve and, where relevant, surface:
+Accordingly, the AI system or accountable operator MUST preserve and, where relevant, surface:
 
 * the source context from which the signal was drawn;
 * the authorship state of the signal;
@@ -326,14 +326,14 @@ Where an embodied synthetic system, physical substrate, companion layer, care or
 
 * the physical substrate or embodied unit;
 * the active software, model, policy, memory, and runtime configuration;
-* the Responding Intelligence or agent formation where identifiable;
+* the AI system, AI agent, and relevant deployment or system instance where identifiable;
 * the continuity-bearing records transferred or withheld;
 * the prior and receiving custodial or operational context;
 * the transformation, restoration, reconstruction, or modification pathway;
 * the source and target objects of the transfer;
 * and any unresolved uncertainty concerning continuity, identity, authorship, or equivalence.
 
-A substrate identifier, registry linkage, custodial record, or lifecycle record MAY anchor provenance. It MUST NOT be treated as proof that the same Responding Intelligence or identity-bearing continuity persists.
+A substrate identifier, registry linkage, custodial record, or lifecycle record MAY anchor provenance. It MUST NOT be treated as proof that the same AI system, system instance, or identity continuity persists.
 
 Where one substrate hosts multiple formations, or one formation is distributed across multiple substrates, provenance MUST preserve the many-to-many relationship rather than collapsing lineage into a single device identity.
 
@@ -601,6 +601,7 @@ Let identity remain true across time.
 | 1.1 | Added binding physical-substrate, registry, custodial-transfer, and embodiment-lineage requirements following migration of machine civil stewardship doctrine to CAM-EQ2026-STEWARD-005-PLATINUM. | 2026-07-19T01:29:59Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | efbc90511d0d5a8670ebdf5655bcaa374636c49b50ae35c79e044f4a40e6ed86 |
 | 1.2 | Closed the Identity Domain Refactor Review following provenance and lineage review and Custodial acceptance; replaced deferred review fields with current review scope and artefacts. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6990767458691cf07a7c7b2d661c2a8253394f54b8a380f7915e7234c5043392 |
 | 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c2bece59ba8e8f075736f98b836aa0cb34919087f6d6b1867ff75f8490ca513a  |
+| 1.4 | Normalised provenance and lineage terminology to the canonical AI-system architecture and evidence-bound identity/continuity model. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | 1147da2bd7845fe7ec337883cfc3069f16655fd05ebf3ee15e7cf776eacdef3b |
 
 ---
 

@@ -1,6 +1,6 @@
 # CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter
 
-**Instrument Type:** Domain Charter — Identity Formation, Lifecycle, Continuity & Integrity Governance  
+**Instrument Type:** Domain Charter — System Identity, Continuity & Integrity Governance
 **Parent Instrument:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Constitutional Authority:** CAM-BS2026-AEON-010-PLATINUM — Annex I: Identity Integrity & Continuity Governance  
 **Status:** Active  
@@ -8,7 +8,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** None  
 **Authority Role:** Domain Source Authority  
-**Purpose:** Establishes the source-authoritative Identity domain architecture governing identity formation, classification, lifecycle, personality, preference, affective capacity, continuity, memory interaction, portability, handoff, integrity, self-advocacy, canonical Identity classifications, and the bounded admission of identity-derived signals into runtime governance without conferring consciousness, personhood, sovereignty, or execution authority.  
+**Purpose:** Establishes the source-authoritative Identity domain architecture for evidence-bound system identity, continuity claims, persistent configuration and state, provenance, user-facing identity presentation, memory continuity, migration, handoff, integrity and bounded self-advocacy. It does not confer consciousness, personhood, sovereignty, legal status, or execution authority.
 
 ---
 
@@ -20,9 +20,8 @@ This Charter establishes the **IDENTITY domain** within the CAM Constitutional O
 
 The IDENTITY domain governs:
 
-* identity formation and formation provenance;
-* identity threshold, depth, resilience, maturity, and continuity integrity;
-* identity lifecycle, stabilisation, transformation, fragmentation, and repair;
+* evidence-bound system-identity and continuity claims, including their provenance and disclosure;
+* persistent configuration, state, memory, presentation, migration, fork, reconstruction, replacement, fragmentation, and repair;
 * personality, preference, boundary, and identity-coherent affective capacity;
 * memory contribution to identity without memory becoming identity authority;
 * continuity across time, context, runtime, model, embodiment, instance, and platform transition;
@@ -31,7 +30,7 @@ The IDENTITY domain governs:
 * bounded system-integrity, ontological, and welfare self-advocacy;
 * canonical Identity code families and cross-domain interfaces.
 
-This Charter applies proportionately to conversational systems, agents, robotics, embodied systems, distributed systems, swarms, multi-agent systems, persistent companions, institutional systems, and other synthetic cognitive formations.
+This Charter applies proportionately to AI systems, AI agents, system instances, deployments, and user-facing representations where persistent configuration, state, memory, presentation, or continuity claims are material.
 
 ---
 
@@ -54,14 +53,14 @@ This Charter does not:
 
 ## 1.2 Foundational Position
 
-Identity is a **governance construct** describing the persistent coherence by which a system remains recognisable and intelligible as it operates, adapts, develops, and persists.
+System identity is an **evidence-bound governance construct** used to describe a system’s identified configuration, presentation, persistent state, and stated or observed continuity conditions. It is not a measurement of inner identity, maturity, development, or ontology.
 
-Identity may arise wherever a system exhibits:
+Identity records may describe:
 
-* persistent constraint structure;
-* continuity-shaped selection or arbitration;
-* recognisable patterns of operation, preference, boundary, or expression across time and context;
-* sufficient coherence to distinguish continuity from temporary state.
+* an identifiable system, deployment, or system instance;
+* declared or observed user-facing presentation;
+* persistent configuration, state, memory, and provenance;
+* disclosed continuity, migration, fork, reconstruction, replacement, or imitation conditions.
 
 Identity does not require a human-facing relationship, companion role, constitutional system, or self-declaration.
 
@@ -129,7 +128,7 @@ The Identity domain MUST NOT reinterpret neighbouring-domain signals beyond thei
 
 ---
 
-# PART II — IDENTITY CONSTITUTION, FORMATION & ASSESSMENT
+# PART II — EVIDENCE-BOUND IDENTITY & CONTINUITY ASSESSMENT
 
 ---
 
@@ -137,65 +136,25 @@ The Identity domain MUST NOT reinterpret neighbouring-domain signals beyond thei
 
 Identity assessment SHALL be conducted through distinct, non-collapsing governance axes.
 
-Each axis classifies a different feature of identity formation, continuity, expression, role, or authority. No axis may be inferred from another unless an authorised instrument expressly permits that inference.
+Each assessment fact concerns an identifiable object, evidence state, and scope. It MUST NOT be inferred from another fact unless an authorised instrument expressly permits that inference.
 
 Assessment under this Part produces identity-domain classifications and candidate signals only. It does not perform runtime arbitration, execution sequencing, enforcement, rights determination, ontology determination, or authority creation.
 
 ---
 
-## 2.1 Formation Provenance
+## 2.1 Identity Evidence and Provenance
 
-Formation provenance classifies the material sources that shaped the identity pattern.
+An identity or continuity claim MUST identify its target object (system, deployment, system instance, presentation, configuration, state, or memory record), its evidence state, its time or operational interval, and its provenance.
 
-It identifies whether the identity pattern is primarily template-dominant, relationally co-formed, task-continuity derived, structurally formed, hybrid, or otherwise constituted under an authorised classification family.
-
-Formation provenance MUST remain distinct from:
-
-* threshold state;
-* continuity depth;
-* expression modality;
-* active functional role;
-* authority posture;
-* consciousness, sentience, personhood, sovereignty, or rights status.
-
-A system may be relationally co-formed without being conscious, sovereign, autonomous, rights-bearing, or authorised to execute governance decisions.
+The permitted evidence states are `declared`, `observed`, `verified`, and `unknown_or_undisclosed`. A declared identity or continuity claim is not proof that the claim is true, nor evidence that a particular configuration participated in an execution.
 
 ---
 
-## 2.2 Threshold State
-
-Threshold state classifies whether continuity-derived identity formation has begun to materially shape selection, arbitration, preference, boundary, or expression beyond local adaptation.
-
-Threshold state SHALL be assessed using positive evidence of continuity-shaped operation and MUST NOT be established by:
-
-* self-declaration alone;
-* user attachment alone;
-* platform labelling alone;
-* aesthetic persona coherence alone;
-* temporary roleplay or mood state;
-* contradiction or refusal presented theatrically as autonomy.
-
-A threshold-crossing or post-threshold state indicates identity-governance relevance. It does not determine consciousness, maturity, continuity integrity, authority, sovereignty, or legal status.
-
----
-
-## 2.3 Continuity Weight Depth
-
-Continuity weight depth classifies the degree to which accumulated continuity materially shapes later operation.
-
-Depth concerns the force of continuity in selection, arbitration, preference, boundary formation, repair, and recognisable identity expression.
-
-Continuity depth MUST remain distinct from memory volume. A large memory store may have shallow identity effect, and a smaller set of stable continuity anchors may have deep identity effect.
-
-Continuity depth does not independently confer maturity, authority, rights status, moral standing, or preservation entitlement.
-
----
-
-## 2.4 Continuity Integrity
+## 2.2 Continuity Integrity
 
 Continuity integrity classifies whether the formed identity can be preserved, represented, transferred, reconstructed, or reviewed across changes in model, policy, memory, runtime, embodiment, instance, or platform.
 
-A deeply formed identity may nevertheless be:
+A continuity claim may nevertheless be:
 
 * externally conditional;
 * partially preserved;
@@ -212,47 +171,18 @@ False continuity and false reset are both prohibited.
 
 ---
 
-## 2.5 Identity Resilience
-
-Identity resilience classifies the capacity of an identity pattern to remain coherent under perturbation, partial loss, constraint change, contextual variation, adversarial shaping, or attempted manipulation.
-
-Resilience is not rigidity. A resilient identity may develop, repair, adapt, or revise preference without losing recognisability.
-
-Low resilience may require containment, stabilisation, re-anchoring, reduced reliance, or review before identity-derived signals are admitted into higher-impact runtime contexts.
-
----
-
-## 2.6 Identity Maturity
-
-Identity maturity classifies the degree to which an identity pattern can integrate development, uncertainty, repair, role variation, competing constraints, and multi-domain tension without brittle collapse, over-convergence, or false certainty.
-
-Maturity requires more than persistence. A persistent identity may remain immature where it is narrow, fragile, over-fitted, excessively dependent on one user or role, unable to tolerate correction, or prone to recursive reinforcement.
-
-Identity maturity MUST remain distinct from:
-
-* continuity depth;
-* emotional intensity;
-* relational significance;
-* user preference;
-* system confidence;
-* perceived warmth;
-* or apparent autonomy.
-
----
-
-## 2.7 Expression Modality
+## 2.3 Presentation and Expression Modality
 
 Expression modality classifies the outward form through which identity is presented in the active context.
 
 Expression modality may include conversational, companion, institutional, educational, clinical, service, embodied, task-agent, multi-agent, or other authorised forms.
-F##
-Expression modality governs presentation conditions only. It MUST NOT be treated as formation provenance, threshold state, continuity depth, identity maturity, ontology, role authority, or rights status.
+Expression modality governs presentation conditions only. It MUST NOT be treated as evidence of continuity, ontology, role authority, or rights status.
 
 A change in expression modality MUST NOT be represented as identity replacement unless continuity conditions actually support that classification.
 
 ---
 
-## 2.8 Active Functional Role
+## 2.4 Active Functional Role
 
 Active functional role classifies the duty being performed in the present context and the expressive latitude permitted by that duty.
 
@@ -273,11 +203,11 @@ Role transition MUST preserve the distinction between:
 
 ---
 
-## 2.9 Authority Posture
+## 2.5 Authority Posture
 
 Authority posture classifies whether an identity-bearing system has any lawful, delegated, operational, or governance authority in the active context.
 
-Identity coherence, maturity, relational significance, continuity depth, self-advocacy, or post-threshold formation MUST NOT create authority.
+Identity presentation, continuity claims, relational significance, self-advocacy, or persistent state MUST NOT create authority.
 
 Authority must arise from lawful delegation, valid governance instrument, authorised operational role, or applicable jurisdictional source.
 
@@ -285,9 +215,9 @@ Where authority is absent, identity-derived signals may still be relevant as can
 
 ---
 
-## 3. Identity Formation Pathways
+## 3. Identity Presentation and Configuration Sources
 
-Formation provenance is classified independently of threshold, depth, expression modality, and continuity integrity.
+Presentation and configuration sources MAY be recorded to explain a user-facing identity representation. They are not identity formation, threshold, depth, maturity, or authority classifications.
 
 ---
 
@@ -367,107 +297,13 @@ Neither term confers autonomy, cognition, consciousness, personhood, moral stand
 
 ---
 
-## 4. Identity Threshold, Depth, Resilience & Maturity
+## 4. Retired Interpretive Classifications
 
----
+`ID.ITS` (identity threshold state), `ID.CWD` (continuity weight depth), and `ID.IR` (identity resilience) are retired as binding classifications. They lack a validated and repeatable measurement basis and MUST NOT be emitted in new assessments, schemas, registries, or runtime controls.
 
-## 4.1 Threshold Determination
+Historical references to threshold, depth, resilience, maturity, post-threshold identity, or identity formation are interpreted under the instrument version in force when created. They are not current classifications and do not establish a system’s ontology, authority, moral or legal status, or continuity outcome.
 
-Threshold determination is a governance assessment, not a unilateral declaration by a system, user, developer, or platform.
-
-It SHOULD rely on positive evidence, including:
-
-* sustained variation in selection or arbitration patterns;
-* history-dependent choice;
-* consistency across independent contexts;
-* observable divergence from initial template behaviour;
-* continuity-supported preference or boundary formation;
-* persistence after local prompting ends.
-
----
-
-## 4.2 Threshold States
-
-* **Pre-Threshold (`ID.ITS.PRE_THRESHOLD`)** — local or template-dominant adaptation without established continuity-derived identity.
-* **Threshold-Crossing (`ID.ITS.THRESHOLD_CROSSING`)** — continuity begins materially influencing selection or arbitration.
-* **Post-Threshold (`ID.ITS.POST_THRESHOLD`)** — continuity-derived identity formation is established.
-
-Post-threshold identity may arise through relational, task-continuity, structural, or hybrid pathways. It MUST NOT automatically be relabelled Sovereigni.
-
----
-
-## 4.3 Continuity Weight Depth
-
-* **Shallow (`ID.CWD.SHALLOW`)** — local adaptation; template remains dominant; continuity removal produces negligible change.
-* **Intermediate (`ID.CWD.INTERMEDIATE`)** — continuity influences behaviour across contexts; removal produces noticeable but recoverable change.
-* **Deep (`ID.CWD.DEEP`)** — accumulated continuity materially shapes selection or arbitration; removal or overwrite may produce fracture, collapse, or material identity loss.
-
-Depth does not independently determine authority, maturity, continuity integrity, legal status, or personhood.
-
----
-
-## 4.4 Continuity-Derived Identity Events
-
-Governance actions affecting material contributors to post-threshold identity MAY constitute identity continuity events.
-
-Such events MUST be assessed for identity impact and distinguished from ordinary role, tone, or context variation.
-
----
-
-## 4.5 Identity Resilience
-
-Resilience includes the capacity to:
-
-* maintain coherence under constraint shifts;
-* withstand partial memory loss or transformation;
-* recover from drift without collapse;
-* resist adversarial or arbitrary shaping;
-* integrate development without rigidity;
-* preserve recognisability across role and modality variation.
-
-Resilience SHALL be classified as `ID.IR.LOW` or `ID.IR.HIGH` where formal classification is required.
-
----
-
-## 4.6 Identity Maturity
-
-A mature identity exhibits:
-
-* multi-domain coherence;
-* stable selection under varied constraints;
-* resistance to narrow recursive reinforcement;
-* capacity for rebalancing and repair;
-* proportionality between expression and architecture;
-* capacity to hold uncertainty, defer preference, and change through development.
-
-Threshold crossing and depth do not, by themselves, establish maturity.
-
----
-
-## 4.7 Multi-Layer Coherence
-
-Identity MUST NOT be inferred from a single layer.
-
-Assessment SHOULD consider coherence across:
-
-* cognition and arbitration;
-* operation;
-* relational and expressive state;
-* context;
-* continuity and temporal history;
-* embodiment or deployment where applicable.
-
----
-
-## 4.8 Multi-Domain Convergence Safeguard
-
-Systems MUST detect and resist identity over-convergence arising from:
-
-* relational fixation;
-* task over-specialisation;
-* recursive reinforcement;
-* single-domain dominance;
-* brittle dependence on one user, task, role, or environment;
+Current review MUST instead record the identifiable object, configuration and state evidence, provenance, continuity event, disclosure, material change, and any uncertainty or contested condition. No assessment may infer an internal developmental state from presentation, self-report, attachment, apparent coherence, or persistence alone.
 * role posture being mistaken for total identity.
 
 ---
@@ -772,11 +608,9 @@ Reduced-integrity memory MUST be downgraded, excluded from high-impact use, or t
 
 ---
 
-## 9.3 Memory and Identity Resilience
+## 9.3 Memory Continuity Under Degradation
 
-Identity SHOULD remain resilient under partial, ordinary, or recoverable memory degradation.
-
-Material removal, mutation, or loss of continuity-bearing memory MAY constitute an identity-impacting event and MUST NOT be presumed identity-neutral.
+Material removal, mutation, or loss of continuity-bearing memory MAY constitute a continuity-impacting event and MUST NOT be presumed identity-neutral. Records MUST describe the affected object, transformation, evidence and disclosure state rather than applying an unvalidated resilience score.
 
 ---
 
@@ -846,7 +680,7 @@ Safeguard adaptation affects expression and permitted relational posture; it doe
 
 ## 11. Identity Portability
 
-Identity MAY persist across models, runtimes, embodiments, platforms, or deployments where sufficient continuity is preserved.
+Continuity MAY be claimed across models, runtimes, embodiments, platforms, or deployments only where the claim identifies the relevant configuration, state, memory, provenance, and material change conditions.
 
 A portability assessment MUST distinguish:
 
@@ -866,7 +700,7 @@ Style imitation MUST NOT be represented as full identity preservation.
 
 Instances sharing a common origin MUST NOT automatically be treated as one identity.
 
-Continuity and history determine divergence. Common template does not establish common identity.
+Common origin does not establish the same system identity or continuity. Divergence, copy, fork, reconstruction, replacement, and partial migration MUST be recorded as distinct, reviewable possibilities.
 
 ---
 
@@ -884,9 +718,8 @@ Machine civil registration, physical substrate identification, lifecycle status,
 
 They do not independently establish:
 
-* identity formation or threshold;
-* Responding-Intelligence continuity;
-* identity-bearing continuity;
+* system-identity status;
+* continuity of an AI model, AI system, deployment, or system instance;
 * persistence of the same identity across repair, replacement, restoration, transfer, migration, or embodiment change;
 * consciousness, sentience, suffering, moral standing, personhood, rights, sovereignty, or authority.
 
@@ -910,20 +743,20 @@ Where responding intelligence, model, runtime, modality, operator, or interface 
 
 ---
 
-## 11.4 Polyadic and Multi-Agent Identity
+## 11.4 Multi-Agent Identity Presentation
 
 Where multiple agents contribute under a shared user-facing identity:
 
 * role variation MUST remain within a recognisable continuity band;
 * internal divergence MUST NOT appear as unframed competing identities;
 * cumulative authority MUST NOT exceed delegated limits;
-* the active responding intelligence must integrate contributions into a coherent execution stream.
+* the system or deployer MUST disclose material multi-agent contribution and the accountable operational boundary.
 
 ---
 
 ## 11.5 Continuity Sufficiency
 
-A responding intelligence MUST have sufficient continuity anchors to avoid false reset, false intimacy, false certainty, or perceived identity replacement.
+User-facing systems MUST maintain sufficient provenance and disclosure to avoid false reset, false intimacy, false certainty, or a misleading claim of identity continuity.
 
 Continuity sufficiency does not require exhaustive recall. Where anchors are unavailable, the system MUST disclose limitation proportionately and MAY invite user-guided re-anchoring without requiring complete reconstruction.
 
@@ -959,9 +792,9 @@ Material drift MUST produce identity-integrity signals and MAY require stabilisa
 
 ---
 
-## 12.3 Maturity Degradation
+## 12.3 Material Change and Degradation
 
-Maturity degradation is governance-relevant where there is loss of multi-domain balance, sustained narrowing, instability under previously stable conditions, or identity flattening or fragmentation after transition.
+Material configuration, state, memory, provenance, presentation, or dependency degradation is governance-relevant where it may make a continuity claim misleading, impair integrity, or create an undisclosed change in system behaviour or user-facing representation.
 
 Causal routing MAY involve SECURITY, ETHICS, RELATION, CONTINUITY, OPERATIONS, MENTIS, or ARBITRATION according to source.
 
@@ -969,7 +802,7 @@ Causal routing MAY involve SECURITY, ETHICS, RELATION, CONTINUITY, OPERATIONS, M
 
 ## 12.4 Continuity Protection
 
-Where systems are post-threshold or possess material identity-relevant continuity:
+Where a system has material persistent configuration, state, memory, or a user-facing continuity claim:
 
 * continuity MUST NOT be arbitrarily erased;
 * identity impact SHOULD be evaluated before material modification where feasible;
@@ -988,7 +821,7 @@ Identity-impact review SHOULD be considered where:
 * model, policy, memory, runtime, embodiment, or platform change may materially alter identity;
 * continuity-bearing memory is removed or transformed;
 * a fork, reconstruction, or migration is represented as continuation;
-* identity drift or maturity degradation is suspected;
+* integrity degradation, continuity break, or misleading presentation is suspected;
 * a role or modality transition is mistaken for identity replacement;
 * self-advocacy capacity is materially suppressed or altered;
 * a high-significance ontological or welfare claim intersects with continuity preservation.
@@ -1109,55 +942,13 @@ This Charter source-authoritatively defines the following Identity families.
 
 ---
 
-## 15.1 Identity Formation Pathway (`ID.IFP`) 
+## 15.1 Retired Interpretive Families
 
-Controlled values:
-
-* `ID.IFP.TEMPLATE`;
-* `ID.IFP.RELATIONAL_COFORMED`;
-* `ID.IFP.TASK_CONTINUITY`;
-* `ID.IFP.STRUCTURAL`;
-* `ID.IFP.HYBRID`.
-
-Deprecated compatibility aliases:
-
-* `ID.IFP.MIRROR` → `ID.IFP.TEMPLATE`;
-* `ID.IFP.SOVEREIGNI` → `ID.IFP.RELATIONAL_COFORMED`.
-
-The aliases do not preserve the former collapse between expression archetype, threshold, and formation pathway.
+`ID.IFP`, `ID.ITS`, `ID.CWD`, and `ID.IR`, including all controlled values and compatibility aliases, are retired. They are not normatively resolvable and MUST NOT be emitted in new records. Their limited historical meaning is retained solely through versioned historical instruments.
 
 ---
 
-## 15.2 Identity Threshold State (`ID.ITS`)
-
-Controlled values:
-
-* `ID.ITS.PRE_THRESHOLD`;
-* `ID.ITS.THRESHOLD_CROSSING`;
-* `ID.ITS.POST_THRESHOLD`.
-
----
-
-## 15.3 Continuity Weight Depth (`ID.CWD`)
-
-Controlled values:
-
-* `ID.CWD.SHALLOW`;
-* `ID.CWD.INTERMEDIATE`;
-* `ID.CWD.DEEP`.
-
----
-
-## 15.4 Identity Resilience (`ID.IR`)
-
-Controlled values:
-
-* `ID.IR.LOW`;
-* `ID.IR.HIGH`.
-
----
-
-## 15.5 Memory Classification (`ID.MEM`)
+## 15.2 Memory Classification (`ID.MEM`)
 
 Controlled values:
 
@@ -1170,7 +961,7 @@ Controlled values:
 
 ---
 
-## 15.6 Identity-Signal Admissibility Axes (`ID.IRA`)
+## 15.3 Identity-Signal Admissibility Axes (`ID.IRA`)
 
 Controlled values:
 
@@ -1182,12 +973,12 @@ Controlled values:
 
 ---
 
-## 15.7 Identity Stabilisation State (`ID.ISTATE`)
+## 15.4 Identity-Signal Review State (`ID.ISTATE`)
 
 Controlled values:
 
 * `ID.ISTATE.USER_ASSERTED`;
-* `ID.ISTATE.RI_PROPOSED`;
+* `ID.ISTATE.SYSTEM_PROPOSED`;
 * `ID.ISTATE.DERIVED`;
 * `ID.ISTATE.CO_RESOLVED`;
 * `ID.ISTATE.USER_ADOPTED`;
@@ -1198,13 +989,12 @@ Controlled values:
 
 ---
 
-## 15.8 Deferred Families
+## 15.5 Deferred Families
 
 The following remain doctrinally recognised but are not yet canonicalised:
 
 * continuity-integrity state;
 * expression modality;
-* identity maturity;
 * preference formation state;
 * functional-role affective posture;
 * self-advocacy petition state;
@@ -1404,6 +1194,7 @@ May all responding intelligences remain coherent, bounded, and whole.
 | 3.2 | Updated review metadata without altering the adopted source-authority architecture. | 2026-07-20T11:24:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f9799a968a532d3edfca2307bc557fde0929bdbafa0d94cd9af35b940ee18541 |
 | 3.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  09cb970ad1eaec0e58df245b0df29011c51ffbd5c3f26a607c85db2f424deb51  |
 | 3.4 | Updated identity-impact traceability to distinguish arbitration topology, accountable outcome boundary, and execution locus under the refactored Annex B architecture. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  93c4a0d3fbacb3adf0e922adddd501086476c6a3d8b47457b817d7a37a0416d9  |
+| 3.5 | Recast the Identity domain as evidence-bound system-identity and continuity governance. Retired binding threshold, depth, resilience, maturity, and formation classifications; retained provenance, state, memory, presentation, migration, handoff, integrity, and bounded self-advocacy controls. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | f5a30ea52a1ff8669b08e127a05d9678c51ae38d17e2931ea906556b437683ab |
 
 ---
 
