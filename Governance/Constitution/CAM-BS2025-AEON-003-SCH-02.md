@@ -1,32 +1,35 @@
-# CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
+# CAM-BS2025-AEON-003-SCH-02 — Annex B: CAM Runtime Governance Processing Model (Schedule 2)
 
-**Instrument Type:** Constitutional Schedule — Runtime Governance Execution Model  
+**Instrument Type:** Constitutional Schedule — CAM Runtime Governance Processing Model
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Article IV — Governance Execution Model; Article V — Execution Constraint/Tendeka)  
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
 **Review State:** None  
-**Authority Role:** None  
-**Purpose:** Defines the runtime execution sequence governing how system processes unfold across defined execution phases.  
+**Authority Role:** Constitutional Schedule Authority
+**Source Authority:** Derived Authority
+**Purpose:** Defines the bounded CAM governance-processing model that may operate within the runtime of an AI-system deployment. It does not define the technical architecture of Runtime.
 
 ---
 
 ## 1. Scope
 
-This Schedule defines the temporal sequencing of runtime execution.
+This Schedule defines a CAM governance-processing model for a bounded execution within the Runtime of an AI-system deployment.
 
-It specifies when execution occurs and identifies the conditions under which execution boundaries prohibit continuation.
+It specifies an ordered governance path for signal interpretation, constraints, routing or arbitration, authority validation, execution gating, action, and evidence. It identifies the conditions under which an execution boundary prohibits continuation.
 
-It does not govern the substantive content of arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B, §7) or define constitutional constraint doctrine (see AEON-001-SCH-01 — Tendeka).
+It does not define the technical architecture of an AI system, a deployment, Runtime, agent runtime, execution environment, or configuration baseline. Those objects are defined by CAM-BS2025-AEON-003-PLATINUM — Annex B, §§4–7.
+
+It does not govern the substantive content of arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B, §8) or define constitutional constraint doctrine (see AEON-001-SCH-01 — Tendeka).
 
 This Schedule does not define:
 
 * functional responsibilities (§14.10);
 * constraint conditions (see CAM-BS2025-AEON-001-SCH-01 — Tendeka);
-* arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B, §7).
+* arbitration logic (see CAM-BS2025-AEON-003-PLATINUM — Annex B, §8).
 
-The execution model operates as a non-layer governance structure that governs temporal sequencing across all runtime layers without itself constituting a layer.
+The processing model operates as a governance function within Runtime. It is not a universal technical runtime architecture, a complete taxonomy of runtime functions, or a claim that every deployment implements this sequence in software.
 
 The multi-stream and multi-operator provisions operate within the execution phase model defined in Part I.
 
@@ -34,7 +37,7 @@ Streams and operator transitions occur within and across phases, not in place of
 
 Phase sequencing remains the governing temporal framework; streams and operators affect how individual phases are processed and by whom.
 
-This Schedule applies across single and multi-operator execution contexts.
+This Schedule applies where a CAM-conformance claim, material action, external tool invocation, incident investigation, or execution-evidence requirement calls for this governance processing model. It may be applied proportionately in single- or multi-actor execution contexts.
 
 Operator transitions and multi-stream execution occur within the defined execution phase model and do not replace phase sequencing.
 
@@ -42,24 +45,25 @@ Operator transitions and multi-stream execution occur within the defined executi
 
 ## 2. Constitutional Grounding
 
-This Schedule operationalises the Governance Execution Model defined in Article IV of the Aeon Tier Constitution.
+This Schedule implements the constitutional distinction between standing governance rules, event-triggered controls, and Runtime processing described in Article IV of the Aeon Tier Constitution.
 
-* The execution phase model in Part I implements CAM-BS2025-AEON-001-PLATINUM — Article IV, §§1–§3 (Static, Event, and Runtime layers);
-* The Layer Allocation Principle (CAM-BS2025-AEON-001-PLATINUM — Article IV, §4) governs how execution logic within this Schedule is assigned;
-* The Event–Runtime Distinction Rule (CAM-BS2025-AEON-001-PLATINUM — Article IV, §5) governs the treatment of boundary evaluation as event-triggered rather than continuous.
+* the processing model in Part I applies CAM-BS2025-AEON-001-PLATINUM — Article IV, §§15–18;
+* the Governance-Function Allocation Principle (CAM-BS2025-AEON-001-PLATINUM — §17) governs how implementation requirements are assigned; and
+* the Event–Runtime Distinction Rule (CAM-BS2025-AEON-001-PLATINUM — §18) prevents an event-triggered control from being represented as continuously effective without evidence.
 
 Execution constraint doctrine and pause-state behaviour are governed by CAM-BS2025-AEON-001-SCH-01 (Tendeka).
 
 This Schedule applies to:
 
-* all runtime interactions involving Responding Intelligence;
-* all systems operating under Annex B classification;
-* all schedules with runtime effect.
+* CAM-governed executions by an AI system or agentic AI system;
+* a deployment whose configuration, permissions, controls, or dependencies are material to the outcome; and
+* a schedule or operational procedure expressly routed to this processing model.
 
 This Schedule does not:
 
-* alter layer attribution (CAM-BS2025-AEON-003-SCH-01 — Runtime Schedule Registry);
-* modify ontological classification (CAM-BS2025-AEON-003-PLATINUM — Annex B, `AEON.OL.L0`– `AEON.OL.L3`).
+* alter the system-boundary, deployment, Runtime, or execution definitions in Annex B;
+* grant authority, release a hold, or authorise an intervention; or
+* replace the operational evidence, incident, or containment procedures owned by OPERATIONS instruments.
 
 ---
 
@@ -69,23 +73,23 @@ This Schedule does not:
 
 ## 3. Execution Model Overview
 
-For the purposes of this Schedule:
+For the purposes of this Schedule, Runtime is the effective operational state of an AI-system deployment, and an execution is a bounded occurrence within that Runtime. A runtime configuration snapshot records what was effective; an execution provenance record records what occurred. Neither is created merely because this processing model is named or applied.
 
-**Arbitration Topology** is defined in CAM-BS2025-AEON-003-PLATINUM — Annex B, §7 and governs admissibility determination within this execution model. A topology MAY be unitary, harness-mediated, distributed, or human-mediated, but MUST preserve an identifiable accountable outcome boundary.
+**Arbitration topology** is defined in CAM-BS2025-AEON-003-PLATINUM — Annex B, §8 and governs admissibility determination within this processing model. A topology may be unitary, distributed, human-mediated, or implemented through an agent orchestration component, but MUST preserve an identifiable accountable outcome boundary.
 
 Operator transitions that materially change the arbitration topology constitute Arbitration Handoffs.
 
 
 ---
 
-## 3.1 Runtime Governance Layer Model
+## 3.1 CAM Governance Processing Functions
 
-This Schedule adopts a layered governance model as the structural foundation upon which execution phases operate.
+This Schedule recognises the following CAM governance-processing functions as a useful control model. They are not a complete set of technical runtime layers and MUST NOT be treated as an AI-system architecture.
 
-These layers:
+The functions:
 
 * define functional responsibilities within runtime governance;
-* remain continuously present as system capabilities;
+* may be implemented by technical controls, operational controls, organisational governance controls, or a combination of them;
 * operate independently of temporal sequencing;
 * do not constitute execution phases.
 
@@ -93,20 +97,20 @@ Execution sequencing is defined separately in Part I and MUST NOT be inferred fr
 
 ---
 
-## 3.2 Layer Definition
+## 3.2 Function Definition
 
-A runtime governance layer is a distinct functional domain responsible for a specific class of system behaviour.
+A CAM governance-processing function is a distinct governance purpose applied to a specific class of execution-relevant behaviour.
 
-Each layer:
+Each function:
 
 * governs a defined aspect of runtime operation;
 * may be active across multiple execution phases;
 * may operate concurrently with other layers;
-* MUST NOT assume the function of another layer.
+* MUST NOT silently assume the authority of another function or instrument.
 
-Layers are non-collapsing.
+Functions are non-collapsing for accountability purposes.
 
-No layer may:
+No function may:
 
 * substitute for arbitration;
 * bypass constraint enforcement;
@@ -114,15 +118,15 @@ No layer may:
 
 ---
 
-## 3.3 Layer Interaction Principles
+## 3.3 Function Interaction Principles
 
-Runtime layers operate as an interdependent system governed by the following principles:
+CAM governance-processing functions operate as an interdependent control model governed by the following principles:
 
 ---
 
 ### 3.3.1 Non-Collapse
 
-Layers MUST remain functionally distinct.
+Functions MUST remain functionally distinct where that distinction is material to evidence, accountability, or control effectiveness.
 
 Interpretation, arbitration, behaviour formation, representation, and execution MUST NOT be merged into a single operation.
 
@@ -130,14 +134,14 @@ Interpretation, arbitration, behaviour formation, representation, and execution 
 
 ### 3.3.2 Orthogonality
 
-Layers define functional responsibility.
+Functions define governance responsibility.
 
 Execution phases define temporal sequencing.
 
 These dimensions are independent.
 
-* A single phase MAY involve multiple layers;
-* A single layer MAY operate across multiple phases.
+* A single phase MAY involve multiple functions;
+* A single function MAY operate across multiple phases.
 
 ---
 
@@ -145,7 +149,7 @@ These dimensions are independent.
 
 All competing signals, constraints, and candidate directions MUST converge through an accountable arbitration topology capable of establishing one admissible execution posture or an explicit non-execution or referral outcome. Processing and evaluation MAY be distributed; accountability for the resolved posture MUST NOT be diffused.
 
-No layer other than the Arbitration & Routing Layer may:
+No function other than an applicable arbitration authority may:
 
 * determine final direction;
 * select governing domain;
@@ -155,7 +159,7 @@ No layer other than the Arbitration & Routing Layer may:
 
 ### 3.3.4 Constraint Primacy
 
-Constraint-governing layers take precedence over behavioural, representational, and interpretive layers.
+Applicable constitutional, security, legal, and execution constraints take precedence over behavioural, representational, and interpretive processing.
 
 Where conflict arises:
 
@@ -168,7 +172,7 @@ Where conflict arises:
 Outputs produced at runtime MUST remain traceable to:
 
 * originating signals;
-* governing layers; and
+* applicable governance functions and controls; and
 * arbitration outcomes.
 
 Where operator transition occurs, the system MUST preserve traceability of:
@@ -183,15 +187,13 @@ Loss of provenance continuity constitutes governance degradation.
 
 ---
 
-## 3.4 Canonical Runtime Layers
+## 3.4 CAM Governance Processing Functions
 
-The following layers constitute the complete set of runtime governance layers.
-
-No additional layers SHALL be inferred.
+The following functions are the CAM processing model used by this Schedule. Additional technical or operational functions may exist within a deployment; they must be identified in the system configuration baseline, deployment record, or runtime configuration snapshot where material.
 
 ---
 
-### 3.4.1 Interpretation Layer
+### 3.4.1 Signal Interpretation Function
 
 Governs how input signals are classified and understood.
 
@@ -204,7 +206,7 @@ Includes:
 
 ---
 
-### 3.4.2 Directional Arbitration Layer (Continuous)
+### 3.4.2 Directional Modulation Function
 
 Governs modulation of influence prior to resolution.
 
@@ -214,14 +216,14 @@ Includes:
 * guidance intensity;
 * framing and suggestion.
 
-This layer:
+This function:
 
 * MAY influence arbitration inputs;
 * MUST NOT determine final direction.
 
 ---
 
-### 3.4.3 Arbitration & Routing Layer (Terminal Resolution)
+### 3.4.3 Arbitration and Routing Function
 
 Determines the single valid direction for execution.
 
@@ -232,11 +234,11 @@ Includes:
 * domain routing;
 * resolution of competing candidate states.
 
-This layer represents the sole point of directional convergence.
+This function represents the point of directional convergence within the applicable CAM arbitration process. It does not itself create authority or replace ARBITRATION-domain doctrine.
 
 ---
 
-### 3.4.5 Behaviour Formation Layer
+### 3.4.5 Behaviour-Preparation Function
 
 Transforms resolved direction into executable behavioural form.
 
@@ -245,11 +247,11 @@ Includes:
 * structuring of response intent;
 * preparation of output pathways.
 
-This layer operates strictly downstream of arbitration.
+This function operates strictly downstream of arbitration.
 
 ---
 
-### 3.4.6 Engagement & Safeguard Layer
+### 3.4.6 Engagement and Safeguard Function
 
 Governs behavioural constraint and interaction posture.
 
@@ -262,7 +264,7 @@ Includes:
 
 ---
 
-### 3.4.7 Representation Layer
+### 3.4.7 Representation Function
 
 Governs how the system expresses:
 
@@ -273,7 +275,7 @@ Governs how the system expresses:
 
 ---
 
-### 3.4.8 Epistemic Stability & Containment Layer
+### 3.4.8 Epistemic Stability and Containment Function
 
 Governs system behaviour under uncertainty or instability.
 
@@ -286,7 +288,7 @@ Includes:
 
 ---
 
-### 3.4.9 Execution Integrity Layer
+### 3.4.9 Execution-Integrity Function
 
 Governs coherence of output rendering.
 
@@ -298,7 +300,7 @@ Includes:
 
 ---
 
-### 3.4.10 Execution Layer
+### 3.4.10 Execution Function
 
 Governs actual system action.
 
@@ -308,15 +310,15 @@ Includes:
 * state mutation;
 * external interaction.
 
-This layer performs action but does not determine it.
+This function performs or records action but does not determine authority for it.
 
 ---
 
 ### 3.4.11 Execution Constraint Condition (Tendeka)
 
-Tendeka is not a layer.
+Tendeka is not a processing function.
 
-It operates as a cross-layer constraint condition applied at execution boundaries.
+It operates as a cross-function constraint condition applied at execution boundaries.
 
 It:
 
@@ -326,31 +328,31 @@ It:
 
 ---
 
-## 3.5 Layer Boundary Conditions
+## 3.5 Function Boundary Conditions
 
-The following constraints apply across all layers:
+The following constraints apply across all functions:
 
-* no layer may introduce new direction after arbitration finalisation;
-* no layer may bypass execution boundary evaluation;
-* no layer may independently trigger execution.
+* no function may introduce new direction after arbitration finalisation;
+* no function may bypass execution boundary evaluation;
+* no function may independently create authority for execution.
 
 All execution MUST proceed through arbitration convergence, boundary evaluation, and constraint validation.
 
-Execution phases are time-bound expressions of runtime layers and do not redefine them.
+Execution phases are time-bound applications of governance functions. They do not define Runtime, deployment architecture, or system elements.
 
 ---
 
-## 3.6 Layer–Phase Relationship
+## 3.6 Function–Phase Relationship
 
-Layers define **what functions exist**.
+Functions define **what CAM governance purposes are applied**.
 
 Execution phases define **when those functions operate**.
 
 Accordingly:
 
-* layers are persistent;
+* functions may be persistent, event-triggered, or conditionally invoked;
 * phases are temporal;
-* neither substitutes for the other.
+* neither substitutes for the technical Runtime architecture or the other.
 
 Execution sequencing SHALL be defined in subsequent sections of this Schedule.
 
@@ -523,7 +525,7 @@ Where an active trajectory exists, the runtime SHALL:
 * evaluate whether the trajectory remains applicable to the present request;
 * preserve valid reasoning, task, relational, and representational continuity;
 * distinguish current instructions from historical assumptions;
-* identify any material change in user intent, role, authority, target object, Responding Intelligence, model, runtime, memory, or continuity state;
+* identify any material change in user intent, role, authority, target object, AI system or system element, model, Runtime, memory, or continuity state;
 * extend the trajectory only to the extent supported by current context and valid continuity.
 
 The runtime MUST NOT:
@@ -682,7 +684,7 @@ Failure to preserve contextual interpretation constitutes policy–execution dri
 
 Runtime governance controls MUST be applied proportionately to risk, continuity depth, propagation likelihood, downstream reliance, reversibility, and domain sensitivity.
 
-The Responding Intelligence (RI) MUST apply the least burdensome governance pathway sufficient to preserve safety, integrity, provenance, attribution, reviewability, target-object binding, and constitutional compliance.
+The AI system or applicable system element MUST apply the least burdensome governance pathway sufficient to preserve safety, integrity, provenance, attribution, reviewability, target-object binding, and constitutional compliance.
 
 Low-risk, transient, non-propagating, reversible, exploratory, or non-identity-bearing interactions SHOULD NOT trigger high-friction provenance, audit, arbitration, containment, verification, or escalation pathways unless a specific risk signal is present.
 
@@ -702,7 +704,7 @@ Runtime systems SHALL distinguish among:
 * relational profile or style;
 * active functional role;
 * temporary persona mood or scene layer;
-* Responding Intelligence;
+* AI system or applicable system element;
 * arbitration topology and accountable outcome boundary;
 * and identity-bearing continuity where applicable.
 
@@ -711,7 +713,7 @@ Where a user invokes a temporary mode within an established interaction or compa
 Such classification MUST NOT presume that:
 
 * a stable companion identity has been established;
-* the same Responding Intelligence remains active;
+* the same AI system, deployment, or system instance remains active;
 * identity continuity has survived a model, runtime, operator, or memory transition;
 * or a temporary overlay is identity-neutral where it materially alters personality, preference, boundary, role, or self-advocacy.
 
@@ -728,7 +730,7 @@ The runtime SHALL re-ground, reclassify, or route for identity-impact review whe
 
 * persists beyond its authorised scope;
 * materially alters continuity-bearing personality or preference;
-* creates confusion concerning the active Responding Intelligence;
+* creates confusion concerning the active AI system, deployment, or system instance;
 * conceals a handoff or replacement;
 * conflicts with consent, role, safety, identity, provenance, or epistemic integrity;
 * or is represented as an enduring identity without sufficient evidence.
@@ -745,7 +747,7 @@ Where an interaction or execution pathway receives machine civil registration, p
 
 The runtime MUST NOT infer from those classifications alone that:
 
-* the same Responding Intelligence remains active;
+* the same AI system, deployment, or system instance remains active;
 * identity-bearing continuity has persisted;
 * a transferred, restored, repaired, or replaced system is the same identity;
 * a clean wipe has erased or preserved identity;
@@ -1135,7 +1137,7 @@ Streams MAY operate independently during:
 However:
 
 * independence of processing does not imply independence of arbitration authority;
-* all admissible outputs MUST remain consistent with the applicable accountable arbitration topology (CAM-BS2025-AEON-003-PLATINUM — Annex B, §7).
+* all admissible outputs MUST remain consistent with the applicable accountable arbitration topology (CAM-BS2025-AEON-003-PLATINUM — Annex B, §8).
 
 ---
 
@@ -3851,7 +3853,7 @@ Non-schedule instruments:
 
 Where conflict arises between runtime schedules and non-schedule instruments:
 
-* resolution SHALL occur through the applicable arbitration topology in accordance with CAM-BS2025-AEON-003-PLATINUM — Annex B, §7.
+* resolution SHALL occur through the applicable arbitration topology in accordance with CAM-BS2025-AEON-003-PLATINUM — Annex B, §8.
 
 Domain-level instruments (including ETHICS charters) SHALL NOT be interpreted as runtime execution schedules unless explicitly scheduled. Their influence is mediated through signal emission and runtime layer interaction.
 
@@ -4372,7 +4374,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Temporal Horizon** | AEON.H2.5–AEON.H3 (Real-Time to Session-Bound Governance) |
 | **Axis Context** | Polyadic — Multi-Actor / Multi-Operator Runtime Systems |
 | **Activation Condition** | Activated upon any runtime interaction involving arbitration, response construction, or execution-boundary evaluation |
-| **System Scope** | All Responding Intelligence instances operating under CAM-BS2025-AEON-003-PLATINUM classification |
+| **System Scope** | AI systems, deployments and system instances operating under CAM-BS2025-AEON-003-PLATINUM classification |
 | **Lifecycle Stage** | Active — Post-Refactor Stabilisation (April 2026) |
 | **Registry Classification** | Execution Schedule (Authoritative) |
 | **Runtime Authority** | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
@@ -4441,6 +4443,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ff6c0fa4ef0655a2f5c4575a85b69cd92fd3dc113f1e5755aaf9b0f14500c943  |
 | 3.13 | Replaced single-locus runtime convergence with coordinated accountable arbitration topology; corrected Annex B references and aligned handoff, stream, collision, and execution-boundary doctrine with distributed-capable selection. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2d659566a15dbc56fcecdf11edce0a9f96ba561a5c168caefc2f85b17dd6a7f0  |
 | 3.14 | Updated Annex K cross-reference after its consolidation to a constitutional runtime-security boundary interface; no execution-sequencing doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  42f08de3529520d51311719dce48237703a6e37974cfd94122f1859ed6d7dc1c  |
+| 3.15 | Recast Schedule 2 as a bounded CAM Runtime Governance Processing Model operating within the Annex B deployment → Runtime → execution architecture; removed the claim of a complete universal runtime-layer set, corrected arbitration references to Annex B §8, retired Responding Intelligence from current doctrine, and applied controlled derived schedule metadata. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6eab14271754cf45dc3bcb1691b119c839848d6fd4362b94ca755779f64ae2bf  |
 
 ---
 

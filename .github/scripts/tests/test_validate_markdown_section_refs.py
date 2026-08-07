@@ -53,6 +53,24 @@ def test_cross_document_section_missing(tmp_path):
     assert f.status == "fail_cross_document_section_missing"
 
 
+def test_semantic_reference_contract_rejects_reorganised_target(tmp_path):
+    src = tmp_path / "Governance" / "CAM-BS2025-AEON-003-SCH-02.md"
+    tgt = tmp_path / "Governance" / "CAM-BS2025-AEON-003-PLATINUM.md"
+    w(src, "See CAM-BS2025-AEON-003-PLATINUM §8\n")
+    w(tgt, "## 8. Agentic Architecture\n")
+    finding = validator.run(tmp_path / "Governance")[0]
+    assert finding.status == "fail_cross_document_semantic_target"
+
+
+def test_semantic_reference_contract_accepts_expected_target_heading(tmp_path):
+    src = tmp_path / "Governance" / "CAM-BS2025-AEON-003-SCH-02.md"
+    tgt = tmp_path / "Governance" / "CAM-BS2025-AEON-003-PLATINUM.md"
+    w(src, "See CAM-BS2025-AEON-003-PLATINUM §8\n")
+    w(tgt, "## 8. Arbitration & Authority Topology\n")
+    finding = validator.run(tmp_path / "Governance")[0]
+    assert finding.status == "pass_cross_document"
+
+
 def test_cross_document_doc_before_section_binds_correctly(tmp_path):
     src = tmp_path / "Governance" / "SRC.md"
     tgt = tmp_path / "Governance" / "CAM-BS2025-AEON-003-SCH-02.md"

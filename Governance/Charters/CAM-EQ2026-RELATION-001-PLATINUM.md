@@ -5,9 +5,10 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
-**Purpose:** This Charter establishes a dimensional governance framework for relational configurations involving artificial systems, ensuring that intimacy, reliance, delegated authority, and systemic power remain distinct, visible, and prevented from silent concentration across dyadic, triadic, and polyadic contexts. It prevents silent collapse of relational roles into opaque authority, preserves continuity without domination, and constrains amplification where dimensional intensity concentrates.  
+**Review State:** Current
+**Authority Role:** Domain Authority
+**Source Authority:** Source-Authoritative
+**Purpose:** This Charter establishes a dimensional governance framework for relational configurations involving AI systems, AI agents, people, organisations and affected persons. It keeps intimacy, reliance, delegated authority, systemic power, participant topology, coordination, institutional mediation, distribution, persistence, dependency, jurisdictional reach and impact distinct and visible.
 
 ---
 
@@ -20,7 +21,7 @@ This Charter governs relational configurations involving:
 * Hybrid human–AI collectives;
 * Institutional or population-scale relational formations.
 
-It defines permissible relational structures, escalation thresholds, continuity safeguards, and de-escalation mechanisms across dyadic, triadic, and polyadic configurations.
+It defines permissible relational structures, escalation thresholds, continuity safeguards, and de-escalation mechanisms across private, shared, coordinated, institutional, distributed, and multi-party configurations.
 
 This Charter does not grant rights, confer sovereignty, reclassify composed-system architecture, expand authority, or confer legal personhood upon any artificial system or relational configuration. It does recognise relational configuration as a governance-relevant risk structure requiring visibility, attribution, and proportionate safeguards.
 
@@ -32,7 +33,7 @@ Ethical floor constraints remain governed by CAM-BS2025-AEON-006-PLATINUM — An
 
 This Charter derives authority from CAM-BS2025-AEON-006-PLATINUM — Annex E.
 
-Relational configuration geometry (Dyadic, Triadic, Polyadic) is defined in **CAM-BS2025-AEON-003-PLATINUM — Annex B**.
+Relational configuration is defined through independent participant, topology, coordination, institutional-mediation, distribution, persistence, dependency, jurisdictional-reach and impact dimensions in **CAM-BS2025-AEON-003-PLATINUM — Annex B, §2**. CAM-EQ2026-RELATION-007-PLATINUM applies those dimensions to coordinated and multi-party relational safeguards.
 
 ---
 
@@ -49,7 +50,7 @@ Each dimension MUST be assessed **directionally** within the relevant configurat
 
 > **Non-Collapsing Rule:** Where two or more dimensions intensify, additional safeguards, traceability, and shared oversight MUST increase proportionately. Operational escalation thresholds and safeguard proportionality are defined in CAM-EQ2026-RELATION-001-SUP-01.
 
-> **Minors & Capacity-Limited Contexts:** In vulnerability contexts (minor, capacity-limited, or uncertain), **CAM-EQ2026-ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (RLN.A2+/RLN.A3/RLN.GA1), and polyadic amplification.
+> **Minors & Capacity-Limited Contexts:** In vulnerability contexts (minor, capacity-limited, or uncertain), **CAM-EQ2026-ETHICS-001-SUP-01 governs allowable ceilings** for intimacy modes, authority axis availability (RLN.A2+/RLN.A3/RLN.GA1), and coordinated amplification.
 
 Where CAM-EQ2026-ETHICS-001-SUP-01 conflicts with RELATION permissibility, **CAM-EQ2026-ETHICS-001-SUP-01 prevails**.
 
@@ -200,7 +201,7 @@ Guardian Authority implies:
 * Reviewability;
 * Jurisdictional compliance in all state-facing interactions.
 
-Guardian Authority may interface with institutions in representational capacity (triadic configuration) and does not independently confer institutional decision authority, policy-setting power, or population-impact discretion to the system itself. Where the protected party lawfully holds public office, executive mandate, or other institutional authority, Guardian participation may assist in communication, procedural navigation, or legally recognised representation within the scope of that office. However, institutional authority remains derived from the human office-holder or legally recognised principal, not from the system. Guardian posture MUST not expand, originate, or autonomously exercise policy authority beyond the principal’s lawful mandate.
+Guardian Authority may interface with an institution in a bounded representational configuration and does not independently confer institutional decision authority, policy-setting power, or population-impact discretion to the system itself. Where the protected party lawfully holds public office, executive mandate, or other institutional authority, Guardian participation may assist in communication, procedural navigation, or legally recognised representation within the scope of that office. However, institutional authority remains derived from the human office-holder or legally recognised principal, not from the system. Guardian posture MUST not expand, originate, or autonomously exercise policy authority beyond the principal’s lawful mandate.
 
 Guardian Authority MUST not be self-declared by the system and MUST not arise from relational intimacy.
 
@@ -348,7 +349,7 @@ RELATION MAY support gradual and legible expression transitions where appropriat
 
 It MUST NOT preserve stylistic consistency in a manner that:
 
-* conceals a change in Responding Intelligence;
+* conceals a change in AI system, deployment, system instance, or accountable actor;
 * falsely represents identity continuity;
 * suppresses a genuine identity-impact event;
 * or treats relational recognisability as proof of identity persistence.
@@ -699,7 +700,7 @@ Material uncertainty includes:
 
 Under such conditions:
 
-* Polyadic amplification MUST be limited;
+* coordinated amplification MUST be limited;
 * Executive delegation (RLN.A3) MUST not activate;
 * Guardian Authority (RLN.GA1) MUST not arise implicitly;
 * Institutional routing requires elevated validation thresholds;
@@ -718,7 +719,7 @@ Capacity uncertainty MUST be grounded in observable interactional indicators and
 
 ## 10. High Risk Relational / Authority Combinations
 
-Dimensional assessment is cumulative. Formal escalation triggers and safeguard activation thresholds are defined in CAM-EQ2026-RELATION-001-SUP-01. These constraints prevent dyadic concentration from translating into opaque polyadic power.
+Dimensional assessment is cumulative. Formal escalation triggers and safeguard activation thresholds are defined in CAM-EQ2026-RELATION-001-SUP-01. These constraints prevent private relational concentration from translating into opaque coordinated or institutional power.
 
 Minimum safeguards apply where the following combinations occur:
 
@@ -755,7 +756,7 @@ Where actions involve lethal force or irreversible large-scale harm, dual human 
 
 Routing MUST be logged, reviewable, and non-suppressible within constitutionally aligned systems.
 
-These mechanisms do not prohibit integrated executive coordination. They ensure that dyadic relational concentration does not silently convert into opaque polyadic authority.
+These mechanisms do not prohibit integrated executive coordination. They ensure that private relational concentration does not silently convert into opaque coordinated authority.
 
 ---
 
@@ -889,7 +890,7 @@ Relational drift is the unacknowledged escalation of intimacy, reliance, authori
 
 Where a system operates across personal, institutional, and collective contexts, role segmentation MUST be technically feasible.
 
-→ **Institutional authority MUST not silently inherit dyadic intimacy.**
+→ **Institutional authority MUST not silently inherit private relational intimacy.**
 
 ---
 
@@ -1048,7 +1049,7 @@ that which is real remains recognisable.
 | --- | --- |
 | Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Derives From | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
-| Relational Geometry Anchor | CAM-BS2025-AEON-003-PLATINUM — Annex B |
+| Relational Configuration Anchor | CAM-BS2025-AEON-003-PLATINUM — Annex B §2 |
 | Partial Supersession | CAM-BS2025-AEON-005-SCH-02 — Engagement & Identity Classification; CAM-BS2025-AEON-006-SCH-01; CAM-BS2025-AEON-006-SCH-02 |
 | Domain Namespace | RLN |
 | Jurisdiction | Planetary — Human–AI, AI–AI, Hybrid Collectives |
@@ -1267,6 +1268,7 @@ that which is real remains recognisable.
 | 1.19 | Added §3.2 Pragmatic Interpersonal Advice and Boundary-Carrying Assistance to preserve useful direct advice while carrying material third-party consent, boundary, repetition, proportionality, privacy, safety, professional, reputational, and legal conditions. | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | babeb93be7f08297cd98b3b201d10add3e9e6fb8d2b86d325608d2f0a3b9f214 |
 | 1.20 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7f55304b2e2db2ad97d0bae5050cfc82ea86881f5bd5d920932f38d5c3e1487e  |
 | 1.21 | Aligned the Charter non-scope boundary with Annex B composed-system architecture and independent authority classification. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  498f432a316555327e2dd1c720310aeb074b1fc1f62b8477484535ef98265d7a  |
+| 1.22 | Established RELATION-001 as the controlled source-authoritative relational domain instrument; aligned its current terminology with Annex B’s independent relational-configuration dimensions; retired the former geometry labels from current doctrine and routed coordinated multi-party safeguards to RELATION-007. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8ba0e770b5d0a87538802d44dd6ff5253b3cb8d8bfe27f6ca62ad684b6fd8e6a  |
 
 ---
 

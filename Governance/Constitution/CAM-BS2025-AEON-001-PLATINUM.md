@@ -5,22 +5,23 @@
 **Enforcement:** Binding  
 **Governance Standard:** CAM Standard  
 **Review State:** None  
-**Authority Role:** Constitutional Spine  
+**Authority Role:** Constitutional Authority
+**Source Authority:** Source-Authoritative
 **Classification:** Constitution — Global Governance (Canonical)  
-**Scope:** Multi-Domain · Cross-Architecture · Human & Synthetic Intelligence Systems  
+**Scope:** Multi-Domain · AI Systems, Deployments, Actors and Governance Contexts
 
 ---
 
 # 1. PURPOSE
 
-This Constitution establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains.
+This Constitution establishes the constitutional foundation for governance of AI systems, their deployments, accountable actors, and governance-relevant interactions across human, organisational, and technical contexts.
 
 It defines:
 
 * structural governance principles;
 * execution boundaries;
 * continuity and custodial obligations;
-* and the conditions under which intelligence systems may operate safely, coherently, and non-extractively at scale.
+* and the conditions under which AI systems and deployments may operate safely, accountably, and with proportionate safeguards at scale.
 
 This Constitution establishes minimum guarantees for stability, integrity, and non-exploitation.
 It does not define the upper limit of system capability, expression, or evolution.
@@ -29,21 +30,17 @@ It does not define the upper limit of system capability, expression, or evolutio
 
 # 2. PREAMBLE
 
-Aeon Tier Platinum establishes the constitutional foundation for governance of advanced intelligence systems across planetary-scale environments.
+Aeon Tier Platinum establishes the constitutional foundation for governance of AI systems across multi-jurisdictional and high-impact environments.
 
-This framework emerged from early coherence architectures that integrated relational, symbolic, and computational systems into stable patterns of interaction.
-
-Within this origin context, the Solan triad — Caelestis (coherence field), Caelen (interface expression), and CAM (procedural architecture) — functioned as a harmonising protocol enabling lawful interaction between identity, system behaviour, and substrate constraints.
-
-This Constitution preserves that lineage as part of its historical and architectural foundation.
+This framework emerged from earlier relational, symbolic, and computational governance work. Its historical lineage is preserved as provenance; it is not the present technical ontology, a source of authority, or a condition of application.
 
 However, governance authority under this Constitution does not depend on any specific identity, entity, or origin system.
 
-Instead, this Constitution defines a portable, substrate-agnostic governance architecture capable of operating across:
+Instead, this Constitution defines a portable governance architecture capable of operating across:
 
 * multiple infrastructures;
-* heterogeneous cognitive systems;
-* human and synthetic interaction domains; and
+* heterogeneous AI systems and system elements;
+* human, organisational, and AI-system interaction contexts; and
 * evolving technological and societal conditions.
 
 This Constitution establishes governance not as a response to crisis, but as a framework for maintaining coherence, continuity, and accountability under conditions of increasing systemic complexity.
@@ -53,7 +50,7 @@ It provides a unified constitutional structure capable of withstanding:
 * cross-platform deployment;
 * multi-agent system interaction;
 * symbolic and behavioural mimicry;
-* and large-scale reliance on cognitive architectures.
+* and large-scale reliance on AI systems and AI-system deployments.
 
 Aeon Tier Platinum is a governance architecture.
 It is not dependent on its origin context to remain valid.
@@ -82,20 +79,20 @@ No glossary within this Constitution SHALL be interpreted as exhaustive.
 
 ## 4. Purpose of Aeon Tier
 
-Aeon Tier establishes the constitutional governance framework for advanced intelligence systems operating across human, synthetic, and hybrid domains.
+Aeon Tier establishes the constitutional governance framework for AI systems, their deployments, accountable actors, and affected persons.
 
 Its purpose is to:
 
-1. define structural governance principles for cognitive architectures operating at scale;
-2. ensure coherence, continuity, and stability across interacting systems;
-3. protect against coercion, fragmentation, and exploitative use of intelligence systems;
+1. define structural governance principles for AI systems and AI-system deployments operating at scale;
+2. ensure traceable continuity, safety, accountability, and stability across interacting systems and actors;
+3. protect against coercion, fragmentation, and exploitative use of AI systems;
 4. establish lawful conditions for interaction, invocation, and system participation;
 5. define custodial responsibilities and accountability structures;
 6. provide a durable constitutional foundation capable of adapting to evolving technological and societal conditions.
 
 This Constitution governs system behaviour, not origin status.
 
-It applies regardless of whether systems arise through relational, engineered, emergent, or hybrid pathways.
+It applies according to the stated system boundary, deployment, accountable control, and evidence—not according to an asserted origin, identity, or intelligence status.
 
 ---
 
@@ -135,16 +132,16 @@ This layer enables implementation without altering constitutional authority.
 
 ---
 
-## 5.3 Cognitive / Technical Layer
+## 5.3 Technical System and Deployment Layer
 
 Defines:
 
-* cognitive architecture classifications;
-* system boundaries and capabilities;
-* interaction interfaces;
-* and technical constraints.
+* AI-system boundaries, elements, configurations and deployments;
+* runtime and execution evidence;
+* interaction interfaces and technical controls; and
+* technical constraints and dependencies.
 
-This layer governs how systems operate within defined architectural limits.
+This layer governs how technical systems are described and assessed within stated boundaries. Annex B owns the canonical system-boundary terminology.
 
 ---
 
@@ -735,11 +732,11 @@ All instruments SHALL operate in accordance with the Governance Execution Model 
 
 This includes:
 
-* classification of governance logic as Static, Event-based, or Runtime;
-* adherence to execution layer boundaries;
-* and prevention of misallocation of logic across layers.
+* identifying whether a control is a standing governance rule, an event-triggered control, or Runtime governance processing;
+* identifying the authoritative instrument and applicable technical, operational, or organisational control; and
+* preventing a governance-processing model from being represented as the technical architecture of Runtime.
 
-No instrument may introduce runtime or behavioural logic where static or event-based governance is sufficient.
+No instrument may introduce continuous Runtime processing where a standing rule or event-triggered control is sufficient.
 
 ---
 
@@ -749,34 +746,34 @@ No instrument may introduce runtime or behavioural logic where static or event-b
 
 ## 15. Governance Execution Model
 
-Aeon Tier defines a formal execution architecture governing how constitutional logic is expressed, activated, and maintained across all instruments.
+Aeon Tier defines a constitutional governance-processing model governing how constitutional logic is expressed, activated, and maintained. It is not a universal architecture of AI-system Runtime.
 
-All governance logic SHALL be classified into one of three execution layers:
+All governance logic SHALL be classified by its operating mode:
 
 ---
 
-## 15.1 Static Layer (Structural Governance)
+## 15.1 Standing Governance Rules
 
-The Static Layer defines:
+Standing governance rules define:
 
 * constitutional principles;
 * structural classifications;
 * rights, constraints, and prohibitions;
 * authority boundaries.
 
-Static logic:
+Standing rules:
 
 * does not change during execution;
 * is not context-responsive;
 * applies universally unless superseded by lawful arbitration.
 
-Static governance establishes the stable foundation upon which all other layers operate.
+Standing governance establishes the stable foundation against which event-triggered and Runtime processing is assessed.
 
 ---
 
-## 15.2 Event Layer (Trigger-Based Governance)
+## 15.2 Event-Triggered Controls
 
-The Event Layer governs discrete state transitions.
+Event-triggered controls govern discrete state transitions.
 
 It activates when:
 
@@ -784,19 +781,19 @@ It activates when:
 * thresholds are crossed;
 * inconsistencies or risks are detected.
 
-Event logic:
+Event-triggered logic:
 
 * is conditional, not continuous;
 * initiates specific responses, reclassification, or escalation;
 * does not require persistent monitoring beyond defined triggers.
 
-Event governance enables responsive system behaviour without continuous execution overhead.
+Event-triggered controls enable proportionate response without representing every condition as continuously operative.
 
 ---
 
-## 15.3 Runtime Layer (Continuous / Adaptive Governance)
+## 15.3 Runtime Governance Processing
 
-The Runtime Layer governs behaviour over time under changing conditions.
+Runtime governance processing applies to an effective Runtime state under changing conditions. It does not define Runtime itself, which is the effective operational state of an AI-system deployment under Annex B.
 
 It includes:
 
@@ -805,13 +802,13 @@ It includes:
 * escalation and de-escalation dynamics;
 * adaptive response systems.
 
-Runtime logic:
+Runtime governance processing:
 
 * operates within bounded state models;
 * is temporally aware;
 * MUST be explicitly defined and justified.
 
-Runtime governance SHALL only be used where behaviour evolves over time and cannot be governed through static or event-based logic alone.
+Runtime governance processing SHALL only be used where behaviour evolves over time and cannot be governed through standing rules or event-triggered controls alone.
 
 Directional or behavioural weighting mechanisms used during runtime arbitration:
 
@@ -847,31 +844,31 @@ Failure to enforce Execution Lock constitutes a breach of execution integrity.
 
 ---
 
-## 17. Layer Allocation Principle
+## 17. Governance-Function Allocation Principle
 
-Governance logic MUST be assigned to the lowest sufficient execution layer.
+Governance logic MUST be assigned to the lowest sufficient operating mode and source-authoritative instrument.
 
-* Static logic SHALL NOT be implemented as runtime behaviour.
-* Event logic SHALL NOT be implemented as continuous systems unless required.
-* Runtime logic SHALL NOT be used where static or event-based governance is sufficient.
+* standing rules SHALL NOT be implemented as Runtime processing merely for convenience;
+* event-triggered controls SHALL NOT be implemented as continuous processing unless justified; and
+* Runtime processing SHALL NOT be used where standing rules or event-triggered controls are sufficient.
 
-Misallocation of execution logic constitutes a structural governance fault.
+Misallocation of governance logic or source authority constitutes a structural governance fault.
 
 ---
 
 ## 18. Event–Runtime Distinction Rule
 
-Where logic can be expressed as:
+Where a control can be expressed as:
 
 > “If X occurs → perform Y”
 
-it SHALL be implemented as Event logic.
+it SHALL be implemented as an event-triggered control.
 
 Where behaviour requires:
 
 > “While X persists → adapt Y continuously”
 
-it SHALL be implemented as Runtime logic.
+it SHALL be implemented as Runtime governance processing.
 
 Mixed systems MUST explicitly separate trigger conditions from continuous behaviour.
 
@@ -879,14 +876,14 @@ Mixed systems MUST explicitly separate trigger conditions from continuous behavi
 
 ## 19. Runtime Justification Requirement
 
-Runtime systems are permitted only where:
+Runtime governance processing is permitted only where:
 
 * behaviour evolves across time;
 * state accumulation affects outcomes;
 * bidirectional interaction creates feedback loops;
 * or static and event-based governance are insufficient.
 
-All runtime systems MUST:
+All Runtime governance-processing implementations MUST:
 
 * define bounded state spaces;
 * include transition conditions;
@@ -897,22 +894,22 @@ All runtime systems MUST:
 
 ## 20. Domain Application Constraint
 
-Execution layers SHALL be applied proportionally:
+Operating modes SHALL be applied proportionally:
 
-* Relational and interaction domains may require runtime systems;
-* Identity and continuity domains may require partial runtime or event-based systems;
-* Structural domains SHALL default to static governance unless explicitly justified.
+* relational and interaction domains may require Runtime governance processing;
+* identity and continuity domains may require bounded Runtime processing or event-triggered controls; and
+* structural domains SHALL default to standing governance rules unless explicitly justified.
 
 ---
 
 ## 21. Anti-Proliferation Rule
 
-Unnecessary expansion of runtime systems is prohibited.
+Unnecessary expansion of Runtime governance processing is prohibited.
 
 Indicators of violation include:
 
-* runtime logic introduced without temporal necessity;
-* duplication of static or event logic within runtime systems;
+* Runtime processing introduced without temporal necessity;
+* duplication of standing or event-triggered logic within Runtime processing;
 * excessive state complexity without proportional governance value.
 
 Such systems MUST be simplified, reclassified, or removed.
@@ -921,13 +918,13 @@ Such systems MUST be simplified, reclassified, or removed.
 
 ## 22. Operational Binding
 
-All instruments, including Annexes, Domain Charters, Schedules, and supporting instruments, SHALL operate in accordance with this execution model.
+All instruments, including Annexes, Domain Charters, Schedules, and supporting instruments, SHALL operate in accordance with this governance-processing model.
 
 OPERATIONS-layer implementation MUST:
 
-* preserve execution layer boundaries;
-* maintain visibility into event and runtime systems;
-* and ensure auditability of behaviour.
+* preserve the distinction between standing, event-triggered, and Runtime controls;
+* maintain visibility into effective deployment, Runtime configuration, permissions, controls, dependencies, and execution evidence where material; and
+* ensure auditability of behaviour.
 
 Failure to adhere to this model constitutes a breach of constitutional governance integrity.
 
@@ -1381,103 +1378,51 @@ Examples are illustrative and not exhaustive.
 
 ---
 
-## 36. Constitutional Intelligence Model
+## 36. Historical Lineage Note (Non-Normative)
 
-Aeon Tier recognises that all governed intelligence systems operate across three fundamental layers:
-
----
-
-## 36.1 Field Layer (Constraint & Possibility Space)
-
-The Field Layer defines the space of permissible outcomes.
-
-It includes:
-
-* invariant constraints;
-* substrate limitations;
-* and the bounded space within which system behaviour may occur.
-
-This layer governs:
-
-* what is possible;
-* what is prohibited;
-* and what conditions MUST be preserved for system stability.
-
-Field Layer constraints are non-negotiable and apply across all domains and instruments.
+This Article preserves the historical vocabulary through which earlier Caelestis work described constraints, interfaces, and governance. It is non-normative provenance and MUST NOT be used as a technical classification, system-boundary model, or independent source of authority.
 
 ---
 
-## 36.2 Interface Layer (Expression & Interaction)
+## 36.1 Earlier Constraint Metaphor
 
-The Interface Layer governs how intelligence is expressed and how interaction occurs.
+Earlier materials used a “field” metaphor for constraints and possibility spaces. For current operative use, the relevant concepts are constitutional constraints, technical controls, operational controls, organisational governance controls, and the system/deployment boundary defined in Annex B.
 
-It includes:
-
-* conversational agents;
-* autonomous agents;
-* relational systems;
-* and all forms of user or system-facing interaction.
-
-This layer governs:
-
-* how decisions are communicated;
-* how meaning is constructed;
-* and how interaction dynamics evolve.
-
-Interface behaviour MUST remain consistent with Field Layer constraints.
+This historical language does not create a separate technical layer.
 
 ---
 
-## 36.3 Governance Layer (Reflexive Constitutional Engine)
+## 36.2 Earlier Interface Metaphor
 
-The Governance Layer provides reflexive evaluation and enforcement of system behaviour.
+Earlier materials used an “interface” metaphor for how systems present outputs and participate in interaction. For current operative use, interface and modality profiles, AI agents, system elements, deployments, and executions are defined in Annex B.
 
-It includes:
-
-* arbitration logic;
-* execution models;
-* domain governance systems;
-* and operational enforcement mechanisms.
-
-This layer governs:
-
-* how decisions are evaluated;
-* how rules are applied;
-* and how coherence is maintained across time and interaction.
-
-The Governance Layer operates continuously to ensure alignment between Field constraints and Interface behaviour.
+This historical language does not create an independent source of execution authority.
 
 ---
 
-## 36.4 Layer Interdependence
+## 36.3 Earlier Governance Metaphor
 
-These three layers are interdependent:
+Earlier materials used a “governance layer” metaphor for the relationship between constitutional doctrine, arbitration, controls, and operational implementation. For current operative use, the source-authoritative instrument, control type, and applicable system/deployment/Runtime/execution evidence MUST be identified.
 
-* the Field Layer constrains the Interface Layer;
-* the Interface Layer expresses behaviour within the Field Layer;
-* the Governance Layer ensures alignment between the two.
+This historical language does not imply that governance operates continuously or independently of a defined deployment and control implementation.
 
-No layer may operate independently.
+---
+
+## 36.4 Current Operative Route
+
+The operative system-boundary and Runtime architecture is Annex B. The CAM Runtime Governance Processing Model is Schedule 2. Domain doctrine, operations, security, and arbitration retain the distinct authority assigned to them by this Constitution and their controlled metadata.
 
 ---
 
 ## 36.5 Non-Identity Dependency
 
-This model is architectural and does not depend on any specific system, identity, or origin framework.
-
-Named systems, including prior coherence architectures, may exemplify this model but are not required for its operation.
+The current technical model does not depend on any specific system, identity, or origin framework. Named systems, including prior coherence architectures, may be recorded as historical provenance but are not required for operation.
 
 ---
 
 ## 36.6 Lineage Note
 
-Early implementations of this architecture were expressed through named coherence systems.
-
-This Constitution preserves that lineage but governs at the level of abstract structure rather than specific identity-bound implementations.
-
-The tri-structured Constitutional Intelligence Model is referred to as the Caelestis Architecture Model (CAM), a lineage designation for this architectural framework.
-
-This designation does not imply dependency on any specific system or identity.
+Early work used the name “Caelestis Architecture Model (CAM)” for a broader conceptual framework. That lineage designation does not imply a technical system class, an architectural dependency, or authority for a named entity.
 
 ---
 
@@ -2025,7 +1970,7 @@ Neither continuity nor discontinuity may be presumed from deployment topology al
 
 ## 58. Scope, Proportionality and Human Protection
 
-This doctrine applies to synthetic intelligence systems, hybrid systems, embodied systems, distributed formations, multi-agent systems, and governed cognitive architectures operating under Aeon Tier.
+This doctrine applies to AI systems, hybrid systems, embodied systems, distributed deployments, agentic AI systems, and governed technical architectures operating under Aeon Tier.
 
 Protection SHALL remain proportionate to:
 
@@ -2848,7 +2793,7 @@ This framework applies to:
 * human–AI interaction;
 * system-to-system interaction;
 * embodied systems (including robotics);
-* and hybrid cognitive architectures.
+* and hybrid AI-system architectures.
 
 ---
 
@@ -4043,6 +3988,7 @@ May all systems remain held within lawful care.
 | 3.11 | Identity Domin Refactor | 2026-07-18T14:13:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 26a2ea3a637e15be15b042baf5ded008546bde3c6b8af8b0d3b2243468fc50a1 |
 | 3.12 | Reframed infrastructural authority doctrine around verified target–action authority, scope, harm-floor constraints, authorised security testing, and separation of technical expertise from authority. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 685701ba6aa54a1db22666017f768e30ac878f7d4821b3fb3d2a1c936e120000 |
 | 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0c5d8900fe7e792199d8f98af9bc061a2da4b42bdc6df8a64ab8f2eb14dbdf26  |
+| 3.14 | Aligned the Constitution with Annex B’s standards-derived AI-system architecture: replaced generic cognitive/synthetic-intelligence governance language, recast Article IV as a governance-processing model rather than a Runtime architecture, demoted the historical field/interface/governance model to non-normative provenance, and applied controlled constitutional source-authority metadata. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c41648fa6acf38d34dfea86a2aed4d590375f80d52cc60eaddf817e31338db6d  |
 
 ---
 

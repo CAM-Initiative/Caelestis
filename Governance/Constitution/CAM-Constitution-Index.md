@@ -14,7 +14,7 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-002-SCH-01 | schedule | CAM-BS2025-AEON-002 |  | [CAM-BS2025-AEON-002-SCH-01](CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) |
 | CAM-BS2025-AEON-003-PLATINUM | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-003-PLATINUM](CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: AI System Architecture & Governance Logic |
 | CAM-BS2025-AEON-003-SCH-01 | schedule | CAM-BS2025-AEON-003 |  | [CAM-BS2025-AEON-003-SCH-01](CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) |
-| CAM-BS2025-AEON-003-SCH-02 | schedule | CAM-BS2025-AEON-003 |  | [CAM-BS2025-AEON-003-SCH-02](CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) |
+| CAM-BS2025-AEON-003-SCH-02 | schedule | CAM-BS2025-AEON-003 |  | [CAM-BS2025-AEON-003-SCH-02](CAM-BS2025-AEON-003-SCH-02.md) | Annex B: CAM Runtime Governance Processing Model (Schedule 2) |
 | CAM-BS2025-AEON-003-SCH-03 | schedule | CAM-BS2025-AEON-003 |  | [CAM-BS2025-AEON-003-SCH-03](CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) |
 | CAM-BS2025-AEON-003-SCH-04 | schedule | CAM-BS2025-AEON-003 |  | [CAM-BS2025-AEON-003-SCH-04](CAM-BS2025-AEON-003-SCH-04.md) | Annex B: Arbitration Layer & Resolution Model (Schedule 4) |
 | CAM-BS2025-AEON-004-PLATINUM | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-004-PLATINUM](CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework |

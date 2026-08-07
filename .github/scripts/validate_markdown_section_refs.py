@@ -37,12 +37,27 @@ BLOCKING_STATUSES = {
     "fail_local",
     "fail_cross_document_section_missing",
     "fail_cross_document_target_missing",
+    "fail_cross_document_semantic_target",
     "fail_ambiguous_named_instrument_reference",
     "fail_short_document_reference",
 }
 MANUAL_REVIEW_STATUSES = {"manual_review_required"}
 IGNORED_STATUSES = {
     "ignored_amendment_register_reference",
+}
+
+# Section existence alone cannot protect a cross-document claim when the target
+# instrument is materially reorganised.  These contracts deliberately cover
+# authority-critical references only; they are not a substitute for corpus
+# interpretation or a claim that every cross-reference can be inferred from
+# keywords.  Add a contract when a caller relies on a named concept residing in
+# a particular target section.
+SEMANTIC_REFERENCE_CONTRACTS = {
+    (
+        "CAM-BS2025-AEON-003-SCH-02",
+        "CAM-BS2025-AEON-003-PLATINUM",
+        "8",
+    ): ("arbitration",),
 }
 
 
@@ -80,6 +95,32 @@ def extract_sections(lines: list[str]) -> set[str]:
         if match:
             sections.add(match.group("section"))
     return normalize_sections(sections)
+
+
+def extract_section_headings(lines: list[str]) -> dict[str, str]:
+    """Return numbered headings by canonical and .0-normalised section key."""
+    headings: dict[str, str] = {}
+    for line in lines:
+        stripped = line.strip()
+        if not stripped.startswith("#"):
+            continue
+        heading_text = stripped.lstrip("#").strip()
+        match = HEADING_NUMBER_RE.match(heading_text)
+        if not match:
+            continue
+        section = match.group("section")
+        headings[section] = heading_text
+        headings[section[:-2] if section.endswith(".0") else f"{section}.0"] = heading_text
+    return headings
+
+
+def semantic_contract_matches(source: pathlib.Path, target: pathlib.Path, section: str, target_lines: list[str]) -> bool:
+    expected = SEMANTIC_REFERENCE_CONTRACTS.get((source.stem, target.stem, section))
+    if not expected:
+        return True
+    heading = extract_section_headings(target_lines).get(section, "")
+    heading_folded = heading.casefold()
+    return all(term.casefold() in heading_folded for term in expected)
 
 
 def closest_section(target: str, section_map: set[str]) -> str:
@@ -215,7 +256,12 @@ def scan_file(path: pathlib.Path, doc_idx: dict[str, pathlib.Path], sections_cac
                     sections_cache[target_path] = target_sections
                 exists = ref in target_sections
                 if exists:
-                    status = "pass_cross_document"
+                    target_lines = target_path.read_text(encoding="utf-8", errors="ignore").splitlines()
+                    status = (
+                        "pass_cross_document"
+                        if semantic_contract_matches(path, target_path, ref, target_lines)
+                        else "fail_cross_document_semantic_target"
+                    )
                 else:
                     status = "fail_cross_document_section_missing"
                 findings.append(Finding(str(path), idx, ref_token, ref_class, doc_id, "yes", "yes" if exists else "no", "" if exists else closest_section(ref, target_sections), status))

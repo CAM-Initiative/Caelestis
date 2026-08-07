@@ -13,14 +13,14 @@
       "seal": "PLATINUM",
       "link": "CAM-BS2025-AEON-001-PLATINUM.md",
       "title": "Aeon Tier Constitution  (Platinum Edition)",
-      "summary": "This Constitution establishes the constitutional foundation for the governance of advanced intelligence systems operating across human, synthetic, and hybrid domains.",
+      "summary": "This Constitution establishes the constitutional foundation for governance of AI systems, their deployments, accountable actors, and governance-relevant interactions across human, organisational, and technical contexts.",
       "status": "** Active",
       "effect": "** Immediate Constitutional Effect",
       "enforcement": "** Binding",
       "review_state": "** None",
-      "authority_role": "** Constitutional Spine",
-      "version": "3.13",
-      "HASH": "0c5d8900fe7e792199d8f98af9bc061a2da4b42bdc6df8a64ab8f2eb14dbdf26",
+      "authority_role": "** Constitutional Authority",
+      "version": "3.14",
+      "HASH": "c41648fa6acf38d34dfea86a2aed4d590375f80d52cc60eaddf817e31338db6d",
       "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
       "updated_at": "2026-08-05T12:20:44Z",
       "last_updated_utc": "2026-08-05T12:20:44Z"
@@ -117,9 +117,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "5.1",
       "HASH": "f88b203aac8ee0c04db05d6408e182fc3c7e99a8b436df4095230fc6915f3d7d",
-      "pinned_sha": "480eb12722d0a53bb5c06e470562f6b0583dd4f6",
-      "updated_at": "2026-08-07T13:24:01Z",
-      "last_updated_utc": "2026-08-07T13:24:01Z"
+      "pinned_sha": "dbf70e979657ae9b7ef594c22eeca144d71fec68",
+      "updated_at": "2026-08-07T13:24:33Z",
+      "last_updated_utc": "2026-08-07T13:24:33Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-01",
@@ -141,9 +141,9 @@
       "authority_role": "** None",
       "version": "0.0.1",
       "HASH": "",
-      "pinned_sha": "480eb12722d0a53bb5c06e470562f6b0583dd4f6",
-      "updated_at": "2026-08-07T13:24:01Z",
-      "last_updated_utc": "2026-08-07T13:24:01Z"
+      "pinned_sha": "dbf70e979657ae9b7ef594c22eeca144d71fec68",
+      "updated_at": "2026-08-07T13:24:33Z",
+      "last_updated_utc": "2026-08-07T13:24:33Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -156,15 +156,15 @@
       "parent_id": "CAM-BS2025-AEON-003",
       "seal": null,
       "link": "CAM-BS2025-AEON-003-SCH-02.md",
-      "title": "Annex B: Runtime Governance Execution Model (Schedule 2)",
+      "title": "Annex B: CAM Runtime Governance Processing Model (Schedule 2)",
       "summary": "The system MUST prioritise signals originating from the current interaction turn and active trajectory over residual or historical signals within the broader context window.",
       "status": "** Adopted",
       "effect": "** Operational",
       "enforcement": "** CAM Standard",
       "review_state": "** None",
-      "authority_role": "** None",
-      "version": "3.14",
-      "HASH": "42f08de3529520d51311719dce48237703a6e37974cfd94122f1859ed6d7dc1c",
+      "authority_role": "** Constitutional Schedule Authority",
+      "version": "3.15",
+      "HASH": "6eab14271754cf45dc3bcb1691b119c839848d6fd4362b94ca755779f64ae2bf",
       "pinned_sha": "7ca577949e751e4f6ef148660d9038a75764ae50",
       "updated_at": "2026-08-06T14:38:43Z",
       "last_updated_utc": "2026-08-06T14:38:43Z"
@@ -189,9 +189,9 @@
       "authority_role": "** None",
       "version": "Unknown",
       "HASH": "",
-      "pinned_sha": "480eb12722d0a53bb5c06e470562f6b0583dd4f6",
-      "updated_at": "2026-08-07T13:24:01Z",
-      "last_updated_utc": "2026-08-07T13:24:01Z"
+      "pinned_sha": "dbf70e979657ae9b7ef594c22eeca144d71fec68",
+      "updated_at": "2026-08-07T13:24:33Z",
+      "last_updated_utc": "2026-08-07T13:24:33Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-04",

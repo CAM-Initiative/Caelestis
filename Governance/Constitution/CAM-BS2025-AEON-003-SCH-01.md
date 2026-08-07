@@ -168,7 +168,7 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution (Schedule 1) | AEON | Continuous (Cross-Layer Constraint) | Continuous (Cross-Layer Constraint) |
 | CAM-BS2025-AEON-002-SCH-01 | Annex A: Operational Protection & Containment (Schedule 1) | AEON | Event-Triggered | Event-Triggered (Critical Condition / Boundary Violation) |
 | CAM-BS2025-AEON-003-SCH-01 | Annex B: Runtime Schedule Registry (Schedule 1) | AEON | Passive (Registry) | UNBOUND |
-| CAM-BS2025-AEON-003-SCH-02 | Annex B: Runtime Governance Execution Model (Schedule 2) | AEON | Non-Layer (Execution Model) | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
+| CAM-BS2025-AEON-003-SCH-02 | Annex B: CAM Runtime Governance Processing Model (Schedule 2) | AEON | Non-Layer (Execution Model) | Governs execution phase transitions; does not govern arbitration logic or constraint doctrine |
 | CAM-BS2025-AEON-003-SCH-03 | Annex B: Global Instrument Registry (Schedule 3) | AEON | Passive (Registry) | UNBOUND |
 | CAM-BS2025-AEON-003-SCH-04 | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | ARBITRATION | Event-Triggered (Per Arbitration Resolution Cycle) | Final Arbitration Authority Layer |
 | CAM-BS2025-AEON-005-SCH-01 | Annex D: Runtime Arbitration Integrity (Schedule 1) | ARBITRATION | Continuous | Continuous (Execution Integrity Enforcement) |
@@ -213,9 +213,9 @@ Such schedules:
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
 **Total model-term matches scanned:** 861
-**Generic usages suppressed:** 720
-**Declared / recognised usages emitted:** 115
-**Advisory review usages emitted:** 26
+**Generic usages suppressed:** 715
+**Declared / recognised usages emitted:** 119
+**Advisory review usages emitted:** 27
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 

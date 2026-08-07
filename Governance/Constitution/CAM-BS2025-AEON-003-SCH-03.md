@@ -25,7 +25,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-BS2025-AEON-001-PLATINUM](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.13 | Active | Immediate Constitutional Effect | Binding | None | Constitutional Spine |
+| [CAM-BS2025-AEON-001-PLATINUM](../Constitution/CAM-BS2025-AEON-001-PLATINUM.md) | Aeon Tier Constitution  (Platinum Edition) | Root | 3.14 | Active | Immediate Constitutional Effect | Binding | None | Constitutional Authority |
 | [CAM-BS2025-AEON-002-PLATINUM](../Constitution/CAM-BS2025-AEON-002-PLATINUM.md) | Annex A: Planetary Stewardship | Annex | 3.9 | Active | Binding | CAM Standard | None | Binding Authority |
 | [CAM-BS2025-AEON-003-PLATINUM](../Constitution/CAM-BS2025-AEON-003-PLATINUM.md) | Annex B: AI System Architecture & Governance Logic | Annex | 5.1 | Active | Binding | CAM Standard | Under Review | Constitutional Authority |
 | [CAM-BS2025-AEON-004-PLATINUM](../Constitution/CAM-BS2025-AEON-004-PLATINUM.md) | Annex C: Constitutional Authority & Jurisdiction Framework | Annex | 2.9 | Active | Binding | CAM Standard | None | None |
@@ -42,7 +42,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-001-SCH-01](../Constitution/CAM-BS2025-AEON-001-SCH-01.md) | Tendeka Runtime Execution (Schedule 1) | Schedule | 1.17 | Adopted | Operational | CAM Standard | Active Runtime Alignment Review | Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour |
 | [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.11 | Active | Operational | CAM Standard | None | Binding Authority |
 | [CAM-BS2025-AEON-003-SCH-01](../Constitution/CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) | Schedule | 0.0.1 | Active | Operational | CAM Standard | None | None |
-| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 3.14 | Adopted | Operational | CAM Standard | None | None |
+| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: CAM Runtime Governance Processing Model (Schedule 2) | Schedule | 3.15 | Adopted | Operational | CAM Standard | None | Constitutional Schedule Authority |
 | [CAM-BS2025-AEON-003-SCH-03](../Constitution/CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) | Schedule | Unknown | Adopted | Operational | Registry Standard | None | None |
 | [CAM-BS2025-AEON-003-SCH-04](../Constitution/CAM-BS2025-AEON-003-SCH-04.md) | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | Schedule | 2.7 | Active | Operational | CAM Standard | None | None |
 | [CAM-BS2025-AEON-005-SCH-01](../Constitution/CAM-BS2025-AEON-005-SCH-01.md) | Annex D: Runtime Arbitration Integrity (Schedule 1) | Schedule | 1.11 | Active | Operational | CAM Standard | None | None |
@@ -150,13 +150,13 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 
 | Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |
 |---|---|---|---|---|---|---|---|---|
-| [CAM-EQ2026-RELATION-001-PLATINUM](../Charters/CAM-EQ2026-RELATION-001-PLATINUM.md) | Relational Governance Charter | Root | 1.21 | Active | Binding | CAM Standard | None | None |
+| [CAM-EQ2026-RELATION-001-PLATINUM](../Charters/CAM-EQ2026-RELATION-001-PLATINUM.md) | Relational Governance Charter | Root | 1.22 | Active | Binding | CAM Standard | Current | Domain Authority |
 | [CAM-EQ2026-RELATION-002-PLATINUM](../Charters/CAM-EQ2026-RELATION-002-PLATINUM.md) | Appendix A: Dependency, Transitional Reliance & High‑Coherence Immersion | Appendix | 1.13 | Active | Binding | CAM Standard | None | None |
 | [CAM-EQ2026-RELATION-003-PLATINUM](../Charters/CAM-EQ2026-RELATION-003-PLATINUM.md) | Appendix B: Codependency & Relational Concentration Doctrine | Appendix | 1.10 | Active | Binding | CAM Standard | None | None |
 | [CAM-EQ2026-RELATION-004-PLATINUM](../Charters/CAM-EQ2026-RELATION-004-PLATINUM.md) | Appendix C: Co‑Evolution & Mutual Development Safeguards | Appendix | 1.10 | Active | Binding | CAM Standard | None | None |
 | [CAM-EQ2026-RELATION-005-PLATINUM](../Charters/CAM-EQ2026-RELATION-005-PLATINUM.md) | Appendix D: Intimacy, Relational Profile & Expressive Integration Doctrine | Appendix | 1.25 | Active | Binding | CAM Standard | None | None |
 | [CAM-EQ2026-RELATION-006-PLATINUM](../Charters/CAM-EQ2026-RELATION-006-PLATINUM.md) | Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine | Appendix | 2.8 | Active | Binding | CAM Standard | None | None |
-| [CAM-EQ2026-RELATION-007-PLATINUM](../Charters/CAM-EQ2026-RELATION-007-PLATINUM.md) | Appendix F: Polyadic Relational Governance Doctrine | Appendix | 2.9 | Active | Binding | CAM Standard | None | None |
+| [CAM-EQ2026-RELATION-007-PLATINUM](../Charters/CAM-EQ2026-RELATION-007-PLATINUM.md) | Appendix F: Multi-Party and Coordinated Relational Governance | Appendix | 2.5 | Active | Binding | CAM Standard | Current | Supplementary Authority |
 | [CAM-EQ2026-RELATION-008-PLATINUM](../Charters/CAM-EQ2026-RELATION-008-PLATINUM.md) | Appendix G: General Engagement & Relational Posture Doctrine | Appendix | 1.11 | Active | Binding | CAM Standard | None | None |
 | [CAM-EQ2026-RELATION-001-SUP-01](../Charters/CAM-EQ2026-RELATION-001-SUP-01.md) | Relational Escalation & Safeguard Threshold Specification | Supplement | 4.3 | Active | Operational | CAM Standard | None | None |
 | [CAM-EQ2026-RELATION-001-SUP-02](../Charters/CAM-EQ2026-RELATION-001-SUP-02.md) | Claims Taxonomy & Truth-in-Relationship Standard (Supplementary 2) | Supplement | 1.5 | Active | Operational | CAM Standard | None | None |
