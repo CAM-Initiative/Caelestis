@@ -1,9 +1,9 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 860
-**Generic usages suppressed:** 729
+**Total model-term matches scanned:** 861
+**Generic usages suppressed:** 720
 **Declared / recognised usages emitted:** 115
-**Advisory review usages emitted:** 16
+**Advisory review usages emitted:** 26
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
@@ -15,8 +15,15 @@
 | CAM-BS2025-AEON-002-SCH-01 | 2. Execution Model Alignment | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-002-SCH-02 | 1.3 Related Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-002-SCH-02 | 27.1 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-BS2025-AEON-003-PLATINUM | 12.1 Minimum Content | AI models | Technical / AI Model | Advisory Review |
 | CAM-BS2025-AEON-003-PLATINUM | 18.3 Amendment Ledger | Incorporated runtime governance model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-PLATINUM | 7. Operational Harness | The operational harness is the deployment envelope through which model | Domain Sub-Model | Advisory Review |
+| CAM-BS2025-AEON-003-PLATINUM | 4. Assessment Object Requirement | AI model | Technical / AI Model | Advisory Review |
+| CAM-BS2025-AEON-003-PLATINUM | 4.1 Core Definitions | AI model | Technical / AI Model | Advisory Review |
+| CAM-BS2025-AEON-003-PLATINUM | 4.1 Core Definitions | an engineered or organisationally controlled system that uses one or more AI models | Technical / AI Model | Advisory Review |
+| CAM-BS2025-AEON-003-PLATINUM | 4.1 Core Definitions | Controlled types include AI model | Technical / AI Model | Advisory Review |
+| CAM-BS2025-AEON-003-PLATINUM | 6. AI-System Composition, Configuration and Deployment | AI model | Technical / AI Model | Advisory Review |
+| CAM-BS2025-AEON-003-PLATINUM | 6. AI-System Composition, Configuration and Deployment | An AI model | Technical / AI Model | Advisory Review |
+| CAM-BS2025-AEON-003-PLATINUM | 6.1 Configuration-Baseline Variability | The same AI model | Technical / AI Model | Advisory Review |
 | CAM-BS2025-AEON-003-SCH-01 | 1.1 Non Scope | which are governed by the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-01 | 10. Execution Model Compatibility | Execution sequencing is governed separately by the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | 2. Constitutional Grounding | This Schedule operationalises the Governance Execution Model | Execution Model | Declared / Recognised |
@@ -111,6 +118,9 @@
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 1. Scope | single-model and multi-model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 12. Runtime Governance Reach Failure | classified as governance-reach ambiguity rather than attributed to a specific model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 14. Relationship to Existing Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-OPERATIONS-007-PLATINUM | 5.2 Caelestis AI-BOM Profile | it records AI models | Technical / AI Model | Advisory Review |
+| CAM-EQ2026-OPERATIONS-007-PLATINUM | 5.4 Execution Provenance Record | or execution level SHALL NOT be represented as an intrinsic property of an AI model | Technical / AI Model | Advisory Review |
+| CAM-EQ2026-OPERATIONS-007-PLATINUM | 9.1 Role Classes | AI model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-OPERATIONS-008-PLATINUM | 2.1 Adversarial Evaluation | A bounded process designed to determine whether an AI model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-RELATION-001-PLATINUM | 6.1.1 Relational Influence Boundary (Execution Constraint Alignment) | and maintains alignment with the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-005-PLATINUM | 5.2 Relational Safeguard Ladder | Runtime Governance Execution Model | Execution Model | Declared / Recognised |

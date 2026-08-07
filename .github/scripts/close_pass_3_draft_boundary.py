@@ -37,6 +37,10 @@ DRAFTS = {
         "CAM-BS2025-AEON-002-SCH-02",
         "CAM-BS2025-AEON-002-SCH-02",
     ),
+    ROOT / "Governance/Drafts/Constitution/CAM-BS2025-AEON-003-SCH-05.md": (
+        "CAM-BS2025-AEON-003-SCH-05",
+        "CAM-BS2025-AEON-003-SCH-05",
+    ),
 }
 
 BANNER = (

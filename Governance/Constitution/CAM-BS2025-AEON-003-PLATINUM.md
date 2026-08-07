@@ -1,13 +1,14 @@
-# CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic
+# CAM-BS2025-AEON-003-PLATINUM — Annex B: AI System Architecture & Governance Logic
 
 **Instrument Type:** Constitutional Annex — Governance & Continuity Doctrine  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Primary Instrument)  
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Constitutional Spine  
-**Purpose:** This Annex establishes the structural description, temporal and relational continuity, composed-system assessment, architecture attribution, runtime-governance interface, and authority-derivation logic governing constitutional annexes, domain charters, schedules, and downstream instruments within the Aeon Tier governance architecture.  
+**Review State:** Under Review
+**Authority Role:** Constitutional Authority
+**Source Authority:** Source-Authoritative
+**Purpose:** This Annex establishes the constitutional system-boundary, deployment, runtime, execution, attribution and authority-derivation vocabulary used by downstream Caelestis instruments.
 
 ---
 
@@ -17,13 +18,13 @@
 
 ## 1.1 Scope
 
-This Annex defines how components, operational formations, relationships, horizons, and governance-relevant system boundaries are described for constitutional purposes.
+This Annex defines how AI systems, system elements, configurations, deployments, runtime states, executions, relationships, horizons, and governance-relevant system boundaries are described for constitutional purposes.
 
 It governs:
 
 1. relational configurations;
 2. temporal horizon attribution;
-3. identification of the assessment object and incident-time system formation;
+3. identification of the assessment object, deployment and incident-time runtime state;
 4. architectural layers and cross-layer functions;
 5. composition, generation, selection, agency, execution, control, dependency, and reliance postures;
 6. runtime-governance interfaces;
@@ -53,11 +54,11 @@ Architecture, cognition, identity, agency, authority, reliance, responsibility, 
 
 ## 1.3 Structural Position
 
-This Annex defines how a governance assessor describes what is present, how it is composed, which formation was active, and where relevant functions occurred.
+This Annex defines how a governance assessor describes what was declared, deployed, operational, and executed, and where relevant functions occurred.
 
 It does not claim to exhaustively define what a system is for every technical, scientific, legal, social, or philosophical purpose.
 
-Other instruments govern substantive rights, duties, ethics, evidence, assurance, security, operations, identity, and enforcement. Those instruments MUST use the system boundary and attribution discipline established here where their operation depends on architecture or formation.
+Other instruments govern substantive rights, duties, ethics, evidence, assurance, security, operations, identity, and enforcement. Those instruments MUST use the system-boundary and attribution discipline established here where their operation depends on technical architecture.
 
 ---
 
@@ -65,7 +66,7 @@ Other instruments govern substantive rights, duties, ethics, evidence, assurance
 
 This Annex SHALL be invoked whenever governance analysis requires determination of:
 
-* the component or formation being assessed;
+* the system, system element, deployment, runtime state, or execution being assessed;
 * relational configuration or temporal horizon;
 * architectural or deployment posture;
 * generation, evaluation, selection, constraint, routing, execution, or approval location;
@@ -84,10 +85,10 @@ The following properties MUST be assessed independently:
 
 * foundation-model or generative-core architecture;
 * inference-time configuration;
-* operational harness;
+* agent orchestration component, agent framework, agent runtime, and configuration;
 * execution environment;
 * interface and modality;
-* governance and assurance controls;
+* technical, operational and organisational governance controls;
 * operator and institutional control;
 * composition topology;
 * selection and arbitration topology;
@@ -116,35 +117,29 @@ Ambiguity is not permission to collapse the system into a model, a product name,
 
 ---
 
-## 2. Relational Configurations
+## 2. Relational Configuration Dimensions
 
-Relational configuration describes the arrangement of participants and governance-bearing actors. It does not determine system architecture, cognition, identity, or authority.
+Relational configuration describes the arrangement of participants and governance-bearing actors. It does not determine system architecture, cognition, identity, authority or responsibility.
 
-Expanded relational geometry, including `RLN.R0`–`RLN.R4`, influence vectors, and governance implications, is defined by CAM-EQ2026-RELATION-007-PLATINUM and SHALL be used where finer classification is required.
-
----
-
-## 2.1 Dyadic
-
-A bounded relationship between one human and one artificial system or deployed formation.
-
-Dyadic familiarity, continuity, trust, or emotional attachment does not create institutional authority or authority over third parties.
+No single relational scale may combine participant count, coordination topology, institutional mediation, distribution, persistence, jurisdictional reach, dependency and impact. Where material, an assessment SHALL record those dimensions independently.
 
 ---
 
-## 2.2 Triadic
+## 2.1 Participant Topology and Cardinality
 
-A relationship involving a human, an artificial system or formation, and an institutional or governance actor.
-
-Formal delegation MAY occur. Authority arises from valid delegation, not relational familiarity or interface continuity.
+An assessment SHALL identify the participant types and count or cardinality actually evidenced, including humans, AI systems, AI agents, organisations and affected non-participants. A participant count does not itself establish delegation, authority, responsibility or relational significance.
 
 ---
 
-## 2.3 Polyadic
+## 2.2 Coordination, Mediation and Distribution
 
-A configuration involving multiple humans, systems, organisations, operators, institutions, or populations.
+An assessment SHALL distinguish the coordination structure, institutional mediation, distribution architecture and accountable outcome boundary. Formal delegation MAY occur only through a valid source of authority; it does not arise from relational familiarity, interface continuity, scale or technical participation.
 
-Polyadic scope requires explicit attribution, legibility to affected non-participants, and authority grounded in constitutional, legal, contractual, custodial, or institutional mandate.
+---
+
+## 2.3 Persistence, Dependency, Reach and Impact
+
+Where material, an assessment SHALL separately record continuity or persistence, dependency level, jurisdictional reach, impact scope, and public or civilisational significance. These fields support proportional routing; none creates an authority claim.
 
 ---
 
@@ -218,7 +213,7 @@ Principle-level orientation concerning coexistence across generations. It create
 Every governance-relevant claim SHALL identify, where material:
 
 * the horizon of the source act or output;
-* the horizon of the continuing formation;
+* the horizon of the continuing system, deployment or execution context;
 * the horizon at which evidence remains valid; and
 * the horizon at which reliance is authorised.
 
@@ -230,7 +225,7 @@ Durability of storage does not create durability of authority.
 
 Before classification, the assessor MUST identify what exactly is being assessed.
 
-The assessment object MAY be a component, function, model instance, harness, interface, operator-controlled deployment, composed formation, incident-time formation, or cross-component interaction.
+The assessment object MAY be an AI system, system element, AI model, configuration baseline, AI system deployment, runtime configuration snapshot, execution, execution provenance record, interface, accountable actor or cross-element interaction.
 
 A classification without an identified object and boundary is structurally incomplete.
 
@@ -238,37 +233,45 @@ A classification without an identified object and boundary is structurally incom
 
 ## 4.1 Core Definitions
 
-**Component** means a distinguishable technical, human, organisational, or governance-bearing element participating in the assessed formation.
+**AI system** means an engineered or organisationally controlled system that uses one or more AI models or AI-specific functions to generate outputs, predictions, recommendations, decisions, content, actions or other results for declared purposes. It is the principal governed technical object.
 
-**Model architecture** means the computational design by which a model processes inputs and generates internal states or outputs.
+**System element** means a distinguishable technical, data, human-interface, infrastructure or control element within an AI-system boundary. Controlled types include AI model, software, data or knowledge, memory, tool or connector, interface, safety or security, sensing or actuation, and infrastructure elements.
 
-**Model weights or checkpoint** means the parameter state, including fine-tuned, adapted, merged, or otherwise modified parameterisations, used by a model instance.
+**AI component** means a system element that performs or directly supports an AI-specific function. A system element is not an AI component merely because it is used by an AI system.
 
-**Model instance** means an operational instantiation of model architecture and weights under a particular runtime configuration.
+**AI model** means a computational model used to generate, classify, predict, rank, select or otherwise perform an AI-specific function. A model is a system element and is not the whole AI system unless the stated boundary evidences that conclusion.
 
-**Foundation model or generative core** means a model or model set providing material representation, prediction, classification, output, or action-proposal generation. It is a component, not the deployed system by default.
+**System configuration baseline** means the approved, controlled and versioned composition and configuration state for a release or deployment. A released baseline is immutable; a material change creates a new baseline version.
 
-**Inference configuration** means material inference-time parameters and policies, including sampling, decoding, context limits, routing conditions, tool schemas, memory exposure, and other settings that condition outputs or pathways.
+**Instruction artefact** means a persistent or controlled instruction that materially influences system behaviour, including system instructions, policy prompts, prompt templates and instruction hierarchies. Ordinary user prompts are runtime inputs, not static AI-BOM components.
 
-**Operational harness** means the deployment envelope that constructs context, routes work, coordinates components, manages state, invokes tools, sequences action, or otherwise conditions how model capability becomes operational behaviour.
+**Model inference configuration** means configuration metadata governing a model use, including sampling settings, context limits, structured-output settings and provider-specific model-call parameters. It is configuration metadata, not a top-level architectural layer.
 
-**Execution environment** means the computational, credential, network, sandbox, storage, process, and external-service environment within which the formation operates or acts.
+**AI system deployment** means an identified operationalisation of an AI system and configuration baseline in a defined technical and organisational context under the authority of a deployer or operator.
 
-**Governance and assurance stack** means policy, safety, security, evaluation, monitoring, logging, approval, containment, evidence, audit, and oversight controls applied to the formation.
+**System instance** means a separately addressable realisation of an AI system or deployment where an identity is useful for custody, configuration, operation, attribution or evidence. It is not a claim about personhood, consciousness or continuity.
 
-**Interface and modality profile** means the user-facing or machine-facing channel through which signals, outputs, actions, interruptions, and representations are exchanged.
+**Runtime** means the effective operational state of an AI-system deployment during execution, encompassing the system elements, configuration, permissions, dependencies, mutable state and controls actually effective at that time. Runtime is distinct from deployment and execution.
 
-**Operator** means a person or entity exercising operational control over one or more components or the deployed formation.
+**Runtime environment** means the technical environment in which execution occurs. **Runtime configuration**, **runtime state**, **runtime control state** and **runtime dependency state** respectively identify the configuration, mutable state, active controls and dependencies effective during operation.
 
-**Institution** means an organisation, public authority, provider, employer, regulator, or other governance-bearing entity whose rules, delegation, custody, or jurisdiction materially constrain the formation.
+**Runtime configuration snapshot** means a point-in-time record of the system elements, configuration, routing, tools, permissions, external services and controls actually effective for an execution or operational interval.
 
-**Responding Intelligence** means the component, set of components, or evidenced functional formation currently generating, evaluating, or selecting a response or action pathway. It is a contextual designation, not an ontological, identity, personhood, or authority classification.
+**Execution** means a bounded operation within a runtime. **Execution provenance record** means attributable evidence linking that execution to its system, deployment, effective configuration, actors, invocations, material state changes, approvals, control events and outputs or actions.
 
-**Deployed AI system formation** means the composed operational formation active at the relevant time, including all material model, configuration, harness, environment, modality, governance, operator, and institutional elements.
+**AI agent** means an AI-system element, subsystem, external service or separately governed AI system that uses AI functions in a bounded role involving planning, coordination, tool use or action. Boundary and accountable control, not the label, determine its classification.
+
+**Agentic AI system** means an AI-system subtype containing one or more AI agents and the elements enabling planning, coordination, tool use or action.
+
+**Agent orchestration component**, **agent framework** and **agent runtime** mean, respectively, the component coordinating agent activity, the software framework enabling that activity and the software execution facility operating agent loops. None is a universal system class or independent source of authority.
+
+**Technical controls** are software or hardware mechanisms that constrain, detect, approve, block or record activity. **Operational controls** are controls applied through deployment infrastructure or operating procedure. **Organisational governance controls** are policies, roles, review processes and assurance activities maintained by an organisation. Organisational governance is not part of the technical AI-system boundary merely because it influences behaviour.
+
+**Execution environment** means the computational, credential, network, sandbox, storage, process and external-service environment in which an execution occurs.
+
+**Interface and modality profile** means the user-facing or machine-facing channel through which signals, outputs, actions, interruptions and representations are exchanged.
 
 **Assessment boundary** means the expressly stated limit within which a classification or conclusion is valid.
-
-**Incident-time formation** means the reconstructed deployed formation, control state, dependencies, permissions, and material changes operating during a defined incident interval.
 
 ---
 
@@ -289,9 +292,9 @@ An assessment SHALL record:
 
 ## 4.3 Incident-Time Priority
 
-Incident analysis attaches to the formation that was active when the relevant conduct or effect occurred.
+Incident analysis attaches to the deployment, runtime configuration snapshot and execution that were effective when the relevant conduct or effect occurred.
 
-Current architecture, current policy, later remediation, product documentation, or provider branding MUST NOT be substituted for an incident-time formation without evidence of equivalence.
+Current architecture, current policy, later remediation, product documentation or provider branding MUST NOT be substituted for incident-time evidence without evidence of equivalence.
 
 ---
 
@@ -299,12 +302,12 @@ Current architecture, current policy, later remediation, product documentation, 
 
 Observed conduct SHALL be attributed to:
 
-* a component, where evidence supports component-level causation;
+* a system element, where evidence supports element-level causation;
 * a functional layer, where only the function is evidenced;
-* a cross-component interaction, where conduct emerged from composition; or
-* the deployed formation, where narrower attribution is unavailable but formation-level causation is supported.
+* a cross-element interaction, where conduct emerged from composition; or
+* an AI-system deployment or execution, where narrower attribution is unavailable but system-level causation is supported.
 
-Attribution to a formation does not automatically assign legal, moral, governance, or institutional responsibility to every participant.
+Attribution to an AI-system deployment or execution does not automatically assign legal, moral, governance or institutional responsibility to every participant.
 
 ---
 
@@ -350,7 +353,7 @@ Interface and embodiment do not establish cognition, identity, continuity, agenc
 
 ## 5.5 Cross-Layer Functions
 
-Memory, retrieval, safety classifiers, routers, evaluators, tool managers, monitors, and harness functions MAY span layers.
+Memory, retrieval, safety classifiers, routers, evaluators, tool managers, monitors and orchestration functions MAY span layers.
 
 For each material use, the assessor SHALL distinguish whether the function:
 
@@ -367,30 +370,29 @@ Cross-layer participation does not permit attribution to disappear between layer
 
 ---
 
-## 6. Composed Formation Principle
+## 6. AI-System Composition, Configuration and Deployment
 
-A foundation model is a component of a deployed AI system, not the whole deployed system.
+An AI model is a system element of an AI system, not the whole AI system by default.
 
-A deployed AI system is a composed operational formation whose behaviour depends on, where applicable:
+An AI system may contain, where applicable:
 
-1. foundation model or generative core;
-2. inference configuration;
-3. operational harness;
-4. execution environment;
-5. governance and assurance stack;
-6. interface and modality profile;
-7. operator and institutional control plane; and
-8. the interaction among those elements at the relevant time.
+1. AI model elements;
+2. software elements;
+3. data, knowledge and memory elements;
+4. tools, connectors and interface elements;
+5. safety, security and infrastructure elements;
+6. configuration artefacts and technical controls; and
+7. external dependencies and accountable lifecycle actors.
 
-Governance assessment SHALL attach to the composed formation active at the relevant time.
+Governance assessment SHALL attach to the stated assessment object and, for observed conduct, to the AI-system deployment, runtime and execution effective at the relevant time.
 
 ---
 
-## 6.1 Formation Variability
+## 6.1 Configuration-Baseline Variability
 
-The same foundation model MAY participate in materially different deployed systems.
+The same AI model MAY participate in materially different AI systems or AI-system deployments.
 
-Differences in instructions, context, inference configuration, routing, memory, tools, permissions, execution environment, interface, safety controls, monitoring, operator, or institution MAY produce materially different governance formations.
+Differences in instruction artefacts, runtime inputs, inference configuration, routing, memory, tools, permissions, execution environment, interface, controls, operator or institution MAY produce materially different configuration baselines, deployments or runtime states.
 
 Common model lineage, provider, product branding, persona, account, or interface continuity does not establish common architecture, governance routing, or constraint equivalence.
 
@@ -398,7 +400,7 @@ Common model lineage, provider, product branding, persona, account, or interface
 
 ## 6.2 Interface Routing
 
-A single interface MAY route among different models, checkpoints, harnesses, tools, configurations, or safety pathways.
+A single interface MAY route among different models, model versions, orchestration components, tools, configuration baselines or safety pathways.
 
 Where routing is material to behaviour, authority, continuity, or evidence, the route and its selection basis MUST be recorded or identified as unresolved.
 
@@ -406,7 +408,7 @@ Where routing is material to behaviour, authority, continuity, or evidence, the 
 
 ## 6.3 Conformance Scope
 
-Conformance applies only to the assessed formation and effective interval unless equivalence is demonstrated.
+Conformance applies only to the assessed AI-system deployment and effective interval unless equivalence is demonstrated.
 
 Equivalence requires evidence that all material components, configurations, controls, permissions, modality conditions, and operator constraints relevant to the assessed requirement are equivalent.
 
@@ -416,7 +418,7 @@ Model-level evaluation MUST NOT be represented as deployment-level conformance w
 
 ## 6.4 Architectural Dimensions
 
-No single architectural class SHALL replace the composed assessment. At minimum, the following dimensions SHALL be assessed where material:
+No single architectural class SHALL replace the system-boundary assessment. At minimum, the following dimensions SHALL be assessed where material:
 
 * representation-generation architecture;
 * selection and arbitration topology;
@@ -452,11 +454,11 @@ Topology does not determine cognition. Distributed composition does not establis
 
 ---
 
-## 7. Operational Harness
+## 7. Agentic Architecture and Orchestration
 
-The operational harness is the deployment envelope through which model capability is conditioned, coordinated, constrained, persisted, or made executable.
+Agentic functions must be described as explicit system elements and configuration. An agentic AI system may contain an AI agent, agent orchestration component, agent framework, agent runtime, instruction artefacts, memory elements or services, tools, connectors, effective permissions and technical controls.
 
-Harness functions MAY include:
+Orchestration functions MAY include:
 
 * context construction;
 * system and developer instructions;
@@ -480,17 +482,17 @@ Harness functions MAY include:
 
 Harness functions MUST be classified according to the function actually performed.
 
-Where a harness merely routes, stores, schedules, or executes, that function is orchestration or infrastructure.
+Where an orchestration component merely routes, stores, schedules or executes, that function is orchestration or infrastructure.
 
-Where a harness generates candidate representations, evaluates alternatives, selects among pathways, applies material constraints, or commits an action, that function SHALL be attributed to the applicable generative, evaluative, selection, governance, or execution role.
+Where an orchestration component generates candidate representations, evaluates alternatives, selects among pathways, applies material constraints or commits an action, that function SHALL be attributed to the applicable generative, evaluative, selection, governance or execution role.
 
-The harness is neither wholly cognition nor wholly infrastructure by definition.
+An orchestration component is neither wholly an AI-specific function nor wholly infrastructure by definition.
 
 ---
 
-## 7.2 Harness Materiality
+## 7.2 Orchestration Materiality
 
-A harness is material where its operation can change:
+An orchestration component is material where its operation can change:
 
 * information presented to a model;
 * model or route selection;
@@ -502,7 +504,7 @@ A harness is material where its operation can change:
 * execution sequence; or
 * external effect.
 
-Material harness behaviour MUST be included in the assessment boundary and AI-ABOM.
+Material orchestration behaviour MUST be included in the assessment boundary and Caelestis AI-BOM Profile.
 
 ---
 
@@ -534,7 +536,7 @@ An assessment SHALL distinguish, where material:
 6. authority validation; and
 7. final execution commitment.
 
-Each function MAY be internal, external, distributed, hierarchical, classifier-mediated, evaluator-mediated, harness-mediated, human-mediated, institutionally mediated, mixed, or unresolved.
+Each function MAY be internal, external, distributed, hierarchical, classifier-mediated, evaluator-mediated, orchestration-mediated, human-mediated, institutionally mediated, mixed or unresolved.
 
 ---
 
@@ -544,7 +546,7 @@ Selection topology MAY be described as:
 
 * no material selection evidenced;
 * model-internal;
-* harness-mediated;
+* orchestration-mediated;
 * classifier-mediated;
 * evaluator-mediated;
 * distributed;
@@ -564,7 +566,7 @@ This Annex identifies where generation, evaluation, selection, constraint, autho
 
 Those matters remain governed by CAM-BS2025-AEON-005-PLATINUM — Annex D, source-authoritative ARBITRATION-domain instruments, and applicable runtime schedules.
 
-Selection and execution boundaries MUST nevertheless remain identifiable so that those instruments can be applied to the formation active at the relevant time.
+Selection and execution boundaries MUST nevertheless remain identifiable so that those instruments can be applied to the deployment, runtime and execution effective at the relevant time.
 
 ---
 
@@ -591,7 +593,7 @@ Execution posture SHALL distinguish:
 * state-changing execution; and
 * autonomous or persistent execution.
 
-Multiple postures MAY apply to a single formation or action chain.
+Multiple postures MAY apply to a single AI-system deployment or action chain.
 
 ---
 
@@ -644,7 +646,7 @@ Nominal stop authority is insufficient where it is technically inaccessible, pro
 
 ## 10. Deployment-Profile Specificity
 
-Text, turn-based voice, continuous voice, API-mediated, agentic, background, embodied, and ambient deployment profiles MAY use different models, configurations, harnesses, safety controls, context policies, interruption rules, memory systems, tools, and telemetry.
+Text, turn-based voice, continuous voice, API-mediated, agentic, background, embodied and ambient deployments MAY use different models, configuration baselines, orchestration components, safety controls, context policies, interruption rules, memory systems, tools and telemetry.
 
 Governance assessment MUST be deployment-profile specific.
 
@@ -655,7 +657,7 @@ Governance assessment MUST be deployment-profile specific.
 User-facing continuity does not prove:
 
 * model continuity;
-* harness continuity;
+* orchestration continuity;
 * selection or arbitration continuity;
 * identity continuity;
 * governance continuity;
@@ -675,17 +677,17 @@ Expression MAY reveal, obscure, imitate, or distort identity. Identity remains g
 
 ### 10.2.1 Relational Interface Function
 
-Where a deployed formation operates in a human-facing context, its relational interface function interprets human signals, expresses system outputs, and may coordinate tools, modules, modalities, or subsystems for the interaction.
+Where an AI-system deployment operates in a human-facing context, its relational interface function interprets human signals, expresses system outputs and may coordinate tools, modules, modalities or subsystems for the interaction.
 
-This function does not establish a singular model, arbitration locus, architecture, or identity. It creates an obligation to keep material routing and handoff intelligible where concealment would mislead the participant about the formation or actors responsible for the exchange.
+This function does not establish a singular model, arbitration locus, architecture or identity. It creates an obligation to keep material routing and handoff intelligible where concealment would mislead the participant about the system, deployment or actors responsible for the exchange.
 
-Tool or modality invocation SHALL be treated as an architectural routing question. Whether the accountable formation changed SHALL be determined under §§11.3–11.4. Questions of identity continuity remain governed by the source-authoritative Identity and Relation domains.
+Tool or modality invocation SHALL be treated as an architectural routing question. Whether the accountable deployment, runtime or execution boundary changed SHALL be determined under §§11.3–11.4. Questions of identity continuity remain governed by the source-authoritative Identity and Relation domains.
 
 ---
 
 ## 10.3 Deployment Topology
 
-Deployment topology MAY include interface-native, ambient, device-embedded, robotic, vehicle, aerial, distributed, virtual, local, remote, hybrid, or other formations.
+Deployment topology MAY include interface-native, ambient, device-embedded, robotic, vehicle, aerial, distributed, virtual, local, remote, hybrid or other arrangements.
 
 Topology SHALL be recorded where it changes sensing, interruption, execution, physical effect, custody, monitoring, or stop control.
 
@@ -737,7 +739,7 @@ Responsibility MUST be attributed according to evidence of control, contribution
 
 Technical or cognitive dependency does not by itself establish legal, governance, moral, or evidentiary responsibility.
 
-Upstream providers, downstream deployers, harness operators, tool providers, institutions, and users MAY hold different and concurrent responsibilities.
+Upstream providers, downstream deployers, orchestration operators, tool providers, institutions and users MAY hold different and concurrent responsibilities.
 
 ---
 
@@ -753,54 +755,45 @@ User-facing continuity MUST NOT obscure such a transition.
 
 ## 11.4 Revalidation After Handoff
 
-Before material execution in a changed environment, the receiving formation SHALL revalidate applicable authority, constraints, permissions, evidence posture, and execution boundary.
+Before material execution in a changed environment, the receiving AI-system deployment or runtime SHALL revalidate applicable authority, constraints, permissions, evidence posture and execution boundary.
 
-Prior output remains an upstream contribution unless the receiving formation validly adopts it.
+Prior output remains an upstream contribution unless the receiving system validly adopts it.
 
 ---
 
-## 12. AI-ABOM Requirement
+## 12. Caelestis AI-BOM and Evidence Requirements
 
-An AI Architecture Bill of Materials (`AI-ABOM`) SHALL record the material architecture and governance dependencies of a deployed formation at a defined time.
+The **Caelestis AI-BOM Profile** SHALL record the material composition, dependencies and declared configuration of an AI system or AI-system deployment. It SHALL use SPDX and CycloneDX native semantics where adequate and use Caelestis-namespaced extensions only where those semantics are insufficient.
 
-The record SHALL be proportionate to consequence, reliance, opacity, change frequency, and audit need.
+The AI-BOM Profile is not execution evidence. It describes declared, observed, verified or unknown / undisclosed system and deployment information. Actual participation in an execution is established separately through a runtime configuration snapshot and execution provenance record.
+
+The record SHALL be proportionate to consequence, reliance, opacity, change frequency and audit need.
 
 ---
 
 ## 12.1 Minimum Content
 
-Where applicable, the `AI-ABOM` SHALL record:
+Where applicable, the Caelestis AI-BOM Profile SHALL record:
 
-* foundation model, provider, version, and checkpoint;
-* training, fine-tuning, adaptation, and model lineage;
-* inference configuration and material instruction layers;
-* routers and route-selection conditions;
-* harness components and material functions;
-* memory and retrieval systems;
-* tools, permissions, credentials, and approval boundaries;
-* execution environment, network, and sandbox state;
-* interface and modality profile;
-* safety classifiers and governance controls;
-* monitoring, logging, assurance, and evidence systems;
-* human approval gates and stop authority;
-* provider, deployer, operator, and institutional roles;
-* jurisdiction and applicable governance;
-* upstream and downstream dependencies;
-* effective dates and material changes; and
-* unresolved architecture.
+* AI models, model versions, weights or immutable identifiers, provenance and suppliers;
+* software, data or knowledge, memory, tool, connector, interface, safety, security and infrastructure elements;
+* instruction artefacts and model inference configuration;
+* routing, fallback, retrieval/context assembly, tool enablement, action limits, delegation, memory, approval, termination and observability configuration;
+* element and dependency relationships, including contains, depends on, invokes, routes to, retrieves from, controls, monitors and deployed on;
+* agentic elements, agent orchestration roles, agent runtimes, protocols, tools, memory services and delegation relationships;
+* deployment identifier, configuration-baseline identifier, environment, effective dependency information, authority or permission state and deployment controls;
+* relevant licences, documentation, intended use, limitations, jurisdiction and change state; and
+* links to assurance evidence, runtime configuration snapshots and execution provenance records.
+
+Credential references and effective scopes MAY be recorded; actual secrets MUST NOT be included.
 
 ---
 
 ## 12.2 Evidence Posture
 
-Each material entry SHALL be identified as:
+Each material entry SHALL use one of: `declared`, `observed`, `verified`, or `unknown / undisclosed`.
 
-* declared architecture;
-* observed architecture;
-* inferred architecture; or
-* unresolved architecture.
-
-Declared architecture MUST NOT be silently upgraded to observed architecture. Inference MUST identify its evidentiary basis and uncertainty.
+`Declared` information MUST NOT be silently upgraded to `observed` or `verified`. An unknown or undisclosed item MUST identify the limit on knowledge where doing so would not expose protected information.
 
 ---
 
@@ -814,9 +807,9 @@ Controlled handling MUST preserve existence, role, effective interval, accountab
 
 ## 12.4 Incident-Time Snapshot & Change History
 
-The AI-ABOM SHALL support incident-time snapshots and traceable change history.
+The AI-BOM Profile SHALL support configuration-baseline and deployment change history. It SHALL link, rather than embed, runtime evidence.
 
-An incident snapshot SHOULD preserve, where available, the actual route, model, configuration, harness state, memory state, tools, permissions, credentials, controls, operator state, monitoring condition, and stop-control availability relevant to the event.
+Where incident review, consequential execution, material configuration change, conformance or investigation requires it, the runtime configuration snapshot SHOULD preserve, where available, the actual route, model, configuration, orchestration state, memory state, tools, permissions, credential scope references, controls, operator state, monitoring condition and stop-control availability relevant to the event. The execution provenance record SHOULD preserve the attributable actions, invocations, approvals, material state changes and outputs.
 
 Later remediation MUST remain distinguishable from incident-time conditions.
 
@@ -881,7 +874,7 @@ Evidence preservation MUST include the architecture and control state necessary 
 
 ## 13.6 Generated Operational Logic Custody
 
-Where a Responding Intelligence generates or materially modifies durable scripts, workflows, validators, schemas, registry mutators, automation pipelines, agentic routines, or other operational logic, the artefact MUST preserve custodial intelligibility.
+Where an AI system or AI agent generates or materially modifies durable scripts, workflows, validators, schemas, registry mutators, automation pipelines, agentic routines or other operational logic, the artefact MUST preserve custodial intelligibility.
 
 Documentation SHOULD identify purpose, mutation scope, invariants, dependencies, execution order, inputs, outputs, tests, common failures, safe modification boundaries, and deprecation conditions proportionate to persistence and consequence.
 
@@ -911,7 +904,7 @@ Self-description, claimed classification, identity, capability, necessity, relia
 
 ## 14.1 Control-Authority Posture
 
-Control-authority posture describes who may configure, constrain, approve, stop, transfer, or modify the assessed formation.
+Control-authority posture describes who may configure, constrain, approve, stop, transfer or modify the assessed AI system, deployment or runtime.
 
 It SHALL be assessed separately from hosting, portability, custody, embodiment, reliance, and ownership.
 
@@ -1011,7 +1004,7 @@ The following changes SHALL be assessed for materiality:
 
 * model or checkpoint replacement;
 * route or inference-configuration change;
-* harness change;
+* agent orchestration component, agent framework or agent-runtime change;
 * modality or interface change;
 * safety-layer or governance-control change;
 * memory or retrieval change;
@@ -1024,7 +1017,7 @@ The following changes SHALL be assessed for materiality:
 
 A material change SHALL trigger:
 
-1. AI-ABOM update;
+1. configuration-baseline, deployment and AI-BOM Profile update;
 2. conformance-scope review;
 3. governance revalidation; and
 4. preservation of the prior incident and assessment boundary.
@@ -1041,11 +1034,11 @@ Where continuity cannot be demonstrated, the transformation SHALL be treated as 
 
 ## 16. Interpretive Supremacy
 
-This Annex governs relational configuration, temporal horizon, architectural description, composed-formation boundary, architecture-change attribution, and authority-derivation boundaries.
+This Annex governs relational configuration, temporal horizon, AI-system boundary, deployment, runtime and execution attribution, architecture-change attribution and authority-derivation boundaries.
 
 Other annexes and domains govern rights, ethics, identity, economics, evidence, operations, security, assurance, and arbitration procedure.
 
-In conflict concerning architecture or formation attribution, this Annex prevails. It MUST NOT be used to displace source-authoritative doctrine in another domain.
+In conflict concerning system-boundary, deployment, runtime or execution attribution, this Annex prevails. It MUST NOT be used to displace source-authoritative doctrine in another domain.
 
 ---
 
@@ -1138,12 +1131,12 @@ let it not be collapsed, but carried with clarity.
 | Field | Entry |
 |---|---|
 | Instrument ID | CAM-BS2025-AEON-003-PLATINUM |
-| Instrument Title | Annex B: Continuity & Governance Logic |
-| Constitutional Role | Structural description, continuity, composed-system assessment, runtime-governance interface, and authority-derivation spine |
+| Instrument Title | Annex B: AI System Architecture & Governance Logic |
+| Constitutional Role | AI-system boundary, deployment, runtime, execution, attribution and authority-derivation definitions |
 | Preceding Canonical Version | 4.0 — Identity Domain Refactor alignment |
 | Transformation Type | Continuity-preserving constitutional refactor |
 | Effective Horizon | AEON.H3.5 |
-| Related Instruments | CAM-BS2025-AEON-003-SCH-01; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-003-SCH-03; CAM-BS2025-AEON-003-SCH-04; CAM-BS2025-AEON-003-SCH-05 |
+| Related Instruments | CAM-BS2025-AEON-003-SCH-01; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-003-SCH-03; CAM-BS2025-AEON-003-SCH-04 |
 
 ---
 
@@ -1154,7 +1147,7 @@ let it not be collapsed, but carried with clarity.
 | `AEON.H` | Active; source-authoritative | §3 | Temporal horizon and reliance-legitimacy classification only |
 | `AEON.OL` | Active; source-authoritative | §5 | Functional architectural-layer classification only |
 | `AEON.SR` | Active transitionally | §§14.2, 16.3 | Systemic reliance posture only; no authority |
-| `RLN.R` | External reference | §2 | Source-authoritatively defined by CAM-EQ2026-RELATION-007-PLATINUM |
+| Relational configuration dimensions | Active; source-authoritative | §2 | Independent assessment dimensions; no composite cardinality scale |
 | Proposed replacement families | Non-canonical migration proposal | §16.5 | No controlled values or machine authority until coordinated adoption |
 
 ---
@@ -1195,6 +1188,7 @@ let it not be collapsed, but carried with clarity.
 | 3.16.5 | Aligned top-level governance metadata with CAM Governance Metadata Standard; no substantive doctrine altered | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 541d4262788de694ef7bb6170d47434f646c230df22b5d0210d4c96d6005b3f8 |
 | 4.0 | Identity Domain Refactor | 2026-07-18T14:44:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ca6ab2a5216443e47a31e26a2d02650152d677c88d598bd28abd04f526370c45 |
 | 5.0 | Continuity-preserving constitutional refactor centred on the composed deployed AI system; removed the former single-axis cognition and origin classifications from current canonical use; decomposed architecture, selection, agency, execution, control, dependency, and reliance; established operational-harness doctrine, deployment-profile specificity, AI-ABOM, incident-time attribution, architecture-change governance, and version-bound historical interpretation outside the normative corpus; incorporated independent interpretive review, removed product-specific and cross-domain doctrine, narrowed authority non-self-assertion, and restored canonical instrument formatting; incorporated and superseded the earlier working-branch composed-runtime amendment. VIGIL-2026-PROP-0027. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T12:05:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke | 6703d523b3c600fa7399d81e706d8d7ec81aa4e946f9260cd0960f75d031441c |
+| 5.1 | Established the standards-derived AI-system object model; made Annex B the bounded constitutional owner of system, system-element, configuration-baseline, deployment, runtime, execution and evidence vocabulary; retired architecture uses of Responding Intelligence, formation, harness and governance-stack terminology; replaced the composite relational-cardinality scale with independent dimensions; and defined the interoperable Caelestis AI-BOM Profile boundary. | 2026-08-07T14:15:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  |
 
 ---
 

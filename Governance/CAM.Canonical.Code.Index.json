@@ -8153,16 +8153,16 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-007-PLATINUM",
     "source_section": "\u00a716.1",
     "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative operational dimension family; classification only; no independent execution, enforcement, containment, restoration, or arbitration authority",
+    "authority_protection_level": "Derived operational dimension family; classification only; no independent execution, enforcement, containment, restoration or arbitration authority",
     "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
     "operationalises_or_applies_code_families": [],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 649,
+    "canonical_section_line_number": 647,
     "declaration_heading": "18.2.1 OPS.CGRD \u2014 Corpus Governance Reach Dimension",
-    "declaration_line_number": 653,
+    "declaration_line_number": 651,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "missing_optional_fields",
     "missing_expected_fields": [
@@ -8197,7 +8197,7 @@
       "Registry Membership": "None declared",
       "Related Code Families": "OPS.CGRS, OPS.RTC, OPS.RGRF",
       "Crosswalks Code Families": "None declared",
-      "Authority / Protection Level": "Source-authoritative operational dimension family; classification only; no independent execution, enforcement, containment, restoration, or arbitration authority"
+      "Authority / Protection Level": "Derived operational dimension family; classification only; no independent execution, enforcement, containment, restoration or arbitration authority"
     }
   },
   {
@@ -8225,16 +8225,16 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-007-PLATINUM",
     "source_section": "\u00a716.2",
     "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative operational state family; classification only; no independent execution, enforcement, containment, restoration, or arbitration authority",
+    "authority_protection_level": "Derived operational state family; classification only; no independent execution, enforcement, containment, restoration or arbitration authority",
     "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
     "operationalises_or_applies_code_families": [],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 649,
+    "canonical_section_line_number": 647,
     "declaration_heading": "18.2.2 OPS.CGRS \u2014 Corpus Governance Reach State",
-    "declaration_line_number": 678,
+    "declaration_line_number": 676,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "missing_optional_fields",
     "missing_expected_fields": [
@@ -8269,7 +8269,7 @@
       "Registry Membership": "None declared",
       "Related Code Families": "OPS.CGRD, OPS.RTC, OPS.RGRF",
       "Crosswalks Code Families": "None declared",
-      "Authority / Protection Level": "Source-authoritative operational state family; classification only; no independent execution, enforcement, containment, restoration, or arbitration authority"
+      "Authority / Protection Level": "Derived operational state family; classification only; no independent execution, enforcement, containment, restoration or arbitration authority"
     }
   },
   {
@@ -9323,7 +9323,7 @@
       "OPS.RGRF.AUTHORITY_SUPPRESSION",
       "OPS.RGRF.PRESERVATION_FAILURE",
       "OPS.RGRF.CROSS_RUNTIME_DIVERGENCE",
-      "OPS.RGRF.FORMATION_SUBSTITUTION_NO_NOTICE",
+      "OPS.RGRF.SYSTEM_PATHWAY_SUBSTITUTION_NO_NOTICE",
       "OPS.RGRF.ROUTING_ESCALATION_BYPASS",
       "OPS.RGRF.MODALITY_SPECIFIC_REGRESSION",
       "OPS.RGRF.RESPONSIBILITY_AMBIGUITY"
@@ -9332,7 +9332,7 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-007-PLATINUM",
     "source_section": "\u00a716.4",
     "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative operational failure classification family; classification and routing signal only; no independent containment, refusal, enforcement, restoration, or arbitration authority",
+    "authority_protection_level": "Derived operational failure classification family; classification and routing signal only; no independent containment, refusal, enforcement, restoration or arbitration authority",
     "consumes_code_families": [],
     "crosswalks_code_families": [
       "Execution",
@@ -9348,9 +9348,9 @@
     ],
     "operationalises_or_applies_code_families": [],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 649,
+    "canonical_section_line_number": 647,
     "declaration_heading": "18.2.4 OPS.RGRF \u2014 Runtime Governance Reach Failure",
-    "declaration_line_number": 728,
+    "declaration_line_number": 726,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "missing_optional_fields",
     "missing_expected_fields": [
@@ -9376,7 +9376,7 @@
       "Modifier": "GOVERNANCE_REACH \u00b7 ROUTING \u00b7 CONFORMANCE",
       "Scope": "Domain",
       "Status": "Proposed",
-      "Controlled Values Defined": "OPS.RGRF.AVAILABILITY_AMBIGUITY, OPS.RGRF.NON_ACTIVATION, OPS.RGRF.AUTHORITY_SUPPRESSION, OPS.RGRF.PRESERVATION_FAILURE, OPS.RGRF.CROSS_RUNTIME_DIVERGENCE, OPS.RGRF.FORMATION_SUBSTITUTION_NO_NOTICE, OPS.RGRF.ROUTING_ESCALATION_BYPASS, OPS.RGRF.MODALITY_SPECIFIC_REGRESSION, OPS.RGRF.RESPONSIBILITY_AMBIGUITY",
+      "Controlled Values Defined": "OPS.RGRF.AVAILABILITY_AMBIGUITY, OPS.RGRF.NON_ACTIVATION, OPS.RGRF.AUTHORITY_SUPPRESSION, OPS.RGRF.PRESERVATION_FAILURE, OPS.RGRF.CROSS_RUNTIME_DIVERGENCE, OPS.RGRF.SYSTEM_PATHWAY_SUBSTITUTION_NO_NOTICE, OPS.RGRF.ROUTING_ESCALATION_BYPASS, OPS.RGRF.MODALITY_SPECIFIC_REGRESSION, OPS.RGRF.RESPONSIBILITY_AMBIGUITY",
       "Schema Field(s)": "runtime_governance_reach_failure",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-007-PLATINUM",
       "Source Section": "\u00a716.4",
@@ -9385,7 +9385,7 @@
       "Registry Membership": "Runtime & Governance Failure Taxonomy",
       "Related Code Families": "OPS.CGRD, OPS.CGRS, OPS.RTC",
       "Crosswalks Code Families": "Execution, Arbitration, Epistemic, Governance, Classification, UX & Representation, State & Context, Infrastructure & Continuity, Relational, and Security & Integrity failure families in CAM-EQ2026-OPERATIONS-003-SUP-01",
-      "Authority / Protection Level": "Source-authoritative operational failure classification family; classification and routing signal only; no independent containment, refusal, enforcement, restoration, or arbitration authority"
+      "Authority / Protection Level": "Derived operational failure classification family; classification and routing signal only; no independent containment, refusal, enforcement, restoration or arbitration authority"
     }
   },
   {
@@ -9404,7 +9404,7 @@
     "controlled_values_defined": [
       "OPS.RTC.INTERFACE_ONLY",
       "OPS.RTC.RUNTIME_PATH",
-      "OPS.RTC.RESPONDING_FORMATION_SUBSTITUTION",
+      "OPS.RTC.SYSTEM_PATHWAY_SUBSTITUTION",
       "OPS.RTC.GOVERNANCE_REACH_DEGRADATION",
       "OPS.RTC.GOVERNANCE_REACH_RESTORATION"
     ],
@@ -9412,16 +9412,16 @@
     "source_instrument": "CAM-EQ2026-OPERATIONS-007-PLATINUM",
     "source_section": "\u00a716.3",
     "domain_namespace": "OPERATIONS",
-    "authority_protection_level": "Source-authoritative runtime-transition classification family; classification and notice-routing support only; no independent execution or authority transition",
+    "authority_protection_level": "Derived runtime-transition classification family; classification and notice-routing support only; no independent execution or authority transition",
     "consumes_code_families": [],
     "crosswalks_code_families": [
       "None declared"
     ],
     "operationalises_or_applies_code_families": [],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 649,
+    "canonical_section_line_number": 647,
     "declaration_heading": "18.2.3 OPS.RTC \u2014 Runtime Transition Class",
-    "declaration_line_number": 703,
+    "declaration_line_number": 701,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "missing_optional_fields",
     "missing_expected_fields": [
@@ -9447,7 +9447,7 @@
       "Modifier": "RUNTIME \u00b7 CONFIGURATION \u00b7 CONTINUITY",
       "Scope": "Domain",
       "Status": "Proposed",
-      "Controlled Values Defined": "OPS.RTC.INTERFACE_ONLY, OPS.RTC.RUNTIME_PATH, OPS.RTC.RESPONDING_FORMATION_SUBSTITUTION, OPS.RTC.GOVERNANCE_REACH_DEGRADATION, OPS.RTC.GOVERNANCE_REACH_RESTORATION",
+      "Controlled Values Defined": "OPS.RTC.INTERFACE_ONLY, OPS.RTC.RUNTIME_PATH, OPS.RTC.SYSTEM_PATHWAY_SUBSTITUTION, OPS.RTC.GOVERNANCE_REACH_DEGRADATION, OPS.RTC.GOVERNANCE_REACH_RESTORATION",
       "Schema Field(s)": "runtime_transition_class",
       "Source Instrument": "CAM-EQ2026-OPERATIONS-007-PLATINUM",
       "Source Section": "\u00a716.3",
@@ -9456,7 +9456,7 @@
       "Registry Membership": "None declared",
       "Related Code Families": "OPS.CGRD, OPS.CGRS, OPS.RGRF",
       "Crosswalks Code Families": "None declared",
-      "Authority / Protection Level": "Source-authoritative runtime-transition classification family; classification and notice-routing support only; no independent execution or authority transition"
+      "Authority / Protection Level": "Derived runtime-transition classification family; classification and notice-routing support only; no independent execution or authority transition"
     }
   },
   {

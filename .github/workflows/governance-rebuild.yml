@@ -129,6 +129,9 @@ jobs:
       - name: Phase 8 — Canonical document header validation
         run: python .github/scripts/validate_canonical_headers.py
 
+      - name: Phase 8 — Canonical architecture terminology validation
+        run: python .github/scripts/validate_canonical_architecture_terminology.py
+
       - name: Phase 8 — Intra-document section reference validation
         run: |
           mkdir -p validation-reports

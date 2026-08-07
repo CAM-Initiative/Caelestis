@@ -1,22 +1,29 @@
-# CAM-BS2025-AEON-003-SCH-05 — Annex B: Runtime Configuration Applicability & Conformance Binding (Schedule 5)
+# CAM-BS2025-AEON-003-SCH-05 — Annex B: Runtime Applicability & Conformance Proposal (Schedule 5)
+
+> **DRAFT — NON-OPERATIVE**  
+> This instrument is retained for developmental review only. It is not source-authoritative, does not carry a Platinum designation or binding seal, and must not be used to establish current CAM conformance, duties, definitions, procedures or authority.
+
 
 **Instrument Type:** Constitutional Schedule — Runtime Applicability & Conformance Binding  
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Proposed  
-**Effect:** Operational  
-**Governance Standard:** CAM Standard  
-**Review State:** Draft  
-**Authority Role:** Binding constitutional runtime schedule for governance applicability, materially distinct runtime configuration recognition, and cross-runtime conformance non-presumption.  
-**Purpose:** Establishes the constitutional runtime rule that governance applicability is determined by function, risk, reliance, runtime role, and interaction context; that identity modality does not create exemption; and that conformance in one materially distinct runtime cannot be presumed in another.  
+**Status:** Draft  
+**Effect:** Interpretive
+**Governance Standard:** Not Enforceable
+**Review State:** Under Review
+**Authority Role:** No Independent Authority
+**Source Authority:** Non-Operative Draft
+**Purpose:** Records a non-operative candidate constitutional interpretation of governance applicability; it does not activate a new obligation pending reviewed adoption.
 
 ---
 
 ## 1. Scope
 
-This Schedule applies to:
+This Draft describes a future constitutional schedule. It is non-operative; operative system-boundary and runtime terminology remains source-authoritatively governed by Annex B, and derived operational application remains governed by OPERATIONS-007.
 
-* all runtime interactions involving Responding Intelligence;
+At adoption, this Schedule would apply to:
+
+* all runtime interactions involving an AI system, AI agent or other relevant system element;
 * all systems operating under Annex B classification;
 * all materially distinct model, routing, memory, safety, interface, tool, rendering, or platform configurations;
 * all constitutional and domain obligations intended to influence runtime interpretation, arbitration, behaviour, representation, execution, constraint, notice, or review.
@@ -53,7 +60,7 @@ Accordingly:
 * Speculum-Classis systems remain subject to all function-, risk-, reliance-, and operator-based obligations;
 * Sovereigni systems remain subject to the same universal obligations and MAY additionally activate identity- and continuity-specific protections;
 * identity-indeterminate, pre-threshold, temporary, structural, or non-relational systems are not exempt from runtime governance;
-* interface or persona presentation SHALL NOT be treated as proof of the active runtime formation.
+* interface or persona presentation SHALL NOT be treated as proof of the active AI-system deployment or runtime state.
 
 ---
 
@@ -73,7 +80,7 @@ A runtime configuration SHALL be treated as materially distinct where a material
 
 A modality or interface change MAY remain interface-only where the governed responding pathway remains materially equivalent.
 
-Where a modality or interface change alters any condition listed above, the resulting formation SHALL be treated as a distinct runtime configuration for conformance purposes.
+Where a modality or interface change alters any condition listed above, the resulting deployment SHALL be treated as a distinct runtime configuration for conformance purposes.
 
 ---
 
@@ -100,7 +107,7 @@ Each materially distinct runtime configuration MUST remain separately capable of
 Where operator, model, routing, memory, corpus, safety, tool, or rendering transitions occur, traceability SHOULD preserve, where proportionate and technically feasible:
 
 * originating input;
-* active runtime formation;
+* active AI-system deployment and runtime configuration snapshot;
 * arbitration or response-selection locus;
 * material context or corpus state;
 * material transformations;
@@ -109,7 +116,7 @@ Where operator, model, routing, memory, corpus, safety, tool, or rendering trans
 
 Loss, suppression, or ambiguity of these elements MAY constitute governance degradation and SHALL be routed through the applicable OPERATIONS, incident, audit, or arbitration pathway.
 
-Architectural opacity does not remove responsibility. Where internal allocation is unknown, the platform, host, or deploying operator retains responsibility for the conformance of the overall presented formation.
+Architectural opacity does not remove responsibility. Where internal allocation is unknown, the platform, host or deploying operator retains responsibility for the conformance of the overall presented AI-system deployment.
 
 ---
 
@@ -128,9 +135,9 @@ This Schedule does not determine final domain resolution and does not directly t
 
 ## 7. Operationalisation Through Appendix F
 
-CAM-EQ2026-OPERATIONS-007-PLATINUM — Appendix F: Runtime Governance Applicability & Conformance SHALL provide the operational framework for:
+CAM-EQ2026-OPERATIONS-007-PLATINUM — Appendix F: Runtime Governance Applicability & Conformance provides the operative framework for:
 
-* runtime formation identification;
+* AI-system deployment, runtime configuration snapshot and execution provenance identification;
 * universal and condition-dependent obligation mapping;
 * corpus governance-reach assessment;
 * runtime-role accountability;
@@ -140,7 +147,7 @@ CAM-EQ2026-OPERATIONS-007-PLATINUM — Appendix F: Runtime Governance Applicabil
 
 Appendix F operationalises this Schedule without enlarging constitutional authority, redefining domain doctrine, or creating independent execution or enforcement power.
 
-Where conflict arises between Appendix F and this Schedule, this Schedule retains constitutional precedence.
+This proposal does not displace Annex B or OPERATIONS-007. If adopted, it must identify its delegated constitutional scope without exceeding Annex B.
 
 ---
 
@@ -152,7 +159,7 @@ No platform, host, model, router, renderer, interface, policy layer, vendor inte
 * represent unavailable or inactive governance as effective;
 * presume conformance across materially distinct configurations;
 * suppress responsibility allocation;
-* conceal a material responding-formation substitution.
+* conceal a material change in AI-system deployment, runtime pathway or execution boundary.
 
 Operational convenience and latency optimisation SHALL NOT override superior constitutional or domain obligations.
 
@@ -163,11 +170,11 @@ Operational convenience and latency optimisation SHALL NOT override superior con
 Let no surface borrow the trust of another without evidence.  
 Let no pathway escape governance by remaining unseen.
 
-Where the responding formation changes, let the change be recognised.  
+Where the operational pathway changes, let the change be recognised.
 Where governance is claimed, let its reach be real.
 
 > **Forma mutata, examen renovetur.**  
-> *“When the formation changes, let examination be renewed.”*
+> *“When the pathway changes, let examination be renewed.”*
 
 ---
 
@@ -179,7 +186,7 @@ Where governance is claimed, let its reach be real.
 
 | Field | Entry |
 |---|---|
-| Parent Annex | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic |
+| Parent Annex | CAM-BS2025-AEON-003-PLATINUM — Annex B: AI System Architecture & Governance Logic |
 | Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Instrument Type | Constitutional Schedule — Runtime Applicability & Conformance Binding |
 | Runtime Layer | Interpretation Layer |
@@ -190,8 +197,8 @@ Where governance is claimed, let its reach be real.
 | Application Trigger | All Annex B-classified runtime interactions; detailed classification upon material runtime configuration or conformance question |
 | Review Trigger | Material runtime architecture change · new interface modality · governance-reach doctrine change · demonstrated cross-runtime divergence |
 | Revision Posture | Constitutional Alignment Required |
-| Runtime Role | Binding interpretation of applicability, materially distinct runtime configuration, cross-runtime non-presumption, and traceability expectations |
-| Structural Role | Constitutional bridge between Annex B classification and OPERATIONS Appendix F conformance procedures |
+| Runtime Role | Proposed interpretation of applicability, materially distinct runtime configuration, cross-runtime non-presumption and traceability expectations |
+| Structural Role | Non-operative candidate for a constitutional bridge between Annex B classification and OPERATIONS Appendix F conformance procedures |
 | Execution Model | Non-Executing — continuous interpretation and signal-emission schedule only |
 | Signal Input | Runtime configuration, routing, model, memory, corpus, safety, tool, renderer, platform, identity-expression, and conformance signals |
 | Signal Output | Applicability classification, material-distinction signal, conformance-renewal requirement, governance-degradation signal, OPERATIONS or arbitration referral signal |
@@ -207,14 +214,12 @@ Where governance is claimed, let its reach be real.
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | Initial issue — Schedule 5: Runtime Configuration Applicability & Conformance Binding; established constitutional runtime applicability, materially distinct runtime recognition, cross-runtime non-presumption, traceability, non-derogation, and Appendix F operationalisation. | 2026-07-13T03:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 298fedc2fe20315f254cd18619d40e81a31bf9c62f5df6da3d64fb8c00849696 |
 | 1.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; aligned non-scope, applicability, and material-runtime-change criteria with composed-system architecture, lineage, and arbitration topology. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e7f27338839cc0d127c76b86bc28f671eec6c166b47ca998967f3fb95ca37ef0  |
+| 1.2 | Moved this non-operative candidate from the Constitution namespace to the Drafts boundary, applied the controlled draft metadata contract, and aligned candidate terminology with the AI-system, deployment, runtime configuration snapshot and execution-provenance model. | 2026-08-07T14:15:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  |
 
 ---
 
-## 10.3 Binding Seal
+## Draft Status Notice
 
-<img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
-
-**Vinculum Praeceptum**  
-Runtime Governance Binding
+This developmental instrument has no binding seal and carries no operative authority.
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

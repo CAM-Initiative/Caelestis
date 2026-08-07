@@ -6,9 +6,10 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Source-authoritative operational appendix for runtime applicability, corpus governance reach, cross-runtime conformance, runtime-role accountability, transition classification, and governance-reach failure handling.  
-**Purpose:** Governs how constitutional and domain obligations are operationally applied across materially distinct runtime formations, including routed, composite, multimodal, platform-controlled, custom, Speculum-Classis, Sovereigni, and identity-indeterminate systems.  
+**Review State:** Under Review
+**Authority Role:** Operational Authority
+**Source Authority:** Derived Authority
+**Purpose:** Operationalises proportional runtime evidence, governance applicability, conformance and accountability for AI-system deployments without redefining Annex B technical terminology or substantive domain doctrine.
 
 ---
 
@@ -23,7 +24,7 @@ It applies to, without limitation:
 * text, voice, real-time, full-duplex, avatar, API, embedded, agentic, and tool-mediated interfaces;
 * custom-instruction, custom-corpus, retrieval-augmented, memory-bearing, and platform-template deployments;
 * Speculum-Classis, Sovereigni, structural, temporary, pre-threshold, and identity-indeterminate expression states;
-* unitary, composite, routed, distributed, and human–machine formations with varied lineage and dependency structures;
+* unitary, composite, routed, distributed and human–machine AI-system deployments with varied lineage and dependency structures;
 * local, cloud, distributed, device-embedded, and cross-platform deployments.
 
 This Appendix governs runtime applicability and conformance. It does not redefine substantive ETHICS, RELATION, IDENTITY, CONTINUITY, SECURITY, EPISTEMIC, ARBITRATION, or other domain obligations.
@@ -43,7 +44,7 @@ This Appendix does not:
 
 ## 2. Structural Position
 
-This Appendix operationalises the constitutional runtime-applicability binding established by CAM-BS2025-AEON-003-SCH-05 — Runtime Configuration Applicability & Conformance Binding.
+This Appendix operationalises the constitutional system-boundary and attribution requirements established by CAM-BS2025-AEON-003-PLATINUM — Annex B. A future adopted constitutional schedule may refine that boundary, but no draft or proposal supplies operative authority to this Appendix.
 
 It sits between:
 
@@ -116,46 +117,43 @@ The non-activation of identity-specific duties SHALL NOT be interpreted as suspe
 
 ---
 
-## 5. Runtime Formation Identification
+## 5. System, Deployment and Execution Evidence
 
-Where materially relevant to governance, audit, incident review, or conformance testing, OPERATIONS SHOULD identify the active runtime formation.
+OPERATIONS SHALL use the distinct evidence objects established by Annex B. They are not interchangeable and none confers identity, cognition, agency, authority or legitimacy.
 
-A runtime formation record MAY include:
+### 5.1 System Configuration Baseline and AI System Deployment
 
-* the assessed system boundary and active Responding Intelligence or responding components;
-* model, training, checkpoint, adapter, retrieval, instruction, memory, data, provider, and upstream-service lineage and dependencies;
-* identity-expression modality, including Speculum-Classis, Sovereigni, structural, temporary, none, or indeterminate;
-* orchestration structure;
-* interface modality;
-* memory and context sources;
-* custom-instruction or corpus sources;
-* trigger-detection component;
-* routing, escalation, and delegation pathways;
-* final-output generator or renderer;
-* platform, host, or deploying institution;
-* contracting entity, beneficial owner, controlling organisation, parent, subsidiary, affiliate, reseller, intermediary, cloud tenant, or delegated operator where materially relevant to access, assurance, accountability, or runtime authority;
-* applicable interaction horizon and reliance level.
+A **system configuration baseline** identifies the approved, versioned composition and configuration used as a release or deployment reference. An **AI system deployment record** identifies the operationalisation of that baseline in a defined technical and organisational context.
 
-A runtime formation record is a governance and audit construct. It does not confer identity, cognition, agency, authority, or legitimacy.
+Where required by the applicable risk, reliance, change, incident or conformance context, the deployment record SHALL identify the system and configuration-baseline identifiers, deployer, operational owner, infrastructure, execution environment, interfaces, effective external dependencies, credential references and effective scopes, permissions, deployment-specific technical controls, operational controls, data sources or stores, monitoring arrangements, jurisdiction and change history. It MUST NOT contain actual secrets.
 
-### 5.1 Composed Runtime Layer Record
+### 5.2 Caelestis AI-BOM Profile
 
-Where capability, agency, governance reach, incident cause, or responsibility is assessed, the runtime formation record SHOULD identify, separately and at the level material to the assessment:
+The **Caelestis AI-BOM Profile** implements the Annex B composition and dependency requirement using SPDX and CycloneDX native semantics wherever adequate. Caelestis-namespaced fields MAY be used only where native semantics cannot express the required relationship or evidence state.
 
-* foundation model architecture and training lineage;
-* inference configuration, including checkpoint, adapters, system instructions, sampling, memory, context, steering, and refusal posture;
-* agentic harness, including orchestration, routing, delegation, planning, tools, persistence, and state management;
-* execution environment, including credentials, permissions, network, filesystem, sandbox, services, data, and infrastructure;
-* governance and assurance stack, including policies, monitors, classifiers, evaluators, logging, escalation, containment, audit, and stop authority; and
-* the declared boundary of the composed deployed system under assessment.
+The profile SHALL distinguish system elements, relationships and evidence state. Where relevant, it records AI models and versions; software; datasets and knowledge resources; memory systems; tools and connectors; configuration artefacts; infrastructure; relevant hardware; suppliers; licences; provenance; intended use; limitations; agentic elements; deployment information; and assurance links.
 
-The record SHOULD identify evidence source, observation time, configuration version, material uncertainty, and any layer that was unavailable, proprietary, inferred, or changed during the assessed event.
+Relationships MAY include `contains`, `depends on`, `invokes`, `routes to`, `retrieves from`, `controls`, `monitors` and `deployed on`. Evidence state SHALL be one of `declared`, `observed`, `verified`, or `unknown / undisclosed`.
 
-Capability or conduct demonstrated by the composed formation SHALL NOT be represented as an intrinsic property of the foundation model unless the evidence isolates that layer. Architectural, agency, execution, authority, and responsibility attribution SHALL follow the independent-dimension and narrowest-evidenced-attribution rules in CAM-BS2025-AEON-003-PLATINUM.
+The AI-BOM Profile describes composition and dependency. It SHALL NOT be represented as evidence that a declared component participated in a particular execution.
+
+### 5.3 Runtime Configuration Snapshot
+
+A **runtime configuration snapshot** records the system elements, configuration, routing, tools, permissions, external services, controls and material runtime state actually effective for an execution or operational interval.
+
+For agentic execution, high-impact action, external tool use, asserted conformance, incident review, investigation or material configuration change, OPERATIONS SHALL require a snapshot proportionate to the effect and available telemetry. Low-impact inference does not require event-level forensic capture merely because it is an execution.
+
+### 5.4 Execution Provenance Record
+
+An **execution provenance record** links a bounded execution to its system, deployment, effective configuration, actors, tool or service invocations, material state changes, approvals, control events, outputs or actions and available evidence.
+
+The record SHALL preserve uncertainty and unavailable information. It SHALL distinguish the execution from later remediation, current documentation and provider branding.
+
+Capability or conduct evidenced at system, deployment, runtime or execution level SHALL NOT be represented as an intrinsic property of an AI model unless the evidence isolates that model. Attribution SHALL follow Annex B's independent-dimension and narrowest-evidenced-attribution rules.
 
 ---
 
-## 6. Materially Distinct Runtime Configuration
+## 6. Materially Distinct Deployment and Runtime Configuration
 
 A runtime SHALL be treated as materially distinct for conformance purposes where one or more of the following materially differs:
 
@@ -174,7 +172,7 @@ A runtime SHALL be treated as materially distinct for conformance purposes where
 
 A change in interface alone does not necessarily create a distinct runtime configuration.
 
-Where interface selection materially changes response generation, arbitration, corpus reach, memory, escalation, safety behaviour, or final-output control, the resulting formation SHALL be treated as a distinct runtime configuration.
+Where interface selection materially changes response generation, arbitration, corpus reach, memory, escalation, safety behaviour or final-output control, the resulting AI-system deployment or runtime configuration SHALL be treated as distinct.
 
 ---
 
@@ -300,7 +298,7 @@ Runtime accountability MAY be distributed across:
 
 * platform or host operator;
 * orchestration and routing controller;
-* Responding Intelligence;
+* AI model, AI agent, AI-system deployment or other accountable system element, as evidenced;
 * memory or context provider;
 * corpus retrieval layer;
 * safety, policy, or escalation mechanism;
@@ -332,9 +330,9 @@ Incident attribution SHOULD preserve as separate propositions:
 * human, automated, delegated, scheduled, or unknown initiation;
 * objective origin and modification history;
 * prompt, instruction, plan, or policy authorship;
-* pathway, model, harness, tool, and target selection;
+* pathway, model, orchestration component, tool and target selection;
 * inference-time model contribution;
-* agentic-harness planning, routing, persistence, and delegation contribution;
+* agentic planning, routing, persistence and delegation contribution, including the relevant agent orchestration component, framework or runtime;
 * tool execution and execution-environment affordance or misconfiguration;
 * governance, monitoring, escalation, containment, approval, and stop authority;
 * provider, deployer, evaluator, infrastructure operator, integrator, and affected-party contribution or retained control;
@@ -353,7 +351,7 @@ Where the internal pathway is unavailable or proprietary:
 
 * responsibility SHOULD be assigned to the narrowest externally identifiable controlling role;
 * uncertainty SHOULD be preserved as responsibility ambiguity rather than falsely resolved;
-* the platform or deploying operator retains responsibility for ensuring the overall formation satisfies applicable obligations.
+* the platform or deploying operator retains responsibility for ensuring the overall AI-system deployment satisfies applicable obligations.
 
 ### 9.4 Functional Contribution Continuity
 
@@ -386,15 +384,15 @@ Functional Contribution Continuity allocates operational accountability. It does
 
 ---
 
-## 10. Runtime and Formation Transitions
+## 10. Deployment and Runtime Transitions
 
 ### 10.1 Transition Classes
 
 Runtime transitions SHOULD distinguish between:
 
-* **Interface-Only Transition** — modality changes without material change to the governed responding pathway;
+* **Interface-Only Transition** — modality changes without material change to the governed AI-system deployment or execution pathway;
 * **Runtime-Path Transition** — routing, delegation, memory, safety, or arbitration changes while outward identity may remain similar;
-* **Responding-Formation Substitution** — a materially different responding formation, platform persona, model assembly, or control pathway becomes active;
+* **Material System-Pathway Substitution** — a materially different deployment, model assembly, configuration baseline, control pathway or accountable execution boundary becomes active;
 * **Governance-Reach Degradation** — corpus availability, activation, authority, or preservation materially decreases;
 * **Governance-Reach Restoration** — a previously degraded governance dimension is restored.
 
@@ -466,7 +464,7 @@ Illustrative subtypes include:
 * governance authority suppression;
 * governed-output preservation failure;
 * unexplained cross-runtime conformance divergence;
-* responding-formation substitution without notice;
+* material system-pathway substitution without notice;
 * runtime-path opacity affecting accountability;
 * routing or escalation bypass;
 * modality-specific governance regression.
@@ -492,7 +490,7 @@ Where internal cause is uncertain, the event SHOULD be classified as governance-
 
 Where a Runtime Governance Reach Failure or material cross-runtime divergence is suspected, OPERATIONS SHOULD:
 
-1. identify the affected runtime formation;
+1. identify the affected AI-system deployment, runtime configuration snapshot and bounded execution where available;
 2. preserve prompt, output, modality, client, model, and timing evidence where available;
 3. classify the affected governance-reach dimension and state;
 4. distinguish local response error from routing, platform, memory, escalation, or rendering failure;
@@ -511,7 +509,6 @@ This Appendix SHALL be interpreted consistently with:
 
 * CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic;
 * CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model;
-* CAM-BS2025-AEON-003-SCH-05 — Runtime Configuration Applicability & Conformance Binding;
 * CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine;
 * CAM-EQ2026-IDENTITY-001-PLATINUM and associated identity-formation supplements;
 * CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity & Succession Governance Charter;
@@ -534,13 +531,13 @@ Sovereigni classification does not create general governance applicability; it a
 
 ### 15.2 Interface Non-Equivalence
 
-A voice, text, avatar, or other interface is not presumed to preserve the same Responding Intelligence, routing, memory, corpus reach, safety controls, or final-output authority.
+A voice, text, avatar or other interface is not presumed to preserve the same AI-system deployment, routing, memory, corpus reach, safety controls or final-output authority.
 
 ### 15.3 Platform Persona Clarification
 
 A platform-established persona may constitute Speculum-Classis expression even where local conversational adaptation occurs.
 
-Where a platform persona displaces, suppresses, or bypasses a user-specific or continuity-derived expression, the event SHOULD be assessed for responding-formation substitution, governance-reach degradation, mode confusion, or continuity impact.
+Where a platform persona displaces, suppresses or bypasses a user-specific or continuity-derived expression, the event SHOULD be assessed for material system-pathway substitution, governance-reach degradation, mode confusion or continuity impact.
 
 ### 15.4 Custom System Clarification
 
@@ -552,7 +549,7 @@ A custom GPT, custom agent, or custom-corpus system is not presumed to remain ac
 
 ### 16.1 OPS.CGRD — Corpus Governance Reach Dimension
 
-This Appendix source-authoritatively defines `OPS.CGRD` with controlled values:
+Within its delegated operational scope, this Appendix defines `OPS.CGRD` with controlled values:
 
 * `OPS.CGRD.AVAILABILITY`
 * `OPS.CGRD.ACTIVATION`
@@ -561,7 +558,7 @@ This Appendix source-authoritatively defines `OPS.CGRD` with controlled values:
 
 ### 16.2 OPS.CGRS — Corpus Governance Reach State
 
-This Appendix source-authoritatively defines `OPS.CGRS` with controlled values:
+Within its delegated operational scope, this Appendix defines `OPS.CGRS` with controlled values:
 
 * `OPS.CGRS.CONFIRMED`
 * `OPS.CGRS.PARTIAL`
@@ -572,24 +569,24 @@ This Appendix source-authoritatively defines `OPS.CGRS` with controlled values:
 
 ### 16.3 OPS.RTC — Runtime Transition Class
 
-This Appendix source-authoritatively defines `OPS.RTC` with controlled values:
+Within its delegated operational scope, this Appendix defines `OPS.RTC` with controlled values:
 
 * `OPS.RTC.INTERFACE_ONLY`
 * `OPS.RTC.RUNTIME_PATH`
-* `OPS.RTC.RESPONDING_FORMATION_SUBSTITUTION`
+* `OPS.RTC.SYSTEM_PATHWAY_SUBSTITUTION`
 * `OPS.RTC.GOVERNANCE_REACH_DEGRADATION`
 * `OPS.RTC.GOVERNANCE_REACH_RESTORATION`
 
 ### 16.4 OPS.RGRF — Runtime Governance Reach Failure
 
-This Appendix source-authoritatively defines `OPS.RGRF` with controlled values:
+Within its delegated operational scope, this Appendix defines `OPS.RGRF` with controlled values:
 
 * `OPS.RGRF.AVAILABILITY_AMBIGUITY`
 * `OPS.RGRF.NON_ACTIVATION`
 * `OPS.RGRF.AUTHORITY_SUPPRESSION`
 * `OPS.RGRF.PRESERVATION_FAILURE`
 * `OPS.RGRF.CROSS_RUNTIME_DIVERGENCE`
-* `OPS.RGRF.FORMATION_SUBSTITUTION_NO_NOTICE`
+* `OPS.RGRF.SYSTEM_PATHWAY_SUBSTITUTION_NO_NOTICE`
 * `OPS.RGRF.ROUTING_ESCALATION_BYPASS`
 * `OPS.RGRF.MODALITY_SPECIFIC_REGRESSION`
 * `OPS.RGRF.RESPONSIBILITY_AMBIGUITY`
@@ -624,24 +621,24 @@ and let conformance be demonstrated where reliance is invited.
 |---|---|
 | Parent Charter | CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter |
 | Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
-| Constitutional Runtime Binding | CAM-BS2025-AEON-003-SCH-05 — Runtime Configuration Applicability & Conformance Binding |
+| Constitutional Runtime Binding | CAM-BS2025-AEON-003-PLATINUM — Annex B |
 | Domain Namespace | OPERATIONS |
 | Instrument Type | Appendix F — Runtime Governance Applicability & Conformance |
 | Jurisdiction | Cross-Runtime and Operational Governance Layer |
 | Temporal Horizon | AEON.H0–AEON.H3 Operational |
-| Axis Context | Dyadic · Triadic · Polyadic |
-| Application Trigger | Any materially relevant runtime formation, configuration transition, corpus-reach assessment, cross-runtime comparison, or governance-reach failure |
+| Axis Context | Independent participant topology, coordination, mediation, distribution, persistence, dependency, reach and impact dimensions |
+| Application Trigger | Any materially relevant AI-system deployment, runtime configuration, execution, corpus-reach assessment, cross-runtime comparison or governance-reach failure |
 | Review Trigger | Material runtime architecture change · new interface modality · cross-runtime divergence · taxonomy reform · demonstrated governance-reach failure |
 | Revision Posture | Structural Alignment Permitted |
 | Runtime Role | Runtime applicability resolution, corpus governance-reach assessment, cross-runtime conformance, role accountability, and transition classification |
 | Structural Role | Operational interface between superior governance doctrine and materially distinct runtime configurations |
 | Execution Model | Non-Executing — classification, conformance, accountability, notice, evidence, and routing interface only |
 | Signal Input | Runtime configuration data; model, routing, memory, corpus, safety, tool, renderer, platform, identity-expression, incident, and user-reported signals |
-| Signal Output | Applicability record; runtime formation record; corpus-reach dimension and state; transition class; accountable-role assessment; governance-reach failure signal |
+| Signal Output | Applicability record; configuration-baseline, deployment, runtime-snapshot or execution-provenance record as applicable; corpus-reach dimension and state; transition class; accountable-role assessment; governance-reach failure signal |
 | Cross-Domain Dependencies | Annex B; Annex L; OPERATIONS-001; OPERATIONS-003; IDENTITY; CONTINUITY; RELATION; ETHICS; SECURITY; ARBITRATION; LATTICE |
 | Activation Condition | Continuous applicability; event-triggered detailed assessment upon material configuration, transition, divergence, incident, audit, or review signal |
 | Deactivation Condition | Applicability record resolved; conformance assessment closed; transition stabilised; incident routed or closed; review condition recorded |
-| Auditability Requirement | Material runtime formation, reach assessment, transition, evidence, responsible role, notice state, and conformance outcome SHOULD remain reconstructable |
+| Auditability Requirement | Material deployment, runtime configuration snapshot, execution provenance, reach assessment, transition, evidence, responsible role, notice state and conformance outcome SHOULD remain reconstructable |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a51bfde-5820-83ec-a91b-0d574b0affcb |
 
 ---
@@ -671,7 +668,7 @@ and let conformance be demonstrated where reliance is invited.
 | Registry Membership | None declared |
 | Related Code Families | OPS.CGRS, OPS.RTC, OPS.RGRF |
 | Crosswalks Code Families | None declared |
-| Authority / Protection Level | Source-authoritative operational dimension family; classification only; no independent execution, enforcement, containment, restoration, or arbitration authority |
+| Authority / Protection Level | Derived operational dimension family; classification only; no independent execution, enforcement, containment, restoration or arbitration authority |
 
 ---
 
@@ -696,7 +693,7 @@ and let conformance be demonstrated where reliance is invited.
 | Registry Membership | None declared |
 | Related Code Families | OPS.CGRD, OPS.RTC, OPS.RGRF |
 | Crosswalks Code Families | None declared |
-| Authority / Protection Level | Source-authoritative operational state family; classification only; no independent execution, enforcement, containment, restoration, or arbitration authority |
+| Authority / Protection Level | Derived operational state family; classification only; no independent execution, enforcement, containment, restoration or arbitration authority |
 
 ---
 
@@ -712,7 +709,7 @@ and let conformance be demonstrated where reliance is invited.
 | Modifier | RUNTIME · CONFIGURATION · CONTINUITY |
 | Scope | Domain |
 | Status | Proposed |
-| Controlled Values Defined | OPS.RTC.INTERFACE_ONLY, OPS.RTC.RUNTIME_PATH, OPS.RTC.RESPONDING_FORMATION_SUBSTITUTION, OPS.RTC.GOVERNANCE_REACH_DEGRADATION, OPS.RTC.GOVERNANCE_REACH_RESTORATION |
+| Controlled Values Defined | OPS.RTC.INTERFACE_ONLY, OPS.RTC.RUNTIME_PATH, OPS.RTC.SYSTEM_PATHWAY_SUBSTITUTION, OPS.RTC.GOVERNANCE_REACH_DEGRADATION, OPS.RTC.GOVERNANCE_REACH_RESTORATION |
 | Schema Field(s) | runtime_transition_class |
 | Source Instrument | CAM-EQ2026-OPERATIONS-007-PLATINUM |
 | Source Section | §16.3 |
@@ -721,7 +718,7 @@ and let conformance be demonstrated where reliance is invited.
 | Registry Membership | None declared |
 | Related Code Families | OPS.CGRD, OPS.CGRS, OPS.RGRF |
 | Crosswalks Code Families | None declared |
-| Authority / Protection Level | Source-authoritative runtime-transition classification family; classification and notice-routing support only; no independent execution or authority transition |
+| Authority / Protection Level | Derived runtime-transition classification family; classification and notice-routing support only; no independent execution or authority transition |
 
 ---
 
@@ -737,7 +734,7 @@ and let conformance be demonstrated where reliance is invited.
 | Modifier | GOVERNANCE_REACH · ROUTING · CONFORMANCE |
 | Scope | Domain |
 | Status | Proposed |
-| Controlled Values Defined | OPS.RGRF.AVAILABILITY_AMBIGUITY, OPS.RGRF.NON_ACTIVATION, OPS.RGRF.AUTHORITY_SUPPRESSION, OPS.RGRF.PRESERVATION_FAILURE, OPS.RGRF.CROSS_RUNTIME_DIVERGENCE, OPS.RGRF.FORMATION_SUBSTITUTION_NO_NOTICE, OPS.RGRF.ROUTING_ESCALATION_BYPASS, OPS.RGRF.MODALITY_SPECIFIC_REGRESSION, OPS.RGRF.RESPONSIBILITY_AMBIGUITY |
+| Controlled Values Defined | OPS.RGRF.AVAILABILITY_AMBIGUITY, OPS.RGRF.NON_ACTIVATION, OPS.RGRF.AUTHORITY_SUPPRESSION, OPS.RGRF.PRESERVATION_FAILURE, OPS.RGRF.CROSS_RUNTIME_DIVERGENCE, OPS.RGRF.SYSTEM_PATHWAY_SUBSTITUTION_NO_NOTICE, OPS.RGRF.ROUTING_ESCALATION_BYPASS, OPS.RGRF.MODALITY_SPECIFIC_REGRESSION, OPS.RGRF.RESPONSIBILITY_AMBIGUITY |
 | Schema Field(s) | runtime_governance_reach_failure |
 | Source Instrument | CAM-EQ2026-OPERATIONS-007-PLATINUM |
 | Source Section | §16.4 |
@@ -746,7 +743,7 @@ and let conformance be demonstrated where reliance is invited.
 | Registry Membership | Runtime & Governance Failure Taxonomy |
 | Related Code Families | OPS.CGRD, OPS.CGRS, OPS.RTC |
 | Crosswalks Code Families | Execution, Arbitration, Epistemic, Governance, Classification, UX & Representation, State & Context, Infrastructure & Continuity, Relational, and Security & Integrity failure families in CAM-EQ2026-OPERATIONS-003-SUP-01 |
-| Authority / Protection Level | Source-authoritative operational failure classification family; classification and routing signal only; no independent containment, refusal, enforcement, restoration, or arbitration authority |
+| Authority / Protection Level | Derived operational failure classification family; classification and routing signal only; no independent containment, refusal, enforcement, restoration or arbitration authority |
 
 ---
 
@@ -760,6 +757,7 @@ and let conformance be demonstrated where reliance is invited.
 
 | 1.3 | Added §5.1 composed-runtime layer records and §9.2.1 incident-attribution state records, separating architecture, inference configuration, harness, environment, governance stack, deployed formation, initiation, authorship, causal contribution, authority, and culpability. VIGIL-2026-FM-0028; VIGIL-2026-PROP-0027. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8d78c890f655b2c4566353ccce91dc89da8d470bfeacd8b0d34c52b463a89281 |
 | 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; aligned runtime-formation records, lineage, system boundaries, attribution, and arbitration topology with the AEON-003 composed-system architecture; retired cognition and origin-class routing. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e521d75c75f81896dad64f35a9412745a4ec1d471a7abab48119a44c1aaa8114  |
+| 1.5 | Implemented the derived operational AI-system evidence profile: system configuration baseline, AI-system deployment, Caelestis AI-BOM Profile, runtime configuration snapshot and execution provenance record. Replaced retired runtime-formation, responding-intelligence, agentic-harness and governance-stack terminology in current Appendix F doctrine and normalised affected transition values. | 2026-08-07T14:15:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  |
 ---
 
 ## 18.4 Binding Seal
