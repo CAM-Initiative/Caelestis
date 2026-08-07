@@ -69,9 +69,9 @@
       "authority_role": "** None",
       "version": "1.13",
       "HASH": "9a9b335752e4cb81ef87ef6747f8596041bde73200d02a8db759af3d48d5f1ac",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "9073ec8d92b66b288ea9ad3bde1131b1e5affa6f",
+      "updated_at": "2026-08-07T14:49:52Z",
+      "last_updated_utc": "2026-08-07T14:49:52Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001-SUP-01",
@@ -93,9 +93,9 @@
       "authority_role": "** None",
       "version": "1.7",
       "HASH": "c00b93e42d05d5b20b4b4795e1541726f10f32ef21e2e866322905ec372c69e3",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "9073ec8d92b66b288ea9ad3bde1131b1e5affa6f",
+      "updated_at": "2026-08-07T14:49:52Z",
+      "last_updated_utc": "2026-08-07T14:49:52Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001-PLATINUM",
@@ -477,9 +477,9 @@
       "authority_role": "** Domain Source Authority",
       "version": "3.5",
       "HASH": "f5a30ea52a1ff8669b08e127a05d9678c51ae38d17e2931ea906556b437683ab",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "9073ec8d92b66b288ea9ad3bde1131b1e5affa6f",
+      "updated_at": "2026-08-07T14:49:52Z",
+      "last_updated_utc": "2026-08-07T14:49:52Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-002-PLATINUM",
@@ -501,9 +501,9 @@
       "authority_role": "** Domain Source Authority — Provenance & Lineage Integrity",
       "version": "1.4",
       "HASH": "1147da2bd7845fe7ec337883cfc3069f16655fd05ebf3ee15e7cf776eacdef3b",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "9073ec8d92b66b288ea9ad3bde1131b1e5affa6f",
+      "updated_at": "2026-08-07T14:49:52Z",
+      "last_updated_utc": "2026-08-07T14:49:52Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-003-PLATINUM",
@@ -1245,9 +1245,9 @@
       "authority_role": "** Domain Authority",
       "version": "1.19",
       "HASH": "8ac9e4c5c53961229a436e661a87dbe080ed43fa5b837e24eb216cc37e2007ff",
-      "pinned_sha": "6c7e6b6d272f48a89fb78e3e500d76e1fe03b93f",
-      "updated_at": "2026-08-07T14:23:21Z",
-      "last_updated_utc": "2026-08-07T14:23:21Z"
+      "pinned_sha": "9d30cec0c2a4c42b781a99a445490df040acc856",
+      "updated_at": "2026-08-07T14:48:56Z",
+      "last_updated_utc": "2026-08-07T14:48:56Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-002-PLATINUM",
