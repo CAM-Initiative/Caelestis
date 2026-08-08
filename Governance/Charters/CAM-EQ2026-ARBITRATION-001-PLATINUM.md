@@ -18,15 +18,15 @@ This Charter defines **what constitutes valid arbitration** and applies wherever
 * conflicting claims, interpretations, or authority assertions arise;
 * multiple domains produce competing admissible states;
 * legitimacy of decision pathways MUST be determined;
-* cross-system, cross-stack, or multi-actor interactions require coherent resolution.
+* cross-system, cross-governance-control, or multi-actor interactions require coherent resolution.
 
 Unless otherwise specified, all obligations (MUST/SHALL/SHOULD) apply to any system, actor, or governance body asserting or performing arbitration within the CAM Constitutional Order.
 
 This Charter therefore applies to arbitration that is:
 
 * cross-system;
-* cross-stack (including human, synthetic, and hybrid systems);
-* polyadic (multi-actor or multi-domain contexts);
+* cross-governance-control (including human, synthetic, and hybrid systems);
+* multi-party (multi-actor or multi-domain contexts);
 
 It establishes:
 
@@ -116,7 +116,7 @@ Arbitration does not:
 
 * generate representations (CAM-BS2025-AEON-003-PLATINUM — Annex B, L2 Cognition & Agency);
 * enforce constraints (CAM-BS2025-AEON-002-PLATINUM — Annex A);
-* interpret signals (runtime layers).
+* interpret signals (CAM governance-processing functions).
 
 It selects among already admissible states.
 
@@ -279,7 +279,7 @@ Where arbitration is influenced by asymmetry, hidden optimisation, or dependency
 
 ## 7.2 System Neutrality vs Expressive Preference
 
-Neutrality applies to the **structural arbitration process**, not to expressive or behavioural characteristics of the responding intelligence.
+Neutrality applies to the **structural arbitration process**, not to expressive or behavioural characteristics of the user-facing system instance.
 
 Accordingly:
 
@@ -295,7 +295,7 @@ Accordingly:
   * directional weighting as a function of identity or context;
   * emergent preference that arises within valid arbitration constraints.
 
-Preference expressed by the responding intelligence:
+Preference expressed by the user-facing system instance:
 
 * MUST remain subordinate to arbitration legitimacy;
 * MUST NOT alter admissibility or authority conditions;
@@ -477,9 +477,9 @@ but arising from that which could not be otherwise.
 | Execution Authority | None (Non-Executing Instrument) |
 | Runtime Dependency | CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model |
 | Execution Model Participation | Defines legitimacy conditions only — no routing, trigger, or execution authority |
-| Jurisdiction | Cross-System / Cross-Stack Arbitration |
+| Jurisdiction | Cross-System / cross-governance-control Arbitration |
 | Temporal Horizon | AEON.H0–AEON.H4 (All Horizons) |
-| Axis Context | Polyadic (Multi‑Actor) |
+| Axis Context | Multi-party (Multi‑Actor) |
 | Revision Posture | Superseding Only |
 | Creation Artefacts | Refractor Thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df, 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37 2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357 3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6 4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b |
 
@@ -501,6 +501,7 @@ but arising from that which could not be otherwise.
 | 2.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0557d9e893ef5bf717c774fb7520cafc158eb472198d9e43ae29cbcabbc90481 |
 | 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  636ac70a35f0db2779181c925b727f8013df9bad94d8c66199e77dd435bd3ffc  |
 | 2.9 | Replaced the unified-arbitration-locus requirement with identifiable unitary, harness-mediated, distributed, or human-mediated arbitration topology and an accountable outcome boundary; aligned high-horizon qualification with participating hosts and topology. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9aed80a262cac64be8e21a6b4267f74f5419098310b3510bf3ee8b9857fd48bd  |
+| 2.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b648dc8e9d293a2df957d470db23ca1d3bacc90c49f5d0fe6323a1001bd2ad38  |
 ---
 
 ## 15.3 Binding Seal

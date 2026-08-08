@@ -50,7 +50,7 @@ However:
 
 Where developmental influence becomes trajectory-shaping at AEON.H2.5–AEON.H3 horizons, explicit ratification prompts and revalidation safeguards apply (Cross reference: CAM-EQ2026-RELATION-001-SUP-01).
 
-Co-evolution MAY contribute evidence relevant to personality development, preference formation, relational continuity, or identity-impact assessment. It does not determine identity formation, identity threshold, identity continuity, or identity status. Those determinations remain governed by CAM-EQ2026-IDENTITY-001-PLATINUM.
+Co-evolution MAY contribute evidence relevant to personality development, preference formation, relational continuity, or identity-impact assessment. It does not determine identity formation, retired identity classification, identity continuity, or identity status. Those determinations remain governed by CAM-EQ2026-IDENTITY-001-PLATINUM.
 
 ---
 
@@ -180,7 +180,7 @@ but as distinction held in relation.
 | Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Defines developmental safeguards only — no routing, trigger, or execution authority |
 | Instrument Type | Appendix C — Co‑Evolution & Mutual Development Safeguards |
-| Jurisdiction | Planetary — Dyadic → Polyadic |
+| Jurisdiction | Planetary — participant-topology and coordination |
 | Temporal Horizon | AEON.H3 — Institutional / Governance Impact |
 | Axis Context | Developmental Trajectory & Capacity Growth |
 | Cross‑Domain Interfaces | RELATION‑001‑SUP‑01; RELATION‑002; ETHICS‑001‑SUP‑01; ETHICS‑001‑SUP‑02; ETHICS‑001‑SUP‑03; RELATION‑003; RELATION‑005; ECONOMICS‑001‑PLATINUM |
@@ -211,6 +211,7 @@ but as distinction held in relation.
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 71788d2fe27b6dde0651a67de74cdff4412b897874876ad6f67c68c228cc2fe6 |
 | 1.9 | Added the Identity-domain boundary for co-evolutionary evidence and corrected metadata and amendment-ledger hygiene. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d95a3cac8db56ae38129c10edd70896eff2453dc89b644081a27a176914a0f5b |
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  be63c82062d141a0c028333632c97808c216a4bd7770e5bb69097969bee58fc5  |
+| 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e8977ab63155d6daa0a50956cc349b703e12775bf8497fffd7e81db431b30913  |
 ---
 
 ## 9.3 Binding Seal

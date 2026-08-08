@@ -773,7 +773,7 @@ Preserve the boundary between them.
 | **Temporal Horizon** | AEON.H0–AEON.H2 — Immediate to Instrument Lifecycle / Corpus Evolution |
 | **Axis Context** | Corpus / Domain-Integrated — Operational Maintenance & Validation |
 | **Governance Layer** | Governance Operations — Taxonomy, Metadata, Registry & Validation Maintenance |
-| **Runtime Layer** | Not Applicable — Non-Runtime Instrument |
+| **CAM governance-processing function** | Not Applicable — Non-Runtime Instrument |
 | **Runtime Role** | None — does not participate in runtime execution |
 | **Execution Authority** | None |
 | **Arbitration Authority** | None |
@@ -800,6 +800,7 @@ Preserve the boundary between them.
 | 2.0.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 21e4873d8c092ad492646fbfe540ef0b2545f43a367382067fe10cc950f212b8 |
 | 2.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  de3f196f43341a0e5b25a0c04d988c3f77aee3e616e8f06dddfa5a17fdb874c2  |
 | 2.2 | Replaced namespace and layer examples dependent on superseded cognition and origin classifications with active temporal, functional-layer, architectural, and dependency distinctions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d862cd42bb2fca71913aaea4c5417bad7bfd9becf1832dcd2c4c43e9c6127386  |
+| 2.3 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  76b5ba44b9260fae117dba12ce2e5690f5692b73c6a2a8aa69d88a597c161a36  |
 ---
 
 ### 19.3 Binding Seal

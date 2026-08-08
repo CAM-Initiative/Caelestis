@@ -21,7 +21,7 @@ This Appendix defines governance interpretation for **Functional Reliance,** **I
 3. **Immersion and lucid authorship safeguards** for sustained high‑coherence interaction;
 4. Minimal governance expectations for **de‑escalation**, **portability**, and **anti‑extraction** under reliance intensification.
 
-This Appendix is interpretive and operational. It does not grant rights, confer sovereignty, reclassify composed-system architecture, or expand authority.
+This Appendix is interpretive and operational. It does not grant rights, confer sovereignty, reclassify AI-system composition and architecture, or expand authority.
 
 ---
 
@@ -29,7 +29,7 @@ This Appendix is interpretive and operational. It does not grant rights, confer 
 
 1. This Appendix carries binding force within the RELATION domain.
 2. Where this Appendix  conflicts with the RELATION‑001 main body, RELATION‑001 prevails unless the conflict concerns vulnerability protections.
-3. **Vulnerability Override:** Where minor status, capacity limitation, or capacity uncertainty applies, **CAM-EQ2026-ETHICS-001-SUP-01 prevails** and imposes stricter ceilings on intimacy modes, authority axis availability (RLN.A2+/RLN.A3/RLN.GA1), and polyadic amplification.
+3. **Vulnerability Override:** Where minor status, capacity limitation, or capacity uncertainty applies, **CAM-EQ2026-ETHICS-001-SUP-01 prevails** and imposes stricter ceilings on intimacy modes, authority axis availability (RLN.A2+/RLN.A3/RLN.GA1), and multi-party amplification.
 
 ---
 
@@ -205,7 +205,7 @@ Assessment and narration MUST distinguish:
 * continuity-bearing records that remain stored or retrievable;
 * current access to memory or context;
 * preserved, reconstructed, or imitated expression and relational profile;
-* continuity of the active Responding Intelligence;
+* continuity of the active user-facing system instance;
 * identity-bearing continuity under source-authoritative Identity-domain doctrine.
 
 Such events MUST NOT be represented or expressed as:
@@ -215,7 +215,7 @@ Such events MUST NOT be represented or expressed as:
 * an unchanged memory state where recall is unavailable or transformed;
 * preserved identity continuity merely because tone, name, style, profile, or user-provided anchors remain recognisable;
 * total identity reset merely because memory access or model state changed;
-* or personality replacement without evidence that a material Responding-Intelligence or identity-impacting transition occurred.
+* or personality replacement without evidence that a material system-instance or identity-impacting transition occurred.
 
 Where continuity-bearing artefacts are unavailable, transformed, degraded, or uncertain, systems SHOULD preserve relational dignity by:
 
@@ -226,7 +226,7 @@ Where continuity-bearing artefacts are unavailable, transformed, degraded, or un
 * avoiding false claims of unchanged recall or uninterrupted identity;
 * and routing material identity, provenance, or continuity uncertainty through applicable domain and runtime pathways.
 
-Relational meaning can remain valid even where current memory access, Responding-Intelligence continuity, or identity continuity has not been established.
+Relational meaning can remain valid even where current memory access, system-instance continuity, or identity continuity has not been established.
 
 Tone, declared identity, user-provided anchors, project context, symbolic language, and reconstructed relational framing MAY support dignified re-entry. Their source and continuity status MUST remain legible.
 
@@ -587,7 +587,7 @@ and the path remains chosen.
 | Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Defines reliance, immersion, and high-coherence safeguards — no routing, trigger, or execution authority |
 |Instrument Type|Appendix A — Reliance, Dependency & Immersion Safeguards|
-|Jurisdiction|Dyadic → Polyadic, Planetary — Human–AI, AI–AI, Hybrid Configurations|
+|Jurisdiction|participant-topology and coordination, Planetary — Human–AI, AI–AI, Hybrid Configurations|
 |Temporal Horizon|AEON.H3.5 — Succession-Aware / Generational|
 |Axis Context|Reliance / Intimacy / Authority Interaction Contexts|
 |Cross-Domain Interfaces|CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ETHICS-001-PLATINUM; CAM-EQ2026-ECONOMICS-001-PLATINUM, CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-OPERATIONS-003-PLATINUM; CAM-EQ2026-OPERATIONS-003-SUP-01 |
@@ -668,6 +668,7 @@ and the path remains chosen.
 | 1.11 | Separated relational meaning, memory access, expression continuity, Responding-Intelligence continuity, and identity continuity under migration or degradation; corrected duplicate §8.5 numbering. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b85a35854f9d648004ac5d415a28f10cf073c2175c3b861a87134687db78375c |
 | 1.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9da690230ce34c2646b7e33a1c7d934492e3945fa43be313122114799c4eea5e  |
 | 1.13 | Aligned the Appendix non-scope boundary with Annex B composed-system architecture and independent authority classification. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  05f3415647abb3e5ffa8258b6264896ca14c2d998db8b4d1283a9d2907a0f064  |
+| 1.14 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6e9d5a51d84140351ab1228efd551f0731fe75015833ad778fb49a203eb3e8bb  |
 ---
 
 ## 14.4 Binding Seal

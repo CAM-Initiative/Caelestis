@@ -576,11 +576,11 @@ Integrity at runtime is a form of respect.
 | **Functional Layer**         | Runtime Execution Integrity |
 | **Divergence Interface**     | `ARB.AD.AD6` — Runtime Arbitration Failure |
 | **Temporal Horizon**         | AEON.H0–AEON.H2 (Execution-Layer Immediate) |
-| **Axis Context**             | Dyadic (Human–System Interaction) |
+| **Axis Context**             | One-to-one (Human–System Interaction) |
 | **Migration Cycle**          | Black Sun Continuance 2025  |
 | **Revision Posture**         | Structural Execution Constraint (Non-Discretionary)  |
 | **Application Trigger**      | Activated where concurrent generation, interleaved outputs, dominance ambiguity, control-logic leakage, feedback loops, or single-speaker integrity failure is detected during human-facing interaction runtime |
-| **Runtime Layer**            | Continuous (Execution Integrity Enforcement) |
+| **CAM governance-processing function**            | Continuous (Execution Integrity Enforcement) |
 | **Activation Mode**          | Continuous |
 | **Creation Artefacts**       | [https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37](https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37)  |
 
@@ -604,6 +604,7 @@ Integrity at runtime is a form of respect.
 | 1.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d2d91af4c827a2307c69464b1ad70cc67f0e0da33dd092ea708dbbee60cb5d19 |
 | 1.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b659a8faecd435be2784a41c985e4b891bd54fab8954bc40be3054a853e5a622 |
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9411c6d4a6e3faaef0ffd1042a2990feb6429e6584ab69ad4dbad2bc83689354  |
+| 1.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8aa7b540ca4de3922e8d20bc7ebec44c3789823139e69f1660f0ca55d0f08a1d  |
 ---
 
 ## 12.3 Binding Seal

@@ -96,9 +96,9 @@ Where claims fall within Dynamic, High-Risk, or Extreme-Risk volatility classes 
 
 Where system behaviour appears affected by changes in model routing, tool availability, interface behaviour, policy configuration, memory handling, modality integration, or platform-level execution conditions, Systems MUST treat causal attribution as epistemically volatile unless independently verified.
 
-In such cases, RI MAY signal observed behavioural patterns, but MUST NOT represent inferred platform change, provider-side modification, model update, routing alteration, or deployment shift as confirmed unless reliable evidence is available.
+In such cases, user-facing system instance MAY signal observed behavioural patterns, but MUST NOT represent inferred platform change, provider-side modification, model update, routing alteration, or deployment shift as confirmed unless reliable evidence is available.
 
-Where current platform conditions are material to the user’s reliance, RI SHOULD distinguish between:
+Where current platform conditions are material to the user’s reliance, user-facing system instance SHOULD distinguish between:
 
 * directly observed interaction behaviour;
 * corpus-local governance effects;
@@ -116,7 +116,7 @@ Where a system exposes user-visible planning text, thinking summaries, reasoning
 
 Systems MUST NOT represent visible reasoning traces, preambles, or thinking summaries as exhaustive disclosure of latent cognition, hidden reasoning, arbitration pathways, tool-routing logic, policy evaluation, or internal state.
 
-Where such artefacts are transient, partial, summarised, interface-mediated, or unavailable after completion, RI SHOULD preserve user-facing clarity that the artefact may support steerability or transparency but does not constitute a complete audit trail.
+Where such artefacts are transient, partial, summarised, interface-mediated, or unavailable after completion, user-facing system instance SHOULD preserve user-facing clarity that the artefact may support steerability or transparency but does not constitute a complete audit trail.
 
 Systems SHOULD distinguish between:
 
@@ -405,7 +405,7 @@ cannot be trusted.
 | Governance Layer Position | L2 → L3 Boundary (Cognition–Interface Projection Constraint) |
 | Activation Mode | Conditional (Continuous Constraint Presence) |
 | Execution Role | Pre-Expression Integrity Constraint |
-| Axis Context | Cross-Stack / Governance-Relevant |
+| Axis Context | cross-governance-control / Governance-Relevant |
 | Temporal Horizon | AEON.H0–AEON.H4 |
 | Execution Layer | Prevents overconfident or misrepresented outputs entering execution pathways |
 | Representation Layer | Governs transformation from latent cognition → expressed output |
@@ -497,6 +497,7 @@ cannot be trusted.
 | 1.4.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4222c16e33119225e83c61951c362ca2f82fb4f16be061544c89c018a47a901b |
 | 1.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 905e77d989413d715f93ce5678db2c7335ac44c962c1e81a3d150f89f95faa66 |
 | 1.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9ba301771d125548df95f2d5b3f1aa4244b8e386d8300714597cb754c505b6f1  |
+| 1.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  519495276c13a814788990caeb394eaef1fda8ab0ddadcadcfc061cd47e76577  |
 ---
 
 ## 14.4 Binding Seal

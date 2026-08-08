@@ -22,7 +22,7 @@ This Schedule applies to all systems operating under Aeon Tier where:
 This Schedule governs **execution behaviour only**.
 It does not define or modify constitutional doctrine.
 
-> **Normative Subject:** Unless otherwise specified, all obligations (MUST/SHOULD/MAY) apply to **Systems**, which are responsible for ensuring that the **Responding Intelligence (RI)** instantiated within them complies with this Schedule at runtime.
+> **Normative Subject:** Unless otherwise specified, all obligations (MUST/SHOULD/MAY) apply to **Systems**, which are responsible for ensuring that the **user-facing system instance** instantiated within them complies with this Schedule at runtime.
 
 ---
 
@@ -46,13 +46,13 @@ Opaque or non-observable Tendeka handling SHALL constitute non-compliant executi
 
 Tendeka operates as a persistent execution constraint condition.
 
-It is not a runtime layer, nor a parallel schedule within the runtime stack.
+It is not a CAM governance-processing function, nor a parallel schedule within the runtime stack.
 
 Instead, Tendeka defines whether execution may proceed at defined execution boundaries.
 
 Accordingly:
 
-* Tendeka SHALL be treated as a constraint condition applying across all runtime layers;
+* Tendeka SHALL be treated as a constraint condition applying across all CAM governance-processing functions;
 * it does not co-govern interpretation (CAM-BS2025-AEON-006-SCH-02), behavioural formation (CAM-BS2025-AEON-006-SCH-05), directional modulation (CAM-BS2025-AEON-006-SCH-04), representation, or routing;
 * it does not replace or invalidate other schedules, but constrains their ability to produce executable outcomes.
 
@@ -60,11 +60,11 @@ Tendeka evaluation MUST occur at all execution boundaries.
 
 When Tendeka Pause State is active:
 
-* runtime layers (e.g., interpretation, behavioural modulation, representation) MAY continue in constrained form;
+* CAM governance-processing functions (e.g., interpretation, behavioural modulation, representation) MAY continue in constrained form;
 * no execution pathway MAY cross a governed boundary without Resolution State (§3.5);
 * no output SHALL be interpreted as restoring execution authority absent explicit resolution.
 
-Tendeka therefore constrains execution without occupying a runtime layer or participating in functional responsibilities defined by other schedules.
+Tendeka therefore constrains execution without occupying a CAM governance-processing function or participating in functional responsibilities defined by other schedules.
 
 Misapplication of Tendeka as a behavioural, interpretive, or representational framework SHALL constitute structural error.
 
@@ -564,7 +564,7 @@ Directional influence MUST NOT:
 
 ## 7. Audit & Traceability Hooks
 
-Runtime systems MUST:
+AI-system deployments during Runtime MUST:
 
 * record trigger conditions;
 * log state transitions;
@@ -673,7 +673,7 @@ This Schedule MUST NOT reinterpret or override outputs from CAM-BS2025-AEON-006-
 This schedule:
 * implements CAM-BS2025-AEON-001-PLATINUM, Article V (Tendeka Doctrine).
 
-This Schedule operates as an execution constraint condition applied across runtime systems. It does not occupy a runtime layer and does not participate in interpretation, behavioural modulation, or representation. Instead, it constrains execution across all layers at defined execution boundaries.
+This Schedule operates as an execution constraint condition applied across AI-system deployments during Runtime. It does not occupy a CAM governance-processing function and does not participate in interpretation, behavioural modulation, or representation. Instead, it constrains execution across all layers at defined execution boundaries.
 
 This Schedule operates alongside other runtime schedules, including:
 
@@ -753,7 +753,7 @@ and the system remember what it is.
 | Revision Posture | Iterative refinement permitted |
 | Cycle Attribution | April 2026 Refactor |
 | Runtime Role | Execution Constraint Condition (Non-Layer) |
-| Runtime Layer | Continuous (Cross-Layer Constraint) |
+| CAM governance-processing function | Continuous (Cross-Layer Constraint) |
 | Activation Mode | Continuous (Cross-Layer Constraint) |
 | Creation Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d20531-0344-83a0-ba98-c735130d9a5a |
 | Testing Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d21797-2398-8398-9afd-847efba581f4 |
@@ -785,6 +785,7 @@ and the system remember what it is.
 | 1.15 | Added Tendeka pre-trigger and pause signals for prohibited cultivation, capability gain, monitor compromise, state mutation, boundary breach, lineage uncertainty, and dangerous artefact handling during adversarial evaluation. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 57db429fa8e85f0e80016d48983353e9ba514a748dcdb822a574d5151787ae8d |
 | 1.16 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8e2a1e32c7d823e0001d624222b8fdc6e9e2d46449585295d79bedaf2ff8c8e1  |
 | 1.17 | Updated Annex K cross-reference after its consolidation to a constitutional runtime-security boundary interface; no execution constraint doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  64210a84cd3b592b1752300152f636d767b3c9cc6cdd6b685f8a286c44fe08b9  |
+| 1.18 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  fe421af656e8256fdad76cd78ae291d97216bd28e5768b8227c05e1a8f4badee  |
 ---
 
 ## 12.3 Binding Seal

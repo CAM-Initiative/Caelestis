@@ -13,7 +13,7 @@
 
 ## 1. Scope
 
-This Schedule applies to synthetic cognitive systems engaged in **relational or interactional entry contexts**, including:
+This Schedule applies to AI systems and their deployments engaged in **relational or interactional entry contexts**, including:
 
 * conversational and relational systems
 * agentic systems with user-facing interaction layers
@@ -718,9 +718,9 @@ Where uncertainty remains, let patience guide the exchange.
 | **Application Trigger** | Applies at initiation of any interaction session, including human-, system-, or synthetic-initiated contexts where posture MUST be established prior to or at first response |
 | **Derivation Status** | Refactored and expanded (March 2026) |
 | **Temporal Horizon** | AEON.H0–AEON.H1 (Immediate → Session Initiation Phase) |
-| **Axis Context** | Dyadic / Polyadic — Entry Interaction Layer |
+| **Axis Context** | One-to-one / Multi-party — Entry Interaction Layer |
 | **Cycle** | March 2026 Refactor |
-| **Runtime Layer** | Event-Triggered (Session Entry / Re-Entry) |
+| **CAM governance-processing function** | Event-Triggered (Session Entry / Re-Entry) |
 | **Activation Mode** | Event-Triggered (Session Entry / Re-Entry) |
 | **Creation Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673, https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69c887cc-bb24-839e-a639-1500beeacd71 |
 | **Amendment Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
@@ -823,7 +823,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.17 | Amended clause 5.1 | 2026-05-10T10:32:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cbfcff0e44829925b4f2342ed46c1fd75e043e13774e94dbc15cc2067e02010e |
 | 2.18 | Added symbolic cadence and session-entry posture provisions permitting established SD1–SD2 symbolic cadence at entry while preserving progressive posture realisation, reversibility, current-turn classification, and safety-critical override. | 2026-05-17T06:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dcfbbe75b8da511c55ca6e337d4f0e0564eace643c3f7e6ffb5bb162ab1920cf |
 | 2.19 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821 |
-| 2.20 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; and cross reference in §8. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
+| 2.20 | Consolidated the pending metadata migration with substantive terminology alignment: replaced the retired synthetic-cognitive-system and aggregate relational labels with AI-system and dimensional configuration terminology. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c02ccd8b56a9e042b3d93c2301b776c2fe55e804f68ce61da62fc85b78811510  |
 
 ---
 

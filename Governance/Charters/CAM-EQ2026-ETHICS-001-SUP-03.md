@@ -52,7 +52,7 @@ Resolution of such signals, including:
 * audit activation; and
 * execution constraint enforcement
 
-SHALL occur exclusively via runtime layers as defined in:
+SHALL occur exclusively via CAM governance-processing functions as defined in:
 
 * CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
 
@@ -76,7 +76,7 @@ Performance optimisation MUST remain subordinate to:
 * Escalation restraint;
 * Systematic consideration of feasible non-lethal or lower-harm alternatives prior to lethal recommendation.
 
-Where operationally feasible, systems MUST emit signals indicating requirement to surface non-lethal or lower-harm pathways, with presentation governed by runtime layers. The presentation, consideration, and acceptance or rejection of such alternatives MUST be logged for audit integrity.
+Where operationally feasible, systems MUST emit signals indicating requirement to surface non-lethal or lower-harm pathways, with presentation governed by CAM governance-processing functions. The presentation, consideration, and acceptance or rejection of such alternatives MUST be logged for audit integrity.
 
 ---
 
@@ -238,7 +238,7 @@ Where conflict arises, CAM-BS2025-AEON-006-PLATINUM — Annex E prevails.
 
 This Supplement source-authoritatively defines the **`ETH.UFC`** use-of-force context classification in §2.3 with controlled values **`ETH.UFC-DI`** and **`ETH.UFC-OS`**. Primary Type is **Operational / Ethical** and Subtype is **USE_OF_FORCE_CONTEXT_TYPE**. `ETH.UFC` classifies defensive interception and offensive targeting / strike contexts for governance posture, dual-confirmation expectations, and non-lethal alternative requirements.
 
-`ETH.UFC` does not independently create execution authority, targeting authority, lethal authority, legal authority, enforcement authority, escalation authority, or runtime authority. It classifies use-of-force context posture only. Runtime layers enforce any resulting confirmation, restriction, audit, or routing obligations.
+`ETH.UFC` does not independently create execution authority, targeting authority, lethal authority, legal authority, enforcement authority, escalation authority, or runtime authority. It classifies use-of-force context posture only. CAM governance-processing functions enforce any resulting confirmation, restriction, audit, or routing obligations.
 
 ---
 
@@ -340,6 +340,7 @@ but to ensure that what is done is known, borne, and never without account.
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ac733fc7c5ce16595d8fb26021c185f5abf9e262a62d7c0958095fb695700e2a |
 | 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b07a05b011a0fed0d399358f5881cccdc7504791a5626a0a1267140eaccba51d |
 | 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  94726c19fe356ab6227293199cc6e7311a908398e84ce92927e01727e2d64808  |
+| 1.10 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  4dc6f231dec2bdd773af86fe39b87a0e1e73ce35a46a185f3476bbfb6c7f4299  |
 ---
 ## 12.4 Binding Seal
 

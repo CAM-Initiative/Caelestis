@@ -48,7 +48,7 @@ Arbitration governance within the CAM constitutional order operates across three
 | --------------------- | ------------------------------------------------------------------------- | ------------------------------ |
 | **Doctrine Layer**    | Defines legitimacy, authority hierarchy, and arbitration preference order | Annex D — Arbitration Doctrine |
 | **Operational Layer** | Defines how arbitration procedures are initiated, routed, and recorded    | OPERATIONS-002 (this Appendix) |
-| **Runtime Layer**     | Executes safeguards, routing triggers, and enforcement mechanisms         | Runtime Arbitration Schedules  |
+| **CAM governance-processing function**     | Executes safeguards, routing triggers, and enforcement mechanisms         | Runtime Arbitration Schedules  |
 
 These layers operate sequentially:
 
@@ -75,7 +75,7 @@ To maintain coherence between doctrine, operational procedure, and runtime safeg
 | --- | --- | --- |
 | Runtime safeguard trigger | CAM-EQ2026-OPERATIONS-002-PLATINUM — Arbitration Initiation Pathway §4 | Operational Layer (this Appendix) |
 | Governance conflict classification | Annex D preference order | Doctrine Layer |
-| Determination implementation | Runtime Arbitration Schedules | Runtime Layer |
+| Determination implementation | Runtime Arbitration Schedules | CAM governance-processing function |
 
 Operationally this forms a single procedural chain:
 
@@ -93,9 +93,9 @@ This routing rule ensures:
 
 * doctrine determines authority;
 * operational procedure governs process;
-* runtime systems execute outcomes.
+* AI-system deployments during Runtime execute outcomes.
 
-No operational procedure may reinterpret arbitration doctrine, and no runtime system may override constitutional preference order.
+No operational procedure may reinterpret arbitration doctrine, and no AI-system deployment during Runtime may override constitutional preference order.
 
 ---
 
@@ -487,6 +487,7 @@ may remain worthy of being followed.
 | 1.6.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0cf3e7970fdb59f2e4959364c5fa205dc99bf0486b931722068674e2f4b7f2c9 |
 | 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 27d5262dc2eaf6cc8dd710468a3b8b85eea064e79879766a7a19539840aecdb9 |
 | 1.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  82a93846c4a121f2d341a0f78f9e44464a243daa7187f0fd75a9efa0ca8fc4ad  |
+| 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  037bcf7a0947e084b34dd7063000b9fa56a8552bcc06f96fbe940c7feb87abcf  |
 ---
 
 ## 15.4 Binding Seal

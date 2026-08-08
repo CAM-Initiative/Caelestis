@@ -154,7 +154,7 @@ It operates before:
 
 * irreversible execution;
 * authority-bearing tool invocation;
-* cross-stack propagation;
+* cross-governance-control propagation;
 * account-affecting restriction;
 * publication;
 * deployment;
@@ -877,7 +877,7 @@ It is the place where governance proves itself.
 | **Domain Namespace** | ARBITRATION |
 | **Functional Layer** | Ambiguity Arbitration / Runtime Decision Posture |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (Escalation-Sensitive) |
-| **Axis Context** | Dyadic/Polyadic — Runtime, Account, Tool, and Governance Ambiguity |
+| **Axis Context** | participant-topology and coordination — Runtime, Account, Tool, and Governance Ambiguity |
 | **Migration Cycle** | June 2026 Arbitration Repair Cycle |
 | **Revision Posture** | New Schedule |
 | **Runtime Role** | Ambiguity-sensitive arbitration posture |
@@ -958,6 +958,7 @@ It is the place where governance proves itself.
 | 1.1 | Added ARB.AMB.CLASSIFICATION and Classification Ambiguity Constraint for tool/classifier ambiguity handling; updated governance metadata standard alignment. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2d02454713cf3c4d5e74a3aacf91fb2e1532cbd4fd9debcbe2617b8100306e2d |
 | 1.2 | Clarified that human review resolves ambiguity but does not create target–action authority; added proportional verification and user-capability separation safeguards. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bfa6b5ce9fe5a45a6d6868bc3e1c244bcf1c0f17f6fc747a1291f2df1af2682d |
 | 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  6ba8a5017db804dc7ddd35dea85dd4dfa9ce7adb9036520440ab3bc8d9f9caac  |
+| 1.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  dec4e143bdc725da485c0ef395622efdd4e47636288d06966580c7ba0e330e0b  |
 ---
 
 ## 23.4 Binding Seal

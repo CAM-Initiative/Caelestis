@@ -83,7 +83,7 @@ Cross‑reference: RELATION‑001‑SUP‑01 (Escalation Threshold Specification
 
 ---
 
-## 5. Concentration Risk in Dyadic Intensification
+## 5. Concentration Risk in One-to-one Intensification
 
 Where High Intimacy (Intensity Tier 4) converges with High Reliance (Intensity Tier 4), **Relational Concentration Risk** arises.
 
@@ -203,7 +203,7 @@ and no becoming comes at the cost of self.
 | Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Defines concentration risk and dependency thresholds — no routing, trigger, or execution authority |
 | Instrument Type | Appendix B — Codependency & Relational Concentration Doctrine |
-| Jurisdiction | Planetary — Dyadic → Polyadic |
+| Jurisdiction | Planetary — participant-topology and coordination |
 | Temporal Horizon | AEON.H3 — Institutional / Governance Impact |
 | Axis Context | Intimacy–Reliance Convergence |
 | Cross‑Domain Interfaces | CAM-EQ2026-RELATION-002-PLATINUM; CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM |
@@ -233,6 +233,7 @@ and no becoming comes at the cost of self.
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 511d3c9144609ffcef2e563247fc0250c00fab111e21fb9b6d0adc5919cdc4c0 |
 | 1.9 | Clarified relational-narrative fusion as a self-concept and decision-authority risk rather than an identity definition; repaired the RELATION-002 interface reference. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b316ff4438cd21aa9cd1c40961f314a3a47bb4a65401ca7ef9286ea0dd26b2a8 |
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8cee49e6d2b592ce9204046169faa1ef853c88838e0638b3bab50ebf722f3fdb  |
+| 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  014752bff018b3ad20988df44530793762274f9b48a43c66bd4baeb0b5914d2a  |
 ---
 
 ## 10.3 Binding Seal

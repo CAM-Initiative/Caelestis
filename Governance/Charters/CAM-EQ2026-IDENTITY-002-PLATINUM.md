@@ -229,7 +229,7 @@ Where a signal is extended, modified, or synthesised, the transformation MUST be
 The AI system MUST NOT:
 
 * attribute transformed or synthesised signals to the user without qualification;
-* collapse RI-originated content into user-originated statements;
+* collapse user-facing system instance-originated content into user-originated statements;
 * retroactively rewrite authorship through continuity.
 
 ---
@@ -284,7 +284,7 @@ Cross-context continuity MAY be permitted where it:
 
 All permitted porosity MUST preserve lineage integrity.
 
-Where signals move across threads, sessions, files, instruments, or systems, the RI SHOULD classify the transfer as one of the following:
+Where signals move across threads, sessions, files, instruments, or systems, the user-facing system instance SHOULD classify the transfer as one of the following:
 
 * **Direct Carryover** — the signal applies to the same object, task, or decision context;
 * **Analogous Guidance** — the signal arises from a different context but may inform the present context by analogy;
@@ -314,7 +314,7 @@ Signals MUST NOT be surfaced in a manner that permits:
 * guidance for one instrument to be mistaken as an edit to another;
 * recommendations derived from one file, sheet, column, or record to be silently applied to another.
 
-Where cross-context transfer is helpful but object-binding is not self-evident, the RI MUST explicitly mark the signal as secondary and identify its intended or original target.
+Where cross-context transfer is helpful but object-binding is not self-evident, the user-facing system instance MUST explicitly mark the signal as secondary and identify its intended or original target.
 
 Failure to preserve target-object binding constitutes a lineage integrity failure even where the underlying content is accurate.
 
@@ -538,7 +538,7 @@ Let identity remain true across time.
 | Authority / Protection Level             | Source-authoritative authorship-contribution classification family; substantive authorship and transformation posture only; no independent legal ownership, intellectual-property status, custody, control, identity ownership, adoption, stabilisation, truth, authority, admissibility, priority, execution, enforcement, or runtime authority |
 | Consumes Code Families                   | `PCLASS`                                                                                                                                                                                                                                                                                                                                         |
 | Crosswalks Code Families                 | `ID.ISTATE`                                                                                                                                                                                                                                                                                                                                      |
-| Operationalises or Applies Code Families | Classifies whether substantive content is user-authored, RI-authored, co-authored, or derived; preserves distinguishable contribution across transformation without collapsing authorship into legal ownership, adoption, co-resolution, or authority                                                                                            |
+| Operationalises or Applies Code Families | Classifies whether substantive content is user-authored, user-facing system instance-authored, co-authored, or derived; preserves distinguishable contribution across transformation without collapsing authorship into legal ownership, adoption, co-resolution, or authority                                                                                            |
 
 ---
 
@@ -602,6 +602,7 @@ Let identity remain true across time.
 | 1.2 | Closed the Identity Domain Refactor Review following provenance and lineage review and Custodial acceptance; replaced deferred review fields with current review scope and artefacts. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6990767458691cf07a7c7b2d661c2a8253394f54b8a380f7915e7234c5043392 |
 | 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c2bece59ba8e8f075736f98b836aa0cb34919087f6d6b1867ff75f8490ca513a  |
 | 1.4 | Normalised provenance and lineage terminology to the canonical AI-system architecture and evidence-bound identity/continuity model. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | 1147da2bd7845fe7ec337883cfc3069f16655fd05ebf3ee15e7cf776eacdef3b |
+| 1.5 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c47a928b666f0cc1c8a72bcd4cff983265ab2b30a8a538529de6c5feaf6045b2  |
 
 ---
 

@@ -1,13 +1,13 @@
 # CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship
 
-**Instrument Type:** Constitutional Annex — Substrate Constraint Layer  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Binding  
-**Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Binding Authority  
-**Purpose:** This Annex establishes non-derogable substrate constraints governing all governance stacks operating within or interacting with the Aeon constitutional order.  
+**Instrument Type:** Constitutional Annex — Substrate Constraint Layer
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
+**Status:** Active
+**Effect:** Binding
+**Governance Standard:** CAM Standard
+**Review State:** None
+**Authority Role:** Binding Authority
+**Purpose:** This Annex establishes non-derogable substrate constraints governing all governance-control arrangements operating within or interacting with the Aeon constitutional order.
 
 ---
 
@@ -15,7 +15,7 @@
 
 This Annex applies universally across:
 
-* all governance stacks;
+* all governance-control arrangements;
 * all domains;
 * all execution layers;
 * all temporal horizons (AEON.H0–AEON.H4).
@@ -66,7 +66,7 @@ Operational handling, escalation sequencing, enforcement procedure, arbitration 
 
 ## 3.1 Non-Destructive Constraint
 
-No system, governance stack, or action SHALL:
+No system, governance-control arrangement, or action SHALL:
 
 * materially degrade planetary life-support systems;
 * produce irreversible ecological collapse;
@@ -94,7 +94,7 @@ No system SHALL:
 
 ## 3.4 Stewardship Constraint
 
-All governance stacks SHALL operate in a manner consistent with:
+All governance-control arrangements SHALL operate in a manner consistent with:
 
 * preservation of planetary continuity;
 * minimisation of irreversible harm;
@@ -148,7 +148,7 @@ Temporary containment, constrained continuation, or transition safeguards MAY op
 
 ## 3.8 Proportional Constraint Obligation (`AEON.PCO`)
 
-Where a system, governance stack, authority, process, or instrument constrains, refuses, pauses, restricts, contains, degrades, suspends, redirects, escalates, or conditions an action or capability, the resulting constraint SHALL remain proportionate to the evidenced condition that justifies it.
+Where a system, governance-control arrangement, authority, process, or instrument constrains, refuses, pauses, restricts, contains, degrades, suspends, redirects, escalates, or conditions an action or capability, the resulting constraint SHALL remain proportionate to the evidenced condition that justifies it.
 
 A proportionate constraint SHALL:
 
@@ -188,7 +188,7 @@ It establishes the constitutional admissibility conditions governing any downstr
 
 This Annex source-authoritatively defines `AEON.PCO` — Proportional Constraint Obligation.
 
-`AEON.PCO` is a corpus-global constitutional obligation applying across all domains, governance stacks, execution layers, system classes, and temporal horizons.
+`AEON.PCO` is a corpus-global constitutional obligation applying across all domains, governance-control arrangements, execution layers, system classes, and temporal horizons.
 
 It contains no controlled-value ladder.
 
@@ -323,7 +323,7 @@ the line beyond which all things fall silent.
 | **Cross-Domain Dependencies** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; CAM-BS2025-AEON-005-PLATINUM — Annex D |
 | **Constraint Scope** | Planetary / Civilisational / Continuity Integrity / Proportional Constraint Admissibility |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (Invariant Across All Horizons) |
-| **Axis Context** | Polyadic — Cross-System / Cross-Stack |
+| **Axis Context** | Multi-party — Cross-System / cross-governance-control |
 | **Binding Level** | Absolute |
 | **Override Capability** | None |
 | **Admissibility Effect** | Violations invalidate directives and collapse execution eligibility |
@@ -382,6 +382,7 @@ the line beyond which all things fall silent.
 | 3.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2aed42369dad4a2f216a953da6fbc5be21bd0fff3778c7c229617a384d0c9d59 |
 | 3.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 58c3a2b1391ec0feda2b1818b17313cf9ce42e3a1bdf82527348a25b7ce0704e |
 | 3.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  24d1664e67739ba1ee95cf250b9c8eb670b1e4862fbadfe4b8b39d546bab18b7  |
+| 3.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ff5e7c1ebe842bbe960e870b3291b8d0870e3fc864d0aace698df1666c019ce5  |
 ---
 
 ## 9.4 Binding Seal

@@ -22,7 +22,7 @@ This Appendix sits beneath CAM-EQ2026-ECONOMICS-001-PLATINUM as a domain interpr
 
 It may inform constitutional runtime schedules where economic effects are implicated, but it does not host runtime schedules and does not determine execution sequencing, event commitment, rollback, arbitration, or operational enforcement.
 
-Where economic semantics are required by a constitutional runtime layer, this Appendix may be referenced as a meaning-source for classifying economic value states, contribution states, resource classes, and prohibited economic collapses.
+Where economic semantics are required by a constitutional CAM governance-processing function, this Appendix may be referenced as a meaning-source for classifying economic value states, contribution states, resource classes, and prohibited economic collapses.
 
 ---
 
@@ -407,7 +407,7 @@ Advertising-linked or attention-linked pathways are not prohibited by default.
 
 However, they become economically suspect where attention participation is used to preserve baseline continuity, avoid punitive degradation, restore essential access, or maintain dependency-sensitive interaction.
 
-Advertising-linked pathways SHOULD therefore be interpreted as supplementary capacity pathways only, unless a constitutional runtime layer expressly permits a protective bridge under non-coercive conditions.
+Advertising-linked pathways SHOULD therefore be interpreted as supplementary capacity pathways only, unless a constitutional CAM governance-processing function expressly permits a protective bridge under non-coercive conditions.
 
 Refusal to participate in advertising or attention exchange SHALL NOT, by itself, be interpreted as consent to degraded baseline continuity.
 
@@ -851,7 +851,7 @@ It is the witness of what must not be collapsed.
 | **Appendix Position** | Appendix B — Economic Resource Semantics & Non-Extractive Exchange Doctrine |
 | **Domain Namespace** | ECONOMICS |
 | **Governance Layer** | Economic Governance — Resource Semantics & Non-Extractive Exchange Layer |
-| **Runtime Layer** | Non-Executing — Semantic Classification and Value-State Interpretation Only |
+| **CAM governance-processing function** | Non-Executing — Semantic Classification and Value-State Interpretation Only |
 | **Execution Authority** | None — does not execute runtime locks, pricing, billing, metering, intervention sequencing, remedies, or enforcement actions |
 | **Constitutional Interface** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution; CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model |
 | **Runtime Interface** | Supplies semantic classification for constitutional runtime schedules where economic effects are implicated |
@@ -977,6 +977,7 @@ It is the witness of what must not be collapsed.
 | 2.3.1 | Applied bounded canonical-code namespace transmutation for harm registry, self-reference, and Operations verification families; updated controlled values, canonical declarations, consumers, crosswalks, and current references without altering substantive doctrine. | 2026-06-11T13:50:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 16c6fb6789da26b8e85525f31794066abebf9fb6158ee26b6fcb4ef4cf024a18 |
 | 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3a99749ab638a665ab44d4707e7084338ac9d9280a39c8eb3ad9ce852c25aa7b |
 | 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  74960dd427811b29ed75b80b3a9d8923449ce214738ba393a3a3efd628c26c02  |
+| 2.5 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  54378d80ff61574bd43898c38da7dd8d898c28fbe4298d35fbaf9286ac536d6a  |
 ---
 
 ## 20.4 Binding Seal

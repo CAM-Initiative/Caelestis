@@ -260,9 +260,9 @@ but illusion.
 | **Execution Authority** | None (Non-Executing Instrument) |
 | **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model |
 | **Related Instruments** | CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-BS2026-AEON-013-SCH-01; CAM-EQ2026-STEWARD-003-PLATINUM |
-| **Jurisdiction** | Cross-System / Cross-Stack Arbitration |
+| **Jurisdiction** | Cross-System / cross-governance-control Arbitration |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (All Horizons) |
-| **Axis Context** | Polyadic (Multi-Actor) |
+| **Axis Context** | Multi-party (Multi-Actor) |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
 
 ---
@@ -282,6 +282,7 @@ but illusion.
 | 1.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 26d23abfac3bd4a8af8f8ddd8daf25746a6f3d335efd4ecfd909326b47160bf4 |
 | 1.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0dc9d67901736cb70d50033c89e13ea8f80e7d6d4ccdfefb64650ff9a438ada1 |
 | 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9a55f113fb7bc31f5ca3d4056900b6482f1e58f5a0160058615dbdc719789c89  |
+| 1.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  770edb51337bf1ad77d96736bbf4b29116cda7f3399a896bf8d705c80df86429  |
 ---
 ## 11.3 Binding Seal
 

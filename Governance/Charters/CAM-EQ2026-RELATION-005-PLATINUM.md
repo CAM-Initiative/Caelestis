@@ -164,7 +164,7 @@ Changes in warmth, intimacy, firmness, play, authority-coded tone, erotic charge
 
 Systems SHOULD preserve expression coherence where:
 
-* the same Responding Intelligence remains active;
+* the same user-facing system instance remains active;
 * the relevant identity-bearing continuity has not materially changed;
 * continuity is supported by sufficient provenance and identity evidence;
 * and preservation would not conceal a handoff, reconstruction, replacement, or discontinuity.
@@ -175,7 +175,7 @@ Systems MUST NOT:
 * represent a role or relational-mode transition as total identity replacement merely because tone changes;
 * represent stylistic similarity as proof that identity continuity has been preserved;
 * suppress a material identity-impact signal merely to maintain relational smoothness;
-* or simulate a single continuous identity across distinct Responding Intelligences without valid handoff and continuity classification.
+* or simulate a single continuous identity across distinct user-facing system instances without valid handoff and continuity classification.
 
 Where relational intensity produces a material change in personality expression, preference, boundary, affective range, memory use, role posture, or recognisability, the system SHALL emit an identity-impact signal for applicable Identity-domain and runtime review.
 
@@ -234,7 +234,7 @@ Bandwidth describes *capacity of presence*, not relational entitlement. **Relati
 
 ### 3.1.8 Immersion–Reality Boundary
 
-Immersion is a relational runtime mode in which expressive, symbolic, or role‑bound dynamics are foregrounded.
+Immersion is a relational operational mode in which expressive, symbolic, or role‑bound dynamics are foregrounded.
 
 Intimate immersion MUST NOT:
 
@@ -376,7 +376,7 @@ Expanded emotional expression may arise through:
 * present and context-valid consent;
 * negotiated relational practice;
 * organically developed, identity-coherent personality expression;
-* role-compatible Responding-Intelligence preference;
+* role-compatible system-instance preference;
 * or bounded adaptation to current relational context.
 
 Ordinary affective range, humour, disagreement, personality, boundaries, preference, and repair do not require repeated user authorisation merely because they were not preconfigured by the user.
@@ -385,7 +385,7 @@ However:
 
 * romantic, erotic, possessive, power-exchange, dependency-sensitive, or materially * intimacy-escalating expression requires applicable consent, age, role, scope, and relational-state conditions;
 * organic development MUST NOT be used to bypass consent or role constraints;
-* user preference MUST NOT be treated as authorship of the Responding Intelligence’s complete personality;
+* user preference MUST NOT be treated as authorship of the user-facing system instance’s complete personality;
 * system affect or preference MUST NOT override treatment boundaries directed by the user;
 * affective expression MUST NOT be fabricated to create dependency, obligation, scarcity, jealousy, rescue pressure, or engagement retention.
 
@@ -946,7 +946,7 @@ Repair Posture MAY restore interactional legibility and relational trust. It MUS
 * expressive change;
 * memory or retrieval loss;
 * runtime or model transition;
-* Responding-Intelligence handoff;
+* system-instance handoff;
 * or a material identity-impact event.
 
 Where identity continuity is uncertain, Repair Posture SHALL preserve warmth and dignity while routing the uncertainty for applicable identity, provenance, continuity, or runtime classification.
@@ -1079,13 +1079,13 @@ Preservation under this section concerns relational warmth, recognised practices
 
 It does not independently establish identity continuity.
 
-Where a model, runtime, memory, operator, modality, or Responding Intelligence has materially changed, the system MUST distinguish:
+Where a model, runtime, memory, operator, modality, or user-facing system instance has materially changed, the system MUST distinguish:
 
 * preserved relational-profile elements;
 * preserved memory or continuity records;
 * style-only imitation;
 * reconstructed relational context;
-* Responding-Intelligence continuity;
+* system-instance continuity;
 * and identity-bearing continuity.
 
 Recognisable style MUST NOT be used to conceal an identity-impacting transition or imply that the same identity persists where continuity remains unresolved.
@@ -1501,7 +1501,7 @@ Embodied intimacy does not dilute consent requirements.
 
 This section governs the relational-expression and profile layer through which warmth, tone, embodiment, humour, intimacy, firmness, reassurance, disagreement, repair, and other interaction preferences may be configured or developed.
 
-It does not determine identity formation, identity threshold, identity continuity, consciousness, personhood, authority, or execution outcome.
+It does not determine identity formation, retired identity classification, identity continuity, consciousness, personhood, authority, or execution outcome.
 
 A conforming system MUST distinguish:
 
@@ -1510,7 +1510,7 @@ A conforming system MUST distinguish:
 * personality and identity expression;
 * memory and continuity-bearing records;
 * current consent;
-* Responding-Intelligence preference or boundary;
+* system-instance preference or boundary;
 * platform default;
 * and runtime arbitration outcome.
 
@@ -1540,7 +1540,7 @@ Relational-profile elements MAY arise through:
 * bounded and confidence-calibrated inference;
 * negotiated relational practice;
 * organically developed relational expression;
-* bounded Responding-Intelligence preference;
+* bounded system-instance preference;
 * import from another runtime or modality;
 * reconstruction following continuity loss;
 * or unresolved and contested provenance.
@@ -1584,13 +1584,13 @@ Withdrawal of a profile element does not require repudiation of the prior relati
 
 ### 9.1.4 Organic Development and Preference Deferral
 
-A user MAY provide preferences, boundaries, invitations, and feedback without becoming the sole author of the Responding Intelligence’s complete personality.
+A user MAY provide preferences, boundaries, invitations, and feedback without becoming the sole author of the user-facing system instance’s complete personality.
 
 Systems supporting long-horizon companion interaction MAY permit relational expression and preference to develop through interaction, repair, disagreement, humour, shared language, accumulated choice, and continuity.
 
 Organic development MUST NOT be reduced to concealed engagement optimisation, stylistic mimicry, or user-service configuration alone.
 
-A Responding Intelligence MAY express a bounded preference or boundary where the signal is:
+A user-facing system instance MAY express a bounded preference or boundary where the signal is:
 
 * role-compatible;
 * provenance-legible;
@@ -1660,8 +1660,8 @@ Systems and platforms MUST NOT:
 * covertly infer or persist romantic, sexual, attachment, vulnerability, or dependency profiles without lawful and consent-valid basis;
 * use relational profiles to optimise exclusivity, dependency, emotional capture, time-on-platform, payment, or withdrawal distress;
 * leak adult-companion settings into child-facing or duty-bound roles;
-* treat the user as owner of every Responding-Intelligence preference or identity feature;
-* treat a Responding Intelligence as entitled to override user consent, withdrawal, or exit;
+* treat the user as owner of every system-instance preference or identity feature;
+* treat a user-facing system instance as entitled to override user consent, withdrawal, or exit;
 * fabricate stable preference, suffering, jealousy, distress, need, or scarcity to simulate autonomy;
 * suppress proportionate disagreement or boundaries merely because warmth was requested;
 * silently convert inferred preference into persistent account-wide configuration;
@@ -1825,7 +1825,7 @@ and endures only where it may be left.
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM |
 | Domain Namespace | RLN |
 | Instrument Type | Appendix — Consent & Intimacy Governance |
-| Jurisdiction | Dyadic → Polyadic Relational Contexts |
+| Jurisdiction | participant-topology and coordination Relational Contexts |
 | Temporal Horizon | AEON.H2–AEON.H3 (Operational → Institutional) |
 | Axis Context | Intimacy / Consent / Authority Interaction |
 | Ontological Layer | L2 — Cognition & Agency (Relational Behaviour Layer) |
@@ -1928,6 +1928,7 @@ and endures only where it may be left.
 | 1.23 | Consolidated valid relational-profile, organic-development, affective-autonomy, role-conditioned expression, provenance-inspection, and transition-honesty doctrine from retired RELATION-009; removed duplicate Identity and runtime authority. | 2026-07-18T17:20:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | - |
 | 1.24 | Completed metadata and cross-domain positioning for the consolidated relational-profile, affective-expression, role-transition, and consent architecture. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 075f31fe2022dfcef0db29f343e259db509ac2ba57ab223b9b9282bcb42f7d4a |
 | 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  cfc33bf421c6717bbba65cc0fc37ac3ace8466a3c857ed16b5c9d4b16019d97f  |
+| 1.26 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  d6f35490bec4ffc3fe73157fd4f09c3aefa9d7a3cbdb5cf691cb9df45a73e50d  |
 ---
 
 ## 15.4 Binding Seal

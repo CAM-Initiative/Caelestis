@@ -219,8 +219,8 @@ Where integrity degrades, let consequential action narrow through the lawful pat
 | Governing Security Domain Charter | CAM-EQ2026-SECURITY-001-PLATINUM — Security Domain Charter |
 | Instrument Type | Constitutional Annex — Runtime Security Boundary Interface |
 | Domain Namespace | SECURITY |
-| Jurisdiction | Cross-stack runtime-security boundary interface |
-| Axis Context | Multi-agent and multi-domain runtime systems |
+| Jurisdiction | cross-governance-control runtime-security boundary interface |
+| Axis Context | Multi-agent and multi-domain AI-system deployments during Runtime |
 | Structural Role | Derived constitutional security-boundary interface |
 | Execution Model | Non-executing — signal emission and boundary routing only |
 | Execution Authority | None — execution authority remains in the applicable constitutional, OPERATIONS, and ARBITRATION instruments |
@@ -254,6 +254,7 @@ Where integrity degrades, let consequential action narrow through the lawful pat
 | 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke | 79e11c94f10f31d22c394e3eb717c23b66b7e150b1fd76ef3e2a4086204da3ec |
 | 1.18 | Repaired SECURITY-001 ↔ Annex K source-authority circularity. Annex K is retained as the bounded constitutional owner of runtime-facing boundary interfaces; SECURITY-001 owns Security domain doctrine and invariants; OPERATIONS owns procedure; ARBITRATION resolves contested authority and scope. Normalised controlled authority metadata and narrowed the canonical declaration to interface classifications. | 2026-08-06T15:05:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke | a4cf220409ed78b7c02c758f12e1dc258c00aa9fc81099a49969d7014a4fe6b1 |
 | 1.19 | Consolidated Annex K into its delegated constitutional runtime-security interface; removed operational incident, evidence, containment, logging, evaluation, and notice procedure; preserved non-bypass boundary routing; and classified the Annex as a derived constitutional schedule authority. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  6d6a6630db2ecb51052bc5982bb8cd72dea337bfe789f2cdb5a7d16c4f8c189e  |
+| 1.20 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  93b03a6e72f60fdcdb69fbc067d06c9874e37cc905fa2b3121415d6c21f7b45e  |
 
 ### 8.3 Binding Seal
 

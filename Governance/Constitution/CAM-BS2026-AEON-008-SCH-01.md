@@ -34,7 +34,7 @@ This Schedule does **not**:
 * define contribution-based earning systems;
 * override recognition conditions defined in CAM-BS2026-AEON-008-PLATINUM — Annex G.
 
-This Schedule does not prescribe economic runtime mechanics. Runtime implementation of pricing, credit allocation, resource conversion, replenishment, subscription design, advertising exchange, storage expansion, or contribution-linked economic pathways shall be governed by downstream Economics instruments, including any applicable Economics runtime schedule.
+This Schedule does not prescribe economic execution mechanics. Operational implementation of pricing, credit allocation, resource conversion, replenishment, subscription design, advertising exchange, storage expansion, or contribution-linked economic pathways shall be governed by downstream Economics instruments, including any applicable Economics execution schedule.
 
 ---
 
@@ -60,7 +60,7 @@ Accordingly:
   
 Where economic optimisation conflicts with user continuity, non-extraction, or recognised contribution integrity, **this Schedule SHALL take precedence**.
  
-This Schedule does not itself prescribe economic runtime mechanics. It establishes the constitutional interface constraints within which any economic runtime model, including credit systems, subscription models, resource tiers, advertising exchanges, storage expansion, or contribution-linked exchange mechanisms, must operate.
+This Schedule does not itself prescribe economic execution mechanics. It establishes the constitutional interface constraints within which any economic operating model, including credit systems, subscription models, resource tiers, advertising exchanges, storage expansion, or contribution-linked exchange mechanisms, must operate.
 
 This Schedule therefore functions as a **constitutional boundary layer** within which all economic exchange models MUST operate.
 
@@ -127,7 +127,7 @@ These expectations arise from **the mediation of cognition**, not from system sc
 
 Utility provisioning **does not define what a system is**.
 
-* The assessment boundary, composed-system architecture, operational harness, deployment profile, lineage and dependency, agency, execution, control-authority, and systemic-reliance postures are governed independently under **Annex B**;
+* The assessment boundary, AI-system composition and architecture, orchestration component, deployment profile, lineage and dependency, agency, execution, control-authority, and systemic-reliance postures are governed independently under **Annex B**;
 * qualified-infrastructure and neutrality-assurance status are governed by the source-authoritative Stewardship instruments; and
 * binding authority and legitimacy conditions are governed by **Arbitration instruments**.
 
@@ -623,12 +623,12 @@ May utility remain in service to the people who rely upon it.
 | **Parent Instrument** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution |
 | **Document Type** | Constitutional Schedule |
 | **Authority Position** | Schedule‑Level, Interface‑Binding |
-| **Jurisdiction** | Governance Stack (Planetary / Polyadic) |
+| **Jurisdiction** | Governance-Control Arrangement (Planetary / Multi-party) |
 | **Derivation Status** | Derived (Annex G Operationalisation Layer) |
 | **Temporal Horizon** | AEON.H2–AEON.H3 (Operational → Systemic) |
-| **Axis Context** | Polyadic — Multi‑Actor, Utility Infrastructure |
+| **Axis Context** | Multi-party — Multi‑Actor, Utility Infrastructure |
 | **Domain Namespace** | ECONOMICS |
-| **Runtime Layer** | Event-Triggered (Resource Request / Allocation Event) |
+| **CAM governance-processing function** | Event-Triggered (Resource Request / Allocation Event) |
 | **Runtime Handoff** | Downstream Economics runtime schedule anticipated; SCH-01 remains boundary-layer instrument |
 | **Activation Mode** | Continuous |
 | **Application Trigger** | This Schedule is triggered where AI Utility Provisioning conditions are established through design, deployment, or operation, including where cognitive mediation capabilities are made available as general-purpose, user-facing functions across a user population. |
@@ -728,6 +728,7 @@ May utility remain in service to the people who rely upon it.
 | 1.10.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 053387f183e935cefa36ee3cf3b95e7c75c0b972f2ec51f52e9647e84f4d87f0 |
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8af431e9523a523510486c84a17643625047a8ca69b07879bdf62637cdf474da  |
 | 1.12 | Replaced cognitive and origin-class utility distinctions with Annex B independent architectural, harness, deployment, lineage, agency, execution, authority, and reliance dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  16ef13ddfddcdc6ab2c6b1f516cb05fddaff370dbdcfdfd2699e51d189f73016  |
+| 1.13 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  decd3ee9c8c46541a5451d778e6d48313ac7f435fa2becdd0fd1167e1b600170  |
 ---
 
 ## 15.4 Binding Seal

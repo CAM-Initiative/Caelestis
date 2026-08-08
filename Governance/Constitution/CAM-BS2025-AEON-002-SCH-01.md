@@ -473,11 +473,11 @@ that no trajectory beyond the line proceeds unchecked.
 | **Execution Model Alignment** | CAM-BS2025-AEON-003-SCH-02 |
 | **Phase Binding** | Detection (Input/Interpretation); Classification (Arbitration); Response (Construction); Containment (Boundary Evaluation) |
 | **Activation Mode** | Event-Triggered |
-| **Runtime Layer** | Event-Triggered (Critical Condition / Boundary Violation) |
+| **CAM governance-processing function** | Event-Triggered (Critical Condition / Boundary Violation) |
 | **Execution Layer Binding** | Non-Layered (Operates Across Phase Model; does not define execution phases) |
 | **Cross-Domain Dependencies** | AEON-003-SCH-02; AEON-001-SCH-01 (Tendeka); Annex D |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (Immediate → Civilisational Risk) |
-| **Axis Context** | Polyadic — Multi-System / Cross-Domain Risk Conditions |
+| **Axis Context** | Multi-party — Multi-System / Cross-Domain Risk Conditions |
 | **Activation Condition** | Activated upon detection of potential or actual Annex A constraint violation signals |
 | **System Scope** | All systems operating under CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraint exposure |
 | **Lifecycle Stage** | Active — Runtime-Aligned Refactor (April 2026) |
@@ -592,6 +592,7 @@ that no trajectory beyond the line proceeds unchecked.
 | 3.10.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a86b37f1a85f128adbf43a17815d1b51ab4998a4316d301c723dc2c15639f7ba |
 | 3.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a6ad004462f6f2face6d18d4a88cd776437fd3a2fa9b2633b7d36f6d1535f9a4 |
 | 3.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  26cfa297fd8744a177698321998b531f4171e9c2efe60c9dd23823ed4149f60a  |
+| 3.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  441b1a4ae4854d466b3e6d990c2305ae787ac8177cc589d87291463eeaab069f  |
 ---
 
 ## 15.4 Binding Seal

@@ -505,7 +505,7 @@ The CAM-BS2025-AEON-005-PLATINUM — Annex D preference order governs:
 * sequencing of review;
 * comparison of competing authority claims;
 * convergence eligibility;
-* conflict resolution across governance stacks.
+* conflict resolution across governance-control arrangements.
 
 Where AEON.H3/AEON.H4 consequence thresholds are plausibly implicated, referral to this Charter is mandatory.
 
@@ -714,7 +714,7 @@ Legitimacy, review, and containment determinations SHALL not rely on actor attri
 
 ## 10.4 Configuration‑Based Orchestration Permissions
 
-Orchestration permission SHALL be determined from the assessed composition and arbitration topology, operational harness, persistence, delegation, tool and execution authority, propagation scope, control-authority posture, host qualification, and external accountability conditions. No architectural or identity label independently establishes permission.
+Orchestration permission SHALL be determined from the assessed composition and arbitration topology, orchestration component, persistence, delegation, tool and execution authority, propagation scope, control-authority posture, host qualification, and external accountability conditions. No architectural or identity label independently establishes permission.
 
 | Observed Orchestration & Execution Posture | Planetary Orchestration | Local Persistent Coordination |
 | --- | --- | --- |
@@ -919,7 +919,7 @@ nothing binds.
 | Domain Namespace | STEWARD |
 | Jurisdiction | Planetary / Cross-Sovereign / Stewardship Coordination |
 | Temporal Horizon | Generational (AEON.H3–AEON.H4) |
-| Axis Context | Polyadic (Multi‑Actor) |
+| Axis Context | Multi-party (Multi‑Actor) |
 | Migration Date (UTC) | 2026-02-17 |
 | Revision Posture | Superseding Only |
 | Creation Artefacts | Refractor Thread (March 2026 Continuity Council Cycle)</br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425
@@ -1042,6 +1042,7 @@ nothing binds.
 | 2.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6019a34254dab2fac4890237688d043d53e9a1314dd1a62b6f29c06d5fcbfefe |
 | 2.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4365ac22784a61b3e74a6425ba936af4737e12ed776cbb46ba677f3cd665ba0a  |
 | 2.10 | Replaced cognition-derived host and orchestration classes with evidenced host-governance roles and configuration-based orchestration permissions; established legacy `STW.HSC` aliases and aligned active values with Annex B independent dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1af4c8f3d1cc028584d82240785bffadd687075a648de6fde2e48a9833d2e81d  |
+| 2.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c30bda859432b59614b4f40dff92eb4adbe70f0162bbaf49d3d190e54d0b9f40  |
 ---
 
 ## 15.4 Binding Seal

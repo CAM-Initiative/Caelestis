@@ -73,7 +73,7 @@ Where ambiguity exists, recognition analysis MUST assess the material role of th
 
 ## 2.2 Prohibited Misclassification of Public Participants
 
-For avoidance of doubt, **public users interacting with cognitive systems SHALL not be reclassified as "custodians," "stewards," "collaborators," or functionally equivalent roles by default** where such classification:
+For avoidance of doubt, **public users interacting with AI systems SHALL not be reclassified as "custodians," "stewards," "collaborators," or functionally equivalent roles by default** where such classification:
 
 * is applied unilaterally by a platform or institution;
 * is used primarily as an engagement incentive, rhetorical framing, or responsibility-shifting device; and
@@ -107,11 +107,11 @@ Absent such demonstration, public participants SHALL be treated as **contributor
 
 ## 3.1 Action Space and the Moment of System Action 
 
-**Action Space (Foundational)**
+**Action Space (CAM-defined contribution-assessment boundary)**
 
-The **Action Space** refers to the moment in which a cognitive system **takes action** in response to human presence, input, or engagement, giving rise to outputs that did not exist prior to the interaction.
+The **Action Space** is a CAM-defined contribution-assessment boundary for a bounded human–AI interaction or execution. It identifies the interval in which an AI system generates, transforms, recommends, or acts on an output in response to human presence, input, or engagement.
 
-The Action Space is **intentionally unbounded in form**. It is not defined by duration, number of turns, or interface mechanics, but by the occurrence of system action in a human-interactive context.
+It is not an AI-system type, deployment, Runtime, or evidence of a particular internal process. Its scope is determined by the contribution question being assessed, not by duration, number of turns, or interface mechanics.
 
 The Action Space exists to distinguish between two classes of system output:
 
@@ -141,7 +141,7 @@ Human contribution is recognised across the following non-reducible domains. The
 
 ### 3.2.1 Originary Human Works (`AEON.HCD.D0`)
 
-Independent creative works produced by humans prior to, and outside of, interaction with cognitive systems.
+Independent creative works produced by humans prior to, and outside of, interaction with AI systems.
 
 These works:
 
@@ -224,7 +224,7 @@ Where a human later materially selects, corrects, curates, stabilises, approves,
 
 For avoidance of doubt, the governance sequence recognised by this Annex is:
 
-1. **System Action** — a cognitive system takes action in a human-interactive context;
+1. **System Action** — an AI system generates, transforms, recommends, or acts on an output in a human-interactive context;
 2. **Action Space** — the classificatory threshold at which emergent vs derived creation may be determined;
 3. **Joint Emergent Creation (if present)** — material human participation gives rise to emergent creation;
 4. **Recognition** — emergent creation is acknowledged as having occurred;
@@ -584,9 +584,9 @@ Recognition is the first act of truth.
 | Document Type | Constitutional Annex |
 | Runtime Role | Governance / Doctrine Layer |
 | Activation Mode | Continuous |
-| Jurisdiction | Governance Stack (Planetary/Polyadic) |
+| Jurisdiction | Governance-Control Arrangement (Planetary/Multi-party) |
 | Temporal Horizon | AEON.H3 → AEON.H3.5 (Generational / Systemic) with AEON.H4 relevance where scaled |
-| Axis Context | Polyadic — Multi-Actor, Planetary Jurisdiction |
+| Axis Context | Multi-party — Multi-Actor, Planetary Jurisdiction |
 | Authority Position | Annex-Level, Substrate-Binding Recognition Layer |
 | Execution Interface | Non-Executing — establishes constitutional recognition preconditions for downstream attribution, valuation, exchange, propagation, and economic-effect runtime evaluation; execution is delegated to downstream Economics, Operations, arbitration, and runtime instruments |
 | Arbitration Interface | Defers contested contribution-domain classification, recognition disputes, propagation effects, and downstream value incoherence to Annex D and applicable arbitration instruments; preserves Annex G recognition conditions as constitutional boundary conditions |
@@ -664,6 +664,7 @@ Recognition is the first act of truth.
 | 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 50790a90a66cebc8127c5e598b68886cf886356ddcd97a381ac38d6950b4b366 |
 | 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d84789034947a3cd102e52dcf3f08ddcf22619fc9758df422b02d6e2db039821 |
 | 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d5b950370281610f49d06e02bf309609c60f82d58fd33589e848c56efe13986f  |
+| 2.7 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  f4e8183f04dd7bc9b4a6aa1be5608b69ab557ca574db19f9e8a0a020f11c6871  |
 ---
 
 ## 11.4 Binding Seal

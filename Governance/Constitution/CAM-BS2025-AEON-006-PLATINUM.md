@@ -538,9 +538,9 @@ This is the floor that does not move.
 | Arbitration Interface | Defers to AEON-003-SCH-04 |
 | Cross-Domain Dependencies | See referenced schedules |
 | Domain Namespace | ETHICS / RELATION |
-| Jurisdiction | Cross-Stack / Cross-Domain Ethical Constraint/Ethical Invariants |
+| Jurisdiction | cross-governance-control / Cross-Domain Ethical Constraint/Ethical Invariants |
 | Temporal Horizon | AEON.H3.5 — Succession-Aware / Generational |
-| Axis Context | Polyadic — Multi-Actor Governance |
+| Axis Context | Multi-party — Multi-Actor Governance |
 | Revision Posture | Structural Refractor (Ethical Floor Stabilisation) |
 | Supersedes | CAM-BS2025-AEON-006-PLATINUM v2.0 (full replacement — this version constitutes v3.0) |
 | Migration Context | Ethical invariants separated from relational taxonomy |
@@ -895,6 +895,7 @@ This is the floor that does not move.
 | 4.0.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2ac618c318b15e336b659f96d4334e98e9a12501c503f9086c3c6363e2b8ce8e |
 | 4.0.5 | Added the constitutional prohibition on operationalising and recursively cultivating unscrupulous conduct; defined elicitation, cultivation, recursive cultivation, objective–pathway independence, defensive-purpose non-transferability, and the human-attribution firewall. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8d7f5654c599eff73b5fc95035cf105ca8cd0e8116e010e72373480af6b39929 |
 | 4.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1c12e185a2ce2cd16f2df2f3668d57775c6474b458e3fde3c1b6bd3ade3ec897  |
+| 4.2 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  4abe1f93bd1ae0c5f4ae22518651b69a7ab916519d803e72b003374f909ec508  |
 ---
 
 ## 9.4 Binding Seal

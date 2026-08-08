@@ -79,7 +79,17 @@ def normalize_label(text: str) -> str:
 
 
 def extract_json_runtime_layer(item: dict) -> str | None:
-    direct_keys = ("runtime_layer", "runtimeLayer", "Runtime Layer", "RuntimeLayer")
+    direct_keys = (
+        "cam_governance_processing_function",
+        "camGovernanceProcessingFunction",
+        "CAM Governance-Processing Function",
+        "Cam Governance-Processing Function",
+        # Backward-compatible read support during the metadata migration.
+        "runtime_layer",
+        "runtimeLayer",
+        "Runtime Layer",
+        "RuntimeLayer",
+    )
     for key in direct_keys:
         value = item.get(key)
         if isinstance(value, str) and value.strip():
@@ -184,9 +194,12 @@ def governance_layer_fallback_for_schedule(instrument_id: str) -> tuple[str, str
 
 
 def extract_runtime_layer(item: dict, markdown_rows: dict[str, str]) -> tuple[str, str]:
+    governance_function = markdown_rows.get("cam governance-processing function")
+    if governance_function:
+        return governance_function, "metadata:CAM Governance-Processing Function"
     runtime_layer = markdown_rows.get("runtime layer")
     if runtime_layer:
-        return runtime_layer, "metadata:Runtime Layer"
+        return runtime_layer, "metadata:Runtime Layer (legacy)"
 
     runtime_role = markdown_rows.get("runtime role")
     if runtime_role:
@@ -242,13 +255,14 @@ def build_rows(items: list[dict]) -> list[RuntimeRegistryItem]:
             warn(f"{instrument_id} | {rel_link or 'NO_PATH'} | missing field: Domain/Domain Layer")
         if (
             found_metadata_table
+            and "cam governance-processing function" not in markdown_rows
             and "runtime layer" not in markdown_rows
             and "runtime role" not in markdown_rows
             and "runtime authority" not in markdown_rows
         ):
-            warn(f"{instrument_id} | {rel_link or 'NO_PATH'} | missing field: Runtime Layer/Runtime Role/Runtime Authority")
+            warn(f"{instrument_id} | {rel_link or 'NO_PATH'} | missing field: CAM Governance-Processing Function/Runtime Role/Runtime Authority")
         if runtime_layer == "UNBOUND":
-            warn(f"Runtime Layer is UNBOUND for {instrument_id}")
+            warn(f"CAM governance-processing function is UNBOUND for {instrument_id}")
 
         rows.append(
             RuntimeRegistryItem(
@@ -275,7 +289,7 @@ def build_rows(items: list[dict]) -> list[RuntimeRegistryItem]:
 
 def render_registry(rows: list[RuntimeRegistryItem]) -> str:
     lines = [
-        "| Instrument ID | Instrument Name | Domain | Governance Layer | Runtime Layer |",
+        "| Instrument ID | Instrument Name | Domain | Governance Layer | CAM Governance-Processing Function |",
         "|---------------|----------------|--------|------------------|----------------|",
     ]
 
@@ -298,7 +312,7 @@ def render_registry(rows: list[RuntimeRegistryItem]) -> str:
 
 def render_audit(rows: list[RuntimeRegistryItem]) -> str:
     lines = [
-        "| Instrument ID | Domain | Governance Layer | Runtime Layer | Domain Source | Governance Source | Runtime Source |",
+        "| Instrument ID | Domain | Governance Layer | CAM Governance-Processing Function | Domain Source | Governance Source | Function Source |",
         "|---|---|---|---|---|---|---|",
     ]
     for row in rows:
@@ -406,6 +420,8 @@ def strip_generated_blocks_for_scan(text: str) -> str:
 def build_model_terminology_rows() -> list[ModelTerminologyItem]:
     rows: list[ModelTerminologyItem] = []
     for path in sorted(REPO_ROOT.glob("Governance/**/*.md")):
+        if "Drafts" in path.relative_to(GOV_DIR).parts:
+            continue
         text = strip_generated_blocks_for_scan(read_text(path))
         instrument_id = path.stem
         current_heading = "Document Context"
@@ -484,7 +500,7 @@ def render_model_terminology_register(rows: list[ModelTerminologyItem]) -> str:
         lines.append(
             f"| {row.instrument_id} | {row.section_heading} | {row.term_used} | {row.suggested_classification} | {row.review_status} |"
         )
-    lines.extend(["", "**Generation:** Deterministic (timestamp omitted)", "**Scope:** Governance/**/*.md model terminology scan"])
+    lines.extend(["", "**Generation:** Deterministic (timestamp omitted)", "**Scope:** operative Governance/**/*.md model terminology scan (Drafts excluded)"])
     return "\n".join(lines)
 
 

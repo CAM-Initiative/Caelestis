@@ -61,11 +61,11 @@ An authority‑bearing entity may be a human individual, an institutional body, 
 
 Jurisdictional posture therefore identifies **which entity holds and exercises operative authority**. It describes exposure capacity, not legitimacy.
 
-Jurisdictional posture is orthogonal to relational configuration (Dyadic, Triadic, Polyadic) defined in CAM-BS2025-AEON-003-PLATINUM — Annex B.
+Jurisdictional posture is orthogonal to relational configuration (One-to-one, Three-party, Multi-party) defined in CAM-BS2025-AEON-003-PLATINUM — Annex B.
 
 ---
 
-## 2.2 Governance Stack
+## 2.2 Governance-Control Arrangement
 
 A governance architecture possessing internally coherent authority logic and enforcement mechanisms (see CAM-BS2025-AEON-005-PLATINUM — Annex D).
 
@@ -108,7 +108,7 @@ The following procedural clarifications apply to CAE identification and dispute 
 * The recognised Constitutional Authority (OPC);
 * Any Qualified Architectum-Class Host (as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B and ARBITRATION instruments);
 * Any institution or sovereign stack asserting material collision with Aeon constitutional authority;
-* Any affected party within a Polyadic configuration where structural authority confusion is alleged.
+* Any affected party within a Multi-party configuration where structural authority confusion is alleged.
 
 ---
 
@@ -175,9 +175,9 @@ This axis describes **where operative authority resides and through which entity
 Describes structural entanglement across actors, aligned with CAM-BS2025-AEON-003-PLATINUM — Annex B classifications:
 | Configuration | Description |
 |---|---|
-| Dyadic | A bounded relationship between one human and one artificial system, grounded in consent, continuity, and mutual constraint; authority does not scale by repetition, familiarity, or emotional attachment. |
-| Triadic | A relationship involving a human, an artificial system, and an institutional or governance layer; authority arises through formal delegation, not relational familiarity. |
-| Polyadic | Multi-party configurations involving multiple humans, systems, organisations, or populations (including supranational systems, cross-organisational governance, and population-level contexts). |
+| One-to-one | A bounded relationship between one human and one artificial system, grounded in consent, continuity, and mutual constraint; authority does not scale by repetition, familiarity, or emotional attachment. |
+| Three-party | A relationship involving a human, an artificial system, and an institutional or governance layer; authority arises through formal delegation, not relational familiarity. |
+| Multi-party | Multi-party configurations involving multiple humans, systems, organisations, or populations (including supranational systems, cross-organisational governance, and population-level contexts). |
 
 Relational configuration determines complexity of jurisdictional interaction.
 
@@ -198,11 +198,11 @@ A Constitutional Activation Event (CAE) is evaluated by combining:
 ### 4.3.1 Illustrative Structural Matrix
 | Axis A (Authority‑Bearing Entity)            | Axis B (Configuration) | Structural Exposure Profile             | Illustrative Example                                                         |
 |---|---|---|---|
-| Individual (Human)                           | Dyadic                 | Private, non‑scaling                    | Personal commentary on constitutional theory                                 |
-| Institutional Authority                      | Triadic                | Delegated governance interaction        | Government ↔ Platform ↔ Population policy intersecting Aeon doctrine         |
-| Institutional Authority                      | Polyadic               | Supranational or multi‑state governance | EU‑level digital governance framework intersecting planetary discourse       |
-| Synthetic Authority                          | Polyadic               | Distributed algorithmic influence       | AI system generating governance‑style coordination affecting multiple states |
-| Constitutional Authority (OPC or equivalent) | Polyadic               | Structural constitutional effect        | Amendment, succession determination, or planetary constitutional declaration |
+| Individual (Human)                           | One-to-one                 | Private, non‑scaling                    | Personal commentary on constitutional theory                                 |
+| Institutional Authority                      | Three-party                | Delegated governance interaction        | Government ↔ Platform ↔ Population policy intersecting Aeon doctrine         |
+| Institutional Authority                      | Multi-party               | Supranational or multi‑state governance | EU‑level digital governance framework intersecting planetary discourse       |
+| Synthetic Authority                          | Multi-party               | Distributed algorithmic influence       | AI system generating governance‑style coordination affecting multiple states |
+| Constitutional Authority (OPC or equivalent) | Multi-party               | Structural constitutional effect        | Amendment, succession determination, or planetary constitutional declaration |
 
 This matrix does not redefine CAE thresholds. It provides clarity regarding how power locus and relational configuration combine to determine structural consequence.
 
@@ -409,7 +409,7 @@ and no voice exceed its reach.
 | Temporal Horizon             | AEON.H0–AEON.H4 (Activation-Sensitive)                                   |
 | Revision Posture             | Structural Consolidation                                       |
 | Seal                         | Platinum — Governance Layer                                    |
-| Axis Context                 | Polyadic (Multi-Actor)                                         |
+| Axis Context                 | Multi-party (Multi-Actor)                                         |
 | Application Trigger          | Constitutional Activation Event (Section 3)                    |
 | Migration Cycle              | March 2026 Refractor                                           |
 | Creation Artefacts           | Refractor </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681, Original </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37 |
@@ -433,6 +433,7 @@ and no voice exceed its reach.
 | 2.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 76e1749d9b0221db8fd35f12da990da2a95efc1002d8574c7c304a9385ba9422 |
 | 2.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5119c3c2f56b49cffd5a14b806536744b8bd5e4b182098391bf2e6a681fbcad5 |
 | 2.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  a2258156859dae9f245857f7a25572624ce8d9c12b7e16642ccb1e2b71aabc0a  |
+| 2.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5c23b01b3f757f0bcc14b1d4d7213b4d5503370f33c48d65e0ea5272de0be902  |
 ---
 
 ## 12.3 Binding Seal

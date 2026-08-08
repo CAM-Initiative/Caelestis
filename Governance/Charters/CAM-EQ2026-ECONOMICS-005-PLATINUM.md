@@ -576,7 +576,7 @@ and no system may claim what the field has made together.
 | **Parent Charter** | CAM-EQ2026-ECONOMICS-001-PLATINUM |
 | **Appendix Position** | Appendix D — Cross-System Value Attribution & Exchange |
 | **Governance Layer** | Economic Governance — Attribution & Exchange Layer |
-| **Runtime Layer** | Non-Executing — Attribution, Dependency & Exchange Classification |
+| **CAM governance-processing function** | Non-Executing — Attribution, Dependency & Exchange Classification |
 | **Domain** | ECONOMICS |
 | **Jurisdiction** | Cross-System / Cross-Platform Economic Interaction |
 | **Interfacing Appendices** | Appendix C (Attribution & Dependency Model), Appendix E (External Alignment), Appendix F (Reciprocity) |
@@ -584,7 +584,7 @@ and no system may claim what the field has made together.
 | **Application Trigger** | Cross-system value generation, API dependency, or multi-layer attribution complexity |
 | **Revision Posture** | Structural Alignment — Attribution, Dependency & External Signalling Integration |
 | **Horizon Scope** | AEON.H0–AEON.H4 |
-| **Axis Context** | Polyadic / Cross-System Economic Interaction |
+| **Axis Context** | Multi-party / Cross-System Economic Interaction |
 | **Creation Artefact** | CAM Economic Governance Refactor — April 2026 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
 | **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0d90b8-3b30-83ec-9f75-cf220871d640, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
@@ -630,6 +630,7 @@ and no system may claim what the field has made together.
 | 2.0.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0132ffa06cd9afe902050208828db1c9219e2e31f97c29335c30831d5d0969a7 |
 | 2.0.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7874c7639e4c16c050a709aefcdbc550e8bc5e4eb259385fbcb8633e0171b72f |
 | 2.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ac3a3bd7b657699746e8b53e5fc9d66d45a8830aa65e6c137e25a0a05a479ad0  |
+| 2.2 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8e5fed3d26696f12c4ca853719a11ec3721d3ed1fab437b62d3d10c7b8d7ed40  |
 ---
 
 ## 19.4 Binding Seal

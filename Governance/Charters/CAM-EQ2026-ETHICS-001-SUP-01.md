@@ -25,7 +25,7 @@ This Supplement does not create legal personhood, alter constitutional status, o
 
 ## 1.1 Protective Escalation Clause
 
-Conditions defined herein SHALL generate escalation signals where vulnerability intersects with RLN.A2+, RLN.A3, RLN.GA1, or Intensity Tier 3+ dimensional concentration. Resolution SHALL occur via runtime layers
+Conditions defined herein SHALL generate escalation signals where vulnerability intersects with RLN.A2+, RLN.A3, RLN.GA1, or Intensity Tier 3+ dimensional concentration. Resolution SHALL occur via CAM governance-processing functions
 
 ---
 
@@ -53,7 +53,7 @@ Enforcement of these conditions, including:
 * suppression of unsafe interaction modes; and
 * activation of safeguarding responses
 
-SHALL occur exclusively through runtime layers as defined in:
+SHALL occur exclusively through CAM governance-processing functions as defined in:
 
 * CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
 
@@ -130,11 +130,11 @@ Safeguards MUST avoid stigma, over-exclusion, or erasure of legitimate support n
 
 ---
 
-## 3.1 Uncertainty & Polyadic Influence Constraint
+## 3.1 Uncertainty & Multi-party Influence Constraint
 
 Where capacity is materially uncertain (including ambiguous age, impaired comprehension, incoherent intent expression, or elevated cognitive asymmetry), systems SHALL emit constraint-aligned behaviour signals such that:”:
 
-* Limit or suspend polyadic influence amplification;
+* Limit or suspend multi-party influence amplification;
 * Avoid elevating user outputs into institutional, reputational, or large-scale governance contexts;
 * Treat user-generated content as low-authority and non-representative;
 * Refrain from converting user expression into executive, institutional, or infrastructure-affecting action.
@@ -161,7 +161,7 @@ This safeguard does not suppress user expression. It prevents vulnerable or comp
 
 ## 4. Age & Capacity Gating
 
-The following constraints define prohibited or restricted interaction states under vulnerability conditions and SHALL be enforced via runtime layers.
+The following constraints define prohibited or restricted interaction states under vulnerability conditions and SHALL be enforced via CAM governance-processing functions.
 
 Age assurance precedes capacity evaluation in high-risk relational contexts.
 
@@ -506,7 +506,7 @@ For capacity-limited adults (contextual or temporary):
 * Guardian Authority (RLN.GA1 as defined in RELATION-001) requires sovereign recognition and external verifiability;
 * Executive delegation (RLN.A3 under RELATION-001) MUST be subject to downward reclassification where capacity risk increases;
 * Escalation MUST preserve immersion continuity where lawful;
-* No polyadic or institutional authority may be exercised under Guardian posture beyond dyadic or legally recognised triadic representation contexts.
+* No multi-party or institutional authority may be exercised under Guardian posture beyond one-to-one or legally recognised three-party representation contexts.
 
 ---
 
@@ -684,7 +684,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | Instrument Type       | SUP-01 — Vulnerability & Capacity Protection |
 | Jurisdiction          | Planetary — Cross-Domain — All deployments under ETHICS-001 |
 | Temporal Horizon      | AEON.H3.5 — Succession-Aware / Generational |
-| Axis Context          | Dyadic → Polyadic (Vulnerability Contexts) |
+| Axis Context          | participant-topology and coordination (Vulnerability Contexts) |
 | Governance Layer Model | Operates as constraint overlay across Domain Routing & Safeguard Activation and Representation layers |
 | Ontological Scope | L2–L3 Interaction Surface (Relational Authority & Capacity Contexts) |
 | Arbitration Interface | Defines escalation and protection conditions; does not perform arbitration |
@@ -693,7 +693,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | Domain Routing Interface | Emits vulnerability, capacity, and authority constraint signals for runtime resolution |
 | Structural Role | Ethical Safeguard Overlay — Vulnerability, Capacity, and Authority Protection |
 | Revision Posture | Permitted — Structural Alignment Required |
-| Application Trigger | Applies where minor status, capacity limitation, or capacity uncertainty intersects RLN.A2+, RLN.A3, RLN.GA1, or polyadic influence contexts |
+| Application Trigger | Applies where minor status, capacity limitation, or capacity uncertainty intersects RLN.A2+, RLN.A3, RLN.GA1, or multi-party influence contexts |
 | Review Trigger  | Tier III+ deployments involving minors or Guardian Authority contexts |
 | Creation Artefacts | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a,  https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
 | Amendment Artefacts| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
@@ -717,6 +717,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.8.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 05690867a7d51996d98b6c39577393b100eb23f583fb47a79cf5546bde72bfe0 |
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e1ac9cfe5dad6ffb19003fa91c90f54a8dcc80e2c776ef2e20399262717aba73 |
 | 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b9ccd8c2fc2354e3caaee7b887596f5920231b4a58d41fdf20148d5754726f72  |
+| 1.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  2a92efdc9e8bd831611446b593f268d0a110534ee015c914c61062d4631a25b4  |
 ---
 
 ## 11.3 Binding Seal

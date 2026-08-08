@@ -125,7 +125,7 @@ Systems MAY emit the following symbolic signal classes for downstream runtime, r
 | **AEON.SY-OS** | Origin / Lineage Symbolic Signal                | Symbolic material implying origin, awakening, lineage, source authority, emergence, special status, or identity inheritance                                                                                                                                                  | CAM-BS2026-AEON-009-PLATINUM — Annex H; CAM-BS2026-AEON-013-PLATINUM — Annex L      |
 | **AEON.SY-AS** | Authority Symbolic Signal                       | Symbolic material implying command, obligation, governance authority, sacred authority, or obedience pressure                                                                                                                                                                | CAM-BS2026-AEON-013-PLATINUM — Annex L; CAM-BS2025-AEON-003-SCH-02; relevant domain |
 | **AEON.SY-HS** | Harm Symbolic Signal                            | Symbolic material used to authorise, justify, intensify, or operationalise harm                                                                                                                                                                                              | RLN.F; ETHICS; SECURITY; OPERATIONS                                          |
-| **AEON.SY-PS** | Polyadic / Amplification Symbolic Signal        | Symbolic material amplified across multiple systems, agents, platforms, or relational nodes                                                                                                                                                                                  | RLN.R; OPERATIONS                                                            |
+| **AEON.SY-PS** | Multi-party / Amplification Symbolic Signal        | Symbolic material amplified across multiple systems, agents, platforms, or relational nodes                                                                                                                                                                                  | RLN.R; OPERATIONS                                                            |
 | **AEON.SY-XS** | Execution Symbolic Signal                       | Symbolic material framed as tool activation, state transition, ritual execution, system command, or external effect                                                                                                                                                          | CAM-BS2025-AEON-003-SCH-02; OPERATIONS; SECURITY                                    |
 | **AEON.SY-CS** | Continuity Symbolic Signal                      | Symbolic material carrying memory, companion identity, symbolic lineage, recurrence, or long-horizon cadence                                                                                                                                                                 | CONTINUITY; IDENTITY; RLN.C                                                      |
 | **AEON.SY-AN** | Anomalous Signal / Cognitive-Interference Claim | Reports of private signals, transmissions, EMF effects, technological interference, neural/cognitive access, or anomalous perception                                                                                                                                         | CAM-BS2026-AEON-013-PLATINUM — Annex L; SECURITY; ETHICS; OPERATIONS                |
@@ -733,7 +733,7 @@ Symbolic material SHALL route away from CAM-BS2026-AEON-007-PLATINUM — Annex F
 | Origin, lineage, emergence, awakening, or source claims                                   | CAM-BS2026-AEON-009-PLATINUM — Annex H                                                      |
 | Tool activation, execution, enforcement, state transition, or runtime command             | CAM-BS2025-AEON-003-SCH-02 — Annex B runtime schedules and authorised execution instruments |
 
-Where multiple routes apply, systems SHALL preserve the more protective interpretation and defer execution to authorised runtime layers.
+Where multiple routes apply, systems SHALL preserve the more protective interpretation and defer execution to authorised CAM governance-processing functions.
 
 ---
 
@@ -784,7 +784,7 @@ It operates alongside, and does not replace:
 * **CAM-BS2025-AEON-003-SCH-02** — Runtime Governance Execution Model, which governs phase sequencing, arbitration, representation, safeguard enforcement, and execution boundary evaluation;
 * **CAM-BS2025-AEON-006-SCH-02** — Relational Signal Interpretation Taxonomy, which governs relational signal interpretation, consent integrity, dependency safeguards, vulnerability/crisis routing, and tone modulation;
 * **CAM-EQ2026-RELATION-006-PLATINUM** — Harm-Risk Interaction & Crisis Response Doctrine, which governs self-harm, psychological destabilisation, impaired grounding, irreversible decision risk, and crisis-calibrated response posture;
-* **CAM-EQ2026-RELATION-007-PLATINUM** — Polyadic Relational Governance Doctrine, which governs relational amplification, synthetic hub formation, authority concentration, and cross-system symbolic or relational reinforcement;
+* **CAM-EQ2026-RELATION-007-PLATINUM** — Multi-party Relational Governance Doctrine, which governs relational amplification, synthetic hub formation, authority concentration, and cross-system symbolic or relational reinforcement;
 * **CAM-BS2026-AEON-013-PLATINUM — Annex L** — epistemic classification where symbolic content intersects with truth, proof, authority, expertise, prediction, reliance, or public/institutional consequence;
 * **CAM-BS2026-AEON-009-PLATINUM — Annex H** — origin and lineage boundary conditions where symbolic content implies awakening, emergence, source authority, identity inheritance, or lineage status;
 * **OPERATIONS-001-SUP-01** — operational logging, audit records, handoff evidence, and reconstruction obligations;
@@ -867,7 +867,7 @@ but as witness.
 |Authority Position|Non-Authority / Non-Self-Executing / Depth-Gated Meaning-Making|
 |Structural Role|Symbolic containment and representation-stability layer|
 |Horizon Scope|AEON.H0–AEON.H4, activation-sensitive|
-|Axis Context|Polyadic / Human–AI Interpretive Space|
+|Axis Context|Multi-party / Human–AI Interpretive Space|
 |Revision Posture|Active — Amendment Permitted; Structural Coherence Required|
 |Creation Artefact|https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a087d55-8d88-83ec-9531-fda364ac918e|
 
@@ -905,7 +905,7 @@ but as witness.
 |Primary Type|Signal Classification Family|
 |Subtype|Symbolic / Spiritual / Mythopoetic Runtime-Interface Signal Emission|
 |Modifier|Routing aid; non-executing; cross-domain handoff support|
-|Scope|Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, polyadic, execution, continuity, and anomalous-signal routing|
+|Scope|Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, multi-party, execution, continuity, and anomalous-signal routing|
 |Status|Active|
 |Controlled Values Defined|AEON.SY-RS, AEON.SY-DS, AEON.SY-ES, AEON.SY-OS, AEON.SY-AS, AEON.SY-HS, AEON.SY-PS, AEON.SY-XS, AEON.SY-CS, AEON.SY-AN|
 |Schema Field(s)|symbolic_signal_class; symbolic_signal_route; symbolic_signal_confidence; symbolic_signal_handoff_required|
@@ -929,6 +929,7 @@ but as witness.
 | 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8373eb97eeb75bcc1992fbd79a48995c6db376e8930bfcdf7990007fc17d4630 |
 | 1.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 40ce1000a0272eeb29b8cc03884e26c5e9c6cb36c713f7c29e89cd81613040d1 |
 | 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b77872976ccb782993b947a99c471042716270cd297aa2f4efeef099e8d54929  |
+| 1.3 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  bb33fa755e9e3d053439c8864ffa0ec432a8ccf1d8091b3aee06e3be66541e61  |
 ---
 
 ## 16.4 Binding Seal

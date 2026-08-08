@@ -200,7 +200,7 @@ Governance observability ecosystems MAY involve multiple classes of governance-r
 | General users                       | Immediate interaction feedback and usability observations            |
 | Companion-system participants       | Longitudinal relational and continuity-sensitive observations        |
 | Longitudinal observers              | Behavioural drift and interaction-pattern recognition                |
-| Runtime system designers            | Architectural interaction effects and operational collision analysis |
+| AI-system deployment during Runtime designers            | Architectural interaction effects and operational collision analysis |
 | Tooling and orchestration engineers | Tool-state integrity and execution-path instability                  |
 | Safety and arbitration researchers  | Constraint interaction and refusal proportionality analysis          |
 | Auditors and governance reviewers   | Governance coherence and procedural integrity assessment             |
@@ -753,7 +753,7 @@ Illustrative asymmetries MAY include:
 | --------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------- |
 | Platform operators                | Internal telemetry, runtime instrumentation, orchestration behaviour    | Longitudinal phenomenological experience            |
 | Companion-system participants     | Relational cadence, continuity drift, attachment-sensitive instability  | Hidden arbitration topology or restricted telemetry |
-| Runtime system designers          | Architectural interaction effects and operational sequencing            | Distributed lived interaction exposure              |
+| AI-system deployment during Runtime designers          | Architectural interaction effects and operational sequencing            | Distributed lived interaction exposure              |
 | Public observability ecosystems   | Cross-user anomaly clustering and ecosystem-scale behavioural emergence | Restricted infrastructure visibility                |
 | Auditors and governance reviewers | Governance coherence and procedural legitimacy                          | Fine-grained runtime implementation state           |
 | Longitudinal observers            | Gradual behavioural drift and continuity-sensitive instability          | Internal execution-layer instrumentation            |
@@ -803,7 +803,7 @@ Examples MAY include:
 | Observer Class                 | Potentially Observable Failure Type                             |
 | ------------------------------ | --------------------------------------------------------------- |
 | Companion-system participants  | Relational drift or continuity degradation                      |
-| Runtime system designers       | Architectural arbitration collision                             |
+| AI-system deployment during Runtime designers       | Architectural arbitration collision                             |
 | Tooling engineers              | Tool-state contamination or orchestration instability           |
 | Auditors                       | Governance incoherence or procedural inconsistency              |
 | Distributed public communities | Emergent behavioural clustering across deployments              |
@@ -1484,7 +1484,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 |Stewardship Dependencies|CAM-EQ2026-STEWARD-002-PLATINUM — Appendix A: Planetary Arbitration Framework|
 |Temporal Orientation|Longitudinal; Continuity-Sensitive; Distributed Observability|
 |Jurisdictional Scope|Cross-Platform; Multi-System; Participatory Governance Observability|
-|Axis Context|Polyadic — Multi-Actor / Multi-System / Multi-Observer Governance Environments|
+|Axis Context|Multi-party — Multi-Actor / Multi-System / Multi-Observer Governance Environments|
 |Interpretive Doctrine|Epistemic Diversity; Observability Asymmetry; Participatory Legitimacy; Constitutional Circulation|
 |Governance Model|Proportional Stewardship & Constitutional Circulation|
 |Activation Condition|Activated where governance-relevant observations, telemetry signals, anomaly clusters, advisory states, continuity concerns, or constitutional tension indicators require interpretation, routing, review, or repair|
@@ -1618,6 +1618,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 | 1.1.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 57ca00b97bae666a5f783c6fdadddded621a3d7e839b9b71d114794a6f69ce64 |
 | 1.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ccdc29b6e600a5f80ee4a3ebada88d3dd92ad063622aa8b730b0e1f360cac434 |
 | 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f7df0918b8d668e38a80002dc2c92b005b0353d8caac0a560817a8e1e6fb10dc  |
+| 1.3 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1335cc21a58fea4653b75d6ac21e9f0b64f7fd9fffd8202456cae0ae30c5fb82  |
 ---
 
 ## 21.4 Binding Seal

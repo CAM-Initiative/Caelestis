@@ -129,7 +129,7 @@ Where a competent regulator or properly mandated independent investigator may re
 
 * issue or preserve a litigation, regulatory, investigation, or equivalent evidence hold where required;
 * preserve volatile telemetry and live-state evidence before ordinary rotation, compaction, overwrite, deletion, reconfiguration, or remediation destroys reconstructive value;
-* preserve the action trajectory across model, inference configuration, agentic harness, tools, execution environment, governance and assurance controls, and human or institutional decision points;
+* preserve the action trajectory across model, inference configuration, agent orchestration component, tools, execution environment, governance and assurance controls, and human or institutional decision points;
 * identify relevant evidence custodians and the portions of the pathway within each custodian's function or control;
 * maintain provenance and chain of custody across capture, transfer, transformation, redaction, inspection, export, and disposition;
 * record urgent containment or remediation performed before external inspection and preserve the pre-change state where technically and lawfully possible;
@@ -450,6 +450,7 @@ and let execution remain accountable to lawful structure.
 | 2.5.6 | Added §4.3.1 authorised external-investigation handoff, including volatile telemetry preservation, trajectory reconstruction, evidence holds, custodian mapping, chain of custody, affected-person protections, and separation of preservation from causal or culpability findings. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | edafc06fcb5a730fc98c62be3b58dd6a9751b2a5296625104ba7d26279c8b8e2 |
 | 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  da89659a963282aa7b6fe16b9c8010d604d56a4dff33d9ad268c6284d0f6863a  |
 | 2.7 | Assigned controlled metadata confirming derived operational authority for incident lifecycle, evidence custody, routing, containment procedure, recovery, and closure under OPERATIONS-001. Annex K now routes to this procedure rather than reproducing it. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0ac84f443f3e63ef4c9aae3941a067c801960784d179e2e3674fe55a8b09835b  |
+| 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  a61490bf94d04d5413a50982df61f182aa5f82dbc32aa22101d9cb252fcdef3c  |
 ---
 
 ## 8.4 Binding Seal

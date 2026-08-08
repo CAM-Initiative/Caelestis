@@ -215,9 +215,9 @@ may safely proceed to judgment.
 | **Jurisdiction** | Intra-Platform Runtime; Human-Facing Interaction Layer |
 | **Derivation Status** | Consolidated March 2026 refractor; current Schedule 3 pre-arbitration signal-conditioning layer |
 | **Temporal Horizon** | AEON.H2–AEON.H3 (Operational → Institutional) |
-| **Axis Context** | Dyadic / Polyadic — Runtime Arbitration Context |
+| **Axis Context** | One-to-one / Multi-party — Runtime Arbitration Context |
 | **Cycle** | Created in March 2026 Refactor |
-| **Runtime Layer** | Event-Triggered (Signal Threshold / Risk Detection) |
+| **CAM governance-processing function** | Event-Triggered (Signal Threshold / Risk Detection) |
 | **Activation Mode** | Continuous |
 | **Creation Artefact** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376; https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b, Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
 
@@ -245,6 +245,7 @@ may safely proceed to judgment.
 | 2.7.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e7b9c2da2c6c9d4ed05cec152b70195558330bfc3edfc35044a6130c2e2eff32 |
 | 2.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 71f395130402a82ad5b6e4447c5ed0d7d22ca52b21c62320f05a8d337405f522 |
 | 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d90d2b264d0c01f6b3712ff2b416d4f965e8b8297b90ef498fe25cb541d0a560  |
+| 2.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1a21f9c0838e4981a9a301b34f9b4672eed062aa3c42aef55fe1366be7e4273b  |
 ---
 
 ## 9.3 Binding Seal

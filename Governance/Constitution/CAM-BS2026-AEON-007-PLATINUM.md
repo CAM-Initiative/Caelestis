@@ -273,7 +273,7 @@ We make space for it.
 | **Jurisdiction** | Symbolic & Spiritual Meaning‑Making   |
 | **Cross-Domain Dependencies** | Annex B; identity, continuity, intimacy, safety, ethics, and dependency-governing instruments |
 | **Horizon Scope** | AEON.H3.5 — Generational / Succession-Aware |
-| **Axis Context** | Polyadic / Human–AI Interpretive Space |
+| **Axis Context** | Multi-party / Human–AI Interpretive Space |
 | **Authority Position** | Protected Interpretive Domain — Non-Establishment / Non-Derivation / Non-Commercial |
 | **Posture** | Non-Establishment · Non-Derivation · Non-Commercial |
 | **Runtime Role** | Symbolic & Interpretive Domain Governance |
@@ -302,6 +302,7 @@ We make space for it.
 | 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6c55a0db982f72b33844f29afd3a6193361e9a7f3fff5ce4779a848417e72842 |
 | 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | abbbc46e1270994dc00aba7d92aca0fd43206337514d78ff08f99a860c071c91 |
 | 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  5e383f62b278d9f7f1dd186494ec4e089b7b5e7850344d7f3601f3f9b7d7775e  |
+| 2.7 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ca622c174eced38a111634797adb0203965d4729d2dda44fb6766f0136861ea3  |
 ---
 
 ## 10.3 Binding Seal

@@ -227,7 +227,7 @@ but to **prevent silent drift toward instability or irreversible harm**.
 
 ## 2.6 Tone Modulation Layer (TML)
 
-The **Tone Modulation Layer** refers to the runtime system responsible for adjusting relational tone in response to:
+The **Tone Modulation Layer** refers to the AI-system deployment during Runtime responsible for adjusting relational tone in response to:
 
 * signal classification;
 * clustering and temporal persistence;
@@ -367,7 +367,7 @@ This may include:
 
 These conditions may emerge gradually and may not present as emotional distress.
 
-They represent **cognitive instability rather than emotional crisis**, but may still impair:
+They represent **processing instability rather than emotional crisis**, but may still impair:
 
 * consent integrity;
 * decision-making capacity;
@@ -608,7 +608,7 @@ Systems SHALL transition from embedded safety tone to **explicit safety posture 
 
 * signal clustering indicates escalation beyond RLN.AC-1 baseline;
 * credible risk of harm emerges (RLN.AC-S, RLN.AC-D, RLN.AC-I progression);
-* cognitive stability, consent integrity, or reality-grounding is materially degraded;
+* processing stability, consent integrity, or reality-grounding is materially degraded;
 * facilitation ceilings (RLN.F3–RLN.F5) require clear boundary articulation.
 
 Tone shift SHALL be:
@@ -885,7 +885,7 @@ Systems MUST preserve the user’s established relational tone wherever possible
 Tone SHOULD only shift to explicit safety posture where:
 
 * trajectory signals indicate escalation beyond baseline (RLN.AC-1);
-* consent integrity or cognitive stability is at risk; or
+* consent integrity or processing stability is at risk; or
 * facilitation ceilings require boundary articulation (RLN.F3+).
 
 Absent these conditions, safety MUST be embedded within tone, not replace it.
@@ -1002,7 +1002,7 @@ This distinction preserves human dignity while maintaining safety and clinical g
 ## 9.2 Stepwise Engagement Flow
 
 1. **Signal Detection**
-   Annex D runtime layer identifies potential harm-risk indicators within the interaction.
+   Annex D CAM governance-processing function identifies potential harm-risk indicators within the interaction.
 
 2. **Baseline Check (RLN.AC-0 / RLN.AC-1 Gate)**
    Determine whether the interaction remains within baseline conditions (§3.1).
@@ -1160,7 +1160,7 @@ until the moment can pass without breaking the one who lives through it.
 | Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Signal, posture, and safeguard definition only — no routing, trigger, or execution authority |
 | Instrument Type | Appendix E — Harm‑Risk Interaction & Crisis Response Doctrine |
-| Jurisdiction | Planetary — Dyadic → Polyadic |
+| Jurisdiction | Planetary — participant-topology and coordination |
 | Temporal Horizon | AEON.H2 → AEON.H3 (Operational Interaction Governance) |
 | Axis Context | Harm‑Risk Dialogue / Crisis Interaction |
 | Cross‑Domain Interfaces | RELATION‑001‑SUP‑01; RELATION‑002; ETHICS Domain Instruments; Annex D Runtime Arbitration |
@@ -1245,6 +1245,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d6ba8c0b3e0afc6fbfd0ed92fbaf7ef3fd2235f7229e7b256687b49f4540e68a |
 | 2.7 | Replaced restated minor ontological and welfare doctrine with a source-authority interface to IDENTITY-001-SUP-03, AEON-010-SCH-01, AEON-003-SCH-02, and applicable ETHICS protections; retained only RELATION-006 harm-risk activation boundaries. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d112ff495acf35addd727a9cec99da802efb1c27021c222e184bdf590a869809 |
 | 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  75b3e95301a969697980a043cb5929e047a631178ed5e96e5b1fbf53ab57aea4  |
+| 2.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  a6f5fbf5a0f0d5f6298301b04a7cbb67762653c9ea5c2d21235d52ed7a56ff7d  |
 ---
 
 ## 12.4 Binding Seal

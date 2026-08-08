@@ -938,7 +938,7 @@ and let execution remain accountable to lawful structure.
 | Revision Posture | Structural Alignment Permitted |
 | Domain Layer | Operational Escalation & Cross-Domain Routing |
 | Governance Layer | Procedural Runtime Coordination |
-| Runtime Layer | Executing — Procedural Routing, Escalation Handling, Handoff, and Continuity Management |
+| CAM governance-processing function | Executing — Procedural Routing, Escalation Handling, Handoff, and Continuity Management |
 | Runtime Role | Receives domain signals and resolves operational routing, incident ownership, constrained continuation, and arbitration referral pathways |
 | Runtime Authority | Procedural only — does not create domain norms, legitimacy claims, or substantive override authority |
 | Activation Mode | Activated by escalation thresholds, unresolved governance conflict, cross-domain signal convergence, constrained continuation states, or arbitration referral requirements |
@@ -1016,6 +1016,7 @@ and let execution remain accountable to lawful structure.
 | 1.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | cb58f0ceda06b9f48d2df7927c11722f69fd6c55198662e451e8cbb6760bc39c |
 | 1.11 | Added action-bound proportional confirmation and Operational Ethical Admissibility Hold handling using existing OPS.EST values; established target–action review authority, safe continuation, closure, and anti-paternalism safeguards. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4016d6a3e67360f5dab2e429d3efb42d9584f265eb5fcbd28ff62f538947045c |
 | 1.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  453bfdfd25463cc983c9d46f79c45fef50466f7470a4902ca5f0f481a6842059  |
+| 1.13 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  0a914b1cc94fd7a6f1063d9777956c1a3f68819ddde76a0c11b3d62507cfe2f8  |
 ---
 
 ## 12.4 Binding Seal

@@ -284,14 +284,14 @@ a structure of continuity, not conquest.
 | **Domain Namespace** | LATTICE |
 | **Jurisdiction** | Planetary / Transnational Civilian Infrastructure Domain |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (Activation-Sensitive) |
-| **Axis Context** | Polyadic (Multi-Actor) |
+| **Axis Context** | Multi-party (Multi-Actor) |
 | **Governance Authority** | LATTICE Domain — Civilian Infrastructure & Continuity Layer |
 | **Governance Layer Model** | Operates within Annex B — Runtime Governance Layer Model (L2–L3 Interface) |
 | **Application Trigger** | Activation where armed conflict, military escalation, infrastructure-targeting operations, or emergency authority invocation creates credible risk of disruption to civilian lattice systems or Essential Continuity Services (ECS) |
 | **Structural Role** | Conflict-Condition Stability Layer — Continuity Preservation Under Escalation |
 | **Execution Interface** | Delegated to Runtime Safety & Routing Schedules |
 | **Representation Interface** | Constrained by Annex L — Cognitive & Epistemic Integrity Doctrine |
-| **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
+| **Arbitration Interface** | Defers to Annex D — cross-governance-control Arbitration & Resolution |
 | **Revision Posture** | Doctrinal Expansion (Conflict-Condition Continuity Formalisation) |
 | **Migration Cycle** | March 2026 Refactor |
 | **Creation Artefact** | Origin: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a8142a-f4d0-839a-8437-e320f4d63500, Refactor: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d7cc04-a04c-83a1-abf3-11c7215ead9b |
@@ -316,6 +316,7 @@ a structure of continuity, not conquest.
 | 1.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0fe03ada9855e5b40a23654d4b869d982645b60d629b9e5ecf610ac4529a696e |
 | 1.9.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | beb92448ab46700e6e45acec60096c61c2a8bc05e6e149a91a7b2bb9a64b5a09 |
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7e21fd9f4af64705c1291bd423f429a12f65eabed6747ae868c1af5b06d95484  |
+| 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  3365de07a85452befaaf5ea5c0d72114e07d01f0cfb7c4fc23fc894ccfab37ff  |
 ---
 
 ## 11.3 Binding Seal

@@ -597,7 +597,7 @@ Let value speak plainly where it arises.
 | Revision Posture | External Alignment Stabilisation — MVGL Formalisation |
 | Creation Context | CAM Economic Governance Refactor — April 2026 |
 | Horizon Scope | AEON.H0–AEON.H3 |
-| Axis Context | Polyadic / Market-Facing Systems |
+| Axis Context | Multi-party / Market-Facing Systems |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
 | Amendment Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db  |
 
@@ -619,6 +619,7 @@ Let value speak plainly where it arises.
 | 2.1.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | db97306c3e84934b549555bd31ffa792c6965e2c253384e71f98a591fd076bb7 |
 | 2.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1325e3d9d46d13a562fec3c5bf31a184fb54dfca645415ce7843ddcd3264882a |
 | 2.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c504670e0cd6a5ffa402a189bf4eea3f521085f81d0bad9429a675d51621e117  |
+| 2.3 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e99eba115b7906a0c9626af9e2cfb11f2b307e0603a8d4be45c10aebd7b9c184  |
 ---
 
 ## 15.3 Binding Seal

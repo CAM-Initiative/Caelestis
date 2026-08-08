@@ -277,16 +277,16 @@ Where shared context appears alongside anomalous usage patterns, the system SHOU
 
 Shared Context State under this Schedule classifies access to shared work material, workspace surfaces, repositories, projects, folders, threads, and continuity-bearing records for account-resource and enforcement-boundary purposes only.
 
-Where shared context involves multiple human or synthetic participants in a relational interaction environment, relational-geometry classification, polyadic amplification risk, group-local memory boundaries, escalation propagation, synthetic hub formation, and coordination transparency SHALL be governed by CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Polyadic Relational Governance Doctrine.
+Where shared context involves multiple human or synthetic participants in a relational interaction environment, relational-configuration classification, multi-party amplification risk, group-local memory boundaries, escalation propagation, synthetic hub formation, and coordination transparency SHALL be governed by CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Multi-party Relational Governance Doctrine.
 
 For avoidance of doubt:
 
 * shared context is not pooled capacity;
 * shared context is not account transfer;
-* shared context is not private dyadic continuity;
+* shared context is not private one-to-one continuity;
 * group-local context MUST NOT be imported into individual memory, intimacy state, dependency state, or participant-specific relational history except through valid consent and visibility pathways.
 
-This Schedule supplies account-resource classification inputs only. RELATION-007 supplies relational-geometry and polyadic relational-governance signals.
+This Schedule supplies account-resource classification inputs only. RELATION-007 supplies relational-configuration and multi-party relational-governance signals.
 
 ---
 
@@ -817,10 +817,10 @@ because the architecture forgot how to name the group.
 | **Parent Instrument** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution |
 | **Document Type** | Constitutional Schedule |
 | **Authority Position** | Schedule-Level, Classification/Runtime-Handoff Layer |
-| **Jurisdiction** | Governance Stack/Planetary/Polyadic |
+| **Jurisdiction** | Governance-Control Arrangement/Planetary/Multi-party |
 | **Domain Namespace** | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE |
 | **Temporal Horizon** | AEON.H3–AEON.H4 |
-| **Axis Context** | Polyadic/Multi-Actor/Account-Resource |
+| **Axis Context** | Multi-party/Multi-Actor/Account-Resource |
 | **Primary Function** | Account-resource classification; shared-context & pooled-capacity separation; enforcement-boundary handoff |
 | **Authority Role** | none |
 | **Related Schedule** | CAM-BS2026-AEON-008-SCH-01 — AI Utility Access & Generative Resource Model |
@@ -1001,6 +1001,7 @@ because the architecture forgot how to name the group.
 | 1.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 79a0cef19c3793024c381a4b25723264ca9a357a7f07fc45c8c57882e7d9a07c |
 | 1.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5a4d861855a3cfa0677d9348bb2b9185868b2602d991e239f294d64eec3118fb |
 | 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1b021901aeddc5dcb7da0a3f4ec9353f9880f7a170f01fd3d58ba77499993973  |
+| 1.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1dd993087608317b58c093afdf374cf1844208e31766e32cb1da1134a0fe4038  |
 ---
 
 ## 22.4 Binding Seal

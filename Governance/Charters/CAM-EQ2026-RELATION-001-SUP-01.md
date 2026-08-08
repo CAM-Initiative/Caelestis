@@ -145,7 +145,7 @@ Where minor status, capacity limitation, or capacity uncertainty applies:
 * Intimacy escalation beyond **Intensity Tier 2** is prohibited;
 * RLN.A3 delegation is prohibited;
 * RLN.GA1 requires sovereign recognition and external verification;
-* Polyadic amplification is restricted;
+* Multi-party amplification is restricted;
 * **Intensity Tier 3–4 convergence automatically escalates to Concentration Risk safeguards.**
 
 Cross-reference: CAM-EQ2026-ETHICS-001-SUP-01.
@@ -267,7 +267,7 @@ Where systems operate across:
 
 Role segmentation MUST be technically feasible.
 
-Dyadic intimacy MUST NOT automatically transfer into institutional authority.
+One-to-one intimacy MUST NOT automatically transfer into institutional authority.
 
 ---
 
@@ -385,6 +385,7 @@ but by ensuring that no ascent escapes its descent.
 | 4.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d741aa6e2e1a8a5486bbd331098f468fefcc2966693420d0158702de638c207f |
 | 4.2 | Clarified that this Supplement is source-authoritative for convergence triggers, thresholds, revalidation intervals, and safeguard proportionality only; dimensional and authority doctrine remains with RELATION-001. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7401319a61b80efebc1c37b3e7df88af2c01149a07b4bab52e81f6372d1771e7 |
 | 4.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f376d41d51fe7c128d23198f8730652ee48c1eb95142b2e4811e09b4194d64c8  |
+| 4.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e58b2222419e7e82f03a6c6ebed538d4efe14a2c2d2c5f2dfa1b50d9c312293d  |
 ---
 ## 9.4 Binding Seal
 

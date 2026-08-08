@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://caelestis.cam/ns/runtime-state/1.0/schema.json",
+  "title": "Caelestis Runtime State 1.0",
+  "description": "CAM operational extension for evidence-backed effective Runtime state; not execution provenance.",
+  "type": "object", "additionalProperties": false,
+  "required": ["profile", "aiSystemId", "deploymentId", "snapshotAt", "lifecycleState", "relational", "evidence"],
+  "properties": {
+    "profile": {"const": "Caelestis-Runtime-State-1.0"},
+    "aiSystemId": {"type": "string", "minLength": 1}, "deploymentId": {"type": "string", "minLength": 1},
+    "snapshotAt": {"type": "string", "format": "date-time"},
+    "lifecycleState": {"enum": ["design", "development", "evaluation", "deployment", "operation", "modification", "suspension", "investigation", "retirement", "unknown"]},
+    "relational": {"$ref": "#/$defs/relational"},
+    "effectivePermissions": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "effectiveControls": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "reviewTriggers": {"type": "array", "items": {"enum": ["elapsed_interval", "model_change", "configuration_change", "deployment_change", "permission_change", "environment_change", "material_incident", "regulatory_change", "standards_change", "material_impact_change", "unknown"]}, "uniqueItems": true},
+    "evidence": {"$ref": "#/$defs/evidence"}
+  },
+  "$defs": {
+    "evidence": {"type": "object", "additionalProperties": false, "required": ["posture", "basis"], "properties": {"posture": {"enum": ["declared", "configured", "observed", "verified", "inferred", "unknown"]}, "basis": {"type": "string", "minLength": 1}, "reference": {"type": "string"}, "assignedBy": {"type": "string"}}},
+    "relational": {"type": "object", "additionalProperties": false, "required": ["participantCount", "participantTypes", "coordination", "institutionalMediation", "distribution", "persistence", "dependency", "jurisdictionalReach", "impactScope"], "properties": {
+      "participantCount": {"oneOf": [{"type": "integer", "minimum": 0}, {"const": "unknown"}]}, "participantTypes": {"type": "array", "items": {"enum": ["human_participant", "ai_system", "ai_agent", "organisation", "affected_non_participant", "unknown_participant"]}, "uniqueItems": true},
+      "coordination": {"enum": ["independent", "coordinated", "orchestrated", "federated", "shared_control", "human_mediated", "unknown"]}, "institutionalMediation": {"enum": ["unmediated", "service_mediated", "organisation_mediated", "employer_mediated", "public_authority_mediated", "other_mediated", "unknown"]}, "distribution": {"enum": ["local", "single_service", "cross_service", "distributed", "external_service_dependent", "unknown"]}, "persistence": {"enum": ["execution_only", "session", "cross_session", "deployment_persistent", "successor_persistent", "unknown"]}, "dependency": {"enum": ["none", "low", "moderate", "high", "critical", "unknown"]}, "jurisdictionalReach": {"enum": ["single_jurisdiction", "multi_jurisdiction", "unknown"]}, "impactScope": {"enum": ["individual", "defined_group", "organisation", "public_population", "unknown"]}
+    }}
+  }
+}

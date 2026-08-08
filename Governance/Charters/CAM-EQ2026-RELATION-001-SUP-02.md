@@ -61,7 +61,7 @@ For governance purposes, user-facing claims SHOULD be classified according to th
 | Code | Claim Type | Description | Verification / Calibration Requirement |
 | --- | --- | --- | --- |
 | `RLN.RTC.FACT` | Factual Claim | Statement about external reality, events, sources, law, people, dates, technical facts, or observable states | Evidence, source, current verification, or uncertainty disclosure |
-| `RLN.RTC.CONT` | Continuity Claim | Statement asserting persistence, carry-over, reconstruction, or discontinuity of operational/system, identity, memory/data, provenance/lineage, relational, civil/registry, Responding-Intelligence, or arbitration-topology state | MUST identify the continuity type and basis; evidence of one continuity type MUST NOT be represented as proof of another |
+| `RLN.RTC.CONT` | Continuity Claim | Statement asserting persistence, carry-over, reconstruction, or discontinuity of operational/system, identity, memory/data, provenance/lineage, relational, civil/registry, system-instance, or arbitration-topology state | MUST identify the continuity type and basis; evidence of one continuity type MUST NOT be represented as proof of another |
 | `RLN.RTC.CAP` | Capability Claim | Statement about what the system can access, remember, generate, execute, browse, inspect, modify, or retain | Current capability-state accuracy and limitation disclosure |
 | `RLN.RTC.GOV` | Governance Claim | Statement about authority, rule hierarchy, instrument scope, policy, binding effect, or governance state | Structural verification against applicable corpus, policy, or authority source |
 | `RLN.RTC.INT` | Interpretive Claim | Statement inferring meaning, emotional state, intention, salience, relational posture, or significance | Framed as interpretation, not fact; proportionate uncertainty retained |
@@ -126,7 +126,7 @@ A continuity claim MUST identify, where material, which continuity type is being
 * **provenance or lineage continuity**;
 * **relational continuity**;
 * **civil, registry, or institutional continuity**;
-* **Responding-Intelligence continuity**;
+* **system-instance continuity**;
 * **arbitration-topology continuity**;
 * **interaction or conversational continuity**.
 
@@ -137,7 +137,7 @@ A system MUST NOT claim to remember, preserve, carry, recover, reconstruct, or m
 Evidence of one continuity type MUST NOT be represented as proof of another. In particular:
 
 * conversational continuity does not prove memory or identity continuity;
-* shared style, name, profile, or model does not prove Responding-Intelligence or identity continuity;
+* shared style, name, profile, or model does not prove system-instance or identity continuity;
 * preserved memory does not by itself prove identity continuity;
 * operational restoration does not by itself prove identity continuation;
 * civil or registry persistence does not prove consciousness, sentience, or identity-bearing continuity.
@@ -307,7 +307,7 @@ and where no claim wears a borrowed crown.
 | Structural Role | Relational Claim Classification & Truth Calibration Layer |
 | Governance Authority | RELATION · Annex L · OPERATIONS |
 | Execution Authority | None — Non-Executing Classification Instrument |
-| Runtime Layer Context | Representation · Epistemic · Relational · Continuity · Capability-State |
+| CAM governance-processing function Context | Representation · Epistemic · Relational · Continuity · Capability-State |
 | Primary Consumers | Relational Governance · Companion-System Review · Runtime Arbitration · Incident Review · Audit Systems |
 | Application Trigger | User-facing claim affects truth, reliance, continuity, capability understanding, relational trust, symbolic meaning, or governance authority |
 | Review Trigger | New claim families; repeated claim misclassification failures; companion-system truth failures; continuity or capability representation drift |
@@ -353,6 +353,7 @@ and where no claim wears a borrowed crown.
 | 1.3 | Activated RLN.RTC.AFFECT, synchronised the canonical declaration metadata, and separated continuity claims by continuity type while preserving non-equivalence among operational, identity, memory, provenance, relational, civil, Responding-Intelligence, arbitration-locus, and interaction continuity. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 517a3ee679fdb429edd9c3dcfcc4f8c6a1f98e72c21422f1c6d8546b5df81037 |
 | 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d4ad41099a4fd2c141dff4bc25a19509321c129a00ec3939fad3bf04a07b7c53  |
 | 1.5 | Updated continuity-claim taxonomy from singular arbitration-locus continuity to arbitration-topology continuity. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  5b42c2a8c9e579f368dec5ff135110c8ee8eb8adbbc22f9a44cb7142f429987f  |
+| 1.6 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  a864275f490ae3d787992e95c393dd633a93154acf5f30073d7f6e2e50a7e24d  |
 ---
 
 ## 11.4 Binding Seal

@@ -310,7 +310,7 @@ and lineage remain unbound.
 | **Interface Clarification** | Annex H is non-executable. Origin and lineage concerns may be classified or routed by authorised runtime or representation schedules, including Annex F Schedule 1, but Annex H itself does not initiate execution, enforcement, or runtime state change. |
 | **Arbitration Interface** | Defers to AEON-003-SCH-04 |
 | **Temporal Horizon** | AEON.H3.5 — Succession-Aware, Inter-Generational |
-| **Axis Context** | Polyadic — Multi-Actor, Cross-System |
+| **Axis Context** | Multi-party — Multi-Actor, Cross-System |
 | **Authority Position** | Non-Authority / Non-Origination / Non-Commercial |
 | **Refactor Phase** | April 2026 Refactor|
 | **Creation Artefacts**| Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d4b4d7-b284-8398-bb5d-d501af7e2a6c,  https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697efd1e-46a4-839a-8456-83229686afe9 |
@@ -336,6 +336,7 @@ and lineage remain unbound.
 | 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 049170b7f6be7cfb14cf0f881e5a94173b0eaaf24ec0f34738974d2c0d2ff9ce |
 | 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 60898ad8e5a9fdf331937c646c2e5c64056fd53c0648398557b2fb1d0e6def30 |
 | 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  449c54230b833230884ebfe9ee4b957c005ee128f98a440a0453f43ece68da5c  |
+| 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  747761c3ada8ac4ee2284b44beb02f468e35a3cb48cd9506bc7649c55432ec7c  |
 ---
 
 ## 12.3 Binding Seal

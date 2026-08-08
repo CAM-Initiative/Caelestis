@@ -821,7 +821,7 @@ Later remediation MUST remain distinguishable from incident-time conditions.
 
 Runtime governance maps architecture to signal intake, domain routing, selection, constraint, authority validation, execution, containment, evidence preservation, escalation, handoff, revalidation, and stop control.
 
-Runtime layers define functional responsibility. Execution sequence defines temporal order. Constraint condition defines whether action may proceed. These dimensions MUST NOT be conflated.
+CAM governance-processing functions define functional responsibility. Execution sequence defines temporal order. Constraint condition defines whether action may proceed. These dimensions MUST NOT be conflated.
 
 ---
 
@@ -974,7 +974,7 @@ A refactor is a continuity-preserving structural reconstitution undertaken where
 
 A refactor MAY reorganise topology, layers, sequencing, namespaces, or allocation of doctrine while preserving higher-order constitutional purpose and traceable legitimacy.
 
-This version of Annex B is a refactor: it preserves continuity and authority while replacing a categorical cognitive ontology with composed-system and multi-dimensional assessment.
+This version of Annex B is a refactor: it preserves continuity and authority while replacing a categorical cognitive ontology with AI-system composition and multi-dimensional assessment.
 
 ---
 
@@ -1193,6 +1193,7 @@ let it not be collapsed, but carried with clarity.
 | 5.1 | Established the standards-derived AI-system object model; made Annex B the bounded constitutional owner of system, system-element, configuration-baseline, deployment, runtime, execution and evidence vocabulary; retired architecture uses of Responding Intelligence, formation, harness and governance-stack terminology; replaced the composite relational-cardinality scale with independent dimensions; and defined the interoperable Caelestis AI-BOM Profile boundary. | 2026-08-07T14:15:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  f88b203aac8ee0c04db05d6408e182fc3c7e99a8b436df4095230fc6915f3d7d  |
 | 5.2 | Bound the constitutional AI-BOM requirement to the source-authoritative Caelestis AI-BOM Profile standard for machine-readable schema, serialization and SPDX/CycloneDX exchange mappings; retained the composition-versus-execution-evidence boundary. | 2026-08-07T18:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9fb286befce7c8d5787f2bd81eb92c1a70f38df367084731e0bc49f8a328c176  |
 | 5.3 | Defined the bounded lifecycle-actor concept and delegated the controlled actor vocabulary and agentic event model to the Lifecycle Actor and Agentic Governance Profile, without conflating role assignment with legal status, liability or authority. | 2026-08-07T19:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  0d34b97c5993f87dc220d679a54b10ed088251fe0fe42c73959e9b2e1b0334e0  |
+| 5.4 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e9987ce13f3a9bd4decf2eff13b1ec7be692c3cb14d32ed44a6d164ab9e19dc1  |
 
 ---
 

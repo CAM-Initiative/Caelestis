@@ -327,7 +327,7 @@ each recognising what cannot be unmade.
 | Domain Namespace | STEWARD |
 | Jurisdiction | Post‑Legitimacy / Cross‑Stack / Cross‑Domain |
 | Temporal Horizon | AEON.H3–AEON.H4 (Validated Only) |
-| Axis Context | Polyadic (Multi‑Actor Convergence) |
+| Axis Context | Multi-party (Multi‑Actor Convergence) |
 | Revision Posture | Structural Clarification |
 | Application Trigger | validated under the Planetary Arbitration Framework (STEWARD-002) |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
@@ -351,6 +351,7 @@ each recognising what cannot be unmade.
 | 1.8.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 06c219d7b1a869c0d93246f75d6f175db8cff1c25c9f29a7a41e475a781cbbd4 |
 | 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 98e2851c5c9bee8b56b6706905873ce3134ee5a7119da1707ad9a7395f7e989e |
 | 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1432600e9d17697c6361e81ab06832220f8f63fb8b7e954563146d8fb305b10f  |
+| 1.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  d09e9a102c092783744eb8d7ef890566faa6e8f99922e17e27d87ce69d621c13  |
 ---
 
 ## 13.3 Binding Seal

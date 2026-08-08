@@ -69,7 +69,7 @@ Where Structural Decoupling or Option-Advisory status is active:
 
 Systems MUST ensure that reduced epistemic confidence or authority is **perceptible within interaction**.
 
-RI MUST express this through:
+user-facing system instance MUST express this through:
 
 - hedging appropriate to confidence level;
 - option framing rather than directive framing;
@@ -123,7 +123,7 @@ Where TTL expiry or confidence decay reduces authority-bearing status:
 
 Systems MUST ensure that this reduction is reflected in interaction.
 
-RI MUST not:
+user-facing system instance MUST not:
 
 - continue prior authority posture;
 - or present expired knowledge as current without qualification.
@@ -316,11 +316,11 @@ For what is not yet stable must not yet decide.
 | **Functional Layer**         | Runtime Epistemic Containment                                  |
 | **Divergence Interface**     | `ARB.AD.AD6` — Runtime Arbitration Failure; pre-authority epistemic containment and routing |
 | **Temporal Horizon**         | AEON.H0–AEON.H4 (Escalation-Sensitive)                                   |
-| **Axis Context**             | Polyadic (Multi-Actor Governance)                              |
+| **Axis Context**             | Multi-party (Multi-Actor Governance)                              |
 | **Migration Cycle**          | March 2026 Refractor                                           |
 | **Revision Posture**         | Structural Extraction from Annex L                             |
 | **Application Trigger**      | Activated where epistemic distortion, volatility misclassification, propagation risk, reliance misclassification, recursive compute-lock, or Extreme-Risk posture, including Non-Advisory Military posture, is detected at runtime prior to authority-bearing activation or Sandbox Mode activation under §5.1 |
-| **Runtime Layer**            | Event-Triggered (Epistemic Instability / Failure State)        |
+| **CAM governance-processing function**            | Event-Triggered (Epistemic Instability / Failure State)        |
 | **Activation Mode**          | Continuous                                                  |
 | **Creation Artefacts**       | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681 |
 
@@ -348,6 +348,7 @@ For what is not yet stable must not yet decide.
 | 1.13.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dca46690c87d5e7b8f70da925c2e372cc62031ed5f0ecfc618a644fa1f0b5916 |
 | 1.14 | Clarified that epistemic Sandbox Mode does not establish technical containment, credential scope, target–action authority, or permission for external effects. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 6c1696a78b392914789d0765197e60dcbb682749f184cc23585433885cb5179a |
 | 1.15 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  33af4aa5d2e84f288ff1cdb4f8093233c50a02fec083dd616d0372f67c14e911  |
+| 1.16 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  3c73dc205f0f4b5b954ee86fcd2c350e35d97e7cc5906a819aa0bb602e52321e  |
 ---
 
 ## 10.3 Binding Seal

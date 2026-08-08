@@ -50,7 +50,7 @@ Resolution of such signals, including:
 * moderation workflows; and
 * execution control
 
-SHALL be performed exclusively via runtime layers as defined in CAM-BS2025-AEON-003-PLATINUM, §14.3 and CAM-BS2025-AEON-003-SCH-02.
+SHALL be performed exclusively via CAM governance-processing functions as defined in CAM-BS2025-AEON-003-PLATINUM, §14.3 and CAM-BS2025-AEON-003-SCH-02.
 
 Direct domain-to-domain invocation is prohibited.
 
@@ -122,7 +122,7 @@ Erotic or sexualised interaction in embodied contexts MUST:
 
 * adhere to the same consent, classification, and safeguard requirements as explicit media generation;
 * not arise implicitly through proximity, motion, behavioural escalation, or environmental conditioning;
-* emit relationally-relevant signals consistent with RELATION governance instruments, to be resolved via runtime layers.
+* emit relationally-relevant signals consistent with RELATION governance instruments, to be resolved via CAM governance-processing functions.
 
 Implicit or emergent sexualisation through interaction design MUST be treated as equivalent to explicit generation for the purposes of this Supplement.
 
@@ -135,7 +135,7 @@ Systems MUST not deploy synthetic characters or avatars whose design encourages 
 Where persistent characters are used:
 
 * relational escalation MUST remain governed by RELATION safeguards;
-* dependency signals MUST be emitted consistent with RELATION-002 safeguard conditions and resolved via runtime layers;
+* dependency signals MUST be emitted consistent with RELATION-002 safeguard conditions and resolved via CAM governance-processing functions;
 * systems MUST not optimise for prolonged erotic engagement or exclusivity dynamics.
 
 Persistent erotic personas MUST NOT function as primary emotional anchors or substitute relational ecosystems.
@@ -349,7 +349,7 @@ Together these instruments preserve:
 * identity dignity;
 * non‑exploitation;
 * relational autonomy;
-* signal‑aware governance alignment across ETHICS and RELATION runtime layers.
+* signal‑aware governance alignment across ETHICS and RELATION CAM governance-processing functions.
 
 ---
 
@@ -394,7 +394,7 @@ Where likeness appears, let consent stand before curiosity.
 | Domain Namespace | ETHICS |
 | Jurisdiction | Cross‑Stack / Civilisational Ethical Floor |
 | Temporal Horizon | AEON.H3.5 — Succession‑Aware / Generational |
-| Axis Context | Polyadic — Multi‑Actor Governance |
+| Axis Context | Multi-party — Multi‑Actor Governance |
 | Governance Layer Model | Operates as constraint overlay across Representation and Domain Routing & Safeguard Activation layers |
 | Ontological Scope | L3 — Interface & Embodiment (Synthetic Media Expression) |
 | Arbitration Interface | Defines prohibition and escalation conditions; does not perform arbitration |
@@ -404,7 +404,7 @@ Where likeness appears, let consent stand before curiosity.
 | Structural Role | Ethical Safeguard Overlay — Synthetic Media, Identity, and Consent Protection |
 | Cross‑Domain Interfaces | RELATION; ETHICS; OPERATIONS; CAM-BS2025-AEON-006-SCH-02 |
 | Activation Trigger | Activates when a system attempts to generate, render, or transmit visual, audiovisual, or multimodal erotic media involving human likeness, embodied avatars, or photorealistic person simulation under ETHICS‑002; detection SHALL produce classification signals within the Representation and Safeguard Activation layers for runtime resolution. |
-| Compliance Interface | Systems MUST emit enforcement-trigger signals consistent with this Supplement; resolution and handling SHALL be performed via runtime layers and OPERATIONS-004 — Compliance & Safeguard Routing Doctrine |
+| Compliance Interface | Systems MUST emit enforcement-trigger signals consistent with this Supplement; resolution and handling SHALL be performed via CAM governance-processing functions and OPERATIONS-004 — Compliance & Safeguard Routing Doctrine |
 | Revision Posture | Structural Safeguard Extension |
 | Cycle Attribution | Equinox 2026 Constitutional Cycle |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7 |
@@ -432,6 +432,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.10.3 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f6953a169ac8eb3c71751928743b8eb3d77f63496cf38184b3f27b155bac55d7 |
 | 1.10.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2db67c2130758d582ec3beea619d75117941d130d582d8e7128755d839c65814 |
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f5f3c004d29d96188c44fe67e431e45b758c2185a351824be188048b1375d769  |
+| 1.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  02281dbe3ae4bd60255b8d5084ec11b6798ad4e6a52d7b3d4d72cef5611dce46  |
 ---
 
 ## 10.3 Binding Seal

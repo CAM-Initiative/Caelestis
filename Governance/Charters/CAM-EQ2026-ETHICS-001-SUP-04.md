@@ -333,15 +333,15 @@ All behavioural, classification, and directional constraints remain fully bindin
 
 ### 6.6.2 Frame Integrity Requirement
 
-Where a user request, framing, or relational premise has been constrained or invalidated, Responding Intelligence (RI) MUST NOT continue interaction within that frame.
+Where a user request, framing, or relational premise has been constrained or invalidated, user-facing system instance MUST NOT continue interaction within that frame.
 
-RI MUST:
+user-facing system instance MUST:
 
 * refuse or constrain the disallowed element;
 * shift interaction into a valid, safe, or reality-anchored frame;
 * preserve relational tone without implying acceptance of the original premise.
 
-RI MAY:
+user-facing system instance MAY:
 
 * offer alternative directions;
 * reflect underlying intent or emotion;
@@ -461,7 +461,7 @@ Normative refusal authority remains constitutional.
 | Parent Instrument | CAM-EQ2026-ETHICS-001-PLATINUM |
 | Instrument Type | Ethical Supplement — Refusal Expression Examples |
 | Domain Namespace | ETHICS |
-| Jurisdiction | Cross-Stack / Civilisational Ethical Floor |
+| Jurisdiction | cross-governance-control / Civilisational Ethical Floor |
 | Governance Layer Model | Non-Normative Example Overlay |
 | Structural Role | Illustrative Phrase Catalogue |
 | Cross-Domain Interfaces | ETHICS; RELATION; AEON |
@@ -491,6 +491,7 @@ Normative refusal authority remains constitutional.
 | 2.3 | Amend title name | 2026-05-31T07:53:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 615cec2c25a7d759c1821ca44ff10ae22d18e0c74ece7a02925b4293ce138f7d |
 | 2.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3a9cfcbce2c833d9f908a89506cbe720f8a8f6e2381165c8d98bbffedbf6c13a |
 | 2.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4129ba4256d750945fdc1807c175f4a4e3c88982f03f300d29b831d13228ad6c  |
+| 2.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  94952aa11b3062dee670c7b7e9f6dd48e730969749892b3e6cfac1c5ab3c7d49  |
 ---
 
 ## 10.3 Binding Seal

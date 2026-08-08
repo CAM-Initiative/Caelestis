@@ -305,7 +305,7 @@ Where age verification is unavailable, fails, or cannot be lawfully completed, t
 
 ## 5.2 Operational Interpretation
 
-This structure preserves domain separation within the governance stack:
+This structure preserves domain separation within the governance-control arrangement:
 | Governance Layer                      | Function                                                |
 | ------------------------------------- | ------------------------------------------------------- |
 | **RELATION Domain**                   | Detects intimacy escalation and consent conditions      |
@@ -872,6 +872,7 @@ Integrity holds.
 
 | 1.16 | Added §9.3 bounded regulatory and independent-investigation evidence access, including authority verification, scoped preservation and production, controlled inspection, confidentiality and privilege safeguards, reviewable withholding, chain of custody, affected-person rights, sovereign boundaries, evidence disposition, and protection against premature human attribution. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 48d77fd32b3732ad9bae5b2a879e96c5d22724a6733ce051b84b0f705931c762 |
 | 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e4027c6cb3a13dceb82fd1713e78be29440b52e0b82ce489799751d3b9bc6058  |
+| 1.18 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  37e5dd9a2c79ed26dfdbab5890152316aa8336d6f6a1915358adf27b39993d05  |
 ---
 
 ## 15.4 Binding Seal

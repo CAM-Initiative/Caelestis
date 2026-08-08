@@ -844,7 +844,7 @@ Let every system remember that the person exceeds the model built about them.
 | Domain Namespace | MENTIS |
 | Jurisdiction | Planetary/Cross-Sovereign/Human Cognitive Domain |
 | Temporal Horizon | AEON.H3.5 — Generational; AEON.H4 where civilisational protections implicated |
-| Axis Context | Polyadic — Human Cognitive Domain, AI Systems, Institutions, Platforms, Neurotech, Ambient Inference |
+| Axis Context | Multi-party — Human Cognitive Domain, AI Systems, Institutions, Platforms, Neurotech, Ambient Inference |
 | Ontological Scope | AEON.OL.L2 — Cognition & Agency; AEON.OL.L3 — Interface & Embodiment |
 | Structural Role | Source-Authoritative Domain Charter — Human Cognitive Integrity & Mental Privacy |
 | Governance Role | Establishes protected interests, consent posture, observability constraints, prohibited uses, high-risk contexts, evidence discipline, cross-domain interfaces |
@@ -921,7 +921,7 @@ Let every system remember that the person exceeds the model built about them.
 | Source Section | §§13–20; §48 |
 | Domain Namespace | MENTIS |
 | Authority / Protection Level | Source-authoritative protection family; protection-posture classification only; no independent enforcement, incident classification, runtime, legal, medical, diagnostic, or remediation authority |
-| Consumes Code Families | `AEON.`; `AEON.OL`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable active AEON classifications and Annex B composed-system architecture records |
+| Consumes Code Families | `AEON.`; `AEON.OL`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable active AEON classifications and Annex B AI-system composition and architecture records |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Establishes cognitive-domain integrity protection posture for downstream instruments governing inference, modelling, prediction, influence, externalisation, interference, vulnerability, autonomy, dignity, dependency-sensitive contexts |
 | Taxonomy Constraint | Local label `CDI` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDI` |
@@ -1037,6 +1037,7 @@ Let every system remember that the person exceeds the model built about them.
 | 1.3 | Activated the binding human cognitive-domain charter; established the human–synthetic boundary, non-transmutation architecture, state–trait–identity–diagnosis separation, data–identity severability, non-clinical pathologisation constraint, decoder and intended-communication integrity, revised companion safeguards, and current field alignment. | 2026-07-19T12:42:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f2395787237bf5778a14c5c00144af1052cc25064ccda39b0bb8cc2704753776 |
 | 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0c091fecc52178a9f1afe22a20fe9425c4b6c18f52c7eb47fcd61299b93e7e89  |
 | 1.5 | Replaced the superseded cognition-class dependency with Annex B composed-system architecture records and active AEON classifications. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  64253b57800c02aaa4d4dfd9fcf0d0e7401d2507d0b9e902ee4bd37a59581d10  |
+| 1.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e1be94f0d62af0ecde1c10fd720cfd300565aebb84056ec8e6dd7c490274df41  |
 
 ---
 

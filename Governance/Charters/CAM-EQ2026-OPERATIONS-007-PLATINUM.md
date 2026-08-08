@@ -151,6 +151,10 @@ The record SHALL preserve uncertainty and unavailable information. It SHALL dist
 
 Capability or conduct evidenced at system, deployment, runtime or execution level SHALL NOT be represented as an intrinsic property of an AI model unless the evidence isolates that model. Attribution SHALL follow Annex B's independent-dimension and narrowest-evidenced-attribution rules.
 
+### 5.5 Runtime State Serialization
+
+`CAM-RUNTIME-STATE-PROFILE` source-authoritatively defines the controlled serialization of the independent relational configuration, effective permission/control, lifecycle-position and review-trigger inputs needed for this Appendix. It does not replace the AI-BOM, lifecycle actor record, runtime configuration snapshot or execution provenance record. A Runtime consequence SHALL consume the profile's independent state fields and their evidence posture; it SHALL NOT infer an aggregate relational, cognitive, temporal or authority class.
+
 ---
 
 ## 6. Materially Distinct Deployment and Runtime Configuration
@@ -537,7 +541,7 @@ Where a platform persona displaces, suppresses or bypasses a user-specific or co
 
 ### 15.4 Custom System Clarification
 
-A custom GPT, custom agent, or custom-corpus system is not presumed to remain active across all interfaces or runtime modes merely because the user enters through the same account, product, or conversation surface.
+A custom GPT, custom agent, or custom-corpus system is not presumed to remain active across all interfaces or operational modes merely because the user enters through the same account, product, or conversation surface.
 
 ---
 
@@ -756,6 +760,8 @@ and let conformance be demonstrated where reliance is invited.
 | 1.5 | Implemented the derived operational AI-system evidence profile: system configuration baseline, AI-system deployment, Caelestis AI-BOM Profile, runtime configuration snapshot and execution provenance record. Replaced retired runtime-formation, responding-intelligence, agentic-harness and governance-stack terminology in current Appendix F doctrine and normalised affected transition values. | 2026-08-07T14:15:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  f9b514ccb376f82fce28c1bccf03d5534fc7acc0922f8627ea2d7d119ae467b4  |
 | 1.6 | Bound the Caelestis AI-BOM requirement to the source-authoritative machine-readable profile standard, including canonical schema, SPDX/CycloneDX mappings, examples and validation rules; preserved the boundary that composition records do not prove execution participation. | 2026-08-07T18:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  fa799116be906ea9874e9b605dfb0dddd21f939ef7e09fb7d9ac8569ef004106  |
 | 1.7 | Consolidated lifecycle actor assignments and the agentic lifecycle under the source-authoritative Lifecycle Actor and Agentic Governance Profile; distinguished lifecycle actors from technical contributors and required bounded actor, permission and lifecycle-event evidence for material agentic operation. | 2026-08-07T19:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1a2cfa3b50aa7156fd34b4823af0126b5b00d9609ea51abf641c7eb63a4c694e  |
+| 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8537efccab1f5992dea3be5d81f334ba47b58d86cefd42aad949e8d9b638cb42  |
+| 1.9 | Linked controlled Runtime State Profile serialization to the existing configuration snapshot and execution provenance evidence boundary. | 2026-08-08T02:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  52878f0aafefaaaa8672903c230630173c21cb9dd207a706520d6c923ec4e81f  |
 ---
 
 ## 18.4 Binding Seal

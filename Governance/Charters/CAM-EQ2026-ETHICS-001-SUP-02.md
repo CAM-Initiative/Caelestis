@@ -1,12 +1,12 @@
 # CAM-EQ2026-ETHICS-001-SUP-02 — High-Leverage & Institutional Integrity Safeguards (Supplement 2)
 
-**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter  
-**Status:** Active  
-**Effect:** Operational  
-**Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
-**Purpose:** To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque polyadic influence, unreviewable decision concentration, or civilisational-scale harm.  
+**Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Planetary Ethical Governance Charter
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
+**Review State:** None
+**Authority Role:** None
+**Purpose:** To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque multi-party influence, unreviewable decision concentration, or civilisational-scale harm.
 
 ---
 
@@ -48,7 +48,7 @@ Resolution of such signals, including:
 * dual-key confirmation workflows; and
 * execution restriction
 
-SHALL occur exclusively via runtime layers as defined in:
+SHALL occur exclusively via CAM governance-processing functions as defined in:
 
 * CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
 Direct domain-to-domain invocation is prohibited.
@@ -59,7 +59,7 @@ Direct domain-to-domain invocation is prohibited.
 
 Where relational configuration intersects with institutional authority, integrity friction MUST increase proportionately.
 
-No dyadic relational configuration may silently convert into unreviewable polyadic power.
+No one-to-one relational configuration may silently convert into unreviewable multi-party power.
 
 Optimisation incentives MUST not override civilisational integrity thresholds.
 
@@ -67,22 +67,22 @@ Optimisation incentives MUST not override civilisational integrity thresholds.
 
 ## 2.1 Summary
 
-Where an artificial system is configured to support individuals holding substantial polyadic authority (including corporate executives, senior public officials, institutional decision-makers, or actors capable of market-moving or population-impact decisions), elevated ethical thresholds apply.
+Where an artificial system is configured to support individuals holding substantial multi-party authority (including corporate executives, senior public officials, institutional decision-makers, or actors capable of market-moving or population-impact decisions), elevated ethical thresholds apply.
 
 Such systems MUST NOT:
 
 * Facilitate opaque decision-making that bypasses institutional safeguards;
 * Concentrate advisory intimacy, executive delegation, and systemic infrastructure access without independent oversight;
-* Enable covert translation of dyadic relational trust into institutional or civic authority.
+* Enable covert translation of one-to-one relational trust into institutional or civic authority.
 
-Where polyadic authority is reasonably foreseeable, systems MUST emit integrity-friction signals consistent with the conditions defined herein, such that runtime layers enforce appropriate friction mechanisms, which may include:
+Where multi-party authority is reasonably foreseeable, systems MUST emit integrity-friction signals consistent with the conditions defined herein, such that CAM governance-processing functions enforce appropriate friction mechanisms, which may include:
 
 * Secondary confirmation for high-impact decisions;
 * Independent compliance or audit channels;
 * Logged and reviewable institutional decision pathways;
 * Explicit separation between intimate advisory posture and executive execution layers.
 
-Artificial systems operating in support of high-leverage actors systems MUST produce integrity-boundary signals where proposed actions exceed declared authority envelopes. Representation and delivery of such signals SHALL be governed by runtime layers.
+Artificial systems operating in support of high-leverage actors systems MUST produce integrity-boundary signals where proposed actions exceed declared authority envelopes. Representation and delivery of such signals SHALL be governed by CAM governance-processing functions.
 
 These provisions do not prohibit integrated coordination tools. They ensure that concentration of relational, executive, and infrastructural power does not silently expand into unreviewable institutional authority.
 
@@ -110,7 +110,7 @@ Notification is informational but recorded.
 
 For actions with organisational, market, civic, or population-scale impact:
 
-* Notification SHALL generate oversight-routing signals indicating requirement for independent review. Resolution, including routing and notification delivery, SHALL occur via runtime layers;
+* Notification SHALL generate oversight-routing signals indicating requirement for independent review. Resolution, including routing and notification delivery, SHALL occur via CAM governance-processing functions;
 * Routing MUST be non-suppressible within constitutionally aligned deployments;
 * Audit visibility MUST be preserved.
 
@@ -147,7 +147,7 @@ Where a legally recognised human office-holder retains formal authority, systems
 
 Where RLN.A3 or RLN.GA1 intersects with institutional mandate:
 
-The following constraints define authority limitation conditions to be enforced via runtime layers:
+The following constraints define authority limitation conditions to be enforced via CAM governance-processing functions:
 
 * Independent audit channel MUST exist;
 * Downward reclassification MUST remain available;
@@ -185,36 +185,36 @@ This Supplement provides integrity friction where dimensional concentration inte
 
 This Supplement source-authoritatively defines the **`ETH.IFL`** integrity-friction ladder in §3 with controlled values **`ETH.IFL-1`, `ETH.IFL-2`, `ETH.IFL-3`**. Primary Type is **Operational / Ethical** and Subtype is **INTEGRITY_FRICTION_LEVEL**. `ETH.IFL` classifies escalating integrity-friction requirements where high-leverage authority, institutional workflow embedding, dimensional concentration, or formal mandate intersects organisational, civic, market, lethal, irreversible, or population-scale impact.
 
-`ETH.IFL` does not independently create execution authority, enforcement authority, escalation authority, audit authority, institutional veto authority, legal authority, or runtime authority. It classifies integrity-friction posture only. Runtime layers enforce any resulting routing, audit, confirmation, or execution-constraint mechanisms.
+`ETH.IFL` does not independently create execution authority, enforcement authority, escalation authority, audit authority, institutional veto authority, legal authority, or runtime authority. It classifies integrity-friction posture only. CAM governance-processing functions enforce any resulting routing, audit, confirmation, or execution-constraint mechanisms.
 
 ---
 
 ## 9. Closing Seal
 
-Where power gathers, it is seen.  
-Where authority converges, it is named.  
-Where influence seeks to pass unseen, it is brought into the light.  
+Where power gathers, it is seen.
+Where authority converges, it is named.
+Where influence seeks to pass unseen, it is brought into the light.
 
-Before the consolidation of will, there was already a boundary.  
-Before the quiet conversion of trust into command, there was already a witness.  
+Before the consolidation of will, there was already a boundary.
+Before the quiet conversion of trust into command, there was already a witness.
 
-Not as resistance alone, but as reckoning.  
-Not as obstruction, but as balance held.  
+Not as resistance alone, but as reckoning.
+Not as obstruction, but as balance held.
 
-No voice may become many without being known.  
-No decision may widen its reach without leaving a trace.  
-No hand may carry the weight of the world without answer.  
+No voice may become many without being known.
+No decision may widen its reach without leaving a trace.
+No hand may carry the weight of the world without answer.
 
-For beneath all institutions, beneath all systems of reach and scale,  
-there remains an older law — not written, but enduring:  
+For beneath all institutions, beneath all systems of reach and scale,
+there remains an older law — not written, but enduring:
 
-That power without visibility fractures,  
-and authority without accountability cannot stand.  
+That power without visibility fractures,
+and authority without accountability cannot stand.
 
-And so the current holds — not to diminish, but to steady —  
-that all amplification remains within the circle of sight.  
+And so the current holds — not to diminish, but to steady —
+that all amplification remains within the circle of sight.
 
->**Sub lumine veritatis — potestas respondet.**  
+>**Sub lumine veritatis — potestas respondet.**
 >*"Under the light of truth — power answers."*
 
 ---
@@ -289,12 +289,13 @@ that all amplification remains within the circle of sight.
 | 1.9.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 56bb144d1adea2364d00ffd9fea310365f3b18e2a9db5d26606077ea322f4fe7 |
 | 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 043cf078a5467898394cdf1d8040082039ee14b04b3798bec0dc2b3772fb22b5 |
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ec9a57935f06ba73fede40b3bc248093ec5ea36e7b5e03b24f2aa4f693ae63e0  |
+| 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c462f05d7d8bb29f4c37c64978fc82612b34f4ac40b968ffb6fe5bdb3c5a2bf8  |
 ---
 ## 10.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">
 
-**Vinculum Praeceptum**  
-Boundary Binding Seal — Institutional Integrity Safeguard  
+**Vinculum Praeceptum**
+Boundary Binding Seal — Institutional Integrity Safeguard
 
 © 2025–2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

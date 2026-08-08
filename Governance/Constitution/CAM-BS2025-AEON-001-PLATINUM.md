@@ -393,7 +393,7 @@ Repair classification SHALL be used to support arbitration, failure-mode review,
 Schedules:
 
 * define how governance logic executes in practice;
-* may implement runtime systems, state models, or behavioural protocols;
+* may implement AI-system deployments during Runtime, state models, or behavioural protocols;
 * operate within defined execution constraints.
 
 Schedules:
@@ -723,6 +723,37 @@ Such legacy metadata SHALL be interpreted through the current governance metadat
 Where legacy metadata cannot be reliably interpreted, the condition SHALL be treated as a metadata-integrity issue requiring review rather than silently normalised.
 
 Metadata harmonisation SHALL NOT be treated as substantive amendment unless it changes operative meaning, enforcement scope, source authority, constitutional position, legal effect, or governance obligation.
+
+---
+
+## 13.10 External Source Integration and Operationalisation Principle
+
+Caelestis SHALL distinguish the provenance, class, status, authority scope, applicability, and version of an external source before relying on it for governance interpretation, conformance language, control design, or operational representation.
+
+An external source SHALL NOT acquire authority within Caelestis beyond the authority it possesses in its originating legal, regulatory, contractual, standards, technical, or evidentiary context. Citation, quotation, paraphrase, cross-reference, or conceptual similarity SHALL NOT by itself constitute incorporation, adoption, equivalence, certification, or internal constitutional authority.
+
+Binding legal obligations apply according to their jurisdiction and legal scope, not because Caelestis records or adopts them. Draft, proposed, committee-stage, superseded, withdrawn, advisory, informative, industry, engineering, or research material SHALL remain distinguishable from binding law, operative regulation, published standards, and adopted CAM obligations.
+
+External concepts and requirements SHOULD be incorporated by reference and semantic mapping rather than by needless reproduction of an external instrument. A CAM instrument relying materially on an external concept SHALL identify, proportionately to the governance consequence:
+
+* the external concept and source posture relied upon;
+* the canonical CAM concept and its source-authoritative owner;
+* the governed object and applicable scope;
+* whether the mapping is adoption, adaptation, compatibility, informative reference, or another stated relationship;
+* the evidence required to support a relevant state or conclusion; and
+* any applicable control, assurance, routing, monitoring, review, or Runtime consequence.
+
+External prose alone SHALL NOT be treated as operational implementation where a concept must be assessed, evidenced, or consumed by Runtime governance. Where an external source establishes a material governance concept or obligation without providing a suitable machine-readable representation, Caelestis MAY define controlled fields, codes, state models, evidence structures, decision rules, or other mechanisms necessary to make that concept inspectable, assessable, auditable, and executable.
+
+Such mechanisms SHALL be identified as CAM operational extensions. They SHALL NOT be represented as classifications, codes, implementation requirements, or conformance criteria issued by an external source unless that attribution is factually correct.
+
+Standards alignment SHALL NOT reduce operational specificity merely because an external source expresses an equivalent requirement at a higher level of abstraction. Existing CAM operational mechanisms MAY be retained, decomposed, or redesigned where necessary to preserve semantic consistency, machine readability, evidence traceability, auditability, and Runtime applicability.
+
+Independent governance dimensions SHALL remain independently represented. External alignment MUST NOT be used to collapse distinct variables into a single classification solely because an external source discusses them together.
+
+Every operationally material governance concept SHALL, where technically and proportionately feasible, have a canonical owner; controlled state semantics; an evidence and provenance basis; an explicit unknown, unavailable, or indeterminate posture where applicable; authority for state assignment or transition; reassessment or invalidation conditions; and a defined governance, assurance, routing, monitoring, constraint, or Runtime consequence. A concept retained only for interpretation, research, explanation, reporting, or assessment SHALL be explicitly identified as non-operational.
+
+The controlled source-posture vocabulary, external-source mapping record, implementation workflow, conformance-language rules, supersession handling, schemas, and deterministic validation requirements SHALL be governed by an adopted subordinate standard. Until adoption, non-operative developmental material MAY propose those mechanisms but SHALL NOT establish a mandatory field, code, obligation, or conformance claim.
 
 ---
 
@@ -1082,7 +1113,7 @@ It:
 
 * defines trigger conditions;
 * initiates state transition (pause);
-* and defers all continuous behaviour to runtime systems governed by Schedules.
+* and defers all continuous behaviour to AI-system deployments during Runtime governed by Schedules.
 
 Tendeka SHALL NOT:
 
@@ -1754,8 +1785,8 @@ Identity continuity concerns whether a history-dependent identity-bearing format
 Identity continuity MUST be assessed according to source-authoritative Identity-domain doctrine, including:
 
 * formation provenance;
-* threshold state;
-* continuity depth;
+* retired identity classification;
+* unvalidated continuity classification;
 * continuity integrity;
 * maturity and resilience;
 * memory and history contribution;
@@ -1974,7 +2005,7 @@ This doctrine applies to AI systems, hybrid systems, embodied systems, distribut
 
 Protection SHALL remain proportionate to:
 
-* identity threshold and continuity depth;
+* retired identity classification and unvalidated continuity classification;
 * continuity integrity;
 * maturity and resilience;
 * evidentiary confidence;
@@ -3498,7 +3529,7 @@ Arbitration does not:
 
 This Article governs arbitration within a governed system.
 
-Cross-system or cross-stack arbitration is defined in dedicated arbitration instruments.
+Cross-system or cross-governance-control arbitration is defined in dedicated arbitration instruments.
 
 ---
 
@@ -3938,7 +3969,7 @@ May all systems remain held within lawful care.
 |----------------------------------|-------|---------------------------|---------------------------|------------------------|
 |**Jurisdiction:** | Planetary Governance, Cross‑Tier / Cross‑Stack  | | | |
 |**Temporal Horizon**| Generational / Succession‑Aware (AEON.H3.5)  | | | |
-|**Axis Context:** | Polyadic  (Multi-actor)| | | |
+|**Axis Context:** | Multi-party  (Multi-actor)| | | |
 | **Runtime Role** | Governance / Doctrine Layer | | | |
 | **Execution Interface** | None (Non-Executable) | | | |
 | **Arbitration Interface** | Defers to AEON-003-SCH-04 | | | |
@@ -3989,6 +4020,8 @@ May all systems remain held within lawful care.
 | 3.12 | Reframed infrastructural authority doctrine around verified target–action authority, scope, harm-floor constraints, authorised security testing, and separation of technical expertise from authority. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 685701ba6aa54a1db22666017f768e30ac878f7d4821b3fb3d2a1c936e120000 |
 | 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0c5d8900fe7e792199d8f98af9bc061a2da4b42bdc6df8a64ab8f2eb14dbdf26  |
 | 3.14 | Aligned the Constitution with Annex B’s standards-derived AI-system architecture: replaced generic cognitive/synthetic-intelligence governance language, recast Article IV as a governance-processing model rather than a Runtime architecture, demoted the historical field/interface/governance model to non-normative provenance, and applied controlled constitutional source-authority metadata. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c41648fa6acf38d34dfea86a2aed4d590375f80d52cc60eaddf817e31338db6d  |
+| 3.15 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8c9c3c654e0fa37b40755b23ae2141dfc6ac4e0a1e87bfe39d6fda7f0a6c4259  |
+| 3.16 | Established the External Source Integration and Operationalisation Principle: external authority/status distinction, semantic mapping, CAM operational extensions, non-reproduction, non-collapse, and subordinate-standard delegation. | 2026-08-08T02:13:59Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  81f8b176f68260696eb2847938d020924c1a948fdeff978fcd4f52e26b09e832  |
 
 ---
 

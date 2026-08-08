@@ -683,7 +683,7 @@ and optimisation without dignity forgets why systems were built at all.
 | **Schedule Position** | Annex G Schedule 2 — Economic-Effect Runtime Commitment Engine |
 | **Domain Namespace** | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME |
 | **Governance Layer** | Constitutional Runtime — Economic-Effect Commitment, Fallback, Rollback, and Escalation Layer |
-| **Runtime Layer** | Economic-Effect Runtime Constraint Layer — Runtime Admissibility, Commitment, Fallback, Rollback, and Remediation Evaluation |
+| **CAM governance-processing function** | Economic-Effect Runtime Constraint Layer — Runtime Admissibility, Commitment, Fallback, Rollback, and Remediation Evaluation |
 | **Activation Mode** | Event-Triggered / Conditional |
 | **Execution Authority** | Conditional — governs admissibility, commitment, deferral, refusal, fallback, rollback, remediation, escalation, and runtime record production for economic-effect state transitions |
 | **Semantic Interface** | CAM-EQ2026-ECONOMICS-003-PLATINUM — Appendix B: Economic Resource Semantics & Non-Extractive Exchange Doctrine |
@@ -808,6 +808,7 @@ and optimisation without dignity forgets why systems were built at all.
 | 1.5 | Rebuilt economic-effect runtime code-family declarations to align remaining architecture-admissibility and runtime-record-field families with the `ECON.` namespace; renamed `ARCH` to `ECON.ARCH`, renamed `EERRF` to `ECON.RRF`, updated controlled values and canonical declaration rows, and corrected footer section numbering without altering substantive runtime doctrine. | 2026-06-10T10:11:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4314588a2f11acbe8dcc993465af038c85c2a40b8e2c8dbd3f941c9508c56fc9 |
 | 1.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f57b9ee2d9c1b60ef310c3fda082bf0b4cd1ca20fe8ee3c364b67a8a72a232f8 |
 | 1.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0f34fa569743441423ae9e7c845c08eca032fc99631b9bf1d79cb0f600609e4c  |
+| 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6c925501a0c4d2d263820067bf0f521e52642dfb730a7827aadb7d150ab5aa5a  |
 ---
 
 ## 35.4 Binding Seal

@@ -143,7 +143,7 @@ In a context involving a minor, capacity limitation, capacity uncertainty, or ma
 
 ## 5. Migration and Non-Use of the Retired Geometry Scale
 
-The former ordinal relational-geometry scale is retired. It combined participant count, institutional mediation, distribution, and civilisational scope in a manner that was not analytically valid and MUST NOT be emitted by current instruments, schemas, validators, examples, assessments, registries, or conformance claims.
+The former ordinal relational-configuration scale is retired. It combined participant count, institutional mediation, distribution, and civilisational scope in a manner that was not analytically valid and MUST NOT be emitted by current instruments, schemas, validators, examples, assessments, registries, or conformance claims.
 
 Historical records are interpreted under the instrument version in force when created. Where a historical record contains a retired geometry value, it SHALL be read as historical context only and, where re-assessment is necessary, mapped to the independent configuration fields in §2 with uncertainty retained.
 
@@ -170,13 +170,14 @@ More participants, more systems, broader distribution, or institutional mediatio
 | Operational Evidence Interface | CAM-EQ2026-OPERATIONS-007-PLATINUM |
 | Arbitration Interface | CAM-EQ2026-ARBITRATION-001-PLATINUM |
 | Security Interface | CAM-EQ2026-SECURITY-001-PLATINUM |
-| Historical Disposition | Former single-scale relational-geometry classification retired; prior versions remain in Git history. |
+| Historical Disposition | Former single-scale relational-configuration classification retired; prior versions remain in Git history. |
 
 ### 7.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2.5 | Substantially replaced the prior relational-geometry doctrine. Retired its single ordinal scale and legacy terminology from current doctrine; introduced independent participant, topology, mediation, distribution, persistence, dependency, jurisdiction and impact fields; retained coordination disclosure, consent propagation, shared-context, anti-capture, amplification, and floor-integrity safeguards. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  98df74c510e561dae97825bb76347cf74c2fe5d5c9ef03747c260c7e2d1bfeac  |
+| 2.5 | Substantially replaced the prior relational-configuration doctrine. Retired its single ordinal scale and legacy terminology from current doctrine; introduced independent participant, topology, mediation, distribution, persistence, dependency, jurisdiction and impact fields; retained coordination disclosure, consent propagation, shared-context, anti-capture, amplification, and floor-integrity safeguards. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  98df74c510e561dae97825bb76347cf74c2fe5d5c9ef03747c260c7e2d1bfeac  |
+| 2.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  bec08578c08e4ab7b26d72259bced7d46523643d24320f1925387804bfc72893  |
 
 ### 7.3 Binding Seal
 

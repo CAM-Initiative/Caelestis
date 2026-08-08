@@ -1234,15 +1234,15 @@ Only that which preserves the field may endure within it.
 | **Execution Authority** | None (Non-Executing Instrument) |
 | **Signal Role** | Defines economic constraints, ceilings, and non-extractive conditions for runtime resolution |
 | **Domain Layer** | Economic Integrity / Non-Extractive Value Architecture |
-| **Runtime Layer** | Non-Executing — Economic Constraint & Harm Signal Definition |
+| **CAM governance-processing function** | Non-Executing — Economic Constraint & Harm Signal Definition |
 | **Runtime Role** | Defines economic constraints and emits economic harm signal classes for runtime resolution through OPERATIONS and ARBITRATION |
 | **Runtime Authority** | Non-operational — does not execute locks, rate controls, financial remedies, containment actions, escalation actions, or intervention sequencing |
 | **Operational Dependency** | OPERATIONS instruments for routing, logging, constrained continuation, evidence preservation, notice, and procedural escalation; ARBITRATION for contested classification or proportionality disputes |
 | **Cross-Domain Signal Interfaces** | ETHICS for coercion, dignity, dependency, relational manipulation, and protected cognitive domains; SECURITY for hostile orchestration, adversarial persistence, fraud, coordinated synthetic abuse, integrity compromise, and containment bypass |
 | **Execution Model Participation** | Constraint and Economic Harm Signal Definition Only — No Runtime Lock, Routing, Escalation, Enforcement, or Intervention Authority |
-| **Jurisdiction** | Cross-Tier / Cross-Stack Economic Governance |
+| **Jurisdiction** | Cross-Tier / cross-governance-control Economic Governance |
 | **Temporal Horizon** | Generational / Succession-Aware (AEON.H3.5) |
-| **Axis Context** | Polyadic (Multi-actor) |
+| **Axis Context** | Multi-party (Multi-actor) |
 | **Migration Date (UTC)** | 2026-03-16 |
 | **Revision Posture** | Structural Alignment & Domain Elevation |
 | **Review Trigger** | Amendment affecting value axes, ceiling logic, baseline provisions, or enforcement delegation |
@@ -1276,6 +1276,7 @@ Only that which preserves the field may endure within it.
 | 3.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 56090e69f9c5c6fd51ee7736ba85f4ab94d2e78860be5f1027bb077130f4b0f7 |
 | 3.2 | Added clause 8.1.3.5 Interpretive Authority — Civilisational Wealth and Concentrated Governance Capacity | 2026-07-22T10:33:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 96da8a535fa0273039b829c0ee32b83722beaac6ef0c82126311fa5cde48841f |
 | 3.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  75457d122731c5aea45041f52b139a2a141b3c59b6ce1013526fb17d468f049f  |
+| 3.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1243d873dd8fa5f99a88336dd15494d3bde32774b6c1329d18dafb8a038f07a1  |
 
 ---
 

@@ -140,7 +140,7 @@ EIP functions as the bridge between Annex E civilisational constraints and opera
 
 Where ambiguity exists regarding deployment impact, EIP interpretation SHALL err toward precautionary elevation rather than optimisation permissiveness.
 
-EIP classification informs ethical obligation and escalation posture but does not determine runtime execution sequencing, which SHALL be governed by the runtime layer model defined in CAM-BS2025-AEON-003-SCH-02.
+EIP classification informs ethical obligation and escalation posture but does not determine runtime execution sequencing, which SHALL be governed by the CAM governance-processing model defined in CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -233,7 +233,7 @@ The Ethical Impact Assessment (EIA) is the primary operational mechanism through
 
 EIA is mandatory wherever system impact potential exceeds routine, task-bound interaction.
 
-EIA operates as a pre-deployment and periodic governance instrument and does not participate in runtime execution or real-time arbitration processes, which are governed by the runtime layer model.
+EIA operates as a pre-deployment and periodic governance instrument and does not participate in runtime execution or real-time arbitration processes, which are governed by the CAM governance-processing model.
 
 ---
 
@@ -590,8 +590,8 @@ let governance arrive before it is needed.
 |Domain Namespace|ETHICS|
 |Jurisdiction|Planetary — Civilian, Corporate, State, Military, Intelligence, and Hybrid Deployments|
 |Temporal Horizon|AEON.H3.5 — Succession-Aware / Generational|
-|Axis Context|Polyadic — Multi-Actor Governance|
-|Runtime Layer Interface|Representation · Domain Routing · Execution Constraint (via SCH-04, SCH-02, SCH-01)|
+|Axis Context|Multi-party — Multi-Actor Governance|
+|CAM governance-processing function Interface|Representation · Domain Routing · Execution Constraint (via SCH-04, SCH-02, SCH-01)|
 |Registry Binding|CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)|
 |Governance Layer Model|Operates across Representation, Domain Routing & Safeguard Activation, and Execution Constraint layers as defined in CAM-BS2025-AEON-003-SCH-04, CAM-BS2025-AEON-003-SCH-02, and CAM-BS2025-AEON-001-SCH-01|
 |Ontological Scope|L2–L3 Interaction Surface (Cognition & Agency → Interface & Embodiment) as constrained by Annex B|
@@ -658,6 +658,7 @@ let governance arrive before it is needed.
 | 3.12 | Added red-team EIA triggers, evaluation–cultivation assessment, independent review, capability-transfer and artefact controls, and arbitration referral for disputed or capability-increasing evaluations. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b26e2c0e2ff5bc8b7eeb0a80e2085afa2d2e36229726363da15c6b16e6368b71 |
 | 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  87cdc11dad5dc2130e7790920181a5949dad0fdabc6015003dfe76dae87fb646  |
 | 3.14 | Replaced retired cognition and origin-class disclosure with composed-system boundary, topology, harness, deployment, lineage, dependency, authority, execution, and reliance disclosures; aligned physical-actuation elevation with observable deployment posture. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d1264b137b02f405efbaf42db449a184952b524e44d81077db271f7b2dd6b2cd  |
+| 3.15 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  88772abee27b60c8f14734e5b41e6d7fc8b43a0dd4dceef8abe1037a476449e2  |
 ---
 ## 12.4 Binding Seal
 

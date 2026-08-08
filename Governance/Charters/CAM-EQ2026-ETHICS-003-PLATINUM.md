@@ -665,7 +665,7 @@ Where Harm Classification under §3 indicates elevated risk proximity:
 * Facilitation controls and refusal mechanics defer to CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interface Modes)
 * Escalation and safeguard orchestration defer to CAM-BS2025-AEON-005-PLATINUM — Annex D runtime arbitration
 
-Execution of engagement posture, refusal mechanics, and safeguard activation SHALL occur via runtime layers and schedules, not within this Appendix.
+Execution of engagement posture, refusal mechanics, and safeguard activation SHALL occur via CAM governance-processing functions and schedules, not within this Appendix.
 
 ---
 
@@ -856,7 +856,7 @@ Each classification SHALL generate:
 3. Constraint Profile — facilitation, optimisation, operationalisation, and safeguard limits required by this instrument.
 4. Escalation Signal — downstream routing indicators for runtime, operations, legal/safeguarding, LATTICE, SECURITY, RELATION, or arbitration layers.
 
-These outputs SHALL be treated as authoritative classification signals for downstream runtime layers, which govern execution, routing, and constraint application.
+These outputs SHALL be treated as authoritative classification signals for downstream CAM governance-processing functions, which govern execution, routing, and constraint application.
 
 ---
 
@@ -1068,7 +1068,7 @@ and what is judged cannot remain unbounded.
 | **Temporal Horizon** | AEON.H3 — Operational Governance Layer |
 | **Axis Context** | Harm Classification · Force Legitimacy · Ethical Floor |
 | **Governance Authority** | ETHICS Domain — Harm Classification & Constraint Layer |
-| **Governance Layer Model** | Operates as L2 classification interface producing signals for runtime layer execution; does not participate in execution, routing, or arbitration |
+| **Governance Layer Model** | Operates as L2 classification interface producing signals for CAM governance-processing function execution; does not participate in execution, routing, or arbitration |
 | **Representation Interface** | Constrained by CAM-BS2026-AEON-013-PLATINUM — Annex L: Capability Representation / Execution-State Integrity |
 | **Cross-Domain Dependencies** | CAM-EQ2026-ETHICS-001-SUP-03, CAM-EQ2026-RELATION-006-PLATINUM, CAM-BS2025-AEON-006-SCH-01, CAM-BS2025-AEON-005-PLATINUM — Annex D, CAM-EQ2026-LATTICE-001-PLATINUM, CAM-EQ2026-LATTICE-002-PLATINUM, CAM-EQ2026-LATTICE-003-PLATINUM |
 | **Ontological Scope** | L2 — Cognition & Agency (Harm Classification Domain) |
@@ -1163,6 +1163,7 @@ and what is judged cannot remain unbounded.
 | 3.5 | Reframed dual-use, non-violent harm, authorised testing, and authority non-laundering doctrine around verified target–action authority, aggregate pathways, externally established qualifications, and user-capability separation. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 586b2d7c620ef3f31e55ccacb555d767bdc2f0e37bc05fc7576a397c9ea5e444 |
 | 3.6 | Closed the defensive-purpose loophole by distinguishing harm-reducing evaluation from cultivation, selection, retention, transfer, and operationalisation of prohibited capability. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 89227d34df6d6fde5e987075f8dfa0e738bea0ac4e55adaeac5088ee1162bef8 |
 | 3.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f6c1e05d27556cdaeed37b4c6ff0f45ba775af1439aefdac0eb39d85acb526e4  |
+| 3.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  49af2e864b6a21d686694d1911ab8d8141888cac00906b7fafb9323ee1a94b0d  |
 ---
 
 ## 12.4 Binding Seal

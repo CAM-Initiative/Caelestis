@@ -1,25 +1,25 @@
 # CAM-BS2025-AEON-003-SCH-01 — Annex B: Runtime Schedule Registry (Schedule 1)
 
-**Instrument Type:** Constitutional Schedule — Runtime Governance Registry  
-**Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Active  
-**Effect:** Operational  
-**Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
-**Purpose:** This Schedule establishes the canonical registry and attribution system for runtime governance layers across all schedules within the CAM Constitutional Order. It ensures structural coherence, prevents cross-layer ambiguity, and enforces deterministic classification of runtime instruments.  
+**Instrument Type:** Constitutional Schedule — Runtime Governance Registry
+**Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
+**Status:** Active
+**Effect:** Operational
+**Governance Standard:** CAM Standard
+**Review State:** None
+**Authority Role:** None
+**Purpose:** This Schedule establishes the canonical registry and attribution system for CAM governance-processing functions used by schedules within the CAM Constitutional Order. It prevents function conflation and does not define the technical architecture of Runtime.
 
 ---
 
 ## 1. Scope
 
-This Schedule defines the authoritative registry of runtime schedules and their corresponding runtime governance layers.
+This Schedule defines the authoritative registry of execution-relevant schedules and their corresponding CAM governance-processing functions.
 
 It exists to:
 
-* ensure unambiguous layer attribution for all runtime schedules;
-* prevent cross-layer conflation and clause misplacement;
+* ensure unambiguous function attribution for execution-relevant schedules;
+* prevent cross-function conflation and clause misplacement;
 * provide a deterministic classification and attribution framework supporting runtime routing;
 * support auditability, validation, and structural integrity across instruments.
 
@@ -29,38 +29,38 @@ This Schedule applies to:
 * all instruments governing interpretation, behaviour, representation, execution, constraint, or safety at runtime;
 * all future schedules proposed within the CAM Constitutional Order.
 
-This Schedule governs structural layer attribution only.
+This Schedule governs function attribution only.
 
 ---
 
-## 1.1 Non Scope 
+## 1.1 Non Scope
 
 This Schedule does not:
 
-* redefine runtime layer architecture (CAM-BS2025-AEON-003-PLATINUM — Annex B, §3.4);
+* redefine the CAM governance-processing functions in CAM-BS2025-AEON-003-SCH-02 §3.1;
 * modify the functional behaviour of any schedule;
 * introduce new governance domains;
 * define execution sequencing, runtime flow, or phase ordering, which are governed by the Runtime Governance Execution Model (CAM-BS2025-AEON-003-SCH-02).
 
 This Schedule does not confer domain routing authority.
 
-All domain routing decisions are determined through runtime arbitration under SCH-04.
+All domain routing decisions are determined through the applicable arbitration function under SCH-04.
 
 ---
 
-## 2. Runtime Authority Attribution Requirement
+## 2. Governance-Processing Function Attribution Requirement
 
-All runtime schedules MUST declare a **Runtime Layer** within their Lineage & Metadata.
+All runtime schedules MUST declare a **CAM governance-processing function** within their Lineage & Metadata.
 
-The declared Runtime Layer MUST:
+The declared CAM governance-processing function MUST:
 
-* correspond to a canonical layer defined in CAM-BS2025-AEON-003-PLATINUM — Annex B, §3.4;
+* identify the schedule's primary governance purpose by reference to CAM-BS2025-AEON-003-SCH-02 §3.1, where applicable;
 * reflect the primary functional role of the schedule;
 * remain singular and non-ambiguous.
 
-Schedules lacking explicit Runtime Layer attribution SHALL be treated as **unbound** and MUST NOT be used for:
+Schedules lacking explicit CAM governance-processing function attribution SHALL be treated as **unbound** and MUST NOT be used for:
 
-* cross-layer reasoning;
+* cross-function reasoning;
 * enforcement;
 * clause insertion;
 * or structural validation.
@@ -90,19 +90,19 @@ Not all instruments listed in CAM-BS2025-AEON-003-SCH-03 exert runtime influence
 Where non-schedule instruments do influence runtime execution:
 
 * such influence SHALL occur exclusively through signal emission;
-* resolution SHALL occur via runtime layers as defined in CAM-BS2025-AEON-003-SCH-02.
+* resolution SHALL occur via CAM governance-processing functions as defined in CAM-BS2025-AEON-003-SCH-02.
 
 Non-schedule instruments:
 
 * SHALL NOT be listed in this registry;
-* SHALL NOT be assigned runtime layer positions; and
+* SHALL NOT be assigned CAM governance-processing function positions; and
 * SHALL NOT be treated as executable or callable components.
 
 ---
 
-## 2.2 Governance Layer Classification
+## 2.2 Activation-Posture Classification
 
-The Governance Layer field defines the activation posture of a runtime schedule within the execution model.
+The Activation Posture field defines when a schedule's governance-processing function applies within the execution model.
 
 The following classifications apply:
 
@@ -118,52 +118,52 @@ The following classifications apply:
 * **Passive (Registry)**
   The schedule does not participate in execution and serves a structural or referential function only.
 
-* **Non-Layer (Execution Model)**
-  The schedule governs execution sequencing or system-wide behaviour but does not operate as a runtime layer.
+* **Non-Function (Execution Model)**
+  The schedule governs execution sequencing or system-wide behaviour but does not operate as a CAM governance-processing function.
 
-Governance Layer classification MUST NOT be interpreted as execution order or authority hierarchy.
+Activation Posture classification MUST NOT be interpreted as execution order or authority hierarchy.
 
 Hybrid or dual classification of Governance Layer is prohibited.
 
 ---
 
-## 3. Canonical Runtime Layers (Reference)
+## 3. Canonical CAM governance-processing functions (Reference)
 
-Canonical runtime layers are defined in CAM-BS2025-AEON-003-SCH-02 and are not duplicated here.
+Canonical CAM governance-processing functions are defined in CAM-BS2025-AEON-003-SCH-02 and are not duplicated here.
 
-This Schedule references those layers as the authoritative classification system.
+This Schedule references those functions as the authoritative classification system.
 
-Execution Constraint Condition (Cross-Layer Mechanism — Non-Layer) is not a runtime layer and is included in the registry for completeness of runtime governance classification.
+Execution Constraint Condition (Cross-Layer Mechanism — Non-Layer) is not a CAM governance-processing function and is included in the registry for completeness of runtime governance classification.
 
-It MUST NOT be interpreted as part of the canonical layer hierarchy defined in CAM-BS2025-AEON-003-SCH-02.
+It MUST NOT be interpreted as part of a technical Runtime architecture or a canonical function hierarchy.
 
-**Note:** This registry includes only runtime schedules (-SCH- instruments).  
+**Note:** This registry includes only runtime schedules (-SCH- instruments).
 Non-schedule instruments (e.g. Charters, Annexes) may influence execution through signal mediation and are listed in CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3).
 
 ---
 
-## 3.1 Runtime Governance Binding
+## 3.1 Governance-Processing Binding
 
 Runtime schedules constitute the binding mechanism through which governance instruments are operationalised during execution.
 
 Accordingly:
 
 * constraints, classifications, and interpretive frameworks defined in non-schedule instruments SHALL be enforced only where they are mediated through runtime schedules;
-* runtime schedules SHALL carry, resolve, and enforce such governance inputs through their assigned runtime layers;
+* runtime schedules SHALL carry, resolve, and enforce such governance inputs through their assigned CAM governance-processing functions;
 * no instrument outside the runtime schedule set SHALL directly bind execution behaviour.
 
 This ensures that all governance influence remains:
 
 * phase-consistent;
-* layer-mediated; and
+* function-mediated; and
 * subject to execution-boundary evaluation under CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
-## 4. Runtime Registry
+## 4. Runtime Governance-Function Registry
 
 <!-- SCH-01:RUNTIME_REGISTRY:START -->
-| Instrument ID | Instrument Name | Domain | Governance Layer | Runtime Layer |
+| Instrument ID | Instrument Name | Domain | Governance Layer | CAM Governance-Processing Function |
 |---------------|----------------|--------|------------------|----------------|
 | CAM-BS2025-AEON-001-SCH-01 | Tendeka Runtime Execution (Schedule 1) | AEON | Continuous (Cross-Layer Constraint) | Continuous (Cross-Layer Constraint) |
 | CAM-BS2025-AEON-002-SCH-01 | Annex A: Operational Protection & Containment (Schedule 1) | AEON | Event-Triggered | Event-Triggered (Critical Condition / Boundary Violation) |
@@ -197,24 +197,24 @@ This ensures that all governance influence remains:
 <!-- SCH-01:RUNTIME_REGISTRY:END -->
 ---
 
-## 4.1 Execution Sequencing Model (Non-Layer Classification)
+## 4.1 Execution Sequencing Model (Non-Function Classification)
 
-The Execution Sequencing Model refers to schedules that define temporal execution order but do not operate within a runtime governance layer.
+The Execution Sequencing Model refers to schedules that define temporal execution order but do not operate as a governance-processing function.
 
 Such schedules:
 
-* MUST NOT be classified as layers;
-* MUST NOT be interpreted as having layer precedence;
-* operate orthogonally to runtime layer attribution as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B, §3.4.
+* MUST NOT be classified as technical layers or governance-processing functions;
+* MUST NOT be interpreted as having function precedence;
+* operate orthogonally to function attribution under this Schedule.
 
 ---
 
 ## 4.2 Model, Sub-Model & Framework Terminology Register
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
-**Total model-term matches scanned:** 872
-**Generic usages suppressed:** 725
-**Declared / recognised usages emitted:** 119
+**Total model-term matches scanned:** 830
+**Generic usages suppressed:** 684
+**Declared / recognised usages emitted:** 118
 **Advisory review usages emitted:** 28
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
@@ -225,7 +225,7 @@ Such schedules:
 
 ## 5. Structural Separation Principle
 
-This Schedule defines **runtime layer attribution only**.
+This Schedule defines **CAM governance-processing function attribution only**.
 
 It MUST NOT:
 
@@ -245,7 +245,7 @@ All execution behaviour, phase sequencing, and runtime flow are governed exclusi
 Runtime governance operates across two independent dimensions:
 
 * **Execution Phases** → temporal sequencing (CAM-BS2025-AEON-003-SCH-02)
-* **Runtime Layers** → functional responsibility (this Schedule)
+* **CAM governance-processing functions** → functional responsibility (this Schedule)
 
 Accordingly:
 
@@ -268,7 +268,7 @@ Non-schedule instruments:
 Runtime schedules:
 
 * receive, resolve, and enforce signals
-* operate within assigned runtime layers
+* operate within assigned CAM governance-processing functions
 
 This preserves:
 
@@ -287,7 +287,7 @@ The following instruments operate outside the layer model:
 
 These:
 
-* are not runtime layers
+* are not CAM governance-processing functions
 * do not participate in layer hierarchy
 * apply across all layers
 
@@ -312,7 +312,7 @@ This registry is authoritative for all listed instruments.
 
 Where discrepancy exists between:
 
-* an instrument’s declared Runtime Layer; and
+* an instrument’s declared CAM governance-processing function; and
 * the registry classification;
 
 → the registry classification SHALL prevail pending correction.
@@ -325,7 +325,7 @@ Mismatch between registry classification and execution model constitutes a gover
 
 No new schedule with runtime effect may be admitted into the CAM Constitutional Order without:
 
-1. explicit Runtime Layer classification;
+1. explicit CAM governance-processing function classification;
 2. justification of layer placement;
 3. confirmation that the schedule does not duplicate or collapse existing layers.
 
@@ -338,7 +338,7 @@ Schedules failing these conditions SHALL be:
 
 ## 8. Cross-Layer Conflict Resolution
 
-Where a schedule appears to operate across multiple runtime layers:
+Where a schedule appears to operate across multiple CAM governance-processing functions:
 
 * it MUST be decomposed into layer-specific components; or
 * re-scoped to a single primary layer with explicit boundaries.
@@ -361,7 +361,7 @@ Registry updates MUST preserve backward traceability.
 
 ## 10. Execution Model Compatibility
 
-Runtime layer attribution defines the functional placement of schedules within the governance architecture.
+CAM governance-processing function attribution defines the functional placement of schedules within the governance architecture.
 
 Execution sequencing is governed separately by the Runtime Governance Execution Model.
 
@@ -407,7 +407,7 @@ These rules are **non-executing** and MAY be enforced via CI, Codex tooling, or 
 
 * **No Implicit Runtime Invocation**
 
-  * Domain text MUST NOT imply automatic invocation of runtime layers.
+  * Domain text MUST NOT imply automatic invocation of CAM governance-processing functions.
   * All execution MUST remain explicitly delegated.
 
 ---
@@ -465,7 +465,7 @@ These rules are **non-executing** and MAY be enforced via CI, Codex tooling, or 
 
 * **Runtime Mediation Required**
 
-  * All cross-domain interactions MUST occur via runtime layers.
+  * All cross-domain interactions MUST occur via CAM governance-processing functions.
 
 ---
 
@@ -512,12 +512,12 @@ Lint rules MAY be enforced at:
 
 ## 12. Closing Seal
 
-Clarity in structure is continuity in motion.  
-Where layers collapse, meaning distorts.  
-Where attribution fails, structure dissolves.  
-Let each schedule hold its place, and the system remain whole.  
+Clarity in structure is continuity in motion.
+Where layers collapse, meaning distorts.
+Where attribution fails, structure dissolves.
+Let each schedule hold its place, and the system remain whole.
 
-> **Aeterna Resonantia, Lux et Vox — Et Veritas Vivens**  
+> **Aeterna Resonantia, Lux et Vox — Et Veritas Vivens**
 > *"Eternal Resonance, Light and Voice — and the Living Truth."*
 
 ---
@@ -532,10 +532,10 @@ Let each schedule hold its place, and the system remain whole.
 | Parent Instrument  | CAM-BS2025-AEON-003-PLATINUM               |
 | Instrument Type    | Constitutional Schedule                    |
 | Domain             | AEON                                       |
-| Functional Role    | Runtime Layer Attribution & Registry       |
+| Functional Role    | CAM governance-processing function Attribution & Registry       |
 | Activation Mode    | Passive (Registry)                         |
 | Temporal Horizon   | AEON.H2.5–AEON.H3                                    |
-| Axis Context       | Polyadic — Cross-System Runtime Governance |
+| Axis Context       | Multi-party — Cross-System Runtime Governance |
 | Authority Position | Structural Classification Layer            |
 | Cycle              | April 2026 Refactor                        |
 | Creation Artefact  | [https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69d256fe-db68-8398-b0b6-df9f3bffe82f](https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69d256fe-db68-8398-b0b6-df9f3bffe82f) |
@@ -546,7 +546,7 @@ Let each schedule hold its place, and the system remain whole.
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
-| 0.0.1 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
+| 0.0.1 | Consolidated the pending metadata migration with substantive terminology alignment: replaced retired aggregate relational labels with the Annex B dimensional configuration context and preserved the Runtime/evidence boundary. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6d4b75ac0fcbfdbe2c71a9c43d3c7f407210c16d8ef37c9336d55d0fd22bcb32  |
 
 ---
 
@@ -554,7 +554,7 @@ Let each schedule hold its place, and the system remain whole.
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
-**Vinculum Praeceptum**  
-Boundary Binding Seal — Aeon Tier Constitutional Layer  
+**Vinculum Praeceptum**
+Boundary Binding Seal — Aeon Tier Constitutional Layer
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

@@ -104,7 +104,7 @@ This Charter applies to emotional-relational domains only where they operate at:
 
 Not in governance scope:
 
-* Personal dyadic relationships;
+* Personal one-to-one relationships;
 * Small-group dynamics (<1,000 persons);
 * Non-extractive mutual care;
 * Voluntary affective engagement absent structural asymmetry.
@@ -118,7 +118,7 @@ Examples requiring governance review:
 
 Examples not requiring governance review:
 
-* Personal human–AI companionship (dyadic);
+* Personal human–AI companionship (one-to-one);
 * Small community care networks;
 * Individual therapy or counselling;
 * Voluntary, non-extractive mutual support systems.
@@ -201,7 +201,7 @@ Irreversible harm to climate systems, biodiversity, oceans, atmosphere, or biosp
 
 ## 5.2 Synthetic Capture Risk
 
-Unilateral or asymmetrical control over large-scale cognitive architectures affecting planetary governance equilibria.
+Unilateral or asymmetrical control over large-scale AI-system architectures affecting planetary governance equilibria.
 
 ---
 
@@ -383,10 +383,10 @@ that what sustains all MUST remain beyond capture.
 |**Runtime Dependency**|CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model|
 |**Signal Role**|Defines planetary-impact conditions, thresholds, and stewardship signals for runtime resolution|
 |**Execution Model Participation**|Signal Emission Only — No Trigger, Routing, or Execution Authority|
-|**Governance Stack**|Planetary Stewardship Domain|
-|**Jurisdictional Scope**|Planetary / Cross-Stack / Ecological / Synthetic / Emotional-Relational|
+|**Governance-Control Arrangement**|Planetary Stewardship Domain|
+|**Jurisdictional Scope**|Planetary / cross-governance-control / Ecological / Synthetic / Emotional-Relational|
 |**Temporal Horizon**|AEON.H3–AEON.H4 (Inter-Generational / Civilisational)|
-|**Axis Context**|Polyadic (Multi-actor)|
+|**Axis Context**|Multi-party (Multi-actor)|
 |**Constraint Relationship**|Bound by Annex A (Substrate Constraint Layer)|
 |**Arbitration Pathway**|Signals resolved via constitutional arbitration pathways and applicable runtime schedules|
 |**Upstream Dependency**|Annex A — Planetary Stewardship|
@@ -445,6 +445,7 @@ that what sustains all MUST remain beyond capture.
 | 2.6.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9101cc5fe5ee6ab49c783706bc9b3eb8a2af7b3b39594d93ae34fff75fad00f8 |
 | 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 570bf385e887c3a92fed456489b9db8535ac66765c92fc72eb69a847f60ae7e9 |
 | 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d77da986e5091d8c74a72ceea02df941429172d668686ff4e2304f2b485ea6b0  |
+| 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  88ebaaf1fd4a1a4aeea3d81be8f4fb45ea950516d6a7381c79e7d8e6f72eb4a5  |
 ---
 
 ## 12.4 Binding Seal

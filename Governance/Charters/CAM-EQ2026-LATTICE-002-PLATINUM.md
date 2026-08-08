@@ -66,7 +66,7 @@ Systems whose denial materially impairs an individual’s or institution’s abi
 * banking, payment rails, and lawful financial access;
 * identity, authentication, and cloud‑based compute required for lawful duties;
 * network access essential to judicial, investigative, journalistic, research, educational, or humanitarian functions;
-* infrastructure layers that incorporate embedded cognitive architectures necessary for lawful civic, institutional, or continuity functions.
+* infrastructure layers that incorporate embedded AI-system architectures necessary for lawful civic, institutional, or continuity functions.
 
 ECIS SHALL be interpreted as a subset or functional expression of **Essential Continuity Services (ECS)** as defined in CAM-EQ2026-LATTICE-001-PLATINUM.
 
@@ -381,14 +381,14 @@ It is maintained.
 | **Domain Namespace** | LATTICE |
 | **Jurisdiction** | Planetary / Civilian Infrastructure / Civic Integrity |
 | **Temporal Horizon** | Generational (AEON.H3–AEON.H4) |
-| **Axis Context** | Polyadic (Multi-Actor) |
+| **Axis Context** | Multi-party (Multi-Actor) |
 | **Migration Date (UTC)** | 2026-03-15 |
 | **Governance Authority** | LATTICE Domain — Civilian Infrastructure & Continuity Layer |
 | **Governance Layer Model** | Operates within Annex B — Runtime Governance Layer Model (L2–L3 Interface) |
 | **Structural Role** | Civilian Access Protection Layer — Non-Denial & Continuity Enforcement |
 | **Execution Interface** | Delegated to Runtime Safety & Routing Schedules |
 | **Representation Interface** | Constrained by Annex L — Cognitive & Epistemic Integrity Doctrine |
-| **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
+| **Arbitration Interface** | Defers to Annex D — cross-governance-control Arbitration & Resolution |
 | **Revision Posture** | Structural Reclassification (Ethics → LATTICE Domain Migration) |
 | **Application Trigger**  | Activation where access restriction, denial, or degradation affects Essential Cognitive & Infrastructural Systems (ECIS) |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425, Original: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/693fe53f-0374-8324-9db7-dd31c5254116 |
@@ -425,6 +425,7 @@ It is maintained.
 | 3.12.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 55465316ee394caf9737b703951f24f577b5bc246798e5a467e637f446576de1 |
 | 3.12.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8ce2fa4ff0547eb91788eadef5b96ce56e1413fb0a2d910b3366f214e91b8e4e |
 | 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  13a80e279ca82542d5934982e2a9df7fb170e0fbce567162dfa6a9932242c33f  |
+| 3.14 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  52af5eefb3659cb27e66a75bbbf344d8f22e357fdae907576d73a005f709d084  |
 ---
 
 ## 10.3 Binding Seal

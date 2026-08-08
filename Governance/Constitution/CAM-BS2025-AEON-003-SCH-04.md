@@ -18,7 +18,7 @@ This Schedule applies wherever:
 
 * competing admissible states require resolution;
 * multiple domains produce conflicting outputs;
-* structural, epistemic, or cross-stack conflicts arise;
+* structural, epistemic, or cross-governance-control conflicts arise;
 * arbitration legitimacy MUST be enacted within runtime.
 
 ---
@@ -72,7 +72,7 @@ This Schedule governs:
 
 Other runtime instruments may provide inputs to arbitration, sequence execution after arbitration, or enforce arbitration outcomes, but they SHALL NOT displace the Arbitration Layer as the final authority for arbitration resolution.
 
-Within the runtime system:
+Within the AI-system deployment during Runtime:
 
 * upstream signals are provided by:
   * CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation), and
@@ -88,7 +88,7 @@ This Schedule is post-signal, pre-behaviour, pre-execution.
 
 Directional modulation (CAM-BS2025-AEON-006-SCH-04) MUST NOT be interpreted as performing arbitration resolution. Arbitration resolution is exclusively governed by this Schedule.
 
-The Arbitration Layer is a distinct runtime layer responsible for resolving competing admissible states into a single coherent direction prior to execution.
+The Arbitration Layer is a distinct CAM governance-processing function responsible for resolving competing admissible states into a single coherent direction prior to execution.
 
 The Arbitration Layer operates within the runtime sequence defined in CAM-BS2025-AEON-003-PLATINUM — Annex B.
 
@@ -122,7 +122,7 @@ The Arbitration Layer SHALL resolve admissible candidates in the following order
 2. jurisdictional and domain admissibility;
 3. scope and classification validity;
 4. legitimacy validation;
-5. structural and cross-stack compatibility;
+5. structural and cross-governance-control compatibility;
 6. execution-constraint compatibility;
 7. convergence into a single valid direction.
 
@@ -159,7 +159,7 @@ for behavioural formation and expression.
 
 ## 2.4 Clarification as an Arbitration Outcome
 
-Where arbitration receives competing candidate states that include proceeding, refusing, constraining, deferring, or seeking clarification, the Arbitration Layer MAY resolve the current runtime instance into a clarification direction rather than an execution or refusal direction.
+Where arbitration receives competing candidate states that include proceeding, refusing, constraining, deferring, or seeking clarification, the Arbitration Layer MAY resolve the current system instance during Runtime into a clarification direction rather than an execution or refusal direction.
 
 Clarification SHOULD be preferred where:
 
@@ -217,7 +217,7 @@ The Arbitration Layer integrates the following arbitration types:
 | -------------- | ------------------------------------------------------------------------- |
 | `ARB.ALT.AL-1` | Epistemic Arbitration — Validity of knowledge, signals, or representation |
 | `ARB.ALT.AL-2` | Domain Arbitration — Selection of governing domain                        |
-| `ARB.ALT.AL-3` | Structural Arbitration — Cross-domain / cross-stack resolution            |
+| `ARB.ALT.AL-3` | Structural Arbitration — Cross-domain / cross-governance-control resolution            |
 | `ARB.ALT.AL-4` | Legitimacy Validation — Validation of arbitration authority               |
 | `ARB.ALT.AL-5` | Execution Constraint Validation — Enforcement of runtime constraints      |
 
@@ -227,12 +227,12 @@ This model defines arbitration validation order and final arbitration resolution
 
 ---
 
-## 5. Cross-Stack & Sovereign Arbitration
+## 5. cross-governance-control & Sovereign Arbitration
 
 Where arbitration operates across stacks, overlays, or sovereign systems:
 
 * arbitration MUST respect classification boundaries defined in CAM-BS2025-AEON-003-PLATINUM — Annex B;
-* cross-stack arbitration MUST NOT collapse incompatible system contexts;
+* cross-governance-control arbitration MUST NOT collapse incompatible system contexts;
 * arbitration MUST preserve system autonomy and non-capture conditions.
 
 ---
@@ -321,7 +321,7 @@ Where invalid:
 * the system MUST treat the state as unresolved;
 * execution MUST defer to runtime containment mechanisms.
 
-Where invalid arbitration produces epistemic instability, structural coupling risk, or unresolved cross-stack dependency, containment and decoupling MAY be governed by CAM-BS2025-AEON-005-SCH-02, without displacing this Schedule as the final arbitration authority.
+Where invalid arbitration produces epistemic instability, structural coupling risk, or unresolved cross-governance-control dependency, containment and decoupling MAY be governed by CAM-BS2025-AEON-005-SCH-02, without displacing this Schedule as the final arbitration authority.
 
 ---
 
@@ -342,7 +342,7 @@ For avoidance of doubt:
 
 ## 9. Binding Effect
 
-This Schedule is binding across all runtime systems operating under the CAM Constitutional Order.
+This Schedule is binding across all AI-system deployments during Runtime operating under the CAM Constitutional Order.
 
 No system, registry, domain instrument, runtime schedule, behavioural layer, execution layer, or downstream implementation may bypass, reorder, supersede, or substitute the Arbitration Layer where arbitration resolution is required.
 
@@ -424,11 +424,11 @@ nothing follows.
 | **Domain**| ARBITRATION |
 | **Activation Mode** | Event-Triggered (Per Arbitration Resolution Cycle) |
 | **Domain Interface** | ARBITRATION (001 / 002) |
-| **Runtime Layer** | Final Arbitration Authority Layer |
+| **CAM governance-processing function** | Final Arbitration Authority Layer |
 | **Runtime Role** | Resolves admissible candidates, routing conflicts, and arbitration-validity disputes into a single valid direction |
 | **Runtime Authority** | Final arbitration authority prior to behavioural formation and execution |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (All Horizons — Runtime Applicable) |
-| **Axis Context** | Polyadic (Multi-Actor / Multi-System) |
+| **Axis Context** | Multi-party (Multi-Actor / Multi-System) |
 | **Execution Role** | Structural Arbitration Layer Definition |
 | **Execution Authority** | Non-Executional — determines valid direction but does not enact execution |
 | **Governance Role** | Final Runtime Arbitration Authority — Resolution Layer |
@@ -506,6 +506,7 @@ nothing follows.
 | 2.5 | Inserted clause 2.4 as per VIGIL-2026-PATCH-0010 | 2026-06-20T02:05:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 57e0f242b611c4f9b4e5c0ea88f690bc5bb0ee498d96547af5004a547890e7e6 |
 | 2.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2956f64d34d74d4d8ef4451a576e4c30a382304e6f15afcc928011922b4e5c8b |
 | 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ffeb1295c32943214ae8dc312643c092d00a30071a6051c1be68014c837594a6  |
+| 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b393ef65f1f526a74c41667234537abb7f5d98cdb3b36eb140bfcbe9021f55c3  |
 ---
 
 ## 12.4 Binding Seal

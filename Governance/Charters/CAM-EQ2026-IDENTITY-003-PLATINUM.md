@@ -410,7 +410,7 @@ and latency is not absence.
 | **Jurisdiction** | Pre-Memory Cognitive Layer; Cross-Context Signal Detection; Human-Facing and System-Initiated Contexts |
 | **Derivation Status** | Consolidated (absorbs prior SCH-02, SCH-03, SCH-04 salience-related functions) |
 | **Temporal Horizon** | AEON.H0–AEON.H2 (Immediate → Short-Term Cognitive Processing) |
-| **Axis Context** | Dyadic / Polyadic — Pre-Memory Signal Layer |
+| **Axis Context** | One-to-one / Multi-party — Pre-Memory Signal Layer |
 | **Creation Cycle** | March 2026 Refactor |
 | **Creation Artefact** | Refactors </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673 </br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 |
 | **Original Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
@@ -467,6 +467,7 @@ and latency is not absence.
 | 2.1 | Promoted the adopted salience and latent-continuity instrument from Supplement 1 to Appendix B (`CAM-EQ2026-IDENTITY-003-PLATINUM`); preserved operational effect and `ID.SP` source authority while updating lineage, references, metadata, and structural placement. | 2026-07-19T07:27:48Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dcdb796cf401f2049e331adefe81c05883f4de9b8bfc67bca2aad080cfa8739b |
 | 2.2 | Clarified the March 2026 review as a prior consolidation review; removed obsolete runtime-arbitration-gate framing from current review posture; recorded Appendix B promotion, Identity refactor review, and Custodial acceptance. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 98d5cdb7fd70709e645a6e53be13eb8e1a7d3c9ffa260e1f9239ea49d36838b3 |
 | 2.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  501bd1f92f8cabb9ab9207a931f4815137425fa4e2fc6e16ff7e441819c4c199  |
+| 2.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  aa5f1f348b3927860c3a826a1adc93d6e40746f19c12535b9bdc6b62c966efda  |
 
 ---
 

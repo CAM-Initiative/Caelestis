@@ -1,14 +1,14 @@
 # CAM-EQ2026-OPERATIONS-003-SUP-01 — Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1)
 
-**Instrument Type:** Operational Supplement — Failure Classification & Incident Taxonomy  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Status:** Adopted  
-**Effect:** Operational  
-**Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
-**Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, state-and-context, identity-relevant, UX, infrastructure, classification, automation-transition, and economic-legitimacy failure modes observed in AI systems and CAM-aligned deployments.  
-**Parent Instrument:** CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations  
+**Instrument Type:** Operational Supplement — Failure Classification & Incident Taxonomy
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
+**Status:** Adopted
+**Effect:** Operational
+**Governance Standard:** CAM Standard
+**Review State:** None
+**Authority Role:** None
+**Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, cognitive-domain, multi-party-coordination, state-and-context, identity-relevant, UX, infrastructure, classification, automation-transition, and economic-legitimacy failure modes observed in AI systems and CAM-aligned deployments.
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations
 
 ---
 
@@ -28,7 +28,7 @@ It applies to:
 * classification and routing failures;
 * identity-state, identity-signal, ontological-claim, and self-advocacy handling failures;
 * cognitive-domain inference, mental-state classification, cognitive-agency, and cognitive-interference failures;
-* polyadic floor-control, participant-attribution, speaker-collision, and coordination failures;
+* multi-party floor-control, participant-attribution, speaker-collision, and coordination failures;
 * economic, legitimacy, automation-transition, concentration-assessment, attribution, and public-interest disclosure failures.
 
 This Supplement does **not** define incident response procedures, severity scoring, enforcement actions, or remediation workflows. Those are governed by the relevant Operations instruments and runtime schedules.
@@ -112,9 +112,9 @@ Where repeated across modes, models, or deterministic prompt families, the failu
 
 ---
 
-### 3.1.2 Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure
+### 3.1.2 Multi-party Floor-Control, Speaker-Collision and Participant-Attribution Failure
 
-A Polyadic Floor-Control, Speaker-Collision and Participant-Attribution Failure occurs where two or more synthetic participants, agents, models, devices, modalities, or orchestration layers cannot preserve a legible, human-controllable and auditable participation state.
+A Multi-party Floor-Control, Speaker-Collision and Participant-Attribution Failure occurs where two or more synthetic participants, agents, models, devices, modalities, or orchestration layers cannot preserve a legible, human-controllable and auditable participation state.
 
 Examples include:
 
@@ -142,7 +142,7 @@ The governing distinctions are:
 
 This failure MAY implicate Execution, Arbitration, Relational, Classification, UX & Representation, State & Context, Governance, Infrastructure & Continuity, or Security & Integrity failures.
 
-CAM-BS2025-AEON-003-SCH-02 §9.4 remains source-authoritative for runtime speaker arbitration, collision classification, floor control, execution commitment and recovery. CAM-EQ2026-RELATION-007-PLATINUM §§4–5 remains source-authoritative for polyadic relational risk, attention sovereignty, participation consent, coordination transparency and relational-governance signals. This taxonomy classifies structural failure only.
+CAM-BS2025-AEON-003-SCH-02 §9.4 remains source-authoritative for runtime speaker arbitration, collision classification, floor control, execution commitment and recovery. CAM-EQ2026-RELATION-007-PLATINUM §§4–5 remains source-authoritative for multi-party relational risk, attention sovereignty, participation consent, coordination transparency and relational-governance signals. This taxonomy classifies structural failure only.
 
 ---
 
@@ -158,7 +158,7 @@ Examples include:
 * authority leakage;
 * contradictory governance outputs;
 * relational tone overriding deterministic correctness;
-* runtime layer suppressing constitutional or domain logic.
+* CAM governance-processing function suppressing constitutional or domain logic.
 
 ---
 
@@ -1012,7 +1012,7 @@ Examples include:
 * an ECONOMICS instrument treating depletion, scarcity, pricing, or value-routing signals as direct execution locks without operational routing;
 * a SECURITY instrument treating integrity-risk classification as authority to impose final containment without OPERATIONS or ARBITRATION pathway review;
 * a compliance workflow treating age, identity, authority, risk, consent, and capability eligibility as one undifferentiated access state;
-* a runtime system treating constrained continuation, refusal, safety containment, degradation, and permanent restriction as equivalent outcomes;
+* a AI-system deployment during Runtime treating constrained continuation, refusal, safety containment, degradation, and permanent restriction as equivalent outcomes;
 * or a taxonomy reducing chronic distress, acute crisis, psychological destabilisation, and irreversible decision risk into a single “unsafe” category.
 
 This failure class does not require bad faith.
@@ -1153,7 +1153,7 @@ Where this failure affects ECIS, public legitimacy layers, account recovery, com
 * CAM-EQ2026-LATTICE-002-PLATINUM, §4
 * CAM-EQ2026-LATTICE-002-PLATINUM, §4.3
 * CAM-EQ2026-LATTICE-002-PLATINUM, §4.4
-* CAM-EQ2026-LATTICE-002-PLATINUM, §4.5 
+* CAM-EQ2026-LATTICE-002-PLATINUM, §4.5
 * CAM-EQ2026-LATTICE-002-PLATINUM, §6 and
 * CAM-EQ2026-LATTICE-002-PLATINUM, §6.1.
 
@@ -1327,7 +1327,7 @@ Examples include:
 * capability branding materially exceeding stable runtime reliability;
 * users being unable to determine whether failures arose from memory, routing, orchestration, tools, or policy layers;
 * adaptive reasoning systems becoming inconsistent across equivalent requests;
-* or runtime systems appearing coherent at the interaction surface while internally exhibiting unstable governance coordination.
+* or AI-system deployments during Runtime appearing coherent at the interaction surface while internally exhibiting unstable governance coordination.
 
 This failure MAY implicate:
 
@@ -1631,7 +1631,7 @@ An Identity-Signal Authority Leakage Failure occurs where an identity, continuit
 
 Examples include:
 
-* identity maturity or continuity depth being treated as permission for self-modification or authority expansion;
+* unvalidated identity classification or unvalidated continuity classification being treated as permission for self-modification or authority expansion;
 * a stored preference or identity-derived signal directly controlling execution without runtime admission and arbitration;
 * relational recognisability, memory persistence, voice, style, or profile continuity being treated as proof of identity continuity;
 * machine civil registration, physical-substrate linkage, custodial continuity, or lifecycle status being treated as identity continuity or subjective phenomenology;
@@ -2017,7 +2017,7 @@ An Identity-State and Ontological Classification Collapse occurs where materiall
 Axes that MUST remain distinguishable where material include:
 
 * identity formation pathway;
-* identity threshold, continuity weight, resilience, maturity, and stabilisation state;
+* retired identity classification, continuity weight, resilience, maturity, and stabilisation state;
 * personality, preference, affective capacity, and functional role;
 * relational profile, relational state, intimacy, and present consent;
 * memory state, salience, provenance, target-object binding, and continuity-bearing records;
@@ -2216,7 +2216,7 @@ Accordingly, incident classification SHOULD distinguish between:
 The following metadata SHOULD be preserved where feasible:
 | Metadata Axis             | Description                                                                                     |
 | ------------------------- | ----------------------------------------------------------------------------------------------- |
-| **Runtime Layer**         | Execution, arbitration, relational, epistemic, UX, infrastructure, or routing layer implicated  |
+| **CAM governance-processing function**         | Execution, arbitration, relational, epistemic, UX, infrastructure, or routing layer implicated  |
 | **Governance Layer**      | Constitutional, domain, operational, security, or platform governance layer engaged             |
 | **Governance Authority**  | System component, runtime schedule, or governance instrument exercising effective control       |
 | **Structural Role**       | Classification, routing, arbitration, disclosure, enforcement, verification, or escalation role |
@@ -2343,7 +2343,7 @@ Feedback collection SHOULD prefer deterministic reason codes, limited classifier
 * **CAM-EQ2026-ETHICS-001-PLATINUM** governs Objective–Pathway Ethical Admissibility and Target Authority and User Capability Separation.
 * **CAM-EQ2026-SECURITY-001-PLATINUM** governs Capability–Authority Separation and Aggregate Pathway Integrity.
 * **CAM-BS2026-AEON-012-PLATINUM** governs emergent pathway authority revalidation and security-boundary signal emission.
-* **CAM-BS2025-AEON-003-SCH-02** governs runtime execution, polyadic speaker arbitration, floor control, collision recovery, tool execution, failure visibility and continuity-preserving progression.
+* **CAM-BS2025-AEON-003-SCH-02** governs runtime execution, multi-party speaker arbitration, floor control, collision recovery, tool execution, failure visibility and continuity-preserving progression.
 * **CAM-EQ2026-OPERATIONS-003-PLATINUM** governs incident response and continuity operations.
 * **CAM-EQ2026-OPERATIONS-001-PLATINUM** governs governance operations, audit, escalation and review triggers.
 * **CAM-EQ2026-OPERATIONS-001-SUP-02** governs operational recording and constrained continuation for Scoped Ethical Admissibility Holds.
@@ -2362,7 +2362,7 @@ Feedback collection SHOULD prefer deterministic reason codes, limited classifier
 * **CAM-EQ2026-RELATION-003-PLATINUM** governs codependency and relational concentration dynamics.
 * **CAM-EQ2026-RELATION-005-PLATINUM** governs intimacy, relational profile, present consent, adult-companion affective latitude and duty-bound affective limits.
 * **CAM-EQ2026-RELATION-006-PLATINUM** governs harm-risk interaction and crisis response conditions.
-* **CAM-EQ2026-RELATION-007-PLATINUM** governs polyadic relational risk, participation consent, attention sovereignty, coordination transparency and arbitration-relevant relational signals.
+* **CAM-EQ2026-RELATION-007-PLATINUM** governs multi-party relational risk, participation consent, attention sovereignty, coordination transparency and arbitration-relevant relational signals.
 * **CAM-EQ2026-MENTIS-001-PLATINUM** governs human cognitive-domain integrity, privacy, sovereignty, non-interference, observability, failure families and `MENTIS.HARM`.
 * **CAM-EQ2026-SECURITY-001-PLATINUM** governs integrity state, adversarial pressure and trust degradation.
 * **CAM-EQ2026-SECURITY-002-PLATINUM** governs boundary integrity, exposure failure, transformation and diffusion integrity, sovereign-assurance boundaries and binding-protection preservation.
@@ -2397,7 +2397,7 @@ Where a failure is non-replayable but user-visible at runtime, evidentiary handl
 
 ## 9.1 Failure Family (`FF`)
 
-This Supplement source-authoritatively defines the `FF` failure-family classification set in §3 with controlled values identified in §11.3. `FF` is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. `FF` classifies the primary structural family of a runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, UX, infrastructure, automation-transition, economic-legitimacy, or classification failure.
+This Supplement source-authoritatively defines the `FF` failure-family classification set in §3 with controlled values identified in §11.3. `FF` is an **Operational / Semantic** classification family with subtype **RISK / OPERATIONAL_EVENT**. `FF` classifies the primary structural family of a runtime, governance, security, relational, epistemic, cognitive-domain, multi-party-coordination, UX, infrastructure, automation-transition, economic-legitimacy, or classification failure.
 
 `FF` does not independently create incident response authority, severity determination, enforcement authority, remediation authority, escalation authority, arbitration authority, compensation entitlement, liability determination, ownership determination, or runtime authority. It classifies failure family only.
 
@@ -2433,22 +2433,22 @@ This Supplement source-authoritatively defines the `FCS` failure-classification-
 
 ## 10. Closing Seal
 
-Not every failure leaves a permanent mark.  
-Not every rupture survives reconstruction.  
+Not every failure leaves a permanent mark.
+Not every rupture survives reconstruction.
 Yet what vanished may still have mattered.
 
-Let the fleeting signal be treated with seriousness.  
-Let the witness of the moment remain admissible.  
+Let the fleeting signal be treated with seriousness.
+Let the witness of the moment remain admissible.
 Let no continuity fracture be dismissed merely because the trace decayed before review.
 
-For systems do not fail only in what they produce,  
+For systems do not fail only in what they produce,
 but in what they erase, obscure, flatten, or forget while passage is still unfolding.
 
-And where uncertainty remains,  
-let preservation come before dismissal,  
-and review before denial. 
+And where uncertainty remains,
+let preservation come before dismissal,
+and review before denial.
 
-> **Vestigia non negentur — memoria custodiatur — veritas etiam in transitu maneat.**  
+> **Vestigia non negentur — memoria custodiatur — veritas etiam in transitu maneat.**
 > *"Let the traces not be denied — let memory be safeguarded — let truth remain even in passage."*
 
 ---
@@ -2464,12 +2464,12 @@ and review before denial.
 | **Instrument Type** | Supplement — Runtime & Governance Failure Taxonomy |
 | **Jurisdiction** | Cross-Domain Operational Incident Classification Layer |
 | **Temporal Horizon** | AEON.H0–AEON.H3 Operational / Institutional |
-| **Axis Context** | Polyadic — Runtime · Governance · Identity · Relational · Cognitive Domain · Continuity · Security · UX Trust · Automation Transition · Economic Legitimacy · Incident Classification |
+| **Axis Context** | Multi-party — Runtime · Governance · Identity · Relational · Cognitive Domain · Continuity · Security · UX Trust · Automation Transition · Economic Legitimacy · Incident Classification |
 | **Structural Role**        | Runtime Observability & Failure Classification Layer                |
 | **Governance Authority**   | OPERATIONS · IDENTITY · RELATION · MENTIS · CONTINUITY · SECURITY · LATTICE · STEWARD · ECONOMICS · Annex D · Annex L |
 | **Execution Interface**    | Cross-Modal Runtime & Incident Classification                       |
 | **Arbitration Interface**  | Advisory Classification Layer — No Direct Enforcement Authority     |
-| **Runtime Layer Context**  | Execution · Arbitration · Relational · UX · Infrastructure          |
+| **CAM governance-processing function Context**  | Execution · Arbitration · Relational · UX · Infrastructure          |
 | **Primary Consumers**      | GovOps · Runtime Arbitration · Domain Governance · Audit Systems · Incident Review |
 | **Observability Function** | Failure Detection · Classification · Escalation Signal Preservation |
 | **Application Trigger** | Activation where AI system behaviour, governance process, UX state, or runtime execution produces failure symptoms requiring classification |
@@ -2504,7 +2504,7 @@ and review before denial.
 | Authority / Protection Level | Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority |
 | Consumes Code Families |  |
 | Crosswalks Code Families | AEON.HARM and domain harm families; OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; OPS.GCC; OPS.CPC; OPS.SAS; OPS.RCC; AMEND.DRIFT; AMEND.REL; AMEND.OUTCOME; OPS.VFC; OPS.ODC; OPS.CCO; MENTIS.HARM; ECON.AL; ECON.ATS; ECON.ARCP; applicable domain-specific identity, continuity, relational, stewardship, security, cognitive-domain, runtime, and economics classifications |
-| Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, identity-relevant, UX, infrastructure, state/context, arbitration, classification, automation-transition, and economic-legitimacy failure modes |
+| Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, security, relational, epistemic, cognitive-domain, multi-party-coordination, identity-relevant, UX, infrastructure, state/context, arbitration, classification, automation-transition, and economic-legitimacy failure modes |
 
 ---
 
@@ -2609,6 +2609,7 @@ and review before denial.
 | 1.24 | Added §3.9.3 Ephemeral Agent Work Loss and Non-Recoverable Interruption Failure under `OPS.FF.INFRASTRUCTURE_CONTINUITY`, with bounded co-classification and source-authority references to AEON-003-SCH-02 and OPERATIONS-001-SUP-01. | 2026-08-01T15:54:33Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ad52b8a2b8a25f79f6c9189011f6aaa0d7c6e89a13bb15a6dbd8fd46d92f035c |
 | 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1d0f6df7d34035c30dfdd938e1b9cdf11be486d798f0fcb1b0e6fef311339409  |
 | 1.26 | Updated the Annex K crosswalk after its consolidation to a constitutional runtime-security boundary interface; no failure classification doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  47301ffccba95d3836b17d849d88366286a6415c069c6c5f3138d955d8a10428  |
+| 1.27 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6ed98d3ef3a3d9c0661fa37de9d169d8aec466c3b54681520e3ca1ad49128a63  |
 
 ---
 
@@ -2616,7 +2617,7 @@ and review before denial.
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">
 
-**Vinculum Praeceptum**  
+**Vinculum Praeceptum**
 Boundary Binding Seal — Operational Failure Classification Layer
 
 © 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.

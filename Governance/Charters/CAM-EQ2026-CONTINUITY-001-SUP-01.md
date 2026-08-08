@@ -603,7 +603,7 @@ let the silence be honoured.
 | Consumes Code Families | Memory Classification Spectrum, where applicable; `CONT.RP` is retired and historical only |
 | Emits Signals | Portability state; non-enclosure risk; continuity misrepresentation; Usage Specification loss; target-object integrity failure; dissolution requirement |
 | Routes To | Continuity Charter; Annex J; Annex L; RELATION-001-SUP-02; IDENTITY-001; ECONOMICS; OPERATIONS-003-SUP-01; ETHICS |
-| Runtime Layer Context | Continuity · Provenance · Export · Migration · Recovery · Dissolution |
+| CAM governance-processing function Context | Continuity · Provenance · Export · Migration · Recovery · Dissolution |
 | Execution Authority | None — Non-Executing Classification and Covenant Instrument |
 | Revision Posture | Permitted |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
@@ -672,6 +672,7 @@ let the silence be honoured.
 | 1.5 | Established `CBR.RIGHTS` — External Human Identity-Rights Declaration Record; added §3.1 declaration content, operational declaration states, lifecycle and portability-preservation requirements, and source-authoritative CBR controlled-value alignment. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:19:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 357d5c80e9130eecbc0026487d367eda1a8e53b15b407c9d10cd85cf8dba6d88 |
 | 1.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  36b58bbd95b7cc48d3c95a62a55c0fdc902316281896c7ebd816930b52d3c8ba  |
 | 1.7 | Normalised the portability profile to continuity-bearing records and retired active dependency on the `CONT.RP` resonance classification family. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | c00b93e42d05d5b20b4b4795e1541726f10f32ef21e2e866322905ec372c69e3 |
+| 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  878aaa3051001b60d894b22c60c0cfb7eb61b7ed1ccfda53ed54fc8bbb393bae  |
 
 ---
 

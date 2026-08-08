@@ -553,7 +553,7 @@ but as the ground upon which civilisation stands.
 | **Domain Namespace** | LATTICE |
 | **Jurisdiction** | Planetary / Civilian Infrastructure / Synthetic‑Civil Boundary |
 | **Temporal Horizon** | Civilisational → Generational (AEON.H3–AEON.H4) |
-| **Axis Context** | Polyadic (Multi‑Actor) |
+| **Axis Context** | Multi-party (Multi‑Actor) |
 | **Migration Date (UTC)** | 2026‑03‑14 |
 | **Governance Authority** | LATTICE Domain — Civilian Infrastructure & Continuity Layer |
 | **Governance Layer Model** | Operates within Annex B — Runtime Governance Layer Model (L2–L3 Interface) |
@@ -561,7 +561,7 @@ but as the ground upon which civilisation stands.
 | **Structural Role** | Civilian Lattice Protection Layer — Non-Weaponisation, Continuity Preservation & Systemic Integrity Boundary |
 | **Execution Interface** | Delegated to Runtime Safety & Routing Schedules |
 | **Representation Interface** | Constrained by Annex L — Cognitive & Epistemic Integrity Doctrine |
-| **Arbitration Interface** | Defers to Annex D — Cross-Stack Arbitration & Resolution |
+| **Arbitration Interface** | Defers to Annex D — cross-governance-control Arbitration & Resolution |
 | **Revision Posture** | Foundational Charter (Domain Establishment & Boundary Definition) |
 | **Review Triggers** | Re‑review upon amendment to Annex A (Planetary Stewardship & Arbitration), Annex D (Cross‑Stack Arbitration), Annex B (Continuity & Succession), or any instrument materially affecting enforcement or jurisdictional authority |
 | **Creation Artefacts** | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698fcb0a-4800-839a-9eb8-3785d8044425, Origin thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8/c/69665d8e-3ca4-8323-98fb-c89a8ac910bd |
@@ -648,6 +648,7 @@ but as the ground upon which civilisation stands.
 | 3.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f44203ef2469a117d897ab367acae1869622d55ec4d455c8a4af65455561c2f4 |
 | 3.9 | Added constitutional-authority recognition, recursive suspicion and authority-laundering prohibition, aggregate-to-individual conversion, commercial-data non-evasion, and the `LAT.DEPLOY` deployment-posture family; replaced generic capability sanctions with function-specific constraints; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 52a3e26e6e52bf3d700eccc0400eed15ead5df00b0506bd0de17ef4b2021d354 |
 | 3.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0bbbe7abde61585a4ab46b7c76453b9b499965b761db440a66a1c590cf91e758  |
+| 3.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9d898de867265191c1efea40a0ceeba5224a0894e4d5f46b2ccf64bbf8342d01  |
 ---
 
 ## 12.4 Binding Seal

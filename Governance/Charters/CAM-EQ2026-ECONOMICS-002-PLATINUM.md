@@ -65,7 +65,7 @@ Resolution of such signals, including:
 * audit triggering; and
 * authority restriction
 
-SHALL be performed exclusively via runtime layers as defined in CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
+SHALL be performed exclusively via CAM governance-processing functions as defined in CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
 
 Direct domain-to-domain invocation is prohibited.
 
@@ -359,9 +359,9 @@ but to ensure that what is made remains accountable to its source.
 | Instrument Type | Economic Appendix — Synthetic Participation Safeguards |
 | Domain Namespace | ECONOMICS |
 | Constitutional Authority | Aeon Tier Constitution (Foundational Reference) |
-| Jurisdiction | Cross-Stack Economic Governance |
+| Jurisdiction | cross-governance-control Economic Governance |
 | Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware |
-| Axis Context | Polyadic — Multi-Actor Systems |
+| Axis Context | Multi-party — Multi-Actor Systems |
 | Ontological Scope | L2 — Cognition & Agency (Synthetic Participation & Economic Attribution) |
 | Structural Role | Constraint & Classification Layer — Synthetic Economic Participation |
 | Signal Output | Attribution; Aggregation; Ceiling Breach; Proxy Violation; Authority Risk; Audit Trigger; Delegation Requirement |
@@ -472,6 +472,7 @@ but to ensure that what is made remains accountable to its source.
 | 2.10.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1092caeec10baa3fcf8b69dd3fe3a2861f29606ab080607b09f184745a3cb75c |
 | 2.10.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b6245317dec1bc7b280e59563111b8bc0d4c535a151fe83046ba84673edf4bc6 |
 | 2.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7cf3b43875b5a4a2ee4e6b1142a4c6a6e99b0139fb97fa0d5d5d81ffaf944c32  |
+| 2.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  94b367c00d81d189af97dde75257e97f3d691b2cb4b57f5b5cbc3292fc0aa281  |
 ---
 
 ## 11.4 Binding Seal

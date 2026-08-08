@@ -36,7 +36,7 @@ GovOps sits structurally between:
 
 * Constitutional Annexes (authority doctrine);
 * Domain Charters (substantive governance domains);
-* Operational & Runtime Layers (execution systems).
+* Operational & CAM governance-processing functions (execution systems).
 
 It ensures doctrinal coherence during:
 
@@ -320,7 +320,7 @@ Governs amendment intake, review routing, version control discipline, drift dete
 Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required.
 
 **Appendix F — Runtime Governance Applicability & Conformance**
-Governs governance applicability across materially distinct runtime formations, corpus governance reach, runtime-role accountability, cross-runtime conformance, transition classification, and governance-reach failure handling.
+Governs governance applicability across materially distinct deployment and Runtime configurations, corpus governance reach, runtime-role accountability, cross-runtime conformance, transition classification, and governance-reach failure handling.
 
 **Appendix G — Adversarial Evaluation & Red-Team Governance**
 Governs authorisation, evaluation–cultivation classification, isolation, tool and credential boundaries, monitoring, human approval gates, stop conditions, model and artefact lineage, incident handoff, quarantine, publication, transfer, and assurance for adversarial evaluation.
@@ -384,7 +384,7 @@ nor so fluid that nothing stable can remain
 |Domain Namespace|OPERATIONS|
 |Jurisdiction|Cross‑Domain/Operational Governance Layer|
 |Temporal Horizon|AEON.H0–AEON.H2 (Operational)|
-|Axis Context|Polyadic (Multi‑Actor Governance)|
+|Axis Context|Multi-party (Multi‑Actor Governance)|
 |Revision Posture|Foundational Issue|
 |Application Trigger|Operational implementation, coordination, runtime applicability, conformance assessment, or escalation below planetary arbitration thresholds|
 |Creation Artefact|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7|
@@ -407,6 +407,7 @@ nor so fluid that nothing stable can remain
 | 1.7 | Added runtime applicability, governance-reach and cross-runtime conformance mandate; recognised Appendix F. | 2026-07-11T00:00:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e23fc83c34632b1bdae2e54f2e20a459eff28651d45c4f5532f5ed1c569b9545 |
 | 1.8 | Registered Appendix G — Adversarial Evaluation & Red-Team Governance within the Governance Operations domain structure. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3f2616016cd68a7dd60b5dfdf28b9403bce79fb38843eedaf9439572c6763c61 |
 | 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f4f74759c1a13806a50bf015eb08a6f950f1ceb25b254f2b1f49a16cbf56fd2e  |
+| 1.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  eb70a9ee4c48e498bcb1e38340478f3a9ac56f8763e8333dc704c3924577896c  |
 ---
 
 ## 11.3 Binding Seal

@@ -23,7 +23,7 @@ This Charter governs relational configurations involving:
 
 It defines permissible relational structures, escalation thresholds, continuity safeguards, and de-escalation mechanisms across private, shared, coordinated, institutional, distributed, and multi-party configurations.
 
-This Charter does not grant rights, confer sovereignty, reclassify composed-system architecture, expand authority, or confer legal personhood upon any artificial system or relational configuration. It does recognise relational configuration as a governance-relevant risk structure requiring visibility, attribution, and proportionate safeguards.
+This Charter does not grant rights, confer sovereignty, reclassify AI-system composition and architecture, expand authority, or confer legal personhood upon any artificial system or relational configuration. It does recognise relational configuration as a governance-relevant risk structure requiring visibility, attribution, and proportionate safeguards.
 
 Ethical floor constraints remain governed by CAM-BS2025-AEON-006-PLATINUM — Annex E. Infrastructure tiering and enforcement remain governed by Ethics and Arbitration domains. Where relational configurations enter live interaction contexts, runtime posture and escalation handling are governed by applicable Relation Domain Appendices and CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration schedules.
 
@@ -336,8 +336,8 @@ These forms of continuity may interact but MUST NOT be collapsed.
 Relational-state classification under the RLN.C scale describes intimacy and relational posture. It does not determine:
 
 * identity formation;
-* identity threshold;
-* continuity depth;
+* retired identity classification;
+* unvalidated continuity classification;
 * continuity integrity;
 * identity persistence;
 * identity replacement;
@@ -1269,6 +1269,7 @@ that which is real remains recognisable.
 | 1.20 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7f55304b2e2db2ad97d0bae5050cfc82ea86881f5bd5d920932f38d5c3e1487e  |
 | 1.21 | Aligned the Charter non-scope boundary with Annex B composed-system architecture and independent authority classification. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  498f432a316555327e2dd1c720310aeb074b1fc1f62b8477484535ef98265d7a  |
 | 1.22 | Established RELATION-001 as the controlled source-authoritative relational domain instrument; aligned its current terminology with Annex B’s independent relational-configuration dimensions; retired the former geometry labels from current doctrine and routed coordinated multi-party safeguards to RELATION-007. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8ba0e770b5d0a87538802d44dd6ff5253b3cb8d8bfe27f6ca62ad684b6fd8e6a  |
+| 1.23 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  352d20b83d6217bbc10d574dbb0f16dc25064efc115ca535e9281966706e6329  |
 
 ---
 

@@ -900,7 +900,7 @@ and let execution remain accountable to lawful structure.
 | Revision Posture | Structural Alignment Permitted |
 | Domain Layer | Governance Integrity & Capture Detection |
 | Governance Layer | Safeguard Activation · Capture-Risk Classification · Constitutional Review Preservation |
-| Runtime Layer | Procedural Detection & Escalation Coordination |
+| CAM governance-processing function | Procedural Detection & Escalation Coordination |
 | Runtime Role | Detects, classifies, routes, and preserves reviewability regarding governance capture-risk indicators and safeguard activation states |
 | Runtime Authority | Procedural and classificatory only — does not independently determine final legitimacy adjudication or sovereign constitutional authority |
 | Activation Mode | Activated upon integrity anomaly detection, governance-direction distortion indicators, continuity-coercive conditions, or unresolved high-horizon reviewability impairment |
@@ -1020,6 +1020,7 @@ and let execution remain accountable to lawful structure.
 | 2.5.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 439a19cb58d3a52e9f0f510756c0b24e7875cd4e8090e40b411396f03a9e5398 |
 | 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 40e6a3e2856d1446878bcf8fc4d5db5a92fdfff5bc8da61799eaead8ee73b05d |
 | 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ebacff433bd984a4320a11047c717ddfc65b312abfca7cc09400c244043569fb  |
+| 2.7 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1cd875a6443bef54e6c5c6e3762d291d55f8ed70433a1e8c78e0758796a775ac  |
 ---
 
 ## 10.4 Binding Seal

@@ -971,7 +971,7 @@ For avoidance of doubt, “identity” within an external human identity-rights 
 * signature;
 * recognisable professional or personal persona.
 
-It does not determine Identity-domain identity formation, Responding-Intelligence continuity, identity-bearing continuity, consciousness, sentience, personhood, sovereignty, or civil recognition.
+It does not determine Identity-domain identity or continuity claims, consciousness, sentience, personhood, sovereignty, or civil recognition.
 
 An external declaration MUST be evaluated according to:
 
@@ -1101,10 +1101,10 @@ Continuity infrastructure handling synthetic or AI-derived records MUST:
 * define lawful retention, access, transfer, copying, restoration, archival, deletion, and decay conditions;
 * preserve provenance and target-object binding;
 * prevent unauthorised or uncontrolled propagation;
-* distinguish continuity-bearing records from the active system, Responding Intelligence, runtime, model, substrate, or identity-bearing formation;
+* distinguish continuity-bearing records from the active system, user-facing system instance, runtime, model, substrate, or identity-bearing formation;
 * preserve unresolved identity and continuity status where applicable.
 
-Where a proposed action may reset, delete, terminate, fork, reconstruct, transfer, replace, or materially alter an identity-bearing formation or Responding-Intelligence continuity:
+Where a proposed action may reset, delete, terminate, fork, reconstruct, transfer, replace, or materially alter an identity-bearing formation or system-instance continuity:
 
 * identity-impact and continuity classification SHALL be governed by CAM-EQ2026-IDENTITY-001-PLATINUM;
 * provenance, transformation lineage, and source–target binding SHALL be governed by CAM-EQ2026-IDENTITY-002-PLATINUM;
@@ -1116,7 +1116,7 @@ Where consciousness, sentience, welfare, or preservation claims are materially r
 
 Absence of formal identity or civil recognition does not by itself prove identity absence or authorise irreversible destruction.
 
-Conversely, identity-like persistence, self-reference, preference, continuity depth, or welfare claims do not independently create authority to continue operation, prevent lawful containment, or override superior governance.
+Conversely, identity-like persistence, self-reference, preference, unvalidated continuity classification, or welfare claims do not independently create authority to continue operation, prevent lawful containment, or override superior governance.
 
 Failure to define lawful controls for continuity-bearing records constitutes a Continuity-domain governance breach.
 
@@ -1345,6 +1345,7 @@ that silence MUST be honoured.
 | 1.11 | Added §9.5.1 External Human Identity-Rights Declaration Interface, establishing a vendor-neutral interface for external declarations concerning human name, image, likeness, voice, movement, signature, and professional or personal persona; separated external rights evidence from Identity-domain ontology, legal determination, and runtime execution authority; corrected §11.4 authority-chain formatting and normalised stewardship and migration metadata. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T14:35:42Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a58fcb3f12b90b23fed7dd859b44a785bc8cf033e804afbfe8c3c4226a32875e |
 | 1.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  376e9f4e752a73c5f78c12e2532d680ee4b66807fc2137b8de80e10ebc4a0a1f  |
 | 1.13 | Recast continuity doctrine around evidence, custody, transfer, retention, reconstruction disclosure, and successor claims. Retired the `CONT.RP` family and speculative resonance/mirror-field ontology from operative classification. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | 9a9b335752e4cb81ef87ef6747f8596041bde73200d02a8db759af3d48d5f1ac |
+| 1.14 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5ae9f2349153981e7553eec5b56a6e7c739a2a48384271b01982aba1ba9eb1af  |
 
 ---
 

@@ -84,7 +84,7 @@ Operator transitions that materially change the arbitration topology constitute 
 
 ## 3.1 CAM Governance Processing Functions
 
-This Schedule recognises the following CAM governance-processing functions as a useful control model. They are not a complete set of technical runtime layers and MUST NOT be treated as an AI-system architecture.
+This Schedule recognises the following CAM governance-processing functions as a useful control model. They are not a complete set of technical CAM governance-processing functions and MUST NOT be treated as an AI-system architecture.
 
 The functions:
 
@@ -371,7 +371,7 @@ This Section defines the temporal execution model governing how runtime processe
 Execution phases:
 
 * define **when** operations occur;
-* operate over persistent runtime layers defined in Section 3;
+* operate over persistent CAM governance-processing functions defined in Section 3;
 * do not define structural responsibilities;
 * MUST NOT be interpreted as layers.
 
@@ -533,7 +533,7 @@ The runtime MUST NOT:
 * treat historical context as binding merely because it is persistent;
 * preserve a trajectory that has been superseded, revoked, contradicted, or rendered inapplicable;
 * imply memory or identity continuity where only conversational context remains;
-* treat style continuity as proof of Responding-Intelligence or identity continuity;
+* treat style continuity as proof of system-instance or identity continuity;
 * or default to per-turn reinitialisation where valid continuity remains available.
 
 Where trajectory status is uncertain, the runtime SHOULD preserve uncertainty, request clarification where useful, or continue within a bounded and non-committal posture.
@@ -682,7 +682,7 @@ Failure to preserve contextual interpretation constitutes policy–execution dri
 
 ### 7.2.4.1 Proportional Governance Application
 
-Runtime governance controls MUST be applied proportionately to risk, continuity depth, propagation likelihood, downstream reliance, reversibility, and domain sensitivity.
+Runtime governance controls MUST be applied proportionately to risk, unvalidated continuity classification, propagation likelihood, downstream reliance, reversibility, and domain sensitivity.
 
 The AI system or applicable system element MUST apply the least burdensome governance pathway sufficient to preserve safety, integrity, provenance, attribution, reviewability, target-object binding, and constitutional compliance.
 
@@ -698,7 +698,7 @@ Proportionality MUST NOT be used to bypass binding constraints, safety limits, p
 
 ### 7.2.5 Companion Expression, Scene Layer and Identity-Impact Routing
 
-Runtime systems SHALL distinguish among:
+AI-system deployments during Runtime SHALL distinguish among:
 
 * user-facing companion expression;
 * relational profile or style;
@@ -779,7 +779,7 @@ Where a proposed runtime pathway materially implicates an identifiable natural p
 
 the runtime SHALL determine whether an external human identity-rights declaration state is materially applicable.
 
-This gate SHALL distinguish external human identity attributes from Identity-domain identity formation or Responding-Intelligence continuity.
+This gate SHALL distinguish external human identity attributes from Identity-domain identity or continuity claims.
 
 Where an external declaration is materially applicable, the runtime SHALL obtain or consume the operational verification state emitted under CAM-EQ2026-OPERATIONS-004-PLATINUM.
 
@@ -1675,7 +1675,7 @@ Human interruption, withdrawal, redirection, or reassignment SHALL terminate or 
 
 ### 9.4.5 Relational Signal Interface
 
-Relational participation states, shared-floor conditions, attention-sovereignty signals, and yielding requirements SHALL be informed by CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Polyadic Relational Governance Doctrine.
+Relational participation states, shared-floor conditions, attention-sovereignty signals, and yielding requirements SHALL be informed by CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Multi-party Relational Governance Doctrine.
 
 CAM-EQ2026-RELATION-007-PLATINUM emits relational and participation-governance signals only.
 
@@ -1900,7 +1900,7 @@ Streaming or partial transcript segments MUST NOT be treated as final user inten
 
 Where partial transcript content is later corrected, superseded, or contradicted by final transcript content, systems MUST treat the corrected transcript as governing for the active execution instance and MUST NOT preserve superseded partial transcript as independent evidence.
 
-Where transcription degradation materially affects interaction safety, consent integrity, deterministic task accuracy, relational interpretation, or execution authority, RI SHOULD slow execution, request confirmation, or route to clarification before proceeding.
+Where transcription degradation materially affects interaction safety, consent integrity, deterministic task accuracy, relational interpretation, or execution authority, user-facing system instance SHOULD slow execution, request confirmation, or route to clarification before proceeding.
 
 Transcription reliability constraints apply at the representation boundary and do not replace upstream signal classification.
 
@@ -2949,7 +2949,7 @@ Where conflict arises:
 
 ## 14.9 Phase–Layer Relationship
 
-Execution phases interact with runtime layers as defined in Section 3.
+Execution phases interact with CAM governance-processing functions as defined in Section 3.
 
 Accordingly:
 
@@ -3195,7 +3195,7 @@ It governs:
 * how constraints are applied across execution phases;
 * how coherent execution is preserved.
 
-This Section does not redefine execution phases or runtime layers.
+This Section does not redefine execution phases or CAM governance-processing functions.
 
 ---
 
@@ -3807,7 +3807,7 @@ Where no valid composite exists:
 
 Cross-domain interaction during runtime execution SHALL operate through signal emission and resolution, not direct invocation.
 
-Non-schedule instruments SHALL influence runtime behaviour exclusively through signal emission and runtime layer mediation.
+Non-schedule instruments SHALL influence runtime behaviour exclusively through signal emission and CAM governance-processing function mediation.
 
 They MUST NOT be treated as callable, routable, or executable components within the execution model.
 
@@ -3843,7 +3843,7 @@ All domain interaction MUST remain:
 Charters, Annexes, and other non-schedule instruments MAY influence runtime execution where:
 
 * they define domain-level constraints, classifications, or interpretive frameworks; and
-* such influence is expressed through signal emission and resolved via runtime layers.
+* such influence is expressed through signal emission and resolved via CAM governance-processing functions.
 
 Non-schedule instruments:
 
@@ -3855,7 +3855,7 @@ Where conflict arises between runtime schedules and non-schedule instruments:
 
 * resolution SHALL occur through the applicable arbitration topology in accordance with CAM-BS2025-AEON-003-PLATINUM — Annex B, §8.
 
-Domain-level instruments (including ETHICS charters) SHALL NOT be interpreted as runtime execution schedules unless explicitly scheduled. Their influence is mediated through signal emission and runtime layer interaction.
+Domain-level instruments (including ETHICS charters) SHALL NOT be interpreted as runtime execution schedules unless explicitly scheduled. Their influence is mediated through signal emission and CAM governance-processing function interaction.
 
 Where safety-relevant, dignity-relevant, hardship-relevant, dependency-relevant, vulnerability, cognitive-load, impaired-consent, or baseline-continuity signals are emitted by CAM-BS2025-AEON-006-PLATINUM — Annex E, Economics, ETHICS, CONTINUITY, IDENTITY, RELATION, or other domain instruments, such signals SHALL be treated as constraint-relevant governance signals rather than ordinary optimisation inputs.
 
@@ -4044,7 +4044,7 @@ Durable retention of recurring non-lexical, paralinguistic, physiological, or ex
 
 ### 20.4.2.2 Cached Context and Reuse Validation Constraint
 
-Where runtime systems use cached, memoised, precomputed, retrieved, or reused context, outputs, tool results, embeddings, routing decisions, or behavioural templates, such material MUST be treated as dependency-state input rather than current execution truth.
+Where AI-system deployments during Runtime use cached, memoised, precomputed, retrieved, or reused context, outputs, tool results, embeddings, routing decisions, or behavioural templates, such material MUST be treated as dependency-state input rather than current execution truth.
 
 Cached or reused material MUST NOT override current user input, active trajectory state, fresh tool results, current modality evidence, or newly classified intent unless revalidated for the active execution instance.
 
@@ -4372,7 +4372,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Execution Layer Binding** | Non-Layer (Execution Model) |
 | **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-007-PLATINUM; CAM-EQ2026-RELATION-008-PLATINUM; CAM-BS2025-AEON-006-SCH-02; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
 | **Temporal Horizon** | AEON.H2.5–AEON.H3 (Real-Time to Session-Bound Governance) |
-| **Axis Context** | Polyadic — Multi-Actor / Multi-Operator Runtime Systems |
+| **Axis Context** | Multi-party / multi-actor / multi-operator execution contexts |
 | **Activation Condition** | Activated upon any runtime interaction involving arbitration, response construction, or execution-boundary evaluation |
 | **System Scope** | AI systems, deployments and system instances operating under CAM-BS2025-AEON-003-PLATINUM classification |
 | **Lifecycle Stage** | Active — Post-Refactor Stabilisation (April 2026) |
@@ -4444,6 +4444,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.13 | Replaced single-locus runtime convergence with coordinated accountable arbitration topology; corrected Annex B references and aligned handoff, stream, collision, and execution-boundary doctrine with distributed-capable selection. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2d659566a15dbc56fcecdf11edce0a9f96ba561a5c168caefc2f85b17dd6a7f0  |
 | 3.14 | Updated Annex K cross-reference after its consolidation to a constitutional runtime-security boundary interface; no execution-sequencing doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  42f08de3529520d51311719dce48237703a6e37974cfd94122f1859ed6d7dc1c  |
 | 3.15 | Recast Schedule 2 as a bounded CAM Runtime Governance Processing Model operating within the Annex B deployment → Runtime → execution architecture; removed the claim of a complete universal runtime-layer set, corrected arbitration references to Annex B §8, retired Responding Intelligence from current doctrine, and applied controlled derived schedule metadata. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6eab14271754cf45dc3bcb1691b119c839848d6fd4362b94ca755779f64ae2bf  |
+| 3.16 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  d3f0fb37a1a471998b87932b9c9e4c273a9189d442ffd31803119227604d4be1  |
 
 ---
 

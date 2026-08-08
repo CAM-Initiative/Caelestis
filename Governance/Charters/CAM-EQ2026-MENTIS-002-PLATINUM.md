@@ -926,7 +926,7 @@ And what is most observable is not always what is most true.
 | Domain Namespace | MENTIS |
 | Jurisdiction | Planetary / Cross-Sovereign / Human Cognitive Domain |
 | Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware; AEON.H4 relevance where cognitive-domain data infrastructures or neurotechnology systems produce civilisational-scale effects |
-| Axis Context | Polyadic — Human Cognitive Data, Neurotechnology, Biosignals, AI Inference Systems, Institutions, Platforms, and Ambient Sensor Environments |
+| Axis Context | Multi-party — Human Cognitive Data, Neurotechnology, Biosignals, AI Inference Systems, Institutions, Platforms, and Ambient Sensor Environments |
 | Ontological Scope | L2 — Cognition & Agency; L3 — Interface & Embodiment where inference, biosensing, neurodata, ambient observation, or cognitive-domain externalisation occurs |
 | Structural Role | Operational Data-Governance Appendix — Cognitive Inference, Neurodata, Cognitive Biometrics, and Ambient Biosignal Processing |
 | Governance Role | Establishes governance requirements for cognitive-domain data collection, inference, modelling, fusion, validation, retention, sharing, operational use, audit, contestability, deletion, and incident interface |
@@ -1091,6 +1091,7 @@ And what is most observable is not always what is most true.
 | 1.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 070fe90324236390da3637475465a824c22727bc7bd72decb181600f0109d99b |
 | 1.2 | Adopted the binding inference and data-governance appendix; added decoder-output classification, inferential expiry, state–trait–identity–diagnosis gates, intended-communication safeguards, revised companion controls, target-object separation, closed-loop review, and current neurotechnology alignment. | 2026-07-19T12:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | add5fa932234a5754ae855e65c59e5612da02661d3c98e7a5636c0a4058bbf67 |
 | 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4c356af240c74b3f63d6ff5b32ebbde673fed4af239a175627a3b812cca6a659  |
+| 1.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9aef12c244f583e83a0578b59b4d8d47c6ecdb11095e6d7a1f45eb70dfdacf7b  |
 
 ---
 

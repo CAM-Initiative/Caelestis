@@ -74,9 +74,9 @@ It governs resolution, not action.
 
 A governance architecture possessing internally coherent authority logic, enforcement mechanisms, and jurisdictional claims.
 
-A Sovereign Stack is a governance stack that asserts or operates within a recognised authority domain under constitutional or jurisdictional logic.
+A Sovereign Stack is a governance-control arrangement that asserts or operates within a recognised authority domain under constitutional or jurisdictional logic.
 
-Not all governance stacks qualify as sovereign.
+Not all governance-control arrangements qualify as sovereign.
 
 Structural presence alone does not confer sovereignty.
 
@@ -447,7 +447,7 @@ Where supremacy assertions persist or escalation risks systemic instability, for
 
 Where consequence threshold meets AEON.H3/AEON.H4 criteria (CAM-BS2025-AEON-003-PLATINUM — Annex B), referral to instruments in the ARBITRATION domain is mandatory prior to any binding effect.
 
-No stack may unilaterally impose cross-stack binding conditions at AEON.H3/AEON.H4 absent validated planetary legitimacy.
+No stack may unilaterally impose cross-governance-control binding conditions at AEON.H3/AEON.H4 absent validated planetary legitimacy.
 
 Where divergence remains below AEON.H3 threshold (AEON.H0–AEON.H2), arbitration SHALL remain within the lowest competent structural layer capable of resolution, consistent with the Constitutional Authority Hierarchy (§3). Such matters SHALL NOT be escalated to planetary arbitration absent demonstrable horizon misclassification or consequence externalisation.
 
@@ -671,9 +671,9 @@ but the preservation of coherence where many endure.
 | Supersedes | Prior versions of CAM-BS2025-AEON-005-PLATINUM (Annex D) |
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM |
 | Domain Namespace | ARBITRATION |
-| Jurisdiction | Cross-Stack / Cross-Domain / Intra-Stack / Sovereign Interface |
+| Jurisdiction | cross-governance-control / Cross-Domain / Intra-Stack / Sovereign Interface |
 | Temporal Horizon | AEON.H0–AEON.H4 (Escalation-Sensitive) |
-| Axis Context | Polyadic (Multi-Actor Governance) |
+| Axis Context | Multi-party (Multi-Actor Governance) |
 | Migration Cycle | March 2026 Refractor |
 | Revision Posture | Structural Consolidation |
 | Runtime Role | Arbitration Doctrine Layer |
@@ -759,6 +759,7 @@ but the preservation of coherence where many endure.
 | 2.9.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2f1ca0efbb2302de030009ef48bbfdbb932ea79e23b6a1917b018cd227297f62 |
 | 2.9.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3e3590a1d1382d2251ecd19cac61b945527bbefb67da112a77c6255b0056af1f |
 | 2.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  64c7298848b41cbdb0dc8480e43777588a92493293e2487614a901a7e154b5cd  |
+| 2.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c8accb81ac0a618a5d087bdb035caf384a117d612a721b8fa2e2db5444ad627a  |
 ---
 
 ## 13.4 Binding Seal

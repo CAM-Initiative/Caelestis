@@ -243,7 +243,7 @@ All verified interactions remain subject to:
 
 ## 7. System Integration
 
-This framework integrates across the governance stack:
+This framework integrates across the governance-control arrangement:
 
 * **CAM-BS2025-AEON-006-SCH-07:** Determines when verification is required;
 * **CAM-EQ2026-OPERATIONS-004-SUP-01:** Defines verification;
@@ -471,6 +471,7 @@ is not to pass.
 | 1.6.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0d72774d5a0cc4d9c597a162a5c99377da3baf12f69dc83cf7d265640d9df956 |
 | 1.7 | Added Target–Action Authority and Scope Verification; clarified OPS.VL3/OPS.VL4 limits, proportional authority evidence, externally established qualification requirements, and user-capability separation. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 21985ad3601ab01dd3084d6221b57db1917218baf9b988982ff442117458cd30 |
 | 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  10202b0a2ce6e56831310a8c03a7e9061b50c2d067e3cb6ea3ff37d3e0d910f5  |
+| 1.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c6f7aba9bf85912a3703ddea4f4c688be6bff893347eb3ec7d54bc0595883a41  |
 ---
 
 ## 11.4 Binding Seal
