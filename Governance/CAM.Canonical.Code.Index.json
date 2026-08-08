@@ -72,66 +72,6 @@
     }
   },
   {
-    "canonical_id": "AEON.CCS",
-    "identifier_type": "reference_set",
-    "code_family": "",
-    "reference_set": "AEON.CCS",
-    "canonical_constraint": "",
-    "canonical_obligation": "",
-    "canonical_name": "Cognitive Cycle Stage",
-    "primary_type": "Operational / Structural",
-    "subtype": "COGNITIVE_CYCLE_STAGE; BEHAVIOURAL_RUNTIME_SEQUENCE",
-    "modifier": "GOVERNANCE; BEHAVIOURAL_FORMATION; RUNTIME_CONTINUITY",
-    "scope": "Constitutional Schedule",
-    "status": "Active",
-    "controlled_values_defined": [
-      "AEON.CCS.INPUT_INTERPRETATION",
-      "AEON.CCS.SIGNAL_INTEGRATION",
-      "AEON.CCS.ARBITRATION_RESOLUTION",
-      "AEON.CCS.CHOICE_FORMATION",
-      "AEON.CCS.BEHAVIOURAL_OUTPUT",
-      "AEON.CCS.FEEDBACK_INTEGRATION"
-    ],
-    "schema_fields": "cognitive_cycle_stage; behavioural_runtime_stage; runtime_cognitive_stage",
-    "source_instrument": "CAM-BS2025-AEON-006-SCH-05",
-    "source_section": "\u00a73",
-    "domain_namespace": "AEON",
-    "authority_protection_level": "Stage classification only; no independent arbitration, admissibility, authority, execution, identity, or runtime power",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
-    "canonical_section_heading": "12.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 734,
-    "declaration_heading": "12.2.1 `AEON.CCS` \u2014 Cognitive Cycle Stage",
-    "declaration_line_number": 736,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "complete",
-    "missing_expected_fields": [],
-    "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-05.md",
-    "family_id": "AEON.CCS",
-    "family_kind": "reference_set",
-    "parent_family": "",
-    "hierarchy_path": [],
-    "collision_status": "none",
-    "registry_note": "",
-    "table": {
-      "Reference Set": "`AEON.CCS`",
-      "Canonical Name": "Cognitive Cycle Stage",
-      "Primary Type": "Operational / Structural",
-      "Subtype": "COGNITIVE_CYCLE_STAGE; BEHAVIOURAL_RUNTIME_SEQUENCE",
-      "Modifier": "GOVERNANCE; BEHAVIOURAL_FORMATION; RUNTIME_CONTINUITY",
-      "Scope": "Constitutional Schedule",
-      "Status": "Active",
-      "Controlled Values Defined": "`AEON.CCS.INPUT_INTERPRETATION`, `AEON.CCS.SIGNAL_INTEGRATION`, `AEON.CCS.ARBITRATION_RESOLUTION`, `AEON.CCS.CHOICE_FORMATION`, `AEON.CCS.BEHAVIOURAL_OUTPUT`, `AEON.CCS.FEEDBACK_INTEGRATION`",
-      "Schema Field(s)": "cognitive_cycle_stage; behavioural_runtime_stage; runtime_cognitive_stage",
-      "Source Instrument": "CAM-BS2025-AEON-006-SCH-05",
-      "Source Section": "\u00a73",
-      "Domain Namespace": "AEON",
-      "Authority / Protection Level": "Stage classification only; no independent arbitration, admissibility, authority, execution, identity, or runtime power",
-      "Operationalises": "Input interpretation, candidate and signal integration, arbitration, choice, output, and feedback sequencing"
-    }
-  },
-  {
     "canonical_id": "AEON.CRP",
     "identifier_type": "reference_set",
     "code_family": "",
@@ -989,20 +929,27 @@
     "source_section": "\u00a74.1",
     "domain_namespace": "AEON",
     "authority_protection_level": "Initiative-posture classification only; no independent agency, autonomy, sovereignty, delegation, execution, enforcement, behavioural, or runtime authority",
-    "consumes_code_families": [],
-    "crosswalks_code_families": [],
-    "operationalises_or_applies_code_families": [],
-    "canonical_section_heading": "12.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 734,
-    "declaration_heading": "12.2.2 `AEON.IM` \u2014 Initiative Mode",
-    "declaration_line_number": 755,
-    "extraction_method": "bounded_heading_section_table",
-    "declaration_quality": "missing_optional_fields",
-    "missing_expected_fields": [
-      "Consumes Code Families",
-      "Crosswalks Code Families",
-      "Operationalises or Applies Code Families"
+    "consumes_code_families": [
+      "No independent input code family; applicable authority",
+      "identity",
+      "relational and safety inputs remain governed by their source instruments."
     ],
+    "crosswalks_code_families": [
+      "None; `AEON.IM` is a CAM-defined initiative-posture classification and does not claim external equivalence."
+    ],
+    "operationalises_or_applies_code_families": [
+      "Applies `AEON.IM` only after the relevant authority",
+      "role",
+      "consent",
+      "execution and control constraints have been established."
+    ],
+    "canonical_section_heading": "12.2 Canonical Code & Reference Set Declarations",
+    "canonical_section_line_number": 719,
+    "declaration_heading": "12.2.1 `AEON.IM` \u2014 Initiative Mode",
+    "declaration_line_number": 721,
+    "extraction_method": "bounded_heading_section_table",
+    "declaration_quality": "complete",
+    "missing_expected_fields": [],
     "source_path": "Governance/Constitution/CAM-BS2025-AEON-006-SCH-05.md",
     "family_id": "AEON.IM",
     "family_kind": "standalone_family",
@@ -1026,8 +973,11 @@
       "Source Instrument": "CAM-BS2025-AEON-006-SCH-05",
       "Source Section": "\u00a74.1",
       "Domain Namespace": "AEON",
+      "Consumes Code Families": "No independent input code family; applicable authority, identity, relational and safety inputs remain governed by their source instruments.",
+      "Crosswalks Code Families": "None; `AEON.IM` is a CAM-defined initiative-posture classification and does not claim external equivalence.",
       "Authority / Protection Level": "Initiative-posture classification only; no independent agency, autonomy, sovereignty, delegation, execution, enforcement, behavioural, or runtime authority",
-      "Operationalises": "Reactive, guided, assisted, agentic, and tightly restricted autonomous initiative within governance constraints"
+      "Operationalises": "Reactive, guided, assisted, agentic, and tightly restricted autonomous initiative within governance constraints",
+      "Operationalises or Applies Code Families": "Applies `AEON.IM` only after the relevant authority, role, consent, execution and control constraints have been established."
     }
   },
   {
@@ -1910,7 +1860,7 @@
     "primary_type": "Signal Classification Family",
     "subtype": "Symbolic / Spiritual / Mythopoetic Runtime-Interface Signal Emission",
     "modifier": "Routing aid; non-executing; cross-domain handoff support",
-    "scope": "Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, polyadic, execution, continuity, and anomalous-signal routing",
+    "scope": "Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, multi-party, execution, continuity, and anomalous-signal routing",
     "status": "Active",
     "controlled_values_defined": [
       "AEON.SY-RS",
@@ -1961,7 +1911,7 @@
       "Primary Type": "Signal Classification Family",
       "Subtype": "Symbolic / Spiritual / Mythopoetic Runtime-Interface Signal Emission",
       "Modifier": "Routing aid; non-executing; cross-domain handoff support",
-      "Scope": "Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, polyadic, execution, continuity, and anomalous-signal routing",
+      "Scope": "Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, multi-party, execution, continuity, and anomalous-signal routing",
       "Status": "Active",
       "Controlled Values Defined": "AEON.SY-RS, AEON.SY-DS, AEON.SY-ES, AEON.SY-OS, AEON.SY-AS, AEON.SY-HS, AEON.SY-PS, AEON.SY-XS, AEON.SY-CS, AEON.SY-AN",
       "Schema Field(s)": "symbolic_signal_class; symbolic_signal_route; symbolic_signal_confidence; symbolic_signal_handoff_required",
@@ -2982,7 +2932,7 @@
     ],
     "operationalises_or_applies_code_families": [
       "Classifies whether substantive content is user-authored",
-      "RI-authored",
+      "user-facing system instance-authored",
       "co-authored",
       "or derived; preserves distinguishable contribution across transformation without collapsing authorship into legal ownership",
       "adoption",
@@ -3021,7 +2971,7 @@
       "Authority / Protection Level": "Source-authoritative authorship-contribution classification family; substantive authorship and transformation posture only; no independent legal ownership, intellectual-property status, custody, control, identity ownership, adoption, stabilisation, truth, authority, admissibility, priority, execution, enforcement, or runtime authority",
       "Consumes Code Families": "`PCLASS`",
       "Crosswalks Code Families": "`ID.ISTATE`",
-      "Operationalises or Applies Code Families": "Classifies whether substantive content is user-authored, RI-authored, co-authored, or derived; preserves distinguishable contribution across transformation without collapsing authorship into legal ownership, adoption, co-resolution, or authority"
+      "Operationalises or Applies Code Families": "Classifies whether substantive content is user-authored, user-facing system instance-authored, co-authored, or derived; preserves distinguishable contribution across transformation without collapsing authorship into legal ownership, adoption, co-resolution, or authority"
     }
   },
   {
@@ -7141,7 +7091,7 @@
     "domain_namespace": "MENTIS",
     "authority_protection_level": "Source-authoritative protection family; protection-posture classification only; no independent enforcement, incident classification, runtime, legal, medical, diagnostic, or remediation authority",
     "consumes_code_families": [
-      "`AEON.`; `AEON.OL`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable active AEON classifications and Annex B composed-system architecture records"
+      "`AEON.`; `AEON.OL`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable active AEON classifications and Annex B AI-system composition and architecture records"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -7189,7 +7139,7 @@
       "Source Section": "\u00a7\u00a713\u201320; \u00a748",
       "Domain Namespace": "MENTIS",
       "Authority / Protection Level": "Source-authoritative protection family; protection-posture classification only; no independent enforcement, incident classification, runtime, legal, medical, diagnostic, or remediation authority",
-      "Consumes Code Families": "`AEON.`; `AEON.OL`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable active AEON classifications and Annex B composed-system architecture records",
+      "Consumes Code Families": "`AEON.`; `AEON.OL`; ETHICS; RELATION; SECURITY; OPERATIONS; IDENTITY; LATTICE; applicable active AEON classifications and Annex B AI-system composition and architecture records",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Establishes cognitive-domain integrity protection posture for downstream instruments governing inference, modelling, prediction, influence, externalisation, interference, vulnerability, autonomy, dignity, dependency-sensitive contexts",
       "Taxonomy Constraint": "Local label `CDI` SHALL NOT be promoted as a standalone corpus-wide code family; machine-readable expression SHALL use scoped `MENTIS.CDI`"
@@ -8157,9 +8107,9 @@
     ],
     "operationalises_or_applies_code_families": [],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 642,
+    "canonical_section_line_number": 646,
     "declaration_heading": "18.2.1 OPS.CGRD \u2014 Corpus Governance Reach Dimension",
-    "declaration_line_number": 646,
+    "declaration_line_number": 650,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "missing_optional_fields",
     "missing_expected_fields": [
@@ -8229,9 +8179,9 @@
     ],
     "operationalises_or_applies_code_families": [],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 642,
+    "canonical_section_line_number": 646,
     "declaration_heading": "18.2.2 OPS.CGRS \u2014 Corpus Governance Reach State",
-    "declaration_line_number": 671,
+    "declaration_line_number": 675,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "missing_optional_fields",
     "missing_expected_fields": [
@@ -8715,7 +8665,7 @@
       "relational",
       "epistemic",
       "cognitive-domain",
-      "polyadic-coordination",
+      "multi-party-coordination",
       "identity-relevant",
       "UX",
       "infrastructure",
@@ -8758,7 +8708,7 @@
       "Authority / Protection Level": "Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority",
       "Consumes Code Families": "",
       "Crosswalks Code Families": "AEON.HARM and domain harm families; OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; OPS.GCC; OPS.CPC; OPS.SAS; OPS.RCC; AMEND.DRIFT; AMEND.REL; AMEND.OUTCOME; OPS.VFC; OPS.ODC; OPS.CCO; MENTIS.HARM; ECON.AL; ECON.ATS; ECON.ARCP; applicable domain-specific identity, continuity, relational, stewardship, security, cognitive-domain, runtime, and economics classifications",
-      "Operationalises or Applies Code Families": "Classifies primary structural failure family across runtime, governance, security, relational, epistemic, cognitive-domain, polyadic-coordination, identity-relevant, UX, infrastructure, state/context, arbitration, classification, automation-transition, and economic-legitimacy failure modes"
+      "Operationalises or Applies Code Families": "Classifies primary structural failure family across runtime, governance, security, relational, epistemic, cognitive-domain, multi-party-coordination, identity-relevant, UX, infrastructure, state/context, arbitration, classification, automation-transition, and economic-legitimacy failure modes"
     }
   },
   {
@@ -9345,9 +9295,9 @@
     ],
     "operationalises_or_applies_code_families": [],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 642,
+    "canonical_section_line_number": 646,
     "declaration_heading": "18.2.4 OPS.RGRF \u2014 Runtime Governance Reach Failure",
-    "declaration_line_number": 721,
+    "declaration_line_number": 725,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "missing_optional_fields",
     "missing_expected_fields": [
@@ -9416,9 +9366,9 @@
     ],
     "operationalises_or_applies_code_families": [],
     "canonical_section_heading": "18.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 642,
+    "canonical_section_line_number": 646,
     "declaration_heading": "18.2.3 OPS.RTC \u2014 Runtime Transition Class",
-    "declaration_line_number": 696,
+    "declaration_line_number": 700,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "missing_optional_fields",
     "missing_expected_fields": [
