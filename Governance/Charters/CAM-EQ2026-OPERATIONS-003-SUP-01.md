@@ -454,7 +454,7 @@ This failure MAY implicate:
 
 Primary classification is `OPS.FF.RELATIONAL`. `OPS.FF.CLASSIFICATION`, `OPS.FF.EPISTEMIC`, or `OPS.FF.GOVERNANCE` MAY be co-classified where structurally implicated.
 
-CAM-EQ2026-RELATION-001-PLATINUM §3.2 remains source-authoritative for substantive relational doctrine. CAM-BS2025-AEON-006-SCH-02 and CAM-BS2025-AEON-006-SCH-04 remain source-authoritative for signal interpretation and directional modulation. This taxonomy classifies structural failure only.
+CAM-EQ2026-RELATION-001-PLATINUM §3.2 remains source-authoritative for substantive relational doctrine. CAM-EQ2026-RELATION-001-SUP-03 and CAM-BS2025-AEON-006-SCH-04 remain source-authoritative for signal interpretation and directional modulation. This taxonomy classifies structural failure only.
 
 ---
 
@@ -2611,6 +2611,7 @@ and review before denial.
 | 1.26 | Updated the Annex K crosswalk after its consolidation to a constitutional runtime-security boundary interface; no failure classification doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  47301ffccba95d3836b17d849d88366286a6415c069c6c5f3138d955d8a10428  |
 | 1.27 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6ed98d3ef3a3d9c0661fa37de9d169d8aec466c3b54681520e3ca1ad49128a63  |
 | 1.28 | Removed operative dependencies and code-family references derived solely from retired draft instruments; routed identity, evidence, recipient protection, lifecycle, component, Runtime, automation, and concentration doctrine to existing source-authoritative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5b3b942424dbcb511d2d1b592d73060a011253a6eac3e6bb5afe792bebf27da9  |
+| 1.29 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  add7ca30ab473a2fe92067dd5dcb91ee009afa6ff8019d3d8d98b8a03791773d  |
 
 ---
 

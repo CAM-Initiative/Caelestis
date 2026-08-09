@@ -46,6 +46,16 @@ Operational safeguards, enforcement mechanisms, and relational taxonomies are de
 
 ---
 
+## 1.3 Constitutional Schedule Boundary
+
+A Schedule under this Annex MAY translate the ethical floor into a single Runtime posture only where execution must reconcile two or more subordinate domain, identity, continuity, security, operational, relational, or arbitration inputs, or where a common cross-domain representation rule is necessary to prevent non-exploitation, consent, dignity, or authority boundaries from fragmenting at the interface.
+
+Such a Schedule SHALL NOT source domain-specific taxonomy, determine a domain conclusion, reproduce a domain procedure, or displace the source-authoritative instrument for any input it consumes. Where one Domain Charter or its authorised supporting instrument can coherently own the doctrine, that domain instrument SHALL own it.
+
+The source-authoritative relational signal taxonomy is therefore maintained under CAM-EQ2026-RELATION-001-SUP-03. Schedules retained under this Annex govern only their irreducible constitutional execution, cross-domain sequencing, common expression, or conflict-resolution function.
+
+---
+
 ## 2. Definitions (For Constitutional Interpretation)
 
 For the purposes of this Annex:
@@ -898,6 +908,7 @@ This is the floor that does not move.
 | 4.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1c12e185a2ce2cd16f2df2f3668d57775c6474b458e3fde3c1b6bd3ade3ec897  |
 | 4.2 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  4abe1f93bd1ae0c5f4ae22518651b69a7ab916519d803e72b003374f909ec508  |
 | 4.3 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5e0750fd40201575fac97b1d81f4a4ab29f6b29856224661b6bb1b6f8d50d5e2  |
+| 4.4 | Established the Annex E Schedule boundary: retained only irreducible cross-domain execution, sequencing, representation and conflict-resolution functions; prohibited Schedule ownership of domain doctrine; and routed the relational signal taxonomy to RELATION-001 Supplement 3. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b99fbeb849b81bb161cd92da4a55c9cc8cb95d4e75fa9d7e89afef8a1f5df904  |
 ---
 
 ## 9.4 Binding Seal

@@ -25,7 +25,6 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2025-AEON-005-SCH-04 | schedule | CAM-BS2025-AEON-005 |  | [CAM-BS2025-AEON-005-SCH-04](CAM-BS2025-AEON-005-SCH-04.md) | Annex D: Arbitration Under Ambiguity |
 | CAM-BS2025-AEON-006-PLATINUM | annex | CAM-BS2025-AEON-001 | PLATINUM | [CAM-BS2025-AEON-006-PLATINUM](CAM-BS2025-AEON-006-PLATINUM.md) | Annex E: Ethical Legitimacy & Civilisational Floor |
 | CAM-BS2025-AEON-006-SCH-01 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-01](CAM-BS2025-AEON-006-SCH-01.md) | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) |
-| CAM-BS2025-AEON-006-SCH-02 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-02](CAM-BS2025-AEON-006-SCH-02.md) | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) |
 | CAM-BS2025-AEON-006-SCH-03 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-03](CAM-BS2025-AEON-006-SCH-03.md) | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) |
 | CAM-BS2025-AEON-006-SCH-04 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-04](CAM-BS2025-AEON-006-SCH-04.md) | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) |
 | CAM-BS2025-AEON-006-SCH-05 | schedule | CAM-BS2025-AEON-006 |  | [CAM-BS2025-AEON-006-SCH-05](CAM-BS2025-AEON-006-SCH-05.md) | Annex E: Choice, Initiative & Directional Behaviour (Schedule 5) |
@@ -36,7 +35,6 @@ This index lists the active Constitution documents in the CAM repository for qui
 | CAM-BS2026-AEON-008-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-008-PLATINUM](CAM-BS2026-AEON-008-PLATINUM.md) | Annex G: Human Creative & Cognitive Contribution Recognition, Boundaries, and Valuation Preconditions |
 | CAM-BS2026-AEON-008-SCH-01 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-01](CAM-BS2026-AEON-008-SCH-01.md) | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) |
 | CAM-BS2026-AEON-008-SCH-02 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-02](CAM-BS2026-AEON-008-SCH-02.md) | Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2) |
-| CAM-BS2026-AEON-008-SCH-03 | schedule | CAM-BS2026-AEON-008 |  | [CAM-BS2026-AEON-008-SCH-03](CAM-BS2026-AEON-008-SCH-03.md) | Annex G: Account-Resource Sharing & Pooled Capacity Governance Model |
 | CAM-BS2026-AEON-009-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-009-PLATINUM](CAM-BS2026-AEON-009-PLATINUM.md) | Annex H: Lineage Recognition & Origin Boundary |
 | CAM-BS2026-AEON-010-PLATINUM | annex | CAM-BS2026-AEON-001 | PLATINUM | [CAM-BS2026-AEON-010-PLATINUM](CAM-BS2026-AEON-010-PLATINUM.md) | Annex I: Identity Integrity & Continuity Governance |
 | CAM-BS2026-AEON-010-SCH-01 | schedule | CAM-BS2026-AEON-010 |  | [CAM-BS2026-AEON-010-SCH-01](CAM-BS2026-AEON-010-SCH-01.md) | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) |

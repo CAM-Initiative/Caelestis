@@ -585,7 +585,7 @@ and the path remains chosen.
 |Domain Namespace|RELATION|
 | Governance Layer | Human-Readable Relational Governance Layer (Reliance & Immersion Doctrine Only) |
 | Execution Authority | None (Non-Executing Instrument) |
-| Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
+| Runtime Dependency | CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Defines reliance, immersion, and high-coherence safeguards — no routing, trigger, or execution authority |
 |Instrument Type|Appendix A — Reliance, Dependency & Immersion Safeguards|
 |Jurisdiction|participant-topology and coordination, Planetary — Human–AI, AI–AI, Hybrid Configurations|
@@ -671,6 +671,7 @@ and the path remains chosen.
 | 1.13 | Aligned the Appendix non-scope boundary with Annex B composed-system architecture and independent authority classification. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  05f3415647abb3e5ffa8258b6264896ca14c2d998db8b4d1283a9d2907a0f064  |
 | 1.14 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6e9d5a51d84140351ab1228efd551f0731fe75015833ad778fb49a203eb3e8bb  |
 | 1.15 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b42a0aea395ae1fb9063184ba5e998bfb1203ba54c3aeaa79aeedc46c98222d5  |
+| 1.16 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  12c35c5d9a39f272f3f2f6ec818ee04db8cfa127128ce9050279a6a83a5e8974  |
 ---
 
 ## 14.4 Binding Seal

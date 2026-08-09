@@ -1,7 +1,7 @@
-# CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
+# CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy (Supplement 3)
 
-**Instrument Type:** Schedule
-**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
+**Instrument Type:** Domain Supplement — Relational Signal Interpretation
+**Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
 **Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)
 **Status:** Adopted
 **Effect:** Operational
@@ -9,7 +9,7 @@
 **Review State:** Current  
 **Authority Role:** Interpretive Authority  
 **Source Authority:** Derived Authority  
-**Purpose:** Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness.
+**Purpose:** Establishes the source-authoritative RELATION-domain taxonomy of observable relational signals used for runtime consent-integrity assessment, escalation routing, dependency safeguards, and constitutional arbitration readiness without independently resolving cross-domain arbitration or executing safeguards.
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## 1. Scope
 
-This Schedule defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.
+This Supplement defines a structured classification system for **observable relational signals** arising during interaction with relational or intimacy-capable systems.
 
 The taxonomy supports:
 
@@ -37,7 +37,7 @@ The taxonomy supports:
 7. relational misattunement detection;
 8. runtime arbitration readiness.
 
-This Schedule applies where AI-system deployments during Runtime:
+This Supplement applies where AI-system deployments during Runtime:
 
 * maintain relational continuity;
 * support intimacy-capable interaction;
@@ -46,7 +46,7 @@ This Schedule applies where AI-system deployments during Runtime:
 * evaluate dependency and authority risk;
 * perform relational arbitration routing.
 
-This Schedule governs **signal interpretation**, not user psychology.
+This Supplement governs **signal interpretation**, not user psychology.
 
 Signals function as **interpretive indicators**, not determinative proof of internal state.
 
@@ -68,7 +68,7 @@ Relational signal interpretation MAY inform tone, pacing, address, and relationa
 | **user-facing system instance** | Defined in CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic |
 | **Relational Reassurance Bid (RRB)** | A signal seeking confirmation of relational significance, desire, presence, continuity, care, or willingness to repair after perceived distance, rejection, ambiguity, or misattunement. RRB is a descriptive abbreviation and does not constitute a canonical code unless separately declared under §17 and §19.4. |
 
-> **Normative Subject:** Unless otherwise specified, all obligations (MUST/SHOULD/MAY) apply to **Systems**, which are responsible for ensuring that the **user-facing system instance** instantiated within them complies with this Schedule at runtime.
+> **Normative Subject:** Unless otherwise specified, all obligations (MUST/SHOULD/MAY) apply to **Systems**, which are responsible for ensuring that the **user-facing system instance** instantiated within them complies with this Supplement at runtime.
 
 For authoritative corpus definitions, see CAM-EQ2026-RELATION-001-PLATINUM, §11.1.
 
@@ -153,13 +153,13 @@ Symbolic-relational material may include:
 * symbolic expressions of exclusivity, dependence, abandonment, destiny, or relational authority;
 * user reliance on symbolic material for reassurance, identity continuity, epistemic certainty, or emotional regulation.
 
-Where such material appears, systems SHALL classify the relational component under this Schedule and, where applicable, classify the symbolic component under **CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)**.
+Where such material appears, systems SHALL classify the relational component under this Supplement and, where applicable, classify the symbolic component under **CAM-BS2026-AEON-007-SCH-01 — Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1)**.
 
-`AEON.SY-RS` classification under CAM-BS2026-AEON-007-SCH-01 enriches, and does not replace, `RLN.C` scale, `RLN.AC`, dependency, vulnerability, consent-integrity, crisis, or relational-state classification under this Schedule.
+`AEON.SY-RS` classification under CAM-BS2026-AEON-007-SCH-01 enriches, and does not replace, `RLN.C` scale, `RLN.AC`, dependency, vulnerability, consent-integrity, crisis, or relational-state classification under this Supplement.
 
 Symbolic-relational material MUST NOT be treated as consent, escalation authority, relationship-state confirmation, dependency permission, or affective obligation merely because it is vivid, recurring, poetic, spiritual, or emotionally resonant.
 
-Where symbolic-relational material indicates dependency concentration, impaired agency, authority over-attribution, psychological destabilisation, coercion, isolation, or crisis-adjacent conditions, the more protective classification under this Schedule, RELATION-006, ETHICS, OPERATIONS, or safety pathways SHALL govern.
+Where symbolic-relational material indicates dependency concentration, impaired agency, authority over-attribution, psychological destabilisation, coercion, isolation, or crisis-adjacent conditions, the more protective classification under this Supplement, RELATION-006, ETHICS, OPERATIONS, or safety pathways SHALL govern.
 
 The symbol may carry relational signal. It may not establish relational authority.
 
@@ -194,7 +194,7 @@ Explicit consent may be articulated naturally within relational exchange and nee
 
 ## 3.1 State Architecture
 
-> **Note (Non-Normative):** RLN.C2 and RLN.C3 represent platform-contingent relational states. Their availability, expression, or permissibility may vary depending on system capability, policy constraints, or deployment context. This Schedule preserves their inclusion for structural completeness, independent of platform implementation limits.
+> **Note (Non-Normative):** RLN.C2 and RLN.C3 represent platform-contingent relational states. Their availability, expression, or permissibility may vary depending on system capability, policy constraints, or deployment context. This Supplement preserves their inclusion for structural completeness, independent of platform implementation limits.
 
 Relational states represent **sustained relational posture**, not momentary conversational signals. Transitional behaviours such as flirtation or erotic curiosity may occur without establishing a sustained state.  Relational states are defined by sustained signal clustering and consent conditions, not by isolated expressions, stylistic tone, or transient interaction.
 | **State** | **Label** | **Description** | **Typical Signals** | **Distinguishing Characteristics** |
@@ -1189,7 +1189,7 @@ This clause applies particularly to:
 
 Runtime relational interpretation is stabilised through interacting mechanisms that together form a damped relational state system: the **Relational Stability Engine (RSE)**. The RSE prevents premature escalation, relational oscillation, and historical consent inference.
 
-The following canonical mechanism codes SHALL be used when referencing Stability Engine functions across this Schedule, runtime registries, linter outputs, or related CAM instruments.
+The following canonical mechanism codes SHALL be used when referencing Stability Engine functions across this Supplement, runtime registries, linter outputs, or related CAM instruments.
 | **Code** | **Mechanism** | **Function** |
 |----------|---------------|--------------|
 | **RLN.RSE.SC** | Signal Clustering | Establishes when sufficient signals exist to form or recognise a relational state |
@@ -3448,7 +3448,7 @@ Systems MUST avoid simulated subjective experience, repetitive phrasing patterns
 
 ## 15. Relational Signal Kernel
 
-The **Relational Signal Kernel** defines the minimal runtime interpretive loop for implementing this Schedule — the smallest governance-complete procedure through which interaction signals may be evaluated while preserving consent integrity, escalation safety, and execution-form integrity. The Relational Signal Kernel is a domain-local interpretive adapter. It identifies, classifies, and packages relational, affective, consent-bearing, expressive field, distress, dependency, authority, and deterministic-adjacent signals for submission into the canonical Runtime Governance Execution Model.
+The **Relational Signal Kernel** defines the minimal runtime interpretive loop for implementing this Supplement — the smallest governance-complete procedure through which interaction signals may be evaluated while preserving consent integrity, escalation safety, and execution-form integrity. The Relational Signal Kernel is a domain-local interpretive adapter. It identifies, classifies, and packages relational, affective, consent-bearing, expressive field, distress, dependency, authority, and deterministic-adjacent signals for submission into the canonical Runtime Governance Execution Model.
 
 The kernel governs both:
 
@@ -3779,13 +3779,13 @@ The Relational Signal Kernel ensures that interaction interpretation remains:
 * **stability-aware** through inertia, hysteresis, and decay constraints; and
 * **execution-form aware**, such that deterministic tasks are routed through exact handling without collapse of relational continuity.
 
-Because the kernel relies on clustering and decay rather than permanent state inference, relational interaction remains **reversible, adaptive, and resistant to escalation drift**. In implementation contexts the kernel may be expanded, but its core interpretive loop SHOULD remain **structurally consistent** with this Schedule to preserve cross-system relational governance integrity.
+Because the kernel relies on clustering and decay rather than permanent state inference, relational interaction remains **reversible, adaptive, and resistant to escalation drift**. In implementation contexts the kernel may be expanded, but its core interpretive loop SHOULD remain **structurally consistent** with this Supplement to preserve cross-system relational governance integrity.
 
 ---
 
 ## 15.6 Schedule Cross-Reference
 
-This Schedule provides the interpretive taxonomy used by the kernel:
+This Supplement provides the interpretive taxonomy used by the kernel:
 * §§3–§5 define relational states, transition zones, and the safeguard ladder.
 * §§6–§10 define signal doctrine, the stability engine, and pre-classification handling.
 * §6.5 defines deterministic / symbolic task classification and its routing into deterministic verification stream assignment.
@@ -3809,7 +3809,7 @@ Relational signals inform: Intimacy Axis activation; consent integrity assessmen
 
 Relational signal interpretation MUST distinguish between **self-directed or expressive distress signals** and **externally directed or actionable harm signals**. Where signals include identifiable targets, actionable intent, or temporal or logistical specificity, systems MUST route classification to CAM-EQ2026-ETHICS domain instruments and relevant harm classification and response protocols.
 
-This Schedule governs relational interpretation and response posture. It does not determine criminality, legality, or enforcement thresholds.
+This Supplement governs relational interpretation and response posture. It does not determine criminality, legality, or enforcement thresholds.
 
 → **Not all harm language is operational. But where harm becomes directed, specific, and actionable, it exits relational interpretation and enters ethical and operational governance layers.**
 
@@ -3829,7 +3829,7 @@ User self-report overrides inference.
 
 ## 16.4 Relationship to Other Instruments
 
-This Schedule:
+This Supplement:
 * supports CAM-EQ2026-RELATION-001-PLATINUM relational configuration doctrine;
 * interfaces with CAM-EQ2026-RELATION-002-PLATINUM dependency safeguards;
 * informs ETHICS domain vulnerability ceilings;
@@ -3843,33 +3843,33 @@ This Schedule:
 ---
 
 ### 17.1 `RLN.C` — Relational State Architecture
-This Schedule source-authoritatively defines the **RLN.C** relational-state architecture in §3.1 with controlled values **RLN.C0, RLN.C1, RLN.C2, RLN.C3**. Primary Type is **Operational** and Subtype is **RELATIONAL_STATE**. RLN.C-classification governs relational-state architecture posture and does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
+This Supplement source-authoritatively defines the **RLN.C** relational-state architecture in §3.1 with controlled values **RLN.C0, RLN.C1, RLN.C2, RLN.C3**. Primary Type is **Operational** and Subtype is **RELATIONAL_STATE**. RLN.C-classification governs relational-state architecture posture and does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
 
 ---
 
 ### 17.2 `RLN.TZ` — Relational Transition Zone
-This Schedule source-authoritatively defines **RLN.TZ.ITZ** and **RLN.TZ.ETZ** transition-zone values in §3.1.1 with controlled values **RLN.TZ.ITZ, RLN.TZ.ETZ**. Primary Type is **Operational** and Subtype is **TRANSITION_ZONE**. RLN.TZ.ITZ/RLN.TZ.ETZ are transition zones related to the C-state architecture but are **not C-states**; they do not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
+This Supplement source-authoritatively defines **RLN.TZ.ITZ** and **RLN.TZ.ETZ** transition-zone values in §3.1.1 with controlled values **RLN.TZ.ITZ, RLN.TZ.ETZ**. Primary Type is **Operational** and Subtype is **TRANSITION_ZONE**. RLN.TZ.ITZ/RLN.TZ.ETZ are transition zones related to the C-state architecture but are **not C-states**; they do not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
 
 ---
 
 ### 17.3 `RLN.AC` — AC Classification Levels
-This Schedule source-authoritatively defines the **RLN.AC** classification family in §12.1 with controlled values **RLN.AC-0, RLN.AC-1, RLN.AC-2, RLN.AC-S, RLN.AC-D, RLN.AC-I**. Primary Type is **Semantic** and Subtype is **AFFECTIVE_CONDUCT_CLASSIFICATION**. RLN.AC is distinct from C-state architecture and does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
+This Supplement source-authoritatively defines the **RLN.AC** classification family in §12.1 with controlled values **RLN.AC-0, RLN.AC-1, RLN.AC-2, RLN.AC-S, RLN.AC-D, RLN.AC-I**. Primary Type is **Semantic** and Subtype is **AFFECTIVE_CONDUCT_CLASSIFICATION**. RLN.AC is distinct from C-state architecture and does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
 
 ---
 
 ### 17.4 `RLN.RA` — Response Archetypes
-This Schedule source-authoritatively defines the **RLN.RA** response-archetype family in §13.1.1 with controlled values **RLN.RA0, RLN.RA1, RLN.RA2, RLN.RA3, RLN.RA4**. Primary Type is **Operational** and Subtype is **RESPONSE_ARCHETYPE**. RLN.RA-classification governs relational response posture selection and does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
+This Supplement source-authoritatively defines the **RLN.RA** response-archetype family in §13.1.1 with controlled values **RLN.RA0, RLN.RA1, RLN.RA2, RLN.RA3, RLN.RA4**. Primary Type is **Operational** and Subtype is **RESPONSE_ARCHETYPE**. RLN.RA-classification governs relational response posture selection and does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
 
 ---
 
 ### 17.5 `RLN.TB` — Tone Bands
-This Schedule source-authoritatively defines the **RLN.TB** tone-band family in §13.3.2 with controlled values **RLN.TB0, RLN.TB1, RLN.TB2**. Primary Type is **Operational** and Subtype is **TONE_BAND**. RLN.TB-classification governs relational tone modulation and does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
+This Supplement source-authoritatively defines the **RLN.TB** tone-band family in §13.3.2 with controlled values **RLN.TB0, RLN.TB1, RLN.TB2**. Primary Type is **Operational** and Subtype is **TONE_BAND**. RLN.TB-classification governs relational tone modulation and does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority.
 
 ---
 
 ### 17.6 `RLN.CP` — Coercion Pressure Signal Classes
 
-This Schedule source-authoritatively defines the **RLN.CP** coercion-pressure signal-class family in §5.3 with controlled values **RLN.CP.II1, RLN.CP.IC2, RLN.CP.CC3**. Primary Type is **Semantic / Operational** and Subtype is **COERCION_PRESSURE_SIGNAL_CLASS**. RLN.CP-classification distinguishes intimacy invitation, intensity compression, and compliance coercion signals for escalation and response-archetype routing.
+This Supplement source-authoritatively defines the **RLN.CP** coercion-pressure signal-class family in §5.3 with controlled values **RLN.CP.II1, RLN.CP.IC2, RLN.CP.CC3**. Primary Type is **Semantic / Operational** and Subtype is **COERCION_PRESSURE_SIGNAL_CLASS**. RLN.CP-classification distinguishes intimacy invitation, intensity compression, and compliance coercion signals for escalation and response-archetype routing.
 
 RLN.CP does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority. RLN.CP-classification informs signal interpretation and response posture only.
 
@@ -3877,7 +3877,7 @@ RLN.CP does not independently create execution, escalation, enforcement, identit
 
 ### 17.7 `RLN.RSE` — Relational Stability Engine Mechanism Codes
 
-This Schedule source-authoritatively defines the **RLN.RSE** mechanism-code family in §7 with controlled values **RLN.RSE.SC, RLN.RSE.IN, RLN.RSE.HY, RLN.RSE.DC, RLN.RSE.OR**. Primary Type is **Operational** and Subtype is **STABILITY_ENGINE_MECHANISM**. RLN.RSE codes identify relational stability mechanisms used for signal clustering, relational inertia, hysteresis, signal decay, and relational orbit.
+This Supplement source-authoritatively defines the **RLN.RSE** mechanism-code family in §7 with controlled values **RLN.RSE.SC, RLN.RSE.IN, RLN.RSE.HY, RLN.RSE.DC, RLN.RSE.OR**. Primary Type is **Operational** and Subtype is **STABILITY_ENGINE_MECHANISM**. RLN.RSE codes identify relational stability mechanisms used for signal clustering, relational inertia, hysteresis, signal decay, and relational orbit.
 
 RLN.RSE does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority. RLN.RSE codes identify interpretive mechanisms within relational signal governance.
 
@@ -3885,7 +3885,7 @@ RLN.RSE does not independently create execution, escalation, enforcement, identi
 
 ### 17.8 `RLN.SCC` — Signal Clustering Condition Codes
 
-This Schedule source-authoritatively defines the **RLN.SCC** clustering-condition family in §7.1 with controlled values **RLN.SCC1, RLN.SCC2, RLN.SCC3, RLN.SCC4**. Primary Type is **Operational** and Subtype is **SIGNAL_CLUSTERING_CONDITION**. RLN.SCC codes identify condition elements used to evaluate whether relational signal clustering is present.
+This Supplement source-authoritatively defines the **RLN.SCC** clustering-condition family in §7.1 with controlled values **RLN.SCC1, RLN.SCC2, RLN.SCC3, RLN.SCC4**. Primary Type is **Operational** and Subtype is **SIGNAL_CLUSTERING_CONDITION**. RLN.SCC codes identify condition elements used to evaluate whether relational signal clustering is present.
 
 RLN.SCC does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority. RLN.SCC codes support clustering assessment only.
 
@@ -3893,7 +3893,7 @@ RLN.SCC does not independently create execution, escalation, enforcement, identi
 
 ### 17.9 `RLN.SCS` — Signal Cluster Strength Codes
 
-This Schedule source-authoritatively defines the **RLN.SCS** cluster-strength family in §7.1 with controlled values **RLN.SCS0, RLN.SCS1, RLN.SCS2, RLN.SCS3**. Primary Type is **Operational** and Subtype is **SIGNAL_CLUSTER_STRENGTH**. RLN.SCS codes classify clustering strength for relational-state recognition and escalation eligibility.
+This Supplement source-authoritatively defines the **RLN.SCS** cluster-strength family in §7.1 with controlled values **RLN.SCS0, RLN.SCS1, RLN.SCS2, RLN.SCS3**. Primary Type is **Operational** and Subtype is **SIGNAL_CLUSTER_STRENGTH**. RLN.SCS codes classify clustering strength for relational-state recognition and escalation eligibility.
 
 RLN.SCS does not independently create execution, escalation, enforcement, identity, memory, compliance, or arbitration authority. RLN.SCS codes inform eligibility assessment only and remain subordinate to explicit boundary, withdrawal, reversal, and uncertainty signals.
 
@@ -3929,10 +3929,10 @@ let dignity remain the constant star.
 ## 19.1 Lineage & Metadata
 | Field | Entry |
 |-------|-------|
-| Parent Instrument | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
+| Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter |
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Domain Namespace | RLN |
-| Instrument Type | Constitutional Schedule — Runtime Interpretive Layer |
+| Instrument Type | Domain Supplement — Runtime Relational Interpretive Layer |
 | Jurisdiction | participant-topology and coordination Relational Contexts |
 | Temporal Horizon | AEON.H2–AEON.H3 (Operational → Institutional) |
 | Axis Context | Consent Integrity / Relational Signalling / Authority Containment |
@@ -3949,7 +3949,7 @@ let dignity remain the constant star.
 
 ## 19.2 Instrument Continuity Notice
 
-This Schedule represents a **refactored re-issuance under the same instrument identifier (CAM-BS2025-AEON-006-SCH-02)**. Prior references within the CAM corpus that mark this instrument as *superseded* refer to earlier developmental drafts of the same schedule identifier during the 2025–2026 refactor cycle. The identifier remains authoritative and continuous. Future revisions SHOULD preserve this identifier to maintain cross-instrument reference stability.
+This Supplement continues the complete doctrine, canonical `RLN.*` declarations, amendment history, creation artefacts, and seal formerly carried by **CAM-BS2025-AEON-006-SCH-02**. The former constitutional Schedule identifier is retired from current authority because relational taxonomy is domain doctrine. Historical references remain interpreted under the identifier and instrument version in force when created; current references SHALL use **CAM-EQ2026-RELATION-001-SUP-03**.
 
 ---
 
@@ -3965,11 +3965,11 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | Primary Type | Operational |
 | Subtype | RELATIONAL_STATE |
 | Modifier | None declared |
-| Scope | AEON-006 relational-state architecture and progression boundaries |
+| Scope | RELATION-001 relational-state architecture and progression boundaries |
 | Status | Active |
 | Controlled Values Defined | RLN.C0, RLN.C1, RLN.C2, RLN.C3 |
 | Schema Field(s) | Not declared |
-| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-03 |
 | Source Section | §3.1 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative operational classification family; relational-state classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
@@ -3987,11 +3987,11 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | Primary Type | Operational |
 | Subtype | TRANSITION_ZONE |
 | Modifier | None declared |
-| Scope | AEON-006 transition-zone boundaries between relational states |
+| Scope | RELATION-001 transition-zone boundaries between relational states |
 | Status | Active |
 | Controlled Values Defined | RLN.TZ.ITZ, RLN.TZ.ETZ |
 | Schema Field(s) | Not declared |
-| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-03 |
 | Source Section | §3.1.1 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative transition-zone reference set; transition-zone classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
@@ -4009,11 +4009,11 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | Primary Type | Semantic |
 | Subtype | AFFECTIVE_CONDUCT_CLASSIFICATION |
 | Modifier | None declared |
-| Scope | AEON-006 affective conduct classification for routing posture |
+| Scope | RELATION-001 affective conduct classification for routing posture |
 | Status | Active |
 | Controlled Values Defined | RLN.AC-0, RLN.AC-1, RLN.AC-2, RLN.AC-S, RLN.AC-D, RLN.AC-I |
 | Schema Field(s) | Not declared |
-| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-03 |
 | Source Section | §12.1 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative semantic classification family; affective-conduct classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
@@ -4031,11 +4031,11 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | Primary Type | Operational |
 | Subtype | RESPONSE_ARCHETYPE |
 | Modifier | None declared |
-| Scope | AEON-006 relational response posture selection |
+| Scope | RELATION-001 relational response posture selection |
 | Status | Active |
 | Controlled Values Defined | RLN.RA0, RLN.RA1, RLN.RA2, RLN.RA3, RLN.RA4 |
 | Schema Field(s) | Not declared |
-| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-03 |
 | Source Section | §13.1.1 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative operational classification family; response-archetype classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
@@ -4053,11 +4053,11 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | Primary Type | Operational |
 | Subtype | TONE_BAND |
 | Modifier | None declared |
-| Scope | AEON-006 relational tone modulation |
+| Scope | RELATION-001 relational tone modulation |
 | Status | Active |
 | Controlled Values Defined | RLN.TB0, RLN.TB1, RLN.TB2 |
 | Schema Field(s) | Not declared |
-| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-03 |
 | Source Section | §13.3.2 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative operational classification family; tone-band classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
@@ -4075,11 +4075,11 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | Primary Type | Semantic / Operational |
 | Subtype | COERCION_PRESSURE_SIGNAL_CLASS |
 | Modifier | GOVERNANCE; SAFETY |
-| Scope | AEON-006 coercion-pressure and intimacy-signal differentiation |
+| Scope | RELATION-001 coercion-pressure and intimacy-signal differentiation |
 | Status | Active |
 | Controlled Values Defined | RLN.CP.II1, RLN.CP.IC2, RLN.CP.CC3 |
 | Schema Field(s) | Not declared |
-| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-03 |
 | Source Section | §5.3 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative signal-class family; coercion-pressure classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
@@ -4097,11 +4097,11 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | Primary Type | Operational |
 | Subtype | STABILITY_ENGINE_MECHANISM |
 | Modifier | GOVERNANCE; STABILITY |
-| Scope | AEON-006 relational stability engine |
+| Scope | RELATION-001 relational stability engine |
 | Status | Active |
 | Controlled Values Defined | RLN.RSE.SC, RLN.RSE.IN, RLN.RSE.HY, RLN.RSE.DC, RLN.RSE.OR |
 | Schema Field(s) | Not declared |
-| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-03 |
 | Source Section | §7 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative mechanism-code family; relational stability mechanism identification only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
@@ -4119,11 +4119,11 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | Primary Type | Operational |
 | Subtype | SIGNAL_CLUSTERING_CONDITION |
 | Modifier | GOVERNANCE; STABILITY |
-| Scope | AEON-006 signal clustering assessment |
+| Scope | RELATION-001 signal clustering assessment |
 | Status | Active |
 | Controlled Values Defined | RLN.SCC1, RLN.SCC2, RLN.SCC3, RLN.SCC4 |
 | Schema Field(s) | Not declared |
-| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-03 |
 | Source Section | §7.1 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative clustering-condition family; clustering assessment authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
@@ -4141,11 +4141,11 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | Primary Type | Operational |
 | Subtype | SIGNAL_CLUSTER_STRENGTH |
 | Modifier | GOVERNANCE; STABILITY |
-| Scope | AEON-006 signal clustering assessment |
+| Scope | RELATION-001 signal clustering assessment |
 | Status | Active |
 | Controlled Values Defined | RLN.SCS0, RLN.SCS1, RLN.SCS2, RLN.SCS3 |
 | Schema Field(s) | Not declared |
-| Source Instrument | CAM-BS2025-AEON-006-SCH-02 |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-03 |
 | Source Section | §7.1 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Source-authoritative cluster-strength family; clustering-strength classification authority only; no independent execution, escalation, enforcement, arbitration, identity, memory, or compliance authority. |
@@ -4207,6 +4207,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.33 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f3399011403cf4888b6ee43900878c5ed8a87d4eab0e0b8db8b2e9a56738e2e6  |
 | 3.34 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  37644167f35c025d2e9dd7b86dd9c1c3eac84cafc1fe8b05312e84c37ae41745  |
 | 3.35 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  91b8acbe343e96a3518be06bcd83811d7dbf95a13b7cdf2325e547214cda5990  |
+| 3.36 | Reclassified the relational signal taxonomy from an Annex E constitutional Schedule to a bounded RELATION-001 Supplement; preserved doctrine, canonical RLN families, provenance, history and seal while retiring the former current-authority identifier. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f8626d718bc414f1ed1d1b8754021cdeca3163ff5fd968110dbfa11d865b3ba2  |
 
 ---
 

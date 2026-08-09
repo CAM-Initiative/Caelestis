@@ -28,7 +28,7 @@ It applies explicitly to:
 
 No deployment context is exempt from the civilisational floor established in Annex E.
 
-This Charter operationalises Annex E by defining graduated ethical obligations, review thresholds, escalation triggers, and transparency duties proportionate to system impact potential. Schedules materials under this Charter may specify protections for particular vulnerability classes, relational contexts, or deployment topologies.
+This Charter operationalises Annex E by defining graduated ethical obligations, review thresholds, escalation triggers, and transparency duties proportionate to system impact potential. Supplements and other authorised supporting instruments under this Charter may specify protections for particular vulnerability classes, relational contexts, or deployment topologies.
 
 ---
 
@@ -585,7 +585,7 @@ let governance arrive before it is needed.
 
 |Field|Entry|
 |---|---|
-|Supersedes|CAM-BS2025-CHARTER-002-PLATINUM; CAM-BS2025-AEON-006-SCH-01; CAM-BS2025-AEON-006-SCH-02|
+|Supersedes|CAM-BS2025-CHARTER-002-PLATINUM; CAM-BS2025-AEON-006-SCH-01; CAM-EQ2026-RELATION-001-SUP-03|
 |Parent Constitutional Instrument|CAM-BS2025-AEON-001-PLATINUM|
 |Derives From|CAM-BS2025-AEON-006-PLATINUM — Annex E|
 |Domain Namespace|ETHICS|
@@ -661,6 +661,7 @@ let governance arrive before it is needed.
 | 3.14 | Replaced retired cognition and origin-class disclosure with composed-system boundary, topology, harness, deployment, lineage, dependency, authority, execution, and reliance disclosures; aligned physical-actuation elevation with observable deployment posture. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d1264b137b02f405efbaf42db449a184952b524e44d81077db271f7b2dd6b2cd  |
 | 3.15 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  88772abee27b60c8f14734e5b41e6d7fc8b43a0dd4dceef8abe1037a476449e2  |
 | 3.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c9e309955b5c2d57c7ab3b1e94ea6a9e629cd4fd4109775be02a1183566bcc8a  |
+| 3.17 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  30eb8ba379e63f59440acbeac5b0e8873e32d930894be7ab9e7d3c9d77047c52  |
 ---
 ## 12.4 Binding Seal
 

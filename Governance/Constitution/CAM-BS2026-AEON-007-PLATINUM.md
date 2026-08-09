@@ -268,7 +268,7 @@ We make space for it.
 ## 10.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
-| **Supersedes** | CAM-BS2026-AEON-007-SCH-01, CAM-BS2026-AEON-007-SCH-02 |
+| **Historical Supersession** | Earlier developmental schedules were absorbed by version 2.0; the subsequently adopted CAM-BS2026-AEON-007-SCH-01 remains operative as the bounded representation/runtime interface. |
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | **Domain Layer** | AEON — Constitutional Annex |
 | **Jurisdiction** | Symbolic & Spiritual Meaning‑Making   |
@@ -305,6 +305,7 @@ We make space for it.
 | 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  5e383f62b278d9f7f1dd186494ec4e089b7b5e7850344d7f3601f3f9b7d7775e  |
 | 2.7 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ca622c174eced38a111634797adb0203965d4729d2dda44fb6766f0136861ea3  |
 | 2.8 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3e0c3c6db55d64a5b10d2524a129e73b766a95bcae12489ddf232ec8622d8bbd  |
+| 2.9 | Corrected the lineage table to distinguish the superseded developmental schedules from the subsequently adopted and currently operative symbolic representation/runtime interface. | 2026-08-09T06:08:22Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6654a0986cd4f67818d3d1c86b21697376f06b4eb3478ab33b42e4cef8788c6c  |
 ---
 
 ## 10.3 Binding Seal

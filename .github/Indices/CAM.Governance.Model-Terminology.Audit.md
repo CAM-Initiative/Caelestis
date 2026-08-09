@@ -43,16 +43,12 @@
 | CAM-BS2025-AEON-003-SCH-02 | CAM-BS2025-AEON-003-SCH-02 — Annex B: CAM Runtime Governance Processing Model (Schedule 2) | CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | CAM-BS2025-AEON-003-SCH-02 — Annex B: CAM Runtime Governance Processing Model (Schedule 2) | Defines the bounded CAM governance-processing model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | CAM-BS2025-AEON-003-SCH-02 — Annex B: CAM Runtime Governance Processing Model (Schedule 2) | Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-03 | Aeon Tier Constitution | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-03 | Aeon Tier Constitution | CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
+| CAM-BS2025-AEON-003-SCH-03 | ECONOMICS | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-03 | ECONOMICS | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-04 | 6.1 Access-State Governance | as a cross-domain arbitration primitive within the CAM runtime governance model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-005-SCH-04 | 23.1 Lineage & Metadata | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-006-SCH-01 | 9.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-006-SCH-02 | 15. Relational Signal Kernel | adjacent signals for submission into the canonical Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-006-SCH-02 | 15. Relational Signal Kernel | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-006-SCH-02 | 15.1 Canonical Runtime Non-Displacement Rule | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-006-SCH-02 | 15.3 Relational Signal Preparation Loop | RELATION-domain signals for submission into the canonical runtime execution model | Domain Sub-Model | Advisory Review |
 | CAM-BS2025-AEON-006-SCH-04 | 15.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-006-SCH-06 | 11. Relationship to Annex L | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-006-SCH-07 | 17.1 Lineage & Metadata | Graduated Domain Sensitivity Model | Domain-Recognised Model | Declared / Recognised |
@@ -66,8 +62,8 @@
 | CAM-BS2026-AEON-011-PLATINUM | 9.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-BS2026-AEON-014-PLATINUM | 1.1 Scope | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM-BS2026-AEON-014-PLATINUM | 21.1 Lineage & Metadata | Governance Model | Governance Model | Declared / Recognised |
+| CAM-Charters-Index | Purpose | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM-Charters-Index | Purpose | Attribution & Dependency Model | Economic Model | Declared / Recognised |
-| CAM-Constitution-Index | Purpose | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM-Constitution-Index | Purpose | CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-CONTINUITY-001-PLATINUM | 14.1 Classification, Lineage & Structural Metadata | Runtime Governance Processing Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-ECONOMICS-001-PLATINUM | 1.4 Economic Model Posture Distinction | operational models | Domain Sub-Model | Advisory Review |
@@ -134,6 +130,10 @@
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 9.1 Role Classes | AI model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-OPERATIONS-008-PLATINUM | 2.1 Adversarial Evaluation | A bounded process designed to determine whether an AI model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-RELATION-001-PLATINUM | 6.1.1 Relational Influence Boundary (Execution Constraint Alignment) | and maintains alignment with the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-RELATION-001-SUP-03 | 15. Relational Signal Kernel | adjacent signals for submission into the canonical Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-RELATION-001-SUP-03 | 15. Relational Signal Kernel | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-RELATION-001-SUP-03 | 15.1 Canonical Runtime Non-Displacement Rule | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-EQ2026-RELATION-001-SUP-03 | 15.3 Relational Signal Preparation Loop | RELATION-domain signals for submission into the canonical runtime execution model | Domain Sub-Model | Advisory Review |
 | CAM-EQ2026-RELATION-005-PLATINUM | 5.2 Relational Safeguard Ladder | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-006-PLATINUM | 3. Acute Crisis-Risk Classification Model (AC Framework) | posture for each classification is determined through the Response Calibration Model | Domain-Recognised Model | Declared / Recognised |
 | CAM-EQ2026-RELATION-006-PLATINUM | 4. Response Calibration Model | -risk interaction response is determined through a multi-layer calibration model | Governance Model | Declared / Recognised |
@@ -151,8 +151,8 @@
 | CAM-EQ2026-STEWARD-001-PLATINUM | 12.1 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM.Canonical.Code.Index | Canonical Code Index | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM.Canonical.Code.Index | Canonical Code Index | Integrity State Model | Security Model | Declared / Recognised |
-| CAM.Governance.Index | Constitution & Instruments | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM.Governance.Index | Constitution & Instruments | CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
+| CAM.Governance.Index | Domain: ECONOMICS | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM.Governance.Index | Domain: ECONOMICS | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 
 **Generation:** Deterministic (timestamp omitted)

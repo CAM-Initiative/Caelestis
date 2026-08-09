@@ -102,6 +102,16 @@ Absent such demonstration, public participants SHALL be treated as **contributor
 
 ---
 
+## 2.3 Constitutional Schedule and Economics-Domain Boundary
+
+A Schedule under this Annex MAY execute the contribution-recognition boundary, preserve the constitutional access floor, or resolve economic-effect commitment where an operation must reconcile Annex G preconditions with one or more Economics, Ethics, Relation, Identity, Continuity, Security, Operations, Lattice, or Arbitration inputs.
+
+A Schedule under this Annex SHALL NOT define pricing, billing, subscription design, account-resource taxonomy, pooled-capacity classification, commercial entitlement, compensation formula, or other doctrine that can be coherently owned by the ECONOMICS domain. Those matters SHALL remain with the applicable Economics Charter or authorised supporting instrument.
+
+CAM-EQ2026-ECONOMICS-001-SUP-01 therefore owns account-resource, pooled-capacity, delegation and enforcement-boundary classifications. CAM-BS2026-AEON-008-SCH-01 and CAM-BS2026-AEON-008-SCH-02 retain only their constitutional access-interface and cross-domain economic-effect commitment functions respectively.
+
+---
+
 ## 3. Foundational Principles
 
 ---
@@ -667,6 +677,7 @@ Recognition is the first act of truth.
 | 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d5b950370281610f49d06e02bf309609c60f82d58fd33589e848c56efe13986f  |
 | 2.7 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  f4e8183f04dd7bc9b4a6aa1be5608b69ab557ca574db19f9e8a0a020f11c6871  |
 | 2.8 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  63a48af098347f391bf40f1f76186aad94da4fe9ea60053f4c658f8d961404cb  |
+| 2.9 | Established the Annex G Schedule boundary: retained the constitutional access-interface and cross-domain economic-effect commitment functions while routing account-resource and pooled-capacity classification to ECONOMICS-001 Supplement 1. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8b1db103ccf95e2c9409ba90a92c804322ee16f8682990fd223f46faa52934bb  |
 ---
 
 ## 11.4 Binding Seal

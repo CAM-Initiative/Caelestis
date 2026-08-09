@@ -891,7 +891,7 @@ It is the place where governance proves itself.
 | **Related Annex D Instrument** | CAM-BS2025-AEON-005-SCH-01 — Annex D: Runtime Arbitration Integrity |
 | **Related Annex D Instrument** | CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling |
 | **Related Annex D Instrument** | CAM-BS2025-AEON-005-SCH-03 — Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning |
-| **Account-Resource Interface** | CAM-BS2026-AEON-008-SCH-03 — Annex G: Account-Resource Sharing & Pooled Capacity Governance Model |
+| **Account-Resource Interface** | CAM-EQ2026-ECONOMICS-001-SUP-01 — Account-Resource Sharing & Pooled Capacity Governance Model (Supplement 1) |
 | **Operations Interface** | CAM-EQ2026-OPERATIONS-003-SUP-01 — Appendix B: Runtime & Governance Failure Taxonomy |
 | **LATTICE Interface** | CAM-EQ2026-LATTICE-002-PLATINUM — Appendix A: Non-Denial of Essential Cognitive & Infrastructural Access |
 | **Security Interface** | CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Boundary Conditions & Runtime Interface |
@@ -962,6 +962,7 @@ It is the place where governance proves itself.
 | 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  6ba8a5017db804dc7ddd35dea85dd4dfa9ce7adb9036520440ab3bc8d9f9caac  |
 | 1.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  dec4e143bdc725da485c0ef395622efdd4e47636288d06966580c7ba0e330e0b  |
 | 1.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  550b967630ac9e7ec29750a6b38c322d8dff99a7a9821d4148756cb2225246b5  |
+| 1.6 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c0d50feebcf8672548d0e1450dde0103bb1f6f98ea01bc1653b9b6b7586ff3dd  |
 ---
 
 ## 23.4 Binding Seal

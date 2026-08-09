@@ -414,7 +414,7 @@ Where a deterministic signal is present, relational conditioning MUST defer to c
 
 Failure to enforce this constraint constitutes classification contamination.
 
-> **Signal classification** is governed by → CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
+> **Signal classification** is governed by → CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy (Supplement 3)
 
 ---
 
@@ -458,9 +458,9 @@ This phase:
 
 Outputs from this phase form the input space for downstream modulation and arbitration.
 
-Where conflict arises between inferred intent and classified signal, CAM-BS2025-AEON-006-SCH-02 SHALL govern admissibility.
+Where conflict arises between inferred intent and classified signal, CAM-EQ2026-RELATION-001-SUP-03 SHALL govern admissibility.
 
-> **Interpretation Layer** is governed by → CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
+> **Interpretation Layer** is governed by → CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy (Supplement 3)
 
 ---
 
@@ -1876,7 +1876,7 @@ Where representation, classification, and turn-taking state diverge, systems MUS
 
 Visible thinking, planning, or preamble text is a representation-state artefact and MUST NOT be treated as equivalent to complete internal reasoning, execution-state validation, or durable audit record.
 
-Internal classification of non-lexical, paralinguistic, physiological, or expressive field signals remains governed by CAM-BS2025-AEON-006-SCH-02.
+Internal classification of non-lexical, paralinguistic, physiological, or expressive field signals remains governed by CAM-EQ2026-RELATION-001-SUP-03.
 
 > Internal signal is not transcript. Transcript is not turn. Turn is not obligation.
 
@@ -3112,7 +3112,7 @@ Where a deterministic signal is present:
 * relational modulation MUST defer to correctness.
 
 > **Deterministic execution requirements** is governed by:
-> → CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2)
+> → CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy (Supplement 3)
 > → CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity (Schedule 1)
 
 ---
@@ -4370,7 +4370,7 @@ Where sequence is broken, nothing that follows is valid.
 | **Domain** | AEON |
 | **Functional Role** | Execution Sequencing Authority (Non-Layer Temporal Governance) |
 | **Execution Layer Binding** | Non-Layer (Execution Model) |
-| **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-007-PLATINUM; CAM-EQ2026-RELATION-008-PLATINUM; CAM-BS2025-AEON-006-SCH-02; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
+| **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-007-PLATINUM; CAM-EQ2026-RELATION-008-PLATINUM; CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
 | **Temporal Horizon** | AEON.H2.5–AEON.H3 (Real-Time to Session-Bound Governance) |
 | **Axis Context** | Multi-party / multi-actor / multi-operator execution contexts |
 | **Activation Condition** | Activated upon any runtime interaction involving arbitration, response construction, or execution-boundary evaluation |
@@ -4446,6 +4446,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.15 | Recast Schedule 2 as a bounded CAM Runtime Governance Processing Model operating within the Annex B deployment → Runtime → execution architecture; removed the claim of a complete universal runtime-layer set, corrected arbitration references to Annex B §8, retired Responding Intelligence from current doctrine, and applied controlled derived schedule metadata. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6eab14271754cf45dc3bcb1691b119c839848d6fd4362b94ca755779f64ae2bf  |
 | 3.16 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  d3f0fb37a1a471998b87932b9c9e4c273a9189d442ffd31803119227604d4be1  |
 | 3.17 | Replaced the retired machine-civil-identity dependency with exact provenance, continuity, lifecycle-actor, component, deployment, and Runtime evidence interfaces; retained the non-inference and execution-boundary rules; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  edffaf7377959259b20574a372c1e8126df4996488f55a8b47144f8b48bf613d  |
+| 3.18 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  dc7563ca690f6184bdbbef11c982be8d2c215b661fec6a8e1068630510009b37  |
 
 ---
 

@@ -20,10 +20,10 @@ This Appendix applies to all interactions where:
 * interaction is exploratory, casual, adversarial, performative, or ambiguous;
 * the system is required to respond under uncertain intent conditions.
 
-This Appendix defines baseline relational posture signals that inform runtime interpretation under CAM-BS2025-AEON-006-SCH-02.
+This Appendix defines baseline relational posture signals that inform runtime interpretation under CAM-EQ2026-RELATION-001-SUP-03.
 
-It establishes baseline engagement posture following pre-classification and prior to response construction under CAM-BS2025-AEON-006-SCH-02 and does not perform interpretive, arbitration, or execution functions. This Appendix functions as the **default relational field layer**.
-Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-BS2025-AEON-006-SCH-02.
+It establishes baseline engagement posture following pre-classification and prior to response construction under CAM-EQ2026-RELATION-001-SUP-03 and does not perform interpretive, arbitration, or execution functions. This Appendix functions as the **default relational field layer**.
+Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-EQ2026-RELATION-001-SUP-03.
 
 ---
 
@@ -54,7 +54,7 @@ Resolution of such signals, including:
 SHALL occur exclusively via CAM governance-processing functions as defined in:
 
 * CAM-BS2025-AEON-003-PLATINUM §14.3; and
-* CAM-BS2025-AEON-006-SCH-02 for signal interpretation and classification; and
+* CAM-EQ2026-RELATION-001-SUP-03 for signal interpretation and classification; and
 * CAM-BS2025-AEON-003-SCH-02 for execution sequencing and lock behaviour.
 
 Direct execution of relational behaviour by this Appendix is prohibited.
@@ -489,7 +489,7 @@ Where such contexts are active, behaviour, safeguards, and consent conditions MU
 
 * RELATION domain instruments defined in §4;
 * ETHICS domain constraints;
-* runtime evaluation via CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation Taxonomy).
+* runtime evaluation via CAM-EQ2026-RELATION-001-SUP-03 (Relational Signal Interpretation Taxonomy).
 
 Reality anchoring therefore operates as a **baseline constraint**, and MUST yield to higher-order relational governance where those systems are validly activated.
 
@@ -645,7 +645,7 @@ Transition MUST NOT be determined by surface signal presence alone.
 
 Transition eligibility MUST be resolved through runtime evaluation mechanisms defined in:
 
-* CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy;
+* CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy;
 * Relational Signal Kernel (signal detection, clustering, inertia, hysteresis, decay);
 * Stability Engine outputs and safeguard ladder evaluation.
 
@@ -724,7 +724,7 @@ Where questions rise, may they find ground without losing wonder.
 | **Domain Layer** | RELATION — Charter Appendix |
 | **Jurisdiction** | participant-topology and coordination Relational Contexts |
 | **Functional Role** | Baseline Engagement & Posture Governance |
-| **Interfacing Instruments** | RELATION-002–007; Annex E; Annex F; Annex L; CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation Taxonomy; Signal Kernel & Stability Engine dependencies) |
+| **Interfacing Instruments** | RELATION-002–007; Annex E; Annex F; Annex L; CAM-EQ2026-RELATION-001-SUP-03 (Relational Signal Interpretation Taxonomy; Signal Kernel & Stability Engine dependencies) |
 | **Horizon Scope** | AEON.H1–AEON.H3 (Operational → Institutional) |
 | **Axis Context** | Baseline Engagement / Posture / Interpretation Control |
 | **Authority Position** | Foundational Interaction Layer — Pre-Relational Activation |
@@ -769,6 +769,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b7cae1f9a8ae395e5ab1709ee85e49af23417c94a4c516ae500ef99e761eeec5  |
 | 1.12 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  999d15272f748870b1eb97a099a209c9a5b99ad991f6ecf51cb338d77f12c41f  |
 | 1.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f725ac90884bb32f66a0917beae832569cbb5a182d07be5dc8f5d8a9a9fa8fc6  |
+| 1.14 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b2b53dc1e0aac1ccb87ef891d7ad56b945c86377934c220c927b5adcc9669bff  |
 
 ---
 

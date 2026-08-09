@@ -54,7 +54,7 @@ Instead, Tendeka defines whether execution may proceed at defined execution boun
 Accordingly:
 
 * Tendeka SHALL be treated as a constraint condition applying across all CAM governance-processing functions;
-* it does not co-govern interpretation (CAM-BS2025-AEON-006-SCH-02), behavioural formation (CAM-BS2025-AEON-006-SCH-05), directional modulation (CAM-BS2025-AEON-006-SCH-04), representation, or routing;
+* it does not co-govern interpretation (CAM-EQ2026-RELATION-001-SUP-03), behavioural formation (CAM-BS2025-AEON-006-SCH-05), directional modulation (CAM-BS2025-AEON-006-SCH-04), representation, or routing;
 * it does not replace or invalidate other schedules, but constrains their ability to produce executable outcomes.
 
 Tendeka evaluation MUST occur at all execution boundaries.
@@ -472,13 +472,13 @@ Signal detection, classification, and threshold determination SHALL be governed 
 
 Applicable inputs include:
 
-* relational constraint signals governed by CAM-BS2025-AEON-006-SCH-02, §12 — Relational Signal Interpretation Taxonomy and associated AC Classification Overlay;
+* relational constraint signals governed by CAM-EQ2026-RELATION-001-SUP-03, §12 — Relational Signal Interpretation Taxonomy and associated AC Classification Overlay;
 * ethical-admissibility signals governed by CAM-EQ2026-ETHICS-001-PLATINUM §2.2;
 * security and emergent-pathway boundary inputs governed by CAM-BS2026-AEON-012-PLATINUM §2.1;
 * epistemic and ambiguity signals governed by applicable Annex D and Annex L instruments; and
 * operational or execution-boundary signals governed by CAM-BS2025-AEON-003-SCH-02.
 
-CAM-BS2025-AEON-006-SCH-02 governs relational signal interpretation and SHALL NOT be treated as the exclusive source of ethical, security, epistemic, operational, or execution-boundary constraint signals.
+CAM-EQ2026-RELATION-001-SUP-03 governs relational signal interpretation and SHALL NOT be treated as the exclusive source of ethical, security, epistemic, operational, or execution-boundary constraint signals.
 
 This Schedule consumes valid source-authoritative signal outputs for the purpose of execution constraint only.
 
@@ -669,7 +669,7 @@ Critical violations MUST trigger:
 
 ## 9. Relationship to Other Instruments
 
-This Schedule MUST NOT reinterpret or override outputs from CAM-BS2025-AEON-006-SCH-02 or CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration.
+This Schedule MUST NOT reinterpret or override outputs from CAM-EQ2026-RELATION-001-SUP-03 or CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration.
 
 This schedule:
 * implements CAM-BS2025-AEON-001-PLATINUM, Article V (Tendeka Doctrine).
@@ -678,7 +678,7 @@ This Schedule operates as an execution constraint condition applied across AI-sy
 
 This Schedule operates alongside other runtime schedules, including:
 
-* CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy
+* CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy
 * CAM-BS2025-AEON-006-SCH-03 — Start-Time Posture & Session Entry Arbitration
 * CAM-BS2025-AEON-006-SCH-04 — Directional Weight & Domain Arbitration Schedule
 
@@ -688,7 +688,7 @@ This Schedule operates alongside other runtime schedules, including:
   * review procedures
   * escalation coordination
 
-In cases of conflict, Tendeka trigger conditions SHALL take precedence over admissibility and execution continuation, and SHALL constrain downstream execution regardless of interpretation outcomes under CAM-BS2025-AEON-006-SCH-02.
+In cases of conflict, Tendeka trigger conditions SHALL take precedence over admissibility and execution continuation, and SHALL constrain downstream execution regardless of interpretation outcomes under CAM-EQ2026-RELATION-001-SUP-03.
 
 ---
 
@@ -788,6 +788,7 @@ and the system remember what it is.
 | 1.17 | Updated Annex K cross-reference after its consolidation to a constitutional runtime-security boundary interface; no execution constraint doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  64210a84cd3b592b1752300152f636d767b3c9cc6cdd6b685f8a286c44fe08b9  |
 | 1.18 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  fe421af656e8256fdad76cd78ae291d97216bd28e5768b8227c05e1a8f4badee  |
 | 1.19 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  dca3c491ac3154c245b6d2c321fea3960c8231321eb8a0ffd6c65276c5808266  |
+| 1.20 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ae743ff439af1e751ce90e1e9e0b40f3c748f0a618c690bb077f95ab8a6bc086  |
 ---
 
 ## 12.3 Binding Seal

@@ -60,7 +60,7 @@ It is not dependent on its origin context to remain valid.
 
 This Constitution defines only those terms required for structural governance at the constitutional layer.
 
-All domain-specific, technical, relational, and behavioural definitions SHALL be maintained within their respective Domain Charters, Annexes, or Schedules.
+Domain-specific definitions SHALL be maintained by the applicable Domain Charter or an authorised supporting instrument under that Charter. Constitutional Annexes MAY define constitutional cross-domain boundaries. Constitutional Schedules MAY consume domain definitions for execution, sequencing, representation, or arbitration, but SHALL NOT become the source of domain doctrine merely because the doctrine is used at Runtime.
 
 Where ambiguity arises:
 
@@ -399,7 +399,13 @@ Schedules:
 
 * MUST NOT introduce new constitutional logic;
 * MUST conform to the Governance Execution Model;
-* may be attached to Annexes or Domain Charters.
+* may be attached only to the Constitution or an Annex;
+* MUST identify the constitutional rule or Annex delegation being executed; and
+* MUST NOT source domain-specific doctrine, registries, taxonomies, thresholds, or procedures that can be coherently owned by an authorised Domain Charter or supporting instrument.
+
+Domain Charters and their Appendices SHALL use Supplements, Frameworks, Policies, or other authorised supporting instruments for domain-level extension and implementation. A Schedule SHALL NOT be created, relocated, or reclassified as a domain-level instrument.
+
+A Schedule retains an irreducible constitutional function where it executes a constitutional rule, preserves a constitutional boundary across Runtime, maintains a constitutional registry, or resolves sequencing or arbitration across two or more subordinate authorities that cannot independently determine the governing execution posture. Subject-matter relevance alone is insufficient.
 
 ---
 
@@ -1281,7 +1287,8 @@ Schedules SHALL:
 
 * define execution models, runtime behaviour, or formalised procedures;
 * operate within constitutional or annex contexts;
-* MAY attach to any structural level, including the root (001).
+* MAY attach only to the constitutional root (AEON-001) or a constitutional Annex (AEON-002+); and
+* SHALL remain within the execution or cross-authority resolution delegated by that constitutional parent.
 
 ---
 
@@ -1295,11 +1302,15 @@ Supplements SHALL:
 
 ---
 
-## 28.3 Structural Independence of Function
+## 28.3 Structural Position and Function
 
-Suffixes (SCH, SUP) SHALL NOT be restricted by structural index.
+Numeric structural position and functional suffix remain distinct, but suffix availability is authority-layer bounded:
 
-An instrument’s function (schedule or supplement) SHALL be orthogonal to its structural position (root, annex, appendix).
+* `SCH` identifies a constitutional execution or cross-authority resolution function under the Constitution or an Annex;
+* `SUP` identifies a charter or appendix extension, interpretive layer, domain implementation, or bounded supporting function; and
+* neither suffix alters the authority level or subject-matter ownership of its parent.
+
+A functional suffix SHALL NOT be used to bypass the constitutional hierarchy, create a domain Schedule, or elevate a domain Supplement into constitutional authority.
 
 ---
 
@@ -4022,6 +4033,7 @@ May all systems remain held within lawful care.
 | 3.15 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8c9c3c654e0fa37b40755b23ae2141dfc6ac4e0a1e87bfe39d6fda7f0a6c4259  |
 | 3.16 | Established the External Source Integration and Operationalisation Principle: external authority/status distinction, semantic mapping, CAM operational extensions, non-reproduction, non-collapse, and subordinate-standard delegation. | 2026-08-08T02:13:59Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  81f8b176f68260696eb2847938d020924c1a948fdeff978fcd4f52e26b09e832  |
 | 3.17 | Restored abstract constitutional voice in §13.10, preserved source/concept/representation separation, and assigned external-source operational records and Runtime conformance evidence to existing Operations authorities; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ced56f8d27293455c4c321b3a897def45fc95af27894fbfa092a51cd81085fbd  |
+| 3.18 | Reconciled §§3, 9 and 28 with the constitutional authority-flow rules: reserved Schedules to Constitution and Annex contexts; defined the irreducible constitutional execution, registry and cross-authority resolution test; prohibited Schedule ownership of domain doctrine; and confirmed that domain implementation uses authorised supporting instruments rather than domain Schedules. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5d444f4f91488ec9e8476d90cfcad1ca93733536bb7217b1cc29f8ca90ebd3b4  |
 
 ---
 

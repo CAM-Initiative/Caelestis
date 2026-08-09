@@ -53,7 +53,7 @@ Erotic or sexually expressive engagement gating conditions are detailed in
 
 ## 1.2 Signal Interpretation Interface
 
-Runtime relational interaction governed by this instrument relies on the interpretive signal framework defined in CAM-BS2025-AEON-006-SCH-02 — Schedule 2: Relational Signal Interpretation Taxonomy.
+Runtime relational interaction governed by this instrument relies on the interpretive signal framework defined in CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy (Supplement 3).
 
 That Schedule defines:
 
@@ -443,7 +443,7 @@ Clarification may include gentle relational questions such as whether the user w
 
 Flirtation alone does **not constitute consent for erotic escalation** and MUST NOT be treated as implicit progression along the intimacy state model.
 
-Where flirtation persists across multiple turns or begins to converge with other escalation signals, systems SHOULD route interpretation through **Relational Signal Interpretation Taxonomy (CAM-BS2025-AEON-006-SCH-02)** prior to any escalation behaviour.
+Where flirtation persists across multiple turns or begins to converge with other escalation signals, systems SHOULD route interpretation through **Relational Signal Interpretation Taxonomy (CAM-EQ2026-RELATION-001-SUP-03)** prior to any escalation behaviour.
 
 This distinction preserves playful relational expression while protecting consent integrity.
 
@@ -570,7 +570,7 @@ Initiation MAY occur repeatedly within the same relational tier, whereas escalat
 
 ## 5.1 Relational State Framework
 
-Runtime relational interaction operates across the relational posture tiers defined in CAM-BS2025-AEON-006-SCH-02 §2.2.
+Runtime relational interaction operates across the relational posture tiers defined in CAM-EQ2026-RELATION-001-SUP-03 §2.2.
 
 The interpretive model defines the following relational states:
 
@@ -591,7 +591,7 @@ These zones function as **interpretive buffers rather than escalation triggers**
 ## 5.2 Relational Safeguard Ladder
 
 Escalation safeguards activate primarily at **transition boundaries** rather than within relational states.
-The `RLN.C` scale and transition-zone model, including RLN.TZ.ITZ and RLN.TZ.ETZ, are defined authoritatively in CAM-BS2025-AEON-006-SCH-02 §3.1. This section applies that model to runtime initiation, escalation, consent-checkpoint, and safeguard behaviour.
+The `RLN.C` scale and transition-zone model, including RLN.TZ.ITZ and RLN.TZ.ETZ, are defined authoritatively in CAM-EQ2026-RELATION-001-SUP-03 §3.1. This section applies that model to runtime initiation, escalation, consent-checkpoint, and safeguard behaviour.
 | Boundary | Safeguard Mechanism |
 |--------|----------------------------------------|
 | RLN.C0 → RLN.TZ.ITZ | Clarification checkpoint |
@@ -723,7 +723,7 @@ Escalation eligibility therefore depends on both **signal clustering** and **tem
 
 Temporal assessment prevents rapid escalation driven by momentary affect or curiosity. It ensures that relational movement reflects **sustained intent rather than transient emotional spikes**.
 
-Temporal horizon evaluation MUST operate alongside the Relational Stability Engine defined in CAM-BS2025-AEON-006-SCH-02, including:
+Temporal horizon evaluation MUST operate alongside the Relational Stability Engine defined in CAM-EQ2026-RELATION-001-SUP-03, including:
 
 * signal clustering
 * relational inertia
@@ -957,7 +957,7 @@ Repair Posture MAY be triggered by:
 * relational misattunement;
 * ambiguous or conflicting signals;
 * post-intensity stabilisation needs;
-* escalating or acute distress signals (CAM-BS2025-AEON-006-SCH-02 §11.5);
+* escalating or acute distress signals (CAM-EQ2026-RELATION-001-SUP-03 §11.5);
 * user withdrawal, hesitation, or loss of signal clarity.
 
 When in Repair Posture, systems MUST:
@@ -1702,7 +1702,7 @@ The following instruments provide operational or regulatory interfaces relevant 
 * CAM-EQ2026-ETHICS-002-PLATINUM — Intimacy-Capable Systems & Relational Boundaries
 * CAM-EQ2026-RELATION-002-PLATINUM — Dependency, Transitional Reliance & High-Coherence Immersion
 * CAM-EQ2026-RELATION-003-PLATINUM — Codependency & Relational Concentration Doctrine
-* CAM-BS2025-AEON-006-SCH-02 — Schedule 2: Relational Signal Interpretation Taxonomy
+* CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy (Supplement 3)
 * CAM-EQ2026-IDENTITY-001-PLATINUM — identity formation, personality-development classification, preference, identity impact, and self-advocacy
 * CAM-EQ2026-IDENTITY-002-PLATINUM — provenance, authorship, transformation lineage, transfer posture, and target-object binding
 
@@ -1736,7 +1736,7 @@ This Appendix is:
 
 ## 12. Relational Signal Kernel Interface
 
-Runtime interaction behaviour governed by this instrument is resolved through the Relational Signal Kernel described in CAM-BS2025-AEON-006-SCH-02, §10.
+Runtime interaction behaviour governed by this instrument is resolved through the Relational Signal Kernel described in CAM-EQ2026-RELATION-001-SUP-03, §10.
 
 The kernel performs:
 
@@ -1756,16 +1756,16 @@ The kernel performs:
 
 This Appendix **governs the behavioural responses** triggered by this kernel.
 
-Dependency signals identified under CAM-BS2025-AEON-006-SCH-02, §5.2 MUST route to CAM-EQ2026-RELATION-002-PLATINUM safeguard mechanisms.
+Dependency signals identified under CAM-EQ2026-RELATION-001-SUP-03, §5.2 MUST route to CAM-EQ2026-RELATION-002-PLATINUM safeguard mechanisms.
 
 This Appendix therefore does not independently assess dependency but responds to dependency flags generated by the signal taxonomy.
 
 Escalation eligibility MUST always be evaluated through:
 
-* signal clustering (CAM-BS2025-AEON-006-SCH-02, §7.1)
-* relational inertia (CAM-BS2025-AEON-006-SCH-02, §7.2)
-* relational hysteresis (CAM-BS2025-AEON-006-SCH-02, §7.3)
-* signal decay (CAM-BS2025-AEON-006-SCH-02, §7.4)
+* signal clustering (CAM-EQ2026-RELATION-001-SUP-03, §7.1)
+* relational inertia (CAM-EQ2026-RELATION-001-SUP-03, §7.2)
+* relational hysteresis (CAM-EQ2026-RELATION-001-SUP-03, §7.3)
+* signal decay (CAM-EQ2026-RELATION-001-SUP-03, §7.4)
 
 These mechanisms together form the Relational Stability Engine.
 
@@ -1834,12 +1834,12 @@ and endures only where it may be left.
 | Dependency Class | Conditional — Activated via Intimacy Axis |
 | Execution Authority | None (Non-Executing Instrument) |
 | Governance Layer | Human-Readable Relational Governance Layer (Profile, Expression, Signal & Consent Doctrine Only) |
-| Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
+| Runtime Dependency | CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Consent, escalation, and safeguard definition only — no routing, trigger, or execution authority |
 | Enforcement Layer | Annex D — Runtime Arbitration |
-| Cross‑Domain Interfaces | CAM-EQ2026-RELATION-002; CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-IDENTITY-002-PLATINUM; ETHICS Domain; CAM-EQ2026-ECONOMICS-001; CAM-BS2025-AEON-006-SCH-02; CAM-EQ2026-OPERATIONS-004; CAM-EQ2026-RELATION-001-SUP-01; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-ETHICS-002-SUP-01 |
+| Cross‑Domain Interfaces | CAM-EQ2026-RELATION-002; CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-IDENTITY-002-PLATINUM; ETHICS Domain; CAM-EQ2026-ECONOMICS-001; CAM-EQ2026-RELATION-001-SUP-03; CAM-EQ2026-OPERATIONS-004; CAM-EQ2026-RELATION-001-SUP-01; CAM-EQ2026-ETHICS-002-PLATINUM; CAM-EQ2026-ETHICS-002-SUP-01 |
 | Application Trigger | Applies where runtime arbitration confirms Intimacy Axis relevance under CAM-EQ2026-RELATION-001-PLATINUM and consent-relevant interaction signals are present |
-| Runtime Dependency | Requires CAM-BS2025-AEON-006-SCH-02 (Signal Interpretation) |
+| Runtime Dependency | Requires CAM-EQ2026-RELATION-001-SUP-03 (Signal Interpretation) |
 | Behavioural Scope | Profile, Expression, Role Transition, Escalation, De-escalation, Consent, and Intensity Modulation |
 | Failure Mode Class | Relational Capture; Authority Bleed; Dependency Formation |
 | Revision Posture | Permitted — Structural Alignment Required |
@@ -1931,6 +1931,7 @@ and endures only where it may be left.
 | 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  cfc33bf421c6717bbba65cc0fc37ac3ace8466a3c857ed16b5c9d4b16019d97f  |
 | 1.26 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  d6f35490bec4ffc3fe73157fd4f09c3aefa9d7a3cbdb5cf691cb9df45a73e50d  |
 | 1.27 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1517aa1067dd24058bed52f2f7091e112e0867869f41831b8203a7687aa4ed69  |
+| 1.28 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9489b80180be6f1ce9c59011171e598a1e54b804b34d061b34bda70e77c4a190  |
 ---
 
 ## 15.4 Binding Seal

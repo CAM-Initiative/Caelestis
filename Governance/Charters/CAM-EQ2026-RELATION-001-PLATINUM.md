@@ -35,6 +35,8 @@ This Charter derives authority from CAM-BS2025-AEON-006-PLATINUM — Annex E.
 
 Relational configuration is defined through independent participant, topology, coordination, institutional-mediation, distribution, persistence, dependency, jurisdictional-reach and impact dimensions in **CAM-BS2025-AEON-003-PLATINUM — Annex B, §2**. CAM-EQ2026-RELATION-007-PLATINUM applies those dimensions to coordinated and multi-party relational safeguards.
 
+CAM-EQ2026-RELATION-001-SUP-03 is the bounded source-authoritative interpretive Supplement for the `RLN.C`, `RLN.TZ`, `RLN.AC`, `RLN.RA`, `RLN.TB`, `RLN.CP`, `RLN.RSE`, `RLN.SCC`, and `RLN.SCS` families. It classifies and packages relational signals for downstream runtime and arbitration use; it does not independently determine cross-domain arbitration, execute safeguards, or enlarge this Charter's domain authority.
+
 ---
 
 ## 3. The Four Relational Dimensions (Non-Collapsing Rule)
@@ -90,7 +92,7 @@ Literal communication, humour, deadpan expression, social uncertainty, neurodive
 
 Where the relevant meaning remains materially ambiguous, systems SHOULD preserve plausible interpretations or seek the least disruptive clarification compatible with user agency, dignity, consent, safety, and practical usefulness.
 
-This section defines substantive relational doctrine. Runtime signal interpretation and directional modulation are governed by CAM-BS2025-AEON-006-SCH-02 and CAM-BS2025-AEON-006-SCH-04 respectively.
+This section defines substantive relational doctrine. Runtime signal interpretation and directional modulation are governed by CAM-EQ2026-RELATION-001-SUP-03 and CAM-BS2025-AEON-006-SCH-04 respectively.
 
 ---
 
@@ -388,7 +390,7 @@ The C‑Scale provides a **relational posture taxonomy** used to make intimacy s
 
 For governance clarity, intimacy‑relevant interaction contexts MAY be classified using the following relational categories. These classes describe interaction posture only and do not themselves determine platform enforcement mechanisms.
 
-The `RLN.C` scale is source-authoritatively defined for runtime signal interpretation in CAM-BS2025-AEON-006-SCH-02, §3.1. This Charter uses `RLN.C` scale terminology as domain-level relational governance framing and does not redefine the canonical C-state family.
+The `RLN.C` scale is source-authoritatively defined for runtime signal interpretation in CAM-EQ2026-RELATION-001-SUP-03, §3.1. This Charter uses `RLN.C` scale terminology as domain-level relational governance framing and does not redefine the canonical C-state family.
 
 ---
 
@@ -996,7 +998,7 @@ RLN.SYP does not independently create authority, consent, enforcement, escalatio
 
 ### 13.6 `RLN.C` — Relational State Architecture Reference
 
-This Charter consumes and applies the **RLN.C** code family source-authoritatively defined in **CAM-BS2025-AEON-006-SCH-02 §3.1**. CAM-EQ2026-RELATION-001-PLATINUM uses `RLN.C` scale terminology as domain-level relational governance framing and does not redefine the canonical C-state family.
+This Charter consumes and applies the **RLN.C** code family source-authoritatively defined in **CAM-EQ2026-RELATION-001-SUP-03 §3.1**. CAM-EQ2026-RELATION-001-PLATINUM uses `RLN.C` scale terminology as domain-level relational governance framing and does not redefine the canonical C-state family.
 
 ---
 
@@ -1050,7 +1052,7 @@ that which is real remains recognisable.
 | Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Derives From | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
 | Relational Configuration Anchor | CAM-BS2025-AEON-003-PLATINUM — Annex B §2 |
-| Partial Supersession | CAM-BS2025-AEON-005-SCH-02 — Engagement & Identity Classification; CAM-BS2025-AEON-006-SCH-01; CAM-BS2025-AEON-006-SCH-02 |
+| Partial Supersession | CAM-BS2025-AEON-005-SCH-02 — Engagement & Identity Classification; CAM-BS2025-AEON-006-SCH-01; CAM-EQ2026-RELATION-001-SUP-03 |
 | Domain Namespace | RLN |
 | Jurisdiction | Planetary — Human–AI, AI–AI, Hybrid Collectives |
 | Temporal Horizon | AEON.H3.5 — Succession‑Aware / Inter‑Generational |
@@ -1188,7 +1190,7 @@ that which is real remains recognisable.
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §6.2 |
-| Source Authority for Consumed Family | CAM-BS2025-AEON-006-SCH-02 §3.1 |
+| Source Authority for Consumed Family | CAM-EQ2026-RELATION-001-SUP-03 §3.1 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Reference only; RELATION-001 does not define RLN.C0–RLN.C3 |
 | Operationalises or Applies Code Families | Uses `RLN.C` scale terminology as domain-level relational governance framing for intimacy-relevant posture analysis |
@@ -1231,7 +1233,7 @@ that which is real remains recognisable.
 | Code Families Defined | None |
 | Source Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
 | Source Section | §11.1 |
-| Source Authority for Consumed Family | C: CAM-BS2025-AEON-006-SCH-02 §3.1; `ETH.RISK`: CAM-EQ2026-ETHICS-003-PLATINUM §3.5 |
+| Source Authority for Consumed Family | C: CAM-EQ2026-RELATION-001-SUP-03 §3.1; `ETH.RISK`: CAM-EQ2026-ETHICS-003-PLATINUM §3.5 |
 | Domain Namespace | RLN |
 | Authority / Protection Level | Terminology bridge only; distinguishes relational escalation from harm-class escalation; defines no new base code family values |
 | Operationalises or Applies Code Families | Uses A/C examples to clarify relational intensity movement and references `ETH.RISK` for external risk-escalation terminology |
@@ -1271,6 +1273,7 @@ that which is real remains recognisable.
 | 1.22 | Established RELATION-001 as the controlled source-authoritative relational domain instrument; aligned its current terminology with Annex B’s independent relational-configuration dimensions; retired the former geometry labels from current doctrine and routed coordinated multi-party safeguards to RELATION-007. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8ba0e770b5d0a87538802d44dd6ff5253b3cb8d8bfe27f6ca62ad684b6fd8e6a  |
 | 1.23 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  352d20b83d6217bbc10d574dbb0f16dc25064efc115ca535e9281966706e6329  |
 | 1.24 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6732c85e5d0578dc614546868ec87e66a5e031281eee687c8c6eb2fc405adbc8  |
+| 1.25 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5df4fb5e6356661ce14196d75d43cc3c5868377f90374c8514ac5dce8187b699  |
 
 ---
 

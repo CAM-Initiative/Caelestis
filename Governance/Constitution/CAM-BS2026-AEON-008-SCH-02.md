@@ -29,7 +29,7 @@ Economic meaning, resource class semantics, prohibited semantic collapses, and v
 
 ## 2. Runtime Position
 
-This Schedule sits beneath CAM-BS2026-AEON-008-SCH-02 — Annex G as a constitutional runtime schedule.
+This Schedule operates under CAM-BS2026-AEON-008-PLATINUM — Annex G as a constitutional runtime Schedule.
 
 It applies where a system operation produces, modifies, consumes, withholds, converts, replenishes, depletes, expires, exposes, or commits an economic-effect state.
 
@@ -811,6 +811,7 @@ and optimisation without dignity forgets why systems were built at all.
 | 1.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0f34fa569743441423ae9e7c845c08eca032fc99631b9bf1d79cb0f600609e4c  |
 | 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6c925501a0c4d2d263820067bf0f521e52642dfb730a7827aadb7d150ab5aa5a  |
 | 1.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c1dc2de4659d005b33aa54b069d74e9a129ebcd2160822a80f5b09fa2370a741  |
+| 1.10 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  0d006d1d06e6b9137f4d7ca15998805785b337454cd7fef82c30ea8c9e2359b0  |
 ---
 
 ## 35.4 Binding Seal

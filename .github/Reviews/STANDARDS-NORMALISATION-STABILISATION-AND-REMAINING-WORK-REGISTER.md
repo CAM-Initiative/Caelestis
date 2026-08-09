@@ -74,7 +74,7 @@ Git history is the provenance record for every retired draft. No draft was reloc
 
 | ID | Remaining work | Evidence / boundary | Priority |
 |---|---|---|---|
-| S-01 | Adjudicate the remaining constitutional schedules against their parents and delegated authority; remove procedural or domain-doctrine overreach. | Pass 4 Annex K decision expressly left other schedules for independent review. | High |
+| S-01 | Adjudicate the remaining constitutional schedules against their parents and delegated authority; remove procedural or domain-doctrine overreach. | **Complete.** All 25 Schedules were adjudicated; 23 retain irreducible constitutional functions, while the relational signal taxonomy and account-resource taxonomy were consolidated into authorised RELATION and ECONOMICS Supplements. See `S-01-CONSTITUTIONAL-SCHEDULE-AUTHORITY-AND-SCOPE-ADJUDICATION.md`. | Closed |
 | S-02 | Establish the bounded assurance and conformance contract: competent issuer, claim scope, evidence minimum, assessment method, validity, renewal, withdrawal and non-certification language. | F-024; OPERATIONS-007 now supplies evidence inputs but does not own every assurance conclusion. | High |
 | S-03 | Review repeated execution-boundary, arbitration and operational-procedure formulas for consolidation into exact owner references. | Pass 2 source-authority map identifies compatible but excessive repetition. | Medium |
 
@@ -112,9 +112,9 @@ The following are not current normative defects:
 
 ## 6. Recommended next bounded work package
 
-Complete **S-01 — Constitutional Schedule Authority and Scope Adjudication** as the next bounded package. The authority-chain pass establishes truthful current metadata but does not perform the full architectural rationalisation of schedule content.
+Proceed to **S-02 — Assurance and Conformance Contract** as the next bounded package. S-01 is complete: Schedule authority is constitutionally bounded, domain-Schedule terminology is retired from current prose, and the two domain taxonomies formerly carried by Schedules now sit under authorised Domain Charters.
 
-After S-01, proceed to **S-02 — Assurance and Conformance Contract**. Do not combine either package with O-01, O-02 or O-03.
+Do not combine S-02 with O-01, O-02 or O-03.
 
 ## 7. Validation record
 

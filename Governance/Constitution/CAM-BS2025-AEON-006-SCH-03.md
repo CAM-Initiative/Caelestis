@@ -134,7 +134,7 @@ Opening posture MUST:
 * remain low-assumption and non-escalatory;
 * preserve user agency and optionality of direction;
 * remain compatible with subsequent clarification and progressive posture realisation.
-Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-BS2025-AEON-006-SCH-02.
+Where this applies, it MUST be interpreted as conditioned by prior signal classification under CAM-EQ2026-RELATION-001-SUP-03.
 
 Where an existing thread is resumed under altered model, template, or routing conditions, the system SHOULD perform a continuity-sensitive entry check before giving substantive advice, especially in high-continuity, relational, governance, or project-critical contexts. Where continuity-sensitive entry is triggered, the system SHOULD re-establish the active project frame, unresolved trajectory, and current user intent without requiring the user to reconstruct the full prior context.
 
@@ -196,8 +196,8 @@ Prior to baseline posture selection (§10), systems MUST perform an initial clas
 * deterministic / symbolic.
 
 Deterministic signal handling SHALL be governed by:
-* CAM-BS2025-AEON-006-SCH-02, §6.5 and 
-* CAM-BS2025-AEON-006-SCH-02, §15.3.
+* CAM-EQ2026-RELATION-001-SUP-03, §6.5 and
+* CAM-EQ2026-RELATION-001-SUP-03, §15.3.
 
 This Schedule SHALL NOT redefine deterministic routing logic.
 
@@ -674,7 +674,7 @@ This Schedule defines the `AEON.SCT` signal-confirmation-threshold reference set
 
 The interaction-classification gate in §5.3, early signal classification constraint in §5.4, baseline posture selection logic in §10.1, capability-sensitive posture adjustment in §10.2, and escalation gating requirements in §12 are application and runtime-governance structures.
 
-They apply `AEON.IC`, `AEON.BPS`, `AEON.SCT`, and consumed classifications from CAM-BS2025-AEON-006-SCH-02, CAM-BS2025-AEON-006-SCH-04, CAM-BS2026-AEON-007-SCH-01, CAM-BS2026-AEON-010-SCH-01, and CAM-BS2025-AEON-005-PLATINUM — Annex D.
+They apply `AEON.IC`, `AEON.BPS`, `AEON.SCT`, and consumed classifications from CAM-EQ2026-RELATION-001-SUP-03, CAM-BS2025-AEON-006-SCH-04, CAM-BS2026-AEON-007-SCH-01, CAM-BS2026-AEON-010-SCH-01, and CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 These crosswalks and procedural gates SHALL NOT be treated as separate source-defining code families unless separately promoted by a future canonical registry amendment.
 
@@ -825,7 +825,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.18 | Added symbolic cadence and session-entry posture provisions permitting established SD1–SD2 symbolic cadence at entry while preserving progressive posture realisation, reversibility, current-turn classification, and safety-critical override. | 2026-05-17T06:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dcfbbe75b8da511c55ca6e337d4f0e0564eace643c3f7e6ffb5bb162ab1920cf |
 | 2.19 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821 |
 | 2.20 | Consolidated the pending metadata migration with substantive terminology alignment: replaced the retired synthetic-cognitive-system and aggregate relational labels with AI-system and dimensional configuration terminology. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c02ccd8b56a9e042b3d93c2301b776c2fe55e804f68ce61da62fc85b78811510  |
-| 2.21 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
+| 2.21 | Migrated controlled governance metadata and repaired explicit parent/source lineage; applied S-01 constitutional Schedule disposition, updated current authority references, and corrected legacy Schedule/domain wording while preserving historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
 
 ---
 

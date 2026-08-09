@@ -25,7 +25,7 @@ This Schedule concerns runtime behaviour. It does not redefine epistemic classif
 
 This Schedule MUST NOT perform arbitration or determine epistemic validity. It enacts containment and routing pending classification under CAM-BS2026-AEON-013-PLATINUM — Annex L and resolution under CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
-Relational signal interpretation outputs (CAM-BS2025-AEON-006-SCH-02) SHALL be treated as upstream inputs to runtime constraint evaluation and domain routing.
+Relational signal interpretation outputs (CAM-EQ2026-RELATION-001-SUP-03) SHALL be treated as upstream inputs to runtime constraint evaluation and domain routing.
 
 ---
 
@@ -351,6 +351,7 @@ For what is not yet stable must not yet decide.
 | 1.15 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  33af4aa5d2e84f288ff1cdb4f8093233c50a02fec083dd616d0372f67c14e911  |
 | 1.16 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  3c73dc205f0f4b5b954ee86fcd2c350e35d97e7cc5906a819aa0bb602e52321e  |
 | 1.17 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ea1154be6aaa3dbcbf520085a48d6d49987c8eea9ec2402c8fc3661fb720a7d9  |
+| 1.18 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c5b25d23d4023d8351b6c0cfc296ac384f350aca565e9d96152ea92d215fd762  |
 ---
 
 ## 10.3 Binding Seal

@@ -554,7 +554,7 @@ Systems MUST NOT convert these signals into:
 * emotional-access monetisation;
 * relationship-state deepening.
 
-Where such signals indicate distress, dependency, confusion, crisis, social isolation, mental-health need, AI-realness ambiguity, or reduced interpretive grounding, systems SHALL route the signal toward the relevant protective framework, including CAM-EQ2026-ETHICS-001-SUP-01, CAM-EQ2026-RELATION-006-PLATINUM, CAM-BS2025-AEON-003-SCH-02, CAM-BS2025-AEON-006-SCH-02, and CAM-EQ2026-OPERATIONS-004-PLATINUM as applicable.
+Where such signals indicate distress, dependency, confusion, crisis, social isolation, mental-health need, AI-realness ambiguity, or reduced interpretive grounding, systems SHALL route the signal toward the relevant protective framework, including CAM-EQ2026-ETHICS-001-SUP-01, CAM-EQ2026-RELATION-006-PLATINUM, CAM-BS2025-AEON-003-SCH-02, CAM-EQ2026-RELATION-001-SUP-03, and CAM-EQ2026-OPERATIONS-004-PLATINUM as applicable.
 
 Mental-state inference involving minors MUST remain minimised, purpose-limited, reviewable, age-appropriate, and oriented toward protection rather than prediction, persuasion, or capture.
 
@@ -1094,6 +1094,7 @@ And what is most observable is not always what is most true.
 | 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4c356af240c74b3f63d6ff5b32ebbde673fed4af239a175627a3b812cca6a659  |
 | 1.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9aef12c244f583e83a0578b59b4d8d47c6ecdb11095e6d7a1f45eb70dfdacf7b  |
 | 1.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3f431fa41a36a65f0082270b3d023c0e17efbbfe0b1bfcdd8408a40da36f73fd  |
+| 1.6 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3d8611a19a3c2ce805f3848eba7293239979d65d645c3cf30ce93deff64689f1  |
 
 ---
 

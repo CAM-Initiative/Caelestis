@@ -716,7 +716,7 @@ Where direction is resolved, let behaviour remain coherent.
 | Temporal Horizon | AEON.H0–AEON.H4 |
 | Axis Context | participant-topology and coordination |
 | Revision Posture | Active — Candidate / Post-Arbitration Integration |
-| Related Instruments | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-006-SCH-03; CAM-BS2025-AEON-006-SCH-04; CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-IDENTITY-002-PLATINUM; CAM-BS2026-AEON-013-PLATINUM; CAM-BS2026-AEON-010-SCH-01 |
+| Related Instruments | CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2025-AEON-006-SCH-03; CAM-BS2025-AEON-006-SCH-04; CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-IDENTITY-002-PLATINUM; CAM-BS2026-AEON-013-PLATINUM; CAM-BS2026-AEON-010-SCH-01 |
 | Creation Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
 | Amendment Artefact | `.github/Reviews/RELATIONAL-IDENTITY-CONSOLIDATION-DELTA.md` |
 
@@ -767,6 +767,7 @@ Where direction is resolved, let behaviour remain coherent.
 | 1.14 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  43364cdb68b749ad380deb99ffa57a3c169675013ab9193ecfe4cfa4b9904788  |
 | 1.15 | Replaced the retired phenomenological-review dependency with exact Identity, epistemic-evidence, and ETHICS interfaces while preserving constitutional arbitration and pause boundaries; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  20591c5cc4fd0c6f5fcf7cd4630f0f6e68619968ba6a3cf34b7c140ff92f7634  |
 | 1.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  08f24419938b0832d5dbd6958d036935dcb5bdb4a304b8cb6298efc94f6620a8  |
+| 1.17 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5b133eaf4f844eeb5be0e78a41f3e8f2b02bf01638f7b9a9cbff609b5bf0f734  |
 
 ---
 

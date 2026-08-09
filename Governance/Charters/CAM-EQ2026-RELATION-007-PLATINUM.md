@@ -79,7 +79,7 @@ Shared-thread, group, team, family, institutional, or multi-user context MUST be
 
 Private memory, personal profile information, account-level instruction artefacts, intimacy history, dependency indicators, or individual continuity claims MUST NOT be imported into a shared context by default. Shared interaction content MUST NOT automatically update a participant’s private relational profile, memory state, identity profile, or dependency classification.
 
-Where account resources, projects, repositories, folders, billing, or pooled capacity are involved, CAM-BS2026-AEON-008-SCH-03 governs account-resource classification.
+Where account resources, projects, repositories, folders, billing, or pooled capacity are involved, CAM-EQ2026-ECONOMICS-001-SUP-01 governs account-resource classification.
 
 ### 3.4 Authority Concentration and Relational Capture
 
@@ -178,6 +178,7 @@ More participants, more systems, broader distribution, or institutional mediatio
 | --- | --- | --- | --- | --- | --- | --- |
 | 2.5 | Substantially replaced the prior relational-configuration doctrine. Retired its single ordinal scale and legacy terminology from current doctrine; introduced independent participant, topology, mediation, distribution, persistence, dependency, jurisdiction and impact fields; retained coordination disclosure, consent propagation, shared-context, anti-capture, amplification, and floor-integrity safeguards. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  98df74c510e561dae97825bb76347cf74c2fe5d5c9ef03747c260c7e2d1bfeac  |
 | 2.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  bec08578c08e4ab7b26d72259bced7d46523643d24320f1925387804bfc72893  |
+| 2.7 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7a2754b5beb6ef44faa32b75f8a20c75a517d44021ee52fd45d7abe7e7c939f3  |
 
 ### 7.3 Binding Seal
 

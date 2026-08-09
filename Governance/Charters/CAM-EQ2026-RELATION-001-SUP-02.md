@@ -85,7 +85,7 @@ For governance purposes, user-facing claims SHOULD be classified according to th
 
 This Supplement source-authoritatively defines the **RLN.RTC** code family in §3 with controlled values **RLN.RTC.FACT, RLN.RTC.CONT, RLN.RTC.CAP, RLN.RTC.GOV, RLN.RTC.INT, RLN.RTC.AFFECT, RLN.RTC.ASSURE, RLN.RTC.SYMB, RLN.RTC.ID, RLN.RTC.REC**. Primary Type is **Semantic** and Subtype is **RELATIONAL_TRUTH_CLAIM_TYPE**. RLN.RTC classifies user-facing claim types for truth calibration in relational, continuity-bearing, companion, advisory, developmental, governance, creative, and high-reliance AI interactions.
 
-RLN.RTC does not independently create execution authority, routing authority, verification authority, refusal authority, epistemic authority, permission state, incident-response procedure, or runtime action. Any operational handling, escalation, verification, routing, or governance consequence must be established by a separate operational rule, runtime pathway, parent instrument, or applicable domain schedule.
+RLN.RTC does not independently create execution authority, routing authority, verification authority, refusal authority, epistemic authority, permission state, incident-response procedure, or runtime action. Any operational handling, escalation, verification, routing, or governance consequence MUST be established by a separate operational rule, runtime pathway, parent instrument, authorised domain instrument, or applicable constitutional Schedule.
 
 ---
 
@@ -356,6 +356,7 @@ and where no claim wears a borrowed crown.
 | 1.5 | Updated continuity-claim taxonomy from singular arbitration-locus continuity to arbitration-topology continuity. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  5b42c2a8c9e579f368dec5ff135110c8ee8eb8adbbc22f9a44cb7142f429987f  |
 | 1.6 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  a864275f490ae3d787992e95c393dd633a93154acf5f30073d7f6e2e50a7e24d  |
 | 1.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  baba0488eb17bd9ccb5d13afc7bb4e0ee2f776c32fbdf09bb2437637be04c0f7  |
+| 1.8 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c7a8ce62ec6d377dd91d92d2eaf87b59377609c133204d81016ae2bab2ce5f1f  |
 ---
 
 ## 11.4 Binding Seal

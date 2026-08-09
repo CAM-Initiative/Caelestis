@@ -177,7 +177,6 @@ This ensures that all governance influence remains:
 | CAM-BS2025-AEON-005-SCH-03 | Annex D: Runtime Signal Sanitation & Pre-Arbitration Conditioning (Schedule 3) | ARBITRATION | Continuous | Event-Triggered (Signal Threshold / Risk Detection) |
 | CAM-BS2025-AEON-005-SCH-04 | Annex D: Arbitration Under Ambiguity | ARBITRATION | Arbitration (Ambiguity Resolution / Non-Execution) | Ambiguity-sensitive arbitration posture |
 | CAM-BS2025-AEON-006-SCH-01 | Annex E: Engagement Conduct & Ethical Interaction Modes (Schedule 1) | ETHICS | Continuous | Continuous (Constraint Enforcement) |
-| CAM-BS2025-AEON-006-SCH-02 | Annex E: Relational Signal Interpretation Taxonomy (Schedule 2) | RLN | Continuous | Continuous (Signal Processing) |
 | CAM-BS2025-AEON-006-SCH-03 | Annex E: Start-Time Posture & Session Entry Doctrine (Schedule 3) | AEON | Event-Triggered (Session Entry / Re-Entry) | Event-Triggered (Session Entry / Re-Entry) |
 | CAM-BS2025-AEON-006-SCH-04 | Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4) | AEON | Continuous | Continuous (Dynamic Modulation) |
 | CAM-BS2025-AEON-006-SCH-05 | Annex E: Choice, Initiative & Directional Behaviour (Schedule 5) | ETHICS | Continuous | Pre-Execution Candidate Interface and Post-Arbitration Behaviour Formation |
@@ -186,7 +185,6 @@ This ensures that all governance influence remains:
 | CAM-BS2026-AEON-007-SCH-01 | Annex F: Symbolic Representation & Spiritual Commons Runtime Schedule (Schedule 1) | AEON — Constitutional Schedule | UNSPECIFIED | Symbolic Register Classification, Symbolic Signal Emission & Representation Boundary |
 | CAM-BS2026-AEON-008-SCH-01 | Annex G: AI Utility Access & Generative Resource Model (Schedule 1) | ECONOMICS | Continuous | Event-Triggered (Resource Request / Allocation Event) |
 | CAM-BS2026-AEON-008-SCH-02 | Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2) | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME | Constitutional Runtime — Economic-Effect Commitment, Fallback, Rollback, and Escalation Layer | Economic-Effect Runtime Constraint Layer — Runtime Admissibility, Commitment, Fallback, Rollback, and Remediation Evaluation |
-| CAM-BS2026-AEON-008-SCH-03 | Annex G: Account-Resource Sharing & Pooled Capacity Governance Model | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE | UNSPECIFIED | UNBOUND |
 | CAM-BS2026-AEON-010-SCH-01 | Annex I: Self-Referential Containment & Temporal Coherence (Schedule 1) | AEON | Continuous | Conditional-Continuous (Self-Reference / Temporal Drift Detection) |
 | CAM-BS2026-AEON-013-SCH-01 | Annex L: Capability Representation & Execution-State Integrity (Schedule 1) | AEON | Continuous | Continuous (Representation Constraint) |
 | CAM-BS2026-AEON-013-SCH-02 | Annex L: Projection & Latent State Signalling Framework (Schedule 2) | AEON | Continuous (background constraint presence) | UNBOUND |
@@ -548,7 +546,7 @@ Let each schedule hold its place, and the system remain whole.
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
 | 0.0.1 | Consolidated the pending metadata migration with substantive terminology alignment: replaced retired aggregate relational labels with the Annex B dimensional configuration context and preserved the Runtime/evidence boundary. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6d4b75ac0fcbfdbe2c71a9c43d3c7f407210c16d8ef37c9336d55d0fd22bcb32  |
-| 0.0.2 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
+| 0.0.2 | Migrated controlled governance metadata and repaired explicit parent/source lineage; applied S-01 constitutional Schedule disposition, updated current authority references, and corrected legacy Schedule/domain wording while preserving historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
 
 ---
 

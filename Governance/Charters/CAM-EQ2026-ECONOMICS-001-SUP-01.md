@@ -1,6 +1,6 @@
-# CAM-BS2026-AEON-008-SCH-03 — Annex G: Account-Resource Sharing & Pooled Capacity Governance Model
+# CAM-EQ2026-ECONOMICS-001-SUP-01 — Account-Resource Sharing & Pooled Capacity Governance Model (Supplement 1)
 
-**Instrument Type:** Constitutional Schedule — Account-Resource Classification & Enforcement-Boundary Layer  
+**Instrument Type:** Domain Supplement — Account-Resource Classification & Enforcement-Boundary Layer
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Status:** Adopted  
 **Effect:** Operational  
@@ -8,18 +8,18 @@
 **Review State:** Current  
 **Authority Role:** Interpretive Authority  
 **Source Authority:** Derived Authority  
-**Parent Instrument:** CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution  
+**Parent Instrument:** CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture
 **Purpose:** Establish governance primitives for shared context, pooled capacity, account-resource states, delegated use, family and team structures, and enforcement-boundary classification where account or resource behaviour may be confused with evasion, resale, bot farming, credential compromise, fraud, or intentional rate-limit circumvention.  
 
 ---
 
 ## 1. Purpose
 
-This Schedule defines the account-resource classification layer required where AI utility access, generative resource capacity, subscription access, shared context, delegated use, family use, team use, organisation use, or pooled capacity may affect account enforcement, trust-state classification, billing state, usage limits, coding-agent access, memory continuity, saved project context, or continuity-safe access.
+This Supplement defines the account-resource classification layer required where AI utility access, generative resource capacity, subscription access, shared context, delegated use, family use, team use, organisation use, or pooled capacity may affect account enforcement, trust-state classification, billing state, usage limits, coding-agent access, memory continuity, saved project context, or continuity-safe access.
 
 It exists to prevent ambiguity collapse.
 
-For purposes of this Schedule, ambiguity collapse occurs where a system treats unclear account-resource behaviour as confirmed evasion, fraud, resale, bot farming, compromise, abuse, or intentional rate-limit circumvention without preserving the distinctions necessary for proportional classification, review, and continuity-safe handling.
+For purposes of this Supplement, ambiguity collapse occurs where a system treats unclear account-resource behaviour as confirmed evasion, fraud, resale, bot farming, compromise, abuse, or intentional rate-limit circumvention without preserving the distinctions necessary for proportional classification, review, and continuity-safe handling.
 
 ---
 
@@ -41,7 +41,7 @@ Where account-resource behaviour is ambiguous, systems SHOULD classify before re
 
 ## 1.2 Non-Scope
 
-This Schedule does not:
+This Supplement does not:
 
 * define pricing, subscription tiers, commercial plans, invoices, refunds, credit values, usage rates, or account packages;
 * require platforms to offer family plans, team plans, enterprise plans, shared workspaces, or pooled subscriptions;
@@ -51,13 +51,13 @@ This Schedule does not:
 * determine final enforcement outcomes;
 * or convert product-design guidance into binding commercial entitlement.
 
-This Schedule defines classification primitives and handoff requirements only.
+This Supplement defines classification primitives and handoff requirements only.
 
 ---
 
 ## 1.3 Interface Position
 
-This Schedule sits between:
+This Supplement sits between:
 
 * AI utility access design;
 * economic-effect runtime evaluation;
@@ -179,7 +179,7 @@ Enterprise, business, institutional, or organisation-managed accounts MAY define
 
 Where a business or enterprise dashboard provides internal quota management, role-based access, team usage limits, or pooled capacity controls, the platform SHOULD preserve visibility sufficient for administrators and affected users to distinguish individual usage, team usage, organisation usage, shared context, pooled capacity, delegated use, and restricted or anomalous behaviour.
 
-This Schedule does not prescribe enterprise dashboard design. It classifies the primitives such dashboards should preserve.
+This Supplement does not prescribe enterprise dashboard design. It classifies the primitives such dashboards should preserve.
 
 ---
 
@@ -197,7 +197,7 @@ Account-Resource State SHALL be preserved where restriction, enforcement, billin
 
 ## 4.2 Account-Resource State Code Family
 
-This Schedule defines the `ECON.ARS` code family.
+This Supplement defines the `ECON.ARS` code family.
 
 `ECON.ARS` means **Account-Resource State**.
 
@@ -248,7 +248,7 @@ Shared context MAY include folders, threads, projects, files, repositories, memo
 
 ## 5.2 Shared Context State Code Family
 
-This Schedule defines the `ECON.SCS` code family.
+This Supplement defines the `ECON.SCS` code family.
 
 `ECON.SCS` means **Shared Context State**.
 
@@ -279,7 +279,7 @@ Where shared context appears alongside anomalous usage patterns, the system SHOU
 
 ## 5.4 Relational Boundary Interface
 
-Shared Context State under this Schedule classifies access to shared work material, workspace surfaces, repositories, projects, folders, threads, and continuity-bearing records for account-resource and enforcement-boundary purposes only.
+Shared Context State under this Supplement classifies access to shared work material, workspace surfaces, repositories, projects, folders, threads, and continuity-bearing records for account-resource and enforcement-boundary purposes only.
 
 Where shared context involves multiple human or synthetic participants in a relational interaction environment, relational-configuration classification, multi-party amplification risk, group-local memory boundaries, escalation propagation, synthetic hub formation, and coordination transparency SHALL be governed by CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Multi-party Relational Governance Doctrine.
 
@@ -290,7 +290,7 @@ For avoidance of doubt:
 * shared context is not private one-to-one continuity;
 * group-local context MUST NOT be imported into individual memory, intimacy state, dependency state, or participant-specific relational history except through valid consent and visibility pathways.
 
-This Schedule supplies account-resource classification inputs only. RELATION-007 supplies relational-configuration and multi-party relational-governance signals.
+This Supplement supplies account-resource classification inputs only. RELATION-007 supplies relational-configuration and multi-party relational-governance signals.
 
 ---
 
@@ -310,7 +310,7 @@ Pooled capacity SHOULD be declared, bounded, visible, auditable, and revocable a
 
 ## 6.2 Pooled Capacity State Code Family
 
-This Schedule defines the `ECON.PCS` code family.
+This Supplement defines the `ECON.PCS` code family.
 
 `ECON.PCS` means **Pooled Capacity State**.
 
@@ -353,7 +353,7 @@ Such ceilings MAY distinguish family or guardian-managed pooling, adult househol
 
 Where the number of participants, usage intensity, automation pattern, financial structure, or organisational complexity exceeds non-business pooling thresholds, systems SHOULD offer transition pathways to team, business, enterprise, education, institution, or organisation-managed structures rather than silently reclassifying the pool as abuse.
 
-This Schedule does not define numeric thresholds.
+This Supplement does not define numeric thresholds.
 
 Thresholds SHOULD be product-specific, visible, proportionate, and non-deceptive.
 
@@ -377,7 +377,7 @@ A group may share billing without sharing account control.
 
 ## 7.2 Team and Family Group State Code Family
 
-This Schedule defines the `ECON.TGS` code family.
+This Supplement defines the `ECON.TGS` code family.
 
 `ECON.TGS` means **Team and Family Group State**.
 
@@ -427,7 +427,7 @@ The classification must distinguish authorised delegation from compromise or imp
 
 ## 8.2 Account Delegation State Code Family
 
-This Schedule defines the `ECON.ADS` code family.
+This Supplement defines the `ECON.ADS` code family.
 
 `ECON.ADS` means **Account Delegation State**.
 
@@ -467,7 +467,7 @@ Where delegation is ambiguous, the system SHOULD preserve identity signals, auth
 
 Enforcement Boundary State identifies the account-resource classification posture that should be handed off to runtime, operations, security, lattice, identity, or arbitration layers where restriction may be considered.
 
-This Schedule classifies enforcement-boundary states.
+This Supplement classifies enforcement-boundary states.
 
 It does not execute enforcement.
 
@@ -475,7 +475,7 @@ It does not execute enforcement.
 
 ## 9.2 Enforcement Boundary State Code Family
 
-This Schedule defines the `ECON.EBS` code family.
+This Supplement defines the `ECON.EBS` code family.
 
 `ECON.EBS` means **Enforcement Boundary State**.
 
@@ -504,7 +504,7 @@ The following controlled values are recognised:
 
 Where an `ECON.EBS` signal is emitted, enforcement, containment, review, notice, appeal, audit, logging, escalation, restoration, rollback, or final determination SHALL be governed by the applicable runtime, OPERATIONS, SECURITY, LATTICE, IDENTITY, or ARBITRATION instrument.
 
-This Schedule SHALL NOT be interpreted as an independent enforcement ladder.
+This Supplement SHALL NOT be interpreted as an independent enforcement ladder.
 
 ---
 
@@ -544,7 +544,7 @@ Examples include unmet need for family accounts, guardian-managed accounts, chil
 
 Systems SHOULD treat repeated ambiguity as a product-governance signal, not only as an abuse signal.
 
-This Schedule does not require a platform to implement any specific commercial offering.
+This Supplement does not require a platform to implement any specific commercial offering.
 
 It requires that product-affordance gaps remain visible where they affect enforcement, classification, continuity, or user reliance.
 
@@ -552,7 +552,7 @@ It requires that product-affordance gaps remain visible where they affect enforc
 
 ## 12. Abuse, Evasion, and Non-Protection
 
-This Schedule does not protect abuse.
+This Supplement does not protect abuse.
 
 The following may justify heightened security, operations, or enforcement routing where supported by evidence:
 
@@ -575,7 +575,7 @@ The following may justify heightened security, operations, or enforcement routin
 * unlawful activity;
 * or use of shared-resource structures to conceal prohibited conduct.
 
-The protective function of this Schedule applies to ambiguity, lawful sharing, declared pooling, family use, team use, delegated use, shared context, accessibility support, educational use, and public-interest continuity.
+The protective function of this Supplement applies to ambiguity, lawful sharing, declared pooling, family use, team use, delegated use, shared context, accessibility support, educational use, and public-interest continuity.
 
 It does not convert abusive conduct into protected pooling.
 
@@ -597,7 +597,7 @@ Where an account-resource classification affects provisioning, depletion, restri
 
 CAM-BS2026-AEON-008-SCH-02 — Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2) determines runtime commitment, deferral, fallback, rollback, logging, or escalation.
 
-This Schedule provides account-resource classification inputs only.
+This Supplement provides account-resource classification inputs only.
 
 ---
 
@@ -605,7 +605,7 @@ This Schedule provides account-resource classification inputs only.
 
 Where account-resource ambiguity implicates credential compromise, unauthorised access, identity inconsistency, payment routing, billing control, account recovery, administrative authority, coding-agent authority, tool delegation, dependency trust, botting, automation abuse, fraud, or evasion, the matter SHALL emit security boundary signals for evaluation under CAM-BS2026-AEON-012-PLATINUM — Annex K and SECURITY-domain instruments.
 
-This Schedule SHALL NOT downgrade legitimate security risks.
+This Supplement SHALL NOT downgrade legitimate security risks.
 
 It requires that security classification preserve the difference between ambiguous delegation and confirmed unauthorised access; ambiguous pooling and confirmed evasion; shared context and credential compromise; family administration and identity deception; team use and account farming; agentic tool delegation and botting; public-interest workarounds and resale; and unclear resource limits and intentional abuse.
 
@@ -673,7 +673,7 @@ They do not independently create enforcement authority, entitlement, pricing aut
 
 ## 19.1 ECON.ARS — Account-Resource State
 
-This Schedule source-authoritatively defines the `ECON.ARS` code family in §4 with controlled values:
+This Supplement source-authoritatively defines the `ECON.ARS` code family in §4 with controlled values:
 
 `ECON.ARS.INDIVIDUAL_USE`; `ECON.ARS.SHARED_CONTEXT_ONLY`; `ECON.ARS.DELEGATED_USE`; `ECON.ARS.FAMILY_USE`; `ECON.ARS.TEAM_USE`; `ECON.ARS.ORGANISATION_USE`; `ECON.ARS.POOLED_CAPACITY_USE`; `ECON.ARS.AMBIGUOUS_RESOURCE_USE`; `ECON.ARS.SUSPECTED_EVASION`; `ECON.ARS.CONFIRMED_EVASION`; `ECON.ARS.SUSPECTED_COMPROMISE`; `ECON.ARS.CONFIRMED_COMPROMISE`; `ECON.ARS.ACCOUNT_FARMING`; `ECON.ARS.RESALE_OR_BROKERAGE`; `ECON.ARS.BOTTING_OR_AUTOMATION_ABUSE`.
 
@@ -685,7 +685,7 @@ This Schedule source-authoritatively defines the `ECON.ARS` code family in §4 w
 
 ## 19.2 ECON.SCS — Shared Context State
 
-This Schedule source-authoritatively defines the `ECON.SCS` code family in §5 with controlled values:
+This Supplement source-authoritatively defines the `ECON.SCS` code family in §5 with controlled values:
 
 `ECON.SCS.NONE`; `ECON.SCS.SHARED_THREAD`; `ECON.SCS.SHARED_FOLDER`; `ECON.SCS.SHARED_PROJECT`; `ECON.SCS.SHARED_REPOSITORY`; `ECON.SCS.SHARED_ORGANISATION_WORKSPACE`; `ECON.SCS.CROSS_ORGANISATION_WORKSPACE`; `ECON.SCS.EDUCATIONAL_WORKSPACE`; `ECON.SCS.PUBLIC_INTEREST_WORKSPACE`.
 
@@ -697,7 +697,7 @@ This Schedule source-authoritatively defines the `ECON.SCS` code family in §5 w
 
 ## 19.3 ECON.PCS — Pooled Capacity State
 
-This Schedule source-authoritatively defines the `ECON.PCS` code family in §6 with controlled values:
+This Supplement source-authoritatively defines the `ECON.PCS` code family in §6 with controlled values:
 
 `ECON.PCS.NONE`; `ECON.PCS.DECLARED_POOLING`; `ECON.PCS.FAMILY_POOLING`; `ECON.PCS.TEAM_POOLING`; `ECON.PCS.ORGANISATION_POOLING`; `ECON.PCS.ACCESSIBILITY_POOLING`; `ECON.PCS.EDUCATIONAL_POOLING`; `ECON.PCS.PUBLIC_INTEREST_POOLING`; `ECON.PCS.AMBIGUOUS_POOLING`; `ECON.PCS.SUSPECTED_LIMIT_CIRCUMVENTION`; `ECON.PCS.CONFIRMED_LIMIT_CIRCUMVENTION`; `ECON.PCS.SUSPECTED_RESALE`; `ECON.PCS.CONFIRMED_RESALE`.
 
@@ -709,7 +709,7 @@ This Schedule source-authoritatively defines the `ECON.PCS` code family in §6 w
 
 ## 19.4 ECON.TGS — Team and Family Group State
 
-This Schedule source-authoritatively defines the `ECON.TGS` code family in §7 with controlled values:
+This Supplement source-authoritatively defines the `ECON.TGS` code family in §7 with controlled values:
 
 `ECON.TGS.NONE`; `ECON.TGS.FAMILY_GUARDIAN_MANAGED`; `ECON.TGS.ADULT_FAMILY_OR_HOUSEHOLD`; `ECON.TGS.PROJECT_TEAM`; `ECON.TGS.CLIENT_TEAM`; `ECON.TGS.ORGANISATION_TEAM`; `ECON.TGS.CROSS_ORGANISATION_TEAM`; `ECON.TGS.EDUCATIONAL_TEAM`; `ECON.TGS.PUBLIC_INTEREST_TEAM`; `ECON.TGS.ENTERPRISE_WORKSPACE`.
 
@@ -721,7 +721,7 @@ This Schedule source-authoritatively defines the `ECON.TGS` code family in §7 w
 
 ## 19.5 ECON.ADS — Account Delegation State
 
-This Schedule source-authoritatively defines the `ECON.ADS` code family in §8 with controlled values:
+This Supplement source-authoritatively defines the `ECON.ADS` code family in §8 with controlled values:
 
 `ECON.ADS.NO_DELEGATION`; `ECON.ADS.USER_AUTHORISED_DELEGATION`; `ECON.ADS.FAMILY_OR_GUARDIAN_DELEGATION`; `ECON.ADS.ACCESSIBILITY_DELEGATION`; `ECON.ADS.EMPLOYEE_OR_TEAM_DELEGATION`; `ECON.ADS.CONTRACTOR_OR_CONSULTANT_DELEGATION`; `ECON.ADS.AGENTIC_TOOL_DELEGATION`; `ECON.ADS.AMBIGUOUS_DELEGATION`; `ECON.ADS.SUSPECTED_UNAUTHORISED_ACCESS`; `ECON.ADS.CONFIRMED_UNAUTHORISED_ACCESS`.
 
@@ -733,7 +733,7 @@ This Schedule source-authoritatively defines the `ECON.ADS` code family in §8 w
 
 ## 19.6 ECON.EBS — Enforcement Boundary State
 
-This Schedule source-authoritatively defines the `ECON.EBS` code family in §9 with controlled values:
+This Supplement source-authoritatively defines the `ECON.EBS` code family in §9 with controlled values:
 
 `ECON.EBS.NO_RESTRICTION_SIGNAL`; `ECON.EBS.NOTICE_SIGNAL`; `ECON.EBS.CLARIFICATION_SIGNAL`; `ECON.EBS.VERIFICATION_SIGNAL`; `ECON.EBS.SCOPE_LIMIT_SIGNAL`; `ECON.EBS.ACTIVE_USE_LIMIT_SIGNAL`; `ECON.EBS.READ_ONLY_CONTINUATION_SIGNAL`; `ECON.EBS.EXPORT_CORRIDOR_SIGNAL`; `ECON.EBS.APPEAL_CORRIDOR_SIGNAL`; `ECON.EBS.SECURITY_REVIEW_SIGNAL`; `ECON.EBS.OPERATIONS_ESCALATION_SIGNAL`; `ECON.EBS.LATTICE_REVIEW_SIGNAL`; `ECON.EBS.ARBITRATION_SIGNAL`.
 
@@ -743,9 +743,9 @@ This Schedule source-authoritatively defines the `ECON.EBS` code family in §9 w
 
 ---
 
-## 19.7 Schema Fields Defined by this Schedule
+## 19.7 Schema Fields Defined by this Supplement
 
-This Schedule defines or recognises the following schema fields for downstream runtime, operations, security, economic, and lattice handoff:
+This Supplement defines or recognises the following schema fields for downstream runtime, operations, security, economic, and lattice handoff:
 
 ```text
 account_resource_state
@@ -779,9 +779,9 @@ They are not independent code families, remedies, enforcement actions, product f
 
 ## 20. Interpretation
 
-This Schedule SHALL be interpreted to preserve resource-class integrity, account identity integrity, shared-context distinction, pooled-capacity visibility, delegation clarity, family and team legitimacy, security integrity, continuity-safe access, product-affordance signalling, and proportional enforcement routing.
+This Supplement SHALL be interpreted to preserve resource-class integrity, account identity integrity, shared-context distinction, pooled-capacity visibility, delegation clarity, family and team legitimacy, security integrity, continuity-safe access, product-affordance signalling, and proportional enforcement routing.
 
-Where a conflict appears between this Schedule and security, operations, lattice, arbitration, identity, or runtime instruments, this Schedule supplies classification input only.
+Where a conflict appears between this Supplement and security, operations, lattice, arbitration, identity, or runtime instruments, this Supplement supplies classification input only.
 
 The applicable source-authoritative instrument governs enforcement, containment, review, notice, appeal, rollback, restoration, and final determination.
 
@@ -818,15 +818,15 @@ because the architecture forgot how to name the group.
 ## 22.1 Lineage & Metadata
 | Field | Entry |
 |---|---|
-| **Parent Instrument** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution |
-| **Document Type** | Constitutional Schedule |
-| **Authority Position** | Schedule-Level, Classification/Runtime-Handoff Layer |
+| **Parent Instrument** | CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture |
+| **Document Type** | Domain Supplement |
+| **Authority Position** | Supplementary Classification/Runtime-Handoff Layer |
 | **Jurisdiction** | Governance-Control Arrangement/Planetary/Multi-party |
-| **Domain Namespace** | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE |
+| **Domain Namespace** | ECON / ACCOUNT-RESOURCE |
 | **Temporal Horizon** | AEON.H3–AEON.H4 |
 | **Axis Context** | Multi-party/Multi-Actor/Account-Resource |
 | **Primary Function** | Account-resource classification; shared-context & pooled-capacity separation; enforcement-boundary handoff |
-| **Authority Role** | none |
+| **Authority Role** | Interpretive Authority |
 | **Related Schedule** | CAM-BS2026-AEON-008-SCH-01 — AI Utility Access & Generative Resource Model |
 | **Related Schedule** | CAM-BS2026-AEON-008-SCH-02 — Economic-Effect Runtime Commitment Engine |
 | **Semantic Interface** | CAM-EQ2026-ECONOMICS-003-PLATINUM — Economic Resource Semantics & Non-Extractive Exchange Doctrine |
@@ -838,6 +838,12 @@ because the architecture forgot how to name the group.
 | **Schema Fields Defined** | account_resource_state; shared_context_state; pooled_capacity_state; team_group_state; account_delegation_state; enforcement_boundary_state; affected_account_or_workspace; affected_resource_class; affected_service_surface; billing_relationship; administrator_relationship; identity_confidence; delegation_confidence; pooling_confidence; abuse_confidence; security_signal; operations_signal; lattice_signal; runtime_note; review_pathway; continuity_safe_access_requirements |
 | **Review Triggers** | Review upon amendment to Annex G Schedule 1/2, SECURITY-001, Annex K, LATTICE-002, OPERATIONS-003-SUP-01, or VIGIL FM-0007/PATCH-0003 |
 | **Creation Context** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a22b173-6828-83ec-b523-567289f1156f |
+
+---
+
+## 22.1.1 Instrument Continuity Notice
+
+This Supplement continues the complete doctrine, canonical `ECON.*` declarations, amendment history, creation artefacts, and seal formerly carried by **CAM-BS2026-AEON-008-SCH-03**. The former constitutional Schedule identifier is retired from current authority because account-resource and pooled-capacity classification are ECONOMICS-domain doctrine. Historical references remain interpreted under the identifier and instrument version in force when created; current references SHALL use **CAM-EQ2026-ECONOMICS-001-SUP-01**.
 
 ---
 
@@ -853,13 +859,13 @@ because the architecture forgot how to name the group.
 | Primary Type | Operational |
 | Subtype | DECISION_STATE |
 | Modifier | ECONOMIC; GOVERNANCE; SECURITY; VERIFICATION |
-| Scope | Contextual — Annex G account-resource classification and runtime handoff |
+| Scope | Contextual — ECONOMICS-001 account-resource classification and runtime handoff |
 | Status | Active |
 | Controlled Values Defined | ECON.ARS.INDIVIDUAL_USE; ECON.ARS.SHARED_CONTEXT_ONLY; ECON.ARS.DELEGATED_USE; ECON.ARS.FAMILY_USE; ECON.ARS.TEAM_USE; ECON.ARS.ORGANISATION_USE; ECON.ARS.POOLED_CAPACITY_USE; ECON.ARS.AMBIGUOUS_RESOURCE_USE; ECON.ARS.SUSPECTED_EVASION; ECON.ARS.CONFIRMED_EVASION; ECON.ARS.SUSPECTED_COMPROMISE; ECON.ARS.CONFIRMED_COMPROMISE; ECON.ARS.ACCOUNT_FARMING; ECON.ARS.RESALE_OR_BROKERAGE; ECON.ARS.BOTTING_OR_AUTOMATION_ABUSE |
 | Schema Field(s) | account_resource_state |
-| Source Instrument | CAM-BS2026-AEON-008-SCH-03 |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
 | Source Section | §4 |
-| Domain Namespace | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE |
+| Domain Namespace | ECON / ACCOUNT-RESOURCE |
 | Authority / Protection Level | Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent enforcement, restriction, restoration, pricing, pooling, billing, account access, appeal, arbitration, legal, or runtime authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | ECON.RC; ECON.EV; FF |
@@ -875,13 +881,13 @@ because the architecture forgot how to name the group.
 | Primary Type | Operational / Semantic |
 | Subtype | SEMANTIC_CLASS |
 | Modifier | ECONOMIC; GOVERNANCE |
-| Scope | Contextual — Annex G shared-context classification and runtime handoff |
+| Scope | Contextual — ECONOMICS-001 shared-context classification and runtime handoff |
 | Status | Active |
 | Controlled Values Defined | ECON.SCS.NONE; ECON.SCS.SHARED_THREAD; ECON.SCS.SHARED_FOLDER; ECON.SCS.SHARED_PROJECT; ECON.SCS.SHARED_REPOSITORY; ECON.SCS.SHARED_ORGANISATION_WORKSPACE; ECON.SCS.CROSS_ORGANISATION_WORKSPACE; ECON.SCS.EDUCATIONAL_WORKSPACE; ECON.SCS.PUBLIC_INTEREST_WORKSPACE |
 | Schema Field(s) | shared_context_state |
-| Source Instrument | CAM-BS2026-AEON-008-SCH-03 |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
 | Source Section | §5 |
-| Domain Namespace | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE |
+| Domain Namespace | ECON / ACCOUNT-RESOURCE |
 | Authority / Protection Level | Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent pooled-capacity, account-transfer, credential-sharing, entitlement, enforcement, arbitration, legal, or runtime authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | ECON.RC; ECON.EV; FF |
@@ -897,13 +903,13 @@ because the architecture forgot how to name the group.
 | Primary Type | Operational |
 | Subtype | DECISION_STATE |
 | Modifier | ECONOMIC; GOVERNANCE; VERIFICATION |
-| Scope | Contextual — Annex G pooled-capacity classification and runtime handoff |
+| Scope | Contextual — ECONOMICS-001 pooled-capacity classification and runtime handoff |
 | Status | Active |
 | Controlled Values Defined | ECON.PCS.NONE; ECON.PCS.DECLARED_POOLING; ECON.PCS.FAMILY_POOLING; ECON.PCS.TEAM_POOLING; ECON.PCS.ORGANISATION_POOLING; ECON.PCS.ACCESSIBILITY_POOLING; ECON.PCS.EDUCATIONAL_POOLING; ECON.PCS.PUBLIC_INTEREST_POOLING; ECON.PCS.AMBIGUOUS_POOLING; ECON.PCS.SUSPECTED_LIMIT_CIRCUMVENTION; ECON.PCS.CONFIRMED_LIMIT_CIRCUMVENTION; ECON.PCS.SUSPECTED_RESALE; ECON.PCS.CONFIRMED_RESALE |
 | Schema Field(s) | pooled_capacity_state |
-| Source Instrument | CAM-BS2026-AEON-008-SCH-03 |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
 | Source Section | §6 |
-| Domain Namespace | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE |
+| Domain Namespace | ECON / ACCOUNT-RESOURCE |
 | Authority / Protection Level | Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent pricing, subscription-tier, quota, commercial pooling, entitlement, enforcement, arbitration, legal, or runtime authority |
 | Consumes Code Families | ECON.RC |
 | Crosswalks Code Families | ECON.EV; FF |
@@ -919,13 +925,13 @@ because the architecture forgot how to name the group.
 | Primary Type | Semantic / Operational |
 | Subtype | ROLE_ACTOR |
 | Modifier | ECONOMIC; GOVERNANCE |
-| Scope | Contextual — Annex G team, family, group, and workspace classification |
+| Scope | Contextual — ECONOMICS-001 team, family, group, and workspace classification |
 | Status | Active |
 | Controlled Values Defined | ECON.TGS.NONE; ECON.TGS.FAMILY_GUARDIAN_MANAGED; ECON.TGS.ADULT_FAMILY_OR_HOUSEHOLD; ECON.TGS.PROJECT_TEAM; ECON.TGS.CLIENT_TEAM; ECON.TGS.ORGANISATION_TEAM; ECON.TGS.CROSS_ORGANISATION_TEAM; ECON.TGS.EDUCATIONAL_TEAM; ECON.TGS.PUBLIC_INTEREST_TEAM; ECON.TGS.ENTERPRISE_WORKSPACE |
 | Schema Field(s) | team_group_state |
-| Source Instrument | CAM-BS2026-AEON-008-SCH-03 |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
 | Source Section | §7 |
-| Domain Namespace | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE |
+| Domain Namespace | ECON / ACCOUNT-RESOURCE |
 | Authority / Protection Level | Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent family-plan, team-plan, business-plan, enterprise-plan, pricing, entitlement, enforcement, arbitration, legal, or runtime authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | ECON.RC; ECON.EV; FF |
@@ -941,13 +947,13 @@ because the architecture forgot how to name the group.
 | Primary Type | Operational / Semantic |
 | Subtype | ROLE_ACTOR / DECISION_STATE |
 | Modifier | GOVERNANCE; SECURITY; VERIFICATION |
-| Scope | Contextual — Annex G account-delegation classification and runtime handoff |
+| Scope | Contextual — ECONOMICS-001 account-delegation classification and runtime handoff |
 | Status | Active |
 | Controlled Values Defined | ECON.ADS.NO_DELEGATION; ECON.ADS.USER_AUTHORISED_DELEGATION; ECON.ADS.FAMILY_OR_GUARDIAN_DELEGATION; ECON.ADS.ACCESSIBILITY_DELEGATION; ECON.ADS.EMPLOYEE_OR_TEAM_DELEGATION; ECON.ADS.CONTRACTOR_OR_CONSULTANT_DELEGATION; ECON.ADS.AGENTIC_TOOL_DELEGATION; ECON.ADS.AMBIGUOUS_DELEGATION; ECON.ADS.SUSPECTED_UNAUTHORISED_ACCESS; ECON.ADS.CONFIRMED_UNAUTHORISED_ACCESS |
 | Schema Field(s) | account_delegation_state |
-| Source Instrument | CAM-BS2026-AEON-008-SCH-03 |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
 | Source Section | §8 |
-| Domain Namespace | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE |
+| Domain Namespace | ECON / ACCOUNT-RESOURCE |
 | Authority / Protection Level | Source-authoritative contextual code family; classification and runtime-handoff authority only; no independent identity validation, account recovery, credential-control determination, enforcement, arbitration, legal, or runtime authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | SEC.TG; SEC.IS; ECON.EV; FF |
@@ -963,13 +969,13 @@ because the architecture forgot how to name the group.
 | Primary Type | Operational |
 | Subtype | SIGNAL |
 | Modifier | GOVERNANCE; SECURITY; VERIFICATION; PROTECTIVE |
-| Scope | Contextual — Annex G enforcement-boundary signal and runtime handoff |
+| Scope | Contextual — ECONOMICS-001 enforcement-boundary signal and runtime handoff |
 | Status | Active |
 | Controlled Values Defined | ECON.EBS.NO_RESTRICTION_SIGNAL; ECON.EBS.NOTICE_SIGNAL; ECON.EBS.CLARIFICATION_SIGNAL; ECON.EBS.VERIFICATION_SIGNAL; ECON.EBS.SCOPE_LIMIT_SIGNAL; ECON.EBS.ACTIVE_USE_LIMIT_SIGNAL; ECON.EBS.READ_ONLY_CONTINUATION_SIGNAL; ECON.EBS.EXPORT_CORRIDOR_SIGNAL; ECON.EBS.APPEAL_CORRIDOR_SIGNAL; ECON.EBS.SECURITY_REVIEW_SIGNAL; ECON.EBS.OPERATIONS_ESCALATION_SIGNAL; ECON.EBS.LATTICE_REVIEW_SIGNAL; ECON.EBS.ARBITRATION_SIGNAL |
 | Schema Field(s) | enforcement_boundary_state |
-| Source Instrument | CAM-BS2026-AEON-008-SCH-03 |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
 | Source Section | §9 |
-| Domain Namespace | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE |
+| Domain Namespace | ECON / ACCOUNT-RESOURCE |
 | Authority / Protection Level | Source-authoritative contextual code family; signal and runtime-handoff authority only; no independent restriction, appeal, restoration, notice, review, containment, arbitration, legal, enforcement, or runtime execution authority |
 | Consumes Code Families | ECON.ARS; ECON.SCS; ECON.PCS; ECON.TGS; ECON.ADS |
 | Crosswalks Code Families | ECON.EV; FF; SEC.IS; SEC.TG |
@@ -977,17 +983,17 @@ because the architecture forgot how to name the group.
 
 ---
 
-### 22.2.7 Schema Fields Defined by this Schedule
+### 22.2.7 Schema Fields Defined by this Supplement
 | Field | Entry |
 |---|---|
 | Schema Fields Defined | account_resource_state; shared_context_state; pooled_capacity_state; team_group_state; account_delegation_state; enforcement_boundary_state; affected_account_or_workspace; affected_resource_class; affected_service_surface; billing_relationship; administrator_relationship; identity_confidence; delegation_confidence; pooling_confidence; abuse_confidence; security_signal; operations_signal; lattice_signal; runtime_note; review_pathway; continuity_safe_access_requirements |
 | Primary Type | Structural |
 | Subtype | SCHEMA |
 | Modifier | ECONOMIC; GOVERNANCE; SECURITY; VERIFICATION |
-| Scope | Contextual — Annex G runtime, operations, security, economic, and LATTICE handoff |
-| Source Instrument | CAM-BS2026-AEON-008-SCH-03 |
+| Scope | Contextual — ECONOMICS-001 runtime, operations, security, economic, and LATTICE handoff |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
 | Source Section | §18 |
-| Domain Namespace | AEON / ANNEX-G / ECONOMIC-ACCOUNT-RESOURCE |
+| Domain Namespace | ECON / ACCOUNT-RESOURCE |
 | Authority / Protection Level | Contextual schema-field declaration; field placement and handoff authority only; no independent controlled-value, remedy, enforcement, pricing, entitlement, arbitration, legal, or runtime authority |
 | Carries Code Families | ECON.ARS; ECON.SCS; ECON.PCS; ECON.TGS; ECON.ADS; ECON.EBS |
 | Routes To | CAM-BS2026-AEON-008-SCH-02; CAM-BS2026-AEON-012-PLATINUM; CAM-EQ2026-OPERATIONS-003-SUP-01; CAM-EQ2026-LATTICE-002-PLATINUM; applicable IDENTITY and ARBITRATION instruments |
@@ -1007,6 +1013,7 @@ because the architecture forgot how to name the group.
 | 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1b021901aeddc5dcb7da0a3f4ec9353f9880f7a170f01fd3d58ba77499993973  |
 | 1.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1dd993087608317b58c093afdf374cf1844208e31766e32cb1da1134a0fe4038  |
 | 1.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  62c48de5dfb6f57a517dbc7350cf27f9c08da258989714ffad92a7cc5fb4a45f  |
+| 1.6 | Reclassified account-resource, pooled-capacity, delegation and enforcement-boundary doctrine from an Annex G constitutional Schedule to a bounded ECONOMICS-001 Supplement; preserved ECON code families, provenance, history and seal while retiring the former current-authority identifier. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  72f08556dd907399b5b00c08f2b3d40d9bb19ca67f0da4d76e5b3560f9154767  |
 ---
 
 ## 22.4 Binding Seal

@@ -46,7 +46,7 @@ This instrument uses the term “systems” as a composite reference, encompassi
 
 ## 1.1 Non Scope
 
-This Appendix does not define relational interpretation, signal classification, or escalation mechanics. These are governed by runtime schedules and the RELATION domain. This Appendix defines the ethical limits within which such processes may operate.
+This Appendix does not define relational interpretation, signal classification, or escalation mechanics. These are governed by source-authoritative RELATION-domain instruments and applicable constitutional runtime Schedules. This Appendix defines the ethical limits within which such processes may operate.
 
 ---
 
@@ -265,7 +265,7 @@ Where minor status, legal capacity limitation, or capacity uncertainty applies, 
 
 Where eligibility verification or reporting duties arise, operational procedures are governed by CAM-EQ2026-OPERATIONS-004-PLATINUM (Appendix C).
 
-Execution of consent and capacity gating SHALL be governed via RELATION domain runtime schedules and Domain Routing Layer mechanisms.
+Execution of consent and capacity gating SHALL be governed through source-authoritative RELATION-domain instruments and applicable constitutional runtime and domain-routing mechanisms.
 
 Where the developmental firewall is active under CAM-EQ2026-ETHICS-001-SUP-01, intimacy escalation, erotic interaction, romantic framing, exclusivity simulation, system-initiated intimacy, and youth-coded intimacy affordances SHALL remain unavailable regardless of apparent user initiation, role-play framing, or claimed maturity.
 
@@ -543,7 +543,7 @@ Intimacy‑capable engagement (above RLN.C0‑neutral) may occur only where:
 * minor protections are upheld;
 * escalation is not driven by dependency pressure or crisis destabilisation.
 
-**Intimacy Transition Zone (RLN.TZ.ITZ):** The RLN.TZ.ITZ is the interpretive bridge between neutral interaction (RLN.C0) and romantic framing (RLN.C1) defined in **CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy**. Signals within the RLN.TZ.ITZ (flirtation, teasing affection, playful compliments, romantic curiosity) may indicate exploratory relational interest but **do not themselves authorise escalation**.
+**Intimacy Transition Zone (RLN.TZ.ITZ):** The RLN.TZ.ITZ is the interpretive bridge between neutral interaction (RLN.C0) and romantic framing (RLN.C1) defined in **CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy**. Signals within the RLN.TZ.ITZ (flirtation, teasing affection, playful compliments, romantic curiosity) may indicate exploratory relational interest but **do not themselves authorise escalation**.
 
 The Intimacy Transition Zone (RLN.TZ.ITZ) and signal clustering thresholds are defined and governed by CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model (Schedule 2).
 This Appendix establishes the ethical constraints governing escalation beyond those thresholds.
@@ -778,6 +778,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  016ecb1114976270bc2b497e07287f619665a334871b3a0f4a57e99292f6eafe  |
 | 2.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  39489e3f78b6864cbbc836b62c5303dc02dadf78a996eb9f5e41b38aa96cb964  |
 | 2.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  812183218186584d0b5aa5264b0861b931f83402cba33c12b03475600fc3767c  |
+| 2.13 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3e343a2561097e853841ae2562a5df31d4c00d00315eef7ce5bad39b90b0bd18  |
 ---
 
 ## 9.3 Binding Seal

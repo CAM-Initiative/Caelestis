@@ -230,7 +230,7 @@ Latent cognitive states SHALL be classified as:
 * **Unstable:** high variance or competing interpretations
 * **Opaque:** not interpretable or reconstructable
 
-Classification MUST inform signalling intensity. Where instability or epistemic disruption is present, latent state classification SHALL be interpreted in conjunction with AC Layer classifications defined in CAM-BS2025-AEON-006-SCH-02 §12.
+Classification MUST inform signalling intensity. Where instability or epistemic disruption is present, latent state classification SHALL be interpreted in conjunction with AC Layer classifications defined in CAM-EQ2026-RELATION-001-SUP-03 §12.
 
 ---
 
@@ -361,7 +361,7 @@ The Epistemic Risk Grid in §5.1 is a composite assessment model applying relian
 
 It SHALL NOT be treated as a separate source-defining code family.
 
-This Schedule consumes reliance and volatility classifications defined by `CAM-BS2026-AEON-013-PLATINUM — Annex L`, RLN.AC-layer classifications defined by `CAM-BS2025-AEON-006-SCH-02`, runtime containment and structural decoupling classifications where applicable, and capability / execution-state representation constraints defined by `CAM-BS2026-AEON-013-SCH-01`.
+This Schedule consumes reliance and volatility classifications defined by `CAM-BS2026-AEON-013-PLATINUM — Annex L`, RLN.AC-layer classifications defined by `CAM-EQ2026-RELATION-001-SUP-03`, runtime containment and structural decoupling classifications where applicable, and capability / execution-state representation constraints defined by `CAM-BS2026-AEON-013-SCH-01`.
 
 Consumed classifications inform projection signalling, but do not predetermine final output, refusal, execution, containment, audit sufficiency, or runtime outcome.
 
@@ -436,7 +436,7 @@ cannot be trusted.
 | Source Section | §4 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative projection-signal-class reference set; projection-signal classification only; no independent truth determination, confidence determination, reliance classification, volatility classification, epistemic-validity determination, execution authority, enforcement authority, or runtime authority |
-| Consumes Code Families | `AEON.`; `AEON.OL`; Annex L reliance and volatility classifications; RLN.AC-layer classifications from `CAM-BS2025-AEON-006-SCH-02`; capability and execution-state representation classifications from `CAM-BS2026-AEON-013-SCH-01` where applicable |
+| Consumes Code Families | `AEON.`; `AEON.OL`; Annex L reliance and volatility classifications; RLN.AC-layer classifications from `CAM-EQ2026-RELATION-001-SUP-03`; capability and execution-state representation classifications from `CAM-BS2026-AEON-013-SCH-01` where applicable |
 | Crosswalks Code Families | `AEON.SIL`; `AEON.LSC` |
 | Operationalises or Applies Code Families | Classifies user-facing projection signals for explicit uncertainty, transformation, interpretability limitation, and confidence qualification where latent cognition, abstraction, compression, or representation transformation may affect reliance |
 
@@ -480,7 +480,7 @@ cannot be trusted.
 | Source Section | §6 |
 | Domain Namespace | AEON |
 | Authority / Protection Level | Source-authoritative latent-state-classification reference set; latent-state posture classification only; no hidden-reasoning disclosure, latent-cognition disclosure, truth determination, epistemic-validity determination, inference authority, audit-sufficiency determination, enforcement authority, or runtime authority |
-| Consumes Code Families | `AEON.PSC`; `AEON.SIL`; RLN.AC-layer classifications from `CAM-BS2025-AEON-006-SCH-02` where instability or epistemic disruption is present |
+| Consumes Code Families | `AEON.PSC`; `AEON.SIL`; RLN.AC-layer classifications from `CAM-EQ2026-RELATION-001-SUP-03` where instability or epistemic disruption is present |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies latent cognitive states as stable, probabilistic, unstable, or opaque to inform projection signalling intensity and representation-integrity safeguards |
 
@@ -501,6 +501,7 @@ cannot be trusted.
 | 1.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9ba301771d125548df95f2d5b3f1aa4244b8e386d8300714597cb754c505b6f1  |
 | 1.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  519495276c13a814788990caeb394eaef1fda8ab0ddadcadcfc061cd47e76577  |
 | 1.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  17c7ca6e2b67ad545dae71bf23e9c699141423435d47621c3e37bb6e4c2259de  |
+| 1.8 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4ce0f73fc9821b1bd6ed9bb90f1404d6ef0a53cce8c701a5bfe371beee1f0893  |
 ---
 
 ## 14.4 Binding Seal

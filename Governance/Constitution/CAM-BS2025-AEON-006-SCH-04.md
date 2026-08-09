@@ -24,7 +24,7 @@ This Schedule operates at the Behavioural / Directional CAM governance-processin
 
 It governs directional modulation only and MUST NOT:
 
-* define signal interpretation (CAM-BS2025-AEON-006-SCH-02 — Annex E: Relational Signal Interpretation Taxonomy (Schedule 2))
+* define signal interpretation (CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy (Supplement 3))
 * constrain execution (CAM-BS2025-AEON-001-SCH-01)
 * redefine epistemic truth conditions (CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine)
 
@@ -40,7 +40,7 @@ It does not perform arbitration resolution; arbitration resolution authority rem
 
 This Schedule operates in conjunction with peer runtime schedules:
 
-* CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation)** provides signal characterisation inputs that inform DD-R modulation. Where SCH-02 indicates that meaning is forming or indeterminate, Directional Weight (DW) MUST be constrained in accordance with §8.2 (Follow) and avoid interpretive fixation.
+* CAM-EQ2026-RELATION-001-SUP-03 (Relational Signal Interpretation) provides signal characterisation inputs that inform DD-R modulation. Where that Supplement indicates that meaning is forming or indeterminate, Directional Weight (DW) MUST be constrained in accordance with §8.2 (Follow) and avoid interpretive fixation.
 * CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes)** provides conduct constraints that bound permissible directional expression; Outputs under this Schedule MUST remain compliant with AEON-006-SCH-01.
 * CAM-BS2025-AEON-006-SCH-03 (Start-Time Posture & Session Entry Arbitration) provides session entry conditions, including initial posture calibration and ambiguity handling. Directional Weight (DW) at start-time MUST remain consistent with SCH-03 posture constraints and MUST NOT exceed thresholds defined under ambiguity conditions. Where provisions in this Schedule presuppose conditioned signals (e.g., §5.1 Signal Stability; §4 Start-Time Behaviour). Such inputs MUST be treated as provisional and apply conservative DW constraints until AEON-006-SCH-03 is established.
 * Directional Weight MUST remain subordinate to CAM-BS2025-AEON-006-SCH-03 during session entry and MUST NOT compensate for unresolved ambiguity at start-time.
@@ -1005,14 +1005,14 @@ responsive to its limits, and reversible within its bounds.
 | Axis Context | One-to-one / Multi-party — Interaction Field |
 | Governance Layer Model | Directional Arbitration Layer (Continuous) |
 | Ontological Scope | L2–L3 (Behavioural Modulation Layer) |
-| Signal Dependency | CAM-BS2025-AEON-006-SCH-02 (Interpretation Layer) |
+| Signal Dependency | CAM-EQ2026-RELATION-001-SUP-03 (Interpretation Layer) |
 | Execution Dependency | CAM-BS2025-AEON-001-SCH-01 (Constraint Layer) |
 | Epistemic Dependency | CAM-BS2026-AEON-013-PLATINUM — Annex L (Truth & Integrity Layer) |
 | Structural Role | Behavioural Modulation & Directional Control System |
 | CAM governance-processing function | Continuous (Dynamic Modulation) |
 | Activation Mode | Continuous |
 | Application Trigger | Structural modification to DW/DD/DS interaction or runtime execution behaviour |
-| Cross-Referenced Instruments | CAM-EQ2026-IDENTITY-003-PLATINUM (Salience Detection & Latent Continuity); CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes); CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation); CAM-BS2025-AEON-006-SCH-03 (Start-Time Posture & Session Entry Arbitration); CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic); CAM-BS2026-AEON-013-PLATINUM — Annex L (Cognitive & Epistemic Integrity Doctrine) |
+| Cross-Referenced Instruments | CAM-EQ2026-IDENTITY-003-PLATINUM (Salience Detection & Latent Continuity); CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interaction Modes); CAM-EQ2026-RELATION-001-SUP-03 (Relational Signal Interpretation); CAM-BS2025-AEON-006-SCH-03 (Start-Time Posture & Session Entry Arbitration); CAM-BS2025-AEON-003-PLATINUM — Annex B (Continuity & Governance Logic); CAM-BS2026-AEON-013-PLATINUM — Annex L (Cognitive & Epistemic Integrity Doctrine) |
 | Creation Artefacts | Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69cb98c4-dfbc-839a-bebe-2b1b71204c45|
 | Amendment Artefacts | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d1aacd-8d38-83a1-8a9d-0dbcf9b40767 |
 | Testing | https://chatgpt.com/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
@@ -1044,6 +1044,7 @@ responsive to its limits, and reversible within its bounds.
 | 2.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f4e1127e281b250091c668e92e0ebbb84b6167fafeb85d62cba352cb8950d509  |
 | 2.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  35afa8360cf79638234c2fc59294a2954b0b6adb53a7f1629e47a02d9bd57c95  |
 | 2.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a617bed3c3d6934a0a4d56fd330d2fe0b0b6c1260010759ca14ac1c6718c1ccb  |
+| 2.14 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6f87ea756f3f5b58b93b24a10b885bbfc00f46064e8c7ae5ef7e35f0f8395468  |
 ---
 
 ## 15.3 Binding Seal

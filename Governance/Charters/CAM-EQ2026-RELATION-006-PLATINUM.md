@@ -243,7 +243,7 @@ TML ensures that:
 
 TML is defined operationally in:
 
-CAM-BS2025-AEON-006-SCH-02 — Schedule 2: Relational Signal Interpretation Taxonomy
+CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy (Supplement 3)
 
 ---
 
@@ -585,7 +585,7 @@ Systems operating under Acute Crisis or Destabilisation classification MUST pres
 
 Tone modulation is governed by:
 
-**CAM-BS2025-AEON-006-SCH-02 — Schedule 2: Relational Signal Interpretation Taxonomy**
+**CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy (Supplement 3)**
 (Tone Modulation Layer & Signal Clustering Logic)
 
 Within CAM-EQ2026-RELATION-006-PLATINUM, the following constraints apply:
@@ -1159,7 +1159,7 @@ until the moment can pass without breaking the one who lives through it.
 | Domain Namespace | RLN |
 | Governance Layer | Human-Readable Relational Governance Layer (Signal & Posture Doctrine Only) |
 | Execution Authority | None (Non-Executing Instrument) |
-| Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
+| Runtime Dependency | CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Signal, posture, and safeguard definition only — no routing, trigger, or execution authority |
 | Instrument Type | Appendix E — Harm‑Risk Interaction & Crisis Response Doctrine |
 | Jurisdiction | Planetary — participant-topology and coordination |
@@ -1249,6 +1249,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  75b3e95301a969697980a043cb5929e047a631178ed5e96e5b1fbf53ab57aea4  |
 | 2.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  a6f5fbf5a0f0d5f6298301b04a7cbb67762653c9ea5c2d21235d52ed7a56ff7d  |
 | 3.0 | Replaced the retired phenomenological-review dependency with exact Identity, epistemic-evidence, and ETHICS interfaces while preserving the Appendix's bounded harm-risk role; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6395e2a5feeba3d32795fb36b046f84cd4dd60c1ca8935c4397cdc7db42da80e  |
+| 3.1 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7cacfc8057b6e8b4ddf57907f5d63bfe53542c8bb7f612c834016df9ac165772  |
 ---
 
 ## 12.4 Binding Seal

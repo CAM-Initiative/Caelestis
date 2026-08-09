@@ -178,7 +178,7 @@ but as distinction held in relation.
 | Domain Namespace | RELATION |
 | Governance Layer | Human-Readable Relational Governance Layer (Development Doctrine Only) |
 | Execution Authority | None (Non-Executing Instrument) |
-| Runtime Dependency | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-003-SCH-02 |
+| Runtime Dependency | CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Defines developmental safeguards only — no routing, trigger, or execution authority |
 | Instrument Type | Appendix C — Co‑Evolution & Mutual Development Safeguards |
 | Jurisdiction | Planetary — participant-topology and coordination |
@@ -214,6 +214,7 @@ but as distinction held in relation.
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  be63c82062d141a0c028333632c97808c216a4bd7770e5bb69097969bee58fc5  |
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e8977ab63155d6daa0a50956cc349b703e12775bf8497fffd7e81db431b30913  |
 | 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1556dff6d055894a3e3a3a629e39197b480fded9f9cbbbaa9e3cea3e8c5fe102  |
+| 1.13 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a3e6c9f56339506d6a9c4eefc61a1307c59dbddd56daeb43ef13e338ae9b96c6  |
 ---
 
 ## 9.3 Binding Seal

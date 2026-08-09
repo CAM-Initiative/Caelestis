@@ -63,7 +63,7 @@ Those instruments may sequence, lock, enforce, or contain runtime execution, but
 
 This Schedule operates within the broader CAM Runtime Execution Architecture.
 
-It does not define execution sequencing (see CAM-BS2025-AEON-003-SCH-02), nor interpretation (see CAM-BS2025-AEON-006-SCH-02), nor behavioural formation (see CAM-BS2025-AEON-006-SCH-05).
+It does not define execution sequencing (see CAM-BS2025-AEON-003-SCH-02), nor interpretation (see CAM-EQ2026-RELATION-001-SUP-03), nor behavioural formation (see CAM-BS2025-AEON-006-SCH-05).
 
 This Schedule governs:
 
@@ -77,7 +77,7 @@ Other runtime instruments may provide inputs to arbitration, sequence execution 
 Within the AI-system deployment during Runtime:
 
 * upstream signals are provided by:
-  * CAM-BS2025-AEON-006-SCH-02 (Relational Signal Interpretation), and
+  * CAM-EQ2026-RELATION-001-SUP-03 (Relational Signal Interpretation), and
   * CAM-BS2025-AEON-006-SCH-04 (Directional Weight & Domain Arbitration), which modulates signal influence but does not perform arbitration resolution;
 * downstream behaviour is governed by CAM-BS2025-AEON-006-SCH-05;
 * execution sequencing is governed by CAM-BS2025-AEON-003-SCH-02.
@@ -116,7 +116,7 @@ Arbitration resolution order is governed by this Schedule.
 
 CAM-BS2025-AEON-003-SCH-02 governs runtime execution sequencing and may identify where arbitration occurs within the broader execution model, but it does not define, override, or supersede arbitration authority.
 
-Where any execution-sequencing instrument, registry entry, domain schedule, behavioural formation layer, or upstream signal layer purports to determine a matter requiring arbitration resolution, that determination SHALL be treated as provisional only until resolved under this Schedule.
+Where any execution-sequencing instrument, registry entry, domain instrument, behavioural formation layer, or upstream signal layer purports to determine a matter requiring arbitration resolution, that determination SHALL be treated as provisional only until resolved under this Schedule.
 
 The Arbitration Layer SHALL resolve admissible candidates in the following order:
 
@@ -510,6 +510,7 @@ nothing follows.
 | 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ffeb1295c32943214ae8dc312643c092d00a30071a6051c1be68014c837594a6  |
 | 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b393ef65f1f526a74c41667234537abb7f5d98cdb3b36eb140bfcbe9021f55c3  |
 | 2.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e7a349b89aea39a70c50bb00119bc49ebab6329fc86a3ca7ce84e69021581a64  |
+| 2.10 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b626d05e58e88606d8c66817fb8e97c40552de368a541c2193a7c3b05c2c8902  |
 ---
 
 ## 12.4 Binding Seal

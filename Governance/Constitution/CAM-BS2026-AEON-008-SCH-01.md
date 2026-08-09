@@ -35,7 +35,7 @@ This Schedule does **not**:
 * define contribution-based earning systems;
 * override recognition conditions defined in CAM-BS2026-AEON-008-PLATINUM — Annex G.
 
-This Schedule does not prescribe economic execution mechanics. Operational implementation of pricing, credit allocation, resource conversion, replenishment, subscription design, advertising exchange, storage expansion, or contribution-linked economic pathways shall be governed by downstream Economics instruments, including any applicable Economics execution schedule.
+This Schedule does not prescribe economic execution mechanics. Operational implementation of pricing, credit allocation, resource conversion, replenishment, subscription design, advertising exchange, storage expansion, or contribution-linked economic pathways SHALL be governed by an applicable ECONOMICS Charter, Appendix, Supplement, Framework, Policy, or other authorised domain instrument.
 
 ---
 
@@ -731,6 +731,7 @@ May utility remain in service to the people who rely upon it.
 | 1.12 | Replaced cognitive and origin-class utility distinctions with Annex B independent architectural, harness, deployment, lineage, agency, execution, authority, and reliance dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  16ef13ddfddcdc6ab2c6b1f516cb05fddaff370dbdcfdfd2699e51d189f73016  |
 | 1.13 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  decd3ee9c8c46541a5451d778e6d48313ac7f435fa2becdd0fd1167e1b600170  |
 | 1.14 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8c7725ecd44f2d793f9d45f9846880844431adf8cab74b913d70976ce08da52c  |
+| 1.15 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3b1ee5e488b347763751a77f79c80502ca1851e59bdc5bab4b1f240c1acf1941  |
 ---
 
 ## 15.4 Binding Seal

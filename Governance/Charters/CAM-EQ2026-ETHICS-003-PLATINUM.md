@@ -813,7 +813,7 @@ Execution sequencing, phase transitions, and runtime flow are defined exclusivel
 | Civilian infrastructure & continuity   | LATTICE                                |
 | Runtime arbitration                    | CAM-BS2025-AEON-005-PLATINUM — Annex D |
 | Ethical engagement modes (execution)   | CAM-BS2025-AEON-006-PLATINUM — Annex E |
-| Relational signal interpretation       | CAM-BS2025-AEON-006-SCH-02             |
+| Relational signal interpretation       | CAM-EQ2026-RELATION-001-SUP-03             |
 
 Execution of all domain interactions is governed by CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2).
 
@@ -1166,6 +1166,7 @@ and what is judged cannot remain unbounded.
 | 3.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f6c1e05d27556cdaeed37b4c6ff0f45ba775af1439aefdac0eb39d85acb526e4  |
 | 3.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  49af2e864b6a21d686694d1911ab8d8141888cac00906b7fafb9323ee1a94b0d  |
 | 3.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f626f651dfcd2af5d518ac398a3d47232b1869f817e0fb214f1603df5ba7c827  |
+| 3.10 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  27d8445d910afa9bd17eb3e9e7f982c42d5b8f9b2fb97384568675551bcb157f  |
 ---
 
 ## 12.4 Binding Seal

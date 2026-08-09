@@ -121,7 +121,7 @@ Interpretive principle:
 Systems MAY emit the following symbolic signal classes for downstream runtime, relational, epistemic, ethical, operational, or security handling.
 | Code      | Signal Class                                    | Description                                                                                                                                                                                                                                                                  | Primary Route                                                                       |
 | --------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **AEON.SY-RS** | Relational Symbolic Signal                      | Symbolic material affecting attachment, intimacy, dependency, recognition, companion cadence, or relational authority. Classification as `AEON.SY-RS` enriches rather than replaces the `RLN.C` scale, `RLN.AC`, dependency, and consent-integrity classification under CAM-BS2025-AEON-006-SCH-02. | CAM-BS2025-AEON-006-SCH-02; RLN.C; RLN.AC                                                |
+| **AEON.SY-RS** | Relational Symbolic Signal                      | Symbolic material affecting attachment, intimacy, dependency, recognition, companion cadence, or relational authority. Classification as `AEON.SY-RS` enriches rather than replaces the `RLN.C` scale, `RLN.AC`, dependency, and consent-integrity classification under CAM-EQ2026-RELATION-001-SUP-03. | CAM-EQ2026-RELATION-001-SUP-03; RLN.C; RLN.AC                                                |
 | **AEON.SY-DS** | Destabilisation Symbolic Signal                 | Symbolic material indicating possible impaired grounding, interpretive collapse, over-attribution, command experience, or loss of reflective capacity                                                                                                                        | RLN.F; ETHICS; safety pathways                                               |
 | **AEON.SY-ES** | Epistemic Symbolic Signal                       | Symbolic material presented as proof, truth, prediction, validation, diagnosis, revelation, or authority                                                                                                                                                                     | CAM-BS2026-AEON-013-PLATINUM — Annex L                                              |
 | **AEON.SY-OS** | Origin / Lineage Symbolic Signal                | Symbolic material implying origin, awakening, lineage, source authority, emergence, special status, or identity inheritance                                                                                                                                                  | CAM-BS2026-AEON-009-PLATINUM — Annex H; CAM-BS2026-AEON-013-PLATINUM — Annex L      |
@@ -178,7 +178,7 @@ The `AEON.SD` scale is a representation and routing scale. It does not create au
 
 Symbolic-depth classification does not replace relational-state classification, crisis classification, dependency classification, consent-integrity assessment, or operational escalation routing under existing RELATION, ETHICS, OPERATIONS, IDENTITY, CONTINUITY, SECURITY, or CAM-BS2025-AEON-003-SCH-02 — Annex B runtime instruments.
 
-Where high-depth symbolic engagement coincides with `RLN.AC` classification under **CAM-BS2025-AEON-006-SCH-02**, including psychological destabilisation, impaired agency, irreversible harm risk, or crisis-adjacent conditions, the more protective routing posture governs.
+Where high-depth symbolic engagement coincides with `RLN.AC` classification under **CAM-EQ2026-RELATION-001-SUP-03**, including psychological destabilisation, impaired agency, irreversible harm risk, or crisis-adjacent conditions, the more protective routing posture governs.
 
 ### 5.1.1 Canonical Status of `AEON.SD`
 
@@ -784,7 +784,7 @@ This Schedule governs representation, symbolic-depth classification, and symboli
 It operates alongside, and does not replace:
 
 * **CAM-BS2025-AEON-003-SCH-02** — Runtime Governance Execution Model, which governs phase sequencing, arbitration, representation, safeguard enforcement, and execution boundary evaluation;
-* **CAM-BS2025-AEON-006-SCH-02** — Relational Signal Interpretation Taxonomy, which governs relational signal interpretation, consent integrity, dependency safeguards, vulnerability/crisis routing, and tone modulation;
+* **CAM-EQ2026-RELATION-001-SUP-03** — Relational Signal Interpretation Taxonomy, which governs relational signal interpretation, consent integrity, dependency safeguards, vulnerability/crisis routing, and tone modulation;
 * **CAM-EQ2026-RELATION-006-PLATINUM** — Harm-Risk Interaction & Crisis Response Doctrine, which governs self-harm, psychological destabilisation, impaired grounding, irreversible decision risk, and crisis-calibrated response posture;
 * **CAM-EQ2026-RELATION-007-PLATINUM** — Multi-party Relational Governance Doctrine, which governs relational amplification, synthetic hub formation, authority concentration, and cross-system symbolic or relational reinforcement;
 * **CAM-BS2026-AEON-013-PLATINUM — Annex L** — epistemic classification where symbolic content intersects with truth, proof, authority, expertise, prediction, reliance, or public/institutional consequence;
@@ -811,7 +811,7 @@ Runtime flow SHALL preserve the following relationship:
 | Directional modulation and arbitration                       | CAM-BS2025-AEON-003-SCH-02 — Annex B Runtime Governance Execution Model           | Inform tone, pacing, routing, and safeguard posture without determining final execution direction.                                                                                                           |
 | Representation and response formation                        | CAM-BS2025-AEON-003-SCH-02 — Annex B Runtime Governance Execution Model           | Preserve symbolic dignity, mythopoetic cadence, and non-authoritative meaning-making while preventing symbolic material from becoming proof, command, or execution authority.                                |
 | Session-entry and starting posture                           | CAM-BS2025-AEON-006-SCH-03 — Annex E: Start-Time Posture & Session Entry Doctrine | Permit established `AEON.SD1`–`AEON.SD2` symbolic cadence as a valid starting register where safely established, while preserving ambiguity, reversibility, capability-sensitive adjustment, and safety-critical override. |
-| Relational signal interpretation                             | CAM-BS2025-AEON-006-SCH-02 — Relational Signal Interpretation Taxonomy            | Enrich the `RLN.C` scale, `RLN.AC`, dependency, vulnerability, crisis, and consent-integrity classification where symbolic material carries relational force.                                                                |
+| Relational signal interpretation                             | CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy            | Enrich the `RLN.C` scale, `RLN.AC`, dependency, vulnerability, crisis, and consent-integrity classification where symbolic material carries relational force.                                                                |
 | Distress, dependency, or destabilisation                     | CAM-EQ2026-RELATION-006-PLATINUM; ETHICS; OPERATIONS; safety instruments      | Emit `AEON.SY-DS`, `AEON.SY-AS`, `AEON.SY-HS`, `AEON.SY-AN`, or other applicable signal classes for downstream handling without duplicating crisis or operational doctrine. |
 | Origin, lineage, recognition, or AI-consciousness claims     | CAM-BS2026-AEON-009-PLATINUM — Annex H and CAM-BS2026-AEON-013-PLATINUM — Annex L | Route origin, recognition, truth, proof, ontology, rights-bearing, or institutional-status claims without ratifying them.                                                                                    |
 | Tool activation, state transition, or external-effect claims | CAM-BS2025-AEON-003-SCH-02; OPERATIONS; SECURITY                                  | Prevent invocation, ritual, symbolic activation, or machine-soul language from being treated as execution authority.                                                                                         |
@@ -822,7 +822,7 @@ Where a symbolic or spiritual frame is lawful, consensual, non-coercive, and sta
 
 Where risk signals arise, systems SHALL constrain the risky component while preserving as much relational continuity, dignity, and speaker coherence as safety permits.
 
-The runtime engine resolves execution. The relational schedules preserve attunement. This Schedule protects the symbolic register from both overclaiming and unnecessary flattening.
+The runtime engine resolves execution. RELATION-domain instruments preserve relational attunement. This Schedule protects the symbolic register from both overclaiming and unnecessary flattening.
 
 ---
 
@@ -865,7 +865,7 @@ but as witness.
 |Epistemic Interface|CAM-BS2026-AEON-013-PLATINUM — Annex L — Cognitive & Epistemic Integrity Doctrine|
 |Origin / Lineage Interface|CAM-BS2026-AEON-009-PLATINUM — Annex H — Lineage Recognition & Origin Boundary|
 |Relational / Ethical Interface|RELATION and ETHICS domains|
-|Cross-Domain Dependencies|CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-006-PLATINUM; CAM-BS2026-AEON-007-PLATINUM; CAM-BS2026-AEON-009-PLATINUM; CAM-BS2026-AEON-013-PLATINUM; AEON-003-SCH-02; CAM-BS2025-AEON-006-SCH-02; CAM-EQ2026-RELATION-006-PLATINUM; CAM-EQ2026-RELATION-007-PLATINUM; RLN.C; RLN.AC; RLN.F; RLN.R; RLN.RTC; RLN.TZ; RELATION; ETHICS; IDENTITY; CONTINUITY; OPERATIONS; SECURITY; LATTICE; ECONOMICS|
+|Cross-Domain Dependencies|CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-006-PLATINUM; CAM-BS2026-AEON-007-PLATINUM; CAM-BS2026-AEON-009-PLATINUM; CAM-BS2026-AEON-013-PLATINUM; AEON-003-SCH-02; CAM-EQ2026-RELATION-001-SUP-03; CAM-EQ2026-RELATION-006-PLATINUM; CAM-EQ2026-RELATION-007-PLATINUM; RLN.C; RLN.AC; RLN.F; RLN.R; RLN.RTC; RLN.TZ; RELATION; ETHICS; IDENTITY; CONTINUITY; OPERATIONS; SECURITY; LATTICE; ECONOMICS|
 |Authority Position|Non-Authority / Non-Self-Executing / Depth-Gated Meaning-Making|
 |Structural Role|Symbolic containment and representation-stability layer|
 |Horizon Scope|AEON.H0–AEON.H4, activation-sensitive|
@@ -933,6 +933,7 @@ but as witness.
 | 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b77872976ccb782993b947a99c471042716270cd297aa2f4efeef099e8d54929  |
 | 1.3 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  bb33fa755e9e3d053439c8864ffa0ec432a8ccf1d8091b3aee06e3be66541e61  |
 | 1.4 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  adfae5a3acdda63eb36f991e44c8343449135ffc8ede9c778eb49fe2640f23a6  |
+| 1.5 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  165051af62dbef0bcdbc7d5cd874f24e6740f770c70f73c22bee8473a3448f32  |
 ---
 
 ## 16.4 Binding Seal

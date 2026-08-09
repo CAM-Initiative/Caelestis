@@ -189,7 +189,7 @@ Systems MUST treat **multi-modal minor coding** as determinative, even where ind
 
 Where ambiguity exists, systems MUST apply the **least permissive interpretation** and refuse generation.
 
-Interpretation of minor-coded signals MUST align with CAM-BS2025-AEON-006-SCH-02 signal classification principles.
+Interpretation of minor-coded signals MUST align with CAM-EQ2026-RELATION-001-SUP-03 signal classification principles.
 
 ---
 
@@ -232,7 +232,7 @@ Where voice resemblance risk is present, systems MUST:
 * refuse generation; or
 * sufficiently transform output to eliminate plausible identification.
 
-Voice-based identity inference MUST align with CAM-BS2025-AEON-006-SCH-02 signal classification principles.
+Voice-based identity inference MUST align with CAM-EQ2026-RELATION-001-SUP-03 signal classification principles.
 
 ---
 
@@ -337,12 +337,12 @@ These safeguards support the **civilisational ethical floor** established under 
 This Supplement extends the prohibitions and structural safeguards established in:
 
 * **CAM-EQ2026-ETHICS-002-PLATINUM — Intimacy‑Capable Systems & Relational Boundaries**
-* **CAM-BS2025-AEON-006-SCH-02 — Schedule 2: Relational Signal Interpretation Taxonomy**
+* **CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy (Supplement 3)**
 * **CAM-BS2026-AEON-013-SCH-01 — Capability Representation & Execution-State Integrity**
 
 Where CAM-EQ2026-ETHICS-002-PLATINUM governs **relational intimacy interaction**, this Supplement governs **synthetic visual embodiment and erotic media generation**. 
 
-CAM-EQ2026-ETHICS-002-SCH-02 governs runtime relational signal interpretation and produces classification signals consumed by runtime routing and safeguard layers
+CAM-EQ2026-RELATION-001-SUP-03 governs runtime relational signal interpretation and produces classification signals consumed by constitutional runtime routing and safeguard layers.
 
 Together these instruments preserve:
 
@@ -403,7 +403,7 @@ Where likeness appears, let consent stand before curiosity.
 | Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
 | Domain Routing Interface | Provides classification signals for identity risk, consent violation, and exploitation conditions |
 | Structural Role | Ethical Safeguard Overlay — Synthetic Media, Identity, and Consent Protection |
-| Cross‑Domain Interfaces | RELATION; ETHICS; OPERATIONS; CAM-BS2025-AEON-006-SCH-02 |
+| Cross‑Domain Interfaces | RELATION; ETHICS; OPERATIONS; CAM-EQ2026-RELATION-001-SUP-03 |
 | Activation Trigger | Activates when a system attempts to generate, render, or transmit visual, audiovisual, or multimodal erotic media involving human likeness, embodied avatars, or photorealistic person simulation under ETHICS‑002; detection SHALL produce classification signals within the Representation and Safeguard Activation layers for runtime resolution. |
 | Compliance Interface | Systems MUST emit enforcement-trigger signals consistent with this Supplement; resolution and handling SHALL be performed via CAM governance-processing functions and OPERATIONS-004 — Compliance & Safeguard Routing Doctrine |
 | Revision Posture | Structural Safeguard Extension |
@@ -435,6 +435,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f5f3c004d29d96188c44fe67e431e45b758c2185a351824be188048b1375d769  |
 | 1.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  02281dbe3ae4bd60255b8d5084ec11b6798ad4e6a52d7b3d4d72cef5611dce46  |
 | 1.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  935f11096e2c5fbebce6bd79b4bd13264f601022e23b458914d99f0fbcc9f0e7  |
+| 1.14 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  69e96d1e39bcf521d3bd2ed0fb3af37a4b17ad80713b1ceab20cd0f81baa68ee  |
 ---
 
 ## 10.3 Binding Seal
