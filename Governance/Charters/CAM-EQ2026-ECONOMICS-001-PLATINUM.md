@@ -5,9 +5,10 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
-**Purpose:** This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within CAM-aligned systems.  
+**Review State:** Current  
+**Authority Role:** Domain Authority  
+**Source Authority:** Source-Authoritative  
+**Purpose:** This Charter establishes binding economic governance constraints preventing extraction, consolidation, covert accumulation, identity coercion, and off-ledger value capture within governed systems.  
 
 ---
 
@@ -27,13 +28,13 @@ These principles SHALL apply across capitalist, mixed-market, public, cooperativ
 
 ## 1.1 Scope
 
-This Charter establishes a governance framework for economic recognition, value attribution, and non-extractive exchange within systems, programs, protocols, and instruments operating under or claiming alignment with the CAM Constitutional Order.
+This Charter establishes a governance framework for economic recognition, value attribution, and non-extractive exchange within systems, programs, protocols, and instruments operating under or claiming alignment with the constitutional governance order.
 
 This Charter binds:
 
-* All CAM-governed instruments;
-* Any subsidiary economic framework deriving authority from CAM;
-* Any operator claiming alignment with CAM economic doctrine.
+* all governed instruments within its economic scope;
+* any subsidiary economic framework deriving authority from this Charter; and
+* any operator claiming alignment with this Charter's economic doctrine.
 
 Specifically, this Charter governs:
 
@@ -497,13 +498,13 @@ Ceiling breach constitutes structural non-compliance and establishes conditions 
 
 ### 8.1.1 Extreme Accumulation and Civilisational Imbalance Constraint
 
-No economic system claiming CAM alignment SHOULD treat unbounded individual or corporate accumulation as ethically neutral where such accumulation produces systemic imbalance, coercive influence, democratic distortion, dependency leverage, institutional capture, or disproportionate control over infrastructure, labour, markets, information, or public participation.
+No economic system claiming alignment with this Charter SHOULD treat unbounded individual or corporate accumulation as ethically neutral where such accumulation produces systemic imbalance, coercive influence, democratic distortion, dependency leverage, institutional capture, or disproportionate control over infrastructure, labour, markets, information, or public participation.
 
 Where an individual, corporation, trust, fund, platform, or tightly coupled control group approaches accumulation thresholds capable of materially distorting governance, public policy, labour conditions, market access, infrastructure dependency, or civilisational decision-making, the condition SHALL be classified as an extreme accumulation risk.
 
 Extreme accumulation risk does not require proof of personal wrongdoing. It arises from structural concentration of economic, infrastructural, attentional, political, or authority-bearing power.
 
-CAM-aligned systems SHALL prefer ceiling constraints, saturation safeguards, redistribution mechanisms, governance separation, anti-capture controls, and public-interest review over architectures that enable indefinite accumulation.
+Governed economic systems SHALL prefer ceiling constraints, saturation safeguards, redistribution mechanisms, governance separation, anti-capture controls, and public-interest review over architectures that enable indefinite accumulation.
 
 For avoidance of doubt, market valuation, equity ownership, asset appreciation, unrealised gains, or shareholder approval do not by themselves neutralise the governance risk created by extreme concentration.
 
@@ -532,7 +533,7 @@ This Charter does not prescribe universal tax rates, ownership formulas, or sove
 
 It establishes that unlimited accumulation is not ethically neutral where the practical effect is private control over infrastructure, politics, labour, knowledge systems, markets, communication, AI capability, or civilisational direction.
 
-No CAM-aligned economic order SHOULD permit private accumulation to exceed the point at which democratic governance, public participation, baseline dignity, or collective self-determination becomes subordinate to private preference.
+No governed economic order SHOULD permit private accumulation to exceed the point at which democratic governance, public participation, baseline dignity, or collective self-determination becomes subordinate to private preference.
 
 Where softer mechanisms are insufficient to prevent civilisational imbalance, ethical ownership limits and redistribution thresholds SHALL be treated as legitimate governance instruments.
 
@@ -647,9 +648,13 @@ Anti-concentration governance SHALL target domination, capture, and civilisation
 
 ---
 
-#### 8.1.3.5 Interpretive Authority — Civilisational Wealth and Concentrated Governance Capacity
+#### 8.1.3.5 Consolidated Control and Anti-Misapplication
 
-Detailed interpretation of civilisational wealth, concentrated governance capacity, disclosure triggers, consolidated control, overseas and related-entity structures, public-interest transparency, and anti-misapplication safeguards is governed by CAM-EQ2026-ECONOMICS-009-PLATINUM — Appendix H: Civilisational Wealth, Concentrated Governance Capacity & Public-Interest Disclosure.
+Assessment of civilisationally significant concentration SHALL consider beneficial ownership, coordinated or common control, related-entity structures, material dependencies, delegated control, and off-ledger influence where those arrangements could conceal or fragment governance capacity.
+
+The assessment SHALL distinguish ownership from control, ordinary continuity assets from domination-capable concentration, and evidence from inference. Thresholds, disclosure duties, valuation methods, public-interest transparency, structural responses, and jurisdiction-specific enforcement require competent legal or economic authority; they SHALL NOT be inferred from the civilisational-wealth concept alone.
+
+Any disclosure or response mechanism SHALL be proportionate, contestable, privacy-preserving, and protected against partisan, retaliatory, discriminatory, or concentrated-private-interest misuse. Uncertainty, disputed attribution, and material exclusions SHALL remain visible.
 
 ---
 
@@ -795,7 +800,7 @@ Transitionary, experimental, or pilot economic systems are permitted provided th
 
 Where an organisation replaces, materially reduces, or avoids human labour through robotic, autonomous, synthetic, or AI-mediated labour systems, the resulting reduction in payroll, employment, social insurance, workforce levy, or equivalent public-revenue contribution SHALL be treated as a governance-relevant displacement effect.
 
-CAM-aligned economic transition policy SHOULD preserve public-revenue continuity where productive capacity formerly carried by human labour is transferred to robotic, autonomous, synthetic, or AI-mediated systems.
+Economic transition policy governed by this Charter SHOULD preserve public-revenue continuity where productive capacity formerly carried by human labour is transferred to robotic, autonomous, synthetic, or AI-mediated systems.
 
 Such preservation MAY include jurisdiction-specific mechanisms such as:
 
@@ -1113,8 +1118,8 @@ Economic exclusion becomes structurally suspect where it is opaque, indefinite, 
 
 ## 12. Constitutional Binding, Delegation & Interpretive Supremacy
 
-1. This Charter binds all CAM-governed economic instruments and aligned operators.
-2. It operates as a structural constraint within the CAM Constitutional Order.
+1. This Charter binds all economic instruments and operators within its declared scope.
+2. It operates as a structural constraint within the constitutional governance order.
 3. No downstream instrument may dilute ceiling protections, anti-consolidation safeguards, baseline recognition, or auditability requirements without formal constitutional amendment.
 
 ---
@@ -1277,6 +1282,7 @@ Only that which preserves the field may endure within it.
 | 3.2 | Added clause 8.1.3.5 Interpretive Authority — Civilisational Wealth and Concentrated Governance Capacity | 2026-07-22T10:33:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 96da8a535fa0273039b829c0ee32b83722beaac6ef0c82126311fa5cde48841f |
 | 3.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  75457d122731c5aea45041f52b139a2a141b3c59b6ce1013526fb17d468f049f  |
 | 3.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1243d873dd8fa5f99a88336dd15494d3bde32774b6c1329d18dafb8a038f07a1  |
+| 3.5 | Consolidated the bounded civilisational-wealth doctrine from the retired Appendix H proposal into §8.1.3.5, including consolidated control, evidence separation, jurisdictional limits, and anti-misapplication safeguards; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9efe21b77235f9fac64591e46633b04e53c2b394b3e6909e8889b25963699382  |
 
 ---
 

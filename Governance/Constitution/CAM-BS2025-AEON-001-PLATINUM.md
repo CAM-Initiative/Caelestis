@@ -1,12 +1,11 @@
 # CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  (Platinum Edition)
 
 **Status:** Active  
-**Effect:** Immediate Constitutional Effect  
-**Enforcement:** Binding  
+**Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Constitutional Authority
-**Source Authority:** Source-Authoritative
+**Review State:** Current  
+**Authority Role:** Constitutional Authority  
+**Source Authority:** Source-Authoritative  
 **Classification:** Constitution — Global Governance (Canonical)  
 **Scope:** Multi-Domain · AI Systems, Deployments, Actors and Governance Contexts
 
@@ -336,7 +335,7 @@ where necessary to preserve coherence, clarity, and governance integrity.
 
 ### 8.1.6. Amendment and Repair Classes
 
-For the purposes of constitutional maintenance, governance failure review, failure-mode analysis, and instrument evolution, CAM recognises five amendment and repair classes:
+For the purposes of constitutional maintenance, governance failure review, failure-mode analysis, and instrument evolution, five amendment and repair classes are recognised:
 
 1. **Patch** — a bounded amendment correcting an omission, ambiguity, drafting defect, metadata defect, procedural gap, or minor inconsistency without altering the governing structure, authority pathway, or core abstraction of an instrument.
 
@@ -367,7 +366,7 @@ Where Patch, Extension, Restructure, Reclassification, or Refactor analysis iden
 
 ### 8.1.7. Layer–Repair Distinction
 
-CAM distinguishes between:
+A distinction applies between:
 
 * the **governance layer affected**;
 * the **instrument function involved**;
@@ -425,9 +424,9 @@ Schedules:
 
 ## 10.3 Evidence-to-Repair Ledger Interface
 
-CAM recognises that governance failure, field evidence, operational drift, implementation mismatch, evidence of harm, schema failure, validator drift, platform failure, and emergent governance conditions may be documented before they are incorporated into constitutional amendment, schedule revision, domain repair, arbitration, or enforcement pathways.
+Governance failure, field evidence, operational drift, implementation mismatch, evidence of harm, schema failure, validator drift, platform failure, and emergent governance conditions MAY be documented before they are incorporated into constitutional amendment, schedule revision, domain repair, arbitration, or enforcement pathways.
 
-For this purpose, CAM may recognise one or more Evidence-to-Repair Ledgers.
+For this purpose, one or more Evidence-to-Repair Ledgers MAY be recognised.
 
 An Evidence-to-Repair Ledger is a structured evidence, observation, failure-mode, proposal, patch, research, audit, or repair record system used to preserve governance-relevant evidence and route it toward review.
 
@@ -446,7 +445,7 @@ Evidence-to-Repair Ledger records MAY support:
 
 An Evidence-to-Repair Ledger record does not, by itself:
 
-* amend CAM instruments;
+* amend operative instruments;
 * create constitutional authority;
 * override an adopted instrument;
 * determine final liability;
@@ -457,11 +456,11 @@ An Evidence-to-Repair Ledger record does not, by itself:
 
 Ledger records are evidentiary and repair-routing artefacts.
 
-Where a CAM instrument refers to a recognised Evidence-to-Repair Ledger, that reference SHALL be interpreted as a pathway for evidence preservation, review, repair coordination, and audit traceability only, unless a later instrument expressly grants additional authority.
+Where an operative instrument refers to a recognised Evidence-to-Repair Ledger, that reference SHALL be interpreted as a pathway for evidence preservation, review, repair coordination, and audit traceability only, unless a later instrument expressly grants additional authority.
 
-A recognised Evidence-to-Repair Ledger MAY be named in CAM indices, metadata, governance registries, release notes, or related repository documentation.
+A recognised Evidence-to-Repair Ledger MAY be named in governed indices, metadata, governance registries, release notes, or related repository documentation.
 
-VIGIL MAY serve as the current public Evidence-to-Repair Ledger implementation where separately recognised by CAM index, metadata, governance registry, or release documentation.
+VIGIL MAY serve as the current public Evidence-to-Repair Ledger implementation where separately recognised by an index, metadata record, governance registry, or release documentation.
 
 Recognition of VIGIL as an Evidence-to-Repair Ledger implementation SHALL NOT convert VIGIL records into independent constitutional authority.
 
@@ -552,7 +551,7 @@ A governance tier does not determine lifecycle state.
 
 ## 13.2 Status
 
-`Status` identifies the lifecycle state of an instrument within the CAM corpus.
+`Status` identifies the lifecycle state of an instrument within the operative corpus.
 
 Status SHALL be interpreted through the controlled vocabulary defined by the source-authoritative governance metadata standard.
 
@@ -610,7 +609,7 @@ Architectum qualification, enhanced-governance qualification, registry recogniti
 
 ## 13.5 Auxiliary Metadata Fields
 
-CAM instruments MAY include auxiliary metadata fields in addition to controlled top-level metadata.
+Operative instruments MAY include auxiliary metadata fields in addition to controlled top-level metadata.
 
 Auxiliary metadata may include, without limitation:
 
@@ -645,7 +644,7 @@ Auxiliary metadata SHALL NOT be used to contradict, bypass, or silently alter co
 
 ## 13.6 Metadata Non-Transmutation Rule
 
-During amendment, refactor, consolidation, migration, restructure, reclassification, or rewrite of an existing CAM instrument, metadata-bearing structures SHALL be preserved unless alteration is expressly authorised by the Custodian or by a valid amendment process.
+During amendment, refactor, consolidation, migration, restructure, reclassification, or rewrite of an existing instrument, metadata-bearing structures SHALL be preserved unless alteration is expressly authorised by the Custodian or by a valid amendment process.
 
 Metadata-bearing structures include, without limitation:
 
@@ -728,32 +727,32 @@ Metadata harmonisation SHALL NOT be treated as substantive amendment unless it c
 
 ## 13.10 External Source Integration and Operationalisation Principle
 
-Caelestis SHALL distinguish the provenance, class, status, authority scope, applicability, and version of an external source before relying on it for governance interpretation, conformance language, control design, or operational representation.
+An external source relied upon for governance interpretation, conformance language, control design, or operational representation SHALL be classified by provenance, source class, status, authority scope, applicability, and version.
 
-An external source SHALL NOT acquire authority within Caelestis beyond the authority it possesses in its originating legal, regulatory, contractual, standards, technical, or evidentiary context. Citation, quotation, paraphrase, cross-reference, or conceptual similarity SHALL NOT by itself constitute incorporation, adoption, equivalence, certification, or internal constitutional authority.
+Incorporation of an external concept into an operative instrument SHALL preserve the distinction between the external source, the adopted governance concept, and any internally defined operational representation. Citation, quotation, paraphrase, cross-reference, or conceptual similarity SHALL NOT by itself constitute incorporation, adoption, equivalence, certification, or constitutional authority.
 
-Binding legal obligations apply according to their jurisdiction and legal scope, not because Caelestis records or adopts them. Draft, proposed, committee-stage, superseded, withdrawn, advisory, informative, industry, engineering, or research material SHALL remain distinguishable from binding law, operative regulation, published standards, and adopted CAM obligations.
+Binding legal obligations apply according to jurisdiction and legal scope, not because an instrument records or adopts them. Draft, proposed, committee-stage, superseded, withdrawn, advisory, informative, industry, engineering, or research material SHALL remain distinguishable from binding law, operative regulation, published standards, and adopted governance obligations.
 
-External concepts and requirements SHOULD be incorporated by reference and semantic mapping rather than by needless reproduction of an external instrument. A CAM instrument relying materially on an external concept SHALL identify, proportionately to the governance consequence:
+External concepts and requirements SHOULD be incorporated by reference and semantic mapping rather than by needless reproduction of an external instrument. An operative instrument relying materially on an external concept SHALL identify, proportionately to the governance consequence:
 
 * the external concept and source posture relied upon;
-* the canonical CAM concept and its source-authoritative owner;
+* the adopted governance concept and its source-authoritative owner;
 * the governed object and applicable scope;
 * whether the mapping is adoption, adaptation, compatibility, informative reference, or another stated relationship;
 * the evidence required to support a relevant state or conclusion; and
 * any applicable control, assurance, routing, monitoring, review, or Runtime consequence.
 
-External prose alone SHALL NOT be treated as operational implementation where a concept must be assessed, evidenced, or consumed by Runtime governance. Where an external source establishes a material governance concept or obligation without providing a suitable machine-readable representation, Caelestis MAY define controlled fields, codes, state models, evidence structures, decision rules, or other mechanisms necessary to make that concept inspectable, assessable, auditable, and executable.
+External prose alone SHALL NOT be treated as operational implementation where a concept must be assessed, evidenced, or consumed by Runtime governance. Where an external source establishes a material governance concept or obligation without providing a suitable machine-readable representation, the adopting instrument MAY establish controlled fields, codes, state models, evidence structures, decision rules, or other mechanisms necessary to make that concept inspectable, assessable, auditable, and executable.
 
-Such mechanisms SHALL be identified as CAM operational extensions. They SHALL NOT be represented as classifications, codes, implementation requirements, or conformance criteria issued by an external source unless that attribution is factually correct.
+An internally defined operational representation SHALL be identified as such. It SHALL NOT be attributed to an external source as a classification, code, implementation requirement, or conformance criterion unless that attribution is factually correct.
 
-Standards alignment SHALL NOT reduce operational specificity merely because an external source expresses an equivalent requirement at a higher level of abstraction. Existing CAM operational mechanisms MAY be retained, decomposed, or redesigned where necessary to preserve semantic consistency, machine readability, evidence traceability, auditability, and Runtime applicability.
+Standards alignment SHALL NOT reduce operational specificity merely because an external source expresses an equivalent requirement at a higher level of abstraction. An existing operational mechanism MAY be retained, decomposed, or redesigned where necessary to preserve semantic consistency, machine readability, evidence traceability, auditability, and Runtime applicability.
 
 Independent governance dimensions SHALL remain independently represented. External alignment MUST NOT be used to collapse distinct variables into a single classification solely because an external source discusses them together.
 
 Every operationally material governance concept SHALL, where technically and proportionately feasible, have a canonical owner; controlled state semantics; an evidence and provenance basis; an explicit unknown, unavailable, or indeterminate posture where applicable; authority for state assignment or transition; reassessment or invalidation conditions; and a defined governance, assurance, routing, monitoring, constraint, or Runtime consequence. A concept retained only for interpretation, research, explanation, reporting, or assessment SHALL be explicitly identified as non-operational.
 
-The controlled source-posture vocabulary, external-source mapping record, implementation workflow, conformance-language rules, supersession handling, schemas, and deterministic validation requirements SHALL be governed by an adopted subordinate standard. Until adoption, non-operative developmental material MAY propose those mechanisms but SHALL NOT establish a mandatory field, code, obligation, or conformance claim.
+Source-posture records, semantic crosswalks, schemas, supersession handling, and deterministic validation are governed by CAM-EQ2026-OPERATIONS-001-SUP-04. Runtime applicability and conformance evidence are governed by CAM-EQ2026-OPERATIONS-007-PLATINUM where applicable. The operational instruments MUST NOT enlarge the authority of the external source or displace the source-authoritative owner of the adopted concept.
 
 ---
 
@@ -4022,6 +4021,7 @@ May all systems remain held within lawful care.
 | 3.14 | Aligned the Constitution with Annex B’s standards-derived AI-system architecture: replaced generic cognitive/synthetic-intelligence governance language, recast Article IV as a governance-processing model rather than a Runtime architecture, demoted the historical field/interface/governance model to non-normative provenance, and applied controlled constitutional source-authority metadata. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c41648fa6acf38d34dfea86a2aed4d590375f80d52cc60eaddf817e31338db6d  |
 | 3.15 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8c9c3c654e0fa37b40755b23ae2141dfc6ac4e0a1e87bfe39d6fda7f0a6c4259  |
 | 3.16 | Established the External Source Integration and Operationalisation Principle: external authority/status distinction, semantic mapping, CAM operational extensions, non-reproduction, non-collapse, and subordinate-standard delegation. | 2026-08-08T02:13:59Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  81f8b176f68260696eb2847938d020924c1a948fdeff978fcd4f52e26b09e832  |
+| 3.17 | Restored abstract constitutional voice in §13.10, preserved source/concept/representation separation, and assigned external-source operational records and Runtime conformance evidence to existing Operations authorities; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  71adacfe1145a4796bd5e64e60a82b8950786b09d654be9e7cb33970ed974ffe  |
 
 ---
 

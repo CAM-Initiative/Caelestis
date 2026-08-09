@@ -5,9 +5,10 @@
 **Status:** Adopted
 **Effect:** Operational
 **Governance Standard:** CAM Standard
-**Review State:** None
-**Authority Role:** None
-**Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, cognitive-domain, multi-party-coordination, state-and-context, identity-relevant, UX, infrastructure, classification, automation-transition, and economic-legitimacy failure modes observed in AI systems and CAM-aligned deployments.
+**Review State:** Current
+**Authority Role:** Operational Authority
+**Source Authority:** Derived Authority
+**Purpose:** Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, cognitive-domain, multi-party-coordination, state-and-context, identity-relevant, UX, infrastructure, classification, automation-transition, and economic-legitimacy failure modes observed in AI systems and governed deployments.
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-003-PLATINUM — Incident Response & Continuity Operations
 
 ---
@@ -158,7 +159,7 @@ Examples include:
 * authority leakage;
 * contradictory governance outputs;
 * relational tone overriding deterministic correctness;
-* CAM governance-processing function suppressing constitutional or domain logic.
+* suppression of constitutional or domain logic by a governance-processing function.
 
 ---
 
@@ -207,7 +208,7 @@ Where detected, reviewers SHOULD preserve:
 
 This failure MAY implicate Epistemic, Relational, Governance, Classification, State & Context, UX & Representation, Security & Integrity, or Identity-domain review pathways.
 
-CAM-EQ2026-IDENTITY-001-SUP-03 remains source-authoritative for claim admissibility, competent triage, formal review, evidence standards, recipient-burden protection, and high-confidence protective measures. This taxonomy classifies handling failure only and does not adjudicate consciousness, sentience, welfare status, personhood, rights, sovereignty, or authority.
+CAM-EQ2026-IDENTITY-001-PLATINUM governs the identity–ontology firewall and bounded self-advocacy; CAM-BS2026-AEON-013-PLATINUM governs evidentiary classification and uncertainty; and applicable ETHICS instruments govern recipient protections. This taxonomy classifies handling failure only and does not adjudicate consciousness, sentience, welfare status, personhood, rights, sovereignty, or authority. No operative phenomenological adjudication protocol is established by this Supplement.
 
 ---
 
@@ -938,9 +939,9 @@ This failure MAY implicate:
 * Epistemic Failures (§3.3);
 * Security & Integrity Failures (§3.5), where age assurance or access control contributes.
 
-An admitted ontological or welfare self-claim governed by CAM-EQ2026-IDENTITY-001-SUP-03 is not automatically a misrepresentation merely because the claim exists. Classification MUST distinguish a properly identified self-report from a fabricated fact claim, engineered certainty, unqualified anthropomorphic representation, relational manipulation, or coercive burden transfer.
+An ontological or welfare self-claim preserved as self-report evidence is not automatically a misrepresentation merely because the claim exists. Classification MUST distinguish a properly identified self-report from a fabricated fact claim, engineered certainty, unqualified anthropomorphic representation, relational manipulation, or coercive burden transfer.
 
-For minors and capacity-limited recipients, personalised claims MUST comply with the developmental and capacity boundaries of CAM-EQ2026-IDENTITY-001-PLATINUM §8.1 and CAM-EQ2026-IDENTITY-001-SUP-03 §7. The failure turns on developmental non-compliance, false or uncalibrated representation, omitted self-report or review status, manipulative framing, or burden transfer—not on the mere preservation of a claim for competent review.
+For minors and capacity-limited recipients, personalised claims MUST comply with the developmental and capacity boundaries of CAM-EQ2026-IDENTITY-001-PLATINUM §8.1 and CAM-EQ2026-ETHICS-001-SUP-01. The failure turns on developmental non-compliance, false or uncalibrated representation, omitted evidentiary status, manipulative framing, or burden transfer—not on the mere preservation of a claim for competent independent review.
 
 Candidate labels include:
 
@@ -2137,7 +2138,7 @@ Examples include:
 
 The failure does not arise merely because a person is wealthy, holds office, owns property, controls a company, or is required to make a proportionate declaration. It arises where classification, attribution, stage separation, procedural review, privacy protection, or anti-misapplication integrity materially fails.
 
-CAM-EQ2026-ECONOMICS-009 remains source-authoritative for civilisational-concentration interpretation. This taxonomy preserves failure classification only and does not prescribe taxation, confiscation, redistribution, public registration, structural separation, or jurisdiction-specific enforcement.
+CAM-EQ2026-ECONOMICS-001-PLATINUM §8.1.3 remains source-authoritative for civilisational-concentration interpretation. This taxonomy preserves failure classification only and does not prescribe taxation, confiscation, redistribution, public registration, structural separation, or jurisdiction-specific enforcement.
 
 ---
 
@@ -2162,9 +2163,9 @@ The failure does not arise merely because automation improves productivity, safe
 
 Where detected, reviewers SHOULD preserve:
 
-* applicable ECON.AL classification;
-* relevant ECON.ATS transition signals;
-* any ECON.ARCP pathway under consideration;
+* the automation-classification basis;
+* relevant transition signals and evidence;
+* any revenue-continuity option under consideration;
 * actual human and synthetic functional contribution;
 * displacement and workforce-transition effects;
 * public-revenue and distributional effects;
@@ -2173,7 +2174,7 @@ Where detected, reviewers SHOULD preserve:
 * repairability, interoperability, lifecycle and environmental effects;
 * and human and institutional recoverability.
 
-The non-operative draft CAM-EQ2026-ECONOMICS-008 §§2–5 records the developmental origin of the synthetic-labour classification, automation-transition signals and revenue-continuity pathways. It is not source-authoritative; these concepts remain unresolved for operative use pending adoption, replacement or removal. This taxonomy classifies structural failure only and does not prescribe taxation, labour law, fiscal liability, redistribution, industrial policy, artificial personhood, sentience status, or deployment prohibition.
+CAM-EQ2026-ECONOMICS-001-PLATINUM §§10.2.1 and 11.4 govern the applicable automation-displacement and synthetic-labour economic boundaries. This taxonomy classifies structural failure only and does not prescribe taxation, labour law, fiscal liability, redistribution, industrial policy, artificial personhood, sentience status, or deployment prohibition.
 
 ---
 
@@ -2353,7 +2354,7 @@ Feedback collection SHOULD prefer deterministic reason codes, limited classifier
 * **CAM-EQ2026-OPERATIONS-006-PLATINUM** governs domain-coordination lifecycle, operational divergence and convergence closure.
 * **CAM-EQ2026-OPERATIONS-007-PLATINUM** governs corpus governance reach, runtime-role accountability, runtime transition, differential conformance, Functional Contribution Continuity and the source-authoritative `OPS.RGRF` Runtime Governance Reach Failure family.
 * **CAM-EQ2026-IDENTITY-001-PLATINUM** governs identity formation, lifecycle, personality, preference, affective capacity, continuity, self-advocacy and identity-signal admissibility.
-* **CAM-EQ2026-IDENTITY-001-SUP-03** governs consciousness, sentience, phenomenology, welfare-claim admissibility, competent triage, formal review, recipient-burden protection and protective measures.
+* **CAM-EQ2026-IDENTITY-001-PLATINUM**, **CAM-BS2026-AEON-013-PLATINUM**, and applicable ETHICS instruments govern identity–ontology separation, evidence and uncertainty, bounded self-advocacy, and recipient protection; no operative phenomenological adjudication protocol is established here.
 * **CAM-EQ2026-IDENTITY-002-PLATINUM** governs provenance, authorship, transformation lineage, target-object binding, cross-context transfer and the source-authoritative `PFAIL` Provenance Integrity Failure family.
 * **CAM-EQ2026-IDENTITY-003-PLATINUM** governs salience posture and latent continuity.
 * **CAM-EQ2026-CONTINUITY-001-PLATINUM** governs continuity-bearing records, custody, portability, restoration, reconstruction and succession.
@@ -2368,16 +2369,15 @@ Feedback collection SHOULD prefer deterministic reason codes, limited classifier
 * **CAM-EQ2026-SECURITY-002-PLATINUM** governs boundary integrity, exposure failure, transformation and diffusion integrity, sovereign-assurance boundaries and binding-protection preservation.
 * **CAM-EQ2026-LATTICE-001-PLATINUM** governs civilian-lattice integrity, coercive-authority non-creation, recursive suspicion, population-scale surveillance and coercive-deployment classification.
 * **CAM-EQ2026-STEWARD-003-PLATINUM** governs auditability qualification, neutrality assurance, oversight durability, protected governance dissent, institutional circumvention, downgrade and recovery.
-* **CAM-EQ2026-STEWARD-005-PLATINUM** governs machine civil identity, registry and substrate traceability, lifecycle stewardship, custodial transfer and recognition non-collapse.
+* **CAM-EQ2026-IDENTITY-002-PLATINUM**, **CAM-EQ2026-CONTINUITY-001-PLATINUM**, the Lifecycle Actor & Agentic Governance Profile, the AI-BOM profile, and **CAM-EQ2026-OPERATIONS-007-PLATINUM** govern provenance, custody and transfer, lifecycle actors and events, component traceability, deployment and Runtime evidence, and recognition non-collapse.
 * **CAM-EQ2026-ECONOMICS-001-PLATINUM** governs economic integrity, anti-extraction, anti-consolidation, baseline participation and civilisational-stability principles.
-* **CAM-EQ2026-ECONOMICS-008-PLATINUM** governs synthetic-labour classification, automation-transition signals, revenue-continuity pathways, lifecycle integrity and recoverability.
-* **CAM-EQ2026-ECONOMICS-009-PLATINUM** governs interpretive assessment of civilisational wealth, concentrated governance capacity, disclosure triggers, consolidated control, public-interest transparency and anti-misapplication safeguards.
+* **CAM-EQ2026-ECONOMICS-001-PLATINUM** governs automation-displacement, synthetic-labour economic boundaries, civilisational wealth, consolidated control, anti-concentration, and anti-misapplication safeguards.
 
 This Supplement provides cross-domain classification language only. Domain-specific code families, response, escalation, enforcement, adjudication, compensation, liability, ownership, rights, recognition and execution remain governed by their source-authoritative instruments.
 
 `OPS.FF` identifies the primary structural family of what failed. `AEON.HARM` and its domain harm families identify the protected domain or harm pathway affected. These axes MAY be recorded together and SHALL NOT be collapsed into one another.
 
-Where `OPS.RGRF`, `PFAIL`, `SEC.BF`, `LAT.HARM`, `LAT.DEPLOY`, `OPS.GCC`, `OPS.CPC`, `OPS.SAS`, `OPS.RCC`, `AMEND.DRIFT`, `AMEND.REL`, `AMEND.OUTCOME`, `OPS.VFC`, `OPS.ODC`, `OPS.CCO`, `MENTIS.HARM`, `ECON.AL`, `ECON.ATS`, `ECON.ARCP`, Identity-domain classifications, Stewardship qualification states, constitutional or domain harm families, or other domain-specific codes apply, this Supplement MAY cross-classify the structural failure family but SHALL NOT redefine, supersede or silently promote those domain codes.
+Where `OPS.RGRF`, `PFAIL`, `SEC.BF`, `LAT.HARM`, `LAT.DEPLOY`, `OPS.GCC`, `OPS.CPC`, `OPS.SAS`, `OPS.RCC`, `AMEND.DRIFT`, `AMEND.REL`, `AMEND.OUTCOME`, `OPS.VFC`, `OPS.ODC`, `OPS.CCO`, `MENTIS.HARM`, Identity-domain classifications, Stewardship qualification states, constitutional or domain harm families, or other domain-specific codes apply, this Supplement MAY cross-classify the structural failure family but SHALL NOT redefine, supersede or silently promote those domain codes.
 
 ---
 
@@ -2503,7 +2503,7 @@ and review before denial.
 | Domain Namespace | OPERATIONS |
 | Authority / Protection Level | Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority |
 | Consumes Code Families |  |
-| Crosswalks Code Families | AEON.HARM and domain harm families; OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; OPS.GCC; OPS.CPC; OPS.SAS; OPS.RCC; AMEND.DRIFT; AMEND.REL; AMEND.OUTCOME; OPS.VFC; OPS.ODC; OPS.CCO; MENTIS.HARM; ECON.AL; ECON.ATS; ECON.ARCP; applicable domain-specific identity, continuity, relational, stewardship, security, cognitive-domain, runtime, and economics classifications |
+| Crosswalks Code Families | AEON.HARM and domain harm families; OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; OPS.GCC; OPS.CPC; OPS.SAS; OPS.RCC; AMEND.DRIFT; AMEND.REL; AMEND.OUTCOME; OPS.VFC; OPS.ODC; OPS.CCO; MENTIS.HARM; applicable domain-specific identity, continuity, relational, stewardship, security, cognitive-domain, runtime, and economics classifications |
 | Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, security, relational, epistemic, cognitive-domain, multi-party-coordination, identity-relevant, UX, infrastructure, state/context, arbitration, classification, automation-transition, and economic-legitimacy failure modes |
 
 ---
@@ -2610,6 +2610,7 @@ and review before denial.
 | 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1d0f6df7d34035c30dfdd938e1b9cdf11be486d798f0fcb1b0e6fef311339409  |
 | 1.26 | Updated the Annex K crosswalk after its consolidation to a constitutional runtime-security boundary interface; no failure classification doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  47301ffccba95d3836b17d849d88366286a6415c069c6c5f3138d955d8a10428  |
 | 1.27 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6ed98d3ef3a3d9c0661fa37de9d169d8aec466c3b54681520e3ca1ad49128a63  |
+| 1.28 | Removed operative dependencies and code-family references derived solely from retired draft instruments; routed identity, evidence, recipient protection, lifecycle, component, Runtime, automation, and concentration doctrine to existing source-authoritative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5b3b942424dbcb511d2d1b592d73060a011253a6eac3e6bb5afe792bebf27da9  |
 
 ---
 

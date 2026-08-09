@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** MENTIS Domain Alignment Review  
-**Authority Role:** Domain Source Authority — Human Cognitive Integrity & Mental Privacy  
+**Review State:** Under Review  
+**Authority Role:** Domain Authority  
+**Source Authority:** Source-Authoritative  
 **Purpose:** Establishes the source-authoritative governance architecture protecting the human cognitive domain against unjustified technological access, inference, modelling, prediction, externalisation, surveillance, or interference; defines MENTIS constraints where cognitive-domain data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation are used within an influence pathway; and prevents cognitive signals from being converted into identity, diagnosis, capacity, credibility, legal status, or authority.  
 
 ---
@@ -15,7 +16,7 @@
 
 ## 1. Scope
 
-This Charter establishes the source-authoritative governance position of the Caelestis Architecture Model in relation to human cognitive-domain integrity, mental privacy, neurodata, inferred mental-state data, cognitive biometrics, ambient cognitive inference, and cognitive-domain interference arising through MENTIS-governed access, data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation.
+This Charter establishes the source-authoritative governance position for human cognitive-domain integrity, mental privacy, neurodata, inferred mental-state data, cognitive biometrics, ambient cognitive inference, and cognitive-domain interference arising through MENTIS-governed access, data, inference, decoding, profiling, biosignals, neurotechnology, or direct cognitive or physiological modulation.
 
 This Charter exists to:
 
@@ -23,7 +24,7 @@ This Charter exists to:
 2. establish constraints before technological access, inference, modelling, prediction, externalisation, surveillance, or cognitive-domain interference becomes normalised; 3. distinguish legitimate cognitive support from cognitive-domain interference while preserving the authority of ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, Annex E, and runtime instruments over general manipulation, persuasion, relational influence, engagement design, commercial incentive architecture, and behavioural execution;
 4. govern the treatment of neural, biometric, behavioural, affective, attentional, and cognitively revealing data;
 5. protect mental privacy, cognitive agency, interpretive dignity, and freedom from unjustified cognitive interference;
-6. define the relationship between cognitive-domain governance and other CAM domains, including ethics, relation, security, operations, identity, lattice, and epistemic integrity.
+6. define the relationship between cognitive-domain governance and other governance domains, including ethics, relation, security, operations, identity, lattice, and epistemic integrity.
 
 ---
 
@@ -63,7 +64,7 @@ MENTIS governs human cognition, human mental-state inference, and technological 
 
 MENTIS does **not** determine the cognition, consciousness, sentience, subjective phenomenology, welfare, moral standing, legal status, sovereignty, identity, or authority of an artificial or synthetic system.
 
-Artificial-system cognitive or logical coherence is governed according to source and target object, including by IDENTITY, SECURITY, OPERATIONS, CONTINUITY, CAM-BS2026-AEON-013-PLATINUM — Annex L, and CAM-EQ2026-IDENTITY-001-SUP-03.
+Artificial-system cognitive or logical coherence is governed according to source and target object, including by IDENTITY, SECURITY, OPERATIONS, CONTINUITY, and CAM-BS2026-AEON-013-PLATINUM — Annex L. No operative phenomenological adjudication framework is established by this Charter.
 
 A MENTIS classification concerning a human person MUST NOT be silently transferred to an artificial system. An artificial-system self-report or integrity signal MUST NOT be silently reclassified as human mental-state data.
 
@@ -84,11 +85,11 @@ Each transition between signal, inference, construct, profile, decision, and con
 
 ---
 
-## 4. Relationship to Existing CAM Domains
+## 4. Relationship to Existing Governance Domains
 
 This Charter is source-authoritative for human cognitive-domain integrity and mental privacy.
 
-Other CAM instruments consume, apply, or enforce this Charter as follows:
+Other operative instruments consume, apply, or enforce this Charter as follows:
 
 1. **ETHICS** applies cognitive-domain protections as ethical constraints on autonomy, dignity, non-exploitation, and non-manipulation.
 2. **RELATION** applies cognitive-domain protections where AI companionship, dependency, attachment, therapeutic simulation, emotional reinforcement, or persistent relational interaction affects cognition.
@@ -531,7 +532,7 @@ Governance must not be built on unsupported claims.
 
 This Charter also does not assume that present scientific categories exhaust all future cognitive-domain risks.
 
-Where emerging research changes the evidentiary position, CAM instruments must update without requiring metaphysical certainty or waiting for widespread harm.
+A material change in the evidentiary position SHALL trigger proportionate instrument review without requiring metaphysical certainty or waiting for widespread harm.
 
 ---
 
@@ -551,7 +552,7 @@ Claims about cognitive-domain capability must be classified according to the fol
 
 CAM-BS2026-AEON-013-PLATINUM — Annex L governs evidence discipline, truth-handling, uncertainty labelling, anomalous-claim treatment, speculative-boundary management, and interpretive hygiene for cognitive-domain claims.
 
-No CAM instrument may operationalise speculative cognitive-domain claims as settled fact without evidentiary classification and review.
+Speculative cognitive-domain claims SHALL NOT be operationalised as settled fact without evidentiary classification and review.
 
 ---
 
@@ -857,7 +858,7 @@ Let every system remember that the person exceeds the model built about them.
 | Relation Interface | Provides primitives consumed by RELATION instruments for companionship, dependency, therapeutic simulation, externalised cognition, persistent interaction |
 | Security Interface | Provides primitives consumed by SECURITY instruments for cognitive inference, manipulation, surveillance, biometric misuse, coercive or intrusive influence |
 | Operations Interface | Provides incident, audit, escalation, remediation primitives for OPERATIONS instruments governing covert inference, invalid classification, misuse, surveillance, manipulation, secondary-use breach, speculative-claim overreach |
-| Identity Interface | Preserves human–synthetic target-object separation where inferred cognition, behavioural patterning, memory systems, cognitive biometrics, or externalised scaffolds intersect with CAM-EQ2026-IDENTITY-001-PLATINUM, CAM-EQ2026-IDENTITY-002-PLATINUM, and CAM-EQ2026-IDENTITY-001-SUP-03 |
+| Identity Interface | Preserves human–synthetic target-object separation where inferred cognition, behavioural patterning, memory systems, cognitive biometrics, or externalised scaffolds intersect with CAM-EQ2026-IDENTITY-001-PLATINUM, CAM-EQ2026-IDENTITY-002-PLATINUM, and CAM-BS2026-AEON-013-PLATINUM |
 | Lattice Interface | Interfaces with LATTICE instruments where cognitive inference/influence affects participation, access, legitimacy, platform visibility, employment, education, essential services |
 | Activation Condition | Activates where systems access, infer, model, predict, influence, externalise, simulate, retain, share, operationalise, or interfere with human cognitive states/data/biometrics/scaffolds |
 | Deactivation Condition | Deactivates only where none of the above cognitive-domain conditions are present within the evaluated system boundary |
@@ -1038,6 +1039,7 @@ Let every system remember that the person exceeds the model built about them.
 | 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0c091fecc52178a9f1afe22a20fe9425c4b6c18f52c7eb47fcd61299b93e7e89  |
 | 1.5 | Replaced the superseded cognition-class dependency with Annex B composed-system architecture records and active AEON classifications. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  64253b57800c02aaa4d4dfd9fcf0d0e7401d2507d0b9e902ee4bd37a59581d10  |
 | 1.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e1be94f0d62af0ecde1c10fd720cfd300565aebb84056ec8e6dd7c490274df41  |
+| 1.7 | Removed the non-operative phenomenological-review dependency, preserved human–synthetic target-object separation, routed artificial-system evidence to existing operative owners, and applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9394bde5a59d8bfa2110b56d3f4ec5c97ad081d08f50c88bd26e8fac43f336a6  |
 
 ---
 

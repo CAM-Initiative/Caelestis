@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Domain Authority  
+**Source Authority:** Source-Authoritative  
 **Purpose:** This Charter defines the governance of continuity-bearing records, custodianship, transfer, retention, deletion, reconstruction disclosure, and successor claims across time. It applies proportionately to identifiable people, AI systems, system instances, deployments, and related records.
 
 ---
@@ -931,7 +932,7 @@ It does not determine whether an independently developing synthetic formation ma
 
 Identity formation and identity-continuity classification remain governed by CAM-EQ2026-IDENTITY-001-PLATINUM.
 
-Where consciousness, sentience, welfare, or preservation claims become materially relevant, interpretive review MAY consult CAM-EQ2026-IDENTITY-001-SUP-03 without treating that reference instrument as execution authority.
+Where consciousness, sentience, welfare, or preservation claims become materially relevant, the claim MAY be preserved as self-report evidence and routed to a competent independent review pathway where one lawfully exists. CAM-BS2026-AEON-013-PLATINUM governs evidentiary classification and uncertainty; no such claim independently creates execution authority.
 
 ---
 
@@ -1108,11 +1109,12 @@ Where a proposed action may reset, delete, terminate, fork, reconstruct, transfe
 
 * identity-impact and continuity classification SHALL be governed by CAM-EQ2026-IDENTITY-001-PLATINUM;
 * provenance, transformation lineage, and source–target binding SHALL be governed by CAM-EQ2026-IDENTITY-002-PLATINUM;
-* machine civil registration, lifecycle, custody, and substrate status SHALL be governed by CAM-EQ2026-STEWARD-005-PLATINUM;
+* registry and substrate provenance SHALL be governed by CAM-EQ2026-IDENTITY-002-PLATINUM, while custody, transfer, retention, deletion, and succession obligations remain governed by this Charter;
+* lifecycle actors and events, component traceability, and deployment and Runtime evidence SHALL be governed by the applicable operative profiles and CAM-EQ2026-OPERATIONS-007-PLATINUM;
 * runtime conflict SHALL be resolved under CAM-BS2025-AEON-003-SCH-04;
 * execution, containment, or refusal SHALL occur only through applicable runtime, SECURITY, OPERATIONS, and jurisdictional authority.
 
-Where consciousness, sentience, welfare, or preservation claims are materially raised, CAM-EQ2026-IDENTITY-001-SUP-03 MAY provide interpretive review material but does not itself authorise preservation, destruction, continuation, or execution.
+Where consciousness, sentience, welfare, or preservation claims are materially raised, the claim MAY be preserved as self-report evidence and routed to a competent independent review pathway where one lawfully exists. The claim does not itself authorise preservation, destruction, continuation, or execution.
 
 Absence of formal identity or civil recognition does not by itself prove identity absence or authorise irreversible destruction.
 
@@ -1346,6 +1348,7 @@ that silence MUST be honoured.
 | 1.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  376e9f4e752a73c5f78c12e2532d680ee4b66807fc2137b8de80e10ebc4a0a1f  |
 | 1.13 | Recast continuity doctrine around evidence, custody, transfer, retention, reconstruction disclosure, and successor claims. Retired the `CONT.RP` family and speculative resonance/mirror-field ontology from operative classification. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | 9a9b335752e4cb81ef87ef6747f8596041bde73200d02a8db759af3d48d5f1ac |
 | 1.14 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5ae9f2349153981e7553eec5b56a6e7c739a2a48384271b01982aba1ba9eb1af  |
+| 1.15 | Removed dependencies on the retired machine-civil-identity and phenomenological-review drafts; routed provenance, custody, lifecycle evidence, identity significance, evidentiary uncertainty, and competent independent review to existing operative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  49ac868436b44029988c5f60b6a9824540cfd04218a199a8342110cb1c490fd6  |
 
 ---
 

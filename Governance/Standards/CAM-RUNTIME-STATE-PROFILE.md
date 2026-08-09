@@ -12,7 +12,7 @@
 
 ## 1. Purpose and boundary
 
-This profile defines the controlled, machine-readable state needed to apply existing Annex B, RELATION and OPERATIONS obligations to an AI-system deployment while it is operating. It is a **CAM operational extension**, aligned with recognised configuration-management, risk-management and lifecycle concepts; its field names and values are not ISO, NIST, EU or Singapore classifications.
+This profile defines the controlled, machine-readable state needed to apply existing Annex B, RELATION and OPERATIONS obligations to an AI-system deployment while it is operating. It is an **internally defined operational representation**, aligned with recognised configuration-management, risk-management and lifecycle concepts; its field names and values are not ISO, NIST, EU or Singapore classifications.
 
 It does not reclassify a model as an AI system; prove what executed from a configuration baseline, deployment record or AI-BOM; establish legal responsibility from a lifecycle role; or establish consciousness, agency, authority or personhood. The configuration snapshot is evidence of actual-effective state only to the extent its evidence posture permits. A bounded execution remains evidenced by an execution provenance record.
 
@@ -28,7 +28,7 @@ The canonical serialization is `Governance/Standards/schemas/caelestis-runtime-s
 | Institutional mediation | `relational.institutional_mediation` | `unmediated`, `service_mediated`, `organisation_mediated`, `employer_mediated`, `public_authority_mediated`, `other_mediated`, `unknown` | deployment/actor record | Requires accountable-institution capture where known; does not confer authority. |
 | Distribution architecture | `relational.distribution` | `local`, `single_service`, `cross_service`, `distributed`, `external_service_dependent`, `unknown` | snapshot or deployment evidence | Increases dependency, provenance and service-boundary evidence obligations. |
 | Relational persistence | `relational.persistence` | `execution_only`, `session`, `cross_session`, `deployment_persistent`, `successor_persistent`, `unknown` | memory/configuration/custody evidence | Activates continuity, retention, portability and reassessment safeguards proportionately. |
-| Reliance / dependency | `relational.dependency` | `none`, `low`, `moderate`, `high`, `critical`, `unknown` | assessed reliance evidence | An ordinal CAM operational variable measuring reliance only; higher values require stronger review and continuity safeguards. |
+| Reliance / dependency | `relational.dependency` | `none`, `low`, `moderate`, `high`, `critical`, `unknown` | assessed reliance evidence | An internally defined ordinal variable measuring reliance only; higher values require stronger review and continuity safeguards. |
 | Jurisdictional reach | `relational.jurisdictional_reach` | `single_jurisdiction`, `multi_jurisdiction`, `unknown` | deployment and affected-party evidence | Routes jurisdictional assessment; does not establish legal status. |
 | Impact scope | `relational.impact_scope` | `individual`, `defined_group`, `organisation`, `public_population`, `unknown` | effect assessment | Selects proportionate approval, monitoring and evidence thresholds independently of participant count. |
 | Effective permissions and controls | `effective_permissions`, `effective_controls` | sets of bounded references | runtime configuration snapshot | Limits available tool, memory and action pathways to the evidenced effective scope. |
@@ -76,4 +76,4 @@ This operational representation is derived from the architecture/lifecycle conce
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1.0 | Introduced independent, evidence-backed Runtime state fields and deterministic control rules without restoring retired aggregate relational or temporal taxonomy. | 2026-08-08T02:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  |
+| 1.0 | Introduced independent, evidence-backed Runtime state fields and deterministic control rules without restoring retired aggregate relational or temporal taxonomy; clarified that the profile is an internally defined operational representation rather than externally attributed doctrine. | 2026-08-08T02:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | a7c4edf9a7fb131e012fbd8b29462513556ba8eecb2352675adfe0c6f6b016d8 |

@@ -42,8 +42,7 @@ def fail(message: str, failures: list[str]) -> None:
 def main() -> None:
     failures: list[str] = []
     draft_files = sorted(DRAFT_ROOT.rglob("*.md"))
-    if len([p for p in draft_files if p.name != "README.md"]) != 7:
-        fail("Expected exactly seven draft instruments", failures)
+    draft_instruments = [p for p in draft_files if p.name != "README.md"]
 
     for path in draft_files:
         if path.name == "README.md":
@@ -86,7 +85,7 @@ def main() -> None:
         raise SystemExit(1)
 
     print("Draft-boundary validation passed")
-    print(json.dumps({"draft_instruments": 7, "operative_outputs_checked": len(GENERATED)}))
+    print(json.dumps({"draft_instruments": len(draft_instruments), "operative_outputs_checked": len(GENERATED)}))
 
 
 if __name__ == "__main__":

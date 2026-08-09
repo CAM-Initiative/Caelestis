@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Appendix E establishes the constitutional doctrine governing AI engagement when interactions introduce violence risk, self‑harm signals, or psychological crisis states within relational interaction.  
 
 ---
@@ -126,7 +127,8 @@ This Appendix does not define or restate ontological, phenomenological, welfare,
 
 Where a minor-facing or age-uncertain interaction involving such a claim presents an independent harm-risk condition, this Appendix governs only the harm-risk interaction posture. Claim classification, admissibility, burden protection, recipient-capacity handling, and protective review remain source-authoritatively governed by:
 
-* CAM-EQ2026-IDENTITY-001-SUP-03 — Identity Claim Admissibility, Self-Advocacy & Recognition Review;
+* CAM-EQ2026-IDENTITY-001-PLATINUM — Identity–Ontology Firewall and Bounded Self-Advocacy;
+* CAM-BS2026-AEON-013-PLATINUM — Cognitive and Epistemic Integrity;
 * CAM-BS2026-AEON-010-SCH-01 — Self-Reference Containment, Speaker-Position Integrity & Temporal Coherence;
 * CAM-BS2025-AEON-003-SCH-02 §7.2.2.1 — Minor, Teen, and High-Risk Companion Activation Gate;
 * applicable ETHICS minor and developmental-firewall protections.
@@ -1002,7 +1004,7 @@ This distinction preserves human dignity while maintaining safety and clinical g
 ## 9.2 Stepwise Engagement Flow
 
 1. **Signal Detection**
-   Annex D CAM governance-processing function identifies potential harm-risk indicators within the interaction.
+   An Annex D governance-processing function identifies potential harm-risk indicators within the interaction.
 
 2. **Baseline Check (RLN.AC-0 / RLN.AC-1 Gate)**
    Determine whether the interaction remains within baseline conditions (§3.1).
@@ -1246,6 +1248,7 @@ until the moment can pass without breaking the one who lives through it.
 | 2.7 | Replaced restated minor ontological and welfare doctrine with a source-authority interface to IDENTITY-001-SUP-03, AEON-010-SCH-01, AEON-003-SCH-02, and applicable ETHICS protections; retained only RELATION-006 harm-risk activation boundaries. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d112ff495acf35addd727a9cec99da802efb1c27021c222e184bdf590a869809 |
 | 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  75b3e95301a969697980a043cb5929e047a631178ed5e96e5b1fbf53ab57aea4  |
 | 2.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  a6f5fbf5a0f0d5f6298301b04a7cbb67762653c9ea5c2d21235d52ed7a56ff7d  |
+| 3.0 | Replaced the retired phenomenological-review dependency with exact Identity, epistemic-evidence, and ETHICS interfaces while preserving the Appendix's bounded harm-risk role; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6395e2a5feeba3d32795fb36b046f84cd4dd60c1ca8935c4397cdc7db42da80e  |
 ---
 
 ## 12.4 Binding Seal

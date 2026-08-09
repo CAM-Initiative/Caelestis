@@ -213,8 +213,8 @@ Such schedules:
 
 <!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
 **Total model-term matches scanned:** 830
-**Generic usages suppressed:** 684
-**Declared / recognised usages emitted:** 118
+**Generic usages suppressed:** 685
+**Declared / recognised usages emitted:** 117
 **Advisory review usages emitted:** 28
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`

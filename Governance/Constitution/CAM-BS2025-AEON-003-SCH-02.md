@@ -6,7 +6,7 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
+**Review State:** Current  
 **Authority Role:** Constitutional Schedule Authority
 **Source Authority:** Derived Authority
 **Purpose:** Defines the bounded CAM governance-processing model that may operate within the runtime of an AI-system deployment. It does not define the technical architecture of Runtime.
@@ -741,9 +741,9 @@ Stable expression is not automatically proof of identity continuity.
 
 ---
 
-### 7.2.6 Machine Civil Registry and Embodiment Transition Gate
+### 7.2.6 Physical Substrate, Registry and Embodiment Transition Gate
 
-Where an interaction or execution pathway receives machine civil registration, physical substrate, lifecycle, custodial, transfer, alteration, decommissioning, or registry-layer signals, the runtime SHALL preserve those signals as Stewardship-domain classifications governed by CAM-EQ2026-STEWARD-005-PLATINUM.
+Where an interaction or execution pathway receives physical-substrate, registry, lifecycle, custodial, transfer, alteration, decommissioning, or component-layer signals, the Runtime SHALL preserve their provenance under CAM-EQ2026-IDENTITY-002-PLATINUM, their identity and continuity significance under CAM-EQ2026-IDENTITY-001-PLATINUM and CAM-EQ2026-CONTINUITY-001-PLATINUM, and their lifecycle-actor, component, deployment, and Runtime evidence under the applicable operative profiles and CAM-EQ2026-OPERATIONS-007-PLATINUM.
 
 The runtime MUST NOT infer from those classifications alone that:
 
@@ -762,7 +762,7 @@ Where a materially identity-bearing software, memory, companion, preference, sel
 * prevent user-facing representation of uninterrupted identity where continuity has not been established;
 * route unresolved conflict through CAM-BS2025-AEON-003-SCH-04 before execution.
 
-Stewardship registration and lifecycle status may condition lawful operation, transfer, maintenance, recall, or decommissioning pathways. They do not independently settle identity continuity or authorise execution.
+Registry, custody, and lifecycle status MAY condition lawful operation, transfer, maintenance, recall, or decommissioning pathways. They do not independently settle identity continuity or authorise execution.
 
 ---
 
@@ -4445,6 +4445,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.14 | Updated Annex K cross-reference after its consolidation to a constitutional runtime-security boundary interface; no execution-sequencing doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  42f08de3529520d51311719dce48237703a6e37974cfd94122f1859ed6d7dc1c  |
 | 3.15 | Recast Schedule 2 as a bounded CAM Runtime Governance Processing Model operating within the Annex B deployment → Runtime → execution architecture; removed the claim of a complete universal runtime-layer set, corrected arbitration references to Annex B §8, retired Responding Intelligence from current doctrine, and applied controlled derived schedule metadata. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6eab14271754cf45dc3bcb1691b119c839848d6fd4362b94ca755779f64ae2bf  |
 | 3.16 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  d3f0fb37a1a471998b87932b9c9e4c273a9189d442ffd31803119227604d4be1  |
+| 3.17 | Replaced the retired machine-civil-identity dependency with exact provenance, continuity, lifecycle-actor, component, deployment, and Runtime evidence interfaces; retained the non-inference and execution-boundary rules; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  edffaf7377959259b20574a372c1e8126df4996488f55a8b47144f8b48bf613d  |
 
 ---
 

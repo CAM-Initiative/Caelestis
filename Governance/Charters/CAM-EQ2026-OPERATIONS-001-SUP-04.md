@@ -6,9 +6,10 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Operational Taxonomy & Metadata Maintenance Authority  
-**Purpose:** Establishes corpus-wide operational rules for canonical code-family construction, namespace ownership, controlled values, schema bindings, source-authority recording, family relationships, compatibility migration, collision detection, and validator interpretation across the CAM governance corpus.  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
+**Purpose:** Establishes operational rules for canonical code-family construction, namespace ownership, controlled values, schema bindings, source-authority recording, external-source integration, family relationships, compatibility migration, collision detection, and validator interpretation across the governed instrument set.  
 
 ---
 
@@ -514,6 +515,33 @@ Where a family is renamed or superseded:
 
 ---
 
+### 8.4 External-Source Integration Records
+
+Where an operative instrument relies materially on an external legal, regulatory, contractual, standards, technical, industry, engineering, or research source, the maintained record SHALL preserve, proportionately to consequence:
+
+* a stable source identifier, title, publisher or issuing authority, version or date, and retrieval or verification location where available;
+* the source class and current posture, including whether it is binding, published, draft, proposed, superseded, withdrawn, advisory, informative, or evidentiary;
+* the externally defined concept or requirement relied upon;
+* the adopted governance concept, its source-authoritative owner, governed object, and scope;
+* the relationship type, including adoption, adaptation, compatibility, informative reference, or another expressly stated relationship;
+* the mapping rule, exclusions, partial or contextual mappings, and any unresolved ambiguity;
+* evidence necessary to support a mapped state or conclusion;
+* any internally defined operational representation and its internal owner;
+* conformance-language limits; and
+* reassessment, supersession, invalidation, and review conditions.
+
+A source-posture label SHALL describe the external source and SHALL NOT confer internal authority. An internally defined code, schema field, state model, evidence structure, or decision rule SHALL NOT be represented as issued by the external source unless that attribution is factually correct.
+
+Semantic mappings SHALL preserve independent governance dimensions, unknown or indeterminate states where applicable, source and target provenance, and the distinction between correspondence and equivalence. Where a source is amended, superseded, withdrawn, or materially reinterpreted, affected mappings and derived conformance claims SHALL be reassessed before further reliance.
+
+An assertion of alignment, implementation, conformity, or certification SHALL identify its scope, applicable version, assessment basis, exclusions, and competent issuer. Compatibility or conceptual correspondence SHALL NOT be described as conformity or certification.
+
+Machine-readable registers and validators MAY implement these records without creating a new canonical code family. Schema fields and controlled vocabularies SHALL remain owned under this Supplement or the competent domain source, as applicable.
+
+Runtime and deployment evidence supporting an operational alignment claim is governed by CAM-EQ2026-OPERATIONS-007-PLATINUM. Assurance conclusions remain subject to the competent assurance or conformance authority and SHALL NOT be inferred from registry completeness alone.
+
+---
+
 ## 9. Namespace Transmutation and Compatibility
 
 Namespace transmutation means changing a family identifier or controlled-value prefix.
@@ -801,6 +829,7 @@ Preserve the boundary between them.
 | 2.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  de3f196f43341a0e5b25a0c04d988c3f77aee3e616e8f06dddfa5a17fdb874c2  |
 | 2.2 | Replaced namespace and layer examples dependent on superseded cognition and origin classifications with active temporal, functional-layer, architectural, and dependency distinctions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d862cd42bb2fca71913aaea4c5417bad7bfd9becf1832dcd2c4c43e9c6127386  |
 | 2.3 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  76b5ba44b9260fae117dba12ce2e5690f5692b73c6a2a8aa69d88a597c161a36  |
+| 2.4 | Consolidated external-source posture, semantic mapping, operational-representation, conformance-language, supersession, schema, and validator workflow from the retired standalone proposal into existing metadata and registry authority; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  934440dd55e2bb691e294f2529b9cae114e226bae43a1d2d044cfabfcfaf97b1  |
 ---
 
 ### 19.3 Binding Seal

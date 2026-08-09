@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Close the Pass 3 draft boundary deterministically.
+"""Close the historical Pass 3 draft boundary deterministically.
 
 This one-purpose migration:
 - normalises self-identifiers for instruments moved to Governance/Drafts;
@@ -7,7 +7,9 @@ This one-purpose migration:
 - removes Platinum binding-seal presentation from draft files;
 - repairs the one operative reference that still used the retired draft identifier.
 
-It is idempotent and safe to run during the governance rebuild.
+The migration is now a no-op when the reviewed draft set has been retired. It
+remains idempotent for an older checkout in which the complete migration set is
+still present.
 """
 from __future__ import annotations
 
@@ -107,6 +109,14 @@ def repair_operational_reference() -> bool:
 
 
 def main() -> None:
+    existing = [path for path in DRAFTS if path.exists()]
+    if not existing:
+        print("Pass 3 draft-boundary closure satisfied by reviewed draft retirement")
+        return
+    if len(existing) != len(DRAFTS):
+        missing = [str(path.relative_to(ROOT)) for path in DRAFTS if not path.exists()]
+        raise SystemExit("Incomplete historical draft migration set: " + ", ".join(missing))
+
     changed: list[str] = []
     for path, (old_id, new_id) in DRAFTS.items():
         if normalise_draft(path, old_id, new_id):

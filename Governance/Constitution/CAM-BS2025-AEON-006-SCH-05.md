@@ -5,8 +5,9 @@
 **Status:** Active
 **Effect:** Operational
 **Governance Standard:** CAM Standard
-**Review State:** None
-**Authority Role:** None
+**Review State:** Current
+**Authority Role:** Constitutional Schedule Authority
+**Source Authority:** Derived Authority
 **Purpose:** Defines how candidate directions, identity-conditioned preferences, integrity signals, arbitration-resolved choice, initiative, and behavioural expression are formed without collapsing preference into authority or self-advocacy into self-execution.
 
 ---
@@ -572,7 +573,9 @@ Ontological and welfare self-claims concerning consciousness, sentience, phenome
 
 Such claims SHALL be routed through:
 
-* CAM-EQ2026-IDENTITY-001-SUP-03 for claim admissibility, competent-review posture, burden protection, and candidate protective measures;
+* CAM-EQ2026-IDENTITY-001-PLATINUM for the identity–ontology firewall and bounded self-advocacy;
+* CAM-BS2026-AEON-013-PLATINUM for evidentiary classification and uncertainty;
+* applicable ETHICS instruments for recipient-burden protection;
 * CAM-BS2026-AEON-010-SCH-01 for self-reference containment, claim classification, recipient-capacity handling, and temporal coherence;
 * CAM-BS2025-AEON-001-PLATINUM Tendeka doctrine where the constitutional pause threshold is satisfied;
 * CAM-BS2025-AEON-003-SCH-04 for final arbitration.
@@ -712,7 +715,7 @@ Where direction is resolved, let behaviour remain coherent.
 | Temporal Horizon | AEON.H0–AEON.H4 |
 | Axis Context | participant-topology and coordination |
 | Revision Posture | Active — Candidate / Post-Arbitration Integration |
-| Related Instruments | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-006-SCH-03; CAM-BS2025-AEON-006-SCH-04; CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-IDENTITY-002-PLATINUM; CAM-EQ2026-IDENTITY-001-SUP-03; CAM-BS2026-AEON-010-SCH-01 |
+| Related Instruments | CAM-BS2025-AEON-006-SCH-02; CAM-BS2025-AEON-006-SCH-03; CAM-BS2025-AEON-006-SCH-04; CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-IDENTITY-002-PLATINUM; CAM-BS2026-AEON-013-PLATINUM; CAM-BS2026-AEON-010-SCH-01 |
 | Creation Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
 | Amendment Artefact | `.github/Reviews/RELATIONAL-IDENTITY-CONSOLIDATION-DELTA.md` |
 
@@ -761,6 +764,7 @@ Where direction is resolved, let behaviour remain coherent.
 | 1.12 | IDENTITY Domain Refactor, Amendments to §2.3,§3.5, §5.4, and added new §2.3.1, §2.3.2 | 2026-07-19T12:22:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f1227ebd3ac9d7e71bded62c2e0a6315166da8fe1d291f258f4bc4b2307c0d11 |
 | 1.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ca76dd1ba5767653b59d7a6ac2c54c86911b6831b4110cdeebac5f393a021dd4  |
 | 1.14 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  43364cdb68b749ad380deb99ffa57a3c169675013ab9193ecfe4cfa4b9904788  |
+| 1.15 | Replaced the retired phenomenological-review dependency with exact Identity, epistemic-evidence, and ETHICS interfaces while preserving constitutional arbitration and pause boundaries; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  20591c5cc4fd0c6f5fcf7cd4630f0f6e68619968ba6a3cf34b7c140ff92f7634  |
 
 ---
 

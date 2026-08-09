@@ -6,8 +6,9 @@
 **Status:** Adopted  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Domain Source Authority — Provenance & Lineage Integrity  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Source-Authoritative  
 **Purpose:** Establishes the source-authoritative Identity-domain architecture governing provenance, authorship, transformation, lineage, cross-context transfer, target-object binding, and provenance-integrity failure conditions for identity-relevant, continuity-bearing, attribution-bearing, governance-relevant, and materially relied-upon signals without creating execution, enforcement, ownership, intellectual-property, or final admissibility authority.  
 
 ---
@@ -337,7 +338,7 @@ A substrate identifier, registry linkage, custodial record, or lifecycle record 
 
 Where one substrate hosts multiple formations, or one formation is distributed across multiple substrates, provenance MUST preserve the many-to-many relationship rather than collapsing lineage into a single device identity.
 
-Machine civil registration, custody, lifecycle, transfer, alteration, and decommissioning classifications are governed by CAM-EQ2026-STEWARD-005-PLATINUM. Identity significance and continuity classification remain governed by CAM-EQ2026-IDENTITY-001-PLATINUM.
+Physical-substrate attribution, registry provenance, custody, transfer, alteration, and decommissioning lineage are governed by this Appendix. Identity significance and continuity classification remain governed by CAM-EQ2026-IDENTITY-001-PLATINUM; custody, retention, transfer, deletion, and succession obligations remain governed by CAM-EQ2026-CONTINUITY-001-PLATINUM; and lifecycle-actor, component, deployment, and Runtime evidence remain governed by the applicable operative profiles and CAM-EQ2026-OPERATIONS-007-PLATINUM.
 
 ---
 
@@ -603,6 +604,7 @@ Let identity remain true across time.
 | 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c2bece59ba8e8f075736f98b836aa0cb34919087f6d6b1867ff75f8490ca513a  |
 | 1.4 | Normalised provenance and lineage terminology to the canonical AI-system architecture and evidence-bound identity/continuity model. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | 1147da2bd7845fe7ec337883cfc3069f16655fd05ebf3ee15e7cf776eacdef3b |
 | 1.5 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c47a928b666f0cc1c8a72bcd4cff983265ab2b30a8a538529de6c5feaf6045b2  |
+| 1.6 | Replaced the retired machine-civil-identity dependency with bounded source ownership for substrate and registry provenance and exact interfaces to Identity, Continuity, lifecycle, component, deployment, and Runtime evidence authorities; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  64457ed1fa876c6162f05b2058455e4dd7103591e34af0a1076e0e9f358a7306  |
 
 ---
 

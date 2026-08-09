@@ -1,8 +1,8 @@
 # CAM Governance Model Terminology Audit
 
 **Total model-term matches scanned:** 830
-**Generic usages suppressed:** 684
-**Declared / recognised usages emitted:** 118
+**Generic usages suppressed:** 685
+**Declared / recognised usages emitted:** 117
 **Advisory review usages emitted:** 28
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
@@ -119,7 +119,6 @@
 | CAM-EQ2026-LATTICE-002-PLATINUM | 10.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LATTICE-003-PLATINUM | 11.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-LAW-004-PLATINUM | II. Nature of the Law | or prescribe specific governance models | Governance Model | Declared / Recognised |
-| CAM-EQ2026-MENTIS-001-PLATINUM | 1. Scope | the source-authoritative governance position of the Caelestis Architecture Model | Architecture Model | Declared / Recognised |
 | CAM-EQ2026-MENTIS-001-PLATINUM | 29. Fusion Constraint | or interaction data into cognitive-domain models | Domain Sub-Model | Advisory Review |
 | CAM-EQ2026-MENTIS-001-PLATINUM | 52.3 `MENTIS.CDP` — Cognitive Domain Privacy | and downstream cognitive-domain model | Domain Sub-Model | Advisory Review |
 | CAM-EQ2026-MENTIS-001-PLATINUM | 54.1 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |

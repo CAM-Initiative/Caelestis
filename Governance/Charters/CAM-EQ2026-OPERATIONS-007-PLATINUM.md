@@ -451,6 +451,12 @@ Observed divergence SHOULD be classified according to:
 
 A low-severity deterministic error MAY indicate a high-significance routing, verification, or governance-reach regression.
 
+### 11.4 External-Alignment Evidence
+
+Where conformance is claimed against an external source, the applicable source posture and semantic mapping record SHALL be governed by CAM-EQ2026-OPERATIONS-001-SUP-04 §8.4.
+
+Runtime or deployment evidence SHALL identify the external-source version, mapped obligation or concept, governed object, applicable configuration baseline or Runtime configuration snapshot, assessment method, result, exclusions, and reassessment trigger. Evidence of implementation SHALL NOT by itself establish certification, legal compliance, or whole-instrument conformity.
+
 ---
 
 ## 12. Runtime Governance Reach Failure
@@ -762,6 +768,7 @@ and let conformance be demonstrated where reliance is invited.
 | 1.7 | Consolidated lifecycle actor assignments and the agentic lifecycle under the source-authoritative Lifecycle Actor and Agentic Governance Profile; distinguished lifecycle actors from technical contributors and required bounded actor, permission and lifecycle-event evidence for material agentic operation. | 2026-08-07T19:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1a2cfa3b50aa7156fd34b4823af0126b5b00d9609ea51abf641c7eb63a4c694e  |
 | 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8537efccab1f5992dea3be5d81f334ba47b58d86cefd42aad949e8d9b638cb42  |
 | 1.9 | Linked controlled Runtime State Profile serialization to the existing configuration snapshot and execution provenance evidence boundary. | 2026-08-08T02:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  52878f0aafefaaaa8672903c230630173c21cb9dd207a706520d6c923ec4e81f  |
+| 1.10 | Added the bounded external-alignment evidence interface to the existing Runtime applicability and conformance architecture. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b46410aa1abd11820a868e22878ca08b7f29151d7a6c2fb3f842234d4ac0f195  |
 ---
 
 ## 18.4 Binding Seal
