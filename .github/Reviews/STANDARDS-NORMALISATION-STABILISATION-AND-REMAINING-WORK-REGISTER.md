@@ -13,7 +13,7 @@ The branch has added or materially developed the canonical AI-system architectur
 | Earlier finding / work item | Current state | Disposition | Evidence |
 |---|---|---|---|
 | P2-001 / P2-002 — draft leakage and `PLATINUM` lifecycle contradiction | Drafts were excluded from operative indexes and renamed without `PLATINUM`; this pass retires all remaining draft instruments. | Complete | `Governance/Drafts/README.md`; draft-boundary validator; no governed draft files remain. |
-| P2-003 / F-020 — relational taxonomy used as system architecture | Cardinality-based architecture has been replaced by independent participant, coordination and influence dimensions. | Complete for current normative prose | Annex B; `PASS-4-ZERO-CURRENT-USE-EXCEPTION-REGISTER.md`; terminology validator. |
+| P2-003 / F-020 — relational taxonomy used as system architecture or governance proxy | **R-01 complete.** Participant topology is descriptive only and cannot independently determine authority, permission, consent, responsibility, impact, risk, identity, jurisdiction, access or governance status. Annex C's replacement cardinality axis and matrix are removed; downstream proxy uses are routed to their actual owners. | Complete for current operative prose and guarded recurrence | Annex B §2; Annex C §4; `R-01-RELATIONAL-GEOMETRY-FUNCTION-DECOMPOSITION-AND-CLOSURE.md`; terminology validator. |
 | P2-004 / F-013 / F-014 — SECURITY and Annex K circular or excessive authority | SECURITY-001 owns security doctrine; Annex K is a bounded constitutional interface; procedure routes to OPERATIONS. | Complete | `PASS-4-BATCH-C-ANNEX-K-CONSOLIDATION-DECISION.md`; `PASS-4-BATCH-D-SECURITY-AUTHORITY-DECISION.md`. |
 | P2-005 / F-019 — Responding Intelligence divergence | Retired from current operative doctrine. | Complete for current normative prose | `PASS-4-ZERO-CURRENT-USE-EXCEPTION-REGISTER.md`; canonical-architecture terminology validator. |
 | P2-006 / F-023 — optional Runtime/deployment evidence | Configuration baseline, deployment, Runtime snapshot, execution provenance, AI-BOM and state serialization are now bounded operative records. | Complete at profile level; implementation adoption remains external | Annex B; OPERATIONS-007 §§5–6; AI-BOM and Runtime State profiles and validators. |
@@ -77,6 +77,7 @@ Git history is the provenance record for every retired draft. No draft was reloc
 | S-01 | Adjudicate the remaining constitutional schedules against their parents and delegated authority; remove procedural or domain-doctrine overreach. | **Complete only with S-01B.** The instrument-level S-01 result was reopened for clause-level irreducibility review. Of the 23 Schedules then current, 7 were retained and materially decomposed and 16 were consolidated/retired. Registry contracts now reside in the Governance Metadata Standard and OPERATIONS-001-SUP-04; domain and operational doctrine resides with existing source authorities. See `S-01B-CONSTITUTIONAL-SCHEDULE-CONTENT-DECOMPOSITION-REGISTER.md`. | Closed by S-01B |
 | S-02 | Establish the bounded assurance and conformance contract: competent issuer, claim scope, evidence minimum, assessment method, validity, renewal, withdrawal and non-certification language. | **Open / on hold.** F-024 remains; OPERATIONS-007 supplies evidence inputs but does not own every assurance conclusion. This package made no S-02 closure claim. | High — On hold |
 | S-03 | Review repeated execution-boundary, arbitration and operational-procedure formulas for consolidation into exact owner references. | **Complete.** Source owners, local applications, semantic duplicates and contradictions are recorded in `S-03-EXECUTION-ARBITRATION-AND-PROCEDURE-CONSOLIDATION.md`; exact consumers now preserve domain, constitutional, arbitration and operational authority boundaries. | Closed |
+| R-01 | Decompose relational geometry into genuine topology, permissions, authority, consent, institutional context, impact, coordination, dependency and jurisdiction; close disguised replacement cardinality classes. | **Complete.** The 182-line operative candidate inventory and 19 historical-ledger lines are adjudicated in `R-01-RELATIONAL-GEOMETRY-FUNCTION-DECOMPOSITION-AND-CLOSURE.md`. No replacement code family or duplicate record was created. The four sealed Law values remain exact archival, non-consumable exceptions. | Closed |
 
 ### 5.3 Metadata / provenance disposition
 
@@ -112,7 +113,7 @@ The following are not current normative defects:
 
 ## 6. Recommended next bounded work package
 
-S-03 and O-03 close the execution/arbitration consolidation and narrative-orientation package. The next bounded sequence is:
+S-03, O-03 and R-01 close the execution/arbitration, narrative-orientation and relational-geometry packages. The next bounded sequence remains:
 
 1. **O-01** — bounded logging review;
 2. **O-02** — identity evidentiary-claims audit; and
@@ -138,3 +139,21 @@ The deterministic rebuild was run twice after the final current-prose repair. Th
 | Registry pipeline | Pass; exactly seven constitutional Schedules and 84 Constitution/Charter/Law source instruments are projected; the four operative Standards are included in the metadata/source-authority audit; retired registry Schedules are absent from current indexes; two consecutive rebuilds produced the same state hash. |
 | Narrative-orientation residue | Exact current-prose checks find no `Caelestis SHALL`, `Caelestis MAY`, `CAM SHALL`, `CAM MAY define`, or `CAM operational extension`; the last phrase remains only in the historical AEON-001 amendment ledger. |
 | Retired draft dependencies | Current operative prose contains none; remaining identifiers occur only in historical amendment-ledger rows and review/disposition records. |
+
+### 7.1 R-01 validation closure
+
+R-01 audited 182 current candidate lines across 80 operative source files and 19 historical amendment-ledger lines. Fifty-six governed Constitution/Charter instruments received functional repairs. The four Laws were not modified. The ordered generated-output set had SHA-256 `0ce3d8c08d9f0c6d0f1f42981b4f6157261a236e7676b0d0efb9dde62395b769` before and after the second final rebuild.
+
+| Validation | R-01 result |
+|---|---|
+| Metadata/source authority | Pass; 88 operative instruments, zero issues. |
+| Canonical headers | Pass; 84 files, zero issues. |
+| Architecture terminology | Pass; 6 source contracts, 106 operative artefacts, exactly 4 sealed-Law exceptions, zero review warnings. |
+| Section references / draft boundary | Pass; 1,118 references with zero hard failures or manual-review items; zero drafts and 8 generated outputs checked. |
+| AI-BOM / Runtime / lifecycle actors | AI-BOM and Runtime examples pass; controlled lifecycle-role review found no sponsor/funder extension requirement. |
+| Ledgers / Laws | Pass; 80 valid latest SHA rows, 1,514 valid historical rows, 49 recognised historical-null rows, and intact Law MANIFEST hashes. |
+| Canonical code / symbolic structures | Pass; no replacement geometry family, zero symbolic warnings or errors; the 24 pre-existing declaration-shape warnings remain V-05 work. |
+| Script tests | Pass; 144 tests through the fixture-compatible runner. |
+| Determinism | Pass; two final rebuilds produced the identical ordered generated-output hash above. |
+
+R-01 is closed. S-02 remains on hold. O-01, O-02, V-05 and V-03 retain their recorded independent states; no unrelated item is closed.

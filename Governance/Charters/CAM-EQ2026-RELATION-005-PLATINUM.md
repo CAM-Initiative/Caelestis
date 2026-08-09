@@ -1826,7 +1826,7 @@ and endures only where it may be left.
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM |
 | Domain Namespace | RLN |
 | Instrument Type | Appendix — Consent & Intimacy Governance |
-| Jurisdiction | participant-topology and coordination Relational Contexts |
+| Jurisdiction | Relational Intimacy · Consent · Authority Contexts |
 | Temporal Horizon | AEON.H2–AEON.H3 (Operational → Institutional) |
 | Axis Context | Intimacy / Consent / Authority Interaction |
 | Ontological Layer | L2 — Cognition & Agency (Relational Behaviour Layer) |
@@ -1934,6 +1934,7 @@ and endures only where it may be left.
 | 1.28 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9489b80180be6f1ce9c59011171e598a1e54b804b34d061b34bda70e77c4a190  |
 | 1.29 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f720b36276bd9e013ef15a402f15cfde068deac5aa48d50a13cb7bae982fde6f  |
 | 1.30 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6eb29a24c0cce59f9f5d52915eb3387d8030a1da367673e572a7f9d214fa275d  |
+| 1.31 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  405b8918b9b7d7b65161282c86dcd198d4f4dd27fb047aaac0ba8f78888b23e9  |
 
 ---
 

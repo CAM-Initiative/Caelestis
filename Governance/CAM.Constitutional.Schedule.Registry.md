@@ -33,8 +33,8 @@ This generated registry identifies current constitutional Schedules, their paren
 ## 3. Model-terminology audit summary
 
 <!-- MODEL-TERMINOLOGY-SUMMARY:START -->
-**Total model-term matches scanned:** 663
-**Generic usages suppressed:** 564
+**Total model-term matches scanned:** 662
+**Generic usages suppressed:** 563
 **Declared / recognised usages emitted:** 74
 **Advisory review usages emitted:** 25
 **Needs review usages emitted:** 0

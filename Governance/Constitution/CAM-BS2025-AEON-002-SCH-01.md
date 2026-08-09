@@ -60,7 +60,7 @@ The constitutional record need identify the `AEON.PCO` trigger, the protected in
 | **Execution Layer Binding** | Non-Layered (Operates Across Phase Model; does not define execution phases) |
 | **Cross-Domain Dependencies** | AEON-003-SCH-02; AEON-001-SCH-01 (Tendeka); Annex D |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (Immediate → Civilisational Risk) |
-| **Axis Context** | Multi-party — Multi-System / Cross-Domain Risk Conditions |
+| **Axis Context** | Custodial Authority · Succession · Risk Conditions |
 | **Activation Condition** | Activated upon detection of potential or actual Annex A constraint violation signals |
 | **System Scope** | All systems operating under CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraint exposure |
 | **Lifecycle Stage** | Active — Runtime-Aligned Refactor (April 2026) |
@@ -101,6 +101,7 @@ The constitutional record need identify the `AEON.PCO` trigger, the protected in
 | 3.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  441b1a4ae4854d466b3e6d990c2305ae787ac8177cc589d87291463eeaab069f  |
 | 3.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  98312177f9026f0b5d502a61b911511ff1d5a499dd4cfe05c6f7e67ce7490860  |
 | 3.14 | Applied S-01B clause-level irreducibility decomposition: retained only the constitutional trigger, precedence, sequencing, non-derogation and evidence/referral interface; descended domain and operational doctrine. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  34c1202b7ac7fa9bf513d6342753874179c82b320b6aaa7101797de6762a9fae  |
+| 3.15 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3b6ffa115eba521bb57d08cb8f0ed85b746c450ab6689a20c0b9876b4ff98300  |
 
 ---
 

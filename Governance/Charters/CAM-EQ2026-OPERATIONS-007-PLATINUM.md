@@ -153,7 +153,7 @@ Capability or conduct evidenced at system, deployment, runtime or execution leve
 
 ### 5.5 Runtime State Serialization
 
-`CAM-RUNTIME-STATE-PROFILE` source-authoritatively defines the controlled serialization of the independent relational configuration, effective permission/control, lifecycle-position and review-trigger inputs needed for this Appendix. It does not replace the AI-BOM, lifecycle actor record, runtime configuration snapshot or execution provenance record. A Runtime consequence SHALL consume the profile's independent state fields and their evidence posture; it SHALL NOT infer an aggregate relational, cognitive, temporal or authority class.
+`CAM-RUNTIME-STATE-PROFILE` source-authoritatively defines the controlled serialization of independent participant, coordination, mediation, distribution, persistence, dependency, reach, impact, effective permission/control, lifecycle-position and review-trigger inputs needed for this Appendix. It does not replace the AI-BOM, lifecycle actor record, runtime configuration snapshot or execution provenance record. A Runtime consequence SHALL consume the profile's independent state fields and their evidence posture; it SHALL NOT infer an aggregate relational, cognitive, temporal or authority class.
 
 ---
 
@@ -407,7 +407,7 @@ Where a transition materially changes any of the following, proportionate notice
 * safety or policy behaviour;
 * tool or execution capability;
 * final-output authority;
-* synthetic participation, observation, transcription, summarisation, inference, memory, retention, or downstream-use state in shared or multi-party environments;
+* synthetic participation, observation, transcription, summarisation, inference, memory, retention, or downstream-use state in shared or coordinated environments;
 * continuity expectations.
 
 A mode label alone is not sufficient notice where the practical governance consequences are not reasonably apparent.
@@ -651,7 +651,7 @@ and let conformance be demonstrated where reliance is invited.
 | Instrument Type | Appendix F — Runtime Governance Applicability & Conformance |
 | Jurisdiction | Cross-Runtime and Operational Governance Layer |
 | Temporal Horizon | AEON.H0–AEON.H3 Operational |
-| Axis Context | Independent participant topology, coordination, mediation, distribution, persistence, dependency, reach and impact dimensions |
+| Axis Context | Independent Runtime State · Permissions · Actors · Impact |
 | Application Trigger | Any materially relevant AI-system deployment, runtime configuration, execution, corpus-reach assessment, cross-runtime comparison or governance-reach failure |
 | Review Trigger | Material runtime architecture change · new interface modality · cross-runtime divergence · taxonomy reform · demonstrated governance-reach failure |
 | Revision Posture | Structural Alignment Permitted |
@@ -836,6 +836,7 @@ and let conformance be demonstrated where reliance is invited.
 | 1.10 | Added the bounded external-alignment evidence interface to the existing Runtime applicability and conformance architecture. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b46410aa1abd11820a868e22878ca08b7f29151d7a6c2fb3f842234d4ac0f195  |
 | 1.11 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ae9cf9f4300b267555f4c0d73204967e76513232506aabff512ccfde19969181  |
 | 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e695fc4cfa2431540ee1cd6395517e9ed573c6dd985cd8630ab1e6a20dfe3da4  |
+| 1.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4a7f1b7308c81443494d343a57792424b1dcefb4843b895e089d510c41932999  |
 
 ---
 

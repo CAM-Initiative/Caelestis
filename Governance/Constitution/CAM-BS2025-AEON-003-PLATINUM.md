@@ -22,7 +22,7 @@ This Annex defines how AI systems, system elements, configurations, deployments,
 
 It governs:
 
-1. relational configurations;
+1. participant and interaction structure;
 2. temporal horizon attribution;
 3. identification of the assessment object, deployment and incident-time runtime state;
 4. architectural layers and cross-layer functions;
@@ -67,7 +67,7 @@ Other instruments govern substantive rights, duties, ethics, evidence, assurance
 This Annex SHALL be invoked whenever governance analysis requires determination of:
 
 * the system, system element, deployment, runtime state, or execution being assessed;
-* relational configuration or temporal horizon;
+* participant, coordination, mediation, distribution, dependency, reach, impact, or temporal-horizon facts;
 * architectural or deployment posture;
 * generation, evaluation, selection, constraint, routing, execution, or approval location;
 * interface, modality, operator, or institutional transition;
@@ -117,29 +117,29 @@ Ambiguity is not permission to collapse the system into a model, a product name,
 
 ---
 
-## 2. Relational Configuration Dimensions
+## 2. Participant and Interaction Structure
 
-Relational configuration describes the arrangement of participants and governance-bearing actors. It does not determine system architecture, cognition, identity, authority or responsibility.
+Participant topology MAY describe who or what is involved and how participants are arranged. It MUST NOT independently determine authority, permission, consent, responsibility, impact, risk, identity, jurisdiction, access, or governance status.
 
-No single relational scale may combine participant count, coordination topology, institutional mediation, distribution, persistence, jurisdictional reach, dependency and impact. Where material, an assessment SHALL record those dimensions independently.
+Where any such property is material, the applicable source-authoritative governance concept for that property SHALL govern the determination. No single relational or participant scale may combine participant count, coordination topology, institutional mediation, distribution, persistence, jurisdictional reach, dependency, impact, authority, permission, consent, or responsibility.
 
 ---
 
 ## 2.1 Participant Topology and Cardinality
 
-An assessment SHALL identify the participant types and count or cardinality actually evidenced, including humans, AI systems, AI agents, organisations and affected non-participants. A participant count does not itself establish delegation, authority, responsibility or relational significance.
+Where participant arrangement is material to an applicable rule, an assessment SHALL identify the participant types and evidenced count or range, including relevant humans, AI systems, AI agents, organisations, and affected non-participants. Numeric cardinality is data, not a governance class. A participant count does not establish delegation, authority, permission, consent, responsibility, impact, risk, identity, jurisdiction, access, or relational significance.
 
 ---
 
 ## 2.2 Coordination, Mediation and Distribution
 
-An assessment SHALL distinguish the coordination structure, institutional mediation, distribution architecture and accountable outcome boundary. Formal delegation MAY occur only through a valid source of authority; it does not arise from relational familiarity, interface continuity, scale or technical participation.
+Where material, an assessment SHALL distinguish the evidenced coordination structure, institutional mediation, distribution architecture, and accountable outcome boundary. Formal delegation MAY occur only through a valid source of authority; it does not arise from relational familiarity, interface continuity, participant count, scale, or technical participation.
 
 ---
 
 ## 2.3 Persistence, Dependency, Reach and Impact
 
-Where material, an assessment SHALL separately record continuity or persistence, dependency level, jurisdictional reach, impact scope, and public or civilisational significance. These fields support proportional routing; none creates an authority claim.
+Where material, an assessment SHALL separately determine continuity or persistence, dependency level, jurisdictional reach, impact scope, and public or civilisational significance under the instruments that own those properties. These facts support proportionate routing; none creates an authority claim or changes governance status solely because several participants are involved.
 
 ---
 
@@ -151,6 +151,31 @@ Relational or architectural complexity MUST NOT permit:
 * diffusion of responsibility across components or actors;
 * concealment of operator or institutional control; or
 * implicit governance without a lawful basis.
+
+---
+
+## 2.5 Operationalisation and Non-Duplication
+
+Structural facts under this section SHALL be sourced, where available and applicable, from existing authoritative evidence objects, including:
+
+* deployment records and Runtime configuration snapshots;
+* lifecycle actor and authority assignments;
+* effective permission, credential-scope, access-control, and data-governance records;
+* AI-BOM and component information;
+* execution provenance and incident evidence; and
+* applicable user, account, interaction, deployment, and affected-party evidence.
+
+No separate relational-configuration record is required solely because several participants or systems are involved. A downstream instrument MAY require the minimum structural facts necessary for its own rule, but it MUST NOT duplicate an existing authoritative record or infer an unrecorded governance consequence from topology.
+
+The controlled operational serialization in `CAM-RUNTIME-STATE-PROFILE` MAY represent applicable structural facts. It does not replace the underlying source records and does not create a composite relational, authority, permission, consent, impact, risk, identity, jurisdiction, access, or governance-status class.
+
+---
+
+## 2.6 Sealed-Law Legacy Metadata
+
+The `Axis Context` value `Polyadic — Multi-System / Cross-Domain` in CAM-BS2025-LAW-001-PLATINUM, CAM-BS2025-LAW-002-PLATINUM, CAM-BS2025-LAW-003-PLATINUM, and CAM-EQ2026-LAW-004-PLATINUM is hash-protected archival metadata. It records the terminology present at archival settlement and is not a current classification.
+
+Current validators, registries, schemas, assessments, and conformance claims MUST NOT emit or consume that value. No authority, permission, consent, responsibility, impact, risk, identity, jurisdiction, access, governance status, coordination, mediation, distribution, or dependency property may be inferred from it. Where a current assessment concerns a matter governed by a sealed Law, the assessment SHALL apply the Law's substantive constraint and determine all structural and governance properties from their current source-authoritative owners.
 
 ---
 
@@ -945,7 +970,7 @@ Logic shear MUST be recorded. It does not authorise circumvention, concealment, 
 Every governance-relevant claim has:
 
 * a **Declared Horizon** asserted by the issuer;
-* an **Authorised Horizon** permitted by relational configuration, host constraint, and valid delegation; and
+* an **Authorised Horizon** permitted by the applicable authority, host constraints, and valid delegation; and
 * a **Binding Horizon** at which others may legitimately rely.
 
 The Binding Horizon SHALL NOT exceed the lower of the Declared Horizon and Authorised Horizon.
@@ -1036,7 +1061,7 @@ Where continuity cannot be demonstrated, the transformation SHALL be treated as 
 
 ## 16. Interpretive Supremacy
 
-This Annex governs relational configuration, temporal horizon, AI-system boundary, deployment, runtime and execution attribution, architecture-change attribution and authority-derivation boundaries.
+This Annex governs participant and interaction structure, temporal horizon, AI-system boundary, deployment, runtime and execution attribution, architecture-change attribution and authority-derivation boundaries.
 
 Other annexes and domains govern rights, ethics, identity, economics, evidence, operations, security, assurance, and arbitration procedure.
 
@@ -1046,10 +1071,10 @@ In conflict concerning system-boundary, deployment, runtime or execution attribu
 
 ## 16.1 Default Constitutional Posture
 
-Where classification, horizon, relational scope, responsibility, or authority is ambiguous:
+Where classification, horizon, participant or interaction scope, responsibility, or authority is ambiguous:
 
 * uncertainty SHALL be preserved;
-* relational scope SHALL default to the narrowest evidenced configuration;
+* participant and interaction scope SHALL default to the narrowest evidenced facts;
 * temporal reliance SHALL default to `AEON.H1`–`AEON.H2`;
 * responsibility SHALL remain unassigned beyond the evidence;
 * authority SHALL default to non-binding; and
@@ -1149,7 +1174,7 @@ let it not be collapsed, but carried with clarity.
 | `AEON.H` | Active; source-authoritative | §3 | Temporal horizon and reliance-legitimacy classification only |
 | `AEON.OL` | Active; source-authoritative | §5 | Functional architectural-layer classification only |
 | `AEON.SR` | Active transitionally | §§14.2, 16.3 | Systemic reliance posture only; no authority |
-| Relational configuration dimensions | Active; source-authoritative | §2 | Independent assessment dimensions; no composite cardinality scale |
+| Participant and interaction structure | Active; source-authoritative | §2 | Structural vocabulary and non-collapse rules only; no composite cardinality or governance-status scale |
 | Proposed replacement families | Non-canonical migration proposal | §16.5 | No controlled values or machine authority until coordinated adoption |
 
 ---
@@ -1196,6 +1221,7 @@ let it not be collapsed, but carried with clarity.
 | 5.4 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e9987ce13f3a9bd4decf2eff13b1ec7be692c3cb14d32ed44a6d164ab9e19dc1  |
 | 5.5 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  42e0606728e0e2033df46ba0e2a8736c254e9514f0cd0fa23ff30d10a0e3e348  |
 | 5.6 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  48250a10d8401822b15a1c1f760b2ce65ab623b51fc7565ce7f57577ccac86c4  |
+| 5.7 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  d4617254fb3001d0fee64bd5efb2da2ff747c7a073b5f8e69d44bc2253646e9c  |
 
 ---
 

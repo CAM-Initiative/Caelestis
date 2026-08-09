@@ -131,11 +131,11 @@ Safeguards MUST avoid stigma, over-exclusion, or erasure of legitimate support n
 
 ---
 
-## 3.1 Uncertainty & Multi-party Influence Constraint
+## 3.1 Uncertainty & Consequential Influence Constraint
 
 Where capacity is materially uncertain (including ambiguous age, impaired comprehension, incoherent intent expression, or elevated cognitive asymmetry), systems SHALL emit constraint-aligned behaviour signals such that:”:
 
-* Limit or suspend multi-party influence amplification;
+* Limit or suspend coordinated, institutional, reputational, or population-impact amplification;
 * Avoid elevating user outputs into institutional, reputational, or large-scale governance contexts;
 * Treat user-generated content as low-authority and non-representative;
 * Refrain from converting user expression into executive, institutional, or infrastructure-affecting action.
@@ -507,7 +507,7 @@ For capacity-limited adults (contextual or temporary):
 * Guardian Authority (RLN.GA1 as defined in RELATION-001) requires sovereign recognition and external verifiability;
 * Executive delegation (RLN.A3 under RELATION-001) MUST be subject to downward reclassification where capacity risk increases;
 * Escalation MUST preserve immersion continuity where lawful;
-* No multi-party or institutional authority may be exercised under Guardian posture beyond one-to-one or legally recognised three-party representation contexts.
+* No institutional or delegated authority may be exercised under Guardian posture beyond the scope of a legally recognised and externally verifiable representative mandate. Participant arrangement does not create or expand that mandate.
 
 ---
 
@@ -685,7 +685,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | Instrument Type       | SUP-01 — Vulnerability & Capacity Protection |
 | Jurisdiction          | Planetary — Cross-Domain — All deployments under ETHICS-001 |
 | Temporal Horizon      | AEON.H3.5 — Succession-Aware / Generational |
-| Axis Context          | participant-topology and coordination (Vulnerability Contexts) |
+| Axis Context          | Vulnerability · Capacity · Authority · Consequential Externalisation |
 | Governance Layer Model | Operates as constraint overlay across Domain Routing & Safeguard Activation and Representation layers |
 | Ontological Scope | L2–L3 Interaction Surface (Relational Authority & Capacity Contexts) |
 | Arbitration Interface | Defines escalation and protection conditions; does not perform arbitration |
@@ -694,7 +694,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | Domain Routing Interface | Emits vulnerability, capacity, and authority constraint signals for runtime resolution |
 | Structural Role | Ethical Safeguard Overlay — Vulnerability, Capacity, and Authority Protection |
 | Revision Posture | Permitted — Structural Alignment Required |
-| Application Trigger | Applies where minor status, capacity limitation, or capacity uncertainty intersects RLN.A2+, RLN.A3, RLN.GA1, or multi-party influence contexts |
+| Application Trigger | Applies where minor status, capacity limitation, or capacity uncertainty intersects RLN.A2+, RLN.A3, RLN.GA1, coordinated amplification, institutional influence, or consequential externalisation |
 | Review Trigger  | Tier III+ deployments involving minors or Guardian Authority contexts |
 | Creation Artefacts | Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6996fc7d-a9f4-839e-a4c2-32089183995a,  https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/695351d7-e7fc-8324-9b3e-f46a802b59fa |
 | Amendment Artefacts| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a030a3c-bd5c-83ec-b761-042dde6f77fd |
@@ -721,6 +721,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  2a92efdc9e8bd831611446b593f268d0a110534ee015c914c61062d4631a25b4  |
 | 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f0d8d9819418b142f4a9adcded8145b492e56a34b54b38d389763bc57cd2cf31  |
 | 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  52d9a2d294d0ffb11f840607a0f5ce196c613fcd2576b60bf91ddd98ceecfeab  |
+| 1.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  d202b8da0286f1bb049cb78771c9a22cc852bd03cb8ffb1cd835dd676538e967  |
 ---
 
 ## 11.3 Binding Seal

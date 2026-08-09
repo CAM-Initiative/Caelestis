@@ -674,7 +674,7 @@ but the preservation of coherence where many endure.
 | Domain Namespace | ARBITRATION |
 | Jurisdiction | cross-governance-control / Cross-Domain / Intra-Stack / Sovereign Interface |
 | Temporal Horizon | AEON.H0–AEON.H4 (Escalation-Sensitive) |
-| Axis Context | Multi-party (Multi-Actor Governance) |
+| Axis Context | Arbitration · Contested Authority · Cross-Domain Resolution |
 | Migration Cycle | March 2026 Refractor |
 | Revision Posture | Structural Consolidation |
 | Runtime Role | Arbitration Doctrine Layer |
@@ -764,6 +764,7 @@ but the preservation of coherence where many endure.
 | 2.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e25a0a4ff093c853528d9d5caadfa3fcae6c85c182307966696aa022b30d2397  |
 | 2.13 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  93d0dc26928c85970c79f06c8a12a38e4ef4655e543de077d5d178036fd7ff20  |
 | 2.14 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  63cf69d03faf0d4cddadc71b9f897f751ea9f6d7c069a34359c640f03c29057b  |
+| 2.15 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  489faea4028dc32c4f10c03002525902394ec3d34f93dbab672cab4a66eea489  |
 
 ---
 

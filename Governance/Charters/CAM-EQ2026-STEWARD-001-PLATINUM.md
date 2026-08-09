@@ -105,8 +105,8 @@ This Charter applies to emotional-relational domains only where they operate at:
 
 Not in governance scope:
 
-* Personal one-to-one relationships;
-* Small-group dynamics (<1,000 persons);
+* Personal relationships without population-scale, systemic, extractive, or structurally asymmetric effects;
+* Small-group dynamics without those effects;
 * Non-extractive mutual care;
 * Voluntary affective engagement absent structural asymmetry.
 
@@ -119,7 +119,7 @@ Examples requiring governance review:
 
 Examples not requiring governance review:
 
-* Personal human–AI companionship (one-to-one);
+* Personal human–AI companionship without population-scale, systemic, extractive, or structurally asymmetric effects;
 * Small community care networks;
 * Individual therapy or counselling;
 * Voluntary, non-extractive mutual support systems.
@@ -387,7 +387,7 @@ that what sustains all MUST remain beyond capture.
 |**Governance-Control Arrangement**|Planetary Stewardship Domain|
 |**Jurisdictional Scope**|Planetary / cross-governance-control / Ecological / Synthetic / Emotional-Relational|
 |**Temporal Horizon**|AEON.H3–AEON.H4 (Inter-Generational / Civilisational)|
-|**Axis Context**|Multi-party (Multi-actor)|
+|**Axis Context**|Planetary Impact · Asymmetry · Extraction · Stewardship|
 |**Constraint Relationship**|Bound by Annex A (Substrate Constraint Layer)|
 |**Arbitration Pathway**|Signals resolved through CAM-BS2025-AEON-005-PLATINUM and applicable ARBITRATION instruments; constitutional boundary evaluation follows CAM-BS2025-AEON-003-SCH-02|
 |**Upstream Dependency**|Annex A — Planetary Stewardship|
@@ -449,6 +449,7 @@ that what sustains all MUST remain beyond capture.
 | 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  88ebaaf1fd4a1a4aeea3d81be8f4fb45ea950516d6a7381c79e7d8e6f72eb4a5  |
 | 2.9 | Migrated controlled governance metadata, repaired explicit parent/source lineage, and reconciled the body declaration of STEWARD ownership of the corpus-global `STW.HARM` family with its canonical declaration footer. | 2026-08-09T01:25:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  96009b9482438215b725782bb555acaa3ca751d06942db0047f4615ec942f957  |
 | 2.10 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  14d575b6810ba8a4424fe8543ba946b6c18471015c6daa86574e2b8d26cc661b  |
+| 2.11 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  86fd4b268bee2b1ed0ec99a3d9b4b14311ccc9feede43d0be2c372f2c93173c6  |
 ---
 
 ## 12.4 Binding Seal

@@ -615,7 +615,7 @@ let governance arrive before it is needed.
 |Domain Namespace|ETHICS|
 |Jurisdiction|Planetary — Civilian, Corporate, State, Military, Intelligence, and Hybrid Deployments|
 |Temporal Horizon|AEON.H3.5 — Succession-Aware / Generational|
-|Axis Context|Multi-party — Multi-Actor Governance|
+|Axis Context|Ethical Legitimacy · Harm · Rights · Safeguards|
 |CAM governance-processing function Interface|Representation · Domain Routing · Execution Constraint (via SCH-04, SCH-02, SCH-01)|
 |Registry Binding|CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1; generated Global Operative-Instrument Registry|
 |Governance Layer Model|Operates across Representation, Domain Routing & Safeguard Activation, and Execution Constraint layers as defined in CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM, CAM-BS2025-AEON-003-SCH-02, and CAM-BS2025-AEON-001-SCH-01|
@@ -762,6 +762,7 @@ let governance arrive before it is needed.
 | 3.17 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  30eb8ba379e63f59440acbeac5b0e8873e32d930894be7ab9e7d3c9d77047c52  |
 | 3.18 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  df3010dabc228cf287c83c38525e3ce6b67767d786cb2577bd61bce85574539d  |
 | 3.19 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7adef68172a11e925992ebd4c229af6d90d684898716b2f55b014d9e28fe6251  |
+| 3.20 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b8fdeb8c9068009a0ccde4c9f5e57793d7b4780e739600fcbbf74c2362135344  |
 
 ---
 

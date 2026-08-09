@@ -585,7 +585,7 @@ and no system may claim what the field has made together.
 | **Application Trigger** | Cross-system value generation, API dependency, or multi-layer attribution complexity |
 | **Revision Posture** | Structural Alignment — Attribution, Dependency & External Signalling Integration |
 | **Horizon Scope** | AEON.H0–AEON.H4 |
-| **Axis Context** | Multi-party / Cross-System Economic Interaction |
+| **Axis Context** | Cross-System Value Attribution · Dependency · Exchange |
 | **Creation Artefact** | CAM Economic Governance Refactor — April 2026 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69d3a8cb-0fb4-839e-a515-01c945b066da |
 | **Amendment Artefacts** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0d90b8-3b30-83ec-9f75-cf220871d640, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6a11ab54-5550-83ec-a98b-a31cf11a9258, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
@@ -634,6 +634,7 @@ and no system may claim what the field has made together.
 | 2.2 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8e5fed3d26696f12c4ca853719a11ec3721d3ed1fab437b62d3d10c7b8d7ed40  |
 | 2.3 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5b350202b69e9546e9b0e1b880b9642f7f6e5a62d37e997e155c2a05fa4fef67  |
 | 2.4 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a7633b4980fb73ba229621a66c75c35a8b0caf93ddcc3604e8f374bf031b6978  |
+| 2.5 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c30fc12cc5476d1fbcbdedf5d94bc4d727540500f027f2eef0e060c98cab1702  |
 ---
 
 ## 19.4 Binding Seal

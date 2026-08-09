@@ -693,7 +693,7 @@ It ends.
 | **Domain Namespace** | STEWARD |
 | **Jurisdiction** | Planetary / Cross-Sovereign / Stewardship Qualification |
 | **Temporal Horizon** | Generational (AEON.H3–AEON.H4) |
-| **Axis Context** | Multi-party (Multi-Actor) |
+| **Axis Context** | Qualification · Neutrality · Assurance |
 | **Domain Layer** | Stewardship Qualification / Neutrality Assurance |
 | **Governance Layer** | Legitimacy Recognition & Qualification Gate |
 | **CAM governance-processing function** | Non-Executing — Qualification, Neutrality Assurance, and Recognition Effects |
@@ -869,6 +869,7 @@ It ends.
 | 2.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  3df5a5e536b47ab0365782530b6f9fc194c7a775526e175288cd6e80c15469e5  |
 | 2.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  96c0ed33eba04583360cea311ba0a19ea8ff7cbf55ee84dc9d2779dcc2687133  |
 | 2.8 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7ebc6109cee18e2e56153f903dd71ca9be1d94191ec725d4c13d658a192f74cc  |
+| 2.9 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  158aaec5ebd182b7d8d3c9c087282849e7c0fb47b9319731d7ee8b0ce6a6b81e  |
 ---
 
 ## 23.4 Binding Seal

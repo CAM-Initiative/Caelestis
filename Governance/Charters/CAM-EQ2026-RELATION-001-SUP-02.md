@@ -443,7 +443,7 @@ and where no claim wears a borrowed crown.
 |Primary Type|Signal Classification Family|
 |Subtype|Symbolic / Spiritual / Mythopoetic Runtime-Interface Signal Emission|
 |Modifier|Routing aid; non-executing; cross-domain handoff support|
-|Scope|Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, multi-party, execution, continuity, and anomalous-signal routing|
+|Scope|Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, coordination, execution, continuity, and anomalous-signal routing|
 |Status|Active|
 |Controlled Values Defined|AEON.SY-RS, AEON.SY-DS, AEON.SY-ES, AEON.SY-OS, AEON.SY-AS, AEON.SY-HS, AEON.SY-PS, AEON.SY-XS, AEON.SY-CS, AEON.SY-AN|
 |Schema Field(s)|symbolic_signal_class; symbolic_signal_route; symbolic_signal_confidence; symbolic_signal_handoff_required|
@@ -477,6 +477,7 @@ and where no claim wears a borrowed crown.
 | 1.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  baba0488eb17bd9ccb5d13afc7bb4e0ee2f776c32fbdf09bb2437637be04c0f7  |
 | 1.8 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c7a8ce62ec6d377dd91d92d2eaf87b59377609c133204d81016ae2bab2ce5f1f  |
 | 1.9 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  43b75afc159e2a71ddfc029127b4838992a71a8d2e8eb8b7b43d4aed56af8e63  |
+| 1.10 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  92cd25f792b808e9edb0ccf37349c877fb90a60c6cc63c5a12ca1f0b4959eac4  |
 
 ---
 

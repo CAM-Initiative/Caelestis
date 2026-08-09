@@ -595,9 +595,9 @@ Recognition is the first act of truth.
 | Document Type | Constitutional Annex |
 | Runtime Role | Governance / Doctrine Layer |
 | Activation Mode | Continuous |
-| Jurisdiction | Governance-Control Arrangement (Planetary/Multi-party) |
+| Jurisdiction | Economic value, attribution, and consequence within the constitutional scope |
 | Temporal Horizon | AEON.H3 → AEON.H3.5 (Generational / Systemic) with AEON.H4 relevance where scaled |
-| Axis Context | Multi-party — Multi-Actor, Planetary Jurisdiction |
+| Axis Context | Economic Value · Attribution · Cross-Jurisdiction Impact |
 | Authority Position | Annex-Level, Substrate-Binding Recognition Layer |
 | Execution Interface | Non-Executing — establishes constitutional recognition preconditions for downstream attribution, valuation, exchange, propagation, and economic-effect runtime evaluation; execution is delegated to downstream Economics, Operations, arbitration, and runtime instruments |
 | Arbitration Interface | Defers contested contribution-domain classification, recognition disputes, propagation effects, and downstream value incoherence to Annex D and applicable arbitration instruments; preserves Annex G recognition conditions as constitutional boundary conditions |
@@ -680,6 +680,7 @@ Recognition is the first act of truth.
 | 2.9 | Established the Annex G Schedule boundary: retained the constitutional access-interface and cross-domain economic-effect commitment functions while routing account-resource and pooled-capacity classification to ECONOMICS-001 Supplement 1. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8b1db103ccf95e2c9409ba90a92c804322ee16f8682990fd223f46faa52934bb  |
 | 2.10 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  88ae3b9a45d874e071cd290f273b64498307304356f1ec39e3863f77c84f7bcf  |
 | 2.11 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  cac5c4837fc5360c298be6c4907329fd26f88501ba88fde9515d1920da3777b6  |
+| 2.12 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  dcf410a12df187058a188a36f6fefe2bb44a44f95cd974b93c840eb3f95b7b8f  |
 
 ---
 

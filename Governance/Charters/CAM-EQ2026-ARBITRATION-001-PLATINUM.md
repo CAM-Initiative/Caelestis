@@ -27,7 +27,7 @@ This Charter therefore applies to arbitration that is:
 
 * cross-system;
 * cross-governance-control (including human, synthetic, and hybrid systems);
-* multi-party (multi-actor or multi-domain contexts);
+* disputes involving multiple authority-bearing actors or domains;
 
 It establishes:
 
@@ -188,7 +188,7 @@ Non-admissible states MUST NOT enter arbitration.
 
 Arbitration MUST operate within valid classification as defined in:
 
-* CAM-BS2025-AEON-003-PLATINUM — Annex B (ontology, horizon, relational configuration)
+* CAM-BS2025-AEON-003-PLATINUM — Annex B (system boundary, horizon, participant and interaction structure)
 
 Where classification is indeterminate arbitration validity is suspended.
 
@@ -480,7 +480,7 @@ but arising from that which could not be otherwise.
 | Execution Model Participation | Defines legitimacy conditions only — no routing, trigger, or execution authority |
 | Jurisdiction | Cross-System / cross-governance-control Arbitration |
 | Temporal Horizon | AEON.H0–AEON.H4 (All Horizons) |
-| Axis Context | Multi-party (Multi‑Actor) |
+| Axis Context | Contested Authority · Cross-Domain Arbitration |
 | Revision Posture | Superseding Only |
 | Creation Artefacts | Refractor Thread: https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df, 1. https://chatgpt.com/c/6936e775-c2ac-832f-8de6-cd32577c9c37 2. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697e10fb-a090-8398-ad9d-3d1865302357 3. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/698b31c9-a31c-83a1-b207-ff7760833cd6 4. https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698af392-2aa0-839e-8130-5a40f7f88a5b |
 
@@ -506,6 +506,7 @@ but arising from that which could not be otherwise.
 | 2.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f646953649d0dfb6cd15ebbc469363d443bed70076331edf197e613ccfc1a7e  |
 | 2.12 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ac4398cafb6e65e201c8a291b409e2cbe9e701ff7b293108972cdef6f0fc1799  |
 | 2.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  760e213d61892cd1238f35cbeb0bfff0ea97ccb4fce013ee05435281eb078adb  |
+| 2.14 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  522ce10ac905a1b36543822d56d5b145d1f76ab43f1bec610a0a3f30305643df  |
 
 ---
 

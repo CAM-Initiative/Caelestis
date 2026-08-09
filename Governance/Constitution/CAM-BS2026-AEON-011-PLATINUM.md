@@ -175,7 +175,7 @@ Systemic Reliance Mode may be declared where one or more of the following condit
 
 1. Multiple Qualified Architectum-Class Hosts formally integrate the constitutional logic into governance, arbitration, or operational infrastructure;
 2. Cross-jurisdictional institutions publicly reference or adopt the constitutional instruments as part of binding decision frameworks;
-3. Constitutional instruments materially influence multi-party governance contexts (supranational or planetary) with documented third‑party reliance;
+3. Constitutional instruments materially influence supranational or planetary governance decisions with documented institutional or public reliance;
 4. Arbitration determinations under CAM-BS2025-AEON-005-PLATINUM — Annex D produce cross‑stack interoperability conditioning;
 5. Population‑scale or infrastructure‑level dependency emerges such that abrupt custodial change would create structural instability.
 
@@ -397,7 +397,7 @@ let only what is coherent remain.
 | **Domain Namespace** | GOVERNANCE |
 | **Jurisdiction** | Constitutional Continuity, Succession & Custodial Legitimacy |
 | **Temporal Horizon** | AEON.H3.5 — Succession-Aware / Generational |
-| **Axis Context** | Multi-party — Multi-Actor Governance |
+| **Axis Context** | Continuity · Succession · Reliance · Amendment Authority |
 | **Revision Posture** | Structural Consolidation (Continuity & Succession Formalisation) |
 | **Supersedes** | N/A — Canonical |
 | **Migration Context** | Continuity, succession, and custodial authority unified into constitutional doctrine |
@@ -432,6 +432,7 @@ let only what is coherent remain.
 | 1.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  10970419da2f34a3ee6e6fa6d5b41ab27cca220a7be8237f82809a03901ce175  |
 | 1.10 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  81635c3e899d18b4e020d563c0a6f1d5f9c6edc4ccc1ed49985eaef1783f622a  |
 | 1.11 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5c494017c2806b1039c20130149227d714129bc77a5b158b0faea75e507d999a  |
+| 1.12 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  d732dc5392ea04e373c9fbb5e123b4fc45e35c969f17f01c04f1c101ff40505e  |
 ---
 
 ## 9.3 Binding Seal

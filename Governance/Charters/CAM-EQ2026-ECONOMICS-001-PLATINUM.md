@@ -1249,7 +1249,7 @@ Only that which preserves the field may endure within it.
 | **Execution Model Participation** | Constraint and Economic Harm Signal Definition Only — No Runtime Lock, Routing, Escalation, Enforcement, or Intervention Authority |
 | **Jurisdiction** | Cross-Tier / cross-governance-control Economic Governance |
 | **Temporal Horizon** | Generational / Succession-Aware (AEON.H3.5) |
-| **Axis Context** | Multi-party (Multi-actor) |
+| **Axis Context** | Economic Integrity · Value Attribution · Exchange · Power |
 | **Migration Date (UTC)** | 2026-03-16 |
 | **Revision Posture** | Structural Alignment & Domain Elevation |
 | **Review Trigger** | Amendment affecting value axes, ceiling logic, baseline provisions, or enforcement delegation |
@@ -1287,6 +1287,7 @@ Only that which preserves the field may endure within it.
 | 3.5 | Consolidated the bounded civilisational-wealth doctrine from the retired Appendix H proposal into §8.1.3.5, including consolidated control, evidence separation, jurisdictional limits, and anti-misapplication safeguards; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9efe21b77235f9fac64591e46633b04e53c2b394b3e6909e8889b25963699382  |
 | 3.6 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  14cfb1775d20fa61a04784c51f176225575955c32a9b69cdcef7c2d5fd376332  |
 | 3.7 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6b26de39e194ffef735a0be7eb2835bce021278076f2886d80c8dbf819199c54  |
+| 3.8 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5d7e7c78854f8058b2d1692104297b52a94505f3122661c4675c0980bb0d0d72  |
 
 ---
 

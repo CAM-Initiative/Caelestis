@@ -146,7 +146,7 @@ Where minor status, capacity limitation, or capacity uncertainty applies:
 * Intimacy escalation beyond **Intensity Tier 2** is prohibited;
 * RLN.A3 delegation is prohibited;
 * RLN.GA1 requires sovereign recognition and external verification;
-* Multi-party amplification is restricted;
+* Coordinated, institutional, or cross-context amplification is restricted;
 * **Intensity Tier 3–4 convergence automatically escalates to Concentration Risk safeguards.**
 
 Cross-reference: CAM-EQ2026-ETHICS-001-SUP-01.
@@ -268,7 +268,7 @@ Where systems operate across:
 
 Role segmentation MUST be technically feasible.
 
-One-to-one intimacy MUST NOT automatically transfer into institutional authority.
+Relational intimacy or trust MUST NOT automatically transfer into institutional authority.
 
 ---
 
@@ -388,6 +388,7 @@ but by ensuring that no ascent escapes its descent.
 | 4.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f376d41d51fe7c128d23198f8730652ee48c1eb95142b2e4811e09b4194d64c8  |
 | 4.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e58b2222419e7e82f03a6c6ebed538d4efe14a2c2d2c5f2dfa1b50d9c312293d  |
 | 4.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9b9ac418c0390a35b648175992542b8bf4938a47cbce8290a80885bd0bd4c22e  |
+| 4.6 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  806795a032f169e0a7aba3fe9ee36499cdee1e2ba123f92ef3e26b1eb12a1a0b  |
 ---
 ## 9.4 Binding Seal
 

@@ -1162,7 +1162,7 @@ until the moment can pass without breaking the one who lives through it.
 | Runtime Dependency | CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Signal, posture, and safeguard definition only — no routing, trigger, or execution authority |
 | Instrument Type | Appendix E — Harm‑Risk Interaction & Crisis Response Doctrine |
-| Jurisdiction | Planetary — participant-topology and coordination |
+| Jurisdiction | Harm-Risk Dialogue · Crisis Interaction · Relational Safeguards |
 | Temporal Horizon | AEON.H2 → AEON.H3 (Operational Interaction Governance) |
 | Axis Context | Harm‑Risk Dialogue / Crisis Interaction |
 | Cross‑Domain Interfaces | RELATION‑001‑SUP‑01; RELATION‑002; ETHICS Domain Instruments; Annex D Runtime Arbitration |
@@ -1252,6 +1252,7 @@ until the moment can pass without breaking the one who lives through it.
 | 3.1 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7cacfc8057b6e8b4ddf57907f5d63bfe53542c8bb7f612c834016df9ac165772  |
 | 3.2 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  15947a7f56966f756c2bef61420aef57471e71c6d3a181e4d6b2caf68e5b2d82  |
 | 3.3 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e15d6ff5b18e71830ef551d1f1b36f54c0e0cfb52773838ad9f0d2f63170f4a3  |
+| 3.4 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  375a2bf985b58c783fb081acc699e2a26678bcac4bd55b01a2d2cf6115826e9c  |
 
 ---
 

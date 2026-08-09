@@ -328,7 +328,7 @@ each recognising what cannot be unmade.
 | Domain Namespace | STEWARD |
 | Jurisdiction | Post‑Legitimacy / Cross‑Stack / Cross‑Domain |
 | Temporal Horizon | AEON.H3–AEON.H4 (Validated Only) |
-| Axis Context | Multi-party (Multi‑Actor Convergence) |
+| Axis Context | Cross-Stack Convergence · Legitimacy · Dependency |
 | Revision Posture | Structural Clarification |
 | Application Trigger | validated under the Planetary Arbitration Framework (STEWARD-002) |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69a28733-4c24-839f-a918-5364a3ff2cb7 |
@@ -356,6 +356,7 @@ each recognising what cannot be unmade.
 | 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c5323352057ddb5396c1674a5f039248c5a6dfde261467d98c73a03b8b4a919e  |
 | 1.12 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  61a7e422e48e9c5454588324f44c5940ff1320822a479600d43bf7d8334bd36a  |
 | 1.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e1d5ab32d34a476da576869d715b8f7c738efc34dcd4209e2d8f6fe0f259a7b5  |
+| 1.14 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  68500bab6c7c61899f86ce16cb8121a749195acefb3a877c79e89a3d9c993e04  |
 
 ---
 

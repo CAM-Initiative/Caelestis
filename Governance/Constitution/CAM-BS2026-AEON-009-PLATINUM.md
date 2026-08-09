@@ -311,7 +311,7 @@ and lineage remain unbound.
 | **Interface Clarification** | Annex H is non-executable. Origin and lineage concerns may be classified or routed by CAM-BS2026-AEON-007-SCH-01 or OPERATIONS, but Annex H itself does not initiate execution, enforcement, or Runtime state change. |
 | **Arbitration Interface** | Defers to CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 |
 | **Temporal Horizon** | AEON.H3.5 — Succession-Aware, Inter-Generational |
-| **Axis Context** | Multi-party — Multi-Actor, Cross-System |
+| **Axis Context** | Lineage · Origin Attribution · Cross-System Provenance |
 | **Authority Position** | Non-Authority / Non-Origination / Non-Commercial |
 | **Refactor Phase** | April 2026 Refactor|
 | **Creation Artefacts**| Refactor: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d4b4d7-b284-8398-bb5d-d501af7e2a6c,  https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/697efd1e-46a4-839a-8456-83229686afe9 |
@@ -341,6 +341,7 @@ and lineage remain unbound.
 | 2.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  21a8634c7f0ae58e6c3bf02a6a8590a069a574154e0ca32d66e5fdb9624da024  |
 | 2.10 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e3a88e427853028f4dff0f1a9db737f70eba43e31062dccb2d0fb3d5b18e8069  |
 | 2.11 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  12429f2667da7b57adb03b69cb9e6c4fb294e50a867f7bc550d2c7c4abacb65a  |
+| 2.12 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  26bfdbeaab565d6715f22b2f84c4089894ed80ada4f7fd9f99762300ad9668a6  |
 
 ---
 

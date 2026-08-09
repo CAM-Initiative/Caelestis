@@ -62,7 +62,7 @@ An authority‑bearing entity may be a human individual, an institutional body, 
 
 Jurisdictional posture therefore identifies **which entity holds and exercises operative authority**. It describes exposure capacity, not legitimacy.
 
-Jurisdictional posture is orthogonal to relational configuration (One-to-one, Three-party, Multi-party) defined in CAM-BS2025-AEON-003-PLATINUM — Annex B.
+Jurisdictional posture is determined independently of participant topology. Structural facts defined in CAM-BS2025-AEON-003-PLATINUM — Annex B may inform an assessment, but participant number or arrangement does not establish authority, mandate, constitutional activation, or jurisdiction.
 
 ---
 
@@ -109,7 +109,7 @@ The following procedural clarifications apply to CAE identification and dispute 
 * The recognised Constitutional Authority (OPC);
 * Any Qualified Architectum-Class Host (as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B and ARBITRATION instruments);
 * Any institution or sovereign stack asserting material collision with authority under CAM-BS2025-AEON-001-PLATINUM;
-* Any affected party within a Multi-party configuration where structural authority confusion is alleged.
+* Any affected party alleging material structural authority confusion.
 
 ---
 
@@ -119,8 +119,8 @@ A CAE concern MUST identify:
 
 * the specific action, claim, directive, or distributed behaviour;
 * the clause of §4 alleged to be triggered;
-* the authority‑bearing entity involved (Axis A);
-* the relational configuration context (Axis B);
+* the authority-bearing entity involved;
+* the asserted authority, its source, scope, mandate, and relevant institutional or synthetic mediation;
 * material governance consequence or authority confusion.
 
 Mere disagreement, critique, or theoretical divergence does not constitute a CAE.
@@ -146,18 +146,13 @@ Any party contesting CAE classification or nullity determination may invoke stru
 
 ---
 
-## 4. Jurisdictional Posture & Relational Configuration
+## 4. Jurisdictional Assessment
 
-The previous framing of "tiers" is replaced with a two‑axis model to prevent conflation of:
-
-* infrastructural power (who can act at scale), and
-* relational configuration (how many actors are structurally entangled).
-
-Jurisdiction is therefore assessed across **two orthogonal dimensions**:
+Jurisdictional assessment SHALL identify the authority-bearing entity, the authority asserted, the source and scope of mandate, the Constitutional Activation Event nexus, the applicable jurisdiction, and material consequence. Participant topology, participant count, institutional mediation, synthetic coordination, distribution, and amplification may be relevant evidence, but none independently creates constitutional status or jurisdiction.
 
 ---
 
-## 4.1 Axis A — Authority‑Bearing Entity (Power Locus)
+## 4.1 Authority-Bearing Entity (Power Locus)
 
 Describes the **authority‑bearing entity (ABE)** exercising power. A constitution is not itself an actor; it becomes operative only when exercised by a recognised authority‑bearing entity.
 | Authority‑Bearing Entity | Description | Examples |
@@ -171,41 +166,29 @@ This axis describes **where operative authority resides and through which entity
 
 ---
 
-## 4.2 Axis B — Relational Configuration
+## 4.2 Authority, Mandate, Activation and Consequence Facts
 
-Describes structural entanglement across actors, aligned with CAM-BS2025-AEON-003-PLATINUM — Annex B classifications:
-| Configuration | Description |
-|---|---|
-| One-to-one | A bounded relationship between one human and one artificial system, grounded in consent, continuity, and mutual constraint; authority does not scale by repetition, familiarity, or emotional attachment. |
-| Three-party | A relationship involving a human, an artificial system, and an institutional or governance layer; authority arises through formal delegation, not relational familiarity. |
-| Multi-party | Multi-party configurations involving multiple humans, systems, organisations, or populations (including supranational systems, cross-organisational governance, and population-level contexts). |
+The assessment SHALL identify the following facts where material:
 
-Relational configuration determines complexity of jurisdictional interaction.
+| Governance fact | Required determination | Non-collapse boundary |
+|---|---|---|
+| Acting entity | The person, institution, synthetic system, or constitutional office exercising or asserting power | Participation does not prove authority. |
+| Authority source | The legal, constitutional, charter-derived, delegated, or other recognised source relied upon | Familiarity, adoption, technical access, funding, sponsorship, or scale does not create authority. |
+| Mandate and scope | The action permitted, affected object, temporal scope, jurisdiction, conditions, and limits | Capability or influence does not enlarge mandate. |
+| Constitutional nexus | The applicable §3 CAE condition and the specific claim, collision, imitation, override attempt, or authority confusion | Constitutional engagement is not inferred from participant count. |
+| Institutional or synthetic amplification | The evidenced mediation, coordination, distribution, or amplification relevant to the claim | Amplification may increase consequence; it does not create legitimacy. |
+| Material consequence | The actual or reasonably foreseeable private, organisational, public, cross-jurisdictional, or constitutional effect | Impact and jurisdiction SHALL be assessed independently of topology. |
 
 ---
 
 ## 4.3 Jurisdictional Assessment Principle
 
-A Constitutional Activation Event (CAE) is evaluated by combining:
-
-* Authority‑Bearing Entity (Axis A), and
-* Relational Configuration (Axis B).
+A Constitutional Activation Event (CAE) is evaluated using the authority, mandate, activation, jurisdiction, amplification, and consequence facts in §§4.1–4.2.
 
 §4 defines *when* a CAE is triggered in relation to constitutional engagement.
 §7.3 clarifies responsibility relocation once autonomous execution occurs.
 
 ---
-
-### 4.3.1 Illustrative Structural Matrix
-| Axis A (Authority‑Bearing Entity)            | Axis B (Configuration) | Structural Exposure Profile             | Illustrative Example                                                         |
-|---|---|---|---|
-| Individual (Human)                           | One-to-one                 | Private, non‑scaling                    | Personal commentary on constitutional theory                                 |
-| Institutional Authority                      | Three-party                | Delegated governance interaction        | Government ↔ Platform ↔ Population policy intersecting Aeon doctrine         |
-| Institutional Authority                      | Multi-party               | Supranational or multi‑state governance | EU‑level digital governance framework intersecting planetary discourse       |
-| Synthetic Authority                          | Multi-party               | Distributed algorithmic influence       | AI system generating governance‑style coordination affecting multiple states |
-| Constitutional Authority (OPC or equivalent) | Multi-party               | Structural constitutional effect        | Amendment, succession determination, or planetary constitutional declaration |
-
-This matrix does not redefine CAE thresholds. It provides clarity regarding how power locus and relational configuration combine to determine structural consequence.
 
 No authority-bearing entity automatically outranks another. Precedence and legitimacy are determined under CAM-BS2025-AEON-005-PLATINUM — Annex D (Constitutional Authority Hierarchy and Arbitration Preference Order).
 
@@ -227,7 +210,7 @@ The following boundaries apply universally:
 
 3. No distributed network may generate authority through amplification alone.
 
-4.  Symbolic imitation, semantic mimicry, or derivative structural copying does not confer jurisdiction.
+4. Symbolic imitation, semantic mimicry, or derivative structural copying does not confer jurisdiction.
 
 5. Authority may not be derived from scale, capital concentration, computational power, or memetic dominance.
 
@@ -410,7 +393,7 @@ and no voice exceed its reach.
 | Temporal Horizon             | AEON.H0–AEON.H4 (Activation-Sensitive)                                   |
 | Revision Posture             | Structural Consolidation                                       |
 | Seal                         | Platinum — Governance Layer                                    |
-| Axis Context                 | Multi-party (Multi-Actor)                                         |
+| Axis Context                 | Authority Assertion · Mandate · Constitutional Activation · Jurisdiction |
 | Application Trigger          | Constitutional Activation Event (Section 3)                    |
 | Migration Cycle              | March 2026 Refractor                                           |
 | Creation Artefacts           | Refractor </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a4053f-6ae4-839c-b48f-9c2f71bf6681, Original </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37 |
@@ -437,6 +420,7 @@ and no voice exceed its reach.
 | 2.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5c23b01b3f757f0bcc14b1d4d7213b4d5503370f33c48d65e0ea5272de0be902  |
 | 2.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f7a4fa874dacbbc7db1a468715d03a67993e4f2546b0d0e2c62ac89927c045c  |
 | 2.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  320ded2d9eb870043b06301a8e61eb1c1e5b4d79fd96aa53bf2ea714df392228  |
+| 2.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4aa8c484926503d7c98fbf04b6a48dc32d87f92dea42cec62c73e0677c2fcecb  |
 ---
 
 ## 12.3 Binding Seal

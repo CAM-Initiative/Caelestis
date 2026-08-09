@@ -927,7 +927,7 @@ And what is most observable is not always what is most true.
 | Domain Namespace | MENTIS |
 | Jurisdiction | Planetary / Cross-Sovereign / Human Cognitive Domain |
 | Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware; AEON.H4 relevance where cognitive-domain data infrastructures or neurotechnology systems produce civilisational-scale effects |
-| Axis Context | Multi-party — Human Cognitive Data, Neurotechnology, Biosignals, AI Inference Systems, Institutions, Platforms, and Ambient Sensor Environments |
+| Axis Context | Cognitive Data · Neurotechnology · Biosignals · Ambient Inference |
 | Ontological Scope | L2 — Cognition & Agency; L3 — Interface & Embodiment where inference, biosensing, neurodata, ambient observation, or cognitive-domain externalisation occurs |
 | Structural Role | Operational Data-Governance Appendix — Cognitive Inference, Neurodata, Cognitive Biometrics, and Ambient Biosignal Processing |
 | Governance Role | Establishes governance requirements for cognitive-domain data collection, inference, modelling, fusion, validation, retention, sharing, operational use, audit, contestability, deletion, and incident interface |
@@ -1096,6 +1096,7 @@ And what is most observable is not always what is most true.
 | 1.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3f431fa41a36a65f0082270b3d023c0e17efbbfe0b1bfcdd8408a40da36f73fd  |
 | 1.6 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3d8611a19a3c2ce805f3848eba7293239979d65d645c3cf30ce93deff64689f1  |
 | 1.7 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  58e29e6f6ccd6ac32fcca66d2e069d265a4325617888874dc6de8494d5a4e9f1  |
+| 1.8 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4a451465ed2ddebb62e776dabbdf259ab57eb6feff69fd9c87a3dbb2789f9cfb  |
 
 ---
 

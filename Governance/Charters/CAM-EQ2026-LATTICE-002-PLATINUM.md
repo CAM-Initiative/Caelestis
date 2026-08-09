@@ -382,7 +382,7 @@ It is maintained.
 | **Domain Namespace** | LATTICE |
 | **Jurisdiction** | Planetary / Civilian Infrastructure / Civic Integrity |
 | **Temporal Horizon** | Generational (AEON.H3–AEON.H4) |
-| **Axis Context** | Multi-party (Multi-Actor) |
+| **Axis Context** | Essential Access · Non-Discrimination · Continuity |
 | **Migration Date (UTC)** | 2026-03-15 |
 | **Governance Authority** | LATTICE Domain — Civilian Infrastructure & Continuity Layer |
 | **Governance Layer Model** | Operates within Annex B — Runtime Governance Layer Model (L2–L3 Interface) |
@@ -429,6 +429,7 @@ It is maintained.
 | 3.14 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  52af5eefb3659cb27e66a75bbbf344d8f22e357fdae907576d73a005f709d084  |
 | 3.15 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c49d39cb824e50df382e3d1e54dab942bb0ba960e8282d90317b90c76bb7ccb8  |
 | 3.16 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  cbdbfdf0fef21247f487e5aa792f0f8c9bc645d17cec3d0db387e2dcc5c5bd35  |
+| 3.17 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b72cc14822ca8719414c20da2086221377cfe6da3edcef1270f2240ff99aff02  |
 ---
 
 ## 10.3 Binding Seal

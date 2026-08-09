@@ -264,7 +264,7 @@ but illusion.
 | **Related Instruments** | CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-BS2026-AEON-013-SCH-01; CAM-EQ2026-STEWARD-003-PLATINUM |
 | **Jurisdiction** | Cross-System / cross-governance-control Arbitration |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (All Horizons) |
-| **Axis Context** | Multi-party (Multi-Actor) |
+| **Axis Context** | Arbitration Scope · Jurisdiction · Resolution Legitimacy |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
 
 ---
@@ -387,6 +387,7 @@ but illusion.
 | 1.10 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5edd2a1b256c16b575783b7ad49a779809a175b37e894c212001679d9d79c629  |
 | 1.11 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b67c9f6778724c787bdd4858a0f43f4e17e132c3f3533400254b68dcbe307e5c  |
 | 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2fa6703c1d70eecfe74c2237515c6671579530b4f3daef615bba573c94c5544c  |
+| 1.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ca642a55a5630364cc1e4924a70608fa2fbe39f189f092900c410718d43aa731  |
 
 ---
 

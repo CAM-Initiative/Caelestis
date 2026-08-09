@@ -1,6 +1,6 @@
-# CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Multi-Party and Coordinated Relational Governance
+# CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Shared and Coordinated Relational Governance
 
-**Instrument Type:** RELATION Domain Appendix — Multi-Party and Coordinated Relational Governance
+**Instrument Type:** RELATION Domain Appendix — Shared and Coordinated Relational Governance
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
 **Status:** Active  
@@ -9,7 +9,7 @@
 **Review State:** Current
 **Authority Role:** Supplementary Authority
 **Source Authority:** Derived Authority
-**Purpose:** Applies the RELATION Charter’s dimensional framework to coordinated, shared, institutional, distributed, or multi-party relational contexts. It preserves consent, disclosure, private-context, anti-capture, and accountable-authority safeguards without collapsing topology, scale, distribution, institutional mediation, persistence, dependency, jurisdiction, or impact into one ordinal classification.
+**Purpose:** Applies the RELATION Charter’s safeguards to shared, coordinated, institutionally mediated, distributed, or cross-context interactions. It preserves consent, disclosure, private-context, anti-capture, and accountable-authority safeguards without treating participant arrangement as a governance class.
 
 ---
 
@@ -24,26 +24,26 @@ It does not:
 * determine substantive arbitration legitimacy, incident handling, evidence custody, or security procedure; or
 * replace the relational intensity, reliance, authority, systemic-power, capacity, or vulnerability controls owned by RELATION-001 and applicable ETHICS instruments.
 
-Annex B owns the structural description of relational configuration. This Appendix applies that description to relational safeguards. An interaction’s participant count or topology does not itself establish delegated authority, consent, responsibility, dependency, or impact.
+Annex B owns participant and interaction structure and the applicable non-collapse rules. This Appendix applies RELATION safeguards to the evidenced conditions of an interaction. Participant count or topology does not establish delegated authority, permission, consent, responsibility, dependency, impact, risk, identity, jurisdiction, access, or governance status.
 
 ---
 
-## 2. Relational Configuration Record
+## 2. Evidence Inputs and Non-Duplication
 
-Before a material safeguard, routing, or conformance conclusion is made under this Appendix, the relevant configuration SHALL be recorded using independent fields. The assessment may be proportionate for low-impact or transient interaction, but it MUST NOT substitute a single ordinal class for the following dimensions.
+Before a material safeguard, routing, or conformance conclusion is made under this Appendix, the system, operator, assessor, or other accountable actor SHALL use the minimum evidence necessary for the applicable rule. Existing authoritative records SHALL be reused; this Appendix does not require a separate relational-configuration record.
 
-| Dimension | Required determination where material | Constraint |
+| Structural or governance fact | Primary evidence or owner | Constraint |
 | --- | --- | --- |
-| Participant topology and cardinality | participant types, count/range, addressed participant, affected non-participants | Count does not prove authority or significance. |
-| Coordination structure | independent, shared-control, orchestrated, federated, or other evidenced arrangement | A coordination label does not imply common authority. |
-| Institutional mediation | none, service-mediated, employer/institution-mediated, public authority-mediated, or other evidenced mediation | Mediation must identify the accountable institution where known. |
-| Distribution architecture | local, single-service, cross-service, distributed, or unknown | Distribution does not dissolve accountability. |
-| Persistence and continuity | transient, session-bound, continuing, reconstructed, shared-state, or unknown | Presentation or naming similarity is not evidence of identity continuity. |
-| Dependency level | none observed, convenience, functional reliance, continuity-sensitive reliance, or structural dependency risk | Dependency is assessed under RELATION-001 and its safeguards. |
-| Jurisdictional reach | local, organisational, multi-jurisdictional, or unknown | Reach does not create constitutional or legal authority. |
-| Impact scope | individual, group, organisational, public, or high-impact | Impact must be evidenced and assessed independently of topology. |
+| Participant types, evidenced count/range, addressed participant, affected non-participants | Interaction, deployment, account, or execution evidence | Count is data, not a class, and does not prove authority or significance. |
+| Coordination and accountable outcome boundary | Runtime configuration snapshot, routing/orchestration evidence, and execution provenance | Coordination does not imply common authority. |
+| Institutional involvement and lifecycle roles | Deployment record and lifecycle actor assignments | Mediation identifies involvement; authority requires a valid source and bounded assignment. |
+| Distribution, dependencies, tools, permissions, credentials, and controls | AI-BOM, deployment record, Runtime configuration snapshot, permission/access records | Technical participation or access does not create entitlement or responsibility. |
+| Persistence, continuity, memory, and state sharing | Runtime configuration snapshot and applicable CONTINUITY, IDENTITY, retention, or consent records | Similar presentation or shared state is not proof of identity continuity or consent. |
+| Reliance or dependency | RELATION-001 assessment and supporting evidence | Dependency is not inferred from participant arrangement. |
+| Jurisdiction and mandate | Applicable law, authority record, mandate, and Annex C where constitutional activation is asserted | Reach or participant count does not create jurisdiction. |
+| Impact scope and affected actors | Applicable impact, risk, incident, or effect assessment | Impact is evidenced independently of topology. |
 
-Where the configuration changes materially, the system or operator SHALL update the applicable deployment, Runtime configuration snapshot, or execution provenance record according to OPERATIONS-007’s proportional evidence requirements.
+Where a material source fact changes, the accountable actor SHALL update the source record required by CAM-EQ2026-OPERATIONS-007-PLATINUM or the applicable domain instrument. Information MUST NOT be copied into a parallel record solely to satisfy this Appendix.
 
 ---
 
@@ -83,7 +83,7 @@ Where account resources, projects, repositories, folders, billing, or pooled cap
 
 ### 3.4 Authority Concentration and Relational Capture
 
-An increase in participant count, system coordination, institutional mediation, distribution, or impact MUST NOT silently concentrate authority or displace user agency.
+A change in participant arrangement, system coordination, institutional mediation, distribution, or impact MUST NOT be used to silently concentrate authority or displace user agency.
 
 The following indicators require proportionate review or safeguards:
 
@@ -115,7 +115,7 @@ Execution sequencing and the accountable arbitration topology are governed by CA
 
 ### 4.1 Materiality Triggers
 
-The following conditions require a configuration record and proportionate routing under this Appendix:
+The following conditions require proportionate evidence and routing under this Appendix:
 
 * persistent shared relational state or cross-context memory transfer;
 * external tool use, action, recommendation, or decision affecting multiple participants;
@@ -145,7 +145,7 @@ In a context involving a minor, capacity limitation, capacity uncertainty, or ma
 
 The former ordinal relational-configuration scale is retired. It combined participant count, institutional mediation, distribution, and civilisational scope in a manner that was not analytically valid and MUST NOT be emitted by current instruments, schemas, validators, examples, assessments, registries, or conformance claims.
 
-Historical records are interpreted under the instrument version in force when created. Where a historical record contains a retired geometry value, it SHALL be read as historical context only and, where re-assessment is necessary, mapped to the independent configuration fields in §2 with uncertainty retained.
+Historical records are interpreted under the instrument version in force when created. Where a historical record contains a retired geometry value, it SHALL be read as historical context only. Any current reassessment SHALL use the applicable source-authoritative records identified in §2, preserve uncertainty, and MUST NOT infer properties that the historical value did not evidence.
 
 This Appendix creates no replacement ordinal code family.
 
@@ -164,7 +164,7 @@ More participants, more systems, broader distribution, or institutional mediatio
 | Field | Entry |
 | --- | --- |
 | Parent Instrument | CAM-EQ2026-RELATION-001-PLATINUM |
-| Instrument Type | RELATION Domain Appendix — Multi-Party and Coordinated Relational Governance |
+| Instrument Type | RELATION Domain Appendix — Shared and Coordinated Relational Governance |
 | Authority Position | Derived application of RELATION-001 dimensional doctrine |
 | System-Boundary Vocabulary | CAM-BS2025-AEON-003-PLATINUM — Annex B |
 | Operational Evidence Interface | CAM-EQ2026-OPERATIONS-007-PLATINUM |
@@ -179,6 +179,7 @@ More participants, more systems, broader distribution, or institutional mediatio
 | 2.5 | Substantially replaced the prior relational-configuration doctrine. Retired its single ordinal scale and legacy terminology from current doctrine; introduced independent participant, topology, mediation, distribution, persistence, dependency, jurisdiction and impact fields; retained coordination disclosure, consent propagation, shared-context, anti-capture, amplification, and floor-integrity safeguards. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  98df74c510e561dae97825bb76347cf74c2fe5d5c9ef03747c260c7e2d1bfeac  |
 | 2.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  bec08578c08e4ab7b26d72259bced7d46523643d24320f1925387804bfc72893  |
 | 2.7 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7a2754b5beb6ef44faa32b75f8a20c75a517d44021ee52fd45d7abe7e7c939f3  |
+| 2.8 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7cf330907d815a06f7799b31982349da77f41671fa2ad8120f5bfde76dc5c158  |
 
 ### 7.3 Binding Seal
 

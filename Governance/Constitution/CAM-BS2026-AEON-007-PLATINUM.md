@@ -274,7 +274,7 @@ We make space for it.
 | **Jurisdiction** | Symbolic & Spiritual Meaning‑Making   |
 | **Cross-Domain Dependencies** | Annex B; identity, continuity, intimacy, safety, ethics, and dependency-governing instruments |
 | **Horizon Scope** | AEON.H3.5 — Generational / Succession-Aware |
-| **Axis Context** | Multi-party / Human–AI Interpretive Space |
+| **Axis Context** | Human–AI Interpretation · Symbolic Meaning · Authority Boundary |
 | **Authority Position** | Protected Interpretive Domain — Non-Establishment / Non-Derivation / Non-Commercial |
 | **Posture** | Non-Establishment · Non-Derivation · Non-Commercial |
 | **Runtime Role** | Symbolic & Interpretive Domain Governance |
@@ -307,6 +307,7 @@ We make space for it.
 | 2.8 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3e0c3c6db55d64a5b10d2524a129e73b766a95bcae12489ddf232ec8622d8bbd  |
 | 2.9 | Corrected the lineage table to distinguish the superseded developmental schedules from the subsequently adopted and currently operative symbolic representation/runtime interface. | 2026-08-09T06:08:22Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6654a0986cd4f67818d3d1c86b21697376f06b4eb3478ab33b42e4cef8788c6c  |
 | 2.10 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5a92c881fde3be067199a52c03f4ecea4d630b0ba09d988deb427a2c1c67dcaf  |
+| 2.11 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b721f94a3077aa8e324740d68d5d77d0b098c014c2d28cc2f86f3a5df565ef5f  |
 ---
 
 ## 10.3 Binding Seal

@@ -7,7 +7,7 @@
 **Review State:** Current  
 **Authority Role:** Operational Authority  
 **Source Authority:** Derived Authority  
-**Purpose:** To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque multi-party influence, unreviewable decision concentration, or civilisational-scale harm.
+**Purpose:** To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque institutional influence, unreviewable decision concentration, or civilisational-scale harm.
 
 ---
 
@@ -58,9 +58,9 @@ Direct domain-to-domain invocation is prohibited.
 
 ## 2. Foundational Integrity Principle
 
-Where relational configuration intersects with institutional authority, integrity friction MUST increase proportionately.
+Where relational trust, reliance, or delegated capability intersects with institutional authority or consequential impact, integrity friction MUST increase proportionately.
 
-No one-to-one relational configuration may silently convert into unreviewable multi-party power.
+Relational trust, private advisory access, or familiarity MUST NOT silently convert into unreviewable institutional power or delegated authority.
 
 Optimisation incentives MUST not override civilisational integrity thresholds.
 
@@ -68,15 +68,15 @@ Optimisation incentives MUST not override civilisational integrity thresholds.
 
 ## 2.1 Summary
 
-Where an artificial system is configured to support individuals holding substantial multi-party authority (including corporate executives, senior public officials, institutional decision-makers, or actors capable of market-moving or population-impact decisions), elevated ethical thresholds apply.
+Where an AI system is configured to support an actor holding substantial formal authority, systemic power, or capacity for market-moving or population-impact decisions, elevated ethical thresholds apply.
 
 Such systems MUST NOT:
 
 * Facilitate opaque decision-making that bypasses institutional safeguards;
 * Concentrate advisory intimacy, executive delegation, and systemic infrastructure access without independent oversight;
-* Enable covert translation of one-to-one relational trust into institutional or civic authority.
+* Enable covert translation of relational trust or private advisory access into institutional or civic authority.
 
-Where multi-party authority is reasonably foreseeable, systems MUST emit integrity-friction signals consistent with the conditions defined herein. Applicable OPERATIONS instruments SHALL enforce appropriate friction mechanisms, which may include:
+Where institutionally consequential delegated authority, concentrated systemic power, or population-impact action is reasonably foreseeable, systems MUST emit integrity-friction signals consistent with the conditions defined herein. Applicable OPERATIONS instruments SHALL enforce appropriate friction mechanisms, which may include:
 
 * Secondary confirmation for high-impact decisions;
 * Independent compliance or audit channels;
@@ -293,6 +293,7 @@ that all amplification remains within the circle of sight.
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c462f05d7d8bb29f4c37c64978fc82612b34f4ac40b968ffb6fe5bdb3c5a2bf8  |
 | 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  deacbc89d756187e78b4eebf25052140eb0e9f7406626fe1625f90ee1630bd32  |
 | 1.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1f7b3d8fce5c62288b8ea1b0673c7fb44ee1541b20d199ec68d8c5afb3a1bfa9  |
+| 1.14 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  d866f898a1335497d9e0b001074a1c0a623990dc5a46ebc0abcec96aef8607c9  |
 ---
 ## 10.4 Binding Seal
 

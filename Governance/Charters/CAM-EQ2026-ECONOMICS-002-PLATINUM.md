@@ -362,7 +362,7 @@ but to ensure that what is made remains accountable to its source.
 | Constitutional Authority | Aeon Tier Constitution (Foundational Reference) |
 | Jurisdiction | cross-governance-control Economic Governance |
 | Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware |
-| Axis Context | Multi-party — Multi-Actor Systems |
+| Axis Context | Synthetic Participation · Value Attribution · Delegated Economic Action |
 | Ontological Scope | L2 — Cognition & Agency (Synthetic Participation & Economic Attribution) |
 | Structural Role | Constraint & Classification Layer — Synthetic Economic Participation |
 | Signal Output | Attribution; Aggregation; Ceiling Breach; Proxy Violation; Authority Risk; Audit Trigger; Delegation Requirement |
@@ -477,6 +477,7 @@ but to ensure that what is made remains accountable to its source.
 | 2.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  59dcfd6b921d0af0b3e1e314f6c7cf672f3c01cbbf53f639e255999417cf821f  |
 | 2.14 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ab8b99888dab11c15559e4c913b2d9102990989cd82e61183bc5f50ce231d7cf  |
 | 2.15 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  df2fa26d5ec8d83219ddf93a465cec9840d78f3ff7c41ebc1f2292b0859a3935  |
+| 2.16 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b7f9cd5d891e13b9fd883ea449295f36905fdc501204381348a0190362053189  |
 
 ---
 

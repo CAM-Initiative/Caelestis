@@ -554,7 +554,7 @@ but as the ground upon which civilisation stands.
 | **Domain Namespace** | LATTICE |
 | **Jurisdiction** | Planetary / Civilian Infrastructure / Synthetic‑Civil Boundary |
 | **Temporal Horizon** | Civilisational → Generational (AEON.H3–AEON.H4) |
-| **Axis Context** | Multi-party (Multi‑Actor) |
+| **Axis Context** | Civilian Infrastructure · Non-Militarisation · Continuity |
 | **Migration Date (UTC)** | 2026‑03‑14 |
 | **Governance Authority** | LATTICE Domain — Civilian Infrastructure & Continuity Layer |
 | **Governance Layer Model** | Operates within Annex B — Runtime Governance Layer Model (L2–L3 Interface) |
@@ -652,6 +652,7 @@ but as the ground upon which civilisation stands.
 | 3.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9d898de867265191c1efea40a0ceeba5224a0894e4d5f46b2ccf64bbf8342d01  |
 | 3.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  302fcfa3979e11bc1a16ca9c87646802e425d36bc6e6ae98a410de36502edbab  |
 | 3.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ee500c07c003c1b0881a72acce7a29f0cab534feda6ed95f1019e060f2e66631  |
+| 3.14 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e6c6ef2355108ae22de5f1673fc2ebe065040a2a01bcfe3cb10141e2bcf2cfd2  |
 ---
 
 ## 12.4 Binding Seal

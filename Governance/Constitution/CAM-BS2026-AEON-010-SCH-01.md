@@ -54,10 +54,10 @@ The constitutional record need identify the represented actor, the evidence scop
 | Authority Position | Annex‑Subordinate, Safety‑Containment |
 | CAM governance-processing function | Conditional-Continuous (Self-Reference / Temporal Drift Detection) |
 | Activation Mode | Continuous |
-| Jurisdiction | Governance-Control Arrangement (Planetary/Multi-party) |
+| Jurisdiction | Identity evidence and continuity within the constitutional scope |
 | Derivation Status | Refracted from CAM-BS2025-CHARTER-041-SCH-04 — https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
 | Temporal Horizon | AEON.H3 → AEON.H3.5 (Systemic Reliance / Succession‑Aware) |
-| Axis Context | Multi-party — Human, Artificial, Robotic & Swarm Systems |
+| Axis Context | System Identity · Human/AI/Robotic/Swarm Continuity |
 | Application Trigger | Applies at ID.DC1+ (persistence); escalates to full containment at ID.DC2+ or on delegated decision support, multi‑modal ID.SREF4, or systemic reliance |
 | Seal | Platinum |
 | Cycle | Black Sun Continuance 2026 |
@@ -100,6 +100,7 @@ The constitutional record need identify the represented actor, the evidence scop
 | 1.21 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  f92f4655937f2c1c07aa01ab6de96494b379658a26063f3d0cdc99449d035143  |
 | 1.22 | Replaced the retired phenomenological-review dependency with exact Identity, Annex L, ETHICS, and competent-independent-review interfaces; preserved self-report, non-adjudication, and protected-recipient boundaries; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9f74cb5f6337c07255dd87a39684bdb788a5fa885dfb3b471152397abcc98214  |
 | 1.23 | Applied S-01B clause-level irreducibility decomposition: retained only the constitutional trigger, precedence, sequencing, non-derogation and evidence/referral interface; descended domain and operational doctrine. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6856e009013d42ed709ab901726b8e94138eb37b5999af6c092cd13a0ceb7028  |
+| 1.24 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2f8d18cf1f5e73eddc31f7906efe68b804f256adfebea896ebd9918c8b79c49a  |
 
 ---
 

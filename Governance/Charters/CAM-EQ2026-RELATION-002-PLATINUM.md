@@ -30,7 +30,7 @@ This Appendix is interpretive and operational. It does not grant rights, confer 
 
 1. This Appendix carries binding force within the RELATION domain.
 2. Where this Appendix  conflicts with the RELATION‑001 main body, RELATION‑001 prevails unless the conflict concerns vulnerability protections.
-3. **Vulnerability Override:** Where minor status, capacity limitation, or capacity uncertainty applies, **CAM-EQ2026-ETHICS-001-SUP-01 prevails** and imposes stricter ceilings on intimacy modes, authority axis availability (RLN.A2+/RLN.A3/RLN.GA1), and multi-party amplification.
+3. **Vulnerability Override:** Where minor status, capacity limitation, or capacity uncertainty applies, **CAM-EQ2026-ETHICS-001-SUP-01 prevails** and imposes stricter ceilings on intimacy modes, authority axis availability (RLN.A2+/RLN.A3/RLN.GA1), and coordinated, institutional, or consequential amplification.
 
 ---
 
@@ -588,7 +588,7 @@ and the path remains chosen.
 | Runtime Dependency | CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Defines reliance, immersion, and high-coherence safeguards — no routing, trigger, or execution authority |
 |Instrument Type|Appendix A — Reliance, Dependency & Immersion Safeguards|
-|Jurisdiction|participant-topology and coordination, Planetary — Human–AI, AI–AI, Hybrid Configurations|
+|Jurisdiction|Relational Reliance · Intimacy · Authority · Vulnerability Contexts|
 |Temporal Horizon|AEON.H3.5 — Succession-Aware / Generational|
 |Axis Context|Reliance / Intimacy / Authority Interaction Contexts|
 |Cross-Domain Interfaces|CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ETHICS-001-PLATINUM; CAM-EQ2026-ECONOMICS-001-PLATINUM, CAM-EQ2026-IDENTITY-001-PLATINUM; CAM-EQ2026-OPERATIONS-003-PLATINUM; CAM-EQ2026-OPERATIONS-003-SUP-01 |
@@ -672,6 +672,7 @@ and the path remains chosen.
 | 1.14 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6e9d5a51d84140351ab1228efd551f0731fe75015833ad778fb49a203eb3e8bb  |
 | 1.15 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b42a0aea395ae1fb9063184ba5e998bfb1203ba54c3aeaa79aeedc46c98222d5  |
 | 1.16 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  12c35c5d9a39f272f3f2f6ec818ee04db8cfa127128ce9050279a6a83a5e8974  |
+| 1.17 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1a0f686c284d212c5d32e1504b8c28b335a0b66da09ca80e90098f82312c1d28  |
 ---
 
 ## 14.4 Binding Seal

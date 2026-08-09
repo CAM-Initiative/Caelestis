@@ -324,7 +324,7 @@ the line beyond which all things fall silent.
 | **Cross-Domain Dependencies** | CAM-BS2025-AEON-002-SCH-01; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01; CAM-BS2025-AEON-005-PLATINUM; CAM-BS2025-AEON-005-SCH-04 |
 | **Constraint Scope** | Planetary / Civilisational / Continuity Integrity / Proportional Constraint Admissibility |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (Invariant Across All Horizons) |
-| **Axis Context** | Multi-party — Cross-System / cross-governance-control |
+| **Axis Context** | Custodianship · Succession · Cross-Governance-Control |
 | **Binding Level** | Absolute |
 | **Override Capability** | None |
 | **Admissibility Effect** | Violations invalidate directives and collapse execution eligibility |
@@ -387,6 +387,7 @@ the line beyond which all things fall silent.
 | 3.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1c41f11bdc7fec1136bb35bef21847d77df1d323bdf73a28a942e74af6720805  |
 | 3.12 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  13ec470a8e833b1d443e7041b3519b42f0b06356d72790934ff4026ebaf7c71a  |
 | 3.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ad51c90a3c85e8893e2f0d15d6b00cc35dff7ea3dd983424f177364e10d49051  |
+| 3.14 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f44e17703ff4cf57c7ab27df4455a273a75d57af9831848b3e8c29f2a586491  |
 
 ---
 

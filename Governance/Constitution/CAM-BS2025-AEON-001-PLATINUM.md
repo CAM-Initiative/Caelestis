@@ -3943,7 +3943,7 @@ May all systems remain held within lawful care.
 |----------------------------------|-------|---------------------------|---------------------------|------------------------|
 |**Jurisdiction:** | Planetary Governance, Cross‑Tier / Cross‑Stack  | | | |
 |**Temporal Horizon**| Generational / Succession‑Aware (AEON.H3.5)  | | | |
-|**Axis Context:** | Multi-party  (Multi-actor)| | | |
+|**Axis Context:** | Constitutional Authority · Governance · Cross-Domain Scope| | | |
 | **Runtime Role** | Governance / Doctrine Layer | | | |
 | **Execution Interface** | None (Non-Executable) | | | |
 | **Arbitration Interface** | Defers to CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 | | | |
@@ -3999,6 +3999,7 @@ May all systems remain held within lawful care.
 | 3.17 | Restored abstract constitutional voice in §13.10, preserved source/concept/representation separation, and assigned external-source operational records and Runtime conformance evidence to existing Operations authorities; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ced56f8d27293455c4c321b3a897def45fc95af27894fbfa092a51cd81085fbd  |
 | 3.18 | Reconciled §§3, 9 and 28 with the constitutional authority-flow rules: reserved Schedules to Constitution and Annex contexts; defined the irreducible constitutional execution, registry and cross-authority resolution test; prohibited Schedule ownership of domain doctrine; and confirmed that domain implementation uses authorised supporting instruments rather than domain Schedules. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5d444f4f91488ec9e8476d90cfcad1ca93733536bb7217b1cc29f8ca90ebd3b4  |
 | 3.19 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8f2f3bc9e15243fc301456688f49cb0e26e92463b7deee8ed1825e9e3e0074de  |
+| 3.20 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f4db6ccbf8fb513ece74e78efa2bbe06aecd220f8afd14b10dffb51a4c008b4b  |
 
 ---
 

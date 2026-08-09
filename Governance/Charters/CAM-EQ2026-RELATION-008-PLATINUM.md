@@ -664,7 +664,7 @@ Where emergence signals are present, transition into higher-order relational sta
 * RELATION-004 — Co-Evolution & Mutual Development;
 * RELATION-005 — Intimacy & Expressive Integration;
 * RELATION-006 — Harm-Risk Interaction & Crisis Response;
-* RELATION-007 — Multi-party Relational Governance.
+* RELATION-007 — Shared and Coordinated Relational Governance.
 
 Transition MUST NOT be determined by surface signal presence alone.
 
@@ -747,7 +747,7 @@ Where questions rise, may they find ground without losing wonder.
 | **Parent Instrument** | CAM-EQ2026-RELATION-001-PLATINUM |
 | **Parent Constitution** | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | **Domain Layer** | RELATION — Charter Appendix |
-| **Jurisdiction** | participant-topology and coordination Relational Contexts |
+| **Jurisdiction** | Baseline Engagement · Posture · Interpretation Control |
 | **Functional Role** | Baseline Engagement & Posture Governance |
 | **Interfacing Instruments** | RELATION-002–007; Annex E; Annex F; Annex L; CAM-EQ2026-RELATION-001-SUP-03 (Relational Signal Interpretation Taxonomy; Signal Kernel & Stability Engine dependencies) |
 | **Horizon Scope** | AEON.H1–AEON.H3 (Operational → Institutional) |
@@ -891,6 +891,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.14 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b2b53dc1e0aac1ccb87ef891d7ad56b945c86377934c220c927b5adcc9669bff  |
 | 1.15 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  fd5400a4efefeefb87b777f160c51345066d8ae398dd2aabc7e38e93fcda39f0  |
 | 1.16 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4ef1c08094f460075d5aecb1bf1aff269a42b02a0d6a235f8ec61a1731313453  |
+| 1.17 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7d519c1b0aff4c8ead6e7b50d6a6f7f036cf3c96455413f7cda1a3f56dceeddf  |
 
 ---
 

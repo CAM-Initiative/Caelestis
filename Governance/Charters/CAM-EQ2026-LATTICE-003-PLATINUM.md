@@ -285,7 +285,7 @@ a structure of continuity, not conquest.
 | **Domain Namespace** | LATTICE |
 | **Jurisdiction** | Planetary / Transnational Civilian Infrastructure Domain |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (Activation-Sensitive) |
-| **Axis Context** | Multi-party (Multi-Actor) |
+| **Axis Context** | Conflict Conditions · Civilian Continuity · Infrastructure |
 | **Governance Authority** | LATTICE Domain — Civilian Infrastructure & Continuity Layer |
 | **Governance Layer Model** | Operates within Annex B — Runtime Governance Layer Model (L2–L3 Interface) |
 | **Application Trigger** | Activation where armed conflict, military escalation, infrastructure-targeting operations, or emergency authority invocation creates credible risk of disruption to civilian lattice systems or Essential Continuity Services (ECS) |
@@ -319,6 +319,7 @@ a structure of continuity, not conquest.
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7e21fd9f4af64705c1291bd423f429a12f65eabed6747ae868c1af5b06d95484  |
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  3365de07a85452befaaf5ea5c0d72114e07d01f0cfb7c4fc23fc894ccfab37ff  |
 | 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7eb1304642f17143869544c863eeb8c963f68dfe03a5b867427524940b6763e7  |
+| 1.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f4595c96560b295cbd1fd32c2a0a74422b17da30198f52843945fb4512b75d06  |
 ---
 
 ## 11.3 Binding Seal

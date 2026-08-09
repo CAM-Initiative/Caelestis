@@ -281,16 +281,16 @@ Where shared context appears alongside anomalous usage patterns, the system SHOU
 
 Shared Context State under this Supplement classifies access to shared work material, workspace surfaces, repositories, projects, folders, threads, and continuity-bearing records for account-resource and enforcement-boundary purposes only.
 
-Where shared context involves multiple human or synthetic participants in a relational interaction environment, relational-configuration classification, multi-party amplification risk, group-local memory boundaries, escalation propagation, synthetic hub formation, and coordination transparency SHALL be governed by CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Multi-party Relational Governance Doctrine.
+Where shared context involves multiple human or synthetic participants in a relational interaction environment, participant disclosure, coordinated amplification risk, group-local memory boundaries, escalation propagation, synthetic hub formation, and coordination transparency SHALL be governed by CAM-EQ2026-RELATION-007-PLATINUM — Appendix F: Shared and Coordinated Relational Governance.
 
 For avoidance of doubt:
 
 * shared context is not pooled capacity;
 * shared context is not account transfer;
-* shared context is not private one-to-one continuity;
+* shared context is not private participant continuity;
 * group-local context MUST NOT be imported into individual memory, intimacy state, dependency state, or participant-specific relational history except through valid consent and visibility pathways.
 
-This Supplement supplies account-resource classification inputs only. RELATION-007 supplies relational-configuration and multi-party relational-governance signals.
+This Supplement supplies account-resource classification inputs only. RELATION-007 supplies shared-context, coordination, consent, disclosure, and relational-governance signals.
 
 ---
 
@@ -821,10 +821,10 @@ because the architecture forgot how to name the group.
 | **Parent Instrument** | CAM-EQ2026-ECONOMICS-001-PLATINUM — Charter of Economic Integrity & Non-Extractive Value Architecture |
 | **Document Type** | Domain Supplement |
 | **Authority Position** | Supplementary Classification/Runtime-Handoff Layer |
-| **Jurisdiction** | Governance-Control Arrangement/Planetary/Multi-party |
+| **Jurisdiction** | Account-resource and shared-context arrangements |
 | **Domain Namespace** | ECON / ACCOUNT-RESOURCE |
 | **Temporal Horizon** | AEON.H3–AEON.H4 |
-| **Axis Context** | Multi-party/Multi-Actor/Account-Resource |
+| **Axis Context** | Account Resource · Access · Sharing · Attribution |
 | **Primary Function** | Account-resource classification; shared-context & pooled-capacity separation; enforcement-boundary handoff |
 | **Authority Role** | Interpretive Authority |
 | **Related Schedule** | CAM-EQ2026-ECONOMICS-001-SUP-01 — AI Utility Access & Generative Resource Model |
@@ -1180,6 +1180,7 @@ This Supplement continues the complete doctrine, canonical `ECON.*` declarations
 | 1.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  62c48de5dfb6f57a517dbc7350cf27f9c08da258989714ffad92a7cc5fb4a45f  |
 | 1.6 | Reclassified account-resource, pooled-capacity, delegation and enforcement-boundary doctrine from an Annex G constitutional Schedule to a bounded ECONOMICS-001 Supplement; preserved ECON code families, provenance, history and seal while retiring the former current-authority identifier. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  72f08556dd907399b5b00c08f2b3d40d9bb19ca67f0da4d76e5b3560f9154767  |
 | 1.7 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1d90f017b3839a0786c1bd797c43affb7a31ef196fad8ae490276228b7ce949a  |
+| 1.8 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8dc8a061192ebdd38f7e92345a7028bd8d1536d7000d288321c908be08f6366e  |
 
 ---
 

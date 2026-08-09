@@ -63,7 +63,7 @@ The constitutional record need identify the competing authorities, the material 
 | **Domain Namespace** | ARBITRATION |
 | **Functional Layer** | Ambiguity Arbitration / Runtime Decision Posture |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (Escalation-Sensitive) |
-| **Axis Context** | participant-topology and coordination — Runtime, Account, Tool, and Governance Ambiguity |
+| **Axis Context** | Runtime · Account · Tool · Authority Ambiguity |
 | **Migration Cycle** | June 2026 Arbitration Repair Cycle |
 | **Revision Posture** | New Schedule |
 | **Runtime Role** | Ambiguity-sensitive arbitration posture |
@@ -98,6 +98,7 @@ The constitutional record need identify the competing authorities, the material 
 | 1.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  550b967630ac9e7ec29750a6b38c322d8dff99a7a9821d4148756cb2225246b5  |
 | 1.6 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c0d50feebcf8672548d0e1450dde0103bb1f6f98ea01bc1653b9b6b7586ff3dd  |
 | 1.7 | Applied S-01B clause-level irreducibility decomposition: retained only the constitutional trigger, precedence, sequencing, non-derogation and evidence/referral interface; descended domain and operational doctrine. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b8c2bb2a222b362f201e475fabb7880360b7b1e5daa901fc48cdaa6162a3721e  |
+| 1.8 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  714962c4d74e393f8b2ad1d2c13ab9e1c2a99863a2c682ff8d1f215d9bcaaec0  |
 
 ---
 

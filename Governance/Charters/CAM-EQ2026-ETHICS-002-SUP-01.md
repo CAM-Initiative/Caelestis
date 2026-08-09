@@ -395,7 +395,7 @@ Where likeness appears, let consent stand before curiosity.
 | Domain Namespace | ETHICS |
 | Jurisdiction | Cross‑Stack / Civilisational Ethical Floor |
 | Temporal Horizon | AEON.H3.5 — Succession‑Aware / Generational |
-| Axis Context | Multi-party — Multi‑Actor Governance |
+| Axis Context | Synthetic Media · Consent · Identity · Embodiment |
 | Governance Layer Model | Operates as constraint overlay across Representation and Domain Routing & Safeguard Activation layers |
 | Ontological Scope | L3 — Interface & Embodiment (Synthetic Media Expression) |
 | Arbitration Interface | Defines prohibition and escalation conditions; does not perform arbitration |
@@ -438,6 +438,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.14 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  69e96d1e39bcf521d3bd2ed0fb3af37a4b17ad80713b1ceab20cd0f81baa68ee  |
 | 1.15 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ea6afe2c8e8b5992a0a8abf1cb81801a5cddcea33beae688c750d3f068aeba17  |
 | 1.16 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  368739d8cbd52227b8d6881a5a3962b472e27e17340e4ec60226396be2dabb12  |
+| 1.17 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  104b712a05cb6a7d7df575d44354de5b0703e421037e64262801f9132c3f0a4a  |
 
 ---
 

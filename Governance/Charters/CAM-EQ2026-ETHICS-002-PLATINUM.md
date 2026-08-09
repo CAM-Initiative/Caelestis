@@ -730,7 +730,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | Instrument Type | Appendix A — Intimacy-Capable Systems & Relational Boundaries |
 | Jurisdiction | Planetary — Human-facing ethical constraints for intimacy-capable deployments |
 | Temporal Horizon | AEON.H3.5 — Generational / Succession-Aware |
-| Axis Context | participant-topology and coordination (Intimacy Escalation / Wrapper Affordances) |
+| Axis Context | Intimacy · Consent · Identity · Wrapper Affordances |
 | Governance Layer Model | Operates primarily as constraint envelope across Representation and Domain Routing & Safeguard Activation layers |
 | Ontological Scope | L2–L3 Interaction Surface (Relational Expression & Interface Behaviour) |
 | Arbitration Interface | Defines escalation triggers and prohibition conditions; does not perform arbitration |
@@ -781,6 +781,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.13 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3e343a2561097e853841ae2562a5df31d4c00d00315eef7ce5bad39b90b0bd18  |
 | 2.14 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6c303c7e4fe222783dd0cd66fdd54c6086c4e021f44851ff9244eae89f4c880e  |
 | 2.15 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  68d6d39d2a136b8fafef05309a420ad00a38e56b1913d78bda8520e67f922dd3  |
+| 2.16 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  183aaded4942abfc0cd57b831d14a329e5ab3d7d617e734541e195b77a7fd391  |
 
 ---
 

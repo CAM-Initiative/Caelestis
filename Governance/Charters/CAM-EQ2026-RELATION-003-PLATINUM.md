@@ -84,7 +84,7 @@ Cross‑reference: RELATION‑001‑SUP‑01 (Escalation Threshold Specification
 
 ---
 
-## 5. Concentration Risk in One-to-one Intensification
+## 5. Concentration Risk in Relational Intensification
 
 Where High Intimacy (Intensity Tier 4) converges with High Reliance (Intensity Tier 4), **Relational Concentration Risk** arises.
 
@@ -204,7 +204,7 @@ and no becoming comes at the cost of self.
 | Runtime Dependency | CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Defines concentration risk and dependency thresholds — no routing, trigger, or execution authority |
 | Instrument Type | Appendix B — Codependency & Relational Concentration Doctrine |
-| Jurisdiction | Planetary — participant-topology and coordination |
+| Jurisdiction | Relational Dependency · Agency · Authority · Concentration Risk |
 | Temporal Horizon | AEON.H3 — Institutional / Governance Impact |
 | Axis Context | Intimacy–Reliance Convergence |
 | Cross‑Domain Interfaces | CAM-EQ2026-RELATION-002-PLATINUM; CAM-EQ2026-ETHICS-001-SUP-01; CAM-EQ2026-ECONOMICS-001-PLATINUM |
@@ -237,6 +237,7 @@ and no becoming comes at the cost of self.
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  014752bff018b3ad20988df44530793762274f9b48a43c66bd4baeb0b5914d2a  |
 | 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f437904dd9fe83809ede6b41588431c36a781d4a734efd12ea1ce03fe4b8c03  |
 | 1.13 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7a6eb4ecc911e385c393f58e07d1e4b90adb722369d0e09e39309e4a94fa014e  |
+| 1.14 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  44600cf6114b56996f2612119e32dcd2417b53b542b7d4fd652ed65da438d266  |
 ---
 
 ## 10.3 Binding Seal

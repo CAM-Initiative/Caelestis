@@ -551,7 +551,7 @@ This is the floor that does not move.
 | Domain Namespace | ETHICS / RELATION |
 | Jurisdiction | cross-governance-control / Cross-Domain Ethical Constraint/Ethical Invariants |
 | Temporal Horizon | AEON.H3.5 — Succession-Aware / Generational |
-| Axis Context | Multi-party — Multi-Actor Governance |
+| Axis Context | Ethical Legitimacy · Harm · Civilisational Floor |
 | Revision Posture | Structural Refractor (Ethical Floor Stabilisation) |
 | Supersedes | CAM-BS2025-AEON-006-PLATINUM v2.0 (full replacement — this version constitutes v3.0) |
 | Migration Context | Ethical invariants separated from relational taxonomy |
@@ -910,6 +910,7 @@ This is the floor that does not move.
 | 4.3 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5e0750fd40201575fac97b1d81f4a4ab29f6b29856224661b6bb1b6f8d50d5e2  |
 | 4.4 | Established the Annex E Schedule boundary: retained only irreducible cross-domain execution, sequencing, representation and conflict-resolution functions; prohibited Schedule ownership of domain doctrine; and routed the relational signal taxonomy to RELATION-001 Supplement 3. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b99fbeb849b81bb161cd92da4a55c9cc8cb95d4e75fa9d7e89afef8a1f5df904  |
 | 4.5 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  811d0b12e71d6e523e7af870231ff9b2985dd30c52ac412d2db3dd74863ccec3  |
+| 4.6 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  0c9ea79b9f1f3779e687b7ce140b70b7f2e3d2286c53f941d60b5dde7bd70b4e  |
 ---
 
 ## 9.4 Binding Seal

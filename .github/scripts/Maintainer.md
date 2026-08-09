@@ -509,10 +509,11 @@ Representative scripts:
 ```text
 .github/scripts/validate_markdown_section_refs.py
 .github/scripts/lint_reference_shorthand.py
+.github/scripts/validate_canonical_architecture_terminology.py
 ```
 
 **Purpose:**
-Validate or improve cross-document and local reference integrity.
+Validate or improve cross-document, local-reference and guarded canonical-terminology integrity. The architecture terminology guard Unicode-normalises current operative content, blocks explicit retired architecture and relational-geometry terms, and blocks only high-confidence participant-cardinality governance structures. It does not prohibit ordinary factual descriptions of several participants or systems.
 
 **Operational Role:**
 Validator / linter / limited fixer.
@@ -527,6 +528,8 @@ Validator / linter / limited fixer.
 * cross-document references remain navigable;
 * ambiguous named references are identified;
 * shorthand references do not obscure authority;
+* participant topology and cardinality do not become authority, permission, consent, impact, risk or jurisdiction classes;
+* exact sealed-Law relational-geometry residue remains archival and non-consumable;
 * normative terms remain properly formatted where fixer is used.
 
 **Upstream Dependencies:**
@@ -562,7 +565,9 @@ Validator / linter / limited fixer.
 ```bash
 python .github/scripts/validate_markdown_section_refs.py --root Governance
 python .github/scripts/lint_reference_shorthand.py --root Governance
+python .github/scripts/validate_canonical_architecture_terminology.py
 python -m pytest .github/scripts/tests/test_validate_markdown_section_refs.py
+python -m pytest .github/scripts/tests/test_validate_canonical_architecture_terminology.py
 ```
 
 **Deprecation / Replacement Condition:**

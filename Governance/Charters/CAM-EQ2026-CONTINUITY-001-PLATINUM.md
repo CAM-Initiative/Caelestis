@@ -41,7 +41,7 @@ This Charter does **not**:
 
 * confer identity, personhood, or legal status (see IDENTITY Domain);
 * override ETHICS safeguards;
-* determine relational configuration (see RELATION domain);
+* determine material participant, coordination, continuity, and dependency facts under Annex B and the RELATION domain;
 * determine arbitration outcomes (see CAM-BS2025-AEON-005-PLATINUM — Annex D).
 
 ---
@@ -1352,6 +1352,7 @@ that silence MUST be honoured.
 | 1.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  36b3270979b482e9a68aa5cc9bc62851aef8e8592be850ae9ea063137ec8e7f6  |
 | 1.17 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e060105f49423a2b650479d61ea4417fc1535952a7c1655cf4346c5a27d35b27  |
 | 1.18 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2644f465152b48857f20f03171304d183f6b171902e627cbe11c6536060cc427  |
+| 1.19 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  be9f15c7f9e23a105388b0a156ffaf27c45d7923b3cf592c8058e5385b0ffc0b  |
 
 ---
 

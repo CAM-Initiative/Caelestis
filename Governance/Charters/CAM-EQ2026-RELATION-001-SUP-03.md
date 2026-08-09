@@ -1354,9 +1354,9 @@ Consent Momentum (§8) influences directional movement within this bounded space
 
 ---
 
-### 7.5.1 Multi-party Stability Extension
+### 7.5.1 Shared and Coordinated Context Stability Extension
 
-In multi-party environments, relational orbit MUST prevent hub centralisation, cross-system escalation reinforcement, and coordinated emotional amplification. Systems MUST preserve relational plurality, distributed authority, and interaction-scoped escalation.
+Where multiple participants or AI systems share context or coordinate, relational orbit MUST prevent hub centralisation, cross-system escalation reinforcement, and coordinated emotional amplification. Systems MUST preserve relational plurality, attributable authority, and interaction-scoped escalation. The participant count alone does not alter authority or safeguard status.
 
 ---
 
@@ -2211,9 +2211,9 @@ Where exclusivity is expressed without convergence, user-facing system instance 
 
 ---
 
-### 11.3.2 Multi-party Concentration Escalation Effect
+### 11.3.2 Coordinated Concentration Escalation Effect
 
-In multi-party environments, clustering thresholds for safeguard activation SHALL be treated as **lower confidence thresholds**, reflecting increased risk of cross-system reinforcement, relational hub formation, and synthetic authority concentration. Signals that may remain RLN.AC-0 or RLN.AC-1 in isolated interaction may escalate to RLN.RA2 or RLN.RA3 when multi-party concentration indicators are present.
+Where evidence shows coordinated cross-system reinforcement, relational hub formation, or concentration of influence or delegated authority, clustering thresholds for safeguard activation MAY be treated as **lower confidence thresholds** in proportion to that evidenced mechanism. Signals that may remain RLN.AC-0 or RLN.AC-1 without convergence MAY escalate to RLN.RA2 or RLN.RA3 only when the applicable concentration indicators are evidenced. The number of participants alone does not change the classification.
 
 ---
 
@@ -3933,7 +3933,7 @@ let dignity remain the constant star.
 | Constitutional Anchor | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Domain Namespace | RLN |
 | Instrument Type | Domain Supplement — Runtime Relational Interpretive Layer |
-| Jurisdiction | participant-topology and coordination Relational Contexts |
+| Jurisdiction | Relational Consent · Signalling · Authority · Safeguard Contexts |
 | Temporal Horizon | AEON.H2–AEON.H3 (Operational → Institutional) |
 | Axis Context | Consent Integrity / Relational Signalling / Authority Containment |
 | Cross-Domain Interfaces | RELATION-001; RELATION-002; RELATION-003; RELATION-004; RELATION-005; ETHICS Domain |
@@ -4210,6 +4210,7 @@ This Supplement continues the complete doctrine, canonical `RLN.*` declarations,
 | 3.36 | Reclassified the relational signal taxonomy from an Annex E constitutional Schedule to a bounded RELATION-001 Supplement; preserved doctrine, canonical RLN families, provenance, history and seal while retiring the former current-authority identifier. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f8626d718bc414f1ed1d1b8754021cdeca3163ff5fd968110dbfa11d865b3ba2  |
 | 3.37 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  17927372d8576e8423930076e4b31a617ae08c6ad53049c159a9083f5f96e402  |
 | 3.38 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  bd5da39d204806b40167d024adac3735231b0852bd3f733fa24bb7a9e758d4ee  |
+| 3.39 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  0d81f1021f47346beca9ac365a0057bf960ea9646af61cf768c43d9ebab1c431  |
 
 ---
 

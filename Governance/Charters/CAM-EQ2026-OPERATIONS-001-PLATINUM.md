@@ -386,7 +386,7 @@ nor so fluid that nothing stable can remain
 |Domain Namespace|OPERATIONS|
 |Jurisdiction|Cross‑Domain/Operational Governance Layer|
 |Temporal Horizon|AEON.H0–AEON.H2 (Operational)|
-|Axis Context|Multi-party (Multi‑Actor Governance)|
+|Axis Context|Operational Escalation · Routing · Constraint · Evidence|
 |Revision Posture|Foundational Issue|
 |Application Trigger|Operational implementation, coordination, runtime applicability, conformance assessment, or escalation below planetary arbitration thresholds|
 |Creation Artefact|https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a28733-4c24-839f-a918-5364a3ff2cb7|
@@ -412,6 +412,7 @@ nor so fluid that nothing stable can remain
 | 1.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  eb70a9ee4c48e498bcb1e38340478f3a9ac56f8763e8333dc704c3924577896c  |
 | 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  52eead43fc44e7aac37bd98029a9666ba502e724cd70c743b404abe60eb669a5  |
 | 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ec5fc6063a1c3e0e802daf3667ea8d25ac0b4a21e23d2082dd6c767d1357c1a8  |
+| 1.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  25e0e44c314a4df77384eb1c04d8772991e5fd0f84163ad9cb3a52b081f94465  |
 ---
 
 ## 11.3 Binding Seal

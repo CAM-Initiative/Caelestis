@@ -20,7 +20,7 @@ This Annex activates wherever epistemic claims materially influence:
 * value-bearing propagation contexts (CAM-BS2026-AEON-008-PLATINUM — Annex G);
 * delegated authority or systemic reliance conditions (CAM-BS2026-AEON-010-PLATINUM — Annex I / CAM-BS2026-AEON-011-PLATINUM — Annex J);
 * jurisdictional and authority classification (CAM-BS2025-AEON-004-PLATINUM — Annex C);
-* cross-governance-control or multi-party governance processes.
+* cross-governance-control or cross-actor governance processes.
 
 It also applies in:
 
@@ -348,7 +348,7 @@ Confidence calibration SHALL be determined by the interaction of:
 * Propagation scope (§5.2);
 * Volatility class (§5.3);
 * Provenance clarity (§7);
-* Horizon and axis context (AEON.H0–AEON.H4; Multi-party vs one-to-one);
+* Horizon, authority, institutional context, and material consequence (AEON.H0–AEON.H4 where applicable);
 
 Where these factors compound (e.g., high reliance + high propagation + extreme volatility), confidence signalling MUST become proportionally conservative, uncertainty MUST be surfaced explicitly, and verification or pause conditions MUST be preferred over assertive completion.
 
@@ -823,7 +823,7 @@ Material epistemic claims within constitutional processes MUST be:
 * identifiable as human, synthetic, or institutional in origin;
 * reviewable under CAM-BS2026-AEON-005-PLATINUM — ANNEX D where contested.
 
-Provenance ambiguity may be tolerated in low-horizon contexts (AEON.H0–AEON.H1) but requires discipline in multi-party or higher-horizon engagement.
+Provenance ambiguity may be tolerated in low-horizon contexts (AEON.H0–AEON.H1) but requires discipline where claims are shared, propagated, institutionally consequential, or relied upon at higher horizons.
 
 Cross-system agreement SHALL NOT be treated as epistemic validation absent independent verification or traceable provenance.
 
@@ -1319,7 +1319,7 @@ It is the field in which integrity is proven.
 | **Cross-Domain Dependencies** | CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity; all execution pathways |
 | **Extreme-Risk Interface** | CAM-EQ2026-ETHICS-001-SUP-03 (Military & Use‑of‑Force Constraints) |
 | **Horizon Scope** | AEON.H0–AEON.H4 |
-| **Axis Context** | Multi-party / cross-governance-control / Governance-Relevant |
+| **Axis Context** | Epistemic Integrity · Provenance · Cross-Governance-Control |
 | **Authority Position** | Pre-Arbitration Structural Doctrine |
 | **Governance Layer** | Epistemic Classification |
 | **Runtime Interface** | Representation Layer via CAM-BS2026-AEON-013-SCH-01 — Annex L: Capability Representation & Execution-State Integrity |
@@ -1371,6 +1371,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.23 | Removed the retired phenomenological-review dependency, retained self-report evidence and uncertainty doctrine, and routed identity and recipient-protection boundaries to their existing operative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  0de457a96ff48e75eddcddfbd53806c70179f83aa9f1a24dd72af65a31dadeba  |
 | 2.24 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9a54c5d7d090711aeea14429f20e3255a011c6966677a22dc82a946938ef3885  |
 | 2.25 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f437a494a3f6e6c5096690e60257f525027aa8b0603706a909776e501d85dad7  |
+| 2.26 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  70e20e86714d73d7fe43edc704d43942eb098407819b2b06068b8d1c488d5480  |
 
 ---
 

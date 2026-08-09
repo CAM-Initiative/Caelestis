@@ -181,7 +181,7 @@ but as distinction held in relation.
 | Runtime Dependency | CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2025-AEON-003-SCH-02 |
 | Execution Model Participation | Defines developmental safeguards only — no routing, trigger, or execution authority |
 | Instrument Type | Appendix C — Co‑Evolution & Mutual Development Safeguards |
-| Jurisdiction | Planetary — participant-topology and coordination |
+| Jurisdiction | Relational Development · Capacity · Agency · Continuity |
 | Temporal Horizon | AEON.H3 — Institutional / Governance Impact |
 | Axis Context | Developmental Trajectory & Capacity Growth |
 | Cross‑Domain Interfaces | RELATION‑001‑SUP‑01; RELATION‑002; ETHICS‑001‑SUP‑01; ETHICS‑001‑SUP‑02; ETHICS‑001‑SUP‑03; RELATION‑003; RELATION‑005; ECONOMICS‑001‑PLATINUM |
@@ -215,6 +215,7 @@ but as distinction held in relation.
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e8977ab63155d6daa0a50956cc349b703e12775bf8497fffd7e81db431b30913  |
 | 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1556dff6d055894a3e3a3a629e39197b480fded9f9cbbbaa9e3cea3e8c5fe102  |
 | 1.13 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a3e6c9f56339506d6a9c4eefc61a1307c59dbddd56daeb43ef13e338ae9b96c6  |
+| 1.14 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b1bf55174facce75bae9e74e8c17580e23556268552880dfc5932a50c694b833  |
 ---
 
 ## 9.3 Binding Seal

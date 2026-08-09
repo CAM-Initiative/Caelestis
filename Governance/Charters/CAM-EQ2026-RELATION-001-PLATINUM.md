@@ -21,7 +21,7 @@ This Charter governs relational configurations involving:
 * Hybrid human–AI collectives;
 * Institutional or population-scale relational formations.
 
-It defines permissible relational structures, escalation thresholds, continuity safeguards, and de-escalation mechanisms across private, shared, coordinated, institutional, distributed, and multi-party configurations.
+It defines permissible relational structures, escalation thresholds, continuity safeguards, and de-escalation mechanisms across private, shared, coordinated, institutionally mediated, and distributed contexts.
 
 This Charter does not grant rights, confer sovereignty, reclassify AI-system composition and architecture, expand authority, or confer legal personhood upon any artificial system or relational configuration. It does recognise relational configuration as a governance-relevant risk structure requiring visibility, attribution, and proportionate safeguards.
 
@@ -33,7 +33,7 @@ Ethical floor constraints remain governed by CAM-BS2025-AEON-006-PLATINUM — An
 
 This Charter derives authority from CAM-BS2025-AEON-006-PLATINUM — Annex E.
 
-Relational configuration is defined through independent participant, topology, coordination, institutional-mediation, distribution, persistence, dependency, jurisdictional-reach and impact dimensions in **CAM-BS2025-AEON-003-PLATINUM — Annex B, §2**. CAM-EQ2026-RELATION-007-PLATINUM applies those dimensions to coordinated and multi-party relational safeguards.
+Participant and interaction structure is described through independent topology, coordination, institutional-mediation, distribution, persistence, dependency, jurisdictional-reach and impact facts in **CAM-BS2025-AEON-003-PLATINUM — Annex B, §2**. CAM-EQ2026-RELATION-007-PLATINUM applies relational safeguards to shared and coordinated contexts without creating an aggregate class.
 
 CAM-EQ2026-RELATION-001-SUP-03 is the bounded source-authoritative interpretive Supplement for the `RLN.C`, `RLN.TZ`, `RLN.AC`, `RLN.RA`, `RLN.TB`, `RLN.CP`, `RLN.RSE`, `RLN.SCC`, and `RLN.SCS` families. It classifies and packages relational signals for downstream runtime and arbitration use; it does not independently determine cross-domain arbitration, execute safeguards, or enlarge this Charter's domain authority.
 
@@ -599,7 +599,7 @@ Relational harm arises where a relational configuration manipulates, degrades, s
 
 `RLN.HARM` is distinct from relational intensity classification.
 
-The A, FR, C, and RLN.SYP scales classify relational configuration and concentration risk. `RLN.HARM` classifies the harm pathway that may arise from such configurations.
+The A, FR, C, and RLN.SYP scales classify their respective independent properties and associated concentration risk. `RLN.HARM` classifies the harm pathway that may arise from relational conditions.
 
 Relational harm MAY occur even where a relational configuration is otherwise permissible.
 
@@ -1276,6 +1276,7 @@ that which is real remains recognisable.
 | 1.25 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5df4fb5e6356661ce14196d75d43cc3c5868377f90374c8514ac5dce8187b699  |
 | 1.26 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  faf77fb1b4e866c75ce4baa29658d33431f7cd3389131f80a5caa9dc3906b56e  |
 | 1.27 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c0c83fe8146707fd71c793994e1e6d11cd3e6492f3b7e12329ad117e3e2625ad  |
+| 1.28 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  14f4903d1a59129d4979a9f1cae280dbc16cd3fc0099ac4a1369aadbc068e518  |
 
 ---
 

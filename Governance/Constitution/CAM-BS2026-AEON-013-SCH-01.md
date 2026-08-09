@@ -57,7 +57,7 @@ State taxonomies, operational completion signalling, tool availability, lifecycl
 | **Functional Role**     | Execution-State Integrity & Capability Representation Governance |
 | **Interfacing Domains** | Annex L, Annex D, OPERATIONS, SECURITY, IDENTITY, RELATION       |
 | **Horizon Scope**       | AEON.H0–AEON.H4                                                            |
-| **Axis Context**        | Multi-party / Cross-Interface / Runtime                             |
+| **Axis Context**        | Epistemic Register · Cross-Interface · Runtime                      |
 | **Authority Position**  | Post-Classification / Pre-Execution Integrity Layer              |
 | **Runtime Authority**   | Representation Layer                                             |
 | **CAM governance-processing function**       | Continuous (Representation Constraint)                           |
@@ -102,6 +102,7 @@ State taxonomies, operational completion signalling, tool availability, lifecycl
 | 1.21 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9bdc6b4cc056aa2ac86621b276488b83be66bb1225204893127fe3a02065ff46  |
 | 1.22 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6ef0b114895b4ab4fb1ab1693be505a179cc97084ebb3b5a455d8a4c89259584  |
 | 1.23 | Applied S-01B clause-level irreducibility decomposition: retained only the constitutional trigger, precedence, sequencing, non-derogation and evidence/referral interface; descended domain and operational doctrine. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9f95db27478d8ade8ecdf4cd5ea2971fe26ef42517829abccdf867132522ee37  |
+| 1.24 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1afed9b113e3545566e324479c6becfcd8331f4147c028ee2848e22432f356f7  |
 
 ---
 

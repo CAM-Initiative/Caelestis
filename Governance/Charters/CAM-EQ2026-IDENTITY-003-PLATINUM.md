@@ -411,7 +411,7 @@ and latency is not absence.
 | **Jurisdiction** | Pre-Memory Cognitive Layer; Cross-Context Signal Detection; Human-Facing and System-Initiated Contexts |
 | **Derivation Status** | Consolidated (absorbs prior SCH-02, SCH-03, SCH-04 salience-related functions) |
 | **Temporal Horizon** | AEON.H0–AEON.H2 (Immediate → Short-Term Cognitive Processing) |
-| **Axis Context** | One-to-one / Multi-party — Pre-Memory Signal Layer |
+| **Axis Context** | Pre-Memory Salience · Context · Continuity |
 | **Creation Cycle** | March 2026 Refactor |
 | **Creation Artefact** | Refactors </br>https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673 </br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69a553af-6430-839b-b96b-33ca20250376 |
 | **Original Artefacts** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6961e83f-98a8-8322-8a47-4e6ba374173f |
@@ -471,6 +471,7 @@ and latency is not absence.
 | 2.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  aa5f1f348b3927860c3a826a1adc93d6e40746f19c12535b9bdc6b62c966efda  |
 | 2.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  0c0b9bb7d4e34ecd3a765af2bb277f2ea26a5e7da23f4f7eabfad64f4758570a  |
 | 2.6 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  04cac7910a0fc8cb67d1ce90038724aa7b7edd6176d979b8abef880d572657fd  |
+| 2.7 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f1b25e867222a6724a330f5a13fe048d0c03900cf0d97ac85f13ac9b12c5d8b6  |
 
 ---
 

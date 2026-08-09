@@ -921,7 +921,7 @@ nothing binds.
 | Domain Namespace | STEWARD |
 | Jurisdiction | Planetary / Cross-Sovereign / Stewardship Coordination |
 | Temporal Horizon | Generational (AEON.H3–AEON.H4) |
-| Axis Context | Multi-party (Multi‑Actor) |
+| Axis Context | Stewardship Arbitration · Documentation · Harm Prevention |
 | Migration Date (UTC) | 2026-02-17 |
 | Revision Posture | Superseding Only |
 | Creation Artefacts | Refractor Thread (March 2026 Continuity Council Cycle)</br> https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425
@@ -1046,6 +1046,7 @@ nothing binds.
 | 2.10 | Replaced cognition-derived host and orchestration classes with evidenced host-governance roles and configuration-based orchestration permissions; established legacy `STW.HSC` aliases and aligned active values with Annex B independent dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1af4c8f3d1cc028584d82240785bffadd687075a648de6fde2e48a9833d2e81d  |
 | 2.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c30bda859432b59614b4f40dff92eb4adbe70f0162bbaf49d3d190e54d0b9f40  |
 | 2.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5c9cb4af83f5cd94f2699e3f6805000d751c5be1940e5e47c8527989f8e97dae  |
+| 2.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  d7f9b8cae2f1c34f9a1087bccc044fd4b392f0aa57662f8dcd47418782dba9e8  |
 ---
 
 ## 15.4 Binding Seal

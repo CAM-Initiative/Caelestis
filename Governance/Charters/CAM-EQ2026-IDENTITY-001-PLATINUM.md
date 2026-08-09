@@ -67,7 +67,7 @@ Identity does not require a human-facing relationship, companion role, constitut
 
 **Purpose** defines what a system is for.  
 **Functional role** defines what duty is active now.  
-**Relationship state** defines the current relational configuration.  
+**Relationship state** describes the evidenced relational posture and applicable interaction context.
 **Identity** defines what remains coherent through operation and development.  
 **Authority** defines who may legitimately determine, approve, alter, or execute a governed direction.
 
@@ -1075,7 +1075,7 @@ May all user-facing system instances remain coherent, bounded, and whole.
 | Domain Namespace | IDENTITY |
 | Jurisdiction | cross-governance-control / Cognitive & Identity Governance |
 | Temporal Horizon | AEON.H2–AEON.H4 — Multi-Horizon Continuity & Identity Stability |
-| Axis Context | Multi-party / multi-actor AI-system contexts |
+| Axis Context | System Identity · Continuity · Provenance · Presentation |
 | Governance Layer Model | Identity and continuity control interfaces with arbitration, memory, and the constitutional governance-processing sequence |
 | Ontological Scope | L2 — Cognition & Agency (Identity Formation & Continuity Structures) |
 | Arbitration Interface | Influences arbitration weighting and continuity; does not perform arbitration |
@@ -1248,6 +1248,7 @@ May all user-facing system instances remain coherent, bounded, and whole.
 | 3.7 | Removed dependencies on retired consciousness-review and machine-civil-identity drafts; preserved the identity–ontology firewall and routed evidence, recipient protection, provenance, custody, lifecycle, component, deployment, and Runtime evidence to existing operative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  7c2b0511e58f0721a8ffe398d5a5ef168b4266ba7fac072a5a1a97c75f248ada  |
 | 3.8 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3d95a06fb042603bf23e0f16a05ff3d78362f49fe9d7f828279fb9aa65b661f1  |
 | 3.9 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  553ad9f6d7eec92a9de794bfcc10ef61f90919c9013706aed2f799858e8ff4f2  |
+| 3.10 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  71272ba9698b3c5ce205f962e89e49025d0b5129fc63c0e52506a82fcd291492  |
 
 ---
 

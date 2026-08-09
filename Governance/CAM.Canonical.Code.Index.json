@@ -1867,7 +1867,7 @@
     "primary_type": "Signal Classification Family",
     "subtype": "Symbolic / Spiritual / Mythopoetic Runtime-Interface Signal Emission",
     "modifier": "Routing aid; non-executing; cross-domain handoff support",
-    "scope": "Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, multi-party, execution, continuity, and anomalous-signal routing",
+    "scope": "Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, coordination, execution, continuity, and anomalous-signal routing",
     "status": "Active",
     "controlled_values_defined": [
       "AEON.SY-RS",
@@ -1918,7 +1918,7 @@
       "Primary Type": "Signal Classification Family",
       "Subtype": "Symbolic / Spiritual / Mythopoetic Runtime-Interface Signal Emission",
       "Modifier": "Routing aid; non-executing; cross-domain handoff support",
-      "Scope": "Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, multi-party, execution, continuity, and anomalous-signal routing",
+      "Scope": "Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, coordination, execution, continuity, and anomalous-signal routing",
       "Status": "Active",
       "Controlled Values Defined": "AEON.SY-RS, AEON.SY-DS, AEON.SY-ES, AEON.SY-OS, AEON.SY-AS, AEON.SY-HS, AEON.SY-PS, AEON.SY-XS, AEON.SY-CS, AEON.SY-AN",
       "Schema Field(s)": "symbolic_signal_class; symbolic_signal_route; symbolic_signal_confidence; symbolic_signal_handoff_required",
@@ -8485,7 +8485,7 @@
       "relational",
       "epistemic",
       "cognitive-domain",
-      "multi-party-coordination",
+      "shared-participant-coordination",
       "identity-relevant",
       "UX",
       "infrastructure",
@@ -8528,7 +8528,7 @@
       "Authority / Protection Level": "Source-authoritative failure-family classification set; failure-family classification only; no independent incident response, severity, enforcement, remediation, escalation, arbitration, or runtime authority",
       "Consumes Code Families": "",
       "Crosswalks Code Families": "AEON.HARM and domain harm families; OPS.RGRF; PFAIL; SEC.BF; LAT.HARM; LAT.DEPLOY; OPS.GCC; OPS.CPC; OPS.SAS; OPS.RCC; AMEND.DRIFT; AMEND.REL; AMEND.OUTCOME; OPS.VFC; OPS.ODC; OPS.CCO; MENTIS.HARM; applicable domain-specific identity, continuity, relational, stewardship, security, cognitive-domain, runtime, and economics classifications",
-      "Operationalises or Applies Code Families": "Classifies primary structural failure family across runtime, governance, security, relational, epistemic, cognitive-domain, multi-party-coordination, identity-relevant, UX, infrastructure, state/context, arbitration, classification, automation-transition, and economic-legitimacy failure modes"
+      "Operationalises or Applies Code Families": "Classifies primary structural failure family across runtime, governance, security, relational, epistemic, cognitive-domain, shared-participant-coordination, identity-relevant, UX, infrastructure, state/context, arbitration, classification, automation-transition, and economic-legitimacy failure modes"
     }
   },
   {

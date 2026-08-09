@@ -61,7 +61,7 @@ The constitutional record need identify applicable authorities, the authority ou
 | **Execution Layer Binding** | Non-Layer (Execution Model) |
 | **Cross-Domain Dependencies** | CAM-EQ2026-RELATION-007-PLATINUM; CAM-EQ2026-RELATION-008-PLATINUM; CAM-EQ2026-RELATION-001-SUP-03; CAM-BS2026-AEON-013-SCH-01; CAM-BS2025-AEON-001-SCH-01 |
 | **Temporal Horizon** | AEON.H2.5–AEON.H3 (Real-Time to Session-Bound Governance) |
-| **Axis Context** | Multi-party / multi-actor / multi-operator execution contexts |
+| **Axis Context** | Runtime Processing · Multi-Actor Authority · Execution |
 | **Activation Condition** | Activated upon any runtime interaction involving arbitration, response construction, or execution-boundary evaluation |
 | **System Scope** | AI systems, deployments and system instances operating under CAM-BS2025-AEON-003-PLATINUM classification |
 | **Lifecycle Stage** | Active — Post-Refactor Stabilisation (April 2026) |
@@ -138,6 +138,7 @@ The constitutional record need identify applicable authorities, the authority ou
 | 3.18 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  dc7563ca690f6184bdbbef11c982be8d2c215b661fec6a8e1068630510009b37  |
 | 3.19 | Applied S-01B clause-level irreducibility decomposition: retained only the constitutional trigger, precedence, sequencing, non-derogation and evidence/referral interface; descended domain and operational doctrine. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a485e822786004e96efb5502febb40b86ef80e043af4938fb3b99c7e999161d3  |
 | 3.20 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  47ca79b2a65f4ec287866f71ef21339998c827851b11432fec3b6c1c2f49287f  |
+| 3.21 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3ee9844c8d053b599e5be3f97355dec8822ff519c27f7dbb053f9255fb2bfdf8  |
 
 ---
 
