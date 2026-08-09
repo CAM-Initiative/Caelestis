@@ -964,7 +964,7 @@ Instead, non-compliance results in:
 * visibility of imbalance;
 * audit flagging;
 * legitimacy degradation;
-* reduced alignment status within CAM-governed systems.
+* reduced alignment status within systems governed by the applicable constitutional and economic instruments.
 
 Escalation pathways MAY be invoked through Appendix B where systemic impact is present.
 
@@ -1283,6 +1283,7 @@ Where growth is built upon others, let return follow in kind.
 | 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 7635016f2c282ca2706ab5022aeeb955f83d4e9ba11705120f76ec2dfaaaf978 |
 | 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  12cf534fc3fa50ea12ad980afd1c7726200886da31db05ec395aa579e9bddc3c  |
 | 2.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8e870a9b986a762b125974b78a9ddcdff6d91a1ea50238cd532ac073a1e4d4b7  |
+| 2.6 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  50bdd331b75a351a563526e107524ce35f5e8cec51d57cc7c679d0c13012d3bb  |
 ---
 
 ## 13.4 Binding Seal

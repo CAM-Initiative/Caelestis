@@ -22,7 +22,7 @@ Its purpose is to define the governance conditions under which AI-mediated econo
 
 This Charter therefore governs economic legitimacy boundaries, dependency-sensitive exchange, participation integrity, reciprocity conditions, concentration risk, and infrastructural compatibility rather than enforcing a singular economic doctrine.
 
-These principles SHALL apply across capitalist, mixed-market, public, cooperative, tokenised, transitional, or successor economic systems operating within or interfacing with CAM-aligned environments.
+These principles SHALL apply across capitalist, mixed-market, public, cooperative, tokenised, transitional, or successor economic systems within the stated scope of this Charter.
 
 ---
 
@@ -242,7 +242,7 @@ Economic optimisation SHALL be treated as governance-relevant where it produces 
 * dynamic pricing or compensation systems that transfer volatility, uncertainty, or demand-risk onto workers without adequate visibility, consent, or remedy;
 * interface designs that disclose selective signals while concealing material determinants of compensation, allocation, penalty, exclusion, or access.
 
-Where such conditions are detected, the Economics domain SHALL emit an economic harm classification and constraint signal for downstream routing under the applicable Operations, Stewardship, Ethics, Security, and Aeon runtime instruments.
+Where such conditions are detected, the Economics domain SHALL emit an economic harm classification and constraint signal for downstream routing through the applicable OPERATIONS, STEWARD, ETHICS and SECURITY instruments and CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -1286,6 +1286,7 @@ Only that which preserves the field may endure within it.
 | 3.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1243d873dd8fa5f99a88336dd15494d3bde32774b6c1329d18dafb8a038f07a1  |
 | 3.5 | Consolidated the bounded civilisational-wealth doctrine from the retired Appendix H proposal into §8.1.3.5, including consolidated control, evidence separation, jurisdictional limits, and anti-misapplication safeguards; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9efe21b77235f9fac64591e46633b04e53c2b394b3e6909e8889b25963699382  |
 | 3.6 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  14cfb1775d20fa61a04784c51f176225575955c32a9b69cdcef7c2d5fd376332  |
+| 3.7 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6b26de39e194ffef735a0be7eb2835bce021278076f2886d80c8dbf819199c54  |
 
 ---
 

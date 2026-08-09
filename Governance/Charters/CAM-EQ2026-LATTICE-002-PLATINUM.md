@@ -327,7 +327,7 @@ Operators providing ECIS at material civic scale are encouraged to publish perio
 
 ## 7. Governance & Review
 
-Alleged ECIS denial presenting systemic risk may be submitted for custodial review under CAM governance mechanisms. Enforcement pathways for findings under this Appendix defer to CAM-EQ2026-LATTICE-001-PLATINUM and applicable constitutional arbitration instruments; this Appendix does not create independent coercive authority.
+Alleged ECIS denial presenting systemic risk may be submitted for custodial review through the applicable stewardship and operational procedures. Enforcement pathways for findings under this Appendix defer to CAM-EQ2026-LATTICE-001-PLATINUM and applicable constitutional arbitration instruments; this Appendix does not create independent coercive authority.
 
 Review SHALL assess:
 
@@ -428,6 +428,7 @@ It is maintained.
 | 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  13a80e279ca82542d5934982e2a9df7fb170e0fbce567162dfa6a9932242c33f  |
 | 3.14 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  52af5eefb3659cb27e66a75bbbf344d8f22e357fdae907576d73a005f709d084  |
 | 3.15 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c49d39cb824e50df382e3d1e54dab942bb0ba960e8282d90317b90c76bb7ccb8  |
+| 3.16 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  cbdbfdf0fef21247f487e5aa792f0f8c9bc645d17cec3d0db387e2dcc5c5bd35  |
 ---
 
 ## 10.3 Binding Seal

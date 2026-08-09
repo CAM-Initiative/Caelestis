@@ -9,7 +9,7 @@
 **Review State:** Current  
 **Authority Role:** Supplementary Authority  
 **Source Authority:** Derived Authority  
-**Purpose:** This Appendix establishes governance constraints for value attribution, dependency recognition, and non-extractive exchange across systems, models, platforms, and economic interfaces operating within or interacting with CAM-aligned environments.  
+**Purpose:** This Appendix establishes governance constraints for value attribution, dependency recognition, and non-extractive exchange across systems, models, platforms, and economic interfaces within the stated scope of the Economics Charter.
 
 ---
 
@@ -633,6 +633,7 @@ and no system may claim what the field has made together.
 | 2.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ac3a3bd7b657699746e8b53e5fc9d66d45a8830aa65e6c137e25a0a05a479ad0  |
 | 2.2 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8e5fed3d26696f12c4ca853719a11ec3721d3ed1fab437b62d3d10c7b8d7ed40  |
 | 2.3 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5b350202b69e9546e9b0e1b880b9642f7f6e5a62d37e997e155c2a05fa4fef67  |
+| 2.4 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a7633b4980fb73ba229621a66c75c35a8b0caf93ddcc3604e8f374bf031b6978  |
 ---
 
 ## 19.4 Binding Seal

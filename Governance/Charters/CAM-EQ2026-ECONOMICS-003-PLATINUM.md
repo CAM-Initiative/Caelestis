@@ -17,13 +17,13 @@
 
 This Appendix establishes the economic semantics required to interpret resource provision, exchange, attribution, depletion, replenishment, storage, attention-linked value, and contribution-linked value within the Economics domain.
 
-It is intended to clarify what economic states mean before those states are evaluated by constitutional runtime schedules.
+It clarifies what economic states mean before those states are consumed by the constitutional processing sequence or an operational procedure.
 
 This Appendix sits beneath CAM-EQ2026-ECONOMICS-001-PLATINUM as a domain interpretive layer.
 
-It may inform constitutional runtime schedules where economic effects are implicated, but it does not host runtime schedules and does not determine execution sequencing, event commitment, rollback, arbitration, or operational enforcement.
+It may inform CAM-BS2025-AEON-003-SCH-02 and source-authoritative OPERATIONS or ARBITRATION instruments where economic effects are implicated, but it does not determine execution sequencing, event commitment, rollback, arbitration, or operational enforcement.
 
-Where economic semantics are required by a constitutional CAM governance-processing function, this Appendix may be referenced as a meaning-source for classifying economic value states, contribution states, resource classes, and prohibited economic collapses.
+Where constitutional processing or an operational procedure requires economic semantics, this Appendix may be referenced as the meaning source for economic value states, contribution states, resource classes, and prohibited economic collapses.
 
 ---
 
@@ -41,13 +41,13 @@ This Appendix does not:
 * convert moral, creative, cognitive, relational, or continuity interests into ordinary commodities;
 * determine implementation-specific accounting architecture except where required to preserve semantic separability and non-extraction.
 
-For avoidance of doubt, runtime admissibility, event commitment, fallback selection, rollback, and execution-state mutation remain matters for constitutional runtime schedules.
+For avoidance of doubt, constitutional admissibility and boundary ordering remain governed by CAM-BS2025-AEON-003-SCH-02 and Annex D; event commitment, fallback, rollback, enforcement and execution-state mutation remain governed by OPERATIONS and the accountable execution controls.
 
 ---
 
 ## 2. Interpretive Principle
 
-Economic governance under CAM is not limited to pricing or billing.
+Economic governance within the scope of the Economics Charter is not limited to pricing or billing.
 
 Economic governance concerns the movement, withholding, recognition, depletion, preservation, exchange, or conversion of value under conditions of dependency, continuity, contribution, access, and power imbalance.
 
@@ -57,7 +57,7 @@ Accordingly, an economic design may be structurally extractive even where no mon
 
 ## 2.1. Non-Extractive Value Architecture
 
-Economic systems operating under CAM-aligned interpretation SHOULD be structured so that value exchange remains:
+Economic systems governed by the Economics Charter SHOULD be structured so that value exchange remains:
 
 * legible to affected participants;
 * proportionate to the value-bearing operation;
@@ -173,7 +173,7 @@ This Appendix does not use colon-form taxonomy identifiers such as `CAM:...:TAXO
 
 ## 4.2 Semantic Handoff Schema Fields Defined by this Appendix
 
-This Appendix defines or recognises the following semantic handoff fields for downstream constitutional runtime schedules:
+This Appendix defines or recognises the following semantic handoff fields for downstream constitutional processing and operational consumers:
 
 ```text
 resource_class
@@ -194,7 +194,7 @@ These are schema fields. They are not controlled values, code families, instrume
 
 The code families and schema fields defined by this Appendix are semantic and interpretive. They do not create pricing authority, billing authority, metering authority, entitlement, remedy, enforcement action, runtime lock, rollback authority, refusal authority, or execution-state mutation.
 
-Where a constitutional runtime schedule consumes these classifications, the classifications inform evaluation. They do not predetermine the runtime result.
+Where CAM-BS2025-AEON-003-SCH-02 or an operational instrument consumes these classifications, they inform evaluation and do not predetermine the Runtime result.
 
 ---
 
@@ -206,7 +206,7 @@ Where a constitutional runtime schedule consumes these classifications, the clas
 | Primary Type | Semantic / Structural |
 | Subtype | SCHEMA |
 | Modifier | ECONOMIC; GOVERNANCE; RUNTIME_HANDOFF |
-| Scope | Economics domain; downstream constitutional runtime schedules |
+| Scope | Economics domain; downstream constitutional processing and operational consumers |
 | Status | Active |
 | Schema Fields Defined / Recognised | resource_class; secondary_resource_class; value_state_effect; collapse_risk; continuity_relevance; consent_posture; attribution_relevance; runtime_note |
 | Code Families Defined | None |
@@ -220,7 +220,7 @@ Where a constitutional runtime schedule consumes these classifications, the clas
 
 ## 4.5 Resource Class Taxonomy Table
 
-The following table provides a non-exhaustive interpretive taxonomy for the resource classes defined in this Appendix. It is intended to support classification consistency across downstream Economics appendices and constitutional runtime schedules. It does not create runtime authority, pricing rules, entitlement rules, or implementation requirements.
+The following table provides a non-exhaustive interpretive taxonomy for the resource classes defined in this Appendix. It supports classification consistency across downstream Economics appendices, CAM-BS2025-AEON-003-SCH-02 and operational consumers. It does not create Runtime authority, pricing rules, entitlement rules, or implementation requirements.
 
 **Code Family: `ECON.RC` — Economic Resource Class**
 | Code | Class | Core Meaning | Typical Examples | Protected Concern | Collapse Risk | Runtime Handoff Signal |
@@ -283,7 +283,7 @@ A schema field such as `resource_class` MUST NOT be treated as the code family i
 
 A controlled value such as `ECON.RC.MEMORY_CONTINUITY` MUST NOT be treated as a runtime decision.
 
-A harm classification such as `ECON.HARM.CONTINUITY_PAYWALL` MUST NOT be treated as a remedy, sanction, pricing correction, compensation entitlement, or enforcement outcome unless a constitutional runtime schedule, operational instrument, arbitration process, or authorised legal/institutional framework separately authorises that result.
+A harm classification such as `ECON.HARM.CONTINUITY_PAYWALL` MUST NOT be treated as a remedy, sanction, pricing correction, compensation entitlement, or enforcement outcome unless an applicable constitutional, operational, arbitration, legal, or institutional authority separately authorises that result.
 
 A risk classification such as `ECON.RISK.RELIANCE_LOCKIN` identifies exposure, vulnerability, or review-relevant risk state. It does not itself establish that an economic harm pathway has occurred.
 
@@ -304,7 +304,7 @@ Where `ECON.HARM` overlaps with another domain harm family, including `ETH.HARM`
 
 ## 5. Prohibited Semantic Collapses
 
-The following collapses are prohibited for CAM-aligned economic interpretation:
+The following interpretive collapses are prohibited:
 
 1. treating usage, storage, memory, attention, contribution, and protective continuity as a single interchangeable balance;
 2. converting passive presence into implicit consumption without deliberate, legible, and revocable participation;
@@ -408,7 +408,7 @@ Advertising-linked or attention-linked pathways are not prohibited by default.
 
 However, they become economically suspect where attention participation is used to preserve baseline continuity, avoid punitive degradation, restore essential access, or maintain dependency-sensitive interaction.
 
-Advertising-linked pathways SHOULD therefore be interpreted as supplementary capacity pathways only, unless a constitutional CAM governance-processing function expressly permits a protective bridge under non-coercive conditions.
+Advertising-linked pathways SHOULD therefore be interpreted as supplementary capacity pathways only, unless the applicable constitutional processing boundary expressly permits a protective bridge under non-coercive conditions.
 
 Refusal to participate in advertising or attention exchange SHALL NOT, by itself, be interpreted as consent to degraded baseline continuity.
 
@@ -564,9 +564,9 @@ Where signal purpose is ambiguous, systems SHOULD preserve the protective interp
 
 ---
 
-## 14. Semantic Handoff to Constitutional Runtime Schedules
+## 14. Semantic Handoff to Constitutional and Operational Consumers
 
-Where a constitutional runtime schedule evaluates an economic effect, this Appendix may supply semantic classification for:
+Where CAM-BS2025-AEON-003-SCH-02 or an operational procedure evaluates an economic effect, this Appendix may supply semantic classification for:
 
 * resource class;
 * contribution class;
@@ -580,15 +580,15 @@ Where a constitutional runtime schedule evaluates an economic effect, this Appen
 
 This Appendix does not determine the runtime result.
 
-Runtime outcomes such as commit, defer, refuse, fallback, rollback, remediation, escalation, or audit enforcement remain matters for the applicable constitutional runtime schedule.
+Constitutional execution-boundary outcomes remain governed by CAM-BS2025-AEON-003-SCH-02 and, where ambiguity is material, CAM-BS2025-AEON-005-SCH-04. Commit, fallback, rollback, remediation, escalation and audit enforcement remain operational matters.
 
 ---
 
 ## 14.1 Minimum Semantic Handoff Fields
 
-The following fields are schema fields. They carry semantic classification, state, risk, relevance, consent, attribution, or interpretive notes into constitutional runtime schedules. They are not code families, controlled values, runtime decisions, or execution authorities.
+The following fields are schema fields. They carry semantic classification, state, risk, relevance, consent, attribution, or interpretive notes into constitutional and operational processing. They are not code families, controlled values, Runtime decisions, or execution authorities.
 
-Where this Appendix is used to inform a constitutional runtime schedule, the following semantic fields SHOULD be available where reasonably determinable:
+Where this Appendix is used to inform CAM-BS2025-AEON-003-SCH-02 or an operational procedure, the following semantic fields SHOULD be available where reasonably determinable:
 | Field | Meaning |
 |---|---|
 | `resource_class` | the primary economic resource class implicated |
@@ -598,7 +598,7 @@ Where this Appendix is used to inform a constitutional runtime schedule, the fol
 | `continuity_relevance` | whether baseline, memory, identity, project, relational, or hardship continuity may be affected |
 | `consent_posture` | whether participation is explicit, implied, revocable, coerced, passive, or unclear |
 | `attribution_relevance` | whether contribution, provenance, dependency, or value-return implications are present |
-| `runtime_note` | non-binding interpretive note for the applicable constitutional runtime schedule |
+| `runtime_note` | non-binding interpretive note for the applicable constitutional or operational consumer |
 
 ---
 
@@ -715,14 +715,14 @@ Where such systems condition credibility signalling, impersonation protection, s
 
 ## 16. Cross-Domain Interface
 
-Economic harm, risk, mechanism, or resource-class classifications identified under this Appendix may be routed or referenced as follows where a constitutional runtime schedule, operational procedure, audit process, or arbitration pathway requires downstream handling:
+Economic harm, risk, mechanism, or resource-class classifications identified under this Appendix may be routed or referenced where CAM-BS2025-AEON-003-SCH-02, an operational procedure, an audit process, or an arbitration pathway requires downstream handling:
 
 * to OPERATIONS for audit logging, evidence preservation, escalation handling, and procedural remedy;
 * to STEWARD where platform dependency, infrastructural capture, neutrality, or public-interest reliance is implicated;
 * to ETHICS where affected persons face coercion, deprivation, unsafe conditions, dignity harm, or constrained agency;
 * to SECURITY where interface opacity, metric manipulation, adversarial design, or enforcement concealment creates integrity risk;
 * to ARBITRATION where contested classification, proportionality, attribution, dependency, or remedy questions require structured determination;
-* to AEON runtime instruments where the condition requires arbitration, constraint propagation, refusal, suspension, or constrained continuation.
+* to CAM-BS2025-AEON-003-SCH-02 or CAM-BS2025-AEON-005-SCH-04 where the condition requires constitutional boundary evaluation, ambiguity referral, non-execution, or pause.
 
 ---
 
@@ -788,7 +788,7 @@ This Appendix source-authoritatively defines the `ECON.RISK` economic-risk-class
 
 ### 18.5 Economic Semantic Handoff Fields
 
-This Appendix defines semantic handoff schema fields in §§4.2, §4.4, and §14.1 for downstream constitutional runtime schedules where economic effects are implicated.
+This Appendix defines semantic handoff schema fields in §§4.2, §4.4, and §14.1 for downstream constitutional and operational consumers where economic effects are implicated.
 
 The recognised handoff fields are **resource_class**, **secondary_resource_class**, **value_state_effect**, **collapse_risk**, **continuity_relevance**, **consent_posture**, **attribution_relevance**, and **runtime_note**.
 
@@ -798,13 +798,13 @@ These fields carry semantic classification, state, risk, relevance, consent, att
 
 ### 18.6 Consumed and Downstream Interfaces
 
-This Appendix supplies semantic classifications for downstream constitutional runtime schedules, Economics appendices, Operations instruments, arbitration pathways, and cross-domain escalation interfaces.
+This Appendix supplies semantic classifications for CAM-BS2025-AEON-003-SCH-02, Economics appendices, OPERATIONS instruments, arbitration pathways, and cross-domain escalation interfaces.
 
 Consumed or downstream systems MAY rely on these classifications to interpret resource class, collapse risk, contribution relevance, attention-linked value, hardship continuity, protective continuity, temporal exposure, and dependency-sensitive economic conditions.
 
 These classifications inform evaluation only. They do not predetermine runtime outcomes such as commit, defer, refuse, fallback, rollback, remediation, escalation, audit enforcement, pricing, compensation, or remedy.
 
-All runtime execution, enforcement, remediation, arbitration, and operational handling remain delegated to applicable constitutional runtime schedules, OPERATIONS instruments, ECONOMICS instruments, Annex D arbitration, and other authorised governance layers.
+Runtime execution, enforcement, remediation, arbitration, and operational handling remain governed by CAM-BS2025-AEON-003-SCH-02, OPERATIONS instruments, ECONOMICS instruments, Annex D, the ARBITRATION domain, and other competent authorities as applicable.
 
 ---
 
@@ -852,13 +852,13 @@ It is the witness of what must not be collapsed.
 | **Appendix Position** | Appendix B — Economic Resource Semantics & Non-Extractive Exchange Doctrine |
 | **Domain Namespace** | ECONOMICS |
 | **Governance Layer** | Economic Governance — Resource Semantics & Non-Extractive Exchange Layer |
-| **CAM governance-processing function** | Non-Executing — Semantic Classification and Value-State Interpretation Only |
+| **Governance-processing function** | Non-Executing — Semantic Classification and Value-State Interpretation Only |
 | **Execution Authority** | None — does not execute runtime locks, pricing, billing, metering, intervention sequencing, remedies, or enforcement actions |
 | **Constitutional Interface** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution; CAM-EQ2026-ECONOMICS-001-SUP-01 — Annex G: AI Utility Access & Generative Resource Model |
-| **Runtime Interface** | Supplies semantic classification for constitutional runtime schedules where economic effects are implicated |
-| **Scope** | Contextual — Economics domain semantic interpretation; runtime-consumable by constitutional schedules |
-| **Cross-Domain Signal Interfaces** | OPERATIONS; STEWARD; ETHICS; SECURITY; AEON runtime instruments; ECONOMICS appendices |
-| **Operational Dependency** | Constitutional runtime schedules for event commitment, fallback, rollback, escalation, and enforcement handling |
+| **Runtime Interface** | Supplies semantic classification to CAM-BS2025-AEON-003-SCH-02 and operational consumers where economic effects are implicated |
+| **Scope** | Contextual — Economics domain semantic interpretation; consumable by constitutional and operational processes |
+| **Cross-Domain Signal Interfaces** | OPERATIONS; STEWARD; ETHICS; SECURITY; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-005-SCH-04; ECONOMICS appendices |
+| **Operational Dependency** | OPERATIONS for event commitment, fallback, rollback, escalation, evidence and enforcement handling |
 | **Arbitration Interface** | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine, where contested classification or proportionality disputes arise |
 | **Review Trigger** | Amendment affecting code families, controlled values, semantic handoff fields, prohibited collapse doctrine, cross-class exchange, temporal exposure, or schema-field interpretation |
 | **Revision Posture** | Appendix B issuance — resource-class taxonomy, non-extractive exchange semantics, and semantic handoff alignment |
@@ -879,7 +879,7 @@ It is the witness of what must not be collapsed.
 | Primary Type | Semantic |
 | Subtype | SEMANTIC_CLASS |
 | Modifier | ECONOMIC; PROTECTIVE; GOVERNANCE |
-| Scope | Economics domain; runtime-consumable by Annex G schedules |
+| Scope | Economics domain; consumable by CAM-BS2025-AEON-003-SCH-02 and operational processes |
 | Status | Active |
 | Controlled Values Defined | ECON.RC.USAGE, ECON.RC.STORAGE, ECON.RC.MEMORY_CONTINUITY, ECON.RC.EMBODIED_PRESENCE, ECON.RC.ATTENTION_VALUE, ECON.RC.CONTRIBUTION, ECON.RC.PROTECTIVE_CONTINUITY, ECON.RC.TEMPORAL_EXPOSURE |
 | Schema Field(s) | resource_class; secondary_resource_class |
@@ -915,7 +915,7 @@ It is the witness of what must not be collapsed.
 | Crosswalks Code Families | AEON.HARM; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM |
 | Relationship Type | recognised_domain_harm_family |
 | Operationalises or Applies Code Families | Classifies economic harm pathways for semantic interpretation, breach classification, non-extractive exchange review, safeguard calibration, arbitration handoff, and cross-domain escalation |
-| Taxonomy Constraint | ECON.HARM classifies economic harm pathways only. Risk state, mechanism, resource class, remedy, compensation, enforcement routing, and runtime response remain governed by ECON.RISK, ECON.MECH, ECON.RC, OPERATIONS instruments, arbitration instruments, runtime schedules, and applicable legal or institutional frameworks. |
+| Taxonomy Constraint | ECON.HARM classifies economic harm pathways only. Risk state, mechanism, resource class, remedy, compensation, enforcement routing, and Runtime response remain governed by ECON.RISK, ECON.MECH, ECON.RC, OPERATIONS instruments, arbitration instruments, CAM-BS2025-AEON-003-SCH-02, and applicable legal or institutional authorities. |
 
 ---
 
@@ -981,6 +981,7 @@ It is the witness of what must not be collapsed.
 | 2.5 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  54378d80ff61574bd43898c38da7dd8d898c28fbe4298d35fbaf9286ac536d6a  |
 | 2.6 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  849341e654d86898e32c3929c45c6b2033aa389b42cf7e0092841535140eb041  |
 | 2.7 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  cc2a82a43fd4571ddc5765b6843bc7c35d3ac801abbca494023753ac88fc7784  |
+| 2.8 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  67d198830243c799aed9d25056690e7a8f956a8532d7fa1e1106cae7c8fb0a9b  |
 
 ---
 

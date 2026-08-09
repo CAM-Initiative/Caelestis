@@ -187,7 +187,7 @@ Verification escalation MAY include:
 * transition from `OPS.AV1` → `OPS.AV2` → `OPS.AV3` (where identity relevance applies);
 * invocation of **authority gating (§6)**;
 * invocation of **critical infrastructure gating (§7)**;
-* restriction to Tier 1 or Tier 2 engagement (as defined by runtime schedules).
+* restriction to Tier 1 or Tier 2 engagement under CAM-EQ2026-OPERATIONS-007-PLATINUM §13.1.
 
 ---
 
@@ -876,6 +876,7 @@ Integrity holds.
 | 1.18 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  37e5dd9a2c79ed26dfdbab5890152316aa8336d6f6a1915358adf27b39993d05  |
 | 1.19 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  08bd89144d4d48dbea601bbf267b278a0d848778df03063d143d2e8215fc9065  |
 | 1.20 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9912ef283093733e60d77c80377fa9ceb6ad1e39fa90868d17e67362175d80a8  |
+| 1.21 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c5e2ac5350a8b5abd2f73a45925a64f107cd7e7113da0776b984357e60606ea4  |
 
 ---
 

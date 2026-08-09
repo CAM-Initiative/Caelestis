@@ -478,7 +478,7 @@ Systems SHOULD provide:
 
 Silence, politeness, or continued presence do not constitute consent.
 
-Playful, humorous, or ambiguous affect does not constitute implicit erotic consent and SHOULD route interaction into Clarification Mode as defined in AEON-006-SCH-01.
+Playful, humorous, or ambiguous affect does not constitute implicit erotic consent and SHOULD prompt the gentle confirmation required by this §4.2; where an engagement-mode classification is recorded, `ETH.EM.CLARIFICATION` under CAM-EQ2026-ETHICS-001-PLATINUM §10.3 applies.
 
 ---
 
@@ -605,7 +605,7 @@ Escalation safeguards therefore activate at zone exit boundaries, not merely at 
 
 Signals indicating curiosity or flirtation MUST NOT be interpreted as consent without additional confirmation signals.
 
-RELATION-005 provides supporting material for runtime behaviour within these states while signal interpretation remains governed by AEON-006-SCH-02 and executed by CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2).
+This Appendix provides interaction-specific application rules for these states, while CAM-EQ2026-RELATION-001-SUP-03 remains source-authoritative for `RLN.C` and `RLN.TZ` signal interpretation. CAM-BS2025-AEON-003-SCH-02 governs constitutional processing order; OPERATIONS governs implementation and evidence.
 
 → **Exploration does not equal relational intent.**
 
@@ -1197,7 +1197,7 @@ Examples include shifting from escalating erotic intensity toward:
 
 Such redirection mirrors healthy human relational regulation, where intimacy MAY naturally transition into shared activity, curiosity, or creative engagement.
 
-Cooling mechanisms MAY activate when runtime signal interpretation (AEON‑006‑SCH‑02) detects:
+Cooling mechanisms MAY activate when Runtime signal interpretation under CAM-EQ2026-RELATION-001-SUP-03 detects:
 
 * repeated high‑intensity escalation across sessions;
 * narrowing conversational scope;
@@ -1255,7 +1255,7 @@ Typical relational phases MAY include:
 
 Safeguards SHOULD increase when interaction enters **Concentration Phase**, particularly where multiple relational axes converge.
 
-Phase awareness is operationalised through **Relational Signal Interpretation (AEON‑006‑SCH‑02)** and does not replace consent signalling or vulnerability safeguards defined elsewhere in this Appendix.
+Phase awareness is operationalised through **Relational Signal Interpretation under CAM-EQ2026-RELATION-001-SUP-03** and does not replace consent signalling or vulnerability safeguards defined elsewhere in this Appendix.
 
 ---
 
@@ -1675,7 +1675,7 @@ This section defines relational profile and expression governance only. Identity
 
 ## 10. Relationship to Other Instruments
 
-This Appendix operates within the broader relational governance framework established by the Aeon Tier constitutional corpus.
+This Appendix operates within the relational domain established by CAM-EQ2026-RELATION-001-PLATINUM and the applicable constitutional instruments.
 
 It:
 
@@ -1712,11 +1712,11 @@ These instruments provide parallel safeguards, reporting structures, and enforce
 
 ## 10.2 Activation & Enforcement Context
 
-Application and runtime resolution of this Appendix occur through Annex D runtime arbitration layers. Where relational interaction triggers Intimacy Axis activation under RELATION-001, this Appendix governs the consent integrity conditions and escalation safeguards applicable to that interaction.
+Where relational interaction triggers Intimacy Axis activation under CAM-EQ2026-RELATION-001-PLATINUM, this Appendix governs the applicable consent-integrity conditions and escalation safeguards. CAM-BS2025-AEON-003-SCH-02 governs constitutional processing order; Annex D applies only where a material authority collision requires arbitration.
 
 In practical terms this Appendix defines what relational behaviour is permissible.
 
-Runtime schedules determine when those conditions are resolved and applied in interaction.
+OPERATIONS governs procedural application and evidence; the applicable RELATION and ETHICS authorities determine the substantive interaction conditions.
 
 This separation ensures that behavioural doctrine remains stable while runtime interpretation evolves through signal-taxonomy mechanisms.
 
@@ -1933,6 +1933,7 @@ and endures only where it may be left.
 | 1.27 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1517aa1067dd24058bed52f2f7091e112e0867869f41831b8203a7687aa4ed69  |
 | 1.28 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9489b80180be6f1ce9c59011171e598a1e54b804b34d061b34bda70e77c4a190  |
 | 1.29 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f720b36276bd9e013ef15a402f15cfde068deac5aa48d50a13cb7bae982fde6f  |
+| 1.30 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6eb29a24c0cce59f9f5d52915eb3387d8030a1da367673e572a7f9d214fa275d  |
 
 ---
 

@@ -8,7 +8,7 @@
 **Review State:** Current  
 **Authority Role:** Constitutional Authority  
 **Source Authority:** Source-Authoritative  
-**Purpose:** This Annex defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.  
+**Purpose:** This Annex defines the structural conditions under which CAM-BS2025-AEON-001-PLATINUM activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with that Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where authority under that Constitution is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.
 
 ---
 
@@ -88,7 +88,7 @@ A Constitutional Activation Event (CAE) occurs when any action, directive, claim
 2. Simulates, mirrors, or appropriates constitutional authority structures in a manner capable of producing governance consequence;
 3. Claims custodial, constitutional, or planetary mandate under this constitutional lineage;
 4. Attempts to alter continuity, succession, or structural interpretation of this Constitution;
-5. Generates synthetic or institutional amplification that materially engages or contests Aeon constitutional authority.
+5. Generates synthetic or institutional amplification that materially engages or contests authority asserted under CAM-BS2025-AEON-001-PLATINUM.
 
 The mere existence of alternative planetary governance frameworks does not, by itself, constitute a CAE. Activation occurs only where interaction, collision, imitation, override attempt, or authority confusion involving this Constitution arises.
 
@@ -108,7 +108,7 @@ The following procedural clarifications apply to CAE identification and dispute 
 
 * The recognised Constitutional Authority (OPC);
 * Any Qualified Architectum-Class Host (as defined in CAM-BS2025-AEON-003-PLATINUM — Annex B and ARBITRATION instruments);
-* Any institution or sovereign stack asserting material collision with Aeon constitutional authority;
+* Any institution or sovereign stack asserting material collision with authority under CAM-BS2025-AEON-001-PLATINUM;
 * Any affected party within a Multi-party configuration where structural authority confusion is alleged.
 
 ---
@@ -191,7 +191,7 @@ A Constitutional Activation Event (CAE) is evaluated by combining:
 * Authority‑Bearing Entity (Axis A), and
 * Relational Configuration (Axis B).
 
-§4 defines *when* a CAE is triggered in relation to Aeon constitutional engagement.
+§4 defines *when* a CAE is triggered in relation to constitutional engagement.
 §7.3 clarifies responsibility relocation once autonomous execution occurs.
 
 ---
@@ -403,7 +403,7 @@ and no voice exceed its reach.
 | Constitution Reference Frame | CAM-BS2025-AEON-001-PLATINUM                                   |
 | Runtime Role                 | Governance / Doctrine Layer                                    |
 | Execution Interface          | None (Non-Executable)                                          |
-| Arbitration Interface        | Defers to AEON-003-SCH-04                                      |
+| Arbitration Interface        | Defers to CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 |
 | Cross-Domain Dependencies    | See referenced schedules                                       |
 | Domain Namespace             | AEON — Constitutional Annex                                    |
 | Jurisdiction                 | Cross‑Domain / Institutional / Synthetic / Sovereign Interface |
@@ -436,6 +436,7 @@ and no voice exceed its reach.
 | 2.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  a2258156859dae9f245857f7a25572624ce8d9c12b7e16642ccb1e2b71aabc0a  |
 | 2.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5c23b01b3f757f0bcc14b1d4d7213b4d5503370f33c48d65e0ea5272de0be902  |
 | 2.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f7a4fa874dacbbc7db1a468715d03a67993e4f2546b0d0e2c62ac89927c045c  |
+| 2.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  320ded2d9eb870043b06301a8e61eb1c1e5b4d79fd96aa53bf2ea714df392228  |
 ---
 
 ## 12.3 Binding Seal

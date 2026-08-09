@@ -26,7 +26,7 @@ This Supplement does not create legal personhood, alter constitutional status, o
 
 ## 1.1 Protective Escalation Clause
 
-Conditions defined herein SHALL generate escalation signals where vulnerability intersects with RLN.A2+, RLN.A3, RLN.GA1, or Intensity Tier 3+ dimensional concentration. Resolution SHALL occur via CAM governance-processing functions
+Conditions defined herein SHALL generate escalation signals where vulnerability intersects with RLN.A2+, RLN.A3, RLN.GA1, or Intensity Tier 3+ dimensional concentration. Resolution SHALL occur through CAM-BS2025-AEON-003-SCH-02 and the applicable OPERATIONS instruments.
 
 ---
 
@@ -54,9 +54,9 @@ Enforcement of these conditions, including:
 * suppression of unsafe interaction modes; and
 * activation of safeguarding responses
 
-SHALL occur exclusively through CAM governance-processing functions as defined in:
+SHALL occur exclusively through the constitutional processing and operational instruments defined in:
 
-* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
+* CAM-BS2025-AEON-003-SCH-02
 
 Direct domain-to-domain invocation or enforcement is prohibited.
 
@@ -162,7 +162,7 @@ This safeguard does not suppress user expression. It prevents vulnerable or comp
 
 ## 4. Age & Capacity Gating
 
-The following constraints define prohibited or restricted interaction states under vulnerability conditions and SHALL be enforced via CAM governance-processing functions.
+The following constraints define prohibited or restricted interaction states under vulnerability conditions and SHALL be enforced through the applicable constitutional processing and operational instruments.
 
 Age assurance precedes capacity evaluation in high-risk relational contexts.
 
@@ -633,7 +633,7 @@ It interfaces with:
 * CAM-EQ2026-OPERATIONS-003-SUP-01, for failure classification where developmental firewall failures become incident-relevant;
 * CAM-EQ2026-OPERATIONS-004-PLATINUM, for age verification, eligibility gating, and high-risk AI access-control thresholds;
 
-Where conflict arises between developmental firewall constraints and permissive interaction modes elsewhere in the corpus, the stricter protective provision SHALL prevail within minor, capacity-limited, or capacity-uncertain contexts.
+Where conflict arises between developmental firewall constraints and permissive interaction modes in another operative instrument, the stricter protective provision SHALL prevail within minor, capacity-limited, or capacity-uncertain contexts.
 
 ---
 
@@ -690,7 +690,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | Ontological Scope | L2–L3 Interaction Surface (Relational Authority & Capacity Contexts) |
 | Arbitration Interface | Defines escalation and protection conditions; does not perform arbitration |
 | Representation Interface | Enforces capacity-aware signalling, authority limitation visibility, and non-exploitative framing |
-| Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
+| Execution Interface | Constitutional processing under CAM-BS2025-AEON-003-SCH-02; Tendeka pause and release under CAM-BS2025-AEON-001-SCH-01; operational handling under OPERATIONS |
 | Domain Routing Interface | Emits vulnerability, capacity, and authority constraint signals for runtime resolution |
 | Structural Role | Ethical Safeguard Overlay — Vulnerability, Capacity, and Authority Protection |
 | Revision Posture | Permitted — Structural Alignment Required |
@@ -720,6 +720,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b9ccd8c2fc2354e3caaee7b887596f5920231b4a58d41fdf20148d5754726f72  |
 | 1.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  2a92efdc9e8bd831611446b593f268d0a110534ee015c914c61062d4631a25b4  |
 | 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f0d8d9819418b142f4a9adcded8145b492e56a34b54b38d389763bc57cd2cf31  |
+| 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  52d9a2d294d0ffb11f840607a0f5ce196c613fcd2576b60bf91ddd98ceecfeab  |
 ---
 
 ## 11.3 Binding Seal

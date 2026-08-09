@@ -1227,8 +1227,8 @@ SHALL be made by the authority competent for the matter.
 Accordingly:
 
 * Identity-domain instruments determine identity classification within their source-authoritative scope;
-* CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM determines final runtime arbitration direction;
-* CAM-BS2025-AEON-003-SCH-02 and applicable execution schedules govern execution sequencing, lock, containment, or refusal;
+* CAM-BS2025-AEON-005-PLATINUM and the ARBITRATION domain determine arbitration merits and any binding outcome within scope;
+* CAM-BS2025-AEON-003-SCH-02 governs the constitutional execution boundary, while OPERATIONS governs execution sequencing, state transition, containment, refusal handling and evidence;
 * Annex D and ARBITRATION-domain instruments govern sovereign-stack, constitutional, or jurisdictional-authority divergence;
 * competent regulators, courts, registries, estates, or sovereign jurisdictions retain external legal authority where applicable.
 
@@ -1351,6 +1351,7 @@ that silence MUST be honoured.
 | 1.15 | Removed dependencies on the retired machine-civil-identity and phenomenological-review drafts; routed provenance, custody, lifecycle evidence, identity significance, evidentiary uncertainty, and competent independent review to existing operative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  49ac868436b44029988c5f60b6a9824540cfd04218a199a8342110cb1c490fd6  |
 | 1.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  36b3270979b482e9a68aa5cc9bc62851aef8e8592be850ae9ea063137ec8e7f6  |
 | 1.17 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e060105f49423a2b650479d61ea4417fc1535952a7c1655cf4346c5a27d35b27  |
+| 1.18 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2644f465152b48857f20f03171304d183f6b171902e627cbe11c6536060cc427  |
 
 ---
 

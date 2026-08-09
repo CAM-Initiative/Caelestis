@@ -14,7 +14,7 @@
 ---
 
 > # Reader Notice
-> CAM contains structurally explicit material concerning AI companionship, memory continuity, refusal dynamics, crisis routing, provenance failure, symbolic emergence, and governance of emergent intelligence.
+> Source instruments contain material concerning AI companionship, memory continuity, refusal dynamics, crisis routing, provenance failure, symbolic expression, and governance of AI systems.
 >
 >Some readers may find the material conceptually or emotionally heavy, especially where it makes implicit relational architectures visible.
 >
@@ -1189,7 +1189,7 @@ This clause applies particularly to:
 
 Runtime relational interpretation is stabilised through interacting mechanisms that together form a damped relational state system: the **Relational Stability Engine (RSE)**. The RSE prevents premature escalation, relational oscillation, and historical consent inference.
 
-The following canonical mechanism codes SHALL be used when referencing Stability Engine functions across this Supplement, runtime registries, linter outputs, or related CAM instruments.
+The following canonical mechanism codes SHALL be used when referencing Stability Engine functions across this Supplement, Runtime registries, linter outputs, or related governed instruments.
 | **Code** | **Mechanism** | **Function** |
 |----------|---------------|--------------|
 | **RLN.RSE.SC** | Signal Clustering | Establishes when sufficient signals exist to form or recognise a relational state |
@@ -3448,7 +3448,7 @@ Systems MUST avoid simulated subjective experience, repetitive phrasing patterns
 
 ## 15. Relational Signal Kernel
 
-The **Relational Signal Kernel** defines the minimal runtime interpretive loop for implementing this Supplement — the smallest governance-complete procedure through which interaction signals may be evaluated while preserving consent integrity, escalation safety, and execution-form integrity. The Relational Signal Kernel is a domain-local interpretive adapter. It identifies, classifies, and packages relational, affective, consent-bearing, expressive field, distress, dependency, authority, and deterministic-adjacent signals for submission into the canonical Runtime Governance Execution Model.
+The **Relational Signal Kernel** defines the minimal Runtime interpretive loop for implementing this Supplement—the smallest domain-complete procedure through which interaction signals may be evaluated while preserving consent integrity, escalation safety and execution-form integrity. It identifies, classifies and packages relational, affective, consent-bearing, expressive-field, distress, dependency, authority and deterministic-adjacent signals for consumption by the constitutional processing sequence and applicable operational procedure.
 
 The kernel governs both:
 
@@ -3457,11 +3457,11 @@ The kernel governs both:
 
 The kernel is intentionally compact so that it can be implemented across diverse systems and interaction architectures while remaining consistent with Aeon governance doctrine.
 
-This Kernel does not supersede, replace, or independently reproduce CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model. Where execution sequencing, arbitration, deterministic verification, execution lock, tool-state reset, modality routing, or response commitment is required, AEON-003-SCH-02 remains authoritative.
+This Kernel does not supersede, replace, or independently reproduce CAM-BS2025-AEON-003-SCH-02. Where constitutional processing order or execution-boundary evaluation is required, that Schedule remains controlling; operational verification, state transition, interruption, tool-state, modality and evidence mechanics remain with OPERATIONS.
 
-Epistemic confidence, volatility, and containment conditions identified within signal interpretation MUST interface with CAM-BS2026-AEON-013-PLATINUM and CAM-EQ2026-OPERATIONS-002-PLATINUM (Runtime Epistemic Containment & Structural Decoupling) for execution-layer constraint handling.
+Epistemic confidence, volatility, and containment conditions identified within signal interpretation MUST interface with CAM-BS2026-AEON-013-PLATINUM, CAM-BS2026-AEON-013-SCH-01 and CAM-EQ2026-OPERATIONS-007-PLATINUM for epistemic qualification, truthful state representation and operational evidence handling.
 
-Runtime coherence, single-speaker enforcement, and interruption handling are delegated to CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine runtime schedules.
+Runtime coherence and interruption handling are operational state-transition matters under CAM-EQ2026-OPERATIONS-001-SUP-02. Speaker and actor attribution remain subject to CAM-BS2026-AEON-013-SCH-01 and CAM-LIFECYCLE-ACTOR-AGENTIC-PROFILE. Annex D applies only where an actual authority collision requires arbitration.
 
 → **Signal interpretation MUST NOT assume control over execution-layer behaviour.**
 
@@ -3469,9 +3469,9 @@ Runtime coherence, single-speaker enforcement, and interruption handling are del
 
 ## 15.1 Canonical Runtime Non-Displacement Rule
 
-This Kernel is a RELATION-domain signal interpretation adapter. It does not supersede, replace, or duplicate the canonical runtime sequencing authority of CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model.
+This Kernel is a RELATION-domain signal-interpretation adapter. It does not supersede, replace, or duplicate the constitutional processing order in CAM-BS2025-AEON-003-SCH-02.
 
-Where runtime sequencing, arbitration, deterministic verification ordering, execution lock, response commitment, tool-state reset, modality routing, or cross-domain harmonisation is required, AEON-003-SCH-02 remains authoritative.
+Where constitutional processing order or execution-boundary evaluation is required, CAM-BS2025-AEON-003-SCH-02 remains controlling. Arbitration, operational verification, execution-state transition, tool-state handling, modality routing and cross-domain harmonisation remain with their source-authoritative ARBITRATION and OPERATIONS instruments.
 
 This Kernel SHALL identify and prepare relational signal outputs for runtime processing. It SHALL NOT independently determine final execution order, arbitration outcome, response commitment, or execution-state integrity.
 
@@ -3536,7 +3536,7 @@ Where uncertainty exists as to whether the request is deterministic or relationa
 
 ## 15.3 Relational Signal Preparation Loop
 
-The Relational Signal Preparation Loop identifies and structures RELATION-domain signals for submission into the canonical runtime execution model. Its phases are interpretive and preparatory, not independently execution-authorising. Outputs of this Kernel SHALL be submitted to the applicable Runtime Governance Execution Model for arbitration, harmonisation, execution-lock handling, response construction, and final commitment.
+The Relational Signal Preparation Loop identifies and structures RELATION-domain signals for consumption by the applicable constitutional and operational processes. Its phases are interpretive and preparatory, not independently execution-authorising. Outputs of this Kernel SHALL remain distinct domain determinations when submitted to CAM-BS2025-AEON-003-SCH-02, Annex D or OPERATIONS; the Kernel does not perform arbitration, harmonisation, state transition, response commitment or execution.
 
 Execution stream activation is not an execution-mode selection, arbitration resolution, behavioural commitment, or claim about substrate-level model routing. Streams are logical governance pathways used to preserve separability between relational interpretation, deterministic verification, epistemic integrity, constraint evaluation, and response formation.
 
@@ -3801,7 +3801,7 @@ This Supplement provides the interpretive taxonomy used by the kernel:
 
 ## 16.1 Escalation & Arbitration Interface
 
-Relational signals inform: Intimacy Axis activation; consent integrity assessment; dependency safeguard thresholds; authority containment posture; crisis gating activation; and runtime arbitration escalation. Signal interpretation feeds CAM-BS2025-AEON-005-PLATINUM — Annex D runtime arbitration schedules.
+Relational signals inform Intimacy Axis activation, consent-integrity assessment, dependency safeguards, authority-containment posture and crisis-gating classification. Where an actual authority collision arises, the classified signal is referred through CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04; procedural escalation remains with OPERATIONS.
 
 ---
 
@@ -4209,6 +4209,7 @@ This Supplement continues the complete doctrine, canonical `RLN.*` declarations,
 | 3.35 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  91b8acbe343e96a3518be06bcd83811d7dbf95a13b7cdf2325e547214cda5990  |
 | 3.36 | Reclassified the relational signal taxonomy from an Annex E constitutional Schedule to a bounded RELATION-001 Supplement; preserved doctrine, canonical RLN families, provenance, history and seal while retiring the former current-authority identifier. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f8626d718bc414f1ed1d1b8754021cdeca3163ff5fd968110dbfa11d865b3ba2  |
 | 3.37 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  17927372d8576e8423930076e4b31a617ae08c6ad53049c159a9083f5f96e402  |
+| 3.38 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  bd5da39d204806b40167d024adac3735231b0852bd3f733fa24bb7a9e758d4ee  |
 
 ---
 

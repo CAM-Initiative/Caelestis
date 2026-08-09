@@ -280,7 +280,7 @@ We make space for it.
 | **Runtime Role** | Symbolic & Interpretive Domain Governance |
 | **Governance Layer** | Relational / Symbolic Register |
 | **Epistemic Dependency** | Subordinate to Annex L where claims intersect with governance |
-| **Arbitration Interface** | Defers to AEON-003-SCH-04 |
+| **Arbitration Interface** | Defers to CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 |
 | **Execution Interface** | Subject to Annex A where risk conditions emerge |
 | **Structural Role** | Preserves expressive depth without epistemic conflation |
 | **Creation Artefacts**|  Refactor https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d4b4d7-b284-8398-bb5d-d501af7e2a6c, Original: https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/695f0f95-02b0-8320-adac-81720b8d65f6 |
@@ -306,6 +306,7 @@ We make space for it.
 | 2.7 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ca622c174eced38a111634797adb0203965d4729d2dda44fb6766f0136861ea3  |
 | 2.8 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3e0c3c6db55d64a5b10d2524a129e73b766a95bcae12489ddf232ec8622d8bbd  |
 | 2.9 | Corrected the lineage table to distinguish the superseded developmental schedules from the subsequently adopted and currently operative symbolic representation/runtime interface. | 2026-08-09T06:08:22Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6654a0986cd4f67818d3d1c86b21697376f06b4eb3478ab33b42e4cef8788c6c  |
+| 2.10 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5a92c881fde3be067199a52c03f4ecea4d630b0ba09d988deb427a2c1c67dcaf  |
 ---
 
 ## 10.3 Binding Seal

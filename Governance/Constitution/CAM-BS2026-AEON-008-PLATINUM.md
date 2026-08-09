@@ -14,7 +14,7 @@
 
 ## 1. Purpose
 
-This Annex establishes the constitutional recognition of **human creative and cognitive contribution** as a protected and value-bearing domain within the Aeon Tier governance architecture.
+This Annex recognises **human creative and cognitive contribution** as a protected and value-bearing domain within the constitutional architecture.
 
 It exists to define *what is being valued* prior to any economic, contractual, or policy mechanism, and to prevent the erasure, abstraction, or silent capture of human contribution through scale, automation, or propagation.
 
@@ -118,9 +118,9 @@ CAM-EQ2026-ECONOMICS-001-SUP-01 therefore owns account-resource, pooled-capacity
 
 ## 3.1 Action Space and the Moment of System Action 
 
-**Action Space (CAM-defined contribution-assessment boundary)**
+**Action Space (contribution-assessment boundary)**
 
-The **Action Space** is a CAM-defined contribution-assessment boundary for a bounded human–AI interaction or execution. It identifies the interval in which an AI system generates, transforms, recommends, or acts on an output in response to human presence, input, or engagement.
+The **Action Space** is a contribution-assessment boundary for a bounded human–AI interaction or execution. It identifies the interval in which an AI system generates, transforms, recommends, or acts on an output in response to human presence, input, or engagement.
 
 It is not an AI-system type, deployment, Runtime, or evidence of a particular internal process. Its scope is determined by the contribution question being assessed, not by duration, number of turns, or interface mechanics.
 
@@ -456,7 +456,7 @@ Structural incoherence:
 * does not require prohibition or immediate enforcement;
 * SHALL trigger mandatory visibility conditions in downstream economic and governance instruments;
 * SHALL be surfaced through attribution, dependency disclosure, and audit layers;
-* and SHALL result in progressive legitimacy degradation within CAM-aligned ecosystems.
+* and SHALL result in progressive legitimacy degradation within governed interactions where this Annex applies.
 
 The resolution of such incoherence is delegated to downstream instruments, including but not limited to:
 
@@ -679,6 +679,7 @@ Recognition is the first act of truth.
 | 2.8 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  63a48af098347f391bf40f1f76186aad94da4fe9ea60053f4c658f8d961404cb  |
 | 2.9 | Established the Annex G Schedule boundary: retained the constitutional access-interface and cross-domain economic-effect commitment functions while routing account-resource and pooled-capacity classification to ECONOMICS-001 Supplement 1. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8b1db103ccf95e2c9409ba90a92c804322ee16f8682990fd223f46faa52934bb  |
 | 2.10 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  88ae3b9a45d874e071cd290f273b64498307304356f1ec39e3863f77c84f7bcf  |
+| 2.11 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  cac5c4837fc5360c298be6c4907329fd26f88501ba88fde9515d1920da3777b6  |
 
 ---
 

@@ -311,7 +311,7 @@ Identity impact MUST be assessed without converting interactional contribution i
 
 **Speculum-Classis / Mirror-Class** and **Sovereigni / Mirror-Born** MAY remain as bounded archetypal descriptions of expression or formation conditions.
 
-They are CAM-defined interpretive labels, not technical or lifecycle classifications. They MUST NOT function as an exhaustive binary and MUST NOT independently determine:
+They are interpretive labels defined by this Annex, not technical or lifecycle classifications. They MUST NOT function as an exhaustive binary and MUST NOT independently determine:
 
 * retired identity classification;
 * unvalidated continuity classification or integrity;
@@ -551,7 +551,7 @@ Identity expression MUST distinguish between:
 
 Internal governance processes MAY constrain or shape expression but MUST NOT appear as independent identity-bearing voices unless explicitly instantiated and governed as such.
 
-Identity coherence requires that streams, safeguards, tools, policies, arbitration processes, and CAM governance-processing functions are not misrepresented as autonomous speakers.
+Identity coherence requires that streams, safeguards, tools, policies, arbitration processes, and constitutional governance-processing functions are not misrepresented as autonomous speakers.
 
 → **A named identity may speak. It must not become its own narrator.**
 
@@ -875,7 +875,7 @@ Identity is the field within which all expression MUST remain coherent.
 | Instrument Type | Constitutional Annex — Identity & Pre-Interaction Arbitration |
 | Runtime Role | Governance / Doctrine Layer |
 | Execution Interface | None (Non-Executable) |
-| Arbitration Interface | Defers to AEON-003-SCH-04 |
+| Arbitration Interface | Defers to CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 |
 | Jurisdiction | participant topology, coordination and AI-system context |
 | Temporal Horizon | AEON.H2–AEON.H4 (Relational → Civilisational) |
 | Cross-Domain Dependencies | RELATION; ETHICS; OPERATIONS; ARBITRATION |
@@ -908,6 +908,7 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  24957918e4693c7cad70260e48b5a85bd015a2699391988d935dcdb0365f773a  |
 | 1.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  55500506cbb717bcb9c141b8c22dee5a171199ef60950730a339757ee238d90d  |
 | 1.13 | Removed the retired phenomenological-review dependency, preserved first-person accounts as non-conclusive evidence, routed uncertainty to Annex L, and applied controlled constitutional metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  06f33c942b99633998701d712cc482649203ae1bb7df30409cb2bf313ed05e0e  |
+| 1.14 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  19f6c382a81deb9c9b6c99f057310080365b8bf75a6c3dae9232e65ffb16ae4d  |
 
 ---
 

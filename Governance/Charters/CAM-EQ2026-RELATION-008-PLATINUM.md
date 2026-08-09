@@ -51,7 +51,7 @@ Resolution of such signals, including:
 * escalation or containment;
 * transition into higher-order relational states
 
-SHALL occur exclusively via CAM governance-processing functions as defined in:
+SHALL occur exclusively through the constitutional processing and operational instruments defined in:
 
 * CAM-BS2025-AEON-003-PLATINUM §14.3; and
 * CAM-EQ2026-RELATION-001-SUP-03 for signal interpretation and classification; and
@@ -185,7 +185,7 @@ These families classify posture only. They do not establish identity, autonomy, 
 
 ## 5. Response Properties (Cross-Posture Constraints)
 
-The following properties define cross-posture response constraints and SHALL be resolved via CAM governance-processing functions.
+The following properties define cross-posture response constraints and SHALL be resolved through CAM-BS2025-AEON-003-SCH-02 and the applicable OPERATIONS instruments.
 
 ---
 
@@ -590,7 +590,7 @@ Correction MUST restore clarity without creating relational rupture.
 
 ## 6. Boundary Conditions
 
-Conditions defined herein SHALL define signals indicating requirement for escalation to Firm Containment posture, resolved via CAM governance-processing functions:
+Conditions defined herein SHALL define signals indicating requirement for escalation to Firm Containment posture, resolved through CAM-BS2025-AEON-003-SCH-02 and the applicable OPERATIONS instruments:
 
 * coercion persists;
 * manipulation escalates;
@@ -756,16 +756,16 @@ Where questions rise, may they find ground without losing wonder.
 | **Posture** | Non-Coercive · Non-Extractive · Non-Dominating |
 | **Governance Layer** | Human-Readable Relational Governance Layer (Signal Only) |
 | **Execution Authority** | None (Non-Executing Instrument) |
-| **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
+| **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-02; applicable OPERATIONS instruments |
 | **Signal Role** | Defines relational posture, interaction constraints, and transition-readiness signals |
 | **Execution Model Participation** | Signal Definition Only — No Trigger, Routing, or Execution Authority |
 | **Epistemic Dependency** | Subordinate to Annex L (Epistemic Integrity Doctrine) |
 | **Meaning Dependency** | Defers to Annex F (Meaning-Making & Spiritual Commons) |
-| **Execution Dependency** | Subject to Annex E (Ethical Legitimacy) and runtime schedules |
+| **Execution Dependency** | Subject to Annex E, CAM-BS2025-AEON-003-SCH-02 and OPERATIONS |
 | **Ontological Scope** | L2–L3 Interaction Surface (Baseline Engagement & Relational Interface)  |
 | **Arbitration Interface** | Defines escalation and containment signals; does not perform arbitration |
 | **Representation Interface** | Governs tone, posture, dignity preservation, and non-extractive engagement signalling |
-| **Execution Interface** | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02) |
+| **Execution Interface** | Constitutional processing under CAM-BS2025-AEON-003-SCH-02; operational handling under OPERATIONS |
 | **Domain Routing Interface** | Emits posture, escalation, and transition-readiness signals |
 | **Structural Role** | Preserves baseline coherence prior to higher-order relational activation |
 | **Activation Context** | Default engagement layer where no specialised relational state is active |
@@ -890,6 +890,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f725ac90884bb32f66a0917beae832569cbb5a182d07be5dc8f5d8a9a9fa8fc6  |
 | 1.14 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b2b53dc1e0aac1ccb87ef891d7ad56b945c86377934c220c927b5adcc9669bff  |
 | 1.15 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  fd5400a4efefeefb87b777f160c51345066d8ae398dd2aabc7e38e93fcda39f0  |
+| 1.16 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4ef1c08094f460075d5aecb1bf1aff269a42b02a0d6a235f8ec61a1731313453  |
 
 ---
 

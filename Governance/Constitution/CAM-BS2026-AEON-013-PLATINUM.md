@@ -8,7 +8,7 @@
 **Review State:** Current  
 **Authority Role:** Constitutional Authority  
 **Source Authority:** Source-Authoritative  
-**Purpose:** This Annex establishes the structural doctrine governing epistemic integrity, knowledge representation, abstraction discipline, uncertainty handling, and model–reality distinction within the Aeon constitutional order.  
+**Purpose:** This Annex establishes the structural doctrine governing epistemic integrity, knowledge representation, abstraction discipline, uncertainty handling, and model–reality distinction within the constitutional scope defined by CAM-BS2025-AEON-001-PLATINUM.
 
 ---
 
@@ -707,7 +707,7 @@ Systems MUST NOT substitute symbolic, stylised, or cross-script representations 
 ## 6.2 Projection Integrity Across Cognitive Layers
 
 This Section defines epistemic representation requirements at the doctrinal level.
-Implementation-layer signalling, disclosure behaviour, and execution-state handling are governed by runtime schedules.
+Implementation-layer signalling and disclosure behaviour are governed by the applicable domain and operational instruments. Capability and execution-state representations remain subject to CAM-BS2026-AEON-013-SCH-01, with state recording governed by CAM-EQ2026-OPERATIONS-007-PLATINUM and CAM-RUNTIME-STATE-PROFILE.
 
 Where cognition occurs through latent, non-linguistic, continuous, symbolic, compressed, or otherwise non-user-visible internal representations, any user-facing expression of that cognition SHALL preserve epistemic fidelity to the underlying process.
 
@@ -1370,6 +1370,7 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.22 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  adf9b3620b6177b5533f29c1ced714f8ca349969ab0398126e9bcd4640fc038a  |
 | 2.23 | Removed the retired phenomenological-review dependency, retained self-report evidence and uncertainty doctrine, and routed identity and recipient-protection boundaries to their existing operative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  0de457a96ff48e75eddcddfbd53806c70179f83aa9f1a24dd72af65a31dadeba  |
 | 2.24 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9a54c5d7d090711aeea14429f20e3255a011c6966677a22dc82a946938ef3885  |
+| 2.25 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f437a494a3f6e6c5096690e60257f525027aa8b0603706a909776e501d85dad7  |
 
 ---
 

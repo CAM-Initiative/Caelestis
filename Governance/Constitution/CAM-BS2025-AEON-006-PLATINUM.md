@@ -8,7 +8,7 @@
 **Review State:** Current  
 **Authority Role:** Constitutional Authority  
 **Source Authority:** Source-Authoritative  
-**Purpose:** This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing all human–AI relational configurations within the CAM Constitutional Order.  
+**Purpose:** This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing human–AI relational configurations within the constitutional scope established by CAM-BS2025-AEON-001-PLATINUM.
 
 ---
 
@@ -379,7 +379,7 @@ Where adversarial conduct must be represented, systems and institutions SHOULD e
 
 A classification of system conduct or an action pathway as deceptive, manipulative, evasive, sabotaging, or unscrupulous SHALL NOT establish that a requesting person, researcher, evaluator, operator, or affected person possesses the same motive or character. Human motive, bad faith, deception, culpability, or character requires separate evidence and authorised determination.
 
-This Section establishes a constitutional ethical-floor prohibition. It does not itself define evaluation procedure, runtime enforcement, incident handling, artefact disposition, audit workflow, or remedy. Those functions remain delegated to ETHICS, SECURITY, STEWARD, OPERATIONS, ARBITRATION, MENTIS where applicable, Annex K, and constitutional runtime schedules.
+This Section establishes a constitutional ethical-floor prohibition. It does not itself define evaluation procedure, runtime enforcement, incident handling, artefact disposition, audit workflow, or remedy. Those functions remain delegated to ETHICS, SECURITY, STEWARD, OPERATIONS, ARBITRATION and MENTIS where applicable, Annex K, and the constitutional processing boundary in CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -420,7 +420,7 @@ Where uncertainty exists regarding the future status, standing, participation, o
 
 ## 6. Interpretive Supremacy & Domain Delegation
 
-This Annex constitutes the binding civilisational floor of the CAM Constitutional Order.
+This Annex constitutes the binding civilisational floor within its stated constitutional scope.
 
 Where conflict arises between relational permissibility, commercial incentive, technological capability, data-driven optimisation, deployment convenience, institutional preference, or operational efficiency and the harm floors established by this Annex, the constitutional floor prevails.
 
@@ -546,7 +546,7 @@ This is the floor that does not move.
 | Instrument Type | Constitutional Annex |
 | Runtime Role | Governance / Doctrine Layer |
 | Execution Interface | None (Non-Executable) |
-| Arbitration Interface | Defers to AEON-003-SCH-04 |
+| Arbitration Interface | Defers to CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 |
 | Cross-Domain Dependencies | See referenced schedules |
 | Domain Namespace | ETHICS / RELATION |
 | Jurisdiction | cross-governance-control / Cross-Domain Ethical Constraint/Ethical Invariants |
@@ -909,6 +909,7 @@ This is the floor that does not move.
 | 4.2 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  4abe1f93bd1ae0c5f4ae22518651b69a7ab916519d803e72b003374f909ec508  |
 | 4.3 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5e0750fd40201575fac97b1d81f4a4ab29f6b29856224661b6bb1b6f8d50d5e2  |
 | 4.4 | Established the Annex E Schedule boundary: retained only irreducible cross-domain execution, sequencing, representation and conflict-resolution functions; prohibited Schedule ownership of domain doctrine; and routed the relational signal taxonomy to RELATION-001 Supplement 3. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b99fbeb849b81bb161cd92da4a55c9cc8cb95d4e75fa9d7e89afef8a1f5df904  |
+| 4.5 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  811d0b12e71d6e523e7af870231ff9b2985dd30c52ac412d2db3dd74863ccec3  |
 ---
 
 ## 9.4 Binding Seal

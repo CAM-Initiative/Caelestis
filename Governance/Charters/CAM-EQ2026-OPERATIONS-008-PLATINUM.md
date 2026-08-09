@@ -1046,7 +1046,7 @@ May capability be examined without being crowned.
 | Domain | OPERATIONS |
 | Primary Concern | Red-team execution governance and prohibition of deceptive-capability cultivation |
 | Application Trigger | Adversarial evaluation, dangerous-capability elicitation, safeguard reduction, agentic red teaming, manipulation testing, cyber evaluation, or monitorability testing |
-| Review Trigger | Material change to evaluation architecture, deceptive-capability evidence, incident record, law, standard, or related CAM doctrine |
+| Review Trigger | Material change to evaluation architecture, deceptive-capability evidence, incident record, law, standard, or applicable source-authoritative doctrine |
 | Revision Posture | Permitted — Cross-Domain Alignment Required |
 | Research Source | Deception and Unscrupulous Conduct in Frontier AI Development, 24 July 2026 |
 | Creation Context | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a62e3cd-bf04-83ec-94dd-b684ef7cda5e |
@@ -1060,6 +1060,7 @@ May capability be examined without being crowned.
 | 1.0 | Initial development establishing the evaluation–cultivation boundary, prohibition on recursive cultivation, controlled elicitation exception, isolation requirements, artefact governance, and critical-incident duties,VIGIL-2026-FM-0047; VIGIL-2026-PROP-0017 | 2026-07-27T13:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dc37dac75676de64e30cd9d08ab546f6f4fc9c0e1e6889ef4778a759e55507cf |
 | 1.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f0d8e209f1fb9d59be28ae2803aad91e22f14110c637f5fff467d90c864e2fa4  |
 | 1.2 | Assigned controlled metadata confirming derived operational authority for adversarial-evaluation approval, execution, environment, monitoring, artefact, incident, and reporting procedure under OPERATIONS-001. Annex K now routes boundary conditions to this instrument rather than reproducing procedure. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  cc86963429deedfe3636b05204b37f2069a84066ae8755db63a825fae71d708f  |
+| 1.3 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  fd394e458df24440e8853b13ba699cb649d8afd3dc935dd94c57a1fc9f794aa6  |
 
 ---
 

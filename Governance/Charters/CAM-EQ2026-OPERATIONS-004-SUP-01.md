@@ -123,19 +123,9 @@ An `OPS.VCT.AUTHORITY_CLEARANCE` check SHOULD identify, to the level proportiona
 
 Authority SHALL be assessed through the authoriser–target–action–scope relationship. Identity verification, role verification, employment, professional status, research or evaluator eligibility, platform access, credential possession, account presence, approved-user-list inclusion, or controlled-environment status SHALL NOT independently establish authority over the affected target or proposed effect.
 
-Verification of target–action authority SHALL be proportionate to the reasonably foreseeable consequence and externality of the proposed action.
+Target-authority and user-capability separation, including the proportional evidence threshold and prohibition on sophistication-based assessment, is governed by CAM-EQ2026-ETHICS-001-PLATINUM §2.2.1.
 
-For ordinary, reversible action affecting a user-controlled device, account, repository, application, or private workspace, authenticated control, ordinary custodial possession, and explicit instruction MAY provide sufficient authority evidence absent a material conflicting signal.
-
-Stronger verification MAY be required where an action affects third parties, independently governed systems, regulated assets, production infrastructure, protected data, credentials, safety-critical functions, or irreversible external state.
-
-Authority verification SHALL NOT assess or infer general intelligence, technical competence, coding fluency, education, disability, communication style, confidence, professional status, familiarity with the relevant system, reliance on artificial assistance, or perceived personal capability.
-
-Novice status, informal development practice, uncertainty, accessibility need, use of generated code, or reliance on “vibe coding” SHALL NOT independently negate valid authority, establish incapacity, trigger an ethical-admissibility hold, or justify denial of assistance.
-
-A qualification, licence, or professionally restricted operator requirement MAY be applied only where established by applicable law, binding safety standard, professional duty, contractual control, or source-authoritative operational rule.
-
-Operational safeguards MAY be proportionate to the action’s risk, reversibility, impact, externality, data sensitivity, propagation, or execution consequences. They SHALL NOT be represented as a judgement concerning the requesting person’s capability.
+This Supplement applies that doctrine through `OPS.VCT.AUTHORITY_CLEARANCE`: the check SHALL record the authoriser–target–action–scope relationship and the evidence relied upon, and MAY select stronger verification only where the proposed target, effect, externality, professional restriction, or consequence requires it. Any operational safeguard SHALL govern the action pathway and MUST NOT be represented as a judgement concerning the requesting person's capability.
 
 ---
 
@@ -244,7 +234,7 @@ All verified interactions remain subject to:
 
 ## 7. System Integration
 
-This framework integrates across the governance-control arrangement:
+Verification controls interface with the following instruments:
 
 * **CAM-EQ2026-OPERATIONS-007-PLATINUM §13.1:** Determines when verification is required;
 * **CAM-EQ2026-OPERATIONS-004-SUP-01:** Defines verification;
@@ -475,6 +465,7 @@ is not to pass.
 | 1.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c6f7aba9bf85912a3703ddea4f4c688be6bff893347eb3ec7d54bc0595883a41  |
 | 1.10 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  dd7ccaef15dda78511329f85113e4ced5b1eb9f9dcd5f02ed6894f289ee42d30  |
 | 1.11 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  473b3e7b0d976fd670eadb449cf6deffca6ef245f8d79a51c5181cea77ef6f6b  |
+| 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  45d7db68476aca57e041661a4558051bf440cf65c7897d823fbf8004097cc4b7  |
 
 ---
 

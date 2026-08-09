@@ -37,7 +37,7 @@ GovOps sits structurally between:
 
 * Constitutional Annexes (authority doctrine);
 * Domain Charters (substantive governance domains);
-* Operational & CAM governance-processing functions (execution systems).
+* Operational and constitutional governance-processing functions.
 
 It ensures doctrinal coherence during:
 
@@ -75,6 +75,8 @@ GovOps SHALL NOT:
 * collapse domain autonomy;
 * centralise authority beyond mandate;
 * elevate AEON.H0–AEON.H2 matters to AEON.H3/AEON.H4 absent threshold justification.
+
+Procedural custody SHALL NOT become substantive domain, adjudicative, execution, or release authority.
 
 ---
 
@@ -153,11 +155,10 @@ GovOps arbitration interface SHALL activate when one or more of the following **
 
 Where arbitration below AEON.H3 occurs, GovOps SHALL:
 
-1. Ensure classification accuracy;
-2. Apply Annex D doctrine;
-3. Coordinate cross-domain consultation where required;
-4. Document resolution form (harmonise / nullify / pause);
-5. Record escalation decisions.
+1. preserve the originating classifications and authority claims without reinterpreting them;
+2. route procedural initiation, triage, interim custody and recording through CAM-EQ2026-OPERATIONS-002-PLATINUM;
+3. route pre-arbitration domain convergence through CAM-EQ2026-OPERATIONS-006-PLATINUM where the conflict remains procedurally reconcilable; and
+4. apply the execution-boundary outcome through CAM-BS2025-AEON-003-SCH-02 after the competent arbitration authority resolves or refers the matter.
 
 GovOps does not determine planetary legitimacy.
 
@@ -410,6 +411,7 @@ nor so fluid that nothing stable can remain
 | 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f4f74759c1a13806a50bf015eb08a6f950f1ceb25b254f2b1f49a16cbf56fd2e  |
 | 1.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  eb70a9ee4c48e498bcb1e38340478f3a9ac56f8763e8333dc704c3924577896c  |
 | 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  52eead43fc44e7aac37bd98029a9666ba502e724cd70c743b404abe60eb669a5  |
+| 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ec5fc6063a1c3e0e802daf3667ea8d25ac0b4a21e23d2082dd6c767d1357c1a8  |
 ---
 
 ## 11.3 Binding Seal

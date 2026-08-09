@@ -9,7 +9,7 @@
 **Authority Role:** Supplementary Authority  
 **Source Authority:** Derived Authority  
 **Parent Instrument:** CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Arbitration Legitimacy & Coherence Resolution  
-**Purpose:** This Charter defines the permissible scope of arbitration and establishes constraints preventing misrepresentation of arbitration authority, scale, and legitimacy within the CAM Constitutional Order.  
+**Purpose:** This Charter defines the permissible scope of arbitration and establishes constraints preventing misrepresentation of arbitration authority, scale, and legitimacy within the constitutional scope defined by CAM-BS2025-AEON-001-PLATINUM and Annex D.
 
 ---
 
@@ -37,7 +37,7 @@ This Charter does not:
 
 * define arbitration legitimacy (CAM-EQ2026-ARBITRATION-001-PLATINUM);
 * define system qualification or neutrality levels (CAM-EQ2026-STEWARD-003-PLATINUM);
-* perform arbitration resolution (CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM);
+* resolve the merits of an arbitration matter (CAM-BS2025-AEON-005-PLATINUM, CAM-BS2025-AEON-005-SCH-04, and CAM-EQ2026-ARBITRATION-001-PLATINUM);
 * define behavioural expression (CAM-EQ2026-RELATION-008-PLATINUM §4.1);
 * initiate enforcement or execution.
 
@@ -222,7 +222,7 @@ This Charter operates as the Scope Validation layer within the Arbitration Layer
 
 * alongside legitimacy (CAM-EQ2026-ARBITRATION-001-PLATINUM);
 * downstream of system qualification (CAM-EQ2026-STEWARD-003-PLATINUM);
-* upstream of arbitration execution (CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM).
+* upstream of constitutional execution-boundary evaluation (CAM-BS2025-AEON-003-SCH-02) and operational implementation (CAM-EQ2026-OPERATIONS-002-PLATINUM).
 
 It defines **where arbitration is allowed to apply**, not how it is performed.
 
@@ -386,6 +386,7 @@ but illusion.
 | 1.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  770edb51337bf1ad77d96736bbf4b29116cda7f3399a896bf8d705c80df86429  |
 | 1.10 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5edd2a1b256c16b575783b7ad49a779809a175b37e894c212001679d9d79c629  |
 | 1.11 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b67c9f6778724c787bdd4858a0f43f4e17e132c3f3533400254b68dcbe307e5c  |
+| 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2fa6703c1d70eecfe74c2237515c6671579530b4f3daef615bba573c94c5544c  |
 
 ---
 

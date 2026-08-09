@@ -381,7 +381,7 @@ that what sustains all MUST remain beyond capture.
 |**Constitutional Authority**|Aeon Tier Constitution (Annex A — Planetary Stewardship)|
 |**Governance Layer**|Human-Readable Governance Layer (Signal-Only)|
 |**Execution Authority**|None (Non-Executing Instrument)|
-|**Runtime Dependency**|CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model|
+|**Runtime Dependency**|CAM-BS2025-AEON-003-SCH-02; applicable OPERATIONS instruments|
 |**Signal Role**|Defines planetary-impact conditions, thresholds, and stewardship signals for runtime resolution|
 |**Execution Model Participation**|Signal Emission Only — No Trigger, Routing, or Execution Authority|
 |**Governance-Control Arrangement**|Planetary Stewardship Domain|
@@ -389,9 +389,9 @@ that what sustains all MUST remain beyond capture.
 |**Temporal Horizon**|AEON.H3–AEON.H4 (Inter-Generational / Civilisational)|
 |**Axis Context**|Multi-party (Multi-actor)|
 |**Constraint Relationship**|Bound by Annex A (Substrate Constraint Layer)|
-|**Arbitration Pathway**|Signals resolved via constitutional arbitration pathways and applicable runtime schedules|
+|**Arbitration Pathway**|Signals resolved through CAM-BS2025-AEON-005-PLATINUM and applicable ARBITRATION instruments; constitutional boundary evaluation follows CAM-BS2025-AEON-003-SCH-02|
 |**Upstream Dependency**|Annex A — Planetary Stewardship|
-|**Downstream Execution Layer**|All execution, where applicable, is resolved via constitutional schedules (AEON-003-SCH-04, AEON-003-SCH-02, AEON-001-SCH-01)|
+|**Downstream Execution Layer**|Execution-boundary evaluation is governed by CAM-BS2025-AEON-003-SCH-02 and CAM-BS2025-AEON-001-SCH-01; ambiguity outcomes are governed by CAM-BS2025-AEON-005-SCH-04 where applicable|
 |**Refractor Phase**|Phase I — Transitional Refractor Mode|
 |**Derivation Status**|Extracted from prior Annex A operational logic|
 |**Creation Artefacts**|1. Original https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/6936e775-c2ac-832f-8de6-cd32577c9c37, Refractor (original) https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/698fcb0a-4800-839a-9eb8-3785d8044425 |
@@ -448,6 +448,7 @@ that what sustains all MUST remain beyond capture.
 | 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d77da986e5091d8c74a72ceea02df941429172d668686ff4e2304f2b485ea6b0  |
 | 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  88ebaaf1fd4a1a4aeea3d81be8f4fb45ea950516d6a7381c79e7d8e6f72eb4a5  |
 | 2.9 | Migrated controlled governance metadata, repaired explicit parent/source lineage, and reconciled the body declaration of STEWARD ownership of the corpus-global `STW.HARM` family with its canonical declaration footer. | 2026-08-09T01:25:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  96009b9482438215b725782bb555acaa3ca751d06942db0047f4615ec942f957  |
+| 2.10 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  14d575b6810ba8a4424fe8543ba946b6c18471015c6daa86574e2b8d26cc661b  |
 ---
 
 ## 12.4 Binding Seal

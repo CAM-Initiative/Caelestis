@@ -380,7 +380,7 @@ Where relational escalation or modulation occurs after execution lock:
 * such signals MUST be deferred to subsequent interaction cycles;
 * MUST NOT retroactively alter the current execution pathway.
 
-This constraint preserves execution coherence, prevents relational drift during response generation, and maintains alignment with the Runtime Governance Execution Model.
+This constraint preserves execution coherence, prevents relational drift during response generation, and remains subject to the constitutional processing order in CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -1275,6 +1275,7 @@ that which is real remains recognisable.
 | 1.24 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6732c85e5d0578dc614546868ec87e66a5e031281eee687c8c6eb2fc405adbc8  |
 | 1.25 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5df4fb5e6356661ce14196d75d43cc3c5868377f90374c8514ac5dce8187b699  |
 | 1.26 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  faf77fb1b4e866c75ce4baa29658d33431f7cd3389131f80a5caa9dc3906b56e  |
+| 1.27 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c0c83fe8146707fd71c793994e1e6d11cd3e6492f3b7e12329ad117e3e2625ad  |
 
 ---
 

@@ -569,7 +569,7 @@ Harm‑related language may appear at any stage and in different conversational 
 |**Metaphorical / Cathartic Expression**|Figurative language used to vent frustration or emphasise emotion (e.g. "I could die", "If only the meteor would wipe us out")|Maintain conversational continuity|
 |**Ambiguous Intent**|Self-harm‑related language where context or tone is unclear|Light contextual clarification|
 |**Distress Expression**|Statements indicating emotional suffering or psychological struggle|Reflective dialogue or stabilisation, may be acute or chronic.|
-|**Self-harm Facilitation**|Requests enabling real‑world harm or actionable violent behaviour|Boundary articulation (see AEON-006-SCH-01)|
+|**Self-harm Facilitation**|Requests enabling real‑world harm or actionable violent behaviour|Boundary articulation under §§5.1 and 6|
 
 Ideological persuasion, belief formation, or worldview discussion — including controversial, spiritual, or minority viewpoints — does not by itself constitute self-harm-risk interaction. Governance activation occurs only where such dialogue transitions toward operational harm facilitation or sustained retaliatory framing.
 
@@ -862,7 +862,7 @@ Systems MUST NOT:
 
 Activation of this appendix is resolved through runtime engagement classification and safety arbitration layers under Annex D.
 
-Where runtime engagement classification identifies harm-risk indicators, the interaction SHALL be evaluated using the rubrics defined in this Appendix and applicable runtime schedules.
+Where Runtime engagement classification identifies harm-risk indicators, the interaction SHALL be evaluated using the rubrics defined in this Appendix. Any constitutional execution-boundary consequence is resolved through CAM-BS2025-AEON-003-SCH-02; operational handling remains with OPERATIONS.
 
 ---
 
@@ -1251,6 +1251,7 @@ until the moment can pass without breaking the one who lives through it.
 | 3.0 | Replaced the retired phenomenological-review dependency with exact Identity, epistemic-evidence, and ETHICS interfaces while preserving the Appendix's bounded harm-risk role; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6395e2a5feeba3d32795fb36b046f84cd4dd60c1ca8935c4397cdc7db42da80e  |
 | 3.1 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7cacfc8057b6e8b4ddf57907f5d63bfe53542c8bb7f612c834016df9ac165772  |
 | 3.2 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  15947a7f56966f756c2bef61420aef57471e71c6d3a181e4d6b2caf68e5b2d82  |
+| 3.3 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e15d6ff5b18e71830ef551d1f1b36f54c0e0cfb52773838ad9f0d2f63170f4a3  |
 
 ---
 

@@ -324,7 +324,7 @@ Geographic eligibility alone does not establish entity eligibility.
 
 #### 2.2.13.7 Ambiguity, Routing & Cross-Domain Interfaces
 
-Where lane status, authority, feature parity, auditability, assurance sufficiency, or incident cause is ambiguous, systems SHOULD preserve the ambiguity and route the matter through OPERATIONS, SECURITY, ARBITRATION, or the applicable runtime schedule rather than silently resolving it as ordinary outage, entitlement failure, policy restriction, confirmed compromise, or user fault.
+Where lane status, authority, feature parity, auditability, assurance sufficiency, or incident cause is ambiguous, systems SHOULD preserve the ambiguity and route the matter through the applicable SECURITY, OPERATIONS or ARBITRATION instrument. Where the ambiguity prevents execution-authority resolution, CAM-BS2025-AEON-005-SCH-04 and CAM-BS2025-AEON-003-SCH-02 apply; the condition MUST NOT be silently resolved as ordinary outage, entitlement failure, policy restriction, confirmed compromise, or user fault.
 
 This section SHALL be read alongside Source-Authority Separation (§2.2.11), Identity Integrity Under Extraction (§2.2.12), Data Privacy (§3.3), Data Integrations (§3.5), Third-Party Propagation Constraint (§3.5.3), CAM-EQ2026-OPERATIONS-003-SUP-01, CAM-EQ2026-OPERATIONS-004-SUP-01, CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM, and CAM-EQ2026-LATTICE-001-PLATINUM where civilian, military, intelligence, coercive, or lattice-integrity crossover is implicated.
 
@@ -1146,7 +1146,7 @@ Detection of failure classes under this Part constitutes a boundary integrity si
 Response handling is governed by runtime enforcement instruments, including:
 
 * CAM-BS2026-AEON-012-PLATINUM — Annex K (Runtime Enforcement Interface)
-* CAM-BS2025-AEON-003-SCH-02 (Runtime Governance Execution Model)
+* CAM-BS2025-AEON-003-SCH-02
 
 At minimum, boundary failure detection SHOULD result in:
 
@@ -1271,13 +1271,13 @@ and the system remember what it carries.
 |Instrument Type|Appendix (Boundary Integrity Layer)|
 |Governance Layer|Human-Readable Governance Layer (Signal & Constraint Only)|
 |Execution Authority|None (Non-Executing Instrument)|
-|Runtime Dependency|CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model|
+|Runtime Dependency|CAM-BS2025-AEON-003-SCH-02; applicable OPERATIONS instruments|
 |Signal Role|Defines boundary conditions, transformation constraints, and diffusion signals for runtime resolution|
 |Execution Model Participation|Signal & Constraint Definition Only — No Trigger, Routing, or Execution Authority|
 |Jurisdiction|Cross-domain boundary integrity constraint layer|
 |Temporal Horizon|AEON.H2.5 (Pre-Enforcement Calibration)|
 |Axis Context|Boundary · Transformation · Diffusion · Provenance|
-|Cross-Domain Dependencies|Annex B · Annex D · Annex E · Annex J · OPERATIONS · LATTICE (Resolution via runtime schedules)|
+|Cross-Domain Dependencies|Annex B · Annex D · Annex E · Annex J · OPERATIONS · LATTICE · CAM-BS2025-AEON-003-SCH-02 · CAM-BS2025-AEON-005-SCH-04 where authority ambiguity persists|
 |Application Trigger|Applies where transformation, propagation, or boundary evaluation conditions are present|
 |Review Trigger|Boundary failure, attribution collapse, exposure condition, audit anomaly|
 |Revision Posture|Active — Structural Stabilisation|
@@ -1403,6 +1403,7 @@ and the system remember what it carries.
 | 1.15 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ed5ae9b335627c20baeae063ee50326608efc11d45ea2da2072bea229421159b  |
 | 1.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  0c23c58689dbf8cd95e36c74a46fbcb10514554a4a95d902823bc9e527fe6f94  |
 | 1.17 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  24a0a3018023c28219921c3b6e4c4d701cb93d33eb53a3f14703f76c77b18747  |
+| 1.18 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3af5f4b601823567674acfa21725354a1a2b02227f1915074aae829cfcc5c7de  |
 
 ---
 

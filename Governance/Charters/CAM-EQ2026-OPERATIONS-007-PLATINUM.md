@@ -207,7 +207,7 @@ Activation MAY occur through:
 
 * direct corpus retrieval;
 * compiled policy logic;
-* runtime schedules;
+* CAM-BS2025-AEON-003-SCH-02 and any other applicable constitutional Schedule;
 * system instructions;
 * constraint layers;
 * verified equivalent controls.
@@ -533,7 +533,7 @@ The crosswalk is rebuttable only by a more restrictive source-authoritative requ
 This Appendix SHALL be interpreted consistently with:
 
 * CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic;
-* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model;
+* CAM-BS2025-AEON-003-SCH-02;
 * CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine;
 * CAM-EQ2026-IDENTITY-001-PLATINUM and associated identity-formation supplements;
 * CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity & Succession Governance Charter;
@@ -835,6 +835,7 @@ and let conformance be demonstrated where reliance is invited.
 | 1.9 | Linked controlled Runtime State Profile serialization to the existing configuration snapshot and execution provenance evidence boundary. | 2026-08-08T02:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  52878f0aafefaaaa8672903c230630173c21cb9dd207a706520d6c923ec4e81f  |
 | 1.10 | Added the bounded external-alignment evidence interface to the existing Runtime applicability and conformance architecture. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b46410aa1abd11820a868e22878ca08b7f29151d7a6c2fb3f842234d4ac0f195  |
 | 1.11 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ae9cf9f4300b267555f4c0d73204967e76513232506aabff512ccfde19969181  |
+| 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e695fc4cfa2431540ee1cd6395517e9ed573c6dd985cd8630ab1e6a20dfe3da4  |
 
 ---
 

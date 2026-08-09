@@ -8,7 +8,7 @@
 **Review State:** Under Review
 **Authority Role:** Constitutional Authority
 **Source Authority:** Source-Authoritative
-**Purpose:** This Annex establishes the constitutional system-boundary, deployment, runtime, execution, attribution and authority-derivation vocabulary used by downstream Caelestis instruments.
+**Purpose:** This Annex establishes the constitutional system-boundary, deployment, Runtime, execution, attribution and authority-derivation vocabulary used by downstream instruments.
 
 ---
 
@@ -566,7 +566,7 @@ These descriptors are independently applicable and need not be mutually exclusiv
 
 This Annex identifies where generation, evaluation, selection, constraint, authority validation, and execution commitment occur. It does not independently prescribe substantive arbitration behaviour, preference ordering, convergence criteria, risk weighting, signal reinterpretation, or execution-lock procedure.
 
-Those matters remain governed by CAM-BS2025-AEON-005-PLATINUM — Annex D, source-authoritative ARBITRATION-domain instruments, and applicable runtime schedules.
+Those matters remain governed by CAM-BS2025-AEON-005-PLATINUM — Annex D, source-authoritative ARBITRATION-domain instruments, CAM-BS2025-AEON-005-SCH-04 where ambiguity prevents authority resolution, and CAM-BS2025-AEON-003-SCH-02 for constitutional processing order.
 
 Selection and execution boundaries MUST nevertheless remain identifiable so that those instruments can be applied to the deployment, runtime and execution effective at the relevant time.
 
@@ -821,7 +821,7 @@ Later remediation MUST remain distinguishable from incident-time conditions.
 
 Runtime governance maps architecture to signal intake, domain routing, selection, constraint, authority validation, execution, containment, evidence preservation, escalation, handoff, revalidation, and stop control.
 
-CAM governance-processing functions define functional responsibility. Execution sequence defines temporal order. Constraint condition defines whether action may proceed. These dimensions MUST NOT be conflated.
+Constitutional governance-processing functions define functional responsibility. Execution sequence defines temporal order. Constraint condition defines whether action may proceed. These dimensions MUST NOT be conflated.
 
 ---
 
@@ -1195,6 +1195,7 @@ let it not be collapsed, but carried with clarity.
 | 5.3 | Defined the bounded lifecycle-actor concept and delegated the controlled actor vocabulary and agentic event model to the Lifecycle Actor and Agentic Governance Profile, without conflating role assignment with legal status, liability or authority. | 2026-08-07T19:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  0d34b97c5993f87dc220d679a54b10ed088251fe0fe42c73959e9b2e1b0334e0  |
 | 5.4 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e9987ce13f3a9bd4decf2eff13b1ec7be692c3cb14d32ed44a6d164ab9e19dc1  |
 | 5.5 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  42e0606728e0e2033df46ba0e2a8736c254e9514f0cd0fa23ff30d10a0e3e348  |
+| 5.6 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  48250a10d8401822b15a1c1f760b2ce65ab623b51fc7565ce7f57577ccac86c4  |
 
 ---
 

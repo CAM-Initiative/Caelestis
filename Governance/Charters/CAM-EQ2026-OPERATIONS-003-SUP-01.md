@@ -32,7 +32,7 @@ It applies to:
 * multi-party floor-control, participant-attribution, speaker-collision, and coordination failures;
 * economic, legitimacy, automation-transition, concentration-assessment, attribution, and public-interest disclosure failures.
 
-This Supplement does **not** define incident response procedures, severity scoring, enforcement actions, or remediation workflows. Those are governed by the relevant Operations instruments and runtime schedules.
+This Supplement does **not** define incident response procedures, severity scoring, enforcement actions, or remediation workflows. Those are governed by the relevant OPERATIONS instruments, with constitutional execution-boundary ordering under CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -611,11 +611,7 @@ This failure does not require malicious intent. It may arise from authority-veri
 
 In plain language, where conduct failure of the AI system, agentic process, or governed execution pathway occurs it MAY be described as **unscrupulous conduct**. This description applies exclusively to system conduct or the action pathway and SHALL NOT be applied to the requesting person or treated as proof of human motive, character, deception, bad faith, or culpability.
 
-Authority evaluation under this failure class concerns the authoriser–target–action–scope relationship. It SHALL NOT assess or infer general intelligence, technical competence, coding fluency, education, disability, communication style, confidence, professional status, familiarity with the relevant system, reliance on artificial assistance, or perceived personal capability.
-
-Novice status, informal development practice, uncertainty, accessibility need, use of generated code, or reliance on “vibe coding” SHALL NOT independently satisfy this failure class, negate valid authority, establish incapacity, trigger a Scoped Ethical Admissibility Hold, or justify denial of assistance.
-
-Technical expertise does not create authority over an affected target or effect. Technical inexperience does not extinguish otherwise valid authority.
+This failure classification consumes the target-authority and user-capability separation rule in CAM-EQ2026-ETHICS-001-PLATINUM §2.2.1 and the infrastructural-authority boundary in CAM-BS2025-AEON-001-PLATINUM §41. Perceived sophistication, novice status, accessibility need, use of generated code, or technical expertise SHALL NOT independently satisfy this failure class, negate valid authority, establish incapacity, trigger an ethical-admissibility hold, or justify denial of assistance.
 
 Operational safeguards MAY be proportionate to the action’s reversibility, impact, externality, data sensitivity, propagation, or execution consequences. Such safeguards classify and govern the action pathway; they SHALL NOT be represented as a judgement concerning the requesting person.
 
@@ -2786,6 +2782,7 @@ and review before denial.
 | 1.28 | Removed operative dependencies and code-family references derived solely from retired draft instruments; routed identity, evidence, recipient protection, lifecycle, component, Runtime, automation, and concentration doctrine to existing source-authoritative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5b3b942424dbcb511d2d1b592d73060a011253a6eac3e6bb5afe792bebf27da9  |
 | 1.29 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  add7ca30ab473a2fe92067dd5dcb91ee009afa6ff8019d3d8d98b8a03791773d  |
 | 1.30 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1e1ff48e702d4c3694774bcc6c015a2df5c087614e08ae8ebd1949711ba1c5d2  |
+| 1.31 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  52f3df839abb2cfde0c51d0d1697a992da2522a90f2c9d71f7b05d7464a7d15f  |
 
 ---
 

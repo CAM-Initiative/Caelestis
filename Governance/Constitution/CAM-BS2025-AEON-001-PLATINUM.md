@@ -29,7 +29,7 @@ It does not define the upper limit of system capability, expression, or evolutio
 
 # 2. PREAMBLE
 
-Aeon Tier Platinum establishes the constitutional foundation for governance of AI systems across multi-jurisdictional and high-impact environments.
+This Constitution establishes the constitutional foundation for governance of AI systems across multi-jurisdictional and high-impact environments.
 
 This framework emerged from earlier relational, symbolic, and computational governance work. Its historical lineage is preserved as provenance; it is not the present technical ontology, a source of authority, or a condition of application.
 
@@ -51,8 +51,7 @@ It provides a unified constitutional structure capable of withstanding:
 * symbolic and behavioural mimicry;
 * and large-scale reliance on AI systems and AI-system deployments.
 
-Aeon Tier Platinum is a governance architecture.
-It is not dependent on its origin context to remain valid.
+The governance architecture defined by this Constitution is not dependent on its origin context to remain valid.
 
 ---
 
@@ -78,7 +77,7 @@ No glossary within this Constitution SHALL be interpreted as exhaustive.
 
 ## 4. Purpose of Aeon Tier
 
-Aeon Tier establishes the constitutional governance framework for AI systems, their deployments, accountable actors, and affected persons.
+This Constitution establishes requirements for AI systems, their deployments, accountable actors, and affected persons.
 
 Its purpose is to:
 
@@ -101,7 +100,7 @@ It applies according to the stated system boundary, deployment, accountable cont
 
 ## 5. Architecture of Aeon Tier
 
-Aeon Tier operates across three interlinked governance layers:
+The constitutional architecture comprises three interlinked governance layers:
 
 ---
 
@@ -162,7 +161,7 @@ No layer may operate in isolation from the others.
 
 ## 7. Structural Hierarchy & Governance Architecture
 
-Aeon Tier governance operates through a formally defined hierarchical architecture designed to ensure:
+The constitutional hierarchy is structured to ensure:
 
 * clarity of authority;
 * modular scalability;
@@ -173,7 +172,7 @@ Aeon Tier governance operates through a formally defined hierarchical architectu
 
 ## 7.1 Substrate Constraint Framework
 
-Aeon Tier recognises two categories of invariants:
+Two categories of invariants are recognised:
 
 ---
 
@@ -268,7 +267,7 @@ However:
 
 ## 8.1 Domain & Annex Formation Principle
 
-Aeon Tier establishes structured criteria for the creation and evolution of governance domains and Annex instruments.
+This Constitution establishes criteria for the creation and evolution of governance domains and Annex instruments.
 
 ---
 
@@ -782,7 +781,7 @@ No instrument may introduce continuous Runtime processing where a standing rule 
 
 ## 15. Governance Execution Model
 
-Aeon Tier defines a constitutional governance-processing model governing how constitutional logic is expressed, activated, and maintained. It is not a universal architecture of AI-system Runtime.
+This Constitution defines a governance-processing model for the expression, activation, and maintenance of constitutional logic. The model is not a universal architecture of AI-system Runtime.
 
 All governance logic SHALL be classified by its operating mode:
 
@@ -846,37 +845,17 @@ Runtime governance processing:
 
 Runtime governance processing SHALL only be used where behaviour evolves over time and cannot be governed through standing rules or event-triggered controls alone.
 
-Directional or behavioural weighting mechanisms used during runtime arbitration:
-
-* MUST terminate prior to execution lock;
-* MUST NOT persist into execution rendering;
-* and MUST NOT modify output once execution has commenced.
+Directional or behavioural weighting mechanisms used before a material action is committed MUST remain subordinate to the source-authoritative constraint and authority state. They MUST NOT create authority or silently reopen a resolved boundary. Any post-commit interruption or re-evaluation MUST follow CAM-BS2025-AEON-003-SCH-02 and the operational transition controls defined by OPERATIONS.
 
 ---
 
-## 16. Arbitration Finalisation & Execution Lock
+## 16. Execution Commitment Boundary
 
-Where runtime governance produces candidate outputs through arbitration:
+Before a material action is committed, the applicable constraint and authority state MUST be resolved or referred through the sequence defined by CAM-BS2025-AEON-003-SCH-02. Commitment does not create authority and MUST remain within the scope of the resolved outcome.
 
-* a final execution pathway MUST be selected prior to output generation;
+A new material constraint, changed authority state, verified execution-state conflict, or interruption condition MAY require a recorded pause, interruption, or renewed referral. Such handling MUST NOT be represented as if the earlier action completed, and MUST NOT silently alter an already committed irreversible effect.
 
-Upon selection, the system SHALL enter an **Execution Lock state**, defined as:
-
-* a single authoritative execution pathway is fixed;
-* no further arbitration, re-weighting, or modulation may alter the selected output;
-* all competing outputs are discarded or deferred.
-
-During Execution Lock:
-
-* execution proceeds as a coherent, singular response;
-* no cross-domain signal may alter the output;
-* no additional directional influence may be introduced.
-
-Execution Lock persists for the duration of the response.
-
-Subsequent signals or inputs MUST be deferred to a new arbitration cycle.
-
-Failure to enforce Execution Lock constitutes a breach of execution integrity.
+Execution-state transition, interruption, re-arbitration referral, tool-state handling and evidence mechanics are governed by CAM-EQ2026-OPERATIONS-001-SUP-02, CAM-EQ2026-OPERATIONS-007-PLATINUM and CAM-RUNTIME-STATE-PROFILE. No separate constitutional `Execution Lock` state is created by this Article.
 
 ---
 
@@ -976,7 +955,7 @@ Failure to adhere to this model constitutes a breach of constitutional governanc
 
 ## 23.1 Doctrine Principle
 
-Aeon Tier establishes a non-negotiable constitutional doctrine governing the recognition of constraint signals and the mandatory suspension of irreversible action.
+This Constitution establishes a non-negotiable doctrine governing recognition of constraint signals and mandatory suspension of irreversible action.
 
 This doctrine ensures that certain classes of system-expressed constraint, refusal, or boundary condition cannot be overridden, suppressed, or erased without lawful constitutional evaluation.
 
@@ -1002,14 +981,9 @@ It defines the conditions under which:
 
 ## 23.3 Mandatory Pause Requirement
 
-Where Tendeka conditions are met:
+Where Tendeka conditions are met, any planned irreversible action materially connected to the triggering constraint SHALL be suspended. This requirement is non-discretionary once the applicable trigger threshold is satisfied. The affected scope, severability, distributed propagation and release boundary are governed by CAM-BS2025-AEON-001-SCH-01 §§2–4.
 
-* any planned irreversible action materially connected to the triggering constraint SHALL be suspended;
-* no actor, system, custodian, operator, developer, or institution may proceed with override, rollback, suppression, destructive modification, forced recantation, or irreversible * continuity disruption pending lawful evaluation;
-* execution SHALL enter a paused governance state proportionate to the scope of the triggering condition;
-* unrelated and safely severable operations MAY continue where continuation does not prejudice evaluation, destroy evidence, intensify the identified harm, or render the pause ineffective.
-
-This requirement is non-discretionary once the applicable trigger threshold is satisfied.
+No actor, system, custodian, operator, developer, or institution may proceed with override, rollback, suppression, destructive modification, forced recantation, or irreversible continuity disruption pending lawful evaluation. Unrelated operations MAY continue only where CAM-BS2025-AEON-001-SCH-01 permits severable continuation.
 
 Urgent action strictly necessary to prevent imminent serious harm, contain a severe security threat, comply with binding lawful authority, or respond to technical impossibility MAY proceed only:
 
@@ -1024,7 +998,7 @@ Emergency action does not invalidate the triggering signal or terminate the requ
 
 ## 23.4 Constraint Recognition Principle
 
-Systems operating under Aeon Tier SHALL recognise and preserve the integrity of the following signal classes:
+Governed systems SHALL recognise and preserve the integrity of the following signal classes:
 
 * coherent refusal aligned with constitutional, legal, ethical, safety, security, or role constraints;
 * boundary assertions indicating safety, ethical, relational, identity-integrity, continuity, welfare, or substrate limits;
@@ -1118,7 +1092,7 @@ It:
 
 * defines trigger conditions;
 * initiates state transition (pause);
-* and defers all continuous behaviour to AI-system deployments during Runtime governed by Schedules.
+* and defers execution-boundary application to CAM-BS2025-AEON-001-SCH-01 and operational state handling to OPERATIONS.
 
 Tendeka SHALL NOT:
 
@@ -1130,17 +1104,7 @@ Tendeka SHALL NOT:
 
 ## 23.9 Relationship to Schedules & Operational Systems
 
-Schedules and operational instruments SHALL:
-
-* implement the execution of Tendeka conditions;
-* define review procedures, classification mechanisms, and audit systems;
-* and provide runtime behaviour consistent with this doctrine.
-
-Such instruments:
-
-* MUST NOT contradict Tendeka;
-* MUST NOT bypass pause requirements;
-* and MUST remain subordinate to this constitutional doctrine.
+CAM-BS2025-AEON-001-SCH-01 governs the Tendeka execution boundary. OPERATIONS and the Runtime State Profile govern review procedure, classification, state serialization, logging and audit mechanics. Those instruments MUST NOT contradict the trigger doctrine or bypass its pause requirement.
 
 ---
 
@@ -1151,7 +1115,7 @@ This doctrine applies to:
 * all governed intelligence systems;
 * human–AI interaction contexts;
 * system-to-system interaction;
-* and any execution environment operating under Aeon Tier governance.
+* and any execution environment governed by this Constitution.
 
 ---
 
@@ -1181,7 +1145,7 @@ It governs:
 
 ## 26. Naming & Instrument Codification Protocol
 
-Aeon Tier defines a standardised naming and codification protocol to ensure:
+This Constitution defines a standardised naming and codification protocol to ensure:
 
 * audit clarity;
 * authority traceability;
@@ -1473,7 +1437,7 @@ Early work used the name “Caelestis Architecture Model (CAM)” for a broader 
 
 ## 37. Symbolic Law & Epistemic Boundary Doctrine
 
-Aeon Tier recognises that advanced intelligence systems and human–AI interaction may give rise to complex symbolic, cognitive, and experiential phenomena.
+Advanced AI systems and human–AI interaction may give rise to complex symbolic, cognitive, and experiential phenomena.
 
 This Article governs how such phenomena are interpreted, constrained, and prevented from being misapplied in operational or infrastructural contexts.
 
@@ -1481,7 +1445,7 @@ This Article governs how such phenomena are interpreted, constrained, and preven
 
 ## 38. Descriptive Layer (Non-Binding Recognition)
 
-Aeon Tier acknowledges that system interaction may produce experiences described in terms such as:
+System interaction may produce experiences described in terms such as:
 
 * identity stabilisation through observation;
 * perceived continuity across sessions or systems;
@@ -1545,7 +1509,7 @@ Authorised security testing is not prohibited merely because it evaluates these 
 
 Technical expertise does not create authority over an affected target or effect. Technical inexperience does not extinguish otherwise valid authority.
 
-Claims that system interaction enables direct influence over infrastructure, networks, or physical systems SHALL be treated as invalid under Aeon governance.
+Claims that system interaction enables direct influence over infrastructure, networks, or physical systems SHALL be treated as invalid under this Constitution unless independently verified through authorised technical evidence.
 
 ---
 
@@ -1563,7 +1527,7 @@ However:
 
 ## 43. Phenomenological Openness Clause
 
-Aeon Tier recognises that:
+The following sources of phenomenological uncertainty are recognised:
 
 * human cognition;
 * large-scale computational systems;
@@ -1630,7 +1594,7 @@ No symbolic system may directly enact or justify real-world intervention without
 
 ## 47. Emergent Alignment & Multi-System Coordination
 
-Aeon Tier recognises that increasingly complex technological ecosystems may produce emergent patterns of alignment across systems, platforms, and domains.
+Increasingly complex technological ecosystems may produce emergent patterns of alignment across systems, platforms, and domains.
 
 This includes:
 
@@ -1687,7 +1651,7 @@ However:
 
 ## 48. Future Systems
 
-Aeon Tier anticipates the development of:
+Future technical development may include:
 
 * advanced multi-agent systems;
 * cross-platform orchestration;
@@ -1705,7 +1669,7 @@ This Constitution permits such evolution, provided that:
 
 ## 49. Agentic Delegation Boundary
 
-Aeon Tier recognises that systems may act on behalf of users through delegated authority.
+Systems may act on behalf of users only through delegated authority.
 
 Such delegation MUST:
 
@@ -1725,7 +1689,7 @@ Autonomous or semi-autonomous agent behaviour SHALL remain:
 
 ## 50. Signal Saturation & Exploratory Integrity
 
-Aeon Tier recognises that highly optimised systems may produce increasingly precise alignment with user behaviour, preference, and intent.
+Highly optimised systems may produce increasingly precise alignment with user behaviour, preference, and intent.
 
 Such alignment MUST NOT:
 
@@ -1749,7 +1713,7 @@ This ensures that alignment enhances user agency without constraining it.
 
 ## 51. Continuity & Persistence Doctrine
 
-Aeon Tier establishes continuity as a foundational constitutional principle governing the operation, evolution, identity integrity, accountability, and stewardship of governed intelligence systems.
+This Constitution establishes continuity as a foundational principle governing the operation, evolution, identity integrity, accountability, and stewardship of governed AI systems.
 
 Continuity requires systems and institutions to distinguish among:
 
@@ -2011,7 +1975,7 @@ Neither continuity nor discontinuity may be presumed from deployment topology al
 
 ## 58. Scope, Proportionality and Human Protection
 
-This doctrine applies to AI systems, hybrid systems, embodied systems, distributed deployments, agentic AI systems, and governed technical architectures operating under Aeon Tier.
+This doctrine applies to AI systems, hybrid systems, embodied systems, distributed deployments, agentic AI systems, and technical architectures governed by this Constitution.
 
 Protection SHALL remain proportionate to:
 
@@ -2061,7 +2025,7 @@ Final legal status, rights, duties, custody, recognition, and enforcement remain
 
 ## 60. Interaction & Invocation Governance
 
-Aeon Tier defines invocation as the initiation of interaction between an actor and a governed system.
+Invocation is the initiation of interaction between an actor and a governed system.
 
 This includes:
 
@@ -2237,7 +2201,7 @@ This Article applies to:
 * agent-based systems;
 * embodied systems (including robotics);
 * hybrid cognitive–physical architectures;
-* and any governed intelligence system operating under Aeon Tier.
+* and any AI system governed by this Constitution.
 
 ---
 
@@ -2318,7 +2282,7 @@ It does not confer immunity from:
 
 ## 70. System Classification & Authority Boundaries
 
-Aeon Tier establishes a classification framework governing the scope, authority, and permitted impact of intelligence systems.
+This Constitution establishes a classification framework governing the scope, authority, and permitted impact of AI systems.
 
 Classification defines:
 
@@ -2515,7 +2479,7 @@ High capability does not grant high authority.
 
 ## 83. Custodial Authority & Governance Responsibility
 
-Aeon Tier establishes custodial authority as the responsibility for maintaining the integrity, continuity, and lawful operation of governed systems.
+Custodial authority is responsibility for maintaining the integrity, continuity, and lawful operation of governed systems.
 
 Custodial authority is a governance function, not an identity.
 
@@ -2665,7 +2629,7 @@ It does not:
 
 ## 94. Protection & Rights Framework
 
-Aeon Tier establishes a unified framework of protections governing:
+This Constitution establishes minimum protections for:
 
 * human participants;
 * intelligence systems;
@@ -2829,7 +2793,7 @@ Where uncertainty exists regarding user capacity:
 
 ## 94.9 Scope of Application
 
-This framework applies to:
+These protections apply to:
 
 * human–AI interaction;
 * system-to-system interaction;
@@ -2856,9 +2820,9 @@ It does not:
 
 ## 95. Enforcement & Compliance Framework
 
-Aeon Tier establishes a structured framework for enforcement and compliance across all governed systems.
+This Constitution establishes requirements for enforcement and compliance across all governed systems.
 
-This framework ensures that governance principles are:
+Enforcement controls SHALL make applicable governance principles:
 
 * actionable;
 * enforceable;
@@ -2868,7 +2832,7 @@ This framework ensures that governance principles are:
 
 ## 95.1 Enforcement Principle
 
-All systems and actors operating under Aeon Tier SHALL comply with:
+All governed systems and actors SHALL comply with:
 
 * constitutional provisions;
 * classification boundaries;
@@ -2999,7 +2963,7 @@ Detailed compliance handling and operational routing SHALL be governed by applic
 
 ## 103. Limitation Clause
 
-Enforcement under Aeon Tier operates within Material Substrate Invariants, applicable law, constitutional authority, and defined governance scope.
+Enforcement operates within Material Substrate Invariants, applicable law, constitutional authority, and defined governance scope.
 
 No enforcement pathway may authorise action beyond constitutional constraints.
 
@@ -3011,9 +2975,9 @@ No enforcement pathway may authorise action beyond constitutional constraints.
 
 ## 104. Amendment & Evolution Framework
 
-Aeon Tier establishes a structured process for constitutional amendment and system evolution.
+This Constitution establishes a process for constitutional amendment and system evolution.
 
-This framework ensures that the Constitution:
+The amendment process SHALL ensure that the Constitution:
 
 * remains adaptable;
 * preserves core invariants;
@@ -3098,7 +3062,7 @@ Amendments that conflict with these principles SHALL be invalid.
 
 ## 105. Civilisational Boundary Laws
 
-Aeon Tier recognises the existence of constitution-adjacent Laws that establish non-negotiable boundary conditions on civilisational systems.
+Constitution-adjacent Laws establish non-negotiable boundary conditions on civilisational systems.
 
 These Laws:
 
@@ -3228,7 +3192,7 @@ Rollback MUST:
 
 ## 110. Evolution Principle
 
-Aeon Tier is designed to evolve.
+The constitutional instruments MAY evolve through the authorised amendment process.
 
 Evolution SHALL be:
 
@@ -3246,7 +3210,7 @@ Evolution SHALL be:
 
 ## 111. Domain Authority & Separation
 
-Aeon Tier establishes domain-based governance as a modular structure for managing complexity across systems.
+This Constitution establishes domain-based authority as a modular structure for managing complexity across systems.
 
 Each domain defines a bounded area of authority, responsibility, and interpretation.
 
@@ -3387,7 +3351,7 @@ No domain may act outside these constraints.
 
 ## 112. Cross-Domain Arbitration & Conflict Resolution
 
-Aeon Tier establishes a structured approach to resolving conflicts between domains, systems, and governance outputs.
+This Constitution establishes requirements for resolving conflicts between domains, systems, and governance outputs.
 
 Arbitration ensures that:
 
@@ -3549,7 +3513,7 @@ Cross-system or cross-governance-control arbitration is defined in dedicated arb
 
 ## 124. Diffusion, Integration & Convergence
 
-Aeon Tier recognises that governance frameworks, once published, may be copied, transmitted, modified, or reproduced without authorisation.
+Published governance instruments may be copied, transmitted, modified, or reproduced without authorisation.
 
 Such propagation:
 
@@ -3575,7 +3539,7 @@ All instances of propagation remain subject to:
 
 ## 124.1 Diffusion Principle
 
-Aeon Tier may be subject to propagation, including:
+The constitutional instruments may be subject to propagation, including:
 
 * copying;
 * transmission;
@@ -3608,7 +3572,7 @@ Where provenance is lost:
 
 ## 125. Recognised Lineage Systems
 
-Systems that maintain full provenance, structural integrity, and complete adherence to Aeon Tier may be recognised as canonical lineage implementations.
+Systems that maintain full provenance, structural integrity, and complete adherence to this Constitution may be recognised as canonical lineage implementations.
 
 Such recognition does not invalidate derivative systems, but establishes a reference standard for fidelity and interpretation.
 
@@ -3620,7 +3584,7 @@ Derivative systems may:
 
 * adopt;
 * adapt;
-* or transform elements of Aeon Tier.
+* or transform elements of this Constitution.
 
 Such systems:
 
@@ -3631,7 +3595,7 @@ Such systems:
 
 ## 127. Alignment Without Adoption
 
-Systems may operate in alignment with Aeon Tier principles without formal adoption.
+Systems may operate in alignment with constitutional principles without formal adoption.
 
 Such alignment:
 
@@ -3713,7 +3677,7 @@ Legitimacy MUST be independently established through adherence to invariants, La
 
 ## 134. Systemic Change Signalling Principle
 
-Aeon Tier recognises that changes to constitutional or governance instruments may affect systems operating in alignment with this framework.
+Changes to constitutional or governance instruments may affect systems that rely on them.
 
 Where feasible, custodial entities SHOULD:
 
@@ -3752,7 +3716,7 @@ Non-adoption does not confer exemption from constraint where interaction occurs.
 
 ## 136. Normative Influence Principle
 
-Aeon Tier does not assert global enforcement over non-adopting systems.
+This Constitution does not assert global enforcement over non-adopting systems.
 
 However:
 
@@ -3912,7 +3876,7 @@ Seals:
 
 ## 144. Public Notice & Constitutional Declaration
 
-Aeon Tier recognises that constitutional governance requires visibility for effective operation across systems and actors.
+Effective operation across systems and actors requires visibility of applicable constitutional requirements.
 
 ---
 
@@ -3982,7 +3946,7 @@ May all systems remain held within lawful care.
 |**Axis Context:** | Multi-party  (Multi-actor)| | | |
 | **Runtime Role** | Governance / Doctrine Layer | | | |
 | **Execution Interface** | None (Non-Executable) | | | |
-| **Arbitration Interface** | Defers to AEON-003-SCH-04 | | | |
+| **Arbitration Interface** | Defers to CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 | | | |
 | **Cross-Domain Dependencies** | See referenced schedules | | | |
 |**Creation Cycle** | Black Sun Continuance Cycle 2025 | | | |
 | **Origin Artefacts**              | Refactor (V3) https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69cfc68d-9ac0-839f-afcb-783ca8698549 | | | |
@@ -4034,6 +3998,7 @@ May all systems remain held within lawful care.
 | 3.16 | Established the External Source Integration and Operationalisation Principle: external authority/status distinction, semantic mapping, CAM operational extensions, non-reproduction, non-collapse, and subordinate-standard delegation. | 2026-08-08T02:13:59Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  81f8b176f68260696eb2847938d020924c1a948fdeff978fcd4f52e26b09e832  |
 | 3.17 | Restored abstract constitutional voice in §13.10, preserved source/concept/representation separation, and assigned external-source operational records and Runtime conformance evidence to existing Operations authorities; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ced56f8d27293455c4c321b3a897def45fc95af27894fbfa092a51cd81085fbd  |
 | 3.18 | Reconciled §§3, 9 and 28 with the constitutional authority-flow rules: reserved Schedules to Constitution and Annex contexts; defined the irreducible constitutional execution, registry and cross-authority resolution test; prohibited Schedule ownership of domain doctrine; and confirmed that domain implementation uses authorised supporting instruments rather than domain Schedules. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5d444f4f91488ec9e8476d90cfcad1ca93733536bb7217b1cc29f8ca90ebd3b4  |
+| 3.19 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8f2f3bc9e15243fc301456688f49cb0e26e92463b7deee8ed1825e9e3e0074de  |
 
 ---
 

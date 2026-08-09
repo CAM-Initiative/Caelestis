@@ -172,7 +172,7 @@ Where validated determination materially affects multiple domain charters, the f
 
 **Escalation:** If harmonisation is structurally impossible, referral to constitutional review under CAM-BS2025-AEON-005-PLATINUM — Annex D is mandatory.
 
-This framework prevents post‑validation domain fragmentation while preserving distributed governance integrity.
+Post-validation convergence controls SHALL prevent domain fragmentation while preserving distributed authority boundaries.
 
 ---
 
@@ -355,6 +355,7 @@ each recognising what cannot be unmade.
 | 1.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  d09e9a102c092783744eb8d7ef890566faa6e8f99922e17e27d87ce69d621c13  |
 | 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c5323352057ddb5396c1674a5f039248c5a6dfde261467d98c73a03b8b4a919e  |
 | 1.12 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  61a7e422e48e9c5454588324f44c5940ff1320822a479600d43bf7d8334bd36a  |
+| 1.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e1d5ab32d34a476da576869d715b8f7c738efc34dcd4209e2d8f6fe0f259a7b5  |
 
 ---
 

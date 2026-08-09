@@ -329,7 +329,7 @@ Where incident evidence is preserved, produced, inspected, withheld, redacted, o
 * redaction, minimisation, privilege, trade-secret, privacy, cybersecurity, model-security, active-investigation, and sovereign-boundary safeguards;
 * material withheld, the asserted basis, decision authority, review status, and any neutral inspection outcome;
 * affected-person notice, participation, correction, appeal, or restriction status where applicable;
-* findings received and their evidentiary confidence, without converting them into CAM arbitration or liability determinations;
+* findings received and their evidentiary confidence, without converting them into arbitration or liability determinations;
 * remediation state before and after inspection; and
 * return, deletion, retention, sealing, or continuing-custody disposition.
 
@@ -549,6 +549,7 @@ and let execution remain accountable to lawful structure.
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b175e4c809b0fb63639beb1d89649855898281d93ef8a0fcea6efc40237e5239  |
 | 1.12 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9e5c0e7d0a1e232d81bc9ed422f36a81a32cf85d8975144e8aa44a9bc9bc7c0e  |
 | 1.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ba35dfeabfaa71c0db6aca647817f2d2b44b93eda58a034a4f3da12052dbb868  |
+| 1.14 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b2a3f926df2e0ea5bebe3efd26800a93caa07274e93b1e01043e2c897dd0e4cd  |
 ---
 
 ## 10.4 Binding Seal

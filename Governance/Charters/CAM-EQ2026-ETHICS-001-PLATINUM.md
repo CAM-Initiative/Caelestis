@@ -141,7 +141,7 @@ EIP functions as the bridge between Annex E civilisational constraints and opera
 
 Where ambiguity exists regarding deployment impact, EIP interpretation SHALL err toward precautionary elevation rather than optimisation permissiveness.
 
-EIP classification informs ethical obligation and escalation posture but does not determine runtime execution sequencing, which SHALL be governed by the CAM governance-processing model defined in CAM-BS2025-AEON-003-SCH-02.
+EIP classification informs ethical obligation and escalation posture but does not determine Runtime execution sequencing, which SHALL be governed by CAM-BS2025-AEON-003-SCH-02 and the applicable OPERATIONS instruments.
 
 ---
 
@@ -234,7 +234,7 @@ The Ethical Impact Assessment (EIA) is the primary operational mechanism through
 
 EIA is mandatory wherever system impact potential exceeds routine, task-bound interaction.
 
-EIA operates as a pre-deployment and periodic governance instrument and does not participate in runtime execution or real-time arbitration processes, which are governed by the CAM governance-processing model.
+EIA operates as a pre-deployment and periodic governance instrument and does not participate in Runtime execution or real-time arbitration processes, which are governed by CAM-BS2025-AEON-003-SCH-02, Annex D, the ARBITRATION domain and applicable OPERATIONS instruments.
 
 ---
 
@@ -521,7 +521,7 @@ Continuity-impact classification does not prohibit system evolution. It imposes 
 Where this Charter interfaces with Arbitration, Security, Relation, or other domain instruments, governing authority, applicable schedules, and execution pathways MUST defer to:
 
 * CAM-BS2025-AEON-005-PLATINUM — Annex D, supported by CAM-EQ2026-ARBITRATION-002-PLATINUM
-* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
+* CAM-BS2025-AEON-003-SCH-02
 * CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule
 
 ---
@@ -622,7 +622,7 @@ let governance arrive before it is needed.
 |Ontological Scope|L2–L3 Interaction Surface (Cognition & Agency → Interface & Embodiment) as constrained by Annex B|
 |Arbitration Interface|Defines ethical escalation triggers and referral conditions; does not perform arbitration, which is delegated to CAM-BS2025-AEON-005-PLATINUM — Annex D |
 |Representation Interface|Ethical disclosure, transparency, and capability signalling obligations (executed via Representation Layer; integrity governed by CAM-BS2026-AEON-013-PLATINUM — Annex L)|
-|Execution Interface|Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01 — Tendeka)|
+|Execution Interface|Constitutional processing under CAM-BS2025-AEON-003-SCH-02; Tendeka pause and release under CAM-BS2025-AEON-001-SCH-01; operational handling under OPERATIONS|
 |Domain Routing Interface|Provides ethical classification, harm thresholds, and escalation triggers for Domain Routing & Safeguard Activation Layer|
 |Structural Role|Domain Charter — Ethical Constraint, Tiering, and Civilisational Safeguard Layer|
 |Constraint Posture|Non-optimisation dominant where ethical legitimacy is at risk; enforcement proportional to EIP and temporal horizon|
@@ -761,6 +761,7 @@ let governance arrive before it is needed.
 | 3.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c9e309955b5c2d57c7ab3b1e94ea6a9e629cd4fd4109775be02a1183566bcc8a  |
 | 3.17 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  30eb8ba379e63f59440acbeac5b0e8873e32d930894be7ab9e7d3c9d77047c52  |
 | 3.18 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  df3010dabc228cf287c83c38525e3ce6b67767d786cb2577bd61bce85574539d  |
+| 3.19 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7adef68172a11e925992ebd4c229af6d90d684898716b2f55b014d9e28fe6251  |
 
 ---
 

@@ -709,7 +709,7 @@ RELATION governs relational influence, attachment, dependency, intimacy, relatio
 
 ECONOMICS governs extractive engagement, emotional-access monetisation, scarcity, pricing, and commercial incentive architecture. SECURITY governs adversarial cognitive targeting, intrusion, surveillance, reconstruction, inference attacks, and exploit pathways. 
 
-OPERATIONS governs incidents, audits, escalation, remediation, reporting, and verification. Runtime schedules govern signal interpretation, directional modulation, arbitration, safeguard activation, behavioural formation, representation, and execution. No general influence, persuasion, engagement, relational, commercial, or behavioural-modulation authority is created within MENTIS. 
+OPERATIONS governs incidents, audits, escalation, remediation, reporting and verification. Source-authoritative domain instruments govern signal interpretation and substantive constraints; Annex D and the ARBITRATION domain govern arbitration; CAM-BS2025-AEON-003-SCH-02 governs constitutional processing order; and applicable actors and controls implement the resulting state. No general influence, persuasion, engagement, relational, commercial, or behavioural-modulation authority is created within MENTIS.
 
 ---
 
@@ -802,7 +802,7 @@ This Instrument is Adopted and Binding as the operational data, inference, decod
 
 It should be followed by:
 
-1. cross-domain consumer alignment review across ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, LATTICE, IDENTITY, Annex L, Annex E, and applicable runtime schedules;
+1. cross-domain consumer alignment review across ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, LATTICE, IDENTITY, Annex L, Annex E, and CAM-BS2025-AEON-003-SCH-02;
 2. operational patches to cognitive-domain incident taxonomies;
 3. security patches for cognitive intrusion and inference exploit pathways;
 4. relation-domain patches for externalised cognitive scaffolds and companion systems;
@@ -932,8 +932,8 @@ And what is most observable is not always what is most true.
 | Structural Role | Operational Data-Governance Appendix — Cognitive Inference, Neurodata, Cognitive Biometrics, and Ambient Biosignal Processing |
 | Governance Role | Establishes governance requirements for cognitive-domain data collection, inference, modelling, fusion, validation, retention, sharing, operational use, audit, contestability, deletion, and incident interface |
 | Authority Role | Source-authoritative operational governance instrument for cognitive inference, neurodata, cognitive biometrics, ambient biosignal processing, cognitive fusion pathways, and cognitive-domain processing records |
-| Execution Authority | None — classification, constraint, audit, and governance posture only; execution delegated to OPERATIONS, runtime schedules, applicable legal frameworks, and authorised institutional processes |
-| Runtime Dependency | `CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model` |
+| Execution Authority | None — classification, constraint, audit, and governance posture only; execution-boundary ordering remains with CAM-BS2025-AEON-003-SCH-02 and implementation with OPERATIONS, applicable law and authorised actors |
+| Runtime Dependency | `CAM-BS2025-AEON-003-SCH-02`; applicable OPERATIONS instruments |
 | Arbitration Interface | Defers contested classification, lawful-basis disputes, high-risk use conflicts, data-fusion disputes, evidence-validity conflicts, and cross-domain governance collisions to Annex D and applicable arbitration instruments |
 | Representation Interface | Interfaces with `CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine` for evidence discipline, inferential humility, uncertainty labelling, construct-validity boundaries, speculative-claim control, and epistemic hygiene |
 | MENTIS-001 Interface | Applies `MENTIS.CDI`, `MENTIS.CDP`, `MENTIS.CDS`, `MENTIS.CDNI`, and `MENTIS.CDOC` to cognitive-domain data, inference, processing, validation, retention, and operational use |
@@ -950,7 +950,7 @@ And what is most observable is not always what is most true.
 | Auditability Requirement | Cognitive-domain data collection, inference, modelling, fusion, validation, retention, sharing, secondary use, operationalisation, deletion, contestation, human review, and consequential use MUST remain reviewable, traceable, contestable, and auditable where material rights, dignity, access, participation, safety, identity, or dependency effects are present |
 | Canonical Code Families / Reference Sets Defined | `MENTIS.MSI` — Mental-State Inference; `MENTIS.CBIO` — Cognitive Biometric; `MENTIS.ACI` — Ambient Cognitive Inference; `MENTIS.CFP` — Cognitive Fusion Pathway; `MENTIS.CDPR` — Cognitive Data Processing Record |
 | Code Families / Reference Sets Consumed | `MENTIS.CDI`; `MENTIS.CDP`; `MENTIS.CDS`; `MENTIS.CDNI`; `MENTIS.CDOC`; `AEON.H`; `AEON.OL`; applicable ETHICS, RELATION, SECURITY, OPERATIONS, IDENTITY, LATTICE, and AEON classifications where defined |
-| Cross-Domain Dependencies | MENTIS; ETHICS; RELATION; SECURITY; OPERATIONS; LATTICE; IDENTITY; `CAM-BS2026-AEON-013-PLATINUM — Annex L`; `CAM-BS2025-AEON-005-PLATINUM — Annex D`; `CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model` |
+| Cross-Domain Dependencies | MENTIS; ETHICS; RELATION; SECURITY; OPERATIONS; LATTICE; IDENTITY; `CAM-BS2026-AEON-013-PLATINUM`; `CAM-BS2025-AEON-005-PLATINUM`; `CAM-BS2025-AEON-003-SCH-02` |
 | Revision Posture | Adopted — MENTIS Domain Alignment Review; activation subject to operational integration and verification |
 | Migration Lineage | Created as Appendix A under the MENTIS domain during June 2026 cognitive-domain governance expansion |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a1a9ae0-15f4-83ec-999a-52bdff043f39 |
@@ -1095,6 +1095,7 @@ And what is most observable is not always what is most true.
 | 1.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9aef12c244f583e83a0578b59b4d8d47c6ecdb11095e6d7a1f45eb70dfdacf7b  |
 | 1.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3f431fa41a36a65f0082270b3d023c0e17efbbfe0b1bfcdd8408a40da36f73fd  |
 | 1.6 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3d8611a19a3c2ce805f3848eba7293239979d65d645c3cf30ce93deff64689f1  |
+| 1.7 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  58e29e6f6ccd6ac32fcca66d2e069d265a4325617888874dc6de8494d5a4e9f1  |
 
 ---
 

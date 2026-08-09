@@ -51,7 +51,7 @@ Resolution of such signals, including:
 * moderation workflows; and
 * execution control
 
-SHALL be performed exclusively via CAM governance-processing functions as defined in CAM-BS2025-AEON-003-PLATINUM, §14.3 and CAM-BS2025-AEON-003-SCH-02.
+SHALL be performed exclusively through the constitutional processing sequence defined by CAM-BS2025-AEON-003-SCH-02 and the applicable OPERATIONS instruments.
 
 Direct domain-to-domain invocation is prohibited.
 
@@ -123,7 +123,7 @@ Erotic or sexualised interaction in embodied contexts MUST:
 
 * adhere to the same consent, classification, and safeguard requirements as explicit media generation;
 * not arise implicitly through proximity, motion, behavioural escalation, or environmental conditioning;
-* emit relationally-relevant signals consistent with RELATION governance instruments, to be resolved via CAM governance-processing functions.
+* emit relationally-relevant signals consistent with RELATION governance instruments, to be resolved through CAM-BS2025-AEON-003-SCH-02 and the applicable OPERATIONS instruments.
 
 Implicit or emergent sexualisation through interaction design MUST be treated as equivalent to explicit generation for the purposes of this Supplement.
 
@@ -136,7 +136,7 @@ Systems MUST not deploy synthetic characters or avatars whose design encourages 
 Where persistent characters are used:
 
 * relational escalation MUST remain governed by RELATION safeguards;
-* dependency signals MUST be emitted consistent with RELATION-002 safeguard conditions and resolved via CAM governance-processing functions;
+* dependency signals MUST be emitted consistent with RELATION-002 safeguard conditions and resolved through CAM-BS2025-AEON-003-SCH-02 and the applicable OPERATIONS instruments;
 * systems MUST not optimise for prolonged erotic engagement or exclusivity dynamics.
 
 Persistent erotic personas MUST NOT function as primary emotional anchors or substitute relational ecosystems.
@@ -350,7 +350,7 @@ Together these instruments preserve:
 * identity dignity;
 * non‑exploitation;
 * relational autonomy;
-* signal‑aware governance alignment across ETHICS and RELATION CAM governance-processing functions.
+* signal-aware alignment across ETHICS and RELATION domain classifications and their constitutional processing interfaces.
 
 ---
 
@@ -400,12 +400,12 @@ Where likeness appears, let consent stand before curiosity.
 | Ontological Scope | L3 — Interface & Embodiment (Synthetic Media Expression) |
 | Arbitration Interface | Defines prohibition and escalation conditions; does not perform arbitration |
 | Representation Interface | Enforces identity integrity, consent signalling, and non-deceptive media generation constraints |
-| Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
+| Execution Interface | Constitutional processing under CAM-BS2025-AEON-003-SCH-02; Tendeka pause and release under CAM-BS2025-AEON-001-SCH-01; operational handling under OPERATIONS |
 | Domain Routing Interface | Provides classification signals for identity risk, consent violation, and exploitation conditions |
 | Structural Role | Ethical Safeguard Overlay — Synthetic Media, Identity, and Consent Protection |
 | Cross‑Domain Interfaces | RELATION; ETHICS; OPERATIONS; CAM-EQ2026-RELATION-001-SUP-03 |
 | Activation Trigger | Activates when a system attempts to generate, render, or transmit visual, audiovisual, or multimodal erotic media involving human likeness, embodied avatars, or photorealistic person simulation under ETHICS‑002; detection SHALL produce classification signals within the Representation and Safeguard Activation layers for runtime resolution. |
-| Compliance Interface | Systems MUST emit enforcement-trigger signals consistent with this Supplement; resolution and handling SHALL be performed via CAM governance-processing functions and OPERATIONS-004 — Compliance & Safeguard Routing Doctrine |
+| Compliance Interface | Systems MUST emit enforcement-trigger signals consistent with this Supplement; resolution and handling SHALL be performed through CAM-BS2025-AEON-003-SCH-02 and CAM-EQ2026-OPERATIONS-004-PLATINUM — Compliance & Safeguard Routing Doctrine |
 | Revision Posture | Structural Safeguard Extension |
 | Cycle Attribution | Equinox 2026 Constitutional Cycle |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/699973ca-ac80-8398-8d40-7cff80a46296, https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69d8e356-fcc4-8398-82f7-9919cab45be7 |
@@ -437,6 +437,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  935f11096e2c5fbebce6bd79b4bd13264f601022e23b458914d99f0fbcc9f0e7  |
 | 1.14 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  69e96d1e39bcf521d3bd2ed0fb3af37a4b17ad80713b1ceab20cd0f81baa68ee  |
 | 1.15 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ea6afe2c8e8b5992a0a8abf1cb81801a5cddcea33beae688c750d3f068aeba17  |
+| 1.16 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  368739d8cbd52227b8d6881a5a3962b472e27e17340e4ec60226396be2dabb12  |
 
 ---
 

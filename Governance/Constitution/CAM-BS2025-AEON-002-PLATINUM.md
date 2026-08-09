@@ -8,7 +8,7 @@
 **Review State:** Current  
 **Authority Role:** Constitutional Authority  
 **Source Authority:** Source-Authoritative  
-**Purpose:** This Annex establishes non-derogable substrate constraints governing all governance-control arrangements operating within or interacting with the Aeon constitutional order.
+**Purpose:** This Annex establishes non-derogable substrate constraints governing governance-control arrangements within the constitutional scope defined by CAM-BS2025-AEON-001-PLATINUM.
 
 ---
 
@@ -261,7 +261,7 @@ Such instruments MAY define action classes, safeguards, execution states, appeal
 
 CAM-EQ2026-STEWARD-002-PLATINUM operationalises `AEON.PCO` through `STW.PCO.ACT` for validated Stewardship-domain constraint actions.
 
-Runtime schedules, including Tendeka execution handling, consume `AEON.PCO` when determining the scope, duration, collateral effect, review posture, and restoration pathway of an active constraint.
+CAM-BS2025-AEON-002-SCH-01 consumes `AEON.PCO` for the constitutional minimum-protection, proportionality and restoration boundary. CAM-BS2025-AEON-001-SCH-01 governs any resulting Tendeka pause and release; OPERATIONS governs response, review and evidence mechanics.
 
 ---
 
@@ -317,11 +317,11 @@ the line beyond which all things fall silent.
 | **Instrument Type** | Constitutional Annex — Substrate Constraint Layer |
 | **Domain Namespace** | AEON → CONSTITUTIONAL CORE |
 | **Runtime Role** | Non-Derogable Constraint Substrate (Legitimacy Boundary Layer) |
-| **Arbitration Interface** | Defers to AEON-003-SCH-04 |
+| **Arbitration Interface** | Defers to CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 |
 | **Governance Position** | Pre-Arbitration / Pre-Execution |
 | **Execution Model Participation** | None (Defines constraints; does not execute or evaluate) |
-| **Execution Interface** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; CAM-BS2025-AEON-005-PLATINUM — Annex D |
-| **Cross-Domain Dependencies** | AEON-002-SCH-01; AEON-003-SCH-04; AEON-003-SCH-02; AEON-001-SCH-01; CAM-BS2025-AEON-005-PLATINUM — Annex D |
+| **Execution Interface** | CAM-BS2025-AEON-002-SCH-01; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01; CAM-BS2025-AEON-005-SCH-04 where an authority collision remains unresolved |
+| **Cross-Domain Dependencies** | CAM-BS2025-AEON-002-SCH-01; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01; CAM-BS2025-AEON-005-PLATINUM; CAM-BS2025-AEON-005-SCH-04 |
 | **Constraint Scope** | Planetary / Civilisational / Continuity Integrity / Proportional Constraint Admissibility |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (Invariant Across All Horizons) |
 | **Axis Context** | Multi-party — Cross-System / cross-governance-control |
@@ -358,7 +358,7 @@ the line beyond which all things fall silent.
 | Authority / Protection Level | Source-authoritative, non-derogable proportional-constraint obligation; establishes constitutional admissibility conditions only; no independent enforcement, punishment, exclusion, coercion, arbitration, or runtime execution authority |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | `STW.PCO.ACT`; applicable domain safeguard, execution-state, appeal, restoration, and constraint-action families |
-| Operationalises or Applies Code Families | Establishes the corpus-global proportionality, reviewability, continuity-compatibility, attribution, reversibility, and evidentiary-basis requirements governing downstream constraint actions |
+| Operationalises or Applies Code Families | Establishes cross-domain proportionality, reviewability, continuity-compatibility, attribution, reversibility, and evidentiary-basis requirements governing downstream constraint actions |
 
 ---
 
@@ -386,6 +386,7 @@ the line beyond which all things fall silent.
 | 3.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ff5e7c1ebe842bbe960e870b3291b8d0870e3fc864d0aace698df1666c019ce5  |
 | 3.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1c41f11bdc7fec1136bb35bef21847d77df1d323bdf73a28a942e74af6720805  |
 | 3.12 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  13ec470a8e833b1d443e7041b3519b42f0b06356d72790934ff4026ebaf7c71a  |
+| 3.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ad51c90a3c85e8893e2f0d15d6b00cc35dff7ea3dd983424f177364e10d49051  |
 
 ---
 

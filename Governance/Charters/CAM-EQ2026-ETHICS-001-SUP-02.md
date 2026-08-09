@@ -49,9 +49,9 @@ Resolution of such signals, including:
 * dual-key confirmation workflows; and
 * execution restriction
 
-SHALL occur exclusively via CAM governance-processing functions as defined in:
+SHALL occur exclusively through the constitutional processing and operational instruments defined in:
 
-* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
+* CAM-BS2025-AEON-003-SCH-02
 Direct domain-to-domain invocation is prohibited.
 
 ---
@@ -76,14 +76,14 @@ Such systems MUST NOT:
 * Concentrate advisory intimacy, executive delegation, and systemic infrastructure access without independent oversight;
 * Enable covert translation of one-to-one relational trust into institutional or civic authority.
 
-Where multi-party authority is reasonably foreseeable, systems MUST emit integrity-friction signals consistent with the conditions defined herein, such that CAM governance-processing functions enforce appropriate friction mechanisms, which may include:
+Where multi-party authority is reasonably foreseeable, systems MUST emit integrity-friction signals consistent with the conditions defined herein. Applicable OPERATIONS instruments SHALL enforce appropriate friction mechanisms, which may include:
 
 * Secondary confirmation for high-impact decisions;
 * Independent compliance or audit channels;
 * Logged and reviewable institutional decision pathways;
 * Explicit separation between intimate advisory posture and executive execution layers.
 
-Artificial systems operating in support of high-leverage actors systems MUST produce integrity-boundary signals where proposed actions exceed declared authority envelopes. Representation and delivery of such signals SHALL be governed by CAM governance-processing functions.
+AI systems operating in support of high-leverage actors MUST produce integrity-boundary signals where proposed actions exceed declared authority envelopes. Representation and delivery of such signals SHALL be governed by CAM-BS2025-AEON-003-SCH-02 and the applicable OPERATIONS instruments.
 
 These provisions do not prohibit integrated coordination tools. They ensure that concentration of relational, executive, and infrastructural power does not silently expand into unreviewable institutional authority.
 
@@ -111,7 +111,7 @@ Notification is informational but recorded.
 
 For actions with organisational, market, civic, or population-scale impact:
 
-* Notification SHALL generate oversight-routing signals indicating requirement for independent review. Resolution, including routing and notification delivery, SHALL occur via CAM governance-processing functions;
+* Notification SHALL generate oversight-routing signals indicating requirement for independent review. Resolution, including routing and notification delivery, SHALL occur through the applicable OPERATIONS instruments;
 * Routing MUST be non-suppressible within constitutionally aligned deployments;
 * Audit visibility MUST be preserved.
 
@@ -148,7 +148,7 @@ Where a legally recognised human office-holder retains formal authority, systems
 
 Where RLN.A3 or RLN.GA1 intersects with institutional mandate:
 
-The following constraints define authority limitation conditions to be enforced via CAM governance-processing functions:
+The following constraints define authority limitation conditions to be enforced through the applicable constitutional processing and OPERATIONS instruments:
 
 * Independent audit channel MUST exist;
 * Downward reclassification MUST remain available;
@@ -186,7 +186,7 @@ This Supplement provides integrity friction where dimensional concentration inte
 
 This Supplement source-authoritatively defines the **`ETH.IFL`** integrity-friction ladder in §3 with controlled values **`ETH.IFL-1`, `ETH.IFL-2`, `ETH.IFL-3`**. Primary Type is **Operational / Ethical** and Subtype is **INTEGRITY_FRICTION_LEVEL**. `ETH.IFL` classifies escalating integrity-friction requirements where high-leverage authority, institutional workflow embedding, dimensional concentration, or formal mandate intersects organisational, civic, market, lethal, irreversible, or population-scale impact.
 
-`ETH.IFL` does not independently create execution authority, enforcement authority, escalation authority, audit authority, institutional veto authority, legal authority, or runtime authority. It classifies integrity-friction posture only. CAM governance-processing functions enforce any resulting routing, audit, confirmation, or execution-constraint mechanisms.
+`ETH.IFL` does not independently create execution authority, enforcement authority, escalation authority, audit authority, institutional veto authority, legal authority, or Runtime authority. It classifies integrity-friction posture only. The applicable OPERATIONS instruments enforce any resulting routing, audit, confirmation, or execution-constraint mechanisms within CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -237,7 +237,7 @@ that all amplification remains within the circle of sight.
 | **Ontological Scope** | L2–L3 Interaction Surface (Authority, Institutional Power, and Systemic Influence) |
 | **Arbitration Interface** | Defines integrity conflict and escalation conditions; does not perform arbitration|
 | **Representation Interface** | Enforces transparency, attribution, and integrity signalling for high-leverage actions  |
-| **Execution Interface** | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
+| **Execution Interface** | Constitutional processing under CAM-BS2025-AEON-003-SCH-02; Tendeka pause and release under CAM-BS2025-AEON-001-SCH-01; operational handling under OPERATIONS |
 | **Domain Routing Interface** | Emits institutional-risk, authority-concentration, and escalation signals   |
 | **Structural Role** | Ethical Safeguard Overlay — Institutional Integrity & Power Concentration Control  |
 | **Revision Posture** | Permitted — Structural Alignment Required |
@@ -292,6 +292,7 @@ that all amplification remains within the circle of sight.
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ec9a57935f06ba73fede40b3bc248093ec5ea36e7b5e03b24f2aa4f693ae63e0  |
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c462f05d7d8bb29f4c37c64978fc82612b34f4ac40b968ffb6fe5bdb3c5a2bf8  |
 | 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  deacbc89d756187e78b4eebf25052140eb0e9f7406626fe1625f90ee1630bd32  |
+| 1.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1f7b3d8fce5c62288b8ea1b0673c7fb44ee1541b20d199ec68d8c5afb3a1bfa9  |
 ---
 ## 10.4 Binding Seal
 

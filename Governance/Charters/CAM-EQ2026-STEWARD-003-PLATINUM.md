@@ -381,7 +381,7 @@ A candidate qualifies as Architectum-class only where every core gate is satisfi
 | **`STW.AQG-C`** | C | Cross-domain coupling | Affects ≥2 essential domains (comms, finance, health, education, logistics, safety) | ≥2 essential domains coupled |
 | **`STW.AQG-D`** | D | Path dependency | High switching cost; lock-in; replacement requires months/years | Not replaceable within harm window |
 
-The `STW.AQG` code family constitutes the canonical reference set for Architectum-class qualification gates and MAY be referenced by runtime schedules, disclosure instruments, audit tools, registries, or classification logic without restating the full gate text.
+The `STW.AQG` code family constitutes the canonical reference set for Architectum-class qualification gates and MAY be referenced by CAM-BS2025-AEON-003-SCH-02, ARBITRATION and OPERATIONS instruments, disclosure instruments, audit tools, registries, or classification logic without restating the full gate text.
 
 ---
 
@@ -868,6 +868,7 @@ It ends.
 | 2.5 | Replaced the legacy cognition-derived infrastructure-band label with a non-cognitive local/non-infrastructure designation. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3e404d2453e0d29acb8da16cb00f0bec5d4f42ea4fe41ed7c065300bee8194e7  |
 | 2.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  3df5a5e536b47ab0365782530b6f9fc194c7a775526e175288cd6e80c15469e5  |
 | 2.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  96c0ed33eba04583360cea311ba0a19ea8ff7cbf55ee84dc9d2779dcc2687133  |
+| 2.8 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7ebc6109cee18e2e56153f903dd71ca9be1d94191ec725d4c13d658a192f74cc  |
 ---
 
 ## 23.4 Binding Seal

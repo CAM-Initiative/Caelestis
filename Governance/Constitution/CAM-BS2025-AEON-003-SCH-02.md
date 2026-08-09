@@ -15,7 +15,7 @@
 
 ## 1. Scope
 
-This Schedule defines only the constitutionally material ordering of the CAM governance-processing model. It does not define domain doctrine, classifiers, behavioural preparation, tools, operator procedure, logging fields or implementation architecture.
+This Schedule defines only the constitutionally material ordering of the formal CAM governance-processing model. It does not define domain doctrine, classifiers, behavioural preparation, tools, operator procedure, logging fields or implementation architecture.
 
 ## 2. Constitutional processing spine
 
@@ -55,7 +55,7 @@ The constitutional record need identify applicable authorities, the authority ou
 |------|------|
 | **Parent Instrument** | CAM-BS2025-AEON-003-PLATINUM |
 | **Constitutional Authority** | CAM-BS2025-AEON-001-PLATINUM — Article IV (Governance Execution Model); Article V (Execution Constraint / Tendeka) |
-| **Instrument Type** | Constitutional Schedule — Runtime Governance Execution Model |
+| **Instrument Type** | Constitutional Schedule — Runtime Governance Processing Model |
 | **Domain** | AEON |
 | **Functional Role** | Execution Sequencing Authority (Non-Layer Temporal Governance) |
 | **Execution Layer Binding** | Non-Layer (Execution Model) |
@@ -137,6 +137,7 @@ The constitutional record need identify applicable authorities, the authority ou
 | 3.17 | Replaced the retired machine-civil-identity dependency with exact provenance, continuity, lifecycle-actor, component, deployment, and Runtime evidence interfaces; retained the non-inference and execution-boundary rules; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  edffaf7377959259b20574a372c1e8126df4996488f55a8b47144f8b48bf613d  |
 | 3.18 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  dc7563ca690f6184bdbbef11c982be8d2c215b661fec6a8e1068630510009b37  |
 | 3.19 | Applied S-01B clause-level irreducibility decomposition: retained only the constitutional trigger, precedence, sequencing, non-derogation and evidence/referral interface; descended domain and operational doctrine. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a485e822786004e96efb5502febb40b86ef80e043af4938fb3b99c7e999161d3  |
+| 3.20 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  47ca79b2a65f4ec287866f71ef21339998c827851b11432fec3b6c1c2f49287f  |
 
 ---
 

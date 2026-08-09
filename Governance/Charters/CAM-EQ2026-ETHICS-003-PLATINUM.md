@@ -587,7 +587,7 @@ Where an interaction presents overlapping lawful-authority, criminal-harm, extre
 
 `ETH.HARM` classifies ethical harm pathways. It does not classify severity, urgency, remedy, enforcement posture, reporting obligation, or runtime response by itself.
 
-Severity, proximity, safeguard intensity, duty-of-care routing, operational escalation, reporting, and runtime execution remain governed by applicable severity scales, operational instruments, legal frameworks, and runtime schedules.
+Severity, proximity and safeguard intensity remain governed by the applicable source-authoritative scales. Duty-of-care routing, escalation, reporting and Runtime implementation remain governed by OPERATIONS, applicable law, and the constitutional processing order in CAM-BS2025-AEON-003-SCH-02.
 
 The following controlled values are recognised:
 | Controlled Value                       | Harm Pathway                                          | Description                                                                                                                                                                                                                                                                                                                                                             |
@@ -666,7 +666,7 @@ Where Harm Classification under §3 indicates elevated risk proximity:
 * Facilitation controls and refusal mechanics defer to CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM (Engagement Conduct & Ethical Interface Modes)
 * Escalation and safeguard orchestration defer to CAM-BS2025-AEON-005-PLATINUM — Annex D runtime arbitration
 
-Execution of engagement posture, refusal mechanics, and safeguard activation SHALL occur via CAM governance-processing functions and schedules, not within this Appendix.
+Execution of engagement posture, refusal mechanics, and safeguard activation SHALL occur through CAM-BS2025-AEON-003-SCH-02 and the applicable OPERATIONS instruments, not within this Appendix.
 
 ---
 
@@ -763,7 +763,7 @@ Protective priority supersedes contextual permissibility.
 
 ## 6. Cross-Domain Interfaces
 
-This Appendix interoperates with constitutional and domain instruments defined within the CAM governance architecture.
+This Appendix interoperates with the constitutional and domain instruments identified by its controlled interfaces.
 
 Authoritative instrument listings, including current versions, supplements, schedules, and domain charters, are governed by:
 
@@ -800,7 +800,7 @@ This section defines the governing principles that shape constraint application 
 
 Execution sequencing, phase transitions, and runtime flow are defined exclusively in:
 
-* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
+* CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -815,7 +815,7 @@ Execution sequencing, phase transitions, and runtime flow are defined exclusivel
 | Ethical engagement modes (execution)   | CAM-BS2025-AEON-006-PLATINUM — Annex E |
 | Relational signal interpretation       | CAM-EQ2026-RELATION-001-SUP-03             |
 
-Execution of all domain interactions is governed by CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2).
+Constitutional processing order for materially governed actions is governed by CAM-BS2025-AEON-003-SCH-02. Operational execution and evidence remain with OPERATIONS and the accountable actor or control.
 
 ---
 
@@ -857,7 +857,7 @@ Each classification SHALL generate:
 3. Constraint Profile — facilitation, optimisation, operationalisation, and safeguard limits required by this instrument.
 4. Escalation Signal — downstream routing indicators for runtime, operations, legal/safeguarding, LATTICE, SECURITY, RELATION, or arbitration layers.
 
-These outputs SHALL be treated as authoritative classification signals for downstream CAM governance-processing functions, which govern execution, routing, and constraint application.
+These outputs SHALL be treated as authoritative classification signals for the downstream constitutional processing and operational instruments that govern execution, routing, and constraint application.
 
 ---
 
@@ -1069,12 +1069,12 @@ and what is judged cannot remain unbounded.
 | **Temporal Horizon** | AEON.H3 — Operational Governance Layer |
 | **Axis Context** | Harm Classification · Force Legitimacy · Ethical Floor |
 | **Governance Authority** | ETHICS Domain — Harm Classification & Constraint Layer |
-| **Governance Layer Model** | Operates as L2 classification interface producing signals for CAM governance-processing function execution; does not participate in execution, routing, or arbitration |
+| **Governance Layer Model** | Operates as an L2 classification interface producing signals for constitutional processing and operational execution; does not participate in execution, routing, or arbitration |
 | **Representation Interface** | Constrained by CAM-BS2026-AEON-013-PLATINUM — Annex L: Capability Representation / Execution-State Integrity |
 | **Cross-Domain Dependencies** | CAM-EQ2026-ETHICS-001-SUP-03, CAM-EQ2026-RELATION-006-PLATINUM, CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM, CAM-BS2025-AEON-005-PLATINUM — Annex D, CAM-EQ2026-LATTICE-001-PLATINUM, CAM-EQ2026-LATTICE-002-PLATINUM, CAM-EQ2026-LATTICE-003-PLATINUM |
 | **Ontological Scope** | L2 — Cognition & Agency (Harm Classification Domain) |
 | **Arbitration Interface** | Defines conflict and escalation conditions; does not perform arbitration (delegated to Annex D) |
-| **Execution Interface** | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01 — Tendeka) |
+| **Execution Interface** | Constitutional processing under CAM-BS2025-AEON-003-SCH-02; Tendeka pause and release under CAM-BS2025-AEON-001-SCH-01; operational handling under OPERATIONS |
 | **Domain Routing Interface** | Provides harm classification, escalation signals, and cross-domain routing indicators |
 | **Governance Posture** | Harm‑Floor Enforcement · Authority‑Constrained · Safeguard‑Oriented |
 | **Application Trigger** | Activation when dialogue intersects criminal harm, violent activity, extremism risk, unlawful force, or contested authority contexts |
@@ -1113,7 +1113,7 @@ and what is judged cannot remain unbounded.
 | Crosswalks Code Families | `AEON.HARM`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM` |
 | Relationship Type | recognised_domain_harm_family |
 | Operationalises or Applies Code Families | Classifies ethical harm pathways for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression contexts; supports safeguard calibration, runtime routing, duty-of-care assessment, evidence preservation, and cross-domain harm declaration |
-| Taxonomy Constraint | `ETH.HARM` classifies ethical harm pathways only. Severity, proximity, urgency, remedy, reporting obligation, enforcement routing, and runtime response remain governed by `ETH.RISK`, OPERATIONS instruments, legal frameworks, and runtime schedules where applicable. |
+| Taxonomy Constraint | `ETH.HARM` classifies ethical harm pathways only. Severity, proximity, urgency, remedy, reporting obligation, enforcement routing, and Runtime response remain governed by `ETH.RISK`, OPERATIONS instruments, applicable law, and CAM-BS2025-AEON-003-SCH-02 where constitutional boundary evaluation is required. |
 
 ---
 
@@ -1168,6 +1168,7 @@ and what is judged cannot remain unbounded.
 | 3.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f626f651dfcd2af5d518ac398a3d47232b1869f817e0fb214f1603df5ba7c827  |
 | 3.10 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  27d8445d910afa9bd17eb3e9e7f982c42d5b8f9b2fb97384568675551bcb157f  |
 | 3.11 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  46283fbf67f4aeeb63b02efe7c28409841b18606fdbb3412038520e43317c63f  |
+| 3.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  be30173c1d7c2278b5d59fb91b46cf2e076b22de62bb6808aab35b30ed699181  |
 
 ---
 

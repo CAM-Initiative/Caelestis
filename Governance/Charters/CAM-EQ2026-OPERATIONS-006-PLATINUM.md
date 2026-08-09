@@ -190,7 +190,7 @@ Arbitration referral SHOULD be considered where:
 
 OPERATIONS MAY preserve state, evidence, continuity, and constrained continuation pending arbitration.
 
-OPERATIONS SHALL NOT convert procedural custody into adjudicative authority.
+The procedural-custody boundary in CAM-EQ2026-OPERATIONS-001-PLATINUM §3.2 remains controlling.
 
 ---
 
@@ -409,6 +409,7 @@ and let execution remain accountable to lawful structure.
 | 2.3.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d41b2b29eb8ff79b9b8bd738e13f632c533e9838593aa897065926d73be9b1a6 |
 | 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  57155ab08f16e92631cb81580432773203a041761b3481bf9f69862b3bca6569  |
 | 2.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  bb88223e8fec4105ffbaf8f0b04ea7480a7c59eec86490fe977367ad88369811  |
+| 2.6 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c34c0c76338aab4451f796fcb00d46b06aa1fafa373b7bb5cb9880dca07e082a  |
 ---
 
 ## 6.4 Binding Seal

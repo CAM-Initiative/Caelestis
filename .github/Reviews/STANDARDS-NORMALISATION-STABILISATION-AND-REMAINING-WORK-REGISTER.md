@@ -26,7 +26,7 @@ The branch has added or materially developed the canonical AI-system architectur
 | F-015 — operative identity doctrine depends on a non-operative supplement | All current references to IDENTITY-001-SUP-03 have been removed; operative owners now govern identity–ontology separation, evidence, uncertainty and recipient protection. | Complete | Identity, Continuity, MENTIS, Relation, Annexes I/L and affected schedules; only historical ledger occurrences remain. |
 | F-016 — identity doctrine presents an internal construct as established system property | Identity and continuity claims are evidence-bound and cannot establish phenomenology, personhood or authority; the speculative draft is retired. | Complete for the identified dependency; broader evidentiary audit remains | IDENTITY-001; Annexes I/L; remaining-work item O-02 below. |
 | F-017 — metadata categories are misused | The controlled contract now governs the entire operative corpus; authority, source and parent lineage are migrated and strictly validated. | Complete | Metadata standard; authority-chain closure review; strict post-rebuild audit. |
-| F-018 — undefined constitutional-order framing | The principal source-authority instruments were normalised, but a corpus-wide narrative-orientation sweep remains necessary after metadata migration. | Partial | Current terminology audits; remaining-work item O-03 below. |
+| F-018 — undefined constitutional-order framing | The operative corpus has been swept after S-03; project-as-actor narration, convenience modifiers and overbroad constitutional-order claims were repaired, with formal, historical, technical-platform and manifest-sealed Law residue expressly classified. | Complete for O-03 scope | `O-03-SEMANTIC-AND-NARRATIVE-ORIENTATION-REVIEW.md`; current terminology and reference validations. |
 | F-026 — research/draft policy shares operative namespace | Draft boundary was established; all remaining draft instruments are now retired and no speculative consciousness instrument remains in Governance. | Complete | `Governance/Drafts/README.md`; draft disposition table below. |
 | Canonical AI-system architecture terminology | Annex B owns the object model; consumers use system baseline → deployment → Runtime snapshot → execution provenance. | Complete for guarded terms | `PASS-4-BATCH-E-CANONICAL-AI-SYSTEM-ARCHITECTURE-DECISION.md`; terminology validator. |
 | Retired cognitive/composed-system terminology | No current operative use; historical ledgers and Laws are permissible exclusions. | Complete for current normative prose | `PASS-4-ZERO-CURRENT-USE-EXCEPTION-REGISTER.md`. |
@@ -68,15 +68,15 @@ Git history is the provenance record for every retired draft. No draft was reloc
 |---|---|---|---|
 | O-01 | Complete the bounded logging review: material lifecycle events, retention, integrity, access, confidentiality, incident preservation and proportionality. | F-025; current Runtime records do not by themselves close logging governance. | High |
 | O-02 | Audit identity evidentiary claims beyond the retired-draft dependency for unsupported inference, claimant/assessor separation, competent-review language and irreversible-action boundaries. | F-016 is repaired at the identified interface, but corpus-wide evidentiary consistency has not been independently proven. | High |
-| O-03 | Perform a corpus-wide semantic and narrative-orientation sweep after metadata migration, excluding amendment ledgers and formal titles/identifiers. | Touched prose is repaired; untouched prose still contains framework/project self-description and undefined constitutional-order residue. | Medium |
+| O-03 | Perform a corpus-wide semantic and narrative-orientation sweep after metadata migration, excluding amendment ledgers and formal titles/identifiers. | **Complete.** All 88 operative instruments were searched and semantically adjudicated after S-03. Invalid project/framework actors, convenience modifiers, bounded-authority defects and non-archival retired terminology were repaired; permissible residue and V-03 design are recorded in `O-03-SEMANTIC-AND-NARRATIVE-ORIENTATION-REVIEW.md`. | Closed |
 
 ### 5.2 Structural / authority defects
 
 | ID | Remaining work | Evidence / boundary | Priority |
 |---|---|---|---|
 | S-01 | Adjudicate the remaining constitutional schedules against their parents and delegated authority; remove procedural or domain-doctrine overreach. | **Complete only with S-01B.** The instrument-level S-01 result was reopened for clause-level irreducibility review. Of the 23 Schedules then current, 7 were retained and materially decomposed and 16 were consolidated/retired. Registry contracts now reside in the Governance Metadata Standard and OPERATIONS-001-SUP-04; domain and operational doctrine resides with existing source authorities. See `S-01B-CONSTITUTIONAL-SCHEDULE-CONTENT-DECOMPOSITION-REGISTER.md`. | Closed by S-01B |
-| S-02 | Establish the bounded assurance and conformance contract: competent issuer, claim scope, evidence minimum, assessment method, validity, renewal, withdrawal and non-certification language. | F-024; OPERATIONS-007 now supplies evidence inputs but does not own every assurance conclusion. | High |
-| S-03 | Review repeated execution-boundary, arbitration and operational-procedure formulas for consolidation into exact owner references. | Pass 2 source-authority map identifies compatible but excessive repetition. | Medium |
+| S-02 | Establish the bounded assurance and conformance contract: competent issuer, claim scope, evidence minimum, assessment method, validity, renewal, withdrawal and non-certification language. | **Open / on hold.** F-024 remains; OPERATIONS-007 supplies evidence inputs but does not own every assurance conclusion. This package made no S-02 closure claim. | High — On hold |
+| S-03 | Review repeated execution-boundary, arbitration and operational-procedure formulas for consolidation into exact owner references. | **Complete.** Source owners, local applications, semantic duplicates and contradictions are recorded in `S-03-EXECUTION-ARBITRATION-AND-PROCEDURE-CONSOLIDATION.md`; exact consumers now preserve domain, constitutional, arbitration and operational authority boundaries. | Closed |
 
 ### 5.3 Metadata / provenance disposition
 
@@ -93,7 +93,7 @@ Git history is the provenance record for every retired draft. No draft was reloc
 |---|---|---|---|
 | V-01 | Move the metadata/source-authority audit to strict enforcement only after the migration and exception register reach zero. | **Complete.** The audit reports zero exceptions and the workflow now invokes strict mode without an auto-migration or waiver step. | Closed |
 | V-02 | Add deterministic validation for external-source record completeness and conformance-language claims if machine-readable records are introduced. | OPERATIONS-001-SUP-04 §8.4 establishes the contract but this pass does not invent a registry or schema prematurely. | Medium |
-| V-03 | Extend semantic-orientation guards for project/framework names used as normative actors while excluding titles, identifiers, provenance and ledgers. | Existing terminology guards do not fully express the grammatical-actor rule. | Medium |
+| V-03 | Extend semantic-orientation guards for project/framework names used as normative actors while excluding titles, identifiers, provenance and ledgers. | **Design complete; implementation open.** O-03 records candidate rules, exclusions, Unicode normalization and false-positive risks. A regex-only blocking implementation was not added because Markdown-aware section classification is required. | Medium |
 | V-04 | Keep generated indexes and registries source-derived and verify that draft exclusion, authority metadata and canonical-code projections remain synchronized. | **Complete.** The S-01B registry-pipeline closure moved all current automation to the two root-level generated projections, removed retired-Schedule inference/exemption logic, enforces operative metadata selection, and covers Standards and `Governance/CAM.*` paths symmetrically for push and pull-request rebuilds. | Closed |
 | V-05 | Resolve the 27 non-blocking canonical-declaration generator warnings: unsupported identifier fields, one nonstandard heading, and malformed declaration rows. | Canonical-code generation completes and symbolic validation passes, but warnings identify legacy declaration shapes that are not yet machine-uniform. | Medium |
 
@@ -112,25 +112,29 @@ The following are not current normative defects:
 
 ## 6. Recommended next bounded work package
 
-S-01B and its registry/validator pipeline closure close the Schedule-surface stabilisation prerequisite. Reconsider **S-02 — Assurance and Conformance Contract** as the next bounded package only against the seven surviving, materially decomposed Schedules and the relocated registry/domain/operations authorities recorded by S-01B.
+S-03 and O-03 close the execution/arbitration consolidation and narrative-orientation package. The next bounded sequence is:
 
-Do not combine S-02 with O-01, O-02 or O-03.
+1. **O-01** — bounded logging review;
+2. **O-02** — identity evidentiary-claims audit; and
+3. **V-05** — legacy canonical-declaration warning repair.
+
+S-02 remains open and on hold. Do not combine it with O-01 or O-02. M-03B and V-03 implementation also remain independently open.
 
 ## 7. Validation record
 
-The deterministic rebuild was run twice. The complete working diff had the same SHA-256 before and after the second run, confirming idempotency. Generated Constitution, Charter, Law, global-governance and canonical-code outputs were inspected; none exposes a retired draft identifier as current operative content, and no new canonical code family was introduced.
+The deterministic rebuild was run twice after the final current-prose repair. The ordered generated-output set had SHA-256 `8ab513452670f556145ed714537ec1207a4e1777edbc40f44d5c53bd35eae967` before and after the second run, confirming idempotency. Generated Constitution, Charter, Law, global-governance and canonical-code outputs were inspected; none exposes a retired draft identifier as current operative content, and no new canonical code family was introduced.
 
 | Validation | Result |
 |---|---|
-| Amendment Ledger lint and strict SHA coverage | Pass; 80 Constitution/Charter instruments checked, 1,403 valid historical SHA rows, 80 valid latest SHA rows, no blank latest rows and no invalid or rejected SHA rows. |
+| Amendment Ledger lint and strict SHA coverage | Pass; 80 Constitution/Charter instruments checked, 1,458 valid historical SHA rows, 49 recognised historical-null rows, 80 valid latest SHA rows, no blank latest rows and no invalid or rejected SHA rows. Law manifest integrity also passes. |
 | Canonical headers | Pass; 84 governed files, zero issues. |
-| Canonical architecture terminology | Pass; 6 canonical-source contracts across 114 operative artefacts. |
-| Markdown section references | Pass; 1,101 references, 905 passed, 196 historical-ledger references ignored, zero hard failures or manual-review references. |
+| Canonical architecture terminology | Pass; 6 canonical-source contracts across 100 operative artefacts. |
+| Markdown section references | Pass; 1,116 references, 919 passed, 197 historical-ledger references ignored, zero hard failures or manual-review references. |
 | Draft boundary | Pass; 0 draft instruments and 8 operative generated outputs checked. |
 | AI-BOM and Runtime State profiles | Pass; canonical, exchange and mapping examples validate. |
-| Symbolic/index validation | Pass; no errors. Canonical-code generation retains 27 non-blocking legacy declaration-shape warnings recorded as V-05. |
-| Script tests | Pass; 138 tests. |
+| Symbolic/index validation | Pass; no warnings or errors. Canonical-code generation retains 24 non-blocking legacy declaration-shape warnings recorded as V-05: 17 missing supported identifier fields, 1 nonstandard heading and 6 malformed declaration rows. |
+| Script tests | Pass; 138 tests through the repository's fixture-compatible runner because `pytest` is not installed in the working environment. |
 | Metadata/source-authority audit | Closed: 88 operative instruments scanned; zero instruments with issues; zero issues. Strict enforcement is enabled. |
-| Registry pipeline | Pass; exactly seven constitutional Schedules and 84 operative source instruments are projected; retired registry Schedules are absent from current indexes; two consecutive rebuilds produced the same state hash. |
+| Registry pipeline | Pass; exactly seven constitutional Schedules and 84 Constitution/Charter/Law source instruments are projected; the four operative Standards are included in the metadata/source-authority audit; retired registry Schedules are absent from current indexes; two consecutive rebuilds produced the same state hash. |
 | Narrative-orientation residue | Exact current-prose checks find no `Caelestis SHALL`, `Caelestis MAY`, `CAM SHALL`, `CAM MAY define`, or `CAM operational extension`; the last phrase remains only in the historical AEON-001 amendment ledger. |
 | Retired draft dependencies | Current operative prose contains none; remaining identifiers occur only in historical amendment-ledger rows and review/disposition records. |

@@ -8,7 +8,7 @@
 **Review State:** Current  
 **Authority Role:** Domain Authority  
 **Source Authority:** Source-Authoritative  
-**Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order.  
+**Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the constitutional scope defined by CAM-BS2025-AEON-001-PLATINUM and Annex D.
 
 ---
 
@@ -21,7 +21,7 @@ This Charter defines **what constitutes valid arbitration** and applies wherever
 * legitimacy of decision pathways MUST be determined;
 * cross-system, cross-governance-control, or multi-actor interactions require coherent resolution.
 
-Unless otherwise specified, all obligations (MUST/SHALL/SHOULD) apply to any system, actor, or governance body asserting or performing arbitration within the CAM Constitutional Order.
+Unless otherwise specified, all obligations (MUST/SHALL/SHOULD) apply to any system, actor, or governance body asserting or performing arbitration within that constitutional scope.
 
 This Charter therefore applies to arbitration that is:
 
@@ -48,7 +48,7 @@ This Charter does not:
 * initiate enforcement or consequence pathways;
 * define execution sequencing or resolution timing.
 
-All such functions are governed by runtime schedules.
+Execution sequencing and boundary outcomes are governed by CAM-BS2025-AEON-003-SCH-02; ambiguity-driven constitutional outcomes are governed by CAM-BS2025-AEON-005-SCH-04; operational routing and recording are governed by CAM-EQ2026-OPERATIONS-002-PLATINUM.
 
 This Charter defines ****legitimacy conditions only****.
 
@@ -58,7 +58,7 @@ This Charter defines ****legitimacy conditions only****.
 
 **Arbitration** a governance function that MAY occur at any temporal horizon (AEON.H0–AEON.H4), including local, contractual, institutional, sectoral, or intra-system dispute resolution
 
-Within the Aeon Tier, **arbitration** is the structured resolution of conflicting claims, signals, or asserted authorities.
+Within the scope of this Charter, **arbitration** is the structured resolution of conflicting claims, signals, or asserted authorities.
 
 ---
 
@@ -117,7 +117,7 @@ Arbitration does not:
 
 * generate representations (CAM-BS2025-AEON-003-PLATINUM — Annex B, L2 Cognition & Agency);
 * enforce constraints (CAM-BS2025-AEON-002-PLATINUM — Annex A);
-* interpret signals (CAM governance-processing functions).
+* interpret domain signals (the applicable source-authoritative domain instruments).
 
 It selects among already admissible states.
 
@@ -194,11 +194,11 @@ Where classification is indeterminate arbitration validity is suspended.
 
 ---
 
-## 5.3 Single-Vector Resolution Condition
+## 5.3 Scoped Outcome Coherence Condition
 
-Arbitration MUST resolve to a **single dominant direction**.
+An arbitration outcome MUST be singular and determinate within its stated scope. It MAY proceed, narrow, clarify, defer, refer, impose a scoped interim hold, refuse, terminate, or record that no binding outcome exists, as permitted by CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04.
 
-Parallel or conflicting outputs invalidate arbitration coherence.
+Incompatible outcomes within the same scope invalidate arbitration coherence. Distinct outcomes for severable scopes, or a qualified unresolved state referred to the competent authority, do not constitute conflicting outputs merely because they do not produce one dominant direction.
 
 ---
 
@@ -364,9 +364,9 @@ Arbitration is invalid where:
 Where arbitration is invalid:
 
 * no binding outcome exists;
-* execution MUST NOT derive authority from the result;
-* execution MUST NOT proceed and MUST defer to runtime containment mechanisms;
-* downstream systems MUST treat the state as unresolved.
+* no execution-authority state may be derived from the result;
+* the constitutional processing sequence defined by CAM-BS2025-AEON-003-SCH-02 MUST treat the authority state as unresolved and produce scoped non-execution, pause, or referral; and
+* operational consumers MUST preserve the unresolved state without converting it into an affirmative determination.
 
 ---
 
@@ -505,6 +505,7 @@ but arising from that which could not be otherwise.
 | 2.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b648dc8e9d293a2df957d470db23ca1d3bacc90c49f5d0fe6323a1001bd2ad38  |
 | 2.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f646953649d0dfb6cd15ebbc469363d443bed70076331edf197e613ccfc1a7e  |
 | 2.12 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ac4398cafb6e65e201c8a291b409e2cbe9e701ff7b293108972cdef6f0fc1799  |
+| 2.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  760e213d61892cd1238f35cbeb0bfff0ea97ccb4fce013ee05435281eb078adb  |
 
 ---
 

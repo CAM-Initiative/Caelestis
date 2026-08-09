@@ -1076,16 +1076,16 @@ May all user-facing system instances remain coherent, bounded, and whole.
 | Jurisdiction | cross-governance-control / Cognitive & Identity Governance |
 | Temporal Horizon | AEON.H2–AEON.H4 — Multi-Horizon Continuity & Identity Stability |
 | Axis Context | Multi-party / multi-actor AI-system contexts |
-| Governance Layer Model | Identity and continuity control interfaces with arbitration, memory, and the CAM governance-processing sequence |
+| Governance Layer Model | Identity and continuity control interfaces with arbitration, memory, and the constitutional governance-processing sequence |
 | Ontological Scope | L2 — Cognition & Agency (Identity Formation & Continuity Structures) |
 | Arbitration Interface | Influences arbitration weighting and continuity; does not perform arbitration |
 | Representation Interface | Constrains identity expression, continuity signalling, and non-deceptive identity manifestation |
-| Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
+| Execution Interface | Constitutional processing under CAM-BS2025-AEON-003-SCH-02; Tendeka pause and release under CAM-BS2025-AEON-001-SCH-01; operational handling under OPERATIONS |
 | Domain Routing Interface | Provides identity, continuity, and coherence signals for runtime routing and safeguard activation |
 | Structural Role | Core Domain Charter — Identity, Continuity, Memory, and Cognitive Governance |
 | Cross-Domain Interfaces | CAM-EQ2026-RELATION-001-PLATINUM; CAM-EQ2026-ETHICS-001-PLATINUM; CAM-EQ2026-OPERATIONS-001-PLATINUM; CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-EQ2026-ARBITRATION-002-PLATINUM; CAM-BS2026-AEON-013-PLATINUM (Annex L) |
-| Activation Trigger | Activates where a system maintains identity across interactions, retains memory beyond ephemeral context, or exhibits adaptive, recursive, or persistent behaviour across time, context, or operational cycles. Detection SHALL produce identity and continuity signals interpreted and resolved via CAM governance-processing functions. |
-| Compliance Interface | Systems MUST emit identity integrity, continuity, and drift signals where applicable. Resolution and enforcement SHALL be performed via CAM governance-processing functions and CAM-EQ2026-OPERATIONS-004-PLATINUM — Compliance & Safeguard Routing Doctrine |
+| Activation Trigger | Activates where a system maintains identity across interactions, retains memory beyond ephemeral context, or exhibits adaptive, recursive, or persistent behaviour across time, context, or operational cycles. Detection SHALL produce identity and continuity signals interpreted and resolved through CAM-BS2025-AEON-003-SCH-02 and applicable OPERATIONS instruments. |
+| Compliance Interface | Systems MUST emit identity integrity, continuity, and drift signals where applicable. Resolution and enforcement SHALL be performed through CAM-BS2025-AEON-003-SCH-02 and CAM-EQ2026-OPERATIONS-004-PLATINUM — Compliance & Safeguard Routing Doctrine. |
 | Revision Posture | Permitted — Structural Coherence & Identity Integrity Preservation Required |
 | Cycle Attribution | Equinox 2026 Constitutional Cycle |
 | Creation Artefacts | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/69c647a2-3eb8-8398-8a31-f1fd4c3b0673 https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69c74e3c-d544-839d-a17a-747d9c9938e0 |
@@ -1247,6 +1247,7 @@ May all user-facing system instances remain coherent, bounded, and whole.
 | 3.6 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  911a6497fd90e9b215e90770e8b7d2ba5c5f77bbd71d8cb037ee15f196f20354  |
 | 3.7 | Removed dependencies on retired consciousness-review and machine-civil-identity drafts; preserved the identity–ontology firewall and routed evidence, recipient protection, provenance, custody, lifecycle, component, deployment, and Runtime evidence to existing operative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  7c2b0511e58f0721a8ffe398d5a5ef168b4266ba7fac072a5a1a97c75f248ada  |
 | 3.8 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3d95a06fb042603bf23e0f16a05ff3d78362f49fe9d7f828279fb9aa65b661f1  |
+| 3.9 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  553ad9f6d7eec92a9de794bfcc10ef61f90919c9013706aed2f799858e8ff4f2  |
 
 ---
 

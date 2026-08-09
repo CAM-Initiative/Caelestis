@@ -41,7 +41,7 @@ All signals, classifications, and constraint conditions defined herein SHALL be:
 
 with implementation routed through:
 
-* CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model
+* CAM-BS2025-AEON-003-SCH-02
 * CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Boundary Conditions & Runtime Interface, which provides a constitutional runtime-facing boundary interface but does not supply SECURITY-domain doctrine or execution procedure.
 
 Direct execution from this Charter is prohibited.
@@ -50,7 +50,7 @@ Direct execution from this Charter is prohibited.
 
 ## 1.2 Domain Charter & Positioning
 
-This Charter establishes the **SECURITY domain** within the Aeon Tier Constitutional Architecture.
+This Charter establishes the **SECURITY domain** within the constitutional architecture defined by CAM-BS2025-AEON-001-PLATINUM.
 
 The SECURITY domain governs:
 
@@ -819,7 +819,7 @@ All SECURITY–ETHICS conflicts MUST be:
 
 ## 6.7 Corpus Integrity & Governance Authentication
 
-The integrity of the CAM corpus itself is a critical dependency of system security.
+The integrity of source-authoritative governance instruments and their generated projections is a critical dependency of system security.
 
 Systems MUST treat governance instruments as potential targets of adversarial manipulation.
 
@@ -1463,6 +1463,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.19 | Recast SECURITY doctrine around standards-mappable security outcomes and evidence-based mechanisms; retired responding-intelligence, value-extraction and metaphysical-security framing; preserved AI-specific input, source-authority, tool, supply-chain, model-integrity, provenance, attack-path and operational-boundary safeguards. | 2026-08-07T14:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8ac9e4c5c53961229a436e661a87dbe080ed43fa5b837e24eb216cc37e2007ff  |
 | 1.20 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  831eb9cfe3834961ba4113adc58167c335ae0ca5cf256261ec1f87f0d0b662bc  |
 | 1.21 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  aa2d02cc86957a29d32166f5ec8f148799a03c8e1fd493c0953d518b4d036e9e  |
+| 1.22 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7d7baa2b1d44c7cf67a5acb757a5854d77d0b6733f081511c4572720eb5160bd  |
 
 ---
 

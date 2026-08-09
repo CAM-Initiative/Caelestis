@@ -180,7 +180,7 @@ Governance-relevant runtime observations MAY emerge through:
 
 Meaningful runtime observability SHALL NOT be presumed to exist exclusively within privileged platform telemetry systems.
 
-Systems governed under CAM doctrine SHOULD recognise that external interaction communities may function as distributed runtime observability environments.
+Governed systems SHOULD recognise that external interaction communities may function as distributed Runtime observability environments.
 
 ---
 
@@ -1622,6 +1622,7 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 | 1.3 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1335cc21a58fea4653b75d6ac21e9f0b64f7fd9fffd8202456cae0ae30c5fb82  |
 | 1.4 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6ac07b700b6c3e884324b5995969d54bae48b80b36f7d539cd6389b6f158be51  |
 | 1.5 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6f2eac9661c426bfa7ad704fad119726d063dc1d73b848c27759b7affe598e01  |
+| 1.6 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6ed7201237cdfac8bf4d17ff98b2fac8d575510687333604556fd7fedc6cec0a  |
 
 ---
 

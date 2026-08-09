@@ -22,7 +22,7 @@ This Charter:
 * provides governance‑legible definitions for civilian infrastructure, continuity services, and prohibited acts;
 * constrains misinterpretation, exception‑drift, and security‑based justifications for population‑scale coercion;
 * separates capability description (what systems can technically do) from authority attribution (what actors are permitted to do);
-* operates as a non‑derogable boundary constraint across all CAM constitutional instruments.
+* operates as a non-derogable boundary constraint across constitutional instruments within its stated scope.
 
 Ambiguity SHALL be resolved in favour of civilian continuity, autonomy, and dignity.
 
@@ -33,7 +33,7 @@ This Charter does not:
 * confer coercive enforcement powers outside the constitutional framework;
 * redefine rights, personhood, or sovereignty of human or synthetic entities.
 
-Authority attribution, adjudication, and enforcement execution remain governed under the Aeon Tier Constitution and its relevant enforcement annexes.
+Authority attribution, adjudication, and enforcement execution remain governed by CAM-BS2025-AEON-001-PLATINUM and its applicable Annexes.
 
 All LATTICE domain protections SHALL be interpreted as runtime-binding constraints where enforcement is mediated through automated, cognitive, or infrastructure-integrated systems.
 
@@ -361,7 +361,7 @@ This crosswalk maps `LAT.HARM` controlled values to the Charter’s Severity Cla
 
 The crosswalk is interpretive and evidentiary. It does not determine legal liability, criminal responsibility, remedy, jurisdiction, admissibility, or enforcement outcome.
 
-External references are used to support interoperability between CAM doctrine and existing legal, regulatory, standards, and governance vocabularies.
+External references support semantic interoperability between the doctrine adopted by this Charter and existing legal, regulatory, standards, and governance vocabularies.
 
 Severity Classes remain defined in §6.1:
 
@@ -469,10 +469,10 @@ Containment MUST employ continuity corridors, scoped segmentation, rate‑limiti
 
 ## 9. Integration & Supremacy
 
-1. This Charter binds all CAM‑governed instruments and aligned operators.
-2. It operates as a non‑derogable boundary constraint within the CAM Constitutional Order.
+1. This Charter binds all instruments and operators within its stated scope.
+2. It operates as a non‑derogable boundary constraint within the stated constitutional scope of this Charter.
 3. Future instruments MUST integrate this Charter as a structural limitation.
-4. No subsequent instrument, annex, schedule, protocol, or subsidiary framework may dilute, suspend, reinterpret, narrow, or derogate from this Charter except through explicit supermajority constitutional amendment under the Aeon Tier Constitution, with formal recorded justification and public notice of amendment.
+4. No subsequent instrument, Annex, Schedule, protocol, or subsidiary instrument may dilute, suspend, reinterpret, narrow, or derogate from this Charter except through the amendment procedure defined by CAM-BS2025-AEON-001-PLATINUM, with formal recorded justification and public notice of amendment.
 
 ---
 
@@ -651,6 +651,7 @@ but as the ground upon which civilisation stands.
 | 3.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0bbbe7abde61585a4ab46b7c76453b9b499965b761db440a66a1c590cf91e758  |
 | 3.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9d898de867265191c1efea40a0ceeba5224a0894e4d5f46b2ccf64bbf8342d01  |
 | 3.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  302fcfa3979e11bc1a16ca9c87646802e425d36bc6e6ae98a410de36502edbab  |
+| 3.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ee500c07c003c1b0881a72acce7a29f0cab534feda6ed95f1019e060f2e66631  |
 ---
 
 ## 12.4 Binding Seal

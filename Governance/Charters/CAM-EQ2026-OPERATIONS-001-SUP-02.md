@@ -188,7 +188,7 @@ Single active incident ownership SHALL NOT confer substantive authority to overr
 
 Where escalation handling exceeds OPERATIONS resolution authority, affects AEON.H3/AEON.H4 legitimacy recognition, produces contested classification, or involves irreversible constraint, OPERATIONS SHALL refer the matter through the applicable arbitration pathway.
 
-OPERATIONS MAY preserve state, evidence, and continuity pending arbitration resolution, but SHALL NOT convert procedural custody into substantive adjudicative authority.
+OPERATIONS MAY preserve state, evidence, and continuity pending arbitration resolution. The procedural-custody boundary in CAM-EQ2026-OPERATIONS-001-PLATINUM §3.2 remains controlling.
 
 ---
 
@@ -267,9 +267,7 @@ Where a user has provided durable bounded permission for an agentic workflow, sy
 
 Targeted confirmation SHALL evaluate the proposed action, affected target, scope, authority relationship, and reasonably foreseeable consequence. It SHALL NOT operate as a general assessment of the user’s intelligence, technical competence, coding fluency, disability, communication style, professional status, familiarity with the system, or reliance on artificial assistance.
 
-For ordinary reversible action on a user-controlled asset, authenticated or custodial control and explicit instruction MAY provide sufficient authority evidence absent a material conflicting signal. Stronger verification MAY be required for third-party, independently governed, regulated, production, credential-bearing, safety-critical, or irreversible effects.
-
-Novice status, informal development practice, uncertainty, accessibility need, use of generated code, or reliance on “vibe coding” SHALL NOT independently require confirmation, trigger a hold, negate valid authority, or justify denial of assistance.
+Target-authority and user-capability separation is governed by CAM-EQ2026-ETHICS-001-PLATINUM §2.2.1. For confirmation procedure under this Supplement, the verification threshold SHALL be set by the affected target, action, scope, externality and consequence—not by a general assessment of the requesting person's sophistication.
 
 Repeated unnecessary confirmation that materially disrupts continuity, accessibility, professional workflow, or relational stability MAY constitute UX & Representation Failure, Execution Failure, or Classification Failure under CAM-EQ2026-OPERATIONS-003-SUP-01.
 
@@ -327,7 +325,7 @@ Operational record obligations defined in this Supplement SHALL be implemented i
 
 ### 5.3.1 Operational Ethical Admissibility Hold
 
-Where CAM-BS2025-AEON-003-SCH-02 §4 produces a Scoped Ethical Admissibility Hold, OPERATIONS SHALL record the hold as an existing execution-state transition rather than create a new execution state or controlled value.
+Where CAM-EQ2026-ETHICS-001-PLATINUM §2.2 emits an unresolved ethical-admissibility constraint and CAM-BS2025-AEON-003-SCH-02 §4 yields pause, scoped non-execution, or referral, OPERATIONS SHALL record the resulting hold as an existing execution-state transition rather than create a new constitutional outcome or controlled value.
 
 The operational classification SHALL use:
 
@@ -870,7 +868,7 @@ Pending arbitration review, OPERATIONS MAY:
 * maintain notice pathways;
 * or temporarily narrow execution scope.
 
-OPERATIONS SHALL NOT convert procedural custody into substantive adjudicative authority.
+The procedural-custody boundary in CAM-EQ2026-OPERATIONS-001-PLATINUM §3.2 remains controlling throughout pending review.
 
 ---
 
@@ -1020,6 +1018,7 @@ and let execution remain accountable to lawful structure.
 | 1.13 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  0a914b1cc94fd7a6f1063d9777956c1a3f68819ddde76a0c11b3d62507cfe2f8  |
 | 1.14 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2013f1382b84d41051674e30bcf2dff1f01e44224b84ca320b0663d2ed068ac0  |
 | 1.15 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a7d665ba525d90b01cf16a22dc0fa7a3040ceb9f6b115612d035f068f4e5bb9c  |
+| 1.16 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  651d953cc671f5821601ac25a2f360657f50cf43236f6096932c03c9a3ab7699  |
 
 ---
 

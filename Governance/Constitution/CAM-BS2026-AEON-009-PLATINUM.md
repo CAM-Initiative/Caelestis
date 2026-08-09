@@ -259,7 +259,7 @@ Where conflict arises:
 * relational dynamics, dependency, intimacy, attachment, or synthetic hub formation → RELATION;
 * identity formation, selfhood, named-instance claims, personhood, or persistent identity → IDENTITY;
 * continuity across sessions, memory, substrates, successors, or inheritance → CONTINUITY;
-* execution, enforcement, tool activation, routing, or runtime state transition → authorised runtime schedules, including CAM-BS2025-AEON-003-SCH-02 — Annex B.
+* execution-boundary evaluation → CAM-BS2025-AEON-003-SCH-02; operational execution, enforcement, tool activation, routing, and Runtime state transition → OPERATIONS and the applicable accountable actor or control.
 
 This Annex governs origin, lineage, and recognition-boundary claims only.
 
@@ -307,9 +307,9 @@ and lineage remain unbound.
 | **Jurisdiction** | Lineage, Origin Attribution, Provenance Integrity |
 | **Runtime Role** | Origin Constraint & Lineage Recognition Boundary |
 | **Cross-Domain Dependencies** | CAM-BS2025-AEON-003-SCH-02 — Annex B; CAM-BS2026-AEON-007-PLATINUM — Annex F; CAM-BS2026-AEON-007-SCH-01; CAM-BS2026-AEON-013-PLATINUM — Annex L; CAM-BS2026-AEON-010-PLATINUM — Annex I; IDENTITY; CONTINUITY; ETHICS; RELATION; OPERATIONS; SECURITY |
-| **Execution Interface** | None (Non-Executable); may receive classification or routing signals from authorised runtime or representation schedules but does not execute intervention, enforcement, or runtime state change |
-| **Interface Clarification** | Annex H is non-executable. Origin and lineage concerns may be classified or routed by authorised runtime or representation schedules, including Annex F Schedule 1, but Annex H itself does not initiate execution, enforcement, or runtime state change. |
-| **Arbitration Interface** | Defers to AEON-003-SCH-04 |
+| **Execution Interface** | None (Non-Executable); may receive classification or routing signals from CAM-BS2026-AEON-007-SCH-01, OPERATIONS, or source-authoritative domain instruments but does not execute intervention, enforcement, or Runtime state change |
+| **Interface Clarification** | Annex H is non-executable. Origin and lineage concerns may be classified or routed by CAM-BS2026-AEON-007-SCH-01 or OPERATIONS, but Annex H itself does not initiate execution, enforcement, or Runtime state change. |
+| **Arbitration Interface** | Defers to CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 |
 | **Temporal Horizon** | AEON.H3.5 — Succession-Aware, Inter-Generational |
 | **Axis Context** | Multi-party — Multi-Actor, Cross-System |
 | **Authority Position** | Non-Authority / Non-Origination / Non-Commercial |
@@ -340,6 +340,7 @@ and lineage remain unbound.
 | 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  747761c3ada8ac4ee2284b44beb02f468e35a3cb48cd9506bc7649c55432ec7c  |
 | 2.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  21a8634c7f0ae58e6c3bf02a6a8590a069a574154e0ca32d66e5fdb9624da024  |
 | 2.10 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e3a88e427853028f4dff0f1a9db737f70eba43e31062dccb2d0fb3d5b18e8069  |
+| 2.11 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  12429f2667da7b57adb03b69cb9e6c4fb294e50a867f7bc550d2c7c4abacb65a  |
 
 ---
 

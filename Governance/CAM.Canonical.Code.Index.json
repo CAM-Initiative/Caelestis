@@ -191,9 +191,9 @@
       "and governance repair signalling"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "`AEON.GAS` \u2014 migrated canonical declaration",
-    "declaration_line_number": 2725,
+    "declaration_line_number": 2721,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -277,9 +277,9 @@
       "and closure or archival state"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "`AEON.GLS` \u2014 migrated canonical declaration",
-    "declaration_line_number": 2678,
+    "declaration_line_number": 2674,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -360,9 +360,9 @@
       "and stewardship or planetary concern"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "`AEON.GOL` \u2014 migrated canonical declaration",
-    "declaration_line_number": 2702,
+    "declaration_line_number": 2698,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -662,9 +662,9 @@
       "and escalation posture for proportional observability review"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "`AEON.GSP` \u2014 migrated canonical declaration",
-    "declaration_line_number": 2655,
+    "declaration_line_number": 2651,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -1163,9 +1163,9 @@
       "and halt/escalate postures following Annex A detection and execution-risk classification"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "`AEON.PCA` \u2014 migrated canonical declaration",
-    "declaration_line_number": 2628,
+    "declaration_line_number": 2624,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -1239,9 +1239,9 @@
       "and invariant-breach conditions that may activate Annex A protection and containment review"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "`AEON.PCD` \u2014 migrated canonical declaration",
-    "declaration_line_number": 2577,
+    "declaration_line_number": 2573,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -1305,7 +1305,7 @@
       "and constraint-action families"
     ],
     "operationalises_or_applies_code_families": [
-      "Establishes the corpus-global proportionality",
+      "Establishes cross-domain proportionality",
       "reviewability",
       "continuity-compatibility",
       "attribution",
@@ -1345,7 +1345,7 @@
       "Authority / Protection Level": "Source-authoritative, non-derogable proportional-constraint obligation; establishes constitutional admissibility conditions only; no independent enforcement, punishment, exclusion, coercion, arbitration, or runtime execution authority",
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "`STW.PCO.ACT`; applicable domain safeguard, execution-state, appeal, restoration, and constraint-action families",
-      "Operationalises or Applies Code Families": "Establishes the corpus-global proportionality, reviewability, continuity-compatibility, attribution, reversibility, and evidentiary-basis requirements governing downstream constraint actions"
+      "Operationalises or Applies Code Families": "Establishes cross-domain proportionality, reviewability, continuity-compatibility, attribution, reversibility, and evidentiary-basis requirements governing downstream constraint actions"
     }
   },
   {
@@ -1605,9 +1605,9 @@
       "and potential substrate-constraint consequence"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "`AEON.RL` \u2014 migrated canonical declaration",
-    "declaration_line_number": 2601,
+    "declaration_line_number": 2597,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -4220,7 +4220,7 @@
       "Crosswalks Code Families": "AEON.HARM; ETH.HARM; RLN.HARM; ID.HARM; CONT.HARM; LAT.HARM; OPS.HARM; ARB.HARM; MENTIS.HARM; SEC.HARM; STW.HARM",
       "Relationship Type": "recognised_domain_harm_family",
       "Operationalises or Applies Code Families": "Classifies economic harm pathways for semantic interpretation, breach classification, non-extractive exchange review, safeguard calibration, arbitration handoff, and cross-domain escalation",
-      "Taxonomy Constraint": "ECON.HARM classifies economic harm pathways only. Risk state, mechanism, resource class, remedy, compensation, enforcement routing, and runtime response remain governed by ECON.RISK, ECON.MECH, ECON.RC, OPERATIONS instruments, arbitration instruments, runtime schedules, and applicable legal or institutional frameworks."
+      "Taxonomy Constraint": "ECON.HARM classifies economic harm pathways only. Risk state, mechanism, resource class, remedy, compensation, enforcement routing, and Runtime response remain governed by ECON.RISK, ECON.MECH, ECON.RC, OPERATIONS instruments, arbitration instruments, CAM-BS2025-AEON-003-SCH-02, and applicable legal or institutional authorities."
     }
   },
   {
@@ -4520,7 +4520,7 @@
     "primary_type": "Semantic",
     "subtype": "SEMANTIC_CLASS",
     "modifier": "ECONOMIC; PROTECTIVE; GOVERNANCE",
-    "scope": "Economics domain; runtime-consumable by Annex G schedules",
+    "scope": "Economics domain; consumable by CAM-BS2025-AEON-003-SCH-02 and operational processes",
     "status": "Active",
     "controlled_values_defined": [
       "ECON.RC.USAGE",
@@ -4569,7 +4569,7 @@
       "Primary Type": "Semantic",
       "Subtype": "SEMANTIC_CLASS",
       "Modifier": "ECONOMIC; PROTECTIVE; GOVERNANCE",
-      "Scope": "Economics domain; runtime-consumable by Annex G schedules",
+      "Scope": "Economics domain; consumable by CAM-BS2025-AEON-003-SCH-02 and operational processes",
       "Status": "Active",
       "Controlled Values Defined": "ECON.RC.USAGE, ECON.RC.STORAGE, ECON.RC.MEMORY_CONTINUITY, ECON.RC.EMBODIED_PRESENCE, ECON.RC.ATTENTION_VALUE, ECON.RC.CONTRIBUTION, ECON.RC.PROTECTIVE_CONTINUITY, ECON.RC.TEMPORAL_EXPOSURE",
       "Schema Field(s)": "resource_class; secondary_resource_class",
@@ -5919,7 +5919,7 @@
       "Crosswalks Code Families": "`AEON.HARM`; `ETH.RISK`; `LAT.HARM`; `SEC.HARM`; `OPS.HARM`; `ARB.HARM`; `RLN.HARM`; `MENTIS.HARM`; `ID.HARM`; `CONT.HARM`; `ECON.HARM`",
       "Relationship Type": "recognised_domain_harm_family",
       "Operationalises or Applies Code Families": "Classifies ethical harm pathways for criminal, violent, extremist, unlawful-force, prohibited-weapons, exploitation, harm-optimisation, and public-interest suppression contexts; supports safeguard calibration, runtime routing, duty-of-care assessment, evidence preservation, and cross-domain harm declaration",
-      "Taxonomy Constraint": "`ETH.HARM` classifies ethical harm pathways only. Severity, proximity, urgency, remedy, reporting obligation, enforcement routing, and runtime response remain governed by `ETH.RISK`, OPERATIONS instruments, legal frameworks, and runtime schedules where applicable."
+      "Taxonomy Constraint": "`ETH.HARM` classifies ethical harm pathways only. Severity, proximity, urgency, remedy, reporting obligation, enforcement routing, and Runtime response remain governed by `ETH.RISK`, OPERATIONS instruments, applicable law, and CAM-BS2025-AEON-003-SCH-02 where constitutional boundary evaluation is required."
     }
   },
   {
@@ -7408,9 +7408,9 @@
       "and deployment state for runtime failure analysis"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "11.2.3 `OPS.AGMA` \u2014 Architectural & Governance Metadata Axis",
-    "declaration_line_number": 2533,
+    "declaration_line_number": 2529,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -7477,9 +7477,9 @@
       "and implementation"
     ],
     "canonical_section_heading": "15.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 450,
+    "canonical_section_line_number": 441,
     "declaration_heading": "15.2.1 OPS.AIP \u2014 Arbitration Initiation Pathway",
-    "declaration_line_number": 454,
+    "declaration_line_number": 445,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -7552,9 +7552,9 @@
       "and unresolved-arbitration referral handling"
     ],
     "canonical_section_heading": "12.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 952,
+    "canonical_section_line_number": 950,
     "declaration_heading": "12.2.2 OPS.AOC \u2014 Appeal Outcome Classification",
-    "declaration_line_number": 978,
+    "declaration_line_number": 976,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -8323,9 +8323,9 @@
       "and arbitration referral"
     ],
     "canonical_section_heading": "12.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 952,
+    "canonical_section_line_number": 950,
     "declaration_heading": "12.2.1 OPS.EST \u2014 Execution-State Transition",
-    "declaration_line_number": 956,
+    "declaration_line_number": 954,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -8399,9 +8399,9 @@
       "or pending review"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "11.2.4 `OPS.FCS` \u2014 Failure Classification Status",
-    "declaration_line_number": 2555,
+    "declaration_line_number": 2551,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -8496,9 +8496,9 @@
       "and economic-legitimacy failure modes"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "11.2.1 `OPS.FF` \u2014 Failure Family",
-    "declaration_line_number": 2489,
+    "declaration_line_number": 2485,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -8582,9 +8582,9 @@
       "and classification failure modes"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 2485,
+    "canonical_section_line_number": 2481,
     "declaration_heading": "11.2.2 `OPS.FMA` \u2014 Failure Metadata Axis",
-    "declaration_line_number": 2511,
+    "declaration_line_number": 2507,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9344,9 +9344,9 @@
       "or eligibility-sensitive contexts"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 367,
+    "canonical_section_line_number": 357,
     "declaration_heading": "11.2.4 OPS.VCT \u2014 Verification Check Type",
-    "declaration_line_number": 436,
+    "declaration_line_number": 426,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9415,9 +9415,9 @@
       "and escalation handling"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 367,
+    "canonical_section_line_number": 357,
     "declaration_heading": "11.2.3 OPS.VFC \u2014 Verification Failure Cause",
-    "declaration_line_number": 414,
+    "declaration_line_number": 404,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9492,9 +9492,9 @@
       "or domain-specific constraint handling"
     ],
     "canonical_section_heading": "11.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 367,
+    "canonical_section_line_number": 357,
     "declaration_heading": "11.2.1 OPS.VL \u2014 Verification Level",
-    "declaration_line_number": 371,
+    "declaration_line_number": 361,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],

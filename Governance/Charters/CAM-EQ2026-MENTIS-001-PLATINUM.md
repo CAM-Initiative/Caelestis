@@ -101,7 +101,7 @@ Other operative instruments consume, apply, or enforce this Charter as follows:
 
 MENTIS defines protected cognitive interests and the constraints attaching to MENTIS-governed signals, data, inference, decoding, profiling, biosignals, neurotechnology, and direct cognitive or physiological modulation. 
 
-MENTIS is not source-authoritative for general persuasion, manipulation, choice architecture, engagement design, relational influence, intimacy, attachment, dependency, companion conduct, commercial retention, or runtime behavioural modulation. Those matters remain governed by ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, Annex E, and applicable runtime schedules. 
+MENTIS is not source-authoritative for general persuasion, manipulation, choice architecture, engagement design, relational influence, intimacy, attachment, dependency, companion conduct, commercial retention, or Runtime behavioural modulation. Those matters remain governed by ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS and Annex E, with constitutional processing order governed by CAM-BS2025-AEON-003-SCH-02.
 
 MENTIS applies to an influence pathway only where a MENTIS-governed cognitive-domain input materially informs, targets, personalises, validates, or executes that pathway. In such cases, MENTIS governs the cognitive-domain input and its use; the receiving domain continues to govern substantive permissibility, relational posture, ethical legitimacy, commercial incentives, operational response, arbitration, and execution.
 
@@ -435,7 +435,7 @@ A person’s cognitive-domain data MUST NOT be treated as synthetic identity pro
 
 MENTIS governs influence only where cognitive-domain data, neurodata, biosignals, mental-state inference, cognitive biometrics, decoder outputs, cognitive profiles, neurotechnology, or closed-loop feedback materially informs the influence pathway. 
 
-General persuasion, choice architecture, commercial engagement, relational influence, intimacy, attachment, dependency, companion conduct, expressive posture, and behavioural modulation are governed by ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, Annex E, and runtime schedules. 
+General persuasion, choice architecture, commercial engagement, relational influence, intimacy, attachment, dependency, companion conduct, expressive posture, and behavioural modulation are governed by ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS and Annex E. Constitutional processing order remains governed by CAM-BS2025-AEON-003-SCH-02.
 
 Where MENTIS-governed inputs feed those systems, MENTIS supplies data, inference, expiry, provenance, contestability, target-object, and non-transmutation constraints. The receiving domain governs substantive permissibility, relational posture, ethical legitimacy, commercial design, operational response, arbitration, and execution. 
 
@@ -460,7 +460,7 @@ Where MENTIS-governed inputs feed those systems, MENTIS supplies data, inference
  11. consequence classification; 
  12. contestability and review. 
  
- Behaviour produced after an intervention MUST NOT be treated as independent confirmation of the original inference. Truth handling, sycophancy, belief reinforcement, epistemic enclosure, reality-grounding, and general persuasive legitimacy remain governed by CAM-BS2026-AEON-013-PLATINUM — Annex L, ETHICS, RELATION, and applicable runtime schedules.
+ Behaviour produced after an intervention MUST NOT be treated as independent confirmation of the original inference. Truth handling, sycophancy, belief reinforcement, epistemic enclosure, reality-grounding, and general persuasive legitimacy remain governed by CAM-BS2026-AEON-013-PLATINUM — Annex L, ETHICS and RELATION; any resulting execution boundary remains subject to CAM-BS2025-AEON-003-SCH-02.
 
 ---
 
@@ -474,7 +474,7 @@ ETHICS governs manipulation, vulnerability exploitation, consent, minors and cap
 
 ECONOMICS governs extractive incentive structures, emotional-access monetisation, scarcity, pricing, and commercial retention architecture. 
 
-Runtime schedules govern signal interpretation, arbitration, safeguard activation, behavioural formation, representation, and execution. 
+Source-authoritative domain instruments govern signal interpretation and substantive constraints; Annex D and the ARBITRATION domain govern arbitration; CAM-BS2025-AEON-003-SCH-02 governs constitutional processing order; and OPERATIONS governs state transition, implementation and evidence.
 
 MENTIS MUST NOT independently classify attachment, warmth, emotional depth, continuity, disclosure, voluntary retention, symbolic engagement, or companion expression as harmful. 
 
@@ -634,7 +634,7 @@ High-risk cognitive-domain incidents require escalation where they involve:
 
 This Charter source-authoritatively defines the `MENTIS.HARM` harm-class family for human cognitive integrity, mental privacy, human belief formation and interpretive agency, inference-boundary, attention, neurocognitive, and cognitive-domain harm.
 
-The epistemic component of `MENTIS.HARM` concerns harm to a human person’s belief formation, interpretive agency, and cognitive autonomy. It does not replace the corpus-wide evidence, truth-handling, and epistemic-governance authority of CAM-BS2026-AEON-013-PLATINUM — Annex L.
+The epistemic component of `MENTIS.HARM` concerns harm to a human person’s belief formation, interpretive agency, and cognitive autonomy. It does not replace the cross-domain evidence, truth-handling, and epistemic authority of CAM-BS2026-AEON-013-PLATINUM — Annex L.
 
 `MENTIS.HARM` operationalises the constitutional cognitive and epistemic harm family recognised under `AEON.HARM`.
 
@@ -712,7 +712,7 @@ This Charter is Active and Binding as the source-authoritative human cognitive-d
 Associated instruments may include:
 
 1. **CAM-EQ2026-MENTIS-002-PLATINUM — Appendix A: Cognitive Inference, Neurodata & Ambient Biosignal Governance**;
-2. cross-domain consumer alignment across ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, LATTICE, IDENTITY, Annex L, Annex E, and applicable runtime schedules;
+2. cross-domain consumer alignment across ETHICS, RELATION, ECONOMICS, SECURITY, OPERATIONS, LATTICE, IDENTITY, Annex L, Annex E, and CAM-BS2025-AEON-003-SCH-02;
 3. operational patches to OPERATIONS-domain failure taxonomies;
 4. relational patches to RELATION-domain companionship, dependency, and externalised scaffold instruments;
 5. security patches to SECURITY-domain cognitive intrusion, manipulation, and exploit-chain instruments;
@@ -801,7 +801,7 @@ This Charter source-authoritatively defines the `MENTIS.CDOC` cognitive-domain-o
 
 ## 52.7 MENTIS-002 Operational Reference Families 
 
-CAM-EQ2026-MENTIS-002-PLATINUM source-authoritatively defines `MENTIS.MSI`, `MENTIS.CBIO`, `MENTIS.ACI`, `MENTIS.CFP`, and `MENTIS.CDPR`. No additional MENTIS influence, persuasion, engagement, relational-capture, intimacy, dependency, companion, or behavioural-modulation family is declared by this Charter. Those classifications remain within their existing source domains unless a future corpus-wide authority review demonstrates a genuinely unoccupied MENTIS namespace. 
+CAM-EQ2026-MENTIS-002-PLATINUM source-authoritatively defines `MENTIS.MSI`, `MENTIS.CBIO`, `MENTIS.ACI`, `MENTIS.CFP`, and `MENTIS.CDPR`. No additional MENTIS influence, persuasion, engagement, relational-capture, intimacy, dependency, companion, or behavioural-modulation family is declared by this Charter. Those classifications remain within their existing source domains unless a future cross-instrument authority review demonstrates a genuinely unoccupied MENTIS namespace.
 
 ---
 
@@ -850,8 +850,8 @@ Let every system remember that the person exceeds the model built about them.
 | Structural Role | Source-Authoritative Domain Charter — Human Cognitive Integrity & Mental Privacy |
 | Governance Role | Establishes protected interests, consent posture, observability constraints, prohibited uses, high-risk contexts, evidence discipline, cross-domain interfaces |
 | Authority Role | Source-authoritative human cognitive-domain governance instrument |
-| Execution Authority | None — classification/constraint only; execution delegated to OPERATIONS, runtime schedules, legal frameworks, authorised processes |
-| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
+| Execution Authority | None — classification/constraint only; execution-boundary ordering remains with CAM-BS2025-AEON-003-SCH-02 and implementation with OPERATIONS, applicable law and authorised actors |
+| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02; applicable OPERATIONS instruments |
 | Arbitration Interface | Defers contested classification, lawful-basis disputes, high-risk conflicts to Annex D and arbitration instruments |
 | Representation Interface | Interfaces with CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine |
 | Ethics Interface | Provides protection primitives consumed by ETHICS instruments for autonomy, dignity, vulnerability, minors, capacity, coercion, manipulation risks |
@@ -865,7 +865,7 @@ Let every system remember that the person exceeds the model built about them.
 | Protected Interests | Cognitive domain integrity; mental privacy; cognitive agency; non-interference; observability minimisation; inferential humility; construct validity; consent integrity; contestability; deletion; human review |
 | Signal Output | Cognitive-domain protection posture; heightened consent requirement; prohibited-use indicator; narrow-lawful-basis indicator; observability constraint; evidence-tiering requirement; high-risk context indicator; incident interface |
 | Auditability Requirement | Cognitive-domain access, inference, modelling, retention, sharing, influence, operationalisation, and consequential use MUST remain reviewable, contestable, traceable, and auditable where material rights, dignity, access, participation, safety, or dependency effects are present |
-| Cross-Domain Dependencies | ETHICS; RELATION; SECURITY; OPERATIONS; LATTICE; IDENTITY; CAM-BS2026-AEON-013-PLATINUM — Annex L; CAM-BS2025-AEON-005-PLATINUM — Annex D; CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
+| Cross-Domain Dependencies | ETHICS; RELATION; SECURITY; OPERATIONS; LATTICE; IDENTITY; CAM-BS2026-AEON-013-PLATINUM; CAM-BS2025-AEON-005-PLATINUM; CAM-BS2025-AEON-003-SCH-02 |
 | Revision Posture | Active — MENTIS Domain Alignment Review |
 | Migration Lineage | Newly created MENTIS domain charter during June 2026 cognitive-domain governance expansion |
 | Creation Artefact | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a1a9ae0-15f4-83ec-999a-52bdff043f39 |
@@ -1040,6 +1040,7 @@ Let every system remember that the person exceeds the model built about them.
 | 1.5 | Replaced the superseded cognition-class dependency with Annex B composed-system architecture records and active AEON classifications. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  64253b57800c02aaa4d4dfd9fcf0d0e7401d2507d0b9e902ee4bd37a59581d10  |
 | 1.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e1be94f0d62af0ecde1c10fd720cfd300565aebb84056ec8e6dd7c490274df41  |
 | 1.7 | Removed the non-operative phenomenological-review dependency, preserved human–synthetic target-object separation, routed artificial-system evidence to existing operative owners, and applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9394bde5a59d8bfa2110b56d3f4ec5c97ad081d08f50c88bd26e8fac43f336a6  |
+| 1.8 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b8b4492a4b1d4b4610ceea20c0173ac880264991a0a680dcabcb6ee45754bfd2  |
 
 ---
 

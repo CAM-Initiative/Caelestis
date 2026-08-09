@@ -36,7 +36,7 @@ This Appendix functions as the procedural layer connecting:
 * Annex D — Arbitration Doctrine & Preference Order;
 * Arbitration domain instruments (binding, convergence, refusal, validation);
 * Governance Operations compliance interfaces;
-* Runtime arbitration schedules and safeguard systems;
+* CAM-BS2025-AEON-003-SCH-02 and CAM-BS2025-AEON-005-SCH-04;
 * Domain charters requiring cross‑domain coordination.
 
 It ensures arbitration doctrine is enacted through consistent, reviewable procedures.
@@ -45,23 +45,23 @@ It ensures arbitration doctrine is enacted through consistent, reviewable proced
 
 ## 2.1 Arbitration System Architecture
 
-Arbitration governance within the CAM constitutional order operates across three coordinated layers:
+Arbitration handling operates across three coordinated layers:
 | Layer                 | Function                                                                  | Governing Instrument           |
 | --------------------- | ------------------------------------------------------------------------- | ------------------------------ |
 | **Doctrine Layer**    | Defines legitimacy, authority hierarchy, and arbitration preference order | Annex D — Arbitration Doctrine |
 | **Operational Layer** | Defines how arbitration procedures are initiated, routed, and recorded    | OPERATIONS-002 (this Appendix) |
-| **CAM governance-processing function**     | Executes safeguards, routing triggers, and enforcement mechanisms         | Runtime Arbitration Schedules  |
+| **Constitutional execution boundary** | Orders authority resolution before execution and defines admissible boundary outcomes | CAM-BS2025-AEON-003-SCH-02 and, for ambiguity, CAM-BS2025-AEON-005-SCH-04 |
 
 These layers operate sequentially:
 
 ```
-Runtime Trigger
+Governance-relevant trigger
       ↓
 Operational Arbitration Procedures
       ↓
 Annex D Doctrine Application
       ↓
-Determination & Implementation
+Constitutional execution-boundary evaluation
 ```
 
 The operational layer **does not reinterpret arbitration doctrine** and **does not execute runtime safeguards directly**.
@@ -72,32 +72,32 @@ Its role is to ensure that **procedural governance faithfully carries doctrine i
 
 ## 2.2 Arbitration Routing Rule
 
-To maintain coherence between doctrine, operational procedure, and runtime safeguards, the CAM arbitration system follows a unified routing rule:
+To maintain coherence between doctrine, operational procedure, and the constitutional execution boundary, the following routing rule applies:
 | Trigger Source | Operational Pathway | Governing Layer |
 | --- | --- | --- |
 | Runtime safeguard trigger | CAM-EQ2026-OPERATIONS-002-PLATINUM — Arbitration Initiation Pathway §4 | Operational Layer (this Appendix) |
 | Governance conflict classification | Annex D preference order | Doctrine Layer |
-| Determination implementation | Runtime Arbitration Schedules | CAM governance-processing function |
+| Boundary evaluation after determination | CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-005-SCH-04 where ambiguity remains material | Constitutional execution boundary |
 
 Operationally this forms a single procedural chain:
 
 ```
-Trigger Detected
+Trigger detected
       ↓
 OPERATIONS-002 Initiation Pathway
       ↓
 Annex D Doctrine Application
       ↓
-Runtime Safeguard / Implementation
+Constitutional execution-boundary evaluation
 ```
 
 This routing rule ensures:
 
 * doctrine determines authority;
 * operational procedure governs process;
-* AI-system deployments during Runtime execute outcomes.
+* accountable operators and execution controls implement outcomes within the verified Runtime state.
 
-No operational procedure may reinterpret arbitration doctrine, and no AI-system deployment during Runtime may override constitutional preference order.
+No operational procedure may reinterpret arbitration doctrine, and no operator, component, tool, or execution control may override the constitutional preference order.
 
 ---
 
@@ -107,14 +107,7 @@ No operational procedure may reinterpret arbitration doctrine, and no AI-system 
 
 ## 3.1 Doctrine Fidelity
 
-All operational procedures SHALL:
-
-* implement Annex D preference order;
-* preserve constitutional hierarchy;
-* honour validated arbitration outcomes;
-* avoid procedural reinterpretation of legitimacy.
-
-Procedure SHALL NOT substitute for doctrine.
+All operational procedures remain subject to CAM-EQ2026-OPERATIONS-001-PLATINUM §§3.1, 3.2 and 8. This Appendix applies that doctrine-fidelity rule by preserving the cited authority basis and validated outcome throughout initiation, routing, interim custody and recording. Procedure SHALL NOT substitute for doctrine.
 
 ---
 
@@ -369,7 +362,7 @@ Review SHALL NOT suspend critical safeguards unless authorised.
 * **CAM-EQ2026-OPERATIONS-004-PLATINUM — Operational Compliance & Regulatory Interface** governs compliance and regulatory routing.
 * **CAM-EQ2026-OPERATIONS-005-PLATINUM — Domain Coordination & Convergence Operations** governs structured inter-domain convergence processes.
 * **CAM-EQ2026-OPERATIONS-001-SUP-02 — Escalation Pathway Playbooks** provides operational routing maps for escalation pathways.
-* **Runtime Schedules** govern execution‑layer arbitration and safeguards.
+* **CAM-BS2025-AEON-003-SCH-02** governs constitutional execution sequencing and boundary outcomes; **CAM-BS2025-AEON-005-SCH-04** governs ambiguity-driven precedence, referral and admissible constitutional outcomes.
 * **Domain Charters** define substantive governance obligations.
 
 This Appendix governs the procedures that enact arbitration doctrine in operational contexts.
@@ -378,9 +371,7 @@ This Appendix governs the procedures that enact arbitration doctrine in operatio
 
 ## 12. Non‑Derogation
 
-No procedure, automation, vendor workflow, or institutional practice may dilute constitutional hierarchy, arbitration doctrine, or civilisational invariants.
-
-Operational process remains subordinate to constitutional authority.
+The non-derogation rule in CAM-EQ2026-OPERATIONS-001-PLATINUM §8 applies to every procedure under this Appendix. No local workflow or implementation state creates an exception to that rule.
 
 ---
 
@@ -436,7 +427,7 @@ may remain worthy of being followed.
 | Jurisdiction | Cross-Domain Procedural Arbitration Layer |
 | Temporal Horizon | AEON.H0–AEON.H2 Operational Arbitration |
 | Axis Context | Arbitration Procedure · Cross-Domain Governance |
-| Cross-Domain Dependencies | Annex D · Arbitration Domain Instruments · OPERATIONS-004 · Runtime Schedules |
+| Cross-Domain Dependencies | CAM-BS2025-AEON-005-PLATINUM · CAM-BS2025-AEON-005-SCH-04 · ARBITRATION domain instruments · OPERATIONS-004 · CAM-BS2025-AEON-003-SCH-02 |
 | Application Trigger | Activation when arbitration matters arise below planetary legitimacy thresholds |
 | Review Trigger | Arbitration doctrine updates · procedural governance reform |
 | Revision Posture | Structural Alignment Permitted |
@@ -491,6 +482,7 @@ may remain worthy of being followed.
 | 1.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  82a93846c4a121f2d341a0f78f9e44464a243daa7187f0fd75a9efa0ca8fc4ad  |
 | 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  037bcf7a0947e084b34dd7063000b9fa56a8552bcc06f96fbe940c7feb87abcf  |
 | 1.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a3495e04823d64441a1856309a56970a5fbe909ed475e1ec99d1a825a7b9e0de  |
+| 1.10 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f60c3a229bf5368d5b285315583cd4c6bdcd72a9063eecd87ce740708750782  |
 ---
 
 ## 15.4 Binding Seal

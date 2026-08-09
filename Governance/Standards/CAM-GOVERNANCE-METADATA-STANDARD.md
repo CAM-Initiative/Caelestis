@@ -7,7 +7,7 @@
 **Review State:** Current  
 **Authority Role:** Metadata Authority  
 **Source Authority:** Source-Authoritative  
-**Purpose:** Defines the controlled metadata and source-authority contract for governed Caelestis instruments.
+**Purpose:** Defines the controlled metadata and source-authority contract for governed instruments.
 
 ---
 
@@ -320,3 +320,4 @@ Existing uncontrolled values remain evidence of historical corpus state and MUST
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | Initial governance metadata standard defining controlled Status, Effect and Governance Standard vocabulary; added canonical amendment-level provenance architecture. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke | - |
 | 2.0 | Replaced the three-field metadata model with a six-field metadata and source-authority contract; controlled Review State and Authority Role; added Source Authority, combination invariants, conflict rules and migration requirements; clarified delegated subordinate declaration ownership; required resolvable, non-circular parent lineage for derived and applied authority; and continued the constitutional Schedule registry contract from retired `CAM-BS2025-AEON-003-SCH-01` as a source-derived metadata projection with explicit inclusion, exclusion and determinism rules. | 2026-08-09T06:20:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  |
+| 2.1 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |

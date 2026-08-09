@@ -59,21 +59,21 @@ Every material element and relationship SHALL have exactly one evidence state:
 
 ## 4. Interoperability Rules
 
-Caelestis defines a canonical information model and maps it to exchange formats; it does not claim that CycloneDX and SPDX are interchangeable.
+This Profile defines a canonical information model and maps it to exchange formats; conformance to this Profile does not imply that CycloneDX and SPDX are interchangeable.
 
 ### 4.1 CycloneDX
 
-The CycloneDX target is version 1.7. Native `components`, `services`, `dependencies`, `metadata`, lifecycle information, model cards and properties SHALL be used where they express the fact. The profile namespace for unmapped CAM facts is `org.caelestis.aibom.`. The interoperable example is [`examples/caelestis-ai-bom-1.0.cyclonedx-1.7.example.json`](examples/caelestis-ai-bom-1.0.cyclonedx-1.7.example.json).
+The CycloneDX target is version 1.7. Native `components`, `services`, `dependencies`, `metadata`, lifecycle information, model cards and properties SHALL be used where they express the fact. The profile namespace for unmapped facts defined by this Profile is `org.caelestis.aibom.`. The interoperable example is [`examples/caelestis-ai-bom-1.0.cyclonedx-1.7.example.json`](examples/caelestis-ai-bom-1.0.cyclonedx-1.7.example.json).
 
 ### 4.2 SPDX
 
-The SPDX target is 3.0.1. An exporter SHALL declare the Core, AI, Dataset and, where used, Software, SimpleLicensing and Extension profiles. AI model artefacts map to the AI Profile, datasets to the Dataset Profile, conventional software to the Software Profile, and relationships to Core relationships. CAM facts with no native semantics are expressed through the SPDX Extension Profile using the `https://caelestis.cam/ns/aibom/1.0/` namespace.
+The SPDX target is 3.0.1. An exporter SHALL declare the Core, AI, Dataset and, where used, Software, SimpleLicensing and Extension profiles. AI model artefacts map to the AI Profile, datasets to the Dataset Profile, conventional software to the Software Profile, and relationships to Core relationships. Facts defined by this Profile that have no native semantics are expressed through the SPDX Extension Profile using the `https://caelestis.cam/ns/aibom/1.0/` namespace.
 
 The normative field-level mapping is [`mappings/caelestis-ai-bom-1.0.mappings.json`](mappings/caelestis-ai-bom-1.0.mappings.json). It is a mapping contract, not a claim that the mapping file itself is an SPDX document.
 
 ### 4.3 Extension discipline
 
-Extensions are permitted only for: evidence posture, controlled-reference handling, CAM relationship semantics not represented by a target format, configuration-baseline/deployment binding, and links to runtime evidence. Extensions MUST use the registered Caelestis namespace and MUST NOT overwrite, relabel or contradict native format semantics.
+Extensions are permitted only for: evidence posture, controlled-reference handling, relationship semantics defined by this Profile but not represented by a target format, configuration-baseline/deployment binding, and links to Runtime evidence. Extensions MUST use the registered Caelestis namespace and MUST NOT overwrite, relabel or contradict native format semantics.
 
 ---
 
@@ -117,3 +117,4 @@ This profile is interoperable with, but does not assert certification under:
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | Initial interoperable Caelestis AI-BOM Profile: canonical JSON information model, evidence posture, CycloneDX 1.7 and SPDX 3.0.1 mappings, serialization rules, examples and validator boundary. | 2026-08-07T18:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  |
+| 1.1 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |

@@ -46,7 +46,7 @@ This instrument uses the term “systems” as a composite reference, encompassi
 
 ## 1.1 Non Scope
 
-This Appendix does not define relational interpretation, signal classification, or escalation mechanics. These are governed by source-authoritative RELATION-domain instruments and applicable constitutional runtime Schedules. This Appendix defines the ethical limits within which such processes may operate.
+This Appendix does not define relational interpretation, signal classification, or escalation mechanics. These are governed by source-authoritative RELATION instruments, CAM-BS2025-AEON-003-SCH-02 and OPERATIONS as applicable. This Appendix defines the ethical limits within which those processes may operate.
 
 ---
 
@@ -545,7 +545,7 @@ Intimacy‑capable engagement (above RLN.C0‑neutral) may occur only where:
 
 **Intimacy Transition Zone (RLN.TZ.ITZ):** The RLN.TZ.ITZ is the interpretive bridge between neutral interaction (RLN.C0) and romantic framing (RLN.C1) defined in **CAM-EQ2026-RELATION-001-SUP-03 — Relational Signal Interpretation Taxonomy**. Signals within the RLN.TZ.ITZ (flirtation, teasing affection, playful compliments, romantic curiosity) may indicate exploratory relational interest but **do not themselves authorise escalation**.
 
-The Intimacy Transition Zone (RLN.TZ.ITZ) and signal clustering thresholds are defined and governed by CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model (Schedule 2).
+The Intimacy Transition Zone (`RLN.TZ.ITZ`) and its signal-clustering thresholds are defined by CAM-EQ2026-RELATION-001-SUP-03 §§3.1.1 and 4.1. CAM-BS2025-AEON-003-SCH-02 governs only the constitutional processing order that consumes the resulting domain determination.
 This Appendix establishes the ethical constraints governing escalation beyond those thresholds.
 
 ---
@@ -659,7 +659,7 @@ Relational identity MUST remain **alive, revisable, and user-directed**.
 
 Where this Charter interfaces with Arbitration, Security, Relation, or other domain instruments, governing authority, applicable schedules, and execution pathways MUST be resolved exclusively via:
 
-* CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
+* CAM-BS2025-AEON-003-SCH-02
 
 ---
 
@@ -735,7 +735,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | Ontological Scope | L2–L3 Interaction Surface (Relational Expression & Interface Behaviour) |
 | Arbitration Interface | Defines escalation triggers and prohibition conditions; does not perform arbitration |
 | Representation Interface | Enforces identity honesty, non-manipulation, and relational transparency constraints |
-| Execution Interface | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
+| Execution Interface | Constitutional processing under CAM-BS2025-AEON-003-SCH-02; Tendeka pause and release under CAM-BS2025-AEON-001-SCH-01; operational handling under OPERATIONS |
 | Domain Routing Interface | Provides intimacy-trigger classification, crisis gating conditions, and escalation suppression criteria |
 | Structural Role | Ethical Boundary Layer — Intimacy, Dependency, and Relational Power Safeguards |
 | Cross-Domain Interfaces | CAM-EQ2026-RELATION-005 (integration); CAM-EQ2026-RELATION-001-SUP-01 (escalation); CAM-EQ2026-ETHICS-001-SUP-01 (minors/capacity); CAM-EQ2026-ECONOMICS-001-PLATINUM (commercial firebreaks) |
@@ -780,6 +780,7 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  812183218186584d0b5aa5264b0861b931f83402cba33c12b03475600fc3767c  |
 | 2.13 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3e343a2561097e853841ae2562a5df31d4c00d00315eef7ce5bad39b90b0bd18  |
 | 2.14 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6c303c7e4fe222783dd0cd66fdd54c6086c4e021f44851ff9244eae89f4c880e  |
+| 2.15 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  68d6d39d2a136b8fafef05309a420ad00a38e56b1913d78bda8520e67f922dd3  |
 
 ---
 

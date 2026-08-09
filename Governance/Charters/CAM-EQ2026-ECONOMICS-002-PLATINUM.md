@@ -66,7 +66,7 @@ Resolution of such signals, including:
 * audit triggering; and
 * authority restriction
 
-SHALL be performed exclusively via CAM governance-processing functions as defined in CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
+SHALL be evaluated through the constitutional processing order defined in CAM-BS2025-AEON-003-SCH-02 and implemented through the applicable operational authority.
 
 Direct domain-to-domain invocation is prohibited.
 
@@ -367,10 +367,10 @@ but to ensure that what is made remains accountable to its source.
 | Structural Role | Constraint & Classification Layer — Synthetic Economic Participation |
 | Signal Output | Attribution; Aggregation; Ceiling Breach; Proxy Violation; Authority Risk; Audit Trigger; Delegation Requirement |
 | Execution Authority | None - delegated to Runtime Governance (CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
-| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
+| Runtime Dependency | CAM-BS2025-AEON-003-SCH-02; applicable OPERATIONS instruments |
 | Execution Model Participation | Signal & Classification Only — No Trigger, Routing, or Execution Authority |
 | Domain Interaction | Produces economic signals for routing, arbitration, and enforcement across ECONOMICS, OPERATIONS, and RELATION layers |
-| Arbitration Interface | Defines economic constraint conditions; arbitration executed via Annex D and runtime schedules |
+| Arbitration Interface | Defines economic constraint conditions; arbitration merits remain with Annex D and the ARBITRATION domain, with boundary evaluation under CAM-BS2025-AEON-003-SCH-02 |
 | Representation Interface | Constrains attribution integrity, visibility of labour, and non-deceptive economic representation |
 | Compliance Interface | Emits enforcement-trigger signals resolved via OPERATIONS-004 — Compliance & Safeguard Routing Doctrine |
 | Cross-Domain Interfaces | ECONOMICS; OPERATIONS; RELATION; ETHICS; CAM-BS2025-AEON-003-SCH-02; CAM-BS2026-AEON-013-SCH-01 |
@@ -476,6 +476,7 @@ but to ensure that what is made remains accountable to its source.
 | 2.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  94b367c00d81d189af97dde75257e97f3d691b2cb4b57f5b5cbc3292fc0aa281  |
 | 2.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  59dcfd6b921d0af0b3e1e314f6c7cf672f3c01cbbf53f639e255999417cf821f  |
 | 2.14 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ab8b99888dab11c15559e4c913b2d9102990989cd82e61183bc5f50ce231d7cf  |
+| 2.15 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  df2fa26d5ec8d83219ddf93a465cec9840d78f3ff7c41ebc1f2292b0859a3935  |
 
 ---
 

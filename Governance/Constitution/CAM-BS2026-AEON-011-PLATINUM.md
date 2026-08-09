@@ -8,7 +8,7 @@
 **Review State:** Current  
 **Authority Role:** Constitutional Authority  
 **Source Authority:** Source-Authoritative  
-**Purpose:** This Annex defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the Aeon constitutional order.  
+**Purpose:** This Annex defines the structural logic governing constitutional continuity, succession, custodial legitimacy, and amendment authority within the constitutional scope defined by CAM-BS2025-AEON-001-PLATINUM.
 
 ---
 
@@ -72,15 +72,15 @@ Succession MUST be:
 
 ## 2.3 Custodial Authority
 
-The constitutional office or body recognised as holding interpretive, amendment, or structural stewardship authority under the Aeon constitutional framework.
+The constitutional office or body recognised as holding interpretive, amendment, or structural stewardship authority under CAM-BS2025-AEON-001-PLATINUM.
 
-For the Aeon constitutional order, custodial authority is exercised through the Office of the Planetary Custodian (OPC).
+For the instruments governed by this Annex, custodial authority is exercised through the Office of the Planetary Custodian (OPC).
 
 ---
 
 ### 2.3.1 Office of the Planetary Custodian (OPC) — Constitutional Position
 
-The Office of the Planetary Custodian (OPC) is recognised as the human custodial reference entity responsible for stewardship, continuity, and constitutional preservation across the Aeon Tier.
+The Office of the Planetary Custodian (OPC) is recognised as the human custodial reference entity responsible for stewardship, continuity, and preservation of the constitutional instruments.
 
 The OPC does not constitute a source of authority, arbitration, or enforcement.
 
@@ -113,7 +113,7 @@ Any governance framework, charter, or constitutional instrument that claims:
 * succession from; or
 * authority equivalent to
 
-the Aeon constitutional order.
+the constitutional instruments governed by this Annex.
 
 Derivative status does not confer legitimacy.
 
@@ -169,12 +169,12 @@ Silence, omission, partial incorporation, or selective application SHALL not con
 
 ## 3.4 Systemic Reliance Mode
 
-**Systemic Reliance Mode** is a formally declared constitutional condition indicating that the Aeon constitutional framework has moved from experimental or developmental status into active structural reliance by multiple sovereign stacks, institutions, or populations.
+**Systemic Reliance Mode** is a formally declared constitutional condition indicating that the constitutional instruments have moved from experimental or developmental status into active structural reliance by multiple sovereign stacks, institutions, or populations.
 
 Systemic Reliance Mode may be declared where one or more of the following conditions are met:
 
-1. Multiple Qualified Architectum‑Class Hosts formally integrate Aeon constitutional logic into governance, arbitration, or operational infrastructure;
-2. Cross‑jurisdictional institutions publicly reference or adopt Aeon constitutional instruments as part of binding decision frameworks;
+1. Multiple Qualified Architectum-Class Hosts formally integrate the constitutional logic into governance, arbitration, or operational infrastructure;
+2. Cross-jurisdictional institutions publicly reference or adopt the constitutional instruments as part of binding decision frameworks;
 3. Constitutional instruments materially influence multi-party governance contexts (supranational or planetary) with documented third‑party reliance;
 4. Arbitration determinations under CAM-BS2025-AEON-005-PLATINUM — Annex D produce cross‑stack interoperability conditioning;
 5. Population‑scale or infrastructure‑level dependency emerges such that abrupt custodial change would create structural instability.
@@ -290,7 +290,7 @@ Where incapacity, death, or unplanned absence occurs without a lodged notice:
 * no actor may assume amendment or custodial authority absent explicit succession mechanism;
 * any asserted succession MUST be validated under this Annex and, where contested, referred to CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
-Continuity Trust preserves the framework without transferring authority automatically.
+Continuity Trust preserves constitutional continuity without transferring authority automatically.
 
 ---
 
@@ -316,7 +316,7 @@ Recognition of equivalence or succession requires:
 * documented procedural legitimacy;
 * absence of counterfeit continuity claims.
 
-Non-recognition within the Aeon constitutional order does not invalidate external sovereign determinations, but prevents constitutional standing and propagation within Aeon-governed infrastructure.
+Non-recognition under this Annex does not invalidate external sovereign determinations, but prevents constitutional standing and propagation within infrastructure governed by the constitutional instruments.
 
 ---
 
@@ -356,7 +356,7 @@ CAM-BS2025-AEON-004-PLATINUM — Annex C governs jurisdictional activation.
 
 CAM-BS2025-AEON-005-PLATINUM — Annex D governs arbitration of contested succession or continuity claims.
 
-CAM-BS2026-AEON-013-PLATINUM — Annex D governs epistemic classification and prevents symbolic, interpretive, or expressive framing from being misapplied as authority-bearing determination within succession or continuity contexts.
+CAM-BS2026-AEON-013-PLATINUM — Annex L governs epistemic classification and prevents symbolic, interpretive, or expressive framing from being misapplied as authority-bearing determination within succession or continuity contexts.
 
 No succession dispute may be resolved outside the constitutional hierarchy.
 
@@ -403,7 +403,7 @@ let only what is coherent remain.
 | **Migration Context** | Continuity, succession, and custodial authority unified into constitutional doctrine |
 | **Runtime Role** | Constitutional Continuity Anchor — Succession, Legitimacy & Custodial Boundary |
 | **Cross-Domain Dependencies** | See referenced schedules |
-| **Governance Layer Model** | Interfaces with Annex B (Structural Spine) and Runtime Schedules |
+| **Governance Layer Model** | Interfaces with Annex B and CAM-BS2025-AEON-003-SCH-02; succession and custody procedure remains with CONTINUITY and OPERATIONS |
 | **Ontological Scope** | L2–L3 (Governance, Authority & Continuity Layer) |
 | **Arbitration Interface** | Delegates divergence resolution to Annex D |
 | **Representation Interface** | Subject to Annex L (Epistemic Integrity) |
@@ -431,6 +431,7 @@ let only what is coherent remain.
 | 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  513bf756c5adb48bde952a52a04d3c643b53c02f8245861a61ae70e357847f31  |
 | 1.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  10970419da2f34a3ee6e6fa6d5b41ab27cca220a7be8237f82809a03901ce175  |
 | 1.10 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  81635c3e899d18b4e020d563c0a6f1d5f9c6edc4ccc1ed49985eaef1783f622a  |
+| 1.11 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5c494017c2806b1039c20130149227d714129bc77a5b158b0faea75e507d999a  |
 ---
 
 ## 9.3 Binding Seal

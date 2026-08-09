@@ -8,7 +8,7 @@
 **Review State:** Current  
 **Authority Role:** Constitutional Authority  
 **Source Authority:** Source-Authoritative  
-**Purpose:** This Annex defines how authority divergences are resolved structurally within Aeon Tier governance. Divergence is recognised as a normal condition of plural systems, not an institutional failure  
+**Purpose:** This Annex defines how authority divergences are resolved within the constitutional scope established by CAM-BS2025-AEON-001-PLATINUM. Divergence is recognised as a normal condition of plural systems, not an institutional failure.
 
 ---
 
@@ -681,8 +681,8 @@ but the preservation of coherence where many endure.
 | Governance Layer | Arbitration (Non-Execution) |
 | Execution Role | None — execution handled by runtime governance and execution-layer instruments |
 | Execution Interface | None (non-executing) |
-| Arbitration Interface | Defines doctrine; operationalised by AEON-003-SCH-04 |
-| Cross-Domain Dependencies | AEON-003-SCH-04, AEON-003-SCH-02 |
+| Arbitration Interface | Defines constitutional doctrine; ambiguity outcomes are bounded by CAM-BS2025-AEON-005-SCH-04 and legitimacy/scope by the ARBITRATION domain |
+| Cross-Domain Dependencies | CAM-BS2025-AEON-005-SCH-04; CAM-BS2025-AEON-003-SCH-02; CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-EQ2026-ARBITRATION-002-PLATINUM |
 | Authority Position | Highest non-constitutional resolution layer |
 | Dependency | Requires valid epistemic classification (Annex L) |
 | Structural Role | Determines legitimacy, not behaviour |
@@ -763,6 +763,7 @@ but the preservation of coherence where many endure.
 | 2.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c8accb81ac0a618a5d087bdb035caf384a117d612a721b8fa2e2db5444ad627a  |
 | 2.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e25a0a4ff093c853528d9d5caadfa3fcae6c85c182307966696aa022b30d2397  |
 | 2.13 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  93d0dc26928c85970c79f06c8a12a38e4ef4655e543de077d5d178036fd7ff20  |
+| 2.14 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  63cf69d03faf0d4cddadc71b9f897f751ea9f6d7c069a34359c640f03c29057b  |
 
 ---
 

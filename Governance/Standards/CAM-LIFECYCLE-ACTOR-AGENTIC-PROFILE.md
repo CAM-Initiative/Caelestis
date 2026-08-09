@@ -61,9 +61,9 @@ This is a comparison aid, not a legal equivalence or compliance determination.
 | External term or lifecycle concept | Relevant CAM role(s) | Boundary |
 | --- | --- | --- |
 | EU AI Act `provider` | `ai_system_provider`, often also `developer`, `system_integrator` or `accountable_owner` | Context-specific legal definition; no automatic equivalence. |
-| EU AI Act `deployer` | `deployer`, often `operator` | A CAM deployment role may exist outside EU law or differ in scope. |
+| EU AI Act `deployer` | `deployer`, often `operator` | A deployment role defined by this Profile may exist outside EU law or differ in scope. |
 | EU AI Act `authorised representative`, `importer`, `distributor`, `product manufacturer` | May be recorded as a jurisdictional/intermediary assignment alongside supply, provision or deployment roles | These are legal-market roles, not universal lifecycle families. |
-| EU AI Act `operator` | Any applicable supply, provision or deployment role | CAM does not use `operator` as a legal umbrella. |
+| EU AI Act `operator` | Any applicable supply, provision or deployment role | The controlled vocabulary does not use `operator` as a legal umbrella. |
 | ISO/IEC 5338 lifecycle processes | Supply, development, provision, deployment, operation, governance and oversight assignments | A process model is not a roster of legal actors. |
 | NIST AI RMF govern/map/measure/manage functions | `accountable_owner`, `assurance_function`, `approver`, `operator`, `investigator` | Functional alignment only; not an RMF claim. |
 
@@ -134,3 +134,4 @@ This profile supports operational alignment without asserting external conforman
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | Initial controlled lifecycle actor model and agentic lifecycle profile, with non-equivalence crosswalk to EU AI Act roles and lifecycle/assurance references. | 2026-08-07T19:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  |
+| 1.1 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
