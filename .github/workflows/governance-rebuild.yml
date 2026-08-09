@@ -7,7 +7,9 @@ on:
       - "Governance/Constitution/**"
       - "Governance/Charters/**"
       - "Governance/Laws/**"
+      - "Governance/Standards/**"
       - "Governance/Drafts/**"
+      - "Governance/CAM.*"
       - ".github/scripts/**"
       - ".github/Indices/**"
   pull_request:
@@ -15,7 +17,9 @@ on:
       - "Governance/Constitution/**"
       - "Governance/Charters/**"
       - "Governance/Laws/**"
+      - "Governance/Standards/**"
       - "Governance/Drafts/**"
+      - "Governance/CAM.*"
       - ".github/scripts/**"
       - ".github/Indices/**"
   workflow_dispatch:
@@ -114,10 +118,11 @@ jobs:
       - name: Phase 5 — Build global Governance registry
         run: python .github/scripts/update-CAM-Governance-Index.py
 
-      - name: Phase 6 — Mutate SCH-01 and SCH-03
+      - name: Phase 6 — Rebuild generated governance registries
         run: |
           python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
           python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
+          python .github/scripts/update-CAM-Model-Terminology-Audit.py
 
       - name: Phase 7 — Final global Governance rebuild
         run: python .github/scripts/update-CAM-Governance-Index.py
@@ -162,6 +167,7 @@ jobs:
           python .github/scripts/update-CAM-Governance-Index.py
           python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
           python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
+          python .github/scripts/update-CAM-Model-Terminology-Audit.py
           python .github/scripts/update-CAM-Governance-Index.py
           python .github/scripts/build-canonical-code-index.py --root Governance
           AFTER_STATUS="$(git status --porcelain)"

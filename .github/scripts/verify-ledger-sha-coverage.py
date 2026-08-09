@@ -20,7 +20,6 @@ SCOPES = {
     "Charters": (REPO_ROOT / "Governance" / "Charters", REPO_ROOT / "Governance" / "Charters" / "charters.index.json"),
 }
 
-EXCLUDED_IDS = {"CAM-BS2025-AEON-003-SCH-01", "CAM-BS2025-AEON-003-SCH-03"}
 AMENDMENT_HEADING_RE = re.compile(r"^##+\s+.*amendment\s+ledger", re.IGNORECASE | re.MULTILINE)
 NEXT_HEADING_RE = re.compile(r"^##+\s+", re.MULTILINE)
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
@@ -120,9 +119,6 @@ def main() -> int:
                 continue
             text = md.read_text(encoding='utf-8')
             doc_id = infer_id(text, md)
-            if doc_id in EXCLUDED_IDS:
-                continue
-
             try:
                 hashes = ledger_hash_rows(text)
             except ValueError as exc:

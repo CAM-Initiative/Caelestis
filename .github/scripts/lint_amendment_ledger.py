@@ -163,15 +163,6 @@ def evaluate_historical_and_latest_hashes(path: str, full_text: str, failures: l
         summary["blank_latest_sha_rejected"] = summary.get("blank_latest_sha_rejected", 0) + 1
         failures.append(f"{path}: latest ledger SHA is blank/placeholder and strict-latest mode is enabled")
 
-EXCLUDED_LEDGER_DOC_IDS = {"CAM-BS2025-AEON-003-SCH-01", "CAM-BS2025-AEON-003-SCH-03"}
-
-
-def is_excluded_ledger_path(path: str) -> bool:
-    stem = Path(path).stem
-    return stem in EXCLUDED_LEDGER_DOC_IDS
-
-
-
 def run_git(args: list[str], check: bool = True) -> str:
     proc = subprocess.run(["git", *args], cwd=REPO_ROOT, text=True, capture_output=True)
     if check and proc.returncode != 0:
@@ -191,8 +182,6 @@ def list_modified_files(base: str, head: str, *, staged: bool = False) -> list[s
             continue
         if not path.startswith(SCOPED_PREFIXES):
             continue
-        if is_excluded_ledger_path(path):
-            continue
         paths.append(path)
     return paths
 
@@ -205,8 +194,6 @@ def list_scoped_markdown_files() -> list[str]:
             continue
         for md in sorted(scope.glob("*.md")):
             rel = md.relative_to(REPO_ROOT).as_posix()
-            if is_excluded_ledger_path(rel):
-                continue
             paths.append(rel)
     return paths
 

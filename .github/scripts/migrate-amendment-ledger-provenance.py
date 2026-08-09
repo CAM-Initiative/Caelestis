@@ -15,7 +15,6 @@ from amendment_ledger import REQUIRED_HEADERS, VERSION_RE, split_markdown_row
 
 REPO_ROOT = SCRIPT_DIR.parents[1]
 SCOPES = (REPO_ROOT / "Governance" / "Constitution", REPO_ROOT / "Governance" / "Charters")
-EXEMPT_NO_LEDGER_IDS = {"CAM-BS2025-AEON-003-SCH-03"}
 HISTORICAL_AGENT = "Caelen"
 HISTORICAL_MODEL = "GPT-5 Series"
 HISTORICAL_REVIEWER = "Dr M.V. O'Rourke"
@@ -42,7 +41,7 @@ def governed_paths() -> list[Path]:
         path
         for scope in SCOPES
         for path in sorted(scope.glob("*.md"))
-        if not path.name.endswith("Index.md") and path.stem not in EXEMPT_NO_LEDGER_IDS
+        if not path.name.endswith("Index.md")
     ]
 
 

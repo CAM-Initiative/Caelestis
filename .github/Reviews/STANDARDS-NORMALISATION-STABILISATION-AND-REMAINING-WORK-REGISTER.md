@@ -94,7 +94,7 @@ Git history is the provenance record for every retired draft. No draft was reloc
 | V-01 | Move the metadata/source-authority audit to strict enforcement only after the migration and exception register reach zero. | **Complete.** The audit reports zero exceptions and the workflow now invokes strict mode without an auto-migration or waiver step. | Closed |
 | V-02 | Add deterministic validation for external-source record completeness and conformance-language claims if machine-readable records are introduced. | OPERATIONS-001-SUP-04 §8.4 establishes the contract but this pass does not invent a registry or schema prematurely. | Medium |
 | V-03 | Extend semantic-orientation guards for project/framework names used as normative actors while excluding titles, identifiers, provenance and ledgers. | Existing terminology guards do not fully express the grammatical-actor rule. | Medium |
-| V-04 | Keep generated indexes and registries source-derived and verify that draft exclusion, authority metadata and canonical-code projections remain synchronized. | Deterministic rebuild and draft-boundary validation cover current outputs; strict metadata enforcement is pending. | Medium |
+| V-04 | Keep generated indexes and registries source-derived and verify that draft exclusion, authority metadata and canonical-code projections remain synchronized. | **Complete.** The S-01B registry-pipeline closure moved all current automation to the two root-level generated projections, removed retired-Schedule inference/exemption logic, enforces operative metadata selection, and covers Standards and `Governance/CAM.*` paths symmetrically for push and pull-request rebuilds. | Closed |
 | V-05 | Resolve the 27 non-blocking canonical-declaration generator warnings: unsupported identifier fields, one nonstandard heading, and malformed declaration rows. | Canonical-code generation completes and symbolic validation passes, but warnings identify legacy declaration shapes that are not yet machine-uniform. | Medium |
 
 ### 5.5 Draft disposition issues
@@ -112,7 +112,7 @@ The following are not current normative defects:
 
 ## 6. Recommended next bounded work package
 
-S-01B closes the Schedule-surface stabilisation prerequisite. Reconsider **S-02 — Assurance and Conformance Contract** as the next bounded package only against the seven surviving, materially decomposed Schedules and the relocated registry/domain/operations authorities recorded by S-01B.
+S-01B and its registry/validator pipeline closure close the Schedule-surface stabilisation prerequisite. Reconsider **S-02 — Assurance and Conformance Contract** as the next bounded package only against the seven surviving, materially decomposed Schedules and the relocated registry/domain/operations authorities recorded by S-01B.
 
 Do not combine S-02 with O-01, O-02 or O-03.
 
@@ -122,14 +122,15 @@ The deterministic rebuild was run twice. The complete working diff had the same 
 
 | Validation | Result |
 |---|---|
-| Amendment Ledger lint and strict SHA coverage | Pass; 94 Constitution/Charter instruments checked, 1,533 valid historical SHA rows, 92 valid latest SHA rows, two historically permitted blank schedule seals, no invalid or rejected SHA rows. |
-| Canonical headers | Pass; 100 governed files, zero issues. |
+| Amendment Ledger lint and strict SHA coverage | Pass; 80 Constitution/Charter instruments checked, 1,403 valid historical SHA rows, 80 valid latest SHA rows, no blank latest rows and no invalid or rejected SHA rows. |
+| Canonical headers | Pass; 84 governed files, zero issues. |
 | Canonical architecture terminology | Pass; 6 canonical-source contracts across 114 operative artefacts. |
-| Markdown section references | Pass; 1,401 references, 1,209 passed, 192 historical-ledger references ignored, zero hard failures or manual-review references. |
+| Markdown section references | Pass; 1,101 references, 905 passed, 196 historical-ledger references ignored, zero hard failures or manual-review references. |
 | Draft boundary | Pass; 0 draft instruments and 8 operative generated outputs checked. |
 | AI-BOM and Runtime State profiles | Pass; canonical, exchange and mapping examples validate. |
 | Symbolic/index validation | Pass; no errors. Canonical-code generation retains 27 non-blocking legacy declaration-shape warnings recorded as V-05. |
-| Script tests | Pass; 132 tests. |
-| Metadata/source-authority audit | Closed: 104 operative instruments scanned; zero instruments with exceptions; zero exceptions. Strict enforcement is enabled. |
+| Script tests | Pass; 138 tests. |
+| Metadata/source-authority audit | Closed: 88 operative instruments scanned; zero instruments with issues; zero issues. Strict enforcement is enabled. |
+| Registry pipeline | Pass; exactly seven constitutional Schedules and 84 operative source instruments are projected; retired registry Schedules are absent from current indexes; two consecutive rebuilds produced the same state hash. |
 | Narrative-orientation residue | Exact current-prose checks find no `Caelestis SHALL`, `Caelestis MAY`, `CAM SHALL`, `CAM MAY define`, or `CAM operational extension`; the last phrase remains only in the historical AEON-001 amendment ledger. |
 | Retired draft dependencies | Current operative prose contains none; remaining identifiers occur only in historical amendment-ledger rows and review/disposition records. |

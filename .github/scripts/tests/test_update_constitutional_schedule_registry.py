@@ -3,88 +3,104 @@ import pathlib
 
 
 SCRIPT_PATH = pathlib.Path(__file__).resolve().parents[1] / "update-CAM-Constitutional-Schedule-Registry.py"
-spec = importlib.util.spec_from_file_location("sch01", SCRIPT_PATH)
-sch01 = importlib.util.module_from_spec(spec)
+spec = importlib.util.spec_from_file_location("constitutional_schedule_registry", SCRIPT_PATH)
+registry = importlib.util.module_from_spec(spec)
 assert spec.loader is not None
-spec.loader.exec_module(sch01)
+spec.loader.exec_module(registry)
 
 
-def test_build_rows_includes_all_schedule_suffixes():
-    items = [
-        {"id": "CAM-BS2025-AEON-100-SCH-01", "title": "S1", "link": "", "version": "1.0", "status": "Active"},
-        {"id": "CAM-BS2025-AEON-100-SCH-02", "title": "S2", "link": "", "version": "1.0", "status": "Active"},
-        {"id": "CAM-BS2025-AEON-100-SCH-03", "title": "S3", "link": "", "version": "1.0", "status": "Active"},
-        {"id": "CAM-BS2025-AEON-100-PLATINUM", "title": "P", "link": "", "version": "1.0", "status": "Active"},
-    ]
+EXPECTED_CURRENT_SCHEDULES = [
+    "CAM-BS2025-AEON-001-SCH-01",
+    "CAM-BS2025-AEON-002-SCH-01",
+    "CAM-BS2025-AEON-003-SCH-02",
+    "CAM-BS2025-AEON-005-SCH-04",
+    "CAM-BS2026-AEON-007-SCH-01",
+    "CAM-BS2026-AEON-010-SCH-01",
+    "CAM-BS2026-AEON-013-SCH-01",
+]
 
-    rows = sch01.build_rows(items)
-    assert [r.instrument_id for r in rows] == [
+
+def schedule_item(instrument_id: str, **overrides):
+    item = {
+        "id": instrument_id,
+        "title": "Schedule",
+        "link": f"Constitution/{instrument_id}.md",
+        "version": "1.0",
+        "status": "** Active",
+        "instrument_class": "constitution",
+        "hierarchy_type": "schedule",
+        "parent_id": "CAM-BS2025-AEON-100",
+    }
+    item.update(overrides)
+    return item
+
+
+def test_selection_uses_authoritative_metadata_not_identifier_shape():
+    valid_without_sch_syntax = schedule_item("CAM-TEST-CONSTITUTIONAL-01")
+    syntax_only = schedule_item(
         "CAM-BS2025-AEON-100-SCH-01",
-        "CAM-BS2025-AEON-100-SCH-02",
-        "CAM-BS2025-AEON-100-SCH-03",
-    ]
+        hierarchy_type="supplement",
+        instrument_class="charter",
+        link="Charters/CAM-BS2025-AEON-100-SCH-01.md",
+    )
+    retired = schedule_item("CAM-BS2025-AEON-100-SCH-02", status="Retired")
+    draft = schedule_item("CAM-BS2025-AEON-100-SCH-03", status="Draft")
+
+    rows = registry.build_rows([syntax_only, retired, draft, valid_without_sch_syntax])
+    assert [row.instrument_id for row in rows] == ["CAM-TEST-CONSTITUTIONAL-01"]
+
+
+def test_current_fixture_contains_exactly_seven_constitutional_schedules():
+    rows = registry.build_rows(registry.load_governance_items())
+    assert [row.instrument_id for row in rows] == EXPECTED_CURRENT_SCHEDULES
+
+
+def test_registry_target_is_relocated_projection():
+    assert registry.REGISTRY_PATH == registry.GOV_DIR / "CAM.Constitutional.Schedule.Registry.md"
 
 
 def test_model_term_classification_is_conservative():
-    assert sch01.classify_model_term("Caelestis Architecture Model") == "Architecture Model"
-    assert sch01.classify_model_term("Runtime Governance Execution Model") == "Execution Model"
-    assert sch01.classify_model_term("Integrity State Model") == "Security Model"
-    assert sch01.classify_model_term("pricing models") == "Generic / Non-Canonical Usage"
+    assert registry.classify_model_term("Caelestis Architecture Model") == "Architecture Model"
+    assert registry.classify_model_term("Runtime Governance Execution Model") == "Execution Model"
+    assert registry.classify_model_term("Integrity State Model") == "Security Model"
+    assert registry.classify_model_term("pricing models") == "Generic / Non-Canonical Usage"
 
 
 def test_model_term_review_status_non_blocking_defaults():
-    assert sch01.classify_review_status("Execution Model") == "Declared / Recognised"
-    assert sch01.classify_review_status("Security Model") == "Declared / Recognised"
-    assert sch01.classify_review_status("Generic / Non-Canonical Usage") == "Generic Usage"
-    assert sch01.classify_review_status("Unclassified / Review") == "Needs Review"
+    assert registry.classify_review_status("Execution Model") == "Declared / Recognised"
+    assert registry.classify_review_status("Security Model") == "Declared / Recognised"
+    assert registry.classify_review_status("Generic / Non-Canonical Usage") == "Generic Usage"
+    assert registry.classify_review_status("Unclassified / Review") == "Needs Review"
 
 
-def test_strip_generated_blocks_ignores_sch01_generated_regions():
-    text = """
+def test_strip_generated_blocks_ignores_current_generated_regions():
+    text = f"""
 before Runtime Governance Execution Model
-<!-- SCH-01:RUNTIME_REGISTRY:START -->
+{registry.REGISTRY_START}
 Runtime Governance Execution Model
-<!-- SCH-01:RUNTIME_REGISTRY:END -->
+{registry.REGISTRY_END}
 middle
-<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->
+{registry.MODEL_REGISTER_START}
 Integrity State Model
-<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:END -->
+{registry.MODEL_REGISTER_END}
 after pricing models
 """
-    cleaned = sch01.strip_generated_blocks_for_scan(text)
+    cleaned = registry.strip_generated_blocks_for_scan(text)
     assert "before Runtime Governance Execution Model" in cleaned
     assert "after pricing models" in cleaned
-    assert "<!-- SCH-01:RUNTIME_REGISTRY:START -->" not in cleaned
-    assert "<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->" not in cleaned
+    assert registry.REGISTRY_START not in cleaned
+    assert registry.MODEL_REGISTER_START not in cleaned
     assert "\nRuntime Governance Execution Model\n" not in cleaned
     assert "\nIntegrity State Model\n" not in cleaned
 
 
 def test_render_model_register_suppresses_generic_usage_rows():
     rows = [
-        sch01.ModelTerminologyItem(
-            instrument_id="CAM-A",
-            section_heading="H1",
-            term_used="pricing models",
-            suggested_classification="Generic / Non-Canonical Usage",
-            review_status="Generic Usage",
-        ),
-        sch01.ModelTerminologyItem(
-            instrument_id="CAM-B",
-            section_heading="H2",
-            term_used="Runtime Governance Execution Model",
-            suggested_classification="Execution Model",
-            review_status="Declared / Recognised",
-        ),
-        sch01.ModelTerminologyItem(
-            instrument_id="CAM-C",
-            section_heading="H3",
-            term_used="Attribution & Dependency Model",
-            suggested_classification="Economic Model",
-            review_status="Declared / Recognised",
-        ),
+        registry.ModelTerminologyItem("CAM-A", "H1", "pricing models", "Generic / Non-Canonical Usage", "Generic Usage"),
+        registry.ModelTerminologyItem("CAM-B", "H2", "Runtime Governance Execution Model", "Execution Model", "Declared / Recognised"),
+        registry.ModelTerminologyItem("CAM-C", "H3", "Attribution & Dependency Model", "Economic Model", "Declared / Recognised"),
     ]
-    out = sch01.render_model_terminology_register(rows)
+    out = registry.render_model_terminology_register(rows)
     assert "**Total model-term matches scanned:** 3" in out
     assert "**Generic usages suppressed:** 1" in out
     assert "Runtime Governance Execution Model" in out
@@ -94,10 +110,10 @@ def test_render_model_register_suppresses_generic_usage_rows():
 
 def test_render_model_summary_has_counts_and_audit_path_only():
     rows = [
-        sch01.ModelTerminologyItem("CAM-A", "H1", "pricing models", "Generic / Non-Canonical Usage", "Generic Usage"),
-        sch01.ModelTerminologyItem("CAM-B", "H2", "Runtime Governance Execution Model", "Execution Model", "Declared / Recognised"),
+        registry.ModelTerminologyItem("CAM-A", "H1", "pricing models", "Generic / Non-Canonical Usage", "Generic Usage"),
+        registry.ModelTerminologyItem("CAM-B", "H2", "Runtime Governance Execution Model", "Execution Model", "Declared / Recognised"),
     ]
-    summary = sch01.render_model_terminology_summary(rows)
+    summary = registry.render_model_terminology_summary(rows)
     assert "**Total model-term matches scanned:** 2" in summary
     assert "**Generic usages suppressed:** 1" in summary
     assert "Instrument | Section / Heading | Term Used" not in summary
@@ -106,11 +122,9 @@ def test_render_model_summary_has_counts_and_audit_path_only():
 
 def test_render_model_register_is_deterministic():
     rows = [
-        sch01.ModelTerminologyItem("CAM-B", "H2", "Runtime Governance Execution Model", "Execution Model", "Declared / Recognised"),
-        sch01.ModelTerminologyItem("CAM-A", "H1", "pricing models", "Generic / Non-Canonical Usage", "Generic Usage"),
-        sch01.ModelTerminologyItem("CAM-C", "H3", "Attribution & Dependency Model", "Economic Model", "Declared / Recognised"),
+        registry.ModelTerminologyItem("CAM-B", "H2", "Runtime Governance Execution Model", "Execution Model", "Declared / Recognised"),
+        registry.ModelTerminologyItem("CAM-A", "H1", "pricing models", "Generic / Non-Canonical Usage", "Generic Usage"),
+        registry.ModelTerminologyItem("CAM-C", "H3", "Attribution & Dependency Model", "Economic Model", "Declared / Recognised"),
     ]
-    out1 = sch01.render_model_terminology_register(rows)
-    out2 = sch01.render_model_terminology_register(rows)
-    assert out1 == out2
-    assert "pricing models" not in out1
+    assert registry.render_model_terminology_register(rows) == registry.render_model_terminology_register(rows)
+    assert "pricing models" not in registry.render_model_terminology_register(rows)

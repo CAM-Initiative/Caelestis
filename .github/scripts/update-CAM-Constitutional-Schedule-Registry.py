@@ -13,8 +13,10 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 GOV_DIR = REPO_ROOT / "Governance"
 GOV_JSON_PATH = GOV_DIR / "CAM.Governance.JSON"
-SCH01_PATH = GOV_DIR / "CAM.Constitutional.Schedule.Registry.md"
+REGISTRY_PATH = GOV_DIR / "CAM.Constitutional.Schedule.Registry.md"
 MODEL_AUDIT_PATH = REPO_ROOT / ".github" / "Indices" / "CAM.Governance.Model-Terminology.Audit.md"
+
+OPERATIVE_STATUSES = {"active", "adopted"}
 
 REGISTRY_START = "<!-- CONSTITUTIONAL-SCHEDULE-REGISTRY:START -->"
 REGISTRY_END = "<!-- CONSTITUTIONAL-SCHEDULE-REGISTRY:END -->"
@@ -76,6 +78,21 @@ def normalize_label(text: str) -> str:
     cleaned = re.sub(r"[^A-Za-z0-9\-\s]", " ", cleaned)
     cleaned = re.sub(r"\s+", " ", cleaned)
     return cleaned.strip().lower()
+
+
+def normalize_metadata_value(value: object) -> str:
+    cleaned = re.sub(r"[*_`]", "", str(value or ""))
+    return re.sub(r"\s+", " ", cleaned).strip().lower()
+
+
+def is_current_constitutional_schedule(item: dict) -> bool:
+    return (
+        normalize_metadata_value(item.get("instrument_class")) == "constitution"
+        and normalize_metadata_value(item.get("hierarchy_type")) == "schedule"
+        and normalize_metadata_value(item.get("status")) in OPERATIVE_STATUSES
+        and str(item.get("parent_id") or "").strip() != ""
+        and str(item.get("link") or "").strip().startswith("Constitution/")
+    )
 
 
 def extract_json_runtime_layer(item: dict) -> str | None:
@@ -186,13 +203,6 @@ def extract_governance_layer(markdown_rows: dict[str, str]) -> tuple[str, str]:
     return "UNSPECIFIED", "fallback:UNSPECIFIED"
 
 
-def governance_layer_fallback_for_schedule(instrument_id: str) -> tuple[str, str] | None:
-    fallback_map = {
-        "CAM-BS2025-AEON-003-SCH-03": ("Passive (Registry)", "fallback:policy-map"),
-    }
-    return fallback_map.get(instrument_id)
-
-
 def extract_runtime_layer(item: dict, markdown_rows: dict[str, str]) -> tuple[str, str]:
     governance_function = markdown_rows.get("cam governance-processing function")
     if governance_function:
@@ -217,7 +227,7 @@ def extract_runtime_layer(item: dict, markdown_rows: dict[str, str]) -> tuple[st
 
 
 def build_rows(items: list[dict]) -> list[RuntimeRegistryItem]:
-    schedule_items = [item for item in items if "-SCH-" in str(item.get("id") or "")]
+    schedule_items = [item for item in items if is_current_constitutional_schedule(item)]
 
     seen_ids: set[str] = set()
     duplicates: set[str] = set()
@@ -245,10 +255,6 @@ def build_rows(items: list[dict]) -> list[RuntimeRegistryItem]:
 
         domain, domain_source = extract_domain(item, instrument_id, markdown_rows)
         governance_layer, governance_layer_source = extract_governance_layer(markdown_rows)
-        if governance_layer == "UNSPECIFIED":
-            mapped = governance_layer_fallback_for_schedule(instrument_id)
-            if mapped is not None:
-                governance_layer, governance_layer_source = mapped
         runtime_layer, runtime_layer_source = extract_runtime_layer(item, markdown_rows)
 
         if found_metadata_table and "domain" not in markdown_rows and "domain layer" not in markdown_rows:
@@ -323,17 +329,17 @@ def render_audit(rows: list[RuntimeRegistryItem]) -> str:
 
 
 def update_registry_block(table_block: str) -> None:
-    text = read_text(SCH01_PATH)
+    text = read_text(REGISTRY_PATH)
 
     if REGISTRY_START not in text or REGISTRY_END not in text:
-        fail(f"missing runtime registry markers in {SCH01_PATH.relative_to(REPO_ROOT)}")
+        fail(f"missing constitutional registry markers in {REGISTRY_PATH.relative_to(REPO_ROOT)}")
 
     pattern = re.compile(
         rf"{re.escape(REGISTRY_START)}.*?{re.escape(REGISTRY_END)}",
         re.DOTALL,
     )
     updated = pattern.sub(f"{REGISTRY_START}\n{table_block}\n{REGISTRY_END}", text)
-    SCH01_PATH.write_text(updated, encoding="utf-8")
+    REGISTRY_PATH.write_text(updated, encoding="utf-8")
 
 
 def classify_model_term(term: str) -> str:
@@ -405,8 +411,6 @@ def strip_generated_blocks_for_scan(text: str) -> str:
     patterns = [
         (REGISTRY_START, REGISTRY_END),
         (MODEL_REGISTER_START, MODEL_REGISTER_END),
-        ("<!-- SCH-01:RUNTIME_REGISTRY:START -->", "<!-- SCH-01:RUNTIME_REGISTRY:END -->"),
-        ("<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->", "<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:END -->"),
     ]
     cleaned = text
     for start, end in patterns:
@@ -507,7 +511,7 @@ def render_model_terminology_register(rows: list[ModelTerminologyItem]) -> str:
 
 
 def update_model_terminology_block(table_block: str) -> None:
-    text = read_text(SCH01_PATH)
+    text = read_text(REGISTRY_PATH)
     text = text.replace(
         "## 4.2 Execution Sequencing Model (Non-Layer Classification)",
         "## 4.1 Execution Sequencing Model (Non-Layer Classification)",
@@ -524,7 +528,7 @@ def update_model_terminology_block(table_block: str) -> None:
             text = text.rstrip() + "\n\n" + section_block + "\n"
     pattern = re.compile(rf"{re.escape(MODEL_REGISTER_START)}.*?{re.escape(MODEL_REGISTER_END)}", re.DOTALL)
     updated = pattern.sub(f"{MODEL_REGISTER_START}\n{table_block}\n{MODEL_REGISTER_END}", text)
-    SCH01_PATH.write_text(updated, encoding="utf-8")
+    REGISTRY_PATH.write_text(updated, encoding="utf-8")
 
 
 def write_model_terminology_audit(audit_content: str) -> None:
@@ -542,12 +546,7 @@ def main() -> None:
 
     block = render_registry(rows)
     update_registry_block(block)
-    model_rows = build_model_terminology_rows()
-    model_summary_block = render_model_terminology_summary(model_rows)
-    update_model_terminology_block(model_summary_block)
-    model_audit_content = render_model_terminology_register(model_rows)
-    write_model_terminology_audit(model_audit_content)
-    print(f"Updated: {SCH01_PATH.relative_to(REPO_ROOT)}")
+    print(f"Updated: {REGISTRY_PATH.relative_to(REPO_ROOT)}")
 
 
 if __name__ == "__main__":

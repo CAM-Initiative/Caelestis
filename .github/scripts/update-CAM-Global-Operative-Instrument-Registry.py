@@ -16,12 +16,14 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from instrument_state import extract_status_and_version
+from instrument_state import extract_instrument_metadata, extract_status_and_version
 
 GOV_DIR = REPO_ROOT / "Governance"
-SCH03_PATH = GOV_DIR / "CAM.Global.Operative.Instrument.Registry.md"
+REGISTRY_PATH = GOV_DIR / "CAM.Global.Operative.Instrument.Registry.md"
 GOV_JSON_PATH = GOV_DIR / "CAM.Governance.JSON"
 GOV_INDEX_PATH = GOV_DIR / "CAM.Governance.Index.md"
+
+OPERATIVE_STATUSES = {"active", "adopted"}
 
 REGISTRY_START = "<!-- GLOBAL-OPERATIVE-INSTRUMENT-REGISTRY:START -->"
 REGISTRY_END = "<!-- GLOBAL-OPERATIVE-INSTRUMENT-REGISTRY:END -->"
@@ -43,6 +45,7 @@ class RegistryItem:
     title: str
     domain: str
     cls: str
+    parent_source: str
     instrument_class: str
     version: str
     status: str
@@ -50,6 +53,7 @@ class RegistryItem:
     enforcement: str
     review_state: str
     authority_role: str
+    source_authority: str
     link: str
 
 
@@ -63,6 +67,24 @@ def read_text(path: Path) -> str | None:
     except Exception:
         warn(f"unreadable file: {path.relative_to(REPO_ROOT)}")
         return None
+
+
+def fail(message: str) -> None:
+    raise RuntimeError(message)
+
+
+def normalized_metadata_value(value: object) -> str:
+    return normalize_cell_text(str(value or "")).lower()
+
+
+def is_current_operative_item(item: dict) -> bool:
+    link = str(item.get("link") or "").strip()
+    return (
+        normalized_metadata_value(item.get("status")) in OPERATIVE_STATUSES
+        and normalized_metadata_value(item.get("effect")) != "archival"
+        and link != ""
+        and not link.startswith("Drafts/")
+    )
 
 
 def scan_folders() -> dict[str, Path]:
@@ -137,6 +159,9 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
     seen_ids: set[str] = set()
 
     for item in items:
+        if not is_current_operative_item(item):
+            continue
+
         doc_id = (item.get("id") or "").strip()
         if not doc_id:
             continue
@@ -152,8 +177,10 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
         enforcement = normalize_cell_text((item.get("enforcement") or "").strip())
         review_state = normalize_cell_text((item.get("review_state") or "").strip())
         authority_role = normalize_cell_text((item.get("authority_role") or "").strip())
+        source_authority = normalize_cell_text((item.get("source_authority") or "").strip())
         version = (item.get("version") or "").strip()
         instrument_class = (item.get("instrument_class") or "").strip().lower()
+        parent_source = (item.get("parent_id") or item.get("constitutional_source") or "").strip()
 
         if not rel_link:
             warn(f"unreadable file: missing link for {doc_id}")
@@ -170,8 +197,14 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
                 # This avoids stale Version/Status values when CAM.Governance.JSON
                 # has not yet been refreshed in the current run.
                 extracted_status, extracted_version = extract_status_and_version(abs_path)
+                metadata = extract_instrument_metadata(abs_path)
                 status = normalize_cell_text(extracted_status) if extracted_status != "Unknown" else (status or "Unknown")
                 version = extracted_version if extracted_version != "Unknown" else (version or "Unknown")
+                effect = normalize_cell_text(metadata.get("effect", effect))
+                enforcement = normalize_cell_text(metadata.get("enforcement", enforcement))
+                review_state = normalize_cell_text(metadata.get("review_state", review_state))
+                authority_role = normalize_cell_text(metadata.get("authority_role", authority_role))
+                source_authority = normalize_cell_text(metadata.get("source_authority", source_authority))
 
         if indexed_ids and doc_id not in indexed_ids:
             warn(f"document ID missing from CAM.Governance.Index.md: {doc_id}")
@@ -182,6 +215,7 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
                 title=(item.get("title") or "").strip(),
                 domain=(item.get("domain") or "").strip() or "UNKNOWN",
                 cls=class_label(item),
+                parent_source=parent_source,
                 instrument_class=instrument_class,
                 version=version,
                 status=status,
@@ -189,21 +223,28 @@ def generate_registry_rows(items: Iterable[dict], available_docs: dict[str, Path
                 enforcement=enforcement,
                 review_state=review_state,
                 authority_role=authority_role,
+                source_authority=source_authority,
                 link=rel_link,
             )
         )
 
     for row in rows:
         if row.instrument_class == "law" or "/laws/" in row.link.lower() or "-law-" in row.doc_id.lower():
-            row.effect = row.effect or "Inviolable Constraint"
-            row.enforcement = row.enforcement or "Binding Constraint"
-            row.review_state = row.review_state or "None"
-            row.authority_role = row.authority_role or "Substrate Law / Substrate Interface"
-        else:
-            row.effect = row.effect or "Metadata Review Required"
-            row.enforcement = row.enforcement or "Metadata Review Required"
-            row.review_state = row.review_state or "Metadata Review Required"
-            row.authority_role = row.authority_role or "Metadata Review Required"
+            row.parent_source = row.parent_source or "Pre-constitutional Law"
+        elif not row.parent_source:
+            row.parent_source = "— (root)"
+
+        required = {
+            "status": row.status,
+            "effect": row.effect,
+            "governance standard": row.enforcement,
+            "review state": row.review_state,
+            "authority role": row.authority_role,
+            "source authority": row.source_authority,
+        }
+        missing = [name for name, value in required.items() if not value or value == "Unknown"]
+        if missing:
+            fail(f"missing controlled metadata for {row.doc_id}: {', '.join(missing)}")
 
     return rows
 
@@ -223,8 +264,8 @@ def render_registry(rows: list[RegistryItem]) -> str:
         out.extend([
             f"## {domain}",
             "",
-            "| Document | Title | Class | Version | Status | Effect | Enforcement | Review State | Authority Role |",
-            "|---|---|---|---|---|---|---|---|---|",
+            "| Document | Title | Class | Parent / Source | Version | Status | Effect | Governance Standard | Review State | Authority Role | Source Authority | Disposition |",
+            "|---|---|---|---|---|---|---|---|---|---|---|---|",
         ])
 
         domain_rows = sorted(
@@ -234,7 +275,11 @@ def render_registry(rows: list[RegistryItem]) -> str:
 
         for row in domain_rows:
             doc = f"[{row.doc_id}]({row.link})" if row.link else row.doc_id
-            out.append(f"| {doc} | {row.title} | {row.cls} | {row.version} | {row.status} | {row.effect} | {row.enforcement} | {row.review_state} | {row.authority_role} |")
+            out.append(
+                f"| {doc} | {row.title} | {row.cls} | {row.parent_source} | {row.version} | "
+                f"{row.status} | {row.effect} | {row.enforcement} | {row.review_state} | "
+                f"{row.authority_role} | {row.source_authority} | Operative |"
+            )
 
         out.append("")
 
@@ -242,10 +287,10 @@ def render_registry(rows: list[RegistryItem]) -> str:
 
 
 def ensure_base_document() -> None:
-    if SCH03_PATH.exists():
+    if REGISTRY_PATH.exists():
         return
 
-    SCH03_PATH.write_text(
+    REGISTRY_PATH.write_text(
         "\n".join(
             [
                 "# Global Operative-Instrument Registry",
@@ -258,7 +303,7 @@ def ensure_base_document() -> None:
                 "",
                 "## 1. Purpose",
                 "",
-                "This generated registry consolidates operative governance instruments from CAM.Governance.JSON with controlled state metadata extracted from governed source documents.",
+                "This generated registry consolidates operative governance instruments from CAM.Governance.JSON with controlled state metadata extracted from governed source documents. Registry presence or aggregation creates no governance authority, execution order, lifecycle state or canonical declaration.",
                 "",
                 "## 2. Registry",
                 "",
@@ -272,7 +317,7 @@ def ensure_base_document() -> None:
 
 
 def update_registry_section(table_content: str) -> None:
-    text = read_text(SCH03_PATH)
+    text = read_text(REGISTRY_PATH)
     if text is None:
         return
 
@@ -286,7 +331,7 @@ def update_registry_section(table_content: str) -> None:
     replacement = f"{REGISTRY_START}\n{table_content}\n{REGISTRY_END}"
     updated = pattern.sub(replacement, text)
 
-    SCH03_PATH.write_text(updated, encoding="utf-8")
+    REGISTRY_PATH.write_text(updated, encoding="utf-8")
 
 
 def metadata_block() -> str:
@@ -308,7 +353,7 @@ def metadata_block() -> str:
 
 
 def upsert_footer() -> None:
-    text = read_text(SCH03_PATH)
+    text = read_text(REGISTRY_PATH)
     if text is None:
         return
 
@@ -317,7 +362,7 @@ def upsert_footer() -> None:
         updated = text[:metadata_heading].rstrip() + "\n\n" + metadata_block()
     else:
         updated = text.rstrip() + "\n\n" + metadata_block()
-    SCH03_PATH.write_text(updated, encoding="utf-8")
+    REGISTRY_PATH.write_text(updated, encoding="utf-8")
 
 
 def main() -> None:
@@ -330,14 +375,14 @@ def main() -> None:
     # 3) Scan CAM.Governance.Index.md
     indexed_ids = scan_governance_index()
 
-    # 4) Generate SCH-03
+    # 4) Generate the non-authoritative operative-instrument projection.
     ensure_base_document()
     rows = generate_registry_rows(items, available_docs, indexed_ids)
     table_content = render_registry(rows)
     update_registry_section(table_content)
     upsert_footer()
 
-    print(f"Updated: {SCH03_PATH.relative_to(REPO_ROOT)}")
+    print(f"Updated: {REGISTRY_PATH.relative_to(REPO_ROOT)}")
 
 
 if __name__ == "__main__":

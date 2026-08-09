@@ -211,7 +211,7 @@ The governance rebuild pipeline protects the following repository-level invarian
 
 Source governance instruments must be parsed and indexed before downstream generated registries are refreshed.
 
-Do not update downstream runtime schedules from stale source indexes.
+Do not update downstream registry projections from stale source indexes.
 
 ---
 
@@ -231,17 +231,17 @@ Unexpected dirty files after a clean rebuild indicate stale generation, incorrec
 
 ---
 
-### 5.4 Generated-section boundary invariant
+### 5.4 Generated-projection boundary invariant
 
-Generated schedule content must remain inside declared generated blocks.
+Generated registry content must remain inside declared generated blocks in `Governance/CAM.Constitutional.Schedule.Registry.md` and `Governance/CAM.Global.Operative.Instrument.Registry.md`.
 
-Manual doctrinal text must not be silently rewritten by generated-output scripts.
+Generated projections must not become independent governance instruments or silently rewrite governed source doctrine.
 
 ---
 
-### 5.5 Registry dependency invariant
+### 5.5 Registry dependency and authority invariant
 
-SCH-01 and SCH-03 depend on the consolidated governance registry and should normally be refreshed only after source indexes and `CAM.Governance.JSON` are current.
+The constitutional Schedule registry and global operative-instrument registry depend on the consolidated governance index and should normally be refreshed only after source indexes and `CAM.Governance.JSON` are current. Registry presence or aggregation creates no governance authority, lifecycle state, canonical declaration or execution order.
 
 ---
 
@@ -302,7 +302,7 @@ May update generated index and JSON files associated with Constitution, Charters
 * governance instruments remain discoverable;
 * metadata changes propagate into generated indexes;
 * consolidated registry reflects current source state;
-* downstream schedules consume current registry data.
+* downstream registry projections consume current registry data.
 
 **Upstream Dependencies:**
 
@@ -315,8 +315,8 @@ May update generated index and JSON files associated with Constitution, Charters
 
 * `CAM.Governance.JSON`;
 * `CAM.Governance.Index.md`;
-* SCH-01 runtime registry;
-* SCH-03 global registry/checkpoint material;
+* `Governance/CAM.Constitutional.Schedule.Registry.md`;
+* `Governance/CAM.Global.Operative.Instrument.Registry.md`;
 * archive packaging.
 
 **Safe Modification Boundaries:**
@@ -348,42 +348,44 @@ May be replaced only if the replacement preserves source coverage, deterministic
 
 ---
 
-## 6.2 Runtime Registry / Generated Schedule Mutators
+## 6.2 Generated Registry Projection Builders
 
 Representative scripts:
 
 ```text
 .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
 .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
+.github/scripts/update-CAM-Model-Terminology-Audit.py
 ```
 
 **Purpose:**
-Refresh generated sections inside constitutional runtime or registry schedules from current governance registry data.
+Refresh the relocated generated registry projections and model-terminology audit from current governance registry data.
 
 **Operational Role:**
-Generated-section mutator.
+Generated-projection builder.
 
 **Mutation Scope:**
-May mutate declared generated blocks inside the specific target schedule only.
+May mutate only the declared generated blocks in the two root-level registry projections and the model-terminology audit output identified above.
 
 **Protected Invariants:**
 
-* runtime registry material reflects current governance registry state;
-* generated schedule tables remain deterministic;
-* generated content does not overwrite manual doctrine;
-* SCH-01/SCH-03 remain synchronised with `CAM.Governance.JSON`.
+* the constitutional projection contains only operative constitutional Schedules;
+* the global projection contains only operative governed instruments;
+* generated tables remain deterministic and non-authoritative;
+* generated content does not overwrite source doctrine;
+* both projections remain synchronised with `CAM.Governance.JSON` and governed metadata.
 
 **Upstream Dependencies:**
 
 * source indexes;
 * amendment ledger HASH state;
 * `CAM.Governance.JSON`;
-* generated block markers in target schedules.
+* generated block markers in the registry projections.
 
 **Downstream Consumers:**
 
-* constitutional runtime registry;
-* global registry/checkpoint schedule;
+* constitutional Schedule registry projection;
+* global operative-instrument registry projection;
 * governance rebuild idempotency check;
 * release/archive package.
 
@@ -400,7 +402,8 @@ May mutate declared generated blocks inside the specific target schedule only.
 * allowing mutation outside generated markers;
 * introducing non-deterministic ordering;
 * generating from stale JSON;
-* duplicating registry logic separately in SCH-01 and SCH-03.
+* inferring authority from identifier syntax or registry presence;
+* retaining compatibility logic for retired registry Schedules in current inference paths.
 
 **Validation Commands:**
 
@@ -408,11 +411,12 @@ May mutate declared generated blocks inside the specific target schedule only.
 python .github/scripts/update-CAM-Governance-Index.py
 python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
 python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
+python .github/scripts/update-CAM-Model-Terminology-Audit.py
 git status --short
 ```
 
 **Deprecation / Replacement Condition:**
-May be replaced only if generated marker discipline, registry compatibility, deterministic output, and downstream schedule expectations are preserved.
+May be replaced only if generated marker discipline, source-authority boundaries, deterministic output, and downstream registry expectations are preserved.
 
 ---
 
@@ -935,6 +939,7 @@ verify-ledger-sha-coverage.py
 update-CAM-Governance-Index.py
 update-CAM-Constitutional-Schedule-Registry.py
 update-CAM-Global-Operative-Instrument-Registry.py
+update-CAM-Model-Terminology-Audit.py
 validate_markdown_section_refs.py
 lint-symbolic-structures.py
 build-canonical-code-index.py

@@ -57,12 +57,12 @@ Each script now emits debug telemetry:
 | Update Constitution Index | `push` (`main`) | `update-CAM-Constitution-Index.py` | `Governance/Constitution/CAM-Constitution-Index.md`, `Governance/Constitution/constitution.index.json` | yes | no |
 | Update Law Index | `push` (`main`) | `update-CAM-Laws-Index.py` | `Governance/Laws/CAM-Laws-Index.md`, `Governance/Laws/laws.index.json` | yes | no |
 | Update Charters Index | `push` (`main`) | `update-CAM-Charters-Index.py` | `Governance/Charters/CAM-Charters-Index.md`, `Governance/Charters/charters.index.json` | yes | no |
-| Update Governance Index (canonical shared-output writer) | `push` (`main`) | `update-CAM-Governance-Index.py`, `update-CAM-Constitutional-Schedule-Registry.py`, `update-CAM-Global-Operative-Instrument-Registry.py`, `build-canonical-code-index.py` | `Governance/CAM.Governance.Index.md`, `Governance/CAM.Governance.JSON`, schedule outputs, canonical code index JSON/MD | yes | no |
-| Validate Global Operative-Instrument Registry | `pull_request`, `workflow_dispatch` | `update-CAM-Constitutional-Schedule-Registry.py`, `update-CAM-Global-Operative-Instrument-Registry.py` | none (validation-only stale check) | no | no |
+| Update Governance Index (canonical shared-output writer) | `push` (`main`) | `update-CAM-Governance-Index.py`, both registry generators, `update-CAM-Model-Terminology-Audit.py`, `build-canonical-code-index.py` | consolidated governance outputs, generated registry projections, terminology audit, canonical code index JSON/MD | yes | no |
+| Validate generated governance registries | `pull_request`, `workflow_dispatch` | both registry generators, `update-CAM-Model-Terminology-Audit.py` | none (validation-only stale check) | no | no |
 
 ## Ownership Model
 
-- **Single writer for shared governance/schedule/symbolic generated outputs:** `Update Governance Index`.
+- **Single workflow writer for shared governance/registry/symbolic generated outputs:** `Update Governance Index`.
 - Domain workflows remain writers only for their own domain index artifacts.
 - Lint workflows are validation-only and do not auto-commit.
 
@@ -120,14 +120,15 @@ Run these when metadata, instrument files, amendment ledgers, or generated regis
 
 ---
 
-### 2.2 Runtime Registry / Generated Schedule Mutators
+### 2.2 Generated Registry Projection Builders
 
-These scripts update generated sections inside specific constitutional schedules.
+These scripts rebuild non-authoritative registry projections under `Governance/` after the source indexes and `CAM.Governance.JSON` are current. The Governance Metadata Standard specifies the constitutional Schedule registry; `CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1` specifies the global operative-instrument registry.
 
 | Script | Purpose | Mutates Files | Normal Use |
 | --- | --- | --- | --- |
 | `update-CAM-Constitutional-Schedule-Registry.py` | Refreshes generated constitutional Schedule registry projection | Yes | Governance rebuild Phase 6 |
 | `update-CAM-Global-Operative-Instrument-Registry.py` | Refreshes generated global operative-instrument registry projection | Yes | Governance rebuild Phase 6 |
+| `update-CAM-Model-Terminology-Audit.py` | Refreshes the generated model-terminology audit and registry summary | Yes | Governance rebuild Phase 6 |
 
 These should usually be run only after source indexes and the consolidated governance registry have been rebuilt.
 
@@ -261,11 +262,18 @@ The main workflow is .github/workflows/governance-rebuild.yml.
 
 It runs on pushes and pull requests affecting:
 
+```text
 Governance/Constitution/**
 Governance/Charters/**
 Governance/Laws/**
+Governance/Standards/**
+Governance/Drafts/**
+Governance/CAM.*
 .github/scripts/**
 .github/Indices/**
+```
+
+`Governance/CAM.*` is the narrow root-level projection pattern for the consolidated governance index/JSON, both relocated registries, and the canonical-code index. The workflow excludes bot-authored rebuild commits at the job boundary to prevent regeneration loops.
 
 The workflow uses Python 3.11 and proceeds through nine operational phases.
 
@@ -311,14 +319,15 @@ python .github/scripts/update-CAM-Governance-Index.py
 ```
 Purpose: rebuild the consolidated governance registry after source indexes are current.
 
-### Phase 6 — Mutate SCH-01 and SCH-03
+### Phase 6 — Rebuild generated governance registries
 
 Runs:
 ```
 python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
 python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
+python .github/scripts/update-CAM-Model-Terminology-Audit.py
 ```
-Purpose: refresh generated constitutional schedule content dependent on the governance registry.
+Purpose: rebuild the two relocated, non-authoritative registry projections and the model-terminology audit from current consolidated governance state.
 
 ### Phase 7 — Final global Governance rebuild
 
@@ -326,7 +335,7 @@ Runs:
 ```
 python .github/scripts/update-CAM-Governance-Index.py
 ```
-Purpose: refresh the consolidated governance registry after SCH-01/SCH-03 mutation.
+Purpose: refresh the consolidated governance registry after downstream registry generation without treating either projection as a source instrument.
 
 ### Phase 8 — Final validation, canonical code index rebuild, and idempotency check
 
@@ -465,6 +474,7 @@ python .github/scripts/verify-ledger-sha-coverage.py
 python .github/scripts/update-CAM-Governance-Index.py
 python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
 python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
+python .github/scripts/update-CAM-Model-Terminology-Audit.py
 python .github/scripts/update-CAM-Governance-Index.py
 python .github/scripts/build-canonical-code-index.py
 ```
@@ -562,7 +572,7 @@ Confirm:
 | Ledger HASH missing         | `lint_amendment_ledger.py`        | `python .github/scripts/lint_amendment_ledger.py --all --fix`                |
 | Ledger coverage mismatch    | `verify-ledger-sha-coverage.py`   | `python .github/scripts/verify-ledger-sha-coverage.py`                       |
 | Registry stale              | Index builders / governance index | `python .github/scripts/update-CAM-Governance-Index.py`                      |
-| Generated registry stale         | registry generators                      | `python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py`                |
+| Generated registry stale | registry generators | `python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py && python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py` |
 | Broken § reference          | Section reference validator       | `python .github/scripts/validate_markdown_section_refs.py --root Governance` |
 | Shorthand reference remains | Shorthand linter                  | `python .github/scripts/lint_reference_shorthand.py --root Governance`       |
 | Symbolic code mismatch      | Symbolic lint/index tools         | `python .github/scripts/lint-symbolic-structures.py`                         |

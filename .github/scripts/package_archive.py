@@ -47,6 +47,8 @@ REQUIRED_INDEXES = [
     "Governance/Charters/charters.index.json",
     "Governance/Laws/laws.index.json",
     "Governance/CAM.Governance.JSON",
+    "Governance/CAM.Constitutional.Schedule.Registry.md",
+    "Governance/CAM.Global.Operative.Instrument.Registry.md",
 ]
 
 
@@ -183,9 +185,18 @@ def refresh_generated_governance_views() -> None:
     run_checked(["python3", ".github/scripts/update-CAM-Constitution-Index.py"])
     run_checked(["python3", ".github/scripts/update-CAM-Charters-Index.py"])
     run_checked(["python3", ".github/scripts/update-CAM-Laws-Index.py"])
-    run_checked(["python3", ".github/scripts/update-CAM-Governance-Index.py"])
     run_checked(["python3", ".github/scripts/lint_amendment_ledger.py", "--all", "--fix"])
-    run_checked(["python3", ".github/scripts/lint_amendment_ledger.py"])
+    run_checked(["python3", ".github/scripts/update-CAM-Constitution-Index.py"])
+    run_checked(["python3", ".github/scripts/update-CAM-Charters-Index.py"])
+    run_checked(["python3", ".github/scripts/update-CAM-Laws-Index.py"])
+    run_checked(["python3", ".github/scripts/verify-ledger-sha-coverage.py", "--strict-latest"])
+    run_checked(["python3", ".github/scripts/update-CAM-Governance-Index.py"])
+    run_checked(["python3", ".github/scripts/update-CAM-Constitutional-Schedule-Registry.py"])
+    run_checked(["python3", ".github/scripts/update-CAM-Global-Operative-Instrument-Registry.py"])
+    run_checked(["python3", ".github/scripts/update-CAM-Model-Terminology-Audit.py"])
+    run_checked(["python3", ".github/scripts/update-CAM-Governance-Index.py"])
+    run_checked(["python3", ".github/scripts/build-canonical-code-index.py", "--root", "Governance"])
+    run_checked(["python3", ".github/scripts/lint-symbolic-structures.py", "--index", "Governance/CAM.Canonical.Code.Index.json"])
 
 
 def create_zip(files: list[Path], zip_path: Path, epoch: int) -> None:
