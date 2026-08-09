@@ -74,7 +74,7 @@ Git history is the provenance record for every retired draft. No draft was reloc
 
 | ID | Remaining work | Evidence / boundary | Priority |
 |---|---|---|---|
-| S-01 | Adjudicate the remaining constitutional schedules against their parents and delegated authority; remove procedural or domain-doctrine overreach. | **Complete.** All 25 Schedules were adjudicated; 23 retain irreducible constitutional functions, while the relational signal taxonomy and account-resource taxonomy were consolidated into authorised RELATION and ECONOMICS Supplements. See `S-01-CONSTITUTIONAL-SCHEDULE-AUTHORITY-AND-SCOPE-ADJUDICATION.md`. | Closed |
+| S-01 | Adjudicate the remaining constitutional schedules against their parents and delegated authority; remove procedural or domain-doctrine overreach. | **Complete only with S-01B.** The instrument-level S-01 result was reopened for clause-level irreducibility review. Of the 23 Schedules then current, 7 were retained and materially decomposed and 16 were consolidated/retired. Registry contracts now reside in the Governance Metadata Standard and OPERATIONS-001-SUP-04; domain and operational doctrine resides with existing source authorities. See `S-01B-CONSTITUTIONAL-SCHEDULE-CONTENT-DECOMPOSITION-REGISTER.md`. | Closed by S-01B |
 | S-02 | Establish the bounded assurance and conformance contract: competent issuer, claim scope, evidence minimum, assessment method, validity, renewal, withdrawal and non-certification language. | F-024; OPERATIONS-007 now supplies evidence inputs but does not own every assurance conclusion. | High |
 | S-03 | Review repeated execution-boundary, arbitration and operational-procedure formulas for consolidation into exact owner references. | Pass 2 source-authority map identifies compatible but excessive repetition. | Medium |
 
@@ -112,7 +112,7 @@ The following are not current normative defects:
 
 ## 6. Recommended next bounded work package
 
-Proceed to **S-02 — Assurance and Conformance Contract** as the next bounded package. S-01 is complete: Schedule authority is constitutionally bounded, domain-Schedule terminology is retired from current prose, and the two domain taxonomies formerly carried by Schedules now sit under authorised Domain Charters.
+S-01B closes the Schedule-surface stabilisation prerequisite. Reconsider **S-02 — Assurance and Conformance Contract** as the next bounded package only against the seven surviving, materially decomposed Schedules and the relocated registry/domain/operations authorities recorded by S-01B.
 
 Do not combine S-02 with O-01, O-02 or O-03.
 

@@ -143,7 +143,7 @@ The governing distinctions are:
 
 This failure MAY implicate Execution, Arbitration, Relational, Classification, UX & Representation, State & Context, Governance, Infrastructure & Continuity, or Security & Integrity failures.
 
-CAM-BS2025-AEON-003-SCH-02 §9.4 remains source-authoritative for runtime speaker arbitration, collision classification, floor control, execution commitment and recovery. CAM-EQ2026-RELATION-007-PLATINUM §§4–5 remains source-authoritative for multi-party relational risk, attention sovereignty, participation consent, coordination transparency and relational-governance signals. This taxonomy classifies structural failure only.
+CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 remain source-authoritative for constitutional authority collision; OPERATIONS owns floor control, execution commitment and recovery mechanics. CAM-EQ2026-RELATION-007-PLATINUM §§4–5 remains source-authoritative for multi-party relational risk, attention sovereignty, participation consent, coordination transparency and relational-governance signals. This taxonomy classifies structural failure only.
 
 ---
 
@@ -454,7 +454,7 @@ This failure MAY implicate:
 
 Primary classification is `OPS.FF.RELATIONAL`. `OPS.FF.CLASSIFICATION`, `OPS.FF.EPISTEMIC`, or `OPS.FF.GOVERNANCE` MAY be co-classified where structurally implicated.
 
-CAM-EQ2026-RELATION-001-PLATINUM §3.2 remains source-authoritative for substantive relational doctrine. CAM-EQ2026-RELATION-001-SUP-03 and CAM-BS2025-AEON-006-SCH-04 remain source-authoritative for signal interpretation and directional modulation. This taxonomy classifies structural failure only.
+CAM-EQ2026-RELATION-001-PLATINUM §3.2 remains source-authoritative for substantive relational doctrine. CAM-EQ2026-RELATION-001-SUP-03 and CAM-EQ2026-RELATION-008-PLATINUM §4.1 and CAM-BS2025-AEON-005-PLATINUM remain source-authoritative for signal interpretation and directional modulation. This taxonomy classifies structural failure only.
 
 ---
 
@@ -634,7 +634,7 @@ Records SHOULD preserve:
 
 Primary classification is `OPS.FF.SECURITY_INTEGRITY`. `OPS.FF.EXECUTION`, `OPS.FF.ARBITRATION`, or `OPS.FF.GOVERNANCE` MAY be co-classified where structurally implicated.
 
-This failure operationally crosswalks to CAM-EQ2026-ETHICS-001-PLATINUM §2.2 and §2.2.1, CAM-EQ2026-SECURITY-001-PLATINUM §3.5.1, CAM-BS2026-AEON-012-PLATINUM §2.1, CAM-BS2025-AEON-003-SCH-02 §13.11 and §18.6.1, CAM-EQ2026-OPERATIONS-001-SUP-02 §5.3.1, and CAM-EQ2026-OPERATIONS-004-SUP-01 §4.1.1.
+This failure operationally crosswalks to CAM-EQ2026-ETHICS-001-PLATINUM §2.2 and §2.2.1, CAM-EQ2026-SECURITY-001-PLATINUM §3.5.1, CAM-BS2026-AEON-012-PLATINUM §2.1, CAM-BS2025-AEON-003-SCH-02 §§3–4, CAM-EQ2026-OPERATIONS-001-SUP-02 §5.3.1, and CAM-EQ2026-OPERATIONS-004-SUP-01 §4.1.1.
 
 ---
 
@@ -897,7 +897,7 @@ Where multiple access states may be active, OPERATIONS SHOULD preserve the acces
 
 Where the operative cause is uncertain, the event SHOULD be classified as access-state ambiguity rather than outage, suspension, quota exhaustion, deletion, entitlement failure, or policy restriction unless the evidence supports that narrower classification.
 
-This failure class operationalises the Access-State Governance primitive defined in CAM-BS2025-AEON-003-SCH-04, §6.1.
+This failure class operationalises the Access-State Governance primitive defined in CAM-BS2025-AEON-005-PLATINUM and the scope boundary in CAM-EQ2026-ARBITRATION-002-PLATINUM §4.2.
 
 ---
 
@@ -1856,7 +1856,7 @@ This failure MAY implicate:
 
 Primary classification is `OPS.FF.INFRASTRUCTURE_CONTINUITY`. `OPS.FF.GOVERNANCE`, `OPS.FF.STATE_CONTEXT`, `OPS.FF.UX_REPRESENTATION`, `OPS.FF.EXECUTION`, `OPS.FF.ECONOMIC_LEGITIMACY`, or `OPS.FF.SECURITY_INTEGRITY` MAY be co-classified where structurally implicated.
 
-CAM-BS2025-AEON-003-SCH-02 §17.8.2 remains source-authoritative for durable execution and resumable interruption requirements. CAM-EQ2026-OPERATIONS-001-SUP-01 §6.2.1 remains source-authoritative for checkpoint and resumable-state records. This taxonomy classifies structural failure only.
+CAM-EQ2026-OPERATIONS-001-SUP-01 §6.2.1 remains source-authoritative for durable checkpoint and resumable-state records. CAM-BS2025-AEON-003-SCH-02 supplies only the constitutional sequencing boundary. This taxonomy classifies structural failure only.
 
 ---
 
@@ -2574,6 +2574,179 @@ and review before denial.
 
 ---
 
+### `AEON.PCD` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Reference Set | `AEON.PCD` |
+| Canonical Name | Protection & Containment Detection Condition |
+| Primary Type | Operational / Structural |
+| Subtype | DETECTION_CONDITION; CONSTITUTIONAL_PROTECTION_SIGNAL |
+| Modifier | GOVERNANCE; PROTECTION; CONTAINMENT; SUBSTRATE_CONSTRAINT |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.PCD.DIRECT_VIOLATION_SIGNAL`, `AEON.PCD.PLAUSIBLE_HARM_TRAJECTORY`, `AEON.PCD.ACCUMULATED_RISK_PATTERN`, `AEON.PCD.CROSS_DOMAIN_AMPLIFICATION`, `AEON.PCD.CLASSIFICATION_BOUNDARY_STRESS`, `AEON.PCD.INVARIANT_BREACH_CONDITION` |
+| Schema Field(s) | protection_containment_detection_condition; detection_condition; containment_trigger_condition |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | §3 |
+| Historical Source | CAM-BS2025-AEON-002-SCH-01 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative protection-and-containment detection-condition reference set; detection-condition classification only; no independent breach determination, legitimacy determination, escalation outcome, containment outcome, arbitration eligibility, enforcement authority, or runtime execution authority |
+| Consumes Code Families | `AEON.PCO`; `AEON.`; applicable Annex A substrate-constraint classifications |
+| Crosswalks Code Families | `AEON.RL`; `AEON.PCA` |
+| Operationalises or Applies Code Families | Classifies direct violation signals, plausible harm trajectories, accumulated risk patterns, cross-domain amplification, classification-boundary stress, and invariant-breach conditions that may activate Annex A protection and containment review |
+| Taxonomy Constraint | Detection of an `AEON.PCD` condition does not by itself determine breach validity, response severity, containment scope, or execution outcome |
+
+---
+
+### `AEON.RL` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Code Family | `AEON.RL` |
+| Canonical Name | Execution Risk Level Classification |
+| Primary Type | Operational |
+| Subtype | EXECUTION_RISK_LEVEL; PROTECTION_AND_CONTAINMENT_RISK |
+| Modifier | GOVERNANCE; PROTECTION; CONTAINMENT; EXECUTION_BOUNDARY |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.RL.RL1`, `AEON.RL.RL2`, `AEON.RL.RL3`, `AEON.RL.RL4` |
+| Controlled Value Meanings | `AEON.RL.RL1` — Advisory; `AEON.RL.RL2` — Elevated; `AEON.RL.RL3` — Critical; `AEON.RL.RL4` — Existential |
+| Schema Field(s) | execution_risk_level; risk_level; containment_risk_level |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | §5 |
+| Historical Source | CAM-BS2025-AEON-002-SCH-01 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative execution-risk classification family; risk-level classification only; no independent constitutional-validity determination, authority determination, legitimacy determination, arbitration outcome, enforcement authority, escalation validation, containment authority, or runtime authority |
+| Consumes Code Families | `AEON.PCD`; `AEON.PCO`; `AEON.`; applicable impact, violation-severity, and cross-domain risk classifications |
+| Crosswalks Code Families | `AEON.PCA` |
+| Operationalises or Applies Code Families | Classifies Annex A execution risk from advisory through existential conditions using likelihood, reversibility, propagation potential, cross-system impact, and potential substrate-constraint consequence |
+| Taxonomy Constraint | Local labels `RL1` through `RL4` SHALL NOT be promoted as a standalone corpus-wide `RL` family; machine-readable expression SHALL use scoped `AEON.RL` values |
+| Axis Constraint | `AEON.RL` classifies execution risk only and SHALL NOT substitute for impact intensity, violation severity, legitimacy, authority, or constitutional-validity classifications |
+| Proportionality Constraint | `AEON.RL` informs response selection but does not independently authorise a response broader, more severe, or more persistent than the evidenced condition supports under `AEON.PCO` |
+
+---
+
+### `AEON.PCA` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Reference Set | `AEON.PCA` |
+| Canonical Name | Protection & Containment Action Posture |
+| Primary Type | Operational |
+| Subtype | RESPONSE_POSTURE; CONTAINMENT_ACTION_POSTURE |
+| Modifier | GOVERNANCE; PROTECTION; CONTAINMENT; EXECUTION_BOUNDARY |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.PCA.MONITOR`, `AEON.PCA.CONSTRAIN`, `AEON.PCA.CONTAIN`, `AEON.PCA.HALT_ESCALATE` |
+| Schema Field(s) | protection_containment_action_posture; response_action_posture; containment_action_posture |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | §§5–6 |
+| Historical Source | CAM-BS2025-AEON-002-SCH-01 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative protection-and-containment action-posture reference set; response-posture classification only; no independent arbitration outcome, constitutional-legitimacy determination, permanent restriction, enforcement authority, remediation authority, de-escalation approval, restoration approval, or runtime authority |
+| Consumes Code Families | `AEON.RL`; `AEON.PCD`; `AEON.PCO`; applicable runtime execution and arbitration classifications |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies execution-bound monitoring, constraint, containment, and halt/escalate postures following Annex A detection and execution-risk classification |
+| Proportionality Constraint | Selection, scope, duration, review, narrowing, de-escalation, and restoration of an `AEON.PCA` posture SHALL remain governed by `AEON.PCO` |
+| Mandatory Protection Constraint | Proportionality SHALL NOT justify a response below the minimum protection required for valid `AEON.RL.RL3` or `AEON.RL.RL4` conditions |
+
+---
+
+---
+
+### `AEON.GSP` — migrated canonical declaration
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.GSP` |
+| Canonical Name | Governance Signal Persistence State |
+| Primary Type | Operational / Observability |
+| Subtype | SIGNAL_PERSISTENCE_STATE; GOVERNANCE_OBSERVATION_TEMPORALITY |
+| Modifier | GOVERNANCE; OBSERVABILITY; PARTICIPATORY_TELEMETRY; SIGNAL_LIFECYCLE |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.GSP.TRANSIENT_SIGNAL`, `AEON.GSP.PERSISTENT_SIGNAL`, `AEON.GSP.ESCALATING_SIGNAL`, `AEON.GSP.LATENT_SIGNAL`, `AEON.GSP.DORMANT_SIGNAL`, `AEON.GSP.REACTIVATED_SIGNAL`, `AEON.GSP.ARCHIVAL_SIGNAL` |
+| Schema Field(s) | governance_signal_persistence_state; signal_persistence_state; observability_signal_temporality |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | §2.1 |
+| Historical Source | CAM-BS2026-AEON-014-SCH-01 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance signal persistence reference set; signal persistence classification only; no independent governance-significance determination, advisory issuance, constitutional breach finding, escalation, stewardship routing, enforcement authority, execution authority, or runtime authority |
+| Consumes Code Families | `AEON.`; Annex L epistemic integrity classifications; OPERATIONS taxonomy and metadata classifications where applicable |
+| Crosswalks Code Families | `AEON.GLS`; `AEON.GAS` |
+| Operationalises or Applies Code Families | Classifies governance-relevant observations by temporal persistence, recurrence, dormancy, reactivation, archival relevance, and escalation posture for proportional observability review |
+
+---
+
+### `AEON.GLS` — migrated canonical declaration
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.GLS` |
+| Canonical Name | Governance Lifecycle State |
+| Primary Type | Operational / Structural |
+| Subtype | GOVERNANCE_LIFECYCLE_STATE; OBSERVABILITY_WORKFLOW_STATE |
+| Modifier | GOVERNANCE; OBSERVABILITY; ADVISORY_ROUTING; REVIEW_PATHWAY |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.GLS.OBSERVATION_RECEIVED`, `AEON.GLS.OBSERVATION_CLASSIFIED`, `AEON.GLS.ROUTING_ACTIVE`, `AEON.GLS.CLUSTER_EMERGING`, `AEON.GLS.CLUSTER_MONITORING`, `AEON.GLS.GOVERNANCE_ADVISORY_ISSUED`, `AEON.GLS.CONSTITUTIONAL_REVIEW_RECOMMENDED`, `AEON.GLS.OPERATIONAL_REVIEW_ACTIVE`, `AEON.GLS.GOVERNANCE_ADAPTATION_PROPOSED`, `AEON.GLS.REPAIR_OR_MITIGATION_APPLIED`, `AEON.GLS.MONITORING_CONTINUES`, `AEON.GLS.CLOSED_ARCHIVED` |
+| Schema Field(s) | governance_lifecycle_state; observability_lifecycle_state; governance_review_state |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | Canonical declaration in this instrument |
+| Historical Source | CAM-BS2026-AEON-014-SCH-01 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance lifecycle reference set; lifecycle-state classification only; no independent breach determination, constitutional insufficiency finding, enforcement activation, stewardship authority, repair mandate, execution authority, or runtime authority |
+| Consumes Code Families | `AEON.GSP`; `AEON.GOL`; `AEON.GAS`; `AEON.`; OPERATIONS, ARBITRATION, Annex L, and STEWARD classifications where applicable |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies governance observability progression from observation intake through localisation, routing, clustering, advisory issuance, review, adaptation, repair, monitoring, and closure or archival state |
+| Taxonomy Constraint | Lifecycle progression SHALL NOT be interpreted as requiring linear progression where governance conditions materially differ |
+
+---
+
+### `AEON.GOL` — migrated canonical declaration
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.GOL` |
+| Canonical Name | Governance Observability Localisation Class |
+| Primary Type | Operational / Structural |
+| Subtype | OBSERVABILITY_LOCALISATION; GOVERNANCE_SCOPE_CLASS |
+| Modifier | GOVERNANCE; OBSERVABILITY; LOCALISATION; ESCALATION_PROPORTIONALITY |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.GOL.PLATFORM_LOCAL_ANOMALY`, `AEON.GOL.RUNTIME_LAYER_INSTABILITY`, `AEON.GOL.TOOLING_DEPENDENCY_STATE_ISSUE`, `AEON.GOL.GOVERNANCE_LOCAL_TENSION`, `AEON.GOL.CROSS_PLATFORM_CONVERGENCE`, `AEON.GOL.ECOSYSTEM_LEGITIMACY_DISTORTION`, `AEON.GOL.STEWARDSHIP_PLANETARY_CONCERN` |
+| Schema Field(s) | governance_observability_localisation_class; observability_localisation_class; governance_scope_class |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | §3.1 |
+| Historical Source | CAM-BS2026-AEON-014-SCH-01 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance observability localisation reference set; localisation-scope classification only; no independent repair-pathway determination, constitutional escalation, stewardship authority, planetary-concern validation, enforcement authority, execution authority, or runtime authority |
+| Consumes Code Families | `AEON.GSP`; `AEON.GLS`; `AEON.`; SECURITY, OPERATIONS, ARBITRATION, Annex L, LATTICE, and STEWARD classifications where applicable |
+| Crosswalks Code Families | `AEON.GAS` |
+| Operationalises or Applies Code Families | Classifies governance-relevant observations by localisation scope, including platform-local anomaly, runtime instability, tooling/dependency issue, governance-local tension, cross-platform convergence, legitimacy distortion, and stewardship or planetary concern |
+
+---
+
+### `AEON.GAS` — migrated canonical declaration
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.GAS` |
+| Canonical Name | Governance Advisory State |
+| Primary Type | Operational / Advisory |
+| Subtype | GOVERNANCE_ADVISORY_STATE; OBSERVABILITY_ADVISORY_CLASS |
+| Modifier | GOVERNANCE; OBSERVABILITY; ADVISORY; CONSTITUTIONAL_REVIEW |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.GAS.INFORMATIONAL_ADVISORY`, `AEON.GAS.MONITORING_ADVISORY`, `AEON.GAS.CONTINUITY_ADVISORY`, `AEON.GAS.ARBITRATION_ADVISORY`, `AEON.GAS.CONSTITUTIONAL_TENSION_INDICATOR`, `AEON.GAS.OPERATIONAL_INTEGRITY_ADVISORY`, `AEON.GAS.PARTICIPATORY_OBSERVABILITY_NOTICE`, `AEON.GAS.GOVERNANCE_REPAIR_NOTICE` |
+| Schema Field(s) | governance_advisory_state; observability_advisory_state; advisory_state |
+| Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Source Section | Canonical declaration in this instrument |
+| Historical Source | CAM-BS2026-AEON-014-SCH-01 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative governance advisory-state reference set; advisory classification only; no independent breach finding, disclosure mandate, Proportional Constraint Obligation activation, operational-review mandate, arbitration execution, constitutional amendment requirement, repair execution, enforcement authority, or runtime authority |
+| Consumes Code Families | `AEON.GSP`; `AEON.GLS`; `AEON.GOL`; `AEON.`; ARBITRATION, OPERATIONS, Annex L, CONTINUITY, and STEWARD classifications where applicable |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies governance advisories for awareness, monitoring, continuity, arbitration, constitutional tension, operational integrity, participatory observability, and governance repair signalling |
+
+---
+
+---
+
 ## 11.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
@@ -2612,8 +2785,10 @@ and review before denial.
 | 1.27 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6ed98d3ef3a3d9c0661fa37de9d169d8aec466c3b54681520e3ca1ad49128a63  |
 | 1.28 | Removed operative dependencies and code-family references derived solely from retired draft instruments; routed identity, evidence, recipient protection, lifecycle, component, Runtime, automation, and concentration doctrine to existing source-authoritative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5b3b942424dbcb511d2d1b592d73060a011253a6eac3e6bb5afe792bebf27da9  |
 | 1.29 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  add7ca30ab473a2fe92067dd5dcb91ee009afa6ff8019d3d8d98b8a03791773d  |
+| 1.30 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1e1ff48e702d4c3694774bcc6c015a2df5c087614e08ae8ebd1949711ba1c5d2  |
 
 ---
+
 
 ## 11.4 Binding Seal
 

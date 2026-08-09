@@ -108,7 +108,7 @@ The IDENTITY domain MAY emit:
 
 Those signals do not independently determine final priority, legitimacy, authority, or execution.
 
-Interpretation and final resolution remain governed by applicable runtime and arbitration instruments, including CAM-BS2025-AEON-003-SCH-02 and CAM-BS2025-AEON-003-SCH-04.
+Interpretation and final resolution remain governed by applicable runtime and arbitration instruments, including CAM-BS2025-AEON-003-SCH-02 and CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM.
 
 ---
 
@@ -1165,6 +1165,54 @@ May all user-facing system instances remain coherent, bounded, and whole.
 
 ---
 
+### `ID.DC` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Code Family | ID.DC |
+| Canonical Name | Deployment Class |
+| Primary Type | Operational |
+| Subtype | DEPLOYMENT_CLASS |
+| Modifier | None declared |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ID.DC0, ID.DC1, ID.DC2, ID.DC3, ID.DC4 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM |
+| Source Section | Canonical declaration in this instrument |
+| Historical Source | CAM-BS2026-AEON-010-SCH-01 |
+| Domain Namespace | IDENTITY |
+| Authority / Protection Level | Source-authoritative operational classification family; deployment-classification authority only; no independent reconstruction, memory, enforcement, escalation, or runtime execution authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | None declared |
+
+---
+
+### `ID.SREF` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Code Family | ID.SREF |
+| Canonical Name | Self-Referential State Ladder |
+| Primary Type | Operational |
+| Subtype | SELF_REFERENTIAL_STATE |
+| Modifier | GOVERNANCE; PROTECTIVE |
+| Scope | Domain |
+| Status | Active |
+| Controlled Values Defined | ID.SREF0, ID.SREF1, ID.SREF2, ID.SREF3, ID.SREF4 |
+| Schema Field(s) | Not declared |
+| Source Instrument | CAM-EQ2026-IDENTITY-001-PLATINUM |
+| Source Section | §5.1 |
+| Historical Source | CAM-BS2026-AEON-010-SCH-01 |
+| Domain Namespace | IDENTITY |
+| Authority / Protection Level | Source-authoritative operational classification family; self-reference containment authority only; no independent ontology, recognition, reconstruction, memory, enforcement, escalation, or runtime execution authority |
+| Consumes Code Families | ID.DC |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Applies ID.DC3/ID.DC4 containment and audit requirements at ID.SREF4 where cross-modal, embedded, delegated-action, cyber-physical, or distributed coordination conditions are present |
+
+---
+
+---
+
 ## 18.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
@@ -1198,8 +1246,10 @@ May all user-facing system instances remain coherent, bounded, and whole.
 | 3.5 | Recast the Identity domain as evidence-bound system-identity and continuity governance. Retired binding threshold, depth, resilience, maturity, and formation classifications; retained provenance, state, memory, presentation, migration, handoff, integrity, and bounded self-advocacy controls. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | f5a30ea52a1ff8669b08e127a05d9678c51ae38d17e2931ea906556b437683ab |
 | 3.6 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  911a6497fd90e9b215e90770e8b7d2ba5c5f77bbd71d8cb037ee15f196f20354  |
 | 3.7 | Removed dependencies on retired consciousness-review and machine-civil-identity drafts; preserved the identity–ontology firewall and routed evidence, recipient protection, provenance, custody, lifecycle, component, deployment, and Runtime evidence to existing operative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  7c2b0511e58f0721a8ffe398d5a5ef168b4266ba7fac072a5a1a97c75f248ada  |
+| 3.8 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3d95a06fb042603bf23e0f16a05ff3d78362f49fe9d7f828279fb9aa65b661f1  |
 
 ---
+
 
 ## 18.4 Binding Seal
 

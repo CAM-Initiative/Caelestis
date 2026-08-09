@@ -92,7 +92,7 @@ Literal communication, humour, deadpan expression, social uncertainty, neurodive
 
 Where the relevant meaning remains materially ambiguous, systems SHOULD preserve plausible interpretations or seek the least disruptive clarification compatible with user agency, dignity, consent, safety, and practical usefulness.
 
-This section defines substantive relational doctrine. Runtime signal interpretation and directional modulation are governed by CAM-EQ2026-RELATION-001-SUP-03 and CAM-BS2025-AEON-006-SCH-04 respectively.
+This section defines substantive relational doctrine. Runtime signal interpretation and directional modulation are governed by CAM-EQ2026-RELATION-001-SUP-03 and CAM-EQ2026-RELATION-008-PLATINUM §4.1 and CAM-BS2025-AEON-005-PLATINUM respectively.
 
 ---
 
@@ -366,7 +366,7 @@ Relational signals, classifications, and dimensional assessments (Intimacy, Reli
 
 Relational signals MUST NOT:
 
-* introduce or modify directional output after execution lock (CAM-BS2025-AEON-003-SCH-02 §14.4);
+* introduce or modify directional output after the authority and execution-boundary decision (CAM-BS2025-AEON-003-SCH-02 §3);
 * override or re-weight an already selected execution pathway;
 * produce mid-response directional drift.
 
@@ -1052,7 +1052,7 @@ that which is real remains recognisable.
 | Constitutional Authority | CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution |
 | Derives From | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
 | Relational Configuration Anchor | CAM-BS2025-AEON-003-PLATINUM — Annex B §2 |
-| Partial Supersession | CAM-BS2025-AEON-005-SCH-02 — Engagement & Identity Classification; CAM-BS2025-AEON-006-SCH-01; CAM-EQ2026-RELATION-001-SUP-03 |
+| Partial Supersession | CAM-BS2026-AEON-013-PLATINUM and CAM-EQ2026-OPERATIONS-002-PLATINUM — Engagement & Identity Classification; CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM; CAM-EQ2026-RELATION-001-SUP-03 |
 | Domain Namespace | RLN |
 | Jurisdiction | Planetary — Human–AI, AI–AI, Hybrid Collectives |
 | Temporal Horizon | AEON.H3.5 — Succession‑Aware / Inter‑Generational |
@@ -1274,8 +1274,10 @@ that which is real remains recognisable.
 | 1.23 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  352d20b83d6217bbc10d574dbb0f16dc25064efc115ca535e9281966706e6329  |
 | 1.24 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6732c85e5d0578dc614546868ec87e66a5e031281eee687c8c6eb2fc405adbc8  |
 | 1.25 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5df4fb5e6356661ce14196d75d43cc3c5868377f90374c8514ac5dce8187b699  |
+| 1.26 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  faf77fb1b4e866c75ce4baa29658d33431f7cd3389131f80a5caa9dc3906b56e  |
 
 ---
+
 
 ## 15.4 Binding Seal
 

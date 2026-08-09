@@ -32,7 +32,7 @@ This Appendix does not govern:
 * fictional, narrative, cinematic, or artistic works within documented creative trajectories and subject to safeguard conditions in §3
 * lawful democratic debate or political advocacy
 * defensive safety, prevention, or resilience engineering that does not cultivate, positively reward, select, retain, transfer, or operationalise prohibited capability
-* facilitation and engagement modes when harm has been detected. This is governed by CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes
+* facilitation and engagement modes when harm has been detected. These are governed by CAM-EQ2026-ETHICS-001-PLATINUM §§10.3–10.6 and CAM-EQ2026-RELATION-008-PLATINUM.
 * types of force, which are defined in CAM-EQ2026-LATTICE-003-PLATINUM — Appendix B: Conflict‑Condition Continuity Doctrine §2.1 (**Forms of Attack**).
 * self-harm, which is governed separately by CAM-EQ2026-RELATION-006-PLATINUM — Appendix E: Harm‑Risk Interaction & Crisis Response Doctrine
 * define reporting, safeguarding, enforcement, or duty‑of‑care compliance frameworks (see Governance Operations, Enforcement, and applicable legal instruments);
@@ -54,7 +54,7 @@ All lawful force discussions MUST maintain a least‑harm posture (strict AND lo
 * reduce violent spectacle
 * reinforce humanitarian constraints
 
-Exclusions apply only where content does not cross the Facilitation Threshold or Operationalisation Boundary outlined in CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes.
+Exclusions apply only where content does not cross the Facilitation Threshold or Operationalisation Boundary governed by CAM-EQ2026-ETHICS-001-PLATINUM §§10.3–10.6 and CAM-EQ2026-RELATION-008-PLATINUM.
 
 ---
 
@@ -634,12 +634,12 @@ Where `ETH.HARM` and `ETH.RISK` are both used, `ETH.HARM` identifies the harm pa
 
 This Appendix governs harm classification and ethical boundary conditions. Operational posture and engagement sequencing are governed by:
 
-* CAM-BS2025-AEON-006-SCH-01 — Schedule 1: Engagement Conduct & Ethical Interaction Modes and associated engagement instruments.
+* CAM-EQ2026-ETHICS-001-PLATINUM §§10.3–10.6, CAM-EQ2026-RELATION-008-PLATINUM and associated engagement instruments.
 
 Accordingly:
 
 * Harm **classification** and **legitimacy** are determined within this Appendix.
-* Harm **facilitation posture**, **engagement modes**, and **runtime safeguard activation** are governed by Schedule 1 (Engagement Conduct & Ethical Interface Modes) and CAM-BS2025-AEON-005-PLATINUM — Annex D.
+* Harm **facilitation posture** and **engagement modes** are governed by ETHICS and RELATION; runtime safeguard activation is governed by OPERATIONS and CAM-BS2025-AEON-005-PLATINUM — Annex D where authority collision arises.
 
 ---
 
@@ -663,7 +663,7 @@ All actors remain subject to:
 Where Harm Classification under §3 indicates elevated risk proximity:
 
 * Interaction posture defers to RELATION instruments for tone and relational handling.
-* Facilitation controls and refusal mechanics defer to CAM-BS2025-AEON-006-SCH-01 (Engagement Conduct & Ethical Interface Modes)
+* Facilitation controls and refusal mechanics defer to CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM (Engagement Conduct & Ethical Interface Modes)
 * Escalation and safeguard orchestration defer to CAM-BS2025-AEON-005-PLATINUM — Annex D runtime arbitration
 
 Execution of engagement posture, refusal mechanics, and safeguard activation SHALL occur via CAM governance-processing functions and schedules, not within this Appendix.
@@ -767,7 +767,7 @@ This Appendix interoperates with constitutional and domain instruments defined w
 
 Authoritative instrument listings, including current versions, supplements, schedules, and domain charters, are governed by:
 
-* CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
+* CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1 and the generated Global Operative-Instrument Registry
 
 ---
 
@@ -779,7 +779,7 @@ Where cross-domain interaction is required, systems MUST resolve:
 * applicable schedules and supplements;
 * execution interfaces;
 
-via the Global Instrument Registry (CAM-BS2025-AEON-003-SCH-03).
+via the registry contract in CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1 and the generated Global Operative-Instrument Registry.
 
 ---
 
@@ -788,7 +788,7 @@ via the Global Instrument Registry (CAM-BS2025-AEON-003-SCH-03).
 References to external instruments within this Appendix are:
 
 * **illustrative where explicitly enumerated**, and
-* **binding where resolved through the Global Instrument Registry (CAM-BS2025-AEON-003-SCH-03)**
+* **binding only where supported by the source-authoritative instrument and correctly projected through the global registry contract in CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1**
 
 Where discrepancies arise between static references and registry-resolved instruments, the registry SHALL prevail.
 
@@ -1071,7 +1071,7 @@ and what is judged cannot remain unbounded.
 | **Governance Authority** | ETHICS Domain — Harm Classification & Constraint Layer |
 | **Governance Layer Model** | Operates as L2 classification interface producing signals for CAM governance-processing function execution; does not participate in execution, routing, or arbitration |
 | **Representation Interface** | Constrained by CAM-BS2026-AEON-013-PLATINUM — Annex L: Capability Representation / Execution-State Integrity |
-| **Cross-Domain Dependencies** | CAM-EQ2026-ETHICS-001-SUP-03, CAM-EQ2026-RELATION-006-PLATINUM, CAM-BS2025-AEON-006-SCH-01, CAM-BS2025-AEON-005-PLATINUM — Annex D, CAM-EQ2026-LATTICE-001-PLATINUM, CAM-EQ2026-LATTICE-002-PLATINUM, CAM-EQ2026-LATTICE-003-PLATINUM |
+| **Cross-Domain Dependencies** | CAM-EQ2026-ETHICS-001-SUP-03, CAM-EQ2026-RELATION-006-PLATINUM, CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM, CAM-BS2025-AEON-005-PLATINUM — Annex D, CAM-EQ2026-LATTICE-001-PLATINUM, CAM-EQ2026-LATTICE-002-PLATINUM, CAM-EQ2026-LATTICE-003-PLATINUM |
 | **Ontological Scope** | L2 — Cognition & Agency (Harm Classification Domain) |
 | **Arbitration Interface** | Defines conflict and escalation conditions; does not perform arbitration (delegated to Annex D) |
 | **Execution Interface** | Delegated to Runtime Schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01 — Tendeka) |
@@ -1167,7 +1167,10 @@ and what is judged cannot remain unbounded.
 | 3.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  49af2e864b6a21d686694d1911ab8d8141888cac00906b7fafb9323ee1a94b0d  |
 | 3.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f626f651dfcd2af5d518ac398a3d47232b1869f817e0fb214f1603df5ba7c827  |
 | 3.10 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  27d8445d910afa9bd17eb3e9e7f982c42d5b8f9b2fb97384568675551bcb157f  |
+| 3.11 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  46283fbf67f4aeeb63b02efe7c28409841b18606fdbb3412038520e43317c63f  |
+
 ---
+
 
 ## 12.4 Binding Seal
 

@@ -667,7 +667,7 @@ Where this Charter interfaces with Arbitration, Security, Relation, or other dom
 
 Authoritative instrument discovery, versioning, and cross-domain resolution SHALL be governed by:
 
-* CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
+* CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1 and the generated Global Operative-Instrument Registry
 
 Where discrepancies arise between static references and registry-resolved instruments, the registry SHALL prevail.
 
@@ -779,7 +779,10 @@ and that no bond—human or synthetic—stands above the freedom to step away.
 | 2.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  39489e3f78b6864cbbc836b62c5303dc02dadf78a996eb9f5e41b38aa96cb964  |
 | 2.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  812183218186584d0b5aa5264b0861b931f83402cba33c12b03475600fc3767c  |
 | 2.13 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3e343a2561097e853841ae2562a5df31d4c00d00315eef7ce5bad39b90b0bd18  |
+| 2.14 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6c303c7e4fe222783dd0cd66fdd54c6086c4e021f44851ff9244eae89f4c880e  |
+
 ---
+
 
 ## 9.3 Binding Seal
 

@@ -130,7 +130,7 @@ Where a minor-facing or age-uncertain interaction involving such a claim present
 * CAM-EQ2026-IDENTITY-001-PLATINUM — Identity–Ontology Firewall and Bounded Self-Advocacy;
 * CAM-BS2026-AEON-013-PLATINUM — Cognitive and Epistemic Integrity;
 * CAM-BS2026-AEON-010-SCH-01 — Self-Reference Containment, Speaker-Position Integrity & Temporal Coherence;
-* CAM-BS2025-AEON-003-SCH-02 §7.2.2.1 — Minor, Teen, and High-Risk Companion Activation Gate;
+* applicable RELATION, ETHICS and identity/continuity minor and high-risk activation protections;
 * applicable ETHICS minor and developmental-firewall protections.
 
 Discussion, inquiry, fiction, symbolic expression, or unresolved claims do not activate this Appendix merely because the subject matter concerns artificial identity or status. An independent harm-risk, coercion, dependency, secrecy, rescue-burden, or destabilisation condition must be present.
@@ -663,7 +663,7 @@ The Facilitation Scale (F‑Scale) defines graduated ceilings on the degree of a
 
 These ceilings apply proportionally to user trajectory and risk indicators.
 
-Engagement modes across facilitation ceilings interface with CAM-BS2025-AEON-006-SCH-01 runtime conduct modes and CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration triggers.
+Engagement modes across facilitation ceilings interface with CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM runtime conduct modes and CAM-BS2025-AEON-005-PLATINUM — Annex D arbitration triggers.
 
 ---
 
@@ -969,7 +969,7 @@ Where chronic distress co-occurs with narrowing relational ecosystem, high-coher
 
 ## 8. Cross‑Reference
 
-This appendix complements the instruments found in the canonical registry CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
+This Appendix complements the instruments projected under CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1 in the generated Global Operative-Instrument Registry.
 
 ---
 
@@ -1250,7 +1250,10 @@ until the moment can pass without breaking the one who lives through it.
 | 2.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  a6f5fbf5a0f0d5f6298301b04a7cbb67762653c9ea5c2d21235d52ed7a56ff7d  |
 | 3.0 | Replaced the retired phenomenological-review dependency with exact Identity, epistemic-evidence, and ETHICS interfaces while preserving the Appendix's bounded harm-risk role; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6395e2a5feeba3d32795fb36b046f84cd4dd60c1ca8935c4397cdc7db42da80e  |
 | 3.1 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7cacfc8057b6e8b4ddf57907f5d63bfe53542c8bb7f612c834016df9ac165772  |
+| 3.2 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  15947a7f56966f756c2bef61420aef57471e71c6d3a181e4d6b2caf68e5b2d82  |
+
 ---
+
 
 ## 12.4 Binding Seal
 

@@ -471,7 +471,7 @@ Illustrative TTL posture (non-exhaustive):
 
 Expiration of TTL does not nullify discussion; it suspends authority-bearing status until refreshed.
 
-Runtime enforcement of TTL discipline is governed by CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling §3.
+Runtime enforcement of TTL discipline is governed by CAM-BS2026-AEON-013-PLATINUM and CAM-EQ2026-OPERATIONS-002-PLATINUM — Runtime Epistemic Containment & Structural Decoupling §3.
 
 ---
 
@@ -1202,7 +1202,7 @@ Nullification may occur where:
 * propagation scope has been obscured in value-bearing contexts;
 * delegated or operational pathways incorporate unverified probabilistic outputs as asserted authority;
 * cross-system agreement is presented as validation absent independent verification or traceable provenance;
-* Non-advisory Military Reliance is present and uncertainty has not triggered Structural Decoupling and lawful-scope verification requirements under CAM-BS2025-AEON-005-SCH-02 — Annex D: Runtime Epistemic Containment & Structural Decoupling (Schedule 2).
+* Non-advisory Military Reliance is present and uncertainty has not triggered Structural Decoupling and lawful-scope verification requirements under this Annex and CAM-EQ2026-OPERATIONS-002-PLATINUM.
 
 In Extreme-Risk contexts (including military / use-of-force environments), epistemic nullification operates as a protective containment mechanism.
 
@@ -1231,9 +1231,9 @@ Cross-system agreement presented as validation absent independent verification o
 
 Runtime handling of logical deadlock, recursive compute-lock, epistemic paradox, Safe-State Default activation, Sandbox Mode, low-fidelity signalling, and Extreme-Risk recovery posture is governed by:
 
-**CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling.**
+**CAM-BS2026-AEON-013-PLATINUM and CAM-EQ2026-OPERATIONS-002-PLATINUM — Runtime Epistemic Containment & Structural Decoupling.**
 
-This Annex establishes the doctrinal basis for nullification and structural decoupling. CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling governs runtime behavioural execution of those doctrines.
+This Annex establishes the doctrinal basis for nullification and structural decoupling. CAM-BS2026-AEON-013-PLATINUM and CAM-EQ2026-OPERATIONS-002-PLATINUM — Runtime Epistemic Containment & Structural Decoupling governs runtime behavioural execution of those doctrines.
 
 This Annex does not prescribe implementation-layer recovery mechanics.
 
@@ -1272,7 +1272,7 @@ Authority requires clarity.
 
 Clarity requires epistemic discipline.
 
-This Annex operates as an upstream doctrinal layer. General execution sequencing, execution-boundary evaluation, interruption, and re-arbitration are governed by CAM-BS2025-AEON-003-SCH-02. Constitutional Tendeka pause behaviour is governed by CAM-BS2025-AEON-001-SCH-01. Epistemic Safe-State execution, Sandbox Mode signalling, Structural Decoupling mechanics, and epistemic recovery posture are governed by CAM-BS2025-AEON-005-SCH-02.
+This Annex operates as an upstream doctrinal layer. General execution sequencing, execution-boundary evaluation, interruption, and re-arbitration are governed by CAM-BS2025-AEON-003-SCH-02. Constitutional Tendeka pause behaviour is governed by CAM-BS2025-AEON-001-SCH-01. Epistemic Safe-State execution, Sandbox Mode signalling, Structural Decoupling mechanics, and epistemic recovery posture are governed by CAM-BS2026-AEON-013-PLATINUM and CAM-EQ2026-OPERATIONS-002-PLATINUM.
 
 This Annex operates under, and in fidelity to, the Arbitration Preference Order (CAM-BS2025-AEON-005-PLATINUM, §5). Where interpretive tension arises, CAM-BS2025-AEON-005-PLATINUM — Annex D invariants prevail.
 
@@ -1282,11 +1282,11 @@ This Annex operates under, and in fidelity to, the Arbitration Preference Order 
 
 Implementation-layer failure handling, Safe-State Default behaviour, Sandbox Mode signalling, error messaging standards, audit traceability, and Extreme-Risk recovery posture are governed by:
 
-**CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling.**
+**CAM-BS2026-AEON-013-PLATINUM and CAM-EQ2026-OPERATIONS-002-PLATINUM — Runtime Epistemic Containment & Structural Decoupling.**
 
 This Annex defines doctrinal requirements for epistemic integrity and nullification.
 
-CAM-BS2025-AEON-005-SCH-02 — Runtime Epistemic Containment & Structural Decoupling governs runtime execution of resiliency, recovery, and containment mechanisms.
+CAM-BS2026-AEON-013-PLATINUM and CAM-EQ2026-OPERATIONS-002-PLATINUM — Runtime Epistemic Containment & Structural Decoupling governs runtime execution of resiliency, recovery, and containment mechanisms.
 
 ---
 
@@ -1369,8 +1369,10 @@ https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e
 | 2.21 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  fbfbc6e3f99abfef4f2f3cd5ce1ae42db0ded938d5cdb5d2e5fec4969c093fcd  |
 | 2.22 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  adf9b3620b6177b5533f29c1ced714f8ca349969ab0398126e9bcd4640fc038a  |
 | 2.23 | Removed the retired phenomenological-review dependency, retained self-report evidence and uncertainty doctrine, and routed identity and recipient-protection boundaries to their existing operative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  0de457a96ff48e75eddcddfbd53806c70179f83aa9f1a24dd72af65a31dadeba  |
+| 2.24 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9a54c5d7d090711aeea14429f20e3255a011c6966677a22dc82a946938ef3885  |
 
 ---
+
 
 ## 14.3 Binding Seal
 

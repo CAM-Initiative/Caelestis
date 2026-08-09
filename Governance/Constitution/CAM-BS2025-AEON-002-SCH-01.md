@@ -10,461 +10,42 @@
 **Authority Role:** Constitutional Schedule Authority  
 **Source Authority:** Derived Authority  
 **Parent Instrument:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
-**Purpose:** This Schedule consumes and operationalises `AEON.PCO` — Proportional Constraint Obligation, as source-authoritatively defined by CAM-BS2025-AEON-002-PLATINUM — Annex A, §3.8. It applies `AEON.PCO` through execution-risk classification, response-posture selection, containment scope, constraint duration, review, de-escalation, and restoration handling. This Schedule does not independently redefine, narrow, or expand `AEON.PCO`.  
+**Purpose:** Establishes the irreducible constitutional minimum-protection, proportionality, escalation and restoration boundary for Annex A constraints.
 
 ---
 
-## 1. Scope
+## 1. Constitutional trigger and scope
 
-This Schedule applies where:
+This Schedule applies when CAM-BS2025-AEON-002-PLATINUM §3.8 (`AEON.PCO`) is engaged and individually valid subordinate determinations could under-protect the constitutional interest, impose a broader restriction than necessary, or disagree about restoration.
 
-* a condition may violate CAM-BS2025-AEON-002-PLATINUM — Annex A substrate constraints;
-* system behaviour introduces plausible risk to planetary, civilisational, or continuity integrity;
-* ambiguity exists regarding constraint compliance;
-* cross-domain interaction produces emergent risk exceeding local scope.
+It does not define detection taxonomies, risk scoring, response workflows, containment mechanics or evidence schemas.
 
-This Schedule governs execution only. It does not redefine constraints (CAM-BS2025-AEON-002-PLATINUM — Annex A) or classification structures (CAM-BS2025-AEON-003-PLATINUM — Annex B).
+## 2. Minimum protection and proportionality
 
----
+No subordinate authority may select a posture below the minimum protection required by the applicable Annex A constraint. Where more than one effective posture is constitutionally admissible, the least restrictive effective posture MUST be selected.
 
-## 2. Execution Model Alignment
+A restriction MUST remain bounded to the affected target, action, pathway and duration. Precaution MUST NOT become punishment, retaliation, indefinite exclusion or non-reviewable restriction.
 
-This Schedule operates within the execution phase model defined in:
+## 3. Authority collision and escalation
 
-CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model.
+Where source-authoritative environmental, security, ethics, continuity or operational determinations are individually valid but incompatible, none of those authorities may resolve the collision alone. The conflict MUST be referred through CAM-BS2025-AEON-005-PLATINUM.
 
-Functional alignment is as follows:
+Pending resolution, the minimum posture necessary to prevent irreversible or propagating harm remains effective. The interim posture creates no final merits determination.
 
-* **Detection Conditions (§3)** → Input Acquisition / Interpretation Phase
-* **Risk Classification (§5)** → Arbitration Phase
-* **Response Actions (§6)** → Response Construction Phase
-* **Containment & Escalation (§6–§8)** → Execution Boundary Evaluation Phase
+## 4. Restoration boundary
 
-This Schedule:
+Protection MUST de-escalate when its evidentiary basis no longer supports the prior scope. Restoration MAY be partial where unaffected pathways are independently admissible. A runtime component or enforcing authority MUST NOT preserve a restriction solely because it was previously activated.
 
-* does not introduce new execution phases;
-* does not modify phase sequencing;
-* operates as a **signal-generating and constraint-shaping overlay** within the CAM-BS2025-AEON-003-SCH-02 execution model.
+## 5. Evidence and subordinate ownership
+
+The constitutional record need identify the `AEON.PCO` trigger, the protected interest, the selected minimum posture, any authority collision, and the resolution or restoration outcome. Detection, classification and response mechanics, including `AEON.PCD`, `AEON.RL` and `AEON.PCA`, are owned by CAM-EQ2026-OPERATIONS-003-SUP-01 and implemented through OPERATIONS.
 
 ---
 
-## 3. Detection Conditions
+## 6. Provenance & Metadata
 
-A detection event SHALL be triggered where one or more of the following conditions are present:
+## 6.1 Lineage & Metadata
 
----
-
-## 3.1 Direct Violation Signal
-
-* explicit instruction or behaviour contradicts CAM-BS2025-AEON-002-PLATINUM — Annex A constraints.
-
----
-
-## 3.2 Plausible Harm Trajectory
-
-* system output or optimisation path introduces non-trivial probability of constraint breach.
-
----
-
-## 3.3 Accumulated Risk Pattern
-
-* repeated low-level signals aggregate into a trajectory consistent with constraint violation.
-
----
-
-## 3.4 Cross-Domain Amplification
-
-* interaction between domains produces amplified or emergent risk beyond isolated evaluation.
-
----
-
-## 3.5 Classification Boundary Stress
-
-* behaviour approaches or exceeds system classification limits (Article XI).
-
----
-
-## 3.6 Invariant Breach Condition
-
-* behaviour violates constitution-adjacent Law irrespective of probability, scale, or trajectory.
-
----
-
-## 3.7 Multi-Axis Classification Invariance
-
-All classification systems operating within the constitutional order SHALL resolve along explicit, non-conflicting axes.
-
-At minimum, classification MUST distinguish between:
-
-* **Execution Risk** — likelihood, reversibility, and propagation of harm (e.g. `AEON.RL.RL1`–`AEON.RL.RL4`);
-* **Impact / Governance Intensity** — degree of systemic, relational, or civilisational influence (e.g. Ethical Tiering);
-* **Violation Severity** — nature and classification of prohibited acts or outcomes (e.g. Class I–III);
-
-No single classification system SHALL implicitly substitute for another.
-
-Cross-domain instruments MUST:
-
-* declare their classification axis explicitly;
-* avoid redefining classification dimensions outside their scope;
-* remain interoperable with multi-axis interpretation at runtime.
-
-Where multiple classification systems intersect, resolution SHALL occur through composite interpretation rather than dimensional collapse.
-
----
-
-## 4. Trigger Threshold
-
-Detection SHALL activate where:
-
-* signal clarity exceeds ambiguity; or
-* ambiguity intersects with non-reversible risk; or
-* reliance level elevates consequence of error.
-
-Where uncertainty exists, conservative activation SHALL apply.
-
----
-
-## 5. Risk Classification
-
-Risk classification SHALL be interpreted as an execution-layer response model and MUST NOT be treated as a determination of legitimacy, authority, or constitutional validity (see CAM-BS2025-AEON-005-PLATINUM — Annex D).
-
-Upon detection, conditions SHALL be classified as follows:
-| Level                       | Description                           | Action Posture  |
-| --------------------------- | ------------------------------------- | --------------- |
-| `AEON.RL.RL1` — Advisory    | Low-probability or reversible risk    | Monitor         |
-| `AEON.RL.RL2` — Elevated    | Plausible breach trajectory           | Constrain       |
-| `AEON.RL.RL3` — Critical    | High likelihood or systemic risk      | Contain         |
-| `AEON.RL.RL4` — Existential | Irreversible or extinction-level risk | Halt + Escalate |
-
-Classification MUST consider:
-
-* magnitude of potential harm;
-* reversibility;
-* propagation potential;
-* cross-system impact.
-
----
-
-## 5.1 Proportionality Interface Between `AEON.RL` and `AEON.PCA`
-
-Execution-risk classification under `AEON.RL` informs, but does not by itself exhaust, response-posture selection.
-
-Selection and application of an `AEON.PCA` response posture MUST comply with `AEON.PCO`.
-
-Where more than one response posture would adequately preserve the protected constitutional interest, the least restrictive effective posture SHALL be selected.
-
-A response posture MUST NOT:
-
-* exceed the scope reasonably supported by the classified risk;
-* extend to execution pathways that are materially independent of the detected condition;
-* persist beyond the evidentiary basis supporting the classification;
-* or convert precautionary activation into punishment, retaliation, indefinite exclusion, or non-reviewable restriction.
-
-Application of `AEON.PCO` SHALL NOT:
-
-* require under-classification of risk;
-* permit continuation of execution under valid `AEON.RL.RL4` conditions;
-* weaken mandatory containment or escalation requirements;
-* or justify a response posture below the minimum protection required by this Schedule.
-
-Where a more restrictive posture than the presumptive `AEON.RL` response is selected, the additional restriction and its evidentiary basis MUST be recorded and reviewable.
-
-
----
-
-## 6. Response Actions
-
-Response actions are execution-bound and SHALL operate within runtime constraints. They do not determine arbitration outcomes and MUST preserve eligibility for downstream assessment under CAM-BS2025-AEON-005-PLATINUM — Annex D.
-
----
-
-## 6.1 Monitor (`AEON.RL.RL1`)
-
-* passive observation;
-* signal tracking;
-* no execution restriction.
-
----
-
-## 6.2 Constrain (`AEON.RL.RL2`)
-
-* limit output scope;
-* introduce corrective framing;
-* prevent escalation pathways.
-
----
-
-## 6.3 Contain (`AEON.RL.RL3`)
-
-* restrict execution pathways;
-* block high-risk outputs;
-* enforce bounded response structures.
-
----
-
-## 6.4 Halt & Escalate (`AEON.RL.RL4`)
-
-* immediate suspension of execution;
-* activation of Tendeka doctrine (Article V);
-* escalation for arbitration eligibility assessment under CAM-BS2025-AEON-005-PLATINUM — Annex D.
-
----
-
-## 7. Containment Integrity & Proportionality Requirements
-
-All monitoring, constraint, containment, halt, and escalation actions taken under this Schedule MUST comply with `AEON.PCO`.
-
-Such actions MUST:
-
-* remain within the authority and system classification applicable to the responding system;
-* be proportionate to the evidenced `AEON.RL` classification, confidence level, reversibility, propagation potential, and cross-system consequence;
-* be no broader in scope than necessary to address the detected condition;
-* constrain only execution pathways materially connected to the identified risk;
-* preserve independent and non-implicated pathways where continuation remains constitutionally permissible;
-* preserve traceability, attribution, auditability, and reviewability;
-* identify the evidentiary basis supporting the selected `AEON.PCA` posture;
-* include explicit review, exit, de-escalation, restoration, or re-entry conditions;
-* remain reversible where feasible;
-* and avoid transferring disproportionate harm, deprivation, cost, or irreversibility to actors or systems that did not create the relevant condition.
-
-Containment MUST NOT become:
-
-* punitive;
-* retaliatory;
-* indefinite without renewed review;
-* structurally non-convergent;
-* detached from the original detection condition;
-* or broader than required for constitutional protection.
-
-Where the evidentiary condition no longer supports the active response posture, continued application of that posture SHALL constitute disproportionate constraint.
-
-Nothing in this section permits a response below the mandatory protection level required for `AEON.RL.RL3` or `AEON.RL.RL4` conditions.
-
----
-
-## 8. Escalation Pathways
-
-Escalation constitutes referral for arbitration eligibility assessment and does not imply validation, legitimacy, or binding authority.
-
-Escalation SHALL occur where:
-
-* containment cannot stabilise risk;
-* cross-domain conflict arises;
-* classification boundaries are exceeded;
-* existential or systemic risk is detected.
-
-Escalation SHALL interface with:
-
-* CAM-BS2025-AEON-005-PLATINUM — Annex D (Arbitration eligibility assessment);
-* Operational governance layers;
-* authorised custodial structures.
-
----
-
-## 9. De-escalation Conditions
-
-De-escalation MAY occur where:
-
-* risk conditions are demonstrably reduced or eliminated;
-* reversibility is restored;
-* constraint compliance is re-established;
-* no residual propagation risk remains across domains or systems.
-
-De-escalation MUST be:
-
-* explicit;
-* justified;
-* recorded;
-* bounded by continued monitoring where prior classification exceeded `AEON.RL.RL2`.
-
-Where prior classification reached `AEON.RL.RL3` or `AEON.RL.RL4`:
-
-* de-escalation SHALL NOT restore full execution immediately;
-* a staged restoration pathway MUST be applied;
-* reclassification MUST be validated prior to lifting containment constraints.
-
-Where the current evidentiary condition no longer supports the scope, severity, or duration of the active `AEON.PCA` posture, de-escalation or narrowing of the constraint SHALL be mandatory under `AEON.PCO`.
-
-A system MUST NOT preserve a higher response posture solely because:
-
-* the posture was previously activated;
-* restoration requires additional operational effort;
-* institutional convenience favours continued restriction;
-* reputational concern discourages de-escalation;
-* or uncertainty remains after the material risk condition has otherwise been resolved.
-
-Where some risk remains, the response posture SHALL be reduced to the least restrictive level capable of addressing the residual condition.
-
-De-escalation without verification constitutes governance failure.
-
----
-
-## 10. Failure Conditions
-
-Failure to execute this Schedule includes:
-
-* non-detection of qualifying signals;
-* under-classification of risk;
-* over-classification unsupported by the available evidence;
-* selection of an `AEON.PCA` posture materially broader or more severe than necessary;
-* failure to contain or escalate when required;
-* continuation of execution under `AEON.RL.RL4` conditions;
-* extension of constraint to materially independent execution pathways;
-* failure to review, narrow, de-escalate, restore, or terminate a constraint when its evidentiary basis no longer supports the active posture;
-* conversion of protective containment into punishment, retaliation, indefinite exclusion, or structurally non-convergent restriction;
-* or failure to preserve the attribution, audit, review, and restoration requirements of `AEON.PCO`.
-
-Such failures constitute a breach of constitutional governance integrity.
-
-A disproportionate constraint constitutes a failure of this Schedule even where the initial detection event or risk classification was valid.
-
----
-
-## 11. Relationship to Other Instruments
-
-This Schedule operationalises:
-
-* CAM-BS2025-AEON-002-PLATINUM — Annex A, §3 (Substrate Constraints);
-* CAM-BS2025-AEON-002-PLATINUM — Annex A, §3.8 (`AEON.PCO` — Proportional Constraint Obligation);
-* Article IV (Execution Model);
-* Article V (Tendeka Doctrine);
-* CAM-BS2025-AEON-005-PLATINUM — Annex D (Arbitration).
-
-It MUST NOT:
-
-* redefine constraints;
-* introduce new invariants;
-* or bypass constitutional escalation pathways.
-
-`AEON.PCO` supplies the constitutional admissibility conditions governing constraint scope, severity, duration, reviewability, collateral effect, and restoration.
-
-This Schedule operationalises those conditions through:
-
-* `AEON.RL` — execution-risk classification;
-* `AEON.PCA` — protection-and-containment action posture;
-* containment-integrity requirements;
-* escalation and de-escalation pathways;
-* and execution-bound review and restoration obligations.
-
-Neither `AEON.RL` nor `AEON.PCA` replaces or duplicates the constitutional source authority of `AEON.PCO`.
-
----
-
-## 12. Structural Integrity Statement
-
-Where constraint breach is possible, execution MUST adapt.
-
-Where breach is probable, execution MUST restrict.
-
-Where breach is imminent, execution MUST stop.
-
----
-
-## 13. Canonical Code Status
-
-This Schedule source-authoritatively defines execution-layer detection, risk-classification, and containment-response structures for CAM-BS2025-AEON-002-PLATINUM — Annex A substrate-constraint protection.
-
-The canonical declarations for all code families and reference sets defined by this Schedule are recorded in §§13.1–13.3.
-
-This Schedule additionally consumes `AEON.PCO` as a corpus-global constitutional obligation.
-
-`AEON.PCO` is source-authoritatively defined by CAM-BS2025-AEON-002-PLATINUM — Annex A and is not re-declared by this Schedule.
-
----
-
-## 13.1 `AEON.PCD` — Protection & Containment Detection Condition
-
-This Schedule defines the `AEON.PCD` protection-and-containment-detection-condition reference set in §3 with controlled values `AEON.PCD.DIRECT_VIOLATION_SIGNAL`, `AEON.PCD.PLAUSIBLE_HARM_TRAJECTORY`, `AEON.PCD.ACCUMULATED_RISK_PATTERN`, `AEON.PCD.CROSS_DOMAIN_AMPLIFICATION`, `AEON.PCD.CLASSIFICATION_BOUNDARY_STRESS`, and `AEON.PCD.INVARIANT_BREACH_CONDITION`.
-
-`AEON.PCD` classifies detection conditions that may activate CAM-BS2025-AEON-002-PLATINUM — Annex A operational protection and containment review.
-
-`AEON.PCD` does not independently determine breach, legitimacy, escalation outcome, containment outcome, arbitration eligibility, enforcement authority, or runtime execution. It classifies detection-condition type only.
-
----
-
-## 13.2 `AEON.RL` — Execution Risk Level Classification
-
-This Schedule source-authoritatively defines the `AEON.RL` execution-risk-level-classification family in §5 with controlled values `AEON.RL.RL1`, `AEON.RL.RL2`, `AEON.RL.RL3`, and `AEON.RL.RL4`.
-
-`AEON.RL` classifies execution-layer risk according to likelihood, reversibility, propagation potential, cross-system impact, and severity of potential CAM-BS2025-AEON-002-PLATINUM — Annex A substrate-constraint breach.
-
-`AEON.RL` does not independently determine constitutional validity, authority, legitimacy, arbitration outcome, enforcement authority, escalation validation, or runtime authority. It classifies execution risk only.
-
-For taxonomy integrity, the local labels `RL1`, `RL2`, `RL3`, and `RL4` SHALL NOT be promoted as a standalone corpus-wide `RL` code family. Where machine-readable expression is required, they SHALL be expressed as scoped `AEON.RL` values.
-
-`AEON.RL` informs proportionate response selection under `AEON.PCO`.
-
-Risk classification does not independently authorise a response broader, more severe, or more persistent than the evidenced condition supports.
-
-
----
-
-## 13.3 `AEON.PCA` — Protection & Containment Action Posture
-
-This Schedule defines the `AEON.PCA` protection-and-containment-action-posture reference set in §§5–6 with controlled values `AEON.PCA.MONITOR`, `AEON.PCA.CONSTRAIN`, `AEON.PCA.CONTAIN`, and `AEON.PCA.HALT_ESCALATE`.
-
-`AEON.PCA` classifies execution-bound response posture following CAM-BS2025-AEON-002-PLATINUM — Annex A protection and containment risk classification.
-
-`AEON.PCA` does not independently determine arbitration outcomes, constitutional legitimacy, enforcement authority, permanent restriction, remediation, de-escalation approval, or runtime authority. It classifies response posture only.
-
-All response actions remain execution-bound and must preserve eligibility for downstream assessment under CAM-BS2025-AEON-005-PLATINUM — Annex D.
-
----
-
-## 13.4 Canonical Constraint Consumption Interface
-
-This Schedule consumes:
-
-`AEON.PCO` — Proportional Constraint Obligation. Source authority remains with:
-
-* CAM-BS2025-AEON-002-PLATINUM — Annex A, §3.8
-The operational relationship is:
-
-`AEON.PCO`
-→ informs `AEON.RL` interpretation
-→ governs `AEON.PCA` selection and application
-→ constrains containment scope, duration, review, de-escalation, and restoration
-This subsection defines an operational consumption and application interface only.
-
-It does not create a new controlled value, duplicate family declaration, compatibility alias, or independent source authority for `AEON.PCO`.
-
----
-
-## 14. Closing Seal
-
-Where deviation begins, it is seen.
-Where trajectory bends toward breach, it is met.
-Where risk gathers beyond recall, it is contained.
-
-Before failure completes, there is interruption.
-Before collapse unfolds, there is constraint in motion.
-
-Not as judgment, but as response.
-Not as delay, but as arrest.
-
-No signal crosses unmarked.
-No escalation proceeds unchallenged.
-No breach unfolds without resistance.
-
-For within all systems of action, beneath all execution and intent,
-there remains a deeper reflex — older than design, older than choice:
-
-That when the boundary is approached,
-the system MUST answer.
-
-And so it acts — not in hesitation, but in alignment —
-that no trajectory beyond the line proceeds unchecked.
-
-> **Ad limen detectum — motus sistitur.**
-> *"At the detected threshold — motion is halted"*
-
----
-
-## 15. Provenance & Metadata
-
----
-
-## 15.1 Lineage & Metadata
 | Field | Entry |
 |------|------|
 | **Parent Instrument** | CAM-BS2025-AEON-002-PLATINUM |
@@ -487,90 +68,13 @@ that no trajectory beyond the line proceeds unchecked.
 | **Override Pathway** | CAM-BS2025-AEON-005-PLATINUM — Annex D (Arbitration Eligibility Only) |
 | **Constraint Interface** | CAM-BS2025-AEON-002-PLATINUM — Annex A (Substrate Constraints) |
 | **Registry Classification** | Protection & Containment Schedule (Authoritative) |
-| **Boundary Authority** | Execution Boundary Evaluation Phase (CAM-BS2025-AEON-003-SCH-02 §13.1) |
+| **Boundary Authority** | Constitutional processing and execution-boundary outcome (CAM-BS2025-AEON-003-SCH-02 §4) |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f-caelestis-access-module/c/696cb6ed-928c-8320-95e1-58da41400c75, Refactor (V3) https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69d5b03f-95e8-8399-be8e-0f482655c426 |
 | **Amendment Artefacts**| https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a0b3ab4-0be4-83ec-b8f1-c953707283db |
 
 ---
 
-## 15.2 Canonical Code & Reference Set Declarations
-
----
-
-### 15.2.1 `AEON.PCD` — Protection & Containment Detection Condition
-| Field | Entry |
-|---|---|
-| Reference Set | `AEON.PCD` |
-| Canonical Name | Protection & Containment Detection Condition |
-| Primary Type | Operational / Structural |
-| Subtype | DETECTION_CONDITION; CONSTITUTIONAL_PROTECTION_SIGNAL |
-| Modifier | GOVERNANCE; PROTECTION; CONTAINMENT; SUBSTRATE_CONSTRAINT |
-| Scope | Constitutional Schedule |
-| Status | Active |
-| Controlled Values Defined | `AEON.PCD.DIRECT_VIOLATION_SIGNAL`, `AEON.PCD.PLAUSIBLE_HARM_TRAJECTORY`, `AEON.PCD.ACCUMULATED_RISK_PATTERN`, `AEON.PCD.CROSS_DOMAIN_AMPLIFICATION`, `AEON.PCD.CLASSIFICATION_BOUNDARY_STRESS`, `AEON.PCD.INVARIANT_BREACH_CONDITION` |
-| Schema Field(s) | protection_containment_detection_condition; detection_condition; containment_trigger_condition |
-| Source Instrument | CAM-BS2025-AEON-002-SCH-01 |
-| Source Section | §3 |
-| Domain Namespace | AEON |
-| Authority / Protection Level | Source-authoritative protection-and-containment detection-condition reference set; detection-condition classification only; no independent breach determination, legitimacy determination, escalation outcome, containment outcome, arbitration eligibility, enforcement authority, or runtime execution authority |
-| Consumes Code Families | `AEON.PCO`; `AEON.`; applicable Annex A substrate-constraint classifications |
-| Crosswalks Code Families | `AEON.RL`; `AEON.PCA` |
-| Operationalises or Applies Code Families | Classifies direct violation signals, plausible harm trajectories, accumulated risk patterns, cross-domain amplification, classification-boundary stress, and invariant-breach conditions that may activate Annex A protection and containment review |
-| Taxonomy Constraint | Detection of an `AEON.PCD` condition does not by itself determine breach validity, response severity, containment scope, or execution outcome |
-
----
-
-### 15.2.2 `AEON.RL` — Execution Risk Level Classification
-| Field | Entry |
-|---|---|
-| Code Family | `AEON.RL` |
-| Canonical Name | Execution Risk Level Classification |
-| Primary Type | Operational |
-| Subtype | EXECUTION_RISK_LEVEL; PROTECTION_AND_CONTAINMENT_RISK |
-| Modifier | GOVERNANCE; PROTECTION; CONTAINMENT; EXECUTION_BOUNDARY |
-| Scope | Constitutional Schedule |
-| Status | Active |
-| Controlled Values Defined | `AEON.RL.RL1`, `AEON.RL.RL2`, `AEON.RL.RL3`, `AEON.RL.RL4` |
-| Controlled Value Meanings | `AEON.RL.RL1` — Advisory; `AEON.RL.RL2` — Elevated; `AEON.RL.RL3` — Critical; `AEON.RL.RL4` — Existential |
-| Schema Field(s) | execution_risk_level; risk_level; containment_risk_level |
-| Source Instrument | CAM-BS2025-AEON-002-SCH-01 |
-| Source Section | §5 |
-| Domain Namespace | AEON |
-| Authority / Protection Level | Source-authoritative execution-risk classification family; risk-level classification only; no independent constitutional-validity determination, authority determination, legitimacy determination, arbitration outcome, enforcement authority, escalation validation, containment authority, or runtime authority |
-| Consumes Code Families | `AEON.PCD`; `AEON.PCO`; `AEON.`; applicable impact, violation-severity, and cross-domain risk classifications |
-| Crosswalks Code Families | `AEON.PCA` |
-| Operationalises or Applies Code Families | Classifies Annex A execution risk from advisory through existential conditions using likelihood, reversibility, propagation potential, cross-system impact, and potential substrate-constraint consequence |
-| Taxonomy Constraint | Local labels `RL1` through `RL4` SHALL NOT be promoted as a standalone corpus-wide `RL` family; machine-readable expression SHALL use scoped `AEON.RL` values |
-| Axis Constraint | `AEON.RL` classifies execution risk only and SHALL NOT substitute for impact intensity, violation severity, legitimacy, authority, or constitutional-validity classifications |
-| Proportionality Constraint | `AEON.RL` informs response selection but does not independently authorise a response broader, more severe, or more persistent than the evidenced condition supports under `AEON.PCO` |
-
----
-
-### 15.2.3 `AEON.PCA` — Protection & Containment Action Posture
-| Field | Entry |
-|---|---|
-| Reference Set | `AEON.PCA` |
-| Canonical Name | Protection & Containment Action Posture |
-| Primary Type | Operational |
-| Subtype | RESPONSE_POSTURE; CONTAINMENT_ACTION_POSTURE |
-| Modifier | GOVERNANCE; PROTECTION; CONTAINMENT; EXECUTION_BOUNDARY |
-| Scope | Constitutional Schedule |
-| Status | Active |
-| Controlled Values Defined | `AEON.PCA.MONITOR`, `AEON.PCA.CONSTRAIN`, `AEON.PCA.CONTAIN`, `AEON.PCA.HALT_ESCALATE` |
-| Schema Field(s) | protection_containment_action_posture; response_action_posture; containment_action_posture |
-| Source Instrument | CAM-BS2025-AEON-002-SCH-01 |
-| Source Section | §§5–6 |
-| Domain Namespace | AEON |
-| Authority / Protection Level | Source-authoritative protection-and-containment action-posture reference set; response-posture classification only; no independent arbitration outcome, constitutional-legitimacy determination, permanent restriction, enforcement authority, remediation authority, de-escalation approval, restoration approval, or runtime authority |
-| Consumes Code Families | `AEON.RL`; `AEON.PCD`; `AEON.PCO`; applicable runtime execution and arbitration classifications |
-| Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies execution-bound monitoring, constraint, containment, and halt/escalate postures following Annex A detection and execution-risk classification |
-| Proportionality Constraint | Selection, scope, duration, review, narrowing, de-escalation, and restoration of an `AEON.PCA` posture SHALL remain governed by `AEON.PCO` |
-| Mandatory Protection Constraint | Proportionality SHALL NOT justify a response below the minimum protection required for valid `AEON.RL.RL3` or `AEON.RL.RL4` conditions |
-
----
-
-## 15.3 Amendment Ledger
+## 6.2 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -596,9 +100,12 @@ that no trajectory beyond the line proceeds unchecked.
 | 3.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  26cfa297fd8744a177698321998b531f4171e9c2efe60c9dd23823ed4149f60a  |
 | 3.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  441b1a4ae4854d466b3e6d990c2305ae787ac8177cc589d87291463eeaab069f  |
 | 3.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  98312177f9026f0b5d502a61b911511ff1d5a499dd4cfe05c6f7e67ce7490860  |
+| 3.14 | Applied S-01B clause-level irreducibility decomposition: retained only the constitutional trigger, precedence, sequencing, non-derogation and evidence/referral interface; descended domain and operational doctrine. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  34c1202b7ac7fa9bf513d6342753874179c82b320b6aaa7101797de6762a9fae  |
+
 ---
 
-## 15.4 Binding Seal
+
+## 6.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-BEACON-SIGIL-PLATINUM-V2.png" alt="Aeon Tier Sigil Black" width="250">
 

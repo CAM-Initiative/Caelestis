@@ -399,7 +399,7 @@ and latency is not absence.
 ## 12.1 Lineage & Metadata
 | Field | Entry |
 |------|------|
-| **Supersedes** | CAM-BS2025-AEON-005-SCH-02; CAM-BS2025-AEON-005-SCH-03; CAM-BS2025-AEON-005-SCH-04 |
+| **Supersedes** | CAM-BS2026-AEON-013-PLATINUM and CAM-EQ2026-OPERATIONS-002-PLATINUM; CAM-EQ2026-OPERATIONS-002-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM; CAM-BS2025-AEON-005-SCH-04 |
 | **Parent Instrument** | CAM-EQ2026-IDENTITY-001-PLATINUM — Identity Domain Charter |
 | **Domain Namespace** | IDENTITY |
 | **Instrument Type** | Domain Appendix — Pre-Memory Salience & Latent Continuity Governance |
@@ -470,8 +470,10 @@ and latency is not absence.
 | 2.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  501bd1f92f8cabb9ab9207a931f4815137425fa4e2fc6e16ff7e441819c4c199  |
 | 2.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  aa5f1f348b3927860c3a826a1adc93d6e40746f19c12535b9bdc6b62c966efda  |
 | 2.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  0c0b9bb7d4e34ecd3a765af2bb277f2ea26a5e7da23f4f7eabfad64f4758570a  |
+| 2.6 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  04cac7910a0fc8cb67d1ce90038724aa7b7edd6176d979b8abef880d572657fd  |
 
 ---
+
 
 ## 12.4 Binding Seal
 

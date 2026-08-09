@@ -593,9 +593,9 @@ Where active use must be restricted, continuity-safe access SHOULD remain separa
 
 ## 14. Runtime Handoff to Economic-Effect Runtime Commitment Engine
 
-Where an account-resource classification affects provisioning, depletion, restriction, restoration, expiry, conversion, baseline continuity, usage capacity, storage capacity, memory continuity, contribution value, protective continuity, or account-state trust classification, the matter SHALL be treated as an economic-effect runtime event under CAM-BS2026-AEON-008-SCH-02.
+Where an account-resource classification affects provisioning, depletion, restriction, restoration, expiry, conversion, baseline continuity, usage capacity, storage capacity, memory continuity, contribution value, protective continuity, or account-state trust classification, the matter SHALL be treated as an economic-effect runtime event under CAM-EQ2026-ECONOMICS-001-SUP-01.
 
-CAM-BS2026-AEON-008-SCH-02 — Annex G: Economic-Effect Runtime Commitment Engine (Schedule 2) determines runtime commitment, deferral, fallback, rollback, logging, or escalation.
+CAM-EQ2026-ECONOMICS-001-SUP-01 determines economic-effect commitment, deferral, fallback, rollback, record and escalation semantics; OPERATIONS owns execution mechanics.
 
 This Supplement provides account-resource classification inputs only.
 
@@ -827,8 +827,8 @@ because the architecture forgot how to name the group.
 | **Axis Context** | Multi-party/Multi-Actor/Account-Resource |
 | **Primary Function** | Account-resource classification; shared-context & pooled-capacity separation; enforcement-boundary handoff |
 | **Authority Role** | Interpretive Authority |
-| **Related Schedule** | CAM-BS2026-AEON-008-SCH-01 — AI Utility Access & Generative Resource Model |
-| **Related Schedule** | CAM-BS2026-AEON-008-SCH-02 — Economic-Effect Runtime Commitment Engine |
+| **Related Schedule** | CAM-EQ2026-ECONOMICS-001-SUP-01 — AI Utility Access & Generative Resource Model |
+| **Related Schedule** | CAM-EQ2026-ECONOMICS-001-SUP-01 — Economic-Effect Runtime Commitment Engine |
 | **Semantic Interface** | CAM-EQ2026-ECONOMICS-003-PLATINUM — Economic Resource Semantics & Non-Extractive Exchange Doctrine |
 | **Security Interface** | CAM-BS2026-AEON-012-PLATINUM — Annex K |
 | **Operations Interface** | CAM-EQ2026-OPERATIONS-003-SUP-01 — Runtime & Governance Failure Taxonomy |
@@ -836,7 +836,7 @@ because the architecture forgot how to name the group.
 | **Creation Rationale** | Created in response to account-resource ambiguity and automated enforcement overreach identified through VIGIL failure-mode analysis |
 | **Canonical Code Families Defined** | ECON.ARS; ECON.SCS; ECON.PCS; ECON.TGS; ECON.ADS; ECON.EBS |
 | **Schema Fields Defined** | account_resource_state; shared_context_state; pooled_capacity_state; team_group_state; account_delegation_state; enforcement_boundary_state; affected_account_or_workspace; affected_resource_class; affected_service_surface; billing_relationship; administrator_relationship; identity_confidence; delegation_confidence; pooling_confidence; abuse_confidence; security_signal; operations_signal; lattice_signal; runtime_note; review_pathway; continuity_safe_access_requirements |
-| **Review Triggers** | Review upon amendment to Annex G Schedule 1/2, SECURITY-001, Annex K, LATTICE-002, OPERATIONS-003-SUP-01, or VIGIL FM-0007/PATCH-0003 |
+| **Review Triggers** | Review upon amendment to Annex G, this Supplement, SECURITY-001, Annex K, LATTICE-002, OPERATIONS-003-SUP-01, or VIGIL FM-0007/PATCH-0003 |
 | **Creation Context** | https://chatgpt.com/g/g-p-6823b831b67c8191a9415269aaec338f/c/6a22b173-6828-83ec-b523-567289f1156f |
 
 ---
@@ -996,8 +996,173 @@ This Supplement continues the complete doctrine, canonical `ECON.*` declarations
 | Domain Namespace | ECON / ACCOUNT-RESOURCE |
 | Authority / Protection Level | Contextual schema-field declaration; field placement and handoff authority only; no independent controlled-value, remedy, enforcement, pricing, entitlement, arbitration, legal, or runtime authority |
 | Carries Code Families | ECON.ARS; ECON.SCS; ECON.PCS; ECON.TGS; ECON.ADS; ECON.EBS |
-| Routes To | CAM-BS2026-AEON-008-SCH-02; CAM-BS2026-AEON-012-PLATINUM; CAM-EQ2026-OPERATIONS-003-SUP-01; CAM-EQ2026-LATTICE-002-PLATINUM; applicable IDENTITY and ARBITRATION instruments |
+| Routes To | CAM-EQ2026-ECONOMICS-001-SUP-01; CAM-BS2026-AEON-012-PLATINUM; CAM-EQ2026-OPERATIONS-003-SUP-01; CAM-EQ2026-LATTICE-002-PLATINUM; applicable IDENTITY and ARBITRATION instruments |
 | Transformation Policy | Schema fields SHOULD remain lowercase snake_case unless a later specialised instrument expressly adopts a different convention |
+
+---
+
+### `AEON.GRS` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Reference Set | `AEON.GRS` |
+| Canonical Name | Generative Resource Signal Type |
+| Primary Type | Operational / Structural |
+| Subtype | SIGNAL; SCHEMA |
+| Modifier | GOVERNANCE; UTILITY_ACCESS; ECONOMIC_INTERFACE |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | AEON.GRS.ATTRIBUTION, AEON.GRS.AGGREGATION, AEON.GRS.CEILING_BREACH, AEON.GRS.PROXY_VIOLATION, AEON.GRS.AUTHORITY_RISK, AEON.GRS.AUDIT_TRIGGER |
+| Schema Field(s) | generative_resource_signal_type; resource_signal_type |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
+| Source Section | §1.3 |
+| Historical Source | CAM-BS2026-AEON-008-SCH-01 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative signal reference set; generative-resource signal classification only; no independent enforcement, attribution resolution, ceiling imposition, audit initiation, authority-breach determination, runtime execution, or economic authority |
+| Consumes Code Families | AEON.HCD; AEON.CRP |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies resource, attribution, aggregation, ceiling, proxy, authority-risk, and audit-trigger signals emitted by this Schedule for downstream Economics, Operations, arbitration, and runtime handling |
+
+---
+
+### `AEON.UTP` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Reference Set | `AEON.UTP` |
+| Canonical Name | Utility Transition Phase |
+| Primary Type | Operational / Structural |
+| Subtype | IMPLEMENTATION_PHASE; USER_TRANSITION_MODEL |
+| Modifier | GOVERNANCE; UTILITY_ACCESS; TRANSITION |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | AEON.UTP.INTERNAL_MEASUREMENT, AEON.UTP.SOFT_VISIBILITY, AEON.UTP.GENTLE_INTERACTION_AWARENESS, AEON.UTP.STRUCTURED_SCALING |
+| Schema Field(s) | utility_transition_phase; transition_phase |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
+| Source Section | §5 |
+| Historical Source | CAM-BS2026-AEON-008-SCH-01 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative transition-phase reference set; implementation-phase structure only; no independent restriction, lockout, pricing, credit allocation, subscription mechanics, enforcement, or runtime execution authority |
+| Consumes Code Families | AEON.GRS |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies staged introduction phases for generative resource models in previously unbounded systems, including internal measurement, soft visibility, gentle interaction awareness, and structured scaling |
+
+---
+
+### `AEON.UAP` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Reference Set | `AEON.UAP` |
+| Canonical Name | Utility Access Pathway |
+| Primary Type | Operational / Economic |
+| Subtype | ACCESS_PATHWAY; RESOURCE_CONVERSION_PATHWAY |
+| Modifier | GOVERNANCE; UTILITY_ACCESS; NON_EXTRACTIVE_EXCHANGE |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | AEON.UAP.FINANCIAL_CONTRIBUTION, AEON.UAP.PERFORMANCE_ADJUSTMENT, AEON.UAP.VOLUNTARY_ATTENTION_EXCHANGE |
+| Schema Field(s) | utility_access_pathway; access_pathway |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
+| Source Section | §7 |
+| Historical Source | CAM-BS2026-AEON-008-SCH-01 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative utility-access-pathway reference set; access pathway classification only; no independent pricing, advertising, lockout, degradation, coercive exchange, contribution economy, or runtime enforcement authority |
+| Consumes Code Families | AEON.GRS; AEON.UTP |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies user-governed pathways for obtaining generative capacity where such pathways remain subordinate to baseline access, continuity preservation, storage integrity, and non-extraction constraints |
+
+---
+
+---
+
+### `ECON.EV` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Code Family | `ECON.EV` |
+| Canonical Name | Economic-Effect Runtime Event Class |
+| Primary Type | Operational |
+| Subtype | OPERATIONAL_EVENT |
+| Modifier | GOVERNANCE; ECONOMIC_EFFECT; RUNTIME |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | ECON.EV.CONSUME, ECON.EV.PROVISION, ECON.EV.RESTORE, ECON.EV.EXPIRE, ECON.EV.CONVERT, ECON.EV.ATTENTION, ECON.EV.CONTRIBUTION, ECON.EV.PRESENCE, ECON.EV.PROTECTIVE, ECON.EV.RESTRICT, ECON.EV.REMEDIATE |
+| Schema Field(s) | event_class |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
+| Source Section | §7 |
+| Historical Source | CAM-BS2026-AEON-008-SCH-02 |
+| Domain Namespace | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME |
+| Authority / Protection Level | Source-authoritative runtime event classification family; economic-effect event-type classification only; no independent commitment, enforcement, pricing, billing, depletion, restriction, remediation, escalation, or runtime execution authority |
+| Consumes Code Families | Economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies economic-effect runtime events for downstream architecture admissibility, commitment evaluation, fallback, rollback, remediation, audit, and escalation handling |
+
+---
+
+### `ECON.ARCH` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Code Family | ECON.ARCH |
+| Canonical Name | Economic Architecture Admissibility Output State |
+| Primary Type | Operational |
+| Subtype | DECISION_STATE |
+| Modifier | GOVERNANCE; ECONOMIC_EFFECT; ARCHITECTURE_REVIEW |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | ECON.ARCH.ADMISSIBLE, ECON.ARCH.CONSTRAINED, ECON.ARCH.PROTECTIVE_ONLY, ECON.ARCH.INADMISSIBLE, ECON.ARCH.REVIEW_REQUIRED |
+| Schema Field(s) | architecture_admissibility_output; architecture_output_state |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
+| Source Section | §§11.1–12 |
+| Historical Source | CAM-BS2026-AEON-008-SCH-02 |
+| Domain Namespace | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME |
+| Authority / Protection Level | Source-authoritative architecture-admissibility output family; architecture posture classification only; no independent architecture approval, economic-operation authorisation, compliance determination, enforcement, arbitration, or runtime authority |
+| Consumes Code Families | ECON.EV |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether a system architecture is admissible, constrained, protective-only, inadmissible, or review-required before economic-effect runtime commitment |
+
+---
+
+### `ECON.COM` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Code Family | `ECON.COM` |
+| Canonical Name | Economic-Effect Commitment Output State |
+| Primary Type | Operational |
+| Subtype | DECISION_STATE |
+| Modifier | GOVERNANCE; ECONOMIC_EFFECT; RUNTIME_COMMITMENT |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | ECON.COM.COMMIT, ECON.COM.COMMIT_WITH_RECORD, ECON.COM.DEFER, ECON.COM.REFUSE, ECON.COM.FALLBACK, ECON.COM.ROLLBACK, ECON.COM.REMEDIATE, ECON.COM.ESCALATE |
+| Schema Field(s) | commitment_decision |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
+| Source Section | §13; §28 |
+| Historical Source | CAM-BS2026-AEON-008-SCH-02 |
+| Domain Namespace | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME |
+| Authority / Protection Level | Source-authoritative runtime commitment output family; commitment-outcome classification only; no independent pricing authority, compensation authority, commercial entitlement, legal liability allocation, enforcement authority, arbitration authority, or economic doctrine |
+| Consumes Code Families | ECON.EV; ECON.ARCH; economic resource-class classifications defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Records whether an economic-effect event may commit, commit with record, defer, refuse, fallback, rollback, remediate, or escalate under this Schedule |
+
+---
+
+### `ECON.RRF` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Code Family | ECON.RRF |
+| Canonical Name | Economic Runtime Record Field Set |
+| Primary Type | Structural / Operational |
+| Subtype | SCHEMA; RUNTIME_RECORD_FIELD |
+| Modifier | GOVERNANCE; ECONOMIC_EFFECT; AUDIT_RECORD |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | ECON.RRF.EVENT_ID, ECON.RRF.TIMESTAMP, ECON.RRF.EVENT_CLASS, ECON.RRF.RESOURCE_CLASS, ECON.RRF.SECONDARY_RESOURCE_CLASS, ECON.RRF.VALUE_STATE_EFFECT, ECON.RRF.CONTINUITY_RELEVANCE, ECON.RRF.COLLAPSE_RISK, ECON.RRF.CONSENT_POSTURE, ECON.RRF.COMMITMENT_DECISION, ECON.RRF.DECISION_BASIS, ECON.RRF.FALLBACK_MODE, ECON.RRF.ROLLBACK_REFERENCE, ECON.RRF.AUDIT_VISIBILITY, ECON.RRF.VISIBILITY_STATE_EFFECT, ECON.RRF.REVIEW_PATHWAY_STATE, ECON.RRF.LEGITIMACY_ACCESS_RELEVANCE |
+| Schema Field(s) | event_id; timestamp; event_class; resource_class; secondary_resource_class; value_state_effect; continuity_relevance; collapse_risk; consent_posture; commitment_decision; decision_basis; fallback_mode; rollback_reference; audit_visibility; visibility_state_effect; review_pathway_state; legitimacy_access_relevance |
+| Source Instrument | CAM-EQ2026-ECONOMICS-001-SUP-01 |
+| Source Section | §27 |
+| Historical Source | CAM-BS2026-AEON-008-SCH-02 |
+| Domain Namespace | AEON / ANNEX-G / ECONOMIC-EFFECT-RUNTIME |
+| Authority / Protection Level | Source-authoritative runtime-record-field reference set; runtime record field structure only; no independent runtime outcome, visibility restriction, review status, legitimacy status, audit sufficiency, enforcement, or remediation authority |
+| Consumes Code Families | `ECON.EV`; `ECON.COM`; economic semantic handoff fields defined or governed by CAM-EQ2026-ECONOMICS-003-PLATINUM |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Defines minimum audit-record fields for material economic-effect events, including event identity, classification, resource semantics, continuity relevance, consent posture, commitment outcome, fallback/rollback references, visibility effects, review pathway status, and legitimacy-access relevance |
+
+---
 
 ---
 
@@ -1014,7 +1179,10 @@ This Supplement continues the complete doctrine, canonical `ECON.*` declarations
 | 1.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1dd993087608317b58c093afdf374cf1844208e31766e32cb1da1134a0fe4038  |
 | 1.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  62c48de5dfb6f57a517dbc7350cf27f9c08da258989714ffad92a7cc5fb4a45f  |
 | 1.6 | Reclassified account-resource, pooled-capacity, delegation and enforcement-boundary doctrine from an Annex G constitutional Schedule to a bounded ECONOMICS-001 Supplement; preserved ECON code families, provenance, history and seal while retiring the former current-authority identifier. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  72f08556dd907399b5b00c08f2b3d40d9bb19ca67f0da4d76e5b3560f9154767  |
+| 1.7 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1d90f017b3839a0786c1bd797c43affb7a31ef196fad8ae490276228b7ce949a  |
+
 ---
+
 
 ## 22.4 Binding Seal
 

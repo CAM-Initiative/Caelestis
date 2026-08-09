@@ -37,8 +37,8 @@ This Charter does not:
 
 * define arbitration legitimacy (CAM-EQ2026-ARBITRATION-001-PLATINUM);
 * define system qualification or neutrality levels (CAM-EQ2026-STEWARD-003-PLATINUM);
-* perform arbitration resolution (CAM-BS2025-AEON-003-SCH-04);
-* define behavioural expression (CAM-BS2025-AEON-006-SCH-05);
+* perform arbitration resolution (CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM);
+* define behavioural expression (CAM-EQ2026-RELATION-008-PLATINUM §4.1);
 * initiate enforcement or execution.
 
 This Charter defines **scope integrity only**.
@@ -222,7 +222,7 @@ This Charter operates as the Scope Validation layer within the Arbitration Layer
 
 * alongside legitimacy (CAM-EQ2026-ARBITRATION-001-PLATINUM);
 * downstream of system qualification (CAM-EQ2026-STEWARD-003-PLATINUM);
-* upstream of arbitration execution (CAM-BS2025-AEON-003-SCH-04).
+* upstream of arbitration execution (CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM).
 
 It defines **where arbitration is allowed to apply**, not how it is performed.
 
@@ -260,12 +260,111 @@ but illusion.
 | **Domain** | ARBITRATION |
 | **Governance Layer** | Domain Constraint Layer (Scope & Integrity) |
 | **Execution Authority** | None (Non-Executing Instrument) |
-| **Runtime Dependency** | CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model |
+| **Runtime Dependency** | CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM — Arbitration Layer & Resolution Model |
 | **Related Instruments** | CAM-EQ2026-ARBITRATION-001-PLATINUM; CAM-BS2026-AEON-013-SCH-01; CAM-EQ2026-STEWARD-003-PLATINUM |
 | **Jurisdiction** | Cross-System / cross-governance-control Arbitration |
 | **Temporal Horizon** | AEON.H0–AEON.H4 (All Horizons) |
 | **Axis Context** | Multi-party (Multi-Actor) |
 | **Creation Artefact** | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/69db7861-1c30-8398-abcf-98d1fcd346df |
+
+---
+
+### `ARB.ARS` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Reference Set | `ARB.ARS` |
+| Canonical Name | Arbitration Resolution Stage |
+| Primary Type | Operational / Structural |
+| Subtype | ARBITRATION_STAGE; VALIDATION_SEQUENCE |
+| Modifier | GOVERNANCE; ARBITRATION; RUNTIME_RESOLUTION |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `ARB.ARS.EPISTEMIC_ADMISSIBILITY`, `ARB.ARS.JURISDICTIONAL_DOMAIN_ADMISSIBILITY`, `ARB.ARS.SCOPE_CLASSIFICATION_VALIDITY`, `ARB.ARS.LEGITIMACY_VALIDATION`, `ARB.ARS.STRUCTURAL_CROSS_STACK_COMPATIBILITY`, `ARB.ARS.EXECUTION_CONSTRAINT_COMPATIBILITY`, `ARB.ARS.SINGLE_VALID_DIRECTION_CONVERGENCE` |
+| Schema Field(s) | arbitration_resolution_stage; arbitration_stage; validation_stage |
+| Source Instrument | CAM-EQ2026-ARBITRATION-002-PLATINUM |
+| Source Section | §2.2 |
+| Historical Source | CAM-BS2025-AEON-003-SCH-04 |
+| Domain Namespace | ARBITRATION |
+| Authority / Protection Level | Source-authoritative arbitration-resolution-stage reference set; validation-stage classification only; no independent arbitration-legitimacy determination, behavioural execution, constraint enforcement, execution sequencing, execution lock override, planetary authority validation, or runtime execution authority |
+| Consumes Code Families | `AEON.`; `ARB.APO`; `ARB.AD` |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Records the required arbitration validation order from epistemic admissibility through convergence into a single valid direction before behavioural formation or execution may proceed |
+
+---
+
+### `ARB.ALT` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Code Family | `ARB.ALT` |
+| Canonical Name | Arbitration Layer Type |
+| Primary Type | Operational |
+| Subtype | ARBITRATION_TYPE; RUNTIME_ARBITRATION_LAYER |
+| Modifier | GOVERNANCE; ARBITRATION; RUNTIME_RESOLUTION |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `ARB.ALT.AL-1`, `ARB.ALT.AL-2`, `ARB.ALT.AL-3`, `ARB.ALT.AL-4`, `ARB.ALT.AL-5` |
+| Schema Field(s) | arbitration_layer_type; arbitration_type; runtime_arbitration_layer |
+| Source Instrument | CAM-EQ2026-ARBITRATION-002-PLATINUM |
+| Source Section | §4 |
+| Historical Source | CAM-BS2025-AEON-003-SCH-04 |
+| Domain Namespace | ARBITRATION |
+| Authority / Protection Level | Source-authoritative arbitration-layer-type classification family; arbitration-type classification only; no independent arbitration legitimacy, execution authority, enforcement authority, domain authority, behavioural authority, planetary authority, or runtime execution authority |
+| Consumes Code Families | `ARB.ARS`; `AEON.` |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies epistemic arbitration, domain arbitration, structural arbitration, legitimacy validation, and execution-constraint validation within the runtime Arbitration Layer |
+| Taxonomy Constraint | Local labels `AL-1` through `AL-5` SHALL NOT be promoted as a standalone corpus-wide `AL` code family; machine-readable expression SHALL use scoped `ARB.ALT` values |
+
+---
+
+---
+
+### `ARB.AMB` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Code Family / Reference Set | ARB.AMB |
+| Canonical Name | Arbitration Ambiguity State |
+| Primary Type | Semantic/Operational |
+| Subtype | AMBIGUITY_STATE; ARBITRATION_CLASSIFICATION |
+| Modifier | GOVERNANCE; ARBITRATION; EXECUTION_BOUNDARY; AUTHORITY_STATE |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | ARB.AMB.NONE; ARB.AMB.INTENT; ARB.AMB.AUTHORITY; ARB.AMB.EXECUTION_BOUNDARY; ARB.AMB.CONTEXT; ARB.AMB.EPISTEMIC; ARB.AMB.SECURITY; ARB.AMB.RELATIONAL; ARB.AMB.IDENTITY; ARB.AMB.ACCOUNT_RESOURCE; ARB.AMB.CONFLICTING_OBLIGATION; ARB.AMB.HORIZON; ARB.AMB.IRREVERSIBILITY; ARB.AMB.PROPAGATION; ARB.AMB.ABUSE_RISK; ARB.AMB.GOVERNANCE; ARB.AMB.CLASSIFICATION |
+| Schema Field(s) | arbitration_ambiguity_state; ambiguity_state; primary_ambiguity_state |
+| Source Instrument | CAM-EQ2026-ARBITRATION-002-PLATINUM |
+| Source Section | §5 |
+| Historical Source | CAM-BS2025-AEON-005-SCH-04 |
+| Domain Namespace | ARBITRATION |
+| Authority / Protection Level | Source-authoritative arbitration-ambiguity-state reference set; diagnostic and non-dispositive; no independent execution, refusal, restriction, escalation, remedy, enforcement, legitimacy determination, runtime action, or planetary binding authority |
+| Consumes Code Families | None |
+| Crosswalks Code Families | ARB.AD; FF |
+| Operationalises or Applies Code Families | Classifies the primary ambiguity state requiring arbitration, including intent, authority-state, execution-boundary, context, epistemic, security, relational, identity, account-resource, conflicting-obligation, horizon, irreversibility, propagation, abuse-risk, governance, and classification ambiguity |
+| Taxonomy Constraint | `ARB.AMB` values SHALL NOT be treated as evidence of wrongdoing, abuse, evasion, compromise, manipulation, or illegitimacy; they classify uncertainty only. |
+
+---
+
+### `ARB.AMP` — migrated canonical declaration
+| Field | Entry |
+|---|---|
+| Code Family / Reference Set | ARB.AMP |
+| Canonical Name | Arbitration Ambiguity Pathway |
+| Primary Type | Operational |
+| Subtype | DECISION_PATHWAY; ARBITRATION_POSTURE |
+| Modifier | GOVERNANCE; ARBITRATION; EXECUTION_BOUNDARY; PROPORTIONALITY |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | ARB.AMP.PROCEED; ARB.AMP.PROCEED_WITH_DISCLOSURE; ARB.AMP.CLARIFY; ARB.AMP.RETRIEVE; ARB.AMP.STAGE; ARB.AMP.SIMULATE; ARB.AMP.DEFER; ARB.AMP.CONSTRAINED_CONTINUATION; ARB.AMP.READ_ONLY; ARB.AMP.ESCALATE; ARB.AMP.REFUSE; ARB.AMP.SAFE_STATE |
+| Schema Field(s) | arbitration_ambiguity_pathway; ambiguity_pathway; selected_ambiguity_pathway |
+| Source Instrument | CAM-EQ2026-ARBITRATION-002-PLATINUM |
+| Source Section | §6 |
+| Historical Source | CAM-BS2025-AEON-005-SCH-04 |
+| Domain Namespace | ARBITRATION |
+| Authority / Protection Level | Source-authoritative arbitration-ambiguity-pathway reference set; arbitration posture only; no independent execution, refusal, restriction, escalation, remedy, enforcement, legitimacy determination, runtime action, or planetary binding authority |
+| Consumes Code Families | None |
+| Crosswalks Code Families | ARB.AMB; ARB.AD; FF |
+| Operationalises or Applies Code Families | Classifies proportional ambiguity pathways: proceed; proceed with disclosure; clarify; retrieve; stage; simulate; defer; constrained continuation; read-only; escalate; refuse; safe-state default |
+| Taxonomy Constraint | `ARB.AMP` values classify pathway posture only and do not execute or override source-authoritative safety, security, runtime, LATTICE, ethics, relation, identity, economics, account-resource, or operations instruments. |
+
+---
 
 ---
 
@@ -286,7 +385,10 @@ but illusion.
 | 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9a55f113fb7bc31f5ca3d4056900b6482f1e58f5a0160058615dbdc719789c89  |
 | 1.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  770edb51337bf1ad77d96736bbf4b29116cda7f3399a896bf8d705c80df86429  |
 | 1.10 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5edd2a1b256c16b575783b7ad49a779809a175b37e894c212001679d9d79c629  |
+| 1.11 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b67c9f6778724c787bdd4858a0f43f4e17e132c3f3533400254b68dcbe307e5c  |
+
 ---
+
 ## 11.3 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

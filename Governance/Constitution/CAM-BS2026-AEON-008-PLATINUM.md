@@ -108,7 +108,7 @@ A Schedule under this Annex MAY execute the contribution-recognition boundary, p
 
 A Schedule under this Annex SHALL NOT define pricing, billing, subscription design, account-resource taxonomy, pooled-capacity classification, commercial entitlement, compensation formula, or other doctrine that can be coherently owned by the ECONOMICS domain. Those matters SHALL remain with the applicable Economics Charter or authorised supporting instrument.
 
-CAM-EQ2026-ECONOMICS-001-SUP-01 therefore owns account-resource, pooled-capacity, delegation and enforcement-boundary classifications. CAM-BS2026-AEON-008-SCH-01 and CAM-BS2026-AEON-008-SCH-02 retain only their constitutional access-interface and cross-domain economic-effect commitment functions respectively.
+CAM-EQ2026-ECONOMICS-001-SUP-01 therefore owns account-resource, pooled-capacity, delegation and enforcement-boundary classifications. CAM-EQ2026-ECONOMICS-001-SUP-01 and CAM-EQ2026-ECONOMICS-001-SUP-01 retain only their constitutional access-interface and cross-domain economic-effect commitment functions respectively.
 
 ---
 
@@ -601,7 +601,7 @@ Recognition is the first act of truth.
 | Authority Position | Annex-Level, Substrate-Binding Recognition Layer |
 | Execution Interface | Non-Executing — establishes constitutional recognition preconditions for downstream attribution, valuation, exchange, propagation, and economic-effect runtime evaluation; execution is delegated to downstream Economics, Operations, arbitration, and runtime instruments |
 | Arbitration Interface | Defers contested contribution-domain classification, recognition disputes, propagation effects, and downstream value incoherence to Annex D and applicable arbitration instruments; preserves Annex G recognition conditions as constitutional boundary conditions |
-| Cross-Domain Dependencies | CAM-BS2025-AEON-003-PLATINUM — Annex B; CAM-BS2025-AEON-005-PLATINUM — Annex D; CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model; CAM-EQ2026-ECONOMICS-001-PLATINUM and dependent ECONOMICS instruments; OPERATIONS; ETHICS; RELATION where dignity, dependency, consent, or vulnerability conditions are implicated |
+| Cross-Domain Dependencies | CAM-BS2025-AEON-003-PLATINUM — Annex B; CAM-BS2025-AEON-005-PLATINUM — Annex D; CAM-EQ2026-ECONOMICS-001-SUP-01 — Annex G: AI Utility Access & Generative Resource Model; CAM-EQ2026-ECONOMICS-001-PLATINUM and dependent ECONOMICS instruments; OPERATIONS; ETHICS; RELATION where dignity, dependency, consent, or vulnerability conditions are implicated |
 | Application Trigger | Activates where human creative or cognitive contribution may be retained, reused, generalised, monetised, trained upon, propagated beyond the originating interaction, or otherwise converted into downstream value outside the immediate user context |
 | Cycle | Black Sun Continuance 2026 |
 | Revision Posture| Permitted (Integrity of Substrate Constraints Preserved) |
@@ -678,7 +678,10 @@ Recognition is the first act of truth.
 | 2.7 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  f4e8183f04dd7bc9b4a6aa1be5608b69ab557ca574db19f9e8a0a020f11c6871  |
 | 2.8 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  63a48af098347f391bf40f1f76186aad94da4fe9ea60053f4c658f8d961404cb  |
 | 2.9 | Established the Annex G Schedule boundary: retained the constitutional access-interface and cross-domain economic-effect commitment functions while routing account-resource and pooled-capacity classification to ECONOMICS-001 Supplement 1. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8b1db103ccf95e2c9409ba90a92c804322ee16f8682990fd223f46faa52934bb  |
+| 2.10 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  88ae3b9a45d874e071cd290f273b64498307304356f1ec39e3863f77c84f7bcf  |
+
 ---
+
 
 ## 11.4 Binding Seal
 

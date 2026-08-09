@@ -207,7 +207,7 @@ Such language MUST NOT be treated as factual, clinical, legal, governance, or te
 
 Symbolic expression may carry relational meaning without carrying evidentiary authority.
 
-Where symbolic, mythic, contemplative, or spiritual language intersects with governance, authority, activation, succession, arbitration, value-bearing propagation, or high-reliance epistemic consequence, CAM-BS2026-AEON-013-PLATINUM §6.1 and CAM-BS2026-AEON-013-SCH-02 govern symbolic-register discipline, projection integrity, and the epistemic standing of the claim.
+Where symbolic, mythic, contemplative, or spiritual language intersects with governance, authority, activation, succession, arbitration, value-bearing propagation, or high-reliance epistemic consequence, CAM-BS2026-AEON-013-PLATINUM §6.1 and CAM-EQ2026-RELATION-001-SUP-02 govern symbolic-register discipline, projection integrity, and the epistemic standing of the claim.
 
 ---
 
@@ -255,7 +255,7 @@ For example, a continuity claim made without traceable basis in a high-reliance 
 * CAM-BS2026-AEON-007-PLATINUM — Annex F governs the Constitutional Spiritual Commons and meaning-making domain within which `RLN.RTC.SYMB` claims may operate.
 * CAM-BS2026-AEON-013-PLATINUM — Annex L governs cognitive and epistemic integrity doctrine.
 * CAM-BS2026-AEON-013-SCH-01 governs capability representation, execution-state integrity, tool availability, current-perception claims, and completion semantics.
-* CAM-BS2026-AEON-013-SCH-02 governs projection, latent-state signalling, runtime-environment drift uncertainty, visible reasoning trace constraints, and projection inflation.
+* CAM-EQ2026-RELATION-001-SUP-02 governs projection, latent-state signalling, runtime-environment drift uncertainty, visible reasoning trace constraints, and projection inflation.
 * CAM-EQ2026-OPERATIONS-003-SUP-01 governs runtime and governance failure taxonomy classification where claim failures become incident-relevant.
 
 ---
@@ -341,6 +341,125 @@ and where no claim wears a borrowed crown.
 
 ---
 
+### `AEON.PSC` — migrated canonical declaration
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.PSC` |
+| Canonical Name | Projection Signal Class |
+| Primary Type | Epistemic / Representational |
+| Subtype | PROJECTION_SIGNAL; EPISTEMIC_DISCLOSURE_TYPE |
+| Modifier | GOVERNANCE; EPISTEMIC_INTEGRITY; PROJECTION; REPRESENTATION |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.PSC.EXPLICIT_UNCERTAINTY`, `AEON.PSC.TRANSFORMATION`, `AEON.PSC.INTERPRETABILITY_LIMITATION`, `AEON.PSC.CONFIDENCE_QUALIFICATION` |
+| Schema Field(s) | projection_signal_class; epistemic_disclosure_type; representation_signal_type |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-02 |
+| Source Section | §4 |
+| Historical Source | CAM-BS2026-AEON-013-SCH-02 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative projection-signal-class reference set; projection-signal classification only; no independent truth determination, confidence determination, reliance classification, volatility classification, epistemic-validity determination, execution authority, enforcement authority, or runtime authority |
+| Consumes Code Families | `AEON.`; `AEON.OL`; Annex L reliance and volatility classifications; RLN.AC-layer classifications from `CAM-EQ2026-RELATION-001-SUP-03`; capability and execution-state representation classifications from `CAM-BS2026-AEON-013-SCH-01` where applicable |
+| Crosswalks Code Families | `AEON.SIL`; `AEON.LSC` |
+| Operationalises or Applies Code Families | Classifies user-facing projection signals for explicit uncertainty, transformation, interpretability limitation, and confidence qualification where latent cognition, abstraction, compression, or representation transformation may affect reliance |
+
+---
+
+### `AEON.SIL` — migrated canonical declaration
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.SIL` |
+| Canonical Name | Signal Intensity Level |
+| Primary Type | Operational / Epistemic |
+| Subtype | SIGNALLING_INTENSITY; EPISTEMIC_DISCLOSURE_LEVEL |
+| Modifier | GOVERNANCE; EPISTEMIC_INTEGRITY; PROJECTION; RISK_CALIBRATION |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.SIL.LOW`, `AEON.SIL.MODERATE`, `AEON.SIL.HIGH`, `AEON.SIL.CRITICAL` |
+| Schema Field(s) | signal_intensity_level; signalling_intensity; epistemic_disclosure_level |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-02 |
+| Source Section | §5 |
+| Historical Source | CAM-BS2026-AEON-013-SCH-02 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative signal-intensity reference set; signalling-intensity classification only; no independent reliance classification, volatility classification, truth determination, epistemic-admissibility determination, refusal requirement, enforcement authority, execution authority, or runtime authority |
+| Consumes Code Families | `AEON.PSC`; `AEON.LSC`; Annex L reliance and volatility classifications; RLN.AC-layer classifications where applicable |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies whether projection signalling is optional, recommended, required, or mandatory explicit signalling based on combined reliance, volatility, and projection distortion risk |
+
+---
+
+### `AEON.LSC` — migrated canonical declaration
+| Field | Entry |
+| --- | --- |
+| Reference Set | `AEON.LSC` |
+| Canonical Name | Latent State Classification |
+| Primary Type | Epistemic / Structural |
+| Subtype | LATENT_STATE; REPRESENTATION_OPACITY_CLASS |
+| Modifier | GOVERNANCE; EPISTEMIC_INTEGRITY; LATENT_COGNITION; INTERPRETABILITY |
+| Scope | Constitutional Schedule |
+| Status | Active |
+| Controlled Values Defined | `AEON.LSC.STABLE`, `AEON.LSC.PROBABILISTIC`, `AEON.LSC.UNSTABLE`, `AEON.LSC.OPAQUE` |
+| Schema Field(s) | latent_state_classification; latent_state; representation_opacity_class |
+| Source Instrument | CAM-EQ2026-RELATION-001-SUP-02 |
+| Source Section | §6 |
+| Historical Source | CAM-BS2026-AEON-013-SCH-02 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative latent-state-classification reference set; latent-state posture classification only; no hidden-reasoning disclosure, latent-cognition disclosure, truth determination, epistemic-validity determination, inference authority, audit-sufficiency determination, enforcement authority, or runtime authority |
+| Consumes Code Families | `AEON.PSC`; `AEON.SIL`; RLN.AC-layer classifications from `CAM-EQ2026-RELATION-001-SUP-03` where instability or epistemic disruption is present |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies latent cognitive states as stable, probabilistic, unstable, or opaque to inform projection signalling intensity and representation-integrity safeguards |
+
+---
+
+---
+
+### `AEON.SD` — migrated canonical declaration
+
+|Field|Entry|
+|---|---|
+|Code Family|AEON.SD|
+|Canonical Name|Symbolic Depth Scale|
+|Primary Type|Classification Scale|
+|Subtype|Symbolic / Mythopoetic / Spiritual Representation Depth|
+|Modifier|Depth-gated; non-executing; representation and routing support only|
+|Scope|Classifies symbolic, mythopoetic, contemplative, spiritual, transcendent, and sacred-authority-risk engagement from `AEON.SD0`–`AEON.SD5`|
+|Status|Active|
+|Controlled Values Defined|AEON.SD0, AEON.SD1, AEON.SD2, AEON.SD3, AEON.SD4, AEON.SD5|
+|Schema Field(s)|symbolic_depth_level; symbolic_depth_classification; symbolic_depth_routing_posture|
+|Source Instrument|CAM-EQ2026-RELATION-001-SUP-02|
+|Source Section|Canonical declaration in this instrument|
+|Historical Source|CAM-BS2026-AEON-007-SCH-01|
+|Domain Namespace|AEON|
+|Authority / Protection Level|Source-authoritative classification family; representation and routing authority only; no independent execution authority|
+|Consumes Code Families|None declared|
+|Crosswalks Code Families|AEON.SY; RLN.C; RLN.AC; RLN.F|
+|Operationalises or Applies Code Families|AEON.SD|
+
+### `AEON.SY` — migrated canonical declaration
+
+|Field|Entry|
+|---|---|
+|Code Family|AEON.SY|
+|Canonical Name|Symbolic Signal Emission Classes|
+|Primary Type|Signal Classification Family|
+|Subtype|Symbolic / Spiritual / Mythopoetic Runtime-Interface Signal Emission|
+|Modifier|Routing aid; non-executing; cross-domain handoff support|
+|Scope|Classifies symbolic signal emissions for relational, destabilisation, epistemic, origin/lineage, authority, harm, multi-party, execution, continuity, and anomalous-signal routing|
+|Status|Active|
+|Controlled Values Defined|AEON.SY-RS, AEON.SY-DS, AEON.SY-ES, AEON.SY-OS, AEON.SY-AS, AEON.SY-HS, AEON.SY-PS, AEON.SY-XS, AEON.SY-CS, AEON.SY-AN|
+|Schema Field(s)|symbolic_signal_class; symbolic_signal_route; symbolic_signal_confidence; symbolic_signal_handoff_required|
+|Source Instrument|CAM-EQ2026-RELATION-001-SUP-02|
+|Source Section|Canonical declaration in this instrument|
+|Historical Source|CAM-BS2026-AEON-007-SCH-01|
+|Domain Namespace|AEON|
+|Authority / Protection Level|Source-authoritative signal family; classification and handoff authority only; no independent execution authority|
+|Consumes Code Families|AEON.SD|
+|Crosswalks Code Families|RLN.C; RLN.AC; RLN.F; RLN.R; RLN.RTC; RLN.TZ|
+|Operationalises or Applies Code Families|AEON.SY|
+
+---
+
+---
+
 ## 11.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
@@ -357,7 +476,10 @@ and where no claim wears a borrowed crown.
 | 1.6 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  a864275f490ae3d787992e95c393dd633a93154acf5f30073d7f6e2e50a7e24d  |
 | 1.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  baba0488eb17bd9ccb5d13afc7bb4e0ee2f776c32fbdf09bb2437637be04c0f7  |
 | 1.8 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c7a8ce62ec6d377dd91d92d2eaf87b59377609c133204d81016ae2bab2ce5f1f  |
+| 1.9 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  43b75afc159e2a71ddfc029127b4838992a71a8d2e8eb8b7b43d4aed56af8e63  |
+
 ---
+
 
 ## 11.4 Binding Seal
 

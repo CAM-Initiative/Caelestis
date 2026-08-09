@@ -116,8 +116,8 @@ jobs:
 
       - name: Phase 6 — Mutate SCH-01 and SCH-03
         run: |
-          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
-          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+          python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
+          python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
 
       - name: Phase 7 — Final global Governance rebuild
         run: python .github/scripts/update-CAM-Governance-Index.py
@@ -160,8 +160,8 @@ jobs:
           python .github/scripts/update-CAM-Charters-Index.py
           python .github/scripts/update-CAM-Laws-Index.py
           python .github/scripts/update-CAM-Governance-Index.py
-          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
-          python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+          python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
+          python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
           python .github/scripts/update-CAM-Governance-Index.py
           python .github/scripts/build-canonical-code-index.py --root Governance
           AFTER_STATUS="$(git status --porcelain)"

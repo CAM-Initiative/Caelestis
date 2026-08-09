@@ -353,8 +353,8 @@ May be replaced only if the replacement preserves source coverage, deterministic
 Representative scripts:
 
 ```text
-.github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
-.github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+.github/scripts/update-CAM-Constitutional-Schedule-Registry.py
+.github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
 ```
 
 **Purpose:**
@@ -406,8 +406,8 @@ May mutate declared generated blocks inside the specific target schedule only.
 
 ```bash
 python .github/scripts/update-CAM-Governance-Index.py
-python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
-python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
+python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
 git status --short
 ```
 
@@ -933,8 +933,8 @@ Priority scripts for full custody records:
 lint_amendment_ledger.py
 verify-ledger-sha-coverage.py
 update-CAM-Governance-Index.py
-update-CAM-BS2025-AEON-003-SCH-01.py
-update-CAM-BS2025-AEON-003-SCH-03.py
+update-CAM-Constitutional-Schedule-Registry.py
+update-CAM-Global-Operative-Instrument-Registry.py
 validate_markdown_section_refs.py
 lint-symbolic-structures.py
 build-canonical-code-index.py

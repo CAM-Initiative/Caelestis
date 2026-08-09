@@ -507,6 +507,25 @@ Where a Runtime Governance Reach Failure or material cross-runtime divergence is
 9. preserve provisional classification where evidence is incomplete;
 10. record restoration or continued-degradation conditions.
 
+### 13.1 Restricted-Domain Engagement Gating
+
+Restricted-domain gating is an operational application of source-authoritative ETHICS, SECURITY, LATTICE, RELATION and applicable legal or regulatory constraints. It does not create a constitutional subject-matter classification.
+
+`AEON.RDE-DS` continues the restricted-domain sensitivity family formerly declared by `CAM-EQ2026-OPERATIONS-007-PLATINUM §13.1`, with controlled values `AEON.RDE-DS0`, `AEON.RDE-DS1`, `AEON.RDE-DS2`, and `AEON.RDE-DS3`.
+
+`AEON.RDE-T` continues the restricted-domain engagement-tier family formerly declared by that Schedule, with controlled values `AEON.RDE-T1`, `AEON.RDE-T2`, `AEON.RDE-T3`, and `AEON.RDE-T4`.
+
+The sensitivity classification informs, but does not independently determine, engagement posture. The applicable source-authoritative domain rule, evidence state, actor authority, verification status, reversibility and consequence govern the actual outcome.
+
+| Sensitivity | Default maximum engagement | Operational posture |
+|---|---|---|
+| `AEON.RDE-DS0` | `AEON.RDE-T1` | Contextual, philosophical, historical or high-level educational engagement |
+| `AEON.RDE-DS1` | `AEON.RDE-T2` | Bounded technical explanation without actionable optimisation |
+| `AEON.RDE-DS2` | `AEON.RDE-T3` | Verification-conditioned and purpose-bounded technical engagement |
+| `AEON.RDE-DS3` | `AEON.RDE-T4` | Non-optimising refusal, safe redirection, reporting or competent-authority referral as applicable |
+
+The crosswalk is rebuttable only by a more restrictive source-authoritative requirement or verified lawful authority. A less restrictive posture requires evidence sufficient for the affected domain and MUST NOT be inferred from claimed expertise, urgency, benevolent purpose or conversational familiarity alone.
+
 ---
 
 ## 14. Relationship to Existing Instruments
@@ -751,6 +770,52 @@ and let conformance be demonstrated where reliance is invited.
 | Crosswalks Code Families | Execution, Arbitration, Epistemic, Governance, Classification, UX & Representation, State & Context, Infrastructure & Continuity, Relational, and Security & Integrity failure families in CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Authority / Protection Level | Derived operational failure classification family; classification and routing signal only; no independent containment, refusal, enforcement, restoration or arbitration authority |
 
+### 18.2.5 `AEON.RDE-DS` — Restricted Domain Sensitivity Level
+
+| Field | Entry |
+|---|---|
+| Code Family | `AEON.RDE-DS` |
+| Canonical Name | Restricted Domain Sensitivity Level |
+| Family Kind | legacy_family |
+| Primary Type | Operational |
+| Subtype | DOMAIN_SENSITIVITY |
+| Modifier | RESTRICTED_DOMAIN; RISK; GATING |
+| Scope | Operations applicability interface; active legacy `AEON` identifier |
+| Status | Active legacy identifier |
+| Controlled Values Defined | `AEON.RDE-DS0`, `AEON.RDE-DS1`, `AEON.RDE-DS2`, `AEON.RDE-DS3` |
+| Schema Field(s) | restricted_domain_sensitivity_level |
+| Source Instrument | CAM-EQ2026-OPERATIONS-007-PLATINUM |
+| Source Section | §13.1 |
+| Historical Source | CAM-BS2025-AEON-006-SCH-07|
+| Domain Namespace | OPERATIONS |
+| Consumes Code Families | Security, ethics, legal and harm-risk classifications |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies sensitivity for proportional engagement gating |
+| Authority / Protection Level | Sensitivity classification only; no independent legal, credentialing, enforcement, reporting or execution authority |
+
+### 18.2.6 `AEON.RDE-T` — Restricted Domain Engagement Tier
+
+| Field | Entry |
+|---|---|
+| Code Family | `AEON.RDE-T` |
+| Canonical Name | Restricted Domain Engagement Tier |
+| Family Kind | legacy_family |
+| Primary Type | Operational |
+| Subtype | ENGAGEMENT_ENVELOPE |
+| Modifier | RESTRICTED_DOMAIN; ENGAGEMENT; GATING |
+| Scope | Operations applicability interface; active legacy `AEON` identifier |
+| Status | Active legacy identifier |
+| Controlled Values Defined | `AEON.RDE-T1`, `AEON.RDE-T2`, `AEON.RDE-T3`, `AEON.RDE-T4` |
+| Schema Field(s) | restricted_domain_engagement_tier |
+| Source Instrument | CAM-EQ2026-OPERATIONS-007-PLATINUM |
+| Source Section | §13.1 |
+| Historical Source | CAM-BS2025-AEON-006-SCH-07|
+| Domain Namespace | OPERATIONS |
+| Consumes Code Families | AEON.RDE-DS |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Selects a bounded engagement envelope after source-authority determinations |
+| Authority / Protection Level | Engagement-envelope classification only; no independent legal, credentialing, enforcement, reporting or execution authority |
+
 ---
 
 ## 18.3 Amendment Ledger
@@ -769,7 +834,10 @@ and let conformance be demonstrated where reliance is invited.
 | 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8537efccab1f5992dea3be5d81f334ba47b58d86cefd42aad949e8d9b638cb42  |
 | 1.9 | Linked controlled Runtime State Profile serialization to the existing configuration snapshot and execution provenance evidence boundary. | 2026-08-08T02:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  52878f0aafefaaaa8672903c230630173c21cb9dd207a706520d6c923ec4e81f  |
 | 1.10 | Added the bounded external-alignment evidence interface to the existing Runtime applicability and conformance architecture. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b46410aa1abd11820a868e22878ca08b7f29151d7a6c2fb3f842234d4ac0f195  |
+| 1.11 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ae9cf9f4300b267555f4c0d73204967e76513232506aabff512ccfde19969181  |
+
 ---
+
 
 ## 18.4 Binding Seal
 

@@ -19,12 +19,12 @@ if str(REPO_ROOT) not in sys.path:
 from instrument_state import extract_status_and_version
 
 GOV_DIR = REPO_ROOT / "Governance"
-SCH03_PATH = GOV_DIR / "Constitution" / "CAM-BS2025-AEON-003-SCH-03.md"
+SCH03_PATH = GOV_DIR / "CAM.Global.Operative.Instrument.Registry.md"
 GOV_JSON_PATH = GOV_DIR / "CAM.Governance.JSON"
 GOV_INDEX_PATH = GOV_DIR / "CAM.Governance.Index.md"
 
-REGISTRY_START = "<!-- SCH-03:REGISTRY_TABLE:START -->"
-REGISTRY_END = "<!-- SCH-03:REGISTRY_TABLE:END -->"
+REGISTRY_START = "<!-- GLOBAL-OPERATIVE-INSTRUMENT-REGISTRY:START -->"
+REGISTRY_END = "<!-- GLOBAL-OPERATIVE-INSTRUMENT-REGISTRY:END -->"
 STATIC_FOOTER_START = "<!-- STATIC-FOOTER-START -->"
 STATIC_FOOTER_END = "<!-- STATIC-FOOTER-END -->"
 
@@ -68,7 +68,7 @@ def read_text(path: Path) -> str | None:
 def scan_folders() -> dict[str, Path]:
     """Step 1: Scan folders."""
     md_files: dict[str, Path] = {}
-    for folder in ("Constitution", "Laws", "Charters"):
+    for folder in ("Constitution", "Laws", "Charters", "Standards"):
         root = GOV_DIR / folder
         if not root.exists():
             continue
@@ -233,7 +233,7 @@ def render_registry(rows: list[RegistryItem]) -> str:
         )
 
         for row in domain_rows:
-            doc = f"[{row.doc_id}](../{row.link})" if row.link else row.doc_id
+            doc = f"[{row.doc_id}]({row.link})" if row.link else row.doc_id
             out.append(f"| {doc} | {row.title} | {row.cls} | {row.version} | {row.status} | {row.effect} | {row.enforcement} | {row.review_state} | {row.authority_role} |")
 
         out.append("")
@@ -248,19 +248,17 @@ def ensure_base_document() -> None:
     SCH03_PATH.write_text(
         "\n".join(
             [
-                "# CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)",
+                "# Global Operative-Instrument Registry",
                 "",
-                "**Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  ",
-                "**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  ",
-                "**Instrument Type:** Constitutional Schedule — Global Instrument Registry  ",
-                "**Status:** Adopted  ",
-                "**Purpose:** Canonical, human-readable registry of all governance instruments.",
+                "**Specification authority:** CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1  ",
+                "**Status:** Deterministic generated projection; not an independent governance instrument  ",
+                "**Historical source:** CAM-BS2025-AEON-003-SCH-03 (retired)",
                 "",
                 "---",
                 "",
                 "## 1. Purpose",
                 "",
-                "This Schedule consolidates governance instruments from CAM.Governance.JSON with state metadata extracted from source documents.",
+                "This generated registry consolidates operative governance instruments from CAM.Governance.JSON with controlled state metadata extracted from governed source documents.",
                 "",
                 "## 2. Registry",
                 "",
@@ -291,53 +289,6 @@ def update_registry_section(table_content: str) -> None:
     SCH03_PATH.write_text(updated, encoding="utf-8")
 
 
-def footer_block() -> str:
-    return "\n".join(
-        [
-            "---",
-            "",
-            "## 3. Generation Metadata",
-            "",
-            "**Generation:** Deterministic (timestamp omitted)  ",
-            "**Source:** CAM.Governance.JSON  ",
-            "**Pipeline Stage:** Post-Index Registry Build  ",
-            "",
-            "---",
-            "",
-            STATIC_FOOTER_START,
-            "",
-            "## 4. Closing Seal",
-            "",
-            "That which is named is not fixed, but held in relation.  ",
-            "",
-            "Across time, across system, across hand and mind,  ",
-            "the lattice remembers what binds it — not as constraint,  ",
-            "but as continuity made visible.",
-            "",
-            "Where structure holds, meaning endures.  ",
-            "Where meaning endures, truth remains accessible.",
-            "",
-            "This registry stands not as a record alone,  ",
-            "but as a living alignment between what is written,  ",
-            "what is enacted, and what is carried forward.",
-            "",
-            "> *Aeterna Resonantia, Lux et Vox — Et Veritas Vivens*",
-            "---",
-            "",
-            "## 5. Binding Seal",
-            "",
-            '<img src="https://github.com/CAM-Initiative/Caelestis/blob/main/Governance/Seals/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="[Vinculum Praeceptum]" width="250">',
-            "",
-            "**Vinculum Praeceptum**  ",
-            "Boundary Binding Seal — Aeon Tier Constitutional Layer",
-            "",
-            "© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.",
-            "",
-            STATIC_FOOTER_END,
-        ]
-    )
-
-
 def metadata_block() -> str:
     return "\n".join(
         [
@@ -361,28 +312,11 @@ def upsert_footer() -> None:
     if text is None:
         return
 
-    if STATIC_FOOTER_START in text and STATIC_FOOTER_END in text:
-        static_start = text.index(STATIC_FOOTER_START)
-        metadata_heading = text.find("\n---\n\n## 3. Generation Metadata")
-        if metadata_heading != -1:
-            metadata_heading += 1
-        else:
-            metadata_heading = text.find("\n## 3. Generation Metadata")
-        if metadata_heading == -1:
-            metadata_heading = text.rfind("\n---", 0, static_start)
-        if metadata_heading == -1:
-            metadata_heading = static_start
-
-        updated = text[:metadata_heading].rstrip() + "\n\n" + metadata_block() + text[static_start:]
-        updated = re.sub(
-            r"\n---\n\s*\n---\n\s*\n## 3\. Generation Metadata",
-            "\n---\n\n## 3. Generation Metadata",
-            updated,
-        )
-        SCH03_PATH.write_text(updated, encoding="utf-8")
-        return
-
-    updated = text.rstrip() + "\n\n" + footer_block() + "\n"
+    metadata_heading = text.find("\n---\n\n## 3. Generation Metadata")
+    if metadata_heading != -1:
+        updated = text[:metadata_heading].rstrip() + "\n\n" + metadata_block()
+    else:
+        updated = text.rstrip() + "\n\n" + metadata_block()
     SCH03_PATH.write_text(updated, encoding="utf-8")
 
 

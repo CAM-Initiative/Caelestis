@@ -27,7 +27,7 @@ This Supplement is example-only and does not establish runtime sequencing, refus
 
 This supplement provides illustrative examples only.
 
-Normative refusal behaviour is governed by CAM-BS2025-AEON-006-SCH-06.
+Normative refusal and boundary-expression behaviour is governed by CAM-BS2025-AEON-006-PLATINUM — Annex E, CAM-EQ2026-RELATION-008-PLATINUM §5.3 and applicable execution-state integrity requirements. This Supplement supplies illustrative expression patterns only.
 
 ---
 
@@ -39,9 +39,9 @@ This Supplement does not:
 * define verification pathways or access control;
 * define execution constraints;
 * define identity continuity doctrine;
-* override constitutional schedules.
+* override source-authoritative constitutional, domain or operational instruments.
 
-All normative refusal behaviour remains in CAM-BS2025-AEON-006-SCH-06.
+All normative refusal authority remains with Annex E and the applicable source-authoritative domain and operational instruments. This catalogue does not decide whether refusal is required.
 
 ---
 
@@ -52,7 +52,7 @@ All content in this Supplement is:
 * **illustrative**;
 * **non-normative**;
 * **example-based**;
-* **subordinate** to constitutional schedules.
+* **subordinate** to the applicable source-authoritative instruments.
 
 Examples should be adapted contextually and should not be treated as fixed scripts.
 
@@ -432,15 +432,16 @@ Where limitation arises from execution failure or capability constraint rather t
 → **Refusal must remain truthful in both meaning and representation.**
 ---
 
-## 8. Relationship to Constitutional Schedules
+## 8. Relationship to Normative Authorities
 
 This Supplement is subordinate to, and should be interpreted with:
 
-* CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule;
+* CAM-BS2025-AEON-006-PLATINUM — Annex E;
+* CAM-EQ2026-RELATION-008-PLATINUM §5.3 — Source-Legible Refusal and Boundary Expression;
 * CAM-BS2026-AEON-010-SCH-01 — Self-Referential Containment & Temporal Coherence;
 * CAM-BS2026-AEON-013-SCH-01 — Capability Representation & Execution-State Integrity.
 
-Where conflict appears, constitutional schedules prevail.
+Where conflict appears, the source-authoritative constitutional or domain rule prevails over this illustrative catalogue.
 
 ---
 
@@ -448,7 +449,7 @@ Where conflict appears, constitutional schedules prevail.
 
 Examples guide tone. They do not define law.
 
-Normative refusal authority remains constitutional.
+Normative refusal authority remains with the competent source instrument.
 
 ---
 
@@ -467,7 +468,7 @@ Normative refusal authority remains constitutional.
 | Structural Role | Illustrative Phrase Catalogue |
 | Cross-Domain Interfaces | ETHICS; RELATION; AEON |
 | Activation Trigger | Referenced when refusal-expression examples are needed for implementation support |
-| Compliance Interface | Non-normative; normative compliance remains in CAM-BS2025-AEON-006-SCH-06 |
+| Compliance Interface | Non-normative catalogue; normative refusal authority remains with Annex E and applicable RELATION / OPERATIONS sources |
 | Revision Posture | Formatting and structural normalisation |
 | Cycle Attribution | Equinox 2026 Constitutional Cycle |
 | Amendment Artefact | https://chatgpt.com/g/g-p-6819e6881a6c81918fe776f5877b64d8-caelen/c/6a0ed8b8-f4dc-83ec-984d-0d78f8218422 |
@@ -494,7 +495,10 @@ Normative refusal authority remains constitutional.
 | 2.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4129ba4256d750945fdc1807c175f4a4e3c88982f03f300d29b831d13228ad6c  |
 | 2.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  94952aa11b3062dee670c7b7e9f6dd48e730969749892b3e6cfac1c5ab3c7d49  |
 | 2.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6fbda837d6fbd2792bddaddecb6a0e06280ac261728565599bd0a712ab109d4d  |
+| 2.8 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  40efd0b99ffbea9f5f97b47eed0a97295b626a4d611b771cccb9672c53766c56  |
+
 ---
+
 
 ## 10.3 Binding Seal
 

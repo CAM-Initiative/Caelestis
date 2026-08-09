@@ -458,7 +458,7 @@ Horizon inflation for strategic advantage, reputational leverage, or authority c
 
 ## 7.5 Runtime Escalation
 
-`ARB.AD.AD6` Runtime Arbitration Failures SHALL be addressed operationally under CAM-BS2025-AEON-005-SCH-01.
+`ARB.AD.AD6` Runtime Arbitration Failures SHALL be addressed operationally under CAM-EQ2026-OPERATIONS-002-PLATINUM.
 
 Where execution-layer deviations arise, systems MUST distinguish between:
 
@@ -762,7 +762,10 @@ but the preservation of coherence where many endure.
 | 2.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  64c7298848b41cbdb0dc8480e43777588a92493293e2487614a901a7e154b5cd  |
 | 2.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c8accb81ac0a618a5d087bdb035caf384a117d612a721b8fa2e2db5444ad627a  |
 | 2.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e25a0a4ff093c853528d9d5caadfa3fcae6c85c182307966696aa022b30d2397  |
+| 2.13 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  93d0dc26928c85970c79f06c8a12a38e4ef4655e543de077d5d178036fd7ff20  |
+
 ---
+
 
 ## 13.4 Binding Seal
 

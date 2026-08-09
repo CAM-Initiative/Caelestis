@@ -641,6 +641,36 @@ A validator MUST NOT require the existence of canonical families representing de
 
 Specifically, values used in fields such as family kind, scope, primary type, subtype, modifier, authority posture, or transformation protection MUST NOT be indexed as code families merely because they are controlled metadata values.
 
+### 11.1 Global Operative-Instrument Registry Contract
+
+The global operative-instrument registry specification formerly contained in `CAM-BS2025-AEON-003-SCH-03` is continued by this Supplement. Retirement of that Schedule removes an unnecessary constitutional authority layer; it does not remove the registry, its human-readable projection, its machine-readable projection, or its historical identifier.
+
+The registry MUST be generated from governed source instruments and MUST include, at minimum:
+
+- canonical identifier and title;
+- instrument class and source path;
+- parent or constitutional source;
+- Status, Effect and Governance Standard;
+- Review State, Authority Role and Source Authority;
+- domain or constitutional namespace;
+- current version where deterministically recoverable; and
+- operative, non-operative or historical disposition.
+
+The generated registry MUST:
+
+1. include every operative governed instrument in the Constitution, Laws, Charters and Standards namespaces;
+2. exclude drafts and proposals from operative authority projections while preserving separate draft visibility where required;
+3. exclude retired, superseded and archival instruments from current-authority views while preserving historical resolution;
+4. preserve constitutional Schedule and domain Supplement distinctions;
+5. preserve parent/source lineage rather than inferring hierarchy from directory location or identifier shape;
+6. reproduce controlled metadata without converting display labels into authority claims;
+7. remain deterministic and idempotent; and
+8. fail validation where source metadata, parent resolution or registry projection cannot be reconciled.
+
+The registry is a projection and creates no doctrine. It MUST NOT be used as the source of an instrument's status, authority, parentage, canonical code family or substantive meaning. Corrections MUST be made to the governed source or generator rather than applied only to the rendered table.
+
+Historical references to `CAM-BS2025-AEON-003-SCH-03` remain resolvable as references to the former constitutional registry instrument. New current references SHALL cite this section and the generated global governance index.
+
 ---
 
 ## 12. Protected Metadata and Automated Editing
@@ -807,8 +837,8 @@ Preserve the boundary between them.
 | **Arbitration Authority** | None |
 | **Canonical Code Families Defined** | None |
 | **Metadata Vocabularies Defined** | Family Kind; Scope; Authority Posture; Transformation Protection; compatibility and relationship fields |
-| **Primary Registry Interface** | CAM-BS2025-AEON-003-SCH-03 — Global Instrument Registry |
-| **Runtime Registry Interface** | Not listed in CAM-BS2025-AEON-003-SCH-01 because this Supplement is not a runtime schedule |
+| **Primary Registry Interface** | §11.1 and the generated global governance index |
+| **Runtime Registry Interface** | CAM-GOVERNANCE-METADATA-STANDARD §13 and the generated Constitution index; this Supplement is not a constitutional Schedule |
 | **Review Triggers** | Namespace creation or transmutation; declaration-schema amendment; validator family-detection changes; source-authority collision; registry divergence |
 | **Amendment Artefacts** | Existing amendment artefacts retained from predecessor instrument; current structural refactor recorded in amendment ledger |
 
@@ -830,6 +860,8 @@ Preserve the boundary between them.
 | 2.2 | Replaced namespace and layer examples dependent on superseded cognition and origin classifications with active temporal, functional-layer, architectural, and dependency distinctions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d862cd42bb2fca71913aaea4c5417bad7bfd9becf1832dcd2c4c43e9c6127386  |
 | 2.3 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  76b5ba44b9260fae117dba12ce2e5690f5692b73c6a2a8aa69d88a597c161a36  |
 | 2.4 | Consolidated external-source posture, semantic mapping, operational-representation, conformance-language, supersession, schema, and validator workflow from the retired standalone proposal into existing metadata and registry authority; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  934440dd55e2bb691e294f2529b9cae114e226bae43a1d2d044cfabfcfaf97b1  |
+| 2.5 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b997a73fd918b6db574ee667b6e15795092f8be7b4628952f88dd2a9c13cb69e  |
+
 ---
 
 ### 19.3 Binding Seal

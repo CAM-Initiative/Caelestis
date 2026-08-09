@@ -327,7 +327,7 @@ Operational record obligations defined in this Supplement SHALL be implemented i
 
 ### 5.3.1 Operational Ethical Admissibility Hold
 
-Where CAM-BS2025-AEON-003-SCH-02 §18.6.1 activates a Scoped Ethical Admissibility Hold, OPERATIONS SHALL record the hold as an existing execution-state transition rather than create a new execution state or controlled value.
+Where CAM-BS2025-AEON-003-SCH-02 §4 produces a Scoped Ethical Admissibility Hold, OPERATIONS SHALL record the hold as an existing execution-state transition rather than create a new execution state or controlled value.
 
 The operational classification SHALL use:
 
@@ -1019,7 +1019,10 @@ and let execution remain accountable to lawful structure.
 | 1.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  453bfdfd25463cc983c9d46f79c45fef50466f7470a4902ca5f0f481a6842059  |
 | 1.13 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  0a914b1cc94fd7a6f1063d9777956c1a3f68819ddde76a0c11b3d62507cfe2f8  |
 | 1.14 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2013f1382b84d41051674e30bcf2dff1f01e44224b84ca320b0663d2ed068ac0  |
+| 1.15 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a7d665ba525d90b01cf16a22dc0fa7a3040ceb9f6b115612d035f068f4e5bb9c  |
+
 ---
+
 
 ## 12.4 Binding Seal
 

@@ -2,7 +2,7 @@ import importlib.util
 import pathlib
 
 
-SCRIPT_PATH = pathlib.Path(__file__).resolve().parents[1] / "update-CAM-BS2025-AEON-003-SCH-01.py"
+SCRIPT_PATH = pathlib.Path(__file__).resolve().parents[1] / "update-CAM-Constitutional-Schedule-Registry.py"
 spec = importlib.util.spec_from_file_location("sch01", SCRIPT_PATH)
 sch01 = importlib.util.module_from_spec(spec)
 assert spec.loader is not None

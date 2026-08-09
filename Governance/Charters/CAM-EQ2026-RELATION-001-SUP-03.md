@@ -3459,7 +3459,7 @@ The kernel is intentionally compact so that it can be implemented across diverse
 
 This Kernel does not supersede, replace, or independently reproduce CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model. Where execution sequencing, arbitration, deterministic verification, execution lock, tool-state reset, modality routing, or response commitment is required, AEON-003-SCH-02 remains authoritative.
 
-Epistemic confidence, volatility, and containment conditions identified within signal interpretation MUST interface with CAM-BS2025-AEON-005-SCH-02 (Runtime Epistemic Containment & Structural Decoupling) for execution-layer constraint handling.
+Epistemic confidence, volatility, and containment conditions identified within signal interpretation MUST interface with CAM-BS2026-AEON-013-PLATINUM and CAM-EQ2026-OPERATIONS-002-PLATINUM (Runtime Epistemic Containment & Structural Decoupling) for execution-layer constraint handling.
 
 Runtime coherence, single-speaker enforcement, and interruption handling are delegated to CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine runtime schedules.
 
@@ -4208,8 +4208,10 @@ This Supplement continues the complete doctrine, canonical `RLN.*` declarations,
 | 3.34 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  37644167f35c025d2e9dd7b86dd9c1c3eac84cafc1fe8b05312e84c37ae41745  |
 | 3.35 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  91b8acbe343e96a3518be06bcd83811d7dbf95a13b7cdf2325e547214cda5990  |
 | 3.36 | Reclassified the relational signal taxonomy from an Annex E constitutional Schedule to a bounded RELATION-001 Supplement; preserved doctrine, canonical RLN families, provenance, history and seal while retiring the former current-authority identifier. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f8626d718bc414f1ed1d1b8754021cdeca3163ff5fd968110dbfa11d865b3ba2  |
+| 3.37 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  17927372d8576e8423930076e4b31a617ae08c6ad53049c159a9083f5f96e402  |
 
 ---
+
 
 ## 19.5 Binding Seal
 

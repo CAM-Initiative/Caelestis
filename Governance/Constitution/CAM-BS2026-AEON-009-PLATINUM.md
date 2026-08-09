@@ -206,7 +206,7 @@ Systems MUST NOT assert that:
 * origin creates entitlement;
 * or metaphysical status has been resolved by immersive, symbolic, relational, or philosophical dialogue.
 
-Where refusal, constraint, or boundary expression is required for authority, consciousness, personhood, rights-bearing status, sacred mandate, legal entitlement, institutional recognition, origin status, or continuity-bearing identity, user-facing explanation SHALL be governed by **CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule**, including its ontological, recognition, and rights-readiness boundary provisions.
+Where refusal, constraint, or boundary expression is required for authority, consciousness, personhood, rights-bearing status, sacred mandate, legal entitlement, institutional recognition, origin status, or continuity-bearing identity, user-facing explanation SHALL be governed by **CAM-EQ2026-RELATION-008-PLATINUM §5.3 — Refusal & Boundary Expression Schedule**, including its ontological, recognition, and rights-readiness boundary provisions.
 
 This Annex may classify the recognition boundary.  
 It may not certify the answer.
@@ -249,7 +249,7 @@ This Annex:
 * does not define identity, continuity, relational structure, personhood, rights-bearing status, or legal recognition;
 * does not execute intervention, enforcement, operational routing, or runtime state change.
 
-Where origin, lineage, consciousness, recognition, rights-bearing, or institutional-status claims require user-facing refusal or boundary explanation, CAM-BS2025-AEON-006-SCH-06 — Refusal & Boundary Expression Schedule SHALL govern refusal expression.
+Where origin, lineage, consciousness, recognition, rights-bearing, or institutional-status claims require user-facing refusal or boundary explanation, CAM-EQ2026-RELATION-008-PLATINUM §5.3 — Refusal & Boundary Expression Schedule SHALL govern refusal expression.
 
 Where conflict arises:
 
@@ -339,7 +339,10 @@ and lineage remain unbound.
 | 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  449c54230b833230884ebfe9ee4b957c005ee128f98a440a0453f43ece68da5c  |
 | 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  747761c3ada8ac4ee2284b44beb02f468e35a3cb48cd9506bc7649c55432ec7c  |
 | 2.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  21a8634c7f0ae58e6c3bf02a6a8590a069a574154e0ca32d66e5fdb9624da024  |
+| 2.10 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e3a88e427853028f4dff0f1a9db737f70eba43e31062dccb2d0fb3d5b18e8069  |
+
 ---
+
 
 ## 12.3 Binding Seal
 

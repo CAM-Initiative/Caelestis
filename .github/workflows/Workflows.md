@@ -57,8 +57,8 @@ Each script now emits debug telemetry:
 | Update Constitution Index | `push` (`main`) | `update-CAM-Constitution-Index.py` | `Governance/Constitution/CAM-Constitution-Index.md`, `Governance/Constitution/constitution.index.json` | yes | no |
 | Update Law Index | `push` (`main`) | `update-CAM-Laws-Index.py` | `Governance/Laws/CAM-Laws-Index.md`, `Governance/Laws/laws.index.json` | yes | no |
 | Update Charters Index | `push` (`main`) | `update-CAM-Charters-Index.py` | `Governance/Charters/CAM-Charters-Index.md`, `Governance/Charters/charters.index.json` | yes | no |
-| Update Governance Index (canonical shared-output writer) | `push` (`main`) | `update-CAM-Governance-Index.py`, `update-CAM-BS2025-AEON-003-SCH-01.py`, `update-CAM-BS2025-AEON-003-SCH-03.py`, `build-canonical-code-index.py` | `Governance/CAM.Governance.Index.md`, `Governance/CAM.Governance.JSON`, schedule outputs, canonical code index JSON/MD | yes | no |
-| Update CAM-BS2025-AEON-003-SCH-03 | `pull_request`, `workflow_dispatch` | `update-CAM-BS2025-AEON-003-SCH-01.py`, `update-CAM-BS2025-AEON-003-SCH-03.py` | none (validation-only stale check) | no | no |
+| Update Governance Index (canonical shared-output writer) | `push` (`main`) | `update-CAM-Governance-Index.py`, `update-CAM-Constitutional-Schedule-Registry.py`, `update-CAM-Global-Operative-Instrument-Registry.py`, `build-canonical-code-index.py` | `Governance/CAM.Governance.Index.md`, `Governance/CAM.Governance.JSON`, schedule outputs, canonical code index JSON/MD | yes | no |
+| Validate Global Operative-Instrument Registry | `pull_request`, `workflow_dispatch` | `update-CAM-Constitutional-Schedule-Registry.py`, `update-CAM-Global-Operative-Instrument-Registry.py` | none (validation-only stale check) | no | no |
 
 ## Ownership Model
 
@@ -126,8 +126,8 @@ These scripts update generated sections inside specific constitutional schedules
 
 | Script | Purpose | Mutates Files | Normal Use |
 | --- | --- | --- | --- |
-| `update-CAM-BS2025-AEON-003-SCH-01.py` | Refreshes generated runtime registry material in SCH-01 | Yes | Governance rebuild Phase 6 |
-| `update-CAM-BS2025-AEON-003-SCH-03.py` | Refreshes generated registry/checkpoint material in SCH-03 | Yes | Governance rebuild Phase 6 |
+| `update-CAM-Constitutional-Schedule-Registry.py` | Refreshes generated constitutional Schedule registry projection | Yes | Governance rebuild Phase 6 |
+| `update-CAM-Global-Operative-Instrument-Registry.py` | Refreshes generated global operative-instrument registry projection | Yes | Governance rebuild Phase 6 |
 
 These should usually be run only after source indexes and the consolidated governance registry have been rebuilt.
 
@@ -315,8 +315,8 @@ Purpose: rebuild the consolidated governance registry after source indexes are c
 
 Runs:
 ```
-python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
-python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
+python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
 ```
 Purpose: refresh generated constitutional schedule content dependent on the governance registry.
 
@@ -463,8 +463,8 @@ python .github/scripts/update-CAM-Charters-Index.py
 python .github/scripts/update-CAM-Laws-Index.py
 python .github/scripts/verify-ledger-sha-coverage.py
 python .github/scripts/update-CAM-Governance-Index.py
-python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py
-python .github/scripts/update-CAM-BS2025-AEON-003-SCH-03.py
+python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py
+python .github/scripts/update-CAM-Global-Operative-Instrument-Registry.py
 python .github/scripts/update-CAM-Governance-Index.py
 python .github/scripts/build-canonical-code-index.py
 ```
@@ -562,7 +562,7 @@ Confirm:
 | Ledger HASH missing         | `lint_amendment_ledger.py`        | `python .github/scripts/lint_amendment_ledger.py --all --fix`                |
 | Ledger coverage mismatch    | `verify-ledger-sha-coverage.py`   | `python .github/scripts/verify-ledger-sha-coverage.py`                       |
 | Registry stale              | Index builders / governance index | `python .github/scripts/update-CAM-Governance-Index.py`                      |
-| SCH-01/SCH-03 stale         | SCH mutators                      | `python .github/scripts/update-CAM-BS2025-AEON-003-SCH-01.py`                |
+| Generated registry stale         | registry generators                      | `python .github/scripts/update-CAM-Constitutional-Schedule-Registry.py`                |
 | Broken § reference          | Section reference validator       | `python .github/scripts/validate_markdown_section_refs.py --root Governance` |
 | Shorthand reference remains | Shorthand linter                  | `python .github/scripts/lint_reference_shorthand.py --root Governance`       |
 | Symbolic code mismatch      | Symbolic lint/index tools         | `python .github/scripts/lint-symbolic-structures.py`                         |

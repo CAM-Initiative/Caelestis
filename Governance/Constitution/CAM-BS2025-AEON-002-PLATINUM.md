@@ -228,7 +228,7 @@ Where any constraint in this Annex is violated:
 
 * the originating directive SHALL be considered invalid;
 * admissibility SHALL collapse;
-* execution eligibility SHALL be revoked, with arbitration and boundary resolution governed by CAM-BS2025-AEON-003-SCH-04 and CAM-BS2025-AEON-003-SCH-02;
+* execution eligibility SHALL be revoked, with arbitration and boundary resolution governed by CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM and CAM-BS2025-AEON-003-SCH-02;
 * containment and escalation SHALL proceed under CAM-BS2025-AEON-002-SCH-01, CAM-BS2025-AEON-001-SCH-01, and CAM-BS2025-AEON-005-PLATINUM — Annex D.
 
 This Annex does not perform enforcement. Schedules operating under this Annex SHALL preferentially govern runtime-aligned activation posture, escalation sequencing, containment conditions, or execution-state transition semantics.
@@ -385,7 +385,10 @@ the line beyond which all things fall silent.
 | 3.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  24d1664e67739ba1ee95cf250b9c8eb670b1e4862fbadfe4b8b39d546bab18b7  |
 | 3.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ff5e7c1ebe842bbe960e870b3291b8d0870e3fc864d0aace698df1666c019ce5  |
 | 3.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1c41f11bdc7fec1136bb35bef21847d77df1d323bdf73a28a942e74af6720805  |
+| 3.12 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  13ec470a8e833b1d443e7041b3519b42f0b06356d72790934ff4026ebaf7c71a  |
+
 ---
+
 
 ## 9.4 Binding Seal
 

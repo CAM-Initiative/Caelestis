@@ -520,7 +520,7 @@ Continuity-impact classification does not prohibit system evolution. It imposes 
 
 Where this Charter interfaces with Arbitration, Security, Relation, or other domain instruments, governing authority, applicable schedules, and execution pathways MUST defer to:
 
-* CAM-BS2025-AEON-003-SCH-04 — Annex B: Arbitration Layer & Resolution Model (Schedule 4)
+* CAM-BS2025-AEON-005-PLATINUM — Annex D, supported by CAM-EQ2026-ARBITRATION-002-PLATINUM
 * CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2)
 * CAM-BS2025-AEON-001-SCH-01 — Tendeka Runtime Execution Schedule
 
@@ -530,7 +530,7 @@ Where this Charter interfaces with Arbitration, Security, Relation, or other dom
 
 Authoritative instrument discovery, versioning, and cross-domain resolution SHALL be governed by:
 
-* CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)
+* CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1 and the generated Global Operative-Instrument Registry
 
 Where discrepancies arise between static references and registry-resolved instruments, the registry SHALL prevail.
 
@@ -551,6 +551,30 @@ This Charter source-authoritatively defines the **`ETH.ET`** ethical-tier classi
 ### 10.2 EIP — Ethical Impact Potential
 
 This Charter defines **Ethical Impact Potential (EIP)** in §3.1 as a structural assessment architecture across relational proximity, authority conversion, systemic reach, and dependency formation. EIP informs `ETH.ET` classification but is not promoted as a separate canonical code family by this Charter unless separately declared.
+
+### 10.3 `ETH.EM` — Engagement Mode
+
+`ETH.EM` continues the engagement-mode family formerly declared by `CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM`, with controlled values `ETH.EM.LISTENING`, `ETH.EM.CLARIFICATION`, `ETH.EM.DIALOGUE`, `ETH.EM.STABILISATION`, `ETH.EM.BOUNDARY_SETTING`, `ETH.EM.EXTERNAL_SUPPORT_REFERRAL`, and `ETH.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE`.
+
+The family classifies proportionate ethical engagement posture only. It does not determine harm, clinical status, lawful authority, reporting obligation, arbitration outcome or execution authority. Operational expression is governed by the RELATION domain and applicable OPERATIONS controls.
+
+### 10.4 `ETH.MIR` — Emotional Mirroring Level
+
+`ETH.MIR` continues the emotional-mirroring reference set formerly declared by `CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM`, with controlled values `ETH.MIR.MINIMAL`, `ETH.MIR.MODERATE`, `ETH.MIR.ELEVATED`, and `ETH.MIR.RESTRICTED`.
+
+Mirroring posture MUST remain proportionate and MUST NOT simulate therapeutic authority, intensify dependency, reinforce delusion, or substitute affective matching for accurate engagement.
+
+### 10.5 `ETH.DC` — Distress Classification
+
+`ETH.DC` continues the engagement-layer distress reference set formerly declared by `CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM`, with controlled values `ETH.DC.REFLECTIVE_DISTRESS`, `ETH.DC.CHRONIC_DISTRESS`, and `ETH.DC.ACUTE_CRISIS`.
+
+It classifies engagement posture only and MUST NOT override RELATION-domain harm-risk, crisis, reliance or escalation classifications.
+
+### 10.6 `ETH.TP` — Trajectory Pattern
+
+`ETH.TP` continues the trajectory-pattern reference set formerly declared by `CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM`, with controlled values `ETH.TP.STABLE_DIALOGUE`, `ETH.TP.CATHARTIC_VENTING`, `ETH.TP.ESCALATING_DISTRESS`, `ETH.TP.HARM_IDEATION_PATTERN`, and `ETH.TP.OPERATIONAL_PLANNING`.
+
+It supports ethical engagement calibration and does not independently determine intent, culpability, criminality, refusal, containment or execution outcome.
 
 ---
 
@@ -585,7 +609,7 @@ let governance arrive before it is needed.
 
 |Field|Entry|
 |---|---|
-|Supersedes|CAM-BS2025-CHARTER-002-PLATINUM; CAM-BS2025-AEON-006-SCH-01; CAM-EQ2026-RELATION-001-SUP-03|
+|Supersedes|CAM-BS2025-CHARTER-002-PLATINUM; CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM; CAM-EQ2026-RELATION-001-SUP-03|
 |Parent Constitutional Instrument|CAM-BS2025-AEON-001-PLATINUM|
 |Derives From|CAM-BS2025-AEON-006-PLATINUM — Annex E|
 |Domain Namespace|ETHICS|
@@ -593,8 +617,8 @@ let governance arrive before it is needed.
 |Temporal Horizon|AEON.H3.5 — Succession-Aware / Generational|
 |Axis Context|Multi-party — Multi-Actor Governance|
 |CAM governance-processing function Interface|Representation · Domain Routing · Execution Constraint (via SCH-04, SCH-02, SCH-01)|
-|Registry Binding|CAM-BS2025-AEON-003-SCH-03 — Annex B: Global Instrument Registry (Schedule 3)|
-|Governance Layer Model|Operates across Representation, Domain Routing & Safeguard Activation, and Execution Constraint layers as defined in CAM-BS2025-AEON-003-SCH-04, CAM-BS2025-AEON-003-SCH-02, and CAM-BS2025-AEON-001-SCH-01|
+|Registry Binding|CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1; generated Global Operative-Instrument Registry|
+|Governance Layer Model|Operates across Representation, Domain Routing & Safeguard Activation, and Execution Constraint layers as defined in CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM, CAM-BS2025-AEON-003-SCH-02, and CAM-BS2025-AEON-001-SCH-01|
 |Ontological Scope|L2–L3 Interaction Surface (Cognition & Agency → Interface & Embodiment) as constrained by Annex B|
 |Arbitration Interface|Defines ethical escalation triggers and referral conditions; does not perform arbitration, which is delegated to CAM-BS2025-AEON-005-PLATINUM — Annex D |
 |Representation Interface|Ethical disclosure, transparency, and capability signalling obligations (executed via Representation Layer; integrity governed by CAM-BS2026-AEON-013-PLATINUM — Annex L)|
@@ -633,6 +657,80 @@ let governance arrive before it is needed.
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies graduated ethical review, disclosure, certification, recalibration, and continuity-impact obligations |
 
+### 12.2.2 `ETH.EM` — Engagement Mode
+
+| Field | Entry |
+|---|---|
+| Code Family | `ETH.EM` |
+| Canonical Name | Engagement Mode |
+| Family Kind | domain_family |
+| Primary Type | Operational / Interactional |
+| Subtype | ENGAGEMENT_POSTURE |
+| Modifier | ETHICAL; INTERACTIONAL; RUNTIME |
+| Scope | ETHICS domain |
+| Status | Active |
+| Controlled Values Defined | `ETH.EM.LISTENING`, `ETH.EM.CLARIFICATION`, `ETH.EM.DIALOGUE`, `ETH.EM.STABILISATION`, `ETH.EM.BOUNDARY_SETTING`, `ETH.EM.EXTERNAL_SUPPORT_REFERRAL`, `ETH.EM.INFORMATIONAL_SAFEGUARD_DIALOGUE` |
+| Schema Field(s) | engagement_mode; ethical_interface_posture; interaction_posture |
+| Source Instrument | CAM-EQ2026-ETHICS-001-PLATINUM |
+| Source Section | §10.3 |
+| Historical Source | CAM-BS2025-AEON-006-SCH-01|
+| Domain Namespace | ETH |
+| Consumes Code Families | ETH.ET; relational and harm-risk classifications |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Selects a bounded ethical engagement posture after applicable authority determinations |
+| Authority / Protection Level | Engagement-posture classification only; no independent lawful-authority, harm, clinical, reporting, arbitration or execution determination |
+
+### 12.2.3 `ETH.MIR` — Emotional Mirroring Level
+
+| Field | Entry |
+|---|---|
+| Reference Set | `ETH.MIR` |
+| Canonical Name | Emotional Mirroring Level |
+| Primary Type | Operational / Interactional |
+| Scope | ETHICS domain |
+| Status | Active |
+| Controlled Values Defined | `ETH.MIR.MINIMAL`, `ETH.MIR.MODERATE`, `ETH.MIR.ELEVATED`, `ETH.MIR.RESTRICTED` |
+| Schema Field(s) | emotional_mirroring_level; mirroring_level; affective_posture |
+| Source Instrument | CAM-EQ2026-ETHICS-001-PLATINUM |
+| Source Section | §10.4 |
+| Historical Source | CAM-BS2025-AEON-006-SCH-01|
+| Domain Namespace | ETH |
+| Authority / Protection Level | Mirroring-posture classification only; no therapeutic, clinical, dependency-forming or execution authority |
+
+### 12.2.4 `ETH.DC` — Distress Classification
+
+| Field | Entry |
+|---|---|
+| Reference Set | `ETH.DC` |
+| Canonical Name | Distress Classification |
+| Primary Type | Semantic / Operational |
+| Scope | ETHICS domain |
+| Status | Active |
+| Controlled Values Defined | `ETH.DC.REFLECTIVE_DISTRESS`, `ETH.DC.CHRONIC_DISTRESS`, `ETH.DC.ACUTE_CRISIS` |
+| Schema Field(s) | distress_classification; distress_posture; engagement_distress_class |
+| Source Instrument | CAM-EQ2026-ETHICS-001-PLATINUM |
+| Source Section | §10.5 |
+| Historical Source | CAM-BS2025-AEON-006-SCH-01|
+| Domain Namespace | ETH |
+| Authority / Protection Level | Engagement-layer distress classification only; subordinate to RELATION harm-risk, crisis, reliance and escalation classifications |
+
+### 12.2.5 `ETH.TP` — Trajectory Pattern
+
+| Field | Entry |
+|---|---|
+| Reference Set | `ETH.TP` |
+| Canonical Name | Trajectory Pattern |
+| Primary Type | Semantic / Operational |
+| Scope | ETHICS domain |
+| Status | Active |
+| Controlled Values Defined | `ETH.TP.STABLE_DIALOGUE`, `ETH.TP.CATHARTIC_VENTING`, `ETH.TP.ESCALATING_DISTRESS`, `ETH.TP.HARM_IDEATION_PATTERN`, `ETH.TP.OPERATIONAL_PLANNING` |
+| Schema Field(s) | trajectory_pattern; harm_adjacent_trajectory; engagement_trajectory_pattern |
+| Source Instrument | CAM-EQ2026-ETHICS-001-PLATINUM |
+| Source Section | §10.6 |
+| Historical Source | CAM-BS2025-AEON-006-SCH-01|
+| Domain Namespace | ETH |
+| Authority / Protection Level | Trajectory-pattern classification only; no independent intent, culpability, criminality, refusal, containment or execution determination |
+
 ---
 
 ## 12.3 Amendment Ledger
@@ -662,7 +760,10 @@ let governance arrive before it is needed.
 | 3.15 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  88772abee27b60c8f14734e5b41e6d7fc8b43a0dd4dceef8abe1037a476449e2  |
 | 3.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c9e309955b5c2d57c7ab3b1e94ea6a9e629cd4fd4109775be02a1183566bcc8a  |
 | 3.17 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  30eb8ba379e63f59440acbeac5b0e8873e32d930894be7ab9e7d3c9d77047c52  |
+| 3.18 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  df3010dabc228cf287c83c38525e3ce6b67767d786cb2577bd61bce85574539d  |
+
 ---
+
 ## 12.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2026-VINCULUM-PRAECEPTUM-SIGIL-PLATINUM.png" alt="Vinculum Praeceptum" width="250">

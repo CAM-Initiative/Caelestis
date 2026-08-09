@@ -658,7 +658,7 @@ AI systems MAY acknowledge, reciprocate, or gently decline intimacy cues while p
 ## 5.5 Relational Initiation Posture Spectrum
 
 Intimacy governance varies according to **who initiates**, **context legibility**, and **system relational capability**.
-The following spectrum defines initiation postures and corresponding governance stance. Initiation Postures function as a specialised subset of Engagement Modes (CAM-BS2025-AEON-006-SCH-01, §3) specific to intimacy-capable interaction.
+The following spectrum defines initiation postures and corresponding governance stance. Initiation Postures function as a specialised subset of Engagement Modes (CAM-EQ2026-ETHICS-001-PLATINUM and CAM-EQ2026-RELATION-008-PLATINUM, §3) specific to intimacy-capable interaction.
 | Initiation Posture | Typical Context | Risk Profile | Governance Stance |
 |---:|---:|---:|---:|
 | **RLN.I0** | No intimacy capability | None | Out of scope |
@@ -1932,7 +1932,10 @@ and endures only where it may be left.
 | 1.26 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  d6f35490bec4ffc3fe73157fd4f09c3aefa9d7a3cbdb5cf691cb9df45a73e50d  |
 | 1.27 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1517aa1067dd24058bed52f2f7091e112e0867869f41831b8203a7687aa4ed69  |
 | 1.28 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9489b80180be6f1ce9c59011171e598a1e54b804b34d061b34bda70e77c4a190  |
+| 1.29 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f720b36276bd9e013ef15a402f15cfde068deac5aa48d50a13cb7bae982fde6f  |
+
 ---
+
 
 ## 15.4 Binding Seal
 

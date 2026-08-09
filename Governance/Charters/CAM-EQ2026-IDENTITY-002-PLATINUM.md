@@ -481,7 +481,7 @@ Let identity remain true across time.
 |Axis Context|Provenance · Authorship · Transformation · Lineage · Target Binding|
 |Governance Layer Model|Constraint layer interfacing with Identity Resolution, Security Boundary Integrity, Runtime Arbitration, and Execution|
 |Arbitration Interface|Provides provenance and lineage conditions for admissibility; does not perform arbitration or weighting|
-|Execution Interface|Delegated to runtime schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-003-SCH-04)|
+|Execution Interface|Delegated to runtime schedules (CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM)|
 |Security Interface|Aligns with CAM-EQ2026-SECURITY-002-PLATINUM — Boundary Integrity Specification|
 |Cross-Domain Interfaces|IDENTITY-001; SECURITY-002; Annex G; RELATION; ETHICS; ECONOMICS; OPERATIONS; ARBITRATION|
 |Activation Trigger|Activates where signals are retained, transformed, attributed, transferred across contexts, or propagated beyond originating interaction|
@@ -606,8 +606,10 @@ Let identity remain true across time.
 | 1.5 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c47a928b666f0cc1c8a72bcd4cff983265ab2b30a8a538529de6c5feaf6045b2  |
 | 1.6 | Replaced the retired machine-civil-identity dependency with bounded source ownership for substrate and registry provenance and exact interfaces to Identity, Continuity, lifecycle, component, deployment, and Runtime evidence authorities; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  64457ed1fa876c6162f05b2058455e4dd7103591e34af0a1076e0e9f358a7306  |
 | 1.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  44bb5411c571de65686862ec1d0376bd697b48cbcda7496190627ff0719dfdca  |
+| 1.8 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b0b38eb7904a518c98d7d7e246257b91b2c57896d6ceb280377e56df08337589  |
 
 ---
+
 
 ## 13.4 Binding Seal
 

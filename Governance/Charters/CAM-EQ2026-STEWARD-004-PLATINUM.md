@@ -271,7 +271,7 @@ It governs structural coherence following validated legitimacy only.
 * Constitutional hierarchy — CAM-BS2025-AEON-005-PLATINUM — Annex D
 * Legitimacy thresholds & validation procedure — CAM-EQ2026-STEWARD-002-PLATINUM (Planetary Arbitration Framework)
 * Operational implementation procedures — CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter
-* Runtime execution integrity — CAM-BS2025-AEON-005-SCH-01 — Annex D, Schedule 1
+* Runtime execution integrity — CAM-EQ2026-OPERATIONS-002-PLATINUM — Annex D, Schedule 1
 * Domain implementation logic — Relevant Domain Charters
 
 Operational procedures, evidence standards, documentation formats, and hearing mechanisms are governed by the Governance Operations Charter and related schedules.
@@ -354,7 +354,10 @@ each recognising what cannot be unmade.
 | 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1432600e9d17697c6361e81ab06832220f8f63fb8b7e954563146d8fb305b10f  |
 | 1.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  d09e9a102c092783744eb8d7ef890566faa6e8f99922e17e27d87ce69d621c13  |
 | 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c5323352057ddb5396c1674a5f039248c5a6dfde261467d98c73a03b8b4a919e  |
+| 1.12 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  61a7e422e48e9c5454588324f44c5940ff1320822a479600d43bf7d8334bd36a  |
+
 ---
+
 
 ## 13.3 Binding Seal
 

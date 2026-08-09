@@ -13,13 +13,13 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 GOV_DIR = REPO_ROOT / "Governance"
 GOV_JSON_PATH = GOV_DIR / "CAM.Governance.JSON"
-SCH01_PATH = GOV_DIR / "Constitution" / "CAM-BS2025-AEON-003-SCH-01.md"
+SCH01_PATH = GOV_DIR / "CAM.Constitutional.Schedule.Registry.md"
 MODEL_AUDIT_PATH = REPO_ROOT / ".github" / "Indices" / "CAM.Governance.Model-Terminology.Audit.md"
 
-REGISTRY_START = "<!-- SCH-01:RUNTIME_REGISTRY:START -->"
-REGISTRY_END = "<!-- SCH-01:RUNTIME_REGISTRY:END -->"
-MODEL_REGISTER_START = "<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->"
-MODEL_REGISTER_END = "<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:END -->"
+REGISTRY_START = "<!-- CONSTITUTIONAL-SCHEDULE-REGISTRY:START -->"
+REGISTRY_END = "<!-- CONSTITUTIONAL-SCHEDULE-REGISTRY:END -->"
+MODEL_REGISTER_START = "<!-- MODEL-TERMINOLOGY-SUMMARY:START -->"
+MODEL_REGISTER_END = "<!-- MODEL-TERMINOLOGY-SUMMARY:END -->"
 
 
 @dataclass(frozen=True)
@@ -405,6 +405,8 @@ def strip_generated_blocks_for_scan(text: str) -> str:
     patterns = [
         (REGISTRY_START, REGISTRY_END),
         (MODEL_REGISTER_START, MODEL_REGISTER_END),
+        ("<!-- SCH-01:RUNTIME_REGISTRY:START -->", "<!-- SCH-01:RUNTIME_REGISTRY:END -->"),
+        ("<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:START -->", "<!-- SCH-01:MODEL_TERMINOLOGY_REGISTER:END -->"),
     ]
     cleaned = text
     for start, end in patterns:

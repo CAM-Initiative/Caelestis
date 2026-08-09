@@ -1,9 +1,9 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 830
-**Generic usages suppressed:** 685
-**Declared / recognised usages emitted:** 117
-**Advisory review usages emitted:** 28
+**Total model-term matches scanned:** 689
+**Generic usages suppressed:** 564
+**Declared / recognised usages emitted:** 99
+**Advisory review usages emitted:** 26
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
@@ -18,8 +18,7 @@
 | CAM-BS2025-AEON-001-PLATINUM | 36.4 Current Operative Route | The CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-001-PLATINUM | 36.6 Lineage Note | Caelestis Architecture Model | Architecture Model | Declared / Recognised |
 | CAM-BS2025-AEON-001-PLATINUM | 9. Schedules (Execution Layer) | MUST conform to the Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-001-SCH-01 | 12.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-002-SCH-01 | 2. Execution Model Alignment | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-BS2025-AEON-001-SCH-01 | 6.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-PLATINUM | 12.1 Minimum Content | AI models | Technical / AI Model | Advisory Review |
 | CAM-BS2025-AEON-003-PLATINUM | 18.3 Amendment Ledger | Incorporated runtime governance model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-PLATINUM | 4. Assessment Object Requirement | AI model | Technical / AI Model | Advisory Review |
@@ -29,35 +28,13 @@
 | CAM-BS2025-AEON-003-PLATINUM | 6. AI-System Composition, Configuration and Deployment | AI model | Technical / AI Model | Advisory Review |
 | CAM-BS2025-AEON-003-PLATINUM | 6. AI-System Composition, Configuration and Deployment | An AI model | Technical / AI Model | Advisory Review |
 | CAM-BS2025-AEON-003-PLATINUM | 6.1 Configuration-Baseline Variability | The same AI model | Technical / AI Model | Advisory Review |
-| CAM-BS2025-AEON-003-SCH-01 | 1.1 Non Scope | which are governed by the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-01 | 10. Execution Model Compatibility | Execution sequencing is governed separately by the Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-01 | 2.2 Activation-Posture Classification | s governance-processing function applies within the execution model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-02 | 1. Scope | or execution-evidence requirement calls for this governance processing model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-02 | 1. Scope | This Schedule defines a CAM governance-processing model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-02 | 2. Constitutional Grounding | a schedule or operational procedure expressly routed to this processing model | Domain Sub-Model | Advisory Review |
-| CAM-BS2025-AEON-003-SCH-02 | 22.1 Lineage & Metadata | Article IV (Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-02 | 22.1 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-02 | 22.2 Amendment Ledger | Recast Schedule 2 as a bounded CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-02 | 3.1 CAM Governance Processing Functions | the following CAM governance-processing functions as a useful control model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-02 | 3.3 Function Interaction Principles | CAM governance-processing functions operate as an interdependent control model | Governance Model | Declared / Recognised |
+| CAM-BS2025-AEON-003-SCH-02 | 1. Scope | only the constitutionally material ordering of the CAM governance-processing model | Governance Model | Declared / Recognised |
+| CAM-BS2025-AEON-003-SCH-02 | 6.1 Lineage & Metadata | Article IV (Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-BS2025-AEON-003-SCH-02 | 6.1 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
+| CAM-BS2025-AEON-003-SCH-02 | 6.2 Amendment Ledger | Recast Schedule 2 as a bounded CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | CAM-BS2025-AEON-003-SCH-02 — Annex B: CAM Runtime Governance Processing Model (Schedule 2) | CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-02 | CAM-BS2025-AEON-003-SCH-02 — Annex B: CAM Runtime Governance Processing Model (Schedule 2) | Defines the bounded CAM governance-processing model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | CAM-BS2025-AEON-003-SCH-02 — Annex B: CAM Runtime Governance Processing Model (Schedule 2) | Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-03 | Aeon Tier Constitution | CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-03 | ECONOMICS | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-03 | ECONOMICS | Attribution & Dependency Model | Economic Model | Declared / Recognised |
-| CAM-BS2025-AEON-003-SCH-04 | 6.1 Access-State Governance | as a cross-domain arbitration primitive within the CAM runtime governance model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-005-SCH-04 | 23.1 Lineage & Metadata | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-006-SCH-01 | 9.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-006-SCH-04 | 15.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
-| CAM-BS2025-AEON-006-SCH-06 | 11. Relationship to Annex L | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2025-AEON-006-SCH-07 | 17.1 Lineage & Metadata | Graduated Domain Sensitivity Model | Domain-Recognised Model | Declared / Recognised |
-| CAM-BS2025-AEON-006-SCH-07 | 2. Constitutional Position | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2026-AEON-007-SCH-01 | 14. Relationship to Other Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2026-AEON-007-SCH-01 | 14.1 Runtime Flow and Companion-Continuity Interface | Annex B Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2026-AEON-007-SCH-01 | 4.1 Runtime Interface and Signal Emission Boundary | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
-| CAM-BS2026-AEON-007-SCH-01 | 8.5 Research and Advanced Phenomenology Gate | systems SHALL apply the restricted-domain engagement and verification model | Domain Sub-Model | Advisory Review |
-| CAM-BS2026-AEON-008-SCH-02 | 35.1 Lineage & Metadata | Runtime governance execution model | Execution Model | Declared / Recognised |
+| CAM-BS2025-AEON-005-SCH-04 | 6.1 Lineage & Metadata | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM-BS2026-AEON-010-PLATINUM | 3.2 Memory Classification | Detailed operational models | Domain Sub-Model | Advisory Review |
 | CAM-BS2026-AEON-011-PLATINUM | 9.1 Lineage & Metadata | Governance Layer Model | Governance Model | Declared / Recognised |
 | CAM-BS2026-AEON-014-PLATINUM | 1.1 Scope | Attribution & Dependency Model | Economic Model | Declared / Recognised |
@@ -151,6 +128,9 @@
 | CAM-EQ2026-STEWARD-001-PLATINUM | 12.1 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM.Canonical.Code.Index | Canonical Code Index | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM.Canonical.Code.Index | Canonical Code Index | Integrity State Model | Security Model | Declared / Recognised |
+| CAM.Global.Operative.Instrument.Registry | Aeon Tier Constitution | CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
+| CAM.Global.Operative.Instrument.Registry | ECONOMICS | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
+| CAM.Global.Operative.Instrument.Registry | ECONOMICS | Attribution & Dependency Model | Economic Model | Declared / Recognised |
 | CAM.Governance.Index | Constitution & Instruments | CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |
 | CAM.Governance.Index | Domain: ECONOMICS | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
 | CAM.Governance.Index | Domain: ECONOMICS | Attribution & Dependency Model | Economic Model | Declared / Recognised |

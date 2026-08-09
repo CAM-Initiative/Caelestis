@@ -266,7 +266,42 @@ Every amendment row SHALL contain seven cells. `Agent`, `Model`, and `Reviewer` 
 
 ---
 
-## 13. Migration rule
+## 13. Constitutional Schedule Registry Contract
+
+The constitutional Schedule registry is a deterministic projection of current operative instruments whose `Instrument Type` is a constitutional Schedule and whose authority chain resolves to the Constitution or a constitutional Annex.
+
+The registry specification formerly contained in `CAM-BS2025-AEON-003-SCH-01` is continued here. Retirement of that Schedule does not retire the registry, its validation function, or its historical identifier.
+
+The registry MUST be reconstructed from governed source instruments and MUST expose, at minimum:
+
+- canonical instrument identifier and title;
+- constitutional parent;
+- lifecycle status and effect;
+- Authority Role and Source Authority;
+- constitutional Runtime function;
+- activation posture;
+- execution, non-execution, arbitration, registry or referral function, where applicable; and
+- source path or other resolvable source locator.
+
+Inclusion requires all of the following:
+
+1. the instrument is operative;
+2. the instrument uses the `SCH` form within the constitutional namespace;
+3. its parent is the Constitution or an operative constitutional Annex;
+4. its Schedule authority does not exceed that parent; and
+5. its current source metadata passes strict metadata and source-authority validation.
+
+Draft, proposed, retired, superseded, archival and domain instruments MUST NOT appear as current constitutional Schedules. Domain Charters, Appendices, Supplements, Standards and generated indexes may influence or support Runtime governance, but MUST NOT be assigned a constitutional Schedule position.
+
+The registry MUST distinguish constitutional function from execution order. Registry presence does not make an instrument executable, callable, continuously active, or superior to its parent. A Schedule that performs no irreducible constitutional function MUST be decomposed or retired rather than preserved to maintain a registry row.
+
+The registry output is generated evidence. It MUST NOT become the source authority for a Schedule, its function or its metadata. Divergence between the output and governed source instruments is a validation failure and MUST be corrected at the source or generator, as applicable.
+
+Historical references to `CAM-BS2025-AEON-003-SCH-01` remain resolvable as references to the former constitutional registry instrument. New current references SHALL cite this section and the generated Constitution index.
+
+---
+
+## 14. Migration rule
 
 Existing uncontrolled values remain evidence of historical corpus state and MUST be inventoried before correction. Migration MUST:
 
@@ -279,9 +314,9 @@ Existing uncontrolled values remain evidence of historical corpus state and MUST
 
 ---
 
-## 14. Amendment Ledger
+## 15. Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1.0 | Initial governance metadata standard defining controlled Status, Effect and Governance Standard vocabulary; added canonical amendment-level provenance architecture. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
-| 2.0 | Replaced the three-field metadata model with a six-field metadata and source-authority contract; controlled Review State and Authority Role; added Source Authority, combination invariants, conflict rules and migration requirements; clarified delegated subordinate declaration ownership; and required resolvable, non-circular parent lineage for derived and applied authority. | 2026-08-09T01:25:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
+| 1.0 | Initial governance metadata standard defining controlled Status, Effect and Governance Standard vocabulary; added canonical amendment-level provenance architecture. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke | - |
+| 2.0 | Replaced the three-field metadata model with a six-field metadata and source-authority contract; controlled Review State and Authority Role; added Source Authority, combination invariants, conflict rules and migration requirements; clarified delegated subordinate declaration ownership; required resolvable, non-circular parent lineage for derived and applied authority; and continued the constitutional Schedule registry contract from retired `CAM-BS2025-AEON-003-SCH-01` as a source-derived metadata projection with explicit inclusion, exclusion and determinism rules. | 2026-08-09T06:20:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  |

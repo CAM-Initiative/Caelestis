@@ -83,7 +83,7 @@ Signals produced under this Appendix SHALL be classified as:
 * **Authority Risk Signals** — indicating excessive or unpermitted authority accumulation;
 * **Audit Trigger Signals** — indicating requirement for review, inspection, or suspension.
 
-These signals SHALL not perform enforcement directly and MUST be resolved through runtime arbitration and execution schedules (CAM-BS2025-AEON-003-SCH-04, CAM-BS2025-AEON-003-SCH-02, CAM-BS2025-AEON-001-SCH-01).
+These signals SHALL not perform enforcement directly and MUST be resolved through runtime arbitration and execution schedules (CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM, CAM-BS2025-AEON-003-SCH-02, CAM-BS2025-AEON-001-SCH-01).
 
 ---
 
@@ -366,7 +366,7 @@ but to ensure that what is made remains accountable to its source.
 | Ontological Scope | L2 — Cognition & Agency (Synthetic Participation & Economic Attribution) |
 | Structural Role | Constraint & Classification Layer — Synthetic Economic Participation |
 | Signal Output | Attribution; Aggregation; Ceiling Breach; Proxy Violation; Authority Risk; Audit Trigger; Delegation Requirement |
-| Execution Authority | None - delegated to Runtime Governance (CAM-BS2025-AEON-003-SCH-04; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
+| Execution Authority | None - delegated to Runtime Governance (CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-001-SCH-01) |
 | Runtime Dependency | CAM-BS2025-AEON-003-SCH-02 — Runtime Governance Execution Model |
 | Execution Model Participation | Signal & Classification Only — No Trigger, Routing, or Execution Authority |
 | Domain Interaction | Produces economic signals for routing, arbitration, and enforcement across ECONOMICS, OPERATIONS, and RELATION layers |
@@ -475,7 +475,10 @@ but to ensure that what is made remains accountable to its source.
 | 2.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7cf3b43875b5a4a2ee4e6b1142a4c6a6e99b0139fb97fa0d5d5d81ffaf944c32  |
 | 2.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  94b367c00d81d189af97dde75257e97f3d691b2cb4b57f5b5cbc3292fc0aa281  |
 | 2.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  59dcfd6b921d0af0b3e1e314f6c7cf672f3c01cbbf53f639e255999417cf821f  |
+| 2.14 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ab8b99888dab11c15559e4c913b2d9102990989cd82e61183bc5f50ce231d7cf  |
+
 ---
+
 
 ## 11.4 Binding Seal
 

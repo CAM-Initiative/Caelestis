@@ -344,7 +344,7 @@ Where a displayed unit, quota, balance, usage window, or capacity abstraction ma
 
 Metering divergence constitutes a semantic risk where it obscures depletion, expiry, conversion, class transfer, baseline continuity effect, or participant reliance.
 
-This Appendix classifies the economic meaning of the divergence only. User-facing access obligations for AI Utility Provisioning remain governed by CAM-BS2026-AEON-008-SCH-01.
+This Appendix classifies the economic meaning of the divergence only. User-facing access obligations for AI Utility Provisioning remain governed by CAM-EQ2026-ECONOMICS-001-SUP-01.
 
 ---
 
@@ -854,7 +854,7 @@ It is the witness of what must not be collapsed.
 | **Governance Layer** | Economic Governance — Resource Semantics & Non-Extractive Exchange Layer |
 | **CAM governance-processing function** | Non-Executing — Semantic Classification and Value-State Interpretation Only |
 | **Execution Authority** | None — does not execute runtime locks, pricing, billing, metering, intervention sequencing, remedies, or enforcement actions |
-| **Constitutional Interface** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution; CAM-BS2026-AEON-008-SCH-01 — Annex G: AI Utility Access & Generative Resource Model |
+| **Constitutional Interface** | CAM-BS2026-AEON-008-PLATINUM — Annex G: Human Creative & Cognitive Contribution; CAM-EQ2026-ECONOMICS-001-SUP-01 — Annex G: AI Utility Access & Generative Resource Model |
 | **Runtime Interface** | Supplies semantic classification for constitutional runtime schedules where economic effects are implicated |
 | **Scope** | Contextual — Economics domain semantic interpretation; runtime-consumable by constitutional schedules |
 | **Cross-Domain Signal Interfaces** | OPERATIONS; STEWARD; ETHICS; SECURITY; AEON runtime instruments; ECONOMICS appendices |
@@ -980,7 +980,10 @@ It is the witness of what must not be collapsed.
 | 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  74960dd427811b29ed75b80b3a9d8923449ce214738ba393a3a3efd628c26c02  |
 | 2.5 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  54378d80ff61574bd43898c38da7dd8d898c28fbe4298d35fbaf9286ac536d6a  |
 | 2.6 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  849341e654d86898e32c3929c45c6b2033aa389b42cf7e0092841535140eb041  |
+| 2.7 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  cc2a82a43fd4571ddc5765b6843bc7c35d3ac801abbca494023753ac88fc7784  |
+
 ---
+
 
 ## 20.4 Binding Seal
 

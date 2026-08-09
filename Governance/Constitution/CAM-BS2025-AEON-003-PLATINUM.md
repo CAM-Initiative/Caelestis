@@ -1138,7 +1138,7 @@ let it not be collapsed, but carried with clarity.
 | Preceding Canonical Version | 4.0 — Identity Domain Refactor alignment |
 | Transformation Type | Continuity-preserving constitutional refactor |
 | Effective Horizon | AEON.H3.5 |
-| Related Instruments | CAM-BS2025-AEON-003-SCH-01; CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-003-SCH-03; CAM-BS2025-AEON-003-SCH-04 |
+| Related Instruments | CAM-BS2025-AEON-003-SCH-02; CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM; CAM-GOVERNANCE-METADATA-STANDARD §13; CAM-EQ2026-OPERATIONS-001-SUP-04 §11.1 |
 
 ---
 
@@ -1194,8 +1194,10 @@ let it not be collapsed, but carried with clarity.
 | 5.2 | Bound the constitutional AI-BOM requirement to the source-authoritative Caelestis AI-BOM Profile standard for machine-readable schema, serialization and SPDX/CycloneDX exchange mappings; retained the composition-versus-execution-evidence boundary. | 2026-08-07T18:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9fb286befce7c8d5787f2bd81eb92c1a70f38df367084731e0bc49f8a328c176  |
 | 5.3 | Defined the bounded lifecycle-actor concept and delegated the controlled actor vocabulary and agentic event model to the Lifecycle Actor and Agentic Governance Profile, without conflating role assignment with legal status, liability or authority. | 2026-08-07T19:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  0d34b97c5993f87dc220d679a54b10ed088251fe0fe42c73959e9b2e1b0334e0  |
 | 5.4 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e9987ce13f3a9bd4decf2eff13b1ec7be692c3cb14d32ed44a6d164ab9e19dc1  |
+| 5.5 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  42e0606728e0e2033df46ba0e2a8736c254e9514f0cd0fa23ff30d10a0e3e348  |
 
 ---
+
 
 ## 18.4 Binding Seal
 

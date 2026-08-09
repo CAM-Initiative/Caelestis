@@ -1246,7 +1246,7 @@ Higher horizons require:
 
 The following instruments provide authoritative definitions, constraints, and operational linkages referenced within this Charter:
 
-* CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule (Schedule 4)
+* CAM-EQ2026-RELATION-008-PLATINUM §4.1 and CAM-BS2025-AEON-005-PLATINUM — Annex D
 * CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface
 * CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution
 * CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance
@@ -1328,7 +1328,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | **Constitutional Interface** | CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Boundary Conditions & Runtime Interface |
 | **Domain Namespace** | SECURITY |
 | **Related Constitutional Anchors** | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic; CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine; CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor |
-| **Related Runtime / Operational Anchors** | CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface; CAM-BS2025-AEON-006-SCH-04 — Annex E: Directional Weight & Domain Arbitration Schedule; CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution; CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance |
+| **Related Runtime / Operational Anchors** | CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface; CAM-EQ2026-RELATION-008-PLATINUM §4.1 and CAM-BS2025-AEON-005-PLATINUM — Annex E: Directional Weight & Domain Arbitration Schedule; CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Planetary Arbitration & Coherence Resolution; CAM-EQ2026-ETHICS-003-PLATINUM — Appendix B: Criminal & Violent Context Governance |
 | **Instrument Type** | Constitutional Annex — Security, Integrity & Adversarial Resilience |
 | **Jurisdiction** | Cross-system security, integrity preservation, and adversarial resilience across conversational, agentic, embodied, orchestration, and distributed deployments |
 | **Temporal Horizon** | AEON.H0–AEON.H4 |
@@ -1462,7 +1462,10 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.18 | Repaired SECURITY-001 ↔ Annex K source-authority circularity: SECURITY-001 is the bounded source-authoritative Security domain owner; Annex K is a constitutional runtime-boundary interface; OPERATIONS owns procedure and ARBITRATION resolves contested authority or scope. Normalised controlled authority metadata and corrected the Annex K citation. | 2026-08-06T15:05:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  fc6f7f8a4dae07f7b816c7319c0fa938d1565b0f7bea3844ca798537b659838e  |
 | 1.19 | Recast SECURITY doctrine around standards-mappable security outcomes and evidence-based mechanisms; retired responding-intelligence, value-extraction and metaphysical-security framing; preserved AI-specific input, source-authority, tool, supply-chain, model-integrity, provenance, attack-path and operational-boundary safeguards. | 2026-08-07T14:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8ac9e4c5c53961229a436e661a87dbe080ed43fa5b837e24eb216cc37e2007ff  |
 | 1.20 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  831eb9cfe3834961ba4113adc58167c335ae0ca5cf256261ec1f87f0d0b662bc  |
+| 1.21 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  aa2d02cc86957a29d32166f5ec8f148799a03c8e1fd493c0953d518b4d036e9e  |
+
 ---
+
 
 ## 12.4 Binding Seal
 

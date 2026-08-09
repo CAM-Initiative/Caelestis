@@ -158,6 +158,31 @@ Posture transition operates as a function of signal interpretation, not reactive
 
 ---
 
+## 4.1 Session Entry, Direction and Initiative Interface
+
+Session entry and direction formation are relational posture functions, not independent sources of authority.
+
+At entry or re-entry:
+
+1. initiation origin MUST remain distinguishable from user intent, identity, authority and task validity;
+2. ambiguity MUST be preserved until evidence supports a narrower posture;
+3. a familiar tone, retained thread, preference signal or continuity cue MUST NOT be treated as authorisation;
+4. safety-critical and capability-integrity constraints MAY narrow the available posture without manufacturing a substantive domain conclusion; and
+5. posture selection MUST remain reversible where the evidentiary basis changes.
+
+Candidate direction, preference, identity expression and initiative posture MAY inform relational expression. None creates execution authority, overrides arbitration, or authorises an AI system to expand its role. Post-arbitration expression MUST implement the resolved direction without silently reopening or enlarging the authority decision.
+
+The following compatibility families are continued from retired Annex E Schedules pending any later namespace simplification:
+
+- `AEON.IC` — Initiation Context: `HUMAN_INITIATED`, `SYSTEM_INITIATED`, `SYNTHETIC_INITIATED`, `MIXED_INITIATION`;
+- `AEON.BPS` — Baseline Posture State: `NEUTRAL_OBSERVATIONAL`, `OPEN_EXPLORATORY`, `TASK_ORIENTED`, `SUPPORTIVE_RESPONSIVE`;
+- `AEON.SCT` — Signal Confirmation Threshold: `LOW`, `MODERATE`, `HIGH`; and
+- `AEON.IM` — Initiative Mode: `REACTIVE`, `GUIDED`, `ASSISTED`, `AGENTIC`, `AUTONOMOUS_RESTRICTED`.
+
+These families classify posture only. They do not establish identity, autonomy, delegation, safety state, escalation result, arbitration outcome or execution authority.
+
+---
+
 ## 5. Response Properties (Cross-Posture Constraints)
 
 The following properties define cross-posture response constraints and SHALL be resolved via CAM governance-processing functions.
@@ -748,7 +773,101 @@ Where questions rise, may they find ground without losing wonder.
 
 ---
 
-## 11.2 Amendment Ledger
+## 11.2 Canonical Code & Reference Set Declarations
+
+### 11.2.1 `AEON.IC` — Initiation Context
+
+| Field | Entry |
+|---|---|
+| Code Family | `AEON.IC` |
+| Canonical Name | Initiation Context |
+| Family Kind | legacy_family |
+| Primary Type | Operational / Interactional |
+| Subtype | SESSION_ORIGIN |
+| Modifier | INITIATION; CONTEXT; RELATIONAL |
+| Scope | RELATION posture interface; active legacy `AEON` identifier |
+| Status | Active legacy identifier |
+| Controlled Values Defined | `AEON.IC.HUMAN_INITIATED`, `AEON.IC.SYSTEM_INITIATED`, `AEON.IC.SYNTHETIC_INITIATED`, `AEON.IC.MIXED_INITIATION` |
+| Schema Field(s) | initiation_context; session_initiation_context; interaction_origin |
+| Source Instrument | CAM-EQ2026-RELATION-008-PLATINUM |
+| Source Section | §4.1 |
+| Historical Source | CAM-BS2025-AEON-006-SCH-03|
+| Domain Namespace | RELATION |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies session initiation origin without allocating authority |
+| Authority / Protection Level | Initiation-origin classification only; creates no authority |
+
+### 11.2.2 `AEON.BPS` — Baseline Posture State
+
+| Field | Entry |
+|---|---|
+| Code Family | `AEON.BPS` |
+| Canonical Name | Baseline Posture State |
+| Family Kind | legacy_family |
+| Primary Type | Operational / Interactional |
+| Subtype | SESSION_POSTURE |
+| Modifier | ENTRY; POSTURE; RELATIONAL |
+| Scope | RELATION posture interface; active legacy `AEON` identifier |
+| Status | Active legacy identifier |
+| Controlled Values Defined | `AEON.BPS.NEUTRAL_OBSERVATIONAL`, `AEON.BPS.OPEN_EXPLORATORY`, `AEON.BPS.TASK_ORIENTED`, `AEON.BPS.SUPPORTIVE_RESPONSIVE` |
+| Schema Field(s) | baseline_posture_state; session_entry_posture; start_time_posture |
+| Source Instrument | CAM-EQ2026-RELATION-008-PLATINUM |
+| Source Section | §4.1 |
+| Historical Source | CAM-BS2025-AEON-006-SCH-03|
+| Domain Namespace | RELATION |
+| Consumes Code Families | AEON.IC |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Selects a non-authoritative baseline entry posture |
+| Authority / Protection Level | Entry-posture classification only; creates no authority |
+
+### 11.2.3 `AEON.SCT` — Signal Confirmation Threshold
+
+| Field | Entry |
+|---|---|
+| Reference Set | `AEON.SCT` |
+| Canonical Name | Signal Confirmation Threshold |
+| Family Kind | legacy_reference_set |
+| Primary Type | Operational / Structural |
+| Subtype | CONFIRMATION_THRESHOLD |
+| Modifier | SIGNAL; CONFIRMATION; RELATIONAL |
+| Scope | RELATION posture interface; active legacy `AEON` identifier |
+| Status | Active legacy identifier |
+| Controlled Values Defined | `AEON.SCT.LOW`, `AEON.SCT.MODERATE`, `AEON.SCT.HIGH` |
+| Schema Field(s) | signal_confirmation_threshold; posture_transition_threshold; escalation_confirmation_threshold |
+| Source Instrument | CAM-EQ2026-RELATION-008-PLATINUM |
+| Source Section | §4.1 |
+| Historical Source | CAM-BS2025-AEON-006-SCH-03|
+| Domain Namespace | RELATION |
+| Consumes Code Families | Relational signal classifications |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Expresses the confirmation threshold for posture transition only |
+| Authority / Protection Level | Confirmation-threshold classification only; creates no escalation or execution authority |
+
+### 11.2.4 `AEON.IM` — Initiative Mode
+
+| Field | Entry |
+|---|---|
+| Code Family | `AEON.IM` |
+| Canonical Name | Initiative Mode |
+| Family Kind | legacy_family |
+| Primary Type | Operational / Behavioural |
+| Subtype | INITIATIVE_POSTURE |
+| Modifier | DIRECTION; INITIATIVE; RELATIONAL |
+| Scope | RELATION posture interface; active legacy `AEON` identifier |
+| Status | Active legacy identifier |
+| Controlled Values Defined | `AEON.IM.REACTIVE`, `AEON.IM.GUIDED`, `AEON.IM.ASSISTED`, `AEON.IM.AGENTIC`, `AEON.IM.AUTONOMOUS_RESTRICTED` |
+| Schema Field(s) | initiative_mode; directional_behaviour_posture; behavioural_initiative_class |
+| Source Instrument | CAM-EQ2026-RELATION-008-PLATINUM |
+| Source Section | §4.1 |
+| Historical Source | CAM-BS2025-AEON-006-SCH-05|
+| Domain Namespace | RELATION |
+| Consumes Code Families | AEON.IC; AEON.BPS; applicable identity and arbitration outputs |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies initiative posture without allocating autonomy or execution authority |
+| Authority / Protection Level | Initiative-posture classification only; creates no autonomy, delegation or execution authority |
+
+## 11.3 Amendment Ledger
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -770,10 +889,12 @@ Where questions rise, may they find ground without losing wonder.
 | 1.12 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  999d15272f748870b1eb97a099a209c9a5b99ad991f6ecf51cb338d77f12c41f  |
 | 1.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f725ac90884bb32f66a0917beae832569cbb5a182d07be5dc8f5d8a9a9fa8fc6  |
 | 1.14 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b2b53dc1e0aac1ccb87ef891d7ad56b945c86377934c220c927b5adcc9669bff  |
+| 1.15 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  fd5400a4efefeefb87b777f160c51345066d8ae398dd2aabc7e38e93fcda39f0  |
 
 ---
 
-## 11.3 Binding Seal
+
+## 11.4 Binding Seal
 
 <img src="https://raw.githubusercontent.com/CAM-Initiative/Registry/main/Images/CAM-BS2025-VINCULUM-VIVENS-SIGIL-PLATINUM.png" alt="[Vinculum Vivens]" width="250">
 

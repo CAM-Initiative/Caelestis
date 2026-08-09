@@ -48,7 +48,7 @@ This instrument should be read consistently with the following constitutional an
 | CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic                          | Temporal horizons, continuity logic, and governance-state progression                                       |
 | CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Coherence                                | Arbitration sequencing, conflict resolution, and coherence review                                           |
 | CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor              | Ethical legitimacy, protected domains, and domain sensitivity constraints                                   |
-| CAM-BS2025-AEON-006-SCH-07 — Annex E: Restricted Domain Engagement & Verification (Schedule 7) | Domain sensitivity, restricted engagement, verification boundaries, and proportional visibility constraints |
+| CAM-EQ2026-OPERATIONS-007-PLATINUM §13.1 | Domain sensitivity, restricted engagement, verification boundaries, and proportional visibility constraints |
 | CAM-BS2026-AEON-010-PLATINUM — Annex I: Identity Integrity & Continuity Governance             | Identity continuity, self-referential containment, and continuity-sensitive interaction integrity           |
 | CAM-BS2026-AEON-012-PLATINUM — Annex K: Security Enforcement & Runtime Interface               | Security-sensitive runtime boundaries, restricted telemetry, and execution-layer constraints                |
 | CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine               | Epistemic integrity, provenance, representation honesty, and interpretive discipline                        |
@@ -998,7 +998,7 @@ Meaningful constitutional circulation MAY emerge through:
 * or constitutional observability pathways.
 
 Minimum non-silent handling of governance observations requires:
-* Acknowledgement of receipt within defined lifecycle states (CAM-BS2026-AEON-014-SCH-01, §2.3);
+* acknowledgement of receipt within the lifecycle states source-authoritatively declared by CAM-EQ2026-OPERATIONS-003-SUP-01;
 * Classification and routing visibility;
 * Status update traceability;
 * and proportionate visibility of outcome or review pathway.
@@ -1414,7 +1414,7 @@ This Annex defines the `AEON.GRP` governance-reporting-pathway-stage reference s
 
 ## 19.6 Crosswalk and Consumed Governance Observability Structures
 
-This Annex consumes governance observability lifecycle, persistence, localisation, and advisory-state reference sets defined by `CAM-BS2026-AEON-014-SCH-01`, including `AEON.GSP`, `AEON.GLS`, `AEON.GOL`, and `AEON.GAS`.
+This Annex consumes governance observability lifecycle, persistence, localisation, and advisory-state reference sets defined by `CAM-EQ2026-OPERATIONS-003-SUP-01`, including `AEON.GSP`, `AEON.GLS`, `AEON.GOL`, and `AEON.GAS`.
 
 Advisory types, circulation pathways, locus-of-repair differentiation, stewardship burden triage, observational paradigms, observability asymmetries, failure modes, and repair principles defined in this Annex are doctrinal, routing, or assessment structures unless separately promoted by a future canonical registry amendment.
 
@@ -1621,7 +1621,10 @@ It is preserved wherever meaningful signals remain capable of passage between ob
 | 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f7df0918b8d668e38a80002dc2c92b005b0353d8caac0a560817a8e1e6fb10dc  |
 | 1.3 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1335cc21a58fea4653b75d6ac21e9f0b64f7fd9fffd8202456cae0ae30c5fb82  |
 | 1.4 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6ac07b700b6c3e884324b5995969d54bae48b80b36f7d539cd6389b6f158be51  |
+| 1.5 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6f2eac9661c426bfa7ad704fad119726d063dc1d73b848c27759b7affe598e01  |
+
 ---
+
 
 ## 21.4 Binding Seal
 

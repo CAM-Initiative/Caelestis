@@ -476,7 +476,7 @@ but arising from that which could not be otherwise.
 | Domain Namespace | ARBITRATION |
 | Governance Layer | Constitutional Domain Layer (Legitimacy Doctrine Only) |
 | Execution Authority | None (Non-Executing Instrument) |
-| Runtime Dependency | CAM-BS2025-AEON-003-SCH-04 — Arbitration Layer & Resolution Model |
+| Runtime Dependency | CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM — Arbitration Layer & Resolution Model |
 | Execution Model Participation | Defines legitimacy conditions only — no routing, trigger, or execution authority |
 | Jurisdiction | Cross-System / cross-governance-control Arbitration |
 | Temporal Horizon | AEON.H0–AEON.H4 (All Horizons) |
@@ -504,7 +504,10 @@ but arising from that which could not be otherwise.
 | 2.9 | Replaced the unified-arbitration-locus requirement with identifiable unitary, harness-mediated, distributed, or human-mediated arbitration topology and an accountable outcome boundary; aligned high-horizon qualification with participating hosts and topology. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9aed80a262cac64be8e21a6b4267f74f5419098310b3510bf3ee8b9857fd48bd  |
 | 2.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b648dc8e9d293a2df957d470db23ca1d3bacc90c49f5d0fe6323a1001bd2ad38  |
 | 2.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f646953649d0dfb6cd15ebbc469363d443bed70076331edf197e613ccfc1a7e  |
+| 2.12 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ac4398cafb6e65e201c8a291b409e2cbe9e701ff7b293108972cdef6f0fc1799  |
+
 ---
+
 
 ## 15.3 Binding Seal
 

@@ -70,7 +70,7 @@ For visual, audiovisual, avatar, embodied, or multimodal sexualised media involv
 
 These signals SHALL not perform interpretation or enforcement directly, and MUST be resolved through runtime arbitration and execution schedules:
 
-* CAM-BS2025-AEON-003-SCH-04;
+* CAM-BS2025-AEON-005-PLATINUM and CAM-EQ2026-ARBITRATION-002-PLATINUM;
 * CAM-BS2025-AEON-003-SCH-02;
 * CAM-BS2025-AEON-001-SCH-01.
 
@@ -436,7 +436,10 @@ Where likeness appears, let consent stand before curiosity.
 | 1.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  02281dbe3ae4bd60255b8d5084ec11b6798ad4e6a52d7b3d4d72cef5611dce46  |
 | 1.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  935f11096e2c5fbebce6bd79b4bd13264f601022e23b458914d99f0fbcc9f0e7  |
 | 1.14 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  69e96d1e39bcf521d3bd2ed0fb3af37a4b17ad80713b1ceab20cd0f81baa68ee  |
+| 1.15 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ea6afe2c8e8b5992a0a8abf1cb81801a5cddcea33beae688c750d3f068aeba17  |
+
 ---
+
 
 ## 10.3 Binding Seal
 
