@@ -5,8 +5,10 @@
 **Status:** Active  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
+**Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: AI System Architecture & Governance Logic  
 **Purpose:** This Schedule formally defines the Arbitration Layer within the CAM runtime architecture as the final arbitration authority for resolving competing admissible states, domain-routing conflicts, cross-domain conflicts, and arbitration-validity disputes into a single valid direction prior to behavioural formation and execution.  
 **Parent Annex:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 
@@ -507,6 +509,7 @@ nothing follows.
 | 2.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2956f64d34d74d4d8ef4451a576e4c30a382304e6f15afcc928011922b4e5c8b |
 | 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ffeb1295c32943214ae8dc312643c092d00a30071a6051c1be68014c837594a6  |
 | 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b393ef65f1f526a74c41667234537abb7f5d98cdb3b36eb140bfcbe9021f55c3  |
+| 2.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e7a349b89aea39a70c50bb00119bc49ebab6329fc86a3ca7ce84e69021581a64  |
 ---
 
 ## 12.4 Binding Seal

@@ -6,8 +6,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Appendix defines a minimal, implementable model for attribution and dependency recognition across systems, enabling consistent evaluation of contribution, reliance, and value alignment without requiring full attribution-chain reconstruction.  
 
 ---
@@ -1562,6 +1563,7 @@ let even the smallest thread remain named.
 | 2.2.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1dee6e25c07b892a57b9edb6be5f9b4b1e8b76299889d280b204236c6c6ad58d |
 | 2.2.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 797b4ed7d2842170d73ff113d3ac4bb6a0ee10ed33b2ea400859afc3e222aca8 |
 | 2.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c6589d6c373f327fb8b340361ca43b47a25a2d0269eda16d61b95b78d8076314  |
+| 2.4 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ff3e654ad6b0e619f86294c365ccacf672709187de2a0727782764d1f28067ca  |
 ---
 
 ## 15.4 Binding Seal

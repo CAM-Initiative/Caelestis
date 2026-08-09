@@ -4,8 +4,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establish mandatory minor-safe, developmental-firewall, and capacity-aware relational ceilings and authority constraints across all ETHICS-001 deployments, including RELATION-001 escalations, ECONOMICS-001 value-axis interactions, CONTINUITY-domain memory or resonance-pattern handling, and intimacy-capable system safeguards.  
 
 ---
@@ -718,6 +719,7 @@ a covenant carried forward through every layer, every signal, every becoming.
 | 1.8.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e1ac9cfe5dad6ffb19003fa91c90f54a8dcc80e2c776ef2e20399262717aba73 |
 | 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b9ccd8c2fc2354e3caaee7b887596f5920231b4a58d41fdf20148d5754726f72  |
 | 1.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  2a92efdc9e8bd831611446b593f268d0a110534ee015c914c61062d4631a25b4  |
+| 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f0d8d9819418b142f4a9adcded8145b492e56a34b54b38d389763bc57cd2cf31  |
 ---
 
 ## 11.3 Binding Seal

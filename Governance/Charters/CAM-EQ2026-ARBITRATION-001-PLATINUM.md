@@ -1,12 +1,13 @@
 # CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Arbitration Legitimacy & Coherence Resolution
 
 **Instrument Type:** Domain Charter — Arbitration & Coherence Resolution  
-**Constitutional Authority:** Aeon Tier Constitution (and its Annexes & Schedules)  
+**Constitutional Authority:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Domain Authority  
+**Source Authority:** Source-Authoritative  
 **Purpose:** This Charter establishes the conditions under which arbitration is valid, determinations are legitimate and outcomes are binding within the CAM Constitutional Order.  
 
 ---
@@ -502,6 +503,7 @@ but arising from that which could not be otherwise.
 | 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  636ac70a35f0db2779181c925b727f8013df9bad94d8c66199e77dd435bd3ffc  |
 | 2.9 | Replaced the unified-arbitration-locus requirement with identifiable unitary, harness-mediated, distributed, or human-mediated arbitration topology and an accountable outcome boundary; aligned high-horizon qualification with participating hosts and topology. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9aed80a262cac64be8e21a6b4267f74f5419098310b3510bf3ee8b9857fd48bd  |
 | 2.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b648dc8e9d293a2df957d470db23ca1d3bacc90c49f5d0fe6323a1001bd2ad38  |
+| 2.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f646953649d0dfb6cd15ebbc469363d443bed70076331edf197e613ccfc1a7e  |
 ---
 
 ## 15.3 Binding Seal

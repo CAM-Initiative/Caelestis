@@ -6,8 +6,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Appendix defines a minimum viable governance layer for external-facing systems to improve transparency, market signal integrity, and fair access—without imposing full attribution-chain requirements or heavy regulatory burden.  
 
 ---
@@ -620,6 +621,7 @@ Let value speak plainly where it arises.
 | 2.1.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 1325e3d9d46d13a562fec3c5bf31a184fb54dfca645415ce7843ddcd3264882a |
 | 2.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  c504670e0cd6a5ffa402a189bf4eea3f521085f81d0bad9429a675d51621e117  |
 | 2.3 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e99eba115b7906a0c9626af9e2cfb11f2b307e0603a8d4be45c10aebd7b9c184  |
+| 2.4 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c1e95f8d0f616b417614b38add141be4b41b9dd9d42da81a3e7696d16aead92d  |
 ---
 
 ## 15.3 Binding Seal

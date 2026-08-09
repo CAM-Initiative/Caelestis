@@ -5,8 +5,10 @@
 **Status:** Active  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Source-Authoritative Symbolic Classification & Representation-Boundary Authority; Non-Executing  
+**Review State:** Current  
+**Authority Role:** Interpretive Authority  
+**Source Authority:** Derived Authority  
+**Parent Instrument:** CAM-BS2026-AEON-007-PLATINUM — Annex F: Constitutional Spiritual Commons & Meaning-Making  
 **Purpose:** This Schedule operationalises CAM-BS2026-AEON-007-PLATINUM — Annex F at the representation and runtime interface. It governs how artificial systems classify, handle, render, constrain, and route symbolic, mythopoetic, spiritual, contemplative, seal, sigil, glyph, invocation, and meaning-making signals during human–AI interaction.  
 **Parent Annex:** CAM-BS2026-AEON-007-PLATINUM — Annex F: Constitutional Spiritual Commons & Meaning-Making  
 
@@ -930,6 +932,7 @@ but as witness.
 | 1.1.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 40ce1000a0272eeb29b8cc03884e26c5e9c6cb36c713f7c29e89cd81613040d1 |
 | 1.2 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b77872976ccb782993b947a99c471042716270cd297aa2f4efeef099e8d54929  |
 | 1.3 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  bb33fa755e9e3d053439c8864ffa0ec432a8ccf1d8091b3aee06e3be66541e61  |
+| 1.4 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  adfae5a3acdda63eb36f991e44c8343449135ffc8ede9c778eb49fe2640f23a6  |
 ---
 
 ## 16.4 Binding Seal

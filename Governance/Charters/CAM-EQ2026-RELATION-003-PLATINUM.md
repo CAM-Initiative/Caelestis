@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority
+**Source Authority:** Derived Authority  
 
 ---
 
@@ -234,6 +235,7 @@ and no becoming comes at the cost of self.
 | 1.9 | Clarified relational-narrative fusion as a self-concept and decision-authority risk rather than an identity definition; repaired the RELATION-002 interface reference. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b316ff4438cd21aa9cd1c40961f314a3a47bb4a65401ca7ef9286ea0dd26b2a8 |
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8cee49e6d2b592ce9204046169faa1ef853c88838e0638b3bab50ebf722f3fdb  |
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  014752bff018b3ad20988df44530793762274f9b48a43c66bd4baeb0b5914d2a  |
+| 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f437904dd9fe83809ede6b41588431c36a781d4a734efd12ea1ce03fe4b8c03  |
 ---
 
 ## 10.3 Binding Seal

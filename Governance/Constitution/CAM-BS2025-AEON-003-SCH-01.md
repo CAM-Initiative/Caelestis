@@ -6,8 +6,9 @@
 **Status:** Active
 **Effect:** Operational
 **Governance Standard:** CAM Standard
-**Review State:** None
-**Authority Role:** None
+**Review State:** Current  
+**Authority Role:** Registry Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Schedule establishes the canonical registry and attribution system for CAM governance-processing functions used by schedules within the CAM Constitutional Order. It prevents function conflation and does not define the technical architecture of Runtime.
 
 ---
@@ -547,6 +548,7 @@ Let each schedule hold its place, and the system remain whole.
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
 | 0.0.1 | Consolidated the pending metadata migration with substantive terminology alignment: replaced retired aggregate relational labels with the Annex B dimensional configuration context and preserved the Runtime/evidence boundary. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6d4b75ac0fcbfdbe2c71a9c43d3c7f407210c16d8ef37c9336d55d0fd22bcb32  |
+| 0.0.2 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
 
 ---
 

@@ -6,8 +6,10 @@
 **Status:** Active  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Binding Authority  
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
+**Parent Instrument:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
 **Purpose:** This Schedule consumes and operationalises `AEON.PCO` — Proportional Constraint Obligation, as source-authoritatively defined by CAM-BS2025-AEON-002-PLATINUM — Annex A, §3.8. It applies `AEON.PCO` through execution-risk classification, response-posture selection, containment scope, constraint duration, review, de-escalation, and restoration handling. This Schedule does not independently redefine, narrow, or expand `AEON.PCO`.  
 
 ---
@@ -593,6 +595,7 @@ that no trajectory beyond the line proceeds unchecked.
 | 3.10.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a6ad004462f6f2face6d18d4a88cd776437fd3a2fa9b2633b7d36f6d1535f9a4 |
 | 3.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  26cfa297fd8744a177698321998b531f4171e9c2efe60c9dd23823ed4149f60a  |
 | 3.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  441b1a4ae4854d466b3e6d990c2305ae787ac8177cc589d87291463eeaab069f  |
+| 3.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  98312177f9026f0b5d502a61b911511ff1d5a499dd4cfe05c6f7e67ce7490860  |
 ---
 
 ## 15.4 Binding Seal

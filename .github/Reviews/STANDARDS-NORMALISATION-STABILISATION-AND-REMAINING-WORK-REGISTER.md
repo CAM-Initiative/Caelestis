@@ -17,7 +17,7 @@ The branch has added or materially developed the canonical AI-system architectur
 | P2-004 / F-013 / F-014 — SECURITY and Annex K circular or excessive authority | SECURITY-001 owns security doctrine; Annex K is a bounded constitutional interface; procedure routes to OPERATIONS. | Complete | `PASS-4-BATCH-C-ANNEX-K-CONSOLIDATION-DECISION.md`; `PASS-4-BATCH-D-SECURITY-AUTHORITY-DECISION.md`. |
 | P2-005 / F-019 — Responding Intelligence divergence | Retired from current operative doctrine. | Complete for current normative prose | `PASS-4-ZERO-CURRENT-USE-EXCEPTION-REGISTER.md`; canonical-architecture terminology validator. |
 | P2-006 / F-023 — optional Runtime/deployment evidence | Configuration baseline, deployment, Runtime snapshot, execution provenance, AI-BOM and state serialization are now bounded operative records. | Complete at profile level; implementation adoption remains external | Annex B; OPERATIONS-007 §§5–6; AI-BOM and Runtime State profiles and validators. |
-| P2-007 — generated indexes obscure authority/lifecycle | Draft exclusion and governed-output generation are enforced; authority metadata remains incomplete across untouched instruments. | Partial | Draft-boundary validation passes; metadata audit remains non-zero. |
+| P2-007 — generated indexes obscure authority/lifecycle | Draft exclusion, governed-output generation and strict authority-metadata validation are enforced. | Complete | Draft-boundary validation passes; authority-chain audit reports zero exceptions. |
 | P2-008 / F-021 — uncontrolled lifecycle actors | A source-authoritative lifecycle actor model now distinguishes provider, producer, customer, deployer, operator and affected-person roles. | Complete | Lifecycle Actor & Agentic Governance Profile; OPERATIONS-007 §9. |
 | P2-009 / F-022 — agentic controls lack lifecycle ownership | Agent lifecycle events, accountable actors, permissions and evidence are consolidated in the lifecycle profile. | Complete | Lifecycle Actor & Agentic Governance Profile §§2–4; OPERATIONS-007 §9.1.1. |
 | P2-010 — no interoperable AI-BOM | An interoperable profile, schema, examples, SPDX/CycloneDX mappings and validator are present. | Complete at corpus/profile level | AI-BOM profile artefacts and `validate_ai_bom.py`. |
@@ -25,7 +25,7 @@ The branch has added or materially developed the canonical AI-system architectur
 | P2-012 / F-024 — no assurance contract behind conformance labels | Runtime evidence has improved, but issuer competence, assurance level, scope, validity and claim lifecycle are not yet fully source-authoritative. | Still required | OPERATIONS-007; metadata standard; remaining-work item S-02 below. |
 | F-015 — operative identity doctrine depends on a non-operative supplement | All current references to IDENTITY-001-SUP-03 have been removed; operative owners now govern identity–ontology separation, evidence, uncertainty and recipient protection. | Complete | Identity, Continuity, MENTIS, Relation, Annexes I/L and affected schedules; only historical ledger occurrences remain. |
 | F-016 — identity doctrine presents an internal construct as established system property | Identity and continuity claims are evidence-bound and cannot establish phenomenology, personhood or authority; the speculative draft is retired. | Complete for the identified dependency; broader evidentiary audit remains | IDENTITY-001; Annexes I/L; remaining-work item O-02 below. |
-| F-017 — metadata categories are misused | A controlled contract and audit exist; touched instruments were migrated, but corpus-wide migration is unfinished. | Partial | Metadata standard; authority assignment register; post-rebuild metadata audit. |
+| F-017 — metadata categories are misused | The controlled contract now governs the entire operative corpus; authority, source and parent lineage are migrated and strictly validated. | Complete | Metadata standard; authority-chain closure review; strict post-rebuild audit. |
 | F-018 — undefined constitutional-order framing | The principal source-authority instruments were normalised, but a corpus-wide narrative-orientation sweep remains necessary after metadata migration. | Partial | Current terminology audits; remaining-work item O-03 below. |
 | F-026 — research/draft policy shares operative namespace | Draft boundary was established; all remaining draft instruments are now retired and no speculative consciousness instrument remains in Governance. | Complete | `Governance/Drafts/README.md`; draft disposition table below. |
 | Canonical AI-system architecture terminology | Annex B owns the object model; consumers use system baseline → deployment → Runtime snapshot → execution provenance. | Complete for guarded terms | `PASS-4-BATCH-E-CANONICAL-AI-SYSTEM-ARCHITECTURE-DECISION.md`; terminology validator. |
@@ -78,19 +78,20 @@ Git history is the provenance record for every retired draft. No draft was reloc
 | S-02 | Establish the bounded assurance and conformance contract: competent issuer, claim scope, evidence minimum, assessment method, validity, renewal, withdrawal and non-certification language. | F-024; OPERATIONS-007 now supplies evidence inputs but does not own every assurance conclusion. | High |
 | S-03 | Review repeated execution-boundary, arbitration and operational-procedure formulas for consolidation into exact owner references. | Pass 2 source-authority map identifies compatible but excessive repetition. | Medium |
 
-### 5.3 Metadata / provenance defects
+### 5.3 Metadata / provenance disposition
 
 | ID | Remaining work | Evidence / boundary | Priority |
 |---|---|---|---|
-| M-01 | Complete controlled metadata and source-authority migration across all untouched operative instruments. | Post-rebuild metadata audit remains the authoritative numeric baseline; touched instruments only were corrected in this pass. | High |
-| M-02 | Adjudicate and migrate the four constitutional-adjacent Laws without flattening their hierarchy. | Metadata migration plan reserves a dedicated Law mapping. | High |
-| M-03 | Reconcile remaining provenance footers, canonical identifier codes, parent/source lineage and family-specific closing seals. | Header validation does not validate every provenance-footer semantic. | Medium |
+| M-01 | Complete controlled metadata and source-authority migration across all untouched operative instruments. | **Complete.** All 104 operative instruments were adjudicated; 83 required metadata or lineage migration. | Closed |
+| M-02 | Adjudicate and migrate the four constitutional-adjacent Laws without flattening their hierarchy. | **Complete.** All four remain pre-constitutional Epochal Civilisational Invariants; controlled metadata represents their constitutional conflict function without reclassifying them as ordinary constitutional instruments. | Closed |
+| M-03A | Repair parent/source lineage required to support derived and applied authority claims. | **Complete.** Explicit, resolvable lineage is now mandatory and graph-validated. | Closed |
+| M-03B | Reconcile remaining presentation-only provenance-footer wording, canonical identifier codes and family-specific closing-seal conventions. | Header and ledger validation pass; presentation cleanup remains outside the authority-closure boundary. | Medium |
 
 ### 5.4 Validator / generator defects
 
 | ID | Remaining work | Evidence / boundary | Priority |
 |---|---|---|---|
-| V-01 | Move the metadata/source-authority audit to strict enforcement only after the migration and exception register reach zero. | Pass 4 migration plan; current audit remains intentionally non-zero. | High |
+| V-01 | Move the metadata/source-authority audit to strict enforcement only after the migration and exception register reach zero. | **Complete.** The audit reports zero exceptions and the workflow now invokes strict mode without an auto-migration or waiver step. | Closed |
 | V-02 | Add deterministic validation for external-source record completeness and conformance-language claims if machine-readable records are introduced. | OPERATIONS-001-SUP-04 §8.4 establishes the contract but this pass does not invent a registry or schema prematurely. | Medium |
 | V-03 | Extend semantic-orientation guards for project/framework names used as normative actors while excluding titles, identifiers, provenance and ledgers. | Existing terminology guards do not fully express the grammatical-actor rule. | Medium |
 | V-04 | Keep generated indexes and registries source-derived and verify that draft exclusion, authority metadata and canonical-code projections remain synchronized. | Deterministic rebuild and draft-boundary validation cover current outputs; strict metadata enforcement is pending. | Medium |
@@ -107,13 +108,13 @@ The following are not current normative defects:
 * retired draft identifiers, former code families, Responding Intelligence, machine-civil-identity, cognitive/composed-system and relational-taxonomy terms inside historical amendment-ledger rows;
 * formal instrument titles, canonical identifiers, provenance records and explicit historical disposition statements;
 * non-normative review records that accurately describe the state at the time of review;
-* the constitutional-adjacent Laws pending their dedicated metadata migration, where already recorded in the exception register.
+* historical descriptions of the four Laws as constitutional-adjacent, provided they do not alter their operative classification as Epochal Civilisational Invariants.
 
 ## 6. Recommended next bounded work package
 
-Complete **M-01/M-02/V-01 as one metadata and source-authority migration package**: adjudicate remaining operative instruments by hierarchy, migrate the four Laws separately, regenerate outputs, reduce the metadata audit and reviewed exceptions to zero, and only then enable strict validation. Do not combine that package with the assurance/conformance architecture in S-02.
+Complete **S-01 — Constitutional Schedule Authority and Scope Adjudication** as the next bounded package. The authority-chain pass establishes truthful current metadata but does not perform the full architectural rationalisation of schedule content.
 
-The assurance/conformance contract is the next substantive package after metadata authority can be relied upon.
+After S-01, proceed to **S-02 — Assurance and Conformance Contract**. Do not combine either package with O-01, O-02 or O-03.
 
 ## 7. Validation record
 
@@ -121,14 +122,14 @@ The deterministic rebuild was run twice. The complete working diff had the same 
 
 | Validation | Result |
 |---|---|
-| Amendment Ledger lint and strict SHA coverage | Pass; 94 Constitution/Charter instruments checked, 1,456 valid historical SHA rows, 94 valid latest SHA rows, no rejected blanks. |
+| Amendment Ledger lint and strict SHA coverage | Pass; 94 Constitution/Charter instruments checked, 1,533 valid historical SHA rows, 92 valid latest SHA rows, two historically permitted blank schedule seals, no invalid or rejected SHA rows. |
 | Canonical headers | Pass; 100 governed files, zero issues. |
 | Canonical architecture terminology | Pass; 6 canonical-source contracts across 114 operative artefacts. |
-| Markdown section references | Pass; 1,396 references, 1,204 passed, 192 historical-ledger references ignored, zero hard failures or manual-review references. |
+| Markdown section references | Pass; 1,401 references, 1,209 passed, 192 historical-ledger references ignored, zero hard failures or manual-review references. |
 | Draft boundary | Pass; 0 draft instruments and 8 operative generated outputs checked. |
 | AI-BOM and Runtime State profiles | Pass; canonical, exchange and mapping examples validate. |
 | Symbolic/index validation | Pass; no errors. Canonical-code generation retains 27 non-blocking legacy declaration-shape warnings recorded as V-05. |
-| Script tests | Pass; 128 tests. |
-| Metadata/source-authority audit | Incomplete by design: 104 operative instruments scanned; 78 instruments with 281 exceptions (`binding_effect_source_conflict` 34, `missing_required_field` 97, `registry_tier_role_conflict` 1, `uncontrolled_value` 149). This improves the starting audit of 92 instruments and 328 exceptions but does not close M-01/M-02. |
+| Script tests | Pass; 132 tests. |
+| Metadata/source-authority audit | Closed: 104 operative instruments scanned; zero instruments with exceptions; zero exceptions. Strict enforcement is enabled. |
 | Narrative-orientation residue | Exact current-prose checks find no `Caelestis SHALL`, `Caelestis MAY`, `CAM SHALL`, `CAM MAY define`, or `CAM operational extension`; the last phrase remains only in the historical AEON-001 amendment ledger. |
 | Retired draft dependencies | Current operative prose contains none; remaining identifiers occur only in historical amendment-ledger rows and review/disposition records. |

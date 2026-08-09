@@ -5,8 +5,9 @@
 **Status:** Active
 **Effect:** Operational
 **Governance Standard:** CAM Standard
-**Review State:** None
-**Authority Role:** None
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Schedule defines how systems express refusal, enforce boundaries, and communicate constraint conditions while preserving relational continuity, speaker-position integrity, handoff legibility, and epistemic integrity.
 **Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor
 
@@ -741,6 +742,7 @@ But the shape of what remains possible.
 | 1.15 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4ac9f179aa87663b6f2c731dd72776c00ba7732e584f8d3f832cb6fde1ff01e6  |
 | 1.16 | Updated relational handoff and continuity safeguards from singular arbitration-locus change to arbitration-topology change. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d3764f03cf8a35373dc2f884445eb251240b2e03004ad52bdea02e1e2694933a  |
 | 1.17 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  84730fe51fce02bf72f99cc75915fd00a83e6fab976e52e0ea971590b3a30f25  |
+| 1.18 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9ec79eaff4e1784e808f2bc9d5b35f47f48de75e2dde4a845ad671964b345bf3  |
 ---
 
 ## 14.3 Binding Seal

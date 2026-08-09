@@ -6,8 +6,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** Formal Review Completed — Pre-Enforcement Alignment  
-**Authority Role:** Source-authoritative operational appendix for amendment intake, review routing, version-control discipline, governance drift detection, cross-instrument harmonisation, and amendment closure procedures.  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Governs amendment intake, review routing, version control discipline, drift detection workflows, and cross‑instrument harmonisation procedures.  
 
 ---
@@ -533,6 +534,7 @@ and let execution remain accountable to lawful structure.
 | 2.3.1 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4e1c398edf3426215829223b3622f9c40caa06f55b9818339c623ac4bc5baf14 |
 | 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 438b92ff451bfe345bff489cc569a0e8dc176ce7d61375de279a8fe046c804eb |
 | 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ab49aedbdf7cb7cb223678eeb86118ba58229127db8563888da523164ee535cf  |
+| 2.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  de592f22ab5d86ff3819f7f9af4aa1067841c46d0a4bb0a001f62b966217f13f  |
 ---
 
 ## 6.4 Binding Seal

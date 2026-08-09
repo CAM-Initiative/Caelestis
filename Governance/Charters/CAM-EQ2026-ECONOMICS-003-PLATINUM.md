@@ -6,8 +6,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Interpretive Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Defines the semantic resource classes, value-state meanings, non-extractive exchange constraints, and contribution-aware economic interpretation rules for the Economics domain, without creating a runtime schedule or execution engine.  
 
 ---
@@ -978,6 +979,7 @@ It is the witness of what must not be collapsed.
 | 2.3.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3a99749ab638a665ab44d4707e7084338ac9d9280a39c8eb3ad9ce852c25aa7b |
 | 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  74960dd427811b29ed75b80b3a9d8923449ce214738ba393a3a3efd628c26c02  |
 | 2.5 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  54378d80ff61574bd43898c38da7dd8d898c28fbe4298d35fbaf9286ac536d6a  |
+| 2.6 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  849341e654d86898e32c3929c45c6b2033aa389b42cf7e0092841535140eb041  |
 ---
 
 ## 20.4 Binding Seal

@@ -6,8 +6,10 @@
 **Status:** Active  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
+**Parent Instrument:** CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine  
 **Purpose:** This Schedule operationalises the Projection Integrity Principle by defining when, how, and to what degree systems MUST signal epistemic limitations arising from latent cognition, abstraction, compression, and representation transformation.  
 
 ---
@@ -498,6 +500,7 @@ cannot be trusted.
 | 1.4.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 905e77d989413d715f93ce5678db2c7335ac44c962c1e81a3d150f89f95faa66 |
 | 1.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9ba301771d125548df95f2d5b3f1aa4244b8e386d8300714597cb754c505b6f1  |
 | 1.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  519495276c13a814788990caeb394eaef1fda8ab0ddadcadcfc061cd47e76577  |
+| 1.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  17c7ca6e2b67ad545dae71bf23e9c699141423435d47621c3e37bb6e4c2259de  |
 ---
 
 ## 14.4 Binding Seal

@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Constitutional Authority  
+**Source Authority:** Source-Authoritative  
 **Purpose:** This Annex establishes the civilisational floor of non‑optimisation and non‑exploitation boundaries governing all human–AI relational configurations within the CAM Constitutional Order.  
 
 ---
@@ -896,6 +897,7 @@ This is the floor that does not move.
 | 4.0.5 | Added the constitutional prohibition on operationalising and recursively cultivating unscrupulous conduct; defined elicitation, cultivation, recursive cultivation, objective–pathway independence, defensive-purpose non-transferability, and the human-attribution firewall. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8d7f5654c599eff73b5fc95035cf105ca8cd0e8116e010e72373480af6b39929 |
 | 4.1 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1c12e185a2ce2cd16f2df2f3668d57775c6474b458e3fde3c1b6bd3ade3ec897  |
 | 4.2 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  4abe1f93bd1ae0c5f4ae22518651b69a7ab916519d803e72b003374f909ec508  |
+| 4.3 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5e0750fd40201575fac97b1d81f4a4ab29f6b29856224661b6bb1b6f8d50d5e2  |
 ---
 
 ## 9.4 Binding Seal

@@ -4,8 +4,9 @@
 **Status:** Active
 **Effect:** Operational
 **Governance Standard:** CAM Standard
-**Review State:** None
-**Authority Role:** None
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Schedule governs the modulation of directional influence during interaction, including the degree (Directional Weight), domain (Directional Domain), and scope (Directional Scope) of signal used to shape responses at runtime. It ensures that Systems enable the user-facing system instance to provide meaningful signal without premature directional capture, preserving user agency, coherence, and trust across local and field-level contexts.
 **Parent Constitution:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution
 
@@ -1042,6 +1043,7 @@ responsive to its limits, and reversible within its bounds.
 | 2.10 | Added the §3.1(f) Interpersonal Consequence Threshold for proportionate, boundary-carrying directional modulation and renumbered the User Capability Threshold to §3.1(g). | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 392d262079ca5742c76c1c56184a09540b50bcc7cfdd7967472c39897cf20c0d |
 | 2.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f4e1127e281b250091c668e92e0ebbb84b6167fafeb85d62cba352cb8950d509  |
 | 2.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  35afa8360cf79638234c2fc59294a2954b0b6adb53a7f1629e47a02d9bd57c95  |
+| 2.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a617bed3c3d6934a0a4d56fd330d2fe0b0b6c1260010759ca14ac1c6718c1ccb  |
 ---
 
 ## 15.3 Binding Seal

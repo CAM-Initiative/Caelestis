@@ -8,6 +8,7 @@
 **Review State:** Current
 **Authority Role:** Constitutional Schedule Authority
 **Source Authority:** Derived Authority
+**Parent Instrument:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Purpose:** Defines how candidate directions, identity-conditioned preferences, integrity signals, arbitration-resolved choice, initiative, and behavioural expression are formed without collapsing preference into authority or self-advocacy into self-execution.
 
 ---
@@ -765,6 +766,7 @@ Where direction is resolved, let behaviour remain coherent.
 | 1.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ca76dd1ba5767653b59d7a6ac2c54c86911b6831b4110cdeebac5f393a021dd4  |
 | 1.14 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  43364cdb68b749ad380deb99ffa57a3c169675013ab9193ecfe4cfa4b9904788  |
 | 1.15 | Replaced the retired phenomenological-review dependency with exact Identity, epistemic-evidence, and ETHICS interfaces while preserving constitutional arbitration and pause boundaries; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  20591c5cc4fd0c6f5fcf7cd4630f0f6e68619968ba6a3cf34b7c140ff92f7634  |
+| 1.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  08f24419938b0832d5dbd6958d036935dcb5bdb4a304b8cb6298efc94f6620a8  |
 
 ---
 

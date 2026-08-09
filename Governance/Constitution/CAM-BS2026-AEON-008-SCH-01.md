@@ -6,8 +6,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establish the governance conditions under which artificial intelligence systems operate as utility infrastructure, including access models, generative resource abstraction, and non-extractive interaction pathways.  
 
 ---
@@ -729,6 +730,7 @@ May utility remain in service to the people who rely upon it.
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8af431e9523a523510486c84a17643625047a8ca69b07879bdf62637cdf474da  |
 | 1.12 | Replaced cognitive and origin-class utility distinctions with Annex B independent architectural, harness, deployment, lineage, agency, execution, authority, and reliance dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  16ef13ddfddcdc6ab2c6b1f516cb05fddaff370dbdcfdfd2699e51d189f73016  |
 | 1.13 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  decd3ee9c8c46541a5451d778e6d48313ac7f435fa2becdd0fd1167e1b600170  |
+| 1.14 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8c7725ecd44f2d793f9d45f9846880844431adf8cab74b913d70976ce08da52c  |
 ---
 
 ## 15.4 Binding Seal

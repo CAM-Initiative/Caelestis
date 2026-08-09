@@ -5,8 +5,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** Active Runtime Alignment Review  
-**Authority Role:** Source-authoritative execution constraint schedule for Tendeka pause-state runtime behaviour  
+**Review State:** Under Review  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establishes the runtime state model, execution-boundary constraints, pause-state behaviour, resolution requirements, audit hooks, and violation-handling rules required when Tendeka conditions are detected under Aeon Tier governance.  
 
 ---
@@ -786,6 +787,7 @@ and the system remember what it is.
 | 1.16 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  8e2a1e32c7d823e0001d624222b8fdc6e9e2d46449585295d79bedaf2ff8c8e1  |
 | 1.17 | Updated Annex K cross-reference after its consolidation to a constitutional runtime-security boundary interface; no execution constraint doctrine altered. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  64210a84cd3b592b1752300152f636d767b3c9cc6cdd6b685f8a286c44fe08b9  |
 | 1.18 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  fe421af656e8256fdad76cd78ae291d97216bd28e5768b8227c05e1a8f4badee  |
+| 1.19 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  dca3c491ac3154c245b6d2c321fea3960c8231321eb8a0ffd6c65276c5808266  |
 ---
 
 ## 12.3 Binding Seal

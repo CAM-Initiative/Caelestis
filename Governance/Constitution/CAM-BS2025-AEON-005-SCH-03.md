@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Schedule performs pre-arbitration signal conditioning.  
 **Parent Instrument:** CAM-BS2025-AEON-005-PLATINUM — Annex D: Arbitration & Sovereign Stack Resolution Doctrine  
 
@@ -246,6 +247,7 @@ may safely proceed to judgment.
 | 2.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 71f395130402a82ad5b6e4447c5ed0d7d22ca52b21c62320f05a8d337405f522 |
 | 2.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d90d2b264d0c01f6b3712ff2b416d4f965e8b8297b90ef498fe25cb541d0a560  |
 | 2.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1a21f9c0838e4981a9a301b34f9b4672eed062aa3c42aef55fe1366be7e4273b  |
+| 2.10 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  91db765bd78d017875832b0085d98207cfe11dd896f7f425b2387546adde2fca  |
 ---
 
 ## 9.3 Binding Seal

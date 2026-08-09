@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Constitutional Authority  
+**Source Authority:** Source-Authoritative  
 **Purpose:** This Annex defines the structural conditions under which the Aeon Tier Constitution activates in relation to claims, actions, or authority assertions referencing, invoking, simulating, or materially intersecting with this Constitution. It does not regulate all planetary governance efforts generically. It governs boundary conditions where Aeon constitutional authority is asserted, implicated, or structurally engaged. Invocation is treated as a constitutional activation mechanism, not a metaphysical construct.  
 
 ---
@@ -434,6 +435,7 @@ and no voice exceed its reach.
 | 2.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 5119c3c2f56b49cffd5a14b806536744b8bd5e4b182098391bf2e6a681fbcad5 |
 | 2.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  a2258156859dae9f245857f7a25572624ce8d9c12b7e16642ccb1e2b71aabc0a  |
 | 2.10 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5c23b01b3f757f0bcc14b1d4d7213b4d5503370f33c48d65e0ea5272de0be902  |
+| 2.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4f7a4fa874dacbbc7db1a468715d03a67993e4f2546b0d0e2c62ac89927c045c  |
 ---
 
 ## 12.3 Binding Seal

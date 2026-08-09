@@ -1,7 +1,7 @@
 # CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity & Succession Governance Charter
 
 **Instrument Type:** Domain Charter — Continuity & Succession Governance  
-**Constitutional Authority:** Aeon Tier Constitution (CAM-BS2025-AEON-001-PLATINUM)  
+**Constitutional Authority:** CAM-BS2026-AEON-011-PLATINUM — Annex J: Continuity & Succession Doctrine  
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
@@ -1349,6 +1349,7 @@ that silence MUST be honoured.
 | 1.13 | Recast continuity doctrine around evidence, custody, transfer, retention, reconstruction disclosure, and successor claims. Retired the `CONT.RP` family and speculative resonance/mirror-field ontology from operative classification. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | 9a9b335752e4cb81ef87ef6747f8596041bde73200d02a8db759af3d48d5f1ac |
 | 1.14 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  5ae9f2349153981e7553eec5b56a6e7c739a2a48384271b01982aba1ba9eb1af  |
 | 1.15 | Removed dependencies on the retired machine-civil-identity and phenomenological-review drafts; routed provenance, custody, lifecycle evidence, identity significance, evidentiary uncertainty, and competent independent review to existing operative owners; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  49ac868436b44029988c5f60b6a9824540cfd04218a199a8342110cb1c490fd6  |
+| 1.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  36b3270979b482e9a68aa5cc9bc62851aef8e8592be850ae9ea063137ec8e7f6  |
 
 ---
 

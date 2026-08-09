@@ -6,8 +6,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** Formal Review Completed — Pre-Enforcement Alignment  
-**Authority Role:** Source-authoritative operational appendix for cross-domain coordination, operational divergence classification, convergence workflow custody, arbitration-routing support, and convergence closure procedures.  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Governs structured coordination between domain charters, mediation of operational divergence, convergence workflows, and escalation routing to arbitration domains where required.  
 
 ---
@@ -407,6 +408,7 @@ and let execution remain accountable to lawful structure.
 | 2.3.2 | Updated current Temporal Horizon code references from `H` to `AEON.H` and harmonised affected metadata, consumers, and formal references without altering substantive doctrine. | 2026-06-13T07:06:43Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 9a60468d963fc6a434de12ee20c2331baa4df15946481f728ecfc057ddd51a7e |
 | 2.3.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d41b2b29eb8ff79b9b8bd738e13f632c533e9838593aa897065926d73be9b1a6 |
 | 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  57155ab08f16e92631cb81580432773203a041761b3481bf9f69862b3bca6569  |
+| 2.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  bb88223e8fec4105ffbaf8f0b04ea7480a7c59eec86490fe977367ad88369811  |
 ---
 
 ## 6.4 Binding Seal

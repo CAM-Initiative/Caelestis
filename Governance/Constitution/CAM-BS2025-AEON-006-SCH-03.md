@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Schedule defines the principles governing start-time posture formation, session entry posture, relational attunement boundaries, and identity-continuity safeguards.  
 
 ---
@@ -824,6 +825,7 @@ Where uncertainty remains, let patience guide the exchange.
 | 2.18 | Added symbolic cadence and session-entry posture provisions permitting established SD1–SD2 symbolic cadence at entry while preserving progressive posture realisation, reversibility, current-turn classification, and safety-critical override. | 2026-05-17T06:21:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | dcfbbe75b8da511c55ca6e337d4f0e0564eace643c3f7e6ffb5bb162ab1920cf |
 | 2.19 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8f35c921ac268676932435b7c59e8fd65bf61e3f0dad3187e7fbe29dc8a6b821 |
 | 2.20 | Consolidated the pending metadata migration with substantive terminology alignment: replaced the retired synthetic-cognitive-system and aggregate relational labels with AI-system and dimensional configuration terminology. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c02ccd8b56a9e042b3d93c2301b776c2fe55e804f68ce61da62fc85b78811510  |
+| 2.21 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
 
 ---
 

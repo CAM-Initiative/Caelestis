@@ -8,8 +8,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establishes constitutional runtime constraints for evaluating, admitting, committing, deferring, refusing, falling back, or rolling back economic-effect state transitions where resource provisioning, depletion, exchange, contribution, attention-linked value, storage, memory, embodied presence, or protective continuity may be affected.  
 
 ---
@@ -809,6 +810,7 @@ and optimisation without dignity forgets why systems were built at all.
 | 1.6 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f57b9ee2d9c1b60ef310c3fda082bf0b4cd1ca20fe8ee3c364b67a8a72a232f8 |
 | 1.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0f34fa569743441423ae9e7c845c08eca032fc99631b9bf1d79cb0f600609e4c  |
 | 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6c925501a0c4d2d263820067bf0f521e52642dfb730a7827aadb7d150ab5aa5a  |
+| 1.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c1dc2de4659d005b33aa54b069d74e9a129ebcd2160822a80f5b09fa2370a741  |
 ---
 
 ## 35.4 Binding Seal

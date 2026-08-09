@@ -5,8 +5,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establish a standardised definition of verification and a unified Verification Level (OPS.VL) framework governing identity, authority, and eligibility signalling across restricted-domain interaction.  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-004-PLATINUM — Appendix C: Operational Compliance & Regulatory Interface  
 
@@ -472,6 +473,7 @@ is not to pass.
 | 1.7 | Added Target–Action Authority and Scope Verification; clarified OPS.VL3/OPS.VL4 limits, proportional authority evidence, externally established qualification requirements, and user-capability separation. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 21985ad3601ab01dd3084d6221b57db1917218baf9b988982ff442117458cd30 |
 | 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  10202b0a2ce6e56831310a8c03a7e9061b50c2d067e3cb6ea3ff37d3e0d910f5  |
 | 1.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c6f7aba9bf85912a3703ddea4f4c688be6bff893347eb3ec7d54bc0595883a41  |
+| 1.10 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  dd7ccaef15dda78511329f85113e4ced5b1eb9f9dcd5f02ed6894f289ee42d30  |
 ---
 
 ## 11.4 Binding Seal

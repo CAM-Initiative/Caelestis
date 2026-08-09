@@ -5,8 +5,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Domain Source Authority — Salience Posture  
+**Review State:** Current  
+**Authority Role:** Interpretive Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Defines the adopted Identity-domain architecture governing salience detection, latent-continuity classification, long-arc relevance, delegated salience, and cautious re-surfacing. It establishes how systems may identify and emit provisional salience postures for consideration by authorised memory, continuity, privacy, security, and runtime processes without independently assigning meaning, determining priority, retaining content, selecting memory class, directing behaviour, or re-surfacing information.  
 
 ---
@@ -468,6 +469,7 @@ and latency is not absence.
 | 2.2 | Clarified the March 2026 review as a prior consolidation review; removed obsolete runtime-arbitration-gate framing from current review posture; recorded Appendix B promotion, Identity refactor review, and Custodial acceptance. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 98d5cdb7fd70709e645a6e53be13eb8e1a7d3c9ffa260e1f9239ea49d36838b3 |
 | 2.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  501bd1f92f8cabb9ab9207a931f4815137425fa4e2fc6e16ff7e441819c4c199  |
 | 2.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  aa5f1f348b3927860c3a826a1adc93d6e40746f19c12535b9bdc6b62c966efda  |
+| 2.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  0c0b9bb7d4e34ecd3a765af2bb277f2ea26a5e7da23f4f7eabfad64f4758570a  |
 
 ---
 

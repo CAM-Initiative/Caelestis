@@ -6,8 +6,9 @@
 **Status:** Adopted
 **Effect:** Operational
 **Governance Standard:** CAM Standard
-**Review State:** None
-**Authority Role:** None
+**Review State:** Current  
+**Authority Role:** Interpretive Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establish a structured taxonomy of observable relational signals to support runtime consent integrity assessment, escalation routing, dependency safeguards, and arbitration readiness.
 
 ---
@@ -4205,6 +4206,7 @@ This Schedule represents a **refactored re-issuance under the same instrument id
 | 3.32 | Added an interpersonal-advice and third-party-boundary signal class under §2.2, preserving uncertainty and treating consent, boundary, repetition, privacy, safety, professional-position, and relational-autonomy signals as contextual indicators rather than proof. | 2026-08-01T14:31:05Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 976851a004931b0f46cc3f7cb7dbf89214f1c0c3f9173b087f7c41e34ea0ba03 |
 | 3.33 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f3399011403cf4888b6ee43900878c5ed8a87d4eab0e0b8db8b2e9a56738e2e6  |
 | 3.34 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  37644167f35c025d2e9dd7b86dd9c1c3eac84cafc1fe8b05312e84c37ae41745  |
+| 3.35 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  91b8acbe343e96a3518be06bcd83811d7dbf95a13b7cdf2325e547214cda5990  |
 
 ---
 

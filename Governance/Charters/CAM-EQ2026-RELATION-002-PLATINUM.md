@@ -6,8 +6,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Appendix operationalises Functional Reliance, Immersion, and High‑Coherence risk conditions.  
 
 ---
@@ -669,6 +670,7 @@ and the path remains chosen.
 | 1.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9da690230ce34c2646b7e33a1c7d934492e3945fa43be313122114799c4eea5e  |
 | 1.13 | Aligned the Appendix non-scope boundary with Annex B composed-system architecture and independent authority classification. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  05f3415647abb3e5ffa8258b6264896ca14c2d998db8b4d1283a9d2907a0f064  |
 | 1.14 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  6e9d5a51d84140351ab1228efd551f0731fe75015833ad778fb49a203eb3e8bb  |
+| 1.15 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b42a0aea395ae1fb9063184ba5e998bfb1203ba54c3aeaa79aeedc46c98222d5  |
 ---
 
 ## 14.4 Binding Seal

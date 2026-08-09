@@ -2,12 +2,13 @@
 
 **Instrument Type:** Domain Instrument — Cognitive Data & Inference Governance  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
-**Domain Authority:** CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy  
 **Status:** Adopted  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** MENTIS Domain Alignment Review  
-**Authority Role:** Domain Source Authority — Cognitive Inference, Neurodata & Ambient Biosignal Governance  
+**Review State:** Under Review  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
+**Parent Instrument:** CAM-EQ2026-MENTIS-001-PLATINUM — Charter of Human Cognitive Integrity & Mental Privacy  
 **Purpose:** This Appendix establishes binding governance requirements for the collection, decoding, inference, modelling, fusion, retention, expiry, sharing, validation, training reuse, contestability, intended-communication protection, and operational use of neurodata, inferred mental-state data, cognitive biometrics, biosignals, ambient cognitive-domain indicators, and derived cognitive representations.  
 
 ---
@@ -1092,6 +1093,7 @@ And what is most observable is not always what is most true.
 | 1.2 | Adopted the binding inference and data-governance appendix; added decoder-output classification, inferential expiry, state–trait–identity–diagnosis gates, intended-communication safeguards, revised companion controls, target-object separation, closed-loop review, and current neurotechnology alignment. | 2026-07-19T12:56:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | add5fa932234a5754ae855e65c59e5612da02661d3c98e7a5636c0a4058bbf67 |
 | 1.3 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4c356af240c74b3f63d6ff5b32ebbde673fed4af239a175627a3b812cca6a659  |
 | 1.4 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9aef12c244f583e83a0578b59b4d8d47c6ecdb11095e6d7a1f45eb70dfdacf7b  |
+| 1.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3f431fa41a36a65f0082270b3d023c0e17efbbfe0b1bfcdd8408a40da36f73fd  |
 
 ---
 

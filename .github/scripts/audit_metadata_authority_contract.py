@@ -23,6 +23,8 @@ FIELDS = {
     "review state": "Review State",
     "authority role": "Authority Role",
     "source authority": "Source Authority",
+    "parent instrument": "Parent Instrument",
+    "constitutional authority": "Constitutional Authority",
 }
 
 ALLOWED = {
@@ -35,6 +37,7 @@ ALLOWED = {
 }
 
 META_RE = re.compile(r"^\s*(?:\*\*)?([A-Za-z][A-Za-z ]*[A-Za-z])(?:\*\*)?\s*:\s*(.+?)\s*$")
+INSTRUMENT_ID_RE = re.compile(r"\bCAM-[A-Z0-9]+(?:-[A-Z0-9]+)+\b")
 
 
 def clean(value: str) -> str:
@@ -71,7 +74,11 @@ def files() -> list[tuple[Path, bool]]:
     return sorted(found, key=lambda item: str(item[0]))
 
 
-def evaluate(path: Path, is_draft: bool, meta: dict[str, str]) -> list[dict[str, str]]:
+def known_instrument_ids(found: list[tuple[Path, bool]]) -> set[str]:
+    return {path.stem for path, is_draft in found if not is_draft}
+
+
+def evaluate(path: Path, is_draft: bool, meta: dict[str, str], known_ids: set[str]) -> list[dict[str, str]]:
     issues: list[dict[str, str]] = []
     rel = path.relative_to(ROOT).as_posix()
 
@@ -87,6 +94,7 @@ def evaluate(path: Path, is_draft: bool, meta: dict[str, str]) -> list[dict[str,
     tier = meta.get("Governance Standard", "")
     role = meta.get("Authority Role", "")
     source = meta.get("Source Authority", "")
+    parent = meta.get("Parent Instrument", "")
 
     def add(code: str, field: str, value: str, severity: str = "error") -> None:
         issues.append({"path": rel, "field": field, "value": value, "code": code, "severity": severity})
@@ -123,10 +131,67 @@ def evaluate(path: Path, is_draft: bool, meta: dict[str, str]) -> list[dict[str,
     if role == "No Independent Authority" and source == "Source-Authoritative":
         add("no_authority_source_authoritative_conflict", "Source Authority", source)
 
-    if role == "Constitutional Authority" and "/Constitution/" not in f"/{rel}":
+    if role == "Constitutional Authority" and not any(namespace in f"/{rel}" for namespace in {"/Constitution/", "/Laws/"}):
         add("constitutional_role_outside_constitution", "Authority Role", role)
 
+    if role == "Constitutional Schedule Authority":
+        if "/Constitution/" not in f"/{rel}":
+            add("constitutional_schedule_role_outside_constitution", "Authority Role", role)
+        if not parent:
+            add("constitutional_schedule_parent_missing", "Parent Instrument", parent)
+
+    if role == "Domain Authority" and "/Charters/" not in f"/{rel}":
+        add("domain_role_outside_charters", "Authority Role", role)
+
+    if source in {"Derived Authority", "Applied Authority"} and not parent:
+        add("derived_or_applied_parent_missing", "Parent Instrument", parent)
+
+    if source == "Informative Only":
+        if role != "No Independent Authority":
+            add("informative_source_role_conflict", "Authority Role", role)
+        if effect == "Binding":
+            add("informative_source_binding_conflict", "Effect", effect)
+
+    if parent:
+        identifiers = INSTRUMENT_ID_RE.findall(parent)
+        if not identifiers:
+            add("parent_identifier_missing", "Parent Instrument", parent)
+        else:
+            parent_id = identifiers[0]
+            if parent_id == path.stem:
+                add("self_parent_lineage", "Parent Instrument", parent)
+            elif parent_id not in known_ids:
+                add("unresolved_parent_instrument", "Parent Instrument", parent)
+
     return issues
+
+
+def add_circular_lineage_issues(records: list[dict], issues: list[dict]) -> None:
+    by_id = {Path(record["path"]).stem: record for record in records}
+    parent_by_id: dict[str, str] = {}
+    for instrument_id, record in by_id.items():
+        parent = record["metadata"].get("Parent Instrument", "")
+        identifiers = INSTRUMENT_ID_RE.findall(parent)
+        if identifiers and identifiers[0] in by_id:
+            parent_by_id[instrument_id] = identifiers[0]
+
+    for instrument_id, record in by_id.items():
+        seen: set[str] = set()
+        current = instrument_id
+        while current in parent_by_id:
+            if current in seen:
+                issue = {
+                    "path": record["path"],
+                    "field": "Parent Instrument",
+                    "value": record["metadata"].get("Parent Instrument", ""),
+                    "code": "circular_parent_lineage",
+                    "severity": "error",
+                }
+                record["issues"].append(issue)
+                issues.append(issue)
+                break
+            seen.add(current)
+            current = parent_by_id[current]
 
 
 def render_md(summary: dict, records: list[dict], issues: list[dict]) -> str:
@@ -188,15 +253,20 @@ def main() -> int:
     observed: dict[str, Counter] = {field: Counter() for field in ALLOWED}
     operative = drafts = 0
 
-    for path, is_draft in files():
+    found = files()
+    known_ids = known_instrument_ids(found)
+
+    for path, is_draft in found:
         meta = parse(path)
         operative += int(not is_draft)
         drafts += int(is_draft)
         for field in ALLOWED:
             observed[field][meta.get(field, "")] += 1
-        current = evaluate(path, is_draft, meta)
+        current = evaluate(path, is_draft, meta, known_ids)
         records.append({"path": path.relative_to(ROOT).as_posix(), "draft": is_draft, "metadata": meta, "issues": current})
         issues.extend(current)
+
+    add_circular_lineage_issues(records, issues)
 
     issue_counts = Counter(issue["code"] for issue in issues)
     summary = {

@@ -5,8 +5,10 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
+**Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 **Purpose:** This Appendix governs how constitutional doctrine, domain charters, and arbitration outcomes are translated into operational compliance controls and regulatory interface procedures. It establishes process requirements for lawful access controls, reporting duties, eligibility gating, jurisdictional routing, and duty‑of‑care execution without altering constitutional authority or arbitration legitimacy.  
 **Parent Charter:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 
@@ -869,10 +871,10 @@ Integrity holds.
 | 1.13.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | bed5697a9d1447112ce2ac9fbd081f4c04f4b3d2a087438293e6edfc61b1e007 |
 | 1.14 | Added §4.5 External Human Identity-Rights Declaration Verification, including rights-subject and use-scope verification, source and representative-authority assessment, declaration lifecycle and conflict handling, conditional-clearance requirements, minor protections, and separation from Identity-domain and execution authority. VIGIL-2026-PROP-0016; VIGIL-2026-PATCH-0024. | 2026-07-19T13:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b57ec6614d78399fa3216312db6f2b3daff46c2c5d03c638421f3a5643b6fab6 |
 | 1.15 | Corrected the adult eligibility threshold to exclude only individuals under 18; updated the 1 July 2026 implementation language to commenced operation; removed the duplicate OPS.AV × RLN.C crosswalk declaration; and normalised stale `C` / `HC` references to `RLN.C` / `ETH.RISK`. | 2026-07-19T14:57:54Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ba7d63e93877eb2d5ac4da67a8bd16e101f1174a7e034e2d89bf7923e418d9e5 |
-
 | 1.16 | Added §9.3 bounded regulatory and independent-investigation evidence access, including authority verification, scoped preservation and production, controlled inspection, confidentiality and privilege safeguards, reviewable withholding, chain of custody, affected-person rights, sovereign boundaries, evidence disposition, and protection against premature human attribution. VIGIL-2026-FM-0055; VIGIL-2026-PROP-0026. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 48d77fd32b3732ad9bae5b2a879e96c5d22724a6733ce051b84b0f705931c762 |
 | 1.17 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e4027c6cb3a13dceb82fd1713e78be29440b52e0b82ce489799751d3b9bc6058  |
 | 1.18 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  37e5dd9a2c79ed26dfdbab5890152316aa8336d6f6a1915358adf27b39993d05  |
+| 1.19 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  08bd89144d4d48dbea601bbf267b278a0d848778df03063d143d2e8215fc9065  |
 ---
 
 ## 15.4 Binding Seal

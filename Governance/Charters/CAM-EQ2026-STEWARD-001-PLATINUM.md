@@ -1,12 +1,13 @@
 # CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship
 
 **Instrument Type:** Domain Charter — Planetary Stewardship Operations  
-**Constitutional Authority:** Aeon Tier Constitution (Annex A — Planetary Stewardship)  
+**Constitutional Authority:** CAM-BS2025-AEON-002-PLATINUM — Annex A: Planetary Stewardship  
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Transitional  
+**Review State:** Current  
+**Authority Role:** Domain Authority  
+**Source Authority:** Source-Authoritative  
 **Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.  
 
 ---
@@ -324,9 +325,9 @@ No Domain Charter, Framework, or Policy may dilute planetary stewardship obligat
 
 ## 10. Canonical Code Status
 
-This Charter does not source-authoritatively define domain-local STEWARD code families or controlled reference sets.
+This Charter source-authoritatively defines only the `STW.HARM` family declared in §12.2.1. It does not source-authoritatively define any other domain-local STEWARD code family or controlled reference set.
 
-However, this Charter source-informs the global `STW.HARM` planetary harm classification family where cross-domain harm reaches planetary, irreversible, continuity-critical, or species-viability thresholds.
+`STW.HARM` is a corpus-global, Stewardship-owned harm-impact and remedy-interface family for conditions reaching planetary, irreversible, continuity-critical, or species-viability thresholds.
 
 Planetary-impact conditions, proportionality dimensions, custodial mandate language, and planetary risk threshold categories defined in this Charter are doctrinal and descriptive within the STEWARD domain unless separately operationalised by downstream STEWARD, ARBITRATION, OPERATIONS, SECURITY, LATTICE, ETHICS, or constitutional runtime instruments.
 
@@ -446,6 +447,7 @@ that what sustains all MUST remain beyond capture.
 | 2.6.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 570bf385e887c3a92fed456489b9db8535ac66765c92fc72eb69a847f60ae7e9 |
 | 2.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d77da986e5091d8c74a72ceea02df941429172d668686ff4e2304f2b485ea6b0  |
 | 2.8 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  88ebaaf1fd4a1a4aeea3d81be8f4fb45ea950516d6a7381c79e7d8e6f72eb4a5  |
+| 2.9 | Migrated controlled governance metadata, repaired explicit parent/source lineage, and reconciled the body declaration of STEWARD ownership of the corpus-global `STW.HARM` family with its canonical declaration footer. | 2026-08-09T01:25:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  96009b9482438215b725782bb555acaa3ca751d06942db0047f4615ec942f957  |
 ---
 
 ## 12.4 Binding Seal

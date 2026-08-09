@@ -194,6 +194,8 @@ Interpretation:
 
 Each `Derived Authority` or `Applied Authority` instrument MUST identify its source instrument or parent. Circular derivation is prohibited.
 
+A derived instrument MAY be the canonical declaration location for a subordinate code family, reference set, schema or procedure only where that ownership is expressly within the parent delegation. Such bounded declaration ownership does not convert the instrument-level `Source Authority` from `Derived Authority` to `Source-Authoritative` or permit the child to exceed its parent.
+
 ---
 
 ## 9. Valid combination rules
@@ -212,6 +214,11 @@ The following invariants are mandatory:
 10. A child, appendix, supplement or schedule MUST NOT claim authority exceeding its parent.
 11. A domain instrument MUST NOT declare constitutional supremacy or unilaterally override another domain.
 12. Review wording such as `Active Metadata Harmonisation`, `Developmental Review`, `Pending Review`, dates or prose sentences is invalid in `Review State`.
+13. `Derived Authority` and `Applied Authority` require an explicit, resolvable `Parent Instrument` in top-level metadata.
+14. A declared parent MUST identify an operative governed instrument, MUST NOT identify the child itself, and MUST NOT create a circular authority chain.
+15. `Constitutional Schedule Authority` requires a constitutional instrument and an explicit constitutional parent.
+16. `Domain Authority` is reserved for a bounded root domain instrument and MUST NOT be used by a constitutional schedule, appendix, supplement, profile or standard.
+17. `Informative Only` requires `No Independent Authority` and MUST NOT be paired with `Binding` effect.
 
 Exceptions require an explicit transition record, expiry condition and amendment-ledger entry.
 
@@ -277,4 +284,4 @@ Existing uncontrolled values remain evidence of historical corpus state and MUST
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | Initial governance metadata standard defining controlled Status, Effect and Governance Standard vocabulary; added canonical amendment-level provenance architecture. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
-| 2.0 | Replaced the three-field metadata model with a six-field metadata and source-authority contract; controlled Review State and Authority Role; added Source Authority, combination invariants, conflict rules and migration requirements. | 2026-08-06T13:30:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  |
+| 2.0 | Replaced the three-field metadata model with a six-field metadata and source-authority contract; controlled Review State and Authority Role; added Source Authority, combination invariants, conflict rules and migration requirements; clarified delegated subordinate declaration ownership; and required resolvable, non-circular parent lineage for derived and applied authority. | 2026-08-09T01:25:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |

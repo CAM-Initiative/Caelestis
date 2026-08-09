@@ -4,8 +4,9 @@
 **Status:** Active  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** To operationalise Annex E Section 6 (Military & Use-of-Force Doctrine) by defining structured governance constraints for AI systems integrated into military, defence, intelligence, or kinetic-capable environments, ensuring meaningful human control, accountable authority, and prohibition of optimisation toward lethality.  
 **Constitutional Anchor:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 
@@ -341,6 +342,7 @@ but to ensure that what is done is known, borne, and never without account.
 | 1.8.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | b07a05b011a0fed0d399358f5881cccdc7504791a5626a0a1267140eaccba51d |
 | 1.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  94726c19fe356ab6227293199cc6e7311a908398e84ce92927e01727e2d64808  |
 | 1.10 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  4dc6f231dec2bdd773af86fe39b87a0e1e73ce35a46a185f3476bbfb6c7f4299  |
+| 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  584604b1105f78ecf96b67c2aa2a80d113eca7e2cf49735314e57f401cb1c0ed  |
 ---
 ## 12.4 Binding Seal
 

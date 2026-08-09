@@ -25,7 +25,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: metadata-authority-audit-${{ github.ref }}
@@ -46,37 +46,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Apply bounded safe metadata migration
-        run: python .github/scripts/migrate_pass_4_safe_metadata.py
-
-      - name: Build Pass 4 inventory
+      - name: Validate metadata and authority chains strictly
         run: |
           mkdir -p validation-reports
           python .github/scripts/audit_metadata_authority_contract.py \
             --json-out validation-reports/pass-4-metadata-authority-inventory.json \
-            --md-out validation-reports/pass-4-metadata-authority-inventory.md
+            --md-out validation-reports/pass-4-metadata-authority-inventory.md \
+            --strict
 
       - name: Upload Pass 4 inventory
         uses: actions/upload-artifact@v4
         with:
           name: pass-4-metadata-authority-inventory
           path: validation-reports/pass-4-metadata-authority-inventory.*
-
-      - name: Commit bounded migration
-        if: github.event_name == 'push'
-        shell: bash
-        run: |
-          set -euo pipefail
-          if git diff --quiet; then
-            echo "No migration changes to commit."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Governance/Drafts/ Governance/Standards/CAM-GOVERNANCE-METADATA-STANDARD.md
-          if git diff --cached --quiet; then
-            echo "No bounded migration files changed."
-            exit 0
-          fi
-          git commit -m "[AUTO][Governance] Apply Pass 4 safe metadata migration"
-          git push origin HEAD:"${GITHUB_REF_NAME}"

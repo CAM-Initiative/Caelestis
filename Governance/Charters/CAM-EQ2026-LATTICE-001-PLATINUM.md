@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Domain Authority  
+**Source Authority:** Source-Authoritative  
 **Purpose:** This Charter establishes binding civilisational constraints preventing the militarisation, population‑scale surveillance, coercive disconnection ("blackouts"), and architectural crossover of the civilian lattice.  
 
 ---
@@ -649,6 +650,7 @@ but as the ground upon which civilisation stands.
 | 3.9 | Added constitutional-authority recognition, recursive suspicion and authority-laundering prohibition, aggregate-to-individual conversion, commercial-data non-evasion, and the `LAT.DEPLOY` deployment-posture family; replaced generic capability sanctions with function-specific constraints; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-16T14:55:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 52a3e26e6e52bf3d700eccc0400eed15ead5df00b0506bd0de17ef4b2021d354 |
 | 3.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0bbbe7abde61585a4ab46b7c76453b9b499965b761db440a66a1c590cf91e758  |
 | 3.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9d898de867265191c1efea40a0ceeba5224a0894e4d5f46b2ccf64bbf8342d01  |
+| 3.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  302fcfa3979e11bc1a16ca9c87646802e425d36bc6e6ae98a410de36502edbab  |
 ---
 
 ## 12.4 Binding Seal

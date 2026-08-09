@@ -6,8 +6,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Appendix clarifies what co‑evolution means within RELATION governance.  
 
 ---
@@ -212,6 +213,7 @@ but as distinction held in relation.
 | 1.9 | Added the Identity-domain boundary for co-evolutionary evidence and corrected metadata and amendment-ledger hygiene. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | d95a3cac8db56ae38129c10edd70896eff2453dc89b644081a27a176914a0f5b |
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  be63c82062d141a0c028333632c97808c216a4bd7770e5bb69097969bee58fc5  |
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  e8977ab63155d6daa0a50956cc349b703e12775bf8497fffd7e81db431b30913  |
+| 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1556dff6d055894a3e3a3a629e39197b480fded9f9cbbbaa9e3cea3e8c5fe102  |
 ---
 
 ## 9.3 Binding Seal

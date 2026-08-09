@@ -5,8 +5,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establish continuity portability, export, recovery, migration, non-enclosure, and continuity-honesty obligations for systems that preserve, model, infer, reconstruct, operationalise, import, export, or dissolve continuity-bearing records, memory, preference history, relational context, or long-horizon interaction records.
 **Parent Instrument:** CAM-EQ2026-CONTINUITY-001-PLATINUM — Continuity & Succession Governance  Charter  
 
@@ -673,6 +674,7 @@ let the silence be honoured.
 | 1.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  36b58bbd95b7cc48d3c95a62a55c0fdc902316281896c7ebd816930b52d3c8ba  |
 | 1.7 | Normalised the portability profile to continuity-bearing records and retired active dependency on the `CONT.RP` resonance classification family. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | c00b93e42d05d5b20b4b4795e1541726f10f32ef21e2e866322905ec372c69e3 |
 | 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  878aaa3051001b60d894b22c60c0cfb7eb61b7ed1ccfda53ed54fc8bbb393bae  |
+| 1.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  71b688108720d72f5a161f44b6ca0c639b20b6f56b7e2045de27b7bad3ce430a  |
 
 ---
 

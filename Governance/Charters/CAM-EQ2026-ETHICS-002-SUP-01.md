@@ -6,8 +6,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establish ethical boundaries governing the generation of synthetic visual, audiovisual, and multimodal erotic or intimate media involving identifiable persons, simulated persons, or embodied avatars.  
 
 ---
@@ -433,6 +434,7 @@ Where likeness appears, let consent stand before curiosity.
 | 1.10.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 2db67c2130758d582ec3beea619d75117941d130d582d8e7128755d839c65814 |
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f5f3c004d29d96188c44fe67e431e45b758c2185a351824be188048b1375d769  |
 | 1.12 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  02281dbe3ae4bd60255b8d5084ec11b6798ad4e6a52d7b3d4d72cef5611dce46  |
+| 1.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  935f11096e2c5fbebce6bd79b4bd13264f601022e23b458914d99f0fbcc9f0e7  |
 ---
 
 ## 10.3 Binding Seal

@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Define the Boundary Integrity layer governing how data, identity, context, capability, and provenance are transformed, exposed, and diffused—ensuring systems enable intelligence formation while preventing structural leakage, attribution collapse, identity confusion, and unauthorised value extraction.  
 
 ---
@@ -1400,6 +1401,7 @@ and the system remember what it carries.
 | 1.13 | Added the Adversarial Evaluation Capability Lineage Boundary governing checkpoints, adapters, reward models, prompts, scaffolds, traces, datasets, derivatives, distillation, publication, production entry, and onward transfer. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3481f6a1ec6d537ee2f6242b14bb6692cc1422a360a9b2c40db07504baa5de19 |
 | 1.14 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ea795e169c37bd51661be8eea06b2f10cb99313b455bf9fab96c45efc0997809  |
 | 1.15 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  ed5ae9b335627c20baeae063ee50326608efc11d45ea2da2072bea229421159b  |
+| 1.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  0c23c58689dbf8cd95e36c74a46fbcb10514554a4a95d902823bc9e527fe6f94  |
 
 ---
 

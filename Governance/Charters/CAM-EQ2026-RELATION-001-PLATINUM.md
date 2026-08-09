@@ -1,7 +1,7 @@
 # CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter
 
 **Instrument Type:** Domain Charter — Relational Governance  
-**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution  
+**Constitutional Authority:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
@@ -1270,6 +1270,7 @@ that which is real remains recognisable.
 | 1.21 | Aligned the Charter non-scope boundary with Annex B composed-system architecture and independent authority classification. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  498f432a316555327e2dd1c720310aeb074b1fc1f62b8477484535ef98265d7a  |
 | 1.22 | Established RELATION-001 as the controlled source-authoritative relational domain instrument; aligned its current terminology with Annex B’s independent relational-configuration dimensions; retired the former geometry labels from current doctrine and routed coordinated multi-party safeguards to RELATION-007. | 2026-08-07T14:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  8ba0e770b5d0a87538802d44dd6ff5253b3cb8d8bfe27f6ca62ad684b6fd8e6a  |
 | 1.23 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  352d20b83d6217bbc10d574dbb0f16dc25064efc115ca535e9281966706e6329  |
+| 1.24 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6732c85e5d0578dc614546868ec87e66a5e031281eee687c8c6eb2fc405adbc8  |
 
 ---
 

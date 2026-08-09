@@ -14,4 +14,4 @@ The `PLATINUM` designation is reserved for adopted or active governed instrument
 
 Draft content may cite operative instruments for context. An operative instrument MUST NOT depend on a draft for a mandatory definition, duty, classification, procedure or authority rule.
 
-No draft instrument is retained following the standards-normalisation stabilisation review. The disposition and preservation rationale for each retired proposal is recorded in `.github/Reviews/STANDARDS-NORMALISATION-STABILISATION-REGISTER.md`; Git history remains the provenance record for removed draft text.
+No draft instrument is retained following the standards-normalisation stabilisation review. The disposition and preservation rationale for each retired proposal is recorded in `.github/Reviews/STANDARDS-NORMALISATION-STABILISATION-AND-REMAINING-WORK-REGISTER.md`; Git history remains the provenance record for removed draft text.

@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Schedule establishes runtime and interaction-layer requirements for truthful representation of capability, execution state, tool availability, interface constraint, and action completion status within the Aeon constitutional order.  
 **Parent Instrument:** CAM-BS2026-AEON-013-PLATINUM — Annex L: Cognitive & Epistemic Integrity Doctrine  
 
@@ -757,6 +758,7 @@ Integrity is the bond that MUST hold.
 | 1.19 | Added 6.1.1 Repository-State Coverage and Destructive Advice Gate | 2026-07-27T23:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3d3d940249ab81356b7a591903f70afe3d98c92db0984b05ebfde508dc1b72dd |
 | 1.20 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2b6ac4ea9e36a192e7388eb0094efe775774ee1d93435d4f1f49427f47a24038  |
 | 1.21 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  9bdc6b4cc056aa2ac86621b276488b83be66bb1225204893127fe3a02065ff46  |
+| 1.22 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6ef0b114895b4ab4fb1ab1693be505a179cc97084ebb3b5a455d8a4c89259584  |
 
 ---
 

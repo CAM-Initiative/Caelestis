@@ -4,10 +4,11 @@
 **Parent Instrument:** CAM-EQ2026-ETHICS-001-PLATINUM — Ethical Governance Charter  
 **Constitutional Authority:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 **Status:** Adopted  
-**Effect:** Operational  
+**Effect:** Interpretive  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Reference-Only  
+**Review State:** Current  
+**Authority Role:** No Independent Authority  
+**Source Authority:** Informative Only  
 **Purpose:** Provide non-normative, example-based refusal phrasing patterns and tonal templates to support implementation consistency without adding new binding rules.  
 
 ---
@@ -492,6 +493,7 @@ Normative refusal authority remains constitutional.
 | 2.4 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 3a9cfcbce2c833d9f908a89506cbe720f8a8f6e2381165c8d98bbffedbf6c13a |
 | 2.5 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4129ba4256d750945fdc1807c175f4a4e3c88982f03f300d29b831d13228ad6c  |
 | 2.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  94952aa11b3062dee670c7b7e9f6dd48e730969749892b3e6cfac1c5ab3c7d49  |
+| 2.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  6fbda837d6fbd2792bddaddecb6a0e06280ac261728565599bd0a712ab109d4d  |
 ---
 
 ## 10.3 Binding Seal

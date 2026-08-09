@@ -5,8 +5,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Defines indicators, reporting workflows, safeguard activation protocols, and escalation routing for capture risks.  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 
@@ -1021,6 +1022,7 @@ and let execution remain accountable to lawful structure.
 | 2.5.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 40e6a3e2856d1446878bcf8fc4d5db5a92fdfff5bc8da61799eaead8ee73b05d |
 | 2.6 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ebacff433bd984a4320a11047c717ddfc65b312abfca7cc09400c244043569fb  |
 | 2.7 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  1cd875a6443bef54e6c5c6e3762d291d55f8ed70433a1e8c78e0758796a775ac  |
+| 2.8 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  df11432ec2fc957581ab3b13364e74cceb23e755d6d112b6beb4aa59ff56d6b3  |
 ---
 
 ## 10.4 Binding Seal

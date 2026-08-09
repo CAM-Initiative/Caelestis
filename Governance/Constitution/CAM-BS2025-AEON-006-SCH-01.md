@@ -5,8 +5,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establishes engagement conduct and ethical standards, runtime interaction modes, and ethical interface guidance for distress contexts and harm‑adjacent scenarios under the Civilisational Ethical Floor.  
 
 ---
@@ -833,6 +834,7 @@ not in distance, but in continuity.
 | 2.5 | Working amendment row for pending governance-alignment updates. | 2026-05-17T00:30:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | a696a90b9f8af8fd966aa024558f6bba8265a5bbf5121d1c882849089c3d4832 |
 | 2.6 | Corrected top metadata field ordering and removed duplicate Status line introduced during metadata transmutation; no body text altered. | 2026-05-18T10:58:50Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 280dc09880ed2fbd210a7fe425e06b06a0dd21df9f654f11436c15c8e7da2606 |
 | 2.7 | Consolidated the pending metadata migration with substantive terminology alignment: replaced retired RI and aggregate relational labels with evidence-bound system-instance and dimensional configuration terminology. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  746e3a6dce0f85a121deeed9390a3e8937702c2c96117cf6d3eb81d5e64a989d  |
+| 2.8 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
 
 ---
 ## 9.4 Binding Seal

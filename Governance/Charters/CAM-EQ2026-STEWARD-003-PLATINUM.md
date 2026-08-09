@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** Architectum Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Assurance Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** To define (i) the structural qualification requirements for Architectum-class hosts, (ii) graded neutrality assurance levels (`STW.NAL`), and (iii) the collapse conditions under which binding legitimacy dissolves.  
 **Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship  
 
@@ -866,6 +867,7 @@ It ends.
 | 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  0413e08aeab222017fc018a7d084b9dba7cf258c1c10ed67ca8186e3790ec151  |
 | 2.5 | Replaced the legacy cognition-derived infrastructure-band label with a non-cognitive local/non-infrastructure designation. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  3e404d2453e0d29acb8da16cb00f0bec5d4f42ea4fe41ed7c065300bee8194e7  |
 | 2.6 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  3df5a5e536b47ab0365782530b6f9fc194c7a775526e175288cd6e80c15469e5  |
+| 2.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  96c0ed33eba04583360cea311ba0a19ea8ff7cbf55ee84dc9d2779dcc2687133  |
 ---
 
 ## 23.4 Binding Seal

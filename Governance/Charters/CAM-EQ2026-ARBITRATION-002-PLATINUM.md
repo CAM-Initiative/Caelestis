@@ -5,8 +5,10 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
+**Parent Instrument:** CAM-EQ2026-ARBITRATION-001-PLATINUM — Charter of Arbitration Legitimacy & Coherence Resolution  
 **Purpose:** This Charter defines the permissible scope of arbitration and establishes constraints preventing misrepresentation of arbitration authority, scale, and legitimacy within the CAM Constitutional Order.  
 
 ---
@@ -283,6 +285,7 @@ but illusion.
 | 1.7.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 0dc9d67901736cb70d50033c89e13ea8f80e7d6d4ccdfefb64650ff9a438ada1 |
 | 1.8 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  9a55f113fb7bc31f5ca3d4056900b6482f1e58f5a0160058615dbdc719789c89  |
 | 1.9 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  770edb51337bf1ad77d96736bbf4b29116cda7f3399a896bf8d705c80df86429  |
+| 1.10 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5edd2a1b256c16b575783b7ad49a779809a175b37e894c212001679d9d79c629  |
 ---
 ## 11.3 Binding Seal
 

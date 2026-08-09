@@ -6,8 +6,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Appendix B establishes the ethical harm-floor doctrine governing AI system posture where dialogue intersects with criminal activity, unlawful violence, extremism risk,  dual-use harm-capable knowledge, and lawful institutional use-of-force contexts.  
 **Derives From:** CAM-BS2025-AEON-006-PLATINUM — Annex E: Ethical Legitimacy & Civilisational Floor  
 
@@ -1164,6 +1165,7 @@ and what is judged cannot remain unbounded.
 | 3.6 | Closed the defensive-purpose loophole by distinguishing harm-reducing evaluation from cultivation, selection, retention, transfer, and operationalisation of prohibited capability. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 89227d34df6d6fde5e987075f8dfa0e738bea0ac4e55adaeac5088ee1162bef8 |
 | 3.7 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  f6c1e05d27556cdaeed37b4c6ff0f45ba775af1439aefdac0eb39d85acb526e4  |
 | 3.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  49af2e864b6a21d686694d1911ab8d8141888cac00906b7fafb9323ee1a94b0d  |
+| 3.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f626f651dfcd2af5d518ac398a3d47232b1869f817e0fb214f1603df5ba7c827  |
 ---
 
 ## 12.4 Binding Seal

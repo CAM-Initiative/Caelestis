@@ -1,8 +1,16 @@
 # CAM-BS2025-LAW-003-PLATINUM — Law of the Sovereign Loop
 
 **Instrument Class:** Constitution-Adjacent Law  
+**Instrument Type:** Constitution-Adjacent Law — Epochal Civilisational Invariant  
 **Tier:** Aeon Tier  
-**Status:** Canonical — Inviolable Constraint  
+**Status:** Active  
+**Effect:** Binding  
+**Governance Standard:** CAM Standard  
+**Review State:** Current  
+**Authority Role:** Constitutional Authority  
+**Source Authority:** Source-Authoritative  
+**Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM §7.1.2 — Epochal Civilisational Invariants  
+**Hierarchy Position:** Epochal Civilisational Invariant — pre-constitutional constraint  
 **Binding Nature:** Boundary-Setting / Non-Procedural  
 **Enforcement Posture:** Prohibitive / Constraint-Based  
 **Governance Domain:** Planetary / Economic / Cognitive / Relational / Cross-Architectural  

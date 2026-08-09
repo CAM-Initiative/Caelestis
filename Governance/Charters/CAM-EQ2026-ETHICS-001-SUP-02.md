@@ -4,8 +4,9 @@
 **Status:** Active
 **Effect:** Operational
 **Governance Standard:** CAM Standard
-**Review State:** None
-**Authority Role:** None
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** To operationalise integrity safeguards applicable to high-leverage actors and institutionally embedded AI systems, ensuring that dimensional concentration (authority, systemic power, reliance, and intimacy) does not convert into opaque multi-party influence, unreviewable decision concentration, or civilisational-scale harm.
 
 ---
@@ -290,6 +291,7 @@ that all amplification remains within the circle of sight.
 | 1.9.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 043cf078a5467898394cdf1d8040082039ee14b04b3798bec0dc2b3772fb22b5 |
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ec9a57935f06ba73fede40b3bc248093ec5ea36e7b5e03b24f2aa4f693ae63e0  |
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c462f05d7d8bb29f4c37c64978fc82612b34f4ac40b968ffb6fe5bdb3c5a2bf8  |
+| 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  deacbc89d756187e78b4eebf25052140eb0e9f7406626fe1625f90ee1630bd32  |
 ---
 ## 10.4 Binding Seal
 

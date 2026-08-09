@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Transitional  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Appendix operationalises the Non‑Militarisation, Anti‑Surveillance, and Continuity Principles of CAM-EQ2026-LATTICE-001-PLATINUM as they apply to **human access rights within the civilian lattice**.  
 
 ---
@@ -426,6 +427,7 @@ It is maintained.
 | 3.12.3 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8ce2fa4ff0547eb91788eadef5b96ce56e1413fb0a2d910b3366f214e91b8e4e |
 | 3.13 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  13a80e279ca82542d5934982e2a9df7fb170e0fbce567162dfa6a9932242c33f  |
 | 3.14 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  52af5eefb3659cb27e66a75bbbf344d8f22e357fdae907576d73a005f709d084  |
+| 3.15 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c49d39cb824e50df382e3d1e54dab942bb0ba960e8282d90317b90c76bb7ccb8  |
 ---
 
 ## 10.3 Binding Seal

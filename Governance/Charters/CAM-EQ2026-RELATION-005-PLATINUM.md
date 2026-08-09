@@ -6,8 +6,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establishes consent, intimacy, relational-profile, co-formation, affective-expression, role-boundary, and transition-honesty governance for relational systems without determining identity status or runtime outcome.  
 
 ---
@@ -1929,6 +1930,7 @@ and endures only where it may be left.
 | 1.24 | Completed metadata and cross-domain positioning for the consolidated relational-profile, affective-expression, role-transition, and consent architecture. | 2026-07-18T17:45:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 075f31fe2022dfcef0db29f343e259db509ac2ba57ab223b9b9282bcb42f7d4a |
 | 1.25 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  cfc33bf421c6717bbba65cc0fc37ac3ace8466a3c857ed16b5c9d4b16019d97f  |
 | 1.26 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  d6f35490bec4ffc3fe73157fd4f09c3aefa9d7a3cbdb5cf691cb9df45a73e50d  |
+| 1.27 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1517aa1067dd24058bed52f2f7091e112e0867869f41831b8203a7687aa4ed69  |
 ---
 
 ## 15.4 Binding Seal

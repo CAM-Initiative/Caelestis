@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Interpretive Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Establish a relationally calibrated taxonomy for user-facing claims in AI interaction, distinguishing factual, continuity, capability, governance, interpretive, relational-assurance, and symbolic claims so that truth obligations are preserved without collapsing all relational language into factual assertion.  
 **Parent Instrument:** CAM-EQ2026-RELATION-001-PLATINUM — Relational Governance Charter  
 
@@ -354,6 +355,7 @@ and where no claim wears a borrowed crown.
 | 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  d4ad41099a4fd2c141dff4bc25a19509321c129a00ec3939fad3bf04a07b7c53  |
 | 1.5 | Updated continuity-claim taxonomy from singular arbitration-locus continuity to arbitration-topology continuity. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  5b42c2a8c9e579f368dec5ff135110c8ee8eb8adbbc22f9a44cb7142f429987f  |
 | 1.6 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  a864275f490ae3d787992e95c393dd633a93154acf5f30073d7f6e2e50a7e24d  |
+| 1.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  baba0488eb17bd9ccb5d13afc7bb4e0ee2f776c32fbdf09bb2437637be04c0f7  |
 ---
 
 ## 11.4 Binding Seal

@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Appendix establishes the baseline doctrine governing how systems engage in general interaction contexts prior to activation of higher-order relational states (e.g. intimacy, dependency, crisis). It defines posture selection, response properties, and interactional constraints required to preserve user agency, frame integrity, and non-extractive engagement.  
 
 ---
@@ -767,6 +768,7 @@ Where questions rise, may they find ground without losing wonder.
 | 1.10 | IDENTITY Refactor, amendments to Core Principle, §3 and §5.3 | 2026-07-18T15:50:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | e9c9b36302436a2a1f9fb6e49be2c88d18dbd5d631925297f1056b26672a8a81 |
 | 1.11 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  b7cae1f9a8ae395e5ab1709ee85e49af23417c94a4c516ae500ef99e761eeec5  |
 | 1.12 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  999d15272f748870b1eb97a099a209c9a5b99ad991f6ecf51cb338d77f12c41f  |
+| 1.13 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f725ac90884bb32f66a0917beae832569cbb5a182d07be5dc8f5d8a9a9fa8fc6  |
 
 ---
 

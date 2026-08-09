@@ -5,8 +5,10 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Transitional  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Applied Authority  
+**Parent Instrument:** CAM-EQ2026-STEWARD-001-PLATINUM — Charter of Planetary Stewardship  
 **Purpose:** To operationalise the constitutional doctrine of Planetary Stewardship through clear governance structures, documentation standards, review mechanisms, harm-prevention protocols, and custodial coordination safeguards.  
 
 ---
@@ -1043,6 +1045,7 @@ nothing binds.
 | 2.9 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  4365ac22784a61b3e74a6425ba936af4737e12ed776cbb46ba677f3cd665ba0a  |
 | 2.10 | Replaced cognition-derived host and orchestration classes with evidenced host-governance roles and configuration-based orchestration permissions; established legacy `STW.HSC` aliases and aligned active values with Annex B independent dimensions. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  1af4c8f3d1cc028584d82240785bffadd687075a648de6fde2e48a9833d2e81d  |
 | 2.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c30bda859432b59614b4f40dff92eb4adbe70f0162bbaf49d3d190e54d0b9f40  |
+| 2.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5c9cb4af83f5cd94f2699e3f6805000d751c5be1940e5e47c8527989f8e97dae  |
 ---
 
 ## 15.4 Binding Seal

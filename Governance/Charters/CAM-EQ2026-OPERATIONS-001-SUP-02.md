@@ -5,8 +5,9 @@
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** None  
+**Review State:** Current  
+**Authority Role:** Operational Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** Defines operational escalation maps, authority routing trees, horizon-aligned escalation pathways, cross-domain signal routing, and procedural ownership for escalation actions.  
 **Parent Instrument:** CAM-EQ2026-OPERATIONS-001-PLATINUM — Governance Operations Charter  
 
@@ -1017,6 +1018,7 @@ and let execution remain accountable to lawful structure.
 | 1.11 | Added action-bound proportional confirmation and Operational Ethical Admissibility Hold handling using existing OPS.EST values; established target–action review authority, safe continuation, closure, and anti-paternalism safeguards. | 2026-07-23T12:46:14Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 4016d6a3e67360f5dab2e429d3efb42d9584f265eb5fcbd28ff62f538947045c |
 | 1.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  453bfdfd25463cc983c9d46f79c45fef50466f7470a4902ca5f0f481a6842059  |
 | 1.13 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  0a914b1cc94fd7a6f1063d9777956c1a3f68819ddde76a0c11b3d62507cfe2f8  |
+| 1.14 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2013f1382b84d41051674e30bcf2dff1f01e44224b84ca320b0663d2ed068ac0  |
 ---
 
 ## 12.4 Binding Seal

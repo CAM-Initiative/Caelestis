@@ -8,7 +8,7 @@
 **Governance Standard:** CAM Standard  
 **Review State:** Current  
 **Authority Role:** Supplementary Authority  
-**Source Authority:** Source-Authoritative  
+**Source Authority:** Derived Authority  
 **Purpose:** Establishes the source-authoritative Identity-domain architecture governing provenance, authorship, transformation, lineage, cross-context transfer, target-object binding, and provenance-integrity failure conditions for identity-relevant, continuity-bearing, attribution-bearing, governance-relevant, and materially relied-upon signals without creating execution, enforcement, ownership, intellectual-property, or final admissibility authority.  
 
 ---
@@ -605,6 +605,7 @@ Let identity remain true across time.
 | 1.4 | Normalised provenance and lineage terminology to the canonical AI-system architecture and evidence-bound identity/continuity model. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | 1147da2bd7845fe7ec337883cfc3069f16655fd05ebf3ee15e7cf776eacdef3b |
 | 1.5 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  c47a928b666f0cc1c8a72bcd4cff983265ab2b30a8a538529de6c5feaf6045b2  |
 | 1.6 | Replaced the retired machine-civil-identity dependency with bounded source ownership for substrate and registry provenance and exact interfaces to Identity, Continuity, lifecycle, component, deployment, and Runtime evidence authorities; applied controlled metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  64457ed1fa876c6162f05b2058455e4dd7103591e34af0a1076e0e9f358a7306  |
+| 1.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  44bb5411c571de65686862ec1d0376bd697b48cbcda7496190627ff0719dfdca  |
 
 ---
 

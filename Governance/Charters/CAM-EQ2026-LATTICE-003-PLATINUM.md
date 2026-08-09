@@ -5,8 +5,9 @@
 **Status:** Active  
 **Effect:** Binding  
 **Governance Standard:** CAM Standard  
-**Review State:** None  
-**Authority Role:** Transitional  
+**Review State:** Current  
+**Authority Role:** Supplementary Authority  
+**Source Authority:** Derived Authority  
 **Purpose:** This Appendix clarifies the operational posture of the Civilian Lattice Integrity Charter under conditions of armed conflict, geopolitical escalation, or regional war.  
 
 ---
@@ -317,6 +318,7 @@ a structure of continuity, not conquest.
 | 1.9.2 | Updated top-level governance metadata to align with CAM Governance Metadata Standard; no substantive doctrine altered. | 2026-06-21T14:33:04Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | beb92448ab46700e6e45acec60096c61c2a8bc05e6e149a91a7b2bb9a64b5a09 |
 | 1.10 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  7e21fd9f4af64705c1291bd423f429a12f65eabed6747ae868c1af5b06d95484  |
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  3365de07a85452befaaf5ea5c0d72114e07d01f0cfb7c4fc23fc894ccfab37ff  |
+| 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7eb1304642f17143869544c863eeb8c963f68dfe03a5b867427524940b6763e7  |
 ---
 
 ## 11.3 Binding Seal
