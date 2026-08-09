@@ -157,3 +157,5 @@ R-01 audited 182 current candidate lines across 80 operative source files and 19
 | Determinism | Pass; two final rebuilds produced the identical ordered generated-output hash above. |
 
 R-01 is closed. S-02 remains on hold. O-01, O-02, V-05 and V-03 retain their recorded independent states; no unrelated item is closed.
+
+Post-publication verification recorded R-01 source commit `24c2976b3aa28ffced02f6c5c70b62c834acc290` and generated-only refresh `5bde02fef37716b817e015d860698be983c55e3b`. The refresh changed only the three commit-derived JSON projections. Two isolated rebuilds at the refreshed head produced no diff and final ordered generated-output SHA-256 `857d6051bc73fbe8c8e103ffc7e5b0d17b3a74d40b41c3c303858aaf5aa5b25a`.

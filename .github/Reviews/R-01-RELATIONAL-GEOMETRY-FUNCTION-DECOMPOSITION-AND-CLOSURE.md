@@ -154,3 +154,7 @@ R-01 satisfies every closure condition. The ordered generated-output set had SHA
 | Deterministic rebuild | Pass: two final rebuilds produced the same ordered generated-output hash stated above. |
 
 Current operative doctrine contains no cardinality governance scale and no topology-derived authority, permission or jurisdiction. The only retired geometry values are the four exact sealed-Law residues and preserved historical provenance. No canonical geometry family or duplicate relational-configuration record was created.
+
+### 6.1 Post-publication generated refresh
+
+The R-01 source commit `24c2976b3aa28ffced02f6c5c70b62c834acc290` was followed by the repository's deterministic rebuild commit `5bde02fef37716b817e015d860698be983c55e3b`. That follow-up changed only `Governance/CAM.Governance.JSON`, `Governance/Charters/charters.index.json`, and `Governance/Constitution/constitution.index.json` to record commit-derived source metadata. Two isolated rebuilds at the refreshed head produced no diff. The final ordered generated-output SHA-256 at that head was `857d6051bc73fbe8c8e103ffc7e5b0d17b3a74d40b41c3c303858aaf5aa5b25a`.
