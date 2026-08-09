@@ -21,9 +21,9 @@
       "authority_role": "** Domain Authority",
       "version": "2.11",
       "HASH": "4f646953649d0dfb6cd15ebbc469363d443bed70076331edf197e613ccfc1a7e",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ARBITRATION-002-PLATINUM",
@@ -45,9 +45,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.10",
       "HASH": "5edd2a1b256c16b575783b7ad49a779809a175b37e894c212001679d9d79c629",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001-PLATINUM",
@@ -69,9 +69,9 @@
       "authority_role": "** Domain Authority",
       "version": "1.16",
       "HASH": "36b3270979b482e9a68aa5cc9bc62851aef8e8592be850ae9ea063137ec8e7f6",
-      "pinned_sha": "78ec300d72450dcaefe8d92cb834e440f3109042",
-      "updated_at": "2026-08-09T00:43:29Z",
-      "last_updated_utc": "2026-08-09T00:43:29Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-CONTINUITY-001-SUP-01",
@@ -93,9 +93,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.9",
       "HASH": "71b688108720d72f5a161f44b6ca0c639b20b6f56b7e2045de27b7bad3ce430a",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-001-PLATINUM",
@@ -141,9 +141,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "2.13",
       "HASH": "59dcfd6b921d0af0b3e1e314f6c7cf672f3c01cbbf53f639e255999417cf821f",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-003-PLATINUM",
@@ -165,9 +165,9 @@
       "authority_role": "** Interpretive Authority",
       "version": "2.6",
       "HASH": "849341e654d86898e32c3929c45c6b2033aa389b42cf7e0092841535140eb041",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-004-PLATINUM",
@@ -189,9 +189,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "2.4",
       "HASH": "ff3e654ad6b0e619f86294c365ccacf672709187de2a0727782764d1f28067ca",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-005-PLATINUM",
@@ -213,9 +213,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "2.3",
       "HASH": "5b350202b69e9546e9b0e1b880b9642f7f6e5a62d37e997e155c2a05fa4fef67",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-006-PLATINUM",
@@ -237,9 +237,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "2.4",
       "HASH": "c1e95f8d0f616b417614b38add141be4b41b9dd9d42da81a3e7696d16aead92d",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ECONOMICS-007-PLATINUM",
@@ -261,9 +261,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "2.5",
       "HASH": "8e870a9b986a762b125974b78a9ddcdff6d91a1ea50238cd532ac073a1e4d4b7",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-PLATINUM",
@@ -285,9 +285,9 @@
       "authority_role": "** Domain Authority",
       "version": "3.16",
       "HASH": "c9e309955b5c2d57c7ab3b1e94ea6a9e629cd4fd4109775be02a1183566bcc8a",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-01",
@@ -309,9 +309,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.11",
       "HASH": "f0d8d9819418b142f4a9adcded8145b492e56a34b54b38d389763bc57cd2cf31",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-02",
@@ -333,9 +333,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.12",
       "HASH": "deacbc89d756187e78b4eebf25052140eb0e9f7406626fe1625f90ee1630bd32",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-03",
@@ -357,9 +357,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.11",
       "HASH": "584604b1105f78ecf96b67c2aa2a80d113eca7e2cf49735314e57f401cb1c0ed",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-04",
@@ -381,9 +381,9 @@
       "authority_role": "** No Independent Authority",
       "version": "2.7",
       "HASH": "6fbda837d6fbd2792bddaddecb6a0e06280ac261728565599bd0a712ab109d4d",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002-PLATINUM",
@@ -405,9 +405,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "2.12",
       "HASH": "812183218186584d0b5aa5264b0861b931f83402cba33c12b03475600fc3767c",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-002-SUP-01",
@@ -429,9 +429,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.13",
       "HASH": "935f11096e2c5fbebce6bd79b4bd13264f601022e23b458914d99f0fbcc9f0e7",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-003-PLATINUM",
@@ -453,9 +453,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "3.9",
       "HASH": "f626f651dfcd2af5d518ac398a3d47232b1869f817e0fb214f1603df5ba7c827",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-001-PLATINUM",
@@ -501,9 +501,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.7",
       "HASH": "44bb5411c571de65686862ec1d0376bd697b48cbcda7496190627ff0719dfdca",
-      "pinned_sha": "78ec300d72450dcaefe8d92cb834e440f3109042",
-      "updated_at": "2026-08-09T00:43:29Z",
-      "last_updated_utc": "2026-08-09T00:43:29Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-IDENTITY-003-PLATINUM",
@@ -525,9 +525,9 @@
       "authority_role": "** Interpretive Authority",
       "version": "2.5",
       "HASH": "0c0b9bb7d4e34ecd3a765af2bb277f2ea26a5e7da23f4f7eabfad64f4758570a",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-001-PLATINUM",
@@ -549,9 +549,9 @@
       "authority_role": "** Domain Authority",
       "version": "3.12",
       "HASH": "302fcfa3979e11bc1a16ca9c87646802e425d36bc6e6ae98a410de36502edbab",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-002-PLATINUM",
@@ -573,9 +573,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "3.15",
       "HASH": "c49d39cb824e50df382e3d1e54dab942bb0ba960e8282d90317b90c76bb7ccb8",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-LATTICE-003-PLATINUM",
@@ -597,9 +597,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.12",
       "HASH": "7eb1304642f17143869544c863eeb8c963f68dfe03a5b867427524940b6763e7",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-MENTIS-001-PLATINUM",
@@ -645,9 +645,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.5",
       "HASH": "3f431fa41a36a65f0082270b3d023c0e17efbbfe0b1bfcdd8408a40da36f73fd",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-PLATINUM",
@@ -669,9 +669,9 @@
       "authority_role": "** Domain Authority",
       "version": "1.11",
       "HASH": "52eead43fc44e7aac37bd98029a9666ba502e724cd70c743b404abe60eb669a5",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-01",
@@ -693,9 +693,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.13",
       "HASH": "ba35dfeabfaa71c0db6aca647817f2d2b44b93eda58a034a4f3da12052dbb868",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-02",
@@ -717,9 +717,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.14",
       "HASH": "2013f1382b84d41051674e30bcf2dff1f01e44224b84ca320b0663d2ed068ac0",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-03",
@@ -741,9 +741,9 @@
       "authority_role": "** Operational Authority",
       "version": "2.8",
       "HASH": "df11432ec2fc957581ab3b13364e74cceb23e755d6d112b6beb4aa59ff56d6b3",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-001-SUP-04",
@@ -789,9 +789,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.9",
       "HASH": "a3495e04823d64441a1856309a56970a5fbe909ed475e1ec99d1a825a7b9e0de",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-003-PLATINUM",
@@ -861,9 +861,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.19",
       "HASH": "08bd89144d4d48dbea601bbf267b278a0d848778df03063d143d2e8215fc9065",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-SUP-01",
@@ -885,9 +885,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.10",
       "HASH": "dd7ccaef15dda78511329f85113e4ced5b1eb9f9dcd5f02ed6894f289ee42d30",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-005-PLATINUM",
@@ -909,9 +909,9 @@
       "authority_role": "** Operational Authority",
       "version": "2.5",
       "HASH": "de592f22ab5d86ff3819f7f9af4aa1067841c46d0a4bb0a001f62b966217f13f",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-006-PLATINUM",
@@ -933,9 +933,9 @@
       "authority_role": "** Operational Authority",
       "version": "2.5",
       "HASH": "bb88223e8fec4105ffbaf8f0b04ea7480a7c59eec86490fe977367ad88369811",
-      "pinned_sha": "1e7eec44c65b53830fd345b9a6c2267be2985b3a",
-      "updated_at": "2026-08-05T12:20:44Z",
-      "last_updated_utc": "2026-08-05T12:20:44Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-007-PLATINUM",
@@ -1005,9 +1005,9 @@
       "authority_role": "** Domain Authority",
       "version": "1.24",
       "HASH": "6732c85e5d0578dc614546868ec87e66a5e031281eee687c8c6eb2fc405adbc8",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-SUP-01",
@@ -1029,9 +1029,9 @@
       "authority_role": "** Operational Authority",
       "version": "4.5",
       "HASH": "9b9ac418c0390a35b648175992542b8bf4938a47cbce8290a80885bd0bd4c22e",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-001-SUP-02",
@@ -1053,9 +1053,9 @@
       "authority_role": "** Interpretive Authority",
       "version": "1.7",
       "HASH": "baba0488eb17bd9ccb5d13afc7bb4e0ee2f776c32fbdf09bb2437637be04c0f7",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-002-PLATINUM",
@@ -1077,9 +1077,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.15",
       "HASH": "b42a0aea395ae1fb9063184ba5e998bfb1203ba54c3aeaa79aeedc46c98222d5",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-003-PLATINUM",
@@ -1101,9 +1101,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.12",
       "HASH": "4f437904dd9fe83809ede6b41588431c36a781d4a734efd12ea1ce03fe4b8c03",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-004-PLATINUM",
@@ -1125,9 +1125,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.12",
       "HASH": "1556dff6d055894a3e3a3a629e39197b480fded9f9cbbbaa9e3cea3e8c5fe102",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-005-PLATINUM",
@@ -1149,9 +1149,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.27",
       "HASH": "1517aa1067dd24058bed52f2f7091e112e0867869f41831b8203a7687aa4ed69",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-RELATION-006-PLATINUM",
@@ -1221,9 +1221,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.13",
       "HASH": "f725ac90884bb32f66a0917beae832569cbb5a182d07be5dc8f5d8a9a9fa8fc6",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-001-PLATINUM",
@@ -1245,9 +1245,9 @@
       "authority_role": "** Domain Authority",
       "version": "1.20",
       "HASH": "831eb9cfe3834961ba4113adc58167c335ae0ca5cf256261ec1f87f0d0b662bc",
-      "pinned_sha": "9d30cec0c2a4c42b781a99a445490df040acc856",
-      "updated_at": "2026-08-07T14:48:56Z",
-      "last_updated_utc": "2026-08-07T14:48:56Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-SECURITY-002-PLATINUM",
@@ -1269,9 +1269,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.16",
       "HASH": "0c23c58689dbf8cd95e36c74a46fbcb10514554a4a95d902823bc9e527fe6f94",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-001-PLATINUM",
@@ -1293,9 +1293,9 @@
       "authority_role": "** Domain Authority",
       "version": "2.9",
       "HASH": "96009b9482438215b725782bb555acaa3ca751d06942db0047f4615ec942f957",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-002-PLATINUM",
@@ -1317,9 +1317,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "2.12",
       "HASH": "5c9cb4af83f5cd94f2699e3f6805000d751c5be1940e5e47c8527989f8e97dae",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-003-PLATINUM",
@@ -1341,9 +1341,9 @@
       "authority_role": "** Assurance Authority",
       "version": "2.7",
       "HASH": "96c0ed33eba04583360cea311ba0a19ea8ff7cbf55ee84dc9d2779dcc2687133",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     },
     {
       "id": "CAM-EQ2026-STEWARD-004-PLATINUM",
@@ -1365,9 +1365,9 @@
       "authority_role": "** Supplementary Authority",
       "version": "1.11",
       "HASH": "c5323352057ddb5396c1674a5f039248c5a6dfde261467d98c73a03b8b4a919e",
-      "pinned_sha": "c718ddcd22399c21f5687e4d932f414b757c22ab",
-      "updated_at": "2026-08-08T02:22:15Z",
-      "last_updated_utc": "2026-08-08T02:22:15Z"
+      "pinned_sha": "1dd9c4fc9090c01a61180173f251245bf1ebe309",
+      "updated_at": "2026-08-09T01:35:53Z",
+      "last_updated_utc": "2026-08-09T01:35:53Z"
     }
   ]
 }
