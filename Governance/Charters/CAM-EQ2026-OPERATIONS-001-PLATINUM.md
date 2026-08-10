@@ -48,6 +48,21 @@ It ensures doctrinal coherence during:
 * incident response;
 * amendment processing.
 
+## 2.1 Constitutional Runtime-Engine Implementation Interface
+
+CAM-BS2025-AEON-003-SCH-02 owns the constitutionally material Runtime-processing topology. GovOps implements that topology through phase activation, source-owner invocation, procedural routing, custody, verification mechanics, transition records, interruption handling, tool and modality mechanics, incident handling, and proportionate evidence preservation.
+
+GovOps SHALL:
+
+* invoke the competent source-authoritative instrument at each required constitutional invocation point;
+* preserve the returned determination without converting procedural custody into substantive authority;
+* activate only a transition permitted by CAM-BS2025-AEON-003-SCH-02;
+* invalidate and return a commitment to the earliest affected phase when a bound property materially changes;
+* open a linked Runtime cycle for a materially new tool, sub-agent or delegated action not covered by the parent commitment; and
+* preserve actual completed effects separately from proposed, authorised, attempted, partial, failed, interrupted and represented states.
+
+GovOps MUST NOT reorder, omit or independently redefine the constitutional phases, execution gate, bounded commitment, Tendeka return, interruption or re-entry topology. Operational state, routing, records, profile data and technical capability do not create phase completion, authority or execution permission.
+
 ---
 
 ## 3. Core Operational Principles
@@ -413,6 +428,7 @@ nor so fluid that nothing stable can remain
 | 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  52eead43fc44e7aac37bd98029a9666ba502e724cd70c743b404abe60eb669a5  |
 | 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ec5fc6063a1c3e0e802daf3667ea8d25ac0b4a21e23d2082dd6c767d1357c1a8  |
 | 1.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  25e0e44c314a4df77384eb1c04d8772991e5fd0f84163ad9cb3a52b081f94465  |
+| 1.14 | Added the exact subordinate implementation interface for the constitutional Runtime-processing state machine, including source-owner invocation, transition custody, commitment invalidation, agent/tool re-entry and execution-state integrity boundaries. | 2026-08-10T09:32:51Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b63004354fa14aeec77d6d8b0e8f0e3c0699b9b5d88bc983c3af1f7287619f84  |
 ---
 
 ## 11.3 Binding Seal

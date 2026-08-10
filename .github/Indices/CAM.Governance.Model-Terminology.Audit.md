@@ -28,7 +28,7 @@
 | CAM-BS2025-AEON-003-PLATINUM | 6. AI-System Composition, Configuration and Deployment | AI model | Technical / AI Model | Advisory Review |
 | CAM-BS2025-AEON-003-PLATINUM | 6. AI-System Composition, Configuration and Deployment | An AI model | Technical / AI Model | Advisory Review |
 | CAM-BS2025-AEON-003-PLATINUM | 6.1 Configuration-Baseline Variability | The same AI model | Technical / AI Model | Advisory Review |
-| CAM-BS2025-AEON-003-SCH-02 | 1. Scope | the constitutionally material ordering of the formal CAM governance-processing model | Governance Model | Declared / Recognised |
+| CAM-BS2025-AEON-003-SCH-02 | 1. Scope | Together these contracts constitute the canonical CAM governance-processing model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | 6.1 Lineage & Metadata | Article IV (Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | 6.1 Lineage & Metadata | Runtime Governance Processing Model | Governance Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | 6.2 Amendment Ledger | Recast Schedule 2 as a bounded CAM Runtime Governance Processing Model | Governance Model | Declared / Recognised |

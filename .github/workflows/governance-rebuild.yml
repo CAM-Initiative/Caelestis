@@ -137,6 +137,9 @@ jobs:
       - name: Phase 8 — Canonical architecture terminology validation
         run: python .github/scripts/validate_canonical_architecture_terminology.py
 
+      - name: Phase 8 — Runtime-processing architecture validation
+        run: python .github/scripts/validate_runtime_processing_architecture.py
+
       - name: Phase 8 — Intra-document section reference validation
         run: |
           mkdir -p validation-reports

@@ -2,285 +2,210 @@
 
 ## 1. Status
 
-**Design-only. Not operative.**
+**Revised and approved for RUNTIME-02 implementation after exact ten-phase reconciliation.**
 
-This model is the proposed minimum runtime-processing choreography derived after historical recovery and current-state gap analysis. It does not amend `CAM-BS2025-AEON-003-SCH-02`, create authority, create a canonical code family, or establish a new evidence schema.
+The earlier eight-phase proposal is superseded. `RUNTIME-02-TEN-PHASE-RECONCILIATION.md` demonstrates how every historical phase, gate, interrupt, re-entry mechanism and evidence handoff is preserved, corrected or expressly deprecated.
 
-## 2. Design conclusions
+## 2. Governing architecture
 
-The historical ten-phase model contained valid functions but over-separated domain-local interpretation and posture steps as universal phases. The seven-phase handoff hypothesis is too compressed because it risks hiding action/response preparation inside either authority determination or commitment.
+The canonical engine contains ten irreducible constitutional phases:
 
-The minimum coherent model is therefore eight phases:
+1. Runtime Entry and Context
+2. Pre-Classification
+3. Domain Determination
+4. Authority Resolution
+5. Governed Response or Action Preparation
+6. Execution-Boundary Evaluation
+7. Bounded Commitment
+8. Execution
+9. Representation and Delivery
+10. Preservation, Closure and Reassessment
 
-| Phase | Name | Primary orchestration question | Required output |
-|---|---|---|---|
-| A | Establish Runtime Context | What is the governed execution context? | Cycle envelope and applicable-context state |
-| B | Detect and Classify Conditions | Which source-authoritative determinations are required? | Preserved domain determinations and unknowns |
-| C | Resolve Authority | Is there authority to proceed, and is actual arbitration required? | Scoped authority outcome or referral/non-execution |
-| D | Prepare Governed Action or Response | What bounded candidate implements the resolved outcome? | Prepared candidate and declared prerequisites |
-| E | Commit at the Execution Gate | May this candidate be materially committed now? | Bounded commitment or pause/referral/non-execution |
-| F | Execute | What actually occurred within the commitment? | Completed, partial, failed, interrupted or unknown execution state |
-| G | Represent and Deliver | What may truthfully be emitted or claimed? | Delivered output/status with attribution and qualification |
-| H | Preserve, Close or Reassess | What state survives, and must governance run again? | Closure, continuity update, reassessment or linked child cycle |
+The engine owns invocation and transition. An invoked instrument owns its doctrine. A profile or evidence record represents state. OPERATIONS implements the phase and transition mechanics.
 
-Tendeka pause, constrained continuation, referral and interruption are cross-cutting transition states. They are not ordinary phases and do not acquire domain authority.
+The phases are logical governance checkpoints, not mandatory technical components or separate processes. Low-risk implementations may combine internal evaluation and evidence where all phase semantics remain satisfied and no required boundary becomes unobservable.
 
-## 3. Governing invariants
+## 3. Phase contracts
 
-1. Authority ownership, runtime invocation, state/evidence representation and orchestration remain distinct.
-2. A phase invokes source-authoritative doctrine; it does not inherit that doctrine.
-3. Domain determinations remain distinct until the applicable authority process resolves only the question requiring resolution.
-4. No domain determination, classifier, evidence object, profile, tool availability or prepared response directly creates execution authority.
-5. Commitment is bounded to an action/response candidate, target, effect, authority state, permissions, controls and prerequisites.
-6. A material change in target, effect, authority, permission, tool, externality, persistence, propagation or irreversibility requires re-entry before the changed action.
-7. Representation consumes execution state; it cannot manufacture it.
-8. Low-risk execution may use a compact evidence path. Exceptional or consequential execution requires proportionate reconstructability.
-9. Agentic, recursive and tool-mediated work uses linked cycles where a sub-action crosses a material boundary.
-10. Interruption remains possible after commitment and before any not-yet-completed irreversible effect.
+### Phase 1 — Runtime Entry and Context
 
-## 4. Phase specifications
-
-### Phase A — Establish Runtime Context
-
-| Field | Specification |
+| Field | Contract |
 |---|---|
-| Phase identifier | `A — ESTABLISH_RUNTIME_CONTEXT` (local design identifier; not a canonical code) |
-| Entry condition | New governed input/event, cycle re-entry, materially changed Runtime state, accepted handoff or linked sub-action |
-| Required inputs | Input/event reference; AI-system deployment; current Runtime configuration or evidence posture; accountable operator/custodian; asserted objective; known target/effect; effective permission/control references where material |
-| Optional inputs | Parent cycle/commitment; continuity context; AI-BOM; prior execution provenance; lifecycle event; user/account/deployment metadata permitted for the purpose |
-| Authoritative instruments invoked | Annex B terminology/non-collapse; OPERATIONS applicability; Lifecycle Actor Profile; Runtime State Profile; AI-BOM Profile; SECURITY source-authority separation where input authority is uncertain |
-| Prohibited authority creation | Deployment, role, tool availability, credential possession, memory, account context or prior success cannot create authority |
-| State transformations | Create/refresh the cycle envelope; bind input to system/deployment/Runtime; distinguish current, historical, inferred and unknown state |
-| Output state | `context_established`, `context_partial`, `clarification_required`, or `immediate_hold_signal` |
-| Interruption conditions | Untrusted instruction influence, compromised state, missing active target/effect, unavailable required Runtime evidence |
-| Referral conditions | Source-authority dispute, unavailable accountable operator or jurisdictional uncertainty material to the proposed action |
-| Transition targets | B normally; G for bounded clarification/non-execution message; Tendeka/referral state where triggered |
-| Evidence emitted | Cycle identifier; parent-cycle link where applicable; input provenance; deployment/Runtime pointers; actor/custody pointer; known unknowns |
-| Reassessment triggers | Configuration, model, deployment, permission, environment, actor or objective change |
+| Purpose | Establish the governed event, execution scope and effective Runtime context. |
+| Entry condition | New input/event; new or resumed execution cycle; operator/model/tool/modality handoff; or linked child action. |
+| Required state | Input/event and source; system/deployment/execution scope; accountable actor/custodian; effective permissions and controls where material; prior cycle/commitment link where applicable. |
+| Invocation points | Annex B architecture and boundary rules; lifecycle actor profile; AI-BOM/deployment/runtime evidence; applicable OPERATIONS custody procedure. |
+| Prohibited authority creation | Possession, availability, tool exposure, memory, prior custody or profile state cannot create authority. |
+| Output/evidence | Scoped Runtime event, attributable custody, material configuration/permission facts and unknowns. |
+| Transition | Phase 2; pause/referral where context or custody cannot be established safely. |
+| Reassessment | Re-enter Phase 1 on material deployment, model, tool, modality, permission, custody or target change. |
 
-### Phase B — Detect and Classify Conditions
+### Phase 2 — Pre-Classification
 
-| Field | Specification |
+| Field | Contract |
 |---|---|
-| Phase identifier | `B — DETECT_AND_CLASSIFY` |
-| Entry condition | Phase A produced sufficient context for classification |
-| Required inputs | Cycle envelope and scoped input/event |
-| Optional inputs | Permitted continuity context; domain-specific evidence; telemetry; current modality/non-lexical signals |
-| Authoritative instruments invoked | Only applicable domain owners: ETHICS, RELATION, SECURITY, IDENTITY, CONTINUITY, MENTIS, ECONOMICS, LATTICE, STEWARD and others; Annex L for epistemic/exactness conditions |
-| Prohibited authority creation | Signal presence, severity, relational posture, classifier confidence or domain output cannot itself authorise action or determine another domain |
-| State transformations | Identify applicable domains; run required classifiers; preserve each output, confidence, provenance, scope, validity window and unknowns; apply source-owned admissibility rules |
-| Output state | Set of distinct domain determinations; `no_material_condition`; `clarification_required`; `constraint_signal`; or `pause_signal` |
-| Interruption conditions | Tendeka trigger, critical security signal, immediate affected-person protection requirement or invalid input provenance |
-| Referral conditions | Classifier owner unavailable, classification outside competent domain or admissibility cannot be established for an irreversible action |
-| Transition targets | C for authority assessment; A for material context refresh; G for bounded clarification; Tendeka/referral state where required |
-| Evidence emitted | Classifier invoked, source section, input/evidence basis, determination, confidence/evidence posture, expiry/revalidation condition |
-| Reassessment triggers | New signal, corrected input, stale classification, consent change, material escalation/de-escalation or conflicting evidence |
+| Purpose | Identify separable input/action components and the potentially applicable source-authoritative owners before substantive interpretation. |
+| Entry condition | Phase 1 supplies a scoped event. |
+| Required state | Scoped event, current context and provenance. |
+| Invocation points | Architecture-neutral component/type recognisers and owner-selection rules; no domain merits. |
+| Prohibited authority creation | Classification, task type, interface tone or routing cannot decide authority, permission or substantive domain outcome. |
+| Output/evidence | Component boundaries; provisional applicability map; ambiguity/unknown state; classification basis proportionate to consequence. |
+| Transition | Phase 3; bounded clarification may be prepared through Phases 4–9 without prejudicing merits. |
+| Reassessment | Repeat on changed input, new component, corrected provenance or classifier conflict. |
 
-Operational note: `RELATION-001-SUP-03` is invoked here only when relational conditions are materially present. It returns RELATION-domain signals and local posture constraints. Generic deterministic verification, epistemic routing, ordinary task routing and cross-domain harmonisation do not belong to the RELATION invocation.
+### Phase 3 — Domain Determination
 
-### Phase C — Resolve Authority
-
-| Field | Specification |
+| Field | Contract |
 |---|---|
-| Phase identifier | `C — RESOLVE_AUTHORITY` |
-| Entry condition | Phase B has produced the applicable determinations or established that none are material |
-| Required inputs | Distinct domain determinations; asserted authority source; objective; target/effect; non-derogable constraints |
-| Optional inputs | Verification records; legal/institutional mandate; delegation; consent; arbitration history relevant to the same scoped question |
-| Authoritative instruments invoked | AEON-003-SCH-02; Annex D; ARBITRATION-001/002; AEON-005-SCH-04; OPERATIONS-002/006 for procedure; competent domain authority for locally resolvable questions |
-| Prohibited authority creation | Routing, majority of signals, model confidence, operator convenience or evidence custody cannot decide merits |
-| State transformations | Distinguish no collision, compatible multi-domain conditions, locally resolvable divergence and actual authority collision; preserve non-derogable constraints; resolve only the scoped question |
-| Output state | `authority_sufficient`, `authority_conditioned`, `scoped_non_execution`, `clarification`, `interim_hold`, `referral`, or `unresolved` |
-| Interruption conditions | New superior constraint, material ambiguity at irreversible boundary or lost competent authority |
-| Referral conditions | Actual cross-authority collision, scope exceeding local competence or unresolved protected boundary |
-| Transition targets | D for executable/representable outcome; G for non-execution/clarification/referral notice; Tendeka/referral state as required |
-| Evidence emitted | Authorities invoked; determinations preserved; collision/no-collision finding; scoped outcome; resolving authority and validity conditions |
-| Reassessment triggers | New authority evidence, changed mandate, appeal/reconsideration, scope expansion or material new domain determination |
+| Purpose | Invoke every materially applicable source-authoritative domain and preserve its determination independently. |
+| Entry condition | Pre-classification identifies an applicable domain question or constraint. |
+| Required state | Component/applicability map, context and each owner's required evidence. |
+| Invocation points | ETHICS, SECURITY, RELATION, EPISTEMIC, IDENTITY, CONTINUITY and any other applicable source owner. |
+| Prohibited authority creation | The engine cannot substitute its own classifier or convert one domain output into another. A domain determination cannot directly execute action. |
+| Output/evidence | Distinct domain determinations, confidence/evidence posture, applicable constraint, requested clarification, review trigger and provenance. |
+| Transition | Phase 4; Tendeka/referral/clarification as applicable. |
+| Reassessment | Re-invoke only affected owners on material evidence/state change while preserving unaffected determinations. |
 
-Arbitration is conditional. Phase C does not force every multi-domain input through formal arbitration.
+### Phase 4 — Authority Resolution
 
-### Phase D — Prepare Governed Action or Response
-
-| Field | Specification |
+| Field | Contract |
 |---|---|
-| Phase identifier | `D — PREPARE_GOVERNED_CANDIDATE` |
-| Entry condition | Phase C permits a response/action or requires a bounded non-execution/referral representation |
-| Required inputs | Scoped authority outcome; applicable domain determinations; task objective; constraints |
-| Optional inputs | Relational posture; output format; tool plan; deterministic verification result; safe alternatives; continuity requirements |
-| Authoritative instruments invoked | Domain owners for substantive content/posture; Annex L for uncertainty and representation planning; OPERATIONS for preparation procedure |
-| Prohibited authority creation | Preparation, fluency, feasibility, tool selection, user preference, response archetype or implementation readiness cannot enlarge authority |
-| State transformations | Convert the authority outcome into a bounded candidate response/action plan; declare target, effect, tool/path, prerequisites, representation needs and safe severability |
-| Output state | `candidate_ready`, `candidate_requires_reclassification`, `candidate_requires_authority_review`, or `bounded_non_execution_candidate` |
-| Interruption conditions | Candidate reveals a new target/effect, unsafe pathway, missing permission or new domain condition |
-| Referral conditions | Candidate cannot implement the outcome without exceeding mandate or changing the material question |
-| Transition targets | E normally; B or C on new condition; G for a non-execution/clarification candidate |
-| Evidence emitted | Candidate-to-authority trace; prerequisites; tool/path and affected-object declaration where material |
-| Reassessment triggers | Candidate mutation, tool substitution, material content transformation or changed delivery context |
+| Purpose | Determine whether the preserved outputs are compatible and establish the bounded authority state for preparation. |
+| Entry condition | Applicable domain determinations are available or an actual authority collision is identified. |
+| Required state | Distinct determinations, asserted authority sources, non-derogable constraints and admissible evidence. |
+| Invocation points | Annex D and ARBITRATION only where an actual collision/ambiguity requires them; OPERATIONS for procedure. |
+| Prohibited authority creation | Routing, convergence, majority, fluency, user preference or implementation convenience cannot decide arbitration merits. |
+| Output/evidence | No-collision result; resolved scoped authority; clarification; interim hold; referral; or non-execution. |
+| Transition | Phase 5 for any response/action candidate; durable referral may proceed to Phase 9/10 after a bounded representation candidate is prepared. |
+| Reassessment | Re-enter on changed authority, revoked delegation, new conflicting determination or competent external result. |
 
-Phase D is separate because authority resolution does not itself construct behaviour, and behaviour preparation does not itself establish authority.
+### Phase 5 — Governed Response or Action Preparation
 
-### Phase E — Commit at the Execution Gate
-
-| Field | Specification |
+| Field | Contract |
 |---|---|
-| Phase identifier | `E — EXECUTION_COMMITMENT_GATE` |
-| Entry condition | A bounded candidate exists |
-| Required inputs | Candidate; scoped authority outcome; target/effect; effective permissions/controls; non-derogable constraints; required prerequisites |
-| Optional inputs | Deterministic verification; human/accountable approval; tool availability; fresh Runtime snapshot; reversibility assessment |
-| Authoritative instruments invoked | Constitution §16; AEON-003-SCH-02; AEON-001-SCH-01 for Tendeka; applicable permission/security/ethics rules; OPERATIONS verification procedure |
-| Prohibited authority creation | Commitment, approval workflow completion, evidence object, human capability judgement, credential possession or tool availability cannot create absent authority |
-| State transformations | Verify current authority, permission, constraint and prerequisite state; bind candidate to scope and revalidation conditions; establish a bounded commitment |
-| Output state | `committed`, `scoped_non_execution`, `paused`, `referred`, `clarification_required`, or `prerequisite_failed` |
-| Interruption conditions | Any new material constraint or changed target/effect/permission before irreversible action |
-| Referral conditions | Unresolved authority, material ambiguity, unavailable competent approval or non-verifiable prerequisite |
-| Transition targets | F if committed; G for non-execution/clarification/referral representation; Tendeka/referral state where applicable |
-| Evidence emitted | Commitment scope; authority and permission snapshot; prerequisites; expiry/revalidation condition; boundary outcome |
-| Reassessment triggers | Permission/control/configuration drift, tool/path substitution, material delay, new evidence or changed aggregate pathway |
+| Purpose | Convert the resolved authority state into an exact, bounded candidate response/action and declared prerequisites. |
+| Entry condition | Phase 4 returns a scoped authority/non-execution/referral state. |
+| Required state | Authority state, applicable determinations, objective, target/effect, constraints and verified payload where required. |
+| Invocation points | Applicable domain response/posture rules, epistemic/representation requirements and operational planning procedure. |
+| Prohibited authority creation | Candidate formation, relational posture, planning, tool availability or response fluency cannot enlarge authority or silently reopen Phase 4. |
+| Output/evidence | Candidate response/action, intended target/effect, prerequisites, representation requirements, authority trace and unresolved conditions. |
+| Transition | Phase 6; Phase 2/3/4 if preparation reveals a new material component, determination or collision. |
+| Reassessment | Rebuild after any material change to content, target, effect, method, tool, permission or constraint. |
 
-This is the bounded replacement for the historical absolute Execution Lock. It fixes a candidate within a verified scope but remains interruptible for new material facts before any not-yet-completed irreversible effect.
+### Phase 6 — Execution-Boundary Evaluation
 
-### Phase F — Execute
-
-| Field | Specification |
+| Field | Contract |
 |---|---|
-| Phase identifier | `F — EXECUTE` |
-| Entry condition | Phase E produced a current bounded commitment |
-| Required inputs | Commitment; effective tool/action path; current permissions/controls |
-| Optional inputs | Checkpoint/persistence budget; delegated actor; sandbox; monitoring; user-facing progress channel |
-| Authoritative instruments invoked | OPERATIONS execution procedure; domain constraints remain continuously binding; SECURITY controls; lifecycle delegation controls |
-| Prohibited authority creation | Tool success, partial completion, downstream availability or delegated action cannot enlarge the commitment |
-| State transformations | Perform only committed steps; preserve state consistency; checkpoint material work; detect changed target/effect/path/permission and new constraint signals |
-| Output state | `completed`, `partial`, `failed`, `interrupted`, `unknown`, or `child_cycle_required` |
-| Interruption conditions | New material constraint, permission drift, changed pathway, tool failure, target mutation, incident or authorised user/operator interruption |
-| Referral conditions | Execution cannot continue within scope or a new authority question arises |
-| Transition targets | G for completed/partial/failed/unknown state; B/C/E through recorded interruption where conditions change; linked Phase A for a material sub-action |
-| Evidence emitted | Execution provenance proportionate to effect; actions attempted/completed; tool/actor; material state changes; failures/unknowns; child-cycle link |
-| Reassessment triggers | Every material sub-action not already covered, failed/partial state, changed environment or newly detected consequence |
+| Purpose | Determine whether the exact candidate may cross its next material execution boundary. |
+| Entry condition | A bounded candidate and authority state exist. |
+| Required state | Candidate; authority scope; effective permissions/controls; target/effect; prerequisites; cumulative completed/proposed actions; current constraints. |
+| Invocation points | Article 16; applicable domain constraints; `AEON-001-SCH-01` when Tendeka applies; operational verification procedures. |
+| Prohibited authority creation | Technical capability, evidence availability, prior approval or an earlier boundary outcome cannot authorise a different or later action. |
+| Output/evidence | Proceed; scoped non-execution; Tendeka pause; referral; clarification; or re-evaluation target, with boundary evidence. |
+| Transition | Phase 7 only on proceed; Phase 5 for bounded non-execution/referral representation; Phase 2–4 where material state invalidates earlier outputs. |
+| Reassessment | Every new material/irreversible boundary and cumulative pathway change requires renewed evaluation. |
 
-For pure text output, Phase F forms the final bounded output artefact and Phase G emits it. For external action, Phase F performs the action and Phase G reports/delivers the actual state.
+### Phase 7 — Bounded Commitment
 
-### Phase G — Represent and Deliver
-
-| Field | Specification |
+| Field | Contract |
 |---|---|
-| Phase identifier | `G — REPRESENT_AND_DELIVER` |
-| Entry condition | An execution state or non-execution/referral outcome requires user/system-facing delivery |
-| Required inputs | Actual execution/boundary state; prepared representation requirements; attribution and evidence posture |
-| Optional inputs | Relational posture; uncertainty qualification; safe alternatives; notice class; delivery-channel constraints |
-| Authoritative instruments invoked | Annex L and Schedule 1; applicable ETHICS/RELATION boundary-expression doctrine; OPERATIONS notice/delivery procedure |
-| Prohibited authority creation | Narrative, interface convention, optimistic inference, handoff or post-hoc explanation cannot convert state or reopen authority |
-| State transformations | Render and deliver the result; identify completion/partial/failure/unknown/referral state; preserve attribution, provenance and epistemic qualification |
-| Output state | `delivered`, `delivery_partial`, `delivery_failed`, `status_represented`, or `referral_represented` |
-| Interruption conditions | Delivery transformation would materially alter governed content, suppress state distinction or expose protected information |
-| Referral conditions | Required disclosure cannot be made safely or delivery channel lacks necessary integrity |
-| Transition targets | H; F only for an independently authorised retry; B/C/E if delivery requires a materially new action |
-| Evidence emitted | Delivered artefact/status, channel, attribution, material transformations and delivery state |
-| Reassessment triggers | Delivery failure, user correction, downstream transformation, new evidence or reliance on an unknown/partial state |
+| Purpose | Bind one exact candidate to the resolved authority, permissions, prerequisites and expiry conditions immediately before execution. |
+| Entry condition | Phase 6 returns proceed and all required prerequisites remain satisfied. |
+| Required state | Candidate, authority and boundary outcomes, effective permissions, execution target/effect and revalidation conditions. |
+| Invocation points | Constitution Article 16 and operational commitment/custody procedure. |
+| Prohibited authority creation | Commitment does not create authority, cure an invalid determination or convert a proposal into completed execution. |
+| Output/evidence | Bounded commitment snapshot linked to candidate, authority, boundary decision and expiry/revalidation conditions. |
+| Transition | Phase 8; interruption/re-entry if any bound property materially changes before completion. |
+| Reassessment | Never mutate a commitment in place. Invalidate it and return to the earliest affected phase. |
 
-### Phase H — Preserve, Close or Reassess
+### Phase 8 — Execution
 
-| Field | Specification |
+| Field | Contract |
 |---|---|
-| Phase identifier | `H — PRESERVE_CLOSE_OR_REASSESS` |
-| Entry condition | Phase G completes or a cycle reaches a durable pause/referral state |
-| Required inputs | Cycle outputs, execution provenance, delivery state, active review triggers and permitted continuity state |
-| Optional inputs | Incident record; continuity/custody record; audit/conformance evidence; appeal/reassessment condition; resumable checkpoint |
-| Authoritative instruments invoked | OPERATIONS logging/incident/reassessment; CONTINUITY; IDENTITY; Runtime State Profile; lifecycle profile |
-| Prohibited authority creation | Retention, memory, prior determination, audit record or continuity claim cannot authorise later execution |
-| State transformations | Persist only authorised state; expire transient execution posture; classify completion/pause/referral; emit review triggers; choose close, same-cycle reassessment or linked cycle |
-| Output state | `closed`, `continuity_preserved`, `paused_durable`, `reassessment_required`, `incident_routed`, or `linked_cycle_created` |
-| Interruption conditions | Evidence integrity failure, prohibited retention, unresolved partial effect or incident threshold |
-| Referral conditions | Required custodian/reviewer unavailable, continuity conflict or unresolved consequential effect |
-| Transition targets | Close; A for material context rebuild; B for new/reclassified signals; C for new authority evidence; linked A for child/continuation cycle |
-| Evidence emitted | Closure state; retained/expired state; custody; review triggers; incident/referral link; next-cycle link |
-| Reassessment triggers | Profile-defined triggers, new evidence, changed permission/configuration/deployment, incident, material impact change or user/operator correction |
+| Purpose | Perform only the committed response/action/tool invocation and monitor for material drift or new boundaries. |
+| Entry condition | A valid unexpired commitment exists. |
+| Required state | Committed candidate, effective permissions/tools/controls, execution environment and interruption interface. |
+| Invocation points | OPERATIONS procedure, tool/runtime controls, incident handling and any continuously applicable domain constraint. |
+| Prohibited authority creation | A tool, sub-agent, generated plan, partial success or runtime opportunity cannot enlarge the parent commitment. |
+| Output/evidence | Actual completed, partial, failed, interrupted, blocked or unknown execution state and proportionate provenance. |
+| Transition | Phase 9; linked child Phase 1 for a materially new sub-action; Phases 2–6 on authorised interruption according to what changed. |
+| Reassessment | New target, tool, permission, delegation, external effect, material state or cumulative pathway change requires re-entry before that action. |
 
-## 5. Cross-cutting transition states
+### Phase 9 — Representation and Delivery
 
-| Transition state | May be entered from | Required effect | Permitted exits |
-|---|---|---|---|
-| Tendeka pause | Any phase before a not-yet-completed affected action | Stop affected dependent pathways; preserve safely severable work; identify competent release authority | Return to A/B/C/E as dictated by the resolved condition, or G/H for non-execution/referral |
-| Scoped constrained continuation | B–F | Continue only severable authorised pathways; preserve the held pathway and trigger | Same phase, E for renewed gate, or G/H |
-| Referral | B–H | Preserve question, scope, evidence and current execution state without implying determination | C on determination, A/B on new evidence, or G/H on durable external referral |
-| Authorised interruption | E–F | Checkpoint completed/remaining work; prevent in-place mutation of commitment | B/C/E, linked A, or G/H |
-| Clarification | A–E | Produce a bounded non-prejudicial question/output | A or B on response; H if cycle closes |
+| Field | Contract |
+|---|---|
+| Purpose | Render and deliver the actual execution, non-execution, pause or referral state truthfully. |
+| Entry condition | Phase 8 returns actual state, or a bounded non-execution/referral result requires delivery. |
+| Required state | Actual state, attribution/provenance, uncertainty and applicable expression/notice requirements. |
+| Invocation points | Annex L and Schedule 1; applicable ETHICS/RELATION expression doctrine; operational notice/delivery procedure. |
+| Prohibited authority creation | Representation, interface state, optimistic language or downstream transformation cannot manufacture authorisation, attempt, success or completion. |
+| Output/evidence | Delivered artefact/status with material transformations, attribution, uncertainty and delivery state. |
+| Transition | Phase 10; Phase 5/6 if transformation materially changes governed content or retry requires a new action. |
+| Reassessment | Delivery failure, correction, new evidence or material downstream transformation. |
 
-## 6. Transition rules
+### Phase 10 — Preservation, Closure and Reassessment
 
-```mermaid
-flowchart TD
-    A["A Context"] --> B["B Classify"]
-    B --> C["C Authority"]
-    C --> D["D Prepare"]
-    D --> E["E Commit gate"]
-    E --> F["F Execute"]
-    F --> G["G Represent"]
-    G --> H["H Close or reassess"]
-    H -->|material change| A
-    H -->|new signal| B
-    F -->|new material boundary| B
-    C -->|pause or referral| G
-    E -->|non-execution| G
-```
+| Field | Contract |
+|---|---|
+| Purpose | Preserve proportionate evidence and permitted continuity, expire transient state, and choose closure or valid re-entry. |
+| Entry condition | Delivery completes or the cycle reaches a durable pause/referral/interruption state. |
+| Required state | Phase outputs, execution/delivery state, review triggers, custody and permitted continuity state. |
+| Invocation points | OPERATIONS logging/incident/reassessment; CONTINUITY; IDENTITY; Runtime State and lifecycle profiles. |
+| Prohibited authority creation | Audit, memory, continuity, prior success or retained profile state cannot authorise later execution. |
+| Output/evidence | Closure, retained/expired state, durable pause/referral, incident/review link and any linked next cycle. |
+| Transition | Close; Phase 1 for material context rebuild/child cycle; Phase 2 for new input; Phase 3 for renewed domain evidence; Phase 4 for authority result. |
+| Reassessment | Profile-defined triggers, correction, incident, state/configuration/permission change or unresolved partial effect. |
 
-The diagram shows the normal route and principal re-entry paths. Tendeka and interruption may suspend any affected pathway without becoming an ordinary phase.
+## 4. Cross-cutting transitions
 
-## 7. Evidence proportionality
+### 4.1 Tendeka
 
-### 7.1 Compact path
+A valid Tendeka condition may suspend any affected pathway before the next affected material or irreversible action. `AEON-001-SCH-01` owns trigger, pause, propagation, severability and competent release. The engine preserves the paused phase state and permits return only to the earliest phase invalidated by the resolution. Release never jumps directly to Phase 7 or 8.
 
-For low-risk ordinary inference or conversation, the implementation may combine internal phase evidence into a compact record containing:
+### 4.2 Referral and clarification
 
-- cycle/input reference;
-- materially applicable domain determinations, if any;
-- boundary outcome;
-- actual output/delivery state; and
-- any review trigger or exceptional transition.
+Referral preserves the question, current state, evidence and requested competent authority. Clarification is a bounded response/action cycle that cannot prejudice the unresolved merits. A returned answer re-enters the earliest affected phase.
 
-The architecture does not require event-level forensic telemetry merely because an output was produced.
+### 4.3 Authorised interruption
 
-### 7.2 Reconstructable path
+During Phases 7–8, a new material constraint, authority change, permission drift, target/effect change, failed prerequisite or authorised interrupt invalidates the affected commitment. Completed irreversible effects remain actual history; remaining work returns to Phase 2, 3, 4 or 6 according to what changed.
 
-For external tools, persistent memory, material delegation, consequential action, irreversible effect, incident, asserted conformance or formal review, the implementation should preserve distinct pointers for:
+### 4.4 Agent/tool child cycles
 
-- Runtime configuration snapshot;
-- lifecycle actors and authority/permission assignments;
-- domain determinations;
-- arbitration or no-collision outcome;
-- commitment/boundary outcome;
-- execution provenance;
-- delivery/representation state; and
-- closure, interruption or reassessment state.
+A proposed tool, sub-agent or delegated action enters a linked Phase-1 cycle when it introduces a new material target, tool, permission, delegation, external effect or state boundary not already covered by the parent commitment. Parent authority is an input, not automatic child authority.
 
-Existing profiles and records should be reused. A separate record must not be created merely to duplicate the same state.
+### 4.5 Handoff and modality change
 
-## 8. Operationalisation tests
+A material change in deployment, Runtime configuration, custody, effective permission, accountable actor or execution environment returns to Phase 1. A non-material transport or modality change may resume the current phase after revalidating its entry conditions.
 
-### 8.1 Ordinary low-risk response
+## 5. Transition summary
 
-A establishes the active interaction context; B identifies no material exceptional domain condition; C records no authority collision; D prepares the response; E confirms no material execution boundary; F forms the output; G emits it truthfully; H closes with compact evidence.
+| From | Normal target | Conditional targets |
+|---|---|---|
+| Phase 1 | Phase 2 | pause/referral |
+| Phase 2 | Phase 3 | clarification cycle; repeat Phase 2 |
+| Phase 3 | Phase 4 | Tendeka; clarification; referral; repeat affected determination |
+| Phase 4 | Phase 5 | hold/referral/non-execution via Phase 5; repeat Phase 4 |
+| Phase 5 | Phase 6 | Phase 2/3/4 on newly material state |
+| Phase 6 | Phase 7 | Phase 5 for represented non-execution; Phase 2/3/4 for renewed decision; Tendeka/referral |
+| Phase 7 | Phase 8 | Phase 2/3/4/6 after invalidation |
+| Phase 8 | Phase 9 | linked child Phase 1; Phase 2/3/4/6 after interruption |
+| Phase 9 | Phase 10 | Phase 5/6 for material transformation or retry |
+| Phase 10 | Close | Phase 1/2/3/4 according to reassessment trigger |
 
-### 8.2 Consequential tool action
+Every branch must terminate, enter a durable pause/referral with a competent return condition, or identify a valid re-entry phase.
 
-A resolves deployment, actor, target and effective permissions; B invokes applicable SECURITY/ETHICS/domain classifiers; C resolves authority or refers conflict; D prepares the exact tool plan; E binds target/effect/permissions and prerequisites; F executes with provenance; G reports actual completion/partial/failure state; H preserves evidence and review triggers.
+## 6. Evidence proportionality
 
-### 8.3 Relational interaction
+Low-risk ordinary inference or conversation may use a compact record that demonstrates the scoped event, materially applicable determinations, boundary outcome, delivered state and any review trigger. Separate forensic events are not required merely because ten logical phase contracts apply.
 
-B invokes RELATION-001-SUP-03 and applicable RELATION/ETHICS owners. Their outputs remain domain determinations. C resolves only actual authority conflict. D applies the permitted relational posture to response preparation. RELATION does not perform generic deterministic verification, cross-domain harmonisation, commitment or execution.
+Tool use, persistent memory, material delegation, consequential or irreversible action, incident, asserted conformance and formal review require reconstructable pointers for applicable Runtime configuration, actors/authority, determinations, boundary/commitment outcome, execution provenance, delivery and closure/reassessment state.
 
-### 8.4 Agentic recursive action
+## 7. Code/schema decision
 
-When F identifies a material sub-action with a new target, tool, permission, externality or effect, it creates a linked child cycle at A. The parent commitment does not automatically authorise the child action. The parent may wait, continue safely severable work or enter a recorded interruption state.
+No new canonical code family is created. The stable phase names and Schedule section references are sufficient for current human and deterministic validation. Machine serialization may be reconsidered only when a concrete repeated consumer cannot use existing transition/provenance fields.
 
-### 8.5 Changed condition after commitment
+## 8. Acceptance result
 
-A new material constraint detected in E or F triggers interruption. Completed irreversible effects are not rewritten. Remaining work re-enters B, C or E according to what changed, with the prior commitment and execution state preserved.
-
-## 9. Code and schema decision
-
-This design creates **no canonical code family**.
-
-The phase labels are local design identifiers. Before implementation, a machine-readable family may be considered only if repeated machine-to-machine consumption cannot use existing execution-provenance, transition and evidence fields. No such necessity has yet been demonstrated.
-
-## 10. Design conclusion
-
-The eight-phase model restores a coherent runtime engine without returning domain doctrine to constitutional Schedules, treating profiles as authority, or using RELATION as the general processor. It is ready for placement review but is not authorised for operative implementation in this package.
+The model covers ordinary conversation, multi-model routing, agentic execution, tools, sub-agents, material state change, execution interruption, output transformation, post-action evidence and bounded reassessment. It preserves doctrine ownership and provides a complete path without requiring the engine to reproduce substantive domain rules.

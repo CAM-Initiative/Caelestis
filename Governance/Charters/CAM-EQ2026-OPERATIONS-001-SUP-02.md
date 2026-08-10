@@ -400,6 +400,24 @@ Recognised transition states include, without limitation:
 
 Classification of an execution-state transition SHALL be procedural only and SHALL NOT independently authorise execution, refusal, containment, or arbitration resolution.
 
+### 5.5.1 Constitutional Phase Return Interface
+
+Exceptional Runtime handling SHALL return to the canonical phase model in CAM-BS2025-AEON-003-SCH-02 as follows:
+
+| Operational transition | Required constitutional handling |
+|---|---|
+| ordinary continuation | Continue only to the next permitted phase after current exit conditions are satisfied. |
+| constrained, degraded, sandbox or containment continuation | Revalidate Phase 6 before any affected material or irreversible action; return earlier where the constraint changes the candidate, domain determination or authority. |
+| paused continuation | Preserve current state and the competent release condition; upon release return to the earliest invalidated phase, never directly to Phase 7 or Phase 8. |
+| handoff, modality or Runtime transition | Return to Phase 1 where custody, deployment, configuration, permission, accountable actor or execution environment materially changes; otherwise revalidate the current phase entry conditions. |
+| tool-mediated transition | Open a linked Phase 1 cycle where the tool action introduces a new material target, tool, permission, external effect or state boundary; otherwise remain bounded by the existing commitment. |
+| execution interruption | Preserve completed effects as actual history, invalidate uncompleted affected commitment state, and return to Phase 2, 3, 4 or 6 according to what changed. |
+| re-arbitration referral | Preserve the unresolved collision and current evidence, enter durable referral custody, and return the competent result to Phase 4. |
+
+A transition record SHALL identify the originating phase, transition class, triggering change, affected pathway, preserved completed effects, earliest invalidated phase, competent return condition and linked parent/child cycle where applicable.
+
+No exceptional transition may be recorded as execution success, used to manufacture authority, or used to bypass the Phase 6 execution-boundary evaluation and Phase 7 bounded commitment.
+
 ---
 
 ## 5.6 Stale Support-Signal Reassessment and Reset Pathway
@@ -1019,6 +1037,7 @@ and let execution remain accountable to lawful structure.
 | 1.14 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2013f1382b84d41051674e30bcf2dff1f01e44224b84ca320b0663d2ed068ac0  |
 | 1.15 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a7d665ba525d90b01cf16a22dc0fa7a3040ceb9f6b115612d035f068f4e5bb9c  |
 | 1.16 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  651d953cc671f5821601ac25a2f360657f50cf43236f6096932c03c9a3ab7699  |
+| 1.17 | Added the constitutional phase-return interface for exceptional operational transitions, including pause release, interruption, re-arbitration and linked tool/agent re-entry handling. | 2026-08-10T09:32:51Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c178934cf02fbb06ff61a94fc66583ff72f060ce1b63e1d9605397566d00645c  |
 
 ---
 

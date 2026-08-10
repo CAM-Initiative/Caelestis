@@ -343,11 +343,12 @@ Runs:
 ```
 python .github/scripts/lint_amendment_ledger.py --base "$BASE_SHA" --head "$HEAD_SHA" --strict
 python .github/scripts/validate_canonical_architecture_terminology.py
+python .github/scripts/validate_runtime_processing_architecture.py
 python .github/scripts/validate_markdown_section_refs.py --root Governance
 python .github/scripts/lint-symbolic-structures.py
 python .github/scripts/build-canonical-code-index.py
 ```
-The architecture terminology validator Unicode-normalises current operative content, blocks retired architecture and relational-geometry terms, blocks high-confidence participant-cardinality governance classes, and permits only the four exact sealed-Law legacy geometry lines plus explicit historical/migration contexts. Then the workflow re-runs the major generators to ensure no stale or non-idempotent generated outputs remain.
+The architecture terminology validator Unicode-normalises current operative content, blocks retired architecture and relational-geometry terms, blocks high-confidence participant-cardinality governance classes, and permits only the four exact sealed-Law legacy geometry lines plus explicit historical/migration contexts. The Runtime-processing architecture validator verifies the ten phase contracts, authority existence, Tendeka and interruption returns, tool/sub-agent re-entry, RELATION ownership boundary, profile non-authority and execution/representation/evidence invariants. Then the workflow re-runs the major generators to ensure no stale or non-idempotent generated outputs remain.
 
 Purpose: confirm the repository is stable after repeated generation.
 

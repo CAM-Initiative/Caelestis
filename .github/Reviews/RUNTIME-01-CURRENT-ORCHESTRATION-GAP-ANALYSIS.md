@@ -93,8 +93,21 @@ Three RUNTIME-01 stop conditions are satisfied:
 
 The history is nevertheless recoverable with sufficient confidence to complete the design. The stop applies before operative implementation, not before recording the canonical model and placement recommendation.
 
-## 7. Audit conclusion
+## 7. RUNTIME-02 disposition
 
-The current corpus is not missing its substantive governance domains. It is missing the operational conductor that invokes them, preserves their outputs, establishes a bounded commitment, executes within that commitment, represents the actual result, and chooses closure or re-entry.
+RUNTIME-02 confirms the gaps and corrects the earlier placement assumption. The missing connective tissue includes constitutionally material phase and transition topology, not only operational choreography. The canonical owner is therefore `CAM-BS2025-AEON-003-SCH-02`, implemented by OPERATIONS.
 
-RUNTIME-01 must therefore stop after design and placement review. A later authorised implementation package may build the operational conductor without restoring the old constitutional Schedules.
+The bounded operative repair is:
+
+- reconstruct the ten-phase constitutional state machine;
+- establish exact OPERATIONS implementation and exceptional-return interfaces;
+- narrow RELATION §15 to its domain adapter; and
+- add architectural conformance validation.
+
+The earlier `OPERATIONS-009` recommendation is withdrawn. Detailed closure evidence is recorded in the RUNTIME-02 reviews.
+
+## 8. Audit conclusion
+
+Before RUNTIME-02 implementation, the corpus was not missing its substantive governance domains. It was missing the constitutional conductor that invokes them, preserves their outputs, establishes a bounded commitment, executes within that commitment, represents the actual result, and chooses closure or re-entry.
+
+RUNTIME-01 correctly stopped after design and placement review. RUNTIME-02 supplies the exact historical reconciliation and authorises the bounded reconstruction without restoring the old Schedule accretion.

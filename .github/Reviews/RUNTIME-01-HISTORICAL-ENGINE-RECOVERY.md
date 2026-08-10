@@ -41,7 +41,41 @@ The historical model immediately before decomposition contained ten named phases
 
 It also contained cross-cutting commitment, interruption, handoff, failure, continuity, memory and re-entry logic. The seven-stage hypothesis in the RUNTIME-01 handoff is therefore a useful functional compression, but it is not an exact historical recovery.
 
-## 3. Recovered function inventory
+## 3. Exact historical ten-phase recovery
+
+The exact phase list is taken from historical `CAM-BS2025-AEON-003-SCH-02` §4.1 at tree `6ea4e10d18ce906709aeed91c3d0d5d5569103d7`. The tables below recover the phase contracts from §§5–14 and the cross-cutting Parts II–IV. They replace the earlier seven-phase hypothesis and prevent the RUNTIME-01 eight-phase proposal from being treated as approved history.
+
+### 3.1 Function, entry and output
+
+| Historical phase | Historical owner | Purpose | Entry condition | Inputs | Invoked doctrine | Internal processing | Outputs |
+|---|---|---|---|---|---|---|---|
+| 1. Pre-Classification (§5) | AEON-003-SCH-02 | Identify input/signal type and isolate deterministic or structured components from relational influence | New input or materially changed input component | Input form, provenance and active context | Historical RELATION signal taxonomy; applicable task/domain recognisers | Structural classification only; no interpretation, modulation or arbitration | Typed/scoped components and contamination-free classification posture |
+| 2. Relational Field (§6) | AEON-003-SCH-02 invoking former AEON-006-SCH-03/current RELATION-008 | Establish contextual/interpersonal posture after classification | Pre-Classification complete and relational context applicable | Classified inputs, start-time posture and permitted context | RELATION posture doctrine | Condition interpretive context without altering classification or admissibility | Non-authoritative relational posture |
+| 3. Interpretation (§7) | AEON-003-SCH-02 invoking multiple domain owners | Analyse signals, infer intent, resolve ordinary ambiguity and classify contextual/domain signals | Pre-classified input and applicable posture available | Typed components, context, continuity, provenance and domain signals | Historical relational, symbolic, continuity, identity, tool-intent and other domain instruments | Parallel/domain-specific interpretation and gate recognition | Preserved domain determinations and candidate interpretations |
+| 4. Directional Modulation (§8) | AEON-003-SCH-02 invoking former AEON-006-SCH-04 | Shape provisional emphasis and candidate direction without resolving it | Interpretation produced more than one permissible tendency | Domain determinations, intent, posture and constraints | Historical directional-weight/domain doctrine | Weight candidates, maintain stream independence and bounded dwell | Provisional directions/streams only |
+| 5. Arbitration Resolution (§9) | AEON-003-SCH-02 invoking historical Annex B/D arbitration | Resolve competing states into an authority-bearing outcome | Competing or potentially incompatible provisional outputs | Distinct determinations, constraints, candidate directions and admissible evidence | Annex D and arbitration instruments | Establish collision, precedence, competent authority and scoped result | Resolved direction, referral, hold or non-execution outcome |
+| 6. Behaviour Formation (§10) | AEON-003-SCH-02 invoking former AEON-006-SCH-05 | Convert the resolved direction into an executable response/action candidate | Arbitration/authority result permits continuation | Resolved direction, task objective, domain constraints and verified payload | Domain response, choice and epistemic doctrine | Structure intent/pathway and prepare composition without adding direction | Prepared behavioural candidate |
+| 7. Engagement & Safeguard Enforcement (§11) | AEON-003-SCH-02 invoking former AEON-006-SCH-01/-03 and domain safeguards | Apply ethical, relational, safety and boundary constraints | Prepared candidate and applicable domain conditions | Candidate, domain determinations, current state and safeguards | ETHICS, RELATION, SECURITY and other applicable owners | Apply posture and safeguards without changing the resolved direction | Constrained/admissible candidate or pause/referral signal |
+| 8. Representation (§12) | AEON-003-SCH-02 invoking Annex L Schedule 1 | Determine truthful expression, confidence, provenance and execution-state signalling | Candidate and safeguard state available | Candidate, capability/execution state, provenance, uncertainty and modality | Annex L, symbolic and relational expression doctrine | Build expression while preserving payload and state distinctions | Representable output plan/state |
+| 9. Execution Boundary Evaluation (§13) | AEON-003-SCH-02 invoking Tendeka and applicable constraints | Detect the material boundary and decide whether the candidate may cross it | Represented/prepared candidate reaches a material or irreversible boundary | Authority outcome, target/effect, permissions, prerequisites, constraints and cumulative pathway state | Article V, AEON-001-SCH-01 and applicable domain constraints | Evaluate admissibility and cumulative boundaries | Proceed, constrained execution, scoped non-execution, Tendeka pause or referral |
+| 10. Execution (§14) | AEON-003-SCH-02 with operational implementation | Commit and perform the resolved, validated action/output | Boundary evaluation permits progression | Validated candidate, effective permissions, tools, controls and current state | Operational procedure and still-applicable domain constraints | Historical Lock, execution, monitoring, failure handling and termination signalling | Actual completed, partial, failed, interrupted or terminated state |
+
+### 3.2 Transition, gate, interrupt and evidence
+
+| Historical phase | Transition conditions | Gate | Interrupt | Re-entry | Evidence handoff | Current disposition |
+|---|---|---|---|---|---|---|
+| 1. Pre-Classification | Classification complete → Relational Field | Classification contamination boundary | Input insufficiency, ambiguity or immediate constraint | Repeat on changed input | Input provenance, component/type and unknowns | Deleted as a general phase; malformed in RELATION §15 |
+| 2. Relational Field | Applicable posture established → Interpretation | Must follow pre-classification and remain non-authoritative | Safety-critical or posture-invalidating signal | Re-establish after material context/consent change | Posture basis and scope | Doctrine preserved in RELATION; phase status was authority leakage |
+| 3. Interpretation | Domain outputs sufficiently formed → Directional Modulation | Domain-source and admissibility boundaries | Clarification, vulnerability, tool-intent, Tendeka or other domain trigger | Re-run on new evidence or stale state | Distinct domain outputs, confidence and context | Doctrine preserved; generic invocation deleted/fragmented |
+| 4. Directional Modulation | Bounded dwell complete → Arbitration | No final direction or authority may be created | Premature closure, exact-task requirement or new constraint | Re-form candidates if interpretation changes | Candidate streams and basis | Historical phase deprecated; valid domain/candidate functions survive separately |
+| 5. Arbitration Resolution | Scoped outcome → Behaviour Formation; unresolved → hold/referral | Sole historical convergence point | No competent authority, unresolved ambiguity or superior constraint | Re-arbitrate on material authority change | Authorities, evidence, outcome and scope | Preserved under Annex D/ARBITRATION; routing fragments duplicated |
+| 6. Behaviour Formation | Candidate complete → Safeguard Enforcement | No new direction; verified content preserved | Candidate exceeds authority or reveals new material condition | Return to interpretation/arbitration as applicable | Candidate-to-outcome trace and prerequisites | Fragmented; generic construction leaked into RELATION §15 |
+| 7. Engagement & Safeguard Enforcement | Safeguards satisfied → Representation; otherwise pause/referral | Applicable safeguards must constrain candidate | Domain prohibition, Tendeka trigger or unresolved conflict | Re-enter responsible earlier phase | Constraint/safeguard result and scope | Doctrine preserved; invocation fragmented |
+| 8. Representation | Truthful plan complete → Boundary Evaluation | Representation may not mutate behaviour or manufacture state | Unknown/partial state, unsafe disclosure or material transformation | Rebuild candidate or representation after correction | Representation basis, attribution, uncertainty and actual state claims | Doctrine preserved; invocation fragmented and historical placement ambiguous |
+| 9. Execution Boundary Evaluation | Proceed → Execution; otherwise non-execution/pause/referral | Final pre-execution authority, permission, prerequisite and constraint evaluation | Any failed prerequisite, missing authority, Tendeka or new boundary | Re-evaluate every material boundary and handoff | Boundary outcome and evidence pointer | Constitutional residue preserved; complete gate deleted |
+| 10. Execution | Completion/failure → termination/continuity; new condition → interruption | Historical Lock then irreversible boundary | Authorised or constraint-triggered interruption before affected irreversible action | Re-arbitration/revalidation; linked cycle implied but not explicit | Commitment, tool/action provenance, actual effects, failures and termination | General phase deleted; commitment, interruption and child-cycle mechanics fragmented |
+
+## 4. Recovered function inventory
 
 `Current disposition` uses:
 
@@ -81,7 +115,7 @@ It also contained cross-cutting commitment, interruption, handoff, failure, cont
 | H-26 | AEON-003-SCH-02 §§14.6 and 20; lifecycle agentic controls | Re-enter governance for delegated, recursive or tool-mediated sub-actions | New target, tool, permission, external effect, delegation or material state change | Parent cycle/commitment and proposed sub-action | OPERATIONS; lifecycle profile; applicable domain owners | No general operational consumer | Linked child cycle or renewed boundary decision | Appropriate earlier phase | Parent authority does not cover the new action | Parent/child link, delegated scope and new evidence | Missing |
 | H-27 | OPERATIONS-007 §§5.3–5.4 and historical proportionality rules | Scale evidence and control burden to consequence | Every execution, with enhanced requirements for material action | Risk, impact, reliance, tool/action type and available telemetry | OPERATIONS-007 | Evidence and conformance processes | Minimum or enhanced evidence posture | Continue or require stronger gate | Consequential execution without sufficient evidence | Low-risk compact record; material execution detailed record | Preserved |
 
-## 4. What survived
+## 5. What survived
 
 The decomposition preserved most substantive authority:
 
@@ -94,7 +128,7 @@ The decomposition preserved most substantive authority:
 - operational transition labels, constrained-continuation records and reassessment triggers; and
 - relational signal taxonomy, stability mechanisms and response-posture doctrine.
 
-## 5. What was actually lost
+## 6. What was actually lost
 
 The following substantive operational functions were deleted rather than relocated as a coherent model:
 
@@ -107,7 +141,7 @@ The following substantive operational functions were deleted rather than relocat
 7. phase-emission requirements linking existing evidence objects; and
 8. the cycle-closure decision that distinguishes completion, continuity, reassessment and linked recursive execution.
 
-## 6. What was malformed rather than lost
+## 7. What was malformed rather than lost
 
 `CAM-EQ2026-RELATION-001-SUP-03` correctly retained the RELATION signal taxonomy and relational preparation logic. Its current §15 also performs or assigns generic:
 
@@ -121,8 +155,8 @@ The following substantive operational functions were deleted rather than relocat
 
 Those generic functions are not RELATION-domain doctrine. The Supplement itself states that it does not own execution order, arbitration, state transition or commitment, yet its preparation loop now approximates the missing cross-domain engine. This is authority leakage caused by the absence of a general operational orchestrator.
 
-## 7. Recovery conclusion
+## 8. Recovery conclusion
 
-The historical engine can be reconstructed confidently at the functional level. Restoring the old ten phases verbatim would also restore obsolete layer assumptions, overbroad Schedule authority and retired relational/temporal machinery. The correct reconstruction must preserve the functions above while using the current authority split.
+The historical engine can be reconstructed confidently at phase and functional level. Restoring the old ten phases verbatim would also restore obsolete layer assumptions, overbroad Schedule authority and retired relational/temporal machinery. `RUNTIME-02-TEN-PHASE-RECONCILIATION.md` records the exact disposition of every historical phase and cross-cutting function while preserving the current authority split.
 
 Because substantive operational functions were deleted rather than coherently relocated, and because generic processing was partly recreated inside RELATION, the RUNTIME-01 stop condition is met. Operative implementation must not begin until the canonical phase and placement decisions are expressly accepted.
