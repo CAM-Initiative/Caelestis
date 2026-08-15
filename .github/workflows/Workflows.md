@@ -173,6 +173,8 @@ These scripts check whether instrument references are structurally valid.
 | --- | --- | --- | --- |
 | `validate_canonical_headers.py` | Validates canonical governed-instrument H1 titles and duplicate top metadata/header blocks | No | Governance rebuild Phase 8 |
 | `validate_document_provenance.py` | Validates the repository document-provenance manifest, citation-author alignment, controlled provenance values and non-inference boundaries | No | Governance rebuild Phase 8 |
+| `validate_ai_bom.py` | Validates declared AI-system composition, formation element roles and model/agent/harness non-equivalence in canonical and repository AI-BOM records | No | Governance rebuild Phase 8 |
+| `validate_runtime_state.py` | Validates evidence-backed Runtime state and resolves effective provider, harness, cognition, governance, continuity, context and tooling references into the applicable AI-BOM | No | Governance rebuild Phase 8 |
 | `validate_markdown_section_refs.py` | Validates §-style local and cross-document section references | No | Governance rebuild Phase 8 |
 | `lint_reference_shorthand.py` | Detects shorthand references and lowercase normative terms; can auto-capitalize normative terms | Yes, only with `--fix-normative-case` | Manual linting / cleanup |
 
@@ -249,6 +251,8 @@ Use this in Codespaces or local development when you want earlier feedback befor
 | --- | --- |
 | `tests/test_lint_amendment_ledger_sha_policy.py` | Tests ledger SHA policy behavior |
 | `tests/test_validate_document_provenance.py` | Tests document-level provenance, contribution/authorship separation and citation alignment |
+| `tests/test_validate_ai_bom.py` | Tests AI-BOM structure and prevents agent or harness identifiers from being classified as cognition models |
+| `tests/test_validate_runtime_state.py` | Tests formation-reference resolution and provider/harness/model semantic-role separation |
 | `tests/test_validate_markdown_section_refs.py` | Tests section-reference validation |
 | `tests/test_verify_ledger_sha_coverage.py` | Tests ledger SHA coverage validation |
 

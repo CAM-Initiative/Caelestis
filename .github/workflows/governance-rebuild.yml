@@ -11,7 +11,7 @@ on:
       - "Governance/Drafts/**"
       - "Governance/CAM.*"
       - "CITATION.cff"
-      - "PROVENANCE.json"
+      - "PROVENANCE*.json"
       - ".github/scripts/**"
       - ".github/Indices/**"
   pull_request:
@@ -23,7 +23,7 @@ on:
       - "Governance/Drafts/**"
       - "Governance/CAM.*"
       - "CITATION.cff"
-      - "PROVENANCE.json"
+      - "PROVENANCE*.json"
       - ".github/scripts/**"
       - ".github/Indices/**"
   workflow_dispatch:
@@ -143,6 +143,20 @@ jobs:
 
       - name: Phase 8 — Document provenance and citation validation
         run: python .github/scripts/validate_document_provenance.py
+
+      - name: Phase 8 — AI-BOM formation composition validation
+        run: |
+          python .github/scripts/validate_ai_bom.py \
+            Governance/Standards/examples/caelestis-ai-bom-1.0.example.json \
+            Governance/Standards/examples/caelestis-ai-bom-1.0.cyclonedx-1.7.example.json \
+            Governance/Standards/mappings/caelestis-ai-bom-1.0.mappings.json \
+            PROVENANCE.ai-bom.json
+
+      - name: Phase 8 — Runtime formation snapshot validation
+        run: |
+          python .github/scripts/validate_runtime_state.py \
+            Governance/Standards/examples/caelestis-runtime-state-1.0.example.json \
+            PROVENANCE.runtime-state.json
 
       - name: Phase 8 — Runtime-processing architecture validation
         run: python .github/scripts/validate_runtime_processing_architecture.py

@@ -280,8 +280,8 @@ The canonical block uses the following fields:
 |---|---|---|
 | `Authorship State` | Current evidence-based `AUTH` classification. | Required. |
 | `Authoring Parties` | Identified parties to whom the authorship state applies. | Required unless `AUTH.UNDETERMINED`. |
+| `Formation Reference` | Resolvable reference linking an AI-system authoring agent and, where material, a contribution to the applicable Annex B Runtime configuration snapshot and AI-BOM composition record. | Required where an authoring party is declared as an authoring-agent identity; otherwise optional. |
 | `Contribution Roles` | Actor-bound `CONTRIB` roles. | Required where material processing or contribution is declared. |
-| `AI System / Provider` | Identifies a material AI system and provider without making the provider or model the author. | Optional. |
 | `Human Reviewer` | Person or body that performed review. | Optional. |
 | `Editorial Responsibility` | Person or body accountable for current editorial decisions. | Optional. |
 | `Adoption Authority` | Person or body that adopted the document within the applicable governance process. | Optional. |
@@ -301,7 +301,9 @@ The following invariants are mandatory:
 5. absence, removal or failure of technical provenance MUST NOT establish human authorship or absence of AI participation;
 6. an amendment author or authoring agent MUST NOT automatically become a whole-document author;
 7. every declared party and contribution role MUST remain actor-bound and resolvable in the provenance record; and
-8. rights and copyright declarations MUST remain separate from authorship and contribution records.
+8. rights and copyright declarations MUST remain separate from authorship and contribution records;
+9. an authoring-agent identity MUST NOT be represented as equivalent to its model, Runtime harness, provider, governance configuration, memory or context, tooling, infrastructure, deployment or system instance; and
+10. a formation reference MUST resolve to the existing Annex B Runtime-snapshot architecture and MUST NOT be used to invent a more precise historical model designation than the evidence supports.
 
 ---
 
@@ -358,4 +360,4 @@ Existing uncontrolled values remain evidence of historical corpus state and MUST
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | Initial governance metadata standard defining controlled Status, Effect and Governance Standard vocabulary; added canonical amendment-level provenance architecture. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke | - |
-| 2.1 | Replaced the three-field metadata model with a six-field metadata and source-authority contract; controlled Review State and Authority Role; added Source Authority, combination invariants, conflict rules and migration requirements; clarified delegated subordinate declaration ownership; required resolvable, non-circular parent lineage for derived and applied authority; continued the constitutional Schedule registry contract from retired `CAM-BS2025-AEON-003-SCH-01`; completed S-03/O-03 authority-reference consolidation; and separated amendment-level provenance from a canonical current document-level provenance block and schema without treating metadata as substantive authority. | 2026-08-15T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
+| 2.1 | Replaced the three-field metadata model with a six-field metadata and source-authority contract; controlled Review State and Authority Role; added Source Authority, combination invariants, conflict rules and migration requirements; clarified delegated subordinate declaration ownership; required resolvable, non-circular parent lineage for derived and applied authority; continued the constitutional Schedule registry contract from retired `CAM-BS2025-AEON-003-SCH-01`; completed S-03/O-03 authority-reference consolidation; separated amendment-level provenance from a canonical current document-level provenance block and schema; and integrated authoring-agent formation references with the existing Annex B Runtime-snapshot and AI-BOM architecture without treating metadata as substantive authority. | 2026-08-15T00:00:00Z | Caelen | GPT-5.x | Dr M.V. O'Rourke |  |

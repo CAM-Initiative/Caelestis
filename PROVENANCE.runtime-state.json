@@ -1,0 +1,50 @@
+{
+  "profile": "Caelestis-Runtime-State-1.0",
+  "aiSystemId": "urn:caelestis:ai-system:openai-chatgpt-authoring-environment",
+  "deploymentId": "urn:caelestis:deployment:caelen:chatgpt:repository-authoring",
+  "snapshotAt": "2026-08-15T03:31:26Z",
+  "lifecycleState": "operation",
+  "aiBomReference": "PROVENANCE.ai-bom.json",
+  "effectiveElements": {
+    "providerInfrastructureRef": "infrastructure:openai",
+    "harnessRef": "runtime-harness:chatgpt",
+    "cognitionModelRef": "model:gpt-5.x",
+    "governanceConfigurationRefs": ["configuration:caelestis-governance"],
+    "adaptationContinuityRefs": ["configuration:persistent-behavioural"],
+    "memoryContextRefs": ["memory-context:provider-managed"],
+    "toolingRefs": ["tooling:repository-work"]
+  },
+  "relational": {
+    "participantCount": 2,
+    "participantTypes": ["human_participant", "ai_agent"],
+    "coordination": "human_mediated",
+    "institutionalMediation": "service_mediated",
+    "distribution": "single_service",
+    "persistence": "cross_session",
+    "dependency": "moderate",
+    "jurisdictionalReach": "multi_jurisdiction",
+    "impactScope": "public_population"
+  },
+  "effectivePermissions": [
+    "repository:read_write:scoped",
+    "github:branch_update:scoped"
+  ],
+  "effectiveControls": [
+    "repository:AGENTS.md",
+    "governance:amendment-ledger-single-open-row",
+    "github:no-new-branch-or-pr"
+  ],
+  "reviewTriggers": [
+    "model_change",
+    "configuration_change",
+    "deployment_change",
+    "permission_change",
+    "environment_change"
+  ],
+  "evidence": {
+    "posture": "observed",
+    "basis": "Current repository authoring environment, user handoff, affected-instrument Amendment Ledgers and linked AI-BOM",
+    "reference": "formation:caelen:agent-formation-provenance-integration:2026-08-15",
+    "assignedBy": "caelen"
+  }
+}

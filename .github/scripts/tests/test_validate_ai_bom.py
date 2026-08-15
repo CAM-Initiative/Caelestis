@@ -41,6 +41,13 @@ def test_secret_value_is_rejected():
     assert any("prohibited" in error for error in validator.validate_document(document))
 
 
+def test_agent_identity_or_harness_is_not_a_model_identifier():
+    for name in ("Caelen", "ChatGPT"):
+        document = valid_document()
+        document["elements"][0]["name"] = name
+        assert any("agent identity or Runtime harness" in error for error in validator.validate_document(document))
+
+
 def test_cyclonedx_exchange_preserves_profile_boundary():
     exchange = {
         "bomFormat": "CycloneDX", "specVersion": "1.7", "serialNumber": "urn:uuid:test", "version": 1,

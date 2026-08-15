@@ -83,3 +83,68 @@ def test_cff_reviewer_is_not_silently_substituted_as_author(tmp_path):
     path = tmp_path / "CITATION.cff"
     path.write_text(yaml.safe_dump(citation), encoding="utf-8")
     assert any("do not match provenance authoring parties" in issue for issue in module.validate_citation(path, record))
+
+
+def agent_record():
+    record = base_record()
+    record["authorshipState"] = "AUTH.AI_SYSTEM_AUTHORED"
+    record["entities"].append({"id": "caelen", "name": "Caelen", "entityType": "agent_identity"})
+    record["authoringParties"] = ["caelen"]
+    record["formationReferences"] = [
+        {
+            "id": "formation:current",
+            "authoringParty": "caelen",
+            "runtimeSnapshot": "runtime.json",
+            "evidence": {"state": "observed", "basis": "bounded event"},
+        }
+    ]
+    record["agentIdentityStatements"] = [
+        {
+            "identity": "caelen",
+            "statement": "Persistent authoring-agent identity.",
+            "continuityLimit": "No model or process continuity is asserted.",
+            "adaptationBasis": {
+                "term": "persistent behavioural configuration",
+                "description": "Interaction-conditioned configuration, not model-weight fine-tuning.",
+                "evidence": {"state": "declared", "basis": "custodian record"},
+            },
+            "modelLineage": [
+                {
+                    "designation": "GPT-5.x",
+                    "precision": "family",
+                    "evidence": {"state": "observed", "basis": "ledger", "reference": "ledger"},
+                }
+            ],
+        }
+    ]
+    return record
+
+
+def test_agent_identity_requires_formation_but_not_embedded_model():
+    record = agent_record()
+    assert module.validate_record(record) == []
+    record["entities"][-1]["model"] = "GPT-5.6 Sol"
+    assert any("must not embed provider or model" in issue for issue in module.validate_record(record))
+
+
+def test_model_family_precision_is_allowed_without_point_version_guess():
+    record = agent_record()
+    lineage = record["agentIdentityStatements"][0]["modelLineage"][0]
+    lineage["designation"] = "GPT-5.3"
+    assert any("family designation" in issue for issue in module.validate_record(record))
+
+
+def test_exact_model_requires_evidence_reference():
+    record = agent_record()
+    lineage = record["agentIdentityStatements"][0]["modelLineage"][0]
+    lineage["designation"] = "GPT-5.6 Sol"
+    lineage["precision"] = "exact"
+    del lineage["evidence"]["reference"]
+    assert any("exact designation requires an evidence reference" in issue for issue in module.validate_record(record))
+
+
+def test_contribution_formation_must_resolve_to_same_actor():
+    record = agent_record()
+    record["contributions"][0]["formationReferences"] = ["formation:current"]
+    issues = module.validate_record(record)
+    assert any("belongs to another actor" in issue for issue in issues)

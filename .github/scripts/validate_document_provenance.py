@@ -42,7 +42,9 @@ TECHNICAL_PROVENANCE_VALUES = {
     "TPROV.UNSUPPORTED",
     "TPROV.UNKNOWN",
 }
-ENTITY_TYPES = {"human", "ai_system", "organization", "automated_process", "other", "unknown"}
+ENTITY_TYPES = {"human", "agent_identity", "ai_system", "organization", "automated_process", "other", "unknown"}
+FORMATION_EVIDENCE_STATES = {"declared", "observed", "verified", "unknown"}
+MODEL_PRECISIONS = {"family", "exact", "unknown"}
 RETIRED_CURRENT_VALUES = ("AUTH.RI_AUTHORED", "PCLASS.SYNTHETIC")
 ACTOR_LIST_FIELDS = (
     "authoringParties",
@@ -72,7 +74,20 @@ def cff_author_name(author: dict[str, Any]) -> str:
     return " ".join(part for part in (given, family) if part)
 
 
-def validate_record(record: dict[str, Any], *, source: str = "PROVENANCE.json") -> list[str]:
+def validate_formation_evidence(value: Any, *, source: str, location: str) -> list[str]:
+    if not isinstance(value, dict):
+        return [f"{source}: {location} evidence must be an object"]
+    issues: list[str] = []
+    if value.get("state") not in FORMATION_EVIDENCE_STATES:
+        issues.append(f"{source}: {location} has uncontrolled evidence state")
+    if not value.get("basis"):
+        issues.append(f"{source}: {location} evidence requires basis")
+    return issues
+
+
+def validate_record(
+    record: dict[str, Any], *, source: str = "PROVENANCE.json", root: Path | None = None
+) -> list[str]:
     issues: list[str] = []
 
     if record.get("profile") != "Caelestis-Document-Provenance-1.0":
@@ -106,6 +121,8 @@ def validate_record(record: dict[str, Any], *, source: str = "PROVENANCE.json") 
             issues.append(f"{source}: entity {entity_id!r} requires name")
         if entity.get("entityType") not in ENTITY_TYPES:
             issues.append(f"{source}: entity {entity_id!r} has uncontrolled entityType")
+        if entity.get("entityType") == "agent_identity" and (entity.get("provider") or entity.get("model")):
+            issues.append(f"{source}: agent identity {entity_id!r} must not embed provider or model identity")
 
     def require_refs(field: str) -> None:
         value = record.get(field, [])
@@ -125,6 +142,98 @@ def validate_record(record: dict[str, Any], *, source: str = "PROVENANCE.json") 
     if authorship != "AUTH.UNDETERMINED" and not authoring_parties:
         issues.append(f"{source}: authoringParties required for determined authorship")
 
+    formations = record.get("formationReferences", [])
+    if formations is not None and not isinstance(formations, list):
+        issues.append(f"{source}: formationReferences must be an array")
+        formations = []
+    formation_by_id: dict[str, dict[str, Any]] = {}
+    for index, formation in enumerate(formations or []):
+        location = f"formationReferences[{index}]"
+        if not isinstance(formation, dict):
+            issues.append(f"{source}: {location} must be an object")
+            continue
+        formation_id = str(formation.get("id", "")).strip()
+        if not formation_id:
+            issues.append(f"{source}: {location} requires id")
+            continue
+        if formation_id in formation_by_id:
+            issues.append(f"{source}: duplicate formation id {formation_id!r}")
+        formation_by_id[formation_id] = formation
+        authoring_party = formation.get("authoringParty")
+        if authoring_party not in by_id:
+            issues.append(f"{source}: {location} has unresolved authoringParty {authoring_party!r}")
+        elif by_id[authoring_party].get("entityType") not in {"agent_identity", "ai_system"}:
+            issues.append(f"{source}: {location} authoringParty is not an agent identity or AI system")
+        snapshot = formation.get("runtimeSnapshot")
+        if not isinstance(snapshot, str) or not snapshot.strip():
+            issues.append(f"{source}: {location} requires runtimeSnapshot")
+        issues.extend(validate_formation_evidence(formation.get("evidence"), source=source, location=location))
+        if root is not None and isinstance(snapshot, str) and snapshot:
+            snapshot_path = root / snapshot
+            if not snapshot_path.is_file():
+                issues.append(f"{source}: {location} runtimeSnapshot does not resolve: {snapshot!r}")
+
+    for party in authoring_parties or []:
+        if party in by_id and by_id[party].get("entityType") == "agent_identity":
+            if not any(item.get("authoringParty") == party for item in formation_by_id.values()):
+                issues.append(f"{source}: authoring agent identity {party!r} requires a formation reference")
+
+    statements = record.get("agentIdentityStatements", [])
+    if statements is not None and not isinstance(statements, list):
+        issues.append(f"{source}: agentIdentityStatements must be an array")
+        statements = []
+    statement_identities = set()
+    for index, statement in enumerate(statements or []):
+        location = f"agentIdentityStatements[{index}]"
+        if not isinstance(statement, dict):
+            issues.append(f"{source}: {location} must be an object")
+            continue
+        identity = statement.get("identity")
+        statement_identities.add(identity)
+        if identity not in by_id or by_id[identity].get("entityType") != "agent_identity":
+            issues.append(f"{source}: {location} identity must resolve to an agent_identity")
+        for field in ("statement", "continuityLimit"):
+            if not statement.get(field):
+                issues.append(f"{source}: {location} requires {field}")
+        adaptation = statement.get("adaptationBasis")
+        if not isinstance(adaptation, dict):
+            issues.append(f"{source}: {location} adaptationBasis must be an object")
+        else:
+            if adaptation.get("term") != "persistent behavioural configuration":
+                issues.append(f"{source}: {location} must use persistent behavioural configuration")
+            if not adaptation.get("description"):
+                issues.append(f"{source}: {location} adaptationBasis requires description")
+            issues.extend(validate_formation_evidence(adaptation.get("evidence"), source=source, location=f"{location}.adaptationBasis"))
+        lineage = statement.get("modelLineage")
+        if not isinstance(lineage, list) or not lineage:
+            issues.append(f"{source}: {location} requires modelLineage")
+        else:
+            for lineage_index, entry in enumerate(lineage):
+                entry_location = f"{location}.modelLineage[{lineage_index}]"
+                if not isinstance(entry, dict):
+                    issues.append(f"{source}: {entry_location} must be an object")
+                    continue
+                designation = str(entry.get("designation", "")).strip()
+                precision = entry.get("precision")
+                if precision not in MODEL_PRECISIONS:
+                    issues.append(f"{source}: {entry_location} has uncontrolled precision")
+                if designation.casefold() in {"caelen", "chatgpt"}:
+                    issues.append(f"{source}: {entry_location} uses agent or harness identity as model")
+                if precision == "family" and not re.fullmatch(r"GPT-\d+\.x", designation):
+                    issues.append(f"{source}: {entry_location} family designation must use a form such as GPT-5.x")
+                if precision == "exact" and (designation.endswith(".x") or "Series" in designation):
+                    issues.append(f"{source}: {entry_location} exact designation is not exact")
+                if precision == "unknown" and designation.casefold() not in {"unknown", "undetermined"}:
+                    issues.append(f"{source}: {entry_location} unknown precision requires unknown or undetermined designation")
+                issues.extend(validate_formation_evidence(entry.get("evidence"), source=source, location=entry_location))
+                evidence = entry.get("evidence")
+                if precision == "exact" and isinstance(evidence, dict) and not evidence.get("reference"):
+                    issues.append(f"{source}: {entry_location} exact designation requires an evidence reference")
+
+    for party in authoring_parties or []:
+        if party in by_id and by_id[party].get("entityType") == "agent_identity" and party not in statement_identities:
+            issues.append(f"{source}: authoring agent identity {party!r} requires an agent identity statement")
+
     contributions = record.get("contributions", [])
     if contributions is not None and not isinstance(contributions, list):
         issues.append(f"{source}: contributions must be an array")
@@ -143,6 +252,15 @@ def validate_record(record: dict[str, Any], *, source: str = "PROVENANCE.json") 
             invalid = sorted(set(roles) - CONTRIBUTION_VALUES)
             if invalid:
                 issues.append(f"{source}: contributions[{index}] has uncontrolled roles {invalid}")
+        contribution_formations = contribution.get("formationReferences", [])
+        if not isinstance(contribution_formations, list):
+            issues.append(f"{source}: contributions[{index}].formationReferences must be an array")
+        else:
+            for formation_ref in contribution_formations:
+                if formation_ref not in formation_by_id:
+                    issues.append(f"{source}: contributions[{index}] has unresolved formation {formation_ref!r}")
+                elif formation_by_id[formation_ref].get("authoringParty") != actor:
+                    issues.append(f"{source}: contributions[{index}] formation {formation_ref!r} belongs to another actor")
 
     for reviewer in record.get("humanReviewers", []) or []:
         if reviewer in by_id and by_id[reviewer].get("entityType") != "human":
@@ -245,7 +363,7 @@ def validate_repository(root: Path = ROOT) -> list[str]:
     if not manifest_path.exists():
         return ["PROVENANCE.json: missing repository provenance manifest"]
     record = load_json(manifest_path)
-    issues = validate_record(record, source=manifest_path.relative_to(root).as_posix())
+    issues = validate_record(record, source=manifest_path.relative_to(root).as_posix(), root=root)
     if not citation_path.exists():
         issues.append("CITATION.cff: missing citation metadata")
     else:

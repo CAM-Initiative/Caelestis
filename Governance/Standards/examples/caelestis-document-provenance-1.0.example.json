@@ -23,6 +23,18 @@
     }
   ],
   "authoringParties": ["human-author"],
+  "formationReferences": [
+    {
+      "id": "formation:example-ai-assistant:policy-memo",
+      "authoringParty": "ai-assistant",
+      "runtimeSnapshot": "Governance/Standards/examples/caelestis-runtime-state-1.0.example.json",
+      "evidence": {
+        "state": "declared",
+        "basis": "Example Runtime snapshot supplied with this profile"
+      },
+      "description": "Identifies the AI processing formation without treating the assistant name as its model identifier."
+    }
+  ],
   "contributions": [
     {
       "actor": "ai-assistant",
@@ -31,7 +43,8 @@
         "CONTRIB.SUMMARISATION",
         "CONTRIB.FORMATTING"
       ],
-      "description": "Retrieved supplied sources, produced bounded summaries and formatted references; these processing roles did not determine authorship."
+      "description": "Retrieved supplied sources, produced bounded summaries and formatted references; these processing roles did not determine authorship.",
+      "formationReferences": ["formation:example-ai-assistant:policy-memo"]
     }
   ],
   "technicalProvenance": {

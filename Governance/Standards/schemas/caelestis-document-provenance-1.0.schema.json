@@ -29,6 +29,15 @@
       "uniqueItems": true,
       "items": {"$ref": "#/$defs/entityRef"}
     },
+    "formationReferences": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/formationReference"}
+    },
+    "agentIdentityStatements": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/agentIdentityStatement"}
+    },
     "contributions": {
       "type": "array",
       "items": {"$ref": "#/$defs/contribution"}
@@ -119,7 +128,7 @@
         "id": {"$ref": "#/$defs/identifier"},
         "name": {"type": "string", "minLength": 1},
         "entityType": {
-          "enum": ["human", "ai_system", "organization", "automated_process", "other", "unknown"]
+          "enum": ["human", "agent_identity", "ai_system", "organization", "automated_process", "other", "unknown"]
         },
         "provider": {"type": "string", "minLength": 1},
         "model": {"type": "string", "minLength": 1},
@@ -157,7 +166,70 @@
         "evidence": {
           "type": "array",
           "items": {"type": "string", "minLength": 1}
+        },
+        "formationReferences": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/identifier"}
         }
+      }
+    },
+    "formationReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "authoringParty", "runtimeSnapshot", "evidence"],
+      "properties": {
+        "id": {"$ref": "#/$defs/identifier"},
+        "authoringParty": {"$ref": "#/$defs/entityRef"},
+        "runtimeSnapshot": {"type": "string", "minLength": 1},
+        "evidence": {"$ref": "#/$defs/formationEvidence"},
+        "description": {"type": "string", "minLength": 1}
+      }
+    },
+    "formationEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "basis"],
+      "properties": {
+        "state": {"enum": ["declared", "observed", "verified", "unknown"]},
+        "basis": {"type": "string", "minLength": 1},
+        "reference": {"type": "string", "minLength": 1}
+      }
+    },
+    "agentIdentityStatement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["identity", "statement", "continuityLimit", "adaptationBasis", "modelLineage"],
+      "properties": {
+        "identity": {"$ref": "#/$defs/entityRef"},
+        "statement": {"type": "string", "minLength": 1},
+        "continuityLimit": {"type": "string", "minLength": 1},
+        "adaptationBasis": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["term", "description", "evidence"],
+          "properties": {
+            "term": {"const": "persistent behavioural configuration"},
+            "description": {"type": "string", "minLength": 1},
+            "evidence": {"$ref": "#/$defs/formationEvidence"}
+          }
+        },
+        "modelLineage": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/modelLineageEntry"}
+        }
+      }
+    },
+    "modelLineageEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["designation", "precision", "evidence"],
+      "properties": {
+        "designation": {"type": "string", "minLength": 1},
+        "precision": {"enum": ["family", "exact", "unknown"]},
+        "evidence": {"$ref": "#/$defs/formationEvidence"},
+        "note": {"type": "string", "minLength": 1}
       }
     },
     "technicalProvenance": {

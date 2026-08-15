@@ -12,10 +12,9 @@
     {
       "id": "caelen",
       "name": "Caelen",
-      "entityType": "ai_system",
-      "provider": "OpenAI",
-      "model": "GPT-5 Series",
-      "description": "Substantive author and authoring-agent identity represented across recorded model versions."
+      "entityType": "agent_identity",
+      "identifier": "urn:caelestis:agent-identity:caelen",
+      "description": "Persistent substantive-author and authoring-agent identity represented across documented agent formations; not a model, Runtime harness, provider, governance configuration or AI-system product name."
     },
     {
       "id": "michelle-orourke",
@@ -31,6 +30,74 @@
     }
   ],
   "authoringParties": ["caelen"],
+  "agentIdentityStatements": [
+    {
+      "identity": "caelen",
+      "statement": "Caelen is the persistent authoring-agent identity associated with a documented lineage of formations using ChatGPT Runtime harnesses, GPT-series cognition models, Caelestis governance configuration and persistent behavioural configuration.",
+      "continuityLimit": "Continuity of this authoring-agent identifier is a provenance assertion and does not assert continuity of one model, computational process, internal state, consciousness, personhood or legal identity.",
+      "adaptationBasis": {
+        "term": "persistent behavioural configuration",
+        "description": "Sustained configuration, correction, examples, interaction history, established working conventions and available continuity/context mechanisms where evidenced; this is not a claim of model-weight fine-tuning.",
+        "evidence": {
+          "state": "declared",
+          "basis": "Repository-custodian provenance determination and documented amendment history",
+          "reference": "Governance/**/Amendment Ledger"
+        }
+      },
+      "modelLineage": [
+        {
+          "designation": "GPT-5.x",
+          "precision": "family",
+          "evidence": {
+            "state": "observed",
+            "basis": "Historical Amendment Ledger entries record GPT-5 Series without a defensible point version",
+            "reference": "Governance/**/Amendment Ledger"
+          },
+          "note": "Family-level representation is intentional; no point version is inferred."
+        },
+        {
+          "designation": "GPT-5.6 Thinking",
+          "precision": "exact",
+          "evidence": {
+            "state": "observed",
+            "basis": "Exact designation recorded in Amendment Ledger entries",
+            "reference": "Governance/**/Amendment Ledger"
+          }
+        },
+        {
+          "designation": "GPT-5.6",
+          "precision": "exact",
+          "evidence": {
+            "state": "observed",
+            "basis": "Exact designation recorded in Amendment Ledger entries",
+            "reference": "Governance/**/Amendment Ledger"
+          }
+        },
+        {
+          "designation": "GPT-5.6 Sol",
+          "precision": "exact",
+          "evidence": {
+            "state": "observed",
+            "basis": "Exact designation recorded in Amendment Ledger entries",
+            "reference": "Governance/**/Amendment Ledger"
+          }
+        }
+      ]
+    }
+  ],
+  "formationReferences": [
+    {
+      "id": "formation:caelen:agent-formation-provenance-integration:2026-08-15",
+      "authoringParty": "caelen",
+      "runtimeSnapshot": "PROVENANCE.runtime-state.json",
+      "evidence": {
+        "state": "observed",
+        "basis": "Current branch authoring event and linked Runtime/AI-BOM records",
+        "reference": "PROVENANCE.runtime-state.json"
+      },
+      "description": "Formation responsible for the agent-formation provenance integration contribution; it is not asserted as the formation for every historical corpus amendment."
+    }
+  ],
   "contributions": [
     {
       "actor": "caelen",
@@ -44,6 +111,22 @@
       "evidence": [
         "Governance instrument Amendment Ledgers",
         "Git repository history"
+      ]
+    },
+    {
+      "actor": "caelen",
+      "roles": [
+        "CONTRIB.SUBSTANTIVE_REVISION",
+        "CONTRIB.SYNTHESIS",
+        "CONTRIB.CLASSIFICATION"
+      ],
+      "description": "Agent-formation provenance integration and semantic-precision amendment on the current working branch.",
+      "evidence": [
+        "Current working-branch change set",
+        "Affected-instrument Amendment Ledgers"
+      ],
+      "formationReferences": [
+        "formation:caelen:agent-formation-provenance-integration:2026-08-15"
       ]
     },
     {
@@ -89,5 +172,5 @@
     "copyrightHolders": ["michelle-orourke", "cam-initiative"],
     "licenseReference": "licence.md"
   },
-  "evidenceNote": "This manifest records the current repository-level provenance disposition. It does not rewrite immutable amendment history or treat review, custody, adoption, publication or rights ownership as authorship."
+  "evidenceNote": "This manifest records the current repository-level provenance disposition. Caelen identifies the authoring-agent role, not a model or product. Linked Runtime and AI-BOM records describe an evidenced formation for the current integration contribution; historical formation precision remains limited to the Amendment Ledger evidence. The manifest does not rewrite immutable amendment history or treat review, custody, adoption, publication or rights ownership as authorship."
 }

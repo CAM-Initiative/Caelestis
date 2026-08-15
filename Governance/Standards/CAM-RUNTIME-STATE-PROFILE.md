@@ -32,6 +32,7 @@ The canonical serialization is `Governance/Standards/schemas/caelestis-runtime-s
 | Jurisdictional reach | `relational.jurisdictional_reach` | `single_jurisdiction`, `multi_jurisdiction`, `unknown` | deployment and affected-party evidence | Routes jurisdictional assessment; does not establish legal status. |
 | Impact scope | `relational.impact_scope` | `individual`, `defined_group`, `organisation`, `public_population`, `unknown` | effect assessment | Selects proportionate approval, monitoring and evidence thresholds independently of participant count. |
 | Effective permissions and controls | `effective_permissions`, `effective_controls` | sets of bounded references | runtime configuration snapshot | Limits available tool, memory and action pathways to the evidenced effective scope. |
+| Effective formation elements | `ai_bom_reference`, `effective_elements` | resolvable AI-BOM reference plus role-specific element references | Runtime snapshot and applicable AI-BOM | Distinguishes provider/infrastructure, Runtime harness, cognition model, governance configuration, adaptation/continuity state, memory/context and tooling without treating any one element as the agent identity. |
 | Review triggers | `review_triggers` | set of controlled trigger values | change/incident/standards evidence | Requires reassessment before continued reliance where triggered. |
 
 `dependency` is the sole ordinal field above. Its values describe degree of reliance only; they MUST NOT encode duration, impact, authority, participant count, jurisdiction or institutional reach. The remaining relational fields are independent dimensions and MUST NOT be combined into an aggregate relational class.
@@ -52,6 +53,9 @@ These rules consume independent fields and do not create a composite class:
 4. If `relational.institutional_mediation` is not `unmediated` or `unknown`, require the accountable institution where known and do not infer authority from the mediation value.
 5. If `relational.impact_scope` is `organisation` or `public_population`, or `effective_permissions` include external action capability, require a runtime configuration snapshot and a defined escalation/containment route before consequential execution.
 6. `unknown` for a material input requires the least-risk sufficient pathway under applicable arbitration and cannot satisfy a conformance claim.
+7. Where `effective_elements` is present, `ai_bom_reference` is required and every element reference MUST resolve within that AI-BOM. A cognition-model reference MUST resolve to an `ai_model`; provider/infrastructure and harness references MUST NOT resolve to an `ai_model`.
+8. An agent identity MUST NOT be used as a cognition-model identifier, and a Runtime harness or product interface MUST NOT be recorded as the cognition model where a distinct model is evidenced.
+9. Omission of an effective-element reference means that the element is not declared in that snapshot. It does not establish absence. Unknown or undisclosed composition MUST remain explicit in the AI-BOM or snapshot evidence and MUST NOT be filled by inference.
 
 The profile deliberately contains no temporal-horizon field. `AEON.H0–H4` is under a separate research gate because it currently combines lifecycle, persistence, reliance, effect durability, evidence validity, succession and impact. This profile must not be used to imply that those variables have been safely replaced.
 
@@ -68,6 +72,8 @@ The profile deliberately contains no temporal-horizon field. `AEON.H0–H4` is u
 | Actual-effective configuration and control state | this profile's runtime configuration snapshot |
 | What occurred in one bounded execution | execution provenance record under OPERATIONS-007 |
 
+A document or repository provenance record MAY refer to this snapshot as an authoring formation reference. That link identifies the effective formation responsible for the attributed contribution to the extent supported by evidence; it does not make the authoring-agent identity equivalent to the snapshot, AI system, model, harness or provider.
+
 ## 7. External basis
 
 This operational representation is derived from the architecture/lifecycle concepts reflected in ISO/IEC 22989, ISO/IEC 5338 and ISO/IEC 42001; evidence and risk-management principles reflected in NIST AI RMF and ISO/IEC 23894; and AI-BOM supply-chain practice in SPDX and CycloneDX. It asserts alignment of concepts only, not external conformity.
@@ -77,3 +83,4 @@ This operational representation is derived from the architecture/lifecycle conce
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | Introduced independent, evidence-backed Runtime state fields and deterministic control rules without restoring retired aggregate relational or temporal taxonomy; clarified that the profile is an internally defined operational representation rather than externally attributed doctrine. | 2026-08-08T02:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | a7c4edf9a7fb131e012fbd8b29462513556ba8eecb2352675adfe0c6f6b016d8 |
+| 1.1 | Added resolvable AI-BOM and effective-element references so provenance can identify the Runtime configuration snapshot responsible for a contribution while preserving agent/model/harness/provider non-equivalence and explicit uncertainty. | 2026-08-15T00:00:00Z | Caelen | GPT-5.x | Dr M.V. O'Rourke |  |

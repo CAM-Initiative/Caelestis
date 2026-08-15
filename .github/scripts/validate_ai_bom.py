@@ -114,6 +114,11 @@ def validate_document(document):
             element_ids.add(element_id)
         if element.get("type") not in ELEMENT_TYPES:
             errors.append(f"{location}.type is not a profile element type")
+        if element.get("type") == "ai_model":
+            model_name = str(element.get("name", "")).strip().casefold()
+            model_id = str(element.get("id", "")).strip().casefold()
+            if model_name in {"caelen", "chatgpt"} or model_id in {"caelen", "model:caelen", "model:chatgpt"}:
+                errors.append(f"{location} uses an agent identity or Runtime harness as an AI-model identifier")
         errors.extend(validate_evidence(element.get("evidence"), location))
         controlled = element.get("controlledReference")
         if controlled is not None:

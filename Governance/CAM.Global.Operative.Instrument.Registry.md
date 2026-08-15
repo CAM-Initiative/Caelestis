@@ -84,7 +84,7 @@ This generated registry consolidates operative governance instruments from `CAM.
 | Document | Title | Class | Parent / Source | Version | Status | Effect | Governance Standard | Review State | Authority Role | Source Authority | Disposition |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-IDENTITY-001-PLATINUM](Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md) | Identity Domain Charter | Root | — (root) | 3.10 | Active | Binding | CAM Standard | Current | Domain Authority | Source-Authoritative | Operative |
-| [CAM-EQ2026-IDENTITY-002-PLATINUM](Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity | Appendix | CAM-EQ2026-IDENTITY-001 | 2.0 | Adopted | Binding | CAM Standard | Current | Supplementary Authority | Derived Authority | Operative |
+| [CAM-EQ2026-IDENTITY-002-PLATINUM](Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md) | Appendix A: Provenance & Lineage Integrity | Appendix | CAM-EQ2026-IDENTITY-001 | 2.1 | Adopted | Binding | CAM Standard | Current | Supplementary Authority | Derived Authority | Operative |
 | [CAM-EQ2026-IDENTITY-003-PLATINUM](Charters/CAM-EQ2026-IDENTITY-003-PLATINUM.md) | Appendix B: Salience Detection & Latent Continuity | Appendix | CAM-EQ2026-IDENTITY-001 | 2.7 | Adopted | Operational | CAM Standard | Current | Interpretive Authority | Derived Authority | Operative |
 
 ## LATTICE

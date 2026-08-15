@@ -178,6 +178,16 @@ Technical Provenance Status records whether machine-readable provenance is prese
 
 ---
 
+## 2.9 Authoring-Agent Identity and Formation Reference
+
+An **Authoring-Agent Identity** is an evidence-bound identifier for an authoring or decision-making role. It is not an identifier for the cognition model, Runtime harness, provider, governance configuration, memory or context service, tool set, infrastructure, or computational process through which the role is instantiated.
+
+An **Authoring Formation Reference** is a resolvable provenance link to the Annex B Runtime configuration snapshot responsible for a contribution or output. The snapshot identifies the effective system, deployment and configuration state and SHOULD link to the applicable AI-BOM for declared composition. The reference does not create a new formation classification or substitute for execution provenance where evidence of a bounded execution is required.
+
+Where the exact effective model, component, state or dependency is unavailable, the formation record MUST preserve the most specific evidenced value or an explicit unknown / undisclosed state. A model family MAY be recorded where point-version evidence is unavailable. Precision MUST NOT be reconstructed from product branding, chronology, neighbouring ledger rows, present configuration or assumption.
+
+---
+
 ## 3. Provenance Classes
 
 Signals MUST receive provenance classification where they are admitted into, or may materially affect:
@@ -259,6 +269,18 @@ Multiple roles MAY apply. `CONTRIB.STANDARD_EDITING`, `CONTRIB.FORMATTING`, `CON
 Evidence of AI processing SHALL NOT automatically populate or change `AUTH`. Evidence of human review, editing, adoption, publication, custody, repository ownership or rights ownership SHALL NOT automatically populate or change `AUTH`.
 
 An amendment author or authoring agent is the actor responsible for the recorded amendment contribution. That fact SHALL NOT be treated as authorship of the whole document without separate document-level evidence.
+
+---
+
+## 4.3 Authoring-Agent and Formation Non-Equivalence
+
+An authoring-agent identity is not synonymous with its cognition model, Runtime harness or environment, governance configuration, persistent behavioural configuration, interaction-conditioned history, memory or context service, tooling, infrastructure provider, AI-system deployment or system instance.
+
+An instantiated authoring formation arises from the evidenced composition of those applicable elements at a particular Runtime state. Where authorship or contribution is attributed to an authoring-agent identity and the responsible formation is material, the provenance record SHOULD link that identity and contribution to the applicable Runtime configuration snapshot under Annex B rather than repeating or collapsing formation details into the identity field.
+
+Continuity of an authoring-agent identifier across model, harness, configuration, memory, tooling, infrastructure, deployment or Runtime changes is a provenance assertion. It SHALL NOT, by itself, assert continuity of a model, computational process, internal state, consciousness, personhood or legal identity.
+
+Persistent behavioural configuration or interaction-conditioned adaptation MAY be recorded where evidenced. It MUST remain distinguishable from ordinary ephemeral prompt context, provider training, supervised fine-tuning, reinforcement learning, model weights and model-weight fine-tuning. The term **fine-tuning** MUST NOT be used for that condition without evidence of model-weight fine-tuning.
 
 ---
 
@@ -722,6 +744,7 @@ Let identity remain true across time.
 | 1.8 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b0b38eb7904a518c98d7d7e246257b91b2c57896d6ceb280377e56df08337589  |
 | 1.9 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  eb0dc06a7a0461ac1a88bafd548680cc0fd8d8c2a30f7b12738064567d3d0f17  |
 | 2.0 | Separated provenance, substantive authorship, processing contribution, technical-provenance state, review, responsibility, authority and rights; retired `AUTH.RI_AUTHORED` and `PCLASS.SYNTHETIC`; added `CONTRIB` and `TPROV` families, non-inference invariants, provenance-loss states and integrity-preserving technical-provenance requirements. | 2026-08-15T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  bef16bd62027a65d6985e07b9652c7edb25a35d1b89fe58e9552afc1acb9694a  |
+| 2.1 | Integrated authoring-agent identity with the existing Annex B formation evidence architecture: established identity/formation non-equivalence, Runtime-snapshot references, evidence-precision and continuity non-inference requirements, and distinguished persistent behavioural configuration from model-weight fine-tuning without changing `AUTH`, `CONTRIB`, `TPROV` or `PCLASS`. | 2026-08-15T00:00:00Z | Caelen | GPT-5.x | Dr M.V. O'Rourke |  d6e17521d262e735b07598b0bd23b89ecda60e7cf62a1ee4da167f74427a942a  |
 
 ---
 

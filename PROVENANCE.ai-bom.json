@@ -1,0 +1,170 @@
+{
+  "profile": "Caelestis-AI-BOM-1.0",
+  "bom": {
+    "serial": "urn:caelestis:provenance:aibom:caelen-authoring",
+    "version": 1,
+    "issuedAt": "2026-08-15T03:31:26Z",
+    "sourceArtifact": "PROVENANCE.json"
+  },
+  "subject": {
+    "aiSystemId": "urn:caelestis:ai-system:openai-chatgpt-authoring-environment",
+    "name": "ChatGPT repository-authoring environment",
+    "configurationBaselineId": "urn:caelestis:configuration-baseline:caelen:2026-08-15",
+    "deploymentId": "urn:caelestis:deployment:caelen:chatgpt:repository-authoring",
+    "environment": "provider-managed"
+  },
+  "elements": [
+    {
+      "id": "infrastructure:openai",
+      "type": "infrastructure",
+      "name": "OpenAI infrastructure",
+      "supplier": "OpenAI",
+      "provenance": "Repository-custodian provenance determination",
+      "limitations": "Provider-managed infrastructure details are not asserted by this record.",
+      "evidence": {
+        "state": "declared",
+        "basis": "Agent-Formation Provenance Integration handoff"
+      }
+    },
+    {
+      "id": "runtime-harness:chatgpt",
+      "type": "agent_runtime",
+      "name": "ChatGPT",
+      "supplier": "OpenAI",
+      "provenance": "Repository-custodian provenance determination",
+      "intendedUse": "Runtime harness mediating model execution, instructions, context, memory, tools and connectors.",
+      "limitations": "ChatGPT is recorded as the Runtime harness, not as the cognition model or authoring-agent identity.",
+      "evidence": {
+        "state": "declared",
+        "basis": "Agent-Formation Provenance Integration handoff"
+      }
+    },
+    {
+      "id": "model:gpt-5.x",
+      "type": "ai_model",
+      "name": "GPT-5.x",
+      "version": "GPT-5.x",
+      "supplier": "OpenAI",
+      "provenance": "Current branch family-level Amendment Ledger designation",
+      "intendedUse": "Cognition/model element for the recorded authoring formation.",
+      "limitations": "The designation applies only to the evidenced formation and does not identify Caelen or reconstruct earlier model versions.",
+      "evidence": {
+        "state": "declared",
+        "basis": "Available runtime evidence establishes the GPT-5 family but not a point version"
+      }
+    },
+    {
+      "id": "configuration:caelestis-governance",
+      "type": "configuration",
+      "name": "Caelestis governance configuration",
+      "provenance": "Governed repository corpus and applicable instructions",
+      "intendedUse": "Governance architecture, doctrine, constraints and repository-local operating requirements conditioning the authoring work.",
+      "limitations": "Governance configuration is an influence and control source, not the authoring-agent identity.",
+      "evidence": {
+        "state": "observed",
+        "basis": "Checked-out governed corpus at the recorded branch head",
+        "observedAt": "2026-08-15T03:31:26Z"
+      }
+    },
+    {
+      "id": "configuration:persistent-behavioural",
+      "type": "configuration",
+      "name": "Persistent behavioural configuration",
+      "provenance": "Sustained configuration, correction, examples, established working conventions and available continuity mechanisms",
+      "intendedUse": "Interaction-conditioned behavioural continuity across authoring work where evidenced.",
+      "limitations": "This record does not assert supervised fine-tuning, reinforcement learning, provider-level fine-tuning, changed model weights or continuity of internal model state.",
+      "evidence": {
+        "state": "declared",
+        "basis": "Repository-custodian provenance determination and documented working conventions"
+      }
+    },
+    {
+      "id": "memory-context:provider-managed",
+      "type": "memory_service",
+      "name": "Provider-managed continuity and context mechanisms",
+      "supplier": "OpenAI",
+      "provenance": "Provider-managed interaction and continuity context",
+      "limitations": "Exact storage, persistence, selection and internal-state details are unavailable to this repository record.",
+      "evidence": {
+        "state": "declared",
+        "basis": "Agent-Formation Provenance Integration handoff"
+      }
+    },
+    {
+      "id": "tooling:repository-work",
+      "type": "tool_or_connector",
+      "name": "Repository work and GitHub connector tools",
+      "provenance": "Observed authoring environment",
+      "intendedUse": "Repository inspection, editing, validation and branch publication.",
+      "limitations": "Tool availability does not establish authorship or authority.",
+      "evidence": {
+        "state": "observed",
+        "basis": "Current authoring environment and repository workflow",
+        "observedAt": "2026-08-15T03:31:26Z"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel:system-infrastructure",
+      "from": "urn:caelestis:ai-system:openai-chatgpt-authoring-environment",
+      "to": "infrastructure:openai",
+      "type": "deployed_on",
+      "evidence": {"state": "declared", "basis": "Agent-Formation Provenance Integration handoff"}
+    },
+    {
+      "id": "rel:system-harness",
+      "from": "urn:caelestis:ai-system:openai-chatgpt-authoring-environment",
+      "to": "runtime-harness:chatgpt",
+      "type": "contains",
+      "evidence": {"state": "declared", "basis": "Agent-Formation Provenance Integration handoff"}
+    },
+    {
+      "id": "rel:harness-model",
+      "from": "runtime-harness:chatgpt",
+      "to": "model:gpt-5.x",
+      "type": "routes_to",
+      "evidence": {"state": "declared", "basis": "Current affected-instrument family-level Amendment Ledger rows"}
+    },
+    {
+      "id": "rel:harness-governance",
+      "from": "runtime-harness:chatgpt",
+      "to": "configuration:caelestis-governance",
+      "type": "depends_on",
+      "evidence": {"state": "observed", "basis": "Current governed repository context", "observedAt": "2026-08-15T03:31:26Z"}
+    },
+    {
+      "id": "rel:harness-behavioural-configuration",
+      "from": "runtime-harness:chatgpt",
+      "to": "configuration:persistent-behavioural",
+      "type": "depends_on",
+      "evidence": {"state": "declared", "basis": "Repository-custodian provenance determination"}
+    },
+    {
+      "id": "rel:harness-context",
+      "from": "runtime-harness:chatgpt",
+      "to": "memory-context:provider-managed",
+      "type": "retrieves_from",
+      "evidence": {"state": "declared", "basis": "Agent-Formation Provenance Integration handoff"}
+    },
+    {
+      "id": "rel:harness-tools",
+      "from": "runtime-harness:chatgpt",
+      "to": "tooling:repository-work",
+      "type": "invokes",
+      "evidence": {"state": "observed", "basis": "Current authoring environment", "observedAt": "2026-08-15T03:31:26Z"}
+    }
+  ],
+  "evidenceLinks": [
+    {
+      "type": "runtime_configuration_snapshot",
+      "reference": "PROVENANCE.runtime-state.json",
+      "evidence": {"state": "observed", "basis": "Repository formation snapshot", "observedAt": "2026-08-15T03:31:26Z"}
+    },
+    {
+      "type": "other",
+      "reference": "Governance/**/Amendment Ledger",
+      "evidence": {"state": "observed", "basis": "Repository amendment-level model and agent provenance", "observedAt": "2026-08-15T03:31:26Z"}
+    }
+  ]
+}

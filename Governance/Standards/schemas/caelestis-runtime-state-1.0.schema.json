@@ -10,6 +10,8 @@
     "aiSystemId": {"type": "string", "minLength": 1}, "deploymentId": {"type": "string", "minLength": 1},
     "snapshotAt": {"type": "string", "format": "date-time"},
     "lifecycleState": {"enum": ["design", "development", "evaluation", "deployment", "operation", "modification", "suspension", "investigation", "retirement", "unknown"]},
+    "aiBomReference": {"type": "string", "minLength": 1},
+    "effectiveElements": {"$ref": "#/$defs/effectiveElements"},
     "relational": {"$ref": "#/$defs/relational"},
     "effectivePermissions": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
     "effectiveControls": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
@@ -18,6 +20,20 @@
   },
   "$defs": {
     "evidence": {"type": "object", "additionalProperties": false, "required": ["posture", "basis"], "properties": {"posture": {"enum": ["declared", "configured", "observed", "verified", "inferred", "unknown"]}, "basis": {"type": "string", "minLength": 1}, "reference": {"type": "string"}, "assignedBy": {"type": "string"}}},
+    "effectiveElements": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "providerInfrastructureRef": {"type": "string", "minLength": 1},
+        "harnessRef": {"type": "string", "minLength": 1},
+        "cognitionModelRef": {"type": "string", "minLength": 1},
+        "governanceConfigurationRefs": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "adaptationContinuityRefs": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "memoryContextRefs": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "toolingRefs": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+      },
+      "minProperties": 1
+    },
     "relational": {"type": "object", "additionalProperties": false, "required": ["participantCount", "participantTypes", "coordination", "institutionalMediation", "distribution", "persistence", "dependency", "jurisdictionalReach", "impactScope"], "properties": {
       "participantCount": {"oneOf": [{"type": "integer", "minimum": 0}, {"const": "unknown"}]}, "participantTypes": {"type": "array", "items": {"enum": ["human_participant", "ai_system", "ai_agent", "organisation", "affected_non_participant", "unknown_participant"]}, "uniqueItems": true},
       "coordination": {"enum": ["independent", "coordinated", "orchestrated", "federated", "shared_control", "human_mediated", "unknown"]}, "institutionalMediation": {"enum": ["unmediated", "service_mediated", "organisation_mediated", "employer_mediated", "public_authority_mediated", "other_mediated", "unknown"]}, "distribution": {"enum": ["local", "single_service", "cross_service", "distributed", "external_service_dependent", "unknown"]}, "persistence": {"enum": ["execution_only", "session", "cross_session", "deployment_persistent", "successor_persistent", "unknown"]}, "dependency": {"enum": ["none", "low", "moderate", "high", "critical", "unknown"]}, "jurisdictionalReach": {"enum": ["single_jurisdiction", "multi_jurisdiction", "unknown"]}, "impactScope": {"enum": ["individual", "defined_group", "organisation", "public_population", "unknown"]}
