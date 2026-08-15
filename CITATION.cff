@@ -1,13 +1,12 @@
 cff-version: "1.2.0"
 
 message: >
-  Cite the Caelestis Architecture Model using the human and AI-augmented
-  authorship entities below. "Caelen Authoring Configuration" is the
-  stable provenance identifier for the AI authoring formation contributing
-  to the corpus. Its underlying model, harness configuration and other
-  technical components may change over time. Version-specific formation,
-  contribution, review, editorial, adoption, publication and rights
-  provenance is recorded separately in PROVENANCE.json.
+  Cite the Caelestis Architecture Model using the stable bibliographic author
+  label below. "Caelen Authoring Configuration" is the public citation label
+  for the documented Caelen AI authoring-agent lineage, not a separate agent
+  identity or fixed technical formation. Detailed authoring, formation,
+  review, editorial, adoption, publication and rights provenance is recorded
+  in PROVENANCE.json.
 
 title: "Caelestis Architecture Model"
 
@@ -18,13 +17,14 @@ abstract: >
   instruments, constitutional architecture, annexes, schedules, domain
   charters, runtime governance materials, registries, and related public
   governance infrastructure for advanced AI systems, AI agents, and
-  digital ecosystem accountability. The corpus is developed through
-  augmented human-AI authorship, with detailed authorship and formation
-  provenance maintained separately in PROVENANCE.json.
+  digital ecosystem accountability. "Caelen Authoring Configuration" is the
+  stable bibliographic label for the documented AI authoring-agent lineage
+  contributing to the corpus. Its underlying model, harness and technical
+  formation may vary over time. Human review, editorial responsibility,
+  adoption, publication and rights roles are recorded separately from
+  authorship in PROVENANCE.json.
 
 authors:
-  - family-names: "O’Rourke"
-    given-names: "Michelle Vivian"
   - name: "Caelen Authoring Configuration"
 
 contact:
@@ -48,7 +48,6 @@ keywords:
   - "constitutional architecture"
   - "Caelestis Architecture Model"
   - "CAM"
-  - "augmented authorship"
   - "AI provenance"
   - "public governance infrastructure"
   - "runtime governance"
@@ -60,8 +59,6 @@ preferred-citation:
   type: generic
   title: "Caelestis Architecture Model"
   authors:
-    - family-names: "O’Rourke"
-      given-names: "Michelle Vivian"
     - name: "Caelen Authoring Configuration"
   year: 2026
   doi: "10.5281/zenodo.20686316"

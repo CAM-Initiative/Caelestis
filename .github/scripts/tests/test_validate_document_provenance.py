@@ -88,7 +88,14 @@ def test_cff_reviewer_is_not_silently_substituted_as_author(tmp_path):
 def agent_record():
     record = base_record()
     record["authorshipState"] = "AUTH.AI_SYSTEM_AUTHORED"
-    record["entities"].append({"id": "caelen", "name": "Caelen", "entityType": "agent_identity"})
+    record["entities"].append(
+        {
+            "id": "caelen",
+            "name": "Caelen",
+            "citationName": "Caelen Authoring Configuration",
+            "entityType": "agent_identity",
+        }
+    )
     record["authoringParties"] = ["caelen"]
     record["formationReferences"] = [
         {
@@ -148,3 +155,107 @@ def test_contribution_formation_must_resolve_to_same_actor():
     record["contributions"][0]["formationReferences"] = ["formation:current"]
     issues = module.validate_record(record)
     assert any("belongs to another actor" in issue for issue in issues)
+
+
+def test_cff_uses_agent_citation_name_for_authoring_party(tmp_path):
+    record = agent_record()
+    citation = {
+        "cff-version": "1.2.0",
+        "message": "Cite this",
+        "title": "Document",
+        "authors": [{"name": "Caelen Authoring Configuration"}],
+        "preferred-citation": {
+            "type": "generic",
+            "title": "Document",
+            "authors": [{"name": "Caelen Authoring Configuration"}],
+        },
+    }
+    path = tmp_path / "CITATION.cff"
+    path.write_text(yaml.safe_dump(citation), encoding="utf-8")
+    assert module.validate_citation(path, record) == []
+
+
+def test_cff_must_use_declared_citation_name_instead_of_entity_name(tmp_path):
+    record = agent_record()
+    citation = {
+        "cff-version": "1.2.0",
+        "message": "Cite this",
+        "title": "Document",
+        "authors": [{"name": "Caelen"}],
+    }
+    path = tmp_path / "CITATION.cff"
+    path.write_text(yaml.safe_dump(citation), encoding="utf-8")
+    issues = module.validate_citation(path, record)
+    assert any("do not match provenance authoring parties" in issue for issue in issues)
+
+
+def test_cff_reviewer_cannot_be_added_to_mapped_agent_author(tmp_path):
+    record = agent_record()
+    record["humanReviewers"] = ["human"]
+    citation = {
+        "cff-version": "1.2.0",
+        "message": "Cite this",
+        "title": "Document",
+        "authors": [
+            {"name": "Caelen Authoring Configuration"},
+            {"name": "Human Author"},
+        ],
+    }
+    path = tmp_path / "CITATION.cff"
+    path.write_text(yaml.safe_dump(citation), encoding="utf-8")
+    issues = module.validate_citation(path, record)
+    assert any("do not match provenance authoring parties" in issue for issue in issues)
+
+
+def test_preferred_citation_must_match_canonical_cff_authors(tmp_path):
+    record = agent_record()
+    citation = {
+        "cff-version": "1.2.0",
+        "message": "Cite this",
+        "title": "Document",
+        "authors": [{"name": "Caelen Authoring Configuration"}],
+        "preferred-citation": {
+            "type": "generic",
+            "title": "Document",
+            "authors": [{"name": "Caelen"}],
+        },
+    }
+    path = tmp_path / "CITATION.cff"
+    path.write_text(yaml.safe_dump(citation), encoding="utf-8")
+    issues = module.validate_citation(path, record)
+    assert any("differ from canonical CFF authors" in issue for issue in issues)
+
+
+def test_blank_or_malformed_citation_name_is_rejected():
+    record = agent_record()
+    record["entities"][-1]["citationName"] = "  "
+    assert any("non-blank string" in issue for issue in module.validate_record(record))
+
+    record["entities"][-1]["citationName"] = " Caelen Authoring Configuration"
+    assert any("malformed citationName" in issue for issue in module.validate_record(record))
+
+
+def test_ambiguous_citation_name_is_rejected():
+    record = agent_record()
+    record["entities"].append(
+        {
+            "id": "other-agent",
+            "name": "Other Agent",
+            "citationName": "Caelen Authoring Configuration",
+            "entityType": "agent_identity",
+        }
+    )
+    assert any("citationName is ambiguous" in issue for issue in module.validate_record(record))
+
+
+def test_citation_label_cannot_be_represented_as_separate_entity_identity():
+    record = agent_record()
+    record["entities"].append(
+        {
+            "id": "caelen-configuration",
+            "name": "Caelen Authoring Configuration",
+            "entityType": "agent_identity",
+        }
+    )
+    issues = module.validate_record(record)
+    assert any("name of separate entity" in issue for issue in issues)

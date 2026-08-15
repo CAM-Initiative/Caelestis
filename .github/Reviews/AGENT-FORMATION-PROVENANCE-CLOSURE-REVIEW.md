@@ -44,7 +44,7 @@ The snapshot is not asserted as the formation for every historical corpus amendm
 | Runtime State Profile | Added resolvable AI-BOM and effective-element references for provider/infrastructure, harness, cognition model, governance configuration, adaptation/continuity state, context/memory and tooling. |
 | AI-BOM | No schema or doctrinal amendment. The existing profile represents the repository authoring environment's declared composition. |
 | Amendment Ledger | Preserved all seven columns. `Agent` remains amendment-agent identity; `Model` remains cognition-model provenance. |
-| CFF | `CITATION.cff` remains valid and lightweight. It continues to cite the entity author `Caelen` and directs richer interpretation to `PROVENANCE.json`; it does not identify Caelen with a model or OpenAI with substantive authorship. |
+| CFF | `CITATION.cff` uses `Caelen Authoring Configuration` as the stable bibliographic label for the `Caelen` authoring-agent identity. The label does not create a separate authoring identity or fixed technical formation. `PROVENANCE.json` remains authoritative for agent identity, formation lineage, human review/editorial/adoption roles and technical provenance. |
 
 ## 4. Model-version evidence and uncertainty
 

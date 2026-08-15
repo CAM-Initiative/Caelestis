@@ -12,6 +12,7 @@
     {
       "id": "human-author",
       "name": "Example Human Author",
+      "citationName": "Example Policy Author",
       "entityType": "human"
     },
     {

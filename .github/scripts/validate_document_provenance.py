@@ -66,6 +66,14 @@ def entity_display_name(entity: dict[str, Any]) -> str:
     return str(entity.get("name", "")).strip()
 
 
+def entity_citation_name(entity: dict[str, Any]) -> str:
+    """Return the declared bibliographic label, or the entity display name."""
+    if "citationName" not in entity:
+        return entity_display_name(entity)
+    value = entity.get("citationName")
+    return value.strip() if isinstance(value, str) else ""
+
+
 def cff_author_name(author: dict[str, Any]) -> str:
     if author.get("name"):
         return str(author["name"]).strip()
@@ -106,6 +114,7 @@ def validate_record(
         issues.append(f"{source}: entities must be a non-empty array")
         entities = []
     by_id: dict[str, dict[str, Any]] = {}
+    declared_citation_names: dict[str, list[str]] = {}
     for index, entity in enumerate(entities):
         if not isinstance(entity, dict):
             issues.append(f"{source}: entities[{index}] must be an object")
@@ -123,6 +132,31 @@ def validate_record(
             issues.append(f"{source}: entity {entity_id!r} has uncontrolled entityType")
         if entity.get("entityType") == "agent_identity" and (entity.get("provider") or entity.get("model")):
             issues.append(f"{source}: agent identity {entity_id!r} must not embed provider or model identity")
+        if "citationName" in entity:
+            citation_name = entity.get("citationName")
+            if not isinstance(citation_name, str) or not citation_name.strip():
+                issues.append(f"{source}: entity {entity_id!r} citationName must be a non-blank string")
+            elif citation_name != citation_name.strip() or any(ord(character) < 32 for character in citation_name):
+                issues.append(f"{source}: entity {entity_id!r} has malformed citationName")
+            else:
+                declared_citation_names.setdefault(citation_name.casefold(), []).append(entity_id)
+
+    for normalized_name, owner_ids in declared_citation_names.items():
+        if len(owner_ids) > 1:
+            issues.append(
+                f"{source}: citationName is ambiguous across entities {sorted(owner_ids)}"
+            )
+        colliding_ids = sorted(
+            entity_id
+            for entity_id, entity in by_id.items()
+            if entity_id not in owner_ids
+            and entity_display_name(entity).casefold() == normalized_name
+        )
+        if colliding_ids:
+            issues.append(
+                f"{source}: citationName for {sorted(owner_ids)} is also the name of separate "
+                f"entity or entities {colliding_ids}"
+            )
 
     def require_refs(field: str) -> None:
         value = record.get(field, [])
@@ -309,24 +343,24 @@ def validate_citation(citation_path: Path, record: dict[str, Any]) -> list[str]:
             issues.append(f"{citation_path}: authors[{index}] is not a valid person or entity author")
 
     entities = {entity["id"]: entity for entity in record.get("entities", []) if isinstance(entity, dict) and entity.get("id")}
-    expected = {
-        entity_display_name(entities[entity_id])
+    expected = [
+        entity_citation_name(entities[entity_id])
         for entity_id in record.get("authoringParties", [])
         if entity_id in entities
-    }
-    actual = {cff_author_name(author) for author in authors if isinstance(author, dict)}
+    ]
+    actual = [cff_author_name(author) for author in authors if isinstance(author, dict)]
     if actual != expected:
-        issues.append(f"{citation_path}: CFF authors {sorted(actual)} do not match provenance authoring parties {sorted(expected)}")
+        issues.append(f"{citation_path}: CFF authors {actual} do not match provenance authoring parties {expected}")
 
     preferred = citation.get("preferred-citation")
     if isinstance(preferred, dict):
-        preferred_names = {
+        preferred_names = [
             cff_author_name(author)
             for author in preferred.get("authors", [])
             if isinstance(author, dict)
-        }
-        if preferred_names != expected:
-            issues.append(f"{citation_path}: preferred-citation authors do not match provenance authoring parties")
+        ]
+        if preferred_names != actual:
+            issues.append(f"{citation_path}: preferred-citation authors differ from canonical CFF authors")
     return issues
 
 

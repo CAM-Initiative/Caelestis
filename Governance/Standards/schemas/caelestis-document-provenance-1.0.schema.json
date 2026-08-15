@@ -127,6 +127,11 @@
       "properties": {
         "id": {"$ref": "#/$defs/identifier"},
         "name": {"type": "string", "minLength": 1},
+        "citationName": {
+          "type": "string",
+          "pattern": "^\\S(?:.*\\S)?$",
+          "description": "Optional stable bibliographic or public representation of this entity. It does not create another entity, change authorship classification, establish legal identity, or substitute for name, identifier or formation provenance."
+        },
         "entityType": {
           "enum": ["human", "agent_identity", "ai_system", "organization", "automated_process", "other", "unknown"]
         },

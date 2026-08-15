@@ -12,6 +12,7 @@
     {
       "id": "caelen",
       "name": "Caelen",
+      "citationName": "Caelen Authoring Configuration",
       "entityType": "agent_identity",
       "identifier": "urn:caelestis:agent-identity:caelen",
       "description": "Persistent substantive-author and authoring-agent identity represented across documented agent formations; not a model, Runtime harness, provider, governance configuration or AI-system product name."
