@@ -1,0 +1,93 @@
+{
+  "profile": "Caelestis-Document-Provenance-1.0",
+  "subject": {
+    "id": "CAM-Initiative/Caelestis",
+    "title": "Caelestis Architecture Model",
+    "version": "1.1.0",
+    "path": ".",
+    "type": "repository"
+  },
+  "authorshipState": "AUTH.AI_SYSTEM_AUTHORED",
+  "entities": [
+    {
+      "id": "caelen",
+      "name": "Caelen",
+      "entityType": "ai_system",
+      "provider": "OpenAI",
+      "model": "GPT-5 Series",
+      "description": "Substantive author and authoring-agent identity represented across recorded model versions."
+    },
+    {
+      "id": "michelle-orourke",
+      "name": "Dr Michelle Vivian O’Rourke",
+      "entityType": "human",
+      "description": "Human reviewer, governance editor, custodian and adoption authority."
+    },
+    {
+      "id": "cam-initiative",
+      "name": "CAM Initiative",
+      "entityType": "organization",
+      "description": "Repository custodian and publication authority."
+    }
+  ],
+  "authoringParties": ["caelen"],
+  "contributions": [
+    {
+      "actor": "caelen",
+      "roles": [
+        "CONTRIB.SUBSTANTIVE_DRAFTING",
+        "CONTRIB.SUBSTANTIVE_REVISION",
+        "CONTRIB.SYNTHESIS",
+        "CONTRIB.CLASSIFICATION"
+      ],
+      "description": "Substantive drafting and revision of the governance corpus, with contribution details retained in instrument Amendment Ledgers and repository history.",
+      "evidence": [
+        "Governance instrument Amendment Ledgers",
+        "Git repository history"
+      ]
+    },
+    {
+      "actor": "michelle-orourke",
+      "roles": [
+        "CONTRIB.REVIEW",
+        "CONTRIB.STANDARD_EDITING"
+      ],
+      "description": "Human governance review, editorial direction and custodial acceptance; these roles are not represented as substantive authorship.",
+      "evidence": [
+        "Governance instrument Amendment Ledgers",
+        "Repository governance and publication records"
+      ]
+    }
+  ],
+  "humanReviewers": ["michelle-orourke"],
+  "editorialResponsibility": ["michelle-orourke"],
+  "adoptionAuthority": ["michelle-orourke"],
+  "publicationAuthority": ["cam-initiative"],
+  "technicalProvenance": {
+    "status": "TPROV.PRESENT",
+    "anchors": [
+      {
+        "type": "version_control",
+        "reference": "https://github.com/CAM-Initiative/Caelestis/commits",
+        "status": "available"
+      },
+      {
+        "type": "amendment_ledger",
+        "reference": "Governance/**/Amendment Ledger",
+        "status": "available"
+      },
+      {
+        "type": "provider_record",
+        "reference": "Creation and amendment artefact links recorded in governed instruments",
+        "status": "provider_managed"
+      }
+    ],
+    "statusDetail": "Repository and instrument lineage anchors are present. Provider-managed interaction records are not treated as proof of authorship by themselves."
+  },
+  "provenanceRecord": "PROVENANCE.json",
+  "rights": {
+    "copyrightHolders": ["michelle-orourke", "cam-initiative"],
+    "licenseReference": "licence.md"
+  },
+  "evidenceNote": "This manifest records the current repository-level provenance disposition. It does not rewrite immutable amendment history or treat review, custody, adoption, publication or rights ownership as authorship."
+}

@@ -44,6 +44,24 @@ def test_retired_findings_detects_aeon_ccs_cognitive_classification_aliases(tmp_
     ]
 
 
+def test_retired_findings_detects_legacy_provenance_codes(tmp_path):
+    path = tmp_path / "CAM-TEST.md"
+    findings = module.retired_findings(
+        path,
+        "AUTH.RI_AUTHORED\nPCLASS.SYNTHETIC\n",
+    )
+    assert [term for _line, term in findings] == [
+        "AUTH.RI_AUTHORED",
+        "PCLASS.SYNTHETIC",
+    ]
+
+
+def test_retired_provenance_codes_permitted_in_amendment_history(tmp_path):
+    path = tmp_path / "CAM-TEST.md"
+    text = "AUTH.AI_SYSTEM_AUTHORED\n## 2.0 Amendment Ledger\nAUTH.RI_AUTHORED; PCLASS.SYNTHETIC\n"
+    assert module.retired_findings(path, text) == []
+
+
 def test_retired_findings_permits_aeon_ccs_in_amendment_ledger_history(tmp_path):
     path = tmp_path / "CAM-TEST.md"
     text = "AI system\n## 1.0 Amendment Ledger\nAEON.CCS — Cognitive Cycle Stage\n"

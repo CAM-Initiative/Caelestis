@@ -2783,7 +2783,7 @@
     "scope": "Domain",
     "status": "Active",
     "controlled_values_defined": [
-      "AUTH.USER_AUTHORED`; `AUTH.RI_AUTHORED`; `AUTH.CO_AUTHORED`; `AUTH.DERIVED"
+      "AUTH.HUMAN_AUTHORED`; `AUTH.AI_SYSTEM_AUTHORED`; `AUTH.CO_AUTHORED`; `AUTH.OTHER_AUTHORSHIP`; `AUTH.UNDETERMINED"
     ],
     "schema_fields": "authorship_state",
     "source_instrument": "CAM-EQ2026-IDENTITY-002-PLATINUM",
@@ -2791,24 +2791,30 @@
     "domain_namespace": "IDENTITY",
     "authority_protection_level": "Source-authoritative authorship-contribution classification family; substantive authorship and transformation posture only; no independent legal ownership, intellectual-property status, custody, control, identity ownership, adoption, stabilisation, truth, authority, admissibility, priority, execution, enforcement, or runtime authority",
     "consumes_code_families": [
-      "PCLASS"
+      "PCLASS`; `CONTRIB"
     ],
     "crosswalks_code_families": [
       "ID.ISTATE"
     ],
     "operationalises_or_applies_code_families": [
-      "Classifies whether substantive content is user-authored",
-      "user-facing system instance-authored",
+      "Classifies evidenced substantive authorship as human-authored",
+      "AI-system-authored",
       "co-authored",
-      "or derived; preserves distinguishable contribution across transformation without collapsing authorship into legal ownership",
+      "other",
+      "or undetermined without collapsing processing",
+      "contribution",
+      "review",
+      "responsibility",
+      "legal ownership",
       "adoption",
+      "publication",
       "co-resolution",
-      "or authority"
+      "or authority into authorship"
     ],
     "canonical_section_heading": "13.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 496,
+    "canonical_section_line_number": 563,
     "declaration_heading": "13.2.2 `AUTH` \u2014 Authorship State",
-    "declaration_line_number": 523,
+    "declaration_line_number": 590,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -2829,15 +2835,15 @@
       "Modifier": "GOVERNANCE; AUTHORSHIP; ATTRIBUTION; LINEAGE",
       "Scope": "Domain",
       "Status": "Active",
-      "Controlled Values Defined": "`AUTH.USER_AUTHORED`; `AUTH.RI_AUTHORED`; `AUTH.CO_AUTHORED`; `AUTH.DERIVED`",
+      "Controlled Values Defined": "`AUTH.HUMAN_AUTHORED`; `AUTH.AI_SYSTEM_AUTHORED`; `AUTH.CO_AUTHORED`; `AUTH.OTHER_AUTHORSHIP`; `AUTH.UNDETERMINED`",
       "Schema Field(s)": "authorship_state",
       "Source Instrument": "CAM-EQ2026-IDENTITY-002-PLATINUM",
       "Source Section": "\u00a74",
       "Domain Namespace": "IDENTITY",
       "Authority / Protection Level": "Source-authoritative authorship-contribution classification family; substantive authorship and transformation posture only; no independent legal ownership, intellectual-property status, custody, control, identity ownership, adoption, stabilisation, truth, authority, admissibility, priority, execution, enforcement, or runtime authority",
-      "Consumes Code Families": "`PCLASS`",
+      "Consumes Code Families": "`PCLASS`; `CONTRIB`",
       "Crosswalks Code Families": "`ID.ISTATE`",
-      "Operationalises or Applies Code Families": "Classifies whether substantive content is user-authored, user-facing system instance-authored, co-authored, or derived; preserves distinguishable contribution across transformation without collapsing authorship into legal ownership, adoption, co-resolution, or authority"
+      "Operationalises or Applies Code Families": "Classifies evidenced substantive authorship as human-authored, AI-system-authored, co-authored, other, or undetermined without collapsing processing, contribution, review, responsibility, legal ownership, adoption, publication, co-resolution, or authority into authorship"
     }
   },
   {
@@ -2975,6 +2981,81 @@
       "Consumes Code Families": "None declared",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Historical classification only; \u00a74.6 now provides non-code descriptive classes"
+    }
+  },
+  {
+    "canonical_id": "CONTRIB",
+    "identifier_type": "code_family",
+    "code_family": "CONTRIB",
+    "reference_set": "",
+    "canonical_constraint": "",
+    "canonical_obligation": "",
+    "canonical_name": "Processing or Contribution Role",
+    "primary_type": "Semantic / Attribution",
+    "subtype": "CONTRIBUTION_ROLE",
+    "modifier": "GOVERNANCE; PROVENANCE; CONTRIBUTION; PROCESSING",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "CONTRIB.SUBSTANTIVE_DRAFTING`; `CONTRIB.SUBSTANTIVE_REVISION`; `CONTRIB.SYNTHESIS`; `CONTRIB.TRANSLATION`; `CONTRIB.SUMMARISATION`; `CONTRIB.STANDARD_EDITING`; `CONTRIB.FORMATTING`; `CONTRIB.REVIEW`; `CONTRIB.RETRIEVAL`; `CONTRIB.CLASSIFICATION`; `CONTRIB.OTHER_TRANSFORMATION"
+    ],
+    "schema_fields": "contribution_role",
+    "source_instrument": "CAM-EQ2026-IDENTITY-002-PLATINUM",
+    "source_section": "\u00a74.1",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative contribution and processing-role family; actor-bound activity classification only; no automatic authorship, editorial responsibility, ownership, adoption, publication, rights, custody, authority, admissibility, execution, enforcement, or runtime consequence",
+    "consumes_code_families": [
+      "PCLASS"
+    ],
+    "crosswalks_code_families": [
+      "AUTH`; `TPROV`; `SEC.TR"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records material drafting",
+      "revision",
+      "synthesis",
+      "translation",
+      "summarisation",
+      "editing",
+      "formatting",
+      "review",
+      "retrieval",
+      "classification",
+      "or other transformation by an identified actor while preserving the non-inference boundary between processing and authorship"
+    ],
+    "canonical_section_heading": "13.2 Canonical Code & Reference Set Declarations",
+    "canonical_section_line_number": 563,
+    "declaration_heading": "13.2.3 `CONTRIB` \u2014 Processing or Contribution Role",
+    "declaration_line_number": 613,
+    "extraction_method": "bounded_heading_section_table",
+    "declaration_quality": "complete",
+    "missing_expected_fields": [],
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md",
+    "family_id": "CONTRIB",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "CONTRIB"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`CONTRIB`",
+      "Canonical Name": "Processing or Contribution Role",
+      "Primary Type": "Semantic / Attribution",
+      "Subtype": "CONTRIBUTION_ROLE",
+      "Modifier": "GOVERNANCE; PROVENANCE; CONTRIBUTION; PROCESSING",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "`CONTRIB.SUBSTANTIVE_DRAFTING`; `CONTRIB.SUBSTANTIVE_REVISION`; `CONTRIB.SYNTHESIS`; `CONTRIB.TRANSLATION`; `CONTRIB.SUMMARISATION`; `CONTRIB.STANDARD_EDITING`; `CONTRIB.FORMATTING`; `CONTRIB.REVIEW`; `CONTRIB.RETRIEVAL`; `CONTRIB.CLASSIFICATION`; `CONTRIB.OTHER_TRANSFORMATION`",
+      "Schema Field(s)": "contribution_role",
+      "Source Instrument": "CAM-EQ2026-IDENTITY-002-PLATINUM",
+      "Source Section": "\u00a74.1",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative contribution and processing-role family; actor-bound activity classification only; no automatic authorship, editorial responsibility, ownership, adoption, publication, rights, custody, authority, admissibility, execution, enforcement, or runtime consequence",
+      "Consumes Code Families": "`PCLASS`",
+      "Crosswalks Code Families": "`AUTH`; `TPROV`; `SEC.TR`",
+      "Operationalises or Applies Code Families": "Records material drafting, revision, synthesis, translation, summarisation, editing, formatting, review, retrieval, classification, or other transformation by an identified actor while preserving the non-inference boundary between processing and authorship"
     }
   },
   {
@@ -9541,7 +9622,7 @@
     "scope": "Domain",
     "status": "Active",
     "controlled_values_defined": [
-      "PCLASS.USER_ORIGINATED`; `PCLASS.SYSTEM_DEFINED`; `PCLASS.RETRIEVED`; `PCLASS.MODEL_INFERRED`; `PCLASS.SYNTHETIC"
+      "PCLASS.USER_ORIGINATED`; `PCLASS.SYSTEM_DEFINED`; `PCLASS.RETRIEVED`; `PCLASS.MODEL_INFERRED`; `PCLASS.AI_SYSTEM_GENERATED"
     ],
     "schema_fields": "provenance_class",
     "source_instrument": "CAM-EQ2026-IDENTITY-002-PLATINUM",
@@ -9557,12 +9638,12 @@
       "system-defined",
       "retrieved",
       "model-inferred",
-      "or synthetically generated; preserves composite provenance where more than one originating or transformation pathway materially contributes"
+      "or generated through an AI system; preserves composite provenance where more than one originating or transformation pathway materially contributes"
     ],
     "canonical_section_heading": "13.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 496,
+    "canonical_section_line_number": 563,
     "declaration_heading": "13.2.1 `PCLASS` \u2014 Provenance Class",
-    "declaration_line_number": 500,
+    "declaration_line_number": 567,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9583,7 +9664,7 @@
       "Modifier": "GOVERNANCE; PROVENANCE; IDENTITY; LINEAGE",
       "Scope": "Domain",
       "Status": "Active",
-      "Controlled Values Defined": "`PCLASS.USER_ORIGINATED`; `PCLASS.SYSTEM_DEFINED`; `PCLASS.RETRIEVED`; `PCLASS.MODEL_INFERRED`; `PCLASS.SYNTHETIC`",
+      "Controlled Values Defined": "`PCLASS.USER_ORIGINATED`; `PCLASS.SYSTEM_DEFINED`; `PCLASS.RETRIEVED`; `PCLASS.MODEL_INFERRED`; `PCLASS.AI_SYSTEM_GENERATED`",
       "Schema Field(s)": "provenance_class",
       "Source Instrument": "CAM-EQ2026-IDENTITY-002-PLATINUM",
       "Source Section": "\u00a73",
@@ -9591,7 +9672,7 @@
       "Authority / Protection Level": "Source-authoritative provenance-origin classification family; source-pathway and origin classification only; no independent authorship, ownership, truth, identity, authority, admissibility, priority, retention, propagation, execution, enforcement, escalation, or runtime authority",
       "Consumes Code Families": "",
       "Crosswalks Code Families": "`ID.IRA`; `ID.ISTATE`",
-      "Operationalises or Applies Code Families": "Classifies whether an in-scope signal is user-originated, system-defined, retrieved, model-inferred, or synthetically generated; preserves composite provenance where more than one originating or transformation pathway materially contributes"
+      "Operationalises or Applies Code Families": "Classifies whether an in-scope signal is user-originated, system-defined, retrieved, model-inferred, or generated through an AI system; preserves composite provenance where more than one originating or transformation pathway materially contributes"
     }
   },
   {
@@ -9616,7 +9697,7 @@
     "domain_namespace": "IDENTITY",
     "authority_protection_level": "Source-authoritative provenance and lineage integrity-failure classification family; failure identification and integrity-posture classification only; no independent deletion, downgrade, containment, propagation restraint, correction, routing, enforcement, escalation, execution, or runtime authority",
     "consumes_code_families": [
-      "PCLASS`; `AUTH`; `XFER`; `ID.IRA`; `ID.ISTATE"
+      "PCLASS`; `AUTH`; `CONTRIB`; `TPROV`; `XFER`; `ID.IRA`; `ID.ISTATE"
     ],
     "crosswalks_code_families": [
       "None declared"
@@ -9634,9 +9715,9 @@
       "and Operations pathways"
     ],
     "canonical_section_heading": "13.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 496,
-    "declaration_heading": "13.2.4 `PFAIL` \u2014 Provenance Integrity Failure",
-    "declaration_line_number": 569,
+    "canonical_section_line_number": 563,
+    "declaration_heading": "13.2.5 `PFAIL` \u2014 Provenance Integrity Failure",
+    "declaration_line_number": 659,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],
@@ -9663,7 +9744,7 @@
       "Source Section": "\u00a79",
       "Domain Namespace": "IDENTITY",
       "Authority / Protection Level": "Source-authoritative provenance and lineage integrity-failure classification family; failure identification and integrity-posture classification only; no independent deletion, downgrade, containment, propagation restraint, correction, routing, enforcement, escalation, execution, or runtime authority",
-      "Consumes Code Families": "`PCLASS`; `AUTH`; `XFER`; `ID.IRA`; `ID.ISTATE`",
+      "Consumes Code Families": "`PCLASS`; `AUTH`; `CONTRIB`; `TPROV`; `XFER`; `ID.IRA`; `ID.ISTATE`",
       "Crosswalks Code Families": "None declared",
       "Operationalises or Applies Code Families": "Classifies provenance and lineage failures involving misattribution, untraceable synthesis, cross-context distortion, lineage collapse, false continuity, or target-binding failure; supports contested or restricted-reliance handling through authorised Identity, Security, Runtime, Arbitration, and Operations pathways"
     }
@@ -12490,6 +12571,77 @@
     }
   },
   {
+    "canonical_id": "TPROV",
+    "identifier_type": "code_family",
+    "code_family": "TPROV",
+    "reference_set": "",
+    "canonical_constraint": "",
+    "canonical_obligation": "",
+    "canonical_name": "Technical Provenance Status",
+    "primary_type": "Technical / Evidentiary",
+    "subtype": "TECHNICAL_PROVENANCE_STATUS",
+    "modifier": "GOVERNANCE; PROVENANCE; TECHNICAL_METADATA; WATERMARKING",
+    "scope": "Domain",
+    "status": "Active",
+    "controlled_values_defined": [
+      "TPROV.PRESENT`; `TPROV.ABSENT`; `TPROV.PROVIDER_MANAGED`; `TPROV.LOST_DURING_TRANSFORMATION`; `TPROV.STRIPPED_BY_DESIGN`; `TPROV.UNSUPPORTED`; `TPROV.UNKNOWN"
+    ],
+    "schema_fields": "technical_provenance_status",
+    "source_instrument": "CAM-EQ2026-IDENTITY-002-PLATINUM",
+    "source_section": "\u00a71.2; \u00a78.3",
+    "domain_namespace": "IDENTITY",
+    "authority_protection_level": "Source-authoritative technical-provenance status family; mechanism-presence and loss-state classification only; no proof of authorship, human origin, AI absence, ownership, truth, integrity, legality, adoption, publication authority, execution, enforcement, or compliance",
+    "consumes_code_families": [
+      "CONTRIB`; `SEC.TR"
+    ],
+    "crosswalks_code_families": [
+      "PCLASS`; `AUTH`; `PFAIL"
+    ],
+    "operationalises_or_applies_code_families": [
+      "Records whether machine-readable provenance is present",
+      "absent",
+      "provider-managed",
+      "lost during transformation",
+      "stripped by design",
+      "unsupported",
+      "or unknown and preserves loss or stripping as an auditable state without mandating a particular watermarking or content-credential technology"
+    ],
+    "canonical_section_heading": "13.2 Canonical Code & Reference Set Declarations",
+    "canonical_section_line_number": 563,
+    "declaration_heading": "13.2.6 `TPROV` \u2014 Technical Provenance Status",
+    "declaration_line_number": 682,
+    "extraction_method": "bounded_heading_section_table",
+    "declaration_quality": "complete",
+    "missing_expected_fields": [],
+    "source_path": "Governance/Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md",
+    "family_id": "TPROV",
+    "family_kind": "standalone_family",
+    "parent_family": "",
+    "hierarchy_path": [
+      "TPROV"
+    ],
+    "collision_status": "none",
+    "registry_note": "",
+    "table": {
+      "Code Family": "`TPROV`",
+      "Canonical Name": "Technical Provenance Status",
+      "Primary Type": "Technical / Evidentiary",
+      "Subtype": "TECHNICAL_PROVENANCE_STATUS",
+      "Modifier": "GOVERNANCE; PROVENANCE; TECHNICAL_METADATA; WATERMARKING",
+      "Scope": "Domain",
+      "Status": "Active",
+      "Controlled Values Defined": "`TPROV.PRESENT`; `TPROV.ABSENT`; `TPROV.PROVIDER_MANAGED`; `TPROV.LOST_DURING_TRANSFORMATION`; `TPROV.STRIPPED_BY_DESIGN`; `TPROV.UNSUPPORTED`; `TPROV.UNKNOWN`",
+      "Schema Field(s)": "technical_provenance_status",
+      "Source Instrument": "CAM-EQ2026-IDENTITY-002-PLATINUM",
+      "Source Section": "\u00a71.2; \u00a78.3",
+      "Domain Namespace": "IDENTITY",
+      "Authority / Protection Level": "Source-authoritative technical-provenance status family; mechanism-presence and loss-state classification only; no proof of authorship, human origin, AI absence, ownership, truth, integrity, legality, adoption, publication authority, execution, enforcement, or compliance",
+      "Consumes Code Families": "`CONTRIB`; `SEC.TR`",
+      "Crosswalks Code Families": "`PCLASS`; `AUTH`; `PFAIL`",
+      "Operationalises or Applies Code Families": "Records whether machine-readable provenance is present, absent, provider-managed, lost during transformation, stripped by design, unsupported, or unknown and preserves loss or stripping as an auditable state without mandating a particular watermarking or content-credential technology"
+    }
+  },
+  {
     "canonical_id": "XFER",
     "identifier_type": "code_family",
     "code_family": "XFER",
@@ -12529,9 +12681,9 @@
       "or target objects; prevents secondary material from silently binding to an active object without validation"
     ],
     "canonical_section_heading": "13.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 496,
-    "declaration_heading": "13.2.3 `XFER` \u2014 Cross-Context Transfer State",
-    "declaration_line_number": 546,
+    "canonical_section_line_number": 563,
+    "declaration_heading": "13.2.4 `XFER` \u2014 Cross-Context Transfer State",
+    "declaration_line_number": 636,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],

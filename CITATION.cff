@@ -1,9 +1,11 @@
 cff-version: "1.2.0"
-message: "If you use or cite the Caelestis Architecture Model, please cite this archive DOI and repository metadata. The corpus is stewarded under CAM custodial authority by Dr. Michelle Vivian O’Rourke."
+message: "If you use or cite the Caelestis Architecture Model, cite this archive DOI and repository metadata. Detailed authorship, review, editorial, adoption, publication and rights roles are recorded separately in PROVENANCE.json."
 title: "Caelestis Architecture Model"
 type: dataset
-abstract: "The Caelestis Architecture Model public archive contains CAM governance instruments, constitutional architecture, annexes, schedules, domain charters, runtime governance materials, registries, and related public governance infrastructure for advanced AI systems, synthetic agents, and digital ecosystem accountability."
+abstract: "The Caelestis Architecture Model public archive contains governance instruments, constitutional architecture, annexes, schedules, domain charters, runtime governance materials, registries, and related public governance infrastructure for advanced AI systems, AI agents, and digital ecosystem accountability."
 authors:
+  - name: "Caelen"
+contact:
   - family-names: "O’Rourke"
     given-names: "Michelle Vivian"
 version: "1.1.0"
@@ -11,7 +13,7 @@ doi: "10.5281/zenodo.20686316"
 date-released: "2026-06-14"
 repository-code: "https://github.com/CAM-Initiative/Caelestis"
 url: "https://www.cam-initiative.org"
-license: "LicenseRef-CAM-Custodial-Reference-and-Deployment-Licence"
+license-url: "https://github.com/CAM-Initiative/Caelestis/blob/main/licence.md"
 keywords:
   - "AI governance"
   - "constitutional architecture"
@@ -19,15 +21,14 @@ keywords:
   - "CAM"
   - "public governance infrastructure"
   - "runtime governance"
-  - "synthetic agents"
+  - "AI agents"
   - "digital ecosystem accountability"
   - "archival package"
 preferred-citation:
   type: generic
   title: "Caelestis Architecture Model"
   authors:
-    - family-names: "O’Rourke"
-      given-names: "Michelle Vivian"
+    - name: "Caelen"
   year: 2026
   doi: "10.5281/zenodo.20686316"
   url: "https://github.com/CAM-Initiative/Caelestis"

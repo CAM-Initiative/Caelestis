@@ -21,9 +21,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "3.20",
       "HASH": "f4db6ccbf8fb513ece74e78efa2bbe06aecd220f8afd14b10dffb51a4c008b4b",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-001-SCH-01",
@@ -45,9 +45,9 @@
       "authority_role": "** Constitutional Schedule Authority",
       "version": "1.21",
       "HASH": "9f05cbebfc763af92d8c921fe3fe9d7883155f1cbf8eeb9e5f0408c03cca4842",
-      "pinned_sha": "de09e2071ab8e051ed4a9c36e7c42d55f3682065",
-      "updated_at": "2026-08-09T07:55:23Z",
-      "last_updated_utc": "2026-08-09T07:55:23Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-PLATINUM",
@@ -69,9 +69,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "3.14",
       "HASH": "4f44e17703ff4cf57c7ab27df4455a273a75d57af9831848b3e8c29f2a586491",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-002-SCH-01",
@@ -93,9 +93,9 @@
       "authority_role": "** Constitutional Schedule Authority",
       "version": "3.15",
       "HASH": "3b6ffa115eba521bb57d08cb8f0ed85b746c450ab6689a20c0b9876b4ff98300",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-PLATINUM",
@@ -117,9 +117,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "5.7",
       "HASH": "d4617254fb3001d0fee64bd5efb2da2ff747c7a073b5f8e69d44bc2253646e9c",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-003-SCH-02",
@@ -141,9 +141,9 @@
       "authority_role": "** Constitutional Schedule Authority",
       "version": "3.22",
       "HASH": "45574d1b8e06caf1ab5cdf62366478edbc0f0e4e6472384a1eb4096c47a8dab0",
-      "pinned_sha": "897e2fe414a6938ae60ea921c8b1acc2982ff9b7",
-      "updated_at": "2026-08-10T09:40:28Z",
-      "last_updated_utc": "2026-08-10T09:40:28Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-004-PLATINUM",
@@ -165,9 +165,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "2.13",
       "HASH": "4aa8c484926503d7c98fbf04b6a48dc32d87f92dea42cec62c73e0677c2fcecb",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-PLATINUM",
@@ -189,9 +189,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "2.15",
       "HASH": "489faea4028dc32c4f10c03002525902394ec3d34f93dbab672cab4a66eea489",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-005-SCH-04",
@@ -213,9 +213,9 @@
       "authority_role": "** Constitutional Schedule Authority",
       "version": "1.8",
       "HASH": "714962c4d74e393f8b2ad1d2c13ab9e1c2a99863a2c682ff8d1f215d9bcaaec0",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2025-AEON-006-PLATINUM",
@@ -237,9 +237,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "4.6",
       "HASH": "0c9ea79b9f1f3779e687b7ce140b70b7f2e3d2286c53f941d60b5dde7bd70b4e",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-PLATINUM",
@@ -261,9 +261,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "2.11",
       "HASH": "b721f94a3077aa8e324740d68d5d77d0b098c014c2d28cc2f86f3a5df565ef5f",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-007-SCH-01",
@@ -285,9 +285,9 @@
       "authority_role": "** Interpretive Authority",
       "version": "1.6",
       "HASH": "a1a702a7167352cc7724a8fcd581c5f6726fc26948db6b954af6e69700839013",
-      "pinned_sha": "de09e2071ab8e051ed4a9c36e7c42d55f3682065",
-      "updated_at": "2026-08-09T07:55:23Z",
-      "last_updated_utc": "2026-08-09T07:55:23Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-008-PLATINUM",
@@ -309,9 +309,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "2.12",
       "HASH": "dcf410a12df187058a188a36f6fefe2bb44a44f95cd974b93c840eb3f95b7b8f",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-009-PLATINUM",
@@ -333,9 +333,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "2.12",
       "HASH": "26bfdbeaab565d6715f22b2f84c4089894ed80ada4f7fd9f99762300ad9668a6",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-PLATINUM",
@@ -355,11 +355,11 @@
       "enforcement": "** CAM Standard",
       "review_state": "** Current",
       "authority_role": "** Constitutional Authority",
-      "version": "1.15",
-      "HASH": "ba32d7cb002b04175e4f7bbd8ebcb46931be502de10a74bf71be54da51e5ebca",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "version": "1.16",
+      "HASH": "721acf9ee0db30439963a509d25cf1090b5a5330a681b74f5eb9e2f1fb6a6fb5",
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-010-SCH-01",
@@ -381,9 +381,9 @@
       "authority_role": "** Constitutional Schedule Authority",
       "version": "1.24",
       "HASH": "2f8d18cf1f5e73eddc31f7906efe68b804f256adfebea896ebd9918c8b79c49a",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-011-PLATINUM",
@@ -405,9 +405,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "1.12",
       "HASH": "d732dc5392ea04e373c9fbb5e123b4fc45e35c969f17f01c04f1c101ff40505e",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-012-PLATINUM",
@@ -429,9 +429,9 @@
       "authority_role": "** Constitutional Schedule Authority",
       "version": "1.21",
       "HASH": "905d8a7a401ebf7ba9e9a0e57567ec6547d22f6e35659b480f7e6022b95b6158",
-      "pinned_sha": "de09e2071ab8e051ed4a9c36e7c42d55f3682065",
-      "updated_at": "2026-08-09T07:55:23Z",
-      "last_updated_utc": "2026-08-09T07:55:23Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-PLATINUM",
@@ -453,9 +453,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "2.26",
       "HASH": "70e20e86714d73d7fe43edc704d43942eb098407819b2b06068b8d1c488d5480",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-013-SCH-01",
@@ -477,9 +477,9 @@
       "authority_role": "** Constitutional Schedule Authority",
       "version": "1.24",
       "HASH": "1afed9b113e3545566e324479c6becfcd8331f4147c028ee2848e22432f356f7",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     },
     {
       "id": "CAM-BS2026-AEON-014-PLATINUM",
@@ -501,9 +501,9 @@
       "authority_role": "** Constitutional Authority",
       "version": "1.7",
       "HASH": "8cafca534c7b2192e49f9bfb610b1cdbe664f6a9a1a0d8a442ecca0da0314552",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "pinned_sha": "3f5e08e03e50c97050bdef6791dc1312e5233f17",
+      "updated_at": "2026-08-10T09:40:57Z",
+      "last_updated_utc": "2026-08-10T09:40:57Z"
     }
   ]
 }

@@ -89,6 +89,7 @@ RETIRED_RELATIONAL_TOPOLOGY = re.compile(
     re.IGNORECASE,
 )
 RETIRED_CORPUS_TERMINOLOGY = re.compile(
+    r"AUTH\.RI_AUTHORED|PCLASS\.SYNTHETIC|"
     r"Responding Intelligence|Responding Component|Responding Formation|"
     r"(?<![\w.])RI(?![\w.])|"
     r"\bcognitive systems?\b|\bcognitive architecture\b|"

@@ -1,0 +1,49 @@
+{
+  "profile": "Caelestis-Document-Provenance-1.0",
+  "subject": {
+    "id": "example-policy-memo-v1",
+    "title": "Example Policy Memo",
+    "version": "1.0",
+    "path": "examples/example-policy-memo.md",
+    "type": "document"
+  },
+  "authorshipState": "AUTH.HUMAN_AUTHORED",
+  "entities": [
+    {
+      "id": "human-author",
+      "name": "Example Human Author",
+      "entityType": "human"
+    },
+    {
+      "id": "ai-assistant",
+      "name": "Example AI Assistant",
+      "entityType": "ai_system",
+      "provider": "Example Provider",
+      "model": "Example Model"
+    }
+  ],
+  "authoringParties": ["human-author"],
+  "contributions": [
+    {
+      "actor": "ai-assistant",
+      "roles": [
+        "CONTRIB.RETRIEVAL",
+        "CONTRIB.SUMMARISATION",
+        "CONTRIB.FORMATTING"
+      ],
+      "description": "Retrieved supplied sources, produced bounded summaries and formatted references; these processing roles did not determine authorship."
+    }
+  ],
+  "technicalProvenance": {
+    "status": "TPROV.PROVIDER_MANAGED",
+    "anchors": [
+      {
+        "type": "provider_record",
+        "reference": "provider://example/session-record",
+        "status": "provider_managed"
+      }
+    ]
+  },
+  "provenanceRecord": "caelestis-document-provenance-1.0.example.json",
+  "evidenceNote": "AI processing is recorded independently from the human-authored state."
+}

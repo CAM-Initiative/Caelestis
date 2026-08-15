@@ -134,7 +134,7 @@ Continuity transfer MUST distinguish between:
 * curated project context;
 * memory-derived summary;
 * user-authored artefact;
-* system-authored artefact;
+* AI-system-authored artefact;
 * governance instruction;
 * credential, permission, or access token;
 * and inferred profile or behavioural model.
@@ -910,6 +910,7 @@ Identity is the field within which all expression MUST remain coherent.
 | 1.13 | Removed the retired phenomenological-review dependency, preserved first-person accounts as non-conclusive evidence, routed uncertainty to Annex L, and applied controlled constitutional metadata. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  06f33c942b99633998701d712cc482649203ae1bb7df30409cb2bf313ed05e0e  |
 | 1.14 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  19f6c382a81deb9c9b6c99f057310080365b8bf75a6c3dae9232e65ffb16ae4d  |
 | 1.15 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ba32d7cb002b04175e4f7bbd8ebcb46931be502de10a74bf71be54da51e5ebca  |
+| 1.16 | Aligned the bounded continuity-transfer authorship label with the current AI-system authorship vocabulary without changing continuity authority or transfer doctrine. | 2026-08-15T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  721acf9ee0db30439963a509d25cf1090b5a5330a681b74f5eb9e2f1fb6a6fb5  |
 
 ---
 

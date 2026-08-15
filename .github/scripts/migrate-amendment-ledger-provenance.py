@@ -15,7 +15,7 @@ from amendment_ledger import REQUIRED_HEADERS, VERSION_RE, split_markdown_row
 
 REPO_ROOT = SCRIPT_DIR.parents[1]
 SCOPES = (REPO_ROOT / "Governance" / "Constitution", REPO_ROOT / "Governance" / "Charters")
-HISTORICAL_AGENT = "Caelen"
+HISTORICAL_AMENDMENT_AGENT = "Caelen"
 HISTORICAL_MODEL = "GPT-5 Series"
 HISTORICAL_REVIEWER = "Dr M.V. O'Rourke"
 MIGRATION_SUMMARY = (
@@ -158,7 +158,7 @@ def migrate_ledger(text: str, *, timestamp: str, model: str) -> tuple[str, str, 
         else:
             raise ValueError(f"ledger row {cells[0]!r} has {len(cells)} cells")
         migrated_rows.append(
-            (idx, [version, summary, row_timestamp, HISTORICAL_AGENT, HISTORICAL_MODEL, HISTORICAL_REVIEWER, reference_hash])
+            (idx, [version, summary, row_timestamp, HISTORICAL_AMENDMENT_AGENT, HISTORICAL_MODEL, HISTORICAL_REVIEWER, reference_hash])
         )
 
     last_idx, latest = migrated_rows[-1]
@@ -167,7 +167,7 @@ def migrate_ledger(text: str, *, timestamp: str, model: str) -> tuple[str, str, 
         if MIGRATION_SUMMARY.lower() not in latest[1].lower():
             latest[1] = latest[1].rstrip() + " " + MIGRATION_SUMMARY
         latest[2] = timestamp
-        latest[3:6] = [HISTORICAL_AGENT, model, HISTORICAL_REVIEWER]
+        latest[3:6] = [HISTORICAL_AMENDMENT_AGENT, model, HISTORICAL_REVIEWER]
         latest[-1] = ""
         migration_version = latest[0]
     else:
@@ -176,7 +176,7 @@ def migrate_ledger(text: str, *, timestamp: str, model: str) -> tuple[str, str, 
             migration_version,
             MIGRATION_SUMMARY,
             timestamp,
-            HISTORICAL_AGENT,
+            HISTORICAL_AMENDMENT_AGENT,
             model,
             HISTORICAL_REVIEWER,
             "",

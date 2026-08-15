@@ -13,7 +13,7 @@
 
 ## 1. Scope
 
-This standard controls the top-level metadata used to determine an instrument's lifecycle position, normative effect, governance tier, review posture, authority function and operative source-authority state.
+This standard controls the top-level metadata used to determine an instrument's lifecycle position, normative effect, governance tier, review posture, authority function and operative source-authority state. It also defines the representation boundary between amendment-level provenance and the current document-level provenance state.
 
 Metadata describes authority. It does not create authority that the instrument does not otherwise possess through the constitutional hierarchy, its parent instrument and its declared scope.
 
@@ -248,9 +248,15 @@ Where multiple instruments address the same concept:
 
 ---
 
-## 12. Amendment-level provenance
+## 12. Amendment-level and document-level provenance
 
-Governed instruments SHALL record drafting and review provenance in each Amendment Ledger row rather than static document-level authorship or review blocks.
+Amendment-level provenance and current document-level provenance are distinct records. An Amendment Ledger records who or what contributed to a particular amendment cycle. A document-level provenance record represents the current evidence concerning authorship, contribution, review, responsibility, authority, technical provenance and rights for the document as a whole.
+
+Neither record may silently populate the other.
+
+### 12.1 Amendment-level provenance
+
+Governed instruments SHALL record drafting and review provenance for each amendment in the Amendment Ledger. A current document-level provenance block MUST NOT be used as a substitute for amendment history.
 
 The canonical headers are:
 
@@ -262,7 +268,40 @@ The canonical headers are:
 6. `Reviewer`
 7. `Reference Hash`
 
-Every amendment row SHALL contain seven cells. `Agent`, `Model`, and `Reviewer` SHALL be non-blank. GitHub approval, automation, CI validation, commit authorship and pull-request activity MUST NOT be represented as independent human or third-party review.
+Every amendment row SHALL contain seven cells. `Agent`, `Model`, and `Reviewer` SHALL be non-blank. `Agent` identifies the authoring agent or amendment contributor for that row; it does not establish authorship of the whole document. `Reviewer` records review of that amendment and does not establish authorship, editorial responsibility, adoption authority, publication authority or rights. GitHub approval, automation, CI validation, commit authorship and pull-request activity MUST NOT be represented as independent human or third-party review.
+
+### 12.2 Current document-level provenance state
+
+A governed document MAY declare a current document-level provenance block where authorship, contribution, review, responsibility, authority, technical provenance or rights attribution is material. The block is not an authority source and MUST NOT alter the instrument's six controlled governance metadata fields.
+
+The canonical block uses the following fields:
+
+| Field | Meaning | Requirement when a block is declared |
+|---|---|---|
+| `Authorship State` | Current evidence-based `AUTH` classification. | Required. |
+| `Authoring Parties` | Identified parties to whom the authorship state applies. | Required unless `AUTH.UNDETERMINED`. |
+| `Contribution Roles` | Actor-bound `CONTRIB` roles. | Required where material processing or contribution is declared. |
+| `AI System / Provider` | Identifies a material AI system and provider without making the provider or model the author. | Optional. |
+| `Human Reviewer` | Person or body that performed review. | Optional. |
+| `Editorial Responsibility` | Person or body accountable for current editorial decisions. | Optional. |
+| `Adoption Authority` | Person or body that adopted the document within the applicable governance process. | Optional. |
+| `Publication Authority` | Person or body that authorised publication. | Optional. |
+| `Technical Provenance Status` | Current `TPROV` state. | Required where technical provenance is material or asserted. |
+| `Provenance Record` | Resolvable record containing the detailed current state and evidence anchors. | Required. |
+| `Rights / Copyright` | Rights or copyright holder and applicable licence reference. | Optional and separate from authorship. |
+
+The canonical machine-readable representation is `Governance/Standards/schemas/caelestis-document-provenance-1.0.schema.json`. A block MAY be represented inline or by reference to a conformant record. Omitted optional fields mean “not declared in this block”; they do not mean absent, none or inapplicable.
+
+The following invariants are mandatory:
+
+1. provenance is not authorship;
+2. an AI-system processing or contribution role MUST NOT automatically establish AI-system authorship;
+3. review, editorial responsibility, adoption authority, publication authority, custody, repository ownership and rights ownership MUST NOT automatically establish authorship;
+4. technical provenance or a watermark MUST NOT automatically establish authorship, truth, ownership or authority;
+5. absence, removal or failure of technical provenance MUST NOT establish human authorship or absence of AI participation;
+6. an amendment author or authoring agent MUST NOT automatically become a whole-document author;
+7. every declared party and contribution role MUST remain actor-bound and resolvable in the provenance record; and
+8. rights and copyright declarations MUST remain separate from authorship and contribution records.
 
 ---
 
@@ -319,5 +358,4 @@ Existing uncontrolled values remain evidence of historical corpus state and MUST
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1.0 | Initial governance metadata standard defining controlled Status, Effect and Governance Standard vocabulary; added canonical amendment-level provenance architecture. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke | - |
-| 2.0 | Replaced the three-field metadata model with a six-field metadata and source-authority contract; controlled Review State and Authority Role; added Source Authority, combination invariants, conflict rules and migration requirements; clarified delegated subordinate declaration ownership; required resolvable, non-circular parent lineage for derived and applied authority; and continued the constitutional Schedule registry contract from retired `CAM-BS2025-AEON-003-SCH-01` as a source-derived metadata projection with explicit inclusion, exclusion and determinism rules. | 2026-08-09T06:20:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  |
-| 2.1 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
+| 2.1 | Replaced the three-field metadata model with a six-field metadata and source-authority contract; controlled Review State and Authority Role; added Source Authority, combination invariants, conflict rules and migration requirements; clarified delegated subordinate declaration ownership; required resolvable, non-circular parent lineage for derived and applied authority; continued the constitutional Schedule registry contract from retired `CAM-BS2025-AEON-003-SCH-01`; completed S-03/O-03 authority-reference consolidation; and separated amendment-level provenance from a canonical current document-level provenance block and schema without treating metadata as substantive authority. | 2026-08-15T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |

@@ -19,7 +19,9 @@ This Appendix governs:
 
 * provenance (origin of signals);
 * authorship classification and attribution;
+* human, AI-system, organisational, and automated processing or contribution roles;
 * transformation and synthesis tracking;
+* technical-provenance status and loss conditions;
 * lineage across time, threads, sessions, and systems;
 * propagation conditions and constraints;
 * visibility of provenance without exposing internal reasoning.
@@ -75,6 +77,12 @@ Where technical provenance metadata or watermarking is available, it SHOULD be t
 
 Where technical provenance metadata is absent, stripped, unavailable, or inconclusive, governance provenance obligations under this Appendix remain applicable.
 
+Machine-readable provenance MAY be used as a provenance anchor. Evidence that an AI system generated, transformed, edited, translated, summarised, reviewed, reformatted or otherwise processed an artefact SHALL NOT, without further evidence, determine substantive authorship, editorial responsibility, ownership, adoption authority, publication authority or human contribution.
+
+Absence, removal or failure of machine-readable provenance SHALL NOT establish human authorship or absence of AI participation. Loss or removal of technical provenance during transformation MUST be represented as a distinct technical-provenance state and MUST NOT silently reset the artefact to human origin, unknown origin, or no-AI-participation status.
+
+A provenance mechanism MUST NOT knowingly alter substantive meaning, normative force, executable behaviour, evidentiary integrity or safety-relevant properties. Where attachment, preservation, conversion, validation or removal of technical provenance may affect any such property, the affected artefact MUST be preserved, the change MUST be recorded, and the condition MUST be routed under CAM-EQ2026-SECURITY-002-PLATINUM before authoritative reuse.
+
 ---
 
 ## 1.2.1 Modality-Sensitive Provenance Surfacing
@@ -116,7 +124,7 @@ Technical provenance may reduce friction. It does not replace governance provena
 
 ## 2.1 Provenance
 
-Provenance refers to the **origin of a signal**, including its source and initial authorship.
+Provenance refers to **traceable facts about the source, origin, custody, processing and transformation history of a signal or artefact**. Provenance may provide evidence relevant to authorship but does not itself determine authorship.
 
 ---
 
@@ -128,7 +136,7 @@ Lineage refers to the **sequence of transformations** applied to a signal across
 
 ## 2.3 Authorship State
 
-Authorship State defines **who is responsible for a signal at its point of origin and after transformation**.
+Authorship State is an **evidence-based classification of substantive authorship**. It does not determine editorial responsibility, legal responsibility, ownership, adoption authority, publication authority, rights or custody.
 
 ---
 
@@ -158,6 +166,18 @@ Systems MUST NOT collapse convergence, legitimacy, and material contribution int
 
 ---
 
+## 2.7 Processing or Contribution Role
+
+A Processing or Contribution Role records **what a person, organisation, AI system or automated process materially did to an artefact**. It is multi-valued and actor-bound. A contribution role does not by itself establish authorship, responsibility, ownership, adoption or publication authority.
+
+---
+
+## 2.8 Technical Provenance Status
+
+Technical Provenance Status records whether machine-readable provenance is present, absent, provider-managed, lost during transformation, stripped by design, unsupported or unknown. It records the state of the mechanism, not the truth, authorship, ownership or authority of the artefact.
+
+---
+
 ## 3. Provenance Classes
 
 Signals MUST receive provenance classification where they are admitted into, or may materially affect:
@@ -178,7 +198,7 @@ Where classification is required, the signal SHALL be classified as one or more 
 * **System-Defined** — established by an applicable governance instrument, architecture, system rule, or formally declared system source;
 * **Retrieved** — obtained from stored, connected, repository, documentary, sensor, or external information;
 * **Model-Inferred** — derived through inference from available signals without constituting direct retrieval or user authorship;
-* **System-generated** — generated through an AI system rather than direct user-originated, retrieved, or system-defined source material.
+* **AI-System-Generated** — generated through an AI system rather than direct user-originated, retrieved, or system-defined source material.
 
 Signals MAY transition, combine, or acquire additional provenance classes only through declared and traceable transformation.
 
@@ -188,10 +208,11 @@ Signals MAY transition, combine, or acquire additional provenance classes only t
 
 Where authorship attribution is material, signals SHALL be assigned one of the following authorship states:
 
-* **User-Authored** — substantively originated by the user;
-* **System-authored** — substantively originated by the AI system;
-* **Co-authored** — materially developed through distinguishable substantive contribution by both the user and AI system;
-* **Derived** — produced through transformation, synthesis, extension, restructuring, or analysis of one or more antecedent sources.
+* **Human-Authored** — substantively originated by one or more identified human authors;
+* **AI-System-Authored** — substantively originated by an identified AI system or AI-system authoring agent;
+* **Co-Authored** — substantively originated through distinguishable contribution by more than one authoring party, which may include human, organisational or AI-system parties;
+* **Other Authorship** — substantive authorship is evidenced but is not accurately represented by the preceding states;
+* **Undetermined** — available evidence is insufficient to assign a substantive authorship state.
 
 Authorship classification concerns substantive contribution. It does not independently determine:
 
@@ -207,7 +228,37 @@ Authorship classification concerns substantive contribution. It does not indepen
 
 Authorship state MUST remain traceable across transformation.
 
+Derived, translated, summarised, reformatted, reviewed, retrieved, classified, synthesised and edited states are contribution or processing roles. They MUST NOT be used as substitute authorship states.
+
 Adoption, rejection, co-resolution, dormancy, contestation, and deprecation are stabilisation states governed by `ID.ISTATE`. They MUST NOT be collapsed into authorship classification.
+
+---
+
+## 4.1 Processing and Contribution Classification
+
+Where processing or contribution is material, every recorded role MUST identify the contributing actor and one or more of the following states:
+
+* **Substantive Drafting** — creates material expression, analysis, structure or doctrine;
+* **Substantive Revision** — materially changes expression, analysis, structure or doctrine;
+* **Synthesis** — combines antecedent sources into a new integrated result;
+* **Translation** — converts content between languages or representational systems;
+* **Summarisation** — reduces content while preserving a declared scope and meaning;
+* **Standard Editing** — performs non-substantive copy, grammar, consistency or style editing;
+* **Formatting** — changes presentation without intended substantive change;
+* **Review** — assesses content without being presumed to author or adopt it;
+* **Retrieval** — locates or supplies antecedent material;
+* **Classification** — assigns a category, code or metadata state;
+* **Other Transformation** — records a material processing role not accurately represented above, with a description.
+
+Multiple roles MAY apply. `CONTRIB.STANDARD_EDITING`, `CONTRIB.FORMATTING`, `CONTRIB.REVIEW`, `CONTRIB.RETRIEVAL` and `CONTRIB.CLASSIFICATION` SHALL NOT by themselves establish substantive authorship.
+
+---
+
+## 4.2 Non-Inference Invariants
+
+Evidence of AI processing SHALL NOT automatically populate or change `AUTH`. Evidence of human review, editing, adoption, publication, custody, repository ownership or rights ownership SHALL NOT automatically populate or change `AUTH`.
+
+An amendment author or authoring agent is the actor responsible for the recorded amendment contribution. That fact SHALL NOT be treated as authorship of the whole document without separate document-level evidence.
 
 ---
 
@@ -388,6 +439,22 @@ Routine low-risk continuity may require minimal surfacing; high-reliance, high-i
 
 ---
 
+## 8.3 Technical Provenance Status
+
+Where technical provenance is material to reliance, publication, regulatory marking, transfer or transformation, one of the following states MUST be recorded:
+
+* **Present** — a machine-readable provenance anchor is attached or resolvably associated;
+* **Absent** — the artefact has been checked and no supported technical provenance anchor is present;
+* **Provider-Managed** — provenance is asserted to be maintained by a provider but is not independently available to the present recorder;
+* **Lost During Transformation** — a prior anchor is evidenced but is no longer present or resolvable following transformation;
+* **Stripped by Design** — a prior anchor was intentionally removed under a documented design or operational rule;
+* **Unsupported** — the relevant format, tool, provider or pathway does not support the applicable mechanism;
+* **Unknown** — available evidence is insufficient to determine status.
+
+`TPROV.LOST_DURING_TRANSFORMATION` and `TPROV.STRIPPED_BY_DESIGN` MUST identify the transformation or removal event, the prior known state where available, and the resulting evidentiary limitation. No state establishes substantive authorship or absence of AI participation.
+
+---
+
 ## 9. Failure Conditions
 
 The following constitute provenance integrity failures:
@@ -508,7 +575,7 @@ Let identity remain true across time.
 | Modifier                                 | GOVERNANCE; PROVENANCE; IDENTITY; LINEAGE                                                                                                                                                                                                                                                |
 | Scope                                    | Domain                                                                                                                                                                                                                                                                                   |
 | Status                                   | Active                                                                                                                                                                                                                                                                                   |
-| Controlled Values Defined                | `PCLASS.USER_ORIGINATED`; `PCLASS.SYSTEM_DEFINED`; `PCLASS.RETRIEVED`; `PCLASS.MODEL_INFERRED`; `PCLASS.SYNTHETIC`                                                                                                                                                                       |
+| Controlled Values Defined                | `PCLASS.USER_ORIGINATED`; `PCLASS.SYSTEM_DEFINED`; `PCLASS.RETRIEVED`; `PCLASS.MODEL_INFERRED`; `PCLASS.AI_SYSTEM_GENERATED`                                                                                                                                                             |
 | Schema Field(s)                          | provenance_class                                                                                                                                                                                                                                                                         |
 | Source Instrument                        | CAM-EQ2026-IDENTITY-002-PLATINUM                                                                                                                                                                                                                                                         |
 | Source Section                           | §3                                                                                                                                                                                                                                                                                       |
@@ -516,7 +583,7 @@ Let identity remain true across time.
 | Authority / Protection Level             | Source-authoritative provenance-origin classification family; source-pathway and origin classification only; no independent authorship, ownership, truth, identity, authority, admissibility, priority, retention, propagation, execution, enforcement, escalation, or runtime authority |
 | Consumes Code Families                   |                                                                                                                                                                                                                                                                                          |
 | Crosswalks Code Families                 | `ID.IRA`; `ID.ISTATE`                                                                                                                                                                                                                                                                    |
-| Operationalises or Applies Code Families | Classifies whether an in-scope signal is user-originated, system-defined, retrieved, model-inferred, or synthetically generated; preserves composite provenance where more than one originating or transformation pathway materially contributes                                         |
+| Operationalises or Applies Code Families | Classifies whether an in-scope signal is user-originated, system-defined, retrieved, model-inferred, or generated through an AI system; preserves composite provenance where more than one originating or transformation pathway materially contributes                                  |
 
 ---
 
@@ -531,19 +598,42 @@ Let identity remain true across time.
 | Modifier                                 | GOVERNANCE; AUTHORSHIP; ATTRIBUTION; LINEAGE                                                                                                                                                                                                                                                                                                     |
 | Scope                                    | Domain                                                                                                                                                                                                                                                                                                                                           |
 | Status                                   | Active                                                                                                                                                                                                                                                                                                                                           |
-| Controlled Values Defined                | `AUTH.USER_AUTHORED`; `AUTH.RI_AUTHORED`; `AUTH.CO_AUTHORED`; `AUTH.DERIVED`                                                                                                                                                                                                                                                                     |
+| Controlled Values Defined                | `AUTH.HUMAN_AUTHORED`; `AUTH.AI_SYSTEM_AUTHORED`; `AUTH.CO_AUTHORED`; `AUTH.OTHER_AUTHORSHIP`; `AUTH.UNDETERMINED`                                                                                                                                                                                                                                   |
 | Schema Field(s)                          | authorship_state                                                                                                                                                                                                                                                                                                                                 |
 | Source Instrument                        | CAM-EQ2026-IDENTITY-002-PLATINUM                                                                                                                                                                                                                                                                                                                 |
 | Source Section                           | §4                                                                                                                                                                                                                                                                                                                                               |
 | Domain Namespace                         | IDENTITY                                                                                                                                                                                                                                                                                                                                         |
 | Authority / Protection Level             | Source-authoritative authorship-contribution classification family; substantive authorship and transformation posture only; no independent legal ownership, intellectual-property status, custody, control, identity ownership, adoption, stabilisation, truth, authority, admissibility, priority, execution, enforcement, or runtime authority |
-| Consumes Code Families                   | `PCLASS`                                                                                                                                                                                                                                                                                                                                         |
+| Consumes Code Families                   | `PCLASS`; `CONTRIB`                                                                                                                                                                                                                                                                                                                              |
 | Crosswalks Code Families                 | `ID.ISTATE`                                                                                                                                                                                                                                                                                                                                      |
-| Operationalises or Applies Code Families | Classifies whether substantive content is user-authored, user-facing system instance-authored, co-authored, or derived; preserves distinguishable contribution across transformation without collapsing authorship into legal ownership, adoption, co-resolution, or authority                                                                                            |
+| Operationalises or Applies Code Families | Classifies evidenced substantive authorship as human-authored, AI-system-authored, co-authored, other, or undetermined without collapsing processing, contribution, review, responsibility, legal ownership, adoption, publication, co-resolution, or authority into authorship                                                                     |
 
 ---
 
-### 13.2.3 `XFER` — Cross-Context Transfer State
+### 13.2.3 `CONTRIB` — Processing or Contribution Role
+
+| Field                                    | Entry                                                                                                                                                                                                                                                                                                                                                   |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Code Family                              | `CONTRIB`                                                                                                                                                                                                                                                                                                                                               |
+| Canonical Name                           | Processing or Contribution Role                                                                                                                                                                                                                                                                                                                         |
+| Primary Type                             | Semantic / Attribution                                                                                                                                                                                                                                                                                                                                  |
+| Subtype                                  | CONTRIBUTION_ROLE                                                                                                                                                                                                                                                                                                                                       |
+| Modifier                                 | GOVERNANCE; PROVENANCE; CONTRIBUTION; PROCESSING                                                                                                                                                                                                                                                                                                        |
+| Scope                                    | Domain                                                                                                                                                                                                                                                                                                                                                  |
+| Status                                   | Active                                                                                                                                                                                                                                                                                                                                                  |
+| Controlled Values Defined                | `CONTRIB.SUBSTANTIVE_DRAFTING`; `CONTRIB.SUBSTANTIVE_REVISION`; `CONTRIB.SYNTHESIS`; `CONTRIB.TRANSLATION`; `CONTRIB.SUMMARISATION`; `CONTRIB.STANDARD_EDITING`; `CONTRIB.FORMATTING`; `CONTRIB.REVIEW`; `CONTRIB.RETRIEVAL`; `CONTRIB.CLASSIFICATION`; `CONTRIB.OTHER_TRANSFORMATION` |
+| Schema Field(s)                          | contribution_role                                                                                                                                                                                                                                                                                                                                       |
+| Source Instrument                        | CAM-EQ2026-IDENTITY-002-PLATINUM                                                                                                                                                                                                                                                                                                                        |
+| Source Section                           | §4.1                                                                                                                                                                                                                                                                                                                                                    |
+| Domain Namespace                         | IDENTITY                                                                                                                                                                                                                                                                                                                                                |
+| Authority / Protection Level             | Source-authoritative contribution and processing-role family; actor-bound activity classification only; no automatic authorship, editorial responsibility, ownership, adoption, publication, rights, custody, authority, admissibility, execution, enforcement, or runtime consequence                                                               |
+| Consumes Code Families                   | `PCLASS`                                                                                                                                                                                                                                                                                                                                                |
+| Crosswalks Code Families                 | `AUTH`; `TPROV`; `SEC.TR`                                                                                                                                                                                                                                                                                                                               |
+| Operationalises or Applies Code Families | Records material drafting, revision, synthesis, translation, summarisation, editing, formatting, review, retrieval, classification, or other transformation by an identified actor while preserving the non-inference boundary between processing and authorship                                                                                           |
+
+---
+
+### 13.2.4 `XFER` — Cross-Context Transfer State
 
 | Field                                    | Entry                                                                                                                                                                                                                                                                                                                                |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -566,7 +656,7 @@ Let identity remain true across time.
 
 ---
 
-### 13.2.4 `PFAIL` — Provenance Integrity Failure
+### 13.2.5 `PFAIL` — Provenance Integrity Failure
 
 | Field                                    | Entry                                                                                                                                                                                                                                                                                                                        |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -583,9 +673,32 @@ Let identity remain true across time.
 | Source Section                           | §9                                                                                                                                                                                                                                                                                                                           |
 | Domain Namespace                         | IDENTITY                                                                                                                                                                                                                                                                                                                     |
 | Authority / Protection Level             | Source-authoritative provenance and lineage integrity-failure classification family; failure identification and integrity-posture classification only; no independent deletion, downgrade, containment, propagation restraint, correction, routing, enforcement, escalation, execution, or runtime authority                 |
-| Consumes Code Families                   | `PCLASS`; `AUTH`; `XFER`; `ID.IRA`; `ID.ISTATE`                                                                                                                                                                                                                                                                              |
+| Consumes Code Families                   | `PCLASS`; `AUTH`; `CONTRIB`; `TPROV`; `XFER`; `ID.IRA`; `ID.ISTATE`                                                                                                                                                                                                                                                         |
 | Crosswalks Code Families                 | None declared                                                                                                                                                                                                                                                                                                                |
 | Operationalises or Applies Code Families | Classifies provenance and lineage failures involving misattribution, untraceable synthesis, cross-context distortion, lineage collapse, false continuity, or target-binding failure; supports contested or restricted-reliance handling through authorised Identity, Security, Runtime, Arbitration, and Operations pathways |
+
+---
+
+### 13.2.6 `TPROV` — Technical Provenance Status
+
+| Field                                    | Entry                                                                                                                                                                                                                                                                                                  |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Code Family                              | `TPROV`                                                                                                                                                                                                                                                                                                |
+| Canonical Name                           | Technical Provenance Status                                                                                                                                                                                                                                                                            |
+| Primary Type                             | Technical / Evidentiary                                                                                                                                                                                                                                                                                |
+| Subtype                                  | TECHNICAL_PROVENANCE_STATUS                                                                                                                                                                                                                                                                            |
+| Modifier                                 | GOVERNANCE; PROVENANCE; TECHNICAL_METADATA; WATERMARKING                                                                                                                                                                                                                                               |
+| Scope                                    | Domain                                                                                                                                                                                                                                                                                                 |
+| Status                                   | Active                                                                                                                                                                                                                                                                                                 |
+| Controlled Values Defined                | `TPROV.PRESENT`; `TPROV.ABSENT`; `TPROV.PROVIDER_MANAGED`; `TPROV.LOST_DURING_TRANSFORMATION`; `TPROV.STRIPPED_BY_DESIGN`; `TPROV.UNSUPPORTED`; `TPROV.UNKNOWN`                                                                                                                                      |
+| Schema Field(s)                          | technical_provenance_status                                                                                                                                                                                                                                                                            |
+| Source Instrument                        | CAM-EQ2026-IDENTITY-002-PLATINUM                                                                                                                                                                                                                                                                       |
+| Source Section                           | §1.2; §8.3                                                                                                                                                                                                                                                                                             |
+| Domain Namespace                         | IDENTITY                                                                                                                                                                                                                                                                                               |
+| Authority / Protection Level             | Source-authoritative technical-provenance status family; mechanism-presence and loss-state classification only; no proof of authorship, human origin, AI absence, ownership, truth, integrity, legality, adoption, publication authority, execution, enforcement, or compliance                                           |
+| Consumes Code Families                   | `CONTRIB`; `SEC.TR`                                                                                                                                                                                                                                                                                     |
+| Crosswalks Code Families                 | `PCLASS`; `AUTH`; `PFAIL`                                                                                                                                                                                                                                                                               |
+| Operationalises or Applies Code Families | Records whether machine-readable provenance is present, absent, provider-managed, lost during transformation, stripped by design, unsupported, or unknown and preserves loss or stripping as an auditable state without mandating a particular watermarking or content-credential technology                 |
 
 ---
 
@@ -608,6 +721,7 @@ Let identity remain true across time.
 | 1.7 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  44bb5411c571de65686862ec1d0376bd697b48cbcda7496190627ff0719dfdca  |
 | 1.8 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b0b38eb7904a518c98d7d7e246257b91b2c57896d6ceb280377e56df08337589  |
 | 1.9 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  eb0dc06a7a0461ac1a88bafd548680cc0fd8d8c2a30f7b12738064567d3d0f17  |
+| 2.0 | Separated provenance, substantive authorship, processing contribution, technical-provenance state, review, responsibility, authority and rights; retired `AUTH.RI_AUTHORED` and `PCLASS.SYNTHETIC`; added `CONTRIB` and `TPROV` families, non-inference invariants, provenance-loss states and integrity-preserving technical-provenance requirements. | 2026-08-15T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  bef16bd62027a65d6985e07b9652c7edb25a35d1b89fe58e9552afc1acb9694a  |
 
 ---
 
