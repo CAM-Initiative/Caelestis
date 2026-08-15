@@ -105,7 +105,17 @@ def test_reference_set_table_is_indexed(tmp_path):
 
 def test_malformed_table_without_supported_identifier_warns(tmp_path):
     f = tmp_path/'Governance'/'A.md'
-    w(f, '## Canonical Code & Reference Set Declarations\n### Broken\n| Field | Entry |\n|---|---|\n| Canonical Name | Missing Identifier |\n')
+    w(f, '''## Canonical Code & Reference Set Declarations
+### Broken
+| Field | Entry |
+|---|---|
+| Canonical Name | Missing Identifier |
+| Primary Type | Semantic |
+| Controlled Values Defined | X.A |
+| Source Instrument | A |
+| Source Section | §1 |
+| Authority / Protection Level | Test |
+''')
     rows = cc.scan(tmp_path/'Governance')
     assert rows == []
     errs = cc.validate(rows)
@@ -144,13 +154,15 @@ def test_conflicting_primary_type_for_same_code_family(tmp_path):
     assert any('Conflicting Primary Type for Canonical ID I' in e for e in errs)
 
 
-def test_heading_subfamily_promoted_from_parent_code_family(tmp_path):
+def test_heading_does_not_infer_subfamily_from_dotted_namespace(tmp_path):
     f = tmp_path/'Governance'/'A.md'
     w(f, '## Canonical Code & Reference Set Declarations\n### 13.3.4 ECON.REI.DW — Dependency Weight\n' + decl('ECON.REI'))
     row = cc.scan(tmp_path/'Governance')[0]
-    assert row.family_id == 'ECON.REI.DW'
-    assert row.parent_family == 'ECON.REI'
-    assert row.family_kind == 'subfamily'
+    assert row.family_id == 'ECON.REI'
+    assert row.parent_family == ''
+    assert row.family_kind == 'standalone_family'
+    assert row.collision_status == 'heading_identifier_mismatch'
+    assert any('heading_identifier_mismatch' in error for error in cc.validate([row]))
 
 
 def test_code_spans_are_stripped_from_family_ids_and_values(tmp_path):
@@ -171,6 +183,37 @@ def test_canonical_constraint_and_obligation_identifier_fields(tmp_path):
         ('AEON.PCO', 'canonical_constraint', 'canonical_constraint'),
         ('AEON.PCO.OBL', 'canonical_obligation', 'canonical_obligation'),
     ]
+
+
+def test_semicolon_controlled_values_and_none_parent_are_normalised(tmp_path):
+    f = tmp_path/'Governance'/'A.md'
+    text = decl('ECON.DEP', controlled='ECON.DEP.INCIDENTAL; `ECON.DEP.MATERIAL`; None declared')
+    text = text.replace('| Scope | Global |', '| Scope | Global |\n| Parent Family | None |')
+    w(f, '## Canonical Code & Reference Set Declarations\n### ECON.DEP — Dependency\n' + text)
+    row = cc.scan(tmp_path/'Governance')[0]
+    assert row.controlled_values_defined == ['ECON.DEP.INCIDENTAL', 'ECON.DEP.MATERIAL']
+    assert row.parent_family == ''
+    assert row.family_kind == 'standalone_family'
+
+
+def test_explicit_sibling_declaration_is_indexed(tmp_path):
+    f = tmp_path/'Governance'/'A.md'
+    w(f, '# Metadata\n## Canonical Code Status\nText only.\n## Provenance\n### `OPS.FF` — migrated canonical declaration\n' + decl('OPS.FF'))
+    rows = cc.scan(tmp_path/'Governance')
+    assert len(rows) == 1
+    assert rows[0].canonical_id == 'OPS.FF'
+    assert rows[0].extraction_method == 'explicit_field_entry_declaration_table'
+
+
+def test_subfamily_requires_explicit_declared_parent(tmp_path):
+    f = tmp_path/'Governance'/'A.md'
+    child = decl('ECON.REI.DW').replace(
+        '| Scope | Global |',
+        '| Scope | Global |\n| Family Kind | subfamily |\n| Parent Family | ECON.REI |',
+    )
+    w(f, '## Canonical Code & Reference Set Declarations\n### ECON.REI.DW — Dependency Weight\n' + child)
+    errors = cc.validate(cc.scan(tmp_path/'Governance'))
+    assert any('Undeclared subfamily parent' in error for error in errors)
 
 def test_duplicate_source_declarations_are_marked(tmp_path):
     w(tmp_path/'Governance'/'A.md', '## Canonical Code & Reference Set Declarations\n### A\n' + decl('DUP.HARM'))

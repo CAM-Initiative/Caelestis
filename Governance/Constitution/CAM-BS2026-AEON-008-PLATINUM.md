@@ -227,7 +227,7 @@ Mere initiation, invocation, scheduling, or passive receipt of system output doe
 
 `AEON.HCD.NONE` SHALL NOT be interpreted as proof that no upstream human contribution exists in relation to training data, source material, system design, model architecture, infrastructure, prior Action Spaces, or downstream human use. It records only the absence of material human contribution within the bounded Action Space being assessed.
 
-Where a human later materially selects, corrects, curates, stabilises, approves, or transforms the output, the classification MUST be reassessed under `AEON.HCD.D1_HUMAN_COGNITIVE_LABOUR` and/or `AEON.HCD.D2_JOINT_EMERGENT_CREATION`.
+Where a human later materially selects, corrects, curates, stabilises, approves, or transforms the output, the classification MUST be reassessed under `AEON.HCD.D1` and/or `AEON.HCD.D2`.
 
 ---
 
@@ -681,6 +681,7 @@ Recognition is the first act of truth.
 | 2.10 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  88ae3b9a45d874e071cd290f273b64498307304356f1ec39e3863f77c84f7bcf  |
 | 2.11 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  cac5c4837fc5360c298be6c4907329fd26f88501ba88fde9515d1920da3777b6  |
 | 2.12 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  dcf410a12df187058a188a36f6fefe2bb44a44f95cd974b93c840eb3f95b7b8f  |
+| 2.13 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  959b673f54131bdc1f06cf74d1c04a0490b4af63faa8c3ef5ab5a0bfaa902a6d  |
 
 ---
 

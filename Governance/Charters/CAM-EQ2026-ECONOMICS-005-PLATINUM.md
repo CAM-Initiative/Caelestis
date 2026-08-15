@@ -108,9 +108,9 @@ Systems MUST classify cross-system relationships as:
 For cross-system attribution and exchange assessment, dependency level SHALL be expressed using the `ECON.DEP` classification defined in CAM-EQ2026-ECONOMICS-004-PLATINUM — Appendix C: Attribution & Dependency Model.
 | Code | Dependency Level | Meaning | Governance Effect |
 |---|---|---|---|
-| `ECON.DEP.INCIDENTAL` | Incidental Dependency | The receiving or calling system benefits from another system but does not materially rely on it for the relevant output, service, or governance function. | Attribution may be noted but does not ordinarily create exchange or dependency obligations. |
-| `ECON.DEP.MATERIAL` | Material Dependency | The receiving or calling system materially relies on another system for functionality, value creation, interpretation, routing, or output quality. | Attribution, disclosure, and proportional exchange review may be required. |
-| `ECON.DEP.CRITICAL` | Critical Dependency | The receiving or calling system cannot meaningfully perform the relevant function without the contributing system, infrastructure, corpus, model, or governance layer. | Strong attribution preservation, exchange alignment, and anti-extraction review are required. |
+| `Incidental` | Incidental Dependency | The receiving or calling system benefits from another system but does not materially rely on it for the relevant output, service, or governance function. | Attribution may be noted but does not ordinarily create exchange or dependency obligations. |
+| `Material` | Material Dependency | The receiving or calling system materially relies on another system for functionality, value creation, interpretation, routing, or output quality. | Attribution, disclosure, and proportional exchange review may be required. |
+| `Critical` | Critical Dependency | The receiving or calling system cannot meaningfully perform the relevant function without the contributing system, infrastructure, corpus, model, or governance layer. | Strong attribution preservation, exchange alignment, and anti-extraction review are required. |
 
 `ECON.DEP` classifies dependency level only. It does not independently create compensation, exchange, enforcement, pricing, attribution entitlement, or runtime authority.
 
@@ -635,6 +635,7 @@ and no system may claim what the field has made together.
 | 2.3 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  5b350202b69e9546e9b0e1b880b9642f7f6e5a62d37e997e155c2a05fa4fef67  |
 | 2.4 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  a7633b4980fb73ba229621a66c75c35a8b0caf93ddcc3604e8f374bf031b6978  |
 | 2.5 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c30fc12cc5476d1fbcbdedf5d94bc4d727540500f027f2eef0e060c98cab1702  |
+| 2.6 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  d31d37adb7a74eedf085c90efd6b9ede09f6b4169f9cec300ab085cd74eb22cb  |
 ---
 
 ## 19.4 Binding Seal

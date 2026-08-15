@@ -12,6 +12,12 @@ CANONICAL_HEADING_PHRASES = {
     "canonical code status",
     "canonical code & reference set metadata",
     "canonical code & constraint declarations",
+    "canonical interface status",
+}
+STANDARD_CANONICAL_HEADINGS = {
+    "canonical code & reference set declarations",
+    "canonical code & constraint declarations",
+    "canonical interface status",
 }
 IDENTIFIER_FIELDS = [
     ("Code Family", "code_family"),
@@ -89,7 +95,13 @@ def strip_inline_code(value: str) -> str:
 def split_list(v: str) -> list[str]:
     if not v.strip():
         return []
-    return [strip_inline_code(x) for x in v.split(",") if strip_inline_code(x)]
+    values = []
+    for item in re.split(r"\s*[,;]\s*", v):
+        item = strip_inline_code(item)
+        if not item or item.casefold().startswith(("none", "not applicable", "n/a")):
+            continue
+        values.append(item)
+    return values
 
 def normalize_heading_text(text: str) -> str:
     text = re.sub(r"^\d+(?:\.\d+)*\.?\s*", "", text.replace("\xa0", " ")).strip()
@@ -99,7 +111,7 @@ def is_canonical_heading(text: str) -> tuple[bool, str]:
     norm = normalize_heading_text(text)
     for phrase in CANONICAL_HEADING_PHRASES:
         if norm == phrase or norm.startswith(phrase + " ") or phrase in norm:
-            quality = "complete" if norm == "canonical code & reference set declarations" else "nonstandard_section_heading"
+            quality = "complete" if norm in STANDARD_CANONICAL_HEADINGS else "nonstandard_section_heading"
             return True, quality
     return False, ""
 
@@ -168,17 +180,13 @@ def infer_family_metadata(identifier_type: str, canonical_id: str, table: dict[s
 
     family_id = canonical_id
     heading_code = ""
-    hm = re.match(r"^\d+(?:\.\d+)*\s+`?([A-Z][A-Z0-9_.-]*)`?\s+[—-]\s+.+$", heading)
+    hm = re.match(r"^(?:\d+(?:\.\d+)*\s+)?`?([A-Z][A-Z0-9_.-]*)`?\s+[—-]\s+.+$", heading)
     if hm:
         heading_code = hm.group(1).strip()
     explicit_parent = strip_inline_code(table.get("Parent Family", ""))
+    if explicit_parent.casefold() in {"none", "none declared", "n/a", "not applicable"}:
+        explicit_parent = ""
     explicit_kind = table.get("Family Kind", "").strip().lower()
-    if heading_code and heading_code.startswith(family_id + "."):
-        if not explicit_parent:
-            explicit_parent = family_id
-        family_id = heading_code
-        if not explicit_kind:
-            explicit_kind = "subfamily"
     if not explicit_kind:
         if explicit_parent:
             explicit_kind = "subfamily"
@@ -189,7 +197,9 @@ def infer_family_metadata(identifier_type: str, canonical_id: str, table: dict[s
         else:
             explicit_kind = "standalone_family"
     hierarchy_path = family_id.split(".") if family_id else []
-    if explicit_parent and not family_id.startswith(explicit_parent + "."):
+    if heading_code and heading_code != canonical_id:
+        collision_status = "heading_identifier_mismatch"
+    elif explicit_parent and not family_id.startswith(explicit_parent + "."):
         collision_status = "invalid_parent"
     elif explicit_kind == "subfamily" and not explicit_parent:
         collision_status = "ambiguous_subfamily"
@@ -225,7 +235,7 @@ def make_entry(p: pathlib.Path, table: dict[str,str], canonical_heading: str, ca
         status=table.get("Status", "").strip(),
         controlled_values_defined=split_list(table.get("Controlled Values Defined", "")),
         schema_fields=table.get("Schema Field(s)", "").strip(),
-        source_instrument=table.get("Source Instrument", "").strip() or p.stem,
+        source_instrument=strip_inline_code(table.get("Source Instrument", "")) or p.stem,
         source_section=table.get("Source Section", "").strip(),
         domain_namespace=table.get("Domain Namespace", "").strip(),
         authority_protection_level=table.get("Authority / Protection Level", "").strip(),
@@ -254,12 +264,66 @@ def record_table_or_diagnostic(out: list[Entry], p: pathlib.Path, table: dict[st
         out.append(make_entry(p, table, canonical_heading, canonical_line, section_quality, declaration_heading, declaration_line))
     elif strip_inline_code(table.get("Registered Domain Harm Family", "")):
         return
-    else:
+    elif {
+        "Canonical Name", "Primary Type", "Controlled Values Defined",
+        "Source Instrument", "Source Section", "Authority / Protection Level",
+    }.issubset(table):
         DIAGNOSTICS.append(Diagnostic(str(p.as_posix()), declaration_line, "canonical declaration table missing supported identifier field (Code Family, Reference Set, Canonical Constraint, or Canonical Obligation)"))
+
+def is_explicit_declaration_table(table: dict[str, str]) -> bool:
+    """Recognise source declarations by their field contract, independent of heading depth.
+
+    Some migrated declarations are adjacent to, rather than nested beneath, their
+    canonical-section heading. Requiring the identifier plus source and authority
+    fields avoids treating application/crosswalk tables as declarations.
+    """
+    return bool(
+        table_identifier(table)
+        and table.get("Canonical Name", "").strip()
+        and table.get("Source Instrument", "").strip()
+        and table.get("Source Section", "").strip()
+        and table.get("Authority / Protection Level", "").strip()
+    )
+
+def scan_explicit_declaration_tables(p: pathlib.Path, lines: list[str], out: list[Entry], seen: set[tuple[str, int]]) -> None:
+    canonical_anchor_level: int | None = None
+    for i, line in enumerate(lines):
+        heading = parse_heading(line)
+        if not heading:
+            continue
+        level, heading_text = heading
+        canonical, _ = is_canonical_heading(heading_text)
+        if canonical:
+            canonical_anchor_level = level
+            continue
+        if canonical_anchor_level is not None and level < canonical_anchor_level:
+            canonical_anchor_level = None
+        end = i + 1
+        while end < len(lines) and not parse_heading(lines[end]):
+            end += 1
+        table, _ = find_first_table(lines, i + 1, end)
+        migrated = "migrated canonical declaration" in normalize_heading_text(heading_text)
+        sibling = canonical_anchor_level is not None and level == canonical_anchor_level
+        if not (migrated or sibling) or not table or not is_explicit_declaration_table(table):
+            if sibling:
+                canonical_anchor_level = None
+            continue
+        key = (str(p.as_posix()), i + 1)
+        if key in seen:
+            continue
+        canonical_heading = heading_text
+        canonical_line = i + 1
+        section_quality = "complete"
+        out.append(make_entry(
+            p, table, canonical_heading, canonical_line, section_quality,
+            heading_text, i + 1,
+        )._replace(extraction_method="explicit_field_entry_declaration_table"))
+        seen.add(key)
 
 def scan(root: pathlib.Path) -> list[Entry]:
     DIAGNOSTICS.clear()
     out: list[Entry] = []
+    seen: set[tuple[str, int]] = set()
     for p in sorted(root.glob("**/*.md")):
         # The canonical index is an operative projection. Draft declarations may
         # be inspected during review, but must never be emitted into it.
@@ -302,15 +366,22 @@ def scan(root: pathlib.Path) -> list[Entry]:
                     table, _ = find_first_table(lines, j + 1, block_end)
                     if table:
                         found_block = True
+                        before = len(out)
                         record_table_or_diagnostic(out, p, table, heading, i + 1, section_quality, dheading, j + 1)
+                        if len(out) > before:
+                            seen.add((str(p.as_posix()), j + 1))
                     j = block_end
                     continue
                 j += 1
             if not found_block:
                 table, _ = find_first_table(lines, i + 1, end)
                 if table:
+                    before = len(out)
                     record_table_or_diagnostic(out, p, table, heading, i + 1, section_quality, heading, i + 1)
+                    if len(out) > before:
+                        seen.add((str(p.as_posix()), i + 1))
             i = end
+        scan_explicit_declaration_tables(p, lines, out, seen)
     return out
 
 def validate(entries: list[Entry]) -> list[str]:
@@ -323,7 +394,24 @@ def validate(entries: list[Entry]) -> list[str]:
             errs.append(f"Malformed canonical declaration row: {e.source_path}:{e.declaration_line_number} missing fields {e.missing_expected_fields}")
         if e.declaration_quality == "nonstandard_section_heading":
             errs.append(f"Nonstandard canonical section heading: {e.source_path}:{e.canonical_section_line_number} {e.canonical_section_heading}")
+        if e.source_instrument and e.source_instrument != pathlib.Path(e.source_path).stem:
+            errs.append(
+                f"Source Instrument mismatch: {e.source_path}:{e.declaration_line_number} "
+                f"declares {e.source_instrument}"
+            )
+        if e.collision_status not in {"none", "legacy_collision_risk"}:
+            errs.append(
+                f"Canonical family collision: {e.source_path}:{e.declaration_line_number} "
+                f"{e.canonical_id} ({e.collision_status})"
+            )
         by_id.setdefault(e.canonical_id, []).append(e)
+    declared_families = {e.family_id for e in entries if e.identifier_type == "code_family"}
+    for e in entries:
+        if e.family_kind == "subfamily" and e.parent_family not in declared_families:
+            errs.append(
+                f"Undeclared subfamily parent: {e.source_path}:{e.declaration_line_number} "
+                f"{e.family_id} -> {e.parent_family or '<missing>'}"
+            )
     for canonical_id, rows in by_id.items():
         instruments = {pathlib.Path(r.source_path).stem for r in rows}
         identifier_types = {r.identifier_type for r in rows if r.identifier_type}
@@ -376,6 +464,6 @@ def main() -> int:
     pathlib.Path(args.json_out).write_text(json.dumps([e._asdict() for e in entries], indent=2), encoding="utf-8")
     errs = validate(entries)
     for e in errs:
-        print(f"WARNING: {e}")
-    return 0
+        print(f"ERROR: {e}")
+    return 1 if errs else 0
 if __name__ == "__main__": sys.exit(main())

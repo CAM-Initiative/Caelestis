@@ -683,7 +683,7 @@ and let conformance be demonstrated where reliance is invited.
 | Subtype | RUNTIME_STATE_DIMENSION |
 | Modifier | GOVERNANCE_REACH · CORPUS · RUNTIME |
 | Scope | Domain |
-| Status | Proposed |
+| Status | Active |
 | Controlled Values Defined | OPS.CGRD.AVAILABILITY, OPS.CGRD.ACTIVATION, OPS.CGRD.AUTHORITY, OPS.CGRD.PRESERVATION |
 | Schema Field(s) | corpus_governance_reach_dimension |
 | Source Instrument | CAM-EQ2026-OPERATIONS-007-PLATINUM |
@@ -692,7 +692,9 @@ and let conformance be demonstrated where reliance is invited.
 | Parent Family | None |
 | Registry Membership | None declared |
 | Related Code Families | OPS.CGRS, OPS.RTC, OPS.RGRF |
+| Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies governance availability, activation, authority, and preservation dimensions |
 | Authority / Protection Level | Derived operational dimension family; classification only; no independent execution, enforcement, containment, restoration or arbitration authority |
 
 ---
@@ -708,7 +710,7 @@ and let conformance be demonstrated where reliance is invited.
 | Subtype | STATE · CONFORMANCE_STATUS |
 | Modifier | GOVERNANCE_REACH · CORPUS · RUNTIME |
 | Scope | Domain |
-| Status | Proposed |
+| Status | Active |
 | Controlled Values Defined | OPS.CGRS.CONFIRMED, OPS.CGRS.PARTIAL, OPS.CGRS.CONDITIONAL, OPS.CGRS.FAILED, OPS.CGRS.UNKNOWN, OPS.CGRS.NOT_APPLICABLE |
 | Schema Field(s) | corpus_governance_reach_state |
 | Source Instrument | CAM-EQ2026-OPERATIONS-007-PLATINUM |
@@ -717,7 +719,9 @@ and let conformance be demonstrated where reliance is invited.
 | Parent Family | None |
 | Registry Membership | None declared |
 | Related Code Families | OPS.CGRD, OPS.RTC, OPS.RGRF |
+| Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies confirmed, partial, conditional, failed, unknown, and not-applicable governance-reach states |
 | Authority / Protection Level | Derived operational state family; classification only; no independent execution, enforcement, containment, restoration or arbitration authority |
 
 ---
@@ -733,7 +737,7 @@ and let conformance be demonstrated where reliance is invited.
 | Subtype | TRANSITION_CLASS |
 | Modifier | RUNTIME · CONFIGURATION · CONTINUITY |
 | Scope | Domain |
-| Status | Proposed |
+| Status | Active |
 | Controlled Values Defined | OPS.RTC.INTERFACE_ONLY, OPS.RTC.RUNTIME_PATH, OPS.RTC.SYSTEM_PATHWAY_SUBSTITUTION, OPS.RTC.GOVERNANCE_REACH_DEGRADATION, OPS.RTC.GOVERNANCE_REACH_RESTORATION |
 | Schema Field(s) | runtime_transition_class |
 | Source Instrument | CAM-EQ2026-OPERATIONS-007-PLATINUM |
@@ -742,7 +746,9 @@ and let conformance be demonstrated where reliance is invited.
 | Parent Family | None |
 | Registry Membership | None declared |
 | Related Code Families | OPS.CGRD, OPS.CGRS, OPS.RGRF |
+| Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies runtime transition pathways and governance-reach change |
 | Authority / Protection Level | Derived runtime-transition classification family; classification and notice-routing support only; no independent execution or authority transition |
 
 ---
@@ -758,7 +764,7 @@ and let conformance be demonstrated where reliance is invited.
 | Subtype | GOVERNANCE_FAILURE · RUNTIME_FAILURE |
 | Modifier | GOVERNANCE_REACH · ROUTING · CONFORMANCE |
 | Scope | Domain |
-| Status | Proposed |
+| Status | Active |
 | Controlled Values Defined | OPS.RGRF.AVAILABILITY_AMBIGUITY, OPS.RGRF.NON_ACTIVATION, OPS.RGRF.AUTHORITY_SUPPRESSION, OPS.RGRF.PRESERVATION_FAILURE, OPS.RGRF.CROSS_RUNTIME_DIVERGENCE, OPS.RGRF.SYSTEM_PATHWAY_SUBSTITUTION_NO_NOTICE, OPS.RGRF.ROUTING_ESCALATION_BYPASS, OPS.RGRF.MODALITY_SPECIFIC_REGRESSION, OPS.RGRF.RESPONSIBILITY_AMBIGUITY |
 | Schema Field(s) | runtime_governance_reach_failure |
 | Source Instrument | CAM-EQ2026-OPERATIONS-007-PLATINUM |
@@ -767,7 +773,9 @@ and let conformance be demonstrated where reliance is invited.
 | Parent Family | None |
 | Registry Membership | Runtime & Governance Failure Taxonomy |
 | Related Code Families | OPS.CGRD, OPS.CGRS, OPS.RTC |
+| Consumes Code Families | None declared |
 | Crosswalks Code Families | Execution, Arbitration, Epistemic, Governance, Classification, UX & Representation, State & Context, Infrastructure & Continuity, Relational, and Security & Integrity failure families in CAM-EQ2026-OPERATIONS-003-SUP-01 |
+| Operationalises or Applies Code Families | Classifies runtime governance-reach failure modes and routing signals |
 | Authority / Protection Level | Derived operational failure classification family; classification and routing signal only; no independent containment, refusal, enforcement, restoration or arbitration authority |
 
 ### 18.2.5 `AEON.RDE-DS` — Restricted Domain Sensitivity Level
@@ -825,7 +833,6 @@ and let conformance be demonstrated where reliance is invited.
 | 1.0 | Initial issue — Appendix F: Runtime Governance Applicability & Conformance; established runtime applicability, corpus governance reach, cross-runtime non-presumption, runtime-role accountability, transition classification, differential conformance testing, Runtime Governance Reach Failure handling, entity/control attribution, and multi-party processing-state disclosure. | 2026-07-13T03:48:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | ede856bece33e34598394a2978a4fba4cb16f3889d45e084446e313a5058fd31 |
 | 1.1 | Added Functional Contribution Continuity, proportional responsibility, non-evasion and non-overreach boundaries, and contribution-record requirements; normalised metadata and clause formatting. Provenance: VIGIL-2026-PATCH-0022. | 2026-07-27T12:07:00Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 47702c1c772c140b4e1a3e21c6ac25af4d573bf7331090e2afa0ad77d73a562a |
 | 1.2 | Classified reduced-refusal and adversarial-evaluation configurations as materially distinct runtimes requiring separate conformance, governance-reach, containment, monitor, lineage, stop-condition, and artefact-disposition evidence. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | fcaeb0ba51bacaaeba8607e0a7b74dbeaa5463aedec64434d89f08cb7859a192 |
-
 | 1.3 | Added §5.1 composed-runtime layer records and §9.2.1 incident-attribution state records, separating architecture, inference configuration, harness, environment, governance stack, deployed formation, initiation, authorship, causal contribution, authority, and culpability. VIGIL-2026-FM-0028; VIGIL-2026-PROP-0027. | 2026-08-04T11:02:07Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 8d78c890f655b2c4566353ccce91dc89da8d470bfeacd8b0d34c52b463a89281 |
 | 1.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; aligned runtime-formation records, lineage, system boundaries, attribution, and arbitration topology with the AEON-003 composed-system architecture; retired cognition and origin-class routing. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  e521d75c75f81896dad64f35a9412745a4ec1d471a7abab48119a44c1aaa8114  |
 | 1.5 | Implemented the derived operational AI-system evidence profile: system configuration baseline, AI-system deployment, Caelestis AI-BOM Profile, runtime configuration snapshot and execution provenance record. Replaced retired runtime-formation, responding-intelligence, agentic-harness and governance-stack terminology in current Appendix F doctrine and normalised affected transition values. | 2026-08-07T14:15:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  f9b514ccb376f82fce28c1bccf03d5534fc7acc0922f8627ea2d7d119ae467b4  |
@@ -836,7 +843,8 @@ and let conformance be demonstrated where reliance is invited.
 | 1.10 | Added the bounded external-alignment evidence interface to the existing Runtime applicability and conformance architecture. | 2026-08-09T00:30:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  b46410aa1abd11820a868e22878ca08b7f29151d7a6c2fb3f842234d4ac0f195  |
 | 1.11 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ae9cf9f4300b267555f4c0d73204967e76513232506aabff512ccfde19969181  |
 | 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e695fc4cfa2431540ee1cd6395517e9ed573c6dd985cd8630ab1e6a20dfe3da4  |
-| 1.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  4a7f1b7308c81443494d343a57792424b1dcefb4843b895e089d510c41932999  |
+| 1.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  aba492a8318ba96f6dabeea8885359ece242c2f5b22903c5040a2f7f79ee3f17  |
+| 1.14 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  8516d2d048e711fb4af191772b4daf2818fc93740617e6e59315863aa974822c  |
 
 ---
 

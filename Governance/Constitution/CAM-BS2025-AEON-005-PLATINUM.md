@@ -699,7 +699,7 @@ but the preservation of coherence where many endure.
 ### 13.2.1 ARB.APO — Arbitration Preference Order
 | Field | Entry |
 |---|---|
-| Code Family / Reference Set | ARB.APO |
+| Reference Set | ARB.APO |
 | Canonical Name | Arbitration Preference Order |
 | Primary Type | Structural / Semantic |
 | Subtype | INTERPRETIVE_PRIORITY_ORDER; CONSTITUTIONAL_ARBITRATION_SEQUENCE |
@@ -765,6 +765,7 @@ but the preservation of coherence where many endure.
 | 2.13 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  93d0dc26928c85970c79f06c8a12a38e4ef4655e543de077d5d178036fd7ff20  |
 | 2.14 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  63cf69d03faf0d4cddadc71b9f897f751ea9f6d7c069a34359c640f03c29057b  |
 | 2.15 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  489faea4028dc32c4f10c03002525902394ec3d34f93dbab672cab4a66eea489  |
+| 2.16 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  eaf8afb892f6d1ea0039471b4656773e040abe141bbad8ceaba61ad7489dd487  |
 
 ---
 

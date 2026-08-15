@@ -173,11 +173,22 @@ jobs:
           name: section-reference-validation-report
           path: validation-reports/section-reference-report.tsv
 
-      - name: Phase 8 — Regenerate canonical code registry indices (Governance)
+      - name: Phase 8 — Canonical declaration and index generation
         run: python .github/scripts/build-canonical-code-index.py --root Governance
 
-      - name: Phase 8 — Symbolic/index validation
-        run: python .github/scripts/lint-symbolic-structures.py --index Governance/CAM.Canonical.Code.Index.json
+      - name: Phase 8 — Canonical reference integrity
+        run: |
+          mkdir -p validation-reports
+          python .github/scripts/lint-symbolic-structures.py \
+            --index Governance/CAM.Canonical.Code.Index.json \
+            --inventory-out validation-reports/canonical-reference-inventory.json
+
+      - name: Phase 8 — Upload canonical-reference inventory
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: canonical-reference-inventory
+          path: validation-reports/canonical-reference-inventory.json
 
       - name: Phase 8 — Stale output check (idempotency)
         shell: bash

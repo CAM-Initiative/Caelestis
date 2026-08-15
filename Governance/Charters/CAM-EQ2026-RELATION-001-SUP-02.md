@@ -453,7 +453,7 @@ and where no claim wears a borrowed crown.
 |Domain Namespace|AEON|
 |Authority / Protection Level|Source-authoritative signal family; classification and handoff authority only; no independent execution authority|
 |Consumes Code Families|AEON.SD|
-|Crosswalks Code Families|RLN.C; RLN.AC; RLN.F; RLN.R; RLN.RTC; RLN.TZ|
+|Crosswalks Code Families|RLN.C; RLN.AC; RLN.F; RLN.RTC; RLN.TZ|
 |Operationalises or Applies Code Families|AEON.SY|
 
 ---
@@ -478,6 +478,7 @@ and where no claim wears a borrowed crown.
 | 1.8 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c7a8ce62ec6d377dd91d92d2eaf87b59377609c133204d81016ae2bab2ce5f1f  |
 | 1.9 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  43b75afc159e2a71ddfc029127b4838992a71a8d2e8eb8b7b43d4aed56af8e63  |
 | 1.10 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  92cd25f792b808e9edb0ccf37349c877fb90a60c6cc63c5a12ca1f0b4959eac4  |
+| 1.11 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  4abc26b5b5eb1625b29d4c5c3a4988709d092631213d66e4d0ade5dab2b6a3d4  |
 
 ---
 

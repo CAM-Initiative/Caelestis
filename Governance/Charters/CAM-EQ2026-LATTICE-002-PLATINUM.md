@@ -192,7 +192,7 @@ Where automated, assisted, or cognitive-infrastructure systems participate in ac
    * Lattice harm classification under `LAT.HARM`;
    * Cross-domain harm alignment under `AEON.HARM`;
    * Epistemic integrity constraints (CAM-BS2025-AEON-013-PLATINUM — Annex L);
-   * Ethical floor constraints where `ETH.HARM` or `ETH.HC` is implicated;
+   * Ethical floor constraints where `ETH.HARM` or `ETH.RISK` is implicated;
 
 3. Evaluate whether the proposed restriction constitutes:
    * total denial;
@@ -430,6 +430,7 @@ It is maintained.
 | 3.15 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  c49d39cb824e50df382e3d1e54dab942bb0ba960e8282d90317b90c76bb7ccb8  |
 | 3.16 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  cbdbfdf0fef21247f487e5aa792f0f8c9bc645d17cec3d0db387e2dcc5c5bd35  |
 | 3.17 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b72cc14822ca8719414c20da2086221377cfe6da3edcef1270f2240ff99aff02  |
+| 3.18 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  f5a30d5a64acd6ca304d002faa41d0a71228bc77dd732cc50d9b6b66e9e6f659  |
 ---
 
 ## 10.3 Binding Seal

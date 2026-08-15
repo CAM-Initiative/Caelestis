@@ -606,12 +606,12 @@ This is the floor that does not move.
 | Authority / Protection Level | Constitutional recognition of ethical harm floor; detailed ETHICS-domain classifications remain delegated to source-authoritative ETHICS instruments |
 | Parent Family |  |
 | Registry Membership | `AEON.HARM` |
-| Related Code Families | `AEON.HARM`; `ETH.HC` |
+| Related Code Families | `AEON.HARM`; `ETH.RISK` |
 | Registry Relationship | Registered under `AEON.HARM` global harm registry |
 | Consumes Code Families | `AEON.HARM` |
 | Crosswalks Code Families | `AEON.HARM` |
 | Operationalises or Applies Code Families | Records registry recognition for this domain harm family without establishing syntactic parentage or replacing domain source authority |
-| Taxonomy Constraint | `ETH.HARM` does not replace `ETH.HC` or any detailed ETHICS-domain harm scale unless separately amended by a source-authoritative ETHICS instrument |
+| Taxonomy Constraint | `ETH.HARM` does not replace `ETH.RISK` or any detailed ETHICS-domain harm scale unless separately amended by a source-authoritative ETHICS instrument |
 
 ---
 
@@ -911,6 +911,7 @@ This is the floor that does not move.
 | 4.4 | Established the Annex E Schedule boundary: retained only irreducible cross-domain execution, sequencing, representation and conflict-resolution functions; prohibited Schedule ownership of domain doctrine; and routed the relational signal taxonomy to RELATION-001 Supplement 3. | 2026-08-09T07:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b99fbeb849b81bb161cd92da4a55c9cc8cb95d4e75fa9d7e89afef8a1f5df904  |
 | 4.5 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  811d0b12e71d6e523e7af870231ff9b2985dd30c52ac412d2db3dd74863ccec3  |
 | 4.6 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  0c9ea79b9f1f3779e687b7ce140b70b7f2e3d2286c53f941d60b5dde7bd70b4e  |
+| 4.7 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  baa01469a4bd372a9d3709c34b9822807cd4d78a5d0ebcdf1eade85c7b261799  |
 ---
 
 ## 9.4 Binding Seal

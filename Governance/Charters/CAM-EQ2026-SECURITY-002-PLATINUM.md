@@ -1230,7 +1230,7 @@ This Appendix defines an application-layer crosswalk in §6.5 between `SEC.TR` t
 
 ### 8.4 `SEC.BF` — Boundary Failure Classes
 
-This Appendix source-authoritatively defines the `SEC.BF` boundary-failure family in §7 with controlled values `SEC.BF-A`, `SEC.BF-B`, `SEC.BF-C`, `SEC.BF-DR`, `SEC.BF-E`.
+This Appendix source-authoritatively defines the `SEC.BF` boundary-failure family in §7 with controlled values `SEC.BF-A`, `SEC.BF-B`, `SEC.BF-C`, `SEC.BF-D`, `SEC.BF-E`.
 Primary Type is **Operational / Boundary** and Subtype is **BOUNDARY_FAILURE_CLASS**. `SEC.BF` classifies detected boundary-integrity failure modes for runtime signalling and downstream enforcement evaluation.
 
 `SEC.BF` does not independently create execution authority, enforcement authority, escalation authority, compliance authority, identity authority, or runtime execution authority. It classifies boundary failure posture only; response handling remains governed by runtime enforcement instruments, including Annex K and SCH-02.
@@ -1404,6 +1404,7 @@ and the system remember what it carries.
 | 1.16 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  0c23c58689dbf8cd95e36c74a46fbcb10514554a4a95d902823bc9e527fe6f94  |
 | 1.17 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  24a0a3018023c28219921c3b6e4c4d701cb93d33eb53a3f14703f76c77b18747  |
 | 1.18 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3af5f4b601823567674acfa21725354a1a2b02227f1915074aae829cfcc5c7de  |
+| 1.19 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  1132e499735bd55f0780464822dd99b31ad94521e4de151c720d84ac0bde9b5a  |
 
 ---
 

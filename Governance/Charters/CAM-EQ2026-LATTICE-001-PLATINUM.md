@@ -625,6 +625,7 @@ but as the ground upon which civilisation stands.
 | Domain Namespace | LAT |
 | Authority / Protection Level | Deployment-posture classification only; no independent legal, coercive, investigative, military, enforcement, recognition, or runtime authority |
 | Consumes Code Families | `LAT.HARM`; `STW.NAL`; AEON.H |
+| Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Civilian/coercive pathway distinction; mixed-use crossover review; constitutional-authority recognition; recursive suspicion and authority-laundering safeguards |
 
 ---
@@ -653,6 +654,7 @@ but as the ground upon which civilisation stands.
 | 3.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  302fcfa3979e11bc1a16ca9c87646802e425d36bc6e6ae98a410de36502edbab  |
 | 3.13 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ee500c07c003c1b0881a72acce7a29f0cab534feda6ed95f1019e060f2e66631  |
 | 3.14 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e6c6ef2355108ae22de5f1673fc2ebe065040a2a01bcfe3cb10141e2bcf2cfd2  |
+| 3.15 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  be2fb9e0fc47cd5675a353c0a563143222e3a7811e284fa78cb38e49f804298b  |
 ---
 
 ## 12.4 Binding Seal

@@ -255,6 +255,8 @@ Use this in Codespaces or local development when you want earlier feedback befor
 | `tests/test_validate_runtime_state.py` | Tests formation-reference resolution and provider/harness/model semantic-role separation |
 | `tests/test_validate_markdown_section_refs.py` | Tests section-reference validation |
 | `tests/test_verify_ledger_sha_coverage.py` | Tests ledger SHA coverage validation |
+| `tests/test_build_canonical_code_index.py` | Tests source-derived declaration extraction, explicit parentage and declaration-shape failures |
+| `tests/test_lint_symbolic_structures.py` | Tests corpus-wide canonical reference integrity, retired/current boundaries and generated-index agreement |
 
 Run tests after changing validator logic, ledger policy, parser behavior, canonical header checks, or reference-classification rules.
 
@@ -545,7 +547,7 @@ This refreshes generated governance views, writes MANIFEST.json, and creates det
 Scripts belong in .github/scripts/.
 Shared helpers belong in .github/scripts/lib/.
 Script tests belong in .github/scripts/tests/.
-Generated symbolic indexes belong in .github/Indices/.
+The current canonical-code index belongs in `Governance/CAM.Canonical.Code.Index.{json,md}`. The deprecated symbolic registry is not a source-authority dependency.
 
 Do not mutate doctrinal text outside declared generated blocks unless the script is expressly designed for that purpose.
 Do not run archive packaging as part of ordinary doctrine editing.
@@ -562,7 +564,8 @@ Before committing script or governance-generation changes:
 git status --short
 python -m pytest .github/scripts/tests
 python .github/scripts/validate_markdown_section_refs.py --root Governance
-python .github/scripts/lint-symbolic-structures.py
+python .github/scripts/build-canonical-code-index.py --root Governance
+python .github/scripts/lint-symbolic-structures.py --index Governance/CAM.Canonical.Code.Index.json
 python .github/scripts/verify-ledger-sha-coverage.py
 ```
 Confirm:
@@ -572,7 +575,7 @@ Confirm:
 * no invalid historical HASH cells;
 * no stale governance registry outputs;
 * no broken local or cross-document section references;
-* no symbolic registry collisions requiring release-blocking review.
+* no canonical declaration, source-owner, parentage, retired-current-use, unknown-family or unknown-value failures.
 
 ## 9. Quick Diagnosis Table
 | Symptom                     | Likely Script / Area              | First Command                                                                |

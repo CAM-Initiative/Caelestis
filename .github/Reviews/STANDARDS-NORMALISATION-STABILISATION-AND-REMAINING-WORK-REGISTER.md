@@ -96,7 +96,7 @@ Git history is the provenance record for every retired draft. No draft was reloc
 | V-02 | Add deterministic validation for external-source record completeness and conformance-language claims if machine-readable records are introduced. | OPERATIONS-001-SUP-04 §8.4 establishes the contract but this pass does not invent a registry or schema prematurely. | Medium |
 | V-03 | Extend semantic-orientation guards for project/framework names used as normative actors while excluding titles, identifiers, provenance and ledgers. | **Design complete; implementation open.** O-03 records candidate rules, exclusions, Unicode normalization and false-positive risks. A regex-only blocking implementation was not added because Markdown-aware section classification is required. | Medium |
 | V-04 | Keep generated indexes and registries source-derived and verify that draft exclusion, authority metadata and canonical-code projections remain synchronized. | **Complete.** The S-01B registry-pipeline closure moved all current automation to the two root-level generated projections, removed retired-Schedule inference/exemption logic, enforces operative metadata selection, and covers Standards and `Governance/CAM.*` paths symmetrically for push and pull-request rebuilds. | Closed |
-| V-05 | Resolve the 27 non-blocking canonical-declaration generator warnings: unsupported identifier fields, one nonstandard heading, and malformed declaration rows. | Canonical-code generation completes and symbolic validation passes, but warnings identify legacy declaration shapes that are not yet machine-uniform. | Medium |
+| V-05 | Resolve canonical-declaration generator diagnostics and close corpus-wide canonical-reference integrity. | **Complete under C-01.** The verified starting state was 24 diagnostics: 17 non-declaration tables misclassified by the extractor, 1 valid constraint heading misclassified as nonstandard, and 6 incomplete declarations. Explicit declaration extraction, source-owner and parentage validation, strict failure behavior, current-reference validation, and mechanical declaration repairs now produce zero unexplained diagnostics. | Closed |
 
 ### 5.5 Draft disposition issues
 
@@ -115,9 +115,8 @@ The following are not current normative defects:
 
 S-03, O-03 and R-01 close the execution/arbitration, narrative-orientation and relational-geometry packages. The next bounded sequence remains:
 
-1. **O-01** — bounded logging review;
-2. **O-02** — identity evidentiary-claims audit; and
-3. **V-05** — legacy canonical-declaration warning repair.
+1. **O-01** — bounded logging review; and
+2. **O-02** — identity evidentiary-claims audit.
 
 S-02 remains open and on hold. Do not combine it with O-01 or O-02. M-03B and V-03 implementation also remain independently open.
 
@@ -156,6 +155,6 @@ R-01 audited 182 current candidate lines across 80 operative source files and 19
 | Script tests | Pass; 144 tests through the fixture-compatible runner. |
 | Determinism | Pass; two final rebuilds produced the identical ordered generated-output hash above. |
 
-R-01 is closed. S-02 remains on hold. O-01, O-02, V-05 and V-03 retain their recorded independent states; no unrelated item is closed.
+R-01 and C-01/V-05 are closed. S-02 remains on hold. O-01, O-02 and V-03 retain their recorded independent states; no unrelated item is closed.
 
 Post-publication verification recorded R-01 source commit `24c2976b3aa28ffced02f6c5c70b62c834acc290` and generated-only refresh `5bde02fef37716b817e015d860698be983c55e3b`. The refresh changed only the three commit-derived JSON projections. Two isolated rebuilds at the refreshed head produced no diff and final ordered generated-output SHA-256 `857d6051bc73fbe8c8e103ffc7e5b0d17b3a74d40b41c3c303858aaf5aa5b25a`.

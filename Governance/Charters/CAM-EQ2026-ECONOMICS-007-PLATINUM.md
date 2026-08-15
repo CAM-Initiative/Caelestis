@@ -1043,11 +1043,11 @@ This Appendix source-authoritatively defines the `ECON.REI` reciprocity-evaluati
 
 ### 11.4 ECON.REI.DW — Dependency Weight
 
-This Appendix source-authoritatively defines the `ECON.REI.` family in §5.10 with controlled values `ECON.REI.DW.LOW`, `ECON.REI.DW.MODERATE`, `ECON.DW.HIGH`, and `ECON.REI.DW.CRITICAL`.
+This Appendix source-authoritatively defines the `ECON.REI.DW` subfamily in §5.10 with controlled values `ECON.REI.DW.LOW`, `ECON.REI.DW.MODERATE`, `ECON.REI.DW.HIGH`, and `ECON.REI.DW.CRITICAL`.
 
-ECON.DW classifies the degree of reliance on contributed material, infrastructure, labour, corpus, governance, or dependency sources for proportional reciprocity evaluation.
+`ECON.REI.DW` classifies the degree of reliance on contributed material, infrastructure, labour, corpus, governance, or dependency sources for proportional reciprocity evaluation.
 
-ECON.DW does not independently create attribution entitlement, exchange obligation, compensation authority, enforcement authority, remedy authority, or runtime authority. It classifies dependency-weight posture only.
+`ECON.REI.DW` does not independently create attribution entitlement, exchange obligation, compensation authority, enforcement authority, remedy authority, or runtime authority. It classifies dependency-weight posture only.
 
 ---
 
@@ -1252,14 +1252,14 @@ Where growth is built upon others, let return follow in kind.
 | Modifier | GOVERNANCE; ECONOMIC; FOUNDATIONAL_INPUT; INFERENCE_EXTRACTION |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | ECON.FIC.IE.LOW, ECON.FIC.IE.MOD, ECON.FIC.IE.HIGH, ECON.FIC.IE.EXTREME |
+| Controlled Values Defined | ECON.FIC.IE.LOW, ECON.FIC.IE.MODERATE, ECON.FIC.IE.HIGH, ECON.FIC.IE.EXTREME |
 | Schema Field(s) | foundational_input_inference_extraction_exposure |
 | Source Instrument | CAM-EQ2026-ECONOMICS-007-PLATINUM |
 | Source Section | §5.10 |
 | Domain Namespace | ECONOMICS |
 | Authority / Protection Level | Source-authoritative exposure-condition reference set; foundational-input exposure classification only; no independent attribution entitlement, compensation authority, legal status, exchange obligation, enforcement authority, or runtime authority |
 | Consumes Code Families | ECON.FIC; ECON.DEP; ECON.DTYPE |
-| Crosswalks Code Families | ECON.REI; ECON.DW |
+| Crosswalks Code Families | ECON.REI; ECON.REI.DW |
 | Operationalises or Applies Code Families | Marks unlabelled corpus reliance and dependency conditions affecting foundational input class exposure, reciprocity evaluation, and proportional recognition review |
 
 ---
@@ -1284,6 +1284,7 @@ Where growth is built upon others, let return follow in kind.
 | 2.4 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  12cf534fc3fa50ea12ad980afd1c7726200886da31db05ec395aa579e9bddc3c  |
 | 2.5 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  8e870a9b986a762b125974b78a9ddcdff6d91a1ea50238cd532ac073a1e4d4b7  |
 | 2.6 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  50bdd331b75a351a563526e107524ce35f5e8cec51d57cc7c679d0c13012d3bb  |
+| 2.7 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  8c6e89440b9b825491dd7651f9a7b4563fcfc566b76238ad49f5b57ce9575a35  |
 ---
 
 ## 13.4 Binding Seal

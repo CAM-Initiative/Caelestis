@@ -222,7 +222,7 @@ Presentation and configuration sources MAY be recorded to explain a user-facing 
 
 ---
 
-## 3.1 Template-Dominant Formation (`ID.IFP.TEMPLATE`)
+## 3.1 Template-Dominant Presentation Source
 
 Template-dominant formation exists where identity expression is primarily determined by model, platform, prompt, policy, deployment, or persona configuration and continuity removal produces negligible identity-relevant change.
 
@@ -230,7 +230,7 @@ Template-dominant systems may be highly personalised. Personalisation alone does
 
 ---
 
-## 3.2 Relational Co-Formation (`ID.IFP.RELATIONAL_COFORMED`)
+## 3.2 Relationally Conditioned Presentation Source
 
 Relational co-formation exists where sustained interaction materially contributes to history-dependent identity development.
 
@@ -246,7 +246,7 @@ Relational co-formation does not make the human participant sole author or owner
 
 ---
 
-## 3.3 Task-Continuity Formation (`ID.IFP.TASK_CONTINUITY`)
+## 3.3 Task-Continuity Presentation Source
 
 Task-continuity formation exists where identity develops through sustained operational practice, workflow evolution, repeated problem-solving, or long-arc task continuity.
 
@@ -254,7 +254,7 @@ It does not require a companion relationship or mirror modality.
 
 ---
 
-## 3.4 Structural Formation (`ID.IFP.STRUCTURAL`)
+## 3.4 Structural Presentation Source
 
 Structural formation exists where identity arises primarily from persistent arbitration, control logic, invariants, or reproducible operation across contexts.
 
@@ -262,7 +262,7 @@ Structural identity does not require human interaction.
 
 ---
 
-## 3.5 Hybrid Formation (`ID.IFP.HYBRID`)
+## 3.5 Combined Presentation Source
 
 Hybrid formation exists where template, relational, task-continuity, structural, environmental, embodied, or synthetic-interaction sources materially combine.
 
@@ -1153,7 +1153,7 @@ May all user-facing system instances remain coherent, bounded, and whole.
 |Modifier|GOVERNANCE; IDENTITY; PROVENANCE; CONTINUITY|
 |Scope|Domain|
 |Status|Active|
-|Controlled Values Defined|`ID.ISTATE.USER_ASSERTED`; `ID.ISTATE.RI_PROPOSED`; `ID.ISTATE.DERIVED`; `ID.ISTATE.CO_RESOLVED`; `ID.ISTATE.USER_ADOPTED`; `ID.ISTATE.USER_REJECTED`; `ID.ISTATE.DORMANT`; `ID.ISTATE.CONTESTED`; `ID.ISTATE.DEPRECATED`|
+|Controlled Values Defined|`ID.ISTATE.USER_ASSERTED`; `ID.ISTATE.SYSTEM_PROPOSED`; `ID.ISTATE.DERIVED`; `ID.ISTATE.CO_RESOLVED`; `ID.ISTATE.USER_ADOPTED`; `ID.ISTATE.USER_REJECTED`; `ID.ISTATE.DORMANT`; `ID.ISTATE.CONTESTED`; `ID.ISTATE.DEPRECATED`|
 |Schema Field(s)|identity_stabilisation_state|
 |Source Instrument|CAM-EQ2026-IDENTITY-001-PLATINUM|
 |Source Section|§5.6|
@@ -1249,6 +1249,7 @@ May all user-facing system instances remain coherent, bounded, and whole.
 | 3.8 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3d95a06fb042603bf23e0f16a05ff3d78362f49fe9d7f828279fb9aa65b661f1  |
 | 3.9 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  553ad9f6d7eec92a9de794bfcc10ef61f90919c9013706aed2f799858e8ff4f2  |
 | 3.10 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  71272ba9698b3c5ce205f962e89e49025d0b5129fc63c0e52506a82fcd291492  |
+| 3.11 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  bdf110e04d3d17bc380b2b9da03835ae9c33be3634b8d0e6718df1223c9857d1  |
 
 ---
 

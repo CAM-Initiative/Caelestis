@@ -168,6 +168,7 @@ Annex K derives and applies the constitutional runtime-security interface. SECUR
 | Domain Namespace | SEC |
 | Authority / Protection Level | Derived constitutional interface classification; boundary-risk classification only; no independent execution authority |
 | Consumes Code Families | `AEON.`; `ARB.ARS`; `ARB.ALT`; SECURITY Integrity State; `SEC.TG`; `SEC.AH` |
+| Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies execution surfaces for downstream constitutional execution-boundary evaluation |
 | Taxonomy Constraint | Tool availability is a boundary signal, not execution authority |
 
@@ -189,6 +190,7 @@ Annex K derives and applies the constitutional runtime-security interface. SECUR
 | Domain Namespace | SECURITY |
 | Authority / Protection Level | Derived constitutional interface classification; posture-mode classification only; no independent containment or operational authority |
 | Consumes Code Families | SECURITY Integrity State; `SEC.TG`; `SEC.AH`; `SEC.TBC`; `AEON.`; `ARB.ARS`; `ARB.ALT` |
+| Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Classifies runtime-facing security posture for downstream evaluation |
 | Taxonomy Constraint | The classification is not an execution phase, command state, or authority grant |
 
@@ -256,6 +258,7 @@ Where integrity degrades, let consequential action narrow through the lawful pat
 | 1.19 | Consolidated Annex K into its delegated constitutional runtime-security interface; removed operational incident, evidence, containment, logging, evaluation, and notice procedure; preserved non-bypass boundary routing; and classified the Annex as a derived constitutional schedule authority. | 2026-08-06T16:00:00Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  6d6a6630db2ecb51052bc5982bb8cd72dea337bfe789f2cdb5a7d16c4f8c189e  |
 | 1.20 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  93b03a6e72f60fdcdb69fbc067d06c9874e37cc905fa2b3121415d6c21f7b45e  |
 | 1.21 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  905d8a7a401ebf7ba9e9a0e57567ec6547d22f6e35659b480f7e6022b95b6158  |
+| 1.22 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  288131df4aae4c29ca3726f3437deadde2ea5bc83c33626fa45d20e7973a34f1  |
 
 
 ### 8.3 Binding Seal

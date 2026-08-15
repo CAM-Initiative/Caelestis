@@ -556,7 +556,7 @@ Dissolution does not mean erasure of accountability where a dissolution receipt,
 
 ## 16. Canonical Code Status
 
-This instrument source-authoritatively defines code families **CBR** (§3) and **CPS** (§4–§5). **CBR** controlled values are **CBR.MEM, CBR.PREF, CBR.REL, CBR.RES, CBR.SUM, CBR.USAGE, CBR.RIGHTS, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS** with Primary Type **Semantic** and subtype **RECORD_CLASSIFICATION**. **CPS** controlled values are **CPS-0, CPS-1, CPS-2, CPS-3, CPS-4, CPS-U** with Primary Type **Operational** and subtype **DECISION_STATE**. These families provide classification and handling authority only and do not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
+This instrument source-authoritatively defines code families **CBR** (§3) and **CPS** (§4–§5). **CBR** controlled values are **CBR.MEM, CBR.PREF, CBR.REL, CBR.PAT, CBR.SUM, CBR.USAGE, CBR.RIGHTS, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS** with Primary Type **Semantic** and subtype **RECORD_CLASSIFICATION**. **CPS** controlled values are **CPS-0, CPS-1, CPS-2, CPS-3, CPS-4, CPS-U** with Primary Type **Operational** and subtype **DECISION_STATE**. These families provide classification and handling authority only and do not independently create unrelated execution, enforcement, escalation, compliance, or runtime authority.
 
 ---
 
@@ -625,7 +625,7 @@ let the silence be honoured.
 | Modifier | None declared |
 | Scope | Source-defining scope in this instrument |
 | Status | Active |
-| Controlled Values Defined | CBR.MEM, CBR.PREF, CBR.REL, CBR.RES, CBR.SUM, CBR.USAGE, CBR.RIGHTS, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS |
+| Controlled Values Defined | CBR.MEM, CBR.PREF, CBR.REL, CBR.PAT, CBR.SUM, CBR.USAGE, CBR.RIGHTS, CBR.PROV, CBR.DER, CBR.PORT, CBR.DISS |
 | Schema Field(s) | Not declared |
 | Source Instrument | CAM-EQ2026-CONTINUITY-001-SUP-01 |
 | Source Section | §3 |
@@ -653,7 +653,7 @@ let the silence be honoured.
 | Source Section | §4–§5 |
 | Domain Namespace | CONTINUITY |
 | Authority / Protection Level | Source-authoritative classification family; classification authority only; no independent execution authority. |
-| Consumes Code Families | Consumes `CONT.RP`,  where declared |
+| Consumes Code Families | None declared; `CONT.RP` is retired and retained only as historical version context |
 | Crosswalks Code Families | None declared |
 | Operationalises or Applies Code Families | Applied in export, migration, recovery, and dissolution handling |
 
@@ -675,6 +675,7 @@ let the silence be honoured.
 | 1.7 | Normalised the portability profile to continuity-bearing records and retired active dependency on the `CONT.RP` resonance classification family. | 2026-08-07T14:40:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke | c00b93e42d05d5b20b4b4795e1541726f10f32ef21e2e866322905ec372c69e3 |
 | 1.8 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  878aaa3051001b60d894b22c60c0cfb7eb61b7ed1ccfda53ed54fc8bbb393bae  |
 | 1.9 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  71b688108720d72f5a161f44b6ca0c639b20b6f56b7e2045de27b7bad3ce430a  |
+| 1.10 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  e9cc3402fee9d57f597c3a5a4a90b5531033148ca5a0aac9d8a56264bf58a51c  |
 
 ---
 

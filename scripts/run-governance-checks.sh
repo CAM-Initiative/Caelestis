@@ -25,8 +25,9 @@ python .github/scripts/build-canonical-code-index.py \
 cmp -s "$TMP_DIR/canonical-code-index.md" Governance/CAM.Canonical.Code.Index.md
 cmp -s "$TMP_DIR/canonical-code-index.json" Governance/CAM.Canonical.Code.Index.json
 
-printf '\n== Symbolic/index validation ==\n'
+printf '\n== Canonical reference integrity ==\n'
 python .github/scripts/lint-symbolic-structures.py \
-  --index Governance/CAM.Canonical.Code.Index.json
+  --index Governance/CAM.Canonical.Code.Index.json \
+  --inventory-out validation-reports/canonical-reference-inventory.json
 
-printf '\nGovernance checks completed. Section-reference report: validation-reports/section-reference-report.tsv\n'
+printf '\nGovernance checks completed. Reports: validation-reports/section-reference-report.tsv and validation-reports/canonical-reference-inventory.json\n'

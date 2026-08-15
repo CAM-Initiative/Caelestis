@@ -1169,13 +1169,63 @@ let it not be collapsed, but carried with clarity.
 
 ## 18.2 Canonical Code & Reference Set Declarations
 
-| Family | Status | Source Section | Constitutional Effect |
-|---|---|---|---|
-| `AEON.H` | Active; source-authoritative | §3 | Temporal horizon and reliance-legitimacy classification only |
-| `AEON.OL` | Active; source-authoritative | §5 | Functional architectural-layer classification only |
-| `AEON.SR` | Active transitionally | §§14.2, 16.3 | Systemic reliance posture only; no authority |
-| Participant and interaction structure | Active; source-authoritative | §2 | Structural vocabulary and non-collapse rules only; no composite cardinality or governance-status scale |
-| Proposed replacement families | Non-canonical migration proposal | §16.5 | No controlled values or machine authority until coordinated adoption |
+### 18.2.1 `AEON.H` — Temporal Horizon
+
+| Field | Entry |
+|---|---|
+| Code Family | `AEON.H` |
+| Canonical Name | Temporal Horizon |
+| Primary Type | Semantic / Temporal |
+| Subtype | RELIANCE_HORIZON; DURABILITY_CLASSIFICATION |
+| Modifier | GOVERNANCE; TEMPORAL; RELIANCE |
+| Scope | Constitutional |
+| Status | Active |
+| Controlled Values Defined | `AEON.H0`; `AEON.H1`; `AEON.H2`; `AEON.H2.5`; `AEON.H3`; `AEON.H3.5`; `AEON.H4` |
+| Schema Field(s) | temporal_horizon; effective_horizon |
+| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
+| Source Section | §3 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative temporal-horizon and reliance-legitimacy classification only; no independent identity, agency, legal, enforcement, or runtime authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies the duration, durability, auditability, continuity expectation, and reliance posture of an assessed function or governance effect |
+
+### 18.2.2 `AEON.OL` — Functional Architectural Layer
+
+| Field | Entry |
+|---|---|
+| Code Family | `AEON.OL` |
+| Canonical Name | Functional Architectural Layer |
+| Primary Type | Structural / Architectural |
+| Subtype | FUNCTIONAL_LAYER_CLASSIFICATION |
+| Modifier | GOVERNANCE; ARCHITECTURE; FUNCTION |
+| Scope | Constitutional |
+| Status | Active |
+| Controlled Values Defined | `AEON.OL.L0`; `AEON.OL.L1`; `AEON.OL.L2`; `AEON.OL.L3` |
+| Schema Field(s) | functional_architectural_layer; operational_layer |
+| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
+| Source Section | §5 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Source-authoritative functional architectural-layer classification only; classification attaches to assessed function and creates no independent identity, agency, responsibility, or authority |
+| Consumes Code Families | None declared |
+| Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies physical substrate, execution infrastructure, generative/evaluative/selection processes, and interface/modality/embodiment functions without treating components as single-layer by default |
+
+### 18.2.3 `AEON.SR` — Systemic Reliance Posture
+
+| Field | Entry |
+|---|---|
+| Reference Set | `AEON.SR` |
+| Canonical Name | Systemic Reliance Posture |
+| Primary Type | Semantic / Structural |
+| Controlled Values Defined | `LOCAL`; `TRANSITIONAL`; `ARCHITECTUM` |
+| Schema Field(s) | systemic_reliance_posture |
+| Source Instrument | CAM-BS2025-AEON-003-PLATINUM |
+| Source Section | §§14.2, 16.3 |
+| Domain Namespace | AEON |
+| Authority / Protection Level | Transitional source-authoritative systemic-reliance posture only; no independent identity, agency, legal, enforcement, or runtime authority |
+
+Participant and interaction structure remains source-authoritative under §2 as structural vocabulary and non-collapse rules only; it is not a canonical code family. Proposed replacement families under §16.5 remain non-canonical migration proposals and MUST NOT be emitted as controlled values before coordinated adoption.
 
 ---
 
@@ -1222,6 +1272,7 @@ let it not be collapsed, but carried with clarity.
 | 5.5 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  42e0606728e0e2033df46ba0e2a8736c254e9514f0cd0fa23ff30d10a0e3e348  |
 | 5.6 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  48250a10d8401822b15a1c1f760b2ce65ab623b51fc7565ce7f57577ccac86c4  |
 | 5.7 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  d4617254fb3001d0fee64bd5efb2da2ff747c7a073b5f8e69d44bc2253646e9c  |
+| 5.8 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  c3b8c17367a016899a79345d61051e8de305c04c87a607cb94e76d77a9f1cd0e  |
 
 ---
 

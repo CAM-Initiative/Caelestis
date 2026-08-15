@@ -1135,6 +1135,7 @@ and what is judged cannot remain unbounded.
 | Authority / Protection Level | Severity/proximity classification only; not the ETHICS-domain harm family. |
 | Consumes Code Families | None declared |
 | Crosswalks Code Families | None declared |
+| Operationalises or Applies Code Families | Classifies ethical harm concern and proximity for proportional safeguard, review, and routing decisions |
 
 ---
 
@@ -1169,6 +1170,7 @@ and what is judged cannot remain unbounded.
 | 3.10 | Applied S-01 constitutional Schedule disposition: updated current authority references to the RELATION-001 and ECONOMICS-001 Supplements, corrected legacy Schedule/domain wording where present, and preserved historical ledger references. | 2026-08-09T07:20:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  27d8445d910afa9bd17eb3e9e7f982c42d5b8f9b2fb97384568675551bcb157f  |
 | 3.11 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  46283fbf67f4aeeb63b02efe7c28409841b18606fdbb3412038520e43317c63f  |
 | 3.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  be30173c1d7c2278b5d59fb91b46cf2e076b22de62bb6808aab35b30ed699181  |
+| 3.13 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  c1fd54d776b200494f450c94b7323302e8b6eb07e0ba9764dd2ed3fba4557565  |
 
 ---
 

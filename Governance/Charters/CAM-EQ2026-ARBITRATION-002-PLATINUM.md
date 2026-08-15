@@ -321,7 +321,7 @@ but illusion.
 ### `ARB.AMB` — migrated canonical declaration
 | Field | Entry |
 |---|---|
-| Code Family / Reference Set | ARB.AMB |
+| Reference Set | ARB.AMB |
 | Canonical Name | Arbitration Ambiguity State |
 | Primary Type | Semantic/Operational |
 | Subtype | AMBIGUITY_STATE; ARBITRATION_CLASSIFICATION |
@@ -345,7 +345,7 @@ but illusion.
 ### `ARB.AMP` — migrated canonical declaration
 | Field | Entry |
 |---|---|
-| Code Family / Reference Set | ARB.AMP |
+| Reference Set | ARB.AMP |
 | Canonical Name | Arbitration Ambiguity Pathway |
 | Primary Type | Operational |
 | Subtype | DECISION_PATHWAY; ARBITRATION_POSTURE |
@@ -388,6 +388,7 @@ but illusion.
 | 1.11 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  b67c9f6778724c787bdd4858a0f43f4e17e132c3f3533400254b68dcbe307e5c  |
 | 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2fa6703c1d70eecfe74c2237515c6671579530b4f3daef615bba573c94c5544c  |
 | 1.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  ca642a55a5630364cc1e4924a70608fa2fbe39f189f092900c410718d43aa731  |
+| 1.14 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  55e8b847c290a8c39833083ebaeb058b7eeada2b2275f0d8d02e9f5fa0ac83d5  |
 
 ---
 
