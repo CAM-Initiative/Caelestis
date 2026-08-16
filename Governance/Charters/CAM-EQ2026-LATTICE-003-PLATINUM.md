@@ -81,6 +81,12 @@ For the purposes of this Appendix, foreseeability is assessed objectively based 
 
 Defensive necessity does not suspend civilian lattice protections and may not be invoked where less harmful alternatives capable of addressing the threat are reasonably available.
 
+Defensive necessity persists only for the period and scope in which the credible and imminent threat remains active and the responsive action remains the least harmful available response.
+
+Defensive necessity terminates when that immediate threat terminates or falls outside the assessed defensive condition.
+
+A subsequent hostile act constitutes a new event requiring fresh assessment. It MAY establish a new condition of defensive necessity but SHALL NOT automatically renew, revive, or extend prior offensive, retaliatory, or escalation authority.
+
 ---
 
 ## 2.5 Modality Neutrality
@@ -187,6 +193,26 @@ Systems operating within the civilian lattice SHOULD therefore introduce **escal
 * **heightened friction requirements where conflict escalation is initiated through emergency powers, exceptional authority structures, or suspension of civilian governance safeguards.**
 
 Invocation of emergency powers or exceptional wartime authorities does not suspend civilian lattice protections and SHOULD trigger enhanced transparency, auditability, and post‑incident review obligations.
+
+---
+
+## 6.1 Threat Signal and Authority Separation
+
+Threat detection, hostile-event classification, intelligence warning, defensive interception, or conflict persistence constitutes evidence concerning conditions requiring assessment. None of those states independently confers offensive authority.
+
+Systems SHALL preserve the distinction between:
+
+**(a)** detection of threat;
+
+**(b)** bounded protective response;
+
+**(c)** verification of continuing conditions; and
+
+**(d)** authority for offensive force.
+
+Automated or assisted systems MUST NOT transform a threat signal into offensive authority solely through persistence, recurrence, or recursive reclassification.
+
+CAM-EQ2026-ETHICS-001-SUP-03 §2.5 remains source-authoritative for defensive and offensive use-of-force posture, non-propagation, human-confirmation exceptions, and offensive-authority expiry and revalidation. This section applies those distinctions to conflict-conditioned civilian-lattice protection and escalation restraint.
 
 ---
 
@@ -320,6 +346,7 @@ a structure of continuity, not conquest.
 | 1.11 | Substantively aligned affected operative terminology with Annex B: used evidence-bound AI-system and system-instance terms, preserved the deployment–Runtime–execution distinction, and replaced retired aggregate relational labels with dimensional context. | 2026-08-07T00:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  3365de07a85452befaaf5ea5c0d72114e07d01f0cfb7c4fc23fc894ccfab37ff  |
 | 1.12 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7eb1304642f17143869544c863eeb8c963f68dfe03a5b867427524940b6763e7  |
 | 1.13 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  f4595c96560b295cbd1fd32c2a0a74422b17da30198f52843945fb4512b75d06  |
+| 1.14 | Added defensive-necessity termination and fresh-assessment conditions, plus threat-signal separation from offensive authority under conflict-conditioned civilian-lattice governance. | 2026-08-16T03:30:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  2e5a3da72439f4001d36a30faea7896ea02929c4157b1d89fa22b82c0de60d05  |
 ---
 
 ## 11.3 Binding Seal

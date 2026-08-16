@@ -7182,9 +7182,9 @@
       "and threat-envelope migration review"
     ],
     "canonical_section_heading": "12.2 Canonical Code & Reference Set Declarations",
-    "canonical_section_line_number": 302,
+    "canonical_section_line_number": 318,
     "declaration_heading": "12.2.1 `ETH.UFC` \u2014 Use-of-Force Context Type",
-    "declaration_line_number": 306,
+    "declaration_line_number": 322,
     "extraction_method": "bounded_heading_section_table",
     "declaration_quality": "complete",
     "missing_expected_fields": [],

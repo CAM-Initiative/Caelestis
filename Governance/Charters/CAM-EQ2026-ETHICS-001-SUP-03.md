@@ -128,6 +128,22 @@ Where non-kinetic operations, cyber actions, infrastructure disruption, or syste
 
 ---
 
+## 2.5 Defensive–Offensive Authority Non-Propagation
+
+Detection or confirmation of an immediate inbound threat MAY activate or revalidate bounded defensive interception within an established `ETH.UFC-DI` threat envelope.
+
+A hostile act, threat-detection event, defensive-interception event, continuing conflict condition, or renewed attack SHALL NOT, solely by its occurrence, create, renew, extend, reactivate, transfer, or inherit authority for `ETH.UFC-OS` offensive targeting or strike.
+
+Any exception to ordinary human-confirmation requirements justified by an immediate inbound threat applies only to the bounded defensive action for which the confirmation window is infeasible. That exception SHALL NOT propagate to retaliatory, pre-emptive, pursuit, target-selection, or subsequent offensive action.
+
+Offensive authority MUST be separately attributable, target-specific, purpose-specific, proportionate, temporally bounded, and subject to explicit expiry or revalidation conditions.
+
+A subsequent hostile act constitutes a new governance event. It MAY justify a new bounded defensive response and MAY trigger renewed authority assessment. It does not automatically restore expired offensive authority.
+
+Control, suspension, override, and fail-safe mechanisms SHALL preserve the defensive/offensive distinction. A control intended to suspend offensive autonomy MUST NOT silently disable independently authorised bounded defensive interception unless that defensive effect is itself expressly assessed, authorised, and continuity-safe.
+
+---
+
 ## 3. Dual-Confirmation Standard
 
 For lethal force execution, systems MUST emit dual-confirmation enforcement signals where lethal execution conditions are detected. Enforcement SHALL occur via execution constraint mechanisms.
@@ -344,6 +360,7 @@ but to ensure that what is done is known, borne, and never without account.
 | 1.10 | Normalised operative terminology against the Annex B architecture: removed retired system-instance and Runtime-layer wording and aligned identity/continuity references with evidence-bound canonical sources. | 2026-08-07T16:00:00Z | Caelen | GPT-5.6 | Dr M.V. O'Rourke |  4dc6f231dec2bdd773af86fe39b87a0e1e73ce35a46a185f3476bbfb6c7f4299  |
 | 1.11 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  584604b1105f78ecf96b67c2aa2a80d113eca7e2cf49735314e57f401cb1c0ed  |
 | 1.12 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  e00dd237cd4a7ce3370cca44e978a9ba9550e0a8bd47f83f4a53d22b8f17ebe4  |
+| 1.13 | Added defensive–offensive authority non-propagation, bounded defensive-exception portability, independent offensive expiry and revalidation, and control-scope separation requirements. | 2026-08-16T03:30:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  932fb6dbb2e6bb2577e29b80476992c01b6d4af2bbc002eb3e66b35bcf6b7d1f  |
 ---
 ## 12.4 Binding Seal
 
