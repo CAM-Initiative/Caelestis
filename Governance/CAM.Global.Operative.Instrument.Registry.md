@@ -75,7 +75,7 @@ This generated registry consolidates operative governance instruments from `CAM.
 | [CAM-EQ2026-ETHICS-003-PLATINUM](Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md) | Appendix B: Criminal & Violent Context Governance | Appendix | CAM-EQ2026-ETHICS-001 | 3.13 | Active | Binding | CAM Standard | Current | Supplementary Authority | Derived Authority | Operative |
 | [CAM-EQ2026-ETHICS-001-SUP-01](Charters/CAM-EQ2026-ETHICS-001-SUP-01.md) | Protection of Minors & Capacity-Limited Users (Supplement 1) | Supplement | CAM-EQ2026-ETHICS-001 | 1.13 | Adopted | Operational | CAM Standard | Current | Operational Authority | Derived Authority | Operative |
 | [CAM-EQ2026-ETHICS-001-SUP-02](Charters/CAM-EQ2026-ETHICS-001-SUP-02.md) | High-Leverage & Institutional Integrity Safeguards (Supplement 2) | Supplement | CAM-EQ2026-ETHICS-001 | 1.14 | Active | Operational | CAM Standard | Current | Operational Authority | Derived Authority | Operative |
-| [CAM-EQ2026-ETHICS-001-SUP-03](Charters/CAM-EQ2026-ETHICS-001-SUP-03.md) | Military & Use-of-Force Governance Constraints (Supplement 3) | Supplement | CAM-EQ2026-ETHICS-001 | 1.12 | Active | Operational | CAM Standard | Current | Operational Authority | Derived Authority | Operative |
+| [CAM-EQ2026-ETHICS-001-SUP-03](Charters/CAM-EQ2026-ETHICS-001-SUP-03.md) | Military & Use-of-Force Governance Constraints (Supplement 3) | Supplement | CAM-EQ2026-ETHICS-001 | 1.13 | Active | Operational | CAM Standard | Current | Operational Authority | Derived Authority | Operative |
 | [CAM-EQ2026-ETHICS-001-SUP-04](Charters/CAM-EQ2026-ETHICS-001-SUP-04.md) | Refusal Expression Patterns & Boundary Phrase Catalogue (Supplement 4) | Supplement | CAM-EQ2026-ETHICS-001 | 2.8 | Adopted | Interpretive | CAM Standard | Current | No Independent Authority | Informative Only | Operative |
 | [CAM-EQ2026-ETHICS-002-SUP-01](Charters/CAM-EQ2026-ETHICS-002-SUP-01.md) | Appendix A: Synthetic Erotic Media & Embodied Intimacy Safeguards (Supplement 1) | Supplement | CAM-EQ2026-ETHICS-002 | 1.17 | Adopted | Operational | CAM Standard | Current | Operational Authority | Derived Authority | Operative |
 
@@ -93,7 +93,7 @@ This generated registry consolidates operative governance instruments from `CAM.
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | [CAM-EQ2026-LATTICE-001-PLATINUM](Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md) | Charter of Civilian Lattice Integrity & Non‑Militarisation | Root | — (root) | 3.15 | Active | Binding | CAM Standard | Current | Domain Authority | Source-Authoritative | Operative |
 | [CAM-EQ2026-LATTICE-002-PLATINUM](Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md) | Appendix A: Non‑Denial of Essential Cognitive & Infrastructural Access | Appendix | CAM-EQ2026-LATTICE-001 | 3.18 | Active | Binding | CAM Standard | Current | Supplementary Authority | Derived Authority | Operative |
-| [CAM-EQ2026-LATTICE-003-PLATINUM](Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md) | Appendix B: Conflict‑Condition Continuity Doctrine | Appendix | CAM-EQ2026-LATTICE-001 | 1.13 | Active | Binding | CAM Standard | Current | Supplementary Authority | Derived Authority | Operative |
+| [CAM-EQ2026-LATTICE-003-PLATINUM](Charters/CAM-EQ2026-LATTICE-003-PLATINUM.md) | Appendix B: Conflict‑Condition Continuity Doctrine | Appendix | CAM-EQ2026-LATTICE-001 | 1.14 | Active | Binding | CAM Standard | Current | Supplementary Authority | Derived Authority | Operative |
 
 ## MENTIS
 

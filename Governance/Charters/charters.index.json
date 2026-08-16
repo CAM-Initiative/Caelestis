@@ -379,11 +379,11 @@
       "enforcement": "** CAM Standard",
       "review_state": "** Current",
       "authority_role": "** Operational Authority",
-      "version": "1.12",
-      "HASH": "e00dd237cd4a7ce3370cca44e978a9ba9550e0a8bd47f83f4a53d22b8f17ebe4",
-      "pinned_sha": "eca6481e35532b2ac464333610b4ad7962aff083",
-      "updated_at": "2026-08-09T10:50:25Z",
-      "last_updated_utc": "2026-08-09T10:50:25Z"
+      "version": "1.13",
+      "HASH": "932fb6dbb2e6bb2577e29b80476992c01b6d4af2bbc002eb3e66b35bcf6b7d1f",
+      "pinned_sha": "19284c2ba82da6ebe826bf643e571c25cfb2354a",
+      "updated_at": "2026-08-16T07:13:32Z",
+      "last_updated_utc": "2026-08-16T07:13:32Z"
     },
     {
       "id": "CAM-EQ2026-ETHICS-001-SUP-04",
@@ -619,11 +619,11 @@
       "enforcement": "** CAM Standard",
       "review_state": "** Current",
       "authority_role": "** Supplementary Authority",
-      "version": "1.13",
-      "HASH": "f4595c96560b295cbd1fd32c2a0a74422b17da30198f52843945fb4512b75d06",
-      "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
-      "updated_at": "2026-08-09T12:32:36Z",
-      "last_updated_utc": "2026-08-09T12:32:36Z"
+      "version": "1.14",
+      "HASH": "2e5a3da72439f4001d36a30faea7896ea02929c4157b1d89fa22b82c0de60d05",
+      "pinned_sha": "19284c2ba82da6ebe826bf643e571c25cfb2354a",
+      "updated_at": "2026-08-16T07:13:32Z",
+      "last_updated_utc": "2026-08-16T07:13:32Z"
     },
     {
       "id": "CAM-EQ2026-MENTIS-001-PLATINUM",
@@ -885,9 +885,9 @@
       "authority_role": "** Operational Authority",
       "version": "1.0",
       "HASH": "e792fba0bf2153d6683841a2b81c02ed579c73a80217c0f23f6b3a7fe327338a",
-      "pinned_sha": "781e0f73f39df0c7d5e14f28fe8332fdc17d3d30",
-      "updated_at": "2026-08-16T02:41:13Z",
-      "last_updated_utc": "2026-08-16T02:41:13Z"
+      "pinned_sha": "df74d903cb001f202bc5636f70501ceabd02b44f",
+      "updated_at": "2026-08-16T02:41:43Z",
+      "last_updated_utc": "2026-08-16T02:41:43Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",
