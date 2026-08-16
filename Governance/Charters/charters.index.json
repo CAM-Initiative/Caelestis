@@ -1,5 +1,5 @@
 {
-  "count": 59,
+  "count": 60,
   "items": [
     {
       "id": "CAM-EQ2026-ARBITRATION-001-PLATINUM",
@@ -864,6 +864,30 @@
       "pinned_sha": "24c2976b3aa28ffced02f6c5c70b62c834acc290",
       "updated_at": "2026-08-09T12:32:36Z",
       "last_updated_utc": "2026-08-09T12:32:36Z"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-003-SUP-03",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "03",
+      "parent_id": "CAM-EQ2026-OPERATIONS-003",
+      "seal": null,
+      "link": "CAM-EQ2026-OPERATIONS-003-SUP-03.md",
+      "title": "Human-in-the-Loop Assurance & Review Control",
+      "summary": "",
+      "status": "** Adopted",
+      "effect": "** Operational",
+      "enforcement": "** CAM Standard",
+      "review_state": "** Current",
+      "authority_role": "** Operational Authority",
+      "version": "1.0",
+      "HASH": "e792fba0bf2153d6683841a2b81c02ed579c73a80217c0f23f6b3a7fe327338a",
+      "pinned_sha": "781e0f73f39df0c7d5e14f28fe8332fdc17d3d30",
+      "updated_at": "2026-08-16T02:41:13Z",
+      "last_updated_utc": "2026-08-16T02:41:13Z"
     },
     {
       "id": "CAM-EQ2026-OPERATIONS-004-PLATINUM",

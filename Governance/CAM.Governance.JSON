@@ -1,5 +1,5 @@
 {
-  "count": 84,
+  "count": 85,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -1585,6 +1585,32 @@
       "updated_at": "2026-08-09T12:32:36Z",
       "last_updated_utc": "2026-08-09T12:32:36Z",
       "purpose": "Establish an abstract taxonomy for classifying runtime, governance, security, relational, epistemic, cognitive-domain, shared-participant-coordination, state-and-context, identity-relevant, UX, infrastructure, classification, automation-transition, and economic-legitimacy failure modes observed in AI systems and governed deployments.",
+      "source_authority": "** Derived Authority"
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-003-SUP-03",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "03",
+      "parent_id": "CAM-EQ2026-OPERATIONS-003",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-OPERATIONS-003-SUP-03.md",
+      "title": "Human-in-the-Loop Assurance & Review Control",
+      "summary": "",
+      "status": "** Adopted",
+      "effect": "** Operational",
+      "enforcement": "** CAM Standard",
+      "review_state": "** Current",
+      "authority_role": "** Operational Authority",
+      "version": "1.0",
+      "HASH": "e792fba0bf2153d6683841a2b81c02ed579c73a80217c0f23f6b3a7fe327338a",
+      "pinned_sha": "781e0f73f39df0c7d5e14f28fe8332fdc17d3d30",
+      "updated_at": "2026-08-16T02:41:13Z",
+      "last_updated_utc": "2026-08-16T02:41:13Z",
+      "purpose": "Establishes cross-domain requirements for effective human review, approval, verification, supervision, override, and escalation where a human-in-the-loop control is relied upon before consequential publication, use, execution, or decision.",
       "source_authority": "** Derived Authority"
     },
     {

@@ -166,7 +166,7 @@ Human review shall remain a real control, not a ceremonial step between automate
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1.0 | Established generic human-in-the-loop assurance requirements and cross-domain failure subtype, preserving boundaries with absent oversight, detection failure, escalation failure, automation bias, and domain-specific controls. | 2026-08-16T02:39:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke | e25b4cdb0ae4f1b48f4b1fe8bd8b97a1053b112730e3c13d67b8bfa02ac4fe4d |
+| 1.0 | Established generic human-in-the-loop assurance requirements and cross-domain failure subtype, preserving boundaries with absent oversight, detection failure, escalation failure, automation bias, and domain-specific controls. | 2026-08-16T02:39:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke | e792fba0bf2153d6683841a2b81c02ed579c73a80217c0f23f6b3a7fe327338a |
 
 ---
 

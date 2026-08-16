@@ -119,6 +119,7 @@ This generated registry consolidates operative governance instruments from `CAM.
 | [CAM-EQ2026-OPERATIONS-001-SUP-03](Charters/CAM-EQ2026-OPERATIONS-001-SUP-03.md) | Governance Capture Detection Procedures (Supplement 3) | Supplement | CAM-EQ2026-OPERATIONS-001 | 2.8 | Adopted | Operational | CAM Standard | Current | Operational Authority | Derived Authority | Operative |
 | [CAM-EQ2026-OPERATIONS-001-SUP-04](Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md) | Taxonomies & Metadata Authority Framework (Supplement 4) | Supplement | CAM-EQ2026-OPERATIONS-001 | 2.5 | Adopted | Operational | CAM Standard | Current | Operational Authority | Derived Authority | Operative |
 | [CAM-EQ2026-OPERATIONS-003-SUP-01](Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | CAM-EQ2026-OPERATIONS-003 | 1.32 | Adopted | Operational | CAM Standard | Current | Operational Authority | Derived Authority | Operative |
+| [CAM-EQ2026-OPERATIONS-003-SUP-03](Charters/CAM-EQ2026-OPERATIONS-003-SUP-03.md) | Human-in-the-Loop Assurance & Review Control | Supplement | CAM-EQ2026-OPERATIONS-003 | 1.0 | Adopted | Operational | CAM Standard | Current | Operational Authority | Derived Authority | Operative |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | CAM-EQ2026-OPERATIONS-004 | 1.12 | Adopted | Operational | CAM Standard | Current | Operational Authority | Derived Authority | Operative |
 
 ## RELATION
