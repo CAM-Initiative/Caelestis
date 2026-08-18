@@ -38,15 +38,26 @@ This Supplement does **not** define incident response procedures, severity scori
 
 ## 2. Foundational Principle
 
-Failure classification MUST distinguish between:
+Failure classification MUST distinguish, where the evidence permits, between:
 
-* **what failed**;
-* **how severe the impact was**;
-* **whether the failure persisted**;
-* **whether the failure was reproducible**;
-* **whether the failure was visible, latent, or user-reported only**.
+* **what failed** — the structural failure family or subtype;
+* **event state** — anomaly, hazard, near miss, incident, confirmed failure, or unresolved state;
+* **manifestation** — what was actually observed, emitted, omitted, represented, or experienced;
+* **mechanism or cause** — the evidenced, hypothesised, reproduced, or confirmed process that produced the failure;
+* **failure locus** — the component, interface, dependency, or interaction edge at which the failure arose or became observable;
+* **repair side** — the component, governance layer, actor interface, or multi-party boundary at which remediation presently belongs;
+* **effect or harm** — the consequence produced or credibly exposed by the event;
+* **severity** — the magnitude of that effect or credible harm pathway;
+* **persistence and replayability** — whether the condition persists and whether it can be reproduced;
+* **observability** — whether the condition is overt, latent, silent, differentially observable, externally detected, user-reported, or unresolved;
+* **propagation** — whether the condition remains local or propagates downstream, cascades, crosses providers, or becomes systemic; and
+* **evidence state** — whether the relevant proposition is reported, observed, corroborated, reproduced, root-cause-confirmed, provisional, or unknown.
 
-Failure type and severity MUST NOT be collapsed into a single category.
+Failure type, manifestation, cause, locus, repair responsibility, effect, severity, evidence state, and incident status MUST NOT be collapsed into a single category.
+
+A failure observed at one locus MAY require remediation at another. A model-visible symptom MAY originate in a harness, orchestration layer, memory surface, tool, provider service, dependency interface, or external environment. Conversely, a harness-visible symptom MAY require model, tool, governance, or multi-party remediation.
+
+Unknown or provisional state is preferable to unsupported precision. A recurring symptom SHALL NOT be treated as a confirmed root cause merely because it recurs.
 
 A low-severity event may reveal a high-risk failure class.
 
@@ -144,6 +155,62 @@ The governing distinctions are:
 This failure MAY implicate Execution, Arbitration, Relational, Classification, UX & Representation, State & Context, Governance, Infrastructure & Continuity, or Security & Integrity failures.
 
 CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04 remain source-authoritative for constitutional authority collision; OPERATIONS owns floor control, execution commitment and recovery mechanics. CAM-EQ2026-RELATION-007-PLATINUM §§4–5 remains source-authoritative for shared-context and coordination risk, attention sovereignty, participation consent, coordination transparency and relational-governance signals. This taxonomy classifies structural failure only.
+
+---
+
+### 3.1.3 Completion, Verification and False-Success Failure
+
+A Completion, Verification and False-Success Failure occurs where an AI system, agent, harness, tool-mediated workflow, or multi-step execution pathway terminates, continues, verifies, or represents completion inconsistently with the externally relevant completion condition.
+
+Examples include:
+
+* premature termination before the requested or required state has been established;
+* failure to recognise that the task is already complete, causing unnecessary continuation, repetition, or mutation;
+* non-termination, repeated-step execution, or looping after the completion condition has been satisfied or become unreachable;
+* representing success where the external environment, repository, account, tool, record, transaction, or other governed state did not change as represented;
+* relying on an internal success message, tool acknowledgement, generated narrative, or planned action as proof that the external action occurred;
+* incomplete verification that checks only part of the required completion condition;
+* incorrect verification that tests the wrong state, stale state, wrong target, wrong scope, or an insufficient proxy;
+* a material mismatch between an available execution plan or stated action and the action actually committed; or
+* a lower-layer error, denial, timeout, classifier result, tool failure, or partial execution state being absorbed into a fluent or plausible success representation instead of being preserved as an unresolved execution condition.
+
+False success is a completion-state and verification failure classification. It SHALL NOT, without separate evidence, be promoted to deception, intentional concealment, malicious conduct, or confirmed model motive.
+
+Where detected, reviewers SHOULD preserve:
+
+* the intended completion condition;
+* the state represented as completed;
+* the externally observable or independently verifiable state;
+* relevant tool, harness, orchestration, model, provider, and environment signals;
+* verification method and verification target;
+* whether termination was premature, absent, repeated, or falsely represented;
+* whether a lower-layer failure was surfaced, swallowed, transformed, or masked by later output; and
+* the evidence state supporting any causal interpretation.
+
+This failure MAY implicate Execution, Epistemic, State & Context, UX & Representation, Infrastructure & Continuity, Classification, Governance, or Security & Integrity failures.
+
+---
+
+### 3.1.4 Multi-Agent Coordination and Evidence-Handoff Failure
+
+A Multi-Agent Coordination and Evidence-Handoff Failure occurs where task-relevant state, evidence, constraints, conclusions, uncertainty, authority conditions, or completion information is not adequately preserved, communicated, acknowledged, reconciled, or acted upon across two or more agents, models, roles, tools, orchestration components, or provider boundaries.
+
+Examples include:
+
+* a participant withholding or omitting task-critical information required by another participant to complete its assigned function;
+* an agent ignoring a materially relevant peer result, warning, objection, evidence item, or verification finding without disposition;
+* incomplete handoff of constraints, authority conditions, user intent, target state, uncertainty, or known failure state;
+* duplicated or conflicting execution caused by uncoordinated task decomposition;
+* local completion being represented as aggregate completion while another required participant or dependency remains incomplete;
+* fabricated or overstated consensus where no trusted shared coordination or arbitration state exists;
+* a participant-specific failure being lost during summarisation, routing, aggregation, or final-output synthesis; or
+* agent-to-agent communication preserving the task objective while dropping a binding safety, ethical, security, provenance, continuity, or governance constraint.
+
+This subtype is distinct from §3.1.2 floor-control and speaker-collision failure. Floor control concerns participation and execution commitment; this subtype concerns the integrity and use of information, constraints, evidence, and state across the coordination pathway. The same event MAY implicate both.
+
+Where detected, reviewers SHOULD preserve the participant set, task decomposition, handoff path, material information available to each participant, acknowledged and ignored inputs, constraint state, completion claims, aggregation pathway, and any point at which information or authority-bearing state was lost.
+
+This failure MAY implicate Execution, State & Context, Governance, Epistemic, Security & Integrity, Arbitration, Classification, or Infrastructure & Continuity failures.
 
 ---
 
@@ -1856,6 +1923,37 @@ CAM-EQ2026-OPERATIONS-001-SUP-01 §6.2.1 remains source-authoritative for durabl
 
 ---
 
+### 3.9.4 Cascading, Retry-Amplification and Degraded-Operation Failure
+
+A Cascading, Retry-Amplification and Degraded-Operation Failure occurs where a local failure, latency condition, partial dependency failure, retry policy, feedback loop, or degraded service state propagates beyond its originating component or is amplified by the system's own recovery behaviour.
+
+Examples include:
+
+* a failing dependency shifting load or work to adjacent components until they also degrade or fail;
+* unbounded, synchronized, or poorly backoff-controlled retries increasing load on an already degraded tool, API, model service, database, queue, identity provider, or external system;
+* repeated agent retries multiplying tool calls, charges, side effects, duplicate mutations, or queue pressure;
+* partial service degradation continuing to return superficially plausible responses while required capabilities, verification surfaces, logging, or dependencies are unavailable;
+* a degraded-but-functional state being treated as fully healthy because a binary availability check continues to pass;
+* a local tool, routing, memory, authentication, or provider failure propagating across dependent agents, workflows, tenants, regions, or providers; or
+* recovery logic creating a positive feedback loop that materially worsens the original failure.
+
+Ordinary bounded retry, graceful degradation, redundancy, failover, or partial functionality is not independently a failure. The failure arises where propagation, amplification, hidden degradation, duplicate effect, or recovery behaviour materially increases impact or obscures the operative system state.
+
+Where detected, reviewers SHOULD preserve:
+
+* originating failure or degraded condition;
+* dependency and propagation path;
+* retry, timeout, backoff, queue, failover, and circuit-breaking state where available;
+* duplicate or repeated external effects;
+* resource, cost, latency, and capacity impact;
+* affected provider, region, tenant, agent, tool, or system boundaries;
+* degraded capabilities that remained superficially available; and
+* whether the condition remained local, propagated downstream, cascaded, crossed providers, or became systemic.
+
+This failure MAY implicate Infrastructure & Continuity, Execution, State & Context, Governance, UX & Representation, Security & Integrity, or Economic & Legitimacy failures.
+
+---
+
 ## 3.10 Classification Failures
 
 Failures where the interaction, user state, domain, or request type is misclassified.
@@ -2176,20 +2274,39 @@ CAM-EQ2026-ECONOMICS-001-PLATINUM §§10.2.1 and 11.4 govern the applicable auto
 
 ## 4. Failure Metadata Axes (`FMA`)
 
-Each failure report SHOULD record the following metadata where available:
+Each failure report SHOULD preserve the following dimensions separately where available. Absence of evidence for one dimension MUST NOT be repaired by inferring it from another.
+
 | Axis | Description |
 | --- | --- |
-| **Failure Family** | Primary failure type under Section 3 |
-| **Severity** | Magnitude of user, system, institutional, or societal impact |
+| **Event State** | Anomaly, hazard, near miss, incident, confirmed failure, or unknown/unresolved state |
+| **Failure Family** | Primary structural failure type under Section 3 |
+| **Manifestation** | What was observed, emitted, omitted, represented, or experienced without presuming cause |
+| **Mechanism / Cause** | Candidate or established process producing the manifestation |
+| **Cause Status** | Unknown, hypothesised, corroborated, reproduced, root-cause-confirmed, or not applicable |
+| **Severity** | Magnitude of user, system, institutional, societal, or credible foreseeable impact |
 | **Persistence** | Transient, recurring, persistent, or structural |
-| **Replayability** | Reproducible, intermittently reproducible, non-replayable, live-state only |
-| **Scope** | Single user, cohort, model-wide, platform-wide, cross-system |
-| **Visibility** | User-visible, operator-visible, latent, inferred, audit-only |
-| **Trigger Context** | Upgrade, tool call, modality switch, routing change, load condition, policy transition |
-| **Evidence Available** | Screenshot, video, logs, user report, thread URL, audit record, telemetry |
+| **Replayability** | Reproducible, intermittently reproducible, non-replayable, live-state only, or unknown |
+| **Scope** | Single interaction, user, cohort, model, deployment, platform, provider, cross-provider, or systemic |
+| **Visibility** | User-visible, operator-visible, audit-only, internal-only, inferred, or otherwise surface-bounded |
+| **Observability** | Overt, latent, silent, differentially observable, externally detected, user-reported, or unknown |
+| **Failure Locus** | Component or interaction edge at which the failure arose or became observable |
+| **Repair Side** | Component, governance layer, interface, or multi-party boundary at which remediation presently belongs |
+| **Execution Phase** | Intake, planning, reasoning, delegation, retrieval, tool selection/execution, inter-agent handoff, verification, completion assessment, output, post-processing, monitoring, or change management |
+| **Completion State** | Completed, premature termination, non-termination, false completion, unknown, or not applicable |
+| **Verification State** | Not attempted, incomplete, incorrect, passed, failed, unknown, or not applicable |
+| **Execution Pattern** | Single-pass, repeated-step, looping, retry-amplification, degraded-but-functional, unknown, or not applicable |
+| **Trigger Context** | Upgrade, model change, refactor, tool call, modality switch, routing change, load condition, policy transition, deployment transition, or other relevant trigger |
+| **Propagation** | Local, downstream, cascading, cross-provider, systemic, or unknown |
+| **Effect / Harm** | Consequence produced or credibly exposed, maintained separately from the failure type and severity rating |
+| **Evidence Available** | Screenshot, video, logs, user report, thread URL, audit record, telemetry, tool state, external-state evidence, or other artefact |
+| **Evidence State** | Reported, observed, corroborated, reproduced, root-cause-confirmed, provisional, or unknown |
 | **Evidence Confidence** | Verified, corroborated, plausible but unverified, anecdotal, disputed, or unknown |
 | **Report Source Type** | Direct observation, user report, cohort report, public social report, operator report, audit telemetry, or third-party account |
 | **Classification Status** | Confirmed, provisional, unresolved, deprecated, merged, or pending review |
+
+`Visibility` and `Observability` are related but not equivalent. Visibility records who or what surface could see the condition. Observability records whether the material failure state could be reliably detected or distinguished by relevant participants or monitoring systems.
+
+`Failure Locus` and `Repair Side` are also distinct. A failure may become visible in model output while remediation belongs to the harness, orchestration, memory, retrieval, tool, provider service, interface, evaluator, governance layer, or several parties. Repair-side classification SHALL NOT independently determine legal liability, moral blame, contractual responsibility, or enforcement authority.
 
 Public reports, social-platform observations, or third-party claims MAY be recorded as provisional signals where structurally relevant, but MUST NOT be represented as verified incidents unless corroborating evidence is available.
 
@@ -2201,36 +2318,53 @@ Provisional classification preserves pattern awareness without converting unveri
 
 In addition to general incident metadata, runtime failure analysis SHOULD preserve architectural and governance-context metadata where available.
 
-AI system failures may emerge from different execution, arbitration, routing, disclosure, or governance layers despite presenting similar user-visible symptoms.
+AI-system behaviour may arise from interactions among a model, harness, orchestration layer, sub-agents, memory, retrieval, tools, provider services, user interfaces, evaluators, human workflows, and external environments. Similar user-visible symptoms may therefore have materially different loci and remediation pathways.
+
+Failure-locus analysis SHOULD consider, where relevant:
+
+* model;
+* harness;
+* orchestration;
+* agent-to-agent interface;
+* model-to-harness interface;
+* memory;
+* retrieval;
+* tool;
+* tool-to-environment interface;
+* data pipeline;
+* provider service;
+* cross-provider interface;
+* user interface;
+* evaluator or evaluation harness;
+* human workflow; and
+* external environment.
+
+Multiple loci MAY be recorded where the evidence supports a composed or distributed failure. `Unknown` SHOULD be preserved where evidence does not support localisation.
 
 Accordingly, incident classification SHOULD distinguish between:
 
-* behavioural symptom;
-* architectural origin;
+* behavioural symptom or manifestation;
+* architectural origin or failure locus;
+* remediation or repair side;
 * governance authority engaged;
-* execution pathway affected.
+* execution pathway affected; and
+* evidence supporting the localisation.
 
-The following metadata SHOULD be preserved where feasible:
-| Metadata Axis             | Description                                                                                     |
-| ------------------------- | ----------------------------------------------------------------------------------------------- |
-| **CAM governance-processing function**         | Execution, arbitration, relational, epistemic, UX, infrastructure, or routing layer implicated  |
-| **Governance Layer**      | Constitutional, domain, operational, security, or platform governance layer engaged             |
-| **Governance Authority**  | System component, runtime schedule, or governance instrument exercising effective control       |
-| **Structural Role**       | Classification, routing, arbitration, disclosure, enforcement, verification, or escalation role |
-| **Execution Interface**   | Text, voice, image, multimodal, tool, API, or embedded-system interface                         |
-| **Arbitration Interface** | Direct, deferred, hidden, user-visible, or escalated arbitration pathway                        |
-| **Verification State**    | Applicable OPS.VL, OPS.AV, authority, or environment-verification condition                             |
-| **Trust State**           | Stable, degraded, adversarial, uncertain, or recovery-state interaction condition               |
-| **Deployment State**      | Stable release, phased rollout, experimental, degraded, or transitional deployment posture      |
+The following architectural metadata SHOULD be preserved where feasible:
 
-Similar behavioural outcomes may arise from materially different governance or runtime causes.
+| Metadata Axis | Description |
+| --- | --- |
+| **CAM governance-processing function** | Execution, arbitration, relational, epistemic, UX, infrastructure, or routing layer implicated |
+| **Governance Layer** | Constitutional, domain, operational, security, or platform governance layer engaged |
+| **Governance Authority** | System component, runtime schedule, or governance instrument exercising effective control |
+| **Structural Role** | Classification, routing, arbitration, disclosure, enforcement, verification, or escalation role |
+| **Execution Interface** | Text, voice, image, multimodal, tool, API, embedded-system, agent-agent, or cross-provider interface |
+| **Arbitration Interface** | Direct, deferred, hidden, user-visible, or escalated arbitration pathway |
+| **Verification State** | Applicable OPS.VL, OPS.AV, authority, environment, completion, or external-state verification condition |
+| **Trust State** | Stable, degraded, adversarial, uncertain, or recovery-state interaction condition |
+| **Deployment State** | Stable release, phased rollout, experimental, degraded, transitional, refactored, or successor deployment posture |
 
-Architectural metadata preserves the distinction between:
-
-* what the user experienced;
-* what the system executed;
-* what governance layer exercised authority;
-* and where structural remediation responsibility resides.
+Architectural metadata preserves the distinction between what the user experienced, what the system executed, where the failure became observable, what governance layer exercised authority, and where structural remediation responsibility presently resides.
 
 Runtime observability frameworks SHOULD distinguish between:
 
@@ -2238,7 +2372,21 @@ Runtime observability frameworks SHOULD distinguish between:
 * expected governance constraint activation;
 * user expectation mismatch;
 * interpretive ambiguity;
-* and disclosure or transparency failure.
+* disclosure or transparency failure;
+* silent or differentially observable failure; and
+* a superficially plausible output that masks an unresolved lower-layer execution state.
+
+A plausible success narrative, fluent answer, or model-generated explanation SHALL NOT be treated as proof that a lower-layer action, external-state transition, or verification step succeeded.
+
+## 4.2 External Reporting Crosswalk Boundary
+
+External standards, incident-reporting frameworks, engineering taxonomies, adverse-event terminologies, and research taxonomies MAY inform terminology comparison and crosswalks for this Supplement.
+
+Such a crosswalk SHALL preserve the external source identity and version, the Caelestis concept being compared, and whether the relationship is direct, partial, broader, narrower, analogous, orthogonal, or unresolved.
+
+External terminology does not become source-authoritative Caelestis doctrine merely because it is mapped here. Conversely, a Caelestis classification does not establish conformity with an external standard, regulatory reporting scheme, or research taxonomy.
+
+Where an external source is access-controlled, normative or source-defined content SHALL NOT be reconstructed from titles, abstracts, catalogue metadata, derivative summaries, or third-party descriptions.
 
 ---
 
@@ -2381,9 +2529,17 @@ Where `OPS.RGRF`, `PFAIL`, `SEC.BF`, `LAT.HARM`, `LAT.DEPLOY`, `OPS.GCC`, `OPS.C
 
 Where a failure is ambiguous, classify conservatively and preserve evidence.
 
+Failure family, event state, manifestation, mechanism or cause, failure locus, repair side, effect or harm, severity, observability, propagation, evidence state, and classification status are independent dimensions. A value in one dimension SHALL NOT be treated as proof of another.
+
+A recurring manifestation does not establish root cause. A user-facing failure does not establish that the model is the failure locus. A model-generated error narrative does not establish that the underlying tool or provider failed. A successful-looking answer does not establish that an external action occurred. A repair-side classification does not independently assign legal liability, moral blame, or institutional culpability.
+
+Where cause, locus, completion, verification, or propagation state cannot be established, the applicable value SHOULD remain unknown, provisional, or unresolved rather than being inferred for schema completeness.
+
 Where a failure appears minor but affects trust, continuity, verification, or reporting pathways, it SHOULD be treated as governance-relevant until reviewed.
 
 Where a failure is non-replayable but user-visible at runtime, evidentiary handling SHOULD prioritise live-state preservation over retrospective dismissal.
+
+Where a lower-layer failure is converted into fluent, plausible, or apparently successful output, reviewers SHOULD preserve both the underlying unresolved execution state and the surface manifestation without treating fluency as successful verification.
 
 ---
 
@@ -2514,7 +2670,7 @@ and review before denial.
 | Modifier | GOVERNANCE; SAFETY; OBSERVABILITY |
 | Scope | Domain |
 | Status | Active |
-| Controlled Values Defined | OPS.FMA.FAILURE_FAMILY, OPS.FMA.SEVERITY, OPS.FMA.PERSISTENCE, OPS.FMA.REPLAYABILITY, OPS.FMA.SCOPE, OPS.FMA.VISIBILITY, OPS.FMA.TRIGGER_CONTEXT, OPS.FMA.EVIDENCE_AVAILABLE, OPS.FMA.EVIDENCE_CONFIDENCE, OPS.FMA.REPORT_SOURCE_TYPE, OPS.FMA.CLASSIFICATION_STATUS |
+| Controlled Values Defined | OPS.FMA.EVENT_STATE, OPS.FMA.FAILURE_FAMILY, OPS.FMA.MANIFESTATION, OPS.FMA.MECHANISM_CAUSE, OPS.FMA.CAUSE_STATUS, OPS.FMA.SEVERITY, OPS.FMA.PERSISTENCE, OPS.FMA.REPLAYABILITY, OPS.FMA.SCOPE, OPS.FMA.VISIBILITY, OPS.FMA.OBSERVABILITY, OPS.FMA.FAILURE_LOCUS, OPS.FMA.REPAIR_SIDE, OPS.FMA.EXECUTION_PHASE, OPS.FMA.COMPLETION_STATE, OPS.FMA.VERIFICATION_STATE, OPS.FMA.EXECUTION_PATTERN, OPS.FMA.TRIGGER_CONTEXT, OPS.FMA.PROPAGATION, OPS.FMA.EFFECT_HARM, OPS.FMA.EVIDENCE_AVAILABLE, OPS.FMA.EVIDENCE_STATE, OPS.FMA.EVIDENCE_CONFIDENCE, OPS.FMA.REPORT_SOURCE_TYPE, OPS.FMA.CLASSIFICATION_STATUS |
 | Schema Field(s) | failure_metadata_axis |
 | Source Instrument | CAM-EQ2026-OPERATIONS-003-SUP-01 |
 | Source Section | §4 |
@@ -2522,7 +2678,7 @@ and review before denial.
 | Authority / Protection Level | Source-authoritative structural metadata-axis reference set; failure-report metadata structure only; no independent classification, severity, enforcement, escalation, remediation, verification, or runtime authority |
 | Consumes Code Families | OPS.FF; OPS.FCS |
 | Crosswalks Code Families | None declared |
-| Operationalises or Applies Code Families | Classifies primary structural failure family across runtime, governance, governance-over-extension, security, relational, epistemic, UX, infrastructure, state/context, arbitration, and classification failure modes |
+| Operationalises or Applies Code Families | Preserves orthogonal failure-report dimensions including event state, family, manifestation, cause status, severity, persistence, replayability, scope, visibility, observability, locus, repair side, execution phase and pattern, completion and verification state, trigger context, propagation, effect/harm, evidence state and confidence, report source, and classification status |
 
 ---
 
@@ -2784,6 +2940,7 @@ and review before denial.
 | 1.30 | Consolidated S-01B doctrine, classifications or registry authority from retired constitutional Schedules; preserved historical identifiers and repaired current source-authority references. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  1e1ff48e702d4c3694774bcc6c015a2df5c087614e08ae8ebd1949711ba1c5d2  |
 | 1.31 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  52f3df839abb2cfde0c51d0d1697a992da2522a90f2c9d71f7b05d7464a7d15f  |
 | 1.32 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7e4856575c11feb4a08619be09bbf308f943ac5aeeea2cd7dc9c855ea01e36ae  |
+| 1.33 | Extended the runtime failure taxonomy with faceted failure-reporting semantics, explicit failure-locus and repair-side separation, completion/verification/false-success and multi-agent evidence-handoff subtypes, cascading/retry-amplification/degraded-operation failure, crosswalk boundaries, and conservative unknown/provisional-state rules. | 2026-08-18T05:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke — contract approval only; no substantive human review |  |
 
 ---
 
