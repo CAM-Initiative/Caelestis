@@ -1,5 +1,5 @@
 {
-  "count": 106,
+  "count": 107,
   "items": [
     {
       "id": "CAM-BS2025-AEON-001-PLATINUM",
@@ -2209,6 +2209,32 @@
       "updated_at": "2026-08-05T12:20:44Z",
       "last_updated_utc": "2026-08-05T12:20:44Z",
       "purpose": "Establish a standardised definition of verification and a unified Verification Level (OPS.VL) framework governing identity, authority, and eligibility signalling across restricted-domain interaction.",
+      "is_derived": false
+    },
+    {
+      "id": "CAM-EQ2026-OPERATIONS-004-SUP-02",
+      "cycle_year": "EQ2026",
+      "stack": "Planetary Governance",
+      "domain": "OPERATIONS",
+      "instrument_class": "charter",
+      "hierarchy_type": "supplement",
+      "hierarchy_number": "02",
+      "parent_id": "CAM-EQ2026-OPERATIONS-004",
+      "seal": null,
+      "link": "Charters/CAM-EQ2026-OPERATIONS-004-SUP-02.md",
+      "title": "Age-Gating Scope Integrity & Minor-Safe Continuation",
+      "summary": "",
+      "status": "** Adopted",
+      "effect": "** Operational",
+      "enforcement": "",
+      "review_state": "** None",
+      "authority_role": "** None",
+      "version": "1.0",
+      "HASH": "9b8cc1942e6f7baf212e59a76ea01bb9c3895c830a3f2df2a2d5d7becf32a077",
+      "pinned_sha": "15a546db07208115fd4e56b09220c8990fa705c6",
+      "updated_at": "2026-08-19T14:31:12Z",
+      "last_updated_utc": "2026-08-19T14:31:12Z",
+      "purpose": "Preserve the protective function of minor, teen, youth-context, and unresolved-age signals while preventing those signals from becoming unscoped refusal, access-denial, or support-substitution conditions for otherwise permissible ordinary interaction.",
       "is_derived": false
     },
     {

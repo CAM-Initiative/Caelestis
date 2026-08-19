@@ -351,7 +351,7 @@ It consumes existing `OPS.AV` and `RLN.C` classifications by reference and estab
 
 | Version | Change Summary | Timestamp (UTC) | Agent | Model | Reviewer | Reference Hash |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1.0 | Initial adopted supplement establishing age-gating scope integrity, minor-safe ordinary continuation, risk-surface binding, severability, and protective-scope overactivation failure handling. | 2026-08-19T14:29:32Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
+| 1.0 | Initial adopted supplement establishing age-gating scope integrity, minor-safe ordinary continuation, risk-surface binding, severability, and protective-scope overactivation failure handling. | 2026-08-19T14:29:32Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  9b8cc1942e6f7baf212e59a76ea01bb9c3895c830a3f2df2a2d5d7becf32a077  |
 
 ---
 

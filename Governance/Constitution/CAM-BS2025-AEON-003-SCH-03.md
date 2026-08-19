@@ -150,6 +150,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-OPERATIONS-001-SUP-04](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md) | Taxonomies & Metadata Authority Framework (Supplement 4) | Supplement | 2.2 | Adopted | Operational | Metadata Review Required | None | Operational Taxonomy & Metadata Maintenance Authority |
 | [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.25 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.8 | Adopted | Operational | Metadata Review Required | None | None |
+| [CAM-EQ2026-OPERATIONS-004-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-02.md) | Age-Gating Scope Integrity & Minor-Safe Continuation | Supplement | 1.0 | Adopted | Operational | Metadata Review Required | None | None |
 
 ## RELATION
 
