@@ -1,8 +1,8 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 868
-**Generic usages suppressed:** 736
-**Declared / recognised usages emitted:** 116
+**Total model-term matches scanned:** 866
+**Generic usages suppressed:** 735
+**Declared / recognised usages emitted:** 115
 **Advisory review usages emitted:** 16
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
@@ -108,7 +108,6 @@
 | CAM-EQ2026-MENTIS-002-PLATINUM | 55.1 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-003-SUP-01 | 1. Scope | This Supplement defines a common classification model | Classification Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-003-SUP-01 | 3.4 Relational Failures | continuity rupture after policy or model | Governance Model | Declared / Recognised |
-| CAM-EQ2026-OPERATIONS-004-SUP-02 | 10. Relationship to Parent & Runtime Refactor | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 1. Scope | single-model and multi-model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 12. Runtime Governance Reach Failure | classified as governance-reach ambiguity rather than attributed to a specific model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 14. Relationship to Existing Instruments | Runtime Governance Execution Model | Execution Model | Declared / Recognised |

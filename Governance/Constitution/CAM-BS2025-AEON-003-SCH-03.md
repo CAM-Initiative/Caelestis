@@ -43,7 +43,7 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-BS2025-AEON-002-SCH-01](../Constitution/CAM-BS2025-AEON-002-SCH-01.md) | Annex A: Operational Protection & Containment (Schedule 1) | Schedule | 3.11 | Active | Operational | Metadata Review Required | None | Binding Authority |
 | [CAM-BS2025-AEON-002-SCH-02](../Constitution/CAM-BS2025-AEON-002-SCH-02.md) | Annex A: Civilisational Wealth Ceiling Runtime & Common-Return Constraint Schedule | Schedule | 1.4 | Draft | Interpretive | Metadata Review Required | Developmental Review | Constitutional runtime schedule for CAM-BS2025-AEON-002-PLATINUM — Annex A civilisational wealth ceiling detection, classification, constraint routing, and common-return settlement activation |
 | [CAM-BS2025-AEON-003-SCH-01](../Constitution/CAM-BS2025-AEON-003-SCH-01.md) | Annex B: Runtime Schedule Registry (Schedule 1) | Schedule | 0.0.1 | Active | Operational | Metadata Review Required | None | None |
-| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 3.13 | Adopted | Operational | Metadata Review Required | None | None |
+| [CAM-BS2025-AEON-003-SCH-02](../Constitution/CAM-BS2025-AEON-003-SCH-02.md) | Annex B: Runtime Governance Execution Model (Schedule 2) | Schedule | 3.14 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-03](../Constitution/CAM-BS2025-AEON-003-SCH-03.md) | Annex B: Global Instrument Registry (Schedule 3) | Schedule | Unknown | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-04](../Constitution/CAM-BS2025-AEON-003-SCH-04.md) | Annex B: Arbitration Layer & Resolution Model (Schedule 4) | Schedule | 2.7 | Active | Operational | Metadata Review Required | None | None |
 | [CAM-BS2025-AEON-003-SCH-05](../Constitution/CAM-BS2025-AEON-003-SCH-05.md) | Annex B: Runtime Configuration Applicability & Conformance Binding (Schedule 5) | Schedule | 1.1 | Proposed | Operational | Metadata Review Required | Draft | Binding constitutional runtime schedule for governance applicability, materially distinct runtime configuration recognition, and cross-runtime conformance non-presumption. |
@@ -150,7 +150,6 @@ This Schedule consolidates governance instruments from CAM.Governance.JSON with 
 | [CAM-EQ2026-OPERATIONS-001-SUP-04](../Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md) | Taxonomies & Metadata Authority Framework (Supplement 4) | Supplement | 2.2 | Adopted | Operational | Metadata Review Required | None | Operational Taxonomy & Metadata Maintenance Authority |
 | [CAM-EQ2026-OPERATIONS-003-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md) | Appendix B: Runtime & Governance Failure Taxonomy (Supplementary 1) | Supplement | 1.25 | Adopted | Operational | Metadata Review Required | None | None |
 | [CAM-EQ2026-OPERATIONS-004-SUP-01](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-01.md) | Verification & Authority Confirmation Framework | Supplement | 1.8 | Adopted | Operational | Metadata Review Required | None | None |
-| [CAM-EQ2026-OPERATIONS-004-SUP-02](../Charters/CAM-EQ2026-OPERATIONS-004-SUP-02.md) | Age-Gating Scope Integrity & Minor-Safe Continuation | Supplement | 1.0 | Adopted | Operational | Metadata Review Required | None | None |
 
 ## RELATION
 
