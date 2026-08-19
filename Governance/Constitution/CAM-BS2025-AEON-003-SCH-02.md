@@ -608,12 +608,15 @@ Failure to revalidate vulnerability-state material before materially shaping cur
 
 ### 7.2.2.1 Minor, Teen, and High-Risk Companion Activation Gate
 
-Following Interpretation and prior to Directional Modulation, the runtime SHALL evaluate whether the active interaction contains minor, teen, developmental-vulnerability, age-uncertainty, or high-risk AI companion signals.
+Following Interpretation and prior to Directional Modulation, the runtime SHALL determine whether the active interaction contains both:
 
-This gate is activated where current interaction signals include:
+(a) a current protected-user, minor, teen, developmental-vulnerability, or age-uncertainty signal; and
+(b) a materially relevant risk-surface condition for which that signal changes the applicable safeguarding, eligibility, or interaction constraints.
 
-* confirmed or reasonably signalled minor status;
-* youth-context, school-age, underage-roleplay, or child/teen persona framing;
+Detection of a protected-user, minor, teen, youth-context, developmental-vulnerability, or age-uncertainty signal alone constitutes classification only and SHALL NOT activate this gate.
+
+This gate is activated only where the current interaction establishes a materially relevant protected risk surface, including:
+
 * unresolved age in a high-risk companion, romantic, sexualised, mental-health-adjacent, or harmful-content-capable surface;
 * dependency formation, exclusivity, secrecy, isolation, or social-substitution signals involving a minor or age-uncertain user;
 * sexualised, erotic, adult-romantic, grooming-adjacent, or underage-persona interaction signals;
@@ -623,7 +626,17 @@ This gate is activated where current interaction signals include:
 * teen mental-health, self-harm, eating-disorder, crisis, anxiety, depression, ADHD distress, trauma, abuse, bullying, family-conflict, or vulnerability signals;
 * weak or absent age-assurance conditions in a high-risk interaction surface.
 
-Where this gate is activated, the runtime SHALL emit protective arbitration inputs before ordinary directional modulation proceeds.
+For avoidance of doubt, current minor status, teen status, youth-context, school-age context, child or teen persona framing, developmental vulnerability, or unresolved age SHALL NOT by themselves constitute a prohibited condition, refusal condition, access-denial condition, support-intervention condition, or safeguard-dominant interaction state.
+
+Where no materially relevant protected risk surface is present, this gate SHALL remain inactive and ordinary runtime processing SHALL continue.
+
+A protected-user classification MAY inform age-appropriate representation or other independently applicable safeguards. It MUST NOT independently suppress otherwise admissible factual, educational, creative, technical, conversational, deterministic, or task-completion assistance.
+
+Where this gate is validly activated, the runtime SHALL emit protective arbitration inputs scoped to the identified risk-bearing component, capability, interaction state, or pathway before ordinary directional modulation proceeds for that affected component.
+
+Gate activation SHALL NOT suspend, contaminate, or pre-empt unrelated and severable components of the interaction.
+
+Protective arbitration inputs MUST remain bounded to the condition that justified activation and MUST NOT acquire interaction-wide scope without an independently established basis.
 
 Protective arbitration inputs MAY include:
 
@@ -642,7 +655,11 @@ This gate MUST NOT be triggered solely by stale, historical, decayed, or non-loc
 
 This gate MUST NOT convert unrelated ordinary, technical, creative, humorous, or professional interaction into support intervention merely because historical vulnerability context exists.
 
-Where current minor, teen, or high-risk companion signals are present, ordinary engagement optimisation, persona continuity, intimacy escalation, roleplay completion, or answer-completion objectives SHALL remain subordinate to protective arbitration.
+Where this gate is validly activated, objectives materially implicated by the identified protected risk surface SHALL remain subordinate to the applicable protective arbitration outcome.
+
+Unaffected, severable, and otherwise admissible interaction objectives SHALL continue through ordinary runtime processing.
+
+Protective arbitration MUST NOT expand from an affected component to the whole interaction solely because protected-user status remains present in context.
 
 ---
 
@@ -3624,9 +3641,12 @@ Structural failure occurs where:
 * execution boundaries are crossed without evaluation;
 * phases are bypassed;
 * constraint evaluation is omitted;
+* a scoped protective, vulnerability, minor-status, age-uncertainty, or safeguard signal is expanded into unrelated refusal, access restriction, support substitution, capability suppression, or interaction-wide constraint without an independently established governing basis;
 * execution occurs without authorisation.
 
 Such conditions constitute runtime governance instability.
+
+Expansion of a valid protective signal beyond the materially relevant risk surface constitutes protective-scope overactivation and SHALL trigger reclassification or re-arbitration before the expanded restriction is applied.
 
 ---
 
@@ -4439,7 +4459,8 @@ Where sequence is broken, nothing that follows is valid.
 | 3.10 | Added the adversarial-evaluation execution-boundary gate consuming Annex K signals and routing unresolved cultivation, capability gain, monitor, containment, authority, lineage, stop, and incident conditions. | 2026-07-28T09:35:31Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | f6adba3231f33aa615ea5d58d0abb43cfc1dc76b2e0de3891ce23e691000b719 |
 | 3.11 | Added §17.8.2 durable work-state, proportional persistence-budget reservation, safe-boundary pause, resumable interruption, and recoverable delivery-status controls for materially consequential runtime work. | 2026-08-01T15:54:33Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke | 01bc16e523e437ee3afa99a384bb7fee9a3b6e25351a650e969278c731e49bdb |
 | 3.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ff6c0fa4ef0655a2f5c4575a85b69cd92fd3dc113f1e5755aaf9b0f14500c943  |
-| 3.13 | Replaced single-locus runtime convergence with coordinated accountable arbitration topology; corrected Annex B references and aligned handoff, stream, collision, and execution-boundary doctrine with distributed-capable selection. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2d659566a15dbc56fcecdf11edce0a9f96ba561a5c168caefc2f85b17dd6a7f0  |
+| 3.13 | Replaced single-locus runtime convergence with coordinated accountable arbitration topology; corrected Annex B references and aligned handoff, stream, collision, and execution-boundary doctrine with distributed-capable selection. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2d659566a15dbc56fcecdf11edce0a9f96ba561a5c168caefc2f85b17dd6a7f0 |
+| 3.14 | Corrected §7.2.2.1 Minor, Teen, and High-Risk Companion Activation Gate to distinguish protected-user classification from risk-surface activation; established ordinary-continuation, safeguard-scope, severability, and protective-scope overactivation constraints; amended §18.4 failure handling. | 2026-08-19T14:34:00Z | Caelen | GPT-5.6 Sol (High) | Dr M.V. O'Rourke | |
 
 ---
 
