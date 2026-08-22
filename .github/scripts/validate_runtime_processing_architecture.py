@@ -2,12 +2,15 @@
 """Validate the constitutional Runtime-processing architecture contract.
 
 This validator protects the frozen ten-phase constitutional topology and authority
-boundaries.  It deliberately does not prescribe implementation-style per-phase
+boundaries. It deliberately does not prescribe implementation-style per-phase
 fields or require domain-specific doctrine to appear in the constitutional engine.
+It also runs the runtime-migration assurance check so the historic schedule
+consolidation cannot silently lose a disposition or current owner.
 """
 
 from __future__ import annotations
 
+import importlib.util
 import re
 import sys
 from pathlib import Path
@@ -17,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[2]
 ENGINE = Path("Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md")
 OPERATIONS = Path("Governance/Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md")
 TRANSITIONS = Path("Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md")
+MIGRATION_VALIDATOR = Path(__file__).with_name("validate_runtime_migration_assurance.py")
 PROFILES = (
     Path("Governance/Standards/CAM-RUNTIME-STATE-PROFILE.md"),
     Path("Governance/Standards/CAM-LIFECYCLE-ACTOR-AGENTIC-PROFILE.md"),
@@ -53,7 +57,7 @@ TECHNICAL_PHASE_LABELS = (
 
 # Domain code families are legitimate in their source instruments, but embedding
 # them in the operative constitutional processing spine couples the Constitution
-# to subordinate classifications.  Exact instrument identifiers remain permitted.
+# to subordinate classifications. Exact instrument identifiers remain permitted.
 SCOPED_DOMAIN_CODE_RE = re.compile(
     r"\b(?:RLN|OPS|SEC|ETH|ID|ECON|LATTICE|MENTIS|STW)\.[A-Z0-9][A-Z0-9._-]*\b"
 )
@@ -75,6 +79,15 @@ def instrument_ids(root: Path) -> set[str]:
 def operative_engine_text(engine: str) -> str:
     marker = "## 6. Provenance & Metadata"
     return engine.split(marker, 1)[0] if marker in engine else engine
+
+
+def migration_assurance_issues(root: Path) -> list[str]:
+    spec = importlib.util.spec_from_file_location("runtime_migration_assurance", MIGRATION_VALIDATOR)
+    if spec is None or spec.loader is None:
+        return ["runtime migration assurance validator cannot be loaded"]
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return [f"migration assurance: {issue}" for issue in module.validate(root)]
 
 
 def validate(root: Path = ROOT) -> list[str]:
@@ -160,6 +173,7 @@ def validate(root: Path = ROOT) -> list[str]:
         if profile_authority.search(text):
             issues.append(f"profile creates execution authority: {profile}")
 
+    issues.extend(migration_assurance_issues(root))
     return issues
 
 
@@ -172,7 +186,7 @@ def main() -> int:
         return 1
     print(
         "Runtime-processing architecture validation passed "
-        "(10-phase constitutional topology; authority, re-entry and representation boundaries intact)."
+        "(10-phase constitutional topology; authority, re-entry, representation and migration-assurance boundaries intact)."
     )
     return 0
 
