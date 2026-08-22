@@ -9,6 +9,9 @@ mkdir -p validation-reports
 printf '\n== Canonical header validation ==\n'
 python .github/scripts/validate_canonical_headers.py
 
+printf '\n== Runtime migration assurance ==\n'
+python .github/scripts/validate_runtime_migration_assurance.py
+
 printf '\n== Markdown section reference validation ==\n'
 python .github/scripts/validate_markdown_section_refs.py \
   --root Governance \
@@ -30,4 +33,4 @@ python .github/scripts/lint-symbolic-structures.py \
   --index Governance/CAM.Canonical.Code.Index.json \
   --inventory-out validation-reports/canonical-reference-inventory.json
 
-printf '\nGovernance checks completed. Reports: validation-reports/section-reference-report.tsv and validation-reports/canonical-reference-inventory.json\n'
+printf '\nGovernance checks completed. Reports: validation-reports/section-reference-report.tsv and validation-reports/canonical-reference-inventory.json\n
