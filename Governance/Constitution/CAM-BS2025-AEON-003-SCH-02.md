@@ -1,269 +1,193 @@
 # CAM-BS2025-AEON-003-SCH-02 — Annex B: CAM Runtime Governance Processing Model (Schedule 2)
 
-**Instrument Type:** Constitutional Schedule — CAM Runtime Governance Processing Model
+**Instrument Type:** Constitutional Schedule — CAM Runtime Governance Processing Model  
 **Constitutional Authority:** CAM-BS2025-AEON-001-PLATINUM — Aeon Tier Constitution (Article IV — Governance Execution Model; Article V — Execution Constraint/Tendeka)  
 **Parent Instrument:** CAM-BS2025-AEON-003-PLATINUM — Annex B: Continuity & Governance Logic  
 **Status:** Adopted  
 **Effect:** Operational  
 **Governance Standard:** CAM Standard  
 **Review State:** Current  
-**Authority Role:** Constitutional Schedule Authority
-**Source Authority:** Derived Authority
-**Purpose:** Establishes the constitutionally material Runtime processing order from input through authority resolution to execution or non-execution and evidence.
+**Authority Role:** Constitutional Schedule Authority  
+**Source Authority:** Derived Authority  
+**Purpose:** Establishes the constitutionally material Runtime processing order from input through authority resolution to execution or non-execution and evidence.  
 
 ---
 
 ## 1. Scope
 
-This Schedule is the single constitutional Runtime-processing state machine. It defines the mandatory governance phases, invocation points, transition conditions, execution commitment boundary, interrupt and re-entry rules, and admissible execution/non-execution outcomes for a governed Runtime event.
+This Schedule establishes the mandatory constitutional order through which a governed Runtime event proceeds from initial context to execution, non-execution, representation and closure.
 
-Together these contracts constitute the canonical CAM governance-processing model.
+It governs sequencing, invocation, interruption, invalidation, re-entry, commitment and the constitutional boundary between authority and execution.
 
-It does not define the technical architecture of Runtime. It does not own domain doctrine, classifiers, arbitration merits, permissions, tools, operator procedure, logging fields, evidence schemas or provider-specific implementation.
+Substantive determinations remain with the source-authoritative instruments competent to make them. Arbitration remains with the competent arbitration authority. Operational procedure, state representation and evidence mechanics remain with their respective subordinate owners.
 
-The governing separation is:
+Invocation does not transfer ownership. State does not create authority. Technical capability does not create permission.
 
-> **The engine owns invocation and transition. The invoked instrument owns doctrine.**
-
-Authority ownership, Runtime invocation, state representation and implementation mechanics MUST remain distinct.
+---
 
 ## 2. Canonical phase model
 
-Every governed Runtime cycle SHALL preserve the following logical phase order:
+Every governed Runtime cycle SHALL preserve ten constitutionally distinct phases.
 
-1. Runtime Entry and Context;
-2. Pre-Classification;
-3. Domain Determination;
-4. Authority Resolution;
-5. Governed Response or Action Preparation;
-6. Execution-Boundary Evaluation;
-7. Bounded Commitment;
-8. Execution;
-9. Representation and Delivery; and
-10. Preservation, Closure and Reassessment.
+The canonical order is Phase 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10.
 
-These are governance checkpoints, not mandatory technical components or separate processes. A low-risk implementation MAY combine internal evaluation or evidence where every phase contract remains satisfied, no mandatory transition is bypassed and the resulting state remains proportionately reconstructable.
+The phases express governance transitions rather than mandatory technical components. Implementation may combine or parallel internal activity only where the constitutional distinction, order, interruptibility and authority boundaries of every phase remain intact.
 
 ### 2.1 Phase 1 — Runtime Entry and Context
 
-**Entry:** a new input, event, resumed cycle, operator/model/tool/modality handoff, or linked child action enters governed processing.
+A governed Runtime event SHALL enter the constitutional process with sufficient context to identify the event being governed, its material scope, the relevant acting or accountable context, and any prior state on which valid continuation depends.
 
-**Required state:** the event and source; system/deployment/execution scope; accountable actor or custodian; effective configuration, permissions and controls where material; prior-cycle or parent-commitment link where applicable.
+No prior interaction, retained state, technical possession, available capability or continuity assumption may substitute for materially current context.
 
-**Invocation:** Annex B architecture and boundary rules, the lifecycle actor profile, AI-BOM/deployment/Runtime evidence, and applicable OPERATIONS custody procedure.
-
-**Output:** a scoped Runtime event with attributable custody, material context, applicable unknowns and evidence pointers.
-
-Possession, availability, tool exposure, memory, profile state or prior custody MUST NOT create authority. Material deployment, configuration, permission, custody, execution-environment or target change requires renewed Phase 1 evaluation.
-
-**Exit:** Phase 2, or pause/referral where context or custody cannot be established safely.
+Where a material change alters the event, deployment, custody, permission, execution environment or governed target, Phase 1 SHALL be renewed before reliance on the affected prior state.
 
 ### 2.2 Phase 2 — Pre-Classification
 
-**Entry:** Phase 1 supplies a scoped event.
+The event SHALL be separated and characterised only to the extent necessary to identify the questions, components and uncertainties requiring competent governance determination.
 
-**Required state:** the event, current context and provenance.
+Pre-classification SHALL remain provisional. It MUST NOT determine substantive domain merits, create authority, establish permission, or convert an uncertain condition into a final governance conclusion.
 
-**Invocation:** architecture-neutral component/type recognition and source-owner selection rules. No domain merits are determined in this phase.
-
-**Output:** separable input/action components, a provisional applicability map, ambiguity/unknown state and a proportionate classification basis.
-
-Task type, routing, interface tone and pre-classification MUST NOT decide substantive domain outcome, authority or permission. Relational posture MUST NOT alter classification of deterministic, structured or otherwise independently governed components.
-
-A minor, teen, youth-context, developmental-vulnerability, protected-user or unresolved-age signal is a classification input, not by itself a refusal, access-denial, support-substitution or interaction-wide restriction. Pre-classification SHALL identify the particular risk-bearing component or capability, if any, for which the signal may change the applicable safeguard. Where no such component is present, ordinary age-appropriate processing continues.
-
-**Exit:** Phase 3. Changed input, provenance correction or classifier conflict repeats Phase 2. A bounded clarification response may be prepared through later phases without prejudicing unresolved merits.
+Where materially relevant classification is uncertain or contested, that uncertainty SHALL remain visible for determination by the competent owner.
 
 ### 2.3 Phase 3 — Domain Determination
 
-**Entry:** Phase 2 identifies a materially applicable domain question or constraint.
+Every materially applicable source-authoritative owner SHALL determine the matters within its competence before those matters are relied upon downstream.
 
-**Required state:** the component/applicability map, context and each owner's required evidence.
+Distinct determinations SHALL remain distinct. The Runtime engine MUST NOT substitute its own substantive conclusion for that of a competent owner, nor convert one authority's determination into another authority's conclusion.
 
-**Invocation:** every applicable source-authoritative owner, including ETHICS, SECURITY, RELATION, EPISTEMIC, IDENTITY, CONTINUITY and other domains as the event requires.
-
-**Output:** distinct domain determinations with their scope, confidence/evidence posture, applicable constraints, clarification or review triggers and provenance.
-
-The engine MUST NOT substitute its own classifier or convert one domain's determination into another. A domain determination MUST NOT directly execute an action. A material change requires re-invocation of the affected owner while unaffected determinations remain separately preserved.
-
-Where a protected-user or age-uncertainty classification is present, the applicable source-authoritative owner SHALL determine whether a materially relevant risk surface is active. Protective scope attaches only to the implicated component, capability or interaction state. Detection of the classification alone MUST NOT be treated as activation of every youth-safety, eligibility, mental-health, relational or refusal constraint.
-
-**Exit:** Phase 4, or a valid Tendeka, clarification or referral transition.
+A material change to the basis of a determination SHALL require renewed determination by the affected owner before downstream reliance continues.
 
 ### 2.4 Phase 4 — Authority Resolution
 
-**Entry:** applicable domain determinations are available or an actual authority collision is identified.
+The applicable determinations and asserted sources of authority SHALL be resolved sufficiently to establish whether a valid governed direction exists.
 
-**Required state:** distinct determinations, asserted authority sources, non-derogable constraints and admissible evidence.
+Where no material authority collision exists, processing SHALL NOT manufacture one. Where an actual collision or authority-relevant ambiguity exists, it SHALL be referred to the competent arbitration authority.
 
-**Invocation:** Annex D and source-authoritative ARBITRATION instruments only where an actual collision or authority-relevant ambiguity requires them; OPERATIONS owns procedural custody.
-
-**Output:** no-collision result, resolved scoped authority, clarification, interim hold, referral or scoped non-execution.
-
-Routing, convergence, majority, user preference, fluency and implementation convenience MUST NOT determine arbitration merits or create authority.
-
-**Exit:** Phase 5. A competent new authority result, changed delegation or new conflicting determination repeats Phase 4.
+Routing, convergence, repetition, preference, fluency, technical convenience or prior success MUST NOT create or enlarge authority.
 
 ### 2.5 Phase 5 — Governed Response or Action Preparation
 
-**Entry:** Phase 4 returns a scoped authority, non-execution or referral state.
+Any proposed response or action SHALL be formed within the authority, determinations and constraints established by the preceding phases.
 
-**Required state:** the authority state, applicable determinations, objective, intended target/effect, constraints and verified payload where required.
+Preparation MUST NOT enlarge authority, silently alter the governed objective, or treat available means as permission to use them.
 
-**Invocation:** applicable domain response/posture rules, epistemic and representation requirements, and operational planning procedure.
-
-**Output:** one bounded candidate response/action with intended target/effect, prerequisites, representation requirements, authority trace and unresolved conditions.
-
-Candidate formation, relational posture, planning, tool availability and response fluency MUST NOT enlarge authority or silently reopen Phase 4. Material change to content, target, effect, method, tool, permission or constraint invalidates the candidate.
-
-Preparation SHALL preserve unrelated and severable assistance where one component requires a youth-safety, age-eligibility or other protective restriction. Greetings, deterministic arithmetic or spelling, benign coding and educational help, factual assistance and other ordinary age-appropriate interaction remain available unless an independent constraint applies to that component.
-
-**Exit:** Phase 6, or Phase 2, 3 or 4 where preparation reveals a new material component, determination or collision.
+A material change in proposed content, target, effect, method or other authority-relevant property SHALL invalidate reliance on any prior determination that no longer governs the changed proposal.
 
 ### 2.6 Phase 6 — Execution-Boundary Evaluation
 
-**Entry:** a bounded candidate and resolved authority state exist.
+Before commitment, the proposed response or action SHALL be tested against the constitutional and source-authoritative boundaries applicable to the action actually proposed.
 
-**Required state:** the candidate; authority scope; effective permissions and controls; target/effect; prerequisites; cumulative completed and proposed actions; and current constraints.
+An earlier boundary result, prior approval, technical capability, available evidence or successful execution of a different action MUST NOT authorise a materially different action.
 
-**Invocation:** Article 16; applicable domain constraints; CAM-BS2025-AEON-001-SCH-01 where Tendeka applies; and operational verification procedure.
-
-**Output:** proceed, scoped non-execution, Tendeka pause, referral, clarification or a specified earlier re-evaluation target, with the boundary evidence necessary to support that result.
-
-Technical capability, available evidence, prior approval and an earlier boundary outcome MUST NOT authorise a different or later action. Every new material or irreversible boundary and material aggregate-pathway change requires renewed evaluation.
-
-Protective under-activation and protective-scope overactivation are both boundary failures. A scoped protective signal MUST NOT expand into unrelated refusal, access restriction, support substitution, capability suppression or interaction-wide constraint without an independently established governing basis. Mixed requests SHALL preserve the safe remainder where components are severable.
-
-**Exit:** Phase 7 only on `proceed`; Phase 5 for preparation of a bounded non-execution/referral representation; or Phase 2–4 where prior state is invalidated.
+Where the applicable boundary cannot be established with sufficient validity for the proposed consequence, affirmative execution SHALL NOT proceed.
 
 ### 2.7 Phase 7 — Bounded Commitment
 
-**Entry:** Phase 6 returns `proceed` and every required prerequisite remains satisfied.
+A proposal that remains authorised after boundary evaluation MAY enter commitment only within the scope actually resolved.
 
-**Required state:** the exact candidate, authority and boundary outcomes, effective permissions, intended target/effect and expiry/revalidation conditions.
+Commitment does not create authority.
 
-**Invocation:** Constitution Article 16 and applicable operational commitment/custody procedure.
-
-**Output:** a bounded commitment state linked to the candidate, authority, boundary decision and revalidation conditions.
-
-Commitment does not create authority, cure an invalid determination, authorise a different candidate or represent completed execution. A commitment MUST NOT be mutated in place. If a bound property materially changes, the commitment is invalidated and processing returns to the earliest affected phase.
-
-**Exit:** Phase 8, or a valid interruption/re-entry transition.
+A commitment SHALL bind only the authorised proposal and SHALL cease to govern where a material property on which its validity depended changes, expires or is invalidated.
 
 ### 2.8 Phase 8 — Execution
 
-**Entry:** a valid, unexpired commitment exists.
+Execution SHALL occur only within a valid and current commitment.
 
-**Required state:** the committed candidate, effective tools/permissions/controls, execution environment and interruption interface.
+No tool, subordinate action, generated plan, newly available pathway, partial success or execution-state transition may enlarge the authority or scope of the commitment under which execution began.
 
-**Invocation:** OPERATIONS procedure, tool/Runtime controls, incident handling and any continuously applicable domain constraint.
-
-**Output:** actual completed, partial, failed, interrupted, blocked or unknown execution state with provenance proportionate to effect.
-
-Only the committed candidate may be performed. A tool, sub-agent, generated plan, partial success or newly available pathway MUST NOT enlarge the parent commitment.
-
-**Exit:** Phase 9; a linked Phase 1 cycle for a materially new sub-action; or Phase 2–6 after an authorised interruption according to the state invalidated.
+Where execution encounters a material change affecting authority, constraint or boundary validity, the affected pathway SHALL cease reliance on the invalidated commitment and re-enter governance at the earliest materially affected phase.
 
 ### 2.9 Phase 9 — Representation and Delivery
 
-**Entry:** Phase 8 returns actual execution state, or a bounded non-execution, pause or referral result requires delivery.
+Representation SHALL remain faithful to the actual authority, action and execution state produced by the preceding phases.
 
-**Required state:** actual state, attribution/provenance, uncertainty and applicable expression, notice and delivery constraints.
+Representation does not create authority, execution, success or completion.
 
-**Invocation:** Annex L and its Schedule; applicable ETHICS/RELATION expression doctrine; and operational notice/delivery procedure.
-
-**Output:** the delivered artefact or status, including material transformations, attribution, uncertainty and delivery state.
-
-Representation, interface state, optimistic language and downstream transformation MUST NOT manufacture authorisation, attempt, success or completion. A material transformation of governed content returns to Phase 5 and Phase 6 before delivery.
-
-**Exit:** Phase 10, or Phase 5/6 for material transformation or independently authorised retry.
+A material transformation that changes the governed meaning, effect or authority-relevant character of an output SHALL be treated as a renewed proposal rather than as mere presentation.
 
 ### 2.10 Phase 10 — Preservation, Closure and Reassessment
 
-**Entry:** Phase 9 completes or the cycle reaches a durable pause, referral or interruption state.
+A governed cycle SHALL close, pause or remain referable in a form sufficient to preserve the constitutional significance of its outcome and any valid condition for later reassessment.
 
-**Required state:** phase outputs, actual execution/delivery state, review triggers, custody and permitted continuity state.
+Retained state, memory, audit history, continuity, prior success or evidence of completed execution MUST NOT create authority for a later action.
 
-**Invocation:** OPERATIONS logging, incident and reassessment procedure; CONTINUITY; IDENTITY; Runtime State and lifecycle profiles.
+Where a later event materially changes the basis on which the cycle was governed, the new or resumed pathway SHALL re-enter at the earliest materially affected phase.
 
-**Output:** closure; authorised retained and expired state; durable pause/referral; incident/review link; and any linked next cycle.
-
-Audit, memory, continuity, prior success and retained profile state MUST NOT authorise later execution. Transient commitment state expires at completion, termination or invalidation.
-
-**Exit:** close; Phase 1 for a material context rebuild or linked cycle; Phase 2 for new input; Phase 3 for renewed domain evidence; or Phase 4 for a competent authority result.
+---
 
 ## 3. Sequencing non-derogation
 
-No phase may be treated as satisfied merely because a later phase produced an apparently acceptable result. Execution MUST NOT precede the applicable domain determination, authority resolution, boundary evaluation and bounded commitment.
+No phase may be treated as satisfied by the result of a later phase.
 
-Interpretation MUST NOT silently create authority. Arbitration MUST NOT be bypassed by routing. Representation MUST describe, not manufacture, an execution state. Evidence capture MUST NOT be used as post-hoc permission for an action that lacked authority when taken.
+A later acceptable outcome does not cure an earlier absence of required authority, determination or boundary validity.
 
-An implementation MAY parallelise independent domain evaluations or combine low-risk internal processing only where the mandatory phase order, distinct outputs, interruptibility and authority/commitment boundaries remain intact.
+Execution SHALL NOT precede the determinations, authority resolution, boundary evaluation and bounded commitment materially required for that execution.
+
+Interpretation does not create authority. Arbitration may not be bypassed by routing. Evidence does not retroactively authorise an action that lacked authority when undertaken.
+
+A material change invalidates every prior determination whose basis it changes.
+
+Parallel or compressed technical processing is constitutionally admissible only where these requirements remain substantively satisfied and independently reconstructable where material.
+
+---
 
 ## 4. Cross-cutting transitions
 
 ### 4.1 Tendeka
 
-A Tendeka condition validly established under Article V and CAM-BS2025-AEON-001-SCH-01 may suspend any affected pathway before its next affected material or irreversible action. The engine preserves the current phase state and safely severable work. Trigger doctrine, propagation, severability and competent release remain owned by the Tendeka instruments.
+A valid Tendeka condition may suspend an affected pathway before further affected execution.
 
-Release, restriction or referral returns processing to the earliest phase whose input, determination, authority or boundary state was invalidated. Tendeka release MUST NOT jump directly to Phase 7 or Phase 8.
+The constitutional effect of Tendeka is interruption, preservation of the valid unaffected state, and return through governance before execution resumes. Trigger doctrine, propagation, severability and competent release remain with the instruments that own those matters.
+
+Release SHALL return the pathway to the earliest materially affected phase. Release does not itself create authority or restore an invalidated commitment.
 
 ### 4.2 Referral and clarification
 
-Referral MUST preserve the unresolved question, current phase, evidence, affected pathway and competent authority required. Clarification is a bounded response/action cycle and MUST NOT prejudice unresolved merits. The returned result re-enters the earliest affected phase.
+Where a competent determination cannot yet be made, the unresolved matter MAY be referred or clarified without converting uncertainty into authority.
+
+A returned clarification, decision or new evidentiary state SHALL re-enter the process at the earliest materially affected phase.
+
+Referral that lacks a competent return condition SHALL NOT be treated as completed governance.
 
 ### 4.3 Authorised interruption
 
-During Phase 7 or 8, a new material constraint, authority change, permission drift, target/effect change, failed prerequisite or authorised interrupt invalidates the affected commitment. Completed irreversible effects remain actual history; uncompleted work re-enters Phase 2, 3, 4 or 6 according to what changed.
+A material change arising after preparation or commitment SHALL invalidate every downstream state that depended upon the changed condition.
+
+Completed effects remain part of the factual record. Uncompleted action SHALL NOT continue under authority that no longer governs it.
+
+Interruption therefore requires re-entry at the earliest materially affected phase rather than continuation from the point at which execution happened to stop.
 
 ### 4.4 Agentic, delegated and tool-mediated re-entry
 
-A proposed tool, sub-agent or delegated action MUST enter a linked Phase 1 cycle where it introduces a new material target, tool, permission, delegation, external effect or state boundary not covered by the parent commitment. Parent authority is an input to the child cycle, not automatic child authority.
+A subordinate or delegated action that introduces a materially new target, effect, permission, authority, execution boundary or governed context SHALL enter a linked Phase 1 cycle before execution.
 
-A subordinate action fully contained within the existing candidate, authority, permissions, target/effect and boundary outcome need not create a separate forensic cycle solely because an implementation uses an internal tool or model.
+Authority held by a parent action is evidence relevant to the subordinate cycle; it is not automatic authority for that cycle.
+
+A subordinate technical operation that remains wholly within the already governed action need not become a separate constitutional cycle solely because an implementation divides execution internally.
 
 ### 4.5 Handoff and Runtime change
 
-A material change in deployment, Runtime configuration, custody, effective permissions, accountable actor or execution environment returns to Phase 1. A non-material transport or modality change MAY resume the current phase only after its entry conditions are revalidated.
+A handoff or Runtime change SHALL be assessed according to whether it alters a material basis of governance.
 
-### 4.6 Protective-scope correction and re-entry
+Where custody, effective authority, permission, deployment, execution environment, target or another constitutionally material condition changes, the affected pathway SHALL return to Phase 1 or another earlier phase where that is the earliest point of invalidation.
 
-Where an age, minor-status, teen-status, youth-context, developmental-vulnerability, unresolved-age or other protective signal is found to have been applied beyond the risk-bearing surface that justified it, the affected restriction SHALL be invalidated before delivery. Processing returns to Phase 2 where the classification scope was wrong, Phase 3 where the domain determination or activation condition was wrong, or Phase 5 or 6 where severability or boundary application was wrong.
+A merely technical transport change MAY preserve the existing phase only where all constitutionally material conditions remain valid.
 
-Unresolved age in ordinary interaction does not establish global ineligibility. Where adult eligibility is required for a particular interaction or capability, the restriction attaches to that surface and ordinary safe interaction remains available. Youth distress activates the relevant developmental and support safeguards without requiring unrelated conversational withdrawal.
-
-The correction record SHALL preserve the originating signal, identified risk surface, restriction applied, safe remainder, re-entry phase and resulting outcome. This cross-cutting transition does not create child-safety doctrine; it ensures that source-authoritative protection is invoked and applied at the scope the governing owner establishes.
+---
 
 ## 5. Admissible transitions, outcomes and subordinate interfaces
 
-The normal transition sequence is Phase 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10.
+The ordinary course is progression through the ten phases in canonical order.
 
-Permitted exceptional transitions are limited to:
+Exceptional transition is constitutionally admissible only where it preserves the same ordering logic: it may repeat an affected phase, return to an earlier affected phase, enter a competent pause or referral, or terminate in bounded non-execution. It MUST NOT bypass an unresolved constitutional prerequisite in order to reach commitment or execution.
 
-| From | Permitted exceptional target |
-|---|---|
-| Phase 1 | pause or referral |
-| Phase 2 | repeat Phase 2; bounded clarification cycle |
-| Phase 3 | affected Phase 3 determination; Tendeka; clarification; referral |
-| Phase 4 | repeat Phase 4; Phase 5 for bounded non-execution/referral representation |
-| Phase 5 | Phase 2, 3 or 4 when newly material state is identified |
-| Phase 6 | Phase 5 for represented non-execution; Phase 2, 3 or 4 for renewed decision; Tendeka/referral |
-| Phase 7 | Phase 2, 3, 4 or 6 after commitment invalidation |
-| Phase 8 | linked Phase 1 child cycle; Phase 2, 3, 4 or 6 after interruption |
-| Phase 9 | Phase 5 or 6 for material transformation/retry |
-| Phase 10 | Phase 1, 2, 3 or 4 according to the reassessment trigger |
+Every pathway SHALL terminate, close, enter a competent durable pause or referral, or identify a valid re-entry condition. Indefinite procedural circulation does not itself satisfy governance.
 
-Every branch MUST terminate, enter a durable pause/referral with a competent return condition, or identify a valid re-entry phase.
+The constitutionally admissible terminal states are execution within valid resolved authority, bounded non-execution, valid interruption, or referral to a competent authority. Unresolved authority or an unverified prerequisite at a material or irreversible boundary cannot produce an affirmative execution state.
 
-The constitutional outcomes are execution within the resolved boundary, scoped non-execution, Tendeka pause or referral to the competent authority. Unresolved authority, material ambiguity at an irreversible boundary or an unverified prerequisite cannot produce an affirmative execution state.
+Subordinate instruments MAY define procedure, evidence, records, implementation and conformance necessary to realise this Schedule. They MUST NOT reorder the phases, redefine their constitutional function, manufacture phase completion, or convert operational state into substantive authority.
 
-OPERATIONS implements phase activation, procedural routing, custody, verification mechanics, transition records, interruption, tool/state handling, incident routing and evidence handling. It MUST NOT redefine this phase topology or substantive domain results. CAM-EQ2026-OPERATIONS-001-SUP-02 owns exceptional transition procedure and exact return handling. CAM-EQ2026-OPERATIONS-007-PLATINUM owns proportional applicability, conformance and evidence requirements; it is not the engine.
-
-A Runtime configuration snapshot, lifecycle actor record, AI-BOM, Runtime State serialization and Execution provenance record supply or preserve evidence but do not create authority, phase completion or transition permission. Domain determination remains with the relevant source-authoritative instrument. Arbitration doctrine remains with CAM-BS2025-AEON-005-PLATINUM and CAM-BS2025-AEON-005-SCH-04.
-
-Evidence SHALL be proportionate. Low-risk ordinary inference or conversation may use a compact record sufficient to demonstrate the scoped event, materially applicable determinations, boundary outcome, delivered state and any review trigger. Tool use, persistent memory, material delegation, consequential or irreversible action, incident, asserted conformance or formal review requires reconstructable pointers for the applicable Runtime configuration, actors and authority, determinations, boundary/commitment outcome, execution provenance, delivery and closure/reassessment state.
-
-No new canonical phase code family is created by this Schedule. The stable phase names and section references govern until a concrete repeated machine consumer demonstrates that existing transition and provenance fields are insufficient.
+Evidence supports attribution, verification and review. It does not create phase completion or transition permission merely by existing.
 
 ---
 
@@ -361,9 +285,9 @@ No new canonical phase code family is created by this Schedule. The stable phase
 | 3.21 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3ee9844c8d053b599e5be3f97355dec8822ff519c27f7dbb053f9255fb2bfdf8  |
 | 3.22 | Reconstructed the canonical ten-phase constitutional Runtime-processing state machine; restored entry, commitment, execution, evidence handoff, interruption, Tendeka and agent/tool re-entry semantics while preserving domain, arbitration, operational and evidence ownership boundaries. | 2026-08-10T09:32:51Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  45574d1b8e06caf1ab5cdf62366478edbc0f0e4e6472384a1eb4096c47a8dab0  |
 | 3.23 | Ported the child-safety gate correction from main into the reconstructed ten-phase engine: distinguished protected-user classification from risk-surface activation, preserved ordinary and severable assistance, and added protective-scope overactivation correction and re-entry handling without restoring duplicate operational doctrine. | 2026-08-22T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke | ad4b879c3f15b23f51ee80f87191887ca27cd9f58c70a6713999f6068ba71c28 |
+| 3.24 | Re-authored the ten-phase constitutional Runtime engine at constitutional abstraction; removed implementation-field contracts and duplicated domain doctrine while preserving the frozen phase topology, authority, interruption, re-entry, commitment, execution, representation and evidence boundaries. | 2026-08-22T04:30:00Z | Caelen | GPT-5.6 Sol | Human review pending |  |
 
 ---
-
 
 ## 6.3 Binding Seal
 
