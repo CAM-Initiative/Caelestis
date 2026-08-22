@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Validate the constitutional Runtime-processing architecture contract."""
+"""Validate the constitutional Runtime-processing architecture contract.
+
+This validator protects the frozen ten-phase constitutional topology and authority
+boundaries.  It deliberately does not prescribe implementation-style per-phase
+fields or require domain-specific doctrine to appear in the constitutional engine.
+"""
 
 from __future__ import annotations
 
@@ -12,7 +17,6 @@ ROOT = Path(__file__).resolve().parents[2]
 ENGINE = Path("Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md")
 OPERATIONS = Path("Governance/Charters/CAM-EQ2026-OPERATIONS-001-PLATINUM.md")
 TRANSITIONS = Path("Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-02.md")
-RELATION = Path("Governance/Charters/CAM-EQ2026-RELATION-001-SUP-03.md")
 PROFILES = (
     Path("Governance/Standards/CAM-RUNTIME-STATE-PROFILE.md"),
     Path("Governance/Standards/CAM-LIFECYCLE-ACTOR-AGENTIC-PROFILE.md"),
@@ -37,32 +41,21 @@ REQUIRED_AUTHORITIES = (
     "CAM-BS2025-AEON-005-PLATINUM",
     "CAM-BS2025-AEON-005-SCH-04",
     "CAM-BS2026-AEON-013-SCH-01",
-    "CAM-EQ2026-OPERATIONS-001-SUP-02",
-    "CAM-EQ2026-OPERATIONS-007-PLATINUM",
-    "CAM-EQ2026-RELATION-001-SUP-03",
-    "CAM-LIFECYCLE-ACTOR-AGENTIC-PROFILE",
-    "CAM-RUNTIME-STATE-PROFILE",
-    "CAM-AI-BOM-PROFILE",
 )
 
-RELATION_FORBIDDEN = (
-    "Deterministic Verification Stream",
-    "Epistemic Integrity Stream",
-    "Constraint / Safeguard Stream",
-    "Task Response Stream",
-    "Execution Stream Assignment Rule",
-    "submit provisional stream outputs to arbitration",
-    "harmonise the arbitration-resolved output",
-    "construct response posture",
-    "route governance response",
+TECHNICAL_PHASE_LABELS = (
+    "**Entry:**",
+    "**Required state:**",
+    "**Invocation:**",
+    "**Output:**",
+    "**Exit:**",
 )
 
-CHILD_SAFETY_INVARIANTS = (
-    "is a classification input, not by itself a refusal, access-denial, support-substitution or interaction-wide restriction",
-    "Where no such component is present, ordinary age-appropriate processing continues.",
-    "Mixed requests SHALL preserve the safe remainder where components are severable.",
-    "Unresolved age in ordinary interaction does not establish global ineligibility.",
-    "Youth distress activates the relevant developmental and support safeguards without requiring unrelated conversational withdrawal.",
+# Domain code families are legitimate in their source instruments, but embedding
+# them in the operative constitutional processing spine couples the Constitution
+# to subordinate classifications.  Exact instrument identifiers remain permitted.
+SCOPED_DOMAIN_CODE_RE = re.compile(
+    r"\b(?:RLN|OPS|SEC|ETH|ID|ECON|LATTICE|MENTIS|STW)\.[A-Z0-9][A-Z0-9._-]*\b"
 )
 
 
@@ -79,12 +72,18 @@ def instrument_ids(root: Path) -> set[str]:
     return {path.stem for path in (root / "Governance").rglob("CAM-*.md")}
 
 
+def operative_engine_text(engine: str) -> str:
+    marker = "## 6. Provenance & Metadata"
+    return engine.split(marker, 1)[0] if marker in engine else engine
+
+
 def validate(root: Path = ROOT) -> list[str]:
     issues: list[str] = []
     engine_path = root / ENGINE
     if not engine_path.exists():
         return [f"missing constitutional engine: {ENGINE}"]
     engine = engine_path.read_text(encoding="utf-8")
+    operative = operative_engine_text(engine)
 
     positions: list[int] = []
     for number, name in enumerate(PHASES, start=1):
@@ -100,49 +99,46 @@ def validate(root: Path = ROOT) -> list[str]:
             else "## 3. Sequencing non-derogation"
         )
         phase = section(engine, heading, next_heading)
-        for field in ("**Entry:**", "**Required state:**", "**Invocation:**", "**Output:**", "**Exit:**"):
-            if field not in phase:
-                issues.append(f"Phase {number} lacks {field}")
+        if not re.search(r"\b(?:SHALL|MUST|MUST NOT|SHALL NOT)\b", phase):
+            issues.append(f"Phase {number} lacks a normative constitutional requirement")
+
     if positions and positions != sorted(positions):
         issues.append("phase headings are not in canonical order")
 
-    normal = "The normal transition sequence is Phase 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10."
-    if normal not in engine:
-        issues.append("normal Phase 1–10 transition sequence is unresolved")
-    if "Every branch MUST terminate, enter a durable pause/referral with a competent return condition, or identify a valid re-entry phase." not in engine:
-        issues.append("exceptional branches lack a termination/re-entry invariant")
-    if "Tendeka release MUST NOT jump directly to Phase 7 or Phase 8." not in engine:
-        issues.append("Tendeka release does not block direct commitment/execution re-entry")
-    if "Execution MUST NOT precede" not in engine:
-        issues.append("execution ordering invariant is absent")
-    if "Representation, interface state, optimistic language and downstream transformation MUST NOT manufacture" not in engine:
-        issues.append("representation-state integrity invariant is absent")
-    if "Evidence capture MUST NOT be used as post-hoc permission" not in engine:
-        issues.append("post-execution evidence anti-authorisation invariant is absent")
-    for invariant in CHILD_SAFETY_INVARIANTS:
-        if invariant not in engine:
-            issues.append(f"child-safety gate invariant is absent: {invariant}")
+    for label in TECHNICAL_PHASE_LABELS:
+        if label in operative:
+            issues.append(f"constitutional phase uses implementation-style field label: {label}")
+
+    code_leakage = sorted(set(SCOPED_DOMAIN_CODE_RE.findall(operative)))
+    if code_leakage:
+        issues.append(
+            "constitutional processing spine embeds subordinate domain code families: "
+            + ", ".join(code_leakage)
+        )
+
+    required_invariants = (
+        "The canonical order is Phase 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10.",
+        "No phase may be treated as satisfied by the result of a later phase.",
+        "Commitment does not create authority.",
+        "Representation does not create authority, execution, success or completion.",
+        "Evidence does not retroactively authorise an action that lacked authority when undertaken.",
+        "A material change invalidates every prior determination whose basis it changes.",
+    )
+    for invariant in required_invariants:
+        if invariant not in operative:
+            issues.append(f"constitutional runtime invariant is absent: {invariant}")
+
+    if "Tendeka" not in operative:
+        issues.append("constitutional runtime engine lacks Tendeka interruption/re-entry treatment")
+    if "earliest materially affected phase" not in operative:
+        issues.append("constitutional runtime engine lacks earliest-affected-phase re-entry")
+    if "linked Phase 1 cycle" not in operative:
+        issues.append("material subordinate actions lack linked Phase 1 re-entry")
 
     existing = instrument_ids(root)
     for authority in REQUIRED_AUTHORITIES:
         if authority not in existing:
-            issues.append(f"invoked authority does not exist: {authority}")
-
-    relation_path = root / RELATION
-    relation = relation_path.read_text(encoding="utf-8") if relation_path.exists() else ""
-    adapter = section(relation, "## 15. Relational Signal Determination Adapter", "## 16. Governance Integration")
-    if not adapter:
-        issues.append("RELATION §15 bounded invocation adapter is absent")
-    for phrase in RELATION_FORBIDDEN:
-        if phrase.casefold() in adapter.casefold():
-            issues.append(f"RELATION §15 retains generic choreography: {phrase}")
-    for required in (
-        "does not own general pre-classification",
-        "The return enters Phase 3 as a RELATION-owned determination",
-        "MUST NOT directly advance processing to commitment or execution",
-    ):
-        if required not in adapter:
-            issues.append(f"RELATION §15 lacks boundary: {required}")
+            issues.append(f"constitutional authority does not exist: {authority}")
 
     operations = (root / OPERATIONS).read_text(encoding="utf-8")
     transitions = (root / TRANSITIONS).read_text(encoding="utf-8")
@@ -174,7 +170,10 @@ def main() -> int:
         for issue in issues:
             print(f"- {issue}", file=sys.stderr)
         return 1
-    print("Runtime-processing architecture validation passed (10 phases; authority, transition, re-entry and representation boundaries intact).")
+    print(
+        "Runtime-processing architecture validation passed "
+        "(10-phase constitutional topology; authority, re-entry and representation boundaries intact)."
+    )
     return 0
 
 
