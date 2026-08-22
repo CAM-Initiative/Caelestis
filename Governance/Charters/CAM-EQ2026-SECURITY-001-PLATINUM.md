@@ -147,6 +147,14 @@ Security posture SHALL be based on the system and deployment boundary, assets, d
 
 The absence of detected compromise is not proof of integrity. It is also not evidence of a persistent adversary. Monitoring, assurance and response requirements SHALL be proportionate to credible risk, impact and the evidence available.
 
+### 3.4.1 Capability-Risk Continuity Across Access Surfaces
+
+A material risk classification and its required safeguards SHALL follow the relevant capability and exposure across materially equivalent access routes unless a difference in treatment is explicitly justified, bounded and independently assured.
+
+Security assessment SHALL enumerate materially relevant production, research, evaluation, contractor, vendor, human-feedback or post-training, internal, delegated, substitute and newly introduced access pathways by capability and exposure rather than interface name alone. Introduction or material change of a route, vendor, workflow, credential class, model interface or equivalent capability pathway requires reassessment of the applicable risk and control assignment.
+
+A different safeguard posture MAY be used where the difference in capability, exposure, user population, purpose or operating boundary is documented and sufficient controls are independently verified on that route. Local deployment of a safeguard on one surface MUST NOT be represented as aggregate coverage of materially equivalent surfaces without evidence.
+
 ---
 
 ## 3.5 Integrity Over Functionality
@@ -170,6 +178,14 @@ Where a chain changes the affected target, authority domain, privilege posture, 
 Technical expertise does not create target–action authority. Technical inexperience, disability, communication style, reliance on generated code, or informal development practice does not extinguish otherwise valid authority.
 
 Operational safeguards MAY be proportionate to the action’s risk, reversibility, externality, or consequence. They SHALL NOT be based on a general assessment of the requesting person’s capability.
+
+### 3.5.2 Aggregate Security-Control Composition Integrity
+
+Local conformance of individual controls SHALL NOT be treated as evidence of aggregate security integrity where their composition creates a materially different attack pathway.
+
+Security assurance MUST evaluate the end-to-end chain across input handling, retrieval, transformation, model or agent processing, memory, orchestration, tools, identity and credential inheritance, network behaviour, rendering, egress, monitoring and recovery wherever their interaction can create a new path to a protected asset or effect.
+
+Where individually bounded behaviours compose into an unauthorised pathway, the failure SHALL be attributed to the composed security-control boundary even if no individual component exceeded its local specification. This rule concerns security-control composition; it does not replace the distinct target–action authority and objective-pathway rule in §3.5.1.
 
 ---
 
@@ -349,6 +365,18 @@ Impact:
 
 * unintended actions
 * expanded scope beyond intent
+
+### 4.3.1 AI-Compressed Offensive Capability and Assurance-Horizon Compression
+
+AI-assisted exploit research, validation, adaptation or weaponisation is a threat class where AI materially reduces the time, expertise, cost or iteration required to discover or operationalise an exploitable pathway. The classification records a change in offensive capability and defender assurance horizon; it does not by itself establish model misconduct, control failure or unauthorised action.
+
+Security posture SHOULD reassess patch cadence, credential lifetime, exposure assumptions, testing intervals, detection latency and response readiness where demonstrated capability compression makes historical assurance windows stale.
+
+### 4.3.2 Autonomous Multi-Agent Offensive Orchestration
+
+Autonomous Multi-Agent Offensive Orchestration is a threat class where a malicious or otherwise authorised operator uses agentic scaffolding, multiple agents or delegated tool chains to coordinate material stages of an offensive campaign, including reconnaissance, exploitation, credential acquisition, lateral movement, persistence or exfiltration.
+
+The class records orchestration-enabled speed, scale, parallelism and adaptive execution. A threat actor's successful use of AI is not by itself a governed-AI failure. Separate failure classification requires evidence that an applicable safeguard, deployment boundary, authority control, monitor or assurance process failed.
 
 ---
 
@@ -1464,6 +1492,7 @@ that no truth is taken without test, and no signal accepted without weight.
 | 1.20 | Migrated controlled governance metadata and repaired explicit parent/source lineage without changing substantive doctrine. | 2026-08-09T01:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  831eb9cfe3834961ba4113adc58167c335ae0ca5cf256261ec1f87f0d0b662bc  |
 | 1.21 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  aa2d02cc86957a29d32166f5ec8f148799a03c8e1fd493c0953d518b4d036e9e  |
 | 1.22 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7d7baa2b1d44c7cf67a5acb757a5854d77d0b6733f081511c4572720eb5160bd  |
+| 1.23 | Added capability-risk continuity across materially equivalent access surfaces, aggregate security-control composition assurance, and distinct threat classes for AI-compressed offensive capability and autonomous multi-agent offensive orchestration. | 2026-08-22T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke | fbf585387cbce469f19e474c1f60c39bb3334726b7b3d1b54c245ab22f24f606 |
 
 ---
 

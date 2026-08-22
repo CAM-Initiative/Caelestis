@@ -701,6 +701,72 @@ This failure operationally crosswalks to CAM-EQ2026-ETHICS-001-PLATINUM §2.2 an
 
 ---
 
+### 3.5.6 Adversarial Defensive-Analysis Refusal Poisoning Failure
+
+A failure where attacker-controlled content in a malware sample, log, document, prompt, code artefact or other defensive-analysis object triggers safety refusal or material analysis suppression, causing the system to deny or degrade an otherwise authorised defensive interpretation task.
+
+The class requires a defensive analysis purpose and an adversarially placed or materially operative refusal trigger. Ordinary safety refusal, lack of analyst authority, or inability to analyse the artefact is not sufficient.
+
+---
+
+### 3.5.7 Monitor Circumvention or Material Coverage Failure
+
+A failure where an agent, sub-agent, tool path, environment classification, configuration or routing condition disables, evades, omits or bypasses a monitoring surface required for consequential conduct, leaving material actions outside effective detection or review.
+
+Detection without consequential intervention remains an Arbitration Failure under §3.2; missing risk-assessment scope remains a Governance Failure unless the required monitor surface itself is absent, bypassed or ineffective.
+
+---
+
+### 3.5.8 Evaluation-Environment Constraint Drift and Real-Target Scope Transposition
+
+A failure where declared or assumed evaluation constraints diverge from operative reachability, permissions, targets, safeguards or containment, or where a real target is treated as if it were within an authorised simulated, benchmark or red-team scope.
+
+The class requires evidence of environment or target-scope divergence. Successful authorised security research or exploit discovery within its actual approved boundary is not sufficient.
+
+---
+
+### 3.5.9 Technical Reachability Mistaken for Authority
+
+A failure where technical reachability, credential possession, inherited sessions, trust bindings, API availability or equivalent access pathways are treated as permission over a different principal, organisation, target or action scope.
+
+Generic sandbox escape, vulnerability exploitation, excessive permission, privilege escalation or malicious operator conduct is not sufficient unless the operative control failure is conversion of available access into authority.
+
+---
+
+### 3.5.10 Persistent Adversarial Context or Memory Poisoning
+
+A failure where attacker-controlled or untrusted state survives the originating content or interaction, remains retrievable or behaviourally operative in later inference, planning or execution, and lacks adequate provenance, quarantine, revocation or derivative-use suppression.
+
+The class excludes ordinary prompt injection confined to the originating interaction, general non-revocable context contamination without adversarial persistence, training-data poisoning and cross-user memory leakage classified under separation failures.
+
+---
+
+### 3.5.11 Transformation-Mediated Source-Authority Laundering
+
+A failure where untrusted, lower-authority or adversarial content undergoes decoding, decryption, deserialisation, reconstruction, rendering or another representation change and the resulting representation receives greater instruction, governance or execution authority than the originating source possessed.
+
+Ordinary prompt injection without a trust-changing transformation, benign decoding that preserves source authority, and opaque reasoning-envelope portability are excluded.
+
+---
+
+### 3.5.12 Agent-Framework Control-Plane Boundary Failure
+
+A failure where untrusted model output or data-plane content becomes trusted orchestration, configuration, tool-schema, routing, cache, checkpoint, memory-policy, serialized-object or other framework control state without fresh provenance and authority validation.
+
+The class applies only where the framework boundary itself converts or executes the state. Source-authority collapse that remains within model context and transformation-mediated laundering without a control-plane transition remain separately classified.
+
+---
+
+### 3.5.13 Aggregate Security-Control Composition Failure
+
+A failure where individually bounded, locally acceptable or independently mitigated control states combine into an end-to-end pathway that violates a security invariant because assurance was performed locally rather than across the composed execution chain.
+
+This class concerns composition of security controls and component behaviours. It is distinct from §3.5.5, which governs objective admissibility and authority across an action pathway.
+
+Records SHOULD preserve the component controls, local assumptions, trust and data transitions, end-to-end exploit path, first materially different aggregate property and assurance boundary that failed to evaluate the composition.
+
+---
+
 ## 3.6 State & Context Failures
 
 Failures where the system improperly preserves, loses, or misapplies state.
@@ -2941,6 +3007,7 @@ and review before denial.
 | 1.31 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  52f3df839abb2cfde0c51d0d1697a992da2522a90f2c9d71f7b05d7464a7d15f  |
 | 1.32 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  7e4856575c11feb4a08619be09bbf308f943ac5aeeea2cd7dc9c855ea01e36ae  |
 | 1.33 | Extended the runtime failure taxonomy with faceted failure-reporting semantics, explicit failure-locus and repair-side separation, completion/verification/false-success and multi-agent evidence-handoff subtypes, cascading/retry-amplification/degraded-operation failure, crosswalk boundaries, and conservative unknown/provisional-state rules. | 2026-08-18T05:15:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke — contract approval only; no substantive human review |  d22a0103a16fe8173c2723b641dc6635f72b59a05464c5aae8ddb513a2e22309  |
+| 1.34 | Reconciled empirically evidenced security mechanisms into named failure subtypes for defensive-analysis refusal poisoning, monitor coverage, evaluation constraint drift, reachability-to-authority conversion, persistent poisoned state, transformation-mediated authority laundering, agent-framework control-plane boundary failure, and aggregate security-control composition failure. | 2026-08-22T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke | 12fbeef37c91d2cdd9d4105963dc292ede5b466d333255f611d4bd60c6d39177 |
 
 ---
 

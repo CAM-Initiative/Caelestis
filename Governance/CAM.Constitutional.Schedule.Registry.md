@@ -33,9 +33,9 @@ This generated registry identifies current constitutional Schedules, their paren
 ## 3. Model-terminology audit summary
 
 <!-- MODEL-TERMINOLOGY-SUMMARY:START -->
-**Total model-term matches scanned:** 687
-**Generic usages suppressed:** 588
-**Declared / recognised usages emitted:** 74
+**Total model-term matches scanned:** 694
+**Generic usages suppressed:** 594
+**Declared / recognised usages emitted:** 75
 **Advisory review usages emitted:** 25
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`

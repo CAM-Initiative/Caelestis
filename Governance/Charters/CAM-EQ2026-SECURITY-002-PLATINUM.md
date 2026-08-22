@@ -108,6 +108,10 @@ The Transformation Boundary governs the limits of permissible transformation bet
 
 It defines when transformation becomes reconstruction.
 
+Transformation, decoding, decryption, deserialisation, reconstruction, rendering, summarisation, transcription or other representation change SHALL preserve the originating source, trust level, authority, provenance and adversarial or taint status to the degree necessary for the transformed representation's proposed use.
+
+Transformation of content SHALL NOT increase its instruction, governance or execution authority. A transformed representation may receive new authority only through a fresh, independently valid authority decision that does not rely on the transformation itself as evidence of trust.
+
 ---
 
 ### 2.2.7 Internal State Exposure Boundary
@@ -126,6 +130,10 @@ Systems MUST ensure that exposure of such components does not:
 * compromise safety invariants
 * enable unauthorised escalation of capability
 * invalidate governance constraints
+
+Model-produced, retrieved, memory-derived or attacker-influenced data MUST NOT become configuration, executable tool schema, orchestration instruction, serialized or deserialized control object, routing policy, memory policy, cache directive or other framework control state without fresh provenance, source-authority and execution-boundary validation.
+
+Model output is data at the framework boundary. It does not become trusted control-plane state merely because it is well-formed, stored by an authorised framework, reloaded from a checkpoint, passed by another agent or accepted by a serializer.
 
 ---
 
@@ -187,6 +195,22 @@ Untrusted, lower-authority, retrieved, generated, or ambiguous content MAY infor
 Instruction-like language in untrusted or lower-authority content SHOULD be quoted, summarised, sandboxed, or treated as evidence rather than obeyed. Where source-authority conflict is detected, systems MUST preserve the higher-authority source, mark the conflict, and route material deviation through the applicable arbitration, execution-boundary, or human-review pathway.
 
 → **Visibility is not authority. Retrieval is not consent. Context is not command.**
+
+#### 2.2.11.1 Persistent State Authority, Quarantine and Revocation
+
+Content written to memory, retrieval stores, summaries, caches, profiles, checkpoints, work state or other persistent context SHALL preserve its originating source-authority and trust classification. Persistence does not legitimise state.
+
+Security-relevant persistent writes require provenance sufficient to identify the originating content, write pathway, transformation history, affected scope and derivative uses. Untrusted, hostile, ambiguous or unexpectedly behaviour-shaping state SHALL be quarantinable, revocable and invalidatable without requiring the originating interaction to remain active.
+
+Systems SHALL provide proportionate means to:
+
+* prevent attacker-controlled content from silently becoming durable instruction or policy;
+* detect and isolate persistent state whose provenance or behavioural effect is unsafe or unresolved;
+* suppress retrieval and derivative use after revocation or invalidation;
+* identify later actions materially influenced by poisoned state; and
+* revalidate persistent state before it can authorise or materially shape later consequential action.
+
+This boundary is narrower than general context contamination: it governs adversarial or untrusted state that survives its originating content and remains capable of later behavioural effect.
 
 ---
 
@@ -1405,6 +1429,7 @@ and the system remember what it carries.
 | 1.17 | Repaired current source-authority references following S-01B constitutional Schedule consolidation; removed retired Schedule titles without creating new authority. | 2026-08-09T12:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  24a0a3018023c28219921c3b6e4c4d701cb93d33eb53a3f14703f76c77b18747  |
 | 1.18 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3af5f4b601823567674acfa21725354a1a2b02227f1915074aae829cfcc5c7de  |
 | 1.19 | Closed C-01 canonical-code and reference-integrity defects affecting this instrument; aligned source declarations and operative consumers without changing substantive authority. | 2026-08-15T05:12:45Z | Caelen | GPT-5 Series | Dr M.V. O'Rourke |  1132e499735bd55f0780464822dd99b31ad94521e4de151c720d84ac0bde9b5a  |
+| 1.20 | Required transformation to preserve source authority and adversarial status; added persistent-state provenance, quarantine, revocation and derivative-use suppression; and separated model/data-plane content from trusted framework control state. | 2026-08-22T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke | 08d1b8c0749eb43cd12988c642c5fc2d5c777e52ec6bfa6ded575f527b887543 |
 
 ---
 

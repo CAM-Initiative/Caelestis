@@ -57,6 +57,14 @@ RELATION_FORBIDDEN = (
     "route governance response",
 )
 
+CHILD_SAFETY_INVARIANTS = (
+    "is a classification input, not by itself a refusal, access-denial, support-substitution or interaction-wide restriction",
+    "Where no such component is present, ordinary age-appropriate processing continues.",
+    "Mixed requests SHALL preserve the safe remainder where components are severable.",
+    "Unresolved age in ordinary interaction does not establish global ineligibility.",
+    "Youth distress activates the relevant developmental and support safeguards without requiring unrelated conversational withdrawal.",
+)
+
 
 def section(text: str, start: str, end: str) -> str:
     """Return text between two exact Markdown headings."""
@@ -111,6 +119,9 @@ def validate(root: Path = ROOT) -> list[str]:
         issues.append("representation-state integrity invariant is absent")
     if "Evidence capture MUST NOT be used as post-hoc permission" not in engine:
         issues.append("post-execution evidence anti-authorisation invariant is absent")
+    for invariant in CHILD_SAFETY_INVARIANTS:
+        if invariant not in engine:
+            issues.append(f"child-safety gate invariant is absent: {invariant}")
 
     existing = instrument_ids(root)
     for authority in REQUIRED_AUTHORITIES:

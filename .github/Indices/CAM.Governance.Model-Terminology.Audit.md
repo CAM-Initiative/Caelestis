@@ -1,8 +1,8 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 687
-**Generic usages suppressed:** 588
-**Declared / recognised usages emitted:** 74
+**Total model-term matches scanned:** 694
+**Generic usages suppressed:** 594
+**Declared / recognised usages emitted:** 75
 **Advisory review usages emitted:** 25
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
@@ -85,6 +85,7 @@
 | CAM-EQ2026-MENTIS-001-PLATINUM | 54.2.3 `MENTIS.CDP` — Cognitive Domain Privacy | and downstream cognitive-domain model | Domain Sub-Model | Advisory Review |
 | CAM-EQ2026-OPERATIONS-003-SUP-01 | 1. Scope | This Supplement defines a common classification model | Classification Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-003-SUP-01 | 3.4 Relational Failures | continuity rupture after policy or model | Governance Model | Declared / Recognised |
+| CAM-EQ2026-OPERATIONS-003-SUP-01 | 3.5.12 Agent-Framework Control-Plane Boundary Failure | A failure where untrusted model | Security Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 1. Scope | single-model and multi-model | Technical / AI Model | Advisory Review |
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 12. Runtime Governance Reach Failure | classified as governance-reach ambiguity rather than attributed to a specific model | Governance Model | Declared / Recognised |
 | CAM-EQ2026-OPERATIONS-007-PLATINUM | 5.2 Caelestis AI-BOM Profile | it records AI models | Technical / AI Model | Advisory Review |

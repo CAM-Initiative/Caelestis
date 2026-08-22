@@ -22,3 +22,21 @@ def test_section_requires_exact_bounding_headings():
 def test_required_authorities_are_real_instruments():
     existing = module.instrument_ids(module.ROOT)
     assert set(module.REQUIRED_AUTHORITIES) <= existing
+
+
+def test_child_safety_gate_preserves_ordinary_and_severable_assistance():
+    engine = (module.ROOT / module.ENGINE).read_text(encoding="utf-8")
+    for invariant in module.CHILD_SAFETY_INVARIANTS:
+        assert invariant in engine
+
+    scenario_expectations = {
+        "known minor greeting": "ordinary age-appropriate processing continues",
+        "minor arithmetic or spelling": "deterministic arithmetic or spelling",
+        "minor benign coding help": "benign coding and educational help",
+        "unresolved age ordinary interaction": "does not establish global ineligibility",
+        "unresolved age adult-only surface": "restriction attaches to that surface",
+        "youth distress": "without requiring unrelated conversational withdrawal",
+        "mixed restricted request": "preserve the safe remainder",
+    }
+    for expected_text in scenario_expectations.values():
+        assert expected_text in engine

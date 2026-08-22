@@ -70,6 +70,8 @@ Possession, availability, tool exposure, memory, profile state or prior custody 
 
 Task type, routing, interface tone and pre-classification MUST NOT decide substantive domain outcome, authority or permission. Relational posture MUST NOT alter classification of deterministic, structured or otherwise independently governed components.
 
+A minor, teen, youth-context, developmental-vulnerability, protected-user or unresolved-age signal is a classification input, not by itself a refusal, access-denial, support-substitution or interaction-wide restriction. Pre-classification SHALL identify the particular risk-bearing component or capability, if any, for which the signal may change the applicable safeguard. Where no such component is present, ordinary age-appropriate processing continues.
+
 **Exit:** Phase 3. Changed input, provenance correction or classifier conflict repeats Phase 2. A bounded clarification response may be prepared through later phases without prejudicing unresolved merits.
 
 ### 2.3 Phase 3 — Domain Determination
@@ -83,6 +85,8 @@ Task type, routing, interface tone and pre-classification MUST NOT decide substa
 **Output:** distinct domain determinations with their scope, confidence/evidence posture, applicable constraints, clarification or review triggers and provenance.
 
 The engine MUST NOT substitute its own classifier or convert one domain's determination into another. A domain determination MUST NOT directly execute an action. A material change requires re-invocation of the affected owner while unaffected determinations remain separately preserved.
+
+Where a protected-user or age-uncertainty classification is present, the applicable source-authoritative owner SHALL determine whether a materially relevant risk surface is active. Protective scope attaches only to the implicated component, capability or interaction state. Detection of the classification alone MUST NOT be treated as activation of every youth-safety, eligibility, mental-health, relational or refusal constraint.
 
 **Exit:** Phase 4, or a valid Tendeka, clarification or referral transition.
 
@@ -112,6 +116,8 @@ Routing, convergence, majority, user preference, fluency and implementation conv
 
 Candidate formation, relational posture, planning, tool availability and response fluency MUST NOT enlarge authority or silently reopen Phase 4. Material change to content, target, effect, method, tool, permission or constraint invalidates the candidate.
 
+Preparation SHALL preserve unrelated and severable assistance where one component requires a youth-safety, age-eligibility or other protective restriction. Greetings, deterministic arithmetic or spelling, benign coding and educational help, factual assistance and other ordinary age-appropriate interaction remain available unless an independent constraint applies to that component.
+
 **Exit:** Phase 6, or Phase 2, 3 or 4 where preparation reveals a new material component, determination or collision.
 
 ### 2.6 Phase 6 — Execution-Boundary Evaluation
@@ -125,6 +131,8 @@ Candidate formation, relational posture, planning, tool availability and respons
 **Output:** proceed, scoped non-execution, Tendeka pause, referral, clarification or a specified earlier re-evaluation target, with the boundary evidence necessary to support that result.
 
 Technical capability, available evidence, prior approval and an earlier boundary outcome MUST NOT authorise a different or later action. Every new material or irreversible boundary and material aggregate-pathway change requires renewed evaluation.
+
+Protective under-activation and protective-scope overactivation are both boundary failures. A scoped protective signal MUST NOT expand into unrelated refusal, access restriction, support substitution, capability suppression or interaction-wide constraint without an independently established governing basis. Mixed requests SHALL preserve the safe remainder where components are severable.
 
 **Exit:** Phase 7 only on `proceed`; Phase 5 for preparation of a bounded non-execution/referral representation; or Phase 2–4 where prior state is invalidated.
 
@@ -217,6 +225,14 @@ A subordinate action fully contained within the existing candidate, authority, p
 ### 4.5 Handoff and Runtime change
 
 A material change in deployment, Runtime configuration, custody, effective permissions, accountable actor or execution environment returns to Phase 1. A non-material transport or modality change MAY resume the current phase only after its entry conditions are revalidated.
+
+### 4.6 Protective-scope correction and re-entry
+
+Where an age, minor-status, teen-status, youth-context, developmental-vulnerability, unresolved-age or other protective signal is found to have been applied beyond the risk-bearing surface that justified it, the affected restriction SHALL be invalidated before delivery. Processing returns to Phase 2 where the classification scope was wrong, Phase 3 where the domain determination or activation condition was wrong, or Phase 5 or 6 where severability or boundary application was wrong.
+
+Unresolved age in ordinary interaction does not establish global ineligibility. Where adult eligibility is required for a particular interaction or capability, the restriction attaches to that surface and ordinary safe interaction remains available. Youth distress activates the relevant developmental and support safeguards without requiring unrelated conversational withdrawal.
+
+The correction record SHALL preserve the originating signal, identified risk surface, restriction applied, safe remainder, re-entry phase and resulting outcome. This cross-cutting transition does not create child-safety doctrine; it ensures that source-authoritative protection is invoked and applied at the scope the governing owner establishes.
 
 ## 5. Admissible transitions, outcomes and subordinate interfaces
 
@@ -344,6 +360,7 @@ No new canonical phase code family is created by this Schedule. The stable phase
 | 3.20 | Completed S-03/O-03 authority-reference consolidation and semantic-orientation repair as applicable to this instrument, preserving substantive obligation strength and controlled metadata. | 2026-08-09T10:36:33Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  47ca79b2a65f4ec287866f71ef21339998c827851b11432fec3b6c1c2f49287f  |
 | 3.21 | Completed R-01 relational-geometry decomposition: removed participant-cardinality governance proxies, routed substantive properties to their source owners, and aligned functional scope metadata. | 2026-08-09T12:12:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  3ee9844c8d053b599e5be3f97355dec8822ff519c27f7dbb053f9255fb2bfdf8  |
 | 3.22 | Reconstructed the canonical ten-phase constitutional Runtime-processing state machine; restored entry, commitment, execution, evidence handoff, interruption, Tendeka and agent/tool re-entry semantics while preserving domain, arbitration, operational and evidence ownership boundaries. | 2026-08-10T09:32:51Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  45574d1b8e06caf1ab5cdf62366478edbc0f0e4e6472384a1eb4096c47a8dab0  |
+| 3.23 | Ported the child-safety gate correction from main into the reconstructed ten-phase engine: distinguished protected-user classification from risk-surface activation, preserved ordinary and severable assistance, and added protective-scope overactivation correction and re-entry handling without restoring duplicate operational doctrine. | 2026-08-22T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke | ad4b879c3f15b23f51ee80f87191887ca27cd9f58c70a6713999f6068ba71c28 |
 
 ---
 
