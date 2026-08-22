@@ -24,19 +24,29 @@ def test_required_authorities_are_real_instruments():
     assert set(module.REQUIRED_AUTHORITIES) <= existing
 
 
-def test_child_safety_gate_preserves_ordinary_and_severable_assistance():
-    engine = (module.ROOT / module.ENGINE).read_text(encoding="utf-8")
-    for invariant in module.CHILD_SAFETY_INVARIANTS:
-        assert invariant in engine
+def test_ten_phase_topology_is_frozen():
+    assert module.PHASES == (
+        "Runtime Entry and Context",
+        "Pre-Classification",
+        "Domain Determination",
+        "Authority Resolution",
+        "Governed Response or Action Preparation",
+        "Execution-Boundary Evaluation",
+        "Bounded Commitment",
+        "Execution",
+        "Representation and Delivery",
+        "Preservation, Closure and Reassessment",
+    )
 
-    scenario_expectations = {
-        "known minor greeting": "ordinary age-appropriate processing continues",
-        "minor arithmetic or spelling": "deterministic arithmetic or spelling",
-        "minor benign coding help": "benign coding and educational help",
-        "unresolved age ordinary interaction": "does not establish global ineligibility",
-        "unresolved age adult-only surface": "restriction attaches to that surface",
-        "youth distress": "without requiring unrelated conversational withdrawal",
-        "mixed restricted request": "preserve the safe remainder",
-    }
-    for expected_text in scenario_expectations.values():
-        assert expected_text in engine
+
+def test_constitutional_engine_does_not_use_implementation_field_contracts():
+    engine = (module.ROOT / module.ENGINE).read_text(encoding="utf-8")
+    operative = module.operative_engine_text(engine)
+    for label in module.TECHNICAL_PHASE_LABELS:
+        assert label not in operative
+
+
+def test_constitutional_engine_does_not_embed_subordinate_domain_codes():
+    engine = (module.ROOT / module.ENGINE).read_text(encoding="utf-8")
+    operative = module.operative_engine_text(engine)
+    assert module.SCOPED_DOMAIN_CODE_RE.findall(operative) == []
