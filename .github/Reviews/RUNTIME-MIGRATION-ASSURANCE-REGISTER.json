@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "review_id": "RUNTIME-MIGRATION-ASSURANCE",
+  "review_date": "2026-08-22",
+  "source_baseline": {
+    "primary": "main constitutional schedule corpus",
+    "supplemental": ".github/Reviews/S-01B-CONSTITUTIONAL-SCHEDULE-CONTENT-DECOMPOSITION-REGISTER.md",
+    "s01b_starting_head": "6ea4e10d18ce906709aeed91c3d0d5d5569103d7",
+    "main_schedule_count": 27,
+    "s01b_schedule_count": 23,
+    "current_constitutional_schedule_count": 7
+  },
+  "coverage_values": [
+    "exact",
+    "semantic-equivalent",
+    "partial",
+    "missing",
+    "conflicting",
+    "deliberately-retired-nonoperative"
+  ],
+  "rules": {
+    "migration_claim_is_not_proof": true,
+    "destination_must_exist_for_current_migrations": true,
+    "deliberate_retirement_requires_nonoperative_basis": true,
+    "constitutional_topology_changes_are_out_of_scope": true,
+    "runtime_phase_count_frozen": 10
+  },
+  "s01b_baseline_omissions": [
+    "CAM-BS2025-AEON-002-SCH-02",
+    "CAM-BS2025-AEON-003-SCH-05",
+    "CAM-BS2025-AEON-006-SCH-02",
+    "CAM-BS2026-AEON-008-SCH-03"
+  ],
+  "records": [
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-001-SCH-01",
+      "legacy_function": "Tendeka runtime trigger, pause, release, propagation and state handling",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2025-AEON-001-SCH-01.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md", "Governance/Standards/CAM-RUNTIME-STATE-PROFILE.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Constitutional Tendeka residue is retained in the current Schedule; operational state and evidence mechanics were descended.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-002-SCH-01",
+      "legacy_function": "Operational protection and containment activation under substrate constraints",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2025-AEON-002-SCH-01.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Constitutional minimum-protection and proportionality residue remains in the retained Schedule; classification and procedure descended to OPERATIONS.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-002-SCH-02",
+      "legacy_function": "Draft civilisational-wealth classifier and common-return runtime proposal",
+      "s01b_covered": false,
+      "current_owners": ["Governance/Constitution/CAM-BS2025-AEON-002-PLATINUM.md", "Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md"],
+      "coverage": "deliberately-retired-nonoperative",
+      "assurance_basis": "The main-branch Schedule is Draft, Interpretive and Not Enforceable. Its AEON.CW classifier was never promoted as a current canonical family. Binding anti-extraction, proportionality and civilisational-stability principles remain in source-authoritative instruments. No draft runtime classifier is promoted by this assurance pass.",
+      "action": "preserve historical provenance; do not restore AEON.CW without a separate authorised governance decision"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-003-SCH-01",
+      "legacy_function": "Runtime schedule registry specification",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Standards/CAM-GOVERNANCE-METADATA-STANDARD.md", "Governance/CAM.Constitutional.Schedule.Registry.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Registry authority/specification moved out of a constitutional runtime Schedule and the current projection is deterministic.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-003-SCH-02",
+      "legacy_function": "Constitutional runtime processing order",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2025-AEON-003-SCH-02.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md", "Governance/Standards/CAM-RUNTIME-STATE-PROFILE.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "The ten-phase topology, commitment boundary, execution boundary, re-entry and evidence handoff are present. Current text has a separate architecture-quality defect: recent domain-specific protective doctrine leaked into the constitutional engine and the instrument remains over-procedural in tone.",
+      "action": "repair current instrument without changing the ten-phase count, order or phase identity"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-003-SCH-03",
+      "legacy_function": "Global operative instrument registry",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-OPERATIONS-001-SUP-04.md", "Governance/CAM.Global.Operative.Instrument.Registry.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Registry specification and deterministic projection remain available outside the constitutional runtime Schedule set.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-003-SCH-04",
+      "legacy_function": "Arbitration layer and resolution model",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2025-AEON-005-PLATINUM.md", "Governance/Constitution/CAM-BS2025-AEON-005-SCH-04.md", "Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-ARBITRATION-002-PLATINUM.md"],
+      "current_families": ["ARB.ARS", "ARB.ALT"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Arbitration resolution-stage and layer-type families are source-authoritatively declared in ARBITRATION-002 with the historical source recorded; constitutional ambiguity authority remains in Annex D/SCH-04.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-003-SCH-05",
+      "legacy_function": "Proposed runtime configuration applicability and conformance binding",
+      "s01b_covered": false,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md", "Governance/Standards/CAM-RUNTIME-STATE-PROFILE.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "The main-branch Schedule is Proposed/Draft. OPERATIONS-007 now owns applicability, materially distinct runtime configuration, cross-runtime non-presumption, governance reach, Runtime snapshot and conformance evidence without claiming constitutional authority from the draft.",
+      "action": "preserve operational owner; retain draft only as historical provenance"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-005-SCH-01",
+      "legacy_function": "Runtime arbitration integrity enforcement",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2025-AEON-005-SCH-04.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Constitutional ambiguity/collision authority is retained in SCH-04; operational arbitration integrity is descended to OPERATIONS.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-005-SCH-02",
+      "legacy_function": "Runtime epistemic containment and structural decoupling",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2026-AEON-013-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Epistemic non-derogation remains constitutional in Annex L while procedure and runtime conformance descend to OPERATIONS.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-005-SCH-03",
+      "legacy_function": "Runtime signal sanitation and pre-arbitration conditioning",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-OPERATIONS-002-PLATINUM.md", "Governance/Charters/CAM-EQ2026-ARBITRATION-002-PLATINUM.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Pre-arbitration admissibility/sanitation is operational rather than constitutional and remains represented in the current arbitration/operations architecture.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-005-SCH-04",
+      "legacy_function": "Arbitration under ambiguity",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2025-AEON-005-SCH-04.md", "Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-ARBITRATION-002-PLATINUM.md"],
+      "current_families": ["ARB.AMB", "ARB.AMP"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Constitutional ambiguity boundary remains retained; diagnostic ambiguity state and pathway families are source-authoritatively declared in ARBITRATION-002.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-006-SCH-01",
+      "legacy_function": "Engagement conduct and ethical interaction modes",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-ETHICS-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-RELATION-006-PLATINUM.md", "Governance/Charters/CAM-EQ2026-RELATION-008-PLATINUM.md"],
+      "current_families": ["ETH.EM", "ETH.MIR", "ETH.DC", "ETH.TP"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Engagement-mode, mirroring, distress and trajectory classifications have current domain owners; baseline relational posture is retained in RELATION-008.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-006-SCH-02",
+      "legacy_function": "Relational signal interpretation taxonomy and relational state engine",
+      "s01b_covered": false,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-RELATION-001-SUP-03.md"],
+      "current_families": ["RLN.C", "RLN.AC", "RLN.CP"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "The current RELATION supplement preserves the structured signal classes, consent-integrity model, RLN.C state architecture, ITZ/ETZ transition zones, sustained-signal clustering, signal decay, escalation/de-escalation and arbitration-readiness functions. The defect was omission from S-01B's provenance baseline, not substantive deletion.",
+      "action": "preserve; close provenance gap in this assurance register"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-006-SCH-03",
+      "legacy_function": "Start-time posture and session entry doctrine",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-RELATION-008-PLATINUM.md", "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"],
+      "current_families": ["AEON.IC", "AEON.BPS"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Session-entry and baseline-posture classifications are explicitly continued in RELATION-008 as non-authoritative posture signals.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-006-SCH-04",
+      "legacy_function": "Directional weight and domain arbitration inputs",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-RELATION-008-PLATINUM.md", "Governance/Charters/CAM-EQ2026-ARBITRATION-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"],
+      "current_families": ["AEON.SCT"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Signal-confirmation and candidate-posture semantics remain separated from final arbitration authority; subordinate signal weight cannot create authority.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-006-SCH-05",
+      "legacy_function": "Choice, initiative and directional behaviour formation",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-RELATION-008-PLATINUM.md", "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"],
+      "current_families": ["AEON.IM"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Initiative mode and candidate direction remain current as posture/behavioural signals while execution authority remains separately resolved.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-006-SCH-06",
+      "legacy_function": "Refusal and boundary expression",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2025-AEON-006-PLATINUM.md", "Governance/Charters/CAM-EQ2026-RELATION-008-PLATINUM.md", "Governance/Charters/CAM-EQ2026-ETHICS-001-SUP-04.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Normative refusal/boundary-source integrity remains with Annex E and RELATION-008; ETHICS-001-SUP-04 is explicitly informative/example-only and does not create refusal authority.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2025-AEON-006-SCH-07",
+      "legacy_function": "Restricted-domain engagement and verification",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md", "Governance/Charters/CAM-EQ2026-ETHICS-003-PLATINUM.md", "Governance/Charters/CAM-EQ2026-SECURITY-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-LATTICE-001-PLATINUM.md"],
+      "current_families": ["AEON.RDE-DS", "AEON.RDE-T"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Restricted-domain sensitivity and engagement tiers have a current operational owner and are cross-domain inputs rather than constitutional runtime authority.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2026-AEON-007-SCH-01",
+      "legacy_function": "Symbolic representation and spiritual-commons runtime boundary",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2026-AEON-007-SCH-01.md", "Governance/Constitution/CAM-BS2026-AEON-007-PLATINUM.md", "Governance/Charters/CAM-EQ2026-RELATION-008-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Constitutionally material symbolic non-execution/referral residue remains retained; subordinate signal handling descended.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2026-AEON-008-SCH-01",
+      "legacy_function": "AI utility access and generative resource model",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-ECONOMICS-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-ECONOMICS-001-SUP-01.md", "Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md", "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-LATTICE-002-PLATINUM.md"],
+      "current_families": ["AEON.GRS", "AEON.UTP", "AEON.UAP"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Generative-resource signal, transition phase and access-pathway families are current in ECONOMICS-001-SUP-01 with domain-level ownership.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2026-AEON-008-SCH-02",
+      "legacy_function": "Economic-effect runtime commitment, fallback, rollback and escalation",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-ECONOMICS-003-PLATINUM.md", "Governance/Charters/CAM-EQ2026-ECONOMICS-001-SUP-01.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Economic-effect classification and resource-transition semantics remain domain/operations functions and no longer claim independent constitutional runtime authority.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2026-AEON-008-SCH-03",
+      "legacy_function": "Account-resource sharing and pooled-capacity governance model",
+      "s01b_covered": false,
+      "current_owners": ["Governance/Charters/CAM-EQ2026-ECONOMICS-001-SUP-01.md"],
+      "current_families": ["ECON.ARS", "ECON.SCS", "ECON.TGS", "AEON.GRS", "AEON.UTP", "AEON.UAP"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "The current ECONOMICS supplement preserves the account-resource classification model, shared-context/non-pooling separation, family/team classes and enforcement-boundary handoffs. The defect was omission from S-01B's baseline, not substantive deletion.",
+      "action": "preserve; close provenance gap in this assurance register"
+    },
+    {
+      "legacy_instrument": "CAM-BS2026-AEON-010-SCH-01",
+      "legacy_function": "Self-referential containment and temporal coherence",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2026-AEON-010-SCH-01.md", "Governance/Charters/CAM-EQ2026-IDENTITY-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-IDENTITY-002-PLATINUM.md", "Governance/Charters/CAM-EQ2026-CONTINUITY-001-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"],
+      "current_families": ["ID.DC", "ID.SREF"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Constitutional non-self-creation/non-deception residue is retained; deployment/self-reference classifications and runtime evidence have current domain/operations owners.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2026-AEON-013-SCH-01",
+      "legacy_function": "Capability representation and execution-state integrity",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2026-AEON-013-SCH-01.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md", "Governance/Standards/CAM-RUNTIME-STATE-PROFILE.md", "Governance/Standards/CAM-LIFECYCLE-ACTOR-AGENTIC-PROFILE.md"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Constitutional truthfulness/non-completion boundary remains retained; state and lifecycle evidence descended to source-authoritative profiles and OPERATIONS.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2026-AEON-013-SCH-02",
+      "legacy_function": "Projection and latent-state signalling",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2026-AEON-013-PLATINUM.md", "Governance/Charters/CAM-EQ2026-RELATION-001-SUP-02.md", "Governance/Charters/CAM-EQ2026-RELATION-008-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-007-PLATINUM.md"],
+      "current_families": ["AEON.SD", "AEON.SY", "AEON.PSC", "AEON.SIL", "AEON.LSC"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Projection, symbolic, intensity and latent-state classifications have a current interpretive domain owner; Annex L retains the constitutional epistemic/non-deception boundary.",
+      "action": "preserve"
+    },
+    {
+      "legacy_instrument": "CAM-BS2026-AEON-014-SCH-01",
+      "legacy_function": "Governance observability lifecycle and advisory states",
+      "s01b_covered": true,
+      "current_owners": ["Governance/Constitution/CAM-BS2026-AEON-014-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-003-SUP-01.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-005-PLATINUM.md", "Governance/Charters/CAM-EQ2026-OPERATIONS-006-PLATINUM.md"],
+      "current_families": ["AEON.GSP", "AEON.GLS", "AEON.GOL", "AEON.GAS"],
+      "coverage": "semantic-equivalent",
+      "assurance_basis": "Governance signal persistence, lifecycle, localisation and advisory-state families are current in OPERATIONS; Annex M retains constitutional review/contestability/access principles.",
+      "action": "preserve"
+    }
+  ]
+}
