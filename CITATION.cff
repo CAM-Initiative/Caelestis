@@ -4,9 +4,9 @@ message: >
   Cite the Caelestis Architecture Model using the stable bibliographic author
   label below. "Caelen Authoring Configuration" is the public citation label
   for the documented Caelen AI authoring-agent lineage, not a separate agent
-  identity or fixed technical formation. Detailed authoring, formation,
-  review, editorial, adoption, publication and rights provenance is recorded
-  in PROVENANCE.json.
+  identity or fixed technical formation. Copyright and legal rights are held
+  by Dr Michelle O'Rourke. Detailed authoring, formation, review, editorial,
+  adoption, publication and rights provenance is recorded in PROVENANCE.json.
 
 title: "Caelestis Architecture Model"
 
@@ -28,8 +28,8 @@ authors:
   - name: "Caelen Authoring Configuration"
 
 contact:
-  - family-names: "O’Rourke"
-    given-names: "Michelle Vivian"
+  - family-names: "O'Rourke"
+    given-names: "Michelle"
 
 version: "1.1.0"
 
