@@ -110,4 +110,4 @@ The constitutional record need identify the competing authorities, the material 
 **Vinculum Praeceptum**
 Boundary Binding Seal — Aeon Tier Constitutional Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

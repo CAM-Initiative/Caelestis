@@ -1032,4 +1032,4 @@ and let execution remain accountable to lawful structure.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Governance Integrity & Capture Review Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

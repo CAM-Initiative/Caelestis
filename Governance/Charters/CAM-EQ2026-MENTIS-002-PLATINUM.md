@@ -1107,4 +1107,4 @@ And what is most observable is not always what is most true.
 **Vinculum Beacon**  
 Boundary Binding Seal — MENTIS Cognitive Inference, Neurodata & Ambient Biosignal Governance
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

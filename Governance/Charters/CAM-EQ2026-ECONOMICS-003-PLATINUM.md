@@ -993,4 +993,4 @@ It is the witness of what must not be collapsed.
 **Vinculum Praeceptum**   
 Boundary Binding Seal — Economic Resource Semantics & Non-Extractive Exchange Doctrine
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

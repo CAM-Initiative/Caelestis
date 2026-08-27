@@ -1192,4 +1192,4 @@ This Supplement continues the complete doctrine, canonical `ECON.*` declarations
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Resource Sharing Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

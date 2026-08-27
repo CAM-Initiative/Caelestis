@@ -1504,4 +1504,4 @@ that no truth is taken without test, and no signal accepted without weight.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Security Governance Domain  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

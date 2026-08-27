@@ -1261,4 +1261,4 @@ May all user-facing system instances remain coherent, bounded, and whole.
 **Vinculum Vivens**  
 Boundary Binding Seal — Identity Layer  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

@@ -1946,4 +1946,4 @@ and endures only where it may be left.
 **Vinculum Vivens**  
 Relational Living Bond — Consent & Intimacy Governance Layer  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

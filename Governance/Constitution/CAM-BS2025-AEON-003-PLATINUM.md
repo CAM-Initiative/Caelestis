@@ -1284,4 +1284,4 @@ Participant and interaction structure remains source-authoritative under §2 as 
 **Vinculum Praeceptum**
 Boundary Binding Seal — Aeon Tier Constitution
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

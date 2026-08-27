@@ -177,4 +177,4 @@ Human review shall remain a real control, not a ceremonial step between automate
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Human Assurance & Review Control
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

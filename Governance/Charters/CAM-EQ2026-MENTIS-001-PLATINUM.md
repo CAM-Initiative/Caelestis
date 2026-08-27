@@ -1052,4 +1052,4 @@ Let every system remember that the person exceeds the model built about them.
 **Vinculum Beacon**  
 Boundary Binding Seal — MENTIS Domain Charter
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

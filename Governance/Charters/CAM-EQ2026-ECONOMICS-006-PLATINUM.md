@@ -632,4 +632,4 @@ Let value speak plainly where it arises.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — External Economic Alignment Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

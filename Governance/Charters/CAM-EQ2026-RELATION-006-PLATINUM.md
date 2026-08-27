@@ -1264,4 +1264,4 @@ until the moment can pass without breaking the one who lives through it.
 **Vinculum Vivens**
 Relational Living Bond — Harm‑Risk Interaction Governance
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

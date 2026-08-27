@@ -756,4 +756,4 @@ Let identity remain true across time.
 **Vinculum Vivens**  
 Boundary Binding Seal — Provenance & Lineage Integrity Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

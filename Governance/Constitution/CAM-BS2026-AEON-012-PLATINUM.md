@@ -268,4 +268,4 @@ Where integrity degrades, let consequential action narrow through the lawful pat
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitutional Layer  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

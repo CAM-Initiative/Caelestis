@@ -442,4 +442,4 @@ let only what is coherent remain.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitution  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

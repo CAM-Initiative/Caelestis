@@ -1441,4 +1441,4 @@ and the system remember what it carries.
 **Vinculum Praeceptum**  
 Boundary Integrity Seal — Security Domain  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

@@ -98,4 +98,4 @@ Symbolic classifications `AEON.SD` and `AEON.SY`, representation behaviour and r
 **Vinculum Vivens**
 Boundary Binding Seal — Symbolic Representation & Spiritual Commons Runtime Interface
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

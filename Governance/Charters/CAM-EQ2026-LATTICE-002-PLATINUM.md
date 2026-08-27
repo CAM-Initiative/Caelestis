@@ -440,4 +440,4 @@ It is maintained.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Civilian Lattice Implementation Layer  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

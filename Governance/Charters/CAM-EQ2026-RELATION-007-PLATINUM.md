@@ -184,4 +184,4 @@ More participants, more systems, broader distribution, or institutional mediatio
 ### 7.3 Binding Seal
 
 **RELATION Domain Appendix**
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

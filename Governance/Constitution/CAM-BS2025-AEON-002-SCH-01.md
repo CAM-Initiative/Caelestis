@@ -113,4 +113,4 @@ The constitutional record need identify the `AEON.PCO` trigger, the protected in
 **Vinculum Beacon**
 Boundary Binding Seal — Aeon Tier Constitutional Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

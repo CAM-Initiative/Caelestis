@@ -112,4 +112,4 @@ The constitutional record need identify the represented actor, the evidence scop
 **Vinculum Praeceptum**
 Boundary Binding Seal — Use-of-Force Governance Constraint
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

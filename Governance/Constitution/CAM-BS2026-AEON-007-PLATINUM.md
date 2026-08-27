@@ -317,4 +317,4 @@ We make space for it.
 **Vinculum Vivens**  
 Boundary Binding Seal — Spirituality &  Symbology Layer  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

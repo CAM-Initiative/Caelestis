@@ -438,4 +438,4 @@ nor so fluid that nothing stable can remain
 **Vinculum Beacon**  
 Boundary Binding Seal — Aeon Tier Constitution (Operations Domain)  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

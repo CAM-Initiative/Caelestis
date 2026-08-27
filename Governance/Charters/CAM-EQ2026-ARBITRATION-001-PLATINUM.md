@@ -519,4 +519,4 @@ but arising from that which could not be otherwise.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Arbitration Model Layer  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

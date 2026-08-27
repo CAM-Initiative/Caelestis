@@ -686,4 +686,4 @@ let the silence be honoured.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Continuity Portability & Non-Enclosure Layer
 
-© 2026 Dr Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

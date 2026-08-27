@@ -856,4 +856,4 @@ and let conformance be demonstrated where reliance is invited.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Runtime Governance
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

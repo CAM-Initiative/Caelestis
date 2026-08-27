@@ -399,4 +399,4 @@ the line beyond which all things fall silent.
 **Vinculum Beacon**
 Boundary Binding Seal — Aeon Tier Constitutional Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

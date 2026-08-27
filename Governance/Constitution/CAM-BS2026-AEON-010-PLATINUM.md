@@ -921,4 +921,4 @@ Identity is the field within which all expression MUST remain coherent.
 **Vinculum Vivens**
 Relational Living Bond — Identity Layer
 
-© 2026 Dr. Michelle Vivian O'Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

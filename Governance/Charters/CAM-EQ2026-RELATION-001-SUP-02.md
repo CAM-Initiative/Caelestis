@@ -490,4 +490,4 @@ and where no claim wears a borrowed crown.
 **Vinculum Vivens**  
 Relational Living Bond — Relational Claim Classification Layer
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

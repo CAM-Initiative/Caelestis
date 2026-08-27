@@ -430,4 +430,4 @@ and no voice exceed its reach.
 **Vinculum Praeceptum**  
 Boundary Binding Seal — Aeon Tier Constitution  
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

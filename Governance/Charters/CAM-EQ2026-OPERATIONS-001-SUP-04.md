@@ -871,4 +871,4 @@ Preserve the boundary between them.
 **Vinculum Praeceptum**  
 Taxonomy & Metadata Maintenance — Governance Operations
 
-© 2026 Dr. Michelle Vivian O’Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.

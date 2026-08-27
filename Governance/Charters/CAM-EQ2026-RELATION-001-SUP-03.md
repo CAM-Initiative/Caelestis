@@ -3958,4 +3958,4 @@ This Supplement continues the complete doctrine, canonical `RLN.*` declarations,
 **Vinculum Vivens**
 Relational Living Bond — Signal Interpretation & Consent Integrity Layer
 
-© 2026 Dr. Michelle Vivian O'Rourke & CAM Initiative. All rights reserved.
+© 2026 Dr Michelle O'Rourke. All rights reserved.
