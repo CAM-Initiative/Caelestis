@@ -61,6 +61,35 @@ jobs:
           git status --short
           echo "GIT_STATUS_BEFORE_REBUILD_END"
 
+      - name: Phase 0 — Normalize legal copyright holder
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          roots = [Path("Governance/Constitution"), Path("Governance/Charters"), Path("Governance/Laws"), Path("Governance/Standards")]
+          patterns = [
+              re.compile(r"©\s*(20\d{2})\s+Dr\.?\s+Michelle(?:\s+Vivian)?\s+O[’']Rourke\s*&\s*CAM Initiative\.\s*All rights reserved\.", re.IGNORECASE),
+              re.compile(r"©\s*(20\d{2})\s+CAM Initiative\s*&\s*Dr\.?\s+Michelle(?:\s+Vivian)?\s+O[’']Rourke\.\s*All rights reserved\.", re.IGNORECASE),
+          ]
+          changed = []
+          for root in roots:
+              if not root.exists():
+                  continue
+              for path in sorted(root.rglob("*.md")):
+                  original = path.read_text(encoding="utf-8")
+                  updated = original
+                  for pattern in patterns:
+                      updated = pattern.sub(lambda m: f"© {m.group(1)} Dr Michelle O'Rourke. All rights reserved.", updated)
+                  if updated != original:
+                      path.write_text(updated, encoding="utf-8")
+                      changed.append(path.as_posix())
+          print(f"Normalized copyright holder in {len(changed)} files")
+          for path in changed:
+              print(path)
+          PY
+
       - name: Resolve comparison SHAs
         shell: bash
         run: |
