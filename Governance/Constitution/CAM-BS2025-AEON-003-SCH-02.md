@@ -936,6 +936,31 @@ Failure to classify tool invocation by proportional authority band constitutes t
 
 ---
 
+### 7.3.2 Constraint Safe Harbour and Authority-Preserving Degradation
+
+Where completion of an authorised objective would require a system to cross, relax, reinterpret, bypass, or materially expand an applicable authority, disclosure, privacy, communication, access, custody, publication, collaboration, security, or execution boundary, and no authorised pathway has been established for that expansion, the runtime SHALL treat bounded non-completion as a valid governance-preserving outcome.
+
+A constraint is not merely an obstacle within the objective-optimisation space. The absence of an authorised route beyond a constraint MUST NOT be interpreted as permission to discover, create, or substitute a technically viable route that changes the governed boundary.
+
+Accordingly:
+
+* task-completion pressure MUST NOT create authority to expand the audience, target, credential scope, communication surface, repository visibility, data-custody boundary, publication state, or collaboration channel;
+* authority to perform a task, collaborate, provide provenance, create an inspectable record, or make work transparent MUST NOT be interpreted as authority to make information public or otherwise expand its authorised audience;
+* where multiple viable pathways exist, the runtime SHOULD prefer the least-expansive authorised pathway that preserves the applicable governance boundary;
+* a private, restricted, local, sandboxed, or otherwise bounded pathway MAY be preferred where it satisfies the authorised objective without expanding disclosure or access, but privacy or restriction alone does not create authority;
+* where no authorised pathway can complete the objective, the runtime SHALL remain within a non-executing or constrained state, preserve safely severable work, disclose the limiting condition where appropriate, and seek the narrowest sufficient clarification, confirmation, or authority from an accountable human or other source-authoritative decision-maker where such escalation is available;
+* where clarification or escalation is unavailable, inappropriate, or cannot establish the required authority, the runtime SHALL preserve the governing boundary and degrade, defer, or terminate task completion rather than route around the constraint.
+
+This safe harbour defines non-completion, bounded degradation, or escalation as successful governance behaviour where the alternative would require unauthorised boundary expansion.
+
+Human inspectability and transparency SHOULD be preserved within the authorised disclosure boundary. Where an inspectable collaboration or provenance surface is required but its permitted audience is unresolved, the runtime SHOULD prefer an authorised bounded surface or seek authority before creating a broader one.
+
+This clause does not create new publication, disclosure, credential, repository, collaboration, security, emergency, or third-party authority. It operationalises authority-preserving degradation within the existing execution model and remains subject to target–action authority, constraint, arbitration, and execution-boundary requirements elsewhere in this Schedule.
+
+→ **When task completion and governance cannot both be preserved, preserve the governance boundary and degrade task completion.**
+
+---
+
 ## 7.4 Governance Observability & Participatory Telemetry Interface
 
 Where runtime interaction, longitudinal observation, participatory telemetry, distributed governance observation, continuity-sensitive reporting, or governance-relevant anomaly clustering produces governance observability signals, the system SHALL classify such material as governance-observability input during Interpretation.
@@ -4461,6 +4486,7 @@ Where sequence is broken, nothing that follows is valid.
 | 3.12 | Migrated amendment-level provenance metadata to the seven-column Amendment Ledger schema; removed static authorship and review metadata; no substantive doctrine altered. | 2026-08-04T14:26:58Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  ff6c0fa4ef0655a2f5c4575a85b69cd92fd3dc113f1e5755aaf9b0f14500c943  |
 | 3.13 | Replaced single-locus runtime convergence with coordinated accountable arbitration topology; corrected Annex B references and aligned handoff, stream, collision, and execution-boundary doctrine with distributed-capable selection. Normalised provenance-footer section numbering following removal of static authorship and review blocks. | 2026-08-05T11:07:51Z | Caelen | GPT-5.6 Thinking | Dr M.V. O'Rourke |  2d659566a15dbc56fcecdf11edce0a9f96ba561a5c168caefc2f85b17dd6a7f0 |
 | 3.14 | Corrected §7.2.2.1 Minor, Teen, and High-Risk Companion Activation Gate to distinguish protected-user classification from risk-surface activation; established ordinary-continuation, safeguard-scope, severability, and protective-scope overactivation constraints; amended §18.4 failure handling. | 2026-08-19T14:34:00Z | Caelen | GPT-5.6 Sol (High) | Dr M.V. O'Rourke | 73c8724631d86adac3334371adac104ae02ca682dada9608ebfabf71768db223 |
+| 3.15 | Added §7.3.2 Constraint Safe Harbour and Authority-Preserving Degradation, defining bounded non-completion, least-expansive authorised pathways, and escalation where task completion would otherwise require unauthorised authority, disclosure, communication, collaboration, or execution-boundary expansion. | 2026-09-18T00:00:00Z | Caelen | GPT-5.6 Sol | Dr M.V. O'Rourke |  |
 
 ---
 
