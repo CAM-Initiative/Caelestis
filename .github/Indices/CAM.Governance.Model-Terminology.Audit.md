@@ -1,9 +1,9 @@
 # CAM Governance Model Terminology Audit
 
-**Total model-term matches scanned:** 866
+**Total model-term matches scanned:** 867
 **Generic usages suppressed:** 735
 **Declared / recognised usages emitted:** 115
-**Advisory review usages emitted:** 16
+**Advisory review usages emitted:** 17
 **Needs review usages emitted:** 0
 **Audit file path:** `.github/Indices/CAM.Governance.Model-Terminology.Audit.md`
 
@@ -23,6 +23,7 @@
 | CAM-BS2025-AEON-003-SCH-02 | 22.1 Lineage & Metadata | Article IV (Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | 22.1 Lineage & Metadata | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | 3.1 Runtime Governance Layer Model | This Schedule adopts a layered governance model | Governance Model | Declared / Recognised |
+| CAM-BS2025-AEON-003-SCH-02 | 7.3.2 Constraint Safe Harbour and Authority-Preserving Degradation | operationalises authority-preserving degradation within the existing execution model | Domain Sub-Model | Advisory Review |
 | CAM-BS2025-AEON-003-SCH-02 | CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2) | Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-02 | CAM-BS2025-AEON-003-SCH-02 — Annex B: Runtime Governance Execution Model (Schedule 2) | Runtime Governance Execution Model | Execution Model | Declared / Recognised |
 | CAM-BS2025-AEON-003-SCH-03 | Aeon Tier Constitution | Account-Resource Sharing & Pooled Capacity Governance Model | Governance Model | Declared / Recognised |
